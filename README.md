@@ -41,6 +41,13 @@ preference for data sources:
 2. [Situation reports from WHO][1]
 3. Local press reporting
 
+## Known data sources
+Here is a list of data sources for a number of countries where data can be queried, potentially scraped automatically:
+
+| Country / Region  | Source |
+| ----------------- | ------ |
+| Australia         | https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert |
+| Spain             | https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm |
 
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
