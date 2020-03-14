@@ -36,6 +36,13 @@ df_ = df_[columns]
 df_.columns = ['Date', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths']
 df = df_
 
+# Load coordinates for each country
+# Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
+df = df.merge(pd.read_csv(ROOT / 'input' / 'coordinates.csv'))
+
+# Sort dataset by date + country
+df = df.sort_values(['Date', 'CountryCode'])
+
 # Extract a subset with only the latest date
 df_latest = pd.DataFrame(columns=list(df.columns))
 for country in df['CountryCode'].unique():
