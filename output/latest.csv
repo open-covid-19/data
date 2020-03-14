@@ -1,211 +1,123 @@
-Date,Country,Region,Confirmed,Deaths
-2020-03-13,??,Diamond Princess,696,7
-2020-03-13,Andorra,,1,0
-2020-03-13,United Arab Emirates,,85,0
-2020-03-13,Afghanistan,,7,0
-2020-03-13,Antigua and Barbuda,,1,0
-2020-03-13,Albania,,33,1
-2020-03-13,Armenia,,8,0
-2020-03-13,Argentina,,31,2
-2020-03-13,Austria,,504,1
-2020-03-13,Australia,,200,3
-2020-03-13,Aruba,,2,0
-2020-03-13,Azerbaijan,,15,1
-2020-03-13,Bosnia and Herzegovina,,13,0
-2020-03-13,Bangladesh,,3,0
-2020-03-13,Belgium,,559,3
-2020-03-13,Burkina Faso,,2,0
-2020-03-13,Bulgaria,,23,1
-2020-03-13,Bahrain,,189,0
-2020-03-13,Brunei Darussalam,,37,0
-2020-03-13,Bolivia,,3,0
-2020-03-13,Brazil,,151,0
-2020-03-13,Bhutan,,1,0
-2020-03-13,Belarus,,27,0
-2020-03-13,Canada,,193,1
-2020-03-13,Democratic Republic of Congo,,2,0
-2020-03-13,Switzerland,,1139,11
-2020-03-13,Côte d'Ivoire,,1,0
-2020-03-13,Chile,,43,0
-2020-03-13,Cameroon,,2,0
-2020-03-13,China,Anhui,990,6
-2020-03-13,China,Beijing,436,8
-2020-03-13,China,Chongqing,576,6
-2020-03-13,China,Fujian,296,1
-2020-03-13,China,Gansu,127,2
-2020-03-13,China,Guangdong,1356,8
-2020-03-13,China,Guangxi,252,2
-2020-03-13,China,Guizhou,146,2
-2020-03-13,China,Hainan,168,6
-2020-03-13,China,Hebei,318,6
-2020-03-13,China,Heilongjiang,482,13
-2020-03-13,China,Henan,1273,22
-2020-03-13,China,Hong Kong,134,4
-2020-03-13,China,Hubei,67786,3062
-2020-03-13,China,Hunan,1018,4
-2020-03-13,China,Inner Mongolia,75,1
-2020-03-13,China,Jiangsu,631,0
-2020-03-13,China,Jiangxi,935,1
-2020-03-13,China,Jilin,93,1
-2020-03-13,China,Liaoning,125,1
-2020-03-13,China,Macau,10,0
-2020-03-13,China,Ningxia,75,0
-2020-03-13,China,Qinghai,18,0
-2020-03-13,China,Shaanxi,245,2
-2020-03-13,China,Shandong,760,7
-2020-03-13,China,Shanghai,346,3
-2020-03-13,China,Shanxi,133,0
-2020-03-13,China,Sichuan,539,3
-2020-03-13,China,Tianjin,136,3
-2020-03-13,China,Tibet,1,0
-2020-03-13,China,Xinjiang,76,3
-2020-03-13,China,Yunnan,174,2
-2020-03-13,China,Zhejiang,1215,1
-2020-03-13,Colombia,,13,0
-2020-03-13,Costa Rica,,23,0
-2020-03-13,Cuba,,4,0
-2020-03-13,Cyprus,,14,0
-2020-03-13,Czechia,,141,0
-2020-03-13,Germany,,3675,7
-2020-03-13,Denmark,,804,0
-2020-03-13,Dominican Republic,,5,0
-2020-03-13,Algeria,,26,2
-2020-03-13,Ecuador,,17,0
-2020-03-13,Estonia,,79,0
-2020-03-13,Egypt,,80,2
-2020-03-13,Spain,,4209,120
-2020-03-13,Ethiopia,,1,0
-2020-03-13,Finland,,155,0
-2020-03-13,France,,3667,79
-2020-03-13,Georgia,,25,0
-2020-03-13,French Guiana,,5,0
-2020-03-13,Guinea,,1,0
-2020-03-13,Guadeloupe,,1,0
-2020-03-13,Greece,,190,1
-2020-03-13,Guyana,,1,1
-2020-03-13,Honduras,,2,0
-2020-03-13,Croatia,,32,0
-2020-03-13,Hungary,,19,0
-2020-03-13,Indonesia,,69,4
-2020-03-13,Ireland,,90,1
-2020-03-13,Israel,,161,0
-2020-03-13,India,,82,2
-2020-03-13,Iraq,,101,9
-2020-03-13,Iran,,11364,514
-2020-03-13,Iceland,,134,0
-2020-03-13,Italy,,17660,1266
-2020-03-13,Jamaica,,8,0
-2020-03-13,Jordan,,1,0
-2020-03-13,Japan,,701,19
-2020-03-13,Kenya,,1,0
-2020-03-13,Cambodia,,5,0
-2020-03-13,Korea,,7979,66
-2020-03-13,Kuwait,,80,0
-2020-03-13,Cayman Islands,,1,0
-2020-03-13,Kazakhstan,,4,0
-2020-03-13,Lebanon,,77,3
-2020-03-13,Liechtenstein,,1,0
-2020-03-13,Sri Lanka,,6,0
-2020-03-13,Lithuania,,6,0
-2020-03-13,Luxembourg,,34,0
-2020-03-13,Latvia,,17,0
-2020-03-13,Morocco,,7,1
-2020-03-13,Monaco,,2,0
-2020-03-13,Moldova,,6,0
-2020-03-13,North Macedonia,,14,0
-2020-03-13,Mongolia,,1,0
-2020-03-13,Martinique,,3,0
-2020-03-13,Malta,,12,0
-2020-03-13,Maldives,,9,0
-2020-03-13,Mexico,,12,0
-2020-03-13,Malaysia,,197,0
-2020-03-13,Nigeria,,2,0
-2020-03-13,Netherlands,,804,10
-2020-03-13,Norway,,996,0
-2020-03-13,Nepal,,1,0
-2020-03-13,New Zealand,,5,0
-2020-03-13,Oman,,19,0
-2020-03-13,Panama,,27,1
-2020-03-13,Peru,,28,0
-2020-03-13,Philippines,,64,5
-2020-03-13,Pakistan,,28,0
-2020-03-13,Poland,,68,2
-2020-03-13,Portugal,,112,0
-2020-03-13,Paraguay,,6,0
-2020-03-13,Qatar,,320,0
-2020-03-13,Réunion,,5,0
-2020-03-13,Romania,,89,0
-2020-03-13,Serbia,,35,0
-2020-03-13,Russian Federation,,45,0
-2020-03-13,Saudi Arabia,,86,0
-2020-03-13,Sudan,,1,1
-2020-03-13,Sweden,,814,1
-2020-03-13,Singapore,,200,0
-2020-03-13,Slovenia,,141,0
-2020-03-13,Slovakia,,32,0
-2020-03-13,San Marino,,80,5
-2020-03-13,Senegal,,10,0
-2020-03-13,Togo,,1,0
-2020-03-13,Thailand,,75,1
-2020-03-13,Tunisia,,16,0
-2020-03-13,Turkey,,5,0
-2020-03-13,Taiwan,,50,1
-2020-03-13,Ukraine,,3,1
-2020-03-13,UK,,801,8
-2020-03-13,United States of America,Alaska,1,0
-2020-03-13,United States of America,Alabama,5,0
-2020-03-13,United States of America,Arkansas,6,0
-2020-03-13,United States of America,Arizona,9,0
-2020-03-13,United States of America,California,282,4
-2020-03-13,United States of America,Colorado,49,0
-2020-03-13,United States of America,Connecticut,11,0
-2020-03-13,United States of America,District of Columbia,10,0
-2020-03-13,United States of America,Delaware,4,0
-2020-03-13,United States of America,Diamond Princess,46,0
-2020-03-13,United States of America,Florida,50,2
-2020-03-13,United States of America,Georgia,42,1
-2020-03-13,United States of America,Grand Princess,21,0
-2020-03-13,United States of America,Hawaii,2,0
-2020-03-13,United States of America,Iowa,17,0
-2020-03-13,United States of America,Idaho,1,0
-2020-03-13,United States of America,Illinois,46,0
-2020-03-13,United States of America,Indiana,13,0
-2020-03-13,United States of America,Kansas,5,1
-2020-03-13,United States of America,Kentucky,14,0
-2020-03-13,United States of America,Louisiana,36,0
-2020-03-13,United States of America,Massachusetts,123,0
-2020-03-13,United States of America,Maryland,18,0
-2020-03-13,United States of America,Maine,1,0
-2020-03-13,United States of America,Michigan,16,0
-2020-03-13,United States of America,Minnesota,14,0
-2020-03-13,United States of America,Missouri,2,0
-2020-03-13,United States of America,Mississippi,1,0
-2020-03-13,United States of America,Montana,1,0
-2020-03-13,United States of America,North Carolina,17,0
-2020-03-13,United States of America,North Dakota,1,0
-2020-03-13,United States of America,Nebraska,13,0
-2020-03-13,United States of America,New Hampshire,6,0
-2020-03-13,United States of America,New Jersey,29,1
-2020-03-13,United States of America,New Mexico,10,0
-2020-03-13,United States of America,Nevada,17,0
-2020-03-13,United States of America,New York,421,0
-2020-03-13,United States of America,Ohio,13,0
-2020-03-13,United States of America,Oklahoma,2,0
-2020-03-13,United States of America,Oregon,30,0
-2020-03-13,United States of America,OR ,0,0
-2020-03-13,United States of America,Pennsylvania,41,0
-2020-03-13,United States of America,Rhode Island,14,0
-2020-03-13,United States of America,South Carolina,13,0
-2020-03-13,United States of America,South Dakota,8,1
-2020-03-13,United States of America,Tennessee,26,0
-2020-03-13,United States of America,Texas,43,0
-2020-03-13,United States of America,Utah,9,0
-2020-03-13,United States of America,Virginia,30,0
-2020-03-13,United States of America,Vermont,2,0
-2020-03-13,United States of America,Washington,568,37
-2020-03-13,United States of America,Wisconsin,19,0
-2020-03-13,United States of America,West Virginia,0,0
-2020-03-13,United States of America,Wyoming,1,0
-2020-03-13,Holy See,,1,0
-2020-03-13,Vietnam,,47,0
-2020-03-13,South Africa,,24,0
+Date,CountryCode,CountryName,Confirmed,Deaths
+2020-03-13,AE,United Arab Emirates,85,0
+2020-03-11,AF,Afghanistan,7,0
+2020-03-14,AM,Armenia,13,0
+2020-03-14,AT,Austria,504,1
+2020-03-14,AU,Australia,197,3
+2020-03-13,AZ,Azerbaijan,13,0
+2020-03-14,BE,Belgium,559,3
+2020-03-14,BH,Bahrain,210,0
+2020-03-14,BR,Brazil,98,0
+2020-03-13,BY,Belarus,21,0
+2020-03-14,CA,Canada,176,1
+2020-03-14,CH,switzerland,1121,7
+2020-03-14,CN,China,80973,3194
+2020-03-14,CZ,Czech Republic,150,0
+2020-03-14,DE,Germany,3062,5
+2020-03-14,DK,Denmark,804,0
+2020-03-14,DO,Dominican Republic,11,0
+2020-03-14,DZ,Algeria,26,2
+2020-03-14,EC,Ecuador,23,1
+2020-03-14,EE,Estonia,79,0
+2020-03-14,EG,Egypt,93,2
+2020-03-14,EL,Greece,190,1
+2020-03-14,ES,Spain,4231,121
+2020-03-14,FI,Finland,155,0
+2020-03-14,FR,France,3661,79
+2020-03-14,GE,Georgia,46,0
+2020-03-14,HR,Croatia,31,0
+2020-03-14,ID,Indonesia,69,4
+2020-03-14,IE,Ireland,91,1
+2020-03-14,IL,Israel,116,0
+2020-03-14,IN,India,83,2
+2020-03-14,IQ,Iraq,93,9
+2020-03-14,IR,Iran,11364,514
+2020-03-14,IS,Iceland,117,0
+2020-03-14,IT,Italy,17660,1268
+2020-03-14,JP,Japan,737,21
+2020-03-10,JPG11668,Cases on an international conveyance Japan,696,7
+2020-03-13,KH,Cambodia,5,0
+2020-03-14,KR,South Korea,8086,72
+2020-03-14,KW,Kuwait,100,0
+2020-03-13,LB,Lebanon,66,2
+2020-03-14,LK,Sri Lanka,6,0
+2020-03-14,LT,Lithuania,6,0
+2020-03-14,LU,Luxembourg,38,1
+2020-03-02,MC,Monaco,1,0
+2020-03-14,MK,North Macedonia,13,0
+2020-03-14,MX,Mexico,26,0
+2020-03-14,MY,Malaysia,197,0
+2020-03-10,NG,Nigeria,2,0
+2020-03-14,NL,Netherlands,804,5
+2020-03-14,NO,Norway,621,1
+2020-03-02,NP,Nepal,1,0
+2020-03-14,NZ,New Zealand,6,0
+2020-03-14,OM,Oman,20,0
+2020-03-14,PH,Philippines,64,6
+2020-03-14,PK,Pakistan,21,0
+2020-03-14,QA,Qatar,320,0
+2020-03-14,RO,Romania,89,0
+2020-03-14,RU,Russia,45,0
+2020-03-14,SE,Sweden,775,1
+2020-03-14,SG,Singapore,200,0
+2020-03-14,SM,San Marino,73,5
+2020-03-14,TH,Thailand,82,1
+2020-03-14,TW,Taiwan,53,1
+2020-03-14,UK,United Kingdom,707,10
+2020-03-14,US,United States of America,2174,47
+2020-03-14,VN,Vietnam,49,0
+2020-03-14,AD,Andorra,2,0
+2020-03-08,JO,Jordan,1,0
+2020-03-14,LV,Latvia,19,0
+2020-03-14,MA,Morocco,7,1
+2020-03-14,PT,Portugal,112,0
+2020-03-14,SA,Saudi Arabia,86,0
+2020-03-14,SN,Senegal,19,0
+2020-03-14,TN,Tunisia,16,0
+2020-03-14,AR,Argentina,34,2
+2020-03-14,CL,Chile,43,0
+2020-03-14,PL,Poland,68,2
+2020-03-13,UA,Ukraine,3,0
+2020-03-14,HU,Hungary,25,0
+2020-03-14,LI,Liechtenstein,4,0
+2020-03-14,SI,Slovenia,141,0
+2020-03-13,BA,Bosnia and Herzegovina,3,0
+2020-03-13,BT,Bhutan,1,0
+2020-03-14,PS,Palestine,35,0
+2020-03-14,ZA,South Africa,24,0
+2020-03-09,CM,Cameroon,2,0
+2020-03-14,CO,Colombia,16,0
+2020-03-14,CR,Costa Rica,26,0
+2020-03-14,PE,Peru,38,0
+2020-03-14,RS,Serbia,41,0
+2020-03-14,SK,Slovakia,30,0
+2020-03-07,TG,Togo,1,0
+2020-03-07,VA,Holy See,1,0
+2020-03-14,BG,Bulgaria,31,1
+2020-03-14,MD,Moldova,8,0
+2020-03-14,MT,Malta,12,0
+2020-03-14,MV,Maldives,9,0
+2020-03-14,PY,Paraguay,7,0
+2020-03-14,AL,Albania,33,1
+2020-03-09,BD,Bangladesh,3,0
+2020-03-14,BN,Brunei Darussalam,37,0
+2020-03-14,CY,Cyprus,14,0
+2020-03-10,MN,Mongolia,1,0
+2020-03-14,PA,Panama,36,1
+2020-03-12,BF,Burkina Faso,2,0
+2020-03-14,CD,Democratic Republic of the Congo,2,0
+2020-03-14,BO,Bolivia,10,0
+2020-03-12,CI,Cote dIvoire,1,0
+2020-03-14,CU,Cuba,4,0
+2020-03-14,HN,Honduras,3,0
+2020-03-14,JM,Jamaica,8,0
+2020-03-13,TR,Turkey,2,0
+2020-03-13,GA,Gabon,1,0
+2020-03-13,GH,Ghana,2,0
+2020-03-13,GY,Guyana,1,1
+2020-03-14,TT,Trinidad and Tobago,2,0
+2020-03-13,VC,Saint Vincent and the Grenadines,1,0
+2020-03-14,ET,Ethiopia,1,0
+2020-03-14,GN,Guinea,1,0
+2020-03-14,KE,Kenya,1,0
+2020-03-14,SD,Sudan,1,0
