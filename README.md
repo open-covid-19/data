@@ -25,7 +25,7 @@ Please read the following instructions closely, time is a limited resource for
 all of us.
 
 Contributions to the dataset are made via pull requests. For an example of what
-those are expected to look like, please see this one: TODO.
+those are expected to look like, please see this one: [PR#1][5].
 
 If you want to volunteer some time and review pending pull requests, anyone is
 welcome to comment on any open pull requests (please be civil and respectful).
@@ -46,3 +46,4 @@ preference for data sources:
 [2]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
 [3]: https://github.com/open-covid-19/data/time_series.csv
 [4]: https://archive.org
+[5]: https://github.com/open-covid-19/data/pull/1
