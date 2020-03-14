@@ -1,0 +1,78 @@
+Country,Name,Code
+AU,Australian Capital Territory,ACT
+AU,New South Wales,NSW
+AU,Northern Territory,NT
+AU,Queensland,QLD
+AU,South Australia,SA
+AU,Tasmania,TAS
+AU,Victoria,VIC
+AU,Western Australia,WA
+CA,Alberta,AB
+CA,British Columbia,BC
+CA,Manitoba,MB
+CA,New Brunswick,NB
+CA,Newfoundland and Labrador,NL
+CA,Northwest Territories,NT
+CA,Nova Scotia,NS
+CA,Nunavut,NU
+CA,Ontario,ON
+CA,Prince Edward Island,PE
+CA,Quebec,QC
+CA,Saskatchewan,SK
+CA,Yukon,YT
+US,Alaska,AK
+US,Alabama,AL
+US,Arkansas,AR
+US,American Samoa,AS
+US,Arizona,AZ
+US,California,CA
+US,Colorado,CO
+US,Connecticut,CT
+US,District of Columbia,DC
+US,Delaware,DE
+US,Florida,FL
+US,Georgia,GA
+US,Guam,GU
+US,Hawaii,HI
+US,Iowa,IA
+US,Idaho,ID
+US,Illinois,IL
+US,Indiana,IN
+US,Kansas,KS
+US,Kentucky,KY
+US,Louisiana,LA
+US,Massachusetts,MA
+US,Maryland,MD
+US,Maine,ME
+US,Michigan,MI
+US,Minnesota,MN
+US,Missouri,MO
+US,Northern Mariana Islands,MP
+US,Mississippi,MS
+US,Montana,MT
+US,North Carolina,NC
+US,North Dakota,ND
+US,Nebraska,NE
+US,New Hampshire,NH
+US,New Jersey,NJ
+US,New Mexico,NM
+US,Nevada,NV
+US,New York,NY
+US,Ohio,OH
+US,Oklahoma,OK
+US,Oregon,OR
+US,Pennsylvania,PA
+US,Puerto Rico,PR
+US,Rhode Island,RI
+US,South Carolina,SC
+US,South Dakota,SD
+US,Tennessee,TN
+US,Texas,TX
+US,Utah,UT
+US,Virginia,VA
+US,Virgin Islands,VI
+US,Vermont,VT
+US,Washington,WA
+US,Wisconsin,WI
+US,West Virginia,WV
+US,Wyoming,WY
