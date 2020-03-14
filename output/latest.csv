@@ -23,7 +23,7 @@ Date,Country,Region,Confirmed,Deaths
 2020-03-13,Bhutan,,1,0
 2020-03-13,Belarus,,27,0
 2020-03-13,Canada,,193,1
-2020-03-13,Congo,,2,0
+2020-03-13,Democratic Republic of Congo,,2,0
 2020-03-13,Switzerland,,1139,11
 2020-03-13,Côte d'Ivoire,,1,0
 2020-03-13,Chile,,43,0
@@ -152,6 +152,60 @@ Date,Country,Region,Confirmed,Deaths
 2020-03-13,Taiwan,,50,1
 2020-03-13,Ukraine,,3,1
 2020-03-13,UK,,801,8
+2020-03-13,United States of America,Alaska,1,0
+2020-03-13,United States of America,Alabama,5,0
+2020-03-13,United States of America,Arkansas,6,0
+2020-03-13,United States of America,Arizona,9,0
+2020-03-13,United States of America,California,282,4
+2020-03-13,United States of America,Colorado,49,0
+2020-03-13,United States of America,Connecticut,11,0
+2020-03-13,United States of America,District of Columbia,10,0
+2020-03-13,United States of America,Delaware,4,0
+2020-03-13,United States of America,Diamond Princess,46,0
+2020-03-13,United States of America,Florida,50,2
+2020-03-13,United States of America,Georgia,42,1
+2020-03-13,United States of America,Grand Princess,21,0
+2020-03-13,United States of America,Hawaii,2,0
+2020-03-13,United States of America,Iowa,17,0
+2020-03-13,United States of America,Idaho,1,0
+2020-03-13,United States of America,Illinois,46,0
+2020-03-13,United States of America,Indiana,13,0
+2020-03-13,United States of America,Kansas,5,1
+2020-03-13,United States of America,Kentucky,14,0
+2020-03-13,United States of America,Louisiana,36,0
+2020-03-13,United States of America,Massachusetts,123,0
+2020-03-13,United States of America,Maryland,18,0
+2020-03-13,United States of America,Maine,1,0
+2020-03-13,United States of America,Michigan,16,0
+2020-03-13,United States of America,Minnesota,14,0
+2020-03-13,United States of America,Missouri,2,0
+2020-03-13,United States of America,Mississippi,1,0
+2020-03-13,United States of America,Montana,1,0
+2020-03-13,United States of America,North Carolina,17,0
+2020-03-13,United States of America,North Dakota,1,0
+2020-03-13,United States of America,Nebraska,13,0
+2020-03-13,United States of America,New Hampshire,6,0
+2020-03-13,United States of America,New Jersey,29,1
+2020-03-13,United States of America,New Mexico,10,0
+2020-03-13,United States of America,Nevada,17,0
+2020-03-13,United States of America,New York,421,0
+2020-03-13,United States of America,Ohio,13,0
+2020-03-13,United States of America,Oklahoma,2,0
+2020-03-13,United States of America,Oregon,30,0
+2020-03-13,United States of America,OR ,0,0
+2020-03-13,United States of America,Pennsylvania,41,0
+2020-03-13,United States of America,Rhode Island,14,0
+2020-03-13,United States of America,South Carolina,13,0
+2020-03-13,United States of America,South Dakota,8,1
+2020-03-13,United States of America,Tennessee,26,0
+2020-03-13,United States of America,Texas,43,0
+2020-03-13,United States of America,Utah,9,0
+2020-03-13,United States of America,Virginia,30,0
+2020-03-13,United States of America,Vermont,2,0
+2020-03-13,United States of America,Washington,568,37
+2020-03-13,United States of America,Wisconsin,19,0
+2020-03-13,United States of America,West Virginia,0,0
+2020-03-13,United States of America,Wyoming,1,0
 2020-03-13,Holy See,,1,0
 2020-03-13,Vietnam,,47,0
 2020-03-13,South Africa,,24,0
