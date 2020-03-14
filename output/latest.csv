@@ -1,0 +1,232 @@
+Date,Country,Region,Confirmed,Deaths,Recovered
+2020-03-13,??,Diamond Princess,696,7,325
+2020-03-13,Andorra,,1,0,0
+2020-03-13,United Arab Emirates,,85,0,17
+2020-03-13,Afghanistan,,7,0,0
+2020-03-13,Antigua and Barbuda,,1,0,0
+2020-03-13,Albania,,33,1,0
+2020-03-13,Armenia,,8,0,0
+2020-03-13,Argentina,,31,2,0
+2020-03-13,Austria,,504,1,6
+2020-03-13,Australia,Australian Capital Territory,1,0,0
+2020-03-13,Australia,From Diamond Princess,0,0,0
+2020-03-13,Australia,New South Wales,92,2,4
+2020-03-13,Australia,Northern Territory,1,0,0
+2020-03-13,Australia,Queensland,35,0,8
+2020-03-13,Australia,South Australia,16,0,3
+2020-03-13,Australia,Tasmania,5,0,0
+2020-03-13,Australia,Victoria,36,0,8
+2020-03-13,Australia,Western Australia,14,1,0
+2020-03-13,Aruba,,2,0,0
+2020-03-13,Azerbaijan,,15,1,3
+2020-03-13,Bosnia and Herzegovina,,13,0,0
+2020-03-13,Bangladesh,,3,0,0
+2020-03-13,Belgium,,559,3,1
+2020-03-13,Burkina Faso,,2,0,0
+2020-03-13,Bulgaria,,23,1,0
+2020-03-13,Bahrain,,189,0,44
+2020-03-13,Brunei Darussalam,,37,0,0
+2020-03-13,Bolivia,,3,0,0
+2020-03-13,Brazil,,151,0,0
+2020-03-13,Bhutan,,1,0,0
+2020-03-13,Belarus,,27,0,3
+2020-03-13,Canada,Alberta,29,0,0
+2020-03-13,Canada,British Columbia,64,1,4
+2020-03-13,Canada,Grand Princess,2,0,0
+2020-03-13,Canada,Manitoba,4,0,0
+2020-03-13,Canada,New Brunswick,1,0,0
+2020-03-13,Canada,Ontario,74,0,4
+2020-03-13,Canada,Quebec,17,0,0
+2020-03-13,Canada,Saskatchewan,2,0,0
+2020-03-13,Congo,,2,0,0
+2020-03-13,Switzerland,,1139,11,4
+2020-03-13,Côte d'Ivoire,,1,0,0
+2020-03-13,Chile,,43,0,0
+2020-03-13,Cameroon,,2,0,0
+2020-03-13,China,Anhui,990,6,984
+2020-03-13,China,Beijing,436,8,342
+2020-03-13,China,Chongqing,576,6,566
+2020-03-13,China,Fujian,296,1,295
+2020-03-13,China,Gansu,127,2,88
+2020-03-13,China,Guangdong,1356,8,1296
+2020-03-13,China,Guangxi,252,2,243
+2020-03-13,China,Guizhou,146,2,140
+2020-03-13,China,Hainan,168,6,160
+2020-03-13,China,Hebei,318,6,310
+2020-03-13,China,Heilongjiang,482,13,446
+2020-03-13,China,Henan,1273,22,1249
+2020-03-13,China,Hong Kong,134,4,77
+2020-03-13,China,Hubei,67786,3062,51553
+2020-03-13,China,Hunan,1018,4,1005
+2020-03-13,China,Inner Mongolia,75,1,71
+2020-03-13,China,Jiangsu,631,0,630
+2020-03-13,China,Jiangxi,935,1,934
+2020-03-13,China,Jilin,93,1,91
+2020-03-13,China,Liaoning,125,1,112
+2020-03-13,China,Macau,10,0,10
+2020-03-13,China,Ningxia,75,0,72
+2020-03-13,China,Qinghai,18,0,18
+2020-03-13,China,Shaanxi,245,2,232
+2020-03-13,China,Shandong,760,7,739
+2020-03-13,China,Shanghai,346,3,324
+2020-03-13,China,Shanxi,133,0,133
+2020-03-13,China,Sichuan,539,3,503
+2020-03-13,China,Tianjin,136,3,132
+2020-03-13,China,Tibet,1,0,1
+2020-03-13,China,Xinjiang,76,3,73
+2020-03-13,China,Yunnan,174,2,170
+2020-03-13,China,Zhejiang,1215,1,1197
+2020-03-13,Colombia,,13,0,0
+2020-03-13,Costa Rica,,23,0,0
+2020-03-13,Cuba,,4,0,0
+2020-03-13,Cyprus,,14,0,0
+2020-03-13,Czechia,,141,0,0
+2020-03-13,Germany,,3675,7,46
+2020-03-13,Denmark,Denmark,801,0,1
+2020-03-13,Denmark,Faroe Islands,3,0,0
+2020-03-13,Dominican Republic,,5,0,0
+2020-03-13,Algeria,,26,2,8
+2020-03-13,Ecuador,,17,0,0
+2020-03-13,Estonia,,79,0,0
+2020-03-13,Egypt,,80,2,27
+2020-03-13,Spain,,5232,133,193
+2020-03-13,Ethiopia,,1,0,0
+2020-03-13,Finland,,155,0,1
+2020-03-13,France,France,3661,79,12
+2020-03-13,France,French Polynesia,3,0,0
+2020-03-13,France,Saint Barthelemy,1,0,0
+2020-03-13,France,St Martin,2,0,0
+2020-03-13,Georgia,,25,0,0
+2020-03-13,French Guiana,,5,0,0
+2020-03-13,Guinea,,1,0,0
+2020-03-13,Guadeloupe,,1,0,0
+2020-03-13,Greece,,190,1,0
+2020-03-13,Guyana,,1,1,0
+2020-03-13,Honduras,,2,0,0
+2020-03-13,Croatia,,32,0,1
+2020-03-13,Hungary,,19,0,0
+2020-03-13,Indonesia,,69,4,2
+2020-03-13,Ireland,,90,1,0
+2020-03-13,Israel,,161,0,4
+2020-03-13,India,,82,2,4
+2020-03-13,Iraq,,101,9,24
+2020-03-13,Iran,,11364,514,2959
+2020-03-13,Iceland,,134,0,1
+2020-03-13,Italy,,17660,1266,1439
+2020-03-13,Jamaica,,8,0,0
+2020-03-13,Jordan,,1,0,1
+2020-03-13,Japan,,701,19,118
+2020-03-13,Kenya,,1,0,0
+2020-03-13,Cambodia,,5,0,1
+2020-03-13,Korea,,7979,66,510
+2020-03-13,Kuwait,,80,0,5
+2020-03-13,Cayman Islands,,1,0,0
+2020-03-13,Kazakhstan,,4,0,0
+2020-03-13,Lebanon,,77,3,1
+2020-03-13,Liechtenstein,,1,0,0
+2020-03-13,Sri Lanka,,6,0,1
+2020-03-13,Lithuania,,6,0,0
+2020-03-13,Luxembourg,,34,0,0
+2020-03-13,Latvia,,17,0,1
+2020-03-13,Morocco,,7,1,1
+2020-03-13,Monaco,,2,0,0
+2020-03-13,Moldova,,6,0,0
+2020-03-13,North Macedonia,,14,0,1
+2020-03-13,Mongolia,,1,0,0
+2020-03-13,Martinique,,3,0,0
+2020-03-13,Malta,,12,0,1
+2020-03-13,Maldives,,9,0,0
+2020-03-13,Mexico,,12,0,4
+2020-03-13,Malaysia,,197,0,26
+2020-03-13,Nigeria,,2,0,0
+2020-03-13,Netherlands,,804,10,0
+2020-03-13,Norway,,996,0,1
+2020-03-13,Nepal,,1,0,1
+2020-03-13,New Zealand,,5,0,0
+2020-03-13,Oman,,19,0,9
+2020-03-13,Panama,,27,1,0
+2020-03-13,Peru,,28,0,0
+2020-03-13,Philippines,,64,5,2
+2020-03-13,Pakistan,,28,0,2
+2020-03-13,Poland,,68,2,0
+2020-03-13,Portugal,,112,0,1
+2020-03-13,Paraguay,,6,0,0
+2020-03-13,Qatar,,320,0,0
+2020-03-13,Réunion,,5,0,0
+2020-03-13,Romania,,89,0,7
+2020-03-13,Serbia,,35,0,0
+2020-03-13,Russian Federation,,45,0,3
+2020-03-13,Saudi Arabia,,86,0,1
+2020-03-13,Sudan,,1,1,0
+2020-03-13,Sweden,,814,1,1
+2020-03-13,Singapore,,200,0,97
+2020-03-13,Slovenia,,141,0,0
+2020-03-13,Slovakia,,32,0,0
+2020-03-13,San Marino,,80,5,0
+2020-03-13,Senegal,,10,0,1
+2020-03-13,Togo,,1,0,0
+2020-03-13,Thailand,,75,1,35
+2020-03-13,Tunisia,,16,0,0
+2020-03-13,Turkey,,5,0,0
+2020-03-13,Taiwan,,50,1,20
+2020-03-13,Ukraine,,3,1,0
+2020-03-13,UK,Channel Islands,2,0,0
+2020-03-13,UK,Gibraltar,1,0,1
+2020-03-13,UK,United Kingdom,798,8,18
+2020-03-13,United States of America,Alaska,1,0,0
+2020-03-13,United States of America,Alabama,5,0,0
+2020-03-13,United States of America,Arkansas,6,0,0
+2020-03-13,United States of America,Arizona,9,0,1
+2020-03-13,United States of America,California,282,4,6
+2020-03-13,United States of America,Colorado,49,0,0
+2020-03-13,United States of America,Connecticut,11,0,0
+2020-03-13,United States of America,District of Columbia,10,0,0
+2020-03-13,United States of America,Delaware,4,0,0
+2020-03-13,United States of America,Diamond Princess,46,0,0
+2020-03-13,United States of America,Florida,50,2,0
+2020-03-13,United States of America,Georgia,42,1,0
+2020-03-13,United States of America,Grand Princess,21,0,0
+2020-03-13,United States of America,Hawaii,2,0,0
+2020-03-13,United States of America,Iowa,17,0,0
+2020-03-13,United States of America,Idaho,1,0,0
+2020-03-13,United States of America,Illinois,46,0,2
+2020-03-13,United States of America,Indiana,13,0,0
+2020-03-13,United States of America,Kansas,5,1,0
+2020-03-13,United States of America,Kentucky,14,0,0
+2020-03-13,United States of America,Louisiana,36,0,0
+2020-03-13,United States of America,Massachusetts,123,0,1
+2020-03-13,United States of America,Maryland,18,0,0
+2020-03-13,United States of America,Maine,1,0,0
+2020-03-13,United States of America,Michigan,16,0,0
+2020-03-13,United States of America,Minnesota,14,0,0
+2020-03-13,United States of America,Missouri,2,0,0
+2020-03-13,United States of America,Mississippi,1,0,0
+2020-03-13,United States of America,Montana,1,0,0
+2020-03-13,United States of America,North Carolina,17,0,0
+2020-03-13,United States of America,North Dakota,1,0,0
+2020-03-13,United States of America,Nebraska,13,0,0
+2020-03-13,United States of America,New Hampshire,6,0,0
+2020-03-13,United States of America,New Jersey,29,1,0
+2020-03-13,United States of America,New Mexico,10,0,0
+2020-03-13,United States of America,Nevada,17,0,0
+2020-03-13,United States of America,New York,421,0,0
+2020-03-13,United States of America,Ohio,13,0,0
+2020-03-13,United States of America,Oklahoma,2,0,0
+2020-03-13,United States of America,Oregon,30,0,0
+2020-03-13,United States of America,OR ,0,0,0
+2020-03-13,United States of America,Pennsylvania,41,0,0
+2020-03-13,United States of America,Rhode Island,14,0,0
+2020-03-13,United States of America,South Carolina,13,0,0
+2020-03-13,United States of America,South Dakota,8,1,0
+2020-03-13,United States of America,Tennessee,26,0,0
+2020-03-13,United States of America,Texas,43,0,0
+2020-03-13,United States of America,Utah,9,0,0
+2020-03-13,United States of America,Virginia,30,0,0
+2020-03-13,United States of America,Vermont,2,0,0
+2020-03-13,United States of America,Washington,568,37,1
+2020-03-13,United States of America,Wisconsin,19,0,1
+2020-03-13,United States of America,West Virginia,0,0,0
+2020-03-13,United States of America,Wyoming,1,0,0
+2020-03-13,Holy See,,1,0,0
+2020-03-13,Vietnam,,47,0,16
+2020-03-13,South Africa,,24,0,0
