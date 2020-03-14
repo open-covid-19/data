@@ -34679,19 +34679,19 @@ Date,Country,Region,Event,Value
 2020-03-12,AU,ACT,Confirmed,0
 2020-03-12,AU,ACT,Deaths,0
 2020-03-12,AU,ACT,Recovered,0
-2020-03-12,AU,From Diamond Princess,Confirmed,0
+2020-03-12,AU,From Diamond Princess,Confirmed,10
 2020-03-12,AU,From Diamond Princess,Deaths,0
 2020-03-12,AU,From Diamond Princess,Recovered,0
-2020-03-12,AU,NSW,Confirmed,65
+2020-03-12,AU,NSW,Confirmed,64
 2020-03-12,AU,NSW,Deaths,2
 2020-03-12,AU,NSW,Recovered,4
 2020-03-12,AU,NT,Confirmed,1
 2020-03-12,AU,NT,Deaths,0
 2020-03-12,AU,NT,Recovered,0
-2020-03-12,AU,QLD,Confirmed,20
+2020-03-12,AU,QLD,Confirmed,17
 2020-03-12,AU,QLD,Deaths,0
 2020-03-12,AU,QLD,Recovered,8
-2020-03-12,AU,SA,Confirmed,9
+2020-03-12,AU,SA,Confirmed,7
 2020-03-12,AU,SA,Deaths,0
 2020-03-12,AU,SA,Recovered,2
 2020-03-12,AU,TAS,Confirmed,3
