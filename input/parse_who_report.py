@@ -1,6 +1,3 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
 import os
 import re
 import sys
@@ -15,22 +12,17 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 china_regions = pd.read_csv(ROOT / 'input' / 'china_regions.csv', dtype=str)
 region_list = china_regions['Region'].unique()
 
-def parse_record(date: str, tokens: list):
+def parse_record(tokens: list):
     return [{
-        'Date': date,
         'Region': tokens[0],
         'Confirmed': tokens[-2],
         'Deaths': tokens[-1]
     }]
 
-# Get date from the arguments passed to the script
-date = sys.argv[1]
-# date = datetime.datetime.strptime(fname.split('/')[-1].split('.')[0], '%Y%m%d').strftime('%Y-%m-%d')
-date_value = datetime.datetime.strptime(date, '%Y%m%d')
-date_formatted = datetime.datetime.strftime(date_value, '%Y-%m-%d')
+# We will get the date from the report itself
+date = None
 
 records = []
-# for line in open(fname, 'r'):
 for line in sys.stdin:
 
     # Remove whitespace around lines
@@ -38,6 +30,12 @@ for line in sys.stdin:
 
     # Filter out empty lines
     if not line: continue
+
+    # Search for the date of the report
+    if 'Data as reported by national authorities' in line:
+        date = line.split('CET ')[-1]
+        date = datetime.datetime.strptime(date, '%d %B %Y')
+        date = datetime.datetime.strftime(date, '%Y-%m-%d')
 
     # Assume columns are separated by at least 4 spaces
     line = re.sub('\s\s\s+', '\t', line)
@@ -48,10 +46,11 @@ for line in sys.stdin:
 
     # Only process tokens from China region
     if tokens[0] in region_list:
-        records += parse_record(date_formatted, tokens)
+        records += parse_record(tokens)
 
 # Put resulting records into a dataframe
 df = pd.DataFrame.from_records(records).merge(china_regions, on='Region')
+df['Date'] = date
 df['CountryName'] = 'China'
 
 # Merge the new data with the existing data

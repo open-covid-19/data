@@ -1,4 +1,3 @@
 pandas==0.25.1
 Scrapy==2.0.0
-wget==3.2
 xlrd==1.2.0

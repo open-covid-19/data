@@ -9,6 +9,7 @@ The current datasets are:
   - Deaths: total number of deaths from a positive COVID-19 case
   - Latitude: floatig point representing the geographic coordinate
   - Longitude: floatig point representing the geographic coordinate
+
 * [China cases](output/china.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - Region: American English name of the province
@@ -33,27 +34,31 @@ critical data being available in a timely manner. Further, the true sources
 of data for that dataset are still unclear.
 
 ## Source of data
-The world data comes from the [ECDC portal][2]. The XLS file is downloaded 
-daily and some additional columns are added, like country-level coordinates. 
-The data is automatically parsed with the scripts found in the 
-[input folder](input).
+The world data comes from the daily reports at the [ECDC portal][2].
+The XLS file is downloaded and parsed using `scrapy` and `pandas`.
 
-Data for Chinese regions comes from the daily WHO situation reports.
+Data for Chinese regions comes from the daily [WHO situation reports][3],
+which are automatically parsed from their PDF source using `scrapy` and
+`ghostscript`.
+
+The data is automatically crawled and parsed using the scripts found in the 
+[input folder](input). This is done daily, and as part of the processing
+some additional columns are added, like country-level coordinates.
 
 ## Update the data
-To update the contents of the [output folder](output), get the latest URL from
-the [ECDC portal][2] for the XLS report and run the following commands:
+To update the contents of the [output folder](output), run the following:
 ```sh
+# Installs dependencies
 pip install -r requirements.txt
-python input/load_xls_data.py <URL>
+# Crawls world data
+sh input/crawl_ecdc_data.sh
+# Crawls China data
+sh input/crawl_who_data.sh
 ```
 
-Then update the China data by running:
-```sh
-# The date must match one of the WHO reports
-DATE="20200315"
-sh input/crawl_who_data.sh $DATE
-```
+Note that this will only fetch the latest report from the WHO and ECDC sources.
+If a report is skipped or amended, manual operation will be required. 
 
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
+[3]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports

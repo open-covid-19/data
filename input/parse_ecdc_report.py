@@ -9,19 +9,15 @@ in CSV and JSON format under the `output` folder.
 import os
 import sys
 import pandas as pd
+from io import BytesIO
 from pathlib import Path
 import tempfile
-import wget
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
-# Download provided URL locally
-fname = tempfile.NamedTemporaryFile().name
-wget.download(sys.argv[1], fname)
-
-# Read XLS file from disk
-df = pd.read_excel(fname).sort_values(['DateRep', 'GeoId'])
+# Read XLS file from stdin
+df = pd.read_excel(BytesIO(sys.stdin.buffer.read())).sort_values(['DateRep', 'GeoId'])
 
 # Compute the cumsum of values
 columns = ['DateRep', 'GeoId', 'CountryExp', 'Confirmed', 'Deaths']
