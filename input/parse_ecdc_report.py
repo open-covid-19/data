@@ -34,7 +34,7 @@ df = df_
 
 # Load coordinates for each country
 # Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
-df = df.merge(pd.read_csv(ROOT / 'input' / 'country_coordinates.csv'))
+df = df.merge(pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str))
 
 # Sort dataset by date + country
 df = df.sort_values(['Date', 'CountryCode'])
