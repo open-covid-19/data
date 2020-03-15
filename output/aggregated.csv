@@ -61,6 +61,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2019-12-31,SM,San Marino,0,0,43.94236,12.457777
 2019-12-31,TH,Thailand,0,0,15.870032,100.992541
 2019-12-31,TW,Taiwan,0,0,23.69781,120.960515
+2019-12-31,UK,United Kingdom,0,0,55.3781,3.436
 2019-12-31,US,United States of America,0,0,37.09024,-95.712891
 2019-12-31,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-01,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -125,6 +126,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-01,SM,San Marino,0,0,43.94236,12.457777
 2020-01-01,TH,Thailand,0,0,15.870032,100.992541
 2020-01-01,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-01,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-01,US,United States of America,0,0,37.09024,-95.712891
 2020-01-01,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-02,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -189,6 +191,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-02,SM,San Marino,0,0,43.94236,12.457777
 2020-01-02,TH,Thailand,0,0,15.870032,100.992541
 2020-01-02,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-02,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-02,US,United States of America,0,0,37.09024,-95.712891
 2020-01-02,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-03,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -253,6 +256,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-03,SM,San Marino,0,0,43.94236,12.457777
 2020-01-03,TH,Thailand,0,0,15.870032,100.992541
 2020-01-03,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-03,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-03,US,United States of America,0,0,37.09024,-95.712891
 2020-01-03,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-04,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -317,6 +321,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-04,SM,San Marino,0,0,43.94236,12.457777
 2020-01-04,TH,Thailand,0,0,15.870032,100.992541
 2020-01-04,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-04,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-04,US,United States of America,0,0,37.09024,-95.712891
 2020-01-04,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-05,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -381,6 +386,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-05,SM,San Marino,0,0,43.94236,12.457777
 2020-01-05,TH,Thailand,0,0,15.870032,100.992541
 2020-01-05,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-05,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-05,US,United States of America,0,0,37.09024,-95.712891
 2020-01-05,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-06,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -445,6 +451,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-06,SM,San Marino,0,0,43.94236,12.457777
 2020-01-06,TH,Thailand,0,0,15.870032,100.992541
 2020-01-06,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-06,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-06,US,United States of America,0,0,37.09024,-95.712891
 2020-01-06,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-07,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -509,6 +516,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-07,SM,San Marino,0,0,43.94236,12.457777
 2020-01-07,TH,Thailand,0,0,15.870032,100.992541
 2020-01-07,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-07,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-07,US,United States of America,0,0,37.09024,-95.712891
 2020-01-07,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-08,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -573,6 +581,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-08,SM,San Marino,0,0,43.94236,12.457777
 2020-01-08,TH,Thailand,0,0,15.870032,100.992541
 2020-01-08,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-08,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-08,US,United States of America,0,0,37.09024,-95.712891
 2020-01-08,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-09,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -637,6 +646,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-09,SM,San Marino,0,0,43.94236,12.457777
 2020-01-09,TH,Thailand,0,0,15.870032,100.992541
 2020-01-09,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-09,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-09,US,United States of America,0,0,37.09024,-95.712891
 2020-01-09,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-10,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -701,6 +711,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-10,SM,San Marino,0,0,43.94236,12.457777
 2020-01-10,TH,Thailand,0,0,15.870032,100.992541
 2020-01-10,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-10,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-10,US,United States of America,0,0,37.09024,-95.712891
 2020-01-10,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-11,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -765,6 +776,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-11,SM,San Marino,0,0,43.94236,12.457777
 2020-01-11,TH,Thailand,0,0,15.870032,100.992541
 2020-01-11,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-11,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-11,US,United States of America,0,0,37.09024,-95.712891
 2020-01-11,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-12,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -829,6 +841,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-12,SM,San Marino,0,0,43.94236,12.457777
 2020-01-12,TH,Thailand,0,0,15.870032,100.992541
 2020-01-12,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-12,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-12,US,United States of America,0,0,37.09024,-95.712891
 2020-01-12,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-13,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -893,6 +906,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-13,SM,San Marino,0,0,43.94236,12.457777
 2020-01-13,TH,Thailand,1,0,15.870032,100.992541
 2020-01-13,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-13,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-13,US,United States of America,0,0,37.09024,-95.712891
 2020-01-13,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-14,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -957,6 +971,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-14,SM,San Marino,0,0,43.94236,12.457777
 2020-01-14,TH,Thailand,1,0,15.870032,100.992541
 2020-01-14,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-14,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-14,US,United States of America,0,0,37.09024,-95.712891
 2020-01-14,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-15,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1021,6 +1036,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-15,SM,San Marino,0,0,43.94236,12.457777
 2020-01-15,TH,Thailand,1,0,15.870032,100.992541
 2020-01-15,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-15,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-15,US,United States of America,0,0,37.09024,-95.712891
 2020-01-15,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-16,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1085,6 +1101,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-16,SM,San Marino,0,0,43.94236,12.457777
 2020-01-16,TH,Thailand,1,0,15.870032,100.992541
 2020-01-16,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-16,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-16,US,United States of America,0,0,37.09024,-95.712891
 2020-01-16,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-17,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1149,6 +1166,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-17,SM,San Marino,0,0,43.94236,12.457777
 2020-01-17,TH,Thailand,2,0,15.870032,100.992541
 2020-01-17,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-17,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-17,US,United States of America,0,0,37.09024,-95.712891
 2020-01-17,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-18,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1213,6 +1231,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-18,SM,San Marino,0,0,43.94236,12.457777
 2020-01-18,TH,Thailand,2,0,15.870032,100.992541
 2020-01-18,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-18,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-18,US,United States of America,0,0,37.09024,-95.712891
 2020-01-18,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-19,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1277,6 +1296,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-19,SM,San Marino,0,0,43.94236,12.457777
 2020-01-19,TH,Thailand,2,0,15.870032,100.992541
 2020-01-19,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-19,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-19,US,United States of America,0,0,37.09024,-95.712891
 2020-01-19,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-20,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1341,6 +1361,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-20,SM,San Marino,0,0,43.94236,12.457777
 2020-01-20,TH,Thailand,2,0,15.870032,100.992541
 2020-01-20,TW,Taiwan,0,0,23.69781,120.960515
+2020-01-20,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-20,US,United States of America,0,0,37.09024,-95.712891
 2020-01-20,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-21,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1405,6 +1426,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-21,SM,San Marino,0,0,43.94236,12.457777
 2020-01-21,TH,Thailand,2,0,15.870032,100.992541
 2020-01-21,TW,Taiwan,1,0,23.69781,120.960515
+2020-01-21,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-21,US,United States of America,1,0,37.09024,-95.712891
 2020-01-21,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-22,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1469,6 +1491,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-22,SM,San Marino,0,0,43.94236,12.457777
 2020-01-22,TH,Thailand,4,0,15.870032,100.992541
 2020-01-22,TW,Taiwan,1,0,23.69781,120.960515
+2020-01-22,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-22,US,United States of America,1,0,37.09024,-95.712891
 2020-01-22,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-23,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1533,6 +1556,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-23,SM,San Marino,0,0,43.94236,12.457777
 2020-01-23,TH,Thailand,4,0,15.870032,100.992541
 2020-01-23,TW,Taiwan,1,0,23.69781,120.960515
+2020-01-23,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-23,US,United States of America,1,0,37.09024,-95.712891
 2020-01-23,VN,Vietnam,0,0,14.058324,108.277199
 2020-01-24,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1597,6 +1621,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-24,SM,San Marino,0,0,43.94236,12.457777
 2020-01-24,TH,Thailand,4,0,15.870032,100.992541
 2020-01-24,TW,Taiwan,1,0,23.69781,120.960515
+2020-01-24,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-24,US,United States of America,1,0,37.09024,-95.712891
 2020-01-24,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-25,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1661,6 +1686,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-25,SM,San Marino,0,0,43.94236,12.457777
 2020-01-25,TH,Thailand,5,0,15.870032,100.992541
 2020-01-25,TW,Taiwan,3,0,23.69781,120.960515
+2020-01-25,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-25,US,United States of America,2,0,37.09024,-95.712891
 2020-01-25,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-26,AE,United Arab Emirates,0,0,23.424076,53.847818
@@ -1725,6 +1751,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-26,SM,San Marino,0,0,43.94236,12.457777
 2020-01-26,TH,Thailand,5,0,15.870032,100.992541
 2020-01-26,TW,Taiwan,3,0,23.69781,120.960515
+2020-01-26,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-26,US,United States of America,2,0,37.09024,-95.712891
 2020-01-26,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-27,AE,United Arab Emirates,1,0,23.424076,53.847818
@@ -1789,6 +1816,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-27,SM,San Marino,0,0,43.94236,12.457777
 2020-01-27,TH,Thailand,8,0,15.870032,100.992541
 2020-01-27,TW,Taiwan,5,0,23.69781,120.960515
+2020-01-27,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-27,US,United States of America,5,0,37.09024,-95.712891
 2020-01-27,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-28,AE,United Arab Emirates,1,0,23.424076,53.847818
@@ -1853,6 +1881,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-28,SM,San Marino,0,0,43.94236,12.457777
 2020-01-28,TH,Thailand,14,0,15.870032,100.992541
 2020-01-28,TW,Taiwan,7,0,23.69781,120.960515
+2020-01-28,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-28,US,United States of America,5,0,37.09024,-95.712891
 2020-01-28,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-29,AE,United Arab Emirates,1,0,23.424076,53.847818
@@ -1917,6 +1946,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-29,SM,San Marino,0,0,43.94236,12.457777
 2020-01-29,TH,Thailand,14,0,15.870032,100.992541
 2020-01-29,TW,Taiwan,8,0,23.69781,120.960515
+2020-01-29,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-29,US,United States of America,5,0,37.09024,-95.712891
 2020-01-29,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-30,AE,United Arab Emirates,4,0,23.424076,53.847818
@@ -1981,6 +2011,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-30,SM,San Marino,0,0,43.94236,12.457777
 2020-01-30,TH,Thailand,14,0,15.870032,100.992541
 2020-01-30,TW,Taiwan,8,0,23.69781,120.960515
+2020-01-30,UK,United Kingdom,0,0,55.3781,3.436
 2020-01-30,US,United States of America,5,0,37.09024,-95.712891
 2020-01-30,VN,Vietnam,2,0,14.058324,108.277199
 2020-01-31,AE,United Arab Emirates,4,0,23.424076,53.847818
@@ -2045,6 +2076,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-01-31,SM,San Marino,0,0,43.94236,12.457777
 2020-01-31,TH,Thailand,14,0,15.870032,100.992541
 2020-01-31,TW,Taiwan,9,0,23.69781,120.960515
+2020-01-31,UK,United Kingdom,2,0,55.3781,3.436
 2020-01-31,US,United States of America,6,0,37.09024,-95.712891
 2020-01-31,VN,Vietnam,5,0,14.058324,108.277199
 2020-02-01,AE,United Arab Emirates,4,0,23.424076,53.847818
@@ -2109,6 +2141,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-01,SM,San Marino,0,0,43.94236,12.457777
 2020-02-01,TH,Thailand,19,0,15.870032,100.992541
 2020-02-01,TW,Taiwan,10,0,23.69781,120.960515
+2020-02-01,UK,United Kingdom,2,0,55.3781,3.436
 2020-02-01,US,United States of America,7,0,37.09024,-95.712891
 2020-02-01,VN,Vietnam,5,0,14.058324,108.277199
 2020-02-02,AE,United Arab Emirates,5,0,23.424076,53.847818
@@ -2173,6 +2206,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-02,SM,San Marino,0,0,43.94236,12.457777
 2020-02-02,TH,Thailand,19,0,15.870032,100.992541
 2020-02-02,TW,Taiwan,10,0,23.69781,120.960515
+2020-02-02,UK,United Kingdom,2,0,55.3781,3.436
 2020-02-02,US,United States of America,8,0,37.09024,-95.712891
 2020-02-02,VN,Vietnam,7,0,14.058324,108.277199
 2020-02-03,AE,United Arab Emirates,5,0,23.424076,53.847818
@@ -2237,6 +2271,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-03,SM,San Marino,0,0,43.94236,12.457777
 2020-02-03,TH,Thailand,19,0,15.870032,100.992541
 2020-02-03,TW,Taiwan,10,0,23.69781,120.960515
+2020-02-03,UK,United Kingdom,2,0,55.3781,3.436
 2020-02-03,US,United States of America,11,0,37.09024,-95.712891
 2020-02-03,VN,Vietnam,8,0,14.058324,108.277199
 2020-02-04,AE,United Arab Emirates,5,0,23.424076,53.847818
@@ -2301,6 +2336,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-04,SM,San Marino,0,0,43.94236,12.457777
 2020-02-04,TH,Thailand,19,0,15.870032,100.992541
 2020-02-04,TW,Taiwan,10,0,23.69781,120.960515
+2020-02-04,UK,United Kingdom,2,0,55.3781,3.436
 2020-02-04,US,United States of America,11,0,37.09024,-95.712891
 2020-02-04,VN,Vietnam,9,0,14.058324,108.277199
 2020-02-05,AE,United Arab Emirates,5,0,23.424076,53.847818
@@ -2365,6 +2401,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-05,SM,San Marino,0,0,43.94236,12.457777
 2020-02-05,TH,Thailand,25,0,15.870032,100.992541
 2020-02-05,TW,Taiwan,11,0,23.69781,120.960515
+2020-02-05,UK,United Kingdom,2,0,55.3781,3.436
 2020-02-05,US,United States of America,11,0,37.09024,-95.712891
 2020-02-05,VN,Vietnam,10,0,14.058324,108.277199
 2020-02-06,AE,United Arab Emirates,5,0,23.424076,53.847818
@@ -2429,6 +2466,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-06,SM,San Marino,0,0,43.94236,12.457777
 2020-02-06,TH,Thailand,25,0,15.870032,100.992541
 2020-02-06,TW,Taiwan,11,0,23.69781,120.960515
+2020-02-06,UK,United Kingdom,2,0,55.3781,3.436
 2020-02-06,US,United States of America,12,0,37.09024,-95.712891
 2020-02-06,VN,Vietnam,10,0,14.058324,108.277199
 2020-02-07,AE,United Arab Emirates,5,0,23.424076,53.847818
@@ -2493,6 +2531,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-07,SM,San Marino,0,0,43.94236,12.457777
 2020-02-07,TH,Thailand,25,0,15.870032,100.992541
 2020-02-07,TW,Taiwan,16,0,23.69781,120.960515
+2020-02-07,UK,United Kingdom,3,0,55.3781,3.436
 2020-02-07,US,United States of America,12,0,37.09024,-95.712891
 2020-02-07,VN,Vietnam,12,0,14.058324,108.277199
 2020-02-08,AE,United Arab Emirates,7,0,23.424076,53.847818
@@ -2557,6 +2596,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-08,SM,San Marino,0,0,43.94236,12.457777
 2020-02-08,TH,Thailand,32,0,15.870032,100.992541
 2020-02-08,TW,Taiwan,17,0,23.69781,120.960515
+2020-02-08,UK,United Kingdom,3,0,55.3781,3.436
 2020-02-08,US,United States of America,12,0,37.09024,-95.712891
 2020-02-08,VN,Vietnam,13,0,14.058324,108.277199
 2020-02-09,AE,United Arab Emirates,7,0,23.424076,53.847818
@@ -2621,6 +2661,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-09,SM,San Marino,0,0,43.94236,12.457777
 2020-02-09,TH,Thailand,32,0,15.870032,100.992541
 2020-02-09,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-09,UK,United Kingdom,4,0,55.3781,3.436
 2020-02-09,US,United States of America,12,0,37.09024,-95.712891
 2020-02-09,VN,Vietnam,14,0,14.058324,108.277199
 2020-02-10,AE,United Arab Emirates,7,0,23.424076,53.847818
@@ -2685,6 +2726,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-10,SM,San Marino,0,0,43.94236,12.457777
 2020-02-10,TH,Thailand,32,0,15.870032,100.992541
 2020-02-10,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-10,UK,United Kingdom,4,0,55.3781,3.436
 2020-02-10,US,United States of America,12,0,37.09024,-95.712891
 2020-02-10,VN,Vietnam,14,0,14.058324,108.277199
 2020-02-11,AE,United Arab Emirates,8,0,23.424076,53.847818
@@ -2749,6 +2791,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-11,SM,San Marino,0,0,43.94236,12.457777
 2020-02-11,TH,Thailand,32,0,15.870032,100.992541
 2020-02-11,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-11,UK,United Kingdom,8,0,55.3781,3.436
 2020-02-11,US,United States of America,13,0,37.09024,-95.712891
 2020-02-11,VN,Vietnam,15,0,14.058324,108.277199
 2020-02-12,AE,United Arab Emirates,8,0,23.424076,53.847818
@@ -2813,6 +2856,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-12,SM,San Marino,0,0,43.94236,12.457777
 2020-02-12,TH,Thailand,33,0,15.870032,100.992541
 2020-02-12,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-12,UK,United Kingdom,8,0,55.3781,3.436
 2020-02-12,US,United States of America,13,0,37.09024,-95.712891
 2020-02-12,VN,Vietnam,15,0,14.058324,108.277199
 2020-02-13,AE,United Arab Emirates,8,0,23.424076,53.847818
@@ -2877,6 +2921,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-13,SM,San Marino,0,0,43.94236,12.457777
 2020-02-13,TH,Thailand,33,0,15.870032,100.992541
 2020-02-13,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-13,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-13,US,United States of America,14,0,37.09024,-95.712891
 2020-02-13,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-14,AE,United Arab Emirates,8,0,23.424076,53.847818
@@ -2941,6 +2986,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-14,SM,San Marino,0,0,43.94236,12.457777
 2020-02-14,TH,Thailand,33,0,15.870032,100.992541
 2020-02-14,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-14,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-14,US,United States of America,15,0,37.09024,-95.712891
 2020-02-14,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-15,AE,United Arab Emirates,8,0,23.424076,53.847818
@@ -3005,6 +3051,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-15,SM,San Marino,0,0,43.94236,12.457777
 2020-02-15,TH,Thailand,34,0,15.870032,100.992541
 2020-02-15,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-15,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-15,US,United States of America,15,0,37.09024,-95.712891
 2020-02-15,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-16,AE,United Arab Emirates,8,0,23.424076,53.847818
@@ -3069,6 +3116,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-16,SM,San Marino,0,0,43.94236,12.457777
 2020-02-16,TH,Thailand,34,0,15.870032,100.992541
 2020-02-16,TW,Taiwan,18,0,23.69781,120.960515
+2020-02-16,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-16,US,United States of America,15,0,37.09024,-95.712891
 2020-02-16,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-17,AE,United Arab Emirates,9,0,23.424076,53.847818
@@ -3133,6 +3181,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-17,SM,San Marino,0,0,43.94236,12.457777
 2020-02-17,TH,Thailand,34,0,15.870032,100.992541
 2020-02-17,TW,Taiwan,20,1,23.69781,120.960515
+2020-02-17,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-17,US,United States of America,15,0,37.09024,-95.712891
 2020-02-17,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-18,AE,United Arab Emirates,9,0,23.424076,53.847818
@@ -3197,6 +3246,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-18,SM,San Marino,0,0,43.94236,12.457777
 2020-02-18,TH,Thailand,35,0,15.870032,100.992541
 2020-02-18,TW,Taiwan,22,1,23.69781,120.960515
+2020-02-18,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-18,US,United States of America,15,0,37.09024,-95.712891
 2020-02-18,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-19,AE,United Arab Emirates,9,0,23.424076,53.847818
@@ -3261,6 +3311,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-19,SM,San Marino,0,0,43.94236,12.457777
 2020-02-19,TH,Thailand,35,0,15.870032,100.992541
 2020-02-19,TW,Taiwan,22,1,23.69781,120.960515
+2020-02-19,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-19,US,United States of America,15,0,37.09024,-95.712891
 2020-02-19,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-20,AE,United Arab Emirates,9,0,23.424076,53.847818
@@ -3325,6 +3376,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-20,SM,San Marino,0,0,43.94236,12.457777
 2020-02-20,TH,Thailand,35,0,15.870032,100.992541
 2020-02-20,TW,Taiwan,24,1,23.69781,120.960515
+2020-02-20,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-20,US,United States of America,15,0,37.09024,-95.712891
 2020-02-20,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-21,AE,United Arab Emirates,9,0,23.424076,53.847818
@@ -3389,6 +3441,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-21,SM,San Marino,0,0,43.94236,12.457777
 2020-02-21,TH,Thailand,35,0,15.870032,100.992541
 2020-02-21,TW,Taiwan,24,1,23.69781,120.960515
+2020-02-21,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-21,US,United States of America,16,0,37.09024,-95.712891
 2020-02-21,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-22,AE,United Arab Emirates,11,0,23.424076,53.847818
@@ -3453,6 +3506,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-22,SM,San Marino,0,0,43.94236,12.457777
 2020-02-22,TH,Thailand,35,0,15.870032,100.992541
 2020-02-22,TW,Taiwan,26,1,23.69781,120.960515
+2020-02-22,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-22,US,United States of America,35,0,37.09024,-95.712891
 2020-02-22,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-23,AE,United Arab Emirates,13,0,23.424076,53.847818
@@ -3517,6 +3571,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-23,SM,San Marino,0,0,43.94236,12.457777
 2020-02-23,TH,Thailand,35,0,15.870032,100.992541
 2020-02-23,TW,Taiwan,26,1,23.69781,120.960515
+2020-02-23,UK,United Kingdom,9,0,55.3781,3.436
 2020-02-23,US,United States of America,35,0,37.09024,-95.712891
 2020-02-23,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-24,AE,United Arab Emirates,13,0,23.424076,53.847818
@@ -3581,6 +3636,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-24,SM,San Marino,0,0,43.94236,12.457777
 2020-02-24,TH,Thailand,35,0,15.870032,100.992541
 2020-02-24,TW,Taiwan,28,1,23.69781,120.960515
+2020-02-24,UK,United Kingdom,13,0,55.3781,3.436
 2020-02-24,US,United States of America,35,0,37.09024,-95.712891
 2020-02-24,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-25,AE,United Arab Emirates,13,0,23.424076,53.847818
@@ -3645,6 +3701,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-25,SM,San Marino,0,0,43.94236,12.457777
 2020-02-25,TH,Thailand,37,0,15.870032,100.992541
 2020-02-25,TW,Taiwan,30,1,23.69781,120.960515
+2020-02-25,UK,United Kingdom,13,0,55.3781,3.436
 2020-02-25,US,United States of America,53,0,37.09024,-95.712891
 2020-02-25,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-26,AE,United Arab Emirates,13,0,23.424076,53.847818
@@ -3709,6 +3766,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-26,SM,San Marino,0,0,43.94236,12.457777
 2020-02-26,TH,Thailand,40,0,15.870032,100.992541
 2020-02-26,TW,Taiwan,31,1,23.69781,120.960515
+2020-02-26,UK,United Kingdom,13,0,55.3781,3.436
 2020-02-26,US,United States of America,53,0,37.09024,-95.712891
 2020-02-26,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-27,AE,United Arab Emirates,13,0,23.424076,53.847818
@@ -3773,6 +3831,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-27,SM,San Marino,0,0,43.94236,12.457777
 2020-02-27,TH,Thailand,40,0,15.870032,100.992541
 2020-02-27,TW,Taiwan,32,1,23.69781,120.960515
+2020-02-27,UK,United Kingdom,13,0,55.3781,3.436
 2020-02-27,US,United States of America,59,0,37.09024,-95.712891
 2020-02-27,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-28,AE,United Arab Emirates,19,0,23.424076,53.847818
@@ -3837,6 +3896,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-28,SM,San Marino,1,0,43.94236,12.457777
 2020-02-28,TH,Thailand,40,0,15.870032,100.992541
 2020-02-28,TW,Taiwan,34,1,23.69781,120.960515
+2020-02-28,UK,United Kingdom,16,0,55.3781,3.436
 2020-02-28,US,United States of America,60,0,37.09024,-95.712891
 2020-02-28,VN,Vietnam,16,0,14.058324,108.277199
 2020-02-29,AE,United Arab Emirates,19,0,23.424076,53.847818
@@ -3901,6 +3961,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-02-29,SM,San Marino,1,0,43.94236,12.457777
 2020-02-29,TH,Thailand,42,0,15.870032,100.992541
 2020-02-29,TW,Taiwan,39,1,23.69781,120.960515
+2020-02-29,UK,United Kingdom,18,0,55.3781,3.436
 2020-02-29,US,United States of America,66,0,37.09024,-95.712891
 2020-02-29,VN,Vietnam,16,0,14.058324,108.277199
 2020-03-01,AE,United Arab Emirates,21,0,23.424076,53.847818
@@ -3965,6 +4026,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-01,SM,San Marino,1,0,43.94236,12.457777
 2020-03-01,TH,Thailand,42,1,15.870032,100.992541
 2020-03-01,TW,Taiwan,40,1,23.69781,120.960515
+2020-03-01,UK,United Kingdom,23,0,55.3781,3.436
 2020-03-01,US,United States of America,69,1,37.09024,-95.712891
 2020-03-01,VN,Vietnam,16,0,14.058324,108.277199
 2020-03-02,AE,United Arab Emirates,21,0,23.424076,53.847818
@@ -4029,6 +4091,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-02,SM,San Marino,8,1,43.94236,12.457777
 2020-03-02,TH,Thailand,43,1,15.870032,100.992541
 2020-03-02,TW,Taiwan,40,1,23.69781,120.960515
+2020-03-02,UK,United Kingdom,36,0,55.3781,3.436
 2020-03-02,US,United States of America,89,2,37.09024,-95.712891
 2020-03-02,VN,Vietnam,16,0,14.058324,108.277199
 2020-03-03,AD,Andorra,1,0,42.546245,1.601554
@@ -4068,6 +4131,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-03,SN,Senegal,1,0,14.497401000000002,-14.452362
 2020-03-03,TN,Tunisia,1,0,33.886917,9.537499
 2020-03-03,TW,Taiwan,41,1,23.69781,120.960515
+2020-03-03,UK,United Kingdom,40,0,55.3781,3.436
 2020-03-03,US,United States of America,103,6,37.09024,-95.712891
 2020-03-04,AE,United Arab Emirates,27,0,23.424076,53.847818
 2020-03-04,AR,Argentina,1,0,-38.416097,-63.616672
@@ -4112,6 +4176,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-04,SM,San Marino,10,1,43.94236,12.457777
 2020-03-04,TW,Taiwan,42,1,23.69781,120.960515
 2020-03-04,UA,Ukraine,1,0,48.379433,31.16558
+2020-03-04,UK,United Kingdom,51,0,55.3781,3.436
 2020-03-04,US,United States of America,125,9,37.09024,-95.712891
 2020-03-05,AT,Austria,29,0,47.516231,14.550072
 2020-03-05,AU,Australia,52,2,-25.274398,133.775136
@@ -4154,6 +4219,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-05,SM,San Marino,15,1,43.94236,12.457777
 2020-03-05,SN,Senegal,3,0,14.497401000000002,-14.452362
 2020-03-05,TH,Thailand,47,1,15.870032,100.992541
+2020-03-05,UK,United Kingdom,85,0,55.3781,3.436
 2020-03-05,US,United States of America,159,11,37.09024,-95.712891
 2020-03-06,AE,United Arab Emirates,29,0,23.424076,53.847818
 2020-03-06,AR,Argentina,2,0,-38.416097,-63.616672
@@ -4208,6 +4274,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-06,SM,San Marino,22,1,43.94236,12.457777
 2020-03-06,SN,Senegal,4,0,14.497401000000002,-14.452362
 2020-03-06,TW,Taiwan,44,1,23.69781,120.960515
+2020-03-06,UK,United Kingdom,115,1,55.3781,3.436
 2020-03-06,US,United States of America,233,12,37.09024,-95.712891
 2020-03-06,ZA,South Africa,1,0,-30.559482,22.937506
 2020-03-07,AR,Argentina,8,0,-38.416097,-63.616672
@@ -4269,6 +4336,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-07,TG,Togo,1,0,8.619543,0.824782
 2020-03-07,TH,Thailand,50,1,15.870032,100.992541
 2020-03-07,TW,Taiwan,45,1,23.69781,120.960515
+2020-03-07,UK,United Kingdom,163,1,55.3781,3.436
 2020-03-07,US,United States of America,338,14,37.09024,-95.712891
 2020-03-07,VA,Holy See,1,0,41.902916,12.453389
 2020-03-07,VN,Vietnam,17,0,14.058324,108.277199
@@ -4325,6 +4393,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-08,SK,Slovakia,3,0,48.669026,19.699024
 2020-03-08,SM,San Marino,26,1,43.94236,12.457777
 2020-03-08,TW,Taiwan,45,1,23.69781,120.960515
+2020-03-08,UK,United Kingdom,206,2,55.3781,3.436
 2020-03-08,US,United States of America,433,17,37.09024,-95.712891
 2020-03-08,VN,Vietnam,21,0,14.058324,108.277199
 2020-03-08,ZA,South Africa,2,0,-30.559482,22.937506
@@ -4385,6 +4454,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-09,SK,Slovakia,5,0,48.669026,19.699024
 2020-03-09,SM,San Marino,37,1,43.94236,12.457777
 2020-03-09,TW,Taiwan,45,1,23.69781,120.960515
+2020-03-09,UK,United Kingdom,273,3,55.3781,3.436
 2020-03-09,US,United States of America,554,21,37.09024,-95.712891
 2020-03-09,VN,Vietnam,30,0,14.058324,108.277199
 2020-03-09,ZA,South Africa,3,0,-30.559482,22.937506
@@ -4444,6 +4514,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-10,SG,Singapore,160,0,1.352083,103.819836
 2020-03-10,SM,San Marino,49,2,43.94236,12.457777
 2020-03-10,TN,Tunisia,2,0,33.886917,9.537499
+2020-03-10,UK,United Kingdom,321,5,55.3781,3.436
 2020-03-10,US,United States of America,754,26,37.09024,-95.712891
 2020-03-10,VN,Vietnam,31,0,14.058324,108.277199
 2020-03-10,ZA,South Africa,7,0,-30.559482,22.937506
@@ -4518,6 +4589,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-11,TH,Thailand,59,1,15.870032,100.992541
 2020-03-11,TN,Tunisia,5,0,33.886917,9.537499
 2020-03-11,TW,Taiwan,48,1,23.69781,120.960515
+2020-03-11,UK,United Kingdom,373,6,55.3781,3.436
 2020-03-11,US,United States of America,1025,28,37.09024,-95.712891
 2020-03-11,VN,Vietnam,35,0,14.058324,108.277199
 2020-03-12,AL,Albania,11,1,41.153332,20.168331
@@ -4604,6 +4676,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-12,TN,Tunisia,7,0,33.886917,9.537499
 2020-03-12,TR,Turkey,1,0,38.963745,35.243322
 2020-03-12,TW,Taiwan,48,1,23.69781,120.960515
+2020-03-12,UK,United kingdom,456,6,55.3781,3.436
 2020-03-12,US,United States of America,1312,30,37.09024,-95.712891
 2020-03-12,VN,Vietnam,39,0,14.058324,108.277199
 2020-03-12,ZA,South Africa,13,0,-30.559482,22.937506
@@ -4690,6 +4763,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-13,TT,Trinidad and Tobago,1,0,10.691803,-61.222503
 2020-03-13,TW,Taiwan,49,1,23.69781,120.960515
 2020-03-13,UA,Ukraine,3,0,48.379433,31.16558
+2020-03-13,UK,United Kingdom,590,10,55.3781,3.436
 2020-03-13,US,United States of America,1663,40,37.09024,-95.712891
 2020-03-13,VC,Saint Vincent and the Grenadines,1,0,12.984305,-61.287228000000006
 2020-03-13,VN,Vietnam,44,0,14.058324,108.277199
@@ -4785,6 +4859,7 @@ Date,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-14,TN,Tunisia,16,0,33.886917,9.537499
 2020-03-14,TT,Trinidad and Tobago,2,0,10.691803,-61.222503
 2020-03-14,TW,Taiwan,53,1,23.69781,120.960515
+2020-03-14,UK,United Kingdom,707,10,55.3781,3.436
 2020-03-14,US,United States of America,2174,47,37.09024,-95.712891
 2020-03-14,VN,Vietnam,49,0,14.058324,108.277199
 2020-03-14,ZA,South Africa,24,0,-30.559482,22.937506

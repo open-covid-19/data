@@ -51,7 +51,6 @@ for country in df['CountryCode'].unique():
 # Save dataset in CSV format into output folder
 df.to_csv(ROOT / 'output' / 'aggregated.csv', index=False)
 df_latest.to_csv(ROOT / 'output' / 'latest.csv', index=False)
-df_latest.to_csv('latest.csv', index=False)
 
 # Save dataset in JSON format into output folder
 df.to_json(ROOT / 'output' / 'aggregated.json', orient='records')
