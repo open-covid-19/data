@@ -48,12 +48,12 @@ some additional columns are added, like country-level coordinates.
 ## Update the data
 To update the contents of the [output folder](output), run the following:
 ```sh
-# Installs dependencies
+# Install dependencies
 pip install -r requirements.txt
-# Crawls world data
-sh input/crawl_ecdc_data.sh
-# Crawls China data
-sh input/crawl_who_data.sh
+# Update world data
+sh input/update_ecdc_data.sh
+# Update China data
+sh input/update_who_data.sh
 ```
 
 Note that this will only fetch the latest report from the WHO and ECDC sources.
