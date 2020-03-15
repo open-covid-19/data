@@ -19,6 +19,10 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # Read XLS file from stdin
 df = pd.read_excel(BytesIO(sys.stdin.buffer.read())).sort_values(['DateRep', 'GeoId'])
 
+# Workaround for https://github.com/open-covid-19/data/issues/8
+# ECDC mistakenly labels Greece country code as EL instead of GR
+df['GeoId'] = df['GeoId'].apply(lambda code: 'GR' if code == 'EL' else code)
+
 # Compute the cumsum of values
 columns = ['DateRep', 'GeoId', 'CountryExp', 'Confirmed', 'Deaths']
 df_ = pd.DataFrame(columns=columns)
