@@ -38,10 +38,11 @@ df = df_
 
 # Load coordinates for each country
 # Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
-df = df.merge(pd.read_csv(ROOT / 'input' / 'coordinates.csv'))
+df = df.merge(pd.read_csv(ROOT / 'input' / 'country_coordinates.csv'))
 
 # Sort dataset by date + country
 df = df.sort_values(['Date', 'CountryCode'])
+df = df[['Date', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths', 'Latitude', 'Longitude']]
 
 # Extract a subset with only the latest date
 df_latest = pd.DataFrame(columns=list(df.columns))
@@ -49,9 +50,9 @@ for country in df['CountryCode'].unique():
     df_latest = pd.concat([df_latest, df[df['CountryCode'] == country].iloc[-1:]])
 
 # Save dataset in CSV format into output folder
-df.to_csv(ROOT / 'output' / 'aggregated.csv', index=False)
-df_latest.to_csv(ROOT / 'output' / 'latest.csv', index=False)
+df.to_csv(ROOT / 'output' / 'world.csv', index=False)
+df_latest.to_csv(ROOT / 'output' / 'world_latest.csv', index=False)
 
 # Save dataset in JSON format into output folder
-df.to_json(ROOT / 'output' / 'aggregated.json', orient='records')
-df_latest.to_json(ROOT / 'output' / 'latest.json', orient='records')
+df.to_json(ROOT / 'output' / 'world.json', orient='records')
+df_latest.to_json(ROOT / 'output' / 'world_latest.json', orient='records')
