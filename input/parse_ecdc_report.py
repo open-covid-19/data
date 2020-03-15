@@ -36,6 +36,10 @@ df_ = df_[columns]
 df_.columns = ['Date', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths']
 df = df_
 
+# Make sure all data types are appropriately casted
+df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
+df['Deaths'] = df['Deaths'].fillna(0).astype(int)
+
 # Load coordinates for each country
 # Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
 df = df.merge(pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str))
