@@ -9,4 +9,3 @@ python -m scrapy runspider "$BASE_DIR/crawl_who_data.py" | \
     xargs wget -qq -O - | \
     gs -sDEVICE=txtwrite -sOutputFile=- -q -dNOPAUSE -dBATCH - | \
     python "$BASE_DIR/parse_who_report.py"
-

@@ -1,7 +1,7 @@
 # Open COVID-19 Dataset
 This repo contains free datasets of historical data related to COVID-19.
 The current datasets are:
-* [Worldwide cases](output/world.csv):
+* [World](output/world.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - CountryCode: ISO 3166-1 alpha-2 code of the country
   - CountryName: American English name of the country
@@ -10,13 +10,24 @@ The current datasets are:
   - Latitude: floatig point representing the geographic coordinate
   - Longitude: floatig point representing the geographic coordinate
 
-* [China cases](output/china.csv):
+* [China](output/china.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - Region: American English name of the province
   - CountryCode: ISO 3166-1 alpha-2 code of the country
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
+  - Latitude: floatig point representing the geographic coordinate
+  - Longitude: floatig point representing the geographic coordinate
+
+* [USA](output/usa.csv):
+  - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
+  - Region: American English name of the province
+  - CountryCode: ISO 3166-1 alpha-2 code of the country
+  - CountryName: American English name of the country
+  - Confirmed: total number of cases confirmed after positive test
+  - Deaths: total number of deaths from a positive COVID-19 case
+  - Tested: total number of tests performed to determine COVID-19 case
   - Latitude: floatig point representing the geographic coordinate
   - Longitude: floatig point representing the geographic coordinate
 
@@ -51,9 +62,11 @@ To update the contents of the [output folder](output), run the following:
 # Install dependencies
 pip install -r requirements.txt
 # Update world data
-sh input/update_ecdc_data.sh
+sh input/update_world_data.sh
 # Update China data
-sh input/update_who_data.sh
+sh input/update_china_data.sh
+# Update USA data
+sh input/update_usa_data.sh
 ```
 
 Note that this will only fetch the latest report from the WHO and ECDC sources.
