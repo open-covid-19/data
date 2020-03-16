@@ -26,8 +26,12 @@ df['DateRep'] = df['DateRep'].astype(str)
 # ECDC mistakenly labels Greece country code as EL instead of GR
 df['GeoId'] = df['GeoId'].apply(lambda code: 'GR' if code == 'EL' else code)
 
+# Workaround for https://github.com/open-covid-19/data/issues/13
+# ECDC mistakenly labels Greece country code as UK instead of GB
+df['GeoId'] = df['GeoId'].apply(lambda code: 'GB' if code == 'UK' else code)
+
 # Compute the cumsum of values
-columns = ['DateRep', 'GeoId', 'CountryExp', 'Confirmed', 'Deaths']
+columns = ['DateRep', 'GeoId', 'Confirmed', 'Deaths']
 df_ = pd.DataFrame(columns=columns)
 for country in df['GeoId'].unique():
     subset = df[df['GeoId'] == country].copy()
@@ -36,7 +40,7 @@ for country in df['GeoId'].unique():
     df_ = pd.concat([df_, subset[columns]])
 
 df_ = df_[columns]
-df_.columns = ['Date', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths']
+df_.columns = ['Date', 'CountryCode', 'Confirmed', 'Deaths']
 df = df_
 
 # Make sure all data types are appropriately casted
@@ -53,7 +57,7 @@ df = df.set_index(['Date', 'CountryCode'])
 df.loc[('2020-03-15', 'IT'), 'Confirmed'] = 20603
 df = df.reset_index()
 
-# Load coordinates for each country
+# Load coordinates and names for each country
 # Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
 df = df.merge(pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str))
 
