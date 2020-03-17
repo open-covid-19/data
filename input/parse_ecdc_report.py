@@ -35,8 +35,8 @@ columns = ['DateRep', 'GeoId', 'Confirmed', 'Deaths']
 df_ = pd.DataFrame(columns=columns)
 for country in df['GeoId'].unique():
     subset = df[df['GeoId'] == country].copy()
-    subset['Confirmed'] = subset['NewConfCases'].cumsum()
-    subset['Deaths'] = subset['NewDeaths'].cumsum()
+    subset['Confirmed'] = subset['Cases'].cumsum()
+    subset['Deaths'] = subset['Deaths'].cumsum()
     df_ = pd.concat([df_, subset[columns]])
 
 df_ = df_[columns]
