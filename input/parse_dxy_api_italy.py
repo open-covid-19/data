@@ -34,24 +34,46 @@ df['Date'] = df['updateTime'].apply(timezone_adjust)
 # Rename the appropriate columns
 df = df.rename(columns={
     'countryEnglishName': 'CountryName',
-    'provinceEnglishName': 'Region',
     'province_confirmedCount': 'Confirmed',
     'province_deadCount': 'Deaths',
     'province_curedCount': 'Recovered'
 })
 
 # This is time series data, get only the last snapshot of each day
-df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'Region']).last().reset_index()
+df = df.sort_values('updateTime').groupby(['Date', 'CountryName']).last().reset_index()
 
-# Get the coordinates for each region
-df = df[df['CountryName'] == 'China'].merge(
-    pd.read_csv(ROOT / 'input' / 'china_regions.csv', dtype=str), on='Region')
+# Get the coordinates for each country
+df = df[df['CountryName'] == 'Italy'].merge(
+    pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str), on='CountryName')
 
-# Sort dataset by date + region
-df = df.sort_values(['Date', 'Region'])
+# Merge with the rest of the world's data
+df = pd.concat([df, pd.read_csv(ROOT / 'output' / 'world.csv', dtype=str)], sort=False)
+
+# Fill all of Italy's missing data where numbers did not change
+ffill_columns = ('Confirmed', 'Deaths')
+first_date = df['Date'].sort_values().iloc[0]
+sample_row = df[df['CountryCode'] == 'IT'].iloc[0]
+last_values = {'Confirmed': 0, 'Deaths': 0}
+for date in sorted(df['Date'].unique()):
+    new_row = sample_row.copy()
+    new_row['Date'] = date
+    existing_rows = df[(df['Date'] == date) & (df['CountryCode'] == 'IT')]
+    if len(existing_rows) > 0:
+        for ffill_col in ffill_columns:
+            last_values[ffill_col] = existing_rows.iloc[0][ffill_col]
+        continue
+
+    for ffill_col in ffill_columns:
+        new_row[ffill_col] = last_values[ffill_col]
+       
+    df = df.append(new_row, ignore_index=True)
+df = df.sort_values(['Date', 'CountryCode'])
+for ffill_col in ffill_columns: df[ffill_col] = df[ffill_col].ffill()
+
+# Sort dataset by date + country
+df = df.sort_values(['Date', 'CountryCode'])
 df = df[[
     'Date',
-    'Region',
     'CountryCode',
     'CountryName',
     'Confirmed',
@@ -63,13 +85,13 @@ df = df[[
 
 # Extract a subset with only the latest date
 df_latest = pd.DataFrame(columns=list(df.columns))
-for region in sorted(df['Region'].unique()):
-    df_latest = pd.concat([df_latest, df[df['Region'] == region].iloc[-1:]])
+for country in sorted(df['CountryCode'].unique()):
+    df_latest = pd.concat([df_latest, df[df['CountryCode'] == country].iloc[-1:]])
 
 # Save dataset in CSV format into output folder
-df.to_csv(ROOT / 'output' / 'china.csv', index=False)
-df_latest.to_csv(ROOT / 'output' / 'china_latest.csv', index=False)
+df.to_csv(ROOT / 'output' / 'world.csv', index=False)
+df_latest.to_csv(ROOT / 'output' / 'world_latest.csv', index=False)
 
 # Save dataset in JSON format into output folder
-df.to_json(ROOT / 'output' / 'china.json', orient='records')
-df_latest.to_json(ROOT / 'output' / 'china_latest.json', orient='records')
+df.to_json(ROOT / 'output' / 'world.json', orient='records')
+df_latest.to_json(ROOT / 'output' / 'world_latest.json', orient='records')

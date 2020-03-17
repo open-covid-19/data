@@ -30,6 +30,10 @@ df['GeoId'] = df['GeoId'].apply(lambda code: 'GR' if code == 'EL' else code)
 # ECDC mistakenly labels Greece country code as UK instead of GB
 df['GeoId'] = df['GeoId'].apply(lambda code: 'GB' if code == 'UK' else code)
 
+# Workaround for https://github.com/open-covid-19/data/issues/12
+# ECDC data for Italy is simply wrong, so Italy's data will be parsed from a different source
+df = df[df['GeoId'] != 'IT']
+
 # Compute the cumsum of values
 columns = ['DateRep', 'GeoId', 'Confirmed', 'Deaths']
 df_ = pd.DataFrame(columns=columns)
@@ -46,16 +50,6 @@ df = df_
 # Make sure all data types are appropriately casted
 df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
 df['Deaths'] = df['Deaths'].fillna(0).astype(int)
-
-# Temporary workaround for https://github.com/open-covid-19/data/issues/12
-# ECDC reported only 90 new cases for Italy, which is clearly wrong. For all
-# other days, it appears to report only active cases so we are reporting
-# today's active case count from the local official source to avoid a sudden
-# jump in the data but this will be fixed retroactively
-# https://web.archive.org/web/20200316021137/http://www.salute.gov.it/nuovocoronavirus
-df = df.set_index(['Date', 'CountryCode'])
-df.loc[('2020-03-15', 'IT'), 'Confirmed'] = 20603
-df = df.reset_index()
 
 # Load coordinates and names for each country
 # Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
