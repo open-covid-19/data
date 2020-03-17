@@ -48,6 +48,11 @@ for line in sys.stdin:
     if tokens[0] in region_list:
         records += parse_record(tokens)
 
+# Early exit: no records in the report (2020-03-16 onwards)
+if not records:
+    print('No records from China found in report')
+    sys.exit(1)
+
 # Put resulting records into a dataframe
 df = pd.DataFrame.from_records(records).merge(china_regions, on='Region')
 df['Date'] = date

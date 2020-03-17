@@ -3,7 +3,7 @@ This repo contains free datasets of historical data related to COVID-19.
 The current datasets are:
 * [World](output/world.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
-  - CountryCode: ISO 3166-1 alpha-2 code of the country
+  - CountryCode: 2-letter ISO 3166-1 code of the country
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
@@ -13,7 +13,7 @@ The current datasets are:
 * [China](output/china.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - Region: American English name of the province
-  - CountryCode: ISO 3166-1 alpha-2 code of the country
+  - CountryCode: 2-letter ISO 3166-1 code of the country
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
@@ -22,8 +22,8 @@ The current datasets are:
 
 * [USA](output/usa.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
-  - Region: American English name of the province
-  - CountryCode: ISO 3166-1 alpha-2 code of the country
+  - Region: 2-letter state code (e.g. CA, FL, NY)
+  - CountryCode: 2-letter ISO 3166-1 code of the country
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
