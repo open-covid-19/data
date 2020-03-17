@@ -67,7 +67,7 @@ df = df[['Date', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths', 'Latitude'
 
 # Extract a subset with only the latest date
 df_latest = pd.DataFrame(columns=list(df.columns))
-for country in df['CountryCode'].unique():
+for country in sorted(df['CountryCode'].unique()):
     df_latest = pd.concat([df_latest, df[df['CountryCode'] == country].iloc[-1:]])
 
 # Save dataset in CSV format into output folder

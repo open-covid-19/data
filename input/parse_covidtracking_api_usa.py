@@ -20,7 +20,7 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # Read JSON file from covidtracking's website
 # We must use the requests package directly because covidtracking returns 403 otherwise
 df = pd.read_json(requests.get(
-    'http://covidtracking.com/api/states/daily', headers={'User-agent': 'Mozilla/5.0'}).text)
+    'https://covidtracking.com/api/states/daily', headers={'User-agent': 'Mozilla/5.0'}).text)
 
 # Rename the appropriate columns
 df = df.rename(columns={
