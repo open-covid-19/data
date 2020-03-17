@@ -41,7 +41,7 @@ df = df.rename(columns={
 })
 
 # This is time series data, get only the last snapshot of each day
-df = df.sort_values('Date').groupby(['Date', 'CountryName', 'Region']).last().reset_index()
+df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'Region']).last().reset_index()
 
 # Get the coordinates for each region
 df = df[df['CountryName'] == 'China'].merge(
