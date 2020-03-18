@@ -7,8 +7,8 @@ The current datasets are:
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
-  - Latitude: floatig point representing the geographic coordinate
-  - Longitude: floatig point representing the geographic coordinate
+  - Latitude: floating point representing the geographic coordinate
+  - Longitude: floating point representing the geographic coordinate
 
 * [China](output/china.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
@@ -17,8 +17,8 @@ The current datasets are:
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
-  - Latitude: floatig point representing the geographic coordinate
-  - Longitude: floatig point representing the geographic coordinate
+  - Latitude: floating point representing the geographic coordinate
+  - Longitude: floating point representing the geographic coordinate
 
 * [USA](output/usa.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
@@ -28,8 +28,8 @@ The current datasets are:
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
   - Tested: total number of tests performed to determine COVID-19 case
-  - Latitude: floatig point representing the geographic coordinate
-  - Longitude: floatig point representing the geographic coordinate
+  - Latitude: floating point representing the geographic coordinate
+  - Longitude: floating point representing the geographic coordinate
 
 ## Analyze the data
 You can find Jupyter Notebooks in the
