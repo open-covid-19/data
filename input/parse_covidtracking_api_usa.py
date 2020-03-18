@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 '''
-This script loads the latest CSV from covidtracking.com website and extracts
-the confirmed cases, deaths and total tests for each state. The output is 
+This script loads the latest JSON from covidtracking.com website and extracts
+the confirmed cases, deaths and total tests for each state. The output is
 saved both in CSV and JSON format under the `output` folder.
 
 Credit to the covidtracking.com team for scraping the data from each state.
@@ -26,8 +26,8 @@ df = pd.read_json(requests.get(
 df = df.rename(columns={
     'date': 'Date',
     'state': 'Region',
-    'positive': 'Confirmed', 
-    'death': 'Deaths', 
+    'positive': 'Confirmed',
+    'death': 'Deaths',
     'total': 'Tested'
 })
 
@@ -46,14 +46,14 @@ df['CountryName'] = 'United States of America'
 # Sort dataset by date + region
 df = df.sort_values(['Date', 'Region'])
 df = df[[
-    'Date', 
-    'Region', 
-    'CountryCode', 
-    'CountryName', 
-    'Confirmed', 
-    'Deaths', 
-    'Tested', 
-    'Latitude', 
+    'Date',
+    'Region',
+    'CountryCode',
+    'CountryName',
+    'Confirmed',
+    'Deaths',
+    # 'Tested', # Considered unreliable data
+    'Latitude',
     'Longitude'
 ]]
 

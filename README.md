@@ -50,16 +50,15 @@ The world data comes from the daily reports at the [ECDC portal][2].
 The XLS file is downloaded and parsed using `scrapy` and `pandas`.
 
 Data for Chinese regions and Italy (see #12) comes from the 
-[DXY scraped dataset][3].
+[DXY scraped dataset][3], which is parsed using `pandas`.
 
 The data is automatically crawled and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
 some additional columns are added, like region-level coordinates.
 
 Before updating the outputs, data is spot-checked using various data sources
-including data from local authorities (like 
-[this one](https://web.archive.org/web/20200314143253/http://www.salute.gov.it/nuovocoronavirus))
-and the [reports from WHO][4].
+including data from local authorities like [Italy's ministry of health][4] and
+the [reports from WHO][4].
 
 ## Update the data
 To update the contents of the [output folder](output), run the following:
@@ -80,4 +79,5 @@ at any cadence without affecting the output.
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu
 [3]: https://github.com/BlankerL/DXY-COVID-19-Data
-[4]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
+[4]: https://web.archive.org/web/20200314143253/http://www.salute.gov.it/nuovocoronavirus
+[5]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
