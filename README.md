@@ -32,14 +32,15 @@ The current datasets are:
   - Longitude: floatig point representing the geographic coordinate
 
 ## Analyze the data
-You can find Jupyter Notebooks in the [analysis folder](input) with examples
+You can find Jupyter Notebooks in the
+[analysis repository](https://github.com/open-covid-19/analysis) with examples
 of how to load and analyze the data. You can use Google Colab if you want to 
 run your analysis without having to install anything in your computer, simply 
-go to this URL: https://colab.research.google.com/github/open-covid-19/data/
+go to this URL: https://colab.research.google.com/github/open-covid-19/analysis
 
 ## Why another dataset?
 This dataset is heavily inspired by the dataset maintained by 
-[Johns Hopkins University][1]. Unfortunately, that dataset is currently 
+[Johns Hopkins University][1]. Unfortunately, that dataset has intermittently
 experiencing maintenance issues and a lot of applications depend on this 
 critical data being available in a timely manner. Further, the true sources
 of data for that dataset are still unclear.
@@ -52,7 +53,7 @@ Data for Chinese regions comes from the daily [WHO situation reports][3],
 which are automatically parsed from their PDF source using `scrapy` and
 `ghostscript`.
 
-The data is automatically crawled and parsed using the scripts found in the 
+The data is automatically crawled and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
 some additional columns are added, like country-level coordinates.
 
@@ -69,8 +70,8 @@ sh input/update_china_data.sh
 sh input/update_usa_data.sh
 ```
 
-Note that this will only fetch the latest report from the WHO and ECDC sources.
-If a report is skipped or amended, manual operation will be required. 
+None of the update scripts depend on previous days' data, and they can be run
+at any cadence without affecting the output.
 
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide
