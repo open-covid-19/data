@@ -10,4 +10,4 @@ python -m scrapy runspider "$BASE_DIR/crawl_ecdc_data.py" 2> /dev/null | \
     python "$BASE_DIR/parse_ecdc_report_world.py"
 
 # Run parser for Italy independently
-python "$BASE_DIR/parse_dxy_api_italy.py"
+python "$BASE_DIR/parse_dxy_api_country.py" "IT"

@@ -9,6 +9,7 @@ Credit to the github.com/BlankerL team for scraping the data from DXY.cn.
 '''
 
 import os
+import sys
 import datetime
 import pandas as pd
 from pathlib import Path
@@ -42,9 +43,14 @@ df = df.rename(columns={
 # This is time series data, get only the last snapshot of each day
 df = df.sort_values('updateTime').groupby(['Date', 'CountryName']).last().reset_index()
 
-# Get the coordinates for each country
-df = df[df['CountryName'] == 'Italy'].merge(
-    pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str), on='CountryName')
+# Get the metadata for each country
+countries = pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str)
+
+# Get the country name of the country code provided as parameter
+country_name = countries.set_index('CountryCode').loc[sys.argv[1], 'CountryName']
+
+# Merge country metadata with the stats from DXY
+df = df[df['CountryName'] == country_name].merge(countries, on='CountryName')
 
 # Merge with the rest of the world's data
 df = pd.concat([df, pd.read_csv(ROOT / 'output' / 'world.csv', dtype=str)], sort=False)
