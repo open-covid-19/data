@@ -2,7 +2,7 @@ import pandas
 from pandas import DataFrame
 from pathlib import Path
 
-def dataframe_output(data: DataFrame, root: Path, name: str):
+def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
     1. Sorts the dataset by date and country / region
@@ -20,14 +20,15 @@ def dataframe_output(data: DataFrame, root: Path, name: str):
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
     meta_name = '%s_regions.csv' % name if 'Region' in data.columns else 'country_coordinates.csv'
     metadata = pandas.read_csv(root / 'input' / meta_name, dtype=str)
-    data = data.merge(metadata)[core_columns + [col for col in metadata.columns if col not in core_columns]]
+    meta_columns = [col for col in metadata.columns
+                    if col not in core_columns and not col.startswith('_')]
+    data = data.merge(metadata, how=metadata_merge)[core_columns + meta_columns]
 
     # Make sure the dataset is properly sorted
     data = data.sort_values(['Date', pivot_columns[0]])
 
     # Make sure the core columns have the right data type
     data['Date'] = data['Date'].astype(str)
-    number_converter = lambda x: None if pandas.isna(x) else int(x)
     data['Confirmed'] = data['Confirmed'].astype(float).astype('Int64')
     data['Deaths'] = data['Deaths'].astype(float).astype('Int64')
     for pivot_column in pivot_columns:

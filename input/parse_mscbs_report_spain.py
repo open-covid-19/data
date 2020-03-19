@@ -5,18 +5,18 @@ import datetime
 from pathlib import Path
 import pandas as pd
 
-from utils import dataframe_to_json
+from utils import dataframe_output
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Get a list of the valid Spain regions
 regions = pd.read_csv(ROOT / 'input' / 'spain_regions.csv', dtype=str)
-region_list = regions['RegionLabel'].unique()
+region_list = regions['_RegionLabel'].unique()
 
 def parse_record(tokens: list):
     return [{
-        'RegionLabel': tokens[0],
+        '_RegionLabel': tokens[0],
         'Confirmed': tokens[1].replace('.', ''),
         'Deaths': tokens[-1].replace('.', '')
     }]
@@ -66,25 +66,13 @@ if not records:
     sys.exit(1)
 
 # Put resulting records into a dataframe
-df = pd.DataFrame.from_records(records).merge(regions, on='RegionLabel')
+df = pd.DataFrame.from_records(records).merge(regions, on='_RegionLabel')
 df['Date'] = date
 
 # Merge the new data with the existing data
-df = pd.concat([df, pd.read_csv(ROOT / 'output' / 'spain.csv', dtype=str)], sort=False).drop_duplicates()
+prev_data = 'https://raw.githubusercontent.com/open-covid-19/data/master/output/spain.csv'
+df = pd.concat([pd.read_csv(prev_data, dtype=str), df], sort=False)
+df = df.set_index(['Date', 'Region']).query('~index.duplicated()').reset_index()
 
-# Sort dataset by date + region
-df = df.sort_values(['Date', 'Region'])
-df = df[['Date', 'Region', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths', 'Latitude', 'Longitude']]
-
-# Extract a subset with only the latest date
-df_latest = pd.DataFrame(columns=list(df.columns))
-for region in sorted(df['Region'].unique()):
-    df_latest = pd.concat([df_latest, df[df['Region'] == region].iloc[-1:]])
-
-# Save dataset in CSV format into output folder
-df.to_csv(ROOT / 'output' / 'spain.csv', index=False)
-df_latest.to_csv(ROOT / 'output' / 'spain_latest.csv', index=False)
-
-# Save dataset in JSON format into output folder
-dataframe_to_json(df, ROOT / 'output' / 'spain.json', orient='records')
-dataframe_to_json(df_latest, ROOT / 'output' / 'spain_latest.json', orient='records')
+# Output the results
+dataframe_output(df, ROOT, 'spain', metadata_merge='left')

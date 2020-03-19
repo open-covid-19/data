@@ -1,4 +1,4 @@
-CountryCode,CountryName,RegionLabel,Region,Latitude,Longitude
+CountryCode,CountryName,_RegionLabel,Region,Latitude,Longitude
 ES,Spain,Andalucía,Andalucía,37.3828,-5.9731
 ES,Spain,Aragón,Aragón,41.6560,-0.8773
 ES,Spain,Asturias,Asturias,43.3602,-5.8447
