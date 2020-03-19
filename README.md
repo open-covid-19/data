@@ -9,6 +9,7 @@ The current datasets are:
   - Deaths: total number of deaths from a positive COVID-19 case
   - Latitude: floating point representing the geographic coordinate
   - Longitude: floating point representing the geographic coordinate
+  - Population: total count of humans living in the country
 
 * [China](output/china_latest.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint

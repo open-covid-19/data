@@ -55,4 +55,4 @@ df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
 df['Deaths'] = df['Deaths'].fillna(0).astype(int)
 
 # Output the results
-dataframe_output(df, ROOT, 'world')
+dataframe_output(df, ROOT, 'world', metadata_merge='left')

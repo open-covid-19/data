@@ -58,9 +58,8 @@ country_name = countries.set_index('CountryCode').loc[country_code, 'CountryName
 # Merge country metadata with the stats from DXY
 df = df[df['CountryName'] == country_name].merge(countries, on='CountryName')
 
-# Merge with the rest of the world's data
-prev_data = 'https://raw.githubusercontent.com/open-covid-19/data/master/output/world.csv'
-df = pd.concat([pd.read_csv(prev_data, dtype=str), df], sort=False)
+# Merge with the rest of the world's data, which must be local
+df = pd.concat([pd.read_csv(ROOT / 'output' / 'world.csv', dtype=str), df], sort=False)
 df = df.set_index(['Date', 'CountryCode']).query('~index.duplicated()').reset_index()
 
 # Fill all of Italy's missing data where numbers did not change
