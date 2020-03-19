@@ -14,6 +14,8 @@ import pandas as pd
 from pathlib import Path
 import requests
 
+from utils import dataframe_to_json
+
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
@@ -67,5 +69,5 @@ df.to_csv(ROOT / 'output' / 'usa.csv', index=False)
 df_latest.to_csv(ROOT / 'output' / 'usa_latest.csv', index=False)
 
 # Save dataset in JSON format into output folder
-df.to_json(ROOT / 'output' / 'usa.json', orient='records')
-df_latest.to_json(ROOT / 'output' / 'usa_latest.json', orient='records')
+dataframe_to_json(df, ROOT / 'output' / 'usa.json', orient='records')
+dataframe_to_json(df_latest, ROOT / 'output' / 'usa_latest.json', orient='records')

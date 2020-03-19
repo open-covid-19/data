@@ -13,6 +13,8 @@ from io import BytesIO
 from pathlib import Path
 import tempfile
 
+from utils import dataframe_to_json
+
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
@@ -69,5 +71,5 @@ df.to_csv(ROOT / 'output' / 'world.csv', index=False)
 df_latest.to_csv(ROOT / 'output' / 'world_latest.csv', index=False)
 
 # Save dataset in JSON format into output folder
-df.to_json(ROOT / 'output' / 'world.json', orient='records')
-df_latest.to_json(ROOT / 'output' / 'world_latest.json', orient='records')
+dataframe_to_json(df, ROOT / 'output' / 'world.json', orient='records')
+dataframe_to_json(df_latest, ROOT / 'output' / 'world_latest.json', orient='records')

@@ -31,6 +31,16 @@ The current datasets are:
   - Latitude: floating point representing the geographic coordinate
   - Longitude: floating point representing the geographic coordinate
 
+* [Spain](output/spain.csv):
+  - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
+  - Region: Local name of the province / state
+  - CountryCode: 2-letter ISO 3166-1 code of the country
+  - CountryName: American English name of the country
+  - Confirmed: total number of cases confirmed after positive test
+  - Deaths: total number of deaths from a positive COVID-19 case
+  - Latitude: floating point representing the geographic coordinate
+  - Longitude: floating point representing the geographic coordinate
+
 ## Analyze the data
 You can find Jupyter Notebooks in the
 [analysis repository](https://github.com/open-covid-19/analysis) with examples
@@ -44,7 +54,7 @@ You can find short-term forecasting in the
 includes a dataset of future predicted confirmed cases as well as a very
 simple webpage that allows users to visualize charts. The webpage is
 automatically updated using Github Actions and Github Pages:
-https://open-covid-19.github.io/forecasting
+https://open-covid-19.github.io/forecasting.
 
 ## Source of data
 The world data comes from the daily reports at the [ECDC portal][2].

@@ -7,7 +7,6 @@ import scrapy
 BASE_URL = 'https://www.ecdc.europa.eu'
 class WhoSpider(scrapy.Spider):
     name = __name__
-    # https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-2020-03-14_1.xls
     start_urls = ['%s/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide' % BASE_URL]
 
     def parse(self, response):

@@ -1,0 +1,20 @@
+Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
+2020-03-19,Andalucía,ES,Spain,1008,23,37.3828,-5.9731
+2020-03-19,Aragón,ES,Spain,281,15,41.6560,-0.8773
+2020-03-19,Asturias,ES,Spain,292,1,43.3602,-5.8447
+2020-03-19,Baleares,ES,Spain,169,2,39.5693,2.6502
+2020-03-19,Cantabria,ES,Spain,83,1,43.4647,-3.8044
+2020-03-19,Castilla La Mancha,ES,Spain,801,42,39.8628,-4.0273
+2020-03-19,Castilla y León,ES,Spain,868,29,41.6523,-4.7245
+2020-03-19,Cataluña,ES,Spain,2702,55,41.3887,2.1590
+2020-03-19,Ceuta,ES,Spain,1,0,35.8893,-5.3198
+2020-03-19,Comunidad Valenciana,ES,Spain,921,24,39.4697,-0.3774
+2020-03-19,Extremadura,ES,Spain,241,8,38.9161,-6.3436
+2020-03-19,Galicia,ES,Spain,453,4,42.2328,-8.7226
+2020-03-19,Islas Canarias,ES,Spain,220,3,28.4682,-16.2546
+2020-03-19,La Rioja,ES,Spain,468,5,42.4667,-2.4500
+2020-03-19,Madrid,ES,Spain,6777,498,40.4165001,-3.7025599
+2020-03-19,Melilla,ES,Spain,23,0,35.2937,-2.9383
+2020-03-19,Murcia,ES,Spain,167,0,37.9870415,-1.13004
+2020-03-19,Navarra,ES,Spain,482,4,42.8169,-1.6432
+2020-03-19,País Vasco,ES,Spain,1190,53,43.2627,-2.9253

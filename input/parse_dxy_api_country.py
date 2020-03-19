@@ -15,6 +15,8 @@ import pandas as pd
 from pathlib import Path
 import requests
 
+from utils import dataframe_to_json
+
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
@@ -71,7 +73,7 @@ for date in sorted(df['Date'].unique()):
 
     for ffill_col in ffill_columns:
         new_row[ffill_col] = last_values[ffill_col]
-       
+
     df = df.append(new_row, ignore_index=True)
 df = df.sort_values(['Date', 'CountryCode'])
 for ffill_col in ffill_columns: df[ffill_col] = df[ffill_col].ffill()
@@ -99,5 +101,5 @@ df.to_csv(ROOT / 'output' / 'world.csv', index=False)
 df_latest.to_csv(ROOT / 'output' / 'world_latest.csv', index=False)
 
 # Save dataset in JSON format into output folder
-df.to_json(ROOT / 'output' / 'world.json', orient='records')
-df_latest.to_json(ROOT / 'output' / 'world_latest.json', orient='records')
+dataframe_to_json(df, ROOT / 'output' / 'world.json', orient='records')
+dataframe_to_json(df_latest, ROOT / 'output' / 'world_latest.json', orient='records')
