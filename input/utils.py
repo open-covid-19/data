@@ -18,12 +18,20 @@ def dataframe_output(data: DataFrame, root: Path, name: str):
 
     # Merge with metadata from appropriate helper dataset
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
-    meta_name = '%s_regions.csv' if 'Region' in data.columns else 'country_coordinates.csv'
+    meta_name = '%s_regions.csv' % name if 'Region' in data.columns else 'country_coordinates.csv'
     metadata = pandas.read_csv(root / 'input' / meta_name, dtype=str)
     data = data.merge(metadata)[core_columns + [col for col in metadata.columns if col not in core_columns]]
 
     # Make sure the dataset is properly sorted
     data = data.sort_values(['Date', 'CountryCode'])
+
+    # Make sure the core columns have the right data type
+    data['Date'] = data['Date'].astype(str)
+    number_converter = lambda x: None if pandas.isna(x) else int(x)
+    data['Confirmed'] = data['Confirmed'].astype(float).astype('Int64')
+    data['Deaths'] = data['Deaths'].astype(float).astype('Int64')
+    for pivot_column in pivot_columns:
+        data[pivot_column] = data[pivot_column].astype(str)
 
     # Output time-series dataset as-is
     data.to_csv(root / 'output' / ('%s.csv' % name), index=False)
