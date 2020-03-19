@@ -1,7 +1,7 @@
 # Open COVID-19 Dataset
 This repo contains free datasets of historical data related to COVID-19.
 The current datasets are:
-* [World](output/world.csv):
+* [World](output/world_latest.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - CountryCode: 2-letter ISO 3166-1 code of the country
   - CountryName: American English name of the country
@@ -10,7 +10,7 @@ The current datasets are:
   - Latitude: floating point representing the geographic coordinate
   - Longitude: floating point representing the geographic coordinate
 
-* [China](output/china.csv):
+* [China](output/china_latest.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - Region: American English name of the province
   - CountryCode: 2-letter ISO 3166-1 code of the country
@@ -20,18 +20,17 @@ The current datasets are:
   - Latitude: floating point representing the geographic coordinate
   - Longitude: floating point representing the geographic coordinate
 
-* [USA](output/usa.csv):
+* [USA](output/usa_latest.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - Region: 2-letter state code (e.g. CA, FL, NY)
   - CountryCode: 2-letter ISO 3166-1 code of the country
   - CountryName: American English name of the country
   - Confirmed: total number of cases confirmed after positive test
   - Deaths: total number of deaths from a positive COVID-19 case
-  - Tested: total number of tests performed to determine COVID-19 case
   - Latitude: floating point representing the geographic coordinate
   - Longitude: floating point representing the geographic coordinate
 
-* [Spain](output/spain.csv):
+* [Spain](output/spain_latest.csv):
   - Date: ISO 8601 date (YYYY-MM-DD) of the datapoint
   - Region: Local name of the province / state
   - CountryCode: 2-letter ISO 3166-1 code of the country

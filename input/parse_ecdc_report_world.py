@@ -13,7 +13,7 @@ from io import BytesIO
 from pathlib import Path
 import tempfile
 
-from utils import dataframe_to_json
+from utils import dataframe_output
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -34,7 +34,7 @@ df['GeoId'] = df['GeoId'].apply(lambda code: 'GB' if code == 'UK' else code)
 
 # Workaround for https://github.com/open-covid-19/data/issues/12
 # ECDC data for Italy is simply wrong, so Italy's data will be parsed from a different source
-df = df[df['GeoId'] != 'IT']
+df = df[(df['GeoId'] != 'IT') & (df['GeoId'] != 'ES')]
 
 # Compute the cumsum of values
 columns = ['DateRep', 'GeoId', 'Confirmed', 'Deaths']
@@ -53,23 +53,5 @@ df = df_
 df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
 df['Deaths'] = df['Deaths'].fillna(0).astype(int)
 
-# Load coordinates and names for each country
-# Data from: https://developers.google.com/public-data/docs/canonical/countries_csv
-df = df.merge(pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str))
-
-# Sort dataset by date + country
-df = df.sort_values(['Date', 'CountryCode'])
-df = df[['Date', 'CountryCode', 'CountryName', 'Confirmed', 'Deaths', 'Latitude', 'Longitude']]
-
-# Extract a subset with only the latest date
-df_latest = pd.DataFrame(columns=list(df.columns))
-for country in sorted(df['CountryCode'].unique()):
-    df_latest = pd.concat([df_latest, df[df['CountryCode'] == country].iloc[-1:]])
-
-# Save dataset in CSV format into output folder
-df.to_csv(ROOT / 'output' / 'world.csv', index=False)
-df_latest.to_csv(ROOT / 'output' / 'world_latest.csv', index=False)
-
-# Save dataset in JSON format into output folder
-dataframe_to_json(df, ROOT / 'output' / 'world.json', orient='records')
-dataframe_to_json(df_latest, ROOT / 'output' / 'world_latest.json', orient='records')
+# Output the results
+dataframe_output(df, ROOT, 'world')
