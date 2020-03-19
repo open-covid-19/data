@@ -34,22 +34,23 @@ The current datasets are:
 ## Analyze the data
 You can find Jupyter Notebooks in the
 [analysis repository](https://github.com/open-covid-19/analysis) with examples
-of how to load and analyze the data. You can use Google Colab if you want to 
-run your analysis without having to install anything in your computer, simply 
-go to this URL: https://colab.research.google.com/github/open-covid-19/analysis
+of how to load and analyze the data. You can use Google Colab if you want to
+run your analysis without having to install anything in your computer, simply
+go to this URL: https://colab.research.google.com/github/open-covid-19/analysis.
 
-## Why another dataset?
-This dataset is heavily inspired by the dataset maintained by 
-[Johns Hopkins University][1]. Unfortunately, that dataset has intermittently
-experiencing maintenance issues and a lot of applications depend on this 
-critical data being available in a timely manner. Further, the true sources
-of data for that dataset are still unclear.
+## Forecasting
+You can find short-term forecasting in the
+[forecasting repository](https://github.com/open-covid-19/forecasting) which
+includes a dataset of future predicted confirmed cases as well as a very
+simple webpage that allows users to visualize charts. The webpage is
+automatically updated using Github Actions and Github Pages:
+https://open-covid-19.github.io/forecasting
 
 ## Source of data
 The world data comes from the daily reports at the [ECDC portal][2].
 The XLS file is downloaded and parsed using `scrapy` and `pandas`.
 
-Data for Chinese regions and Italy (see #12) comes from the 
+Data for Chinese regions and Italy (see [#12][6]) comes from the
 [DXY scraped dataset][3], which is parsed using `pandas`.
 
 The data is automatically crawled and parsed using the scripts found in the
@@ -58,7 +59,14 @@ some additional columns are added, like region-level coordinates.
 
 Before updating the outputs, data is spot-checked using various data sources
 including data from local authorities like [Italy's ministry of health][4] and
-the [reports from WHO][4].
+the [reports from WHO][5].
+
+## Why another dataset?
+This dataset is heavily inspired by the dataset maintained by
+[Johns Hopkins University][1]. Unfortunately, that dataset has intermittently
+experiencing maintenance issues and a lot of applications depend on this
+critical data being available in a timely manner. Further, the true sources
+of data for that dataset are still unclear.
 
 ## Update the data
 To update the contents of the [output folder](output), run the following:
@@ -81,3 +89,4 @@ at any cadence without affecting the output.
 [3]: https://github.com/BlankerL/DXY-COVID-19-Data
 [4]: https://web.archive.org/web/20200314143253/http://www.salute.gov.it/nuovocoronavirus
 [5]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
+[6]: https://github.com/open-covid-19/data/issues/16
