@@ -11,7 +11,7 @@ from utils import dataframe_output
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Get a list of the valid Spain regions
-regions = pd.read_csv(ROOT / 'input' / 'spain_regions.csv', dtype=str)
+regions = pd.read_csv(ROOT / 'input' / 'metadata_spain.csv', dtype=str)
 region_list = regions['_RegionLabel'].unique()
 
 def parse_record(tokens: list):

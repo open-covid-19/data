@@ -18,8 +18,7 @@ def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str
 
     # Merge with metadata from appropriate helper dataset
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
-    meta_name = '%s_regions.csv' % name if 'Region' in data.columns else 'country_coordinates.csv'
-    metadata = pandas.read_csv(root / 'input' / meta_name, dtype=str)
+    metadata = pandas.read_csv(root / 'input' / ('metadata_%s.csv' % name), dtype=str)
     meta_columns = [col for col in metadata.columns
                     if col not in core_columns and not col.startswith('_')]
     data = data.merge(metadata, how=metadata_merge)[core_columns + meta_columns]

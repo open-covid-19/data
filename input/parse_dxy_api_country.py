@@ -50,7 +50,7 @@ df = df.rename(columns={
 df = df.sort_values('updateTime').groupby(['Date', 'CountryName']).last().reset_index()
 
 # Get the metadata for each country
-countries = pd.read_csv(ROOT / 'input' / 'country_coordinates.csv', dtype=str)
+countries = pd.read_csv(ROOT / 'input' / 'metadata_world.csv', dtype=str)
 
 # Get the country name of the country code provided as parameter
 country_name = countries.set_index('CountryCode').loc[country_code, 'CountryName']
@@ -59,7 +59,9 @@ country_name = countries.set_index('CountryCode').loc[country_code, 'CountryName
 df = df[df['CountryName'] == country_name].merge(countries, on='CountryName')
 
 # Merge with the rest of the world's data
-df = pd.concat([df, pd.read_csv(ROOT / 'output' / 'world.csv', dtype=str)], sort=False)
+prev_data = 'https://raw.githubusercontent.com/open-covid-19/data/master/output/world.csv'
+df = pd.concat([pd.read_csv(prev_data, dtype=str), df], sort=False)
+df = df.set_index(['Date', 'CountryCode']).query('~index.duplicated()').reset_index()
 
 # Fill all of Italy's missing data where numbers did not change
 ffill_columns = ('Confirmed', 'Deaths')
