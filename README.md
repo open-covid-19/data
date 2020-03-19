@@ -89,6 +89,8 @@ sh input/update_world_data.sh
 sh input/update_china_data.sh
 # Update USA data
 sh input/update_usa_data.sh
+# Update Spain data
+sh input/update_spain_data.sh
 ```
 
 None of the update scripts depend on previous days' data, and they can be run
