@@ -14,7 +14,7 @@ import pandas as pd
 from pathlib import Path
 import requests
 
-from utils import dataframe_to_json
+from utils import dataframe_output
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -41,33 +41,8 @@ for col in ('Confirmed', 'Deaths', 'Tested'):
 df['Date'] = df['Date'].apply(
     lambda date: datetime.datetime.strptime(str(date), '%Y%m%d').strftime('%Y-%m-%d'))
 
-# Get the coordinates for each region
-df = df.merge(pd.read_csv(ROOT / 'input' / 'usa_regions.csv'))
+# Inclide the country name in the data
 df['CountryName'] = 'United States of America'
 
-# Sort dataset by date + region
-df = df.sort_values(['Date', 'Region'])
-df = df[[
-    'Date',
-    'Region',
-    'CountryCode',
-    'CountryName',
-    'Confirmed',
-    'Deaths',
-    # 'Tested', # Considered unreliable data
-    'Latitude',
-    'Longitude'
-]]
-
-# Extract a subset with only the latest date
-df_latest = pd.DataFrame(columns=list(df.columns))
-for country in df['Region'].unique():
-    df_latest = pd.concat([df_latest, df[df['Region'] == country].iloc[-1:]])
-
-# Save dataset in CSV format into output folder
-df.to_csv(ROOT / 'output' / 'usa.csv', index=False)
-df_latest.to_csv(ROOT / 'output' / 'usa_latest.csv', index=False)
-
-# Save dataset in JSON format into output folder
-dataframe_to_json(df, ROOT / 'output' / 'usa.json', orient='records')
-dataframe_to_json(df_latest, ROOT / 'output' / 'usa_latest.json', orient='records')
+# Output the results
+dataframe_output(df, ROOT, 'usa')

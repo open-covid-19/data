@@ -101,7 +101,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-07,MS,US,United States of America,0,,32.7416,-89.6787
 2020-03-07,MT,US,United States of America,0,,46.9219,-110.4544
 2020-03-07,NC,US,United States of America,2,,35.6301,-79.8064
-2020-03-07,ND,US,United States of America,0,,47.5289,-99.78399999999999
+2020-03-07,ND,US,United States of America,0,,47.5289,-99.784
 2020-03-07,NE,US,United States of America,1,,41.3148,-96.1951
 2020-03-07,NH,US,United States of America,2,,42.9931,-71.0498
 2020-03-07,NJ,US,United States of America,4,,40.2989,-74.521
@@ -152,7 +152,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-08,MS,US,United States of America,0,,32.7416,-89.6787
 2020-03-08,MT,US,United States of America,0,,46.9219,-110.4544
 2020-03-08,NC,US,United States of America,2,,35.6301,-79.8064
-2020-03-08,ND,US,United States of America,0,,47.5289,-99.78399999999999
+2020-03-08,ND,US,United States of America,0,,47.5289,-99.784
 2020-03-08,NE,US,United States of America,1,,41.3148,-96.1951
 2020-03-08,NH,US,United States of America,4,,42.9931,-71.0498
 2020-03-08,NJ,US,United States of America,6,,40.2989,-74.521
@@ -203,7 +203,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-09,MS,US,United States of America,0,,32.7416,-89.6787
 2020-03-09,MT,US,United States of America,0,,46.9219,-110.4544
 2020-03-09,NC,US,United States of America,2,,35.6301,-79.8064
-2020-03-09,ND,US,United States of America,0,,47.5289,-99.78399999999999
+2020-03-09,ND,US,United States of America,0,,47.5289,-99.784
 2020-03-09,NE,US,United States of America,3,,41.3148,-96.1951
 2020-03-09,NH,US,United States of America,4,,42.9931,-71.0498
 2020-03-09,NJ,US,United States of America,11,,40.2989,-74.521
@@ -254,7 +254,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-10,MS,US,United States of America,0,,32.7416,-89.6787
 2020-03-10,MT,US,United States of America,0,,46.9219,-110.4544
 2020-03-10,NC,US,United States of America,7,,35.6301,-79.8064
-2020-03-10,ND,US,United States of America,0,,47.5289,-99.78399999999999
+2020-03-10,ND,US,United States of America,0,,47.5289,-99.784
 2020-03-10,NE,US,United States of America,3,,41.3148,-96.1951
 2020-03-10,NH,US,United States of America,4,,42.9931,-71.0498
 2020-03-10,NJ,US,United States of America,15,,40.2989,-74.521
@@ -305,7 +305,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-11,MS,US,United States of America,0,,32.7416,-89.6787
 2020-03-11,MT,US,United States of America,0,,46.9219,-110.4544
 2020-03-11,NC,US,United States of America,7,,35.6301,-79.8064
-2020-03-11,ND,US,United States of America,0,,47.5289,-99.78399999999999
+2020-03-11,ND,US,United States of America,0,,47.5289,-99.784
 2020-03-11,NE,US,United States of America,5,,41.3148,-96.1951
 2020-03-11,NH,US,United States of America,4,,42.9931,-71.0498
 2020-03-11,NJ,US,United States of America,24,1,40.2989,-74.521
@@ -356,7 +356,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-12,MS,US,United States of America,1,,32.7416,-89.6787
 2020-03-12,MT,US,United States of America,1,,46.9219,-110.4544
 2020-03-12,NC,US,United States of America,12,,35.6301,-79.8064
-2020-03-12,ND,US,United States of America,1,,47.5289,-99.78399999999999
+2020-03-12,ND,US,United States of America,1,,47.5289,-99.784
 2020-03-12,NE,US,United States of America,10,,41.3148,-96.1951
 2020-03-12,NH,US,United States of America,6,,42.9931,-71.0498
 2020-03-12,NJ,US,United States of America,30,1,40.2989,-74.521
@@ -407,7 +407,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-13,MS,US,United States of America,4,,32.7416,-89.6787
 2020-03-13,MT,US,United States of America,1,,46.9219,-110.4544
 2020-03-13,NC,US,United States of America,15,,35.6301,-79.8064
-2020-03-13,ND,US,United States of America,1,0,47.5289,-99.78399999999999
+2020-03-13,ND,US,United States of America,1,0,47.5289,-99.784
 2020-03-13,NE,US,United States of America,13,,41.3148,-96.1951
 2020-03-13,NH,US,United States of America,6,,42.9931,-71.0498
 2020-03-13,NJ,US,United States of America,50,1,40.2989,-74.521
@@ -458,7 +458,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-14,MS,US,United States of America,6,,32.7416,-89.6787
 2020-03-14,MT,US,United States of America,5,,46.9219,-110.4544
 2020-03-14,NC,US,United States of America,23,,35.6301,-79.8064
-2020-03-14,ND,US,United States of America,1,0,47.5289,-99.78399999999999
+2020-03-14,ND,US,United States of America,1,0,47.5289,-99.784
 2020-03-14,NE,US,United States of America,14,,41.3148,-96.1951
 2020-03-14,NH,US,United States of America,7,,42.9931,-71.0498
 2020-03-14,NJ,US,United States of America,50,1,40.2989,-74.521
@@ -509,7 +509,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-15,MS,US,United States of America,10,,32.7416,-89.6787
 2020-03-15,MT,US,United States of America,7,,46.9219,-110.4544
 2020-03-15,NC,US,United States of America,32,,35.6301,-79.8064
-2020-03-15,ND,US,United States of America,1,0,47.5289,-99.78399999999999
+2020-03-15,ND,US,United States of America,1,0,47.5289,-99.784
 2020-03-15,NE,US,United States of America,17,,41.3148,-96.1951
 2020-03-15,NH,US,United States of America,13,,42.9931,-71.0498
 2020-03-15,NJ,US,United States of America,98,2,40.2989,-74.521
@@ -560,7 +560,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-16,MS,US,United States of America,12,,32.7416,-89.6787
 2020-03-16,MT,US,United States of America,7,,46.9219,-110.4544
 2020-03-16,NC,US,United States of America,33,0,35.6301,-79.8064
-2020-03-16,ND,US,United States of America,1,0,47.5289,-99.78399999999999
+2020-03-16,ND,US,United States of America,1,0,47.5289,-99.784
 2020-03-16,NE,US,United States of America,18,,41.3148,-96.1951
 2020-03-16,NH,US,United States of America,13,,42.9931,-71.0498
 2020-03-16,NJ,US,United States of America,178,2,40.2989,-74.521
@@ -611,7 +611,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-17,MS,US,United States of America,21,,32.7416,-89.6787
 2020-03-17,MT,US,United States of America,8,,46.9219,-110.4544
 2020-03-17,NC,US,United States of America,40,0,35.6301,-79.8064
-2020-03-17,ND,US,United States of America,3,0,47.5289,-99.78399999999999
+2020-03-17,ND,US,United States of America,3,0,47.5289,-99.784
 2020-03-17,NE,US,United States of America,21,,41.3148,-96.1951
 2020-03-17,NH,US,United States of America,17,,42.9931,-71.0498
 2020-03-17,NJ,US,United States of America,267,3,40.2989,-74.521
@@ -662,7 +662,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-18,MS,US,United States of America,34,,32.7416,-89.6787
 2020-03-18,MT,US,United States of America,10,,46.9219,-110.4544
 2020-03-18,NC,US,United States of America,63,0,35.6301,-79.8064
-2020-03-18,ND,US,United States of America,6,0,47.5289,-99.78399999999999
+2020-03-18,ND,US,United States of America,6,0,47.5289,-99.784
 2020-03-18,NE,US,United States of America,24,,41.3148,-96.1951
 2020-03-18,NH,US,United States of America,26,,42.9931,-71.0498
 2020-03-18,NJ,US,United States of America,427,5,40.2989,-74.521
@@ -713,7 +713,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-19,MS,US,United States of America,50,,32.7416,-89.6787
 2020-03-19,MT,US,United States of America,12,,46.9219,-110.4544
 2020-03-19,NC,US,United States of America,97,0,35.6301,-79.8064
-2020-03-19,ND,US,United States of America,15,0,47.5289,-99.78399999999999
+2020-03-19,ND,US,United States of America,15,0,47.5289,-99.784
 2020-03-19,NE,US,United States of America,27,0,41.3148,-96.1951
 2020-03-19,NH,US,United States of America,39,,42.9931,-71.0498
 2020-03-19,NJ,US,United States of America,742,9,40.2989,-74.521
