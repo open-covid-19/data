@@ -23,7 +23,7 @@ def dataframe_output(data: DataFrame, root: Path, name: str):
     data = data.merge(metadata)[core_columns + [col for col in metadata.columns if col not in core_columns]]
 
     # Make sure the dataset is properly sorted
-    data = data.sort_values(['Date', 'CountryCode'])
+    data = data.sort_values(['Date', pivot_columns[0]])
 
     # Make sure the core columns have the right data type
     data['Date'] = data['Date'].astype(str)
