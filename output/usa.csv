@@ -74,12 +74,12 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-06,WI,US,United States of America,1,,43.0186,-89.5498
 2020-03-06,WV,US,United States of America,0,,38.4912,-80.9545
 2020-03-07,AK,US,United States of America,0,,61.3707,-152.4044
-2020-03-07,AL,US,United States of America,,,32.3182,-86.9023
+2020-03-07,AL,US,United States of America,0,,32.3182,-86.9023
 2020-03-07,AR,US,United States of America,0,,34.9697,-92.3731
 2020-03-07,AZ,US,United States of America,5,,33.7298,-111.4312
 2020-03-07,CA,US,United States of America,69,,36.1162,-119.6816
 2020-03-07,CO,US,United States of America,8,,39.0598,-105.3111
-2020-03-07,CT,US,United States of America,,,41.5978,-72.7554
+2020-03-07,CT,US,United States of America,0,,41.5978,-72.7554
 2020-03-07,DC,US,United States of America,0,,38.8974,-77.0268
 2020-03-07,DE,US,United States of America,0,,39.3185,-75.5071
 2020-03-07,FL,US,United States of America,14,,27.7663,-81.6868
@@ -305,7 +305,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-11,MS,US,United States of America,0,,32.7416,-89.6787
 2020-03-11,MT,US,United States of America,0,,46.9219,-110.4544
 2020-03-11,NC,US,United States of America,7,,35.6301,-79.8064
-2020-03-11,ND,US,United States of America,,,47.5289,-99.78399999999999
+2020-03-11,ND,US,United States of America,0,,47.5289,-99.78399999999999
 2020-03-11,NE,US,United States of America,5,,41.3148,-96.1951
 2020-03-11,NH,US,United States of America,4,,42.9931,-71.0498
 2020-03-11,NJ,US,United States of America,24,1,40.2989,-74.521
@@ -326,7 +326,7 @@ Date,Region,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
 2020-03-11,VT,US,United States of America,1,,44.0459,-72.7107
 2020-03-11,WA,US,United States of America,267,24,47.4009,-121.4905
 2020-03-11,WI,US,United States of America,3,,43.0186,-89.5498
-2020-03-11,WV,US,United States of America,,,38.4912,-80.9545
+2020-03-11,WV,US,United States of America,0,,38.4912,-80.9545
 2020-03-11,WY,US,United States of America,0,,42.756,-107.3025
 2020-03-12,AK,US,United States of America,0,,61.3707,-152.4044
 2020-03-12,AL,US,United States of America,0,,32.3182,-86.9023
