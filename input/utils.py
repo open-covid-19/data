@@ -45,7 +45,7 @@ def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str
     latest.to_csv(root / 'output' / ('%s_latest.csv' % name), index=False)
     dataframe_to_json(latest, root / 'output' / ('%s_latest.json' % name), orient='records')
 
-
 def dataframe_to_json(data: DataFrame, path: Path, **kwargs):
+    ''' Saves a pandas DataFrame into a UTF-8 encoded JSON file '''
     with open(path, 'w', encoding='UTF-8') as file:
         data.to_json(file, force_ascii=False, **kwargs)

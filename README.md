@@ -3,7 +3,9 @@ This repo contains free datasets of historical data related to COVID-19.
 
 ## Explore the data
 A simple visualization tool was built to explore the Open COVID-19 datasets:
-https://open-covid-19.github.io/explorer/
+https://open-covid-19.github.io/explorer/.
+
+![Explorer Screenshot](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)
 
 ## Understand the data
 The current datasets and their respective columns are:
