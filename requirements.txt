@@ -1,4 +1,4 @@
-pandas==0.25.1
+pandas==1.0.3
 Scrapy==2.0.0
 xlrd==1.2.0
 requests==2.23

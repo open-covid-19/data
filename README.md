@@ -119,10 +119,17 @@ critical data being available in a timely manner. Further, the true sources
 of data for that dataset are still unclear.
 
 ## Update the data
-To update the contents of the [output folder](output), run the following:
+To update the contents of the [output folder](output), first install the
+dependencies:
 ```sh
-# Install dependencies
+# Install Ghostscript
+apt-get install -y ghostscript
+# Install Python dependencies
 pip install -r requirements.txt
+```
+
+Then run the following scripts to update each dataset:
+```sh
 # Update world data
 sh input/update_world_data.sh
 # Update China data
