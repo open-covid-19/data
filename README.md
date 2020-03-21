@@ -85,6 +85,12 @@ The current datasets and their respective columns are:
 | **Population** | Total count of humans living in the region | TODO |
 | **Region** | DEPRECATED | DEPRECATED |
 
+#### Backwards compatibility
+Please note that the following datasets are maintained only to preserve
+backwards compatibility, but shouldn't be used in any new projects:
+* [USA (deprecated version)](output/usa_latest.csv)
+* [China (deprecated version)](output/china_latest.csv)
+
 ## Analyze the data
 You may also want to load the data and perform your own analysis on it.
 You can find Jupyter Notebooks in the
