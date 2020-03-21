@@ -7,49 +7,6 @@ https://open-covid-19.github.io/explorer/.
 
 ![Explorer Screenshot](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)
 
-## Understand the data
-The current datasets and their respective columns are:
-
-* [World](output/world_latest.csv):
-  - **Date**: ISO 8601 date (YYYY-MM-DD) of the datapoint
-  - **CountryCode**: 2-letter ISO 3166-1 code of the country
-  - **CountryName**: American English name of the country
-  - **Confirmed**: total number of cases confirmed after positive test
-  - **Deaths**: total number of deaths from a positive COVID-19 case
-  - **Latitude**: floating point representing the geographic coordinate
-  - **Longitude**: floating point representing the geographic coordinate
-  - **Population**: total count of humans living in the country
-
-* [China](output/china_latest.csv):
-  - **Date**: ISO 8601 date (YYYY-MM-DD) of the datapoint
-  - **Region**: American English name of the province
-  - **CountryCode**: 2-letter ISO 3166-1 code of the country
-  - **CountryName**: American English name of the country
-  - **Confirmed**: total number of cases confirmed after positive test
-  - **Deaths**: total number of deaths from a positive COVID-19 case
-  - **Latitude**: floating point representing the geographic coordinate
-  - **Longitude**: floating point representing the geographic coordinate
-
-* [USA](output/usa_latest.csv):
-  - **Date**: ISO 8601 date (YYYY-MM-DD) of the datapoint
-  - **Region**: 2-letter state code (e.g. CA, FL, NY)
-  - **CountryCode**: 2-letter ISO 3166-1 code of the country
-  - **CountryName**: American English name of the country
-  - **Confirmed**: total number of cases confirmed after positive test
-  - **Deaths**: total number of deaths from a positive COVID-19 case
-  - **Latitude**: floating point representing the geographic coordinate
-  - **Longitude**: floating point representing the geographic coordinate
-
-* [Spain](output/spain_latest.csv):
-  - **Date**: ISO 8601 date (YYYY-MM-DD) of the datapoint
-  - **Region**: Local name of the province / state
-  - **CountryCode**: 2-letter ISO 3166-1 code of the country
-  - **CountryName**: American English name of the country
-  - **Confirmed**: total number of cases confirmed after positive test
-  - **Deaths**: total number of deaths from a positive COVID-19 case
-  - **Latitude**: floating point representing the geographic coordinate
-  - **Longitude**: floating point representing the geographic coordinate
-
 ## Use the data
 The data is available as CSV and JSON files, which are published in Github
 Pages so they can be served directly to Javascript applications without the
@@ -57,29 +14,76 @@ need of a proxy to set the correct headers for CORS and content type. Each
 dataset has a version with all historical data, and another version with only
 the latest daily data. The datasets currently available are:
 
-* **World**
-  - [Historical CSV](https://open-covid-19.github.io/data/world.csv)
-  - [Historical JSON](https://open-covid-19.github.io/data/world.json)
-  - [Latest CSV](https://open-covid-19.github.io/data/world_latest.csv)
-  - [Latest JSON](https://open-covid-19.github.io/data/world_latest.json)
+| Dataset | CSV URL | JSON URL |
+| ------- | ------- | -------- |
+| World | [Latest](https://open-covid-19.github.io/data/world_latest.csv), [Historical](https://open-covid-19.github.io/data/world.csv) | [Latest](https://open-covid-19.github.io/data/world_latest.json), [Historical](https://open-covid-19.github.io/data/world.json) |
+| China | [Latest](https://open-covid-19.github.io/data/cn_latest.csv), [Historical](https://open-covid-19.github.io/data/cn.csv) | [Latest](https://open-covid-19.github.io/data/cn_latest.json), [Historical](https://open-covid-19.github.io/data/cn.json) |
+| United States of America | [Latest](https://open-covid-19.github.io/data/us_latest.csv), [Historical](https://open-covid-19.github.io/data/usa.csv) | [Latest](https://open-covid-19.github.io/data/us_latest.json), [Historical](https://open-covid-19.github.io/data/usa.json) |
+| Spain | [Latest](https://open-covid-19.github.io/data/es_latest.csv), [Historical](https://open-covid-19.github.io/data/es.csv) | [Latest](https://open-covid-19.github.io/data/es_latest.json), [Historical](https://open-covid-19.github.io/data/es.json) |
 
-* **China**
-  - [Historical CSV](https://open-covid-19.github.io/data/china.csv)
-  - [Historical JSON](https://open-covid-19.github.io/data/china.json)
-  - [Latest CSV](https://open-covid-19.github.io/data/china_latest.csv)
-  - [Latest JSON](https://open-covid-19.github.io/data/china_latest.json)
+## Understand the data
+The current datasets and their respective columns are:
 
-* **USA**
-  - [Historical CSV](https://open-covid-19.github.io/data/usa.csv)
-  - [Historical JSON](https://open-covid-19.github.io/data/usa.json)
-  - [Latest CSV](https://open-covid-19.github.io/data/usa_latest.csv)
-  - [Latest JSON](https://open-covid-19.github.io/data/usa_latest.json)
+#### [World](output/world_latest.csv)
 
-* **Spain**
-  - [Historical CSV](https://open-covid-19.github.io/data/spain.csv)
-  - [Historical JSON](https://open-covid-19.github.io/data/spain.json)
-  - [Latest CSV](https://open-covid-19.github.io/data/spain_latest.csv)
-  - [Latest JSON](https://open-covid-19.github.io/data/spain_latest.json)
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
+| **CountryCode** | ISO 3166-1 code of the country | ES |
+| **CountryName** | American English name of the country | Spain |
+| **Confirmed** | Total number of cases confirmed after positive test | 19980 |
+| **Deaths** | Total number of deaths from a positive COVID-19 case | 1002 |
+| **Latitude** | Floating point representing the geographic coordinate | 40.463667 |
+| **Longitude** | Floating point representing the geographic coordinate | -3.74922 |
+| **Population** | Total count of humans living in the country | 46736776 |
+
+#### [China](output/cn_latest.csv)
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
+| **RegionCode** | ISO 3166-2 code of the region | HB |
+| **RegionName** | American English name of the region | Hubei |
+| **CountryCode** | ISO 3166-1 code of the country | CN |
+| **CountryName** | American English name of the country | China |
+| **Confirmed** | Total number of cases confirmed after positive test | 67800 |
+| **Deaths** | Total number of deaths from a positive COVID-19 case | 3139 |
+| **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
+| **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
+| **Population** | Total count of humans living in the region | TODO |
+| **Region** | DEPRECATED | DEPRECATED |
+
+#### [United States of America](output/us_latest.csv)
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-20 |
+| **RegionCode** | ISO 3166-2 code of the region | CA |
+| **RegionName** | American English name of the region | California |
+| **CountryCode** | ISO 3166-1 code of the country | US |
+| **CountryName** | American English name of the country | United States of America |
+| **Confirmed** | Total number of cases confirmed after positive test | 1063 |
+| **Deaths** | Total number of deaths from a positive COVID-19 case | 20 |
+| **Latitude** | Floating point representing the geographic coordinate | 36.1162 |
+| **Longitude** | Floating point representing the geographic coordinate | -119.6816 |
+| **Population** | Total count of humans living in the region | TODO |
+| **Region** | DEPRECATED | DEPRECATED |
+
+#### [Spain](output/es_latest.csv)
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-20 |
+| **RegionCode** | ISO 3166-2 code of the region | AN |
+| **RegionName** | Spanish name of the region | Andalucía |
+| **CountryCode** | ISO 3166-1 code of the country | ES |
+| **CountryName** | American English name of the country | Spain |
+| **Confirmed** | Total number of cases confirmed after positive test | 1287 |
+| **Deaths** | Total number of deaths from a positive COVID-19 case | 30 |
+| **Latitude** | Floating point representing the geographic coordinate | 37.3828 |
+| **Longitude** | Floating point representing the geographic coordinate | -5.9731 |
+| **Population** | Total count of humans living in the region | TODO |
+| **Region** | DEPRECATED | DEPRECATED |
 
 ## Analyze the data
 You may also want to load the data and perform your own analysis on it.
@@ -133,11 +137,11 @@ Then run the following scripts to update each dataset:
 # Update world data
 sh input/update_world_data.sh
 # Update China data
-sh input/update_china_data.sh
+sh input/update_data_cn.sh
 # Update USA data
-sh input/update_usa_data.sh
+sh input/update_data_us.sh
 # Update Spain data
-sh input/update_spain_data.sh
+sh input/update_data_es.sh
 ```
 
 [1]: https://github.com/CSSEGISandData/COVID-19

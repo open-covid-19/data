@@ -36,7 +36,7 @@ df['Date'] = df['updateTime'].apply(timezone_adjust)
 # Rename the appropriate columns
 df = df.rename(columns={
     'countryEnglishName': 'CountryName',
-    'provinceEnglishName': 'Region',
+    'provinceEnglishName': 'RegionName',
     'province_confirmedCount': 'Confirmed',
     'province_deadCount': 'Deaths',
     'province_curedCount': 'Recovered'
@@ -46,7 +46,7 @@ df = df.rename(columns={
 df = df[df['CountryName'] == 'China']
 
 # This is time series data, get only the last snapshot of each day
-df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'Region']).last().reset_index()
+df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'RegionName']).last().reset_index()
 
 # Output the results
-dataframe_output(df, ROOT, 'china')
+dataframe_output(df, ROOT, 'cn')

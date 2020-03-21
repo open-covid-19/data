@@ -11,7 +11,7 @@ from utils import dataframe_output
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Get a list of the valid Spain regions
-regions = pd.read_csv(ROOT / 'input' / 'metadata_spain.csv', dtype=str)
+regions = pd.read_csv(ROOT / 'input' / 'metadata_es.csv', dtype=str)
 region_list = regions['_RegionLabel'].unique()
 
 def parse_record(tokens: list):
@@ -70,9 +70,9 @@ df = pd.DataFrame.from_records(records).merge(regions, on='_RegionLabel')
 df['Date'] = date
 
 # Merge the new data with the existing data
-prev_data = 'https://raw.githubusercontent.com/open-covid-19/data/master/output/spain.csv'
+prev_data = 'https://raw.githubusercontent.com/open-covid-19/data/master/output/es.csv'
 df = pd.concat([pd.read_csv(prev_data, dtype=str), df], sort=False)
-df = df.set_index(['Date', 'Region']).query('~index.duplicated()').reset_index()
+df = df.set_index(['Date', 'RegionCode']).query('~index.duplicated()').reset_index()
 
 # Output the results
-dataframe_output(df, ROOT, 'spain', metadata_merge='left')
+dataframe_output(df, ROOT, 'es', metadata_merge='left')

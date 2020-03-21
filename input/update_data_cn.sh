@@ -5,4 +5,4 @@ set -xe
 # our local dataset with the changes.
 
 BASE_DIR=`dirname "$0"`
-python "$BASE_DIR/parse_dxy_api_china.py"
+python "$BASE_DIR/parse_dxy_api_cn.py"

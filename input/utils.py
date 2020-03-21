@@ -2,6 +2,19 @@ import pandas
 from pandas import DataFrame
 from pathlib import Path
 
+def _pivot_columns(data: DataFrame):
+    ''' Gets the pivot columns in the right order from this dataframe '''
+    pivot_columns = []
+    if 'RegionCode' in data.columns: pivot_columns += ['RegionCode']
+    if 'RegionName' in data.columns: pivot_columns += ['RegionName']
+    if 'CountryCode' in data.columns: pivot_columns += ['CountryCode']
+    if 'CountryName' in data.columns: pivot_columns += ['CountryName']
+    return pivot_columns
+
+def _core_columns(data: DataFrame, pivot_columns: list):
+    ''' Gets the core columns in the right order from this dataframe '''
+    return ['Date'] + pivot_columns + ['Confirmed', 'Deaths']
+
 def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
@@ -10,11 +23,9 @@ def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str
     3. Outputs dataset as CSV and JSON to output/<name>.csv and output/<name>.json
     4. Outputs dataset as CSV and JSON to output/<name>_latest.csv and output/<name>_latest.json
     '''
-    pivot_columns = ['CountryCode', 'CountryName']
-    if 'Region' in data.columns: pivot_columns = ['Region'] + pivot_columns
-
-    # Core columns are those that appear in all datasets
-    core_columns = ['Date'] + pivot_columns + ['Confirmed', 'Deaths']
+    # Core columns are those that appear in all datasets and can be used for merging with metadata
+    pivot_columns = _pivot_columns(data)
+    core_columns = _core_columns(data, pivot_columns)
 
     # Merge with metadata from appropriate helper dataset
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
@@ -24,7 +35,7 @@ def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str
     data = data.merge(metadata, how=metadata_merge)[core_columns + meta_columns]
 
     # Make sure the dataset is properly sorted
-    data = data.sort_values(['Date', pivot_columns[0]])
+    data = data.sort_values(['Date', *pivot_columns])
 
     # Make sure the core columns have the right data type
     data['Date'] = data['Date'].astype(str)
@@ -32,6 +43,11 @@ def dataframe_output(data: DataFrame, root: Path, name: str, metadata_merge: str
     data['Deaths'] = data['Deaths'].astype(float).astype('Int64')
     for pivot_column in pivot_columns:
         data[pivot_column] = data[pivot_column].astype(str)
+
+    # Preserve the order of the core columns, which must be recomputed after merging with metadata
+    core_columns = _core_columns(data, _pivot_columns(data))
+    extra_columns = [col for col in data.columns if col not in core_columns]
+    data = data[core_columns + extra_columns]
 
     # Output time-series dataset as-is
     data.to_csv(root / 'output' / ('%s.csv' % name), index=False)

@@ -27,22 +27,15 @@ df = pd.read_json(requests.get(
 # Rename the appropriate columns
 df = df.rename(columns={
     'date': 'Date',
-    'state': 'Region',
+    'state': 'RegionCode',
     'positive': 'Confirmed',
     'death': 'Deaths',
     'total': 'Tested'
 })
 
-# Null values are not the same as zero, make sure all numbers are string objects
-for col in ('Confirmed', 'Deaths', 'Tested'):
-    df[col] = df[col].dropna().astype(int).astype(str)
-
 # Convert date to ISO format
 df['Date'] = df['Date'].apply(
-    lambda date: datetime.datetime.strptime(str(date), '%Y%m%d').strftime('%Y-%m-%d'))
-
-# Inclide the country name in the data
-df['CountryName'] = 'United States of America'
+    lambda date: datetime.datetime.strptime(str(date), '%Y%m%d').date().isoformat())
 
 # Output the results
-dataframe_output(df, ROOT, 'usa')
+dataframe_output(df, ROOT, 'us')
