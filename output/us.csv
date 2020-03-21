@@ -1,789 +1,840 @@
-Date,RegionCode,RegionName,CountryCode,CountryName,Confirmed,Deaths,Latitude,Longitude
-2020-03-04,AZ,Arizona,US,United States of America,2,,33.7298,-111.4312
-2020-03-04,CA,California,US,United States of America,53,,36.1162,-119.6816
-2020-03-04,FL,Florida,US,United States of America,2,,27.7663,-81.6868
-2020-03-04,GA,Georgia,US,United States of America,2,,33.0406,-83.6431
-2020-03-04,IL,Illinois,US,United States of America,4,,40.3495,-88.9861
-2020-03-04,MA,Massachusetts,US,United States of America,2,,42.2302,-71.5301
-2020-03-04,NC,North Carolina,US,United States of America,1,,35.6301,-79.8064
-2020-03-04,NH,New Hampshire,US,United States of America,2,,42.9931,-71.0498
-2020-03-04,NY,New York,US,United States of America,6,,42.1657,-74.9481
-2020-03-04,OR,Oregon,US,United States of America,3,,43.1261,-123.2492
-2020-03-04,SC,South Caroline,US,United States of America,0,,33.8569,-80.945
-2020-03-04,TX,Texas,US,United States of America,1,,31.0545,-97.5635
-2020-03-04,WA,Washington,US,United States of America,39,,47.4009,-121.4905
-2020-03-04,WI,Wisconsin,US,United States of America,1,,43.0186,-89.5498
-2020-03-05,AZ,Arizona,US,United States of America,2,,33.7298,-111.4312
-2020-03-05,CA,California,US,United States of America,53,,36.1162,-119.6816
-2020-03-05,CO,Colorado,US,United States of America,0,,39.0598,-105.3111
-2020-03-05,DC,District of Columbia,US,United States of America,0,,38.8974,-77.0268
-2020-03-05,FL,Florida,US,United States of America,9,,27.7663,-81.6868
-2020-03-05,GA,Georgia,US,United States of America,2,,33.0406,-83.6431
-2020-03-05,IL,Illinois,US,United States of America,5,,40.3495,-88.9861
-2020-03-05,MA,Massachusetts,US,United States of America,2,,42.2302,-71.5301
-2020-03-05,MD,Maryland,US,United States of America,0,,39.0639,-76.8021
-2020-03-05,MI,Michigan,US,United States of America,0,,43.3266,-84.5361
-2020-03-05,NC,North Carolina,US,United States of America,1,,35.6301,-79.8064
-2020-03-05,NE,Nebraska,US,United States of America,0,,41.3148,-96.1951
-2020-03-05,NH,New Hampshire,US,United States of America,2,,42.9931,-71.0498
-2020-03-05,NJ,New Jersey,US,United States of America,1,,40.2989,-74.521
-2020-03-05,NV,Nevada,US,United States of America,1,,38.3135,-117.0554
-2020-03-05,NY,New York,US,United States of America,22,,42.1657,-74.9481
-2020-03-05,OH,Ohio,US,United States of America,0,,40.3888,-82.7649
-2020-03-05,OR,Oregon,US,United States of America,3,,43.1261,-123.2492
-2020-03-05,SC,South Caroline,US,United States of America,0,,33.8569,-80.945
-2020-03-05,TN,Tennessee,US,United States of America,1,,35.7478,-86.6923
-2020-03-05,TX,Texas,US,United States of America,1,,31.0545,-97.5635
-2020-03-05,VA,Virginia,US,United States of America,0,,37.7693,-78.17
-2020-03-05,WA,Washington,US,United States of America,70,,47.4009,-121.4905
-2020-03-05,WI,Wisconsin,US,United States of America,1,,43.0186,-89.5498
-2020-03-06,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-06,AR,Arkansas,US,United States of America,0,,34.9697,-92.3731
-2020-03-06,AZ,Arizona,US,United States of America,3,,33.7298,-111.4312
-2020-03-06,CA,California,US,United States of America,60,,36.1162,-119.6816
-2020-03-06,CO,Colorado,US,United States of America,2,,39.0598,-105.3111
-2020-03-06,DC,District of Columbia,US,United States of America,0,,38.8974,-77.0268
-2020-03-06,DE,Delaware,US,United States of America,0,,39.3185,-75.5071
-2020-03-06,FL,Florida,US,United States of America,9,,27.7663,-81.6868
-2020-03-06,GA,Georgia,US,United States of America,2,,33.0406,-83.6431
-2020-03-06,IA,Iowa,US,United States of America,0,,42.0115,-93.2105
-2020-03-06,IL,Illinois,US,United States of America,5,,40.3495,-88.9861
-2020-03-06,IN,Indiana,US,United States of America,1,,39.8494,-86.2583
-2020-03-06,KS,Kansas,US,United States of America,0,,38.5266,-96.7265
-2020-03-06,KY,Kentucky,US,United States of America,0,,37.6681,-84.6701
-2020-03-06,MA,Massachusetts,US,United States of America,8,,42.2302,-71.5301
-2020-03-06,MD,Maryland,US,United States of America,3,,39.0639,-76.8021
-2020-03-06,MI,Michigan,US,United States of America,0,,43.3266,-84.5361
-2020-03-06,MN,Minnesota,US,United States of America,0,,44.8254,-93.7842
-2020-03-06,NC,North Carolina,US,United States of America,2,,35.6301,-79.8064
-2020-03-06,NE,Nebraska,US,United States of America,0,,41.3148,-96.1951
-2020-03-06,NH,New Hampshire,US,United States of America,2,,42.9931,-71.0498
-2020-03-06,NJ,New Jersey,US,United States of America,1,,40.2989,-74.521
-2020-03-06,NM,New Mexico,US,United States of America,0,,34.8405,-106.2485
-2020-03-06,NV,Nevada,US,United States of America,1,,38.3135,-117.0554
-2020-03-06,NY,New York,US,United States of America,33,,42.1657,-74.9481
-2020-03-06,OH,Ohio,US,United States of America,0,,40.3888,-82.7649
-2020-03-06,OR,Oregon,US,United States of America,3,,43.1261,-123.2492
-2020-03-06,PA,Pennsylvania,US,United States of America,2,,40.5908,-77.2098
-2020-03-06,SC,South Caroline,US,United States of America,0,,33.8569,-80.945
-2020-03-06,TN,Tennessee,US,United States of America,1,,35.7478,-86.6923
-2020-03-06,TX,Texas,US,United States of America,5,,31.0545,-97.5635
-2020-03-06,VA,Virginia,US,United States of America,0,,37.7693,-78.17
-2020-03-06,VT,Vermont,US,United States of America,0,,44.0459,-72.7107
-2020-03-06,WA,Washington,US,United States of America,79,,47.4009,-121.4905
-2020-03-06,WI,Wisconsin,US,United States of America,1,,43.0186,-89.5498
-2020-03-06,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-07,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-07,AL,Alabama,US,United States of America,0,,32.3182,-86.9023
-2020-03-07,AR,Arkansas,US,United States of America,0,,34.9697,-92.3731
-2020-03-07,AZ,Arizona,US,United States of America,5,,33.7298,-111.4312
-2020-03-07,CA,California,US,United States of America,69,,36.1162,-119.6816
-2020-03-07,CO,Colorado,US,United States of America,8,,39.0598,-105.3111
-2020-03-07,CT,Connecticut,US,United States of America,0,,41.5978,-72.7554
-2020-03-07,DC,District of Columbia,US,United States of America,0,,38.8974,-77.0268
-2020-03-07,DE,Delaware,US,United States of America,0,,39.3185,-75.5071
-2020-03-07,FL,Florida,US,United States of America,14,,27.7663,-81.6868
-2020-03-07,GA,Georgia,US,United States of America,6,,33.0406,-83.6431
-2020-03-07,HI,Hawaii,US,United States of America,1,,21.0943,-157.4983
-2020-03-07,IA,Iowa,US,United States of America,0,,42.0115,-93.2105
-2020-03-07,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-07,IL,Illinois,US,United States of America,6,,40.3495,-88.9861
-2020-03-07,IN,Indiana,US,United States of America,1,,39.8494,-86.2583
-2020-03-07,KS,Kansas,US,United States of America,0,,38.5266,-96.7265
-2020-03-07,KY,Kentucky,US,United States of America,1,,37.6681,-84.6701
-2020-03-07,LA,Louisiana,US,United States of America,0,,31.1695,-91.8678
-2020-03-07,MA,Massachusetts,US,United States of America,13,,42.2302,-71.5301
-2020-03-07,MD,Maryland,US,United States of America,3,,39.0639,-76.8021
-2020-03-07,ME,Maine,US,United States of America,0,,44.6939,-69.3819
-2020-03-07,MI,Michigan,US,United States of America,0,,43.3266,-84.5361
-2020-03-07,MN,Minnesota,US,United States of America,1,,44.8254,-93.7842
-2020-03-07,MO,Missouri,US,United States of America,0,,38.4561,-92.2884
-2020-03-07,MS,Mississippi,US,United States of America,0,,32.7416,-89.6787
-2020-03-07,MT,Montana,US,United States of America,0,,46.9219,-110.4544
-2020-03-07,NC,North Carolina,US,United States of America,2,,35.6301,-79.8064
-2020-03-07,ND,North Dakota,US,United States of America,0,,47.5289,-99.784
-2020-03-07,NE,Nebraska,US,United States of America,1,,41.3148,-96.1951
-2020-03-07,NH,New Hampshire,US,United States of America,2,,42.9931,-71.0498
-2020-03-07,NJ,New Jersey,US,United States of America,4,,40.2989,-74.521
-2020-03-07,NM,New Mexico,US,United States of America,0,,34.8405,-106.2485
-2020-03-07,NV,Nevada,US,United States of America,1,,38.3135,-117.0554
-2020-03-07,NY,New York,US,United States of America,76,,42.1657,-74.9481
-2020-03-07,OH,Ohio,US,United States of America,0,,40.3888,-82.7649
-2020-03-07,OK,Oklahoma,US,United States of America,1,,35.5653,-96.9289
-2020-03-07,OR,Oregon,US,United States of America,7,,43.1261,-123.2492
-2020-03-07,PA,Pennsylvania,US,United States of America,2,,40.5908,-77.2098
-2020-03-07,RI,Rhode Island,US,United States of America,2,,41.8882,-71.4774
-2020-03-07,SC,South Caroline,US,United States of America,2,,33.8569,-80.945
-2020-03-07,SD,South Dakota,US,United States of America,0,,43.8901,-102.2548
-2020-03-07,TN,Tennessee,US,United States of America,1,,35.7478,-86.6923
-2020-03-07,TX,Texas,US,United States of America,8,,31.0545,-97.5635
-2020-03-07,UT,Utah,US,United States of America,1,,40.15,-111.8624
-2020-03-07,VA,Virginia,US,United States of America,0,,37.7693,-78.17
-2020-03-07,VT,Vermont,US,United States of America,0,,44.0459,-72.7107
-2020-03-07,WA,Washington,US,United States of America,102,,47.4009,-121.4905
-2020-03-07,WI,Wisconsin,US,United States of America,1,,43.0186,-89.5498
-2020-03-07,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-07,WY,Wyoming,US,United States of America,0,,42.756,-107.3025
-2020-03-08,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-08,AL,Alabama,US,United States of America,0,,32.3182,-86.9023
-2020-03-08,AR,Arkansas,US,United States of America,0,,34.9697,-92.3731
-2020-03-08,AZ,Arizona,US,United States of America,5,,33.7298,-111.4312
-2020-03-08,CA,California,US,United States of America,88,,36.1162,-119.6816
-2020-03-08,CO,Colorado,US,United States of America,8,,39.0598,-105.3111
-2020-03-08,CT,Connecticut,US,United States of America,1,,41.5978,-72.7554
-2020-03-08,DC,District of Columbia,US,United States of America,1,,38.8974,-77.0268
-2020-03-08,DE,Delaware,US,United States of America,0,,39.3185,-75.5071
-2020-03-08,FL,Florida,US,United States of America,17,,27.7663,-81.6868
-2020-03-08,GA,Georgia,US,United States of America,7,,33.0406,-83.6431
-2020-03-08,HI,Hawaii,US,United States of America,1,,21.0943,-157.4983
-2020-03-08,IA,Iowa,US,United States of America,0,,42.0115,-93.2105
-2020-03-08,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-08,IL,Illinois,US,United States of America,6,,40.3495,-88.9861
-2020-03-08,IN,Indiana,US,United States of America,2,,39.8494,-86.2583
-2020-03-08,KS,Kansas,US,United States of America,1,,38.5266,-96.7265
-2020-03-08,KY,Kentucky,US,United States of America,1,,37.6681,-84.6701
-2020-03-08,LA,Louisiana,US,United States of America,0,,31.1695,-91.8678
-2020-03-08,MA,Massachusetts,US,United States of America,13,,42.2302,-71.5301
-2020-03-08,MD,Maryland,US,United States of America,3,,39.0639,-76.8021
-2020-03-08,ME,Maine,US,United States of America,0,,44.6939,-69.3819
-2020-03-08,MI,Michigan,US,United States of America,0,,43.3266,-84.5361
-2020-03-08,MN,Minnesota,US,United States of America,1,,44.8254,-93.7842
-2020-03-08,MO,Missouri,US,United States of America,1,,38.4561,-92.2884
-2020-03-08,MS,Mississippi,US,United States of America,0,,32.7416,-89.6787
-2020-03-08,MT,Montana,US,United States of America,0,,46.9219,-110.4544
-2020-03-08,NC,North Carolina,US,United States of America,2,,35.6301,-79.8064
-2020-03-08,ND,North Dakota,US,United States of America,0,,47.5289,-99.784
-2020-03-08,NE,Nebraska,US,United States of America,1,,41.3148,-96.1951
-2020-03-08,NH,New Hampshire,US,United States of America,4,,42.9931,-71.0498
-2020-03-08,NJ,New Jersey,US,United States of America,6,,40.2989,-74.521
-2020-03-08,NM,New Mexico,US,United States of America,0,,34.8405,-106.2485
-2020-03-08,NV,Nevada,US,United States of America,1,,38.3135,-117.0554
-2020-03-08,NY,New York,US,United States of America,105,,42.1657,-74.9481
-2020-03-08,OH,Ohio,US,United States of America,0,,40.3888,-82.7649
-2020-03-08,OK,Oklahoma,US,United States of America,1,,35.5653,-96.9289
-2020-03-08,OR,Oregon,US,United States of America,14,,43.1261,-123.2492
-2020-03-08,PA,Pennsylvania,US,United States of America,4,,40.5908,-77.2098
-2020-03-08,RI,Rhode Island,US,United States of America,3,,41.8882,-71.4774
-2020-03-08,SC,South Caroline,US,United States of America,2,,33.8569,-80.945
-2020-03-08,SD,South Dakota,US,United States of America,0,,43.8901,-102.2548
-2020-03-08,TN,Tennessee,US,United States of America,3,,35.7478,-86.6923
-2020-03-08,TX,Texas,US,United States of America,8,,31.0545,-97.5635
-2020-03-08,UT,Utah,US,United States of America,1,,40.15,-111.8624
-2020-03-08,VA,Virginia,US,United States of America,2,,37.7693,-78.17
-2020-03-08,VT,Vermont,US,United States of America,1,,44.0459,-72.7107
-2020-03-08,WA,Washington,US,United States of America,102,,47.4009,-121.4905
-2020-03-08,WI,Wisconsin,US,United States of America,1,,43.0186,-89.5498
-2020-03-08,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-08,WY,Wyoming,US,United States of America,0,,42.756,-107.3025
-2020-03-09,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-09,AL,Alabama,US,United States of America,0,,32.3182,-86.9023
-2020-03-09,AR,Arkansas,US,United States of America,0,,34.9697,-92.3731
-2020-03-09,AZ,Arizona,US,United States of America,5,,33.7298,-111.4312
-2020-03-09,CA,California,US,United States of America,114,,36.1162,-119.6816
-2020-03-09,CO,Colorado,US,United States of America,9,,39.0598,-105.3111
-2020-03-09,CT,Connecticut,US,United States of America,1,,41.5978,-72.7554
-2020-03-09,DC,District of Columbia,US,United States of America,1,,38.8974,-77.0268
-2020-03-09,DE,Delaware,US,United States of America,0,,39.3185,-75.5071
-2020-03-09,FL,Florida,US,United States of America,18,,27.7663,-81.6868
-2020-03-09,GA,Georgia,US,United States of America,12,,33.0406,-83.6431
-2020-03-09,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-09,IA,Iowa,US,United States of America,3,,42.0115,-93.2105
-2020-03-09,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-09,IL,Illinois,US,United States of America,7,,40.3495,-88.9861
-2020-03-09,IN,Indiana,US,United States of America,2,,39.8494,-86.2583
-2020-03-09,KS,Kansas,US,United States of America,1,,38.5266,-96.7265
-2020-03-09,KY,Kentucky,US,United States of America,4,,37.6681,-84.6701
-2020-03-09,LA,Louisiana,US,United States of America,1,,31.1695,-91.8678
-2020-03-09,MA,Massachusetts,US,United States of America,41,,42.2302,-71.5301
-2020-03-09,MD,Maryland,US,United States of America,5,,39.0639,-76.8021
-2020-03-09,ME,Maine,US,United States of America,0,,44.6939,-69.3819
-2020-03-09,MI,Michigan,US,United States of America,0,,43.3266,-84.5361
-2020-03-09,MN,Minnesota,US,United States of America,2,,44.8254,-93.7842
-2020-03-09,MO,Missouri,US,United States of America,1,,38.4561,-92.2884
-2020-03-09,MS,Mississippi,US,United States of America,0,,32.7416,-89.6787
-2020-03-09,MT,Montana,US,United States of America,0,,46.9219,-110.4544
-2020-03-09,NC,North Carolina,US,United States of America,2,,35.6301,-79.8064
-2020-03-09,ND,North Dakota,US,United States of America,0,,47.5289,-99.784
-2020-03-09,NE,Nebraska,US,United States of America,3,,41.3148,-96.1951
-2020-03-09,NH,New Hampshire,US,United States of America,4,,42.9931,-71.0498
-2020-03-09,NJ,New Jersey,US,United States of America,11,,40.2989,-74.521
-2020-03-09,NM,New Mexico,US,United States of America,0,,34.8405,-106.2485
-2020-03-09,NV,Nevada,US,United States of America,1,,38.3135,-117.0554
-2020-03-09,NY,New York,US,United States of America,142,,42.1657,-74.9481
-2020-03-09,OH,Ohio,US,United States of America,3,,40.3888,-82.7649
-2020-03-09,OK,Oklahoma,US,United States of America,1,,35.5653,-96.9289
-2020-03-09,OR,Oregon,US,United States of America,14,,43.1261,-123.2492
-2020-03-09,PA,Pennsylvania,US,United States of America,7,,40.5908,-77.2098
-2020-03-09,RI,Rhode Island,US,United States of America,3,,41.8882,-71.4774
-2020-03-09,SC,South Caroline,US,United States of America,7,,33.8569,-80.945
-2020-03-09,SD,South Dakota,US,United States of America,0,,43.8901,-102.2548
-2020-03-09,TN,Tennessee,US,United States of America,3,,35.7478,-86.6923
-2020-03-09,TX,Texas,US,United States of America,12,,31.0545,-97.5635
-2020-03-09,UT,Utah,US,United States of America,1,,40.15,-111.8624
-2020-03-09,VA,Virginia,US,United States of America,3,,37.7693,-78.17
-2020-03-09,VT,Vermont,US,United States of America,1,,44.0459,-72.7107
-2020-03-09,WA,Washington,US,United States of America,136,,47.4009,-121.4905
-2020-03-09,WI,Wisconsin,US,United States of America,1,,43.0186,-89.5498
-2020-03-09,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-09,WY,Wyoming,US,United States of America,0,,42.756,-107.3025
-2020-03-10,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-10,AL,Alabama,US,United States of America,0,,32.3182,-86.9023
-2020-03-10,AR,Arkansas,US,United States of America,0,,34.9697,-92.3731
-2020-03-10,AZ,Arizona,US,United States of America,6,,33.7298,-111.4312
-2020-03-10,CA,California,US,United States of America,133,,36.1162,-119.6816
-2020-03-10,CO,Colorado,US,United States of America,12,,39.0598,-105.3111
-2020-03-10,CT,Connecticut,US,United States of America,2,,41.5978,-72.7554
-2020-03-10,DC,District of Columbia,US,United States of America,5,,38.8974,-77.0268
-2020-03-10,DE,Delaware,US,United States of America,0,,39.3185,-75.5071
-2020-03-10,FL,Florida,US,United States of America,19,,27.7663,-81.6868
-2020-03-10,GA,Georgia,US,United States of America,17,,33.0406,-83.6431
-2020-03-10,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-10,IA,Iowa,US,United States of America,8,,42.0115,-93.2105
-2020-03-10,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-10,IL,Illinois,US,United States of America,19,,40.3495,-88.9861
-2020-03-10,IN,Indiana,US,United States of America,6,,39.8494,-86.2583
-2020-03-10,KS,Kansas,US,United States of America,1,,38.5266,-96.7265
-2020-03-10,KY,Kentucky,US,United States of America,6,,37.6681,-84.6701
-2020-03-10,LA,Louisiana,US,United States of America,1,,31.1695,-91.8678
-2020-03-10,MA,Massachusetts,US,United States of America,92,,42.2302,-71.5301
-2020-03-10,MD,Maryland,US,United States of America,6,,39.0639,-76.8021
-2020-03-10,ME,Maine,US,United States of America,0,,44.6939,-69.3819
-2020-03-10,MI,Michigan,US,United States of America,0,,43.3266,-84.5361
-2020-03-10,MN,Minnesota,US,United States of America,3,,44.8254,-93.7842
-2020-03-10,MO,Missouri,US,United States of America,1,,38.4561,-92.2884
-2020-03-10,MS,Mississippi,US,United States of America,0,,32.7416,-89.6787
-2020-03-10,MT,Montana,US,United States of America,0,,46.9219,-110.4544
-2020-03-10,NC,North Carolina,US,United States of America,7,,35.6301,-79.8064
-2020-03-10,ND,North Dakota,US,United States of America,0,,47.5289,-99.784
-2020-03-10,NE,Nebraska,US,United States of America,3,,41.3148,-96.1951
-2020-03-10,NH,New Hampshire,US,United States of America,4,,42.9931,-71.0498
-2020-03-10,NJ,New Jersey,US,United States of America,15,,40.2989,-74.521
-2020-03-10,NM,New Mexico,US,United States of America,0,,34.8405,-106.2485
-2020-03-10,NV,Nevada,US,United States of America,0,,38.3135,-117.0554
-2020-03-10,NY,New York,US,United States of America,173,,42.1657,-74.9481
-2020-03-10,OH,Ohio,US,United States of America,3,,40.3888,-82.7649
-2020-03-10,OK,Oklahoma,US,United States of America,2,,35.5653,-96.9289
-2020-03-10,OR,Oregon,US,United States of America,15,,43.1261,-123.2492
-2020-03-10,PA,Pennsylvania,US,United States of America,12,,40.5908,-77.2098
-2020-03-10,RI,Rhode Island,US,United States of America,3,,41.8882,-71.4774
-2020-03-10,SC,South Caroline,US,United States of America,7,,33.8569,-80.945
-2020-03-10,SD,South Dakota,US,United States of America,0,,43.8901,-102.2548
-2020-03-10,TN,Tennessee,US,United States of America,7,,35.7478,-86.6923
-2020-03-10,TX,Texas,US,United States of America,13,,31.0545,-97.5635
-2020-03-10,UT,Utah,US,United States of America,2,,40.15,-111.8624
-2020-03-10,VA,Virginia,US,United States of America,8,,37.7693,-78.17
-2020-03-10,VT,Vermont,US,United States of America,1,,44.0459,-72.7107
-2020-03-10,WA,Washington,US,United States of America,162,,47.4009,-121.4905
-2020-03-10,WI,Wisconsin,US,United States of America,2,,43.0186,-89.5498
-2020-03-10,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-10,WY,Wyoming,US,United States of America,0,,42.756,-107.3025
-2020-03-11,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-11,AL,Alabama,US,United States of America,0,,32.3182,-86.9023
-2020-03-11,AR,Arkansas,US,United States of America,0,,34.9697,-92.3731
-2020-03-11,AZ,Arizona,US,United States of America,9,,33.7298,-111.4312
-2020-03-11,CA,California,US,United States of America,157,,36.1162,-119.6816
-2020-03-11,CO,Colorado,US,United States of America,28,,39.0598,-105.3111
-2020-03-11,CT,Connecticut,US,United States of America,3,,41.5978,-72.7554
-2020-03-11,DC,District of Columbia,US,United States of America,4,,38.8974,-77.0268
-2020-03-11,DE,Delaware,US,United States of America,1,,39.3185,-75.5071
-2020-03-11,FL,Florida,US,United States of America,28,2,27.7663,-81.6868
-2020-03-11,GA,Georgia,US,United States of America,22,,33.0406,-83.6431
-2020-03-11,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-11,IA,Iowa,US,United States of America,13,,42.0115,-93.2105
-2020-03-11,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-11,IL,Illinois,US,United States of America,19,,40.3495,-88.9861
-2020-03-11,IN,Indiana,US,United States of America,10,,39.8494,-86.2583
-2020-03-11,KS,Kansas,US,United States of America,1,,38.5266,-96.7265
-2020-03-11,KY,Kentucky,US,United States of America,8,,37.6681,-84.6701
-2020-03-11,LA,Louisiana,US,United States of America,6,,31.1695,-91.8678
-2020-03-11,MA,Massachusetts,US,United States of America,92,,42.2302,-71.5301
-2020-03-11,MD,Maryland,US,United States of America,9,,39.0639,-76.8021
-2020-03-11,ME,Maine,US,United States of America,0,,44.6939,-69.3819
-2020-03-11,MI,Michigan,US,United States of America,2,,43.3266,-84.5361
-2020-03-11,MN,Minnesota,US,United States of America,5,,44.8254,-93.7842
-2020-03-11,MO,Missouri,US,United States of America,1,,38.4561,-92.2884
-2020-03-11,MS,Mississippi,US,United States of America,0,,32.7416,-89.6787
-2020-03-11,MT,Montana,US,United States of America,0,,46.9219,-110.4544
-2020-03-11,NC,North Carolina,US,United States of America,7,,35.6301,-79.8064
-2020-03-11,ND,North Dakota,US,United States of America,0,,47.5289,-99.784
-2020-03-11,NE,Nebraska,US,United States of America,5,,41.3148,-96.1951
-2020-03-11,NH,New Hampshire,US,United States of America,4,,42.9931,-71.0498
-2020-03-11,NJ,New Jersey,US,United States of America,24,1,40.2989,-74.521
-2020-03-11,NM,New Mexico,US,United States of America,3,,34.8405,-106.2485
-2020-03-11,NV,Nevada,US,United States of America,5,,38.3135,-117.0554
-2020-03-11,NY,New York,US,United States of America,216,,42.1657,-74.9481
-2020-03-11,OH,Ohio,US,United States of America,4,,40.3888,-82.7649
-2020-03-11,OK,Oklahoma,US,United States of America,2,,35.5653,-96.9289
-2020-03-11,OR,Oregon,US,United States of America,19,,43.1261,-123.2492
-2020-03-11,PA,Pennsylvania,US,United States of America,15,,40.5908,-77.2098
-2020-03-11,RI,Rhode Island,US,United States of America,5,,41.8882,-71.4774
-2020-03-11,SC,South Caroline,US,United States of America,9,,33.8569,-80.945
-2020-03-11,SD,South Dakota,US,United States of America,5,,43.8901,-102.2548
-2020-03-11,TN,Tennessee,US,United States of America,7,,35.7478,-86.6923
-2020-03-11,TX,Texas,US,United States of America,21,,31.0545,-97.5635
-2020-03-11,UT,Utah,US,United States of America,2,,40.15,-111.8624
-2020-03-11,VA,Virginia,US,United States of America,9,,37.7693,-78.17
-2020-03-11,VT,Vermont,US,United States of America,1,,44.0459,-72.7107
-2020-03-11,WA,Washington,US,United States of America,267,24,47.4009,-121.4905
-2020-03-11,WI,Wisconsin,US,United States of America,3,,43.0186,-89.5498
-2020-03-11,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-11,WY,Wyoming,US,United States of America,0,,42.756,-107.3025
-2020-03-12,AK,Alaska,US,United States of America,0,,61.3707,-152.4044
-2020-03-12,AL,Alabama,US,United States of America,0,,32.3182,-86.9023
-2020-03-12,AR,Arkansas,US,United States of America,6,,34.9697,-92.3731
-2020-03-12,AZ,Arizona,US,United States of America,9,,33.7298,-111.4312
-2020-03-12,CA,California,US,United States of America,202,4,36.1162,-119.6816
-2020-03-12,CO,Colorado,US,United States of America,45,,39.0598,-105.3111
-2020-03-12,CT,Connecticut,US,United States of America,6,,41.5978,-72.7554
-2020-03-12,DC,District of Columbia,US,United States of America,10,,38.8974,-77.0268
-2020-03-12,DE,Delaware,US,United States of America,4,,39.3185,-75.5071
-2020-03-12,FL,Florida,US,United States of America,32,2,27.7663,-81.6868
-2020-03-12,GA,Georgia,US,United States of America,31,,33.0406,-83.6431
-2020-03-12,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-12,IA,Iowa,US,United States of America,14,,42.0115,-93.2105
-2020-03-12,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-12,IL,Illinois,US,United States of America,25,,40.3495,-88.9861
-2020-03-12,IN,Indiana,US,United States of America,12,,39.8494,-86.2583
-2020-03-12,KS,Kansas,US,United States of America,4,,38.5266,-96.7265
-2020-03-12,KY,Kentucky,US,United States of America,8,,37.6681,-84.6701
-2020-03-12,LA,Louisiana,US,United States of America,14,,31.1695,-91.8678
-2020-03-12,MA,Massachusetts,US,United States of America,95,,42.2302,-71.5301
-2020-03-12,MD,Maryland,US,United States of America,12,,39.0639,-76.8021
-2020-03-12,ME,Maine,US,United States of America,1,,44.6939,-69.3819
-2020-03-12,MI,Michigan,US,United States of America,2,,43.3266,-84.5361
-2020-03-12,MN,Minnesota,US,United States of America,9,,44.8254,-93.7842
-2020-03-12,MO,Missouri,US,United States of America,1,,38.4561,-92.2884
-2020-03-12,MS,Mississippi,US,United States of America,1,,32.7416,-89.6787
-2020-03-12,MT,Montana,US,United States of America,1,,46.9219,-110.4544
-2020-03-12,NC,North Carolina,US,United States of America,12,,35.6301,-79.8064
-2020-03-12,ND,North Dakota,US,United States of America,1,,47.5289,-99.784
-2020-03-12,NE,Nebraska,US,United States of America,10,,41.3148,-96.1951
-2020-03-12,NH,New Hampshire,US,United States of America,6,,42.9931,-71.0498
-2020-03-12,NJ,New Jersey,US,United States of America,30,1,40.2989,-74.521
-2020-03-12,NM,New Mexico,US,United States of America,5,,34.8405,-106.2485
-2020-03-12,NV,Nevada,US,United States of America,7,,38.3135,-117.0554
-2020-03-12,NY,New York,US,United States of America,216,,42.1657,-74.9481
-2020-03-12,OH,Ohio,US,United States of America,5,,40.3888,-82.7649
-2020-03-12,OK,Oklahoma,US,United States of America,3,,35.5653,-96.9289
-2020-03-12,OR,Oregon,US,United States of America,19,,43.1261,-123.2492
-2020-03-12,PA,Pennsylvania,US,United States of America,22,,40.5908,-77.2098
-2020-03-12,RI,Rhode Island,US,United States of America,5,,41.8882,-71.4774
-2020-03-12,SC,South Caroline,US,United States of America,10,,33.8569,-80.945
-2020-03-12,SD,South Dakota,US,United States of America,8,,43.8901,-102.2548
-2020-03-12,TN,Tennessee,US,United States of America,18,,35.7478,-86.6923
-2020-03-12,TX,Texas,US,United States of America,23,,31.0545,-97.5635
-2020-03-12,UT,Utah,US,United States of America,4,,40.15,-111.8624
-2020-03-12,VA,Virginia,US,United States of America,17,,37.7693,-78.17
-2020-03-12,VT,Vermont,US,United States of America,2,,44.0459,-72.7107
-2020-03-12,WA,Washington,US,United States of America,337,29,47.4009,-121.4905
-2020-03-12,WI,Wisconsin,US,United States of America,8,,43.0186,-89.5498
-2020-03-12,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-12,WY,Wyoming,US,United States of America,1,,42.756,-107.3025
-2020-03-13,AK,Alaska,US,United States of America,1,,61.3707,-152.4044
-2020-03-13,AL,Alabama,US,United States of America,1,,32.3182,-86.9023
-2020-03-13,AR,Arkansas,US,United States of America,9,,34.9697,-92.3731
-2020-03-13,AZ,Arizona,US,United States of America,9,0,33.7298,-111.4312
-2020-03-13,CA,California,US,United States of America,202,4,36.1162,-119.6816
-2020-03-13,CO,Colorado,US,United States of America,72,,39.0598,-105.3111
-2020-03-13,CT,Connecticut,US,United States of America,6,,41.5978,-72.7554
-2020-03-13,DC,District of Columbia,US,United States of America,10,,38.8974,-77.0268
-2020-03-13,DE,Delaware,US,United States of America,4,,39.3185,-75.5071
-2020-03-13,FL,Florida,US,United States of America,50,2,27.7663,-81.6868
-2020-03-13,GA,Georgia,US,United States of America,42,1,33.0406,-83.6431
-2020-03-13,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-13,IA,Iowa,US,United States of America,16,,42.0115,-93.2105
-2020-03-13,ID,Idaho,US,United States of America,0,,44.2405,-114.4788
-2020-03-13,IL,Illinois,US,United States of America,32,,40.3495,-88.9861
-2020-03-13,IN,Indiana,US,United States of America,12,,39.8494,-86.2583
-2020-03-13,KS,Kansas,US,United States of America,6,,38.5266,-96.7265
-2020-03-13,KY,Kentucky,US,United States of America,11,,37.6681,-84.6701
-2020-03-13,LA,Louisiana,US,United States of America,36,,31.1695,-91.8678
-2020-03-13,MA,Massachusetts,US,United States of America,123,,42.2302,-71.5301
-2020-03-13,MD,Maryland,US,United States of America,17,,39.0639,-76.8021
-2020-03-13,ME,Maine,US,United States of America,3,,44.6939,-69.3819
-2020-03-13,MI,Michigan,US,United States of America,16,,43.3266,-84.5361
-2020-03-13,MN,Minnesota,US,United States of America,14,,44.8254,-93.7842
-2020-03-13,MO,Missouri,US,United States of America,2,,38.4561,-92.2884
-2020-03-13,MS,Mississippi,US,United States of America,4,,32.7416,-89.6787
-2020-03-13,MT,Montana,US,United States of America,1,,46.9219,-110.4544
-2020-03-13,NC,North Carolina,US,United States of America,15,,35.6301,-79.8064
-2020-03-13,ND,North Dakota,US,United States of America,1,0,47.5289,-99.784
-2020-03-13,NE,Nebraska,US,United States of America,13,,41.3148,-96.1951
-2020-03-13,NH,New Hampshire,US,United States of America,6,,42.9931,-71.0498
-2020-03-13,NJ,New Jersey,US,United States of America,50,1,40.2989,-74.521
-2020-03-13,NM,New Mexico,US,United States of America,10,,34.8405,-106.2485
-2020-03-13,NV,Nevada,US,United States of America,11,,38.3135,-117.0554
-2020-03-13,NY,New York,US,United States of America,421,,42.1657,-74.9481
-2020-03-13,OH,Ohio,US,United States of America,13,,40.3888,-82.7649
-2020-03-13,OK,Oklahoma,US,United States of America,3,,35.5653,-96.9289
-2020-03-13,OR,Oregon,US,United States of America,30,,43.1261,-123.2492
-2020-03-13,PA,Pennsylvania,US,United States of America,33,,40.5908,-77.2098
-2020-03-13,RI,Rhode Island,US,United States of America,14,,41.8882,-71.4774
-2020-03-13,SC,South Caroline,US,United States of America,12,,33.8569,-80.945
-2020-03-13,SD,South Dakota,US,United States of America,9,,43.8901,-102.2548
-2020-03-13,TN,Tennessee,US,United States of America,26,,35.7478,-86.6923
-2020-03-13,TX,Texas,US,United States of America,39,,31.0545,-97.5635
-2020-03-13,UT,Utah,US,United States of America,6,,40.15,-111.8624
-2020-03-13,VA,Virginia,US,United States of America,30,,37.7693,-78.17
-2020-03-13,VT,Vermont,US,United States of America,2,,44.0459,-72.7107
-2020-03-13,WA,Washington,US,United States of America,457,31,47.4009,-121.4905
-2020-03-13,WI,Wisconsin,US,United States of America,19,,43.0186,-89.5498
-2020-03-13,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-13,WY,Wyoming,US,United States of America,1,,42.756,-107.3025
-2020-03-14,AK,Alaska,US,United States of America,1,,61.3707,-152.4044
-2020-03-14,AL,Alabama,US,United States of America,6,,32.3182,-86.9023
-2020-03-14,AR,Arkansas,US,United States of America,12,,34.9697,-92.3731
-2020-03-14,AZ,Arizona,US,United States of America,12,0,33.7298,-111.4312
-2020-03-14,CA,California,US,United States of America,252,5,36.1162,-119.6816
-2020-03-14,CO,Colorado,US,United States of America,101,1,39.0598,-105.3111
-2020-03-14,CT,Connecticut,US,United States of America,11,,41.5978,-72.7554
-2020-03-14,DC,District of Columbia,US,United States of America,10,,38.8974,-77.0268
-2020-03-14,DE,Delaware,US,United States of America,6,,39.3185,-75.5071
-2020-03-14,FL,Florida,US,United States of America,77,3,27.7663,-81.6868
-2020-03-14,GA,Georgia,US,United States of America,66,1,33.0406,-83.6431
-2020-03-14,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-14,IA,Iowa,US,United States of America,17,,42.0115,-93.2105
-2020-03-14,ID,Idaho,US,United States of America,2,,44.2405,-114.4788
-2020-03-14,IL,Illinois,US,United States of America,46,,40.3495,-88.9861
-2020-03-14,IN,Indiana,US,United States of America,15,0,39.8494,-86.2583
-2020-03-14,KS,Kansas,US,United States of America,6,1,38.5266,-96.7265
-2020-03-14,KY,Kentucky,US,United States of America,14,,37.6681,-84.6701
-2020-03-14,LA,Louisiana,US,United States of America,69,,31.1695,-91.8678
-2020-03-14,MA,Massachusetts,US,United States of America,138,,42.2302,-71.5301
-2020-03-14,MD,Maryland,US,United States of America,26,,39.0639,-76.8021
-2020-03-14,ME,Maine,US,United States of America,3,,44.6939,-69.3819
-2020-03-14,MI,Michigan,US,United States of America,25,,43.3266,-84.5361
-2020-03-14,MN,Minnesota,US,United States of America,21,,44.8254,-93.7842
-2020-03-14,MO,Missouri,US,United States of America,4,0,38.4561,-92.2884
-2020-03-14,MS,Mississippi,US,United States of America,6,,32.7416,-89.6787
-2020-03-14,MT,Montana,US,United States of America,5,,46.9219,-110.4544
-2020-03-14,NC,North Carolina,US,United States of America,23,,35.6301,-79.8064
-2020-03-14,ND,North Dakota,US,United States of America,1,0,47.5289,-99.784
-2020-03-14,NE,Nebraska,US,United States of America,14,,41.3148,-96.1951
-2020-03-14,NH,New Hampshire,US,United States of America,7,,42.9931,-71.0498
-2020-03-14,NJ,New Jersey,US,United States of America,50,1,40.2989,-74.521
-2020-03-14,NM,New Mexico,US,United States of America,10,,34.8405,-106.2485
-2020-03-14,NV,Nevada,US,United States of America,20,,38.3135,-117.0554
-2020-03-14,NY,New York,US,United States of America,524,,42.1657,-74.9481
-2020-03-14,OH,Ohio,US,United States of America,13,,40.3888,-82.7649
-2020-03-14,OK,Oklahoma,US,United States of America,4,,35.5653,-96.9289
-2020-03-14,OR,Oregon,US,United States of America,30,,43.1261,-123.2492
-2020-03-14,PA,Pennsylvania,US,United States of America,47,,40.5908,-77.2098
-2020-03-14,RI,Rhode Island,US,United States of America,20,,41.8882,-71.4774
-2020-03-14,SC,South Caroline,US,United States of America,13,,33.8569,-80.945
-2020-03-14,SD,South Dakota,US,United States of America,9,,43.8901,-102.2548
-2020-03-14,TN,Tennessee,US,United States of America,32,,35.7478,-86.6923
-2020-03-14,TX,Texas,US,United States of America,51,,31.0545,-97.5635
-2020-03-14,UT,Utah,US,United States of America,6,,40.15,-111.8624
-2020-03-14,VA,Virginia,US,United States of America,30,,37.7693,-78.17
-2020-03-14,VT,Vermont,US,United States of America,4,,44.0459,-72.7107
-2020-03-14,WA,Washington,US,United States of America,568,37,47.4009,-121.4905
-2020-03-14,WI,Wisconsin,US,United States of America,19,,43.0186,-89.5498
-2020-03-14,WV,West Virginia,US,United States of America,0,,38.4912,-80.9545
-2020-03-14,WY,Wyoming,US,United States of America,2,,42.756,-107.3025
-2020-03-15,AK,Alaska,US,United States of America,1,,61.3707,-152.4044
-2020-03-15,AL,Alabama,US,United States of America,12,0,32.3182,-86.9023
-2020-03-15,AR,Arkansas,US,United States of America,16,,34.9697,-92.3731
-2020-03-15,AZ,Arizona,US,United States of America,12,0,33.7298,-111.4312
-2020-03-15,CA,California,US,United States of America,293,5,36.1162,-119.6816
-2020-03-15,CO,Colorado,US,United States of America,131,1,39.0598,-105.3111
-2020-03-15,CT,Connecticut,US,United States of America,20,,41.5978,-72.7554
-2020-03-15,DC,District of Columbia,US,United States of America,16,,38.8974,-77.0268
-2020-03-15,DE,Delaware,US,United States of America,6,,39.3185,-75.5071
-2020-03-15,FL,Florida,US,United States of America,116,4,27.7663,-81.6868
-2020-03-15,GA,Georgia,US,United States of America,99,1,33.0406,-83.6431
-2020-03-15,HI,Hawaii,US,United States of America,2,,21.0943,-157.4983
-2020-03-15,IA,Iowa,US,United States of America,18,,42.0115,-93.2105
-2020-03-15,ID,Idaho,US,United States of America,5,,44.2405,-114.4788
-2020-03-15,IL,Illinois,US,United States of America,64,,40.3495,-88.9861
-2020-03-15,IN,Indiana,US,United States of America,19,0,39.8494,-86.2583
-2020-03-15,KS,Kansas,US,United States of America,8,1,38.5266,-96.7265
-2020-03-15,KY,Kentucky,US,United States of America,16,,37.6681,-84.6701
-2020-03-15,LA,Louisiana,US,United States of America,91,2,31.1695,-91.8678
-2020-03-15,MA,Massachusetts,US,United States of America,138,,42.2302,-71.5301
-2020-03-15,MD,Maryland,US,United States of America,31,,39.0639,-76.8021
-2020-03-15,ME,Maine,US,United States of America,3,,44.6939,-69.3819
-2020-03-15,MI,Michigan,US,United States of America,33,,43.3266,-84.5361
-2020-03-15,MN,Minnesota,US,United States of America,35,,44.8254,-93.7842
-2020-03-15,MO,Missouri,US,United States of America,5,0,38.4561,-92.2884
-2020-03-15,MS,Mississippi,US,United States of America,10,,32.7416,-89.6787
-2020-03-15,MT,Montana,US,United States of America,7,,46.9219,-110.4544
-2020-03-15,NC,North Carolina,US,United States of America,32,,35.6301,-79.8064
-2020-03-15,ND,North Dakota,US,United States of America,1,0,47.5289,-99.784
-2020-03-15,NE,Nebraska,US,United States of America,17,,41.3148,-96.1951
-2020-03-15,NH,New Hampshire,US,United States of America,13,,42.9931,-71.0498
-2020-03-15,NJ,New Jersey,US,United States of America,98,2,40.2989,-74.521
-2020-03-15,NM,New Mexico,US,United States of America,13,,34.8405,-106.2485
-2020-03-15,NV,Nevada,US,United States of America,21,,38.3135,-117.0554
-2020-03-15,NY,New York,US,United States of America,729,3,42.1657,-74.9481
-2020-03-15,OH,Ohio,US,United States of America,36,,40.3888,-82.7649
-2020-03-15,OK,Oklahoma,US,United States of America,9,,35.5653,-96.9289
-2020-03-15,OR,Oregon,US,United States of America,36,,43.1261,-123.2492
-2020-03-15,PA,Pennsylvania,US,United States of America,63,,40.5908,-77.2098
-2020-03-15,RI,Rhode Island,US,United States of America,20,,41.8882,-71.4774
-2020-03-15,SC,South Caroline,US,United States of America,19,,33.8569,-80.945
-2020-03-15,SD,South Dakota,US,United States of America,9,,43.8901,-102.2548
-2020-03-15,TN,Tennessee,US,United States of America,39,,35.7478,-86.6923
-2020-03-15,TX,Texas,US,United States of America,56,,31.0545,-97.5635
-2020-03-15,UT,Utah,US,United States of America,28,0,40.15,-111.8624
-2020-03-15,VA,Virginia,US,United States of America,45,1,37.7693,-78.17
-2020-03-15,VT,Vermont,US,United States of America,4,,44.0459,-72.7107
-2020-03-15,WA,Washington,US,United States of America,642,40,47.4009,-121.4905
-2020-03-15,WI,Wisconsin,US,United States of America,33,,43.0186,-89.5498
-2020-03-15,WV,West Virginia,US,United States of America,0,0,38.4912,-80.9545
-2020-03-15,WY,Wyoming,US,United States of America,3,,42.756,-107.3025
-2020-03-16,AK,Alaska,US,United States of America,1,,61.3707,-152.4044
-2020-03-16,AL,Alabama,US,United States of America,28,0,32.3182,-86.9023
-2020-03-16,AR,Arkansas,US,United States of America,22,,34.9697,-92.3731
-2020-03-16,AZ,Arizona,US,United States of America,18,0,33.7298,-111.4312
-2020-03-16,CA,California,US,United States of America,335,6,36.1162,-119.6816
-2020-03-16,CO,Colorado,US,United States of America,131,1,39.0598,-105.3111
-2020-03-16,CT,Connecticut,US,United States of America,26,,41.5978,-72.7554
-2020-03-16,DC,District of Columbia,US,United States of America,17,,38.8974,-77.0268
-2020-03-16,DE,Delaware,US,United States of America,8,,39.3185,-75.5071
-2020-03-16,FL,Florida,US,United States of America,141,4,27.7663,-81.6868
-2020-03-16,GA,Georgia,US,United States of America,121,1,33.0406,-83.6431
-2020-03-16,HI,Hawaii,US,United States of America,7,,21.0943,-157.4983
-2020-03-16,IA,Iowa,US,United States of America,22,,42.0115,-93.2105
-2020-03-16,ID,Idaho,US,United States of America,5,,44.2405,-114.4788
-2020-03-16,IL,Illinois,US,United States of America,93,,40.3495,-88.9861
-2020-03-16,IN,Indiana,US,United States of America,24,1,39.8494,-86.2583
-2020-03-16,KS,Kansas,US,United States of America,11,1,38.5266,-96.7265
-2020-03-16,KY,Kentucky,US,United States of America,21,1,37.6681,-84.6701
-2020-03-16,LA,Louisiana,US,United States of America,114,2,31.1695,-91.8678
-2020-03-16,MA,Massachusetts,US,United States of America,164,,42.2302,-71.5301
-2020-03-16,MD,Maryland,US,United States of America,37,,39.0639,-76.8021
-2020-03-16,ME,Maine,US,United States of America,17,,44.6939,-69.3819
-2020-03-16,MI,Michigan,US,United States of America,53,,43.3266,-84.5361
-2020-03-16,MN,Minnesota,US,United States of America,54,,44.8254,-93.7842
-2020-03-16,MO,Missouri,US,United States of America,6,0,38.4561,-92.2884
-2020-03-16,MS,Mississippi,US,United States of America,12,,32.7416,-89.6787
-2020-03-16,MT,Montana,US,United States of America,7,,46.9219,-110.4544
-2020-03-16,NC,North Carolina,US,United States of America,33,0,35.6301,-79.8064
-2020-03-16,ND,North Dakota,US,United States of America,1,0,47.5289,-99.784
-2020-03-16,NE,Nebraska,US,United States of America,18,,41.3148,-96.1951
-2020-03-16,NH,New Hampshire,US,United States of America,13,,42.9931,-71.0498
-2020-03-16,NJ,New Jersey,US,United States of America,178,2,40.2989,-74.521
-2020-03-16,NM,New Mexico,US,United States of America,17,,34.8405,-106.2485
-2020-03-16,NV,Nevada,US,United States of America,45,1,38.3135,-117.0554
-2020-03-16,NY,New York,US,United States of America,950,7,42.1657,-74.9481
-2020-03-16,OH,Ohio,US,United States of America,50,,40.3888,-82.7649
-2020-03-16,OK,Oklahoma,US,United States of America,10,,35.5653,-96.9289
-2020-03-16,OR,Oregon,US,United States of America,39,,43.1261,-123.2492
-2020-03-16,PA,Pennsylvania,US,United States of America,76,,40.5908,-77.2098
-2020-03-16,RI,Rhode Island,US,United States of America,21,,41.8882,-71.4774
-2020-03-16,SC,South Caroline,US,United States of America,28,1,33.8569,-80.945
-2020-03-16,SD,South Dakota,US,United States of America,10,,43.8901,-102.2548
-2020-03-16,TN,Tennessee,US,United States of America,52,,35.7478,-86.6923
-2020-03-16,TX,Texas,US,United States of America,57,,31.0545,-97.5635
-2020-03-16,UT,Utah,US,United States of America,39,0,40.15,-111.8624
-2020-03-16,VA,Virginia,US,United States of America,51,1,37.7693,-78.17
-2020-03-16,VT,Vermont,US,United States of America,8,,44.0459,-72.7107
-2020-03-16,WA,Washington,US,United States of America,769,42,47.4009,-121.4905
-2020-03-16,WI,Wisconsin,US,United States of America,47,,43.0186,-89.5498
-2020-03-16,WV,West Virginia,US,United States of America,0,0,38.4912,-80.9545
-2020-03-16,WY,Wyoming,US,United States of America,3,,42.756,-107.3025
-2020-03-17,AK,Alaska,US,United States of America,3,,61.3707,-152.4044
-2020-03-17,AL,Alabama,US,United States of America,36,0,32.3182,-86.9023
-2020-03-17,AR,Arkansas,US,United States of America,22,,34.9697,-92.3731
-2020-03-17,AZ,Arizona,US,United States of America,20,0,33.7298,-111.4312
-2020-03-17,CA,California,US,United States of America,483,11,36.1162,-119.6816
-2020-03-17,CO,Colorado,US,United States of America,160,1,39.0598,-105.3111
-2020-03-17,CT,Connecticut,US,United States of America,41,,41.5978,-72.7554
-2020-03-17,DC,District of Columbia,US,United States of America,22,,38.8974,-77.0268
-2020-03-17,DE,Delaware,US,United States of America,16,,39.3185,-75.5071
-2020-03-17,FL,Florida,US,United States of America,186,6,27.7663,-81.6868
-2020-03-17,GA,Georgia,US,United States of America,146,1,33.0406,-83.6431
-2020-03-17,HI,Hawaii,US,United States of America,10,,21.0943,-157.4983
-2020-03-17,IA,Iowa,US,United States of America,23,,42.0115,-93.2105
-2020-03-17,ID,Idaho,US,United States of America,7,,44.2405,-114.4788
-2020-03-17,IL,Illinois,US,United States of America,160,1,40.3495,-88.9861
-2020-03-17,IN,Indiana,US,United States of America,30,2,39.8494,-86.2583
-2020-03-17,KS,Kansas,US,United States of America,15,1,38.5266,-96.7265
-2020-03-17,KY,Kentucky,US,United States of America,22,1,37.6681,-84.6701
-2020-03-17,LA,Louisiana,US,United States of America,171,4,31.1695,-91.8678
-2020-03-17,MA,Massachusetts,US,United States of America,218,,42.2302,-71.5301
-2020-03-17,MD,Maryland,US,United States of America,57,,39.0639,-76.8021
-2020-03-17,ME,Maine,US,United States of America,32,,44.6939,-69.3819
-2020-03-17,MI,Michigan,US,United States of America,65,,43.3266,-84.5361
-2020-03-17,MN,Minnesota,US,United States of America,60,,44.8254,-93.7842
-2020-03-17,MO,Missouri,US,United States of America,8,0,38.4561,-92.2884
-2020-03-17,MS,Mississippi,US,United States of America,21,,32.7416,-89.6787
-2020-03-17,MT,Montana,US,United States of America,8,,46.9219,-110.4544
-2020-03-17,NC,North Carolina,US,United States of America,40,0,35.6301,-79.8064
-2020-03-17,ND,North Dakota,US,United States of America,3,0,47.5289,-99.784
-2020-03-17,NE,Nebraska,US,United States of America,21,,41.3148,-96.1951
-2020-03-17,NH,New Hampshire,US,United States of America,17,,42.9931,-71.0498
-2020-03-17,NJ,New Jersey,US,United States of America,267,3,40.2989,-74.521
-2020-03-17,NM,New Mexico,US,United States of America,23,,34.8405,-106.2485
-2020-03-17,NV,Nevada,US,United States of America,55,1,38.3135,-117.0554
-2020-03-17,NY,New York,US,United States of America,1700,7,42.1657,-74.9481
-2020-03-17,OH,Ohio,US,United States of America,67,,40.3888,-82.7649
-2020-03-17,OK,Oklahoma,US,United States of America,17,,35.5653,-96.9289
-2020-03-17,OR,Oregon,US,United States of America,47,,43.1261,-123.2492
-2020-03-17,PA,Pennsylvania,US,United States of America,96,,40.5908,-77.2098
-2020-03-17,RI,Rhode Island,US,United States of America,21,,41.8882,-71.4774
-2020-03-17,SC,South Caroline,US,United States of America,33,1,33.8569,-80.945
-2020-03-17,SD,South Dakota,US,United States of America,11,,43.8901,-102.2548
-2020-03-17,TN,Tennessee,US,United States of America,73,,35.7478,-86.6923
-2020-03-17,TX,Texas,US,United States of America,64,1,31.0545,-97.5635
-2020-03-17,UT,Utah,US,United States of America,51,0,40.15,-111.8624
-2020-03-17,VA,Virginia,US,United States of America,67,1,37.7693,-78.17
-2020-03-17,VT,Vermont,US,United States of America,10,,44.0459,-72.7107
-2020-03-17,WA,Washington,US,United States of America,904,48,47.4009,-121.4905
-2020-03-17,WI,Wisconsin,US,United States of America,72,,43.0186,-89.5498
-2020-03-17,WV,West Virginia,US,United States of America,0,0,38.4912,-80.9545
-2020-03-17,WY,Wyoming,US,United States of America,10,,42.756,-107.3025
-2020-03-18,AK,Alaska,US,United States of America,6,,61.3707,-152.4044
-2020-03-18,AL,Alabama,US,United States of America,46,0,32.3182,-86.9023
-2020-03-18,AR,Arkansas,US,United States of America,33,,34.9697,-92.3731
-2020-03-18,AZ,Arizona,US,United States of America,28,0,33.7298,-111.4312
-2020-03-18,CA,California,US,United States of America,611,13,36.1162,-119.6816
-2020-03-18,CO,Colorado,US,United States of America,183,2,39.0598,-105.3111
-2020-03-18,CT,Connecticut,US,United States of America,68,,41.5978,-72.7554
-2020-03-18,DC,District of Columbia,US,United States of America,31,,38.8974,-77.0268
-2020-03-18,DE,Delaware,US,United States of America,25,,39.3185,-75.5071
-2020-03-18,FL,Florida,US,United States of America,314,7,27.7663,-81.6868
-2020-03-18,GA,Georgia,US,United States of America,197,1,33.0406,-83.6431
-2020-03-18,HI,Hawaii,US,United States of America,14,,21.0943,-157.4983
-2020-03-18,IA,Iowa,US,United States of America,29,,42.0115,-93.2105
-2020-03-18,ID,Idaho,US,United States of America,9,,44.2405,-114.4788
-2020-03-18,IL,Illinois,US,United States of America,289,1,40.3495,-88.9861
-2020-03-18,IN,Indiana,US,United States of America,39,2,39.8494,-86.2583
-2020-03-18,KS,Kansas,US,United States of America,16,1,38.5266,-96.7265
-2020-03-18,KY,Kentucky,US,United States of America,26,1,37.6681,-84.6701
-2020-03-18,LA,Louisiana,US,United States of America,240,6,31.1695,-91.8678
-2020-03-18,MA,Massachusetts,US,United States of America,256,,42.2302,-71.5301
-2020-03-18,MD,Maryland,US,United States of America,85,,39.0639,-76.8021
-2020-03-18,ME,Maine,US,United States of America,43,,44.6939,-69.3819
-2020-03-18,MI,Michigan,US,United States of America,80,,43.3266,-84.5361
-2020-03-18,MN,Minnesota,US,United States of America,77,,44.8254,-93.7842
-2020-03-18,MO,Missouri,US,United States of America,13,0,38.4561,-92.2884
-2020-03-18,MS,Mississippi,US,United States of America,34,,32.7416,-89.6787
-2020-03-18,MT,Montana,US,United States of America,10,,46.9219,-110.4544
-2020-03-18,NC,North Carolina,US,United States of America,63,0,35.6301,-79.8064
-2020-03-18,ND,North Dakota,US,United States of America,6,0,47.5289,-99.784
-2020-03-18,NE,Nebraska,US,United States of America,24,,41.3148,-96.1951
-2020-03-18,NH,New Hampshire,US,United States of America,26,,42.9931,-71.0498
-2020-03-18,NJ,New Jersey,US,United States of America,427,5,40.2989,-74.521
-2020-03-18,NM,New Mexico,US,United States of America,28,,34.8405,-106.2485
-2020-03-18,NV,Nevada,US,United States of America,55,1,38.3135,-117.0554
-2020-03-18,NY,New York,US,United States of America,2382,12,42.1657,-74.9481
-2020-03-18,OH,Ohio,US,United States of America,88,,40.3888,-82.7649
-2020-03-18,OK,Oklahoma,US,United States of America,29,,35.5653,-96.9289
-2020-03-18,OR,Oregon,US,United States of America,75,3,43.1261,-123.2492
-2020-03-18,PA,Pennsylvania,US,United States of America,133,,40.5908,-77.2098
-2020-03-18,RI,Rhode Island,US,United States of America,33,,41.8882,-71.4774
-2020-03-18,SC,South Caroline,US,United States of America,60,1,33.8569,-80.945
-2020-03-18,SD,South Dakota,US,United States of America,11,1,43.8901,-102.2548
-2020-03-18,TN,Tennessee,US,United States of America,98,,35.7478,-86.6923
-2020-03-18,TX,Texas,US,United States of America,83,2,31.0545,-97.5635
-2020-03-18,UT,Utah,US,United States of America,63,0,40.15,-111.8624
-2020-03-18,VA,Virginia,US,United States of America,77,1,37.7693,-78.17
-2020-03-18,VT,Vermont,US,United States of America,19,,44.0459,-72.7107
-2020-03-18,WA,Washington,US,United States of America,1012,52,47.4009,-121.4905
-2020-03-18,WI,Wisconsin,US,United States of America,106,,43.0186,-89.5498
-2020-03-18,WV,West Virginia,US,United States of America,1,0,38.4912,-80.9545
-2020-03-18,WY,Wyoming,US,United States of America,15,,42.756,-107.3025
-2020-03-19,AK,Alaska,US,United States of America,6,,61.3707,-152.4044
-2020-03-19,AL,Alabama,US,United States of America,68,0,32.3182,-86.9023
-2020-03-19,AR,Arkansas,US,United States of America,46,,34.9697,-92.3731
-2020-03-19,AZ,Arizona,US,United States of America,44,0,33.7298,-111.4312
-2020-03-19,CA,California,US,United States of America,924,18,36.1162,-119.6816
-2020-03-19,CO,Colorado,US,United States of America,216,2,39.0598,-105.3111
-2020-03-19,CT,Connecticut,US,United States of America,96,1,41.5978,-72.7554
-2020-03-19,DC,District of Columbia,US,United States of America,39,0,38.8974,-77.0268
-2020-03-19,DE,Delaware,US,United States of America,30,0,39.3185,-75.5071
-2020-03-19,FL,Florida,US,United States of America,390,8,27.7663,-81.6868
-2020-03-19,GA,Georgia,US,United States of America,287,10,33.0406,-83.6431
-2020-03-19,HI,Hawaii,US,United States of America,16,,21.0943,-157.4983
-2020-03-19,IA,Iowa,US,United States of America,38,,42.0115,-93.2105
-2020-03-19,ID,Idaho,US,United States of America,11,,44.2405,-114.4788
-2020-03-19,IL,Illinois,US,United States of America,426,4,40.3495,-88.9861
-2020-03-19,IN,Indiana,US,United States of America,56,2,39.8494,-86.2583
-2020-03-19,KS,Kansas,US,United States of America,34,1,38.5266,-96.7265
-2020-03-19,KY,Kentucky,US,United States of America,35,1,37.6681,-84.6701
-2020-03-19,LA,Louisiana,US,United States of America,347,8,31.1695,-91.8678
-2020-03-19,MA,Massachusetts,US,United States of America,328,,42.2302,-71.5301
-2020-03-19,MD,Maryland,US,United States of America,107,1,39.0639,-76.8021
-2020-03-19,ME,Maine,US,United States of America,53,,44.6939,-69.3819
-2020-03-19,MI,Michigan,US,United States of America,336,3,43.3266,-84.5361
-2020-03-19,MN,Minnesota,US,United States of America,89,,44.8254,-93.7842
-2020-03-19,MO,Missouri,US,United States of America,24,1,38.4561,-92.2884
-2020-03-19,MS,Mississippi,US,United States of America,50,,32.7416,-89.6787
-2020-03-19,MT,Montana,US,United States of America,12,,46.9219,-110.4544
-2020-03-19,NC,North Carolina,US,United States of America,97,0,35.6301,-79.8064
-2020-03-19,ND,North Dakota,US,United States of America,15,0,47.5289,-99.784
-2020-03-19,NE,Nebraska,US,United States of America,27,0,41.3148,-96.1951
-2020-03-19,NH,New Hampshire,US,United States of America,39,,42.9931,-71.0498
-2020-03-19,NJ,New Jersey,US,United States of America,742,9,40.2989,-74.521
-2020-03-19,NM,New Mexico,US,United States of America,35,,34.8405,-106.2485
-2020-03-19,NV,Nevada,US,United States of America,95,1,38.3135,-117.0554
-2020-03-19,NY,New York,US,United States of America,4152,12,42.1657,-74.9481
-2020-03-19,OH,Ohio,US,United States of America,119,,40.3888,-82.7649
-2020-03-19,OK,Oklahoma,US,United States of America,44,1,35.5653,-96.9289
-2020-03-19,OR,Oregon,US,United States of America,88,3,43.1261,-123.2492
-2020-03-19,PA,Pennsylvania,US,United States of America,185,1,40.5908,-77.2098
-2020-03-19,RI,Rhode Island,US,United States of America,33,,41.8882,-71.4774
-2020-03-19,SC,South Caroline,US,United States of America,60,1,33.8569,-80.945
-2020-03-19,SD,South Dakota,US,United States of America,11,1,43.8901,-102.2548
-2020-03-19,TN,Tennessee,US,United States of America,154,,35.7478,-86.6923
-2020-03-19,TX,Texas,US,United States of America,143,3,31.0545,-97.5635
-2020-03-19,UT,Utah,US,United States of America,78,0,40.15,-111.8624
-2020-03-19,VA,Virginia,US,United States of America,94,2,37.7693,-78.17
-2020-03-19,VT,Vermont,US,United States of America,22,,44.0459,-72.7107
-2020-03-19,WA,Washington,US,United States of America,1187,66,47.4009,-121.4905
-2020-03-19,WI,Wisconsin,US,United States of America,155,,43.0186,-89.5498
-2020-03-19,WV,West Virginia,US,United States of America,2,0,38.4912,-80.9545
-2020-03-19,WY,Wyoming,US,United States of America,18,,42.756,-107.3025
-2020-03-20,AK,Alaska,US,United States of America,12,,61.3707,-152.4044
-2020-03-20,AL,Alabama,US,United States of America,81,0,32.3182,-86.9023
-2020-03-20,AR,Arkansas,US,United States of America,96,,34.9697,-92.3731
-2020-03-20,AZ,Arizona,US,United States of America,65,0,33.7298,-111.4312
-2020-03-20,CA,California,US,United States of America,1063,20,36.1162,-119.6816
-2020-03-20,CO,Colorado,US,United States of America,277,3,39.0598,-105.3111
-2020-03-20,CT,Connecticut,US,United States of America,194,3,41.5978,-72.7554
-2020-03-20,DC,District of Columbia,US,United States of America,71,1,38.8974,-77.0268
-2020-03-20,DE,Delaware,US,United States of America,38,0,39.3185,-75.5071
-2020-03-20,FL,Florida,US,United States of America,520,10,27.7663,-81.6868
-2020-03-20,GA,Georgia,US,United States of America,420,13,33.0406,-83.6431
-2020-03-20,HI,Hawaii,US,United States of America,26,,21.0943,-157.4983
-2020-03-20,IA,Iowa,US,United States of America,45,,42.0115,-93.2105
-2020-03-20,ID,Idaho,US,United States of America,23,,44.2405,-114.4788
-2020-03-20,IL,Illinois,US,United States of America,590,5,40.3495,-88.9861
-2020-03-20,IN,Indiana,US,United States of America,79,2,39.8494,-86.2583
-2020-03-20,KS,Kansas,US,United States of America,44,1,38.5266,-96.7265
-2020-03-20,KY,Kentucky,US,United States of America,47,1,37.6681,-84.6701
-2020-03-20,LA,Louisiana,US,United States of America,479,12,31.1695,-91.8678
-2020-03-20,MA,Massachusetts,US,United States of America,413,1,42.2302,-71.5301
-2020-03-20,MD,Maryland,US,United States of America,149,1,39.0639,-76.8021
-2020-03-20,ME,Maine,US,United States of America,57,,44.6939,-69.3819
-2020-03-20,MI,Michigan,US,United States of America,549,3,43.3266,-84.5361
-2020-03-20,MN,Minnesota,US,United States of America,115,,44.8254,-93.7842
-2020-03-20,MO,Missouri,US,United States of America,47,1,38.4561,-92.2884
-2020-03-20,MS,Mississippi,US,United States of America,80,1,32.7416,-89.6787
-2020-03-20,MT,Montana,US,United States of America,16,,46.9219,-110.4544
-2020-03-20,NC,North Carolina,US,United States of America,137,0,35.6301,-79.8064
-2020-03-20,ND,North Dakota,US,United States of America,20,0,47.5289,-99.784
-2020-03-20,NE,Nebraska,US,United States of America,32,0,41.3148,-96.1951
-2020-03-20,NH,New Hampshire,US,United States of America,44,,42.9931,-71.0498
-2020-03-20,NJ,New Jersey,US,United States of America,890,11,40.2989,-74.521
-2020-03-20,NM,New Mexico,US,United States of America,43,,34.8405,-106.2485
-2020-03-20,NV,Nevada,US,United States of America,109,1,38.3135,-117.0554
-2020-03-20,NY,New York,US,United States of America,7102,35,42.1657,-74.9481
-2020-03-20,OH,Ohio,US,United States of America,169,1,40.3888,-82.7649
-2020-03-20,OK,Oklahoma,US,United States of America,49,1,35.5653,-96.9289
-2020-03-20,OR,Oregon,US,United States of America,114,3,43.1261,-123.2492
-2020-03-20,PA,Pennsylvania,US,United States of America,268,1,40.5908,-77.2098
-2020-03-20,RI,Rhode Island,US,United States of America,54,,41.8882,-71.4774
-2020-03-20,SC,South Caroline,US,United States of America,81,1,33.8569,-80.945
-2020-03-20,SD,South Dakota,US,United States of America,14,1,43.8901,-102.2548
-2020-03-20,TN,Tennessee,US,United States of America,228,,35.7478,-86.6923
-2020-03-20,TX,Texas,US,United States of America,194,5,31.0545,-97.5635
-2020-03-20,UT,Utah,US,United States of America,112,0,40.15,-111.8624
-2020-03-20,VA,Virginia,US,United States of America,114,2,37.7693,-78.17
-2020-03-20,VT,Vermont,US,United States of America,29,2,44.0459,-72.7107
-2020-03-20,WA,Washington,US,United States of America,1376,74,47.4009,-121.4905
-2020-03-20,WI,Wisconsin,US,United States of America,206,3,43.0186,-89.5498
-2020-03-20,WV,West Virginia,US,United States of America,7,0,38.4912,-80.9545
-2020-03-20,WY,Wyoming,US,United States of America,19,,42.756,-107.3025
+Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Longitude,Population
+2020-03-04,US,United States of America,AZ,Arizona,2,,33.7298,-111.4312,
+2020-03-04,US,United States of America,CA,California,53,,36.1162,-119.6816,
+2020-03-04,US,United States of America,FL,Florida,2,,27.7663,-81.6868,
+2020-03-04,US,United States of America,GA,Georgia,2,,33.0406,-83.6431,
+2020-03-04,US,United States of America,IL,Illinois,4,,40.3495,-88.9861,
+2020-03-04,US,United States of America,MA,Massachusetts,2,,42.2302,-71.5301,
+2020-03-04,US,United States of America,NC,North Carolina,1,,35.6301,-79.8064,
+2020-03-04,US,United States of America,NH,New Hampshire,2,,42.9931,-71.0498,
+2020-03-04,US,United States of America,NY,New York,6,,42.1657,-74.9481,
+2020-03-04,US,United States of America,OR,Oregon,3,,43.1261,-123.2492,
+2020-03-04,US,United States of America,SC,South Caroline,0,,33.8569,-80.945,
+2020-03-04,US,United States of America,TX,Texas,1,,31.0545,-97.5635,
+2020-03-04,US,United States of America,WA,Washington,39,,47.4009,-121.4905,
+2020-03-04,US,United States of America,WI,Wisconsin,1,,43.0186,-89.5498,
+2020-03-05,US,United States of America,AZ,Arizona,2,,33.7298,-111.4312,
+2020-03-05,US,United States of America,CA,California,53,,36.1162,-119.6816,
+2020-03-05,US,United States of America,CO,Colorado,0,,39.0598,-105.3111,
+2020-03-05,US,United States of America,DC,District of Columbia,0,,38.8974,-77.0268,
+2020-03-05,US,United States of America,FL,Florida,9,,27.7663,-81.6868,
+2020-03-05,US,United States of America,GA,Georgia,2,,33.0406,-83.6431,
+2020-03-05,US,United States of America,IL,Illinois,5,,40.3495,-88.9861,
+2020-03-05,US,United States of America,MA,Massachusetts,2,,42.2302,-71.5301,
+2020-03-05,US,United States of America,MD,Maryland,0,,39.0639,-76.8021,
+2020-03-05,US,United States of America,MI,Michigan,0,,43.3266,-84.5361,
+2020-03-05,US,United States of America,NC,North Carolina,1,,35.6301,-79.8064,
+2020-03-05,US,United States of America,NE,Nebraska,0,,41.3148,-96.1951,
+2020-03-05,US,United States of America,NH,New Hampshire,2,,42.9931,-71.0498,
+2020-03-05,US,United States of America,NJ,New Jersey,1,,40.2989,-74.521,
+2020-03-05,US,United States of America,NV,Nevada,1,,38.3135,-117.0554,
+2020-03-05,US,United States of America,NY,New York,22,,42.1657,-74.9481,
+2020-03-05,US,United States of America,OH,Ohio,0,,40.3888,-82.7649,
+2020-03-05,US,United States of America,OR,Oregon,3,,43.1261,-123.2492,
+2020-03-05,US,United States of America,SC,South Caroline,0,,33.8569,-80.945,
+2020-03-05,US,United States of America,TN,Tennessee,1,,35.7478,-86.6923,
+2020-03-05,US,United States of America,TX,Texas,1,,31.0545,-97.5635,
+2020-03-05,US,United States of America,VA,Virginia,0,,37.7693,-78.17,
+2020-03-05,US,United States of America,WA,Washington,70,,47.4009,-121.4905,
+2020-03-05,US,United States of America,WI,Wisconsin,1,,43.0186,-89.5498,
+2020-03-06,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-06,US,United States of America,AR,Arkansas,0,,34.9697,-92.3731,
+2020-03-06,US,United States of America,AZ,Arizona,3,,33.7298,-111.4312,
+2020-03-06,US,United States of America,CA,California,60,,36.1162,-119.6816,
+2020-03-06,US,United States of America,CO,Colorado,2,,39.0598,-105.3111,
+2020-03-06,US,United States of America,DC,District of Columbia,0,,38.8974,-77.0268,
+2020-03-06,US,United States of America,DE,Delaware,0,,39.3185,-75.5071,
+2020-03-06,US,United States of America,FL,Florida,9,,27.7663,-81.6868,
+2020-03-06,US,United States of America,GA,Georgia,2,,33.0406,-83.6431,
+2020-03-06,US,United States of America,IA,Iowa,0,,42.0115,-93.2105,
+2020-03-06,US,United States of America,IL,Illinois,5,,40.3495,-88.9861,
+2020-03-06,US,United States of America,IN,Indiana,1,,39.8494,-86.2583,
+2020-03-06,US,United States of America,KS,Kansas,0,,38.5266,-96.7265,
+2020-03-06,US,United States of America,KY,Kentucky,0,,37.6681,-84.6701,
+2020-03-06,US,United States of America,MA,Massachusetts,8,,42.2302,-71.5301,
+2020-03-06,US,United States of America,MD,Maryland,3,,39.0639,-76.8021,
+2020-03-06,US,United States of America,MI,Michigan,0,,43.3266,-84.5361,
+2020-03-06,US,United States of America,MN,Minnesota,0,,44.8254,-93.7842,
+2020-03-06,US,United States of America,NC,North Carolina,2,,35.6301,-79.8064,
+2020-03-06,US,United States of America,NE,Nebraska,0,,41.3148,-96.1951,
+2020-03-06,US,United States of America,NH,New Hampshire,2,,42.9931,-71.0498,
+2020-03-06,US,United States of America,NJ,New Jersey,1,,40.2989,-74.521,
+2020-03-06,US,United States of America,NM,New Mexico,0,,34.8405,-106.2485,
+2020-03-06,US,United States of America,NV,Nevada,1,,38.3135,-117.0554,
+2020-03-06,US,United States of America,NY,New York,33,,42.1657,-74.9481,
+2020-03-06,US,United States of America,OH,Ohio,0,,40.3888,-82.7649,
+2020-03-06,US,United States of America,OR,Oregon,3,,43.1261,-123.2492,
+2020-03-06,US,United States of America,PA,Pennsylvania,2,,40.5908,-77.2098,
+2020-03-06,US,United States of America,SC,South Caroline,0,,33.8569,-80.945,
+2020-03-06,US,United States of America,TN,Tennessee,1,,35.7478,-86.6923,
+2020-03-06,US,United States of America,TX,Texas,5,,31.0545,-97.5635,
+2020-03-06,US,United States of America,VA,Virginia,0,,37.7693,-78.17,
+2020-03-06,US,United States of America,VT,Vermont,0,,44.0459,-72.7107,
+2020-03-06,US,United States of America,WA,Washington,79,,47.4009,-121.4905,
+2020-03-06,US,United States of America,WI,Wisconsin,1,,43.0186,-89.5498,
+2020-03-06,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-07,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-07,US,United States of America,AL,Alabama,0,,32.3182,-86.9023,
+2020-03-07,US,United States of America,AR,Arkansas,0,,34.9697,-92.3731,
+2020-03-07,US,United States of America,AZ,Arizona,5,,33.7298,-111.4312,
+2020-03-07,US,United States of America,CA,California,69,,36.1162,-119.6816,
+2020-03-07,US,United States of America,CO,Colorado,8,,39.0598,-105.3111,
+2020-03-07,US,United States of America,CT,Connecticut,0,,41.5978,-72.7554,
+2020-03-07,US,United States of America,DC,District of Columbia,0,,38.8974,-77.0268,
+2020-03-07,US,United States of America,DE,Delaware,0,,39.3185,-75.5071,
+2020-03-07,US,United States of America,FL,Florida,14,,27.7663,-81.6868,
+2020-03-07,US,United States of America,GA,Georgia,6,,33.0406,-83.6431,
+2020-03-07,US,United States of America,HI,Hawaii,1,,21.0943,-157.4983,
+2020-03-07,US,United States of America,IA,Iowa,0,,42.0115,-93.2105,
+2020-03-07,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-07,US,United States of America,IL,Illinois,6,,40.3495,-88.9861,
+2020-03-07,US,United States of America,IN,Indiana,1,,39.8494,-86.2583,
+2020-03-07,US,United States of America,KS,Kansas,0,,38.5266,-96.7265,
+2020-03-07,US,United States of America,KY,Kentucky,1,,37.6681,-84.6701,
+2020-03-07,US,United States of America,LA,Louisiana,0,,31.1695,-91.8678,
+2020-03-07,US,United States of America,MA,Massachusetts,13,,42.2302,-71.5301,
+2020-03-07,US,United States of America,MD,Maryland,3,,39.0639,-76.8021,
+2020-03-07,US,United States of America,ME,Maine,0,,44.6939,-69.3819,
+2020-03-07,US,United States of America,MI,Michigan,0,,43.3266,-84.5361,
+2020-03-07,US,United States of America,MN,Minnesota,1,,44.8254,-93.7842,
+2020-03-07,US,United States of America,MO,Missouri,0,,38.4561,-92.2884,
+2020-03-07,US,United States of America,MS,Mississippi,0,,32.7416,-89.6787,
+2020-03-07,US,United States of America,MT,Montana,0,,46.9219,-110.4544,
+2020-03-07,US,United States of America,NC,North Carolina,2,,35.6301,-79.8064,
+2020-03-07,US,United States of America,ND,North Dakota,0,,47.5289,-99.784,
+2020-03-07,US,United States of America,NE,Nebraska,1,,41.3148,-96.1951,
+2020-03-07,US,United States of America,NH,New Hampshire,2,,42.9931,-71.0498,
+2020-03-07,US,United States of America,NJ,New Jersey,4,,40.2989,-74.521,
+2020-03-07,US,United States of America,NM,New Mexico,0,,34.8405,-106.2485,
+2020-03-07,US,United States of America,NV,Nevada,1,,38.3135,-117.0554,
+2020-03-07,US,United States of America,NY,New York,76,,42.1657,-74.9481,
+2020-03-07,US,United States of America,OH,Ohio,0,,40.3888,-82.7649,
+2020-03-07,US,United States of America,OK,Oklahoma,1,,35.5653,-96.9289,
+2020-03-07,US,United States of America,OR,Oregon,7,,43.1261,-123.2492,
+2020-03-07,US,United States of America,PA,Pennsylvania,2,,40.5908,-77.2098,
+2020-03-07,US,United States of America,RI,Rhode Island,2,,41.8882,-71.4774,
+2020-03-07,US,United States of America,SC,South Caroline,2,,33.8569,-80.945,
+2020-03-07,US,United States of America,SD,South Dakota,0,,43.8901,-102.2548,
+2020-03-07,US,United States of America,TN,Tennessee,1,,35.7478,-86.6923,
+2020-03-07,US,United States of America,TX,Texas,8,,31.0545,-97.5635,
+2020-03-07,US,United States of America,UT,Utah,1,,40.15,-111.8624,
+2020-03-07,US,United States of America,VA,Virginia,0,,37.7693,-78.17,
+2020-03-07,US,United States of America,VT,Vermont,0,,44.0459,-72.7107,
+2020-03-07,US,United States of America,WA,Washington,102,,47.4009,-121.4905,
+2020-03-07,US,United States of America,WI,Wisconsin,1,,43.0186,-89.5498,
+2020-03-07,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-07,US,United States of America,WY,Wyoming,0,,42.756,-107.3025,
+2020-03-08,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-08,US,United States of America,AL,Alabama,0,,32.3182,-86.9023,
+2020-03-08,US,United States of America,AR,Arkansas,0,,34.9697,-92.3731,
+2020-03-08,US,United States of America,AZ,Arizona,5,,33.7298,-111.4312,
+2020-03-08,US,United States of America,CA,California,88,,36.1162,-119.6816,
+2020-03-08,US,United States of America,CO,Colorado,8,,39.0598,-105.3111,
+2020-03-08,US,United States of America,CT,Connecticut,1,,41.5978,-72.7554,
+2020-03-08,US,United States of America,DC,District of Columbia,1,,38.8974,-77.0268,
+2020-03-08,US,United States of America,DE,Delaware,0,,39.3185,-75.5071,
+2020-03-08,US,United States of America,FL,Florida,17,,27.7663,-81.6868,
+2020-03-08,US,United States of America,GA,Georgia,7,,33.0406,-83.6431,
+2020-03-08,US,United States of America,HI,Hawaii,1,,21.0943,-157.4983,
+2020-03-08,US,United States of America,IA,Iowa,0,,42.0115,-93.2105,
+2020-03-08,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-08,US,United States of America,IL,Illinois,6,,40.3495,-88.9861,
+2020-03-08,US,United States of America,IN,Indiana,2,,39.8494,-86.2583,
+2020-03-08,US,United States of America,KS,Kansas,1,,38.5266,-96.7265,
+2020-03-08,US,United States of America,KY,Kentucky,1,,37.6681,-84.6701,
+2020-03-08,US,United States of America,LA,Louisiana,0,,31.1695,-91.8678,
+2020-03-08,US,United States of America,MA,Massachusetts,13,,42.2302,-71.5301,
+2020-03-08,US,United States of America,MD,Maryland,3,,39.0639,-76.8021,
+2020-03-08,US,United States of America,ME,Maine,0,,44.6939,-69.3819,
+2020-03-08,US,United States of America,MI,Michigan,0,,43.3266,-84.5361,
+2020-03-08,US,United States of America,MN,Minnesota,1,,44.8254,-93.7842,
+2020-03-08,US,United States of America,MO,Missouri,1,,38.4561,-92.2884,
+2020-03-08,US,United States of America,MS,Mississippi,0,,32.7416,-89.6787,
+2020-03-08,US,United States of America,MT,Montana,0,,46.9219,-110.4544,
+2020-03-08,US,United States of America,NC,North Carolina,2,,35.6301,-79.8064,
+2020-03-08,US,United States of America,ND,North Dakota,0,,47.5289,-99.784,
+2020-03-08,US,United States of America,NE,Nebraska,1,,41.3148,-96.1951,
+2020-03-08,US,United States of America,NH,New Hampshire,4,,42.9931,-71.0498,
+2020-03-08,US,United States of America,NJ,New Jersey,6,,40.2989,-74.521,
+2020-03-08,US,United States of America,NM,New Mexico,0,,34.8405,-106.2485,
+2020-03-08,US,United States of America,NV,Nevada,1,,38.3135,-117.0554,
+2020-03-08,US,United States of America,NY,New York,105,,42.1657,-74.9481,
+2020-03-08,US,United States of America,OH,Ohio,0,,40.3888,-82.7649,
+2020-03-08,US,United States of America,OK,Oklahoma,1,,35.5653,-96.9289,
+2020-03-08,US,United States of America,OR,Oregon,14,,43.1261,-123.2492,
+2020-03-08,US,United States of America,PA,Pennsylvania,4,,40.5908,-77.2098,
+2020-03-08,US,United States of America,RI,Rhode Island,3,,41.8882,-71.4774,
+2020-03-08,US,United States of America,SC,South Caroline,2,,33.8569,-80.945,
+2020-03-08,US,United States of America,SD,South Dakota,0,,43.8901,-102.2548,
+2020-03-08,US,United States of America,TN,Tennessee,3,,35.7478,-86.6923,
+2020-03-08,US,United States of America,TX,Texas,8,,31.0545,-97.5635,
+2020-03-08,US,United States of America,UT,Utah,1,,40.15,-111.8624,
+2020-03-08,US,United States of America,VA,Virginia,2,,37.7693,-78.17,
+2020-03-08,US,United States of America,VT,Vermont,1,,44.0459,-72.7107,
+2020-03-08,US,United States of America,WA,Washington,102,,47.4009,-121.4905,
+2020-03-08,US,United States of America,WI,Wisconsin,1,,43.0186,-89.5498,
+2020-03-08,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-08,US,United States of America,WY,Wyoming,0,,42.756,-107.3025,
+2020-03-09,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-09,US,United States of America,AL,Alabama,0,,32.3182,-86.9023,
+2020-03-09,US,United States of America,AR,Arkansas,0,,34.9697,-92.3731,
+2020-03-09,US,United States of America,AZ,Arizona,5,,33.7298,-111.4312,
+2020-03-09,US,United States of America,CA,California,114,,36.1162,-119.6816,
+2020-03-09,US,United States of America,CO,Colorado,9,,39.0598,-105.3111,
+2020-03-09,US,United States of America,CT,Connecticut,1,,41.5978,-72.7554,
+2020-03-09,US,United States of America,DC,District of Columbia,1,,38.8974,-77.0268,
+2020-03-09,US,United States of America,DE,Delaware,0,,39.3185,-75.5071,
+2020-03-09,US,United States of America,FL,Florida,18,,27.7663,-81.6868,
+2020-03-09,US,United States of America,GA,Georgia,12,,33.0406,-83.6431,
+2020-03-09,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-09,US,United States of America,IA,Iowa,3,,42.0115,-93.2105,
+2020-03-09,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-09,US,United States of America,IL,Illinois,7,,40.3495,-88.9861,
+2020-03-09,US,United States of America,IN,Indiana,2,,39.8494,-86.2583,
+2020-03-09,US,United States of America,KS,Kansas,1,,38.5266,-96.7265,
+2020-03-09,US,United States of America,KY,Kentucky,4,,37.6681,-84.6701,
+2020-03-09,US,United States of America,LA,Louisiana,1,,31.1695,-91.8678,
+2020-03-09,US,United States of America,MA,Massachusetts,41,,42.2302,-71.5301,
+2020-03-09,US,United States of America,MD,Maryland,5,,39.0639,-76.8021,
+2020-03-09,US,United States of America,ME,Maine,0,,44.6939,-69.3819,
+2020-03-09,US,United States of America,MI,Michigan,0,,43.3266,-84.5361,
+2020-03-09,US,United States of America,MN,Minnesota,2,,44.8254,-93.7842,
+2020-03-09,US,United States of America,MO,Missouri,1,,38.4561,-92.2884,
+2020-03-09,US,United States of America,MS,Mississippi,0,,32.7416,-89.6787,
+2020-03-09,US,United States of America,MT,Montana,0,,46.9219,-110.4544,
+2020-03-09,US,United States of America,NC,North Carolina,2,,35.6301,-79.8064,
+2020-03-09,US,United States of America,ND,North Dakota,0,,47.5289,-99.784,
+2020-03-09,US,United States of America,NE,Nebraska,3,,41.3148,-96.1951,
+2020-03-09,US,United States of America,NH,New Hampshire,4,,42.9931,-71.0498,
+2020-03-09,US,United States of America,NJ,New Jersey,11,,40.2989,-74.521,
+2020-03-09,US,United States of America,NM,New Mexico,0,,34.8405,-106.2485,
+2020-03-09,US,United States of America,NV,Nevada,1,,38.3135,-117.0554,
+2020-03-09,US,United States of America,NY,New York,142,,42.1657,-74.9481,
+2020-03-09,US,United States of America,OH,Ohio,3,,40.3888,-82.7649,
+2020-03-09,US,United States of America,OK,Oklahoma,1,,35.5653,-96.9289,
+2020-03-09,US,United States of America,OR,Oregon,14,,43.1261,-123.2492,
+2020-03-09,US,United States of America,PA,Pennsylvania,7,,40.5908,-77.2098,
+2020-03-09,US,United States of America,RI,Rhode Island,3,,41.8882,-71.4774,
+2020-03-09,US,United States of America,SC,South Caroline,7,,33.8569,-80.945,
+2020-03-09,US,United States of America,SD,South Dakota,0,,43.8901,-102.2548,
+2020-03-09,US,United States of America,TN,Tennessee,3,,35.7478,-86.6923,
+2020-03-09,US,United States of America,TX,Texas,12,,31.0545,-97.5635,
+2020-03-09,US,United States of America,UT,Utah,1,,40.15,-111.8624,
+2020-03-09,US,United States of America,VA,Virginia,3,,37.7693,-78.17,
+2020-03-09,US,United States of America,VT,Vermont,1,,44.0459,-72.7107,
+2020-03-09,US,United States of America,WA,Washington,136,,47.4009,-121.4905,
+2020-03-09,US,United States of America,WI,Wisconsin,1,,43.0186,-89.5498,
+2020-03-09,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-09,US,United States of America,WY,Wyoming,0,,42.756,-107.3025,
+2020-03-10,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-10,US,United States of America,AL,Alabama,0,,32.3182,-86.9023,
+2020-03-10,US,United States of America,AR,Arkansas,0,,34.9697,-92.3731,
+2020-03-10,US,United States of America,AZ,Arizona,6,,33.7298,-111.4312,
+2020-03-10,US,United States of America,CA,California,133,,36.1162,-119.6816,
+2020-03-10,US,United States of America,CO,Colorado,12,,39.0598,-105.3111,
+2020-03-10,US,United States of America,CT,Connecticut,2,,41.5978,-72.7554,
+2020-03-10,US,United States of America,DC,District of Columbia,5,,38.8974,-77.0268,
+2020-03-10,US,United States of America,DE,Delaware,0,,39.3185,-75.5071,
+2020-03-10,US,United States of America,FL,Florida,19,,27.7663,-81.6868,
+2020-03-10,US,United States of America,GA,Georgia,17,,33.0406,-83.6431,
+2020-03-10,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-10,US,United States of America,IA,Iowa,8,,42.0115,-93.2105,
+2020-03-10,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-10,US,United States of America,IL,Illinois,19,,40.3495,-88.9861,
+2020-03-10,US,United States of America,IN,Indiana,6,,39.8494,-86.2583,
+2020-03-10,US,United States of America,KS,Kansas,1,,38.5266,-96.7265,
+2020-03-10,US,United States of America,KY,Kentucky,6,,37.6681,-84.6701,
+2020-03-10,US,United States of America,LA,Louisiana,1,,31.1695,-91.8678,
+2020-03-10,US,United States of America,MA,Massachusetts,92,,42.2302,-71.5301,
+2020-03-10,US,United States of America,MD,Maryland,6,,39.0639,-76.8021,
+2020-03-10,US,United States of America,ME,Maine,0,,44.6939,-69.3819,
+2020-03-10,US,United States of America,MI,Michigan,0,,43.3266,-84.5361,
+2020-03-10,US,United States of America,MN,Minnesota,3,,44.8254,-93.7842,
+2020-03-10,US,United States of America,MO,Missouri,1,,38.4561,-92.2884,
+2020-03-10,US,United States of America,MS,Mississippi,0,,32.7416,-89.6787,
+2020-03-10,US,United States of America,MT,Montana,0,,46.9219,-110.4544,
+2020-03-10,US,United States of America,NC,North Carolina,7,,35.6301,-79.8064,
+2020-03-10,US,United States of America,ND,North Dakota,0,,47.5289,-99.784,
+2020-03-10,US,United States of America,NE,Nebraska,3,,41.3148,-96.1951,
+2020-03-10,US,United States of America,NH,New Hampshire,4,,42.9931,-71.0498,
+2020-03-10,US,United States of America,NJ,New Jersey,15,,40.2989,-74.521,
+2020-03-10,US,United States of America,NM,New Mexico,0,,34.8405,-106.2485,
+2020-03-10,US,United States of America,NV,Nevada,0,,38.3135,-117.0554,
+2020-03-10,US,United States of America,NY,New York,173,,42.1657,-74.9481,
+2020-03-10,US,United States of America,OH,Ohio,3,,40.3888,-82.7649,
+2020-03-10,US,United States of America,OK,Oklahoma,2,,35.5653,-96.9289,
+2020-03-10,US,United States of America,OR,Oregon,15,,43.1261,-123.2492,
+2020-03-10,US,United States of America,PA,Pennsylvania,12,,40.5908,-77.2098,
+2020-03-10,US,United States of America,RI,Rhode Island,3,,41.8882,-71.4774,
+2020-03-10,US,United States of America,SC,South Caroline,7,,33.8569,-80.945,
+2020-03-10,US,United States of America,SD,South Dakota,0,,43.8901,-102.2548,
+2020-03-10,US,United States of America,TN,Tennessee,7,,35.7478,-86.6923,
+2020-03-10,US,United States of America,TX,Texas,13,,31.0545,-97.5635,
+2020-03-10,US,United States of America,UT,Utah,2,,40.15,-111.8624,
+2020-03-10,US,United States of America,VA,Virginia,8,,37.7693,-78.17,
+2020-03-10,US,United States of America,VT,Vermont,1,,44.0459,-72.7107,
+2020-03-10,US,United States of America,WA,Washington,162,,47.4009,-121.4905,
+2020-03-10,US,United States of America,WI,Wisconsin,2,,43.0186,-89.5498,
+2020-03-10,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-10,US,United States of America,WY,Wyoming,0,,42.756,-107.3025,
+2020-03-11,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-11,US,United States of America,AL,Alabama,0,,32.3182,-86.9023,
+2020-03-11,US,United States of America,AR,Arkansas,0,,34.9697,-92.3731,
+2020-03-11,US,United States of America,AZ,Arizona,9,,33.7298,-111.4312,
+2020-03-11,US,United States of America,CA,California,157,,36.1162,-119.6816,
+2020-03-11,US,United States of America,CO,Colorado,28,,39.0598,-105.3111,
+2020-03-11,US,United States of America,CT,Connecticut,3,,41.5978,-72.7554,
+2020-03-11,US,United States of America,DC,District of Columbia,4,,38.8974,-77.0268,
+2020-03-11,US,United States of America,DE,Delaware,1,,39.3185,-75.5071,
+2020-03-11,US,United States of America,FL,Florida,28,2,27.7663,-81.6868,
+2020-03-11,US,United States of America,GA,Georgia,22,,33.0406,-83.6431,
+2020-03-11,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-11,US,United States of America,IA,Iowa,13,,42.0115,-93.2105,
+2020-03-11,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-11,US,United States of America,IL,Illinois,19,,40.3495,-88.9861,
+2020-03-11,US,United States of America,IN,Indiana,10,,39.8494,-86.2583,
+2020-03-11,US,United States of America,KS,Kansas,1,,38.5266,-96.7265,
+2020-03-11,US,United States of America,KY,Kentucky,8,,37.6681,-84.6701,
+2020-03-11,US,United States of America,LA,Louisiana,6,,31.1695,-91.8678,
+2020-03-11,US,United States of America,MA,Massachusetts,92,,42.2302,-71.5301,
+2020-03-11,US,United States of America,MD,Maryland,9,,39.0639,-76.8021,
+2020-03-11,US,United States of America,ME,Maine,0,,44.6939,-69.3819,
+2020-03-11,US,United States of America,MI,Michigan,2,,43.3266,-84.5361,
+2020-03-11,US,United States of America,MN,Minnesota,5,,44.8254,-93.7842,
+2020-03-11,US,United States of America,MO,Missouri,1,,38.4561,-92.2884,
+2020-03-11,US,United States of America,MS,Mississippi,0,,32.7416,-89.6787,
+2020-03-11,US,United States of America,MT,Montana,0,,46.9219,-110.4544,
+2020-03-11,US,United States of America,NC,North Carolina,7,,35.6301,-79.8064,
+2020-03-11,US,United States of America,ND,North Dakota,0,,47.5289,-99.784,
+2020-03-11,US,United States of America,NE,Nebraska,5,,41.3148,-96.1951,
+2020-03-11,US,United States of America,NH,New Hampshire,4,,42.9931,-71.0498,
+2020-03-11,US,United States of America,NJ,New Jersey,24,1,40.2989,-74.521,
+2020-03-11,US,United States of America,NM,New Mexico,3,,34.8405,-106.2485,
+2020-03-11,US,United States of America,NV,Nevada,5,,38.3135,-117.0554,
+2020-03-11,US,United States of America,NY,New York,216,,42.1657,-74.9481,
+2020-03-11,US,United States of America,OH,Ohio,4,,40.3888,-82.7649,
+2020-03-11,US,United States of America,OK,Oklahoma,2,,35.5653,-96.9289,
+2020-03-11,US,United States of America,OR,Oregon,19,,43.1261,-123.2492,
+2020-03-11,US,United States of America,PA,Pennsylvania,15,,40.5908,-77.2098,
+2020-03-11,US,United States of America,RI,Rhode Island,5,,41.8882,-71.4774,
+2020-03-11,US,United States of America,SC,South Caroline,9,,33.8569,-80.945,
+2020-03-11,US,United States of America,SD,South Dakota,5,,43.8901,-102.2548,
+2020-03-11,US,United States of America,TN,Tennessee,7,,35.7478,-86.6923,
+2020-03-11,US,United States of America,TX,Texas,21,,31.0545,-97.5635,
+2020-03-11,US,United States of America,UT,Utah,2,,40.15,-111.8624,
+2020-03-11,US,United States of America,VA,Virginia,9,,37.7693,-78.17,
+2020-03-11,US,United States of America,VT,Vermont,1,,44.0459,-72.7107,
+2020-03-11,US,United States of America,WA,Washington,267,24,47.4009,-121.4905,
+2020-03-11,US,United States of America,WI,Wisconsin,3,,43.0186,-89.5498,
+2020-03-11,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-11,US,United States of America,WY,Wyoming,0,,42.756,-107.3025,
+2020-03-12,US,United States of America,AK,Alaska,0,,61.3707,-152.4044,
+2020-03-12,US,United States of America,AL,Alabama,0,,32.3182,-86.9023,
+2020-03-12,US,United States of America,AR,Arkansas,6,,34.9697,-92.3731,
+2020-03-12,US,United States of America,AZ,Arizona,9,,33.7298,-111.4312,
+2020-03-12,US,United States of America,CA,California,202,4,36.1162,-119.6816,
+2020-03-12,US,United States of America,CO,Colorado,45,,39.0598,-105.3111,
+2020-03-12,US,United States of America,CT,Connecticut,6,,41.5978,-72.7554,
+2020-03-12,US,United States of America,DC,District of Columbia,10,,38.8974,-77.0268,
+2020-03-12,US,United States of America,DE,Delaware,4,,39.3185,-75.5071,
+2020-03-12,US,United States of America,FL,Florida,32,2,27.7663,-81.6868,
+2020-03-12,US,United States of America,GA,Georgia,31,,33.0406,-83.6431,
+2020-03-12,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-12,US,United States of America,IA,Iowa,14,,42.0115,-93.2105,
+2020-03-12,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-12,US,United States of America,IL,Illinois,25,,40.3495,-88.9861,
+2020-03-12,US,United States of America,IN,Indiana,12,,39.8494,-86.2583,
+2020-03-12,US,United States of America,KS,Kansas,4,,38.5266,-96.7265,
+2020-03-12,US,United States of America,KY,Kentucky,8,,37.6681,-84.6701,
+2020-03-12,US,United States of America,LA,Louisiana,14,,31.1695,-91.8678,
+2020-03-12,US,United States of America,MA,Massachusetts,95,,42.2302,-71.5301,
+2020-03-12,US,United States of America,MD,Maryland,12,,39.0639,-76.8021,
+2020-03-12,US,United States of America,ME,Maine,1,,44.6939,-69.3819,
+2020-03-12,US,United States of America,MI,Michigan,2,,43.3266,-84.5361,
+2020-03-12,US,United States of America,MN,Minnesota,9,,44.8254,-93.7842,
+2020-03-12,US,United States of America,MO,Missouri,1,,38.4561,-92.2884,
+2020-03-12,US,United States of America,MS,Mississippi,1,,32.7416,-89.6787,
+2020-03-12,US,United States of America,MT,Montana,1,,46.9219,-110.4544,
+2020-03-12,US,United States of America,NC,North Carolina,12,,35.6301,-79.8064,
+2020-03-12,US,United States of America,ND,North Dakota,1,,47.5289,-99.784,
+2020-03-12,US,United States of America,NE,Nebraska,10,,41.3148,-96.1951,
+2020-03-12,US,United States of America,NH,New Hampshire,6,,42.9931,-71.0498,
+2020-03-12,US,United States of America,NJ,New Jersey,30,1,40.2989,-74.521,
+2020-03-12,US,United States of America,NM,New Mexico,5,,34.8405,-106.2485,
+2020-03-12,US,United States of America,NV,Nevada,7,,38.3135,-117.0554,
+2020-03-12,US,United States of America,NY,New York,216,,42.1657,-74.9481,
+2020-03-12,US,United States of America,OH,Ohio,5,,40.3888,-82.7649,
+2020-03-12,US,United States of America,OK,Oklahoma,3,,35.5653,-96.9289,
+2020-03-12,US,United States of America,OR,Oregon,19,,43.1261,-123.2492,
+2020-03-12,US,United States of America,PA,Pennsylvania,22,,40.5908,-77.2098,
+2020-03-12,US,United States of America,RI,Rhode Island,5,,41.8882,-71.4774,
+2020-03-12,US,United States of America,SC,South Caroline,10,,33.8569,-80.945,
+2020-03-12,US,United States of America,SD,South Dakota,8,,43.8901,-102.2548,
+2020-03-12,US,United States of America,TN,Tennessee,18,,35.7478,-86.6923,
+2020-03-12,US,United States of America,TX,Texas,23,,31.0545,-97.5635,
+2020-03-12,US,United States of America,UT,Utah,4,,40.15,-111.8624,
+2020-03-12,US,United States of America,VA,Virginia,17,,37.7693,-78.17,
+2020-03-12,US,United States of America,VT,Vermont,2,,44.0459,-72.7107,
+2020-03-12,US,United States of America,WA,Washington,337,29,47.4009,-121.4905,
+2020-03-12,US,United States of America,WI,Wisconsin,8,,43.0186,-89.5498,
+2020-03-12,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-12,US,United States of America,WY,Wyoming,1,,42.756,-107.3025,
+2020-03-13,US,United States of America,AK,Alaska,1,,61.3707,-152.4044,
+2020-03-13,US,United States of America,AL,Alabama,1,,32.3182,-86.9023,
+2020-03-13,US,United States of America,AR,Arkansas,9,,34.9697,-92.3731,
+2020-03-13,US,United States of America,AZ,Arizona,9,0,33.7298,-111.4312,
+2020-03-13,US,United States of America,CA,California,202,4,36.1162,-119.6816,
+2020-03-13,US,United States of America,CO,Colorado,72,,39.0598,-105.3111,
+2020-03-13,US,United States of America,CT,Connecticut,6,,41.5978,-72.7554,
+2020-03-13,US,United States of America,DC,District of Columbia,10,,38.8974,-77.0268,
+2020-03-13,US,United States of America,DE,Delaware,4,,39.3185,-75.5071,
+2020-03-13,US,United States of America,FL,Florida,50,2,27.7663,-81.6868,
+2020-03-13,US,United States of America,GA,Georgia,42,1,33.0406,-83.6431,
+2020-03-13,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-13,US,United States of America,IA,Iowa,16,,42.0115,-93.2105,
+2020-03-13,US,United States of America,ID,Idaho,0,,44.2405,-114.4788,
+2020-03-13,US,United States of America,IL,Illinois,32,,40.3495,-88.9861,
+2020-03-13,US,United States of America,IN,Indiana,12,,39.8494,-86.2583,
+2020-03-13,US,United States of America,KS,Kansas,6,,38.5266,-96.7265,
+2020-03-13,US,United States of America,KY,Kentucky,11,,37.6681,-84.6701,
+2020-03-13,US,United States of America,LA,Louisiana,36,,31.1695,-91.8678,
+2020-03-13,US,United States of America,MA,Massachusetts,123,,42.2302,-71.5301,
+2020-03-13,US,United States of America,MD,Maryland,17,,39.0639,-76.8021,
+2020-03-13,US,United States of America,ME,Maine,3,,44.6939,-69.3819,
+2020-03-13,US,United States of America,MI,Michigan,16,,43.3266,-84.5361,
+2020-03-13,US,United States of America,MN,Minnesota,14,,44.8254,-93.7842,
+2020-03-13,US,United States of America,MO,Missouri,2,,38.4561,-92.2884,
+2020-03-13,US,United States of America,MS,Mississippi,4,,32.7416,-89.6787,
+2020-03-13,US,United States of America,MT,Montana,1,,46.9219,-110.4544,
+2020-03-13,US,United States of America,NC,North Carolina,15,,35.6301,-79.8064,
+2020-03-13,US,United States of America,ND,North Dakota,1,0,47.5289,-99.784,
+2020-03-13,US,United States of America,NE,Nebraska,13,,41.3148,-96.1951,
+2020-03-13,US,United States of America,NH,New Hampshire,6,,42.9931,-71.0498,
+2020-03-13,US,United States of America,NJ,New Jersey,50,1,40.2989,-74.521,
+2020-03-13,US,United States of America,NM,New Mexico,10,,34.8405,-106.2485,
+2020-03-13,US,United States of America,NV,Nevada,11,,38.3135,-117.0554,
+2020-03-13,US,United States of America,NY,New York,421,,42.1657,-74.9481,
+2020-03-13,US,United States of America,OH,Ohio,13,,40.3888,-82.7649,
+2020-03-13,US,United States of America,OK,Oklahoma,3,,35.5653,-96.9289,
+2020-03-13,US,United States of America,OR,Oregon,30,,43.1261,-123.2492,
+2020-03-13,US,United States of America,PA,Pennsylvania,33,,40.5908,-77.2098,
+2020-03-13,US,United States of America,RI,Rhode Island,14,,41.8882,-71.4774,
+2020-03-13,US,United States of America,SC,South Caroline,12,,33.8569,-80.945,
+2020-03-13,US,United States of America,SD,South Dakota,9,,43.8901,-102.2548,
+2020-03-13,US,United States of America,TN,Tennessee,26,,35.7478,-86.6923,
+2020-03-13,US,United States of America,TX,Texas,39,,31.0545,-97.5635,
+2020-03-13,US,United States of America,UT,Utah,6,,40.15,-111.8624,
+2020-03-13,US,United States of America,VA,Virginia,30,,37.7693,-78.17,
+2020-03-13,US,United States of America,VT,Vermont,2,,44.0459,-72.7107,
+2020-03-13,US,United States of America,WA,Washington,457,31,47.4009,-121.4905,
+2020-03-13,US,United States of America,WI,Wisconsin,19,,43.0186,-89.5498,
+2020-03-13,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-13,US,United States of America,WY,Wyoming,1,,42.756,-107.3025,
+2020-03-14,US,United States of America,AK,Alaska,1,,61.3707,-152.4044,
+2020-03-14,US,United States of America,AL,Alabama,6,,32.3182,-86.9023,
+2020-03-14,US,United States of America,AR,Arkansas,12,,34.9697,-92.3731,
+2020-03-14,US,United States of America,AZ,Arizona,12,0,33.7298,-111.4312,
+2020-03-14,US,United States of America,CA,California,252,5,36.1162,-119.6816,
+2020-03-14,US,United States of America,CO,Colorado,101,1,39.0598,-105.3111,
+2020-03-14,US,United States of America,CT,Connecticut,11,,41.5978,-72.7554,
+2020-03-14,US,United States of America,DC,District of Columbia,10,,38.8974,-77.0268,
+2020-03-14,US,United States of America,DE,Delaware,6,,39.3185,-75.5071,
+2020-03-14,US,United States of America,FL,Florida,77,3,27.7663,-81.6868,
+2020-03-14,US,United States of America,GA,Georgia,66,1,33.0406,-83.6431,
+2020-03-14,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-14,US,United States of America,IA,Iowa,17,,42.0115,-93.2105,
+2020-03-14,US,United States of America,ID,Idaho,2,,44.2405,-114.4788,
+2020-03-14,US,United States of America,IL,Illinois,46,,40.3495,-88.9861,
+2020-03-14,US,United States of America,IN,Indiana,15,0,39.8494,-86.2583,
+2020-03-14,US,United States of America,KS,Kansas,6,1,38.5266,-96.7265,
+2020-03-14,US,United States of America,KY,Kentucky,14,,37.6681,-84.6701,
+2020-03-14,US,United States of America,LA,Louisiana,69,,31.1695,-91.8678,
+2020-03-14,US,United States of America,MA,Massachusetts,138,,42.2302,-71.5301,
+2020-03-14,US,United States of America,MD,Maryland,26,,39.0639,-76.8021,
+2020-03-14,US,United States of America,ME,Maine,3,,44.6939,-69.3819,
+2020-03-14,US,United States of America,MI,Michigan,25,,43.3266,-84.5361,
+2020-03-14,US,United States of America,MN,Minnesota,21,,44.8254,-93.7842,
+2020-03-14,US,United States of America,MO,Missouri,4,0,38.4561,-92.2884,
+2020-03-14,US,United States of America,MS,Mississippi,6,,32.7416,-89.6787,
+2020-03-14,US,United States of America,MT,Montana,5,,46.9219,-110.4544,
+2020-03-14,US,United States of America,NC,North Carolina,23,,35.6301,-79.8064,
+2020-03-14,US,United States of America,ND,North Dakota,1,0,47.5289,-99.784,
+2020-03-14,US,United States of America,NE,Nebraska,14,,41.3148,-96.1951,
+2020-03-14,US,United States of America,NH,New Hampshire,7,,42.9931,-71.0498,
+2020-03-14,US,United States of America,NJ,New Jersey,50,1,40.2989,-74.521,
+2020-03-14,US,United States of America,NM,New Mexico,10,,34.8405,-106.2485,
+2020-03-14,US,United States of America,NV,Nevada,20,,38.3135,-117.0554,
+2020-03-14,US,United States of America,NY,New York,524,,42.1657,-74.9481,
+2020-03-14,US,United States of America,OH,Ohio,13,,40.3888,-82.7649,
+2020-03-14,US,United States of America,OK,Oklahoma,4,,35.5653,-96.9289,
+2020-03-14,US,United States of America,OR,Oregon,30,,43.1261,-123.2492,
+2020-03-14,US,United States of America,PA,Pennsylvania,47,,40.5908,-77.2098,
+2020-03-14,US,United States of America,RI,Rhode Island,20,,41.8882,-71.4774,
+2020-03-14,US,United States of America,SC,South Caroline,13,,33.8569,-80.945,
+2020-03-14,US,United States of America,SD,South Dakota,9,,43.8901,-102.2548,
+2020-03-14,US,United States of America,TN,Tennessee,32,,35.7478,-86.6923,
+2020-03-14,US,United States of America,TX,Texas,51,,31.0545,-97.5635,
+2020-03-14,US,United States of America,UT,Utah,6,,40.15,-111.8624,
+2020-03-14,US,United States of America,VA,Virginia,30,,37.7693,-78.17,
+2020-03-14,US,United States of America,VT,Vermont,4,,44.0459,-72.7107,
+2020-03-14,US,United States of America,WA,Washington,568,37,47.4009,-121.4905,
+2020-03-14,US,United States of America,WI,Wisconsin,19,,43.0186,-89.5498,
+2020-03-14,US,United States of America,WV,West Virginia,0,,38.4912,-80.9545,
+2020-03-14,US,United States of America,WY,Wyoming,2,,42.756,-107.3025,
+2020-03-15,US,United States of America,AK,Alaska,1,,61.3707,-152.4044,
+2020-03-15,US,United States of America,AL,Alabama,12,0,32.3182,-86.9023,
+2020-03-15,US,United States of America,AR,Arkansas,16,,34.9697,-92.3731,
+2020-03-15,US,United States of America,AZ,Arizona,12,0,33.7298,-111.4312,
+2020-03-15,US,United States of America,CA,California,293,5,36.1162,-119.6816,
+2020-03-15,US,United States of America,CO,Colorado,131,1,39.0598,-105.3111,
+2020-03-15,US,United States of America,CT,Connecticut,20,,41.5978,-72.7554,
+2020-03-15,US,United States of America,DC,District of Columbia,16,,38.8974,-77.0268,
+2020-03-15,US,United States of America,DE,Delaware,6,,39.3185,-75.5071,
+2020-03-15,US,United States of America,FL,Florida,116,4,27.7663,-81.6868,
+2020-03-15,US,United States of America,GA,Georgia,99,1,33.0406,-83.6431,
+2020-03-15,US,United States of America,HI,Hawaii,2,,21.0943,-157.4983,
+2020-03-15,US,United States of America,IA,Iowa,18,,42.0115,-93.2105,
+2020-03-15,US,United States of America,ID,Idaho,5,,44.2405,-114.4788,
+2020-03-15,US,United States of America,IL,Illinois,64,,40.3495,-88.9861,
+2020-03-15,US,United States of America,IN,Indiana,19,0,39.8494,-86.2583,
+2020-03-15,US,United States of America,KS,Kansas,8,1,38.5266,-96.7265,
+2020-03-15,US,United States of America,KY,Kentucky,16,,37.6681,-84.6701,
+2020-03-15,US,United States of America,LA,Louisiana,91,2,31.1695,-91.8678,
+2020-03-15,US,United States of America,MA,Massachusetts,138,,42.2302,-71.5301,
+2020-03-15,US,United States of America,MD,Maryland,31,,39.0639,-76.8021,
+2020-03-15,US,United States of America,ME,Maine,3,,44.6939,-69.3819,
+2020-03-15,US,United States of America,MI,Michigan,33,,43.3266,-84.5361,
+2020-03-15,US,United States of America,MN,Minnesota,35,,44.8254,-93.7842,
+2020-03-15,US,United States of America,MO,Missouri,5,0,38.4561,-92.2884,
+2020-03-15,US,United States of America,MS,Mississippi,10,,32.7416,-89.6787,
+2020-03-15,US,United States of America,MT,Montana,7,,46.9219,-110.4544,
+2020-03-15,US,United States of America,NC,North Carolina,32,,35.6301,-79.8064,
+2020-03-15,US,United States of America,ND,North Dakota,1,0,47.5289,-99.784,
+2020-03-15,US,United States of America,NE,Nebraska,17,,41.3148,-96.1951,
+2020-03-15,US,United States of America,NH,New Hampshire,13,,42.9931,-71.0498,
+2020-03-15,US,United States of America,NJ,New Jersey,98,2,40.2989,-74.521,
+2020-03-15,US,United States of America,NM,New Mexico,13,,34.8405,-106.2485,
+2020-03-15,US,United States of America,NV,Nevada,21,,38.3135,-117.0554,
+2020-03-15,US,United States of America,NY,New York,729,3,42.1657,-74.9481,
+2020-03-15,US,United States of America,OH,Ohio,36,,40.3888,-82.7649,
+2020-03-15,US,United States of America,OK,Oklahoma,9,,35.5653,-96.9289,
+2020-03-15,US,United States of America,OR,Oregon,36,,43.1261,-123.2492,
+2020-03-15,US,United States of America,PA,Pennsylvania,63,,40.5908,-77.2098,
+2020-03-15,US,United States of America,RI,Rhode Island,20,,41.8882,-71.4774,
+2020-03-15,US,United States of America,SC,South Caroline,19,,33.8569,-80.945,
+2020-03-15,US,United States of America,SD,South Dakota,9,,43.8901,-102.2548,
+2020-03-15,US,United States of America,TN,Tennessee,39,,35.7478,-86.6923,
+2020-03-15,US,United States of America,TX,Texas,56,,31.0545,-97.5635,
+2020-03-15,US,United States of America,UT,Utah,28,0,40.15,-111.8624,
+2020-03-15,US,United States of America,VA,Virginia,45,1,37.7693,-78.17,
+2020-03-15,US,United States of America,VT,Vermont,4,,44.0459,-72.7107,
+2020-03-15,US,United States of America,WA,Washington,642,40,47.4009,-121.4905,
+2020-03-15,US,United States of America,WI,Wisconsin,33,,43.0186,-89.5498,
+2020-03-15,US,United States of America,WV,West Virginia,0,0,38.4912,-80.9545,
+2020-03-15,US,United States of America,WY,Wyoming,3,,42.756,-107.3025,
+2020-03-16,US,United States of America,AK,Alaska,1,,61.3707,-152.4044,
+2020-03-16,US,United States of America,AL,Alabama,28,0,32.3182,-86.9023,
+2020-03-16,US,United States of America,AR,Arkansas,22,,34.9697,-92.3731,
+2020-03-16,US,United States of America,AZ,Arizona,18,0,33.7298,-111.4312,
+2020-03-16,US,United States of America,CA,California,335,6,36.1162,-119.6816,
+2020-03-16,US,United States of America,CO,Colorado,131,1,39.0598,-105.3111,
+2020-03-16,US,United States of America,CT,Connecticut,26,,41.5978,-72.7554,
+2020-03-16,US,United States of America,DC,District of Columbia,17,,38.8974,-77.0268,
+2020-03-16,US,United States of America,DE,Delaware,8,,39.3185,-75.5071,
+2020-03-16,US,United States of America,FL,Florida,141,4,27.7663,-81.6868,
+2020-03-16,US,United States of America,GA,Georgia,121,1,33.0406,-83.6431,
+2020-03-16,US,United States of America,HI,Hawaii,7,,21.0943,-157.4983,
+2020-03-16,US,United States of America,IA,Iowa,22,,42.0115,-93.2105,
+2020-03-16,US,United States of America,ID,Idaho,5,,44.2405,-114.4788,
+2020-03-16,US,United States of America,IL,Illinois,93,,40.3495,-88.9861,
+2020-03-16,US,United States of America,IN,Indiana,24,1,39.8494,-86.2583,
+2020-03-16,US,United States of America,KS,Kansas,11,1,38.5266,-96.7265,
+2020-03-16,US,United States of America,KY,Kentucky,21,1,37.6681,-84.6701,
+2020-03-16,US,United States of America,LA,Louisiana,114,2,31.1695,-91.8678,
+2020-03-16,US,United States of America,MA,Massachusetts,164,,42.2302,-71.5301,
+2020-03-16,US,United States of America,MD,Maryland,37,,39.0639,-76.8021,
+2020-03-16,US,United States of America,ME,Maine,17,,44.6939,-69.3819,
+2020-03-16,US,United States of America,MI,Michigan,53,,43.3266,-84.5361,
+2020-03-16,US,United States of America,MN,Minnesota,54,,44.8254,-93.7842,
+2020-03-16,US,United States of America,MO,Missouri,6,0,38.4561,-92.2884,
+2020-03-16,US,United States of America,MS,Mississippi,12,,32.7416,-89.6787,
+2020-03-16,US,United States of America,MT,Montana,7,,46.9219,-110.4544,
+2020-03-16,US,United States of America,NC,North Carolina,33,0,35.6301,-79.8064,
+2020-03-16,US,United States of America,ND,North Dakota,1,0,47.5289,-99.784,
+2020-03-16,US,United States of America,NE,Nebraska,18,,41.3148,-96.1951,
+2020-03-16,US,United States of America,NH,New Hampshire,13,,42.9931,-71.0498,
+2020-03-16,US,United States of America,NJ,New Jersey,178,2,40.2989,-74.521,
+2020-03-16,US,United States of America,NM,New Mexico,17,,34.8405,-106.2485,
+2020-03-16,US,United States of America,NV,Nevada,45,1,38.3135,-117.0554,
+2020-03-16,US,United States of America,NY,New York,950,7,42.1657,-74.9481,
+2020-03-16,US,United States of America,OH,Ohio,50,,40.3888,-82.7649,
+2020-03-16,US,United States of America,OK,Oklahoma,10,,35.5653,-96.9289,
+2020-03-16,US,United States of America,OR,Oregon,39,,43.1261,-123.2492,
+2020-03-16,US,United States of America,PA,Pennsylvania,76,,40.5908,-77.2098,
+2020-03-16,US,United States of America,RI,Rhode Island,21,,41.8882,-71.4774,
+2020-03-16,US,United States of America,SC,South Caroline,28,1,33.8569,-80.945,
+2020-03-16,US,United States of America,SD,South Dakota,10,,43.8901,-102.2548,
+2020-03-16,US,United States of America,TN,Tennessee,52,,35.7478,-86.6923,
+2020-03-16,US,United States of America,TX,Texas,57,,31.0545,-97.5635,
+2020-03-16,US,United States of America,UT,Utah,39,0,40.15,-111.8624,
+2020-03-16,US,United States of America,VA,Virginia,51,1,37.7693,-78.17,
+2020-03-16,US,United States of America,VT,Vermont,8,,44.0459,-72.7107,
+2020-03-16,US,United States of America,WA,Washington,769,42,47.4009,-121.4905,
+2020-03-16,US,United States of America,WI,Wisconsin,47,,43.0186,-89.5498,
+2020-03-16,US,United States of America,WV,West Virginia,0,0,38.4912,-80.9545,
+2020-03-16,US,United States of America,WY,Wyoming,3,,42.756,-107.3025,
+2020-03-17,US,United States of America,AK,Alaska,3,,61.3707,-152.4044,
+2020-03-17,US,United States of America,AL,Alabama,36,0,32.3182,-86.9023,
+2020-03-17,US,United States of America,AR,Arkansas,22,,34.9697,-92.3731,
+2020-03-17,US,United States of America,AZ,Arizona,20,0,33.7298,-111.4312,
+2020-03-17,US,United States of America,CA,California,483,11,36.1162,-119.6816,
+2020-03-17,US,United States of America,CO,Colorado,160,1,39.0598,-105.3111,
+2020-03-17,US,United States of America,CT,Connecticut,41,,41.5978,-72.7554,
+2020-03-17,US,United States of America,DC,District of Columbia,22,,38.8974,-77.0268,
+2020-03-17,US,United States of America,DE,Delaware,16,,39.3185,-75.5071,
+2020-03-17,US,United States of America,FL,Florida,186,6,27.7663,-81.6868,
+2020-03-17,US,United States of America,GA,Georgia,146,1,33.0406,-83.6431,
+2020-03-17,US,United States of America,HI,Hawaii,10,,21.0943,-157.4983,
+2020-03-17,US,United States of America,IA,Iowa,23,,42.0115,-93.2105,
+2020-03-17,US,United States of America,ID,Idaho,7,,44.2405,-114.4788,
+2020-03-17,US,United States of America,IL,Illinois,160,1,40.3495,-88.9861,
+2020-03-17,US,United States of America,IN,Indiana,30,2,39.8494,-86.2583,
+2020-03-17,US,United States of America,KS,Kansas,15,1,38.5266,-96.7265,
+2020-03-17,US,United States of America,KY,Kentucky,22,1,37.6681,-84.6701,
+2020-03-17,US,United States of America,LA,Louisiana,171,4,31.1695,-91.8678,
+2020-03-17,US,United States of America,MA,Massachusetts,218,,42.2302,-71.5301,
+2020-03-17,US,United States of America,MD,Maryland,57,,39.0639,-76.8021,
+2020-03-17,US,United States of America,ME,Maine,32,,44.6939,-69.3819,
+2020-03-17,US,United States of America,MI,Michigan,65,,43.3266,-84.5361,
+2020-03-17,US,United States of America,MN,Minnesota,60,,44.8254,-93.7842,
+2020-03-17,US,United States of America,MO,Missouri,8,0,38.4561,-92.2884,
+2020-03-17,US,United States of America,MS,Mississippi,21,,32.7416,-89.6787,
+2020-03-17,US,United States of America,MT,Montana,8,,46.9219,-110.4544,
+2020-03-17,US,United States of America,NC,North Carolina,40,0,35.6301,-79.8064,
+2020-03-17,US,United States of America,ND,North Dakota,3,0,47.5289,-99.784,
+2020-03-17,US,United States of America,NE,Nebraska,21,,41.3148,-96.1951,
+2020-03-17,US,United States of America,NH,New Hampshire,17,,42.9931,-71.0498,
+2020-03-17,US,United States of America,NJ,New Jersey,267,3,40.2989,-74.521,
+2020-03-17,US,United States of America,NM,New Mexico,23,,34.8405,-106.2485,
+2020-03-17,US,United States of America,NV,Nevada,55,1,38.3135,-117.0554,
+2020-03-17,US,United States of America,NY,New York,1700,7,42.1657,-74.9481,
+2020-03-17,US,United States of America,OH,Ohio,67,,40.3888,-82.7649,
+2020-03-17,US,United States of America,OK,Oklahoma,17,,35.5653,-96.9289,
+2020-03-17,US,United States of America,OR,Oregon,47,,43.1261,-123.2492,
+2020-03-17,US,United States of America,PA,Pennsylvania,96,,40.5908,-77.2098,
+2020-03-17,US,United States of America,RI,Rhode Island,21,,41.8882,-71.4774,
+2020-03-17,US,United States of America,SC,South Caroline,33,1,33.8569,-80.945,
+2020-03-17,US,United States of America,SD,South Dakota,11,,43.8901,-102.2548,
+2020-03-17,US,United States of America,TN,Tennessee,73,,35.7478,-86.6923,
+2020-03-17,US,United States of America,TX,Texas,64,1,31.0545,-97.5635,
+2020-03-17,US,United States of America,UT,Utah,51,0,40.15,-111.8624,
+2020-03-17,US,United States of America,VA,Virginia,67,1,37.7693,-78.17,
+2020-03-17,US,United States of America,VT,Vermont,10,,44.0459,-72.7107,
+2020-03-17,US,United States of America,WA,Washington,904,48,47.4009,-121.4905,
+2020-03-17,US,United States of America,WI,Wisconsin,72,,43.0186,-89.5498,
+2020-03-17,US,United States of America,WV,West Virginia,0,0,38.4912,-80.9545,
+2020-03-17,US,United States of America,WY,Wyoming,10,,42.756,-107.3025,
+2020-03-18,US,United States of America,AK,Alaska,6,,61.3707,-152.4044,
+2020-03-18,US,United States of America,AL,Alabama,46,0,32.3182,-86.9023,
+2020-03-18,US,United States of America,AR,Arkansas,33,,34.9697,-92.3731,
+2020-03-18,US,United States of America,AZ,Arizona,28,0,33.7298,-111.4312,
+2020-03-18,US,United States of America,CA,California,611,13,36.1162,-119.6816,
+2020-03-18,US,United States of America,CO,Colorado,183,2,39.0598,-105.3111,
+2020-03-18,US,United States of America,CT,Connecticut,68,,41.5978,-72.7554,
+2020-03-18,US,United States of America,DC,District of Columbia,31,,38.8974,-77.0268,
+2020-03-18,US,United States of America,DE,Delaware,25,,39.3185,-75.5071,
+2020-03-18,US,United States of America,FL,Florida,314,7,27.7663,-81.6868,
+2020-03-18,US,United States of America,GA,Georgia,197,1,33.0406,-83.6431,
+2020-03-18,US,United States of America,HI,Hawaii,14,,21.0943,-157.4983,
+2020-03-18,US,United States of America,IA,Iowa,29,,42.0115,-93.2105,
+2020-03-18,US,United States of America,ID,Idaho,9,,44.2405,-114.4788,
+2020-03-18,US,United States of America,IL,Illinois,289,1,40.3495,-88.9861,
+2020-03-18,US,United States of America,IN,Indiana,39,2,39.8494,-86.2583,
+2020-03-18,US,United States of America,KS,Kansas,16,1,38.5266,-96.7265,
+2020-03-18,US,United States of America,KY,Kentucky,26,1,37.6681,-84.6701,
+2020-03-18,US,United States of America,LA,Louisiana,240,6,31.1695,-91.8678,
+2020-03-18,US,United States of America,MA,Massachusetts,256,,42.2302,-71.5301,
+2020-03-18,US,United States of America,MD,Maryland,85,,39.0639,-76.8021,
+2020-03-18,US,United States of America,ME,Maine,43,,44.6939,-69.3819,
+2020-03-18,US,United States of America,MI,Michigan,80,,43.3266,-84.5361,
+2020-03-18,US,United States of America,MN,Minnesota,77,,44.8254,-93.7842,
+2020-03-18,US,United States of America,MO,Missouri,13,0,38.4561,-92.2884,
+2020-03-18,US,United States of America,MS,Mississippi,34,,32.7416,-89.6787,
+2020-03-18,US,United States of America,MT,Montana,10,,46.9219,-110.4544,
+2020-03-18,US,United States of America,NC,North Carolina,63,0,35.6301,-79.8064,
+2020-03-18,US,United States of America,ND,North Dakota,6,0,47.5289,-99.784,
+2020-03-18,US,United States of America,NE,Nebraska,24,,41.3148,-96.1951,
+2020-03-18,US,United States of America,NH,New Hampshire,26,,42.9931,-71.0498,
+2020-03-18,US,United States of America,NJ,New Jersey,427,5,40.2989,-74.521,
+2020-03-18,US,United States of America,NM,New Mexico,28,,34.8405,-106.2485,
+2020-03-18,US,United States of America,NV,Nevada,55,1,38.3135,-117.0554,
+2020-03-18,US,United States of America,NY,New York,2382,12,42.1657,-74.9481,
+2020-03-18,US,United States of America,OH,Ohio,88,,40.3888,-82.7649,
+2020-03-18,US,United States of America,OK,Oklahoma,29,,35.5653,-96.9289,
+2020-03-18,US,United States of America,OR,Oregon,75,3,43.1261,-123.2492,
+2020-03-18,US,United States of America,PA,Pennsylvania,133,,40.5908,-77.2098,
+2020-03-18,US,United States of America,RI,Rhode Island,33,,41.8882,-71.4774,
+2020-03-18,US,United States of America,SC,South Caroline,60,1,33.8569,-80.945,
+2020-03-18,US,United States of America,SD,South Dakota,11,1,43.8901,-102.2548,
+2020-03-18,US,United States of America,TN,Tennessee,98,,35.7478,-86.6923,
+2020-03-18,US,United States of America,TX,Texas,83,2,31.0545,-97.5635,
+2020-03-18,US,United States of America,UT,Utah,63,0,40.15,-111.8624,
+2020-03-18,US,United States of America,VA,Virginia,77,1,37.7693,-78.17,
+2020-03-18,US,United States of America,VT,Vermont,19,,44.0459,-72.7107,
+2020-03-18,US,United States of America,WA,Washington,1012,52,47.4009,-121.4905,
+2020-03-18,US,United States of America,WI,Wisconsin,106,,43.0186,-89.5498,
+2020-03-18,US,United States of America,WV,West Virginia,1,0,38.4912,-80.9545,
+2020-03-18,US,United States of America,WY,Wyoming,15,,42.756,-107.3025,
+2020-03-19,US,United States of America,AK,Alaska,6,,61.3707,-152.4044,
+2020-03-19,US,United States of America,AL,Alabama,68,0,32.3182,-86.9023,
+2020-03-19,US,United States of America,AR,Arkansas,46,,34.9697,-92.3731,
+2020-03-19,US,United States of America,AZ,Arizona,44,0,33.7298,-111.4312,
+2020-03-19,US,United States of America,CA,California,924,18,36.1162,-119.6816,
+2020-03-19,US,United States of America,CO,Colorado,216,2,39.0598,-105.3111,
+2020-03-19,US,United States of America,CT,Connecticut,96,1,41.5978,-72.7554,
+2020-03-19,US,United States of America,DC,District of Columbia,39,0,38.8974,-77.0268,
+2020-03-19,US,United States of America,DE,Delaware,30,0,39.3185,-75.5071,
+2020-03-19,US,United States of America,FL,Florida,390,8,27.7663,-81.6868,
+2020-03-19,US,United States of America,GA,Georgia,287,10,33.0406,-83.6431,
+2020-03-19,US,United States of America,HI,Hawaii,16,,21.0943,-157.4983,
+2020-03-19,US,United States of America,IA,Iowa,38,,42.0115,-93.2105,
+2020-03-19,US,United States of America,ID,Idaho,11,,44.2405,-114.4788,
+2020-03-19,US,United States of America,IL,Illinois,426,4,40.3495,-88.9861,
+2020-03-19,US,United States of America,IN,Indiana,56,2,39.8494,-86.2583,
+2020-03-19,US,United States of America,KS,Kansas,34,1,38.5266,-96.7265,
+2020-03-19,US,United States of America,KY,Kentucky,35,1,37.6681,-84.6701,
+2020-03-19,US,United States of America,LA,Louisiana,347,8,31.1695,-91.8678,
+2020-03-19,US,United States of America,MA,Massachusetts,328,,42.2302,-71.5301,
+2020-03-19,US,United States of America,MD,Maryland,107,1,39.0639,-76.8021,
+2020-03-19,US,United States of America,ME,Maine,53,,44.6939,-69.3819,
+2020-03-19,US,United States of America,MI,Michigan,336,3,43.3266,-84.5361,
+2020-03-19,US,United States of America,MN,Minnesota,89,,44.8254,-93.7842,
+2020-03-19,US,United States of America,MO,Missouri,24,1,38.4561,-92.2884,
+2020-03-19,US,United States of America,MS,Mississippi,50,,32.7416,-89.6787,
+2020-03-19,US,United States of America,MT,Montana,12,,46.9219,-110.4544,
+2020-03-19,US,United States of America,NC,North Carolina,97,0,35.6301,-79.8064,
+2020-03-19,US,United States of America,ND,North Dakota,15,0,47.5289,-99.784,
+2020-03-19,US,United States of America,NE,Nebraska,27,0,41.3148,-96.1951,
+2020-03-19,US,United States of America,NH,New Hampshire,39,,42.9931,-71.0498,
+2020-03-19,US,United States of America,NJ,New Jersey,742,9,40.2989,-74.521,
+2020-03-19,US,United States of America,NM,New Mexico,35,,34.8405,-106.2485,
+2020-03-19,US,United States of America,NV,Nevada,95,1,38.3135,-117.0554,
+2020-03-19,US,United States of America,NY,New York,4152,12,42.1657,-74.9481,
+2020-03-19,US,United States of America,OH,Ohio,119,,40.3888,-82.7649,
+2020-03-19,US,United States of America,OK,Oklahoma,44,1,35.5653,-96.9289,
+2020-03-19,US,United States of America,OR,Oregon,88,3,43.1261,-123.2492,
+2020-03-19,US,United States of America,PA,Pennsylvania,185,1,40.5908,-77.2098,
+2020-03-19,US,United States of America,RI,Rhode Island,33,,41.8882,-71.4774,
+2020-03-19,US,United States of America,SC,South Caroline,60,1,33.8569,-80.945,
+2020-03-19,US,United States of America,SD,South Dakota,11,1,43.8901,-102.2548,
+2020-03-19,US,United States of America,TN,Tennessee,154,,35.7478,-86.6923,
+2020-03-19,US,United States of America,TX,Texas,143,3,31.0545,-97.5635,
+2020-03-19,US,United States of America,UT,Utah,78,0,40.15,-111.8624,
+2020-03-19,US,United States of America,VA,Virginia,94,2,37.7693,-78.17,
+2020-03-19,US,United States of America,VT,Vermont,22,,44.0459,-72.7107,
+2020-03-19,US,United States of America,WA,Washington,1187,66,47.4009,-121.4905,
+2020-03-19,US,United States of America,WI,Wisconsin,155,,43.0186,-89.5498,
+2020-03-19,US,United States of America,WV,West Virginia,2,0,38.4912,-80.9545,
+2020-03-19,US,United States of America,WY,Wyoming,18,,42.756,-107.3025,
+2020-03-20,US,United States of America,AK,Alaska,12,,61.3707,-152.4044,
+2020-03-20,US,United States of America,AL,Alabama,81,0,32.3182,-86.9023,
+2020-03-20,US,United States of America,AR,Arkansas,96,,34.9697,-92.3731,
+2020-03-20,US,United States of America,AZ,Arizona,65,0,33.7298,-111.4312,
+2020-03-20,US,United States of America,CA,California,1063,20,36.1162,-119.6816,
+2020-03-20,US,United States of America,CO,Colorado,277,3,39.0598,-105.3111,
+2020-03-20,US,United States of America,CT,Connecticut,194,3,41.5978,-72.7554,
+2020-03-20,US,United States of America,DC,District of Columbia,71,1,38.8974,-77.0268,
+2020-03-20,US,United States of America,DE,Delaware,38,0,39.3185,-75.5071,
+2020-03-20,US,United States of America,FL,Florida,520,10,27.7663,-81.6868,
+2020-03-20,US,United States of America,GA,Georgia,420,13,33.0406,-83.6431,
+2020-03-20,US,United States of America,HI,Hawaii,26,,21.0943,-157.4983,
+2020-03-20,US,United States of America,IA,Iowa,45,,42.0115,-93.2105,
+2020-03-20,US,United States of America,ID,Idaho,23,,44.2405,-114.4788,
+2020-03-20,US,United States of America,IL,Illinois,590,5,40.3495,-88.9861,
+2020-03-20,US,United States of America,IN,Indiana,79,2,39.8494,-86.2583,
+2020-03-20,US,United States of America,KS,Kansas,44,1,38.5266,-96.7265,
+2020-03-20,US,United States of America,KY,Kentucky,47,1,37.6681,-84.6701,
+2020-03-20,US,United States of America,LA,Louisiana,479,12,31.1695,-91.8678,
+2020-03-20,US,United States of America,MA,Massachusetts,413,1,42.2302,-71.5301,
+2020-03-20,US,United States of America,MD,Maryland,149,1,39.0639,-76.8021,
+2020-03-20,US,United States of America,ME,Maine,57,,44.6939,-69.3819,
+2020-03-20,US,United States of America,MI,Michigan,549,3,43.3266,-84.5361,
+2020-03-20,US,United States of America,MN,Minnesota,115,,44.8254,-93.7842,
+2020-03-20,US,United States of America,MO,Missouri,47,1,38.4561,-92.2884,
+2020-03-20,US,United States of America,MS,Mississippi,80,1,32.7416,-89.6787,
+2020-03-20,US,United States of America,MT,Montana,16,,46.9219,-110.4544,
+2020-03-20,US,United States of America,NC,North Carolina,137,0,35.6301,-79.8064,
+2020-03-20,US,United States of America,ND,North Dakota,20,0,47.5289,-99.784,
+2020-03-20,US,United States of America,NE,Nebraska,32,0,41.3148,-96.1951,
+2020-03-20,US,United States of America,NH,New Hampshire,44,,42.9931,-71.0498,
+2020-03-20,US,United States of America,NJ,New Jersey,890,11,40.2989,-74.521,
+2020-03-20,US,United States of America,NM,New Mexico,43,,34.8405,-106.2485,
+2020-03-20,US,United States of America,NV,Nevada,109,1,38.3135,-117.0554,
+2020-03-20,US,United States of America,NY,New York,7102,35,42.1657,-74.9481,
+2020-03-20,US,United States of America,OH,Ohio,169,1,40.3888,-82.7649,
+2020-03-20,US,United States of America,OK,Oklahoma,49,1,35.5653,-96.9289,
+2020-03-20,US,United States of America,OR,Oregon,114,3,43.1261,-123.2492,
+2020-03-20,US,United States of America,PA,Pennsylvania,268,1,40.5908,-77.2098,
+2020-03-20,US,United States of America,RI,Rhode Island,54,,41.8882,-71.4774,
+2020-03-20,US,United States of America,SC,South Caroline,81,1,33.8569,-80.945,
+2020-03-20,US,United States of America,SD,South Dakota,14,1,43.8901,-102.2548,
+2020-03-20,US,United States of America,TN,Tennessee,228,,35.7478,-86.6923,
+2020-03-20,US,United States of America,TX,Texas,194,5,31.0545,-97.5635,
+2020-03-20,US,United States of America,UT,Utah,112,0,40.15,-111.8624,
+2020-03-20,US,United States of America,VA,Virginia,114,2,37.7693,-78.17,
+2020-03-20,US,United States of America,VT,Vermont,29,2,44.0459,-72.7107,
+2020-03-20,US,United States of America,WA,Washington,1376,74,47.4009,-121.4905,
+2020-03-20,US,United States of America,WI,Wisconsin,206,3,43.0186,-89.5498,
+2020-03-20,US,United States of America,WV,West Virginia,7,0,38.4912,-80.9545,
+2020-03-20,US,United States of America,WY,Wyoming,19,,42.756,-107.3025,
+2020-03-21,US,United States of America,AK,Alaska,14,,61.3707,-152.4044,
+2020-03-21,US,United States of America,AL,Alabama,124,0,32.3182,-86.9023,
+2020-03-21,US,United States of America,AR,Arkansas,118,,34.9697,-92.3731,
+2020-03-21,US,United States of America,AZ,Arizona,104,1,33.7298,-111.4312,
+2020-03-21,US,United States of America,CA,California,1279,24,36.1162,-119.6816,
+2020-03-21,US,United States of America,CO,Colorado,363,4,39.0598,-105.3111,
+2020-03-21,US,United States of America,CT,Connecticut,194,4,41.5978,-72.7554,
+2020-03-21,US,United States of America,DC,District of Columbia,77,1,38.8974,-77.0268,
+2020-03-21,US,United States of America,DE,Delaware,45,0,39.3185,-75.5071,
+2020-03-21,US,United States of America,FL,Florida,658,12,27.7663,-81.6868,
+2020-03-21,US,United States of America,GA,Georgia,507,14,33.0406,-83.6431,
+2020-03-21,US,United States of America,HI,Hawaii,37,,21.0943,-157.4983,
+2020-03-21,US,United States of America,IA,Iowa,68,,42.0115,-93.2105,
+2020-03-21,US,United States of America,ID,Idaho,31,,44.2405,-114.4788,
+2020-03-21,US,United States of America,IL,Illinois,759,6,40.3495,-88.9861,
+2020-03-21,US,United States of America,IN,Indiana,126,4,39.8494,-86.2583,
+2020-03-21,US,United States of America,KS,Kansas,55,2,38.5266,-96.7265,
+2020-03-21,US,United States of America,KY,Kentucky,54,2,37.6681,-84.6701,
+2020-03-21,US,United States of America,LA,Louisiana,585,16,31.1695,-91.8678,
+2020-03-21,US,United States of America,MA,Massachusetts,525,1,42.2302,-71.5301,
+2020-03-21,US,United States of America,MD,Maryland,190,2,39.0639,-76.8021,
+2020-03-21,US,United States of America,ME,Maine,73,,44.6939,-69.3819,
+2020-03-21,US,United States of America,MI,Michigan,787,5,43.3266,-84.5361,
+2020-03-21,US,United States of America,MN,Minnesota,138,1,44.8254,-93.7842,
+2020-03-21,US,United States of America,MO,Missouri,73,3,38.4561,-92.2884,
+2020-03-21,US,United States of America,MS,Mississippi,140,1,32.7416,-89.6787,
+2020-03-21,US,United States of America,MT,Montana,20,,46.9219,-110.4544,
+2020-03-21,US,United States of America,NC,North Carolina,184,0,35.6301,-79.8064,
+2020-03-21,US,United States of America,ND,North Dakota,28,0,47.5289,-99.784,
+2020-03-21,US,United States of America,NE,Nebraska,38,0,41.3148,-96.1951,
+2020-03-21,US,United States of America,NH,New Hampshire,55,,42.9931,-71.0498,
+2020-03-21,US,United States of America,NJ,New Jersey,1327,16,40.2989,-74.521,
+2020-03-21,US,United States of America,NM,New Mexico,57,,34.8405,-106.2485,
+2020-03-21,US,United States of America,NV,Nevada,124,2,38.3135,-117.0554,
+2020-03-21,US,United States of America,NY,New York,10356,44,42.1657,-74.9481,
+2020-03-21,US,United States of America,OH,Ohio,247,3,40.3888,-82.7649,
+2020-03-21,US,United States of America,OK,Oklahoma,53,1,35.5653,-96.9289,
+2020-03-21,US,United States of America,OR,Oregon,114,3,43.1261,-123.2492,
+2020-03-21,US,United States of America,PA,Pennsylvania,371,2,40.5908,-77.2098,
+2020-03-21,US,United States of America,RI,Rhode Island,66,,41.8882,-71.4774,
+2020-03-21,US,United States of America,SC,South Caroline,152,1,33.8569,-80.945,
+2020-03-21,US,United States of America,SD,South Dakota,14,1,43.8901,-102.2548,
+2020-03-21,US,United States of America,TN,Tennessee,371,,35.7478,-86.6923,
+2020-03-21,US,United States of America,TX,Texas,304,5,31.0545,-97.5635,
+2020-03-21,US,United States of America,UT,Utah,136,0,40.15,-111.8624,
+2020-03-21,US,United States of America,VA,Virginia,152,2,37.7693,-78.17,
+2020-03-21,US,United States of America,VT,Vermont,29,2,44.0459,-72.7107,
+2020-03-21,US,United States of America,WA,Washington,1524,83,47.4009,-121.4905,
+2020-03-21,US,United States of America,WI,Wisconsin,281,4,43.0186,-89.5498,
+2020-03-21,US,United States of America,WV,West Virginia,11,0,38.4912,-80.9545,
+2020-03-21,US,United States of America,WY,Wyoming,23,,42.756,-107.3025,

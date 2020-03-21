@@ -2,8 +2,7 @@
 
 '''
 This script loads the latest CSV from github.com/BlankerL/DXY-COVID-19-Dataand
-and extracts the confirmed cases and deaths and for each region. The output is
-saved both in CSV and JSON format under the `output` folder.
+and extracts the confirmed cases and deaths and for each region.
 
 Credit to the github.com/BlankerL team for scraping the data from DXY.cn.
 '''

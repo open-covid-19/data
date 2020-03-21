@@ -1,8 +1,6 @@
 #!/bin/bash
-set -xe
 
-# Crawl the MSCBS daily reports website and fetch the latest report to update
-# our local dataset with the changes.
+# Crawl the MSCBS daily report website and parse the latest one
 
 BASE_DIR=`dirname "$0"`
 python -m scrapy runspider "$BASE_DIR/crawl_mscbs_data.py" 2> /dev/null | \

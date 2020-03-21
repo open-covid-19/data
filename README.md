@@ -16,34 +16,16 @@ the latest daily data. The datasets currently available are:
 
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
-| World | [Latest](https://open-covid-19.github.io/data/world_latest.csv), [Historical](https://open-covid-19.github.io/data/world.csv) | [Latest](https://open-covid-19.github.io/data/world_latest.json), [Historical](https://open-covid-19.github.io/data/world.json) |
-| China | [Latest](https://open-covid-19.github.io/data/cn_latest.csv), [Historical](https://open-covid-19.github.io/data/cn.csv) | [Latest](https://open-covid-19.github.io/data/cn_latest.json), [Historical](https://open-covid-19.github.io/data/cn.json) |
-| United States of America | [Latest](https://open-covid-19.github.io/data/us_latest.csv), [Historical](https://open-covid-19.github.io/data/usa.csv) | [Latest](https://open-covid-19.github.io/data/us_latest.json), [Historical](https://open-covid-19.github.io/data/usa.json) |
-| Spain | [Latest](https://open-covid-19.github.io/data/es_latest.csv), [Historical](https://open-covid-19.github.io/data/es.csv) | [Latest](https://open-covid-19.github.io/data/es_latest.json), [Historical](https://open-covid-19.github.io/data/es.json) |
+| Data | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
 
 ## Understand the data
-The current datasets and their respective columns are:
-
-#### [World](output/world_latest.csv)
+The columns of the datasets are:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
-| **CountryCode** | ISO 3166-1 code of the country | ES |
-| **CountryName** | American English name of the country | Spain |
-| **Confirmed** | Total number of cases confirmed after positive test | 19980 |
-| **Deaths** | Total number of deaths from a positive COVID-19 case | 1002 |
-| **Latitude** | Floating point representing the geographic coordinate | 40.463667 |
-| **Longitude** | Floating point representing the geographic coordinate | -3.74922 |
-| **Population** | Total count of humans living in the country | 46736776 |
-
-#### [China](output/cn_latest.csv)
-
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
-| **RegionCode** | ISO 3166-2 code of the region | HB |
-| **RegionName** | American English name of the region | Hubei |
+| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
+| **RegionName** | (Optional) American English name of the region | Hubei |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
@@ -51,43 +33,18 @@ The current datasets and their respective columns are:
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
 | **Population** | Total count of humans living in the region | TODO |
-| **Region** | DEPRECATED | DEPRECATED |
 
-#### [United States of America](output/us_latest.csv)
-
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-20 |
-| **RegionCode** | ISO 3166-2 code of the region | CA |
-| **RegionName** | American English name of the region | California |
-| **CountryCode** | ISO 3166-1 code of the country | US |
-| **CountryName** | American English name of the country | United States of America |
-| **Confirmed** | Total number of cases confirmed after positive test | 1063 |
-| **Deaths** | Total number of deaths from a positive COVID-19 case | 20 |
-| **Latitude** | Floating point representing the geographic coordinate | 36.1162 |
-| **Longitude** | Floating point representing the geographic coordinate | -119.6816 |
-| **Population** | Total count of humans living in the region | TODO |
-| **Region** | DEPRECATED | DEPRECATED |
-
-#### [Spain](output/es_latest.csv)
-
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-20 |
-| **RegionCode** | ISO 3166-2 code of the region | AN |
-| **RegionName** | Spanish name of the region | Andalucía |
-| **CountryCode** | ISO 3166-1 code of the country | ES |
-| **CountryName** | American English name of the country | Spain |
-| **Confirmed** | Total number of cases confirmed after positive test | 1287 |
-| **Deaths** | Total number of deaths from a positive COVID-19 case | 30 |
-| **Latitude** | Floating point representing the geographic coordinate | 37.3828 |
-| **Longitude** | Floating point representing the geographic coordinate | -5.9731 |
-| **Population** | Total count of humans living in the region | TODO |
-| **Region** | DEPRECATED | DEPRECATED |
+For countries were both country-level and region-level data is available, the
+entry which has a null value for the `RegionCode` and `RegionName` columns
+indicates country-level aggregation. Please note that, sometimes, the
+country-level data and the region-level data come from different sources so
+adding up all region-level values may not equal exactly to the reported
+country-level value.
 
 #### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
 backwards compatibility, but shouldn't be used in any new projects:
+* [World (deprecated version)](output/world_latest.csv)
 * [USA (deprecated version)](output/usa_latest.csv)
 * [China (deprecated version)](output/china_latest.csv)
 
@@ -138,16 +95,9 @@ apt-get install -y ghostscript
 pip install -r requirements.txt
 ```
 
-Then run the following scripts to update each dataset:
+Then run the following scripts to update all datasets:
 ```sh
-# Update world data
-sh input/update_world_data.sh
-# Update China data
-sh input/update_data_cn.sh
-# Update USA data
-sh input/update_data_us.sh
-# Update Spain data
-sh input/update_data_es.sh
+sh input/update_data.sh
 ```
 
 [1]: https://github.com/CSSEGISandData/COVID-19

@@ -2,8 +2,7 @@
 
 '''
 This script loads the XLS file from argument and aggregates the data. It also
-extracts the last day of data into its own dataset. The output is saved both
-in CSV and JSON format under the `output` folder.
+extracts the last day of data into its own dataset.
 '''
 
 import os
@@ -55,4 +54,4 @@ df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
 df['Deaths'] = df['Deaths'].fillna(0).astype(int)
 
 # Output the results
-dataframe_output(df, ROOT, 'world', metadata_merge='left')
+dataframe_output(df, ROOT, 'world')

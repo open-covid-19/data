@@ -2,8 +2,7 @@
 
 '''
 This script loads the latest CSV from github.com/BlankerL/DXY-COVID-19-Dataand
-and extracts the confirmed cases and deaths and for each region. The output is
-saved both in CSV and JSON format under the `output` folder.
+and extracts the confirmed cases and deaths and for each region.
 
 Credit to the github.com/BlankerL team for scraping the data from DXY.cn.
 '''
@@ -23,6 +22,7 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # This script requires country code as parameter
 country_code = sys.argv[1]
 assert country_code is not None
+FIRST_DATE = '2019-12-31'
 
 # Read DXY CSV file from  website
 df = pd.read_csv('https://raw.githubusercontent.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYArea.csv')
@@ -58,31 +58,36 @@ country_name = countries.set_index('CountryCode').loc[country_code, 'CountryName
 # Merge country metadata with the stats from DXY
 df = df[df['CountryName'] == country_name].merge(countries, on='CountryName')
 
-# Merge with the rest of the world's data, which must be local
-df = pd.concat([pd.read_csv(ROOT / 'output' / 'world.csv', dtype=str), df], sort=False)
-df = df.set_index(['Date', 'CountryCode']).query('~index.duplicated()').reset_index()
+# Spot checking: for Spain, data source claims 7, but it was only 1 reported case on 2020-02-01
+if country_code == 'ES':
+    df = df.set_index('Date')
+    df.loc['2020-02-01', 'Confirmed'] = 1
+    df = df.reset_index()
 
-# Fill all of Italy's missing data where numbers did not change
-ffill_columns = ('Confirmed', 'Deaths')
-first_date = df['Date'].sort_values().iloc[0]
-sample_row = df[df['CountryCode'] == country_code].iloc[0]
-last_values = {'Confirmed': 0, 'Deaths': 0}
-for date in sorted(df['Date'].unique()):
-    new_row = sample_row.copy()
-    new_row['Date'] = date
-    existing_rows = df[(df['Date'] == date) & (df['CountryCode'] == country_code)]
-    if len(existing_rows) > 0:
-        for ffill_col in ffill_columns:
-            last_values[ffill_col] = existing_rows.iloc[0][ffill_col]
-        continue
+# Create a dummy record to be inserted where there is missing data
+sample_record = df.iloc[0].copy()
+sample_record['Confirmed'] = None
+sample_record['Deaths'] = None
 
-    for ffill_col in ffill_columns:
-        new_row[ffill_col] = last_values[ffill_col]
+# Loop through all the dates, which must be unique in the dataset index and fill data
+date_range = pd.date_range(FIRST_DATE, df['Date'].max())
+date_range = [date.date().isoformat() for date in date_range]
 
-    df = df.append(new_row, ignore_index=True)
+# Backfill the first date with a zero
+if FIRST_DATE not in df['Date'].values:
+    df = df.set_index('Date')
+    df.loc[FIRST_DATE, 'Confirmed'] = 0
+    df.loc[FIRST_DATE, 'Deaths'] = 0
+    df = df.reset_index()
 
-df = df.sort_values(['Date', 'CountryCode'])
-for ffill_col in ffill_columns: df[ffill_col] = df[ffill_col].ffill()
+# Fill all of country's missing data where numbers did not change
+for date in [date for date in date_range if date not in df['Date'].values]:
+    inserted_record = sample_record.copy()
+    inserted_record['Date'] = date
+    df = df.append(inserted_record, ignore_index=True)
+
+df = df.reset_index().sort_values('Date')
+for column in ('Confirmed', 'Deaths'): df[column] = df[column].ffill()
 
 # Output the results
 dataframe_output(df, ROOT, 'world')
