@@ -13,5 +13,8 @@ for FETCH_SCRIPT in $FETCH_SCRIPT_LIST; do
 done
 sort -u $TMP_FILE >> "$BASE_DIR/../output/data.csv"
 
+# Compute the forecast for the next 3 days of data
+python "$BASE_DIR/compute_forecast.py" > "$BASE_DIR/../output/data_forecast.csv"
+
 # Create the JSON and _latest versions + old versions of datasets
-python "$BASE_DIR/backwards_compatibility.py"
+python "$BASE_DIR/aggregate.py"

@@ -62,5 +62,9 @@ world = data[data['RegionCode'].isna()]
 world = world[[col for col in world.columns if 'Region' not in col]]
 dataframe_split(world, ('CountryCode',), ROOT, 'world')
 
+# Forecast needs to be converted to JSON
+forecast = pandas.read_csv(ROOT / 'output' / 'data_forecast.csv')
+dataframe_to_json(forecast, ROOT / 'output' / 'data_forecast.json', orient='records')
+
 # Finally, split the full data file itself
 dataframe_split(data, ('CountryCode', 'RegionCode'), ROOT, 'data')

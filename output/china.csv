@@ -1504,8 +1504,21 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-21,CN,China,SH,Shanghai,380,3,31.202,121.4491,,Shanghai
 2020-03-21,CN,China,SN,Shaanxi,248,3,35.1917,108.8701,,Shaanxi
 2020-03-21,CN,China,ZJ,Zhejiang,1236,1,29.1832,120.0934,,Zhejiang
-2020-03-22,CN,China,BJ,Beijing,504,8,40.1824,116.4142,,Beijing
-2020-03-22,CN,China,GD,Guangdong,1400,8,23.3417,113.4244,,Guangdong
-2020-03-22,CN,China,HB,Hubei,67800,3139,30.9756,112.2707,,Hubei
-2020-03-22,CN,China,HK,Hong Kong,273,4,22.3,114.2,,Hong Kong
-2020-03-22,CN,China,SH,Shanghai,380,3,31.202,121.4491,,Shanghai
+2020-03-22,CN,China,BJ,Beijing,514,8,40.1824,116.4142,,Beijing
+2020-03-22,CN,China,FJ,Fujian,307,1,26.0789,117.9874,,Fujian
+2020-03-22,CN,China,GD,Guangdong,1407,8,23.3417,113.4244,,Guangdong
+2020-03-22,CN,China,HB,Hubei,67800,3144,30.9756,112.2707,,Hubei
+2020-03-22,CN,China,HE,Hebei,319,6,39.549,116.1306,,Hebei
+2020-03-22,CN,China,HK,Hong Kong,317,4,22.3,114.2,,Hong Kong
+2020-03-22,CN,China,HL,Heilongjiang,484,13,47.862,127.7615,,Heilongjiang
+2020-03-22,CN,China,JS,Jiangsu,633,0,32.9711,119.455,,Jiangsu
+2020-03-22,CN,China,JX,Jiangxi,936,1,27.614,115.7221,,Jiangxi
+2020-03-22,CN,China,LN,Liaoning,126,2,41.2956,122.6085,,Liaoning
+2020-03-22,CN,China,MO,Macau,19,0,22.1667,113.55,,Macau
+2020-03-22,CN,China,SC,Sichuan,543,3,30.6171,102.7103,,Sichuan
+2020-03-22,CN,China,SD,Shandong,766,7,36.3427,118.1498,,Shandong
+2020-03-22,CN,China,SH,Shanghai,394,4,31.202,121.4491,,Shanghai
+2020-03-22,CN,China,ZJ,Zhejiang,1237,1,29.1832,120.0934,,Zhejiang
+2020-03-23,CN,China,CQ,Chongqing,577,6,30.0572,107.874,,Chongqing
+2020-03-23,CN,China,GS,Gansu,136,2,37.8099,101.0583,,Gansu
+2020-03-23,CN,China,MO,Macau,20,0,22.1667,113.55,,Macau

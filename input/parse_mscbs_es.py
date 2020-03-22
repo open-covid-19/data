@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import re
 import sys
@@ -18,7 +20,7 @@ def parse_record(tokens: list):
     return [{
         '_RegionLabel': tokens[0],
         'Confirmed': tokens[1].replace('.', ''),
-        'Deaths': tokens[-1].replace('.', '')
+        'Deaths': tokens[-2].replace('.', '')
     }]
 
 # We will get the date from the report itself
@@ -53,12 +55,16 @@ for line in sys.stdin:
         continue
 
     # Exit once the end of the table is reached
-    if tokens[0] == 'Total' and table_marker:
+    if tokens[0] == 'Total' or tokens[0] == 'ESPAÑA' and table_marker:
         break
 
     # Only process tokens from known region
     if tokens[0] in region_list:
         records += parse_record(tokens)
+
+    # Exit if we have covered all regions
+    if len(records) == len(region_list):
+        break
 
 # Early exit: no records in the report (2020-03-16 onwards)
 if not records:
@@ -68,11 +74,18 @@ if not records:
 # Put resulting records into a dataframe
 df = pd.DataFrame.from_records(records).merge(regions, on='_RegionLabel')
 df['Date'] = date
+df = df.set_index(['Date', 'RegionCode'])
 
-# Merge the new data with the existing data
-prev_data = 'https://raw.githubusercontent.com/open-covid-19/data/master/output/es.csv'
-df = pd.concat([pd.read_csv(prev_data, dtype=str), df], sort=False)
-df = df.set_index(['Date', 'RegionCode']).query('~index.duplicated()').reset_index()
+# Merge the new data with the existing data (prefer new data if duplicates)
+prev_data = 'https://open-covid-19.github.io/data/data.csv'
+prev_data = pd.read_csv(prev_data, dtype=str)
+prev_data = prev_data[prev_data['CountryCode'] == 'ES']
+prev_data = prev_data[~prev_data['RegionCode'].isna()]
+prev_data = prev_data.set_index(['Date', 'RegionCode'])
+if (any([idx in prev_data.index for idx in df.index])):
+    prev_data.loc[df.index, 'CountryCode'] = pd.NA
+    prev_data = prev_data[~prev_data['CountryCode'].isna()]
+df = pd.concat([prev_data, df], sort=False).reset_index()
 
 # Output the results
 dataframe_output(df, ROOT, 'es', metadata_merge='left')

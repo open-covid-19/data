@@ -2,3 +2,7 @@ pandas==1.0.3
 Scrapy==2.0.0
 xlrd==1.2.0
 requests==2.23
+scipy==1.4.1
+matplotlib==3.2.1
+seaborn==0.10.0
+tqdm==4.43.0

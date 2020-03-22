@@ -17,17 +17,18 @@ the latest daily data. The datasets currently available are:
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
 | Data | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
+| Forecast | [Latest](https://open-covid-19.github.io/data/forecast_latest.csv) | [Latest](https://open-covid-19.github.io/data/forecast_latest.json) |
 
 ## Understand the data
-The columns of the datasets are:
+The columns of the main dataset are:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
-| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
-| **RegionName** | (Optional) American English name of the region | Hubei |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
+| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
+| **RegionName** | (Optional) American English name of the region | Hubei |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 | **Deaths** | Total number of deaths from a positive COVID-19 case | 3139 |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
@@ -40,6 +41,25 @@ indicates country-level aggregation. Please note that, sometimes, the
 country-level data and the region-level data come from different sources so
 adding up all region-level values may not equal exactly to the reported
 country-level value.
+
+#### Forecasting
+There is also a short-term forecasting dataset available in the output folder
+as [data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
+which has the following columns:
+
+ForecastDate,Date,CountryCode,CountryName,RegionCode,RegionName,Estimated,Confirmed
+2020-03-21,2020-03-08,AE,United Arab Emirates,,,48.193,45
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last available datapoint | 2020-03-21 |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
+| **CountryCode** | ISO 3166-1 code of the country | CN |
+| **CountryName** | American English name of the country | China |
+| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
+| **RegionName** | (Optional) American English name of the region | Hubei |
+| **Estimated** | Total number of cases estimated from forecasting model | 66804.567 |
+| **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 
 #### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
@@ -57,11 +77,6 @@ of how to load and analyze the data.
 You can even use Google Colab if you want to run your analysis without having
 to install anything in your computer, simply go to this URL:
 https://colab.research.google.com/github/open-covid-19/analysis.
-
-## Forecasting
-There are also short-term forecasting datasets available in the
-[forecasting repository](https://github.com/open-covid-19/forecasting), which
-includes datasets of future predicted confirmed cases.
 
 ## Source of data
 The world data comes from the daily reports at the [ECDC portal][2].
