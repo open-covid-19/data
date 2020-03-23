@@ -24,42 +24,51 @@ The columns of the main dataset are:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
+| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
 | **RegionName** | (Optional) American English name of the region | Hubei |
-| **Confirmed** | Total number of cases confirmed after positive test | 67800 |
-| **Deaths** | Total number of deaths from a positive COVID-19 case | 3139 |
+| **Confirmed**\*\* | Total number of cases confirmed after positive test | 67800 |
+| **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 3139 |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
 | **Population** | Total count of humans living in the region | TODO |
 
-For countries were both country-level and region-level data is available, the
+\*Date used is **reporting** date, which generally lags a day from the actual
+date and is subject to timezone adjustments. Whenever possible, dates
+consistent with the ECDC daily reports are used.
+
+\*\*Missing values will be represented as nulls, whereas zeroes are used when
+a true value of zero is reported. For example, US states where deaths are not
+being reported have null values.
+
+For countries where both country-level and region-level data is available, the
 entry which has a null value for the `RegionCode` and `RegionName` columns
 indicates country-level aggregation. Please note that, sometimes, the
 country-level data and the region-level data come from different sources so
 adding up all region-level values may not equal exactly to the reported
-country-level value.
+country-level value. See the [data loading tutorial][7] for more info.
 
 #### Forecasting
-There is also a short-term forecasting dataset available in the output folder
-as [data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
+There is also a short-term forecast dataset available in the output folder as
+[data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
 which has the following columns:
-
-ForecastDate,Date,CountryCode,CountryName,RegionCode,RegionName,Estimated,Confirmed
-2020-03-21,2020-03-08,AE,United Arab Emirates,,,48.193,45
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last available datapoint | 2020-03-21 |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
+| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
 | **RegionName** | (Optional) American English name of the region | Hubei |
 | **Estimated** | Total number of cases estimated from forecasting model | 66804.567 |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
+
+\*Date used is **reporting** date, which generally lags a day from the actual
+date and is subject to timezone adjustments. Whenever possible, dates
+consistent with the ECDC daily reports are used.
 
 #### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
@@ -70,20 +79,26 @@ backwards compatibility, but shouldn't be used in any new projects:
 
 ## Analyze the data
 You may also want to load the data and perform your own analysis on it.
-You can find Jupyter Notebooks in the
-[analysis repository](https://github.com/open-covid-19/analysis) with examples
-of how to load and analyze the data.
+You can find Jupyter Notebooks in the [examples subfolder](examples) with
+examples of how to load and analyze the data.
 
 You can even use Google Colab if you want to run your analysis without having
 to install anything in your computer, simply go to this URL:
-https://colab.research.google.com/github/open-covid-19/analysis.
+https://colab.research.google.com/github/open-covid-19/data.
 
 ## Source of data
 The world data comes from the daily reports at the [ECDC portal][2].
 The XLS file is downloaded and parsed using `scrapy` and `pandas`.
 
-Data for Chinese regions and Italy (see [#12][6]) comes from the
-[DXY scraped dataset][3], which is parsed using `pandas`.
+Region-level data for China and country-level data for Spain and Italy come
+from the [DXY scraped dataset][3], which is parsed using `pandas`.
+
+Region-level data for Spain comes from the report available at the website of
+[Spain's ministry of health][8], which is parsed using `ghostscript` and
+`pandas`.
+
+Region level data for USA comes from the API available at
+https://covidtracking.com, which is queried using `pandas`.
 
 The data is automatically crawled and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
@@ -121,3 +136,5 @@ sh input/update_data.sh
 [4]: https://web.archive.org/web/20200314143253/http://www.salute.gov.it/nuovocoronavirus
 [5]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
 [6]: https://github.com/open-covid-19/data/issues/16
+[7]: https://github.com/open-covid-19/data/examples/data_loading.ipynb
+[8]: https://web.archive.org/web/20200320122944/https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm
