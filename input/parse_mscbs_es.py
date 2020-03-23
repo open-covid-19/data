@@ -16,11 +16,14 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 regions = pd.read_csv(ROOT / 'input' / 'metadata_es.csv', dtype=str)
 region_list = regions['_RegionLabel'].unique()
 
+# Default column index for deaths, but we'll try to infer it from report
+death_column_index = -3
+
 def parse_record(tokens: list):
     return [{
         '_RegionLabel': tokens[0],
-        'Confirmed': tokens[1].replace('.', ''),
-        'Deaths': tokens[-2].replace('.', '')
+        'Confirmed': re.sub(r'\D', '', tokens[1]),
+        'Deaths': re.sub(r'\D', '', tokens[death_column_index])
     }]
 
 # We will get the date from the report itself
@@ -52,6 +55,7 @@ for line in sys.stdin:
     # Find the marker for the appropriate table
     if tokens[0] == 'CCAA':
         table_marker = True
+        death_column_index = tokens.index('Fallecidos')
         continue
 
     # Exit once the end of the table is reached

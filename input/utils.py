@@ -79,9 +79,15 @@ def _forward_indices(indices: list, window: int):
 
 def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
     ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
+    # Read live data and filter it as requested by argument
     prev_data = pandas.read_csv(OPEN_COVID_19_URL, dtype=str)
     prev_data = prev_data[prev_data.apply(filter_function, axis=1)]
-    prev_data = prev_data.set_index(index_columns).drop(data.index)
+
+    # Remove all repeated records from the previous dataset
+    prev_data = prev_data.set_index(index_columns)
+    for idx in (set(data.index) & set(prev_data.index)): prev_data.drop(idx)
+
+    # Create new dataset of previous + current
     return pandas.concat([prev_data, data], sort=False)
 
 
