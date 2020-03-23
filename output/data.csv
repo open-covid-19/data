@@ -8480,7 +8480,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-21,US,United States of America,KS,Kansas,55,2,38.5266,-96.7265,
 2020-03-21,US,United States of America,KY,Kentucky,54,2,37.6681,-84.6701,
 2020-03-21,US,United States of America,LA,Louisiana,585,16,31.1695,-91.8678,
-2020-03-21,US,United States of America,MA,Massachusetts,646,5,42.2302,-71.5301,
+2020-03-21,US,United States of America,MA,Massachusetts,525,51,42.2302,-71.5301,
 2020-03-21,US,United States of America,MD,Maryland,190,2,39.0639,-76.8021,
 2020-03-21,US,United States of America,ME,Maine,73,,44.6939,-69.3819,
 2020-03-21,US,United States of America,MI,Michigan,787,5,43.3266,-84.5361,
@@ -8738,7 +8738,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-22,US,United States of America,KS,Kansas,64,2,38.5266,-96.7265,
 2020-03-22,US,United States of America,KY,Kentucky,99,3,37.6681,-84.6701,
 2020-03-22,US,United States of America,LA,Louisiana,837,20,31.1695,-91.8678,
-2020-03-22,US,United States of America,MA,Massachusetts,525,1,42.2302,-71.5301,
+2020-03-22,US,United States of America,MA,Massachusetts,646,5,42.2302,-71.5301,
 2020-03-22,US,United States of America,MD,Maryland,244,3,39.0639,-76.8021,
 2020-03-22,US,United States of America,ME,Maine,89,,44.6939,-69.3819,
 2020-03-22,US,United States of America,MI,Michigan,1035,8,43.3266,-84.5361,
@@ -8779,8 +8779,21 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-22,ZA,South Africa,,,240,0,-30.559482,22.937506,58558270
 2020-03-22,ZM,Zambia,,,2,0,-13.133897,27.849332,17861030
 2020-03-22,ZW,Zimbabwe,,,2,0,-19.015438,29.154857,14645468
+2020-03-23,CN,China,BJ,Beijing,522,8,40.1824,116.4142,
 2020-03-23,CN,China,CQ,Chongqing,577,6,30.0572,107.874,
+2020-03-23,CN,China,FJ,Fujian,313,1,26.0789,117.9874,
+2020-03-23,CN,China,GD,Guangdong,1413,8,23.3417,113.4244,
 2020-03-23,CN,China,GS,Gansu,136,2,37.8099,101.0583,
-2020-03-23,CN,China,MO,Macau,20,0,22.1667,113.55,
+2020-03-23,CN,China,HA,Henan,1274,22,33.882,113.614,
+2020-03-23,CN,China,HB,Hubei,67800,3153,30.9756,112.2707,
+2020-03-23,CN,China,HE,Hebei,319,6,39.549,116.1306,
+2020-03-23,CN,China,HL,Heilongjiang,484,13,47.862,127.7615,
+2020-03-23,CN,China,JS,Jiangsu,633,0,32.9711,119.455,
+2020-03-23,CN,China,JX,Jiangxi,936,1,27.614,115.7221,
+2020-03-23,CN,China,LN,Liaoning,127,2,41.2956,122.6085,
+2020-03-23,CN,China,MO,Macau,21,0,22.1667,113.55,
+2020-03-23,CN,China,SD,Shandong,767,7,36.3427,118.1498,
+2020-03-23,CN,China,SH,Shanghai,404,4,31.202,121.4491,
+2020-03-23,CN,China,ZJ,Zhejiang,1238,1,29.1832,120.0934,
 2020-03-23,ES,Spain,,,28572,1720,40.463667,-3.74922,46736776
 2020-03-23,IT,Italy,,,59138,5476,41.87194,12.56738,60550075

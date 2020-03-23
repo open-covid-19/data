@@ -13,12 +13,20 @@ jobs:
     - name: Set up Python 3.x
       uses: actions/setup-python@v1
       with:
-        python-version: '3.x' 
+        python-version: '3.x'
 
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
+    - name: Compute data forecast
+      run: |
+        python input/compute_forecast.py
+
+    - name: Create JSON and subset versions of the data
+      run: |
+        python input/format_data.py
 
     - name: Generate all SVG charts
       run: |

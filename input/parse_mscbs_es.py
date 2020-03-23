@@ -7,7 +7,7 @@ import datetime
 from pathlib import Path
 import pandas as pd
 
-from utils import dataframe_output
+from utils import dataframe_output, merge_previous
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -77,15 +77,8 @@ df['Date'] = date
 df = df.set_index(['Date', 'RegionCode'])
 
 # Merge the new data with the existing data (prefer new data if duplicates)
-prev_data = 'https://open-covid-19.github.io/data/data.csv'
-prev_data = pd.read_csv(prev_data, dtype=str)
-prev_data = prev_data[prev_data['CountryCode'] == 'ES']
-prev_data = prev_data[~prev_data['RegionCode'].isna()]
-prev_data = prev_data.set_index(['Date', 'RegionCode'])
-if (any([idx in prev_data.index for idx in df.index])):
-    prev_data.loc[df.index, 'CountryCode'] = pd.NA
-    prev_data = prev_data[~prev_data['CountryCode'].isna()]
-df = pd.concat([prev_data, df], sort=False).reset_index()
+filter_function = lambda row: row['CountryCode'] == 'ES' and not pd.isna(row['RegionCode'])
+df = merge_previous(df, ['Date', 'RegionCode'], filter_function).reset_index()
 
 # Output the results
 dataframe_output(df, ROOT, 'es', metadata_merge='left')

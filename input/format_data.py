@@ -43,14 +43,14 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # Read the full data file
 data = pandas.read_csv(ROOT / 'output' / 'data.csv', dtype=str)
 
-# China dataset and Region -> RegionName
+# Backwards compatibility: China dataset and Region -> RegionName
 china = data[data['CountryCode'] == 'CN']
 china = china[~china['RegionCode'].isna()]
 dataframe_split(china, ('RegionCode',), ROOT, 'cn')
 china['Region'] = china['RegionName']
 dataframe_split(china, ('RegionCode',), ROOT, 'china')
 
-# Usa dataset and RegionName -> RegionCode
+# Backwards compatibility: Usa dataset and RegionName -> RegionCode
 usa = data[data['CountryCode'] == 'US']
 usa = usa[~usa['RegionCode'].isna()]
 dataframe_split(usa, ('RegionCode',), ROOT, 'us')

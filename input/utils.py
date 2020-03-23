@@ -16,6 +16,8 @@ sns.set()
 # Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
 matplotlib.rcParams['svg.hashsalt'] = 0
 
+OPEN_COVID_19_URL = 'https://open-covid-19.github.io/data/data.csv'
+
 def _series_converter(series: pandas.Series):
     if series.name == 'Estimated':
         return series.astype(float)
@@ -74,6 +76,14 @@ def _forward_indices(indices: list, window: int):
     date_indices = [datetime.date.fromisoformat(date) for date in indices]
     for _ in range(window): date_indices.append(date_indices[-1] + datetime.timedelta(days=1))
     return [date.isoformat() for date in date_indices]
+
+def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
+    ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
+    prev_data = pandas.read_csv(OPEN_COVID_19_URL, dtype=str)
+    prev_data = prev_data[prev_data.apply(filter_function, axis=1)]
+    prev_data = prev_data.set_index(index_columns).drop(data.index)
+    return pandas.concat([prev_data, data], sort=False)
+
 
 # Main work function for each subset of data
 def compute_forecast(data: pandas.Series, window: int):
