@@ -34,9 +34,10 @@ jobs:
 
     - name: Clean up output folder and compute sitemap
       run: |
-        find output -name ".gitignore" -delete
-        python input/compute_sitemap.py > output/README.md
-        cat output/README.md
+        rm -rf output/README.md
+        find output/ -name ".gitignore" -delete
+        python input/compute_sitemap.py > output/sitemap.txt
+        cat output/sitemap.txt
 
     - name: Deploy pages
       uses: peaceiris/actions-gh-pages@v3

@@ -12,4 +12,4 @@ OUTPUT = ROOT / 'output'
 
 # Write a link to each file in the output folder
 for fname in OUTPUT.glob('**/*.*'):
-    print('- <{0}>'.format(fname.relative_to(OUTPUT)), file=sys.stdout)
+    print('<{0}>'.format(fname.relative_to(OUTPUT)), file=sys.stdout)
