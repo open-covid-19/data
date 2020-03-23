@@ -90,8 +90,8 @@ for key in tqdm(df['_key'].unique()):
             plot_forecast(charts_root / fname_forecast, confirmed, estimated)
             chart_outputs[suffix]['Forecast'] = fname_forecast
     except Exception as exc:
-        print('Unexpected error:', sys.exc_info()[0])
-        print(subset)
+        print('Unexpected error: %r' % sys.exc_info()[0], file=sys.stderr)
+        print(subset, file=sys.stderr)
 
-with open(charts_root / 'map.json', 'w') as f:
-    json.dump(chart_outputs, f)
+# Output the chart map to stdout
+json.dump(chart_outputs, sys.stdout)

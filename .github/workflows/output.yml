@@ -24,13 +24,13 @@ jobs:
       run: |
         python input/compute_forecast.py > output/data_forecast.csv
 
+    - name: Generate all SVG charts
+      run: |
+        python input/compute_charts.py > output/charts/map.json
+
     - name: Create JSON and subset versions of the data
       run: |
         python input/format_data.py
-
-    - name: Generate all SVG charts
-      run: |
-        python input/compute_charts.py
 
     - name: Deploy pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
