@@ -27,20 +27,19 @@ jobs:
     - name: Generate all SVG charts
       run: |
         python input/compute_charts.py > output/charts/map.json
-        ls -halF output/charts
 
     - name: Create JSON and subset versions of the data
       run: |
         python input/format_data.py
-        ls -halF output
 
-    - name: Compute a sitemap and write it to the output folder
+    - name: Clean up output folder and compute sitemap
       run: |
+        find output -name ".gitignore" -delete
         python input/compute_sitemap.py > output/README.md
+        cat output/README.md
 
     - name: Deploy pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: peaceiris/actions-gh-pages@v3
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: output
+        PUBLISH_DIR: output
