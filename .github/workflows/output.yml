@@ -22,7 +22,7 @@ jobs:
 
     - name: Compute data forecast
       run: |
-        python input/compute_forecast.py
+        python input/compute_forecast.py > output/data_forecast.csv
 
     - name: Create JSON and subset versions of the data
       run: |
