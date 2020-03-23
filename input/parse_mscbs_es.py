@@ -78,11 +78,13 @@ if not records:
 # Put resulting records into a dataframe
 df = pd.DataFrame.from_records(records).merge(regions, on='_RegionLabel')
 df['Date'] = date
-df = df.set_index(['Date', 'RegionCode'])
 
 # Merge the new data with the existing data (prefer new data if duplicates)
 filter_function = lambda row: row['CountryCode'] == 'ES' and not pd.isna(row['RegionCode'])
 df = merge_previous(df, ['Date', 'RegionCode'], filter_function).reset_index()
+
+# Only keep the necessary columns prior to merging with metadata
+df = df[['Date', 'RegionCode', 'Confirmed', 'Deaths']]
 
 # Output the results
 dataframe_output(df, ROOT, 'es', metadata_merge='left')
