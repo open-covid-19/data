@@ -27,10 +27,12 @@ jobs:
     - name: Generate all SVG charts
       run: |
         python input/compute_charts.py > output/charts/map.json
+        ls -halF output/charts
 
     - name: Create JSON and subset versions of the data
       run: |
         python input/format_data.py
+        ls -halF output
 
     - name: Deploy pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
