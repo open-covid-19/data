@@ -87,4 +87,4 @@ df = merge_previous(df, ['Date', 'RegionCode'], filter_function)
 df = df[['Date', 'RegionCode', 'Confirmed', 'Deaths']]
 
 # Output the results
-dataframe_output(df, ROOT, 'es', metadata_merge='left')
+dataframe_output(df, ROOT, 'es')

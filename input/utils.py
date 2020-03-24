@@ -26,6 +26,33 @@ def _series_converter(series: pandas.Series):
     else:
         return series.fillna('').astype(str)
 
+def timezone_adjust(timestamp: str, offset: int):
+    ''' Adjust hour difference between a timezone and GMT+1 '''
+    timestamp = datetime.datetime.fromisoformat(timestamp)
+    if timestamp.hour <= 24 - offset:
+        return timestamp.date().isoformat()
+    else:
+        return (timestamp + datetime.timedelta(days=1)).date().isoformat()
+
+def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
+    ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
+
+    # Read live data and filter it as requested by argument
+    prev_data = pandas.read_csv(OPEN_COVID_19_URL)
+    prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
+
+    # Only look at columns present in the snapshot data
+    prev_data = prev_data[set(data.columns) & set(prev_data.columns)]
+
+    # Remove all repeated records from the previous dataset
+    data = data.set_index(index_columns)
+    prev_data = prev_data.set_index(index_columns)
+    for idx in (set(data.index) & set(prev_data.index)):
+        prev_data = prev_data.drop(idx)
+
+    # Create new dataset of previous + current
+    return pandas.concat([prev_data, data], sort=False).reset_index()
+
 def dataframe_output(data: DataFrame, root: Path, name: str = None, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
@@ -34,7 +61,6 @@ def dataframe_output(data: DataFrame, root: Path, name: str = None, metadata_mer
     '''
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = pandas.read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
-    pivot_columns = core_columns[:-5]
 
     # Merge with metadata from appropriate helper dataset
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
@@ -70,25 +96,6 @@ def _forward_indices(indices: list, window: int):
     date_indices = [datetime.date.fromisoformat(date) for date in indices]
     for _ in range(window): date_indices.append(date_indices[-1] + datetime.timedelta(days=1))
     return [date.isoformat() for date in date_indices]
-
-def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
-    ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
-
-    # Read live data and filter it as requested by argument
-    prev_data = pandas.read_csv(OPEN_COVID_19_URL)
-    prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
-
-    # Only look at columns present in the snapshot data
-    prev_data = prev_data[set(data.columns) & set(prev_data.columns)]
-
-    # Remove all repeated records from the previous dataset
-    data = data.set_index(index_columns)
-    prev_data = prev_data.set_index(index_columns)
-    for idx in (set(data.index) & set(prev_data.index)): prev_data.drop(idx)
-
-    # Create new dataset of previous + current
-    return pandas.concat([prev_data, data], sort=False).reset_index()
-
 
 # Main work function for each subset of data
 def compute_forecast(data: pandas.Series, window: int):

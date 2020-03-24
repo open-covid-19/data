@@ -13,7 +13,7 @@ import pandas as pd
 from pathlib import Path
 import requests
 
-from utils import dataframe_output
+from utils import dataframe_output, timezone_adjust
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -21,16 +21,8 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # Read DXY CSV file from  website
 df = pd.read_csv('https://raw.githubusercontent.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYArea.csv')
 
-# Since all other reporting is done at 10 AM GMT+1, adjust for timezone difference
-def timezone_adjust(time: str):
-    ''' Adjust 7 hour difference between China's GMT+8 and GMT+1 '''
-    timestamp = datetime.datetime.fromisoformat(time)
-    if timestamp.hour <= 24 - 7:
-        return timestamp.date().isoformat()
-    else:
-        return (timestamp + datetime.timedelta(days=1)).date().isoformat()
-
-df['Date'] = df['updateTime'].apply(timezone_adjust)
+# Adjust 7 hour difference between China's GMT+8 and GMT+1
+df['Date'] = df['updateTime'].apply(lambda date: timezone_adjust(date, 7))
 
 # Rename the appropriate columns
 df = df.rename(columns={
