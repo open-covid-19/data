@@ -3,16 +3,17 @@ This repo contains free datasets of historical data related to COVID-19.
 
 ## Explore the data
 A simple visualization tool was built to explore the Open COVID-19 datasets:
-https://open-covid-19.github.io/explorer/.
+The [Open COVID-19 Explorer](https://open-covid-19.github.io/explorer).
 
 ![Explorer Screenshot](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)
 
 ## Use the data
 The data is available as CSV and JSON files, which are published in Github
 Pages so they can be served directly to Javascript applications without the
-need of a proxy to set the correct headers for CORS and content type. Each
-dataset has a version with all historical data, and another version with only
-the latest daily data. The datasets currently available are:
+need of a proxy to set the correct headers for CORS and content type. Some
+datasets have a version with all historical data, and another version with only
+the latest daily data. Some only have the latest data available. The datasets
+curated by this project are:
 
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
@@ -48,7 +49,7 @@ entry which has a null value for the `RegionCode` and `RegionName` columns
 indicates country-level aggregation. Please note that, sometimes, the
 country-level data and the region-level data come from different sources so
 adding up all region-level values may not equal exactly to the reported
-country-level value. See the [data loading tutorial][7] for more info.
+country-level value. See the [data loading tutorial][7] for more information.
 
 #### Forecasting
 There is also a short-term forecast dataset available in the output folder as
@@ -57,18 +58,26 @@ which has the following columns:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last available datapoint | 2020-03-21 |
+| **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint | 2020-03-21 |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
 | **RegionName** | (Optional) American English name of the region | Hubei |
-| **Estimated** | Total number of cases estimated from forecasting model | 66804.567 |
+| **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 
 \*Date used is **reporting** date, which generally lags a day from the actual
 date and is subject to timezone adjustments. Whenever possible, dates
 consistent with the ECDC daily reports are used.
+
+\*\*An estimate is also provided for dates before the forecast date, which
+corresponds to the output of the fitted model; this is the *a priori*
+estimate. True forecast values are those that have a **Date** higher than
+**ForecastDate**; which are the *a posteriori* estimates. Another way to
+distinguish between *a priori* and *a posteriori* estimates is to see if a
+given date has a value for both **Confirmed** and **Estimated** (*a
+priori*) or if the **Confirmed** value is null (*a posteriori*).
 
 #### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
@@ -86,21 +95,18 @@ You can even use Google Colab if you want to run your analysis without having
 to install anything in your computer, simply go to this URL:
 https://colab.research.google.com/github/open-covid-19/data.
 
-## Source of data
-The world data comes from the daily reports at the [ECDC portal][2].
-The XLS file is downloaded and parsed using `scrapy` and `pandas`.
+## Sources of data
+| Data | Source |
+| ---- | ------ |
+| Country-level worldwide | Daily reports from the [ECDC portal][2] |
+| Region-level China | [DXY COVID-19 dataset][3] |
+| Country-level Italy and Spain | [DXY COVID-19 dataset][3] |
+| Region-level Spain | Daily reports from [Spain's ministry of health][8] |
+| Region-level USA | [COVID Tracking Project][9] |
+| Region-level Australia | <https://covid-19-au.github.io> |
+| Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
 
-Region-level data for China and country-level data for Spain and Italy come
-from the [DXY scraped dataset][3], which is parsed using `pandas`.
-
-Region-level data for Spain comes from the report available at the website of
-[Spain's ministry of health][8], which is parsed using `ghostscript` and
-`pandas`.
-
-Region level data for USA comes from the API available at
-https://covidtracking.com, which is queried using `pandas`.
-
-The data is automatically crawled and parsed using the scripts found in the
+The data is automatically scraped and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
 some additional columns are added, like region-level coordinates.
 
@@ -138,3 +144,4 @@ sh input/update_data.sh
 [6]: https://github.com/open-covid-19/data/issues/16
 [7]: https://github.com/open-covid-19/data/examples/data_loading.ipynb
 [8]: https://web.archive.org/web/20200320122944/https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm
+[9]: https://covidtracking.com
