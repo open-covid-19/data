@@ -87,7 +87,7 @@ def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function)
     for idx in (set(data.index) & set(prev_data.index)): prev_data.drop(idx)
 
     # Create new dataset of previous + current
-    return pandas.concat([prev_data, data], sort=False)
+    return pandas.concat([prev_data, data], sort=False).reset_index()
 
 
 # Main work function for each subset of data

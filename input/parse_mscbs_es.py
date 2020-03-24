@@ -81,7 +81,7 @@ df['Date'] = date
 
 # Merge the new data with the existing data (prefer new data if duplicates)
 filter_function = lambda row: row['CountryCode'] == 'ES' and not pd.isna(row['RegionCode'])
-df = merge_previous(df, ['Date', 'RegionCode'], filter_function).reset_index()
+df = merge_previous(df, ['Date', 'RegionCode'], filter_function)
 
 # Only keep the necessary columns prior to merging with metadata
 df = df[['Date', 'RegionCode', 'Confirmed', 'Deaths']]
