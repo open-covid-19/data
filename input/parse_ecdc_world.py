@@ -34,7 +34,8 @@ df['GeoId'] = df['GeoId'].apply(lambda code: 'GB' if code == 'UK' else code)
 # Workaround for https://github.com/open-covid-19/data/issues/12
 # ECDC data for Italy is simply wrong, so Italy's data will be parsed from a different source
 # ECDC data for Spain is two days delayed because original reporting time mismatch, parse separately
-df = df[(df['GeoId'] != 'IT') & (df['GeoId'] != 'ES')]
+df = df[df['GeoId'] != 'ES']
+df = df[df['GeoId'] != 'IT']
 
 # Compute the cumsum of values
 columns = ['DateRep', 'GeoId', 'Confirmed', 'Deaths']
