@@ -17,13 +17,14 @@ regions = pd.read_csv(ROOT / 'input' / 'metadata_es.csv', dtype=str)
 region_list = regions['_RegionLabel'].unique()
 
 # Default column index for deaths, but we'll try to infer it from report
-death_column_index = -3
+deaths_column_index = -3
+deaths_column_name = 'Fallecidos'
 
 def parse_record(tokens: list):
     return [{
         '_RegionLabel': tokens[0],
         'Confirmed': re.sub(r'\D', '', tokens[1]),
-        'Deaths': re.sub(r'\D', '', tokens[death_column_index])
+        'Deaths': re.sub(r'\D', '', tokens[deaths_column_index])
     }]
 
 # We will get the date from the report itself
@@ -40,9 +41,9 @@ for line in sys.stdin:
     if not line: continue
 
     # Search for the date of the report
-    date_regex = r'(\d\d?\.\d\d?\.\d\d\d\d)'
+    date_regex = r'^(\d\d?\.\d\d?\.\d\d).*$'
     if date is None and re.match(date_regex, line):
-        date = datetime.datetime.strptime(re.match(date_regex, line).group(1), '%d.%m.%Y')
+        date = datetime.datetime.strptime(re.match(date_regex, line).group(1), '%d.%m.%y')
         date = date.date().isoformat()
 
     # Assume columns are separated by at least 4 spaces
@@ -55,7 +56,8 @@ for line in sys.stdin:
     # Find the marker for the appropriate table
     if tokens[0] == 'CCAA':
         table_marker = True
-        death_column_index = tokens.index('Fallecidos')
+        if deaths_column_name in tokens:
+            deaths_column_index = tokens.index(deaths_column_name)
         continue
 
     # Exit once the end of the table is reached
