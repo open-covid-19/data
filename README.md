@@ -100,11 +100,10 @@ https://colab.research.google.com/github/open-covid-19/data.
 | ---- | ------ |
 | Country-level worldwide | Daily reports from the [ECDC portal][2] |
 | Region-level China | [DXY COVID-19 dataset][3] |
-| Country-level Spain | [DXY COVID-19 dataset][3] |
-| Region-level Spain | Daily reports from [Spain's ministry of health][8] |
 | Region-level USA | [COVID Tracking Project][9] |
 | Region-level Australia | <https://covid-19-au.github.io> |
 | Country and region-level Italy | [Italy's Department of Civil Protection][10] |
+| Country and region-level Spain | [Datadista COVID-19 dataset][11] |
 | Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
 
 The data is automatically scraped and parsed using the scripts found in the
@@ -147,3 +146,4 @@ sh input/update_data.sh
 [8]: https://web.archive.org/web/20200320122944/https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm
 [9]: https://covidtracking.com
 [10]: https://github.com/pcm-dpc/COVID-19
+[11]: https://github.com/datadista/datasets/tree/master/COVID%2019
