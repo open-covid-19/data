@@ -115,9 +115,9 @@ def _logistic_function(X: float, a: float, b: float, c: float):
 
 def _forward_indices(indices: list, window: int):
     ''' Adds `window` indices to a list of dates '''
-    date_indices = [date.fromisoformat(date) for date in indices]
+    date_indices = [date.fromisoformat(idx) for idx in indices]
     for _ in range(window): date_indices.append(date_indices[-1] + timedelta(days=1))
-    return [date.isoformat() for date in date_indices]
+    return [idx.isoformat() for idx in date_indices]
 
 # Main work function for each subset of data
 def compute_forecast(data: pandas.Series, window: int):
