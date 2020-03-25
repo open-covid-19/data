@@ -10052,7 +10052,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-24,US,United States of America,AL,Alabama,215,0,32.3182,-86.9023,
 2020-03-24,US,United States of America,AR,Arkansas,218,0,34.9697,-92.3731,
 2020-03-24,US,United States of America,AZ,Arizona,357,5,33.7298,-111.4312,
-2020-03-24,US,United States of America,CA,California,1733,27,36.1162,-119.6816,
+2020-03-24,US,United States of America,CA,California,2102,40,36.1162,-119.6816,
 2020-03-24,US,United States of America,CO,Colorado,720,7,39.0598,-105.3111,
 2020-03-24,US,United States of America,CT,Connecticut,618,12,41.5978,-72.7554,
 2020-03-24,US,United States of America,DC,District of Columbia,137,2,38.8974,-77.0268,
@@ -10112,5 +10112,5 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-25,CN,China,GS,Gansu,136,2,37.8099,101.0583,
 2020-03-25,CN,China,HB,Hubei,67801,3160,30.9756,112.2707,
 2020-03-25,CN,China,TJ,Tianjin,145,3,39.3054,117.323,
-2020-03-25,ES,Spain,,,39673,2696,40.463667,-3.74922,46736776
+2020-03-25,ES,Spain,,,42058,2991,40.463667,-3.74922,46736776
 2020-03-25,IT,Italy,,,69176,6820,41.87194,12.56738,60550075

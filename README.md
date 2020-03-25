@@ -1,5 +1,5 @@
 # Open COVID-19 Dataset
-This repo contains free datasets of historical data related to COVID-19.
+This repository contains datasets of historical data related to COVID-19.
 
 ## Explore the data
 A simple visualization tool was built to explore the Open COVID-19 datasets:
@@ -118,7 +118,7 @@ the [reports from WHO][5].
 ## Why another dataset?
 This dataset is heavily inspired by the dataset maintained by
 [Johns Hopkins University][1]. Unfortunately, that dataset has intermittently
-experiencing maintenance issues and a lot of applications depend on this
+experienced maintenance issues and a lot of applications depend on this
 critical data being available in a timely manner. Further, the true sources
 of data for that dataset are still unclear.
 
