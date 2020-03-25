@@ -2,16 +2,14 @@ import os
 from pathlib import Path
 from datetime import datetime
 
-import requests
-import pandas as pd
+from pandas import DataFrame
 
-from utils import dataframe_output, merge_previous
+from utils import github_raw_dataframe, dataframe_output, merge_previous
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
-
-COVID_19_AU_URL = 'https://raw.githubusercontent.com/covid-19-au/covid-19-au.github.io/prod/src/data/state.json'
-df = pd.read_json(COVID_19_AU_URL).transpose()
+df = github_raw_dataframe(
+    'covid-19-au/covid-19-au.github.io', 'src/data/state.json', branch='prod').transpose()
 
 # Transform the data from non-tabulated format to record format
 records = []
@@ -23,7 +21,7 @@ for idx, row in df.iterrows():
         if len(data) > 2: record['Recovered'] = data[2]
         if len(data) > 3: record['Tested'] = data[3]
         records.append(record)
-df = pd.DataFrame.from_records(records)
+df = DataFrame.from_records(records)
 
 # Output the results
 dataframe_output(df, ROOT, 'au')

@@ -4,22 +4,23 @@ import os
 import sys
 from pathlib import Path
 from datetime import datetime, timedelta
-import pandas as pd
 
-from utils import dataframe_output, merge_previous
+import pandas
+
+from utils import parse_level_args, github_raw_dataframe, dataframe_output, merge_previous
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # This script can parse both region-level and country-level data
-is_region = sys.argv[1] == 'region'
+is_region = parse_level_args(sys.argv[1:]).level == 'region'
 
 if is_region:
-    CPC_JSON_URL = 'https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-regioni.json'
+    df = github_raw_dataframe('pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json')
 else:
-    CPC_JSON_URL = 'https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-andamento-nazionale.json'
+    df = github_raw_dataframe('pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-andamento-nazionale.json')
 
-df = pd.read_json(CPC_JSON_URL).rename(columns={
+df = df.rename(columns={
     'data': 'Date',
     'totale_casi': 'Confirmed',
     'deceduti': 'Deaths',
@@ -44,7 +45,7 @@ df['CountryCode'] = 'IT'
 
 # Merge the new data with the existing data (prefer new data if duplicates)
 if not is_region:
-    filter_function = lambda row: row['CountryCode'] == 'IT' and pd.isna(row['RegionCode'])
+    filter_function = lambda row: row['CountryCode'] == 'IT' and pandas.isna(row['RegionCode'])
     df = merge_previous(df, ['Date', 'CountryCode'], filter_function)
 
 # Output the results

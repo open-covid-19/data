@@ -9,17 +9,16 @@ Credit to the github.com/BlankerL team for scraping the data from DXY.cn.
 
 import os
 import datetime
-import pandas as pd
 from pathlib import Path
 import requests
 
-from utils import dataframe_output, timezone_adjust
+from utils import github_raw_dataframe, dataframe_output, timezone_adjust
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read DXY CSV file from  website
-df = pd.read_csv('https://raw.githubusercontent.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYArea.csv')
+df = github_raw_dataframe('BlankerL/DXY-COVID-19-Data', 'csv/DXYArea.csv')
 
 # Adjust 7 hour difference between China's GMT+8 and GMT+1
 df['Date'] = df['updateTime'].apply(lambda date: timezone_adjust(date, 7))

@@ -1,10 +1,11 @@
 import sys
-import datetime
+from pathlib import Path
+from argparse import ArgumentParser
+from datetime import date, datetime, timedelta
 
 import numpy
 import pandas
 from pandas import DataFrame
-from pathlib import Path
 from scipy import optimize
 
 import matplotlib
@@ -16,7 +17,28 @@ sns.set()
 # Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
 matplotlib.rcParams['svg.hashsalt'] = 0
 
-OPEN_COVID_19_URL = 'https://open-covid-19.github.io/data/data.csv'
+URL_GITHUB_RAW = 'https://raw.githubusercontent.com'
+URL_OPEN_COVID_19 = 'https://open-covid-19.github.io/data/data.csv'
+
+def parse_level_args(args: list = sys.argv[1:]):
+    parser = ArgumentParser()
+    parser.add_argument('level', choices=['country', 'region'])
+    return parser.parse_args(args)
+
+def github_raw_file(project: str, path: str, branch: str = 'master') -> str:
+    ''' Get the absolute URL of a file hosted on GitHub using the GitHub Raw URL format '''
+    return '{base_url}/{project}/{branch}/{path}'.format(
+        **{'base_url': URL_GITHUB_RAW, 'project': project, 'branch': branch, 'path': path})
+
+def github_raw_dataframe(project: str, path: str, branch: str = 'master') -> pandas.DataFrame:
+    ''' Read a dataframe from a file hosted using GitHub Raw '''
+    url = github_raw_file(project, path, branch=branch)
+    if url.endswith('csv'):
+        return pandas.read_csv(url)
+    elif url.endswith('json'):
+        return pandas.read_json(url)
+    else:
+        raise ValueError('Unknown data type: %s' % url)
 
 def _series_converter(series: pandas.Series):
     if series.name == 'Estimated':
@@ -28,17 +50,17 @@ def _series_converter(series: pandas.Series):
 
 def timezone_adjust(timestamp: str, offset: int):
     ''' Adjust hour difference between a timezone and GMT+1 '''
-    timestamp = datetime.datetime.fromisoformat(timestamp)
+    timestamp = datetime.fromisoformat(timestamp)
     if timestamp.hour <= 24 - offset:
         return timestamp.date().isoformat()
     else:
-        return (timestamp + datetime.timedelta(days=1)).date().isoformat()
+        return (timestamp + timedelta(days=1)).date().isoformat()
 
 def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
     ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
 
     # Read live data and filter it as requested by argument
-    prev_data = pandas.read_csv(OPEN_COVID_19_URL)
+    prev_data = pandas.read_csv(URL_OPEN_COVID_19)
     prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
 
     # Only look at columns present in the snapshot data
@@ -93,8 +115,8 @@ def _logistic_function(X: float, a: float, b: float, c: float):
 
 def _forward_indices(indices: list, window: int):
     ''' Adds `window` indices to a list of dates '''
-    date_indices = [datetime.date.fromisoformat(date) for date in indices]
-    for _ in range(window): date_indices.append(date_indices[-1] + datetime.timedelta(days=1))
+    date_indices = [date.fromisoformat(date) for date in indices]
+    for _ in range(window): date_indices.append(date_indices[-1] + timedelta(days=1))
     return [date.isoformat() for date in date_indices]
 
 # Main work function for each subset of data

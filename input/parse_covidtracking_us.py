@@ -10,19 +10,16 @@ Credit to the covidtracking.com team for scraping the data from each state.
 import os
 import sys
 import datetime
-import pandas as pd
 from pathlib import Path
-import requests
 
-from utils import dataframe_output
+from utils import github_raw_dataframe, dataframe_output
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
-# Read JSON file from covidtracking's website
-# We must use the requests package directly because covidtracking returns 403 otherwise
-df = pd.read_json(requests.get(
-    'https://covidtracking.com/api/states/daily', headers={'User-agent': 'Mozilla/5.0'}).text)
+# Read CSV file from covidtracking's GitHub project
+df = github_raw_dataframe(
+    'COVID19Tracking/covid-tracking-data', 'data/states_daily_4pm_et.csv')
 
 # Rename the appropriate columns
 df = df.rename(columns={
