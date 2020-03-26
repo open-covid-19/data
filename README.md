@@ -102,6 +102,8 @@ https://colab.research.google.com/github/open-covid-19/data.
 | Region-level China | [DXY COVID-19 dataset][3] |
 | Region-level USA | [COVID Tracking Project][9] |
 | Region-level Australia | <https://covid-19-au.github.io> |
+| Region-level France | <https://github.com/opencovid19-fr/data> |
+| Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
 | Country and region-level Italy | [Italy's Department of Civil Protection][10] |
 | Country and region-level Spain | [Datadista COVID-19 dataset][11] |
 | Country and region-level metadata | [Wikipedia](https://wikipedia.org) |

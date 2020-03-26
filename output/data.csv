@@ -1680,6 +1680,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-24,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-24,FI,Finland,,,0,0,61.92411,25.748151,5532156
 2020-01-24,FR,France,,,0,0,46.227638,2.213749,65129728
+2020-01-24,FR,France,IDF,Île-de-France,2,,,,
+2020-01-24,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-24,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-24,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-24,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -1775,6 +1777,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-25,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-25,FI,Finland,,,0,0,61.92411,25.748151,5532156
 2020-01-25,FR,France,,,3,0,46.227638,2.213749,65129728
+2020-01-25,FR,France,IDF,Île-de-France,2,,,,
+2020-01-25,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-25,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-25,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-25,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -1868,6 +1872,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-26,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-26,FI,Finland,,,0,0,61.92411,25.748151,5532156
 2020-01-26,FR,France,,,3,0,46.227638,2.213749,65129728
+2020-01-26,FR,France,IDF,Île-de-France,2,,,,
+2020-01-26,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-26,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-26,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-26,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -1963,6 +1969,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-27,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-27,FI,Finland,,,0,0,61.92411,25.748151,5532156
 2020-01-27,FR,France,,,3,0,46.227638,2.213749,65129728
+2020-01-27,FR,France,IDF,Île-de-France,2,,,,
+2020-01-27,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-27,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-27,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-27,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2058,6 +2066,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-28,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-28,FI,Finland,,,0,0,61.92411,25.748151,5532156
 2020-01-28,FR,France,,,3,0,46.227638,2.213749,65129728
+2020-01-28,FR,France,IDF,Île-de-France,3,,,,
+2020-01-28,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-28,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-28,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-28,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2152,6 +2162,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-29,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-29,FI,Finland,,,0,0,61.92411,25.748151,5532156
 2020-01-29,FR,France,,,4,0,46.227638,2.213749,65129728
+2020-01-29,FR,France,IDF,Île-de-France,4,,,,
+2020-01-29,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-29,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-29,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-29,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2246,6 +2258,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-30,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-30,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-01-30,FR,France,,,5,0,46.227638,2.213749,65129728
+2020-01-30,FR,France,IDF,Île-de-France,5,,,,
+2020-01-30,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-30,GB,United Kingdom,,,0,0,55.378051,-3.435973,67530172
 2020-01-30,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-30,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2341,6 +2355,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-01-31,ES,Spain,,,0,0,40.463667,-3.74922,46736776
 2020-01-31,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-01-31,FR,France,,,6,0,46.227638,2.213749,65129728
+2020-01-31,FR,France,IDF,Île-de-France,5,,,,
+2020-01-31,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-01-31,GB,United Kingdom,,,2,0,55.378051,-3.435973,67530172
 2020-01-31,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-01-31,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2626,6 +2642,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-03,ES,Spain,,,1,0,40.463667,-3.74922,46736776
 2020-02-03,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-03,FR,France,,,6,0,46.227638,2.213749,65129728
+2020-02-03,FR,France,IDF,Île-de-France,5,,,,
+2020-02-03,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-03,GB,United Kingdom,,,2,0,55.378051,-3.435973,67530172
 2020-02-03,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-03,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2815,6 +2833,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-05,ES,Spain,,,1,0,40.463667,-3.74922,46736776
 2020-02-05,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-05,FR,France,,,6,0,46.227638,2.213749,65129728
+2020-02-05,FR,France,IDF,Île-de-France,5,,,,
+2020-02-05,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-05,GB,United Kingdom,,,2,0,55.378051,-3.435973,67530172
 2020-02-05,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-05,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -2910,6 +2930,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-06,ES,Spain,,,1,0,40.463667,-3.74922,46736776
 2020-02-06,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-06,FR,France,,,6,0,46.227638,2.213749,65129728
+2020-02-06,FR,France,IDF,Île-de-France,5,,,,
+2020-02-06,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-06,GB,United Kingdom,,,2,0,55.378051,-3.435973,67530172
 2020-02-06,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-06,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -3004,6 +3026,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-07,ES,Spain,,,1,0,40.463667,-3.74922,46736776
 2020-02-07,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-07,FR,France,,,6,0,46.227638,2.213749,65129728
+2020-02-07,FR,France,ARA,Auvergne-Rhône-Alpes,5,0,,,
+2020-02-07,FR,France,IDF,Île-de-France,5,,,,
+2020-02-07,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-07,GB,United Kingdom,,,3,0,55.378051,-3.435973,67530172
 2020-02-07,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-07,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -3098,6 +3123,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-08,ES,Spain,,,1,0,40.463667,-3.74922,46736776
 2020-02-08,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-08,FR,France,,,11,0,46.227638,2.213749,65129728
+2020-02-08,FR,France,ARA,Auvergne-Rhône-Alpes,5,0,,,
+2020-02-08,FR,France,IDF,Île-de-France,5,,,,
+2020-02-08,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-08,GB,United Kingdom,,,3,0,55.378051,-3.435973,67530172
 2020-02-08,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-08,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -3286,6 +3314,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-10,ES,Spain,,,2,0,40.463667,-3.74922,46736776
 2020-02-10,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-10,FR,France,,,11,0,46.227638,2.213749,65129728
+2020-02-10,FR,France,ARA,Auvergne-Rhône-Alpes,5,0,,,
+2020-02-10,FR,France,IDF,Île-de-France,5,,,,
+2020-02-10,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-10,GB,United Kingdom,,,4,0,55.378051,-3.435973,67530172
 2020-02-10,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-10,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -3380,6 +3411,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-11,ES,Spain,,,2,0,40.463667,-3.74922,46736776
 2020-02-11,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-11,FR,France,,,11,0,46.227638,2.213749,65129728
+2020-02-11,FR,France,ARA,Auvergne-Rhône-Alpes,5,0,,,
+2020-02-11,FR,France,IDF,Île-de-France,5,,,,
+2020-02-11,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-11,GB,United Kingdom,,,8,0,55.378051,-3.435973,67530172
 2020-02-11,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-11,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -3475,6 +3509,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-12,ES,Spain,,,2,0,40.463667,-3.74922,46736776
 2020-02-12,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-12,FR,France,,,11,0,46.227638,2.213749,65129728
+2020-02-12,FR,France,ARA,Auvergne-Rhône-Alpes,5,0,,,
+2020-02-12,FR,France,IDF,Île-de-France,5,,,,
+2020-02-12,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-12,GB,United Kingdom,,,8,0,55.378051,-3.435973,67530172
 2020-02-12,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-12,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -4233,6 +4270,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-20,ES,Spain,,,2,0,40.463667,-3.74922,46736776
 2020-02-20,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-20,FR,France,,,12,1,46.227638,2.213749,65129728
+2020-02-20,FR,France,ARA,Auvergne-Rhône-Alpes,6,0,,,
+2020-02-20,FR,France,IDF,Île-de-France,5,,,,
+2020-02-20,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
 2020-02-20,GB,United Kingdom,,,9,0,55.378051,-3.435973,67530172
 2020-02-20,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-20,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -4728,6 +4768,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-25,ES,Spain,,,3,0,40.463667,-3.74922,46736776
 2020-02-25,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-25,FR,France,,,12,1,46.227638,2.213749,65129728
+2020-02-25,FR,France,BFC,Bourgogne-Franche-Comté,0,0,,,
 2020-02-25,GB,United Kingdom,,,13,0,55.378051,-3.435973,67530172
 2020-02-25,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-25,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -4842,6 +4883,8 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-26,ES,Spain,,,7,0,40.463667,-3.74922,46736776
 2020-02-26,FI,Finland,,,1,0,61.92411,25.748151,5532156
 2020-02-26,FR,France,,,14,1,46.227638,2.213749,65129728
+2020-02-26,FR,France,GES,Grand Est,1,0,,,
+2020-02-26,FR,France,HDF,Hauts-de-France,2,1,,,
 2020-02-26,GB,United Kingdom,,,13,0,55.378051,-3.435973,67530172
 2020-02-26,GE,Georgia,,,0,0,42.315407,43.356892,3996765
 2020-02-26,GR,Greece,,,0,0,39.074208,21.824312,10473455
@@ -4958,6 +5001,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-27,ES,Spain,,,13,0,40.463667,-3.74922,46736776
 2020-02-27,FI,Finland,,,2,0,61.92411,25.748151,5532156
 2020-02-27,FR,France,,,17,2,46.227638,2.213749,65129728
+2020-02-27,FR,France,ARA,Auvergne-Rhône-Alpes,2,0,,,
 2020-02-27,GB,United Kingdom,,,13,0,55.378051,-3.435973,67530172
 2020-02-27,GE,Georgia,,,1,0,42.315407,43.356892,3996765
 2020-02-27,GR,Greece,,,1,0,39.074208,21.824312,10473455
@@ -5073,6 +5117,26 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-28,ES,Spain,,,25,0,40.463667,-3.74922,46736776
 2020-02-28,FI,Finland,,,2,0,61.92411,25.748151,5532156
 2020-02-28,FR,France,,,38,2,46.227638,2.213749,65129728
+2020-02-28,FR,France,ARA,Auvergne-Rhône-Alpes,11,,,,
+2020-02-28,FR,France,BFC,Bourgogne-Franche-Comté,4,,,,
+2020-02-28,FR,France,BFC,Bourgogne-Franche-Comté,5,0,,,
+2020-02-28,FR,France,BRE,Bretagne,1,,,,
+2020-02-28,FR,France,COR,Corse,0,,,,
+2020-02-28,FR,France,CVL,Centre-Val de Loire,0,,,,
+2020-02-28,FR,France,GES,Grand Est,1,,,,
+2020-02-28,FR,France,GF,Guyane,0,,,,
+2020-02-28,FR,France,GUA,Guadeloupe,0,,,,
+2020-02-28,FR,France,HDF,Hauts-de-France,9,,,,
+2020-02-28,FR,France,IDF,Île-de-France,9,,,,
+2020-02-28,FR,France,LRE,La Réunion,0,,,,
+2020-02-28,FR,France,MAY,Mayotte,0,,,,
+2020-02-28,FR,France,MQ,Martinique,0,,,,
+2020-02-28,FR,France,NAQ,Nouvelle-Aquitaine,1,,,,
+2020-02-28,FR,France,NOR,Normandie,0,,,,
+2020-02-28,FR,France,NOR,Normandie,1,,,,
+2020-02-28,FR,France,OCC,Occitanie,1,,,,
+2020-02-28,FR,France,PAC,Provence-Alpes-Côte d'Azur,0,,,,
+2020-02-28,FR,France,PDL,Pays de la Loire,1,,,,
 2020-02-28,GB,United Kingdom,,,16,0,55.378051,-3.435973,67530172
 2020-02-28,GE,Georgia,,,1,0,42.315407,43.356892,3996765
 2020-02-28,GR,Greece,,,3,0,39.074208,21.824312,10473455
@@ -5186,6 +5250,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-02-29,ES,Spain,,,41,0,40.463667,-3.74922,46736776
 2020-02-29,FI,Finland,,,3,0,61.92411,25.748151,5532156
 2020-02-29,FR,France,,,57,2,46.227638,2.213749,65129728
+2020-02-29,FR,France,NAQ,Nouvelle-Aquitaine,4,,,,
 2020-02-29,GB,United Kingdom,,,18,0,55.378051,-3.435973,67530172
 2020-02-29,GE,Georgia,,,2,0,42.315407,43.356892,3996765
 2020-02-29,GR,Greece,,,4,0,39.074208,21.824312,10473455
@@ -5299,6 +5364,7 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-01,ES,Spain,,,58,0,40.463667,-3.74922,46736776
 2020-03-01,FI,Finland,,,3,0,61.92411,25.748151,5532156
 2020-03-01,FR,France,,,100,2,46.227638,2.213749,65129728
+2020-03-01,FR,France,BFC,Bourgogne-Franche-Comté,10,0,,,
 2020-03-01,GB,United Kingdom,,,23,0,55.378051,-3.435973,67530172
 2020-03-01,GE,Georgia,,,3,0,42.315407,43.356892,3996765
 2020-03-01,GR,Greece,,,7,0,39.074208,21.824312,10473455
@@ -5415,6 +5481,28 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-02,ES,Spain,,,84,0,40.463667,-3.74922,46736776
 2020-03-02,FI,Finland,,,6,0,61.92411,25.748151,5532156
 2020-03-02,FR,France,,,130,2,46.227638,2.213749,65129728
+2020-03-02,FR,France,ARA,Auvergne-Rhône-Alpes,32,0,,,
+2020-03-02,FR,France,ARA,Auvergne-Rhône-Alpes,37,,,,
+2020-03-02,FR,France,BFC,Bourgogne-Franche-Comté,8,,,,
+2020-03-02,FR,France,BRE,Bretagne,13,,,,
+2020-03-02,FR,France,COR,Corse,0,,,,
+2020-03-02,FR,France,CVL,Centre-Val de Loire,0,,,,
+2020-03-02,FR,France,GES,Grand Est,12,,,,
+2020-03-02,FR,France,GES,Grand Est,5,,,,
+2020-03-02,FR,France,GES,Grand Est,7,0,,,
+2020-03-02,FR,France,GF,Guyane,0,,,,
+2020-03-02,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-02,FR,France,HDF,Hauts-de-France,45,,,,
+2020-03-02,FR,France,IDF,Île-de-France,34,,,,
+2020-03-02,FR,France,LRE,La Réunion,0,,,,
+2020-03-02,FR,France,MAY,Mayotte,0,,,,
+2020-03-02,FR,France,MQ,Martinique,0,,,,
+2020-03-02,FR,France,NAQ,Nouvelle-Aquitaine,4,,,,
+2020-03-02,FR,France,NOR,Normandie,2,,,,
+2020-03-02,FR,France,NOR,Normandie,2,0,,,
+2020-03-02,FR,France,OCC,Occitanie,6,,,,
+2020-03-02,FR,France,PAC,Provence-Alpes-Côte d'Azur,9,,,,
+2020-03-02,FR,France,PDL,Pays de la Loire,5,,,,
 2020-03-02,GB,United Kingdom,,,36,0,55.378051,-3.435973,67530172
 2020-03-02,GE,Georgia,,,3,0,42.315407,43.356892,3996765
 2020-03-02,GR,Greece,,,7,0,39.074208,21.824312,10473455
@@ -5535,6 +5623,26 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-03,ES,Spain,RI,La Rioja,3,0,42.4667,-2.4500,
 2020-03-03,ES,Spain,VC,Comunidad Valenciana,15,0,39.4697,-0.3774,
 2020-03-03,FR,France,,,178,3,46.227638,2.213749,65129728
+2020-03-03,FR,France,ARA,Auvergne-Rhône-Alpes,36,0,,,
+2020-03-03,FR,France,ARA,Auvergne-Rhône-Alpes,40,,,,
+2020-03-03,FR,France,BFC,Bourgogne-Franche-Comté,13,,,,
+2020-03-03,FR,France,BFC,Bourgogne-Franche-Comté,15,0,,,
+2020-03-03,FR,France,BRE,Bretagne,19,,,,
+2020-03-03,FR,France,COR,Corse,0,,,,
+2020-03-03,FR,France,CVL,Centre-Val de Loire,0,,,,
+2020-03-03,FR,France,GES,Grand Est,13,,,,
+2020-03-03,FR,France,GF,Guyane,0,,,,
+2020-03-03,FR,France,GUA,Guadeloupe,3,,,,
+2020-03-03,FR,France,HDF,Hauts-de-France,59,,,,
+2020-03-03,FR,France,IDF,Île-de-France,37,,,,
+2020-03-03,FR,France,LRE,La Réunion,0,,,,
+2020-03-03,FR,France,MAY,Mayotte,0,,,,
+2020-03-03,FR,France,MQ,Martinique,0,,,,
+2020-03-03,FR,France,NAQ,Nouvelle-Aquitaine,4,,,,
+2020-03-03,FR,France,NOR,Normandie,2,,,,
+2020-03-03,FR,France,OCC,Occitanie,7,,,,
+2020-03-03,FR,France,PAC,Provence-Alpes-Côte d'Azur,10,,,,
+2020-03-03,FR,France,PDL,Pays de la Loire,5,,,,
 2020-03-03,GB,United Kingdom,,,40,0,55.378051,-3.435973,67530172
 2020-03-03,HR,Croatia,,,8,0,45.1,15.2,4130304
 2020-03-03,IN,India,,,5,0,20.593684,78.96288,1366417754
@@ -5654,6 +5762,30 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-04,ES,Spain,VC,Comunidad Valenciana,19,1,39.4697,-0.3774,
 2020-03-04,FI,Finland,,,7,0,61.92411,25.748151,5532156
 2020-03-04,FR,France,,,212,4,46.227638,2.213749,65129728
+2020-03-04,FR,France,ARA,Auvergne-Rhône-Alpes,49,,,,
+2020-03-04,FR,France,ARA,Auvergne-Rhône-Alpes,51,0,,,
+2020-03-04,FR,France,BFC,Bourgogne-Franche-Comté,16,,,,
+2020-03-04,FR,France,BFC,Bourgogne-Franche-Comté,19,0,,,
+2020-03-04,FR,France,BRE,Bretagne,23,,,,
+2020-03-04,FR,France,BRE,Bretagne,24,,,,
+2020-03-04,FR,France,COR,Corse,0,,,,
+2020-03-04,FR,France,CVL,Centre-Val de Loire,0,,,,
+2020-03-04,FR,France,GES,Grand Est,26,0,,,
+2020-03-04,FR,France,GES,Grand Est,38,,,,
+2020-03-04,FR,France,GF,Guyane,0,,,,
+2020-03-04,FR,France,GF,Guyane,5,0,,,
+2020-03-04,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-04,FR,France,HDF,Hauts-de-France,65,,,,
+2020-03-04,FR,France,IDF,Île-de-France,55,,,,
+2020-03-04,FR,France,LRE,La Réunion,0,,,,
+2020-03-04,FR,France,MAY,Mayotte,0,,,,
+2020-03-04,FR,France,MQ,Martinique,0,,,,
+2020-03-04,FR,France,NAQ,Nouvelle-Aquitaine,5,,,,
+2020-03-04,FR,France,NOR,Normandie,2,,,,
+2020-03-04,FR,France,OCC,Occitanie,9,,,,
+2020-03-04,FR,France,PAC,Provence-Alpes-Côte d'Azur,13,,,,
+2020-03-04,FR,France,PAC,Provence-Alpes-Côte d'Azur,18,0,,,
+2020-03-04,FR,France,PDL,Pays de la Loire,7,,,,
 2020-03-04,GB,United Kingdom,,,51,0,55.378051,-3.435973,67530172
 2020-03-04,HR,Croatia,,,9,0,45.1,15.2,4130304
 2020-03-04,IE,Ireland,,,2,0,53.41291,-8.24389,4882495
@@ -5783,6 +5915,32 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-05,ES,Spain,RI,La Rioja,11,0,42.4667,-2.4500,
 2020-03-05,ES,Spain,VC,Comunidad Valenciana,19,1,39.4697,-0.3774,
 2020-03-05,FR,France,,,285,4,46.227638,2.213749,65129728
+2020-03-05,FR,France,ARA,Auvergne-Rhône-Alpes,63,0,,,
+2020-03-05,FR,France,ARA,Auvergne-Rhône-Alpes,64,,,,
+2020-03-05,FR,France,BFC,Bourgogne-Franche-Comté,39,,,,
+2020-03-05,FR,France,BFC,Bourgogne-Franche-Comté,44,0,,,
+2020-03-05,FR,France,BRE,Bretagne,29,,,,
+2020-03-05,FR,France,BRE,Bretagne,31,,,,
+2020-03-05,FR,France,COR,Corse,3,,,,
+2020-03-05,FR,France,COR,Corse,3,0,,,
+2020-03-05,FR,France,CVL,Centre-Val de Loire,2,,,,
+2020-03-05,FR,France,CVL,Centre-Val de Loire,3,,,,
+2020-03-05,FR,France,GES,Grand Est,77,,,,
+2020-03-05,FR,France,GF,Guyane,5,,,,
+2020-03-05,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-05,FR,France,HDF,Hauts-de-France,5,4,,,
+2020-03-05,FR,France,HDF,Hauts-de-France,74,,,,
+2020-03-05,FR,France,IDF,Île-de-France,76,,,,
+2020-03-05,FR,France,IDF,Île-de-France,77,,,,
+2020-03-05,FR,France,LRE,La Réunion,0,,,,
+2020-03-05,FR,France,MAY,Mayotte,0,,,,
+2020-03-05,FR,France,MQ,Martinique,0,,,,
+2020-03-05,FR,France,NAQ,Nouvelle-Aquitaine,8,,,,
+2020-03-05,FR,France,NOR,Normandie,6,,,,
+2020-03-05,FR,France,OCC,Occitanie,11,,,,
+2020-03-05,FR,France,PAC,Provence-Alpes-Côte d'Azur,18,,,,
+2020-03-05,FR,France,PAC,Provence-Alpes-Côte d'Azur,26,0,,,
+2020-03-05,FR,France,PDL,Pays de la Loire,8,,,,
 2020-03-05,GB,United Kingdom,,,85,0,55.378051,-3.435973,67530172
 2020-03-05,GE,Georgia,,,3,0,42.315407,43.356892,3996765
 2020-03-05,GR,Greece,,,10,0,39.074208,21.824312,10473455
@@ -5929,6 +6087,34 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-06,ES,Spain,VC,Comunidad Valenciana,30,1,39.4697,-0.3774,
 2020-03-06,FI,Finland,,,12,0,61.92411,25.748151,5532156
 2020-03-06,FR,France,,,423,7,46.227638,2.213749,65129728
+2020-03-06,FR,France,ARA,Auvergne-Rhône-Alpes,75,,,,
+2020-03-06,FR,France,ARA,Auvergne-Rhône-Alpes,87,0,,,
+2020-03-06,FR,France,BFC,Bourgogne-Franche-Comté,78,,,,
+2020-03-06,FR,France,BFC,Bourgogne-Franche-Comté,80,0,,,
+2020-03-06,FR,France,BRE,Bretagne,32,,,,
+2020-03-06,FR,France,BRE,Bretagne,34,,,,
+2020-03-06,FR,France,COR,Corse,3,,,,
+2020-03-06,FR,France,COR,Corse,5,0,,,
+2020-03-06,FR,France,CVL,Centre-Val de Loire,11,,,,
+2020-03-06,FR,France,CVL,Centre-Val de Loire,7,,,,
+2020-03-06,FR,France,GES,Grand Est,136,,,,
+2020-03-06,FR,France,GES,Grand Est,81,0,,,
+2020-03-06,FR,France,GF,Guyane,5,,,,
+2020-03-06,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-06,FR,France,HDF,Hauts-de-France,12,,,,
+2020-03-06,FR,France,HDF,Hauts-de-France,97,,,,
+2020-03-06,FR,France,IDF,Île-de-France,131,1,,,
+2020-03-06,FR,France,IDF,Île-de-France,89,,,,
+2020-03-06,FR,France,LRE,La Réunion,0,,,,
+2020-03-06,FR,France,MAY,Mayotte,0,,,,
+2020-03-06,FR,France,MQ,Martinique,2,,,,
+2020-03-06,FR,France,NAQ,Nouvelle-Aquitaine,11,,,,
+2020-03-06,FR,France,NOR,Normandie,11,,,,
+2020-03-06,FR,France,OCC,Occitanie,18,,,,
+2020-03-06,FR,France,PAC,Provence-Alpes-Côte d'Azur,26,,,,
+2020-03-06,FR,France,PAC,Provence-Alpes-Côte d'Azur,31,0,,,
+2020-03-06,FR,France,PDL,Pays de la Loire,12,,,,
+2020-03-06,FR,France,PDL,Pays de la Loire,16,,,,
 2020-03-06,GB,United Kingdom,,,115,1,55.378051,-3.435973,67530172
 2020-03-06,GE,Georgia,,,9,0,42.315407,43.356892,3996765
 2020-03-06,GR,Greece,,,32,0,39.074208,21.824312,10473455
@@ -6092,6 +6278,33 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-07,ES,Spain,VC,Comunidad Valenciana,30,1,39.4697,-0.3774,
 2020-03-07,FI,Finland,,,19,0,61.92411,25.748151,5532156
 2020-03-07,FR,France,,,613,9,46.227638,2.213749,65129728
+2020-03-07,FR,France,ARA,Auvergne-Rhône-Alpes,102,,,,
+2020-03-07,FR,France,ARA,Auvergne-Rhône-Alpes,125,0,,,
+2020-03-07,FR,France,BFC,Bourgogne-Franche-Comté,106,0,,,
+2020-03-07,FR,France,BFC,Bourgogne-Franche-Comté,129,,,,
+2020-03-07,FR,France,BRE,Bretagne,40,,,,
+2020-03-07,FR,France,BRE,Bretagne,47,,,,
+2020-03-07,FR,France,COR,Corse,19,0,,,
+2020-03-07,FR,France,COR,Corse,5,,,,
+2020-03-07,FR,France,CVL,Centre-Val de Loire,16,,,,
+2020-03-07,FR,France,GES,Grand Est,250,,,,
+2020-03-07,FR,France,GF,Guyane,5,,,,
+2020-03-07,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-07,FR,France,HDF,Hauts-de-France,173,,,,
+2020-03-07,FR,France,IDF,Île-de-France,104,,,,
+2020-03-07,FR,France,IDF,Île-de-France,161,1,,,
+2020-03-07,FR,France,LRE,La Réunion,0,,,,
+2020-03-07,FR,France,MAY,Mayotte,0,,,,
+2020-03-07,FR,France,MQ,Martinique,2,,,,
+2020-03-07,FR,France,NAQ,Nouvelle-Aquitaine,15,,,,
+2020-03-07,FR,France,NAQ,Nouvelle-Aquitaine,17,,,,
+2020-03-07,FR,France,NOR,Normandie,10,1,,,
+2020-03-07,FR,France,NOR,Normandie,11,,,,
+2020-03-07,FR,France,OCC,Occitanie,29,,,,
+2020-03-07,FR,France,OCC,Occitanie,36,,,,
+2020-03-07,FR,France,PAC,Provence-Alpes-Côte d'Azur,37,0,,,
+2020-03-07,FR,France,PAC,Provence-Alpes-Côte d'Azur,38,,,,
+2020-03-07,FR,France,PDL,Pays de la Loire,18,,,,
 2020-03-07,GB,United Kingdom,,,163,1,55.378051,-3.435973,67530172
 2020-03-07,GR,Greece,,,45,0,39.074208,21.824312,10473455
 2020-03-07,HR,Croatia,,,11,0,45.1,15.2,4130304
@@ -6272,6 +6485,16 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-08,ES,Spain,RI,La Rioja,55,0,42.4667,-2.4500,
 2020-03-08,ES,Spain,VC,Comunidad Valenciana,37,1,39.4697,-0.3774,
 2020-03-08,FR,France,,,716,10,46.227638,2.213749,65129728
+2020-03-08,FR,France,ARA,Auvergne-Rhône-Alpes,146,1,,,
+2020-03-08,FR,France,BFC,Bourgogne-Franche-Comté,112,0,,,
+2020-03-08,FR,France,BRE,Bretagne,59,,,,
+2020-03-08,FR,France,CVL,Centre-Val de Loire,17,,,,
+2020-03-08,FR,France,GES,Grand Est,262,3,,,
+2020-03-08,FR,France,IDF,Île-de-France,226,1,,,
+2020-03-08,FR,France,NAQ,Nouvelle-Aquitaine,29,,,,
+2020-03-08,FR,France,NOR,Normandie,22,1,,,
+2020-03-08,FR,France,PAC,Provence-Alpes-Côte d'Azur,52,0,,,
+2020-03-08,FR,France,PDL,Pays de la Loire,24,,,,
 2020-03-08,GB,United Kingdom,,,206,2,55.378051,-3.435973,67530172
 2020-03-08,GE,Georgia,,,12,0,42.315407,43.356892,3996765
 2020-03-08,GR,Greece,,,66,0,39.074208,21.824312,10473455
@@ -6454,6 +6677,17 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-09,ES,Spain,VC,Comunidad Valenciana,37,1,39.4697,-0.3774,
 2020-03-09,FI,Finland,,,30,0,61.92411,25.748151,5532156
 2020-03-09,FR,France,,,1126,19,46.227638,2.213749,65129728
+2020-03-09,FR,France,ARA,Auvergne-Rhône-Alpes,182,3,,,
+2020-03-09,FR,France,BFC,Bourgogne-Franche-Comté,119,0,,,
+2020-03-09,FR,France,BRE,Bretagne,71,,,,
+2020-03-09,FR,France,COR,Corse,38,1,,,
+2020-03-09,FR,France,GES,Grand Est,310,4,,,
+2020-03-09,FR,France,HDF,Hauts-de-France,181,15,,,
+2020-03-09,FR,France,IDF,Île-de-France,283,1,,,
+2020-03-09,FR,France,NAQ,Nouvelle-Aquitaine,39,,,,
+2020-03-09,FR,France,NOR,Normandie,25,1,,,
+2020-03-09,FR,France,OCC,Occitanie,60,,,,
+2020-03-09,FR,France,PAC,Provence-Alpes-Côte d'Azur,72,0,,,
 2020-03-09,GB,United Kingdom,,,273,3,55.378051,-3.435973,67530172
 2020-03-09,GE,Georgia,,,13,0,42.315407,43.356892,3996765
 2020-03-09,GR,Greece,,,73,0,39.074208,21.824312,10473455
@@ -6651,6 +6885,34 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-10,ES,Spain,VC,Comunidad Valenciana,50,1,39.4697,-0.3774,
 2020-03-10,FI,Finland,,,40,0,61.92411,25.748151,5532156
 2020-03-10,FR,France,,,1412,30,46.227638,2.213749,65129728
+2020-03-10,FR,France,ARA,Auvergne-Rhône-Alpes,211,,,,
+2020-03-10,FR,France,ARA,Auvergne-Rhône-Alpes,227,3,,,
+2020-03-10,FR,France,BFC,Bourgogne-Franche-Comté,146,,,,
+2020-03-10,FR,France,BFC,Bourgogne-Franche-Comté,147,1,,,
+2020-03-10,FR,France,BRE,Bretagne,81,,,,
+2020-03-10,FR,France,COR,Corse,42,,,,
+2020-03-10,FR,France,COR,Corse,42,2,,,
+2020-03-10,FR,France,CVL,Centre-Val de Loire,17,,,,
+2020-03-10,FR,France,CVL,Centre-Val de Loire,18,,,,
+2020-03-10,FR,France,GES,Grand Est,464,,,,
+2020-03-10,FR,France,GES,Grand Est,464,5,,,
+2020-03-10,FR,France,GF,Guyane,5,,,,
+2020-03-10,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-10,FR,France,HDF,Hauts-de-France,209,,,,
+2020-03-10,FR,France,HDF,Hauts-de-France,222,16,,,
+2020-03-10,FR,France,IDF,Île-de-France,283,4,,,
+2020-03-10,FR,France,IDF,Île-de-France,334,,,,
+2020-03-10,FR,France,LRE,La Réunion,0,,,,
+2020-03-10,FR,France,MAY,Mayotte,0,,,,
+2020-03-10,FR,France,MQ,Martinique,3,,,,
+2020-03-10,FR,France,NAQ,Nouvelle-Aquitaine,54,,,,
+2020-03-10,FR,France,NAQ,Nouvelle-Aquitaine,55,,,,
+2020-03-10,FR,France,NOR,Normandie,37,,,,
+2020-03-10,FR,France,NOR,Normandie,39,1,,,
+2020-03-10,FR,France,OCC,Occitanie,61,,,,
+2020-03-10,FR,France,PAC,Provence-Alpes-Côte d'Azur,89,,,,
+2020-03-10,FR,France,PAC,Provence-Alpes-Côte d'Azur,90,0,,,
+2020-03-10,FR,France,PDL,Pays de la Loire,27,,,,
 2020-03-10,GB,United Kingdom,,,321,5,55.378051,-3.435973,67530172
 2020-03-10,GE,Georgia,,,15,0,42.315407,43.356892,3996765
 2020-03-10,GR,Greece,,,84,0,39.074208,21.824312,10473455
@@ -6850,6 +7112,35 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-11,ES,Spain,RI,La Rioja,179,2,42.4667,-2.4500,
 2020-03-11,ES,Spain,VC,Comunidad Valenciana,65,1,39.4697,-0.3774,
 2020-03-11,FR,France,,,1784,33,46.227638,2.213749,65129728
+2020-03-11,FR,France,ARA,Auvergne-Rhône-Alpes,262,3,,,
+2020-03-11,FR,France,ARA,Auvergne-Rhône-Alpes,264,,,,
+2020-03-11,FR,France,BFC,Bourgogne-Franche-Comté,155,,,,
+2020-03-11,FR,France,BFC,Bourgogne-Franche-Comté,165,3,,,
+2020-03-11,FR,France,BRE,Bretagne,93,1,,,
+2020-03-11,FR,France,BRE,Bretagne,94,,,,
+2020-03-11,FR,France,COR,Corse,51,,,,
+2020-03-11,FR,France,COR,Corse,51,3,,,
+2020-03-11,FR,France,CVL,Centre-Val de Loire,20,,,,
+2020-03-11,FR,France,GES,Grand Est,578,,,,
+2020-03-11,FR,France,GES,Grand Est,587,9,,,
+2020-03-11,FR,France,GF,Guyane,5,,,,
+2020-03-11,FR,France,GF,Guyane,6,0,,,
+2020-03-11,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-11,FR,France,HDF,Hauts-de-France,263,,,,
+2020-03-11,FR,France,IDF,Île-de-France,492,,,,
+2020-03-11,FR,France,IDF,Île-de-France,512,4,,,
+2020-03-11,FR,France,LRE,La Réunion,1,,,,
+2020-03-11,FR,France,MAY,Mayotte,0,,,,
+2020-03-11,FR,France,MQ,Martinique,3,,,,
+2020-03-11,FR,France,NAQ,Nouvelle-Aquitaine,66,,,,
+2020-03-11,FR,France,NAQ,Nouvelle-Aquitaine,72,,,,
+2020-03-11,FR,France,NOR,Normandie,54,,,,
+2020-03-11,FR,France,NOR,Normandie,57,1,,,
+2020-03-11,FR,France,OCC,Occitanie,118,,,,
+2020-03-11,FR,France,OCC,Occitanie,87,,,,
+2020-03-11,FR,France,PAC,Provence-Alpes-Côte d'Azur,111,,,,
+2020-03-11,FR,France,PAC,Provence-Alpes-Côte d'Azur,112,0,,,
+2020-03-11,FR,France,PDL,Pays de la Loire,34,,,,
 2020-03-11,GB,United Kingdom,,,373,6,55.378051,-3.435973,67530172
 2020-03-11,GE,Georgia,,,23,0,42.315407,43.356892,3996765
 2020-03-11,GR,Greece,,,90,0,39.074208,21.824312,10473455
@@ -7069,6 +7360,35 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-12,ES,Spain,VC,Comunidad Valenciana,76,1,39.4697,-0.3774,
 2020-03-12,FI,Finland,,,59,0,61.92411,25.748151,5532156
 2020-03-12,FR,France,,,2281,48,46.227638,2.213749,65129728
+2020-03-12,FR,France,ARA,Auvergne-Rhône-Alpes,329,,,,
+2020-03-12,FR,France,ARA,Auvergne-Rhône-Alpes,333,7,,,
+2020-03-12,FR,France,BFC,Bourgogne-Franche-Comté,219,,,,
+2020-03-12,FR,France,BFC,Bourgogne-Franche-Comté,219,5,,,
+2020-03-12,FR,France,BRE,Bretagne,117,,,,
+2020-03-12,FR,France,BRE,Bretagne,120,3,,,
+2020-03-12,FR,France,COR,Corse,64,,,,
+2020-03-12,FR,France,COR,Corse,64,3,,,
+2020-03-12,FR,France,CVL,Centre-Val de Loire,30,,,,
+2020-03-12,FR,France,GES,Grand Est,699,,,,
+2020-03-12,FR,France,GF,Guyane,6,,,,
+2020-03-12,FR,France,GUA,Guadeloupe,0,,,,
+2020-03-12,FR,France,HDF,Hauts-de-France,337,20,,,
+2020-03-12,FR,France,HDF,Hauts-de-France,349,,,,
+2020-03-12,FR,France,IDF,Île-de-France,577,,,,
+2020-03-12,FR,France,IDF,Île-de-France,605,4,,,
+2020-03-12,FR,France,LRE,La Réunion,3,,,,
+2020-03-12,FR,France,MAY,Mayotte,0,,,,
+2020-03-12,FR,France,MQ,Martinique,4,,,,
+2020-03-12,FR,France,NAQ,Nouvelle-Aquitaine,87,,,,
+2020-03-12,FR,France,NAQ,Nouvelle-Aquitaine,88,,,,
+2020-03-12,FR,France,NOR,Normandie,68,,,,
+2020-03-12,FR,France,NOR,Normandie,68,1,,,
+2020-03-12,FR,France,OCC,Occitanie,133,,,,
+2020-03-12,FR,France,OCC,Occitanie,150,,,,
+2020-03-12,FR,France,PAC,Provence-Alpes-Côte d'Azur,147,,,,
+2020-03-12,FR,France,PAC,Provence-Alpes-Côte d'Azur,151,0,,,
+2020-03-12,FR,France,PDL,Pays de la Loire,41,,,,
+2020-03-12,FR,France,PDL,Pays de la Loire,42,,,,
 2020-03-12,GB,United Kingdom,,,456,6,55.378051,-3.435973,67530172
 2020-03-12,GE,Georgia,,,24,0,42.315407,43.356892,3996765
 2020-03-12,GR,Greece,,,99,1,39.074208,21.824312,10473455
@@ -7287,6 +7607,35 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-13,ES,Spain,VC,Comunidad Valenciana,94,1,39.4697,-0.3774,
 2020-03-13,FI,Finland,,,155,0,61.92411,25.748151,5532156
 2020-03-13,FR,France,,,2876,61,46.227638,2.213749,65129728
+2020-03-13,FR,France,ARA,Auvergne-Rhône-Alpes,416,,,,
+2020-03-13,FR,France,BFC,Bourgogne-Franche-Comté,272,,,,
+2020-03-13,FR,France,BFC,Bourgogne-Franche-Comté,272,5,,,
+2020-03-13,FR,France,BRE,Bretagne,155,,,,
+2020-03-13,FR,France,BRE,Bretagne,157,3,,,
+2020-03-13,FR,France,COR,Corse,85,,,,
+2020-03-13,FR,France,COR,Corse,85,5,,,
+2020-03-13,FR,France,CVL,Centre-Val de Loire,33,,,,
+2020-03-13,FR,France,GES,Grand Est,910,21,,,
+2020-03-13,FR,France,GES,Grand Est,911,,,,
+2020-03-13,FR,France,GF,Guyane,6,,,,
+2020-03-13,FR,France,GUA,Guadeloupe,1,,,,
+2020-03-13,FR,France,HDF,Hauts-de-France,368,26,,,
+2020-03-13,FR,France,HDF,Hauts-de-France,397,,,,
+2020-03-13,FR,France,IDF,Île-de-France,721,,,,
+2020-03-13,FR,France,IDF,Île-de-France,876,,,,
+2020-03-13,FR,France,LRE,La Réunion,5,,,,
+2020-03-13,FR,France,MAY,Mayotte,0,,,,
+2020-03-13,FR,France,MQ,Martinique,6,,,,
+2020-03-13,FR,France,NAQ,Nouvelle-Aquitaine,114,,,,
+2020-03-13,FR,France,NAQ,Nouvelle-Aquitaine,115,,,,
+2020-03-13,FR,France,NOR,Normandie,97,,,,
+2020-03-13,FR,France,NOR,Normandie,97,1,,,
+2020-03-13,FR,France,OCC,Occitanie,172,,,,
+2020-03-13,FR,France,OCC,Occitanie,175,,,,
+2020-03-13,FR,France,PAC,Provence-Alpes-Côte d'Azur,211,0,,,
+2020-03-13,FR,France,PAC,Provence-Alpes-Côte d'Azur,212,,,,
+2020-03-13,FR,France,PDL,Pays de la Loire,55,,,,
+2020-03-13,FR,France,PDL,Pays de la Loire,56,,,,
 2020-03-13,GA,Gabon,,,1,0,-0.803689,11.609444,2172579
 2020-03-13,GB,United Kingdom,,,590,10,55.378051,-3.435973,67530172
 2020-03-13,GE,Georgia,,,25,0,42.315407,43.356892,3996765
@@ -7509,6 +7858,36 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-14,ES,Spain,VC,Comunidad Valenciana,130,4,39.4697,-0.3774,
 2020-03-14,ET,Ethiopia,,,1,0,9.145,40.489673,112078730
 2020-03-14,FR,France,,,3661,79,46.227638,2.213749,65129728
+2020-03-14,FR,France,ARA,Auvergne-Rhône-Alpes,449,12,,,
+2020-03-14,FR,France,ARA,Auvergne-Rhône-Alpes,454,,,,
+2020-03-14,FR,France,BFC,Bourgogne-Franche-Comté,339,,,,
+2020-03-14,FR,France,BFC,Bourgogne-Franche-Comté,340,6,,,
+2020-03-14,FR,France,BRE,Bretagne,178,3,,,
+2020-03-14,FR,France,BRE,Bretagne,182,,,,
+2020-03-14,FR,France,COR,Corse,106,,,,
+2020-03-14,FR,France,COR,Corse,106,5,,,
+2020-03-14,FR,France,CVL,Centre-Val de Loire,54,,,,
+2020-03-14,FR,France,GES,Grand Est,1085,,,,
+2020-03-14,FR,France,GES,Grand Est,1085,24,,,
+2020-03-14,FR,France,GF,Guyane,7,,,,
+2020-03-14,FR,France,GF,Guyane,7,0,,,
+2020-03-14,FR,France,GUA,Guadeloupe,3,,,,
+2020-03-14,FR,France,GUA,Guadeloupe,5,,,,
+2020-03-14,FR,France,HDF,Hauts-de-France,463,29,,,
+2020-03-14,FR,France,HDF,Hauts-de-France,466,,,,
+2020-03-14,FR,France,IDF,Île-de-France,1240,,,,
+2020-03-14,FR,France,IDF,Île-de-France,949,,,,
+2020-03-14,FR,France,LRE,La Réunion,6,,,,
+2020-03-14,FR,France,MAY,Mayotte,1,,,,
+2020-03-14,FR,France,MQ,Martinique,10,,,,
+2020-03-14,FR,France,NAQ,Nouvelle-Aquitaine,130,,,,
+2020-03-14,FR,France,NAQ,Nouvelle-Aquitaine,133,,,,
+2020-03-14,FR,France,NOR,Normandie,127,,,,
+2020-03-14,FR,France,NOR,Normandie,127,1,,,
+2020-03-14,FR,France,OCC,Occitanie,210,,,,
+2020-03-14,FR,France,OCC,Occitanie,214,,,,
+2020-03-14,FR,France,PAC,Provence-Alpes-Côte d'Azur,281,,,,
+2020-03-14,FR,France,PDL,Pays de la Loire,82,,,,
 2020-03-14,GB,United Kingdom,,,707,10,55.378051,-3.435973,67530172
 2020-03-14,GE,Georgia,,,30,0,42.315407,43.356892,3996765
 2020-03-14,GN,Guinea,,,1,0,9.945587,-9.696645,12771246
@@ -7742,6 +8121,35 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-15,ET,Ethiopia,,,1,0,9.145,40.489673,112078730
 2020-03-15,FI,Finland,,,210,0,61.92411,25.748151,5532156
 2020-03-15,FR,France,,,4499,91,46.227638,2.213749,65129728
+2020-03-15,FR,France,ARA,Auvergne-Rhône-Alpes,523,,,,
+2020-03-15,FR,France,ARA,Auvergne-Rhône-Alpes,523,18,,,
+2020-03-15,FR,France,BFC,Bourgogne-Franche-Comté,412,,,,
+2020-03-15,FR,France,BFC,Bourgogne-Franche-Comté,412,6,,,
+2020-03-15,FR,France,BRE,Bretagne,195,3,,,
+2020-03-15,FR,France,BRE,Bretagne,207,,,,
+2020-03-15,FR,France,COR,Corse,115,,,,
+2020-03-15,FR,France,COR,Corse,115,5,,,
+2020-03-15,FR,France,CVL,Centre-Val de Loire,71,,,,
+2020-03-15,FR,France,GES,Grand Est,1378,,,,
+2020-03-15,FR,France,GES,Grand Est,1378,45,,,
+2020-03-15,FR,France,GF,Guyane,11,0,,,
+2020-03-15,FR,France,GF,Guyane,7,,,,
+2020-03-15,FR,France,GUA,Guadeloupe,5,,,,
+2020-03-15,FR,France,GUA,Guadeloupe,6,,,,
+2020-03-15,FR,France,HDF,Hauts-de-France,507,,,,
+2020-03-15,FR,France,IDF,Île-de-France,1209,,,,
+2020-03-15,FR,France,LRE,La Réunion,9,,,,
+2020-03-15,FR,France,MAY,Mayotte,1,,,,
+2020-03-15,FR,France,MQ,Martinique,15,,,,
+2020-03-15,FR,France,NAQ,Nouvelle-Aquitaine,144,,,,
+2020-03-15,FR,France,NAQ,Nouvelle-Aquitaine,152,2,,,
+2020-03-15,FR,France,NOR,Normandie,143,,,,
+2020-03-15,FR,France,NOR,Normandie,143,1,,,
+2020-03-15,FR,France,OCC,Occitanie,243,,,,
+2020-03-15,FR,France,OCC,Occitanie,254,1,,,
+2020-03-15,FR,France,PAC,Provence-Alpes-Côte d'Azur,330,,,,
+2020-03-15,FR,France,PDL,Pays de la Loire,98,,,,
+2020-03-15,FR,France,PDL,Pays de la Loire,99,,,,
 2020-03-15,GA,Gabon,,,1,0,-0.803689,11.609444,2172579
 2020-03-15,GB,United Kingdom,,,1140,21,55.378051,-3.435973,67530172
 2020-03-15,GE,Georgia,,,30,0,42.315407,43.356892,3996765
@@ -7993,6 +8401,33 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-16,ET,Ethiopia,,,4,0,9.145,40.489673,112078730
 2020-03-16,FI,Finland,,,267,0,61.92411,25.748151,5532156
 2020-03-16,FR,France,,,5423,127,46.227638,2.213749,65129728
+2020-03-16,FR,France,ARA,Auvergne-Rhône-Alpes,617,20,,,
+2020-03-16,FR,France,ARA,Auvergne-Rhône-Alpes,618,,,,
+2020-03-16,FR,France,BFC,Bourgogne-Franche-Comté,507,,,,
+2020-03-16,FR,France,BFC,Bourgogne-Franche-Comté,507,6,,,
+2020-03-16,FR,France,BRE,Bretagne,213,3,,,
+2020-03-16,FR,France,BRE,Bretagne,233,,,,
+2020-03-16,FR,France,COR,Corse,126,,,,
+2020-03-16,FR,France,COR,Corse,126,7,,,
+2020-03-16,FR,France,CVL,Centre-Val de Loire,90,,,,
+2020-03-16,FR,France,GES,Grand Est,1543,,,,
+2020-03-16,FR,France,GES,Grand Est,1543,51,,,
+2020-03-16,FR,France,GF,Guyane,11,,,,
+2020-03-16,FR,France,GUA,Guadeloupe,18,,,,
+2020-03-16,FR,France,HDF,Hauts-de-France,585,,,,
+2020-03-16,FR,France,HDF,Hauts-de-France,587,39,,,
+2020-03-16,FR,France,IDF,Île-de-France,1762,,,,
+2020-03-16,FR,France,LRE,La Réunion,9,,,,
+2020-03-16,FR,France,MAY,Mayotte,1,,,,
+2020-03-16,FR,France,MQ,Martinique,16,,,,
+2020-03-16,FR,France,NAQ,Nouvelle-Aquitaine,178,,,,
+2020-03-16,FR,France,NAQ,Nouvelle-Aquitaine,179,2,,,
+2020-03-16,FR,France,NOR,Normandie,156,,,,
+2020-03-16,FR,France,OCC,Occitanie,262,,,,
+2020-03-16,FR,France,OCC,Occitanie,284,3,,,
+2020-03-16,FR,France,PAC,Provence-Alpes-Côte d'Azur,405,,,,
+2020-03-16,FR,France,PDL,Pays de la Loire,108,,,,
+2020-03-16,FR,France,PDL,Pays de la Loire,109,0,,,
 2020-03-16,GA,Gabon,,,1,0,-0.803689,11.609444,2172579
 2020-03-16,GB,United Kingdom,,,1391,35,55.378051,-3.435973,67530172
 2020-03-16,GE,Georgia,,,30,0,42.315407,43.356892,3996765
@@ -8255,6 +8690,34 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-17,ET,Ethiopia,,,5,0,9.145,40.489673,112078730
 2020-03-17,FI,Finland,,,272,0,61.92411,25.748151,5532156
 2020-03-17,FR,France,,,6633,148,46.227638,2.213749,65129728
+2020-03-17,FR,France,ARA,Auvergne-Rhône-Alpes,706,24,,,
+2020-03-17,FR,France,ARA,Auvergne-Rhône-Alpes,710,,,,
+2020-03-17,FR,France,BFC,Bourgogne-Franche-Comté,,10,,,
+2020-03-17,FR,France,BFC,Bourgogne-Franche-Comté,549,,,,
+2020-03-17,FR,France,BRE,Bretagne,236,3,,,
+2020-03-17,FR,France,BRE,Bretagne,247,,,,
+2020-03-17,FR,France,COR,Corse,145,,,,
+2020-03-17,FR,France,CVL,Centre-Val de Loire,103,,,,
+2020-03-17,FR,France,CVL,Centre-Val de Loire,103,1,,,
+2020-03-17,FR,France,GES,Grand Est,1820,,,,
+2020-03-17,FR,France,GES,Grand Est,1820,61,,,
+2020-03-17,FR,France,GF,Guyane,11,,,,
+2020-03-17,FR,France,GUA,Guadeloupe,27,,,,
+2020-03-17,FR,France,HDF,Hauts-de-France,612,,,,
+2020-03-17,FR,France,HDF,Hauts-de-France,613,46,,,
+2020-03-17,FR,France,IDF,Île-de-France,2177,,,,
+2020-03-17,FR,France,LRE,La Réunion,12,,,,
+2020-03-17,FR,France,MAY,Mayotte,3,,,,
+2020-03-17,FR,France,MQ,Martinique,19,,,,
+2020-03-17,FR,France,NAQ,Nouvelle-Aquitaine,200,,,,
+2020-03-17,FR,France,NAQ,Nouvelle-Aquitaine,207,2,,,
+2020-03-17,FR,France,NOR,Normandie,174,,,,
+2020-03-17,FR,France,OCC,Occitanie,311,,,,
+2020-03-17,FR,France,OCC,Occitanie,313,5,,,
+2020-03-17,FR,France,PAC,Provence-Alpes-Côte d'Azur,478,,,,
+2020-03-17,FR,France,PAC,Provence-Alpes-Côte d'Azur,481,4,,,
+2020-03-17,FR,France,PDL,Pays de la Loire,,1,,,
+2020-03-17,FR,France,PDL,Pays de la Loire,126,,,,
 2020-03-17,GA,Gabon,,,1,0,-0.803689,11.609444,2172579
 2020-03-17,GB,United Kingdom,,,1543,55,55.378051,-3.435973,67530172
 2020-03-17,GE,Georgia,,,33,0,42.315407,43.356892,3996765
@@ -8520,6 +8983,53 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-18,ET,Ethiopia,,,5,0,9.145,40.489673,112078730
 2020-03-18,FI,Finland,,,319,0,61.92411,25.748151,5532156
 2020-03-18,FR,France,,,7730,175,46.227638,2.213749,65129728
+2020-03-18,FR,France,ARA,Auvergne-Rhône-Alpes,,7,,,
+2020-03-18,FR,France,ARA,Auvergne-Rhône-Alpes,858,,,,
+2020-03-18,FR,France,ARA,Auvergne-Rhône-Alpes,858,27,,,
+2020-03-18,FR,France,BFC,Bourgogne-Franche-Comté,,20,,,
+2020-03-18,FR,France,BFC,Bourgogne-Franche-Comté,,6,,,
+2020-03-18,FR,France,BFC,Bourgogne-Franche-Comté,593,,,,
+2020-03-18,FR,France,BRE,Bretagne,,7,,,
+2020-03-18,FR,France,BRE,Bretagne,252,7,,,
+2020-03-18,FR,France,BRE,Bretagne,273,,,,
+2020-03-18,FR,France,COR,Corse,,0,,,
+2020-03-18,FR,France,COR,Corse,152,,,,
+2020-03-18,FR,France,CVL,Centre-Val de Loire,,1,,,
+2020-03-18,FR,France,CVL,Centre-Val de Loire,128,,,,
+2020-03-18,FR,France,CVL,Centre-Val de Loire,128,1,,,
+2020-03-18,FR,France,GES,Grand Est,,120,,,
+2020-03-18,FR,France,GES,Grand Est,2163,,,,
+2020-03-18,FR,France,GF,Guyane,,0,,,
+2020-03-18,FR,France,GF,Guyane,11,,,,
+2020-03-18,FR,France,GF,Guyane,15,0,,,
+2020-03-18,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-18,FR,France,GUA,Guadeloupe,33,,,,
+2020-03-18,FR,France,HDF,Hauts-de-France,,21,,,
+2020-03-18,FR,France,HDF,Hauts-de-France,665,,,,
+2020-03-18,FR,France,HDF,Hauts-de-France,668,55,,,
+2020-03-18,FR,France,IDF,Île-de-France,,36,,,
+2020-03-18,FR,France,IDF,Île-de-France,2693,,,,
+2020-03-18,FR,France,LRE,La Réunion,,0,,,
+2020-03-18,FR,France,LRE,La Réunion,14,,,,
+2020-03-18,FR,France,MAY,Mayotte,,0,,,
+2020-03-18,FR,France,MAY,Mayotte,3,,,,
+2020-03-18,FR,France,MQ,Martinique,,1,,,
+2020-03-18,FR,France,MQ,Martinique,23,,,,
+2020-03-18,FR,France,NAQ,Nouvelle-Aquitaine,,2,,,
+2020-03-18,FR,France,NAQ,Nouvelle-Aquitaine,237,,,,
+2020-03-18,FR,France,NAQ,Nouvelle-Aquitaine,242,2,,,
+2020-03-18,FR,France,NOR,Normandie,,3,,,
+2020-03-18,FR,France,NOR,Normandie,208,,,,
+2020-03-18,FR,France,NOR,Normandie,208,3,,,
+2020-03-18,FR,France,OCC,Occitanie,,6,,,
+2020-03-18,FR,France,OCC,Occitanie,371,,,,
+2020-03-18,FR,France,OCC,Occitanie,389,10,,,
+2020-03-18,FR,France,PAC,Provence-Alpes-Côte d'Azur,,7,,,
+2020-03-18,FR,France,PAC,Provence-Alpes-Côte d'Azur,566,7,,,
+2020-03-18,FR,France,PAC,Provence-Alpes-Côte d'Azur,574,,,,
+2020-03-18,FR,France,PDL,Pays de la Loire,,,,,
+2020-03-18,FR,France,PDL,Pays de la Loire,,1,,,
+2020-03-18,FR,France,PDL,Pays de la Loire,128,,,,
 2020-03-18,GA,Gabon,,,1,0,-0.803689,11.609444,2172579
 2020-03-18,GB,United Kingdom,,,1950,60,55.378051,-3.435973,67530172
 2020-03-18,GE,Georgia,,,34,0,42.315407,43.356892,3996765
@@ -8787,6 +9297,57 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-19,ET,Ethiopia,,,6,0,9.145,40.489673,112078730
 2020-03-19,FI,Finland,,,369,0,61.92411,25.748151,5532156
 2020-03-19,FR,France,,,9134,244,46.227638,2.213749,65129728
+2020-03-19,FR,France,ARA,Auvergne-Rhône-Alpes,,22,,,
+2020-03-19,FR,France,ARA,Auvergne-Rhône-Alpes,1014,,,,
+2020-03-19,FR,France,ARA,Auvergne-Rhône-Alpes,1014,39,,,
+2020-03-19,FR,France,BFC,Bourgogne-Franche-Comté,,14,,,
+2020-03-19,FR,France,BFC,Bourgogne-Franche-Comté,,23,,,
+2020-03-19,FR,France,BFC,Bourgogne-Franche-Comté,696,,,,
+2020-03-19,FR,France,BRE,Bretagne,,9,,,
+2020-03-19,FR,France,BRE,Bretagne,268,10,,,
+2020-03-19,FR,France,BRE,Bretagne,297,,,,
+2020-03-19,FR,France,COR,Corse,,1,,,
+2020-03-19,FR,France,COR,Corse,162,,,,
+2020-03-19,FR,France,COR,Corse,164,,,,
+2020-03-19,FR,France,CVL,Centre-Val de Loire,,1,,,
+2020-03-19,FR,France,CVL,Centre-Val de Loire,157,,,,
+2020-03-19,FR,France,CVL,Centre-Val de Loire,157,1,,,
+2020-03-19,FR,France,GES,Grand Est,,148,,,
+2020-03-19,FR,France,GES,Grand Est,,93,,,
+2020-03-19,FR,France,GES,Grand Est,2643,,,,
+2020-03-19,FR,France,GF,Guyane,,0,,,
+2020-03-19,FR,France,GF,Guyane,15,,,,
+2020-03-19,FR,France,GF,Guyane,15,0,,,
+2020-03-19,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-19,FR,France,GUA,Guadeloupe,45,,,,
+2020-03-19,FR,France,HDF,Hauts-de-France,,40,,,
+2020-03-19,FR,France,HDF,Hauts-de-France,700,,,,
+2020-03-19,FR,France,HDF,Hauts-de-France,719,69,,,
+2020-03-19,FR,France,IDF,Île-de-France,,56,,,
+2020-03-19,FR,France,IDF,Île-de-France,3384,,,,
+2020-03-19,FR,France,LRE,La Réunion,,0,,,
+2020-03-19,FR,France,LRE,La Réunion,19,,,,
+2020-03-19,FR,France,MAY,Mayotte,,0,,,
+2020-03-19,FR,France,MAY,Mayotte,4,,,,
+2020-03-19,FR,France,MAY,Mayotte,6,,,,
+2020-03-19,FR,France,MQ,Martinique,,1,,,
+2020-03-19,FR,France,MQ,Martinique,32,,,,
+2020-03-19,FR,France,MQ,Martinique,35,,,,
+2020-03-19,FR,France,NAQ,Nouvelle-Aquitaine,,3,,,
+2020-03-19,FR,France,NAQ,Nouvelle-Aquitaine,280,,,,
+2020-03-19,FR,France,NAQ,Nouvelle-Aquitaine,305,3,,,
+2020-03-19,FR,France,NOR,Normandie,,5,,,
+2020-03-19,FR,France,NOR,Normandie,241,,,,
+2020-03-19,FR,France,NOR,Normandie,241,5,,,
+2020-03-19,FR,France,OCC,Occitanie,,17,,,
+2020-03-19,FR,France,OCC,Occitanie,444,,,,
+2020-03-19,FR,France,OCC,Occitanie,472,17,,,
+2020-03-19,FR,France,PAC,Provence-Alpes-Côte d'Azur,,9,,,
+2020-03-19,FR,France,PAC,Provence-Alpes-Côte d'Azur,690,9,,,
+2020-03-19,FR,France,PAC,Provence-Alpes-Côte d'Azur,693,,,,
+2020-03-19,FR,France,PDL,Pays de la Loire,,1,,,
+2020-03-19,FR,France,PDL,Pays de la Loire,,3,,,
+2020-03-19,FR,France,PDL,Pays de la Loire,160,,,,
 2020-03-19,GA,Gabon,,,3,0,-0.803689,11.609444,2172579
 2020-03-19,GB,United Kingdom,,,2630,103,55.378051,-3.435973,67530172
 2020-03-19,GE,Georgia,,,34,0,42.315407,43.356892,3996765
@@ -9069,6 +9630,55 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-20,FJ,Fiji,,,1,0,-16.578193,179.414413,889953
 2020-03-20,FO,Faroe Islands,,,72,0,61.892635,-6.911806,48678
 2020-03-20,FR,France,,,10995,372,46.227638,2.213749,65129728
+2020-03-20,FR,France,ARA,Auvergne-Rhône-Alpes,,33,,,
+2020-03-20,FR,France,ARA,Auvergne-Rhône-Alpes,1101,,,,
+2020-03-20,FR,France,BFC,Bourgogne-Franche-Comté,,22,,,
+2020-03-20,FR,France,BFC,Bourgogne-Franche-Comté,,28,,,
+2020-03-20,FR,France,BFC,Bourgogne-Franche-Comté,770,,,,
+2020-03-20,FR,France,BRE,Bretagne,,12,,,
+2020-03-20,FR,France,BRE,Bretagne,306,12,,,
+2020-03-20,FR,France,BRE,Bretagne,346,,,,
+2020-03-20,FR,France,COR,Corse,,3,,,
+2020-03-20,FR,France,COR,Corse,168,,,,
+2020-03-20,FR,France,CVL,Centre-Val de Loire,,2,,,
+2020-03-20,FR,France,CVL,Centre-Val de Loire,219,,,,
+2020-03-20,FR,France,CVL,Centre-Val de Loire,219,1,,,
+2020-03-20,FR,France,GES,Grand Est,,105,,,
+2020-03-20,FR,France,GES,Grand Est,,183,,,
+2020-03-20,FR,France,GES,Grand Est,3006,,,,
+2020-03-20,FR,France,GF,Guyane,,0,,,
+2020-03-20,FR,France,GF,Guyane,15,,,,
+2020-03-20,FR,France,GF,Guyane,18,0,,,
+2020-03-20,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-20,FR,France,GUA,Guadeloupe,51,,,,
+2020-03-20,FR,France,GUA,Guadeloupe,51,1,,,
+2020-03-20,FR,France,HDF,Hauts-de-France,,51,,,
+2020-03-20,FR,France,HDF,Hauts-de-France,740,81,,,
+2020-03-20,FR,France,HDF,Hauts-de-France,759,,,,
+2020-03-20,FR,France,IDF,Île-de-France,,99,,,
+2020-03-20,FR,France,IDF,Île-de-France,3818,,,,
+2020-03-20,FR,France,LRE,La Réunion,,0,,,
+2020-03-20,FR,France,LRE,La Réunion,38,,,,
+2020-03-20,FR,France,MAY,Mayotte,,0,,,
+2020-03-20,FR,France,MAY,Mayotte,6,,,,
+2020-03-20,FR,France,MAY,Mayotte,7,,,,
+2020-03-20,FR,France,MQ,Martinique,,1,,,
+2020-03-20,FR,France,MQ,Martinique,32,,,,
+2020-03-20,FR,France,NAQ,Nouvelle-Aquitaine,,4,,,
+2020-03-20,FR,France,NAQ,Nouvelle-Aquitaine,406,3,,,
+2020-03-20,FR,France,NAQ,Nouvelle-Aquitaine,432,,,,
+2020-03-20,FR,France,NOR,Normandie,,7,,,
+2020-03-20,FR,France,NOR,Normandie,287,,,,
+2020-03-20,FR,France,NOR,Normandie,287,7,,,
+2020-03-20,FR,France,OCC,Occitanie,,21,,,
+2020-03-20,FR,France,OCC,Occitanie,520,23,,,
+2020-03-20,FR,France,OCC,Occitanie,537,,,,
+2020-03-20,FR,France,PAC,Provence-Alpes-Côte d'Azur,,11,,,
+2020-03-20,FR,France,PAC,Provence-Alpes-Côte d'Azur,755,11,,,
+2020-03-20,FR,France,PAC,Provence-Alpes-Côte d'Azur,826,,,,
+2020-03-20,FR,France,PDL,Pays de la Loire,,1,,,
+2020-03-20,FR,France,PDL,Pays de la Loire,161,3,,,
+2020-03-20,FR,France,PDL,Pays de la Loire,190,,,,
 2020-03-20,GA,Gabon,,,3,0,-0.803689,11.609444,2172579
 2020-03-20,GB,United Kingdom,,,3277,144,55.378051,-3.435973,67530172
 2020-03-20,GE,Georgia,,,40,0,42.315407,43.356892,3996765
@@ -9356,6 +9966,56 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-21,FJ,Fiji,,,1,0,-16.578193,179.414413,889953
 2020-03-21,FO,Faroe Islands,,,80,0,61.892635,-6.911806,48678
 2020-03-21,FR,France,,,12612,450,46.227638,2.213749,65129728
+2020-03-21,FR,France,ARA,Auvergne-Rhône-Alpes,,38,,,
+2020-03-21,FR,France,ARA,Auvergne-Rhône-Alpes,1266,,,,
+2020-03-21,FR,France,ARA,Auvergne-Rhône-Alpes,1266,57,,,
+2020-03-21,FR,France,BFC,Bourgogne-Franche-Comté,,27,,,
+2020-03-21,FR,France,BFC,Bourgogne-Franche-Comté,,36,,,
+2020-03-21,FR,France,BFC,Bourgogne-Franche-Comté,903,,,,
+2020-03-21,FR,France,BRE,Bretagne,,15,,,
+2020-03-21,FR,France,BRE,Bretagne,359,,,,
+2020-03-21,FR,France,BRE,Bretagne,359,15,,,
+2020-03-21,FR,France,COR,Corse,,4,,,
+2020-03-21,FR,France,COR,Corse,173,,,,
+2020-03-21,FR,France,CVL,Centre-Val de Loire,,2,,,
+2020-03-21,FR,France,CVL,Centre-Val de Loire,254,,,,
+2020-03-21,FR,France,CVL,Centre-Val de Loire,254,2,,,
+2020-03-21,FR,France,GES,Grand Est,,209,,,
+2020-03-21,FR,France,GES,Grand Est,,230,,,
+2020-03-21,FR,France,GES,Grand Est,3089,,,,
+2020-03-21,FR,France,GF,Guyane,,0,,,
+2020-03-21,FR,France,GF,Guyane,18,,,,
+2020-03-21,FR,France,GF,Guyane,19,0,,,
+2020-03-21,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-21,FR,France,GUA,Guadeloupe,56,,,,
+2020-03-21,FR,France,GUA,Guadeloupe,56,0,,,
+2020-03-21,FR,France,HDF,Hauts-de-France,,56,,,
+2020-03-21,FR,France,HDF,Hauts-de-France,791,,,,
+2020-03-21,FR,France,HDF,Hauts-de-France,856,91,,,
+2020-03-21,FR,France,IDF,Île-de-France,,122,,,
+2020-03-21,FR,France,IDF,Île-de-France,4695,,,,
+2020-03-21,FR,France,LRE,La Réunion,,0,,,
+2020-03-21,FR,France,LRE,La Réunion,47,,,,
+2020-03-21,FR,France,MAY,Mayotte,,0,,,
+2020-03-21,FR,France,MAY,Mayotte,11,,,,
+2020-03-21,FR,France,MAY,Mayotte,9,,,,
+2020-03-21,FR,France,MQ,Martinique,,1,,,
+2020-03-21,FR,France,MQ,Martinique,37,,,,
+2020-03-21,FR,France,MQ,Martinique,37,0,,,
+2020-03-21,FR,France,NAQ,Nouvelle-Aquitaine,,5,,,
+2020-03-21,FR,France,NAQ,Nouvelle-Aquitaine,501,7,,,
+2020-03-21,FR,France,NAQ,Nouvelle-Aquitaine,521,,,,
+2020-03-21,FR,France,NOR,Normandie,,6,,,
+2020-03-21,FR,France,NOR,Normandie,345,,,,
+2020-03-21,FR,France,NOR,Normandie,345,7,,,
+2020-03-21,FR,France,OCC,Occitanie,,24,,,
+2020-03-21,FR,France,OCC,Occitanie,611,,,,
+2020-03-21,FR,France,OCC,Occitanie,611,27,,,
+2020-03-21,FR,France,PAC,Provence-Alpes-Côte d'Azur,,13,,,
+2020-03-21,FR,France,PAC,Provence-Alpes-Côte d'Azur,1041,,,,
+2020-03-21,FR,France,PAC,Provence-Alpes-Côte d'Azur,1041,13,,,
+2020-03-21,FR,France,PDL,Pays de la Loire,,3,,,
+2020-03-21,FR,France,PDL,Pays de la Loire,234,,,,
 2020-03-21,GA,Gabon,,,3,1,-0.803689,11.609444,2172579
 2020-03-21,GB,United Kingdom,,,3983,177,55.378051,-3.435973,67530172
 2020-03-21,GE,Georgia,,,43,0,42.315407,43.356892,3996765
@@ -9658,6 +10318,54 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-22,FJ,Fiji,,,2,0,-16.578193,179.414413,889953
 2020-03-22,FO,Faroe Islands,,,92,0,61.892635,-6.911806,48678
 2020-03-22,FR,France,,,14459,562,46.227638,2.213749,65129728
+2020-03-22,FR,France,ARA,Auvergne-Rhône-Alpes,,47,,,
+2020-03-22,FR,France,ARA,Auvergne-Rhône-Alpes,1431,,,,
+2020-03-22,FR,France,ARA,Auvergne-Rhône-Alpes,1431,72,,,
+2020-03-22,FR,France,BFC,Bourgogne-Franche-Comté,,40,,,
+2020-03-22,FR,France,BFC,Bourgogne-Franche-Comté,,51,,,
+2020-03-22,FR,France,BFC,Bourgogne-Franche-Comté,1178,,,,
+2020-03-22,FR,France,BRE,Bretagne,,17,,,
+2020-03-22,FR,France,BRE,Bretagne,397,,,,
+2020-03-22,FR,France,BRE,Bretagne,446,17,,,
+2020-03-22,FR,France,COR,Corse,,6,,,
+2020-03-22,FR,France,COR,Corse,183,,,,
+2020-03-22,FR,France,CVL,Centre-Val de Loire,,3,,,
+2020-03-22,FR,France,CVL,Centre-Val de Loire,291,,,,
+2020-03-22,FR,France,CVL,Centre-Val de Loire,291,2,,,
+2020-03-22,FR,France,GES,Grand Est,,252,,,
+2020-03-22,FR,France,GES,Grand Est,3395,,,,
+2020-03-22,FR,France,GF,Guyane,,0,,,
+2020-03-22,FR,France,GF,Guyane,19,,,,
+2020-03-22,FR,France,GF,Guyane,20,0,,,
+2020-03-22,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-22,FR,France,GUA,Guadeloupe,58,,,,
+2020-03-22,FR,France,GUA,Guadeloupe,58,0,,,
+2020-03-22,FR,France,HDF,Hauts-de-France,,67,,,
+2020-03-22,FR,France,HDF,Hauts-de-France,936,,,,
+2020-03-22,FR,France,HDF,Hauts-de-France,943,97,,,
+2020-03-22,FR,France,IDF,Île-de-France,,140,,,
+2020-03-22,FR,France,IDF,Île-de-France,5283,,,,
+2020-03-22,FR,France,LRE,La Réunion,,0,,,
+2020-03-22,FR,France,LRE,La Réunion,64,,,,
+2020-03-22,FR,France,MAY,Mayotte,,0,,,
+2020-03-22,FR,France,MAY,Mayotte,11,,,,
+2020-03-22,FR,France,MAY,Mayotte,14,,,,
+2020-03-22,FR,France,MQ,Martinique,,1,,,
+2020-03-22,FR,France,MQ,Martinique,44,,,,
+2020-03-22,FR,France,MQ,Martinique,44,0,,,
+2020-03-22,FR,France,NAQ,Nouvelle-Aquitaine,,8,,,
+2020-03-22,FR,France,NAQ,Nouvelle-Aquitaine,593,8,,,
+2020-03-22,FR,France,NAQ,Nouvelle-Aquitaine,612,,,,
+2020-03-22,FR,France,NOR,Normandie,,8,,,
+2020-03-22,FR,France,NOR,Normandie,462,,,,
+2020-03-22,FR,France,NOR,Normandie,462,9,,,
+2020-03-22,FR,France,OCC,Occitanie,,25,,,
+2020-03-22,FR,France,OCC,Occitanie,671,,,,
+2020-03-22,FR,France,PAC,Provence-Alpes-Côte d'Azur,,14,,,
+2020-03-22,FR,France,PAC,Provence-Alpes-Côte d'Azur,1316,15,,,
+2020-03-22,FR,France,PAC,Provence-Alpes-Côte d'Azur,1372,,,,
+2020-03-22,FR,France,PDL,Pays de la Loire,,4,,,
+2020-03-22,FR,France,PDL,Pays de la Loire,270,,,,
 2020-03-22,GA,Gabon,,,3,1,-0.803689,11.609444,2172579
 2020-03-22,GB,United Kingdom,,,5018,233,55.378051,-3.435973,67530172
 2020-03-22,GE,Georgia,,,49,0,42.315407,43.356892,3996765
@@ -9965,6 +10673,56 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-23,FJ,Fiji,,,3,0,-16.578193,179.414413,889953
 2020-03-23,FO,Faroe Islands,,,115,0,61.892635,-6.911806,48678
 2020-03-23,FR,France,,,16018,674,46.227638,2.213749,65129728
+2020-03-23,FR,France,ARA,Auvergne-Rhône-Alpes,,70,,,
+2020-03-23,FR,France,ARA,Auvergne-Rhône-Alpes,1730,,,,
+2020-03-23,FR,France,ARA,Auvergne-Rhône-Alpes,1738,85,,,
+2020-03-23,FR,France,BFC,Bourgogne-Franche-Comté,,62,,,
+2020-03-23,FR,France,BFC,Bourgogne-Franche-Comté,1347,,,,
+2020-03-23,FR,France,BRE,Bretagne,,23,,,
+2020-03-23,FR,France,BRE,Bretagne,490,,,,
+2020-03-23,FR,France,BRE,Bretagne,490,22,,,
+2020-03-23,FR,France,COR,Corse,,7,,,
+2020-03-23,FR,France,COR,Corse,194,,,,
+2020-03-23,FR,France,COR,Corse,203,11,,,
+2020-03-23,FR,France,CVL,Centre-Val de Loire,,8,,,
+2020-03-23,FR,France,CVL,Centre-Val de Loire,361,,,,
+2020-03-23,FR,France,CVL,Centre-Val de Loire,361,8,,,
+2020-03-23,FR,France,GES,Grand Est,,327,,,
+2020-03-23,FR,France,GES,Grand Est,,335,,,
+2020-03-23,FR,France,GES,Grand Est,4256,,,,
+2020-03-23,FR,France,GF,Guyane,,0,,,
+2020-03-23,FR,France,GF,Guyane,20,,,,
+2020-03-23,FR,France,GF,Guyane,23,0,,,
+2020-03-23,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-23,FR,France,GUA,Guadeloupe,62,,,,
+2020-03-23,FR,France,GUA,Guadeloupe,62,0,,,
+2020-03-23,FR,France,HDF,Hauts-de-France,,86,,,
+2020-03-23,FR,France,HDF,Hauts-de-France,1269,,,,
+2020-03-23,FR,France,HDF,Hauts-de-France,1287,108,,,
+2020-03-23,FR,France,IDF,Île-de-France,,193,,,
+2020-03-23,FR,France,IDF,Île-de-France,6211,,,,
+2020-03-23,FR,France,LRE,La Réunion,,0,,,
+2020-03-23,FR,France,LRE,La Réunion,71,,,,
+2020-03-23,FR,France,MAY,Mayotte,,0,,,
+2020-03-23,FR,France,MAY,Mayotte,21,,,,
+2020-03-23,FR,France,MAY,Mayotte,24,,,,
+2020-03-23,FR,France,MQ,Martinique,,1,,,
+2020-03-23,FR,France,MQ,Martinique,53,,,,
+2020-03-23,FR,France,MQ,Martinique,53,0,,,
+2020-03-23,FR,France,NAQ,Nouvelle-Aquitaine,,13,,,
+2020-03-23,FR,France,NAQ,Nouvelle-Aquitaine,656,13,,,
+2020-03-23,FR,France,NAQ,Nouvelle-Aquitaine,676,,,,
+2020-03-23,FR,France,NOR,Normandie,,9,,,
+2020-03-23,FR,France,NOR,Normandie,511,,,,
+2020-03-23,FR,France,NOR,Normandie,511,10,,,
+2020-03-23,FR,France,OCC,Occitanie,,32,,,
+2020-03-23,FR,France,OCC,Occitanie,767,,,,
+2020-03-23,FR,France,PAC,Provence-Alpes-Côte d'Azur,,20,,,
+2020-03-23,FR,France,PAC,Provence-Alpes-Côte d'Azur,1510,,,,
+2020-03-23,FR,France,PAC,Provence-Alpes-Côte d'Azur,1510,20,,,
+2020-03-23,FR,France,PDL,Pays de la Loire,,9,,,
+2020-03-23,FR,France,PDL,Pays de la Loire,293,,,,
+2020-03-23,FR,France,PDL,Pays de la Loire,293,10,,,
 2020-03-23,GA,Gabon,,,6,1,-0.803689,11.609444,2172579
 2020-03-23,GB,United Kingdom,,,5683,281,55.378051,-3.435973,67530172
 2020-03-23,GD,Grenada,,,1,0,12.262776,-61.604171,112003
@@ -10277,6 +11035,54 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-24,FJ,Fiji,,,4,0,-16.578193,179.414413,889953
 2020-03-24,FO,Faroe Islands,,,118,0,61.892635,-6.911806,48678
 2020-03-24,FR,France,,,19856,860,46.227638,2.213749,65129728
+2020-03-24,FR,France,ARA,Auvergne-Rhône-Alpes,,86,,,
+2020-03-24,FR,France,ARA,Auvergne-Rhône-Alpes,1857,,,,
+2020-03-24,FR,France,ARA,Auvergne-Rhône-Alpes,1857,86,,,
+2020-03-24,FR,France,BFC,Bourgogne-Franche-Comté,,85,,,
+2020-03-24,FR,France,BFC,Bourgogne-Franche-Comté,,86,,,
+2020-03-24,FR,France,BFC,Bourgogne-Franche-Comté,1510,,,,
+2020-03-24,FR,France,BRE,Bretagne,,25,,,
+2020-03-24,FR,France,BRE,Bretagne,526,,,,
+2020-03-24,FR,France,BRE,Bretagne,526,25,,,
+2020-03-24,FR,France,COR,Corse,,7,,,
+2020-03-24,FR,France,COR,Corse,217,,,,
+2020-03-24,FR,France,COR,Corse,218,12,,,
+2020-03-24,FR,France,CVL,Centre-Val de Loire,,9,,,
+2020-03-24,FR,France,CVL,Centre-Val de Loire,450,,,,
+2020-03-24,FR,France,CVL,Centre-Val de Loire,450,8,,,
+2020-03-24,FR,France,GES,Grand Est,,407,,,
+2020-03-24,FR,France,GES,Grand Est,4922,,,,
+2020-03-24,FR,France,GF,Guyane,,0,,,
+2020-03-24,FR,France,GF,Guyane,23,,,,
+2020-03-24,FR,France,GF,Guyane,27,0,,,
+2020-03-24,FR,France,GUA,Guadeloupe,,0,,,
+2020-03-24,FR,France,GUA,Guadeloupe,73,,,,
+2020-03-24,FR,France,GUA,Guadeloupe,73,1,,,
+2020-03-24,FR,France,HDF,Hauts-de-France,,109,,,
+2020-03-24,FR,France,HDF,Hauts-de-France,1532,,,,
+2020-03-24,FR,France,HDF,Hauts-de-France,1532,123,,,
+2020-03-24,FR,France,IDF,Île-de-France,,262,,,
+2020-03-24,FR,France,IDF,Île-de-France,6798,,,,
+2020-03-24,FR,France,LRE,La Réunion,,0,,,
+2020-03-24,FR,France,LRE,La Réunion,83,,,,
+2020-03-24,FR,France,MAY,Mayotte,,0,,,
+2020-03-24,FR,France,MAY,Mayotte,30,,,,
+2020-03-24,FR,France,MQ,Martinique,,1,,,
+2020-03-24,FR,France,MQ,Martinique,57,,,,
+2020-03-24,FR,France,MQ,Martinique,57,0,,,
+2020-03-24,FR,France,NAQ,Nouvelle-Aquitaine,,16,,,
+2020-03-24,FR,France,NAQ,Nouvelle-Aquitaine,753,14,,,
+2020-03-24,FR,France,NAQ,Nouvelle-Aquitaine,789,,,,
+2020-03-24,FR,France,NOR,Normandie,,15,,,
+2020-03-24,FR,France,NOR,Normandie,586,,,,
+2020-03-24,FR,France,NOR,Normandie,586,16,,,
+2020-03-24,FR,France,OCC,Occitanie,,39,,,
+2020-03-24,FR,France,OCC,Occitanie,900,,,,
+2020-03-24,FR,France,PAC,Provence-Alpes-Côte d'Azur,,26,,,
+2020-03-24,FR,France,PAC,Provence-Alpes-Côte d'Azur,1595,,,,
+2020-03-24,FR,France,PDL,Pays de la Loire,,13,,,
+2020-03-24,FR,France,PDL,Pays de la Loire,343,,,,
+2020-03-24,FR,France,PDL,Pays de la Loire,343,14,,,
 2020-03-24,GA,Gabon,,,6,1,-0.803689,11.609444,2172579
 2020-03-24,GB,United Kingdom,,,6650,335,55.378051,-3.435973,67530172
 2020-03-24,GD,Grenada,,,1,0,12.262776,-61.604171,112003
@@ -10588,6 +11394,31 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-25,FJ,Fiji,,,5,0,-16.578193,179.414413,889953
 2020-03-25,FO,Faroe Islands,,,122,0,61.892635,-6.911806,48678
 2020-03-25,FR,France,,,22302,1100,46.227638,2.213749,65129728
+2020-03-25,FR,France,ARA,Auvergne-Rhône-Alpes,2093,,,,
+2020-03-25,FR,France,BFC,Bourgogne-Franche-Comté,,102,,,
+2020-03-25,FR,France,BFC,Bourgogne-Franche-Comté,1569,,,,
+2020-03-25,FR,France,BRE,Bretagne,603,,,,
+2020-03-25,FR,France,COR,Corse,225,,,,
+2020-03-25,FR,France,COR,Corse,233,15,,,
+2020-03-25,FR,France,CVL,Centre-Val de Loire,561,,,,
+2020-03-25,FR,France,CVL,Centre-Val de Loire,561,13,,,
+2020-03-25,FR,France,GES,Grand Est,5479,,,,
+2020-03-25,FR,France,GF,Guyane,28,,,,
+2020-03-25,FR,France,GUA,Guadeloupe,76,,,,
+2020-03-25,FR,France,GUA,Guadeloupe,76,1,,,
+2020-03-25,FR,France,HDF,Hauts-de-France,1753,,,,
+2020-03-25,FR,France,IDF,Île-de-France,7660,,,,
+2020-03-25,FR,France,LRE,La Réunion,94,,,,
+2020-03-25,FR,France,MAY,Mayotte,35,,,,
+2020-03-25,FR,France,MQ,Martinique,66,,,,
+2020-03-25,FR,France,MQ,Martinique,66,0,,,
+2020-03-25,FR,France,NAQ,Nouvelle-Aquitaine,912,,,,
+2020-03-25,FR,France,NOR,Normandie,688,,,,
+2020-03-25,FR,France,NOR,Normandie,688,19,,,
+2020-03-25,FR,France,OCC,Occitanie,1082,,,,
+2020-03-25,FR,France,PAC,Provence-Alpes-Côte d'Azur,1927,,,,
+2020-03-25,FR,France,PDL,Pays de la Loire,368,,,,
+2020-03-25,FR,France,PDL,Pays de la Loire,379,17,,,
 2020-03-25,GA,Gabon,,,6,1,-0.803689,11.609444,2172579
 2020-03-25,GB,United Kingdom,,,8077,422,55.378051,-3.435973,67530172
 2020-03-25,GD,Grenada,,,1,0,12.262776,-61.604171,112003
@@ -10789,7 +11620,9 @@ Date,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude,Lon
 2020-03-26,CN,China,GD,Guangdong,1433,8,23.3417,113.4244,
 2020-03-26,CN,China,GS,Gansu,136,2,37.8099,101.0583,
 2020-03-26,CN,China,HB,Hubei,67801,3163,30.9756,112.2707,
+2020-03-26,CN,China,HL,Heilongjiang,484,13,47.862,127.7615,
 2020-03-26,CN,China,JL,Jilin,95,1,43.6661,126.1923,
+2020-03-26,CN,China,SH,Shanghai,451,5,31.202,121.4491,
 2020-03-26,CN,China,SN,Shanxi,135,0,37.5777,112.2922,
 2020-03-26,CN,China,TJ,Tianjin,147,3,39.3054,117.323,
 2020-03-26,CN,China,YN,Yunnan,178,2,24.974,101.487,
