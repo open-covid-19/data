@@ -40,7 +40,6 @@ def first_non_null(rows):
         if not isna(row): return row
     return rows.iloc[0]
 df = g.agg(first_non_null).reset_index()
-# print(df)
 
 # Output the results
 dataframe_output(df, ROOT, 'fr')
