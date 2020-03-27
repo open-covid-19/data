@@ -6,7 +6,7 @@ set -xe
 BASE_DIR=`dirname "$0"`
 
 # Delete all prior data from output folder
-rm -rf "$BASE_DIR/../output/*.csv" "$BASE_DIR/../output/*.json"
+rm -rf "$BASE_DIR"/../output/*.csv "$BASE_DIR"/../output/*.json
 
 # Run all fetch scripts from the input folder
 TMP_FILE=`mktemp`
