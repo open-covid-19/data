@@ -16,6 +16,11 @@ from the Open COVID-19 dataset using `pandas`.
 This HTML file contains the bare minimum needed to load the data from the
 Open COVID-19 datasetand display it in a table using `jquery`.
 
+#### [Category Estimation Jupyter Notebook](category_estimation.ipynb)
+This notebook showcases a methodology for estimating current mild, severe and
+critical patients by applying empirical data recorded in literature and
+validating the results against reported.
+
 #### [Exponential Modeling Jupyter Notebook](exponential_modeling.ipynb)
 This notebook explores modeling the spread of COVID-19 confirmed cases as an
 exponential function. While this is not a good model for long or even

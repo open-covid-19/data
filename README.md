@@ -118,6 +118,35 @@ distinguish between *a priori* and *a posteriori* estimates is to see if a
 given date has a value for both **Confirmed** and **Estimated** (*a
 priori*) or if the **Confirmed** value is null (*a posteriori*).
 
+#### Active cases and categories
+Another dataset available is
+[data_categories.csv](https://open-covid-19.github.io/data/data_categories.csv),
+which has the following columns:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-27 |
+| **CountryCode** | ISO 3166-1 code of the country | AU |
+| **CountryName** | American English name of the country | Australia |
+| **RegionCode** | (Optional) ISO 3166-2 code of the region | NSW |
+| **RegionName** | (Optional) American English name of the region | New South Wales |
+| **NewCases** | Number of reported new cases from previous day | 186 |
+| **NewDeaths** | Number of reported new deaths from previous day | 0 |
+| **NewMild**\*\* | Number of estimated new mild cases from previous day | 148.80 |
+| **NewSevere**\*\* | Number of estimated new severe cases from previous day | 27.90 |
+| **NewCritical**\*\* | Number of estimated new critical cases from previous day | 9.30 |
+| **CurrentlyMild**\*\* | Number of estimated mild active cases at this date | 819.20 |
+| **CurrentlySevere**\*\* | Number of estimated severe active cases at this date | 190.80 |
+| **CurrentlyCritical**\*\* | Number of estimated critical active cases at this date | 66.40 |
+
+\*Date used is **reporting** date, which generally lags a day from the actual
+date and is subject to timezone adjustments. Whenever possible, dates
+consistent with the ECDC daily reports are used.
+
+\*\*See the [category estimation notebook](examples/category_estimation.ipynb)
+for an more thorough explanation of what each category represents and how the
+estimation is done.
+
 #### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
 backwards compatibility, but shouldn't be used in any new projects:
