@@ -55,4 +55,5 @@ df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
 df['Deaths'] = df['Deaths'].fillna(0).astype(int)
 
 # Output the results
-dataframe_output(df, ROOT, 'world')
+df['RegionCode'] = None
+dataframe_output(df, ROOT)

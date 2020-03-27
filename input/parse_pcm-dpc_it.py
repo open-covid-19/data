@@ -35,6 +35,7 @@ df['Date'] = df['Date'].apply(lambda date: datetime.fromisoformat(date).date())
 
 # Offset date by 1 day to match ECDC report
 if not is_region:
+    df['RegionCode'] = None
     df['Date'] = df['Date'].apply(lambda date: date + timedelta(days=1))
 
 # Convert dates to ISO format
@@ -49,4 +50,4 @@ if not is_region:
     df = merge_previous(df, ['Date', 'CountryCode'], filter_function)
 
 # Output the results
-dataframe_output(df, ROOT, 'it' if is_region else 'world')
+dataframe_output(df, ROOT, 'IT' if is_region else None)

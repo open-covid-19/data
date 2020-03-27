@@ -47,4 +47,4 @@ for idx, row in df.iterrows():
 df = DataFrame.from_records(records)
 
 # Output the results
-dataframe_output(df, ROOT, 'de')
+dataframe_output(df, ROOT, 'DE')

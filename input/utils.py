@@ -75,18 +75,24 @@ def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function)
     # Create new dataset of previous + current
     return pandas.concat([prev_data, data], sort=False).reset_index()
 
-def dataframe_output(data: DataFrame, root: Path, name: str = None, metadata_merge: str = 'inner'):
+def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
     1. Sorts the dataset by date and country / region
     2. Merges the data with country / region metadata
     '''
+    # If no country code is given, then this is region-level metadata
+    if code is None:
+        data['RegionCode'] = None
+    else:
+        data['CountryCode'] = code
+
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = pandas.read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
 
     # Merge with metadata from appropriate helper dataset
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
-    metadata = pandas.read_csv(root / 'input' / ('metadata_%s.csv' % name), dtype=str)
+    metadata = pandas.read_csv(root / 'input' / 'metadata.csv', dtype=str)
     data = data.merge(metadata, how=metadata_merge)
 
     # If a column does not exist in the dataset, output empty values

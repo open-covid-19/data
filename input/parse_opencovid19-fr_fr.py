@@ -42,4 +42,4 @@ def first_non_null(rows):
 df = g.agg(first_non_null).reset_index()
 
 # Output the results
-dataframe_output(df, ROOT, 'fr')
+dataframe_output(df, ROOT, 'FR')

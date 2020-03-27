@@ -35,4 +35,4 @@ df['Date'] = df['Date'].apply(
     lambda date: datetime.datetime.strptime(str(date), '%Y%m%d').date().isoformat())
 
 # Output the results
-dataframe_output(df, ROOT, 'us')
+dataframe_output(df, ROOT, 'US')

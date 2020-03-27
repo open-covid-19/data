@@ -24,4 +24,4 @@ for idx, row in df.iterrows():
 df = DataFrame.from_records(records)
 
 # Output the results
-dataframe_output(df, ROOT, 'au')
+dataframe_output(df, ROOT, 'AU')

@@ -39,4 +39,4 @@ df = df[df['CountryName'] == 'China']
 df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'RegionName']).last().reset_index()
 
 # Output the results
-dataframe_output(df, ROOT, 'cn')
+dataframe_output(df, ROOT, 'CN')

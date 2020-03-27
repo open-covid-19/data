@@ -49,7 +49,6 @@ df['CountryCode'] = 'ES'
 if is_region:
     df = df[df['_RegionLabel'] != 'Total']
 else:
-    df['RegionCode'] = None
     df = df[df['_RegionLabel'] == 'Total']
     df = df.drop(columns=['_RegionLabel'])
 
@@ -59,4 +58,4 @@ if not is_region:
     df = merge_previous(df, ['Date', 'CountryCode'], filter_function)
 
 # Output the results
-dataframe_output(df, ROOT, 'es' if is_region else 'world')
+dataframe_output(df, ROOT, 'ES' if is_region else None)
