@@ -20,9 +20,21 @@ curated by this project are:
 | Data | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
 | Forecast | [Latest](https://open-covid-19.github.io/data/forecast_latest.csv) | [Latest](https://open-covid-19.github.io/data/forecast_latest.json) |
 
-You can find Jupyter Notebooks in the [examples subfolder](examples) with
-examples of how to load and analyze the data for several programming
-environments, here are a few snippets to get started.
+You can find several examples in the [examples subfolder](examples) with
+code showcasing of how to load and analyze the data for several programming
+environments. If you want the short version, here are a few snippets to get
+started.
+
+#### Google Colab
+You can use Google Colab if you want to run your analysis without having to
+install anything in your computer, simply go to this URL:
+https://colab.research.google.com/github/open-covid-19/data.
+
+#### R
+If you prefer R, then this is all you need to do to load the historical data:
+```R
+data <- read.csv("https://open-covid-19.github.io/data/data.csv")
+```
 
 #### Python
 In Python, you need to have the package `pandas` installed to get
@@ -30,17 +42,6 @@ started:
 ```python
 import pandas
 data = pandas.read_csv('https://open-covid-19.github.io/data/data.csv')
-```
-
-#### Google Colab
-You can even use Google Colab if you want to run your analysis without having
-to install anything in your computer, simply go to this URL:
-https://colab.research.google.com/github/open-covid-19/data.
-
-#### R
-If you prefer R, then this is all you need to do to load the historical data:
-```R
-data <- read.csv("https://open-covid-19.github.io/data/data.csv")
 ```
 
 #### jQuery
