@@ -20,6 +20,45 @@ curated by this project are:
 | Data | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
 | Forecast | [Latest](https://open-covid-19.github.io/data/forecast_latest.csv) | [Latest](https://open-covid-19.github.io/data/forecast_latest.json) |
 
+You can find Jupyter Notebooks in the [examples subfolder](examples) with
+examples of how to load and analyze the data for several programming
+environments, here are a few snippets to get started.
+
+#### Python
+In Python, you need to have the package `pandas` installed to get
+started:
+```python
+import pandas
+data = pandas.read_csv('https://open-covid-19.github.io/data/data.csv')
+```
+
+#### Google Colab
+You can even use Google Colab if you want to run your analysis without having
+to install anything in your computer, simply go to this URL:
+https://colab.research.google.com/github/open-covid-19/data.
+
+#### R
+If you prefer R, then this is all you need to do to load the historical data:
+```R
+data <- read.csv("https://open-covid-19.github.io/data/data.csv")
+```
+
+#### jQuery
+Loading the JSON file using jQuery can be done directly from the output folder,
+this code snippet loads all historical data into the `data` variable:
+```javascript
+$.getJSON(`https://open-covid-19.github.io/data/data.json`, data => { ... }
+```
+
+#### Powershell
+You can also use Powershell to get the latest data for a country directly from
+the command line, for example to query the latest data for Australia:
+```powershell
+Invoke-WebRequest 'https://open-covid-19.github.io/data/data_latest.csv' | ConvertFrom-Csv | `
+    where CountryCode -eq 'AU' | where RegionCode -eq '' | `
+    select Date,CountryName,Confirmed,Deaths
+```
+
 ## Understand the data
 The columns of the main dataset are:
 
@@ -85,15 +124,6 @@ backwards compatibility, but shouldn't be used in any new projects:
 * [World (deprecated version)](output/world_latest.csv)
 * [USA (deprecated version)](output/usa_latest.csv)
 * [China (deprecated version)](output/china_latest.csv)
-
-## Analyze the data
-You may also want to load the data and perform your own analysis on it.
-You can find Jupyter Notebooks in the [examples subfolder](examples) with
-examples of how to load and analyze the data.
-
-You can even use Google Colab if you want to run your analysis without having
-to install anything in your computer, simply go to this URL:
-https://colab.research.google.com/github/open-covid-19/data.
 
 ## Sources of data
 | Data | Source |
