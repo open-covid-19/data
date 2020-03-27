@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from utils import dataframe_output, get_outbreak_mask, compute_forecast
+from utils import get_outbreak_mask, compute_forecast
 
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
