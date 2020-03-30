@@ -3,9 +3,18 @@ This repository contains datasets of historical data related to COVID-19.
 
 ## Explore the data
 A simple visualization tool was built to explore the Open COVID-19 datasets:
-The [Open COVID-19 Explorer](https://open-covid-19.github.io/explorer).
+The [Open COVID-19 Explorer][12].
 
-![Explorer Screenshot](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)
+[![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12]
+
+If you want to see interactive charts with a unique UX, don't miss what
+[@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset:
+<http://www.starlords3k.com/covid19.php>.
+
+[![](https://i.imgur.com/eUn1quE.png)](http://www.starlords3k.com/covid19.php)
+
+If you are using this data, feel free to open an issue and let us know so we can give you a
+call-out here.
 
 ## Use the data
 The data is available as CSV and JSON files, which are published in Github
@@ -209,3 +218,5 @@ sh input/update_data.sh
 [9]: https://covidtracking.com
 [10]: https://github.com/pcm-dpc/COVID-19
 [11]: https://github.com/datadista/datasets/tree/master/COVID%2019
+[12]: https://open-covid-19.github.io/explorer
+[13]: http://www.starlords3k.com/covid19.php
