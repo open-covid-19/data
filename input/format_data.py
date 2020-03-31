@@ -81,7 +81,7 @@ dataframe_to_json(forecast, ROOT / 'output' / 'data_forecast.json', orient='reco
 dataframe_split(data, ('CountryCode', 'RegionCode'), ROOT, 'data')
 
 # Output the metadata file in CSV and JSON formats
-metadata = dataframe_add_key(read_csv(ROOT / 'input' / 'metadata.csv'))
+metadata = read_csv(ROOT / 'input' / 'metadata.csv').set_index('Key')
 metadata = metadata[[col for col in metadata.columns if not col.startswith('_')]]
 for col in metadata.columns: metadata[col] = series_converter(metadata[col])
 metadata.to_csv(ROOT / 'output' / 'metadata.csv')
