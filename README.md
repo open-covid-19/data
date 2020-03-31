@@ -13,6 +13,11 @@ If you want to see interactive charts with a unique UX, don't miss what
 
 [![](https://i.imgur.com/eUn1quE.png)](http://www.starlords3k.com/covid19.php)
 
+You can also check out the work of [@quixote79](https://github.com/quixote79), [a MapBox-powered
+interactive map site][13]:
+
+[![](https://i.imgur.com/aLCjUXz.png)][13]
+
 If you are using this data, feel free to open an issue and let us know so we can give you a
 call-out here.
 
@@ -219,4 +224,4 @@ sh input/update_data.sh
 [10]: https://github.com/pcm-dpc/COVID-19
 [11]: https://github.com/datadista/datasets/tree/master/COVID%2019
 [12]: https://open-covid-19.github.io/explorer
-[13]: http://www.starlords3k.com/covid19.php
+[13]: https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/lrb24g5cc1c15ja/COVID-19_Dataset.json

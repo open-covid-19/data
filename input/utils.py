@@ -13,24 +13,30 @@ from unidecode import unidecode
 import matplotlib
 import matplotlib.pyplot
 from matplotlib.ticker import MaxNLocator
-import seaborn as sns
-sns.set()
+import seaborn
+seaborn.set()
+
 
 # Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
 matplotlib.rcParams['svg.hashsalt'] = 0
 
+# Define constants
 URL_GITHUB_RAW = 'https://raw.githubusercontent.com'
 URL_OPEN_COVID_19 = 'https://open-covid-19.github.io/data/data.csv'
 
+
 def parse_level_args(args: list = sys.argv[1:]):
+    ''' Parses the command line arguments to determine if this is country- or region-level data '''
     parser = ArgumentParser()
     parser.add_argument('level', choices=['country', 'region'])
     return parser.parse_args(args)
+
 
 def github_raw_file(project: str, path: str, branch: str = 'master') -> str:
     ''' Get the absolute URL of a file hosted on GitHub using the GitHub Raw URL format '''
     return '{base_url}/{project}/{branch}/{path}'.format(
         **{'base_url': URL_GITHUB_RAW, 'project': project, 'branch': branch, 'path': path})
+
 
 def github_raw_dataframe(project: str, path: str, branch: str = 'master') -> pandas.DataFrame:
     ''' Read a dataframe from a file hosted using GitHub Raw '''
@@ -42,6 +48,7 @@ def github_raw_dataframe(project: str, path: str, branch: str = 'master') -> pan
     else:
         raise ValueError('Unknown data type: %s' % url)
 
+
 def _series_converter(series: pandas.Series):
     if series.name == 'Estimated':
         return series.astype(float)
@@ -50,6 +57,7 @@ def _series_converter(series: pandas.Series):
     else:
         return series.fillna('').astype(str)
 
+
 def timezone_adjust(timestamp: str, offset: int):
     ''' Adjust hour difference between a timezone and GMT+1 '''
     timestamp = datetime.fromisoformat(timestamp)
@@ -57,6 +65,7 @@ def timezone_adjust(timestamp: str, offset: int):
         return timestamp.date().isoformat()
     else:
         return (timestamp + timedelta(days=1)).date().isoformat()
+
 
 def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
     ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
@@ -76,6 +85,7 @@ def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function)
 
     # Create new dataset of previous + current
     return pandas.concat([prev_data, data], sort=False).reset_index()
+
 
 def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_merge: str = 'inner'):
     '''
@@ -116,15 +126,19 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
     # Output time-series dataset to sys.out
     data.to_csv(sys.stdout, header=None, index=False)
 
-# Helper function used to filter out uninteresting dates
+
 def get_outbreak_mask(data: DataFrame, threshold: int = 10):
-    ''' Returns a mask for > N confirmed cases '''
+    ''' Returns a mask for > N confirmed cases. Used to filter out uninteresting dates '''
     return data['Confirmed'] > threshold
 
-# Define prediction model
+
 def _logistic_function(X: float, a: float, b: float, c: float):
-    ''' a * e^(-b * e^(-cx)) '''
+    '''
+    Used for prediction model. Uses the function:
+    `f(x) = a * e^(-b * e^(-cx))`
+    '''
     return a * numpy.exp(-b * numpy.exp(-c * X))
+
 
 def _forward_indices(indices: list, window: int):
     ''' Adds `window` indices to a list of dates '''
@@ -132,7 +146,7 @@ def _forward_indices(indices: list, window: int):
     for _ in range(window): date_indices.append(date_indices[-1] + timedelta(days=1))
     return [idx.isoformat() for idx in date_indices]
 
-# Main work function for each subset of data
+
 def compute_forecast(data: pandas.Series, window: int):
     '''
     Perform a forecast of `window` days past the last day of `data`, including a model estimate of
@@ -155,8 +169,10 @@ def compute_forecast(data: pandas.Series, window: int):
     projected = [_logistic_function(x, *params) for x in range(len(X) + window)]
     return pandas.Series(projected, index=date_indices, name='Estimated')
 
+
 def _plot_options():
     return {'figsize': (16, 8), 'fontsize': 'x-large', 'grid': True}
+
 
 def _plot_save(fname: str, ax):
     # Add legend
@@ -171,10 +187,12 @@ def _plot_save(fname: str, ax):
     # Close the figure
     matplotlib.pyplot.close(ax.get_figure())
 
+
 def plot_column(fname: str, data: pandas.Series):
     df = DataFrame({data.name: data.iloc[-14:]})
     ax = df.plot(kind='bar', **_plot_options())
     _plot_save(fname, ax)
+
 
 def plot_forecast(fname: str, confirmed: pandas.Series, estimated: pandas.Series):
 
