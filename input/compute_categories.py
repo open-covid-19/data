@@ -6,11 +6,13 @@ from pathlib import Path
 
 import pandas as pd
 
+from utils import read_csv, series_converter
+
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from the open COVID-19 dataset
-data = pd.read_csv(ROOT / 'output' / 'data.csv', dtype=str)
+data = read_csv(ROOT / 'output' / 'data.csv')
 data['Confirmed'] = data['Confirmed'].astype(float)
 data['Deaths'] = data['Deaths'].astype(float)
 
@@ -56,8 +58,8 @@ for country_code, region_code in keys:
     df = df.iloc[max(mild_recovery_days, severe_recovery_days, critical_recovery_days):]
 
     # Make sure all columns have the appropriate type
-    for col in df.columns[2:]:
-        df[col] = df[col].apply(lambda x: '' if pd.isna(x) else '%.2f' % x)
+    for col in df.columns:
+        df[col] = series_converter(df[col])
 
     # Output resulting dataframe
     if print_header_flag:

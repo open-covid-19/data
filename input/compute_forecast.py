@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from utils import get_outbreak_mask, compute_forecast
+from utils import get_outbreak_mask, compute_forecast, series_converter
 
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -86,12 +86,7 @@ forecast_columns = ['ForecastDate', 'Date'] + pivot_columns + ['Estimated', 'Con
 data = data.sort_values(['_key', 'Date'])[forecast_columns]
 
 # Make sure the core columns have the right data type
-data['ForecastDate'] = data['ForecastDate'].astype(str)
-data['Date'] = data['Date'].astype(str)
-data['Estimated'] = data['Estimated'].astype(float)
-data['Confirmed'] = data['Confirmed'].astype(float).astype('Int64')
-for pivot_column in pivot_columns:
-    data[pivot_column] = data[pivot_column].fillna('').astype(str)
+for col in data.columns: data[col] = series_converter(data[col])
 
 # Output resulting dataframe
 data.to_csv(sys.stdout, index=False)

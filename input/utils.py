@@ -23,6 +23,17 @@ matplotlib.rcParams['svg.hashsalt'] = 0
 # Define constants
 URL_GITHUB_RAW = 'https://raw.githubusercontent.com'
 URL_OPEN_COVID_19 = 'https://open-covid-19.github.io/data/data.csv'
+COLUMN_DTYPES = {
+    'Date': str,
+    'CountryCode': str,
+    'CountryName': str,
+    'RegionCode': str,
+    'RegionName': str,
+    'Confirmed': 'Int64',
+    'Deaths': 'Int64',
+    'Latitude': str,
+    'Longitude': str
+}
 
 
 def parse_level_args(args: list = sys.argv[1:]):
@@ -32,28 +43,35 @@ def parse_level_args(args: list = sys.argv[1:]):
     return parser.parse_args(args)
 
 
-def github_raw_file(project: str, path: str, branch: str = 'master') -> str:
+
+def read_csv(path: str, **kwargs):
+    return pandas.read_csv(
+        path, dtype=COLUMN_DTYPES, keep_default_na=False, na_values=[''], **kwargs)
+
+def github_raw_url(project: str, path: str, branch: str = 'master') -> str:
     ''' Get the absolute URL of a file hosted on GitHub using the GitHub Raw URL format '''
     return '{base_url}/{project}/{branch}/{path}'.format(
         **{'base_url': URL_GITHUB_RAW, 'project': project, 'branch': branch, 'path': path})
 
 
-def github_raw_dataframe(project: str, path: str, branch: str = 'master') -> pandas.DataFrame:
+def github_raw_dataframe(project: str, path: str, branch: str = 'master', **kwargs) -> pandas.DataFrame:
     ''' Read a dataframe from a file hosted using GitHub Raw '''
-    url = github_raw_file(project, path, branch=branch)
+    url = github_raw_url(project, path, branch=branch)
     if url.endswith('csv'):
-        return pandas.read_csv(url)
+        return pandas.read_csv(url, **kwargs)
     elif url.endswith('json'):
-        return pandas.read_json(url)
+        return pandas.read_json(url, **kwargs)
     else:
         raise ValueError('Unknown data type: %s' % url)
 
 
-def _series_converter(series: pandas.Series):
-    if series.name == 'Estimated':
-        return series.astype(float)
-    if series.name == 'Confirmed' or series.name == 'Deaths':
-        return series.astype(float).astype('Int64')
+def series_converter(series: pandas.Series):
+    if series.name in ('Latitude', 'Longitude'):
+        return series.astype(float).apply(lambda x: '' if pandas.isna(x) else '%.6f' % x)
+    elif series.name in ('Confirmed', 'Estimated', 'Deaths', 'Population'):
+        return series.astype(float).round().astype('Int64')
+    elif series.name.startswith('New') or series.name.startswith('Current'):
+        return series.astype(float).round().astype('Int64')
     else:
         return series.fillna('').astype(str)
 
@@ -71,7 +89,7 @@ def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function)
     ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
 
     # Read live data and filter it as requested by argument
-    prev_data = pandas.read_csv(URL_OPEN_COVID_19)
+    prev_data = read_csv(URL_OPEN_COVID_19)
     prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
 
     # Only look at columns present in the snapshot data
@@ -100,10 +118,10 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
         data['CountryCode'] = code
 
     # Core columns are those that appear in all datasets and can be used for merging with metadata
-    core_columns = pandas.read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
+    core_columns = read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
 
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
-    metadata = pandas.read_csv(root / 'input' / 'metadata.csv', dtype=str)
+    metadata = read_csv(root / 'input' / 'metadata.csv')
     # Fuzzy matching of the region label, to avoid character encoding issues or small changes
     if '_RegionLabel' in data.columns:
         fuzzy_text = lambda txt: re.sub(r'[^a-z]', '', unidecode(str(txt)).lower())
@@ -121,7 +139,7 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
 
     # Make sure the core columns have the right data type
     for column in data.columns:
-        data[column] = _series_converter(data[column])
+        data[column] = series_converter(data[column])
 
     # Output time-series dataset to sys.out
     data.to_csv(sys.stdout, header=None, index=False)
@@ -210,3 +228,11 @@ def plot_forecast(fname: str, confirmed: pandas.Series, estimated: pandas.Series
     ax = df.plot(kind='bar', **_plot_options())
     ax.plot(estimated.index, estimated, color='red', label='Estimate')
     _plot_save(fname, ax)
+
+
+def compute_record_key(record: dict):
+    ''' Outputs the primary key for a dataframe row '''
+    region_code = record['RegionCode']
+    country_code = record['CountryCode']
+    key_suffix = '' if not region_code or pandas.isna(region_code) else '_%s' % region_code
+    return country_code + key_suffix
