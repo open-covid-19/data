@@ -131,10 +131,6 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
     # Merge with metadata from appropriate helper dataset
     data = data.merge(metadata, how=metadata_merge)
 
-    # If a column does not exist in the dataset, output empty values
-    for column in core_columns:
-        if column not in data.columns: data[column] = ''
-
     # Preserve the order of the core columns and ensure records are sorted
     data = data[core_columns].sort_values(core_columns)
 

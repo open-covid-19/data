@@ -13,8 +13,8 @@ If you want to see interactive charts with a unique UX, don't miss what
 
 [![](https://i.imgur.com/eUn1quE.png)](http://www.starlords3k.com/covid19.php)
 
-You can also check out the work of [@quixote79](https://github.com/quixote79), [a MapBox-powered
-interactive map site][13]:
+You can also check out the great work of [@quixote79](https://github.com/quixote79),
+[a MapBox-powered interactive map site][13]:
 
 [![](https://i.imgur.com/aLCjUXz.png)][13]
 
@@ -73,19 +73,20 @@ You can also use Powershell to get the latest data for a country directly from
 the command line, for example to query the latest data for Australia:
 ```powershell
 Invoke-WebRequest 'https://open-covid-19.github.io/data/data_latest.csv' | ConvertFrom-Csv | `
-    where CountryCode -eq 'AU' | where RegionCode -eq '' | `
-    select Date,CountryName,Confirmed,Deaths
+    where Key -eq 'AU' | select Date,CountryName,Confirmed,Deaths
 ```
 
 ## Understand the data
 
 #### Data
-The columns of [data.csv](https://open-covid-19.github.io/data/data.csv) are:
+Make sure that you are using the URL [linked at the table above](#use-the-data) and not the raw
+GitHub file, the latter is subject to change at any moment. The columns of
+[data.csv](https://open-covid-19.github.io/data/data.csv) are:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
-| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | CN_HB |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | CN_HB |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
@@ -117,7 +118,7 @@ Non-temporal data related to countries and regions. The columns of
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
@@ -133,7 +134,7 @@ of the columns from [data.csv](#data) but otherwise identical information:
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
-| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **Confirmed**\*\* | Total number of cases confirmed after positive test | 6447 |
 | **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 133 |
 
@@ -154,7 +155,7 @@ which has the following columns:
 | ---- | ----------- | ------- |
 | **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint | 2020-03-21 |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
-| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 
@@ -178,7 +179,7 @@ which has the following columns:
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-27 |
-| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **NewCases** | Number of reported new cases from previous day | 186 |
 | **NewDeaths** | Number of reported new deaths from previous day | 0 |
 | **NewMild**\*\* | Number of estimated new mild cases from previous day | 148 |
