@@ -1,3 +1,4 @@
+import re
 import sys
 from pathlib import Path
 from argparse import ArgumentParser
@@ -7,6 +8,7 @@ import numpy
 import pandas
 from pandas import DataFrame
 from scipy import optimize
+from unidecode import unidecode
 
 import matplotlib
 import matplotlib.pyplot
@@ -90,9 +92,14 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = pandas.read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
 
-    # Merge with metadata from appropriate helper dataset
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
     metadata = pandas.read_csv(root / 'input' / 'metadata.csv', dtype=str)
+    # Fuzzy matching of the region label, to avoid character encoding issues or small changes
+    if '_RegionLabel' in data.columns:
+        fuzzy_text = lambda txt: re.sub(r'[^a-z]', '', unidecode(str(txt)).lower())
+        data['_RegionLabel'] = data['_RegionLabel'].apply(fuzzy_text)
+        metadata['_RegionLabel'] = metadata['_RegionLabel'].apply(fuzzy_text)
+    # Merge with metadata from appropriate helper dataset
     data = data.merge(metadata, how=metadata_merge)
 
     # If a column does not exist in the dataset, output empty values
