@@ -18,17 +18,16 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # Read data from the open COVID-19 dataset
 df_data = read_csv(ROOT / 'output' / 'data.csv')[['Date', 'Key', 'Confirmed', 'Deaths']]
 df_forecast = read_csv(ROOT / 'output' / 'data_forecast.csv')[['Date', 'Key', 'Estimated']]
-df = df_data.merge(df_forecast, on=['Date', 'Key'])
 
 # Loop through each unique combination of country / region
 chart_outputs = {}
 charts_root = ROOT / 'output' / 'charts'
-for key in tqdm(df['Key'].unique()):
+for key in tqdm(df_data['Key'].unique()):
 
     # Filter dataset
     cols = ['Key', 'Date', 'Deaths', 'Confirmed']
     # Get data only for the selected country / region
-    subset = df[df['Key'] == key][cols]
+    subset = df_data[df_data['Key'] == key][cols]
     # Early exit: no forecast found
     if not len(subset): continue
 
@@ -56,8 +55,8 @@ for key in tqdm(df['Key'].unique()):
         chart_outputs[key]['Deaths'] = fname_deaths
 
     try:
-        # Get the estimated confirmed cases from the forecast
-        estimated = df[df['Key'] == key].set_index(['Date'])['Estimated']
+        # Get the estimated cases from the forecast
+        estimated = df_forecast[df_forecast['Key'] == key].set_index(['Date'])['Estimated']
         if len(estimated) == 0: continue
 
         # Line up the indices for both the estimated and confirmed cases

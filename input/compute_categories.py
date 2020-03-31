@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+from tqdm import tqdm
 
 from utils import read_csv, series_converter
 
@@ -28,16 +29,11 @@ critical_recovery_days = 15
 print_header_flag = True
 
 # We must do this for every combination of country-region
-keys = data.apply(lambda row: (row['CountryCode'], row['RegionCode']), axis=1).unique()
-for country_code, region_code in keys:
+for key in tqdm(data['Key'].unique()):
 
     # Extract only the data for this key
-    df = data[data['CountryCode'] == country_code]
-    if pd.isna(region_code):
-        df = df[pd.isnull(df['RegionCode'])]
-    else:
-        df = df[df['RegionCode'] == region_code]
-    df = df.set_index(['Date', 'CountryCode', 'CountryName', 'RegionCode', 'RegionName'])
+    df = data[data['Key'] == key]
+    df = df.set_index(['Date', 'Key'])
 
     # Estimate daily counts per category assuming ratio is constant
     df['NewCases'] = df['Confirmed'].diff().astype('Int64')
