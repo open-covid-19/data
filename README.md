@@ -85,6 +85,7 @@ The columns of [data.csv](https://open-covid-19.github.io/data/data.csv) are:
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
+| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | CN_HB |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |

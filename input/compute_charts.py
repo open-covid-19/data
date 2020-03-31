@@ -16,8 +16,9 @@ from utils import plot_forecast, plot_column, read_csv
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from the open COVID-19 dataset
-df = read_csv(ROOT / 'output' / 'data_forecast.csv')[['Date', 'Key', 'Estimated']]
-df = df.merge(read_csv(ROOT / 'output' / 'data_minimal.csv'), on=['Date', 'Key'])
+df_data = read_csv(ROOT / 'output' / 'data.csv')[['Date', 'Key', 'Confirmed', 'Deaths']]
+df_forecast = read_csv(ROOT / 'output' / 'data_forecast.csv')[['Date', 'Key', 'Estimated']]
+df = df_data.merge(df_forecast, on=['Date', 'Key'])
 
 # Loop through each unique combination of country / region
 chart_outputs = {}

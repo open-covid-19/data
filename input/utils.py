@@ -117,6 +117,9 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
     else:
         data['CountryCode'] = code
 
+    # Add the key to each record
+    data['Key'] = data.apply(compute_record_key, axis=1)
+
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
 
@@ -232,7 +235,7 @@ def plot_forecast(fname: str, confirmed: pandas.Series, estimated: pandas.Series
 
 def compute_record_key(record: dict):
     ''' Outputs the primary key for a dataframe row '''
-    region_code = record['RegionCode']
+    region_code = record.get('RegionCode')
     country_code = record['CountryCode']
     key_suffix = '' if not region_code or pandas.isna(region_code) else '_%s' % region_code
     return country_code + key_suffix

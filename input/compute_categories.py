@@ -13,8 +13,6 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from the open COVID-19 dataset
 data = read_csv(ROOT / 'output' / 'data.csv')
-data['Confirmed'] = data['Confirmed'].astype(float)
-data['Deaths'] = data['Deaths'].astype(float)
 
 # Approximate numbers from early Chinese data
 severe_ratio = .15
