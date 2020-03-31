@@ -88,6 +88,7 @@ metadata.to_csv(ROOT / 'output' / 'metadata.csv')
 dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')
 
 # Compute the minimal version of the dataset without any metadata columns
-minimal = dataframe_add_key(data.copy())[['Confirmed', 'Deaths']]
+minimal = dataframe_add_key(data.copy())[['Date', 'Confirmed', 'Deaths']]
+minimal = minimal.reset_index().set_index(['Date', 'Key']).sort_index()
 minimal.to_csv(ROOT / 'output' / 'data_minimal.csv')
 dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
