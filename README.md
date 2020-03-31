@@ -88,9 +88,9 @@ GitHub file, the latter is subject to change at any moment. The columns of
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
 | **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | CN_HB |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
-| **CountryName** | American English name of the country | China |
+| **CountryName** | American English name of the country, subject to change | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
-| **RegionName** | (Optional) American English name of the region | Hubei |
+| **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
 | **Confirmed**\*\* | Total number of cases confirmed after positive test | 67800 |
 | **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 3139 |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
@@ -112,6 +112,12 @@ country-level data and the region-level data come from different sources so
 adding up all region-level values may not equal exactly to the reported
 country-level value. See the [data loading tutorial][7] for more information.
 
+The `CountryName` and `RegionName` values are subject to change. You may use
+them for labels in your application, but you should not assume that they will
+remain the same in future updates. Instead, use `CountryCode` and `RegionCode`
+to perform joins with other data sources or for filtering within your
+application.
+
 #### Metadata
 Non-temporal data related to countries and regions. The columns of
 [metadata.csv](https://open-covid-19.github.io/data/metadata.csv) are:
@@ -120,9 +126,9 @@ Non-temporal data related to countries and regions. The columns of
 | ---- | ----------- | ------- |
 | **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
-| **CountryName** | American English name of the country | China |
+| **CountryName** | American English name of the country, subject to change | China |
 | **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
-| **RegionName** | (Optional) American English name of the region | Hubei |
+| **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
 | **Population** | Total count of humans living in the region | TODO |
