@@ -81,14 +81,14 @@ dataframe_to_json(forecast, ROOT / 'output' / 'data_forecast.json', orient='reco
 dataframe_split(data, ('CountryCode', 'RegionCode'), ROOT, 'data')
 
 # Output the metadata file in CSV and JSON formats
-metadata = read_csv(ROOT / 'input' / 'metadata.csv').set_index('Key')
+metadata = read_csv(ROOT / 'input' / 'metadata.csv')
 metadata = metadata[[col for col in metadata.columns if not col.startswith('_')]]
 for col in metadata.columns: metadata[col] = series_converter(metadata[col])
-metadata.to_csv(ROOT / 'output' / 'metadata.csv')
+metadata.to_csv(ROOT / 'output' / 'metadata.csv', index=False)
 dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')
 
 # Compute the minimal version of the dataset without any metadata columns
 minimal = dataframe_add_key(data.copy())[['Date', 'Confirmed', 'Deaths']]
-minimal = minimal.reset_index().set_index(['Date', 'Key']).sort_index()
-minimal.to_csv(ROOT / 'output' / 'data_minimal.csv')
+minimal = minimal.reset_index().sort_values(['Date', 'Key'])
+minimal.to_csv(ROOT / 'output' / 'data_minimal.csv', index=False)
 dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
