@@ -31,8 +31,11 @@ curated by this project are:
 
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
-| Data | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
-| Forecast | [Latest](https://open-covid-19.github.io/data/forecast_latest.csv) | [Latest](https://open-covid-19.github.io/data/forecast_latest.json) |
+| [Data](#data) | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
+| [Metadata](#metadata) | [Latest](https://open-covid-19.github.io/data/metadata.csv) | [Latest](https://open-covid-19.github.io/data/metadata.json) |
+| [Minimal](#minimal) | [Latest](https://open-covid-19.github.io/data/data_minimal.csv) | [Latest](https://open-covid-19.github.io/data/data_minimal.json) |
+| [Forecast](#forecast) | [Latest](https://open-covid-19.github.io/data/data_forecast.csv) | [Latest](https://open-covid-19.github.io/data/data_forecast.json) |
+| [Categories](#categories) | [Latest](https://open-covid-19.github.io/data/data_categories.csv) | [Latest](https://open-covid-19.github.io/data/data_categories.json) |
 
 You can find several examples in the [examples subfolder](examples) with
 code showcasing of how to load and analyze the data for several programming
@@ -75,7 +78,9 @@ Invoke-WebRequest 'https://open-covid-19.github.io/data/data_latest.csv' | Conve
 ```
 
 ## Understand the data
-The columns of the main dataset are:
+
+#### Data
+The columns of [data.csv](https://open-covid-19.github.io/data/data.csv) are:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
@@ -105,6 +110,40 @@ country-level data and the region-level data come from different sources so
 adding up all region-level values may not equal exactly to the reported
 country-level value. See the [data loading tutorial][7] for more information.
 
+#### Metadata
+Non-temporal data related to countries and regions. The columns of
+[metadata.csv](https://open-covid-19.github.io/data/metadata.csv) are:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **CountryCode** | ISO 3166-1 code of the country | CN |
+| **CountryName** | American English name of the country | China |
+| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
+| **RegionName** | (Optional) American English name of the region | Hubei |
+| **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
+| **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
+| **Population** | Total count of humans living in the region | TODO |
+
+#### Minimal
+There is a [data_minimal.csv](https://open-covid-19.github.io/data/data_minimal.csv) with a subset
+of the columns from [data.csv](#data) but otherwise identical information:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **Confirmed**\*\* | Total number of cases confirmed after positive test | 6447 |
+| **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 133 |
+
+\*Date used is **reporting** date, which generally lags a day from the actual
+date and is subject to timezone adjustments. Whenever possible, dates
+consistent with the ECDC daily reports are used.
+
+\*\*Missing values will be represented as nulls, whereas zeroes are used when
+a true value of zero is reported. For example, US states where deaths are not
+being reported have null values.
+
 #### Forecasting
 There is also a short-term forecast dataset available in the output folder as
 [data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
@@ -114,10 +153,7 @@ which has the following columns:
 | ---- | ----------- | ------- |
 | **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint | 2020-03-21 |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
-| **CountryCode** | ISO 3166-1 code of the country | CN |
-| **CountryName** | American English name of the country | China |
-| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
-| **RegionName** | (Optional) American English name of the region | Hubei |
+| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 
@@ -141,18 +177,15 @@ which has the following columns:
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-27 |
-| **CountryCode** | ISO 3166-1 code of the country | AU |
-| **CountryName** | American English name of the country | Australia |
-| **RegionCode** | (Optional) ISO 3166-2 code of the region | NSW |
-| **RegionName** | (Optional) American English name of the region | New South Wales |
+| **Key** | Country code if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **NewCases** | Number of reported new cases from previous day | 186 |
 | **NewDeaths** | Number of reported new deaths from previous day | 0 |
-| **NewMild**\*\* | Number of estimated new mild cases from previous day | 148.80 |
-| **NewSevere**\*\* | Number of estimated new severe cases from previous day | 27.90 |
-| **NewCritical**\*\* | Number of estimated new critical cases from previous day | 9.30 |
-| **CurrentlyMild**\*\* | Number of estimated mild active cases at this date | 819.20 |
-| **CurrentlySevere**\*\* | Number of estimated severe active cases at this date | 190.80 |
-| **CurrentlyCritical**\*\* | Number of estimated critical active cases at this date | 66.40 |
+| **NewMild**\*\* | Number of estimated new mild cases from previous day | 148 |
+| **NewSevere**\*\* | Number of estimated new severe cases from previous day | 27 |
+| **NewCritical**\*\* | Number of estimated new critical cases from previous day | 9 |
+| **CurrentlyMild**\*\* | Number of estimated mild active cases at this date | 819 |
+| **CurrentlySevere**\*\* | Number of estimated severe active cases at this date | 190 |
+| **CurrentlyCritical**\*\* | Number of estimated critical active cases at this date | 66 |
 
 \*Date used is **reporting** date, which generally lags a day from the actual
 date and is subject to timezone adjustments. Whenever possible, dates

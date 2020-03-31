@@ -8,7 +8,8 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from utils import get_outbreak_mask, compute_forecast, series_converter
+from utils import \
+    compute_record_key, get_outbreak_mask, compute_forecast, series_converter, read_csv
 
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -18,32 +19,19 @@ PREDICT_WINDOW = 3
 DATAPOINT_COUNT = 14
 
 # Read data from the open COVID-19 dataset
-df = pd.read_csv(ROOT / 'output' / 'data.csv', dtype=str)
-df['Confirmed'] = df['Confirmed'].astype(float)
-df['Deaths'] = df['Deaths'].astype(float)
-df = df.set_index('Date')
+df = read_csv(ROOT / 'output' / 'data_minimal.csv').set_index('Date')
 
 # Create the output dataframe ahead, we will fill it one row at a time
-pivot_columns = ['CountryCode', 'CountryName', 'RegionCode', 'RegionName']
-df['_key'] = pd.Series([''.join([str(row[col]) for col in pivot_columns])
-                        for _, row in df.iterrows()], index=df.index, dtype='O')
-forecast_columns = ['_key', 'ForecastDate', 'Date'] + ['Estimated', 'Confirmed']
-df_forecast = pd.DataFrame(columns=forecast_columns).set_index(['_key', 'Date'])
-
-# Build a dataframe used to retrieve back the non-essential columns
-df_merge = []
-for key in df['_key'].unique():
-    df_ = df[df['_key'] == key]
-    df_merge.append({'_key': key, **{col: df_[col].iloc[0] or '' for col in pivot_columns}})
-df_merge = pd.DataFrame.from_records(df_merge).set_index('_key')
+forecast_columns = ['Key', 'ForecastDate', 'Date'] + ['Estimated', 'Confirmed']
+df_forecast = pd.DataFrame(columns=forecast_columns).set_index(['Key', 'Date'])
 
 # Loop through each unique combination of country / region
-for key in tqdm(df['_key'].unique()):
+for key in tqdm(df['Key'].unique()):
 
     # Filter dataset
-    cols = ['_key', 'Confirmed']
+    cols = ['Key', 'Confirmed']
     # Get data only for the selected country / region
-    subset = df[df['_key'] == key][cols]
+    subset = df[df['Key'] == key][cols]
     # Get data only after the outbreak begun
     subset = subset[get_outbreak_mask(subset)]
     # Early exit: no outbreak found
@@ -77,13 +65,10 @@ for key in tqdm(df['_key'].unique()):
         if idx in subset.index:
             df_forecast.loc[(key, idx), 'Confirmed'] = int(subset.loc[idx, 'Confirmed'])
 
-# Merge back with original data to get the rest of the columns
-df_forecast = df_forecast.reset_index().set_index('_key').join(df_merge, how='left')
-
 # Do data cleanup here
 data = df_forecast.reset_index()
-forecast_columns = ['ForecastDate', 'Date'] + pivot_columns + ['Estimated', 'Confirmed']
-data = data.sort_values(['_key', 'Date'])[forecast_columns]
+forecast_columns = ['ForecastDate', 'Date', 'Key', 'Estimated', 'Confirmed']
+data = data.sort_values(['Key', 'Date'])[forecast_columns]
 
 # Make sure the core columns have the right data type
 for col in data.columns: data[col] = series_converter(data[col])

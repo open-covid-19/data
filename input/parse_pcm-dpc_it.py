@@ -7,7 +7,10 @@ from datetime import datetime, timedelta
 
 import pandas
 
-from utils import parse_level_args, github_raw_dataframe, dataframe_output, merge_previous
+
+from utils import \
+    parse_level_args, github_raw_dataframe, github_raw_url, dataframe_output, merge_previous
+
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -16,9 +19,19 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 is_region = parse_level_args(sys.argv[1:]).level == 'region'
 
 if is_region:
-    df = github_raw_dataframe('pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json')
+    # df = github_raw_dataframe(
+    #     'pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json', orient='records')
+    # Temporary workaround for https://github.com/pcm-dpc/COVID-19/issues/455
+    import json
+    import requests
+    url = github_raw_url('pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json')
+    records = json.loads(requests.get(url).text)
+    records = [record for record in records if isinstance(record, dict)]
+    df = pandas.DataFrame.from_records(records)
+
 else:
-    df = github_raw_dataframe('pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-andamento-nazionale.json')
+    df = github_raw_dataframe(
+        'pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-andamento-nazionale.json', orient='records')
 
 df = df.rename(columns={
     'data': 'Date',
