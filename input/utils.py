@@ -32,7 +32,8 @@ COLUMN_DTYPES = {
     'Confirmed': 'Int64',
     'Deaths': 'Int64',
     'Latitude': str,
-    'Longitude': str
+    'Longitude': str,
+    'Population': 'Int64'
 }
 
 
@@ -116,9 +117,6 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
         data['RegionCode'] = None
     else:
         data['CountryCode'] = code
-
-    # Add the key to each record
-    data['Key'] = data.apply(compute_record_key, axis=1)
 
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = read_csv(root / 'input' / 'output_columns.csv').columns.tolist()

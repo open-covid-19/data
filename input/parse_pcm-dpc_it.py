@@ -19,16 +19,8 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 is_region = parse_level_args(sys.argv[1:]).level == 'region'
 
 if is_region:
-    # df = github_raw_dataframe(
-    #     'pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json', orient='records')
-    # Temporary workaround for https://github.com/pcm-dpc/COVID-19/issues/455
-    import json
-    import requests
-    url = github_raw_url('pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json')
-    records = json.loads(requests.get(url).text)
-    records = [record for record in records if isinstance(record, dict)]
-    df = pandas.DataFrame.from_records(records)
-
+    df = github_raw_dataframe(
+        'pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-regioni.json', orient='records')
 else:
     df = github_raw_dataframe(
         'pcm-dpc/COVID-19', 'dati-json/dpc-covid19-ita-andamento-nazionale.json', orient='records')

@@ -22,8 +22,8 @@ DATAPOINT_COUNT = 14
 df = read_csv(ROOT / 'output' / 'data.csv').set_index('Date')
 
 # Create the output dataframe ahead, we will fill it one row at a time
-forecast_columns = ['Key', 'ForecastDate', 'Date'] + ['Estimated', 'Confirmed']
-df_forecast = pd.DataFrame(columns=forecast_columns).set_index(['Key', 'Date'])
+forecast_columns = ['ForecastDate', 'Date', 'Key', 'Estimated', 'Confirmed']
+df_forecast = pd.DataFrame(columns=forecast_columns).set_index(['Date', 'Key'])
 
 # Loop through each unique combination of country / region
 for key in tqdm(df['Key'].unique()):
@@ -60,10 +60,10 @@ for key in tqdm(df['Key'].unique()):
 
     # Fill out the corresponding index in the output forecast
     for idx in forecast_data.index:
-        df_forecast.loc[(key, idx), 'ForecastDate'] = forecast_date
-        df_forecast.loc[(key, idx), 'Estimated'] = '%.03f' % forecast_data.loc[idx]
+        df_forecast.loc[(idx, key), 'ForecastDate'] = forecast_date
+        df_forecast.loc[(idx, key), 'Estimated'] = '%.03f' % forecast_data.loc[idx]
         if idx in subset.index:
-            df_forecast.loc[(key, idx), 'Confirmed'] = int(subset.loc[idx, 'Confirmed'])
+            df_forecast.loc[(idx, key), 'Confirmed'] = int(subset.loc[idx, 'Confirmed'])
 
 # Do data cleanup here
 data = df_forecast.reset_index()
