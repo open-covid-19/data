@@ -46,6 +46,7 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read the minimal data file and write to output
 minimal = read_csv(ROOT / 'output' / 'data.csv').sort_values(['Date', 'Key'])
+minimal = minimal[['Date', 'Key', 'Confirmed', 'Deaths']]
 minimal.to_csv(ROOT / 'output' / 'data_minimal.csv', index=False)
 dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
 
