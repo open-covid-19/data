@@ -20,7 +20,7 @@ from utils import dataframe_output
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read CSV file from URL
-df = pd.read_csv('https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/', encoding='latin-1')
+df = pd.read_csv('https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/', encoding='utf-8')
 
 # Ensure date field is used as a string
 df['dateRep'] = df['dateRep'].astype(str)
