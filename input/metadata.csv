@@ -192,6 +192,10 @@ FR_PDL,FR,France,PDL,Pays de la Loire,Pays de la Loire,47.763300,-0.330000,
 FR,FR,France,,,,46.227638,2.213749,65129728
 GA,GA,Gabon,,,,-0.803689,11.609444,2172579
 GB,GB,United Kingdom,,,,55.378051,-3.435973,67530172
+GB_ENG,GB,United Kingdom,ENG,England,England,51.500,-0.117,55977178
+GB_NIR,GB,United Kingdom,NIR,Northern Ireland,Northern Ireland,54.600,-5.917,1885400
+GB_SCT,GB,United Kingdom,SCT,Scotland,Scotland,55.95306,-3.18889,5424800
+GB_WLS,GB,United Kingdom,WLS,Wales,Wales,51.483,-3.183,3139000
 GD,GD,Grenada,,,,12.262776,-61.604171,112003
 GE,GE,Georgia,,,,42.315407,43.356892,3996765
 GF,GF,French Guiana,,,,3.933889,-53.125782,282731
