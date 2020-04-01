@@ -6,6 +6,7 @@ from pandas import DataFrame
 
 from utils import github_raw_dataframe, dataframe_output
 
+
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 

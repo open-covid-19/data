@@ -4,8 +4,8 @@ This repository contains datasets of historical data related to COVID-19.
 ## Explore the data
 |     |     |
 | --- | --- |
-| A simple visualization tool was built to explore the Open COVID-19 datasets, the [Open COVID-19 Explorer][12]: [![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12] | If you want to see [interactive charts with a unique UX][14], don't miss what [@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset: [![](https://i.imgur.com/eUn1quE.png)][14] |
-| You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/aLCjUXz.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/Nu54Nom.png)][15] |
+| A simple visualization tool was built to explore the Open COVID-19 datasets, the [Open COVID-19 Explorer][12]: [![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12] | If you want to see [interactive charts with a unique UX][14], don't miss what [@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset: [![](https://i.imgur.com/cIODOtp.png)][14] |
+| You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/aLCjUXz.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
 
 If you are using this data, feel free to open an issue and let us know so we can give you a
 call-out here.
@@ -209,7 +209,7 @@ backwards compatibility, but shouldn't be used in any new projects:
 | Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
 | Region-level Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
 | Region-level China | [DXY COVID-19 dataset][3] |
-| Region-level France | <https://github.com/opencovid19-fr/data> |
+| Region-level France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
 | Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
 | Region-level Portugal | <https://github.com/dssg-pt/covid19pt-data> |
 | Region-level United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
