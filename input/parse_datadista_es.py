@@ -1,16 +1,9 @@
 #!/usr/bin/env python
 
-import os
 import sys
-from pathlib import Path
 from datetime import datetime, timedelta
-
-import pandas
-
+from pandas import isna
 from utils import parse_level_args, github_raw_dataframe, dataframe_output, merge_previous
-
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # This script can parse both region-level and country-level data
 is_region = parse_level_args(sys.argv[1:]).level == 'region'
@@ -54,8 +47,8 @@ else:
 
 # Merge the new data with the existing data (prefer new data if duplicates)
 if not is_region:
-    filter_function = lambda row: row['CountryCode'] == 'ES' and pandas.isna(row['RegionCode'])
+    filter_function = lambda row: row['CountryCode'] == 'ES' and isna(row['RegionCode'])
     df = merge_previous(df, ['Date', 'CountryCode'], filter_function)
 
 # Output the results
-dataframe_output(df, ROOT, 'ES' if is_region else None)
+dataframe_output(df, 'ES' if is_region else None)

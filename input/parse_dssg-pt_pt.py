@@ -1,13 +1,9 @@
-import os
-from pathlib import Path
+#!/usr/bin/env python
+
 from datetime import datetime
-
 import pandas
-
 from utils import github_raw_dataframe, dataframe_output
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from GitHub repo
 df = github_raw_dataframe('dssg-pt/covid19pt-data', 'data.csv')
@@ -29,4 +25,4 @@ for region in regions:
 df = pandas.concat(subsets)
 
 # Output the results
-dataframe_output(df, ROOT, 'PT')
+dataframe_output(df, 'PT')

@@ -11,8 +11,7 @@ import os
 import sys
 import datetime
 from pathlib import Path
-import requests
-
+import pandas as pd
 from utils import github_raw_dataframe, dataframe_output, timezone_adjust
 
 # Root path of the project
@@ -81,4 +80,4 @@ df = df.reset_index().sort_values('Date')
 for column in ('Confirmed', 'Deaths'): df[column] = df[column].ffill()
 
 # Output the results
-dataframe_output(df, ROOT, 'world')
+dataframe_output(df, country_code)

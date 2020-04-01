@@ -5,19 +5,12 @@ This script loads the XLS file from argument and aggregates the data. It also
 extracts the last day of data into its own dataset.
 '''
 
-import os
 import sys
-
 from io import BytesIO
-from pathlib import Path
 from datetime import datetime
-
 import pandas as pd
-
 from utils import dataframe_output
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read CSV file from URL
 df = pd.read_csv('https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/', encoding='utf-8')
@@ -59,4 +52,4 @@ df['Deaths'] = df['Deaths'].fillna(0).astype(int)
 
 # Output the results
 df['RegionCode'] = None
-dataframe_output(df, ROOT)
+dataframe_output(df)

@@ -1,13 +1,11 @@
-import os
-from pathlib import Path
+#!/usr/bin/env python
+
 from datetime import datetime
-
 from pandas import DataFrame
-
 from utils import github_raw_dataframe, dataframe_output, merge_previous
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
+
+# Get JSON file from prod branch on Github
 df = github_raw_dataframe(
     'covid-19-au/covid-19-au.github.io', 'src/data/state.json', branch='prod').transpose()
 
@@ -24,4 +22,4 @@ for idx, row in df.iterrows():
 df = DataFrame.from_records(records)
 
 # Output the results
-dataframe_output(df, ROOT, 'AU')
+dataframe_output(df, 'AU')

@@ -1,19 +1,12 @@
 #!/usr/bin/env python
 
-import os
 import sys
 from pathlib import Path
 from datetime import datetime, timedelta
-
 import pandas
-
-
 from utils import \
     parse_level_args, github_raw_dataframe, github_raw_url, dataframe_output, merge_previous
 
-
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # This script can parse both region-level and country-level data
 is_region = parse_level_args(sys.argv[1:]).level == 'region'
@@ -55,4 +48,4 @@ if not is_region:
     df = merge_previous(df, ['Date', 'CountryCode'], filter_function)
 
 # Output the results
-dataframe_output(df, ROOT, 'IT' if is_region else None)
+dataframe_output(df, 'IT' if is_region else None)

@@ -1,14 +1,9 @@
-import os
-from pathlib import Path
+#!/usr/bin/env python
+
 from datetime import datetime
-
 from pandas import DataFrame
-
 from utils import github_raw_dataframe, dataframe_output
 
-
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from GitHub repo
 confirmed = github_raw_dataframe('elhenrico/covid19-Brazil-timeseries', 'confirmed-cases.csv')
@@ -31,4 +26,4 @@ for region_code in confirmed.index.unique():
 df = DataFrame.from_records(records)
 
 # Output the results
-dataframe_output(df, ROOT, 'BR')
+dataframe_output(df, 'BR')

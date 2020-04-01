@@ -1,3 +1,4 @@
+import os
 import re
 import sys
 from pathlib import Path
@@ -19,6 +20,9 @@ seaborn.set()
 
 # Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
 matplotlib.rcParams['svg.hashsalt'] = 0
+
+# Root path of the project
+ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Define constants
 URL_GITHUB_RAW = 'https://raw.githubusercontent.com'
@@ -106,7 +110,7 @@ def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function)
     return pandas.concat([prev_data, data], sort=False).reset_index()
 
 
-def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_merge: str = 'inner'):
+def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
     1. Sorts the dataset by date and country / region
@@ -119,10 +123,10 @@ def dataframe_output(data: DataFrame, root: Path, code: str = None, metadata_mer
         data['CountryCode'] = code
 
     # Core columns are those that appear in all datasets and can be used for merging with metadata
-    core_columns = read_csv(root / 'input' / 'output_columns.csv').columns.tolist()
+    core_columns = read_csv(ROOT / 'input' / 'output_columns.csv').columns.tolist()
 
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
-    metadata = read_csv(root / 'input' / 'metadata.csv')
+    metadata = read_csv(ROOT / 'input' / 'metadata.csv')
     # Fuzzy matching of the region label, to avoid character encoding issues or small changes
     if '_RegionLabel' in data.columns:
         fuzzy_text = lambda txt: re.sub(r'[^a-z]', '', unidecode(str(txt)).lower())

@@ -8,18 +8,12 @@ cases, deaths and total tests for each subregion in Germany.
 Credit to @jgehrcke + contributors for scraping the data.
 '''
 
-import os
 import sys
-from pathlib import Path
 from datetime import datetime
-
 from numpy import unique
 from pandas import DataFrame
-
 from utils import github_raw_dataframe, dataframe_output
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read CSV file from GitHub project
 df = github_raw_dataframe('jgehrcke/covid-19-germany-gae', 'data.csv')
@@ -47,4 +41,4 @@ for idx, row in df.iterrows():
 df = DataFrame.from_records(records)
 
 # Output the results
-dataframe_output(df, ROOT, 'DE')
+dataframe_output(df, 'DE')

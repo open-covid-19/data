@@ -1,15 +1,9 @@
-import os
-import sys
-from pathlib import Path
+#!/usr/bin/env python
+
 from datetime import datetime
-
 from pandas import DataFrame
-
 from utils import parse_level_args, github_raw_dataframe, dataframe_output, merge_previous
 
-
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Confirmed and deaths come from different CSV files, parse them separately first
 confirmed = github_raw_dataframe('cedricguadalupe/FRANCE-COVID-19', 'france_coronavirus_time_series-confirmed.csv')
@@ -32,4 +26,4 @@ df = df.sort_values(['Date', '_RegionLabel']).reset_index()
 df['Date'] = df['Date'].apply(lambda date: datetime.strptime(date, '%d/%m/%Y').date().isoformat())
 
 # Output the results
-dataframe_output(df, ROOT, 'FR')
+dataframe_output(df, 'FR')

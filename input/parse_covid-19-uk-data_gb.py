@@ -1,12 +1,8 @@
-import os
-from pathlib import Path
+#!/usr/bin/env python
 
 from pandas import DataFrame
-
 from utils import github_raw_dataframe, dataframe_output
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from GitHub repo
 df = github_raw_dataframe('tomwhite/covid-19-uk-data', 'data/covid-19-indicators-uk.csv')
@@ -23,4 +19,4 @@ df = DataFrame.from_records(records).rename(
     columns={'Country': '_RegionLabel', 'ConfirmedCases': 'Confirmed'})
 
 # Output the results
-dataframe_output(df, ROOT, 'GB')
+dataframe_output(df, 'GB')

@@ -7,15 +7,8 @@ and extracts the confirmed cases and deaths and for each region.
 Credit to the github.com/BlankerL team for scraping the data from DXY.cn.
 '''
 
-import os
-import datetime
-from pathlib import Path
-import requests
-
 from utils import github_raw_dataframe, dataframe_output, timezone_adjust
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read DXY CSV file from  website
 df = github_raw_dataframe('BlankerL/DXY-COVID-19-Data', 'csv/DXYArea.csv')
@@ -39,4 +32,4 @@ df = df[df['CountryName'] == 'China']
 df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'RegionName']).last().reset_index()
 
 # Output the results
-dataframe_output(df, ROOT, 'CN')
+dataframe_output(df, 'CN')

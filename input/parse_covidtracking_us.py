@@ -7,15 +7,10 @@ the confirmed cases, deaths and total tests for each state.
 Credit to the covidtracking.com team for scraping the data from each state.
 '''
 
-import os
 import sys
 import datetime
-from pathlib import Path
-
 from utils import github_raw_dataframe, dataframe_output
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read CSV file from covidtracking's GitHub project
 df = github_raw_dataframe(
@@ -35,4 +30,4 @@ df['Date'] = df['Date'].apply(
     lambda date: datetime.datetime.strptime(str(date), '%Y%m%d').date().isoformat())
 
 # Output the results
-dataframe_output(df, ROOT, 'US')
+dataframe_output(df, 'US')
