@@ -45,7 +45,7 @@ def dataframe_split(data: DataFrame, pivot_columns: list, root: Path, name: str)
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read the minimal data file and write to JSON output
-minimal = read_csv(ROOT / 'output' / 'minimal.csv').sort_values(['Date', 'Key'])
+minimal = read_csv(ROOT / 'output' / 'data_minimal.csv').sort_values(['Date', 'Key'])
 dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
 
 # Read the metadata file and write to output (including _latest)

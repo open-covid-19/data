@@ -10,7 +10,7 @@ rm -rf "$BASE_DIR"/../output/*.csv "$BASE_DIR"/../output/*.json
 
 # Run all fetch scripts from the input folder
 TMP_FILE=`mktemp`
-OUT_FILE="$BASE_DIR/../output/minimal.csv"
+OUT_FILE="$BASE_DIR/../output/data_minimal.csv"
 cat "$BASE_DIR/output_columns.csv" > $OUT_FILE
 FETCH_SCRIPT_LIST="$BASE_DIR/fetch_data_*.sh"
 for FETCH_SCRIPT in $FETCH_SCRIPT_LIST; do

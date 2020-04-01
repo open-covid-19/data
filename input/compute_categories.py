@@ -13,7 +13,7 @@ from utils import read_csv, series_converter
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from the open COVID-19 dataset
-data = read_csv(ROOT / 'output' / 'minimal.csv')
+data = read_csv(ROOT / 'output' / 'data_minimal.csv')
 
 # Approximate numbers from early Chinese data
 severe_ratio = .15
