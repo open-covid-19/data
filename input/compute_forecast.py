@@ -19,7 +19,7 @@ PREDICT_WINDOW = 3
 DATAPOINT_COUNT = 14
 
 # Read data from the open COVID-19 dataset
-df = read_csv(ROOT / 'output' / 'data.csv').set_index('Date')
+df = read_csv(ROOT / 'output' / 'minimal.csv').set_index('Date')
 
 # Create the output dataframe ahead, we will fill it one row at a time
 forecast_columns = ['ForecastDate', 'Date', 'Key', 'Estimated', 'Confirmed']

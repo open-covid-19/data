@@ -44,10 +44,8 @@ def dataframe_split(data: DataFrame, pivot_columns: list, root: Path, name: str)
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
-# Read the minimal data file and write to output
-minimal = read_csv(ROOT / 'output' / 'data.csv').sort_values(['Date', 'Key'])
-minimal = minimal[['Date', 'Key', 'Confirmed', 'Deaths']]
-minimal.to_csv(ROOT / 'output' / 'data_minimal.csv', index=False)
+# Read the minimal data file and write to JSON output
+minimal = read_csv(ROOT / 'output' / 'minimal.csv').sort_values(['Date', 'Key'])
 dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
 
 # Read the metadata file and write to output (including _latest)
@@ -58,6 +56,19 @@ dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')
 
 # Merge minimal with the metadata file to create full file and write to output
 full = minimal.merge(metadata).sort_values(['Date', 'Key'])
+full = full[[
+    'Date',
+    'Key',
+    'CountryCode',
+    'CountryName',
+    'RegionCode',
+    'RegionName',
+    'Confirmed',
+    'Deaths',
+    'Latitude',
+    'Longitude',
+    'Population',
+]]
 dataframe_split(full, ('CountryCode', 'RegionCode'), ROOT, 'data')
 
 # Backwards compatibility: China dataset and Region -> RegionName
@@ -80,9 +91,13 @@ world = world[[col for col in world.columns if 'Region' not in col]]
 dataframe_split(world, ('CountryCode',), ROOT, 'world')
 
 # Read forecast file and output JSON format
-forecast = read_csv(ROOT / 'output' / 'data_forecast.csv')
-dataframe_to_json(forecast, ROOT / 'output' / 'data_forecast.json', orient='records')
+forecast_path = ROOT / 'output' / 'data_forecast.csv'
+if forecast_path.exists():
+    forecast = read_csv(forecast_path)
+    dataframe_to_json(forecast, str(forecast_path).replace('csv', 'json'), orient='records')
 
 # Read categories file and output JSON format
-forecast = read_csv(ROOT / 'output' / 'data_categories.csv')
-dataframe_to_json(forecast, ROOT / 'output' / 'data_categories.json', orient='records')
+categories_path = ROOT / 'output' / 'data_categories.csv'
+if categories_path.exists():
+    categories = read_csv(categories_path)
+    dataframe_to_json(categories, str(categories_path).replace('csv', 'json'), orient='records')
