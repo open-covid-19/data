@@ -2,21 +2,10 @@
 This repository contains datasets of historical data related to COVID-19.
 
 ## Explore the data
-A simple visualization tool was built to explore the Open COVID-19 datasets:
-The [Open COVID-19 Explorer][12].
-
-[![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12]
-
-If you want to see interactive charts with a unique UX, don't miss what
-[@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset:
-<http://www.starlords3k.com/covid19.php>.
-
-[![](https://i.imgur.com/eUn1quE.png)](http://www.starlords3k.com/covid19.php)
-
-You can also check out the great work of [@quixote79](https://github.com/quixote79),
-[a MapBox-powered interactive map site][13]:
-
-[![](https://i.imgur.com/aLCjUXz.png)][13]
+|     |     |
+| --- | --- |
+| A simple visualization tool was built to explore the Open COVID-19 datasets, the [Open COVID-19 Explorer][12]: [![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12] | If you want to see [interactive charts with a unique UX][14], don't miss what [@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset: [![](https://i.imgur.com/eUn1quE.png)][14] |
+| You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/aLCjUXz.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/Nu54Nom.png)][15] |
 
 If you are using this data, feel free to open an issue and let us know so we can give you a
 call-out here.
@@ -269,3 +258,5 @@ sh input/update_data.sh
 [11]: https://github.com/datadista/datasets/tree/master/COVID%2019
 [12]: https://open-covid-19.github.io/explorer
 [13]: https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/lrb24g5cc1c15ja/COVID-19_Dataset.json
+[14]: http://www.starlords3k.com/covid19.php
+[15]: https://kiksu.net/covid-19/
