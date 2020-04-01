@@ -84,5 +84,5 @@ forecast = read_csv(ROOT / 'output' / 'data_forecast.csv')
 dataframe_to_json(forecast, ROOT / 'output' / 'data_forecast.json', orient='records')
 
 # Read categories file and output JSON format
-forecast = read_csv(ROOT / 'output' / 'data_forecast.csv')
-dataframe_to_json(forecast, ROOT / 'output' / 'data_forecast.json', orient='records')
+forecast = read_csv(ROOT / 'output' / 'data_categories.csv')
+dataframe_to_json(forecast, ROOT / 'output' / 'data_categories.json', orient='records')

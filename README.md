@@ -26,16 +26,16 @@ The data is available as CSV and JSON files, which are published in Github
 Pages so they can be served directly to Javascript applications without the
 need of a proxy to set the correct headers for CORS and content type. Some
 datasets have a version with all historical data, and another version with only
-the latest daily data. Some only have the latest data available. The datasets
-curated by this project are:
+the latest daily data. Some only have the one or the other available. Th
+datasets available from this project are:
 
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
 | [Data](#data) | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
+| [Minimal](#minimal) | [Historical](https://open-covid-19.github.io/data/data_minimal.csv) | [Historical](https://open-covid-19.github.io/data/data_minimal.json) |
 | [Metadata](#metadata) | [Latest](https://open-covid-19.github.io/data/metadata.csv) | [Latest](https://open-covid-19.github.io/data/metadata.json) |
-| [Minimal](#minimal) | [Latest](https://open-covid-19.github.io/data/data_minimal.csv) | [Latest](https://open-covid-19.github.io/data/data_minimal.json) |
 | [Forecast](#forecast) | [Latest](https://open-covid-19.github.io/data/data_forecast.csv) | [Latest](https://open-covid-19.github.io/data/data_forecast.json) |
-| [Categories](#categories) | [Latest](https://open-covid-19.github.io/data/data_categories.csv) | [Latest](https://open-covid-19.github.io/data/data_categories.json) |
+| [Categories](#categories) | [Historical](https://open-covid-19.github.io/data/data_categories.csv) | [Historical](https://open-covid-19.github.io/data/data_categories.json) |
 
 You can find several examples in the [examples subfolder](examples) with
 code showcasing of how to load and analyze the data for several programming
