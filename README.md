@@ -222,6 +222,7 @@ backwards compatibility, but shouldn't be used in any new projects:
 | Region-level China | [DXY COVID-19 dataset][3] |
 | Region-level France | <https://github.com/opencovid19-fr/data> |
 | Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
+| Region-level Portugal | <https://github.com/dssg-pt/covid19pt-data> |
 | Region-level United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
 | Region-level USA | [COVID Tracking Project][9] |
 
