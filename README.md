@@ -214,14 +214,15 @@ backwards compatibility, but shouldn't be used in any new projects:
 | Data | Source |
 | ---- | ------ |
 | Country-level worldwide | Daily reports from the [ECDC portal][2] |
-| Region-level China | [DXY COVID-19 dataset][3] |
-| Region-level USA | [COVID Tracking Project][9] |
 | Region-level Australia | <https://covid-19-au.github.io> |
-| Region-level France | <https://github.com/opencovid19-fr/data> |
-| Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
 | Country and region-level Italy | [Italy's Department of Civil Protection][10] |
 | Country and region-level Spain | [Datadista COVID-19 dataset][11] |
 | Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
+| Region-level Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
+| Region-level China | [DXY COVID-19 dataset][3] |
+| Region-level France | <https://github.com/opencovid19-fr/data> |
+| Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
+| Region-level USA | [COVID Tracking Project][9] |
 
 The data is automatically scraped and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
