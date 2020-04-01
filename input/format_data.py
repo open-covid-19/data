@@ -57,7 +57,7 @@ metadata.to_csv(ROOT / 'output' / 'metadata.csv', index=False)
 dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')
 
 # Merge minimal with the metadata file to create full file and write to output
-full = minimal.merge(metadata)
+full = minimal.merge(metadata).sort_values(['Date', 'Key'])
 dataframe_split(full, ('CountryCode', 'RegionCode'), ROOT, 'data')
 
 # Backwards compatibility: China dataset and Region -> RegionName

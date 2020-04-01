@@ -36,6 +36,33 @@ BM,BM,Bermuda,,,,32.321384,-64.757370,62506
 BN,BN,Brunei,,,,4.535277,114.727669,433285
 BO,BO,Bolivia,,,,-16.290154,-63.588653,11513100
 BR,BR,Brazil,,,,-14.235004,-51.925280,211049527
+BR_AC,BR,Brazil,AC,Acre,Acre,-9.183333,-70.866667,881935
+BR_AL,BR,Brazil,AL,Alagoas,Alagoas,-9.57,-36.55,3337357
+BR_AM,BR,Brazil,AM,Amazonas,Amazonas,-5.0,-63.0,4144597
+BR_BA,BR,Brazil,BA,Bahia,Bahia,-12.0,-41.0,14873064
+BR_AP,BR,Brazil,AP,Amapá,Amapá,1.0,-52.0,845731
+BR_CE,BR,Brazil,CE,Ceará,Ceará,-5.08,-39.65,9132078
+BR_DF,BR,Brazil,DF,Distrito Federal,Distrito Federal,-15.795,-47.757778,3015268
+BR_ES,BR,Brazil,ES,Espirito Santo,Espirito Santo,-20.266667,-40.283333,4018650
+BR_GO,BR,Brazil,GO,Goiás,Goiás,-15.933,-50.133,7018354
+BR_MA,BR,Brazil,MA,Maranhão,Maranhão,-6.183,-45.617,7075181
+BR_MG,BR,Brazil,MG,Minas Gerais,Minas Gerais,-19.817,-43.950,21168791
+BR_MS,BR,Brazil,MS,Mato Grosso do Sul,Mato Grosso do Sul,-20.44278,-54.64583,2778986
+BR_MT,BR,Brazil,MT,Mato Grosso,Mato Grosso,-15.567,-56.067,3484466
+BR_PA,BR,Brazil,PA,Pará,Pará,-5.667,-52.733,8602865
+BR_PB,BR,Brazil,PB,Paraíba,Paraíba,-7.167,-36.833,4018127
+BR_PE,BR,Brazil,PE,Pernambuco,Pernambuco,-8.333,-37.800,9557071
+BR_PI,BR,Brazil,PI,Piauí,Piauí,-8.233,-43.100,3273227
+BR_PR,BR,Brazil,PR,Paraná,Paraná,-24.000,-51.000,11433957
+BR_RJ,BR,Brazil,RJ,Rio de Janeiro,Rio de Janeiro,-22.900,-43.200,17264943
+BR_RN,BR,Brazil,RN,Rio Grande do Norte,Rio Grande do Norte,-5.74,-36.55,3506853
+BR_RO,BR,Brazil,RO,Rondônia,Rondônia,-10.90,-62.76,1777225
+BR_RR,BR,Brazil,RR,Roraima,Roraima,-2.050,-61.400,605761
+BR_RS,BR,Brazil,RS,Rio Grande do Sul,Rio Grande do Sul,-30.0,-53.0,11286500
+BR_SC,BR,Brazil,SC,Santa Catarina,Santa Catarina,-27.250,-50.333,6727000
+BR_SE,BR,Brazil,SE,Sergipe,Sergipe,-10.56,-37.36,2298696
+BR_SP,BR,Brazil,SP,São Paulo,São Paulo,-23.533,-46.633,45919049
+BR_TO,BR,Brazil,TO,Tocantins,Tocantins,-10.183,-48.333,1572866
 BS,BS,Bahamas,,,,25.034280,-77.396280,389482
 BT,BT,Bhutan,,,,27.514162,90.433601,763092
 BV,BV,Bouvet Island,,,,-54.423199,3.413194,
