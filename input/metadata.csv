@@ -351,6 +351,81 @@ RE,RE,Réunion,,,,-21.115141,55.536384,888927
 RO,RO,Romania,,,,45.943161,24.966760,19364557
 RS,RS,Serbia,,,,44.016521,21.005859,8772235
 RU,RU,Russia,,,,61.524010,105.318756,145872256
+RU_BEL,RU,Russia,BEL,Belgorod Oblast,Belgorod Oblast,50.767,37.450,1549876
+RU_BRY,RU,Russia,BRY,Bryansk Oblast,Bryansk Oblast,52.950,33.400,1210982
+RU_IVA,RU,Russia,IVA,Ivanovo Oblast,Ivanovo Oblast,57.017,41.517,1014646
+RU_KLU,RU,Russia,KLU,Kaluga Oblast,Kaluga Oblast,54.433,35.433,1012156
+RU_KOS,RU,Russia,KOS,Kostroma Oblast,Kostroma Oblast,58.550,43.683,643324
+RU_KRS,RU,Russia,KRS,Kursk Oblast,Kursk Oblast,51.750,36.017,1115237
+RU_LIP,RU,Russia,LIP,Lipetsk Oblast,Lipetsk Oblast,52.700,39.150,1150201
+RU_MOS,RU,Russia,MOS,Moscow Oblast,Moscow Oblast,55.700,36.967,7503385
+RU_ORL,RU,Russia,ORL,Oryol Oblast,Oryol Oblast,52.850,36.433,747247
+RU_RYA,RU,Russia,RYA,Ryazan Oblast,Ryazan Oblast,54.400,40.600,1121474
+RU_SMO,RU,Russia,SMO,Smolensk Oblast,Smolensk Oblast,55.000,33.000,949348
+RU_TAM,RU,Russia,TAM,Tambov Oblast,Tambov Oblast,52.717,41.567,1033552
+RU_TUL,RU,Russia,TUL,Tula Oblast,Tula Oblast,53.917,37.583,1491855
+RU_TVE,RU,Russia,TVE,Tver Oblast,Tver Oblast,57.150,34.617,1283873
+RU_VLA,RU,Russia,VLA,Vladimir Oblast,Vladimir Oblast,56.083,40.617,1378337
+RU_VOR,RU,Russia,VOR,Voronezh Oblast,Voronezh Oblast,51.050,40.150,2333768
+RU_YAR,RU,Russia,YAR,Yaroslavl Oblast,Yaroslavl Oblast,57.867,39.200,1265684
+RU_MOW,RU,Russia,MOW,Moscow,Moscow,55.75583,37.61722,12506468
+RU_KO,RU,Russia,KO,Komi Republic,Komi Republic,64.283,54.467,840873
+RU_ARK,RU,Russia,ARK,Arkhangelsk Oblast,Arkhangelsk Oblast,63.500,43.000,1155028
+RU_KGD,RU,Russia,KGD,Kaliningrad Oblast,Kaliningrad Oblast,54.800,21.417,994599
+RU_LEN,RU,Russia,LEN,Leningrad Oblast,Leningrad Oblast,60.050,31.750,1813816
+RU_MUR,RU,Russia,MUR,Murmansk Oblast,Murmansk Oblast,68.033,34.567,753557
+RU_NGR,RU,Russia,NGR,Novgorod Oblast,Novgorod Oblast,58.433,32.383,606476
+RU_PSK,RU,Russia,PSK,Pskov Oblast,Pskov Oblast,57.317,29.250,636546
+RU_VLG,RU,Russia,VLG,Vologda Oblast,Vologda Oblast,60.083,40.450,1176689
+RU_SPE,RU,Russia,SPE,Saint Petersburg,Saint Petersburg,59.93750,30.30861,5351935
+RU_AD,RU,Russia,AD,Adygea,Adygea,44.650,40.000,453376
+UA_43,RU,Russia,43,Republic of Crimea,Republic of Crimea,45.400,35.300,1913731
+RU_KL,RU,Russia,KL,Kalmykia,Kalmykia,46.567,45.317,275413
+RU_KDA,RU,Russia,KDA,Krasnodar Krai,Krasnodar Krai,45.367,39.433,5603420
+RU_AST,RU,Russia,AST,Astrakhan Oblast,Astrakhan Oblast,47.233,47.233,1017514
+RU_ROS,RU,Russia,ROS,Rostov Oblast,Rostov Oblast,47.867,41.183,4220452
+RU_VGG,RU,Russia,VGG,Volgograd Oblast,Volgograd Oblast,49.733,44.117,2521276
+UA-40,RU,Russia,40,Sevastopol,Sevastopol,44.6,33.5333,
+RU_CE,RU,Russia,CE,Chechnya,Chechnya,43.400,45.717,1436981
+RU_DA,RU,Russia,DA,Dagestan,Dagestan,43.100,46.883,3063885
+RU_KB,RU,Russia,KB,Kabardino-Balkaria,Kabardino-Balkaria,43.583,43.400,865828
+RU_SE,RU,Russia,SE,North Ossetia-Alania,North Ossetia-Alania,43.183,44.233,701765
+RU_STA,RU,Russia,STA,Stavropol Krai,Stavropol Krai,45.050,43.267,2800674
+RU_BA,RU,Russia,BA,Bashkortostan,Bashkortostan,54.467,56.267,4063293
+RU_CU,RU,Russia,CU,Chuvashia,Chuvashia,55.550,47.100,1231117
+RU_ME,RU,Russia,ME,Mari El,Mari El,56.700,47.867,682333
+RU_MO,RU,Russia,MO,Mordovia,Mordovia,54.433,44.450,805056
+RU_TA,RU,Russia,TA,Tatarstan[a],Tatarstan[a],55.550,50.933,3894284
+RU_UD,RU,Russia,UD,Udmurtia,Udmurtia,57.283,52.750,1513044
+RU_PER,RU,Russia,PER,Perm Krai,Perm Krai,59.233,56.133,2623122
+RU_KIR,RU,Russia,KIR,Kirov Oblast,Kirov Oblast,58.767,49.833,1283238
+RU_NIZ,RU,Russia,NIZ,Nizhny Novgorod Oblast,Nizhny Novgorod Oblast,56.483,44.533,3234752
+RU_ORE,RU,Russia,ORE,Orenburg Oblast,Orenburg Oblast,52.133,55.600,1977720
+RU_PNZ,RU,Russia,PNZ,Penza Oblast,Penza Oblast,53.250,44.567,1331655
+RU_SAM,RU,Russia,SAM,Samara Oblast,Samara Oblast,53.450,50.450,3193514
+RU_SAR,RU,Russia,SAR,Saratov Oblast,Saratov Oblast,51.783,46.733,2462950
+RU_ULY,RU,Russia,ULY,Ulyanovsk Oblast,Ulyanovsk Oblast,53.950,47.917,1246618
+RU_CHE,RU,Russia,CHE,Chelyabinsk Oblast,Chelyabinsk Oblast,54.533,60.333,3493036
+RU_KGN,RU,Russia,KGN,Kurgan Oblast,Kurgan Oblast,55.567,64.750,845537
+RU_SVE,RU,Russia,SVE,Sverdlovsk Oblast,Sverdlovsk Oblast,58.700,61.333,4325256
+RU_TYU,RU,Russia,TYU,Tyumen Oblast,Tyumen Oblast,57.833,69.000,3692400
+RU_KHM,RU,Russia,KHM,Khanty-Mansi AO,Khanty-Mansi AO,62.250,70.167,
+RU_KK,RU,Russia,KK,Khakassia,Khakassia,53.500,90.000,537513
+RU_ALT,RU,Russia,ALT,Altai Krai,Altai Krai,52.767,82.617,2350080
+RU_KYA,RU,Russia,KYA,Krasnoyarsk Krai,Krasnoyarsk Krai,59.883,91.667,2876497
+RU_IRK,RU,Russia,IRK,Irkutsk Oblast,Irkutsk Oblast,57.367,106.000,2404195
+RU_KEM,RU,Russia,KEM,Kemerovo Oblast,Kemerovo Oblast,54.933,87.233,2694877
+RU_NVS,RU,Russia,NVS,Novosibirsk Oblast,Novosibirsk Oblast,55.450,79.550,2788849
+RU_OMS,RU,Russia,OMS,Omsk Oblast,Omsk Oblast,56.217,73.267,1960081
+RU_TOM,RU,Russia,TOM,Tomsk Oblast,Tomsk Oblast,58.750,82.133,1078280
+RU_BU,RU,Russia,BU,Buryatia,Buryatia,53.800,109.333,984511
+RU_SA,RU,Russia,SA,Yakutia,Yakutia,66.400,129.167,964330
+RU_KHA,RU,Russia,KHA,Khabarovsk Krai,Khabarovsk Krai,54.800,136.833,1328302
+RU_PRI,RU,Russia,PRI,Primorsky Krai,Primorsky Krai,45.333,134.667,1913037
+RU_ZAB,RU,Russia,ZAB,Zabaykalsky Krai,Zabaykalsky Krai,54.000,118.000,1072806
+RU_AMU,RU,Russia,AMU,Amur Oblast,Amur Oblast,53.550,127.833,798424
+RU_MAG,RU,Russia,MAG,Magadan Oblast,Magadan Oblast,62.900,153.700,144091
+RU_SAK,RU,Russia,SAK,Sakhalin Oblast,Sakhalin Oblast,50.550,142.600,490181
 RW,RW,Rwanda,,,,-1.940278,29.873888,12626950
 SA,SA,Saudi Arabia,,,,23.885942,45.079162,34268528
 SB,SB,Solomon Islands,,,,-9.645710,160.156194,669823

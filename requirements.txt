@@ -1,3 +1,4 @@
+beautifulsoup4==4.8.2
 pandas==1.0.3
 Scrapy==2.0.0
 xlrd==1.2.0
