@@ -5,7 +5,7 @@ This repository contains datasets of historical data related to COVID-19.
 |     |     |
 | --- | --- |
 | A simple visualization tool was built to explore the Open COVID-19 datasets, the [Open COVID-19 Explorer][12]: [![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12] | If you want to see [interactive charts with a unique UX][14], don't miss what [@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset: [![](https://i.imgur.com/cIODOtp.png)][14] |
-| You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/aLCjUXz.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
+| You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/nFwxJId.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
 
 If you are using this data, feel free to open an issue and let us know so we can give you a
 call-out here.
@@ -78,7 +78,7 @@ GitHub file, the latter is subject to change at any moment. The columns of
 | **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | CN_HB |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country, subject to change | China |
-| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
+| **RegionCode** | (Optional) ISO 3166-2 or NUTS 2 code of the region | HB |
 | **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
 | **Confirmed**\*\* | Total number of cases confirmed after positive test | 67800 |
 | **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 3139 |
@@ -116,7 +116,7 @@ Non-temporal data related to countries and regions. The columns of
 | **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
 | **CountryCode** | ISO 3166-1 code of the country | CN |
 | **CountryName** | American English name of the country, subject to change | China |
-| **RegionCode** | (Optional) ISO 3166-2 code of the region | HB |
+| **RegionCode** | (Optional) ISO 3166-2 or NUTS 2 code of the region | HB |
 | **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
