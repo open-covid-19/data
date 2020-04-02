@@ -5,8 +5,14 @@ set -xe
 
 BASE_DIR=`dirname "$0"`
 
+# TMP: Avoid deleting the old data.csv file in case someone was using it
+mv "$BASE_DIR"/../output/data.csv "$BASE_DIR"/../output/data.csv.bak
+
 # Delete all prior data from output folder
 rm -rf "$BASE_DIR"/../output/*.csv "$BASE_DIR"/../output/*.json
+
+# TMP: Avoid deleting the old data.csv file in case someone was using it
+mv "$BASE_DIR"/../output/data.csv.bak "$BASE_DIR"/../output/data.csv
 
 # Run all fetch scripts from the input folder
 TMP_FILE=`mktemp`
@@ -19,6 +25,3 @@ done
 
 # Aggregate all outputs into a single CSV file
 sort -u $TMP_FILE >> $OUT_FILE
-
-# TMP: Avoid deleting the old data.csv file in case someone was using it
-python "$BASE_DIR"/format_data.py

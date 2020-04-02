@@ -7,16 +7,16 @@ This repository contains datasets of historical data related to COVID-19.
 | A simple visualization tool was built to explore the Open COVID-19 datasets, the [Open COVID-19 Explorer][12]: [![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12] | If you want to see [interactive charts with a unique UX][14], don't miss what [@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset: [![](https://i.imgur.com/cIODOtp.png)][14] |
 | You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/nFwxJId.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
 
-If you are using this data, feel free to open an issue and let us know so we can give you a
-call-out here.
+If you are using this data, feel free to open an issue and let us know so we
+can give you a call-out here.
 
 ## Use the data
 The data is available as CSV and JSON files, which are published in Github
 Pages so they can be served directly to Javascript applications without the
-need of a proxy to set the correct headers for CORS and content type. Some
-datasets have a version with all historical data, and another version with only
-the latest daily data. Some only have the one or the other available. Th
-datasets available from this project are:
+need of a proxy to set the correct headers for CORS and content type.
+`data.csv` has a version with all historical data, and another version with
+only the latest daily data. All other datasets only have either historical or
+the latest data. The datasets available from this project are:
 
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
@@ -26,8 +26,12 @@ datasets available from this project are:
 | [Forecast](#forecast) | [Latest](https://open-covid-19.github.io/data/data_forecast.csv) | [Latest](https://open-covid-19.github.io/data/data_forecast.json) |
 | [Categories](#categories) | [Historical](https://open-covid-19.github.io/data/data_categories.csv) | [Historical](https://open-covid-19.github.io/data/data_categories.json) |
 
+You should use the files linked above instead of anything in the `output`
+subfolder via the Raw Github server, since the files under the `output`
+subfolder are subject to change in incompatible ways with no prior notice.
+
 You can find several examples in the [examples subfolder](examples) with
-code showcasing of how to load and analyze the data for several programming
+code showcasing how to load and analyze the data for several programming
 environments. If you want the short version, here are a few snippets to get
 started.
 
@@ -47,14 +51,14 @@ In Python, you need to have the package `pandas` installed to get
 started:
 ```python
 import pandas
-data = pandas.read_csv('https://open-covid-19.github.io/data/data.csv')
+data = pandas.read_csv("https://open-covid-19.github.io/data/data.csv")
 ```
 
 #### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
 this code snippet loads all historical data into the `data` variable:
 ```javascript
-$.getJSON(`https://open-covid-19.github.io/data/data.json`, data => { ... }
+$.getJSON("https://open-covid-19.github.io/data/data.json", data => { ... }
 ```
 
 #### Powershell
@@ -213,6 +217,7 @@ backwards compatibility, but shouldn't be used in any new projects:
 | Region-level France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
 | Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
 | Region-level Portugal | <https://github.com/dssg-pt/covid19pt-data> |
+| Region-level Russia | <https://wikipedia.org> |
 | Region-level United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
 | Region-level USA | [COVID Tracking Project][9] |
 
