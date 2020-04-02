@@ -208,6 +208,7 @@ backwards compatibility, but shouldn't be used in any new projects:
 | Country and region-level Spain | [Datadista COVID-19 dataset][11] |
 | Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
 | Region-level Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
+| Region-level Canada | [Department of Health Canada][16] |
 | Region-level China | [DXY COVID-19 dataset][3] |
 | Region-level France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
 | Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
@@ -260,3 +261,4 @@ sh input/update_data.sh
 [13]: https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/lrb24g5cc1c15ja/COVID-19_Dataset.json
 [14]: http://www.starlords3k.com/covid19.php
 [15]: https://kiksu.net/covid-19/
+[16]: https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html

@@ -70,6 +70,19 @@ BW,BW,Botswana,,,,-22.328474,24.684866,2303697
 BY,BY,Belarus,,,,53.709807,27.953389,9452411
 BZ,BZ,Belize,,,,17.189877,-88.497650,390353
 CA,CA,Canada,,,,56.130366,-106.346771,37411047
+CA_AB,CA,Canada,AB,Alberta,Alberta,53.9333,-116.5765,4413146
+CA_BC,CA,Canada,BC,British Columbia,British Columbia,49.2827,-123.1207,5110917
+CA_MB,CA,Canada,MB,Manitoba,Manitoba,53.7609,-98.8139,1377517
+CA_NB,CA,Canada,NB,New Brunswick,New Brunswick,46.5653,-66.4619,779993
+CA_NL,CA,Canada,NL,Newfoundland and Labrador,Newfoundland and Labrador,53.1355,-57.6604,521365
+CA_NS,CA,Canada,NS,Nova Scotia,Nova Scotia,44.682,-63.7443,977457
+CA_NT,CA,Canada,NT,Northwest Territories,Northwest Territories,64.8255,-124.8457,44904
+CA_NU,CA,Canada,NU,Nunavut,Nunavut,73.0,-91.0,39097
+CA_ON,CA,Canada,ON,Ontario,Ontario,51.2538,-85.3232,14711827
+CA_PE,CA,Canada,PE,Prince Edward Island,Prince Edward Island,46.5107,-63.4168,158158
+CA_QC,CA,Canada,QC,Quebec,Quebec,52.9399,-73.5491,8537674
+CA_SK,CA,Canada,SK,Saskatchewan,Saskatchewan,52.9399,-106.4509,1181666
+CA_YT,CA,Canada,YT,Yukon,Yukon,64.2823,-135.0,41078
 CC,CC,Cocos Islands,,,,-12.164165,96.870956,
 CD,CD,Democratic Republic of the Congo,,,,-4.038333,21.758664,86790567
 CF,CF,Central African Republic,,,,6.611111,20.939444,4745185
