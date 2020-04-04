@@ -88,7 +88,7 @@ GitHub file, the latter is subject to change at any moment. The columns of
 | **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 3139 |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
-| **Population** | Total count of humans living in the region | TODO |
+| **Population** | Total count of humans living in the region | 58500000 |
 
 \*Date used is **reporting** date, which generally lags a day from the actual
 date and is subject to timezone adjustments. Whenever possible, dates
@@ -124,7 +124,7 @@ Non-temporal data related to countries and regions. The columns of
 | **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
 | **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
-| **Population** | Total count of humans living in the region | TODO |
+| **Population** | Total count of humans living in the region | 58500000 |
 
 #### Minimal
 There is a [data_minimal.csv](https://open-covid-19.github.io/data/data_minimal.csv) with a subset
