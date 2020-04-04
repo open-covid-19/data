@@ -206,17 +206,17 @@ backwards compatibility, but shouldn't be used in any new projects:
 ## Sources of data
 | Data | Source |
 | ---- | ------ |
+| Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
 | Country-level worldwide | Daily reports from the [ECDC portal][2] |
+| Region-level Argentina, India, Pakistan, Russia | [Wikipedia](https://wikipedia.org) |
 | Region-level Australia | <https://covid-19-au.github.io> |
 | Country and region-level Italy | [Italy's Department of Civil Protection][10] |
 | Country and region-level Spain | [Datadista COVID-19 dataset][11] |
-| Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
 | Region-level Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
 | Region-level Canada | [Department of Health Canada][16] |
 | Region-level China | [DXY COVID-19 dataset][3] |
 | Region-level France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
 | Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
-| Region-level India, Russia | [Wikipedia](https://wikipedia.org) |
 | Region-level Portugal | <https://github.com/dssg-pt/covid19pt-data> |
 | Region-level United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
 | Region-level USA | [COVID Tracking Project][9] |

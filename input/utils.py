@@ -131,11 +131,13 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
 
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
     metadata = read_csv(ROOT / 'input' / 'metadata.csv')
+
     # Fuzzy matching of the region label, to avoid character encoding issues or small changes
     if '_RegionLabel' in data.columns:
         fuzzy_text = lambda txt: re.sub(r'[^a-z]', '', unidecode(str(txt)).lower())
         data['_RegionLabel'] = data['_RegionLabel'].apply(fuzzy_text)
         metadata['_RegionLabel'] = metadata['_RegionLabel'].apply(fuzzy_text)
+
     # Merge with metadata from appropriate helper dataset
     data = data.merge(metadata, how=metadata_merge)
 
@@ -243,13 +245,13 @@ def compute_record_key(record: dict):
     return country_code + key_suffix
 
 
-def pivot_table(data: DataFrame):
+def pivot_table(data: DataFrame, pivot_name: str = 'Pivot'):
     ''' Put a table in our preferred format when the regions are columns and date is index '''
     dates = data.index.tolist() * len(data.columns)
-    regions = sum([[region] * len(data) for region in data.columns], [])
+    pivots = sum([[pivot] * len(data) for pivot in data.columns], [])
     values = sum([data[region].tolist() for region in data.columns], [])
-    records = zip(dates, regions, values)
-    return DataFrame.from_records(records, columns=['Date', '_RegionLabel', 'Value'])
+    records = zip(dates, pivots, values)
+    return DataFrame.from_records(records, columns=['Date', pivot_name, 'Value'])
 
 
 def _get_html_columns(row: Tag) -> List[Tag]:
@@ -261,6 +263,10 @@ def _get_html_columns(row: Tag) -> List[Tag]:
 
 def _default_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
     return cell.get_text().strip()
+
+
+def wiki_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
+    return re.sub(r'\[.+\]', '', cell.get_text().strip())
 
 
 def read_html(

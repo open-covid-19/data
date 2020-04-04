@@ -5,16 +5,16 @@ from datetime import datetime
 from utils import read_html, wiki_html_cell_parser, pivot_table, safe_int_cast, dataframe_output
 
 
-article_path = 'https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data/Pakistan_medical_cases'
+article_path = 'https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data/Argentina_medical_cases'
 data = read_html(article_path, parser=wiki_html_cell_parser, table_index=0, skiprows=1, header=True)
-data = data.set_index(data.columns[0]).iloc[:-4]
-data = data[[col for col in data.columns[:7]]]
-data = data.drop(['February', 'April'])
+data = data.set_index(data.columns[0]).iloc[:-1]
+data = data[[col for col in data.columns[:21]]]
+data = data.drop(['Date'])
 
 df = pivot_table(data)
 
 df['Date'] = df['Date'] + ' %d' % datetime.now().year
-df['Date'] = df['Date'].apply(lambda date: datetime.strptime(date, '%b %d %Y'))
+df['Date'] = df['Date'].apply(lambda date: datetime.strptime(date, '%d %b %Y'))
 df['Date'] = df['Date'].apply(lambda date: date.date().isoformat())
 
 df['Confirmed'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[0]))
@@ -28,8 +28,5 @@ for region in df['Pivot'].unique():
     mask = df['Pivot'] == region
     df.loc[mask, ffill_columns] = df.loc[mask, ffill_columns].ffill()
 
-# Unfortunately we don't have deaths data
-df['Deaths'] = None
-
 # Output the results
-dataframe_output(df.rename(columns={'Pivot': 'RegionName'}), 'PK')
+dataframe_output(df.rename(columns={'Pivot': 'RegionName'}), 'AR')
