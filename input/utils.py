@@ -4,9 +4,13 @@ import sys
 from pathlib import Path
 from argparse import ArgumentParser
 from datetime import date, datetime, timedelta
+from typing import List, Dict
 
 import numpy
 import pandas
+import requests
+from bs4.element import Tag
+from bs4 import BeautifulSoup
 from pandas import DataFrame
 from scipy import optimize
 from unidecode import unidecode
@@ -48,10 +52,10 @@ def parse_level_args(args: list = sys.argv[1:]):
     return parser.parse_args(args)
 
 
-
 def read_csv(path: str, **kwargs):
     return pandas.read_csv(
         path, dtype=COLUMN_DTYPES, keep_default_na=False, na_values=[''], **kwargs)
+
 
 def github_raw_url(project: str, path: str, branch: str = 'master') -> str:
     ''' Get the absolute URL of a file hosted on GitHub using the GitHub Raw URL format '''
@@ -237,3 +241,67 @@ def compute_record_key(record: dict):
     country_code = record['CountryCode']
     key_suffix = '' if not region_code or pandas.isna(region_code) else '_%s' % region_code
     return country_code + key_suffix
+
+
+def pivot_table(data: DataFrame):
+    ''' Put a table in our preferred format when the regions are columns and date is index '''
+    dates = data.index.tolist() * len(data.columns)
+    regions = sum([[region] * len(data) for region in data.columns], [])
+    values = sum([data[region].tolist() for region in data.columns], [])
+    records = zip(dates, regions, values)
+    return DataFrame.from_records(records, columns=['Date', '_RegionLabel', 'Value'])
+
+
+def _get_html_columns(row: Tag) -> List[Tag]:
+    cols = []
+    for elem in filter(lambda row: isinstance(row, Tag), row.children):
+        cols += [elem] * int(elem.attrs.get('colspan', 1))
+    return list(cols)
+
+
+def _default_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
+    return cell.get_text().strip()
+
+
+def read_html(
+    url: str,
+    selector: str = 'table',
+    table_index: int = 0,
+    skiprows: int = 0,
+    header: bool = False,
+    parser = None) -> DataFrame:
+    ''' Parse a website's table into a DataFrame '''
+    parser = parser if parser is not None else _default_html_cell_parser
+
+    # Fetch table and read its rows
+    article = BeautifulSoup(requests.get(url).content, 'lxml')
+    table = article.select(selector)[table_index]
+    rows = [_get_html_columns(row) for row in table.find_all('tr')]
+
+    # Adjust for rowspan > 1
+    for idx_row, row in enumerate(rows):
+        for idx_cell, cell in enumerate(row):
+            rowspan = int(cell.attrs.get('rowspan', 1))
+            cell.attrs['rowspan'] = 1  # reset to prevent cascading
+            for offset in range(1, rowspan):
+                rows[idx_row + offset].insert(idx_cell, cell)
+
+    # Get text within table cells and build dataframe
+    records = []
+    for row_idx, row in enumerate(rows[skiprows:]):
+        records.append([parser(elem, row_idx, col_idx) for col_idx, elem in enumerate(row)])
+    data = DataFrame.from_records(records)
+
+    # Parse header if requested
+    if header:
+        data.columns = data.iloc[0]
+        data = data.drop(data.index[0])
+
+    return data
+
+
+def safe_int_cast(value):
+    try:
+        return int(value)
+    except:
+        return None

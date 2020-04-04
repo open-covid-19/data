@@ -238,6 +238,43 @@ IE,IE,Ireland,,,,53.412910,-8.243890,4882495
 IL,IL,Israel,,,,31.046051,34.851612,8519377
 IM,IM,Isle of Man,,,,54.236107,-4.548056,84584
 IN,IN,India,,,,20.593684,78.962880,1366417754
+IN_AN,IN,India,AN,Andaman and Nicobar Islands,Andaman and Nicobar Islands,11.68,92.77,380520
+IN_AP,IN,India,AP,Andhra Pradesh,Andhra Pradesh,16.50,80.64,49386799
+IN_AR,IN,India,AR,Arunachal Pradesh,Arunachal Pradesh,27.06,93.37,1382611
+IN_AS,IN,India,AS,Assam,Assam,26.14,91.77,31169272
+IN_BR,IN,India,BR,Bihar,Bihar,25.4,85.1,104099452
+IN_CH,IN,India,CH,Chandigarh,Chandigarh,30.75,76.78,1055450
+IN_CT,IN,India,CT,Chhattisgarh,Chhattisgarh,21.25,81.60,25545198
+IN_DD,IN,India,DD,Daman and Diu,Daman and Diu,20.42,72.85,242911
+IN_DL,IN,India,DL,Delhi,Delhi,28.61000,77.23000,26454000
+IN_DN,IN,India,DN,Dadra and Nagar Haveli,Dadra and Nagar Haveli,20.27,73.02,342853
+IN_GA,IN,India,GA,Goa,Goa,15.50,73.83,1458545
+IN_GJ,IN,India,GJ,Gujarat,Gujarat,23.217,72.683,60439692
+IN_HP,IN,India,HP,Himachal Pradesh,Himachal Pradesh,31.10333,77.17222,6864602
+IN_HR,IN,India,HR,Haryana,Haryana,30.73,76.78,25353081
+IN_JH,IN,India,JH,Jharkhand,Jharkhand,23.35,85.33,32988134
+IN_JK,IN,India,JK,Jammu and Kashmir,Jammu and Kashmir,32.73,74.87,12258433
+IN_KA,IN,India,KA,Karnataka,Karnataka,12.97,77.50,61130704
+IN_KL,IN,India,KL,Kerala,Kerala,8.5,77,33387677
+IN_LA,IN,India,LA,Ladakh,Ladakh,34.17,77.58,274289
+IN_LD,IN,India,LD,Lakshadweep,Lakshadweep,10.6,72.6,70365
+IN_MH,IN,India,MH,Maharashtra,Maharashtra,18.97,72.820,112374333
+IN_MN,IN,India,MN,Manipur,Manipur,2855794,2855794
+IN_ML,IN,India,ML,Meghalaya,Meghalaya,25.57,91.88,2964007
+IN_MZ,IN,India,MZ,Mizoram,Mizoram,23.36,92.8,1091014
+IN_MP,IN,India,MP,Madhya Pradesh,Madhya Pradesh,23.25,77.417,
+IN_NL,IN,India,NL,Nagaland,Nagaland,25.67,94.12,1980602
+IN_OR,IN,India,OR,Odisha,Odisha,20.27,85.82,45989232
+IN_PB,IN,India,PB,Punjab,Punjab,30.79,75.84,27743338
+IN_PY,IN,India,PY,Puducherry,Puducherry,11.911082,79.812533,1394467
+IN_RJ,IN,India,RJ,Rajasthan,Rajasthan,26.6,73.8,68548437
+IN_SK,IN,India,SK,Sikkim,Sikkim,27.33,88.62,610577
+IN_TN,IN,India,TN,Tamil Nadu,Tamil Nadu,13.09,80.27,72147030
+IN_UP,IN,India,UP,Uttar Pradesh,Uttar Pradesh,26.85,80.91,199812341
+IN_UT,IN,India,UT,Uttarakhand,Uttarakhand,30.33,78.06,10086292
+IN_TG,IN,India,TG,Telangana,Telangana,17.366,78.475,35193978
+IN_TR,IN,India,TR,Tripura,Tripura,23.84,91.28,3671032
+IN_WB,IN,India,WB,West Bengal,West Bengal,22.567,88.367,91347736
 IO,IO,British Indian Ocean Territory,,,,-6.343194,71.876519,
 IQ,IQ,Iraq,,,,33.223191,43.679291,39309783
 IR,IR,Iran,,,,32.427908,53.688046,82913906
