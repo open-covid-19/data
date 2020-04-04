@@ -368,6 +368,13 @@ PF,PF,French Polynesia,,,,-17.679742,-149.406843,279287
 PG,PG,Papua New Guinea,,,,-6.314993,143.955550,8776109
 PH,PH,Philippines,,,,12.879721,121.774017,108116615
 PK,PK,Pakistan,,,,30.375321,69.345116,216565318
+PK_BA,PK,Pakistan,BA,Balochistan,Balochistan,27.7,65.7,12344408
+PK_GB,PK,Pakistan,GB,Gilgit-Baltistan,Gilgit-Baltistan,35.35,75.9,1249000
+PK_IS,PK,Pakistan,IS,Islamabad Capital Territory,Islamabad,33.7375,73.1475,2006572
+PK_JK,PK,Pakistan,JK,Azad Kashmir,Azad Kashmir,33.84333,73.85139,4045000
+PK_KP,PK,Pakistan,KP,Khyber Pakhtunkhwa,Khyber Pakhtunkhwa,34.0,71.32,35525047
+PK_PB,PK,Pakistan,PB,Punjab,Punjab,31.0,72.0,110012442
+PK_SD,PK,Pakistan,SD,Sindh,Sindh,26.350,68.850,47886051
 PL,PL,Poland,,,,51.919438,19.145136,37887768
 PM,PM,Saint Pierre and Miquelon,,,,46.941936,-56.271110,5822
 PN,PN,Pitcairn Islands,,,,-24.703615,-127.439308,

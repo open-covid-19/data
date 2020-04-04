@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import re
 from datetime import datetime
 from utils import read_html, pivot_table, safe_int_cast, dataframe_output
 
@@ -15,6 +16,7 @@ df['Date'] = df['Date'] + ' %d' % datetime.now().year
 df['Date'] = df['Date'].apply(lambda date: datetime.strptime(date, '%d %b %Y'))
 df['Date'] = df['Date'].apply(lambda date: date.date().isoformat())
 
+df['Value'] = df['Value'].apply(lambda x: re.sub(r'\[.+\]', '', x))
 df['Confirmed'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[0]))
 df['Deaths'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[1][:-1] if '(' in x else None))
 
@@ -27,9 +29,6 @@ for region in df['_RegionLabel'].unique():
 
 # Unfortunately we don't have deaths data
 df['Deaths'] = None
-
-# Reindex and sort the data
-df = df.sort_values(['Date', '_RegionLabel'])
 
 # Output the results
 dataframe_output(df, 'RU')
