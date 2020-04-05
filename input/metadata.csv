@@ -286,6 +286,13 @@ HR,HR,Croatia,,,,45.100000,15.200000,4130304
 HT,HT,Haiti,,,,18.971187,-72.285215,11263770
 HU,HU,Hungary,,,,47.162494,19.503304,9684679
 ID,ID,Indonesia,,,,-0.789275,113.921327,270625568
+ID_JW,ID,Indonesia,JW,Java,,-7.49167,110.00444,145000000
+ID_KA,ID,Indonesia,KA,Kalimantan,,1.0,114.0,15894524
+ID_ML,ID,Indonesia,ML,Maluku Islands,,-3.15,129.383,2844131
+ID_NU,ID,Indonesia,NU,Lesser Sunda Islands,,-9.0,120.0,14686127
+ID_PP,ID,Indonesia,PP,Western New Guinea,,-4.0,136.0,4363869
+ID_SL,ID,Indonesia,SL,Sulawesi,,-2.0,121.0,19573800
+ID_SM,ID,Indonesia,SM,Sumatra,,0.0,102.0,58455800
 IE,IE,Ireland,,,,53.412910,-8.243890,4882495
 IL,IL,Israel,,,,31.046051,34.851612,8519377
 IM,IM,Isle of Man,,,,54.236107,-4.548056,84584
@@ -620,6 +627,30 @@ UZ,UZ,Uzbekistan,,,,41.377491,64.585262,32981716
 VA,VA,Vatican City,,,,41.902916,12.453389,799
 VC,VC,Saint Vincent and the Grenadines,,,,12.984305,-61.287228,110589
 VE,VE,Venezuela,,,,6.423750,-66.589730,28515829
+VE_A,VE,Venezuela,A,Capital District,,10.473056,-66.995556,2097400
+VE_B,VE,Venezuela,B,Anzoátegui,,10.067,-64.717,1469747
+VE_C,VE,Venezuela,C,Apure,,7.900,-67.467,459025
+VE_D,VE,Venezuela,D,Aragua,,10.250,-67.600,1630308
+VE_E,VE,Venezuela,E,Barinas,,8.633,-70.200,816264
+VE_F,VE,Venezuela,F,Bolívar,,8.12194,-63.55000,1410964
+VE_G,VE,Venezuela,G,Carabobo,,10.193,-67.980,2245744
+VE_H,VE,Venezuela,H,Cojedes,,9.36,-68.32,323165
+VE_I,VE,Venezuela,I,Falcón,,10.05,-60.8,902847
+VE_J,VE,Venezuela,J,Guárico,,8.70,-66.61,747739
+VE_K,VE,Venezuela,K,Lara,,10.07,-69.86,2019211
+VE_L,VE,Venezuela,L,Mérida,,8.48,-71.19,828592
+VE_M,VE,Venezuela,M,Miranda,,10.28,-66.33,3222374
+VE_N,VE,Venezuela,N,Monagas,,9.43,-63.08,905443
+VE_O,VE,Venezuela,O,Nueva Esparta,,10.95,-64.01,491610
+VE_P,VE,Venezuela,P,Portuguesa,,9.11,-69.28,1012781
+VE_R,VE,Venezuela,R,Sucre,,10.64556,-63.03889,896921
+VE_S,VE,Venezuela,S,Táchira,,7.94,-72.12,1168908
+VE_T,VE,Venezuela,T,Trujillo,,9.417,-70.500,686367
+VE_U,VE,Venezuela,U,Yaracuy,,10.31,-68.71,600852
+VE_V,VE,Venezuela,V,Zulia,,9.84,-72.25,5125579
+VE_X,VE,Venezuela,X,Vargas,,10.572,-66.88,352920
+VE_Y,VE,Venezuela,Y,Delta Amacuro,,10.050,-60.800,167676
+VE_Z,VE,Venezuela,Z,Amazonas,,3.500,-66.000,146480
 VG,VG,British Virgin Islands,,,,18.420695,-64.639968,30030
 VI,VI,United States Virgin Islands,,,,18.335765,-64.896335,
 VN,VN,Vietnam,,,,14.058324,108.277199,96462106

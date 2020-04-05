@@ -9,7 +9,7 @@ from utils import \
     dataframe_output, ROOT
 
 
-# Number of columns to get extra data to avoid missing any regions
+# Number of columns to skip from the end of the table
 EXTRA_COLUMN_COUNT = 2
 
 # Parse arguments
@@ -27,8 +27,6 @@ args = parser.parse_args(sys.argv[1:])
 # Get country name from metadata
 metadata = read_csv(ROOT / 'input' / 'metadata.csv')
 country_name = metadata.set_index('CountryCode').loc[args.code, 'CountryName'].iloc[0]
-regions = metadata[(metadata['CountryCode'] == args.code) & (~metadata['RegionCode'].isna())]
-region_count = len(regions)
 
 # Fetch the table from the Wikipedia article
 url_base = 'https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data'
@@ -36,18 +34,18 @@ url_article = '%s/%s_medical_cases' % (url_base, country_name)
 data = read_html(
     url_article,
     header=True,
+    selector='table.wikitable',
     parser=wiki_html_cell_parser,
     table_index=args.table_index,
     skiprows=args.skip_head)
 data = data.set_index(data.columns[0]).iloc[:-args.skip_tail]
-# We should only get <region_count> columns but the first few may be bogus
-data = data[[col for col in data.columns[:region_count + EXTRA_COLUMN_COUNT]]]
-data = data.loc[:, ~data.columns.duplicated()]
+data = data[[col for col in data.columns[:-EXTRA_COLUMN_COUNT]]]
 if args.drop_rows is not None:
     data = data.drop(args.drop_rows.split(','))
 
 # Pivot the table to fit our preferred format
 df = pivot_table(data, pivot_name='RegionName')
+df = df[~df['RegionName'].isna()]
 
 # Make sure all dates include year
 date_format = args.date_format
@@ -68,6 +66,7 @@ df['Deaths'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[1][:-1] if
 
 df = df.sort_values(['Date', 'RegionName']).drop(columns=['Value'])
 
+# Aggregate the values region by region
 value_columns = ['Confirmed', 'Deaths']
 for region in df['RegionName'].unique():
     mask = df['RegionName'] == region

@@ -268,8 +268,8 @@ def compute_record_key(record: dict):
 def pivot_table(data: DataFrame, pivot_name: str = 'Pivot'):
     ''' Put a table in our preferred format when the regions are columns and date is index '''
     dates = data.index.tolist() * len(data.columns)
-    pivots = sum([[pivot] * len(data) for pivot in data.columns], [])
-    values = sum([data[region].tolist() for region in data.columns], [])
+    pivots = sum([[name] * len(column) for name, column in data.iteritems()], [])
+    values = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
     return DataFrame.from_records(records, columns=['Date', pivot_name, 'Value'])
 

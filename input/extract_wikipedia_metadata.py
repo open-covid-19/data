@@ -7,12 +7,13 @@ import requests
 from tqdm import tqdm
 from bs4 import BeautifulSoup
 
-from utils import read_html
+from utils import read_csv, read_html, ROOT
 
 
 # %%
-country_code = 'RU'
-country_name = 'Russia'
+country_code = sys.argv[1]
+metadata = read_csv(ROOT / 'input' / 'metadata.csv')
+country_name = metadata.loc[metadata['CountryCode'] == country_code, 'CountryName'].iloc[0]
 
 url = 'https://en.wikipedia.org/wiki/ISO_3166-2:' + country_code
 def cell_parser(elem, row_idx, col_idx):
@@ -22,12 +23,9 @@ def cell_parser(elem, row_idx, col_idx):
         return elem.get_text().strip()
 
 data = read_html(url, table_index=0, header=True, parser=cell_parser)
-url_col = '/wiki/English_language'
-# url_col = '/wiki/Spanish_language'
-# url_col = '/wiki/Russian_language'
+url_col = list(filter(lambda x: re.match(r'/wiki/.+_language', x), data.columns))[0]
 data[url_col] = 'https://en.wikipedia.org' + data[url_col]
 data['Code'] = data['Code'].apply(lambda x: x[3:])
-data = data.iloc[1:]
 data
 
 
