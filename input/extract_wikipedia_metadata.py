@@ -4,25 +4,31 @@ import re
 import sys
 import pandas
 import requests
-from bs4 import BeautifulSoup
 from tqdm import tqdm
+from bs4 import BeautifulSoup
+
+from utils import read_html
 
 
 # %%
-BASE_URL = 'https://en.wikipedia.org'
-def fetch_url(path: str, base: str = BASE_URL):
-    return BeautifulSoup(requests.get(BASE_URL + path).content, 'lxml')
+country_code = 'RU'
+country_name = 'Russia'
 
+url = 'https://en.wikipedia.org/wiki/ISO_3166-2:' + country_code
+def cell_parser(elem, row_idx, col_idx):
+    try:
+        return elem.find('a').attrs['href']
+    except Exception as exc:
+        return elem.get_text().strip()
 
-# %%
-path_table = '/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/Russia_medical_cases'
-table = fetch_url(path_table).find_all('table', {'class': 'wikitable'})[1]
-
-
-# %%
-header = table.find_all('tr')[1]
-region_names = list(map(lambda elem: elem.get_text().strip(), header.find_all('th', {'class': 'unsortable'})))
-links = list(map(lambda elem: elem.find('a').attrs['href'], header.find_all('th', {'class': 'unsortable'})))
+data = read_html(url, table_index=0, header=True, parser=cell_parser)
+url_col = '/wiki/English_language'
+# url_col = '/wiki/Spanish_language'
+# url_col = '/wiki/Russian_language'
+data[url_col] = 'https://en.wikipedia.org' + data[url_col]
+data['Code'] = data['Code'].apply(lambda x: x[3:])
+data = data.iloc[1:]
+data
 
 
 # %%
@@ -34,37 +40,32 @@ def extract_coords(soup):
     return {'Latitude': lat, 'Longitude': lon}
 
 
-# %%
-def extract_ISO3166(soup):
-    sibling = soup.find_all('a', {'title': 'ISO 3166'})[0]
-    code = list(sibling.parents)[1].find_all('td')[0].get_text().strip().split('-')[-1]
-    return {'RegionCode': code}
-
-
-# %%
 def extract_population(soup):
-    sibling = list(filter(lambda elem: 'Estimate' in elem.get_text(), soup.find_all('th')))[0]
+    sibling = list(filter(lambda elem: 'Total' in elem.get_text(), soup.find_all('th')))[1]
     population = list(sibling.parents)[0].find_all('td')[0].get_text().strip().split(' ')[0]
     population = re.sub(r',', '', population)
     return {'Population': population}
 
 
-# %%
+#%%
 records = []
-for name, link in tqdm(zip(region_names, links), total=len(region_names)):
-    soup = fetch_url(link)
-    record = {'RegionName': name}
-    for extractor in (extract_ISO3166, extract_coords, extract_population):
+for code, url in tqdm(zip(data['Code'], data[url_col]), total=len(data)):
+    soup = BeautifulSoup(requests.get(url).content, 'lxml')
+    record = {
+        'Key': country_code + '_' + code,
+        'RegionCode': code,
+        'RegionName': soup.select_one('h1#firstHeading').get_text().strip().split(', %s' % country_name)[0],
+    }
+    for extractor in (extract_coords, extract_population):
         try: record = {**record, **extractor(soup)}
         except: pass
     records.append(record)
 metadata = pandas.DataFrame.from_records(records)
 
-
 # %%
-metadata['CountryCode'] = 'RU'
-metadata['CountryName'] = 'Russia'
-metadata['_RegionLabel'] = metadata['RegionName']
+metadata['CountryCode'] = country_code
+metadata['CountryName'] = country_name
+metadata['_RegionLabel'] = None
 metadata['Key'] = metadata['CountryCode'] + '_' + metadata['RegionCode']
 metadata = metadata[[
     'Key',
@@ -77,6 +78,4 @@ metadata = metadata[[
     'Longitude',
     'Population']]
 
-metadata.to_csv(sys.stdout, index=False)
-
-
+metadata.sort_values('Key').to_csv(sys.stdout, index=False)
