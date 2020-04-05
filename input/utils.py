@@ -311,3 +311,10 @@ def safe_int_cast(value):
         return int(value)
     except:
         return None
+
+
+def safe_datetime_parse(value: str, date_format: str):
+    try:
+        return datetime.strptime(value, date_format)
+    except:
+        return None
