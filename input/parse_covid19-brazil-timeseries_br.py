@@ -22,7 +22,7 @@ for region_code in confirmed.index.unique():
             'Date': date,
             'RegionCode': region_code,
             'Confirmed': confirmed.loc[region_code, col],
-            'Deaths': confirmed.loc[region_code, col]})
+            'Deaths': deaths.loc[region_code, col]})
 df = DataFrame.from_records(records)
 
 # Output the results
