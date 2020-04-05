@@ -51,5 +51,4 @@ df['Confirmed'] = df['Confirmed'].fillna(0).astype(int)
 df['Deaths'] = df['Deaths'].fillna(0).astype(int)
 
 # Output the results
-df['RegionCode'] = None
 dataframe_output(df)

@@ -9,6 +9,9 @@ from utils import \
     dataframe_output, ROOT
 
 
+# Number of columns to get extra data to avoid missing any regions
+EXTRA_COLUMN_COUNT = 2
+
 # Parse arguments
 parser = ArgumentParser()
 parser.add_argument('code', type=str)
@@ -37,7 +40,8 @@ data = read_html(
     table_index=args.table_index,
     skiprows=args.skip_head)
 data = data.set_index(data.columns[0]).iloc[:-args.skip_tail]
-data = data[[col for col in data.columns[:region_count]]]
+# We should only get <region_count> columns but the first few may be bogus
+data = data[[col for col in data.columns[:region_count + EXTRA_COLUMN_COUNT]]]
 data = data.loc[:, ~data.columns.duplicated()]
 if args.drop_rows is not None:
     data = data.drop(args.drop_rows.split(','))

@@ -11,7 +11,7 @@ import pandas
 import requests
 from bs4.element import Tag
 from bs4 import BeautifulSoup
-from pandas import DataFrame
+from pandas import DataFrame, Series
 from scipy import optimize
 from unidecode import unidecode
 
@@ -114,6 +114,18 @@ def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function)
     return pandas.concat([prev_data, data], sort=False).reset_index()
 
 
+def _make_fuzzy(text: str):
+    return re.sub(r'[^a-z]', '', unidecode(str(text)).lower())
+
+
+def _infer_region_label(row: Series):
+    if '_RegionLabel' in row and not pandas.isna(row['_RegionLabel']):
+        return _make_fuzzy(row['_RegionLabel'])
+    elif 'RegionName' in row and not pandas.isna(row['RegionName']):
+        return _make_fuzzy(row['RegionName'])
+    else:
+        return None
+
 def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
@@ -126,20 +138,28 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
     else:
         data['CountryCode'] = code
 
+    # We should always have country code column
+    assert 'CountryCode' in data.columns
+
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = read_csv(ROOT / 'input' / 'output_columns.csv').columns.tolist()
 
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
     metadata = read_csv(ROOT / 'input' / 'metadata.csv')
 
-    # Fuzzy matching of the region label, to avoid character encoding issues or small changes
-    if '_RegionLabel' in data.columns:
-        fuzzy_text = lambda txt: re.sub(r'[^a-z]', '', unidecode(str(txt)).lower())
-        data['_RegionLabel'] = data['_RegionLabel'].apply(fuzzy_text)
-        metadata['_RegionLabel'] = metadata['_RegionLabel'].apply(fuzzy_text)
+    # Make sure _RegionLabel column exists for all region-label data
+    if code is not None:
+        data['_RegionLabel'] = data.apply(_infer_region_label, axis=1)
+        metadata['_RegionLabel'] = metadata.apply(_infer_region_label, axis=1)
 
-    # Merge with metadata from appropriate helper dataset
-    data = data.merge(metadata, how=metadata_merge)
+    # Try to merge with metadata using keys in decreasing order of concreteness
+    merge_keys = ['Date', 'CountryCode', 'Confirmed', 'Deaths']
+    for key in ('Key', 'RegionCode', '_RegionLabel'):
+        if key in data.columns:
+            data_ = data[[key] + merge_keys].merge(metadata, how=metadata_merge)
+            if len(data_) > 0:
+                data = data_
+                break
 
     # Preserve the order of the core columns and ensure records are sorted
     data = data[core_columns].sort_values(core_columns)
