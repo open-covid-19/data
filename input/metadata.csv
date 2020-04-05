@@ -288,9 +288,9 @@ HU,HU,Hungary,,,,47.162494,19.503304,9684679
 ID,ID,Indonesia,,,,-0.789275,113.921327,270625568
 ID_JW,ID,Indonesia,JW,Java,,-7.49167,110.00444,145000000
 ID_KA,ID,Indonesia,KA,Kalimantan,,1.0,114.0,15894524
-ID_ML,ID,Indonesia,ML,Maluku Islands,,-3.15,129.383,2844131
-ID_NU,ID,Indonesia,NU,Lesser Sunda Islands,,-9.0,120.0,14686127
-ID_PP,ID,Indonesia,PP,Western New Guinea,,-4.0,136.0,4363869
+ID_ML,ID,Indonesia,ML,Maluku Islands,Maluku,-3.15,129.383,2844131
+ID_NU,ID,Indonesia,NU,Lesser Sunda Islands,Lesser Sunda,-9.0,120.0,14686127
+ID_PP,ID,Indonesia,PP,Western New Guinea,W.N. Guinea,-4.0,136.0,4363869
 ID_SL,ID,Indonesia,SL,Sulawesi,,-2.0,121.0,19573800
 ID_SM,ID,Indonesia,SM,Sumatra,,0.0,102.0,58455800
 IE,IE,Ireland,,,,53.412910,-8.243890,4882495

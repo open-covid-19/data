@@ -1,9 +1,16 @@
 #!/usr/bin/env python
 
+'''
+This script is used to parse a table from Wikipedia for COVID-19 pandemic data.
+It is able to handle repeated date rows by ignoring all but the first instance,
+and repeated columns by adding all elements with the same column name.
+'''
+
 import re
 import sys
 from datetime import datetime
 from argparse import ArgumentParser
+from pandas import isna, isnull, DataFrame
 from utils import \
     read_csv, read_html, wiki_html_cell_parser, pivot_table, safe_datetime_parse, safe_int_cast, \
     dataframe_output, ROOT
@@ -39,9 +46,12 @@ data = read_html(
     table_index=args.table_index,
     skiprows=args.skip_head)
 data = data.set_index(data.columns[0]).iloc[:-args.skip_tail]
-data = data[[col for col in data.columns[:-EXTRA_COLUMN_COUNT]]]
+data = data.iloc[:, :-EXTRA_COLUMN_COUNT]
 if args.drop_rows is not None:
     data = data.drop(args.drop_rows.split(','))
+
+# Some poorly maintained tables have duplicate dates, pick the first row in such case
+data = data.loc[~data.index.duplicated(keep='first')]
 
 # Pivot the table to fit our preferred format
 df = pivot_table(data, pivot_name='RegionName')
@@ -61,10 +71,17 @@ df = df[~df['Date'].isna()]
 df['Date'] = df['Date'].apply(lambda date: date.date().isoformat())
 
 # Get the confirmed and deaths data from the table
+parenthesis = lambda x: (re.search(r'\((\d+)\)', x) or [None, None])[1]
 df['Confirmed'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[0]))
-df['Deaths'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[1][:-1] if '(' in x else None))
+df['Deaths'] = df['Value'].apply(lambda x: safe_int_cast(parenthesis(x)))
 
-df = df.sort_values(['Date', 'RegionName']).drop(columns=['Value'])
+# Add up all the rows with same Date and RegionName
+def aggregate_region_values(group: DataFrame):
+    non_null = [value for value in group if not (isna(value) or isnull(value))]
+    return None if not non_null else sum(non_null)
+df = df.sort_values(['Date', 'RegionName'])
+df = df.drop(columns=['Value']).groupby(['RegionName', 'Date']).agg(aggregate_region_values)
+df = df.reset_index().sort_values(['Date', 'RegionName'])
 
 # Aggregate the values region by region
 value_columns = ['Confirmed', 'Deaths']
