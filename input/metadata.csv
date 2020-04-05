@@ -69,33 +69,33 @@ BO_P,BO,Bolivia,P,Potosí,,-20.66667,-66.66667,823517
 BO_S,BO,Bolivia,S,Santa Cruz,,-18.418,-62.345,3320084
 BO_T,BO,Bolivia,T,Tarija,,-21.583,-63.833,482196
 BR,BR,Brazil,,,,-14.235004,-51.925280,211049527
-BR_AC,BR,Brazil,AC,Acre,Acre,-9.183333,-70.866667,881935
-BR_AL,BR,Brazil,AL,Alagoas,Alagoas,-9.57,-36.55,3337357
-BR_AM,BR,Brazil,AM,Amazonas,Amazonas,-5.0,-63.0,4144597
-BR_AP,BR,Brazil,AP,Amapá,Amapá,1.0,-52.0,845731
-BR_BA,BR,Brazil,BA,Bahia,Bahia,-12.0,-41.0,14873064
-BR_CE,BR,Brazil,CE,Ceará,Ceará,-5.08,-39.65,9132078
-BR_DF,BR,Brazil,DF,Distrito Federal,Distrito Federal,-15.795,-47.757778,3015268
-BR_ES,BR,Brazil,ES,Espirito Santo,Espirito Santo,-20.266667,-40.283333,4018650
-BR_GO,BR,Brazil,GO,Goiás,Goiás,-15.933,-50.133,7018354
-BR_MA,BR,Brazil,MA,Maranhão,Maranhão,-6.183,-45.617,7075181
-BR_MG,BR,Brazil,MG,Minas Gerais,Minas Gerais,-19.817,-43.950,21168791
-BR_MS,BR,Brazil,MS,Mato Grosso do Sul,Mato Grosso do Sul,-20.44278,-54.64583,2778986
-BR_MT,BR,Brazil,MT,Mato Grosso,Mato Grosso,-15.567,-56.067,3484466
-BR_PA,BR,Brazil,PA,Pará,Pará,-5.667,-52.733,8602865
-BR_PB,BR,Brazil,PB,Paraíba,Paraíba,-7.167,-36.833,4018127
-BR_PE,BR,Brazil,PE,Pernambuco,Pernambuco,-8.333,-37.800,9557071
-BR_PI,BR,Brazil,PI,Piauí,Piauí,-8.233,-43.100,3273227
-BR_PR,BR,Brazil,PR,Paraná,Paraná,-24.000,-51.000,11433957
-BR_RJ,BR,Brazil,RJ,Rio de Janeiro,Rio de Janeiro,-22.900,-43.200,17264943
-BR_RN,BR,Brazil,RN,Rio Grande do Norte,Rio Grande do Norte,-5.74,-36.55,3506853
-BR_RO,BR,Brazil,RO,Rondônia,Rondônia,-10.90,-62.76,1777225
-BR_RR,BR,Brazil,RR,Roraima,Roraima,-2.050,-61.400,605761
-BR_RS,BR,Brazil,RS,Rio Grande do Sul,Rio Grande do Sul,-30.0,-53.0,11286500
-BR_SC,BR,Brazil,SC,Santa Catarina,Santa Catarina,-27.250,-50.333,6727000
-BR_SE,BR,Brazil,SE,Sergipe,Sergipe,-10.56,-37.36,2298696
-BR_SP,BR,Brazil,SP,São Paulo,São Paulo,-23.533,-46.633,45919049
-BR_TO,BR,Brazil,TO,Tocantins,Tocantins,-10.183,-48.333,1572866
+BR_AC,BR,Brazil,AC,Acre,,-9.183333,-70.866667,881935
+BR_AL,BR,Brazil,AL,Alagoas,,-9.57,-36.55,3337357
+BR_AM,BR,Brazil,AM,Amazonas,,-5.0,-63.0,4144597
+BR_AP,BR,Brazil,AP,Amapá,,1.0,-52.0,845731
+BR_BA,BR,Brazil,BA,Bahia,,-12.0,-41.0,14873064
+BR_CE,BR,Brazil,CE,Ceará,,-5.08,-39.65,9132078
+BR_DF,BR,Brazil,DF,Distrito Federal,,-15.795,-47.757778,3015268
+BR_ES,BR,Brazil,ES,Espirito Santo,,-20.266667,-40.283333,4018650
+BR_GO,BR,Brazil,GO,Goiás,,-15.933,-50.133,7018354
+BR_MA,BR,Brazil,MA,Maranhão,,-6.183,-45.617,7075181
+BR_MG,BR,Brazil,MG,Minas Gerais,,-19.817,-43.950,21168791
+BR_MS,BR,Brazil,MS,Mato Grosso do Sul,,-20.44278,-54.64583,2778986
+BR_MT,BR,Brazil,MT,Mato Grosso,,-15.567,-56.067,3484466
+BR_PA,BR,Brazil,PA,Pará,,-5.667,-52.733,8602865
+BR_PB,BR,Brazil,PB,Paraíba,,-7.167,-36.833,4018127
+BR_PE,BR,Brazil,PE,Pernambuco,,-8.333,-37.800,9557071
+BR_PI,BR,Brazil,PI,Piauí,,-8.233,-43.100,3273227
+BR_PR,BR,Brazil,PR,Paraná,,-24.000,-51.000,11433957
+BR_RJ,BR,Brazil,RJ,Rio de Janeiro,,-22.900,-43.200,17264943
+BR_RN,BR,Brazil,RN,Rio Grande do Norte,,-5.74,-36.55,3506853
+BR_RO,BR,Brazil,RO,Rondônia,,-10.90,-62.76,1777225
+BR_RR,BR,Brazil,RR,Roraima,,-2.050,-61.400,605761
+BR_RS,BR,Brazil,RS,Rio Grande do Sul,-30.0,-53.0,11286500
+BR_SC,BR,Brazil,SC,Santa Catarina,,-27.250,-50.333,6727000
+BR_SE,BR,Brazil,SE,Sergipe,,-10.56,-37.36,2298696
+BR_SP,BR,Brazil,SP,São Paulo,,-23.533,-46.633,45919049
+BR_TO,BR,Brazil,TO,Tocantins,,-10.183,-48.333,1572866
 BS,BS,Bahamas,,,,25.034280,-77.396280,389482
 BT,BT,Bhutan,,,,27.514162,90.433601,763092
 BV,BV,Bouvet Island,,,,-54.423199,3.413194,
@@ -103,19 +103,19 @@ BW,BW,Botswana,,,,-22.328474,24.684866,2303697
 BY,BY,Belarus,,,,53.709807,27.953389,9452411
 BZ,BZ,Belize,,,,17.189877,-88.497650,390353
 CA,CA,Canada,,,,56.130366,-106.346771,37411047
-CA_AB,CA,Canada,AB,Alberta,Alberta,53.9333,-116.5765,4413146
-CA_BC,CA,Canada,BC,British Columbia,British Columbia,49.2827,-123.1207,5110917
-CA_MB,CA,Canada,MB,Manitoba,Manitoba,53.7609,-98.8139,1377517
-CA_NB,CA,Canada,NB,New Brunswick,New Brunswick,46.5653,-66.4619,779993
-CA_NL,CA,Canada,NL,Newfoundland and Labrador,Newfoundland and Labrador,53.1355,-57.6604,521365
-CA_NS,CA,Canada,NS,Nova Scotia,Nova Scotia,44.682,-63.7443,977457
-CA_NT,CA,Canada,NT,Northwest Territories,Northwest Territories,64.8255,-124.8457,44904
-CA_NU,CA,Canada,NU,Nunavut,Nunavut,73.0,-91.0,39097
-CA_ON,CA,Canada,ON,Ontario,Ontario,51.2538,-85.3232,14711827
-CA_PE,CA,Canada,PE,Prince Edward Island,Prince Edward Island,46.5107,-63.4168,158158
-CA_QC,CA,Canada,QC,Quebec,Quebec,52.9399,-73.5491,8537674
-CA_SK,CA,Canada,SK,Saskatchewan,Saskatchewan,52.9399,-106.4509,1181666
-CA_YT,CA,Canada,YT,Yukon,Yukon,64.2823,-135.0,41078
+CA_AB,CA,Canada,AB,Alberta,,53.9333,-116.5765,4413146
+CA_BC,CA,Canada,BC,British Columbia,,49.2827,-123.1207,5110917
+CA_MB,CA,Canada,MB,Manitoba,,53.7609,-98.8139,1377517
+CA_NB,CA,Canada,NB,New Brunswick,,46.5653,-66.4619,779993
+CA_NL,CA,Canada,NL,Newfoundland and Labrador,,53.1355,-57.6604,521365
+CA_NS,CA,Canada,NS,Nova Scotia,,44.682,-63.7443,977457
+CA_NT,CA,Canada,NT,Northwest Territories,,64.8255,-124.8457,44904
+CA_NU,CA,Canada,NU,Nunavut,,73.0,-91.0,39097
+CA_ON,CA,Canada,ON,Ontario,,51.2538,-85.3232,14711827
+CA_PE,CA,Canada,PE,Prince Edward Island,,46.5107,-63.4168,158158
+CA_QC,CA,Canada,QC,Quebec,,52.9399,-73.5491,8537674
+CA_SK,CA,Canada,SK,Saskatchewan,,52.9399,-106.4509,1181666
+CA_YT,CA,Canada,YT,Yukon,,64.2823,-135.0,41078
 CC,CC,Cocos Islands,,,,-12.164165,96.870956,
 CD,CD,Democratic Republic of the Congo,,,,-4.038333,21.758664,86790567
 CF,CF,Central African Republic,,,,6.611111,20.939444,4745185
@@ -211,24 +211,24 @@ EG,EG,Egypt,,,,26.820553,30.802498,100388073
 EH,EH,Western Sahara,,,,24.215527,-12.885834,582463
 ER,ER,Eritrea,,,,15.179384,39.782334,3497117
 ES,ES,Spain,,,,40.463667,-3.749220,46736776
-ES_AN,ES,Spain,AN,Andalucía,Andalucía,37.382800,-5.973100,8388107
-ES_AR,ES,Spain,AR,Aragón,Aragón,41.656000,-0.877300,1308563
-ES_AS,ES,Spain,AS,Asturias,Asturias,43.360200,-5.844700,1022800
-ES_CB,ES,Spain,CB,Cantabria,Cantabria,43.464700,-3.804400,580229
-ES_CE,ES,Spain,CE,Ceuta,Ceuta,35.889300,-5.319800,85144
-ES_CL,ES,Spain,CL,Castilla y León,Castilla y León,41.652300,-4.724500,2447519
-ES_CM,ES,Spain,CM,Castilla La Mancha,Castilla-La Mancha,39.862800,-4.027300,2041631
+ES_AN,ES,Spain,AN,Andalucía,,37.382800,-5.973100,8388107
+ES_AR,ES,Spain,AR,Aragón,,41.656000,-0.877300,1308563
+ES_AS,ES,Spain,AS,Asturias,,43.360200,-5.844700,1022800
+ES_CB,ES,Spain,CB,Cantabria,,43.464700,-3.804400,580229
+ES_CE,ES,Spain,CE,Ceuta,,35.889300,-5.319800,85144
+ES_CL,ES,Spain,CL,Castilla y León,,41.652300,-4.724500,2447519
+ES_CM,ES,Spain,CM,Castilla-La Mancha,,39.862800,-4.027300,2041631
 ES_CN,ES,Spain,CN,Islas Canarias,Canarias,28.468200,-16.254600,2153389
-ES_CT,ES,Spain,CT,Cataluña,Cataluña,41.388700,2.159000,7522596
-ES_EX,ES,Spain,EX,Extremadura,Extremadura,38.916100,-6.343600,1087778
-ES_GA,ES,Spain,GA,Galicia,Galicia,42.232800,-8.722600,2701743
+ES_CT,ES,Spain,CT,Cataluña,,41.388700,2.159000,7522596
+ES_EX,ES,Spain,EX,Extremadura,,38.916100,-6.343600,1087778
+ES_GA,ES,Spain,GA,Galicia,,42.232800,-8.722600,2701743
 ES_IB,ES,Spain,IB,Islas Baleares,Baleares,39.569300,2.650200,1107220
-ES_MC,ES,Spain,MC,Murcia,Murcia,37.987041,-1.130040,1478509
-ES_MD,ES,Spain,MD,Madrid,Madrid,40.416500,-3.702560,6661949
-ES_ML,ES,Spain,ML,Melilla,Melilla,35.293700,-2.938300,86384
-ES_NC,ES,Spain,NC,Navarra,Navarra,42.816900,-1.643200,647554
-ES_PV,ES,Spain,PV,País Vasco,País Vasco,43.262700,-2.925300,2189534
-ES_RI,ES,Spain,RI,La Rioja,La Rioja,42.466700,-2.450000,315675
+ES_MC,ES,Spain,MC,Murcia,,37.987041,-1.130040,1478509
+ES_MD,ES,Spain,MD,Madrid,,40.416500,-3.702560,6661949
+ES_ML,ES,Spain,ML,Melilla,,35.293700,-2.938300,86384
+ES_NC,ES,Spain,NC,Navarra,,42.816900,-1.643200,647554
+ES_PV,ES,Spain,PV,País Vasco,,43.262700,-2.925300,2189534
+ES_RI,ES,Spain,RI,La Rioja,,42.466700,-2.450000,315675
 ES_VC,ES,Spain,VC,Comunidad Valenciana,C. Valenciana,39.469700,-0.377400,5003769
 ET,ET,Ethiopia,,,,9.145000,40.489673,112078730
 FI,FI,Finland,,,,61.924110,25.748151,5532156
@@ -237,29 +237,29 @@ FK,FK,Falkland Islands,,,,-51.796253,-59.523613,3377
 FM,FM,Micronesia,,,,7.425554,150.550812,
 FO,FO,Faroe Islands,,,,61.892635,-6.911806,48678
 FR,FR,France,,,,46.227638,2.213749,65129728
-FR_ARA,FR,France,ARA,Auvergne-Rhône-Alpes,Auvergne-Rhône-Alpes,45.447100,4.385300,
-FR_BFC,FR,France,BFC,Bourgogne-Franche-Comté,Bourgogne-Franche-Comté,47.280500,4.999400,
+FR_ARA,FR,France,ARA,Auvergne-Rhône-Alpes,,45.447100,4.385300,
+FR_BFC,FR,France,BFC,Bourgogne-Franche-Comté,,47.280500,4.999400,
 FR_BRE,FR,France,BRE,Brittany,Bretagne,48.202000,-2.932600,
 FR_COR,FR,France,COR,Corsica,Corse,42.039600,9.012900,
-FR_CVL,FR,France,CVL,Centre-Val de Loire,Centre-Val de Loire,47.751600,1.675100,
-FR_GES,FR,France,GES,Grand Est,Grand Est,48.699800,6.187800,
+FR_CVL,FR,France,CVL,Centre-Val de Loire,,47.751600,1.675100,
+FR_GES,FR,France,GES,Grand Est,,48.699800,6.187800,
 FR_GF,FR,France,GF,French Guiana,Guyane,3.933900,-53.125800,
-FR_GUA,FR,France,GUA,Guadeloupe,Guadeloupe,16.265000,-61.551000,
-FR_HDF,FR,France,HDF,Hauts-de-France,Hauts-de-France,50.480100,2.793700,
-FR_IDF,FR,France,IDF,Île-de-France,Île-de-France,48.849900,2.637000,
-FR_LRE,FR,France,LRE,La Réunion,La Réunion,-21.115100,55.536400,
-FR_MAY,FR,France,MAY,Mayotte,Mayotte,-12.827500,45.166200,
-FR_MQ,FR,France,MQ,Martinique,Martinique,14.641500,-61.024200,
-FR_NAQ,FR,France,NAQ,Nouvelle-Aquitaine,Nouvelle-Aquitaine,45.708700,0.626900,
+FR_GUA,FR,France,GUA,Guadeloupe,,16.265000,-61.551000,
+FR_HDF,FR,France,HDF,Hauts-de-France,,50.480100,2.793700,
+FR_IDF,FR,France,IDF,Île-de-France,,48.849900,2.637000,
+FR_LRE,FR,France,LRE,La Réunion,,-21.115100,55.536400,
+FR_MAY,FR,France,MAY,Mayotte,,-12.827500,45.166200,
+FR_MQ,FR,France,MQ,Martinique,,14.641500,-61.024200,
+FR_NAQ,FR,France,NAQ,Nouvelle-Aquitaine,,45.708700,0.626900,
 FR_NOR,FR,France,NOR,Normandy,Normandie,48.879900,0.171300,
-FR_OCC,FR,France,OCC,Occitanie,Occitanie,43.892700,3.282800,
-FR_PAC,FR,France,PAC,Provence-Alpes-Côte d'Azur,Provence-Alpes-Côte d'Azur,43.935200,6.067900,
-FR_PDL,FR,France,PDL,Pays de la Loire,Pays de la Loire,47.763300,-0.330000,
+FR_OCC,FR,France,OCC,Occitanie,,43.892700,3.282800,
+FR_PAC,FR,France,PAC,Provence-Alpes-Côte d'Azur,,43.935200,6.067900,
+FR_PDL,FR,France,PDL,Pays de la Loire,,47.763300,-0.330000,
 GA,GA,Gabon,,,,-0.803689,11.609444,2172579
 GB,GB,United Kingdom,,,,55.378051,-3.435973,67530172
-GB_ENG,GB,United Kingdom,ENG,England,England,51.500,-0.117,55977178
-GB_NIR,GB,United Kingdom,NIR,Northern Ireland,Northern Ireland,54.600,-5.917,1885400
-GB_SCT,GB,United Kingdom,SCT,Scotland,Scotland,55.95306,-3.18889,5424800
+GB_ENG,GB,United Kingdom,ENG,England,,51.500,-0.117,55977178
+GB_NIR,GB,United Kingdom,NIR,Northern Ireland,,54.600,-5.917,1885400
+GB_SCT,GB,United Kingdom,SCT,Scotland,,55.95306,-3.18889,5424800
 GB_WLS,GB,United Kingdom,WLS,Wales,Wales,51.483,-3.183,3139000
 GD,GD,Grenada,,,,12.262776,-61.604171,112003
 GE,GE,Georgia,,,,42.315407,43.356892,3996765
@@ -290,43 +290,43 @@ IE,IE,Ireland,,,,53.412910,-8.243890,4882495
 IL,IL,Israel,,,,31.046051,34.851612,8519377
 IM,IM,Isle of Man,,,,54.236107,-4.548056,84584
 IN,IN,India,,,,20.593684,78.962880,1366417754
-IN_AN,IN,India,AN,Andaman and Nicobar Islands,Andaman and Nicobar Islands,11.68,92.77,380520
-IN_AP,IN,India,AP,Andhra Pradesh,Andhra Pradesh,16.50,80.64,49386799
-IN_AR,IN,India,AR,Arunachal Pradesh,Arunachal Pradesh,27.06,93.37,1382611
-IN_AS,IN,India,AS,Assam,Assam,26.14,91.77,31169272
-IN_BR,IN,India,BR,Bihar,Bihar,25.4,85.1,104099452
-IN_CH,IN,India,CH,Chandigarh,Chandigarh,30.75,76.78,1055450
-IN_CT,IN,India,CT,Chhattisgarh,Chhattisgarh,21.25,81.60,25545198
-IN_DD,IN,India,DD,Daman and Diu,Daman and Diu,20.42,72.85,242911
-IN_DL,IN,India,DL,Delhi,Delhi,28.61000,77.23000,26454000
-IN_DN,IN,India,DN,Dadra and Nagar Haveli,Dadra and Nagar Haveli,20.27,73.02,342853
-IN_GA,IN,India,GA,Goa,Goa,15.50,73.83,1458545
-IN_GJ,IN,India,GJ,Gujarat,Gujarat,23.217,72.683,60439692
-IN_HP,IN,India,HP,Himachal Pradesh,Himachal Pradesh,31.10333,77.17222,6864602
-IN_HR,IN,India,HR,Haryana,Haryana,30.73,76.78,25353081
-IN_JH,IN,India,JH,Jharkhand,Jharkhand,23.35,85.33,32988134
-IN_JK,IN,India,JK,Jammu and Kashmir,Jammu and Kashmir,32.73,74.87,12258433
-IN_KA,IN,India,KA,Karnataka,Karnataka,12.97,77.50,61130704
-IN_KL,IN,India,KL,Kerala,Kerala,8.5,77,33387677
-IN_LA,IN,India,LA,Ladakh,Ladakh,34.17,77.58,274289
-IN_LD,IN,India,LD,Lakshadweep,Lakshadweep,10.6,72.6,70365
-IN_MH,IN,India,MH,Maharashtra,Maharashtra,18.97,72.820,112374333
-IN_ML,IN,India,ML,Meghalaya,Meghalaya,25.57,91.88,2964007
-IN_MN,IN,India,MN,Manipur,Manipur,2855794,2855794
-IN_MP,IN,India,MP,Madhya Pradesh,Madhya Pradesh,23.25,77.417,
-IN_MZ,IN,India,MZ,Mizoram,Mizoram,23.36,92.8,1091014
-IN_NL,IN,India,NL,Nagaland,Nagaland,25.67,94.12,1980602
-IN_OR,IN,India,OR,Odisha,Odisha,20.27,85.82,45989232
-IN_PB,IN,India,PB,Punjab,Punjab,30.79,75.84,27743338
-IN_PY,IN,India,PY,Puducherry,Puducherry,11.911082,79.812533,1394467
-IN_RJ,IN,India,RJ,Rajasthan,Rajasthan,26.6,73.8,68548437
-IN_SK,IN,India,SK,Sikkim,Sikkim,27.33,88.62,610577
-IN_TG,IN,India,TG,Telangana,Telangana,17.366,78.475,35193978
-IN_TN,IN,India,TN,Tamil Nadu,Tamil Nadu,13.09,80.27,72147030
-IN_TR,IN,India,TR,Tripura,Tripura,23.84,91.28,3671032
-IN_UP,IN,India,UP,Uttar Pradesh,Uttar Pradesh,26.85,80.91,199812341
-IN_UT,IN,India,UT,Uttarakhand,Uttarakhand,30.33,78.06,10086292
-IN_WB,IN,India,WB,West Bengal,West Bengal,22.567,88.367,91347736
+IN_AN,IN,India,AN,Andaman and Nicobar Islands,,11.68,92.77,380520
+IN_AP,IN,India,AP,Andhra Pradesh,,16.50,80.64,49386799
+IN_AR,IN,India,AR,Arunachal Pradesh,,27.06,93.37,1382611
+IN_AS,IN,India,AS,Assam,,26.14,91.77,31169272
+IN_BR,IN,India,BR,Bihar,,25.4,85.1,104099452
+IN_CH,IN,India,CH,Chandigarh,,30.75,76.78,1055450
+IN_CT,IN,India,CT,Chhattisgarh,,21.25,81.60,25545198
+IN_DD,IN,India,DD,Daman and Diu,,20.42,72.85,242911
+IN_DL,IN,India,DL,Delhi,,28.61000,77.23000,26454000
+IN_DN,IN,India,DN,Dadra and Nagar Haveli,,20.27,73.02,342853
+IN_GA,IN,India,GA,Goa,,15.50,73.83,1458545
+IN_GJ,IN,India,GJ,Gujarat,,23.217,72.683,60439692
+IN_HP,IN,India,HP,Himachal Pradesh,,31.10333,77.17222,6864602
+IN_HR,IN,India,HR,Haryana,,30.73,76.78,25353081
+IN_JH,IN,India,JH,Jharkhand,,23.35,85.33,32988134
+IN_JK,IN,India,JK,Jammu and Kashmir,,32.73,74.87,12258433
+IN_KA,IN,India,KA,Karnataka,,12.97,77.50,61130704
+IN_KL,IN,India,KL,Kerala,,8.5,77,33387677
+IN_LA,IN,India,LA,Ladakh,,34.17,77.58,274289
+IN_LD,IN,India,LD,Lakshadweep,,10.6,72.6,70365
+IN_MH,IN,India,MH,Maharashtra,,18.97,72.820,112374333
+IN_ML,IN,India,ML,Meghalaya,,25.57,91.88,2964007
+IN_MN,IN,India,MN,Manipur,,2855794,2855794
+IN_MP,IN,India,MP,Madhya Pradesh,,23.25,77.417,
+IN_MZ,IN,India,MZ,Mizoram,,23.36,92.8,1091014
+IN_NL,IN,India,NL,Nagaland,,25.67,94.12,1980602
+IN_OR,IN,India,OR,Odisha,,20.27,85.82,45989232
+IN_PB,IN,India,PB,Punjab,,30.79,75.84,27743338
+IN_PY,IN,India,PY,Puducherry,,11.911082,79.812533,1394467
+IN_RJ,IN,India,RJ,Rajasthan,,26.6,73.8,68548437
+IN_SK,IN,India,SK,Sikkim,,27.33,88.62,610577
+IN_TG,IN,India,TG,Telangana,,17.366,78.475,35193978
+IN_TN,IN,India,TN,Tamil Nadu,,13.09,80.27,72147030
+IN_TR,IN,India,TR,Tripura,,23.84,91.28,3671032
+IN_UP,IN,India,UP,Uttar Pradesh,,26.85,80.91,199812341
+IN_UT,IN,India,UT,Uttarakhand,,30.33,78.06,10086292
+IN_WB,IN,India,WB,West Bengal,,22.567,88.367,91347736
 IO,IO,British Indian Ocean Territory,,,,-6.343194,71.876519,
 IQ,IQ,Iraq,,,,33.223191,43.679291,39309783
 IR,IR,Iran,,,,32.427908,53.688046,82913906
@@ -335,20 +335,20 @@ IT,IT,Italy,,,,41.871940,12.567380,60550075
 IT_21,IT,Italy,21,Piemont,Piemonte,45.073274,7.680687,4377941
 IT_23,IT,Italy,23,Aosta Valley,Valle d'Aosta,45.737503,7.320149,126933
 IT_25,IT,Italy,25,Lombardy,Lombardia,45.466794,9.190347,10078012
-IT_34,IT,Italy,34,Veneto,Veneto,45.434905,12.338452,4865380
-IT_36,IT,Italy,36,Friuli Venezia Giulia,Friuli Venezia Giulia,45.649435,13.768136,1216524
-IT_42,IT,Italy,42,Liguria,Liguria,44.411493,8.932699,1557533
-IT_45,IT,Italy,45,Emilia-Romagna,Emilia-Romagna,44.494367,11.341721,4446220
+IT_34,IT,Italy,34,Veneto,,45.434905,12.338452,4865380
+IT_36,IT,Italy,36,Friuli Venezia Giulia,,45.649435,13.768136,1216524
+IT_42,IT,Italy,42,Liguria,,44.411493,8.932699,1557533
+IT_45,IT,Italy,45,Emilia-Romagna,,44.494367,11.341721,4446220
 IT_52,IT,Italy,52,Tuscany,Toscana,43.769231,11.255889,3742437
-IT_55,IT,Italy,55,Umbria,Umbria,43.106758,12.388247,889001
-IT_57,IT,Italy,57,Marche,Marche,43.616760,13.518875,1541692
-IT_62,IT,Italy,62,Lazio,Lazio,41.892770,12.483667,5897635
-IT_65,IT,Italy,65,Abruzzo,Abruzzo,42.351222,13.398438,1307919
-IT_67,IT,Italy,67,Molise,Molise,41.557748,14.659161,308493
-IT_72,IT,Italy,72,Campania,Campania,40.839566,14.250850,5869029
+IT_55,IT,Italy,55,Umbria,,43.106758,12.388247,889001
+IT_57,IT,Italy,57,Marche,,43.616760,13.518875,1541692
+IT_62,IT,Italy,62,Lazio,,41.892770,12.483667,5897635
+IT_65,IT,Italy,65,Abruzzo,,42.351222,13.398438,1307919
+IT_67,IT,Italy,67,Molise,,41.557748,14.659161,308493
+IT_72,IT,Italy,72,Campania,,40.839566,14.250850,5869029
 IT_75,IT,Italy,75,Apulia,Puglia,41.125596,16.867367,4063888
-IT_77,IT,Italy,77,Basilicata,Basilicata,40.639471,15.805148,575902
-IT_78,IT,Italy,78,Calabria,Calabria,38.905976,16.594402,1980533
+IT_77,IT,Italy,77,Basilicata,,40.639471,15.805148,575902
+IT_78,IT,Italy,78,Calabria,,38.905976,16.594402,1980533
 IT_82,IT,Italy,82,Sicily,Sicilia,38.115697,13.362357,5029615
 IT_88,IT,Italy,88,Sardinia,Sardegna,39.215312,9.110616,1651793
 IT_BZ,IT,Italy,BZ,South Tyrol,P.A. Bolzano,46.499335,11.356624,530009
@@ -433,13 +433,13 @@ PN,PN,Pitcairn Islands,,,,-24.703615,-127.439308,
 PR,PR,Puerto Rico,,,,18.220833,-66.590149,2933408
 PS,PS,Palestine,,,,31.952162,35.233154,4981420
 PT,PT,Portugal,,,,39.399872,-8.224454,10226187
-PT_11,PT,Portugal,11,Norte,norte,41.15000,-8.61000,3689173
-PT_15,PT,Portugal,15,Algarve,algarve,37.019371,-7.93223,451006
-PT_16,PT,Portugal,16,Centro,centro,40.2056389,-8.4195499,2327026
+PT_11,PT,Portugal,11,Norte,,41.15000,-8.61000,3689173
+PT_15,PT,Portugal,15,Algarve,,37.019371,-7.93223,451006
+PT_16,PT,Portugal,16,Centro,,40.2056389,-8.4195499,2327026
 PT_17,PT,Portugal,17,Lisbon Metropolitan Area,lvt,38.700,-9.183,2821876
-PT_18,PT,Portugal,18,Alentejo,alentejo,38.5666695,-7.900000,758739
+PT_18,PT,Portugal,18,Alentejo,,38.5666695,-7.900000,758739
 PT_20,PT,Portugal,20,Azores,açores,37.794594,-25.506134,246772
-PT_30,PT,Portugal,30,Madeira,madeira,32.6656799,-16.9254704,289000
+PT_30,PT,Portugal,30,Madeira,,32.6656799,-16.9254704,289000
 PW,PW,Palau,,,,7.514980,134.582520,18008
 PY,PY,Paraguay,,,,-23.442503,-58.443832,7044636
 QA,QA,Qatar,,,,25.354826,51.183884,2832067
@@ -518,9 +518,9 @@ RU_VGG,RU,Russia,VGG,Volgograd Oblast,,49.733,44.117,2521276
 RU_VLA,RU,Russia,VLA,Vladimir Oblast,,56.083,40.617,1378337
 RU_VLG,RU,Russia,VLG,Vologda Oblast,,60.083,40.450,1176689
 RU_VOR,RU,Russia,VOR,Voronezh Oblast,,51.050,40.150,2333768
-RU_YAN,RU,Russia,YAN,Yamalo-Nenets AO,,67.250,74.667,522904
+RU_YAN,RU,Russia,YAN,Yamalo-Nenets Avtonomnyy Okrug,Yamalo-Nenets AO,67.250,74.667,522904
 RU_YAR,RU,Russia,YAR,Yaroslavl Oblast,,57.867,39.200,1265684
-RU_YEV,RU,Russia,YEV,Jewish AO,,48.600,132.200,176558
+RU_YEV,RU,Russia,YEV,Jewish Avtonomnyy Okrug,Jewish AO,48.600,132.200,176558
 RU_ZAB,RU,Russia,ZAB,Zabaykalsky Krai,,54.000,118.000,1072806
 RW,RW,Rwanda,,,,-1.940278,29.873888,12626950
 SA,SA,Saudi Arabia,,,,23.885942,45.079162,34268528
