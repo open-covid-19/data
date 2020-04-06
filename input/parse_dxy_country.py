@@ -12,10 +12,7 @@ import sys
 import datetime
 from pathlib import Path
 import pandas as pd
-from utils import github_raw_dataframe, dataframe_output, timezone_adjust
-
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
+from utils import github_raw_dataframe, dataframe_output, timezone_adjust, ROOT
 
 # This script requires country code as parameter
 country_code = sys.argv[1]
@@ -25,12 +22,13 @@ FIRST_DATE = '2019-12-31'
 # Read DXY CSV file from  website
 df = github_raw_dataframe('BlankerL/DXY-COVID-19-Data', 'csv/DXYArea.csv')
 
-# Adjust 7 hour difference between China's GMT+8 and GMT+1
+# Adjust 7 hour difference between China's GMT+8 and GMT+1 (ECDC report time)
 df['Date'] = df['updateTime'].apply(lambda date: timezone_adjust(date, 7))
 
 # Rename the appropriate columns
 df = df.rename(columns={
     'countryEnglishName': 'CountryName',
+    'provinceEnglishName': 'RegionName',
     'province_confirmedCount': 'Confirmed',
     'province_deadCount': 'Deaths',
     'province_curedCount': 'Recovered'
@@ -40,19 +38,13 @@ df = df.rename(columns={
 df = df.sort_values('updateTime').groupby(['Date', 'CountryName']).last().reset_index()
 
 # Get the metadata for each country
-countries = pd.read_csv(ROOT / 'input' / 'metadata_world.csv', dtype=str)
+countries = pd.read_csv(ROOT / 'input' / 'metadata.csv', dtype=str)
 
 # Get the country name of the country code provided as parameter
-country_name = countries.set_index('CountryCode').loc[country_code, 'CountryName']
+country_name = countries.set_index('CountryCode').loc[country_code, 'CountryName'].iloc[0]
 
 # Merge country metadata with the stats from DXY
-df = df[df['CountryName'] == country_name].merge(countries, on='CountryName')
-
-# Spot checking: for Spain, data source claims 7, but it was only 1 reported case on 2020-02-01
-if country_code == 'ES':
-    df = df.set_index('Date')
-    df.loc['2020-02-01', 'Confirmed'] = 1
-    df = df.reset_index()
+df = df[df['CountryName'] == country_name].merge(countries, on=['CountryName', 'RegionName'])
 
 # Create a dummy record to be inserted where there is missing data
 sample_record = df.iloc[0].copy()
