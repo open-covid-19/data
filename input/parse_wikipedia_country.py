@@ -16,15 +16,13 @@ from utils import \
     dataframe_output, ROOT
 
 
-# Number of columns to skip from the end of the table
-EXTRA_COLUMN_COUNT = 2
-
 # Parse arguments
 parser = ArgumentParser()
 parser.add_argument('code', type=str)
+parser.add_argument('--article', type=str, default=None)
 parser.add_argument('--cumsum', type=bool, default=False)
-parser.add_argument('--skip_head', type=int, default=1)
-parser.add_argument('--skip_tail', type=int, default=1)
+parser.add_argument('--skiprows', type=int, default=1)
+parser.add_argument('--skipcols', type=int, default=2)
 parser.add_argument('--drop_rows', type=str, default=None)
 parser.add_argument('--date_format', type=str, default='%b %d')
 parser.add_argument('--table_index', type=int, default=0)
@@ -36,17 +34,22 @@ metadata = read_csv(ROOT / 'input' / 'metadata.csv')
 country_name = metadata.set_index('CountryCode').loc[args.code, 'CountryName'].iloc[0]
 
 # Fetch the table from the Wikipedia article
-url_base = 'https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data'
-url_article = '%s/%s_medical_cases' % (url_base, country_name)
+url_base = 'https://en.wikipedia.org/wiki'
+
+if args.article is None:
+    article = 'Template:2019–20_coronavirus_pandemic_data/%s_medical_cases' % country_name
+else:
+    article = args.article
+
 data = read_html(
-    url_article,
+    '%s/%s' % (url_base, article),
     header=True,
     selector='table.wikitable',
     parser=wiki_html_cell_parser,
     table_index=args.table_index,
-    skiprows=args.skip_head)
-data = data.set_index(data.columns[0]).iloc[:-args.skip_tail]
-data = data.iloc[:, :-EXTRA_COLUMN_COUNT]
+    skiprows=args.skiprows)
+data = data.set_index(data.columns[0])
+data = data.iloc[:, :-args.skipcols]
 if args.drop_rows is not None:
     data = data.drop(args.drop_rows.split(','))
 

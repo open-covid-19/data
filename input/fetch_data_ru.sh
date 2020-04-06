@@ -4,4 +4,4 @@
 
 BASE_DIR=`dirname "$0"`
 python "$BASE_DIR"/parse_wikipedia_country.py RU \
-    --date_format '%d %b' --table_index 1 --skip_head 1 --null_deaths true
+    --date_format '%d %b' --table_index 1 --skiprows 1 --null_deaths true

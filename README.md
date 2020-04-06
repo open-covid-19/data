@@ -221,6 +221,7 @@ backwards compatibility, but shouldn't be used in any new projects:
 | India | [Wikipedia](https://wikipedia.org) |
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |
 | Japan | <https://github.com/swsoyee/2019-ncov-japan> |
+| Malaysia | [Wikipedia](https://wikipedia.org) |
 | Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |
 | Pakistan | [Wikipedia](https://wikipedia.org) |
 | Peru | [Wikipedia](https://wikipedia.org) |

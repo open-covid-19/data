@@ -6,6 +6,6 @@ BASE_DIR=`dirname "$0"`
 python "$BASE_DIR"/parse_wikipedia_country.py AR \
     --date_format '%d %b' \
     --table_index 0 \
-    --skip_head 1 \
+    --skiprows 1 \
     --cumsum true \
     --drop_rows 'Date'
