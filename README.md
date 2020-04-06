@@ -206,23 +206,30 @@ backwards compatibility, but shouldn't be used in any new projects:
 ## Sources of data
 | Data | Source |
 | ---- | ------ |
-| Country and region-level metadata | [Wikipedia](https://wikipedia.org) |
-| Country-level worldwide | Daily reports from the [ECDC portal][2] |
-| Region-level Argentina, Bolivia, Chile, India, Pakistan, Peru, Russia | [Wikipedia](https://wikipedia.org) |
-| Region-level Australia | <https://covid-19-au.github.io> |
-| Country and region-level Italy | [Italy's Department of Civil Protection][10] |
-| Country and region-level Spain | [Datadista COVID-19 dataset][11] |
-| Region-level Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
-| Region-level Canada | [Department of Health Canada][16] |
-| Region-level Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) |
-| Region-level China | [DXY COVID-19 dataset][3] |
-| Region-level France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
-| Region-level Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
-| Region-level Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |
-| Region-level Portugal | <https://github.com/dssg-pt/covid19pt-data> |
-| Region-level Switzerland | [OpenZH data](http://open.zh.ch) |
-| Region-level United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
-| Region-level USA | [COVID Tracking Project][9] |
+| Metadata | [Wikipedia](https://wikipedia.org) |
+| Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |
+| Argentina | [Wikipedia](https://wikipedia.org) |
+| Australia | <https://covid-19-au.github.io> |
+| Bolivia | [Wikipedia](https://wikipedia.org) |
+| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
+| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) |
+| Chile | [Wikipedia](https://wikipedia.org) |
+| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) |
+| Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) |
+| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
+| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
+| India | [Wikipedia](https://wikipedia.org) |
+| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |
+| Japan | <https://github.com/swsoyee/2019-ncov-japan> |
+| Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |
+| Pakistan | [Wikipedia](https://wikipedia.org) |
+| Peru | [Wikipedia](https://wikipedia.org) |
+| Portugal | <https://github.com/dssg-pt/covid19pt-data> |
+| Russia | [Wikipedia](https://wikipedia.org) |
+| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |
+| Switzerland | [OpenZH data](http://open.zh.ch) |
+| United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
+| USA | [COVID Tracking Project](https://covidtracking.com) |
 
 The data is automatically scraped and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
