@@ -121,6 +121,32 @@ CD,CD,Democratic Republic of the Congo,,,,-4.038333,21.758664,86790567
 CF,CF,Central African Republic,,,,6.611111,20.939444,4745185
 CG,CG,Republic of the Congo,,,,-0.228021,15.827659,5380508
 CH,CH,Switzerland,,,,46.818188,8.227512,8591365
+CH_AG,CH,Switzerland,AG,Aargau,,47.083,8.000,678207
+CH_AI,CH,Switzerland,AI,Appenzell Innerrhoden,,47.300,9.400,16145
+CH_AR,CH,Switzerland,AR,Appenzell Ausserrhoden,,47.050,9.017,55234
+CH_BE,CH,Switzerland,BE,Bern,,46.833,7.617,1034977
+CH_BL,CH,Switzerland,BL,Basel-Landschaft,,47.117,7.733,289527
+CH_BS,CH,Switzerland,BS,Basel-Stadt,,47.567,7.600,200298
+CH_FR,CH,Switzerland,FR,Fribourg,,46.717,7.083,318714
+CH_GE,CH,Switzerland,GE,Geneva,,46.033,6.117,499480
+CH_GL,CH,Switzerland,GL,Glarus,,46.983,9.067,40403
+CH_GR,CH,Switzerland,GR,Grisons,,46.750,9.500,198379
+CH_JU,CH,Switzerland,JU,Jura,,47.367,7.150,73419
+CH_LU,CH,Switzerland,LU,Lucerne,,47.083,8.117,409557
+CH_NE,CH,Switzerland,NE,Neuchâtel,,46.983,6.783,176850
+CH_NW,CH,Switzerland,NW,Nidwalden,,46.933,8.067,43223
+CH_OW,CH,Switzerland,OW,Obwalden,,46.867,8.033,37841
+CH_SG,CH,Switzerland,SG,St. Gallen,,47.333,9.167,507697
+CH_SH,CH,Switzerland,SH,Schaffhausen,,47.717,8.567,81991
+CH_SO,CH,Switzerland,SO,Solothurn,,47.150,7.633,273194
+CH_SZ,CH,Switzerland,SZ,Schwyz,,47.067,8.750,159165
+CH_TG,CH,Switzerland,TG,Thurgau,,47.583,9.067,276472
+CH_TI,CH,Switzerland,TI,Ticino,,46.317,8.817,353343
+CH_UR,CH,Switzerland,UR,Uri,,46.783,8.617,36433
+CH_VD,CH,Switzerland,VD,Vaud,,46.617,6.550,799145
+CH_VS,CH,Switzerland,VS,Valais,,46.067,7.600,343955
+CH_ZG,CH,Switzerland,ZG,Zug,,47.000,8.517,126837
+CH_ZH,CH,Switzerland,ZH,Zürich,,47.367,8.550,1520968
 CI,CI,Ivory Coast,,,,7.539989,-5.547080,25716544
 CK,CK,Cook Islands,,,,-21.236736,-159.777671,17548
 CL,CL,Chile,,,,-35.675147,-71.542969,18952038

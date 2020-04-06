@@ -55,6 +55,4 @@ confirmed = confirmed.rename(columns={'Event': 'Confirmed'})
 deaths = deaths.rename(columns={'Event': 'Deaths'})
 df = confirmed.join(deaths).fillna(0).reset_index().sort_values(['Date', 'RegionName'])
 
-import sys
-df.to_csv(sys.stdout, index=False)
-# dataframe_output(df, 'CO')
+dataframe_output(df, 'CO')
