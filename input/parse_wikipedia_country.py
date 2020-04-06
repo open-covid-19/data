@@ -83,13 +83,15 @@ df = df.sort_values(['Date', 'RegionName'])
 df = df.drop(columns=['Value']).groupby(['RegionName', 'Date']).agg(aggregate_region_values)
 df = df.reset_index().sort_values(['Date', 'RegionName'])
 
-# Aggregate the values region by region
+# Compute cumsum of the values region by region
 value_columns = ['Confirmed', 'Deaths']
-for region in df['RegionName'].unique():
-    mask = df['RegionName'] == region
-    if not args.cumsum:
-        df.loc[mask, value_columns] = df.loc[mask, value_columns].fillna(0).cumsum()
-    df.loc[mask, value_columns] = df.loc[mask, value_columns].ffill().fillna(0)
+if not args.cumsum:
+    for region in df['RegionName'].unique():
+        mask = df['RegionName'] == region
+        df.loc[mask, value_columns] = df.loc[mask, value_columns].cumsum()
+
+# Get rid of rows which have all null values
+df = df.dropna(how='all', subset=value_columns)
 
 # If we don't have deaths data, then make them null rather than zero
 if args.null_deaths:

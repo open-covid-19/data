@@ -69,7 +69,6 @@ for date in [date for date in date_range if date not in df['Date'].values]:
     df = df.append(inserted_record, ignore_index=True)
 
 df = df.reset_index().sort_values('Date')
-for column in ('Confirmed', 'Deaths'): df[column] = df[column].ffill()
 
 # Output the results
 dataframe_output(df, country_code)

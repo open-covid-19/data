@@ -64,8 +64,10 @@ df = df.reset_index().sort_values(['Date', 'RegionCode'])
 value_columns = ['Confirmed', 'Deaths']
 for region in df['RegionCode'].unique():
     mask = df['RegionCode'] == region
-    df.loc[mask, value_columns] = df.loc[mask, value_columns].fillna(0).cumsum()
-    df.loc[mask, value_columns] = df.loc[mask, value_columns].ffill().fillna(0)
+    df.loc[mask, value_columns] = df.loc[mask, value_columns].cumsum()
+
+# Get rid of rows which have all null values
+df = df.dropna(how='all', subset=value_columns)
 
 # If we don't have deaths data, then make them null rather than zero
 df['Deaths'] = None
