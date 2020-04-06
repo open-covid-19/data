@@ -60,7 +60,7 @@ df = df[~df['RegionName'].isna()]
 # Make sure all dates include year
 date_format = args.date_format
 if '%Y' not in date_format:
-    date_format = args.date_format + '-%Y'
+    date_format = date_format + '-%Y'
     df['Date'] = df['Date'] + '-%d' % datetime.now().year
 
 # Parse into datetime object, drop if not possible
