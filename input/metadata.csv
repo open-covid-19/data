@@ -345,13 +345,40 @@ HR,HR,Croatia,,,,45.100000,15.200000,4130304
 HT,HT,Haiti,,,,18.971187,-72.285215,11263770
 HU,HU,Hungary,,,,47.162494,19.503304,9684679
 ID,ID,Indonesia,,,,-0.789275,113.921327,270625568
-ID_JW,ID,Indonesia,JW,Java,,-7.49167,110.00444,145000000
-ID_KA,ID,Indonesia,KA,Kalimantan,,1.0,114.0,15894524
-ID_ML,ID,Indonesia,ML,Maluku Islands,Maluku,-3.15,129.383,2844131
-ID_NU,ID,Indonesia,NU,Lesser Sunda Islands,Lesser Sunda,-9.0,120.0,14686127
-ID_PP,ID,Indonesia,PP,Western New Guinea,W.N. Guinea,-4.0,136.0,4363869
-ID_SL,ID,Indonesia,SL,Sulawesi,,-2.0,121.0,19573800
-ID_SM,ID,Indonesia,SM,Sumatra,,0.0,102.0,58455800
+ID_AC,ID,Indonesia,AC,Aceh,,5.550,95.317,5316320
+ID_BA,ID,Indonesia,BA,Bali,,-8.33500,115.08806,4362000
+ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,Kepulauan Bangka Belitung,-2.133,106.117,1430900
+ID_BE,ID,Indonesia,BE,Bengkulu,,,,1971800
+ID_BT,ID,Indonesia,BT,Banten,,-6.500,106.250,12959169
+ID_GO,ID,Indonesia,GO,Gorontalo,,0.667,123.000,1133237
+ID_JA,ID,Indonesia,JA,Jambi,,-1.583,103.617,3515000
+ID_JB,ID,Indonesia,JB,West Java,Jawah Barat,-6.750,107.500,48683861
+ID_JI,ID,Indonesia,JI,East Java,Jawah Timur,-7.267,112.750,39744800
+ID_JK,ID,Indonesia,JK,Jakarta,DKI Jakarta,-6.200,106.817,
+ID_JT,ID,Indonesia,JT,Central Java,Jawah Tengah,-7.500,110.000,34552500
+ID_KB,ID,Indonesia,KB,West Kalimantan,Kalimantan Barat,0.000,110.500,5045700
+ID_KI,ID,Indonesia,KI,East Kalimantan,Kalimantan Timur,1.050,116.317,3619700
+ID_KR,ID,Indonesia,KR,Riau Islands,Kepulauan Riau,3.933,108.150,2241570
+ID_KS,ID,Indonesia,KS,South Kalimantan,Kalimantan Selatan,-2.500,115.500,4119794
+ID_KT,ID,Indonesia,KT,Central Kalimantan,Kalimantan Tengah,-2.217,113.917,2649803
+ID_KU,ID,Indonesia,KU,North Kalimantan,Kalimantan Utara,3.000,116.333,695562
+ID_LA,ID,Indonesia,LA,Lampung,,-5.450,105.267,8457600
+ID_MA,ID,Indonesia,MA,Maluku,,-3.70500,128.17000,1768500
+ID_MU,ID,Indonesia,MU,North Maluku,Maluku Utara,0.783,127.367,1235700
+ID_NB,ID,Indonesia,NB,West Nusa Tenggara,Nusa Tenggara Barat,-8.583,116.117,5152400
+ID_NT,ID,Indonesia,NT,East Nusa Tenggara,Nusa Tenggara Timur,-10.183,123.583,5437200
+ID_PA,ID,Indonesia,PA,Papua,,-2.533,140.717,3347100
+ID_PB,ID,Indonesia,PB,West Papua,Papua Barat,-0.867,134.083,963600
+ID_RI,ID,Indonesia,RI,Riau,,0.533,101.450,6835098
+ID_SA,ID,Indonesia,SA,North Sulawesi,Sulawesi Utara,1.250,124.833,2512900
+ID_SB,ID,Indonesia,SB,West Sumatra,Sumatera Barat,-1.000,100.500,5479491
+ID_SG,ID,Indonesia,SG,Southeast Sulawesi,Sulawesi Tenggara,-3.95000,122.50000,2663700
+ID_SN,ID,Indonesia,SN,South Sulawesi,Sulawesi Selatan,-4.333,120.250,8819500
+ID_SR,ID,Indonesia,SR,West Sulawesi,Sulawesi Barat,-2.683,118.900,1279994
+ID_SS,ID,Indonesia,SS,South Sumatra,Sumatera Selatan,-2.750,103.833,8497196
+ID_ST,ID,Indonesia,ST,Central Sulawesi,Sulawesi Tengah,-1.000,121.000,3042100
+ID_SU,ID,Indonesia,SU,North Sumatra,Sumatera Utara,2.000,99.000,14639400
+ID_YO,ID,Indonesia,YO,Yogyakarta,DI Yogyakarta,-7.783,110.367,3594290
 IE,IE,Ireland,,,,53.412910,-8.243890,4882495
 IL,IL,Israel,,,,31.046051,34.851612,8519377
 IM,IM,Isle of Man,,,,54.236107,-4.548056,84584

@@ -31,6 +31,7 @@ ROOT = Path(os.path.dirname(__file__)) / '..'
 # Define constants
 URL_GITHUB_RAW = 'https://raw.githubusercontent.com'
 URL_OPEN_COVID_19 = 'https://open-covid-19.github.io/data/data.csv'
+URL_GOOGLE_SHEETS = 'https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={sheet}'
 COLUMN_DTYPES = {
     'Date': str,
     'CountryCode': str,
@@ -72,6 +73,11 @@ def github_raw_dataframe(project: str, path: str, branch: str = 'master', **kwar
         return pandas.read_json(url, **kwargs)
     else:
         raise ValueError('Unknown data type: %s' % url)
+
+
+def google_sheets_dataframe(key: str, sheet: str = 'Sheet1', **kwargs):
+    url = URL_GOOGLE_SHEETS.format(**{'key': key, 'sheet': sheet})
+    return pandas.read_csv(url, **kwargs)
 
 
 def series_converter(series: pandas.Series):

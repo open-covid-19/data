@@ -230,6 +230,7 @@ from the relevant authorities, like a country's ministry of health.
 | France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
 | Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
 | India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) |
+| Indonesia | <https://catchmeup.id/covid-19> |
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |
 | Japan | <https://github.com/swsoyee/2019-ncov-japan> |
 | Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) |
