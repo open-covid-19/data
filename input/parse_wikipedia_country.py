@@ -48,7 +48,11 @@ data = read_html(
     parser=wiki_html_cell_parser,
     table_index=args.table_index,
     skiprows=args.skiprows)
-data = data.set_index(data.columns[0])
+
+# Set date column as index
+columns_lowercase = [(col or '').lower() for col in data.columns]
+date_index = columns_lowercase.index('date') if 'date' in columns_lowercase else 0
+data = data.set_index(data.columns[date_index])
 data = data.iloc[:, :-args.skipcols]
 if args.drop_rows is not None:
     data = data.drop(args.drop_rows.split(','))

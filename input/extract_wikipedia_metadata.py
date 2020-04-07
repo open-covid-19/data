@@ -23,8 +23,9 @@ def cell_parser(elem, row_idx, col_idx):
         return elem.get_text().strip()
 
 data = read_html(url, table_index=0, header=True, parser=cell_parser)
-url_col = list(filter(lambda x: re.match(r'/wiki/.+_language', x), data.columns))[0]
-data[url_col] = 'https://en.wikipedia.org' + data[url_col]
+lang_columns = list(filter(lambda x: re.match(r'/wiki/.+_language', x), data.columns))
+url_column = data.columns[1] if not lang_columns else lang_columns[0]
+data[url_column] = 'https://en.wikipedia.org' + data[url_column]
 data['Code'] = data['Code'].apply(lambda x: x[3:])
 data
 
@@ -47,7 +48,7 @@ def extract_population(soup):
 
 #%%
 records = []
-for code, url in tqdm(zip(data['Code'], data[url_col]), total=len(data)):
+for code, url in tqdm(zip(data['Code'], data[url_column]), total=len(data)):
     soup = BeautifulSoup(requests.get(url).content, 'lxml')
     record = {
         'Key': country_code + '_' + code,

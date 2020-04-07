@@ -203,31 +203,45 @@ backwards compatibility, but shouldn't be used in any new projects:
 * [USA (deprecated version)](output/usa_latest.csv)
 * [China (deprecated version)](output/china_latest.csv)
 
+## Contribute
+The data from this repository has become increasingly reliant on Wikipedia sources. If you spot an
+error in the data, or there's a country you would like to include, the best way to contribute to
+this project is by helping maintain the data on the relevant Wikipedia article. Not only can that
+data be parsed automatically by this project, but it will also help inform millions of others that
+receive their information from Wikipedia. See the section below for a direct link to what Wikipedia
+data is being parsed by this project.
+
 ## Sources of data
+All data in this repository is retrieved automatically. When possible, data is retrieved directly
+from the relevant authorities, like a country's ministry of health.
+
 | Data | Source |
 | ---- | ------ |
 | Metadata | [Wikipedia](https://wikipedia.org) |
 | Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |
-| Argentina | [Wikipedia](https://wikipedia.org) |
+| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |
 | Australia | <https://covid-19-au.github.io> |
-| Bolivia | [Wikipedia](https://wikipedia.org) |
+| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) |
 | Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
 | Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) |
-| Chile | [Wikipedia](https://wikipedia.org) |
+| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) |
 | China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) |
 | Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) |
 | France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
 | Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
-| India | [Wikipedia](https://wikipedia.org) |
+| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) |
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |
 | Japan | <https://github.com/swsoyee/2019-ncov-japan> |
-| Malaysia | [Wikipedia](https://wikipedia.org) |
+| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) |
 | Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |
-| Pakistan | [Wikipedia](https://wikipedia.org) |
-| Peru | [Wikipedia](https://wikipedia.org) |
+| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
+| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) |
+| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) |
+| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
 | Portugal | <https://github.com/dssg-pt/covid19pt-data> |
-| Russia | [Wikipedia](https://wikipedia.org) |
+| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) |
 | Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |
+| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
 | Switzerland | [OpenZH data](http://open.zh.ch) |
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
 | USA | [COVID Tracking Project](https://covidtracking.com) |
