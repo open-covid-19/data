@@ -248,8 +248,10 @@ def pivot_table(data: DataFrame, pivot_name: str = 'Pivot'):
     return DataFrame.from_records(records, columns=['Date', pivot_name, 'Value'])
 
 
-def safe_int_cast(value):
+def safe_int_cast(value: str):
     try:
+        value = re.sub(r',', '', value)
+        value = re.sub(r'−', '-', value)
         return int(value)
     except:
         return None
