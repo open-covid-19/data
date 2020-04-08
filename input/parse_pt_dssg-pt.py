@@ -13,7 +13,8 @@ df['Date'] = df['data'].apply(lambda date: datetime.strptime(date, '%d-%m-%Y').d
 
 # Extract regions from the data
 regions = [col.split('_')[-1] for col in df.columns if col.startswith('confirmados_')]
-regions = [region for region in regions if len(region) > 2 and region not in ('novos', 'estrangeiro')]
+regions = [region for region in regions
+           if len(region) > 2 and region not in ('novos', 'estrangeiro')]
 
 # Aggregate regions into a single data frame
 subsets = []

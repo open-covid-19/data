@@ -48,7 +48,8 @@ for region in df['RegionName'].unique():
     for date in df['Date'].unique():
         key = (region, date)
         for df_ in (confirmed, deaths):
-            if key not in df_.index: df_.loc[key, 'Event'] = 0
+            if key not in df_.index:
+                df_.loc[key, 'Event'] = 0
 
 # Put all data in the same dataframe
 confirmed = confirmed.rename(columns={'Event': 'Confirmed'})

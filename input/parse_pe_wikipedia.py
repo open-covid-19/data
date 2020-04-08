@@ -5,7 +5,7 @@ from datetime import datetime
 from argparse import ArgumentParser
 from pandas import isna, isnull, DataFrame
 from covid_io import read_file, wiki_html_cell_parser
-from utils import pivot_table,safe_datetime_parse, safe_int_cast, dataframe_output, read_metadata
+from utils import pivot_table, safe_datetime_parse, safe_int_cast, dataframe_output, read_metadata
 
 # We need to set locale in order to parse dates properly
 locale.setlocale(locale.LC_TIME, 'es_ES')
@@ -41,15 +41,21 @@ df = df[~df['Date'].isna()]
 # Convert all dates to ISO format
 df['Date'] = df['Date'].apply(lambda date: date.date().isoformat())
 
+
+def parenthesis(x): return (re.search(r'\((\d+)\)', x) or [None, None])[1]
+
+
 # Get the confirmed and deaths data from the table
-parenthesis = lambda x: (re.search(r'\((\d+)\)', x) or [None, None])[1]
 df['Confirmed'] = df['Value'].apply(lambda x: safe_int_cast(x.split('(')[0]))
 df['Deaths'] = df['Value'].apply(lambda x: safe_int_cast(parenthesis(x)))
 
-# Add up all the rows with same Date and RegionName
+
 def aggregate_region_values(group: DataFrame):
     non_null = [value for value in group if not (isna(value) or isnull(value))]
     return None if not non_null else sum(non_null)
+
+
+# Add up all the rows with same Date and RegionName
 df = df.sort_values(['Date', 'RegionCode'])
 df = df.drop(columns=['Value']).groupby(['RegionCode', 'Date']).agg(aggregate_region_values)
 df = df.reset_index().sort_values(['Date', 'RegionCode'])

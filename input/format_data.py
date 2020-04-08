@@ -27,14 +27,15 @@ def dataframe_split(data: DataFrame, pivot_columns: list, root: Path, name: str)
 
     # Output time-series dataset as-is
     data.to_csv(root / 'output' / ('%s.csv' % name), index=False)
-    dataframe_to_json(data, root / 'output' / ('%s.json' % name), orient='records')
+    dataframe_to_json(data, root / 'output' / '{}.json'.format(name), orient='records')
 
     # Output a day's subset to the _latest version of the dataset
     latest = DataFrame(columns=list(data.columns))
     pivot_series = Series([''.join([str(row[col]) for col in pivot_columns])
-                                  for _, row in data.iterrows()], index=data.index, dtype='O')
+                           for _, row in data.iterrows()], index=data.index, dtype='O')
     for column in sorted(pivot_series.unique()):
-        latest = pandas.concat([latest, data[pivot_series == column].iloc[-1:]])
+        latest = pandas.concat(
+            [latest, data[pivot_series == column].iloc[-1:]])
     latest = latest.sort_values(['Date', *pivot_columns])
 
     latest.to_csv(root / 'output' / ('%s_latest.csv' % name), index=False)
@@ -45,12 +46,15 @@ def dataframe_split(data: DataFrame, pivot_columns: list, root: Path, name: str)
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read the minimal data file and write to JSON output
-minimal = read_csv(ROOT / 'output' / 'data_minimal.csv').sort_values(['Date', 'Key'])
-dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
+minimal = read_csv(ROOT / 'output' /
+                   'data_minimal.csv').sort_values(['Date', 'Key'])
+dataframe_to_json(minimal, ROOT / 'output' /
+                  'data_minimal.json', orient='records')
 
 # Read the metadata file and write to output (including _latest)
 metadata = read_metadata()
-metadata = metadata[[col for col in metadata.columns if not col.startswith('_')]]
+metadata = metadata[[
+    col for col in metadata.columns if not col.startswith('_')]]
 metadata.to_csv(ROOT / 'output' / 'metadata.csv', index=False)
 dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')
 

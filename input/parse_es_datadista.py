@@ -10,14 +10,14 @@ from utils import dataframe_output, merge_previous
 # Confirmed and deaths come from different CSV files, parse them separately first
 confirmed, deaths, prev_data = read_argv()
 confirmed = confirmed.rename(columns={
-        'fecha': 'Date',
-        'CCAA': '_RegionLabel',
-        'total': 'Confirmed'
+    'fecha': 'Date',
+    'CCAA': '_RegionLabel',
+    'total': 'Confirmed'
 })
 deaths = deaths.rename(columns={
-        'fecha': 'Date',
-        'CCAA': '_RegionLabel',
-        'total': 'Deaths'
+    'fecha': 'Date',
+    'CCAA': '_RegionLabel',
+    'total': 'Deaths'
 })
 
 # Now we can simply join them into the same table
@@ -40,8 +40,11 @@ country_level['Date'] = country_level['Date'].apply(lambda date: date + timedelt
 for df in (region_level, country_level):
     df['Date'] = df['Date'].apply(lambda date: date.isoformat())
 
+
+def filter_function(row): return row['CountryCode'] == 'ES' and isna(row['RegionCode'])
+
+
 # Merge with the prior data
-filter_function = lambda row: row['CountryCode'] == 'ES' and isna(row['RegionCode'])
 prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
 country_level = merge_previous(country_level, prev_data, ['Date', 'CountryCode'])
 

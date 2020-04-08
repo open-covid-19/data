@@ -1,3 +1,5 @@
+from covid_io import fuzzy_text, read_file
+
 import os
 import re
 import sys
@@ -19,8 +21,6 @@ import matplotlib.pyplot
 from matplotlib.ticker import MaxNLocator
 import seaborn
 seaborn.set()
-
-from covid_io import fuzzy_text, read_file
 
 
 # Root path of the project
@@ -99,6 +99,7 @@ def _infer_region_label(row: Series):
     else:
         return None
 
+
 def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'inner'):
     '''
     This function performs the following steps:
@@ -160,7 +161,8 @@ def _logistic_function(X: float, a: float, b: float, c: float):
 def _forward_indices(indices: list, window: int):
     ''' Adds `window` indices to a list of dates '''
     date_indices = [date.fromisoformat(idx) for idx in indices]
-    for _ in range(window): date_indices.append(date_indices[-1] + timedelta(days=1))
+    for _ in range(window):
+        date_indices.append(date_indices[-1] + timedelta(days=1))
     return [idx.isoformat() for idx in date_indices]
 
 

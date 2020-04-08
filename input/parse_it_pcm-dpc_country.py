@@ -29,8 +29,11 @@ df['Date'] = df['Date'].apply(lambda date: date.isoformat())
 # Add the country code to all records
 df['CountryCode'] = 'IT'
 
+
+def filter_function(row): return row['CountryCode'] == 'IT' and pandas.isna(row['RegionCode'])
+
+
 # Merge the new data with the existing data (prefer new data if duplicates)
-filter_function = lambda row: row['CountryCode'] == 'IT' and pandas.isna(row['RegionCode'])
 prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
 df = merge_previous(df, prev_data, ['Date', 'CountryCode'])
 

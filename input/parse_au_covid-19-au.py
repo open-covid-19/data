@@ -14,9 +14,12 @@ for idx, row in data.iterrows():
     for code in data.columns:
         subset = row[code]
         record = {'Date': idx.date().isoformat(), 'RegionCode': code, 'Confirmed': subset[0]}
-        if len(subset) > 1: record['Deaths'] = subset[1]
-        if len(subset) > 2: record['Recovered'] = subset[2]
-        if len(subset) > 3: record['Tested'] = subset[3]
+        if len(subset) > 1:
+            record['Deaths'] = subset[1]
+        if len(subset) > 2:
+            record['Recovered'] = subset[2]
+        if len(subset) > 3:
+            record['Tested'] = subset[3]
         records.append(record)
 data = DataFrame.from_records(records)
 

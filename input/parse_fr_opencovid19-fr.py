@@ -33,10 +33,15 @@ df['RegionName'] = df['maille_nom']
 g = df[['Date', 'RegionName', 'Confirmed', 'Deaths']].groupby(['Date', 'RegionName'])
 
 # Retrieve the last non-null value per group
+
+
 def last_non_null(rows):
     for row in rows:
-        if not isna(row): return row
+        if not isna(row):
+            return row
     return rows.iloc[-1]
+
+
 df = g.agg(last_non_null).reset_index()
 
 # Output the results

@@ -18,7 +18,7 @@ data = data.rename(columns={
     'numtested': 'Tested'
 })
 
- # Convert date to datetime object
+# Convert date to datetime object
 data['Date'] = data['Date'].apply(
     lambda date: datetime.datetime.strptime(date, '%d-%m-%Y').date().isoformat())
 

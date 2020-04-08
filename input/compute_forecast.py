@@ -34,7 +34,8 @@ for key in tqdm(df['Key'].unique()):
     # Get data only after the outbreak begun
     subset = subset[get_outbreak_mask(subset)]
     # Early exit: no outbreak found
-    if not len(subset): continue
+    if not len(subset):
+        continue
     # Get a list of dates for existing data
     date_range = map(
         lambda datetime: datetime.date().isoformat(),
@@ -49,7 +50,8 @@ for key in tqdm(df['Key'].unique()):
     subset = subset.query('~index.duplicated()')
 
     # Early exit: If there are less than DATAPOINT_COUNT output datapoints
-    if len(subset) < DATAPOINT_COUNT - PREDICT_WINDOW: continue
+    if len(subset) < DATAPOINT_COUNT - PREDICT_WINDOW:
+        continue
 
     # Perform forecast
     forecast_data = compute_forecast(subset['Confirmed'], PREDICT_WINDOW)
@@ -70,7 +72,8 @@ forecast_columns = ['ForecastDate', 'Date', 'Key', 'Estimated', 'Confirmed']
 data = data.sort_values(['Key', 'Date'])[forecast_columns]
 
 # Make sure the core columns have the right data type
-for col in data.columns: data[col] = series_converter(data[col])
+for col in data.columns:
+    data[col] = series_converter(data[col])
 
 # Output resulting dataframe
 data.to_csv(sys.stdout, index=False)

@@ -29,7 +29,8 @@ for key in tqdm(df_data['Key'].unique()):
     # Get data only for the selected country / region
     subset = df_data[df_data['Key'] == key][cols]
     # Early exit: no forecast found
-    if not len(subset): continue
+    if not len(subset):
+        continue
 
     # Used for naming the output files
     prefix = subset.loc[~subset['Confirmed'].isna(), 'Date'].iloc[-1]
@@ -57,7 +58,8 @@ for key in tqdm(df_data['Key'].unique()):
     try:
         # Get the estimated cases from the forecast
         estimated = df_forecast[df_forecast['Key'] == key].set_index(['Date'])['Estimated']
-        if len(estimated) == 0: continue
+        if len(estimated) == 0:
+            continue
 
         # Line up the indices for both the estimated and confirmed cases
         estimated = estimated[estimated.index >= confirmed.index[0]].dropna()

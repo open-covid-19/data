@@ -9,6 +9,7 @@ from utils import safe_datetime_parse, pivot_table, dataframe_output
 def parse_date(date):
     return safe_datetime_parse('%s-%d' % (date, datetime.now().year), '%d-%b-%Y')
 
+
 # Read data from Google Sheets
 df = read_argv()
 

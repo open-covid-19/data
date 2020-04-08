@@ -2,8 +2,8 @@
 
 from datetime import datetime
 from pandas import DataFrame
-from covid_io import read_argv
 from utils import dataframe_output, merge_previous
+from covid_io import read_argv
 
 
 # Confirmed and deaths come from different CSV files, parse them separately first
@@ -15,11 +15,9 @@ for df in (confirmed, deaths):
 
 # Iterate through all date-region combinations
 regions = confirmed.columns.tolist()
-df = DataFrame(columns=['Date', '_RegionLabel', 'Confirmed', 'Deaths']
-               ).set_index(['Date', '_RegionLabel'])
+df = DataFrame(columns=['Date', '_RegionLabel', 'Confirmed', 'Deaths']).set_index(['Date', '_RegionLabel'])
 for region in regions:
-    if region == 'Total':
-        continue
+    if region == 'Total': continue
     for date, value in zip(confirmed.index, confirmed[region]):
         df.loc[(date, region), 'Confirmed'] = value
     for date, value in zip(deaths.index, deaths[region]):

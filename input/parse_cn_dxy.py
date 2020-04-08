@@ -30,7 +30,8 @@ df = df.rename(columns={
 df = df[df['CountryName'] == 'China']
 
 # This is time series data, get only the last snapshot of each day
-df = df.sort_values('updateTime').groupby(['Date', 'CountryName', 'RegionName']).last().reset_index()
+df = df.sort_values('updateTime').groupby(
+    ['Date', 'CountryName', 'RegionName']).last().reset_index()
 
 # Output the results
 dataframe_output(df, 'CN')
