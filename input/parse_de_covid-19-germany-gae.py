@@ -12,11 +12,13 @@ import sys
 from datetime import datetime
 from numpy import unique
 from pandas import DataFrame
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Read CSV file from GitHub project
-df = github_raw_dataframe('jgehrcke/covid-19-germany-gae', 'data.csv')
+# https://raw.github.com/jgehrcke/covid-19-germany-gae/master/data.csv
+df = read_argv()
 
 # Rename the appropriate columns
 df = df.rename(columns={'time_iso8601': 'Date'})

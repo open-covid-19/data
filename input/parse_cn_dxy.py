@@ -7,11 +7,12 @@ and extracts the confirmed cases and deaths and for each region.
 Credit to the github.com/BlankerL team for scraping the data from DXY.cn.
 '''
 
-from utils import github_raw_dataframe, dataframe_output, timezone_adjust
+from covid_io import read_argv
+from utils import dataframe_output, timezone_adjust
 
 
 # Read DXY CSV file from  website
-df = github_raw_dataframe('BlankerL/DXY-COVID-19-Data', 'csv/DXYArea.csv')
+df = read_argv()
 
 # Adjust 7 hour difference between China's GMT+8 and GMT+1
 df['Date'] = df['updateTime'].apply(lambda date: timezone_adjust(date, 7))

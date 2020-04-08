@@ -2,14 +2,15 @@
 
 from datetime import datetime
 from datetime import datetime
-from utils import safe_datetime_parse, pivot_table, google_sheets_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import safe_datetime_parse, pivot_table, dataframe_output
 
 
 def parse_date(date):
     return safe_datetime_parse('%s-%d' % (date, datetime.now().year), '%d-%b-%Y')
 
 # Read data from Google Sheets
-df = google_sheets_dataframe('1sgiz8x71QyIVJZQguYtG9n6xBEKdM4fXuDs_d8zKOmY', sheet='Data%20Provinsi')
+df = read_argv()
 
 df.columns = df.iloc[0]
 df = df.rename(columns={'Provinsi': 'Date'})

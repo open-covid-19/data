@@ -13,7 +13,6 @@ from bs4.element import Tag
 from bs4 import BeautifulSoup
 from pandas import DataFrame, Series
 from scipy import optimize
-from unidecode import unidecode
 
 import matplotlib
 import matplotlib.pyplot
@@ -21,63 +20,11 @@ from matplotlib.ticker import MaxNLocator
 import seaborn
 seaborn.set()
 
+from covid_io import fuzzy_text, read_file, ROOT
+
 
 # Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
 matplotlib.rcParams['svg.hashsalt'] = 0
-
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
-
-# Define constants
-URL_GITHUB_RAW = 'https://raw.githubusercontent.com'
-URL_OPEN_COVID_19 = 'https://open-covid-19.github.io/data/data.csv'
-URL_GOOGLE_SHEETS = 'https://docs.google.com/spreadsheets/d/{key}/gviz/tq?tqx=out:csv&sheet={sheet}'
-COLUMN_DTYPES = {
-    'Date': str,
-    'CountryCode': str,
-    'CountryName': str,
-    'RegionCode': str,
-    'RegionName': str,
-    'Confirmed': 'Int64',
-    'Deaths': 'Int64',
-    'Latitude': str,
-    'Longitude': str,
-    'Population': 'Int64'
-}
-
-
-def parse_level_args(args: list = sys.argv[1:]):
-    ''' Parses the command line arguments to determine if this is country- or region-level data '''
-    parser = ArgumentParser()
-    parser.add_argument('level', choices=['country', 'region'])
-    return parser.parse_args(args)
-
-
-def read_csv(path: str, **kwargs):
-    return pandas.read_csv(
-        path, dtype=COLUMN_DTYPES, keep_default_na=False, na_values=[''], **kwargs)
-
-
-def github_raw_url(project: str, path: str, branch: str = 'master') -> str:
-    ''' Get the absolute URL of a file hosted on GitHub using the GitHub Raw URL format '''
-    return '{base_url}/{project}/{branch}/{path}'.format(
-        **{'base_url': URL_GITHUB_RAW, 'project': project, 'branch': branch, 'path': path})
-
-
-def github_raw_dataframe(project: str, path: str, branch: str = 'master', **kwargs) -> pandas.DataFrame:
-    ''' Read a dataframe from a file hosted using GitHub Raw '''
-    url = github_raw_url(project, path, branch=branch)
-    if url.endswith('csv'):
-        return pandas.read_csv(url, **kwargs)
-    elif url.endswith('json'):
-        return pandas.read_json(url, **kwargs)
-    else:
-        raise ValueError('Unknown data type: %s' % url)
-
-
-def google_sheets_dataframe(key: str, sheet: str = 'Sheet1', **kwargs):
-    url = URL_GOOGLE_SHEETS.format(**{'key': key, 'sheet': sheet})
-    return pandas.read_csv(url, **kwargs)
 
 
 def series_converter(series: pandas.Series):
@@ -100,35 +47,52 @@ def timezone_adjust(timestamp: str, offset: int):
         return (timestamp + timedelta(days=1)).date().isoformat()
 
 
-def merge_previous(data: pandas.DataFrame, index_columns: list, filter_function):
+def merge_previous(data: DataFrame, prev: DataFrame, index_columns: list):
     ''' Merges a DataFrame with the latest Open COVID-19 data, overwrites rows if necessary '''
 
-    # Read live data and filter it as requested by argument
-    prev_data = read_csv(URL_OPEN_COVID_19)
-    prev_data = prev_data.loc[prev_data.apply(filter_function, axis=1)]
-
     # Only look at columns present in the snapshot data
-    prev_data = prev_data[set(data.columns) & set(prev_data.columns)]
+    prev = prev[set(data.columns) & set(prev.columns)]
 
     # Remove all repeated records from the previous dataset
     data = data.set_index(index_columns)
-    prev_data = prev_data.set_index(index_columns)
-    for idx in (set(data.index) & set(prev_data.index)):
-        prev_data = prev_data.drop(idx)
+    prev = prev.set_index(index_columns)
+    prev = prev.drop(list(set(data.index) & set(prev.index)))
 
     # Create new dataset of previous + current
-    return pandas.concat([prev_data, data], sort=False).reset_index()
+    return pandas.concat([prev, data], sort=False).reset_index()
 
 
-def _make_fuzzy(text: str):
-    return re.sub(r'[^a-z]', '', unidecode(str(text)).lower())
+def read_metadata():
+    ''' Reads the country and region metadata file '''
+
+    column_dtypes = {
+        'Date': str,
+        'CountryCode': str,
+        'CountryName': str,
+        'RegionCode': str,
+        'RegionName': str,
+        '_RegionLabel': str,
+        'Confirmed': 'Int64',
+        'Deaths': 'Int64',
+        'Latitude': str,
+        'Longitude': str,
+        'Population': 'Int64'
+    }
+
+    metadata = read_file(
+        ROOT / 'input' / 'metadata.csv', dtype=column_dtypes, keep_default_na=False, na_values=[''])
+
+    # Make sure that all entries have a valid region label column
+    metadata['_RegionLabel'] = metadata.apply(_infer_region_label, axis=1)
+
+    return metadata
 
 
 def _infer_region_label(row: Series):
     if '_RegionLabel' in row and not pandas.isna(row['_RegionLabel']):
-        return _make_fuzzy(row['_RegionLabel'])
+        return fuzzy_text(row['_RegionLabel'])
     elif 'RegionName' in row and not pandas.isna(row['RegionName']):
-        return _make_fuzzy(row['RegionName'])
+        return fuzzy_text(row['RegionName'])
     else:
         return None
 
@@ -148,15 +112,14 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
     assert 'CountryCode' in data.columns
 
     # Core columns are those that appear in all datasets and can be used for merging with metadata
-    core_columns = read_csv(ROOT / 'input' / 'output_columns.csv').columns.tolist()
+    core_columns = open(ROOT / 'input' / 'output_columns.csv').readline().strip().split(',')
 
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
-    metadata = read_csv(ROOT / 'input' / 'metadata.csv')
+    metadata = read_metadata()
 
     # Make sure _RegionLabel column exists for all region-label data
     if code is not None:
         data['_RegionLabel'] = data.apply(_infer_region_label, axis=1)
-        metadata['_RegionLabel'] = metadata.apply(_infer_region_label, axis=1)
 
     # Try to merge with metadata using keys in decreasing order of concreteness
     merge_keys = ['Date', 'CountryCode', 'Confirmed', 'Deaths']
@@ -278,58 +241,6 @@ def pivot_table(data: DataFrame, pivot_name: str = 'Pivot'):
     values = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
     return DataFrame.from_records(records, columns=['Date', pivot_name, 'Value'])
-
-
-def _get_html_columns(row: Tag) -> List[Tag]:
-    cols = []
-    for elem in filter(lambda row: isinstance(row, Tag), row.children):
-        cols += [elem] * int(elem.attrs.get('colspan', 1))
-    return list(cols)
-
-
-def _default_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
-    return cell.get_text().strip()
-
-
-def wiki_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
-    return re.sub(r'\[.+\]', '', cell.get_text().strip())
-
-
-def read_html(
-    url: str,
-    selector: str = 'table',
-    table_index: int = 0,
-    skiprows: int = 0,
-    header: bool = False,
-    parser = None) -> DataFrame:
-    ''' Parse a website's table into a DataFrame '''
-    parser = parser if parser is not None else _default_html_cell_parser
-
-    # Fetch table and read its rows
-    article = BeautifulSoup(requests.get(url).content, 'lxml')
-    table = article.select(selector)[table_index]
-    rows = [_get_html_columns(row) for row in table.find_all('tr')]
-
-    # Adjust for rowspan > 1
-    for idx_row, row in enumerate(rows):
-        for idx_cell, cell in enumerate(row):
-            rowspan = int(cell.attrs.get('rowspan', 1))
-            cell.attrs['rowspan'] = 1  # reset to prevent cascading
-            for offset in range(1, rowspan):
-                rows[idx_row + offset].insert(idx_cell, cell)
-
-    # Get text within table cells and build dataframe
-    records = []
-    for row_idx, row in enumerate(rows[skiprows:]):
-        records.append([parser(elem, row_idx, col_idx) for col_idx, elem in enumerate(row)])
-    data = DataFrame.from_records(records)
-
-    # Parse header if requested
-    if header:
-        data.columns = data.iloc[0]
-        data = data.drop(data.index[0])
-
-    return data
 
 
 def safe_int_cast(value):

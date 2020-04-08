@@ -2,14 +2,15 @@
 
 import pandas
 import datetime
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Read CSV file from covidtracking's GitHub project
-df = pandas.read_csv('https://health-infobase.canada.ca/src/data/covidLive/covid19.csv')
+data = read_argv()
 
 # Rename the appropriate columns
-df = df.rename(columns={
+data = data.rename(columns={
     'date': 'Date',
     'prname': '_RegionLabel',
     'numconf': 'Confirmed',
@@ -18,8 +19,8 @@ df = df.rename(columns={
 })
 
  # Convert date to datetime object
-df['Date'] = df['Date'].apply(
+data['Date'] = data['Date'].apply(
     lambda date: datetime.datetime.strptime(date, '%d-%m-%Y').date().isoformat())
 
 # Output the results
-dataframe_output(df, 'CA')
+dataframe_output(data, 'CA')

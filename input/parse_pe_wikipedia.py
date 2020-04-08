@@ -4,21 +4,15 @@ import locale
 from datetime import datetime
 from argparse import ArgumentParser
 from pandas import isna, isnull, DataFrame
-from utils import \
-    read_csv, read_html, wiki_html_cell_parser, pivot_table,safe_datetime_parse, safe_int_cast, \
-    dataframe_output, ROOT
+from covid_io import read_file, wiki_html_cell_parser
+from utils import pivot_table,safe_datetime_parse, safe_int_cast, dataframe_output, read_metadata
 
 # We need to set locale in order to parse dates properly
 locale.setlocale(locale.LC_TIME, 'es_ES')
 
-# Get country name from metadata
-metadata = read_csv(ROOT / 'input' / 'metadata.csv')
-country_name = metadata.set_index('CountryCode').loc['PE', 'CountryName'].iloc[0]
-
 # Fetch the table from the Wikipedia article
-url_article = 'https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA'
-data = read_html(
-    url_article,
+data = read_file(
+    sys.argv[1],
     header=True,
     selector='table.wikitable',
     parser=wiki_html_cell_parser,

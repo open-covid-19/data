@@ -2,11 +2,13 @@
 
 from datetime import datetime
 import pandas
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Read data from GitHub repo
-df = github_raw_dataframe('dssg-pt/covid19pt-data', 'data.csv')
+# https://raw.github.com/dssg-pt/covid19pt-data/master/data.csv
+df = read_argv()
 df['Date'] = df['data'].apply(lambda date: datetime.strptime(date, '%d-%m-%Y').date().isoformat())
 
 # Extract regions from the data

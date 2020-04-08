@@ -2,11 +2,13 @@
 
 from datetime import datetime
 from pandas import DataFrame
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Get CSV file from Github
-df = github_raw_dataframe('covid19-eu-zh/covid19-eu-data', 'dataset/covid-19-se.csv')
+df = read_argv()
+# https://raw.github.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-se.csv
 df = df.rename(columns={
     'datetime': 'Date',
     'nuts_3': 'RegionName',

@@ -2,11 +2,13 @@
 
 from datetime import datetime
 from pandas import DataFrame, NA
-from utils import github_raw_dataframe, dataframe_output, pivot_table
+from covid_io import read_argv
+from utils import dataframe_output, pivot_table
 
 
 # Get CSV file from Github
-df = github_raw_dataframe('swsoyee/2019-ncov-japan', 'Data/byDate.csv')
+# https://raw.github.com/swsoyee/2019-ncov-japan/master/Data/byDate.csv
+df = read_argv()
 df = df.rename(columns={'date': 'Date'})
 df['Date'] = df['Date'].apply(lambda date: datetime.strptime(str(date), '%Y%m%d'))
 df['Date'] = df['Date'].apply(lambda date: date.date().isoformat())

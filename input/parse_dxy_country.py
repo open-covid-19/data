@@ -12,7 +12,8 @@ import sys
 import datetime
 from pathlib import Path
 import pandas as pd
-from utils import github_raw_dataframe, dataframe_output, timezone_adjust, ROOT
+from covid_io import read_argv
+from utils import dataframe_output, timezone_adjust, ROOT
 
 # This script requires country code as parameter
 country_code = sys.argv[1]
@@ -20,7 +21,8 @@ assert country_code is not None
 FIRST_DATE = '2019-12-31'
 
 # Read DXY CSV file from  website
-df = github_raw_dataframe('BlankerL/DXY-COVID-19-Data', 'csv/DXYArea.csv')
+df = read_argv()
+# https://raw.github.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYArea.csv
 
 # Adjust 7 hour difference between China's GMT+8 and GMT+1 (ECDC report time)
 df['Date'] = df['updateTime'].apply(lambda date: timezone_adjust(date, 7))

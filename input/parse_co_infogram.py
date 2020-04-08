@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import re
+import sys
 import json
 from datetime import datetime
 
@@ -11,8 +12,7 @@ from utils import dataframe_output
 
 
 # Get JSON file from the infogram API
-url_data = 'https://e.infogram.com/api/live/flex/bc384047-e71c-47d9-b606-1eb6a29962e3/664bc407-2569-4ab8-b7fb-9deb668ddb7a'
-data = json.loads(requests.get(url_data).text)['data'][0]
+data = json.load(open(sys.argv[1]))['data'][0]
 df = DataFrame.from_records(data)
 df.columns = df.iloc[0]
 df = df.drop(df.index[0]).rename(columns={

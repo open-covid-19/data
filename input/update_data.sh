@@ -8,8 +8,8 @@ BASE_DIR=`dirname "$0"`
 # TMP: Avoid deleting the old data.csv file in case someone was using it
 mv "$BASE_DIR"/../output/data.csv "$BASE_DIR"/../output/data.csv.bak
 
-# Delete all prior data from output folder
-rm -rf "$BASE_DIR"/../output/*.csv "$BASE_DIR"/../output/*.json
+# Delete all prior data from output and snapshot folders
+rm -rf "$BASE_DIR"/../output/*.csv "$BASE_DIR"/../output/*.json "$BASE_DIR"/../snapshot/*
 
 # TMP: Avoid deleting the old data.csv file in case someone was using it
 mv "$BASE_DIR"/../output/data.csv.bak "$BASE_DIR"/../output/data.csv

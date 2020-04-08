@@ -2,12 +2,12 @@
 
 from datetime import datetime
 from pandas import DataFrame
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Read data from GitHub repo
-confirmed = github_raw_dataframe('elhenrico/covid19-Brazil-timeseries', 'confirmed-cases.csv')
-deaths = github_raw_dataframe('elhenrico/covid19-Brazil-timeseries', 'deaths.csv')
+confirmed, deaths = read_argv()
 for df in (confirmed, deaths):
     df.rename(columns={'Unnamed: 1': 'RegionCode'}, inplace=True)
     df.set_index('RegionCode', inplace=True)

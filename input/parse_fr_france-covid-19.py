@@ -2,12 +2,14 @@
 
 from datetime import datetime
 from pandas import DataFrame
-from utils import parse_level_args, github_raw_dataframe, dataframe_output, merge_previous
+from covid_io import read_argv
+from utils import dataframe_output, merge_previous
 
 
 # Confirmed and deaths come from different CSV files, parse them separately first
-confirmed = github_raw_dataframe('cedricguadalupe/FRANCE-COVID-19', 'france_coronavirus_time_series-confirmed.csv')
-deaths = github_raw_dataframe('cedricguadalupe/FRANCE-COVID-19', 'france_coronavirus_time_series-deaths.csv')
+# https://raw.github.com/cedricguadalupe/FRANCE-COVID-19/master/france_coronavirus_time_series-confirmed.csv
+# https://raw.github.com/cedricguadalupe/FRANCE-COVID-19/master/france_coronavirus_time_series-deaths.csv
+confirmed, deaths = read_argv()
 for df in (confirmed, deaths):
     df.set_index('Date', inplace=True)
 

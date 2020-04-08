@@ -9,11 +9,12 @@ import sys
 from io import BytesIO
 from datetime import datetime
 import pandas as pd
+from covid_io import read_argv
 from utils import dataframe_output
 
 
 # Read CSV file from URL
-df = pd.read_csv('https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/', encoding='utf-8')
+df = read_argv()
 
 # Ensure date field is used as a string
 df['dateRep'] = df['dateRep'].astype(str)

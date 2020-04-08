@@ -3,4 +3,6 @@
 # Use Wikipedia data to fetch and parse the region-level PE data
 
 BASE_DIR=`dirname "$0"`
-python "$BASE_DIR/parse_wikipedia_pe.py"
+URL="https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA"
+SNAPSHOT=$(python "$BASE_DIR"/download_snapshot.py "$URL" --extension html $@)
+python "$BASE_DIR/parse_pe_wikipedia.py" "$SNAPSHOT"

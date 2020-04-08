@@ -2,12 +2,13 @@
 
 from datetime import datetime
 from pandas import DataFrame
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Get CSV file from Github
-df = github_raw_dataframe('openZH/covid_19', 'COVID19_Fallzahlen_CH_total.csv')
-df = df.rename(columns={
+data = read_argv()
+data = data.rename(columns={
     'date': 'Date',
     'ncumul_tested': 'Tested',
     'ncumul_conf': 'Confirmed',
@@ -15,4 +16,4 @@ df = df.rename(columns={
     'abbreviation_canton_and_fl': 'RegionCode'})
 
 # Output the results
-dataframe_output(df.reset_index(), 'CH')
+dataframe_output(data.reset_index(), 'CH')

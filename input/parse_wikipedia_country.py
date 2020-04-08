@@ -11,38 +11,27 @@ import sys
 from datetime import datetime
 from argparse import ArgumentParser
 from pandas import isna, isnull, DataFrame
+from covid_io import read_file, wiki_html_cell_parser
 from utils import \
-    read_csv, read_html, wiki_html_cell_parser, pivot_table, safe_datetime_parse, safe_int_cast, \
-    dataframe_output, ROOT
+    pivot_table, safe_datetime_parse, safe_int_cast, dataframe_output
 
 
 # Parse arguments
 parser = ArgumentParser()
-parser.add_argument('code', type=str)
+parser.add_argument('html-file', type=str)
+parser.add_argument('--country-code', type=str, default=None)
 parser.add_argument('--article', type=str, default=None)
 parser.add_argument('--cumsum', type=bool, default=False)
 parser.add_argument('--skiprows', type=int, default=1)
 parser.add_argument('--skipcols', type=int, default=2)
-parser.add_argument('--drop_rows', type=str, default=None)
-parser.add_argument('--date_format', type=str, default='%b %d')
-parser.add_argument('--table_index', type=int, default=0)
-parser.add_argument('--null_deaths', type=bool, default=False)
+parser.add_argument('--droprows', type=str, default=None)
+parser.add_argument('--date-format', type=str, default='%b %d')
+parser.add_argument('--table-index', type=int, default=0)
+parser.add_argument('--null-deaths', type=bool, default=False)
 args = parser.parse_args(sys.argv[1:])
 
-# Get country name from metadata
-metadata = read_csv(ROOT / 'input' / 'metadata.csv')
-country_name = metadata.set_index('CountryCode').loc[args.code, 'CountryName'].iloc[0]
-
-# Fetch the table from the Wikipedia article
-url_base = 'https://en.wikipedia.org/wiki'
-
-if args.article is None:
-    article = 'Template:2019–20_coronavirus_pandemic_data/%s_medical_cases' % country_name
-else:
-    article = args.article
-
-data = read_html(
-    '%s/%s' % (url_base, article),
+data = read_file(
+    getattr(args, 'html-file'),
     header=True,
     selector='table.wikitable',
     parser=wiki_html_cell_parser,
@@ -54,8 +43,8 @@ columns_lowercase = [(col or '').lower() for col in data.columns]
 date_index = columns_lowercase.index('date') if 'date' in columns_lowercase else 0
 data = data.set_index(data.columns[date_index])
 data = data.iloc[:, :-args.skipcols]
-if args.drop_rows is not None:
-    data = data.drop(args.drop_rows.split(','))
+if args.droprows is not None:
+    data = data.drop(args.droprows.split(','))
 
 # Some poorly maintained tables have duplicate dates, pick the first row in such case
 data = data.loc[~data.index.duplicated(keep='first')]
@@ -105,4 +94,4 @@ if args.null_deaths:
     df['Deaths'] = None
 
 # Output the results
-dataframe_output(df, args.code)
+dataframe_output(df, args.country_code)

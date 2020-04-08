@@ -3,7 +3,10 @@
 # Use Wikipedia data to fetch and parse the region-level IN data
 
 BASE_DIR=`dirname "$0"`
-python "$BASE_DIR"/parse_wikipedia_country.py IN \
-    --date_format '%b-%d' \
-    --table_index 0 \
+URL="https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data/India_medical_cases"
+SNAPSHOT=$(python "$BASE_DIR"/download_snapshot.py "$URL" --extension html $@)
+python "$BASE_DIR"/parse_wikipedia_country.py "$SNAPSHOT" \
+    --country-code IN \
+    --date-format '%b-%d' \
+    --table-index 0 \
     --skiprows 1

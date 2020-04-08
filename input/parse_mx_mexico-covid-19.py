@@ -3,9 +3,11 @@ import sys
 import datetime
 from pathlib import Path
 import pandas as pd
-from utils import github_raw_dataframe, dataframe_output, pivot_table, ROOT
+from covid_io import read_argv
+from utils import dataframe_output, pivot_table, ROOT
 
-df = github_raw_dataframe('carranco-sga/Mexico-COVID-19', 'Mexico_COVID19.csv')
+# https://raw.github.com/carranco-sga/Mexico-COVID-19/master/Mexico_COVID19.csv
+df = read_argv()
 df = df.rename(columns={'Fecha': 'Date'}).set_index('Date')
 
 deaths_columns = [col for col in df.columns if col.endswith('_D')]

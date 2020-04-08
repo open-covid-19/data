@@ -9,12 +9,12 @@ Credit to the covidtracking.com team for scraping the data from each state.
 
 import sys
 import datetime
-from utils import github_raw_dataframe, dataframe_output
+from covid_io import read_argv
+from utils import dataframe_output
 
 
 # Read CSV file from covidtracking's GitHub project
-df = github_raw_dataframe(
-    'COVID19Tracking/covid-tracking-data', 'data/states_daily_4pm_et.csv')
+df = read_argv()
 
 # Rename the appropriate columns
 df = df.rename(columns={
