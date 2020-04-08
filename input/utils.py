@@ -20,8 +20,11 @@ from matplotlib.ticker import MaxNLocator
 import seaborn
 seaborn.set()
 
-from covid_io import fuzzy_text, read_file, ROOT
+from covid_io import fuzzy_text, read_file
 
+
+# Root path of the project
+ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
 matplotlib.rcParams['svg.hashsalt'] = 0

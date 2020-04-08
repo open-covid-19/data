@@ -7,13 +7,13 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from utils import read_csv, series_converter
+from utils import series_converter
 
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from the open COVID-19 dataset
-data = read_csv(ROOT / 'output' / 'data_minimal.csv')
+data = pd.read_csv(ROOT / 'output' / 'data_minimal.csv')
 
 # Approximate numbers from early Chinese data
 severe_ratio = .15

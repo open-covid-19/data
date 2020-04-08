@@ -17,7 +17,7 @@ from utils import ROOT
 parser = ArgumentParser()
 parser.add_argument('url', type=str)
 parser.add_argument('--extension', type=str, default=None)
-parser.add_argument('--offline', type=bool, default=False)
+parser.add_argument('--offline', action='store_true')
 args = parser.parse_args(sys.argv[1:])
 
 # Determine output path

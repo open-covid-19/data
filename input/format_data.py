@@ -8,8 +8,8 @@ import os
 import shutil
 from pathlib import Path
 import pandas
-from pandas import DataFrame
-from utils import read_csv
+from pandas import DataFrame, Series, read_csv
+from utils import read_metadata, ROOT
 
 
 def dataframe_to_json(data: DataFrame, path: Path, **kwargs):
@@ -30,8 +30,8 @@ def dataframe_split(data: DataFrame, pivot_columns: list, root: Path, name: str)
     dataframe_to_json(data, root / 'output' / ('%s.json' % name), orient='records')
 
     # Output a day's subset to the _latest version of the dataset
-    latest = pandas.DataFrame(columns=list(data.columns))
-    pivot_series = pandas.Series([''.join([str(row[col]) for col in pivot_columns])
+    latest = DataFrame(columns=list(data.columns))
+    pivot_series = Series([''.join([str(row[col]) for col in pivot_columns])
                                   for _, row in data.iterrows()], index=data.index, dtype='O')
     for column in sorted(pivot_series.unique()):
         latest = pandas.concat([latest, data[pivot_series == column].iloc[-1:]])
@@ -49,7 +49,7 @@ minimal = read_csv(ROOT / 'output' / 'data_minimal.csv').sort_values(['Date', 'K
 dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
 
 # Read the metadata file and write to output (including _latest)
-metadata = read_csv(ROOT / 'input' / 'metadata.csv')
+metadata = read_metadata()
 metadata = metadata[[col for col in metadata.columns if not col.startswith('_')]]
 metadata.to_csv(ROOT / 'output' / 'metadata.csv', index=False)
 dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')

@@ -11,10 +11,6 @@ from pandas import DataFrame, read_csv
 from bs4 import BeautifulSoup, Tag
 
 
-# Root path of the project
-ROOT = Path(os.path.dirname(__file__)) / '..'
-
-
 def fuzzy_text(text: str):
     return re.sub(r'[^a-z]', '', unidecode(str(text)).lower())
 

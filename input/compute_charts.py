@@ -9,15 +9,15 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from utils import plot_forecast, plot_column, read_csv
+from utils import plot_forecast, plot_column
 
 
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read data from the open COVID-19 dataset
-df_data = read_csv(ROOT / 'output' / 'data_minimal.csv')
-df_forecast = read_csv(ROOT / 'output' / 'data_forecast.csv')[['Date', 'Key', 'Estimated']]
+df_data = pd.read_csv(ROOT / 'output' / 'data_minimal.csv')
+df_forecast = pd.read_csv(ROOT / 'output' / 'data_forecast.csv')[['Date', 'Key', 'Estimated']]
 
 # Loop through each unique combination of country / region
 chart_outputs = {}

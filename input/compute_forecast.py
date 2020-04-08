@@ -8,8 +8,7 @@ from pathlib import Path
 import pandas as pd
 from tqdm import tqdm
 
-from utils import \
-    compute_record_key, get_outbreak_mask, compute_forecast, series_converter, read_csv
+from utils import compute_record_key, get_outbreak_mask, compute_forecast, series_converter
 
 # Establish root of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
@@ -19,7 +18,7 @@ PREDICT_WINDOW = 3
 DATAPOINT_COUNT = 14
 
 # Read data from the open COVID-19 dataset
-df = read_csv(ROOT / 'output' / 'data_minimal.csv').set_index('Date')
+df = pd.read_csv(ROOT / 'output' / 'data_minimal.csv').set_index('Date')
 
 # Create the output dataframe ahead, we will fill it one row at a time
 forecast_columns = ['ForecastDate', 'Date', 'Key', 'Estimated', 'Confirmed']
