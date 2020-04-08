@@ -1,5 +1,6 @@
 # Open COVID-19 Dataset
-This repository contains datasets of historical data related to COVID-19.
+This repository contains datasets of daily time-series data related to
+COVID-19, including state/province data for over 30 countries.
 
 ## Explore the data
 |     |     |
