@@ -241,6 +241,7 @@ from the relevant authorities, like a country's ministry of health.
 | Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
 | Portugal | <https://github.com/dssg-pt/covid19pt-data> |
 | Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) |
+| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) |
 | Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |
 | Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
 | Switzerland | [OpenZH data](http://open.zh.ch) |
