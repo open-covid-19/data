@@ -11,4 +11,4 @@ python "$BASE_DIR"/parse_wikipedia_country.py "$SNAPSHOT" \
     --table-index 1 \
     --skiprows 0 \
     --skipcols 1 \
-    --cumsum true
+    --cumsum

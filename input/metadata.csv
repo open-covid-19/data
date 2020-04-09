@@ -10,30 +10,30 @@ AN,AN,Netherlands Antilles,,,,12.226079,-69.060087,
 AO,AO,Angola,,,,-11.202692,17.873887,31825295
 AQ,AQ,Antarctica,,,,-75.250973,-0.071389,
 AR,AR,Argentina,,,,-38.416097,-63.616672,44780677
-AR_A,AR,Argentina,A,Salta,,-24.783,-65.417,1214441
-AR_B,AR,Argentina,B,Buenos Aires Province,,-33.700,-61.000,15625084
-AR_C,AR,Argentina,C,City of Buenos Aires,,-34.60333,-58.38167,2891082
-AR_D,AR,Argentina,D,San Luis,,-33.300,-66.350,432310
-AR_E,AR,Argentina,E,Entre Ríos,,-32.0477,-60.281,1235994
-AR_F,AR,Argentina,F,La Rioja,,-29.433,-66.850,333642
-AR_G,AR,Argentina,G,Santiago del Estero,,-27.783,-64.267,874006
-AR_H,AR,Argentina,H,Chaco,,-27.45139,-58.98667,1055259
-AR_J,AR,Argentina,J,San Juan,,-30.87,-68.98,681055
-AR_K,AR,Argentina,K,Catamarca,,-28.467,-65.783,367828
-AR_L,AR,Argentina,L,La Pampa,,-36.617,-64.283,543184
-AR_M,AR,Argentina,M,Mendoza,,-32.89028,-68.84722,1738929
-AR_N,AR,Argentina,N,Misiones,,-26.92,-54.52,1101593
-AR_P,AR,Argentina,P,Formosa,,-26.18333,-58.17500,530162
-AR_Q,AR,Argentina,Q,Neuquén,,-38.95167,-68.07444,551266
-AR_R,AR,Argentina,R,Río Negro,,-40.800,-63.000,638645
-AR_S,AR,Argentina,S,Santa Fe,,-33.7227,-62.246,3194537
-AR_T,AR,Argentina,T,Tucumán,,-26.94,-65.34,1448188
-AR_U,AR,Argentina,U,Chubut,,-43.300,-65.100,509108
-AR_V,AR,Argentina,V,Tierra del Fuego,,-54.362,-67.638,127205
-AR_W,AR,Argentina,W,Corrientes,,-28.66,-57.63,992595
-AR_X,AR,Argentina,X,Córdoba,,-31.417,-64.183,3308876
-AR_Y,AR,Argentina,Y,Jujuy,,-23.750,-65.500,673307
-AR_Z,AR,Argentina,Z,Santa Cruz,,-48.62,-70.01,273964
+AR_A,AR,Argentina,A,Salta,SA,-24.783,-65.417,1214441
+AR_B,AR,Argentina,B,Buenos Aires Province,BA (P),-33.700,-61.000,15625084
+AR_C,AR,Argentina,C,City of Buenos Aires,BA (C),-34.60333,-58.38167,2891082
+AR_D,AR,Argentina,D,San Luis,SL,-33.300,-66.350,432310
+AR_E,AR,Argentina,E,Entre Ríos,ER,-32.0477,-60.281,1235994
+AR_F,AR,Argentina,F,La Rioja,LR,-29.433,-66.850,333642
+AR_G,AR,Argentina,G,Santiago del Estero,SE,-27.783,-64.267,874006
+AR_H,AR,Argentina,H,Chaco,CH,-27.45139,-58.98667,1055259
+AR_J,AR,Argentina,J,San Juan,SJ,-30.87,-68.98,681055
+AR_K,AR,Argentina,K,Catamarca,CA,-28.467,-65.783,367828
+AR_L,AR,Argentina,L,La Pampa,LP,-36.617,-64.283,543184
+AR_M,AR,Argentina,M,Mendoza,MD,-32.89028,-68.84722,1738929
+AR_N,AR,Argentina,N,Misiones,MI,-26.92,-54.52,1101593
+AR_P,AR,Argentina,P,Formosa,FO,-26.18333,-58.17500,530162
+AR_Q,AR,Argentina,Q,Neuquén,NE,-38.95167,-68.07444,551266
+AR_R,AR,Argentina,R,Río Negro,RN,-40.800,-63.000,638645
+AR_S,AR,Argentina,S,Santa Fe,SF,-33.7227,-62.246,3194537
+AR_T,AR,Argentina,T,Tucumán,TU,-26.94,-65.34,1448188
+AR_U,AR,Argentina,U,Chubut,CB,-43.300,-65.100,509108
+AR_V,AR,Argentina,V,Tierra del Fuego,TF,-54.362,-67.638,127205
+AR_W,AR,Argentina,W,Corrientes,CR,-28.66,-57.63,992595
+AR_X,AR,Argentina,X,Córdoba,CD,-31.417,-64.183,3308876
+AR_Y,AR,Argentina,Y,Jujuy,JY,-23.750,-65.500,673307
+AR_Z,AR,Argentina,Z,Santa Cruz,SC,-48.62,-70.01,273964
 AS,AS,American Samoa,,,,-14.270972,-170.132217,55312
 AT,AT,Austria,,,,47.516231,14.550072,8955102
 AU,AU,Australia,,,,-25.274398,133.775136,25203198

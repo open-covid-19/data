@@ -10,5 +10,5 @@ python "$BASE_DIR"/parse_wikipedia_country.py "$SNAPSHOT" \
     --date-format '%d %b' \
     --table-index 0 \
     --skiprows 1 \
-    --cumsum true \
+    --cumsum \
     --droprows 'Date'

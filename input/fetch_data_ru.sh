@@ -10,4 +10,4 @@ python "$BASE_DIR"/parse_wikipedia_country.py "$SNAPSHOT" \
     --date-format '%d %b' \
     --table-index 1 \
     --skiprows 1 \
-    --null-deaths true
+    --null-deaths

@@ -34,7 +34,7 @@ def series_converter(series: pandas.Series):
     if series.name in ('Latitude', 'Longitude'):
         return series.astype(float).apply(lambda x: '' if pandas.isna(x) else '%.6f' % x)
     elif series.name in ('Confirmed', 'Estimated', 'Deaths', 'Population'):
-        return series.astype(float).round().astype('Int64')
+        return series.apply(safe_int_cast).astype('Int64')
     elif series.name.startswith('New') or series.name.startswith('Current'):
         return series.astype(float).round().astype('Int64')
     else:
@@ -248,8 +248,19 @@ def pivot_table(data: DataFrame, pivot_name: str = 'Pivot'):
     return DataFrame.from_records(records, columns=['Date', pivot_name, 'Value'])
 
 
-def safe_int_cast(value: str):
+def safe_int_cast(value):
+    if value is None:
+        return None
+    if pandas.isna(value):
+        return None
+    if isinstance(value, int):
+        return value
+    if isinstance(value, float):
+        return round(value)
+    if value == '':
+        return None
     try:
+        value = str(value)
         value = re.sub(r',', '', value)
         value = re.sub(r'−', '-', value)
         return int(value)

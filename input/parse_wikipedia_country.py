@@ -23,13 +23,14 @@ parser.add_argument('html-file', type=str)
 parser.add_argument('--country-code', type=str, default=None)
 parser.add_argument('--article', type=str, default=None)
 parser.add_argument('--locale', type=str, default='en_US')
-parser.add_argument('--cumsum', type=bool, default=False)
+parser.add_argument('--cumsum', action='store_true')
 parser.add_argument('--skiprows', type=int, default=1)
 parser.add_argument('--skipcols', type=int, default=2)
 parser.add_argument('--droprows', type=str, default=None)
 parser.add_argument('--date-format', type=str, default='%b %d')
 parser.add_argument('--table-index', type=int, default=0)
-parser.add_argument('--null-deaths', type=bool, default=False)
+parser.add_argument('--null-deaths', action='store_true')
+parser.add_argument('--debug', action='store_true')
 args = parser.parse_args(sys.argv[1:])
 
 # We need to set locale in order to parse dates properly
@@ -42,6 +43,10 @@ data = read_file(
     parser=wiki_html_cell_parser,
     table_index=args.table_index,
     skiprows=args.skiprows)
+
+if args.debug:
+    print('Data:')
+    print(data.head(50))
 
 # Some of the tables are in Spanish
 data = data.rename(columns={'Fecha': 'Date'})
@@ -57,6 +62,10 @@ if args.droprows is not None:
 # Pivot the table to fit our preferred format
 df = pivot_table(data, pivot_name='RegionName')
 df = df[~df['RegionName'].isna()]
+
+if args.debug:
+    print('Data Frame:')
+    print(df.head(50))
 
 # Make sure all dates include year
 date_format = args.date_format
@@ -105,6 +114,10 @@ df = df.dropna(how='all', subset=value_columns)
 # If we don't have deaths data, then make them null rather than zero
 if args.null_deaths:
     df['Deaths'] = None
+
+if args.debug:
+    print('Output:')
+    print(df.head(50))
 
 # Output the results
 dataframe_output(df, args.country_code)
