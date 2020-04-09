@@ -8980,7 +8980,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-06,CH_BE,CH,Switzerland,BE,Bern,17.0,,46.833,7.617,1034977
 2020-03-06,CH_BL,CH,Switzerland,BL,Basel-Landschaft,6.0,,47.117,7.733,289527
 2020-03-06,CH_BS,CH,Switzerland,BS,Basel-Stadt,15.0,,47.567,7.600,200298
-2020-03-06,CH_GE,CH,Switzerland,GE,Geneva,17.0,,46.033,6.117,499480
+2020-03-06,CH_GE,CH,Switzerland,GE,Geneva,18.0,,46.033,6.117,499480
 2020-03-06,CH_JU,CH,Switzerland,JU,Jura,3.0,,47.367,7.150,73419
 2020-03-06,CH_NE,CH,Switzerland,NE,Neuchâtel,13.0,,46.983,6.783,176850
 2020-03-06,CH_SG,CH,Switzerland,SG,St. Gallen,2.0,,47.333,9.167,507697
@@ -9300,7 +9300,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-07,CH,CH,Switzerland,,,209.0,1.0,46.818188,8.227512,8591365
 2020-03-07,CH_BL,CH,Switzerland,BL,Basel-Landschaft,15.0,,47.117,7.733,289527
 2020-03-07,CH_BS,CH,Switzerland,BS,Basel-Stadt,21.0,,47.567,7.600,200298
-2020-03-07,CH_GE,CH,Switzerland,GE,Geneva,26.0,,46.033,6.117,499480
+2020-03-07,CH_GE,CH,Switzerland,GE,Geneva,30.0,,46.033,6.117,499480
 2020-03-07,CH_JU,CH,Switzerland,JU,Jura,4.0,,47.367,7.150,73419
 2020-03-07,CH_NE,CH,Switzerland,NE,Neuchâtel,18.0,,46.983,6.783,176850
 2020-03-07,CH_TI,CH,Switzerland,TI,Ticino,45.0,,46.317,8.817,353343
@@ -9624,7 +9624,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-08,CH_BL,CH,Switzerland,BL,Basel-Landschaft,19.0,1.0,47.117,7.733,289527
 2020-03-08,CH_BS,CH,Switzerland,BS,Basel-Stadt,24.0,,47.567,7.600,200298
 2020-03-08,CH_FR,CH,Switzerland,FR,Fribourg,8.0,,46.717,7.083,318714
-2020-03-08,CH_GE,CH,Switzerland,GE,Geneva,35.0,,46.033,6.117,499480
+2020-03-08,CH_GE,CH,Switzerland,GE,Geneva,40.0,,46.033,6.117,499480
 2020-03-08,CH_JU,CH,Switzerland,JU,Jura,4.0,,47.367,7.150,73419
 2020-03-08,CH_NE,CH,Switzerland,NE,Neuchâtel,24.0,,46.983,6.783,176850
 2020-03-08,CH_TI,CH,Switzerland,TI,Ticino,58.0,,46.317,8.817,353343
@@ -9940,7 +9940,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-09,CH_BL,CH,Switzerland,BL,Basel-Landschaft,20.0,1.0,47.117,7.733,289527
 2020-03-09,CH_BS,CH,Switzerland,BS,Basel-Stadt,28.0,,47.567,7.600,200298
 2020-03-09,CH_FR,CH,Switzerland,FR,Fribourg,11.0,,46.717,7.083,318714
-2020-03-09,CH_GE,CH,Switzerland,GE,Geneva,44.0,1.0,46.033,6.117,499480
+2020-03-09,CH_GE,CH,Switzerland,GE,Geneva,49.0,0.0,46.033,6.117,499480
 2020-03-09,CH_JU,CH,Switzerland,JU,Jura,5.0,,47.367,7.150,73419
 2020-03-09,CH_NE,CH,Switzerland,NE,Neuchâtel,27.0,,46.983,6.783,176850
 2020-03-09,CH_TI,CH,Switzerland,TI,Ticino,68.0,,46.317,8.817,353343
@@ -10275,7 +10275,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-10,CH_AG,CH,Switzerland,AG,Aargau,17.0,,47.083,8.000,678207
 2020-03-10,CH_BL,CH,Switzerland,BL,Basel-Landschaft,22.0,1.0,47.117,7.733,289527
 2020-03-10,CH_BS,CH,Switzerland,BS,Basel-Stadt,33.0,,47.567,7.600,200298
-2020-03-10,CH_GE,CH,Switzerland,GE,Geneva,68.0,2.0,46.033,6.117,499480
+2020-03-10,CH_GE,CH,Switzerland,GE,Geneva,79.0,1.0,46.033,6.117,499480
 2020-03-10,CH_JU,CH,Switzerland,JU,Jura,6.0,,47.367,7.150,73419
 2020-03-10,CH_NE,CH,Switzerland,NE,Neuchâtel,31.0,,46.983,6.783,176850
 2020-03-10,CH_TI,CH,Switzerland,TI,Ticino,,1.0,46.317,8.817,353343
@@ -10629,7 +10629,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-11,CH_BL,CH,Switzerland,BL,Basel-Landschaft,26.0,2.0,47.117,7.733,289527
 2020-03-11,CH_BS,CH,Switzerland,BS,Basel-Stadt,49.0,,47.567,7.600,200298
 2020-03-11,CH_FR,CH,Switzerland,FR,Fribourg,16.0,,46.717,7.083,318714
-2020-03-11,CH_GE,CH,Switzerland,GE,Geneva,79.0,2.0,46.033,6.117,499480
+2020-03-11,CH_GE,CH,Switzerland,GE,Geneva,90.0,1.0,46.033,6.117,499480
 2020-03-11,CH_JU,CH,Switzerland,JU,Jura,6.0,,47.367,7.150,73419
 2020-03-11,CH_NE,CH,Switzerland,NE,Neuchâtel,37.0,,46.983,6.783,176850
 2020-03-11,CH_NW,CH,Switzerland,NW,Nidwalden,4.0,,46.933,8.067,43223
@@ -11015,7 +11015,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-12,CH_BL,CH,Switzerland,BL,Basel-Landschaft,26.0,2.0,47.117,7.733,289527
 2020-03-12,CH_BS,CH,Switzerland,BS,Basel-Stadt,73.0,1.0,47.567,7.600,200298
 2020-03-12,CH_FR,CH,Switzerland,FR,Fribourg,22.0,,46.717,7.083,318714
-2020-03-12,CH_GE,CH,Switzerland,GE,Geneva,108.0,2.0,46.033,6.117,499480
+2020-03-12,CH_GE,CH,Switzerland,GE,Geneva,121.0,1.0,46.033,6.117,499480
 2020-03-12,CH_JU,CH,Switzerland,JU,Jura,9.0,,47.367,7.150,73419
 2020-03-12,CH_NE,CH,Switzerland,NE,Neuchâtel,46.0,,46.983,6.783,176850
 2020-03-12,CH_SG,CH,Switzerland,SG,St. Gallen,15.0,,47.333,9.167,507697
@@ -11428,7 +11428,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-13,CH_BL,CH,Switzerland,BL,Basel-Landschaft,42.0,2.0,47.117,7.733,289527
 2020-03-13,CH_BS,CH,Switzerland,BS,Basel-Stadt,92.0,1.0,47.567,7.600,200298
 2020-03-13,CH_FR,CH,Switzerland,FR,Fribourg,29.0,,46.717,7.083,318714
-2020-03-13,CH_GE,CH,Switzerland,GE,Geneva,173.0,2.0,46.033,6.117,499480
+2020-03-13,CH_GE,CH,Switzerland,GE,Geneva,188.0,1.0,46.033,6.117,499480
 2020-03-13,CH_JU,CH,Switzerland,JU,Jura,10.0,,47.367,7.150,73419
 2020-03-13,CH_NE,CH,Switzerland,NE,Neuchâtel,59.0,,46.983,6.783,176850
 2020-03-13,CH_OW,CH,Switzerland,OW,Obwalden,1.0,,46.867,8.033,37841
@@ -11838,7 +11838,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-14,CH_BL,CH,Switzerland,BL,Basel-Landschaft,47.0,2.0,47.117,7.733,289527
 2020-03-14,CH_BS,CH,Switzerland,BS,Basel-Stadt,100.0,1.0,47.567,7.600,200298
 2020-03-14,CH_FR,CH,Switzerland,FR,Fribourg,36.0,,46.717,7.083,318714
-2020-03-14,CH_GE,CH,Switzerland,GE,Geneva,282.0,2.0,46.033,6.117,499480
+2020-03-14,CH_GE,CH,Switzerland,GE,Geneva,298.0,1.0,46.033,6.117,499480
 2020-03-14,CH_JU,CH,Switzerland,JU,Jura,15.0,,47.367,7.150,73419
 2020-03-14,CH_NE,CH,Switzerland,NE,Neuchâtel,68.0,,46.983,6.783,176850
 2020-03-14,CH_SZ,CH,Switzerland,SZ,Schwyz,12.0,,47.067,8.750,159165
@@ -12273,7 +12273,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-15,CH,CH,Switzerland,,,1359.0,11.0,46.818188,8.227512,8591365
 2020-03-15,CH_BL,CH,Switzerland,BL,Basel-Landschaft,54.0,2.0,47.117,7.733,289527
 2020-03-15,CH_FR,CH,Switzerland,FR,Fribourg,40.0,,46.717,7.083,318714
-2020-03-15,CH_GE,CH,Switzerland,GE,Geneva,372.0,4.0,46.033,6.117,499480
+2020-03-15,CH_GE,CH,Switzerland,GE,Geneva,401.0,3.0,46.033,6.117,499480
 2020-03-15,CH_JU,CH,Switzerland,JU,Jura,16.0,,47.367,7.150,73419
 2020-03-15,CH_NE,CH,Switzerland,NE,Neuchâtel,74.0,,46.983,6.783,176850
 2020-03-15,CH_SZ,CH,Switzerland,SZ,Schwyz,13.0,,47.067,8.750,159165
@@ -12697,7 +12697,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-16,CH_BL,CH,Switzerland,BL,Basel-Landschaft,76.0,2.0,47.117,7.733,289527
 2020-03-16,CH_BS,CH,Switzerland,BS,Basel-Stadt,144.0,4.0,47.567,7.600,200298
 2020-03-16,CH_FR,CH,Switzerland,FR,Fribourg,45.0,,46.717,7.083,318714
-2020-03-16,CH_GE,CH,Switzerland,GE,Geneva,472.0,4.0,46.033,6.117,499480
+2020-03-16,CH_GE,CH,Switzerland,GE,Geneva,490.0,3.0,46.033,6.117,499480
 2020-03-16,CH_JU,CH,Switzerland,JU,Jura,17.0,,47.367,7.150,73419
 2020-03-16,CH_NE,CH,Switzerland,NE,Neuchâtel,93.0,,46.983,6.783,176850
 2020-03-16,CH_TG,CH,Switzerland,TG,Thurgau,17.0,,47.583,9.067,276472
@@ -13185,7 +13185,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-17,CH_BL,CH,Switzerland,BL,Basel-Landschaft,89.0,2.0,47.117,7.733,289527
 2020-03-17,CH_BS,CH,Switzerland,BS,Basel-Stadt,165.0,4.0,47.567,7.600,200298
 2020-03-17,CH_FR,CH,Switzerland,FR,Fribourg,59.0,,46.717,7.083,318714
-2020-03-17,CH_GE,CH,Switzerland,GE,Geneva,619.0,4.0,46.033,6.117,499480
+2020-03-17,CH_GE,CH,Switzerland,GE,Geneva,623.0,4.0,46.033,6.117,499480
 2020-03-17,CH_GL,CH,Switzerland,GL,Glarus,10.0,,46.983,9.067,40403
 2020-03-17,CH_JU,CH,Switzerland,JU,Jura,24.0,,47.367,7.150,73419
 2020-03-17,CH_NE,CH,Switzerland,NE,Neuchâtel,114.0,1.0,46.983,6.783,176850
@@ -13706,7 +13706,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-18,CH_BL,CH,Switzerland,BL,Basel-Landschaft,116.0,2.0,47.117,7.733,289527
 2020-03-18,CH_BS,CH,Switzerland,BS,Basel-Stadt,182.0,4.0,47.567,7.600,200298
 2020-03-18,CH_FR,CH,Switzerland,FR,Fribourg,86.0,1.0,46.717,7.083,318714
-2020-03-18,CH_GE,CH,Switzerland,GE,Geneva,751.0,6.0,46.033,6.117,499480
+2020-03-18,CH_GE,CH,Switzerland,GE,Geneva,769.0,5.0,46.033,6.117,499480
 2020-03-18,CH_GR,CH,Switzerland,GR,Grisons,116.0,1.0,46.750,9.500,198379
 2020-03-18,CH_JU,CH,Switzerland,JU,Jura,26.0,,47.367,7.150,73419
 2020-03-18,CH_LU,CH,Switzerland,LU,Lucerne,65.0,,47.083,8.117,409557
@@ -14240,7 +14240,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-19,CH_BL,CH,Switzerland,BL,Basel-Landschaft,134.0,2.0,47.117,7.733,289527
 2020-03-19,CH_BS,CH,Switzerland,BS,Basel-Stadt,222.0,4.0,47.567,7.600,200298
 2020-03-19,CH_FR,CH,Switzerland,FR,Fribourg,111.0,1.0,46.717,7.083,318714
-2020-03-19,CH_GE,CH,Switzerland,GE,Geneva,961.0,6.0,46.033,6.117,499480
+2020-03-19,CH_GE,CH,Switzerland,GE,Geneva,991.0,6.0,46.033,6.117,499480
 2020-03-19,CH_GL,CH,Switzerland,GL,Glarus,17.0,,46.983,9.067,40403
 2020-03-19,CH_GR,CH,Switzerland,GR,Grisons,145.0,1.0,46.750,9.500,198379
 2020-03-19,CH_JU,CH,Switzerland,JU,Jura,31.0,,47.367,7.150,73419
@@ -14807,7 +14807,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-20,CH_BL,CH,Switzerland,BL,Basel-Landschaft,184.0,3.0,47.117,7.733,289527
 2020-03-20,CH_BS,CH,Switzerland,BS,Basel-Stadt,272.0,4.0,47.567,7.600,200298
 2020-03-20,CH_FR,CH,Switzerland,FR,Fribourg,145.0,1.0,46.717,7.083,318714
-2020-03-20,CH_GE,CH,Switzerland,GE,Geneva,1136.0,8.0,46.033,6.117,499480
+2020-03-20,CH_GE,CH,Switzerland,GE,Geneva,1150.0,8.0,46.033,6.117,499480
 2020-03-20,CH_GR,CH,Switzerland,GR,Grisons,213.0,3.0,46.750,9.500,198379
 2020-03-20,CH_JU,CH,Switzerland,JU,Jura,37.0,,47.367,7.150,73419
 2020-03-20,CH_LU,CH,Switzerland,LU,Lucerne,92.0,,47.083,8.117,409557
@@ -15421,7 +15421,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-21,CH_BL,CH,Switzerland,BL,Basel-Landschaft,282.0,3.0,47.117,7.733,289527
 2020-03-21,CH_BS,CH,Switzerland,BS,Basel-Stadt,299.0,5.0,47.567,7.600,200298
 2020-03-21,CH_FR,CH,Switzerland,FR,Fribourg,167.0,2.0,46.717,7.083,318714
-2020-03-21,CH_GE,CH,Switzerland,GE,Geneva,1262.0,9.0,46.033,6.117,499480
+2020-03-21,CH_GE,CH,Switzerland,GE,Geneva,1276.0,8.0,46.033,6.117,499480
 2020-03-21,CH_GR,CH,Switzerland,GR,Grisons,239.0,3.0,46.750,9.500,198379
 2020-03-21,CH_JU,CH,Switzerland,JU,Jura,49.0,,47.367,7.150,73419
 2020-03-21,CH_LU,CH,Switzerland,LU,Lucerne,109.0,1.0,47.083,8.117,409557
@@ -16041,7 +16041,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-22,CH_BL,CH,Switzerland,BL,Basel-Landschaft,289.0,3.0,47.117,7.733,289527
 2020-03-22,CH_BS,CH,Switzerland,BS,Basel-Stadt,358.0,5.0,47.567,7.600,200298
 2020-03-22,CH_FR,CH,Switzerland,FR,Fribourg,202.0,3.0,46.717,7.083,318714
-2020-03-22,CH_GE,CH,Switzerland,GE,Geneva,1417.0,10.0,46.033,6.117,499480
+2020-03-22,CH_GE,CH,Switzerland,GE,Geneva,1432.0,9.0,46.033,6.117,499480
 2020-03-22,CH_GL,CH,Switzerland,GL,Glarus,31.0,,46.983,9.067,40403
 2020-03-22,CH_GR,CH,Switzerland,GR,Grisons,266.0,6.0,46.750,9.500,198379
 2020-03-22,CH_JU,CH,Switzerland,JU,Jura,51.0,,47.367,7.150,73419
@@ -16665,7 +16665,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-23,CH_BL,CH,Switzerland,BL,Basel-Landschaft,302.0,3.0,47.117,7.733,289527
 2020-03-23,CH_BS,CH,Switzerland,BS,Basel-Stadt,376.0,5.0,47.567,7.600,200298
 2020-03-23,CH_FR,CH,Switzerland,FR,Fribourg,226.0,4.0,46.717,7.083,318714
-2020-03-23,CH_GE,CH,Switzerland,GE,Geneva,1509.0,10.0,46.033,6.117,499480
+2020-03-23,CH_GE,CH,Switzerland,GE,Geneva,1582.0,13.0,46.033,6.117,499480
 2020-03-23,CH_JU,CH,Switzerland,JU,Jura,57.0,,47.367,7.150,73419
 2020-03-23,CH_LU,CH,Switzerland,LU,Lucerne,156.0,1.0,47.083,8.117,409557
 2020-03-23,CH_NE,CH,Switzerland,NE,Neuchâtel,247.0,5.0,46.983,6.783,176850
@@ -17299,7 +17299,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-24,CH_BL,CH,Switzerland,BL,Basel-Landschaft,306.0,4.0,47.117,7.733,289527
 2020-03-24,CH_BS,CH,Switzerland,BS,Basel-Stadt,414.0,5.0,47.567,7.600,200298
 2020-03-24,CH_FR,CH,Switzerland,FR,Fribourg,255.0,5.0,46.717,7.083,318714
-2020-03-24,CH_GE,CH,Switzerland,GE,Geneva,1598.0,13.0,46.033,6.117,499480
+2020-03-24,CH_GE,CH,Switzerland,GE,Geneva,1679.0,14.0,46.033,6.117,499480
 2020-03-24,CH_GL,CH,Switzerland,GL,Glarus,33.0,,46.983,9.067,40403
 2020-03-24,CH_GR,CH,Switzerland,GR,Grisons,276.0,6.0,46.750,9.500,198379
 2020-03-24,CH_JU,CH,Switzerland,JU,Jura,66.0,,47.367,7.150,73419
@@ -17809,7 +17809,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-24,US_DE,US,United States of America,DE,Delaware,91.0,0.0,39.318500,-75.507100,973764
 2020-03-24,US_FL,US,United States of America,FL,Florida,1412.0,18.0,27.766300,-81.686800,21477737
 2020-03-24,US_GA,US,United States of America,GA,Georgia,1026.0,32.0,33.040600,-83.643100,10617423
-2020-03-24,US_HI,US,United States of America,HI,Hawaii,77.0,1.0,21.094300,-157.498300,1415872
+2020-03-24,US_HI,US,United States of America,HI,Hawaii,77.0,,21.094300,-157.498300,1415872
 2020-03-24,US_IA,US,United States of America,IA,Iowa,124.0,,42.011500,-93.210500,3155070
 2020-03-24,US_ID,US,United States of America,ID,Idaho,50.0,0.0,44.240500,-114.478800,1787065
 2020-03-24,US_IL,US,United States of America,IL,Illinois,1535.0,16.0,40.349500,-88.986100,12671821
@@ -17967,7 +17967,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-25,CH_BL,CH,Switzerland,BL,Basel-Landschaft,341.0,5.0,47.117,7.733,289527
 2020-03-25,CH_BS,CH,Switzerland,BS,Basel-Stadt,466.0,8.0,47.567,7.600,200298
 2020-03-25,CH_FR,CH,Switzerland,FR,Fribourg,293.0,6.0,46.717,7.083,318714
-2020-03-25,CH_GE,CH,Switzerland,GE,Geneva,1708.0,16.0,46.033,6.117,499480
+2020-03-25,CH_GE,CH,Switzerland,GE,Geneva,1809.0,21.0,46.033,6.117,499480
 2020-03-25,CH_GL,CH,Switzerland,GL,Glarus,40.0,,46.983,9.067,40403
 2020-03-25,CH_GR,CH,Switzerland,GR,Grisons,322.0,6.0,46.750,9.500,198379
 2020-03-25,CH_JU,CH,Switzerland,JU,Jura,78.0,,47.367,7.150,73419
@@ -18476,7 +18476,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-25,US_DE,US,United States of America,DE,Delaware,115.0,0.0,39.318500,-75.507100,973764
 2020-03-25,US_FL,US,United States of America,FL,Florida,1682.0,22.0,27.766300,-81.686800,21477737
 2020-03-25,US_GA,US,United States of America,GA,Georgia,1247.0,40.0,33.040600,-83.643100,10617423
-2020-03-25,US_HI,US,United States of America,HI,Hawaii,90.0,1.0,21.094300,-157.498300,1415872
+2020-03-25,US_HI,US,United States of America,HI,Hawaii,90.0,,21.094300,-157.498300,1415872
 2020-03-25,US_IA,US,United States of America,IA,Iowa,145.0,1.0,42.011500,-93.210500,3155070
 2020-03-25,US_ID,US,United States of America,ID,Idaho,73.0,0.0,44.240500,-114.478800,1787065
 2020-03-25,US_IL,US,United States of America,IL,Illinois,1865.0,19.0,40.349500,-88.986100,12671821
@@ -18637,7 +18637,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-26,CH_BL,CH,Switzerland,BL,Basel-Landschaft,422.0,5.0,47.117,7.733,289527
 2020-03-26,CH_BS,CH,Switzerland,BS,Basel-Stadt,505.0,12.0,47.567,7.600,200298
 2020-03-26,CH_FR,CH,Switzerland,FR,Fribourg,309.0,11.0,46.717,7.083,318714
-2020-03-26,CH_GE,CH,Switzerland,GE,Geneva,1902.0,22.0,46.033,6.117,499480
+2020-03-26,CH_GE,CH,Switzerland,GE,Geneva,2041.0,23.0,46.033,6.117,499480
 2020-03-26,CH_GL,CH,Switzerland,GL,Glarus,43.0,,46.983,9.067,40403
 2020-03-26,CH_GR,CH,Switzerland,GR,Grisons,373.0,9.0,46.750,9.500,198379
 2020-03-26,CH_JU,CH,Switzerland,JU,Jura,99.0,,47.367,7.150,73419
@@ -19322,7 +19322,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-27,CH_BL,CH,Switzerland,BL,Basel-Landschaft,466.0,5.0,47.117,7.733,289527
 2020-03-27,CH_BS,CH,Switzerland,BS,Basel-Stadt,534.0,13.0,47.567,7.600,200298
 2020-03-27,CH_FR,CH,Switzerland,FR,Fribourg,369.0,15.0,46.717,7.083,318714
-2020-03-27,CH_GE,CH,Switzerland,GE,Geneva,2051.0,23.0,46.033,6.117,499480
+2020-03-27,CH_GE,CH,Switzerland,GE,Geneva,2234.0,30.0,46.033,6.117,499480
 2020-03-27,CH_GL,CH,Switzerland,GL,Glarus,44.0,,46.983,9.067,40403
 2020-03-27,CH_GR,CH,Switzerland,GR,Grisons,409.0,9.0,46.750,9.500,198379
 2020-03-27,CH_JU,CH,Switzerland,JU,Jura,112.0,,47.367,7.150,73419
@@ -19999,7 +19999,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-28,CH_BL,CH,Switzerland,BL,Basel-Landschaft,502.0,6.0,47.117,7.733,289527
 2020-03-28,CH_BS,CH,Switzerland,BS,Basel-Stadt,573.0,13.0,47.567,7.600,200298
 2020-03-28,CH_FR,CH,Switzerland,FR,Fribourg,421.0,15.0,46.717,7.083,318714
-2020-03-28,CH_GE,CH,Switzerland,GE,Geneva,2277.0,27.0,46.033,6.117,499480
+2020-03-28,CH_GE,CH,Switzerland,GE,Geneva,2433.0,37.0,46.033,6.117,499480
 2020-03-28,CH_GL,CH,Switzerland,GL,Glarus,47.0,1.0,46.983,9.067,40403
 2020-03-28,CH_JU,CH,Switzerland,JU,Jura,118.0,,47.367,7.150,73419
 2020-03-28,CH_LU,CH,Switzerland,LU,Lucerne,317.0,4.0,47.083,8.117,409557
@@ -20519,7 +20519,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-28,US_DE,US,United States of America,DE,Delaware,214.0,3.0,39.318500,-75.507100,973764
 2020-03-28,US_FL,US,United States of America,FL,Florida,3763.0,54.0,27.766300,-81.686800,21477737
 2020-03-28,US_GA,US,United States of America,GA,Georgia,2366.0,69.0,33.040600,-83.643100,10617423
-2020-03-28,US_HI,US,United States of America,HI,Hawaii,120.0,0.0,21.094300,-157.498300,1415872
+2020-03-28,US_HI,US,United States of America,HI,Hawaii,120.0,,21.094300,-157.498300,1415872
 2020-03-28,US_IA,US,United States of America,IA,Iowa,298.0,3.0,42.011500,-93.210500,3155070
 2020-03-28,US_ID,US,United States of America,ID,Idaho,230.0,4.0,44.240500,-114.478800,1787065
 2020-03-28,US_IL,US,United States of America,IL,Illinois,3491.0,47.0,40.349500,-88.986100,12671821
@@ -20682,7 +20682,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-29,CH_BL,CH,Switzerland,BL,Basel-Landschaft,511.0,6.0,47.117,7.733,289527
 2020-03-29,CH_BS,CH,Switzerland,BS,Basel-Stadt,609.0,15.0,47.567,7.600,200298
 2020-03-29,CH_FR,CH,Switzerland,FR,Fribourg,442.0,16.0,46.717,7.083,318714
-2020-03-29,CH_GE,CH,Switzerland,GE,Geneva,2349.0,37.0,46.033,6.117,499480
+2020-03-29,CH_GE,CH,Switzerland,GE,Geneva,2550.0,44.0,46.033,6.117,499480
 2020-03-29,CH_JU,CH,Switzerland,JU,Jura,118.0,,47.367,7.150,73419
 2020-03-29,CH_LU,CH,Switzerland,LU,Lucerne,339.0,5.0,47.083,8.117,409557
 2020-03-29,CH_NE,CH,Switzerland,NE,Neuchâtel,346.0,17.0,46.983,6.783,176850
@@ -21208,7 +21208,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-29,US_DE,US,United States of America,DE,Delaware,232.0,6.0,39.318500,-75.507100,973764
 2020-03-29,US_FL,US,United States of America,FL,Florida,4246.0,56.0,27.766300,-81.686800,21477737
 2020-03-29,US_GA,US,United States of America,GA,Georgia,2651.0,80.0,33.040600,-83.643100,10617423
-2020-03-29,US_HI,US,United States of America,HI,Hawaii,151.0,0.0,21.094300,-157.498300,1415872
+2020-03-29,US_HI,US,United States of America,HI,Hawaii,151.0,,21.094300,-157.498300,1415872
 2020-03-29,US_IA,US,United States of America,IA,Iowa,336.0,4.0,42.011500,-93.210500,3155070
 2020-03-29,US_ID,US,United States of America,ID,Idaho,261.0,5.0,44.240500,-114.478800,1787065
 2020-03-29,US_IL,US,United States of America,IL,Illinois,4596.0,65.0,40.349500,-88.986100,12671821
@@ -21374,7 +21374,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-30,CH_BL,CH,Switzerland,BL,Basel-Landschaft,539.0,7.0,47.117,7.733,289527
 2020-03-30,CH_BS,CH,Switzerland,BS,Basel-Stadt,621.0,15.0,47.567,7.600,200298
 2020-03-30,CH_FR,CH,Switzerland,FR,Fribourg,477.0,17.0,46.717,7.083,318714
-2020-03-30,CH_GE,CH,Switzerland,GE,Geneva,2450.0,43.0,46.033,6.117,499480
+2020-03-30,CH_GE,CH,Switzerland,GE,Geneva,2764.0,53.0,46.033,6.117,499480
 2020-03-30,CH_GL,CH,Switzerland,GL,Glarus,50.0,1.0,46.983,9.067,40403
 2020-03-30,CH_GR,CH,Switzerland,GR,Grisons,497.0,12.0,46.750,9.500,198379
 2020-03-30,CH_JU,CH,Switzerland,JU,Jura,122.0,,47.367,7.150,73419
@@ -21436,7 +21436,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-30,CO_CES,CO,Colombia,CES,Cesar,0.0,0.0,10.483,-73.250,1200574
 2020-03-30,CO_COR,CO,Colombia,COR,Córdoba,0.0,0.0,8.750,-75.883,1784783
 2020-03-30,CO_CUN,CO,Colombia,CUN,Cundinamarca,30.0,2.0,4.600,-74.083,2919060
-2020-03-30,CO_DC,CO,Colombia,DC,Bogotá,348.0,0.0,4.71111,-74.07222,
+2020-03-30,CO_DC,CO,Colombia,DC,Bogotá,348.0,11.0,4.71111,-74.07222,
 2020-03-30,CO_HUI,CO,Colombia,HUI,Huila,21.0,2.0,2.99861,-75.30444,1126314
 2020-03-30,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
 2020-03-30,CO_MAG,CO,Colombia,MAG,Magdalena,8.0,0.0,11.24194,-74.20528,1235425
@@ -21914,7 +21914,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-30,US_DE,US,United States of America,DE,Delaware,264.0,6.0,39.318500,-75.507100,973764
 2020-03-30,US_FL,US,United States of America,FL,Florida,5473.0,63.0,27.766300,-81.686800,21477737
 2020-03-30,US_GA,US,United States of America,GA,Georgia,2809.0,87.0,33.040600,-83.643100,10617423
-2020-03-30,US_HI,US,United States of America,HI,Hawaii,175.0,0.0,21.094300,-157.498300,1415872
+2020-03-30,US_HI,US,United States of America,HI,Hawaii,175.0,,21.094300,-157.498300,1415872
 2020-03-30,US_IA,US,United States of America,IA,Iowa,424.0,6.0,42.011500,-93.210500,3155070
 2020-03-30,US_ID,US,United States of America,ID,Idaho,310.0,6.0,44.240500,-114.478800,1787065
 2020-03-30,US_IL,US,United States of America,IL,Illinois,5057.0,73.0,40.349500,-88.986100,12671821
@@ -22078,7 +22078,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-31,CH_BL,CH,Switzerland,BL,Basel-Landschaft,561.0,10.0,47.117,7.733,289527
 2020-03-31,CH_BS,CH,Switzerland,BS,Basel-Stadt,657.0,16.0,47.567,7.600,200298
 2020-03-31,CH_FR,CH,Switzerland,FR,Fribourg,491.0,20.0,46.717,7.083,318714
-2020-03-31,CH_GE,CH,Switzerland,GE,Geneva,2657.0,52.0,46.033,6.117,499480
+2020-03-31,CH_GE,CH,Switzerland,GE,Geneva,2994.0,61.0,46.033,6.117,499480
 2020-03-31,CH_GL,CH,Switzerland,GL,Glarus,53.0,2.0,46.983,9.067,40403
 2020-03-31,CH_GR,CH,Switzerland,GR,Grisons,513.0,19.0,46.750,9.500,198379
 2020-03-31,CH_JU,CH,Switzerland,JU,Jura,127.0,,47.367,7.150,73419
@@ -22597,7 +22597,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-31,US_DE,US,United States of America,DE,Delaware,319.0,10.0,39.318500,-75.507100,973764
 2020-03-31,US_FL,US,United States of America,FL,Florida,6338.0,77.0,27.766300,-81.686800,21477737
 2020-03-31,US_GA,US,United States of America,GA,Georgia,3929.0,111.0,33.040600,-83.643100,10617423
-2020-03-31,US_HI,US,United States of America,HI,Hawaii,204.0,0.0,21.094300,-157.498300,1415872
+2020-03-31,US_HI,US,United States of America,HI,Hawaii,204.0,,21.094300,-157.498300,1415872
 2020-03-31,US_IA,US,United States of America,IA,Iowa,497.0,7.0,42.011500,-93.210500,3155070
 2020-03-31,US_ID,US,United States of America,ID,Idaho,415.0,7.0,44.240500,-114.478800,1787065
 2020-03-31,US_IL,US,United States of America,IL,Illinois,5994.0,99.0,40.349500,-88.986100,12671821
@@ -22762,7 +22762,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-01,CH_BL,CH,Switzerland,BL,Basel-Landschaft,588.0,11.0,47.117,7.733,289527
 2020-04-01,CH_BS,CH,Switzerland,BS,Basel-Stadt,691.0,18.0,47.567,7.600,200298
 2020-04-01,CH_FR,CH,Switzerland,FR,Fribourg,525.0,23.0,46.717,7.083,318714
-2020-04-01,CH_GE,CH,Switzerland,GE,Geneva,2775.0,65.0,46.033,6.117,499480
+2020-04-01,CH_GE,CH,Switzerland,GE,Geneva,3161.0,68.0,46.033,6.117,499480
 2020-04-01,CH_GL,CH,Switzerland,GL,Glarus,56.0,2.0,46.983,9.067,40403
 2020-04-01,CH_GR,CH,Switzerland,GR,Grisons,521.0,21.0,46.750,9.500,198379
 2020-04-01,CH_JU,CH,Switzerland,JU,Jura,144.0,,47.367,7.150,73419
@@ -22823,7 +22823,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-01,CO_CES,CO,Colombia,CES,Cesar,16.0,0.0,10.483,-73.250,1200574
 2020-04-01,CO_COR,CO,Colombia,COR,Córdoba,0.0,0.0,8.750,-75.883,1784783
 2020-04-01,CO_CUN,CO,Colombia,CUN,Cundinamarca,43.0,0.0,4.600,-74.083,2919060
-2020-04-01,CO_DC,CO,Colombia,DC,Bogotá,471.0,13.0,4.71111,-74.07222,
+2020-04-01,CO_DC,CO,Colombia,DC,Bogotá,471.0,14.0,4.71111,-74.07222,
 2020-04-01,CO_HUI,CO,Colombia,HUI,Huila,30.0,0.0,2.99861,-75.30444,1126314
 2020-04-01,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
 2020-04-01,CO_MAG,CO,Colombia,MAG,Magdalena,12.0,0.0,11.24194,-74.20528,1235425
@@ -23487,7 +23487,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-02,CH_BL,CH,Switzerland,BL,Basel-Landschaft,610.0,12.0,47.117,7.733,289527
 2020-04-02,CH_BS,CH,Switzerland,BS,Basel-Stadt,718.0,19.0,47.567,7.600,200298
 2020-04-02,CH_FR,CH,Switzerland,FR,Fribourg,550.0,26.0,46.717,7.083,318714
-2020-04-02,CH_GE,CH,Switzerland,GE,Geneva,2938.0,72.0,46.033,6.117,499480
+2020-04-02,CH_GE,CH,Switzerland,GE,Geneva,3369.0,76.0,46.033,6.117,499480
 2020-04-02,CH_GL,CH,Switzerland,GL,Glarus,58.0,2.0,46.983,9.067,40403
 2020-04-02,CH_GR,CH,Switzerland,GR,Grisons,569.0,23.0,46.750,9.500,198379
 2020-04-02,CH_JU,CH,Switzerland,JU,Jura,145.0,,47.367,7.150,73419
@@ -23554,7 +23554,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-02,CO_CES,CO,Colombia,CES,Cesar,0.0,0.0,10.483,-73.250,1200574
 2020-04-02,CO_COR,CO,Colombia,COR,Córdoba,0.0,0.0,8.750,-75.883,1784783
 2020-04-02,CO_CUN,CO,Colombia,CUN,Cundinamarca,0.0,0.0,4.600,-74.083,2919060
-2020-04-02,CO_DC,CO,Colombia,DC,Bogotá,541.0,15.0,4.71111,-74.07222,
+2020-04-02,CO_DC,CO,Colombia,DC,Bogotá,541.0,16.0,4.71111,-74.07222,
 2020-04-02,CO_HUI,CO,Colombia,HUI,Huila,0.0,0.0,2.99861,-75.30444,1126314
 2020-04-02,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
 2020-04-02,CO_MAG,CO,Colombia,MAG,Magdalena,0.0,0.0,11.24194,-74.20528,1235425
@@ -24201,7 +24201,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-03,CH_BL,CH,Switzerland,BL,Basel-Landschaft,625.0,14.0,47.117,7.733,289527
 2020-04-03,CH_BS,CH,Switzerland,BS,Basel-Stadt,758.0,21.0,47.567,7.600,200298
 2020-04-03,CH_FR,CH,Switzerland,FR,Fribourg,588.0,31.0,46.717,7.083,318714
-2020-04-03,CH_GE,CH,Switzerland,GE,Geneva,3220.0,78.0,46.033,6.117,499480
+2020-04-03,CH_GE,CH,Switzerland,GE,Geneva,3561.0,80.0,46.033,6.117,499480
 2020-04-03,CH_GL,CH,Switzerland,GL,Glarus,59.0,2.0,46.983,9.067,40403
 2020-04-03,CH_GR,CH,Switzerland,GR,Grisons,598.0,27.0,46.750,9.500,198379
 2020-04-03,CH_JU,CH,Switzerland,JU,Jura,149.0,,47.367,7.150,73419
@@ -24268,7 +24268,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-03,CO_CES,CO,Colombia,CES,Cesar,0.0,0.0,10.483,-73.250,1200574
 2020-04-03,CO_COR,CO,Colombia,COR,Córdoba,0.0,0.0,8.750,-75.883,1784783
 2020-04-03,CO_CUN,CO,Colombia,CUN,Cundinamarca,46.0,0.0,4.600,-74.083,2919060
-2020-04-03,CO_DC,CO,Colombia,DC,Bogotá,585.0,19.0,4.71111,-74.07222,
+2020-04-03,CO_DC,CO,Colombia,DC,Bogotá,585.0,20.0,4.71111,-74.07222,
 2020-04-03,CO_HUI,CO,Colombia,HUI,Huila,32.0,0.0,2.99861,-75.30444,1126314
 2020-04-03,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
 2020-04-03,CO_MAG,CO,Colombia,MAG,Magdalena,0.0,0.0,11.24194,-74.20528,1235425
@@ -24933,7 +24933,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-04,CH_BL,CH,Switzerland,BL,Basel-Landschaft,656.0,19.0,47.117,7.733,289527
 2020-04-04,CH_BS,CH,Switzerland,BS,Basel-Stadt,771.0,24.0,47.567,7.600,200298
 2020-04-04,CH_FR,CH,Switzerland,FR,Fribourg,638.0,37.0,46.717,7.083,318714
-2020-04-04,CH_GE,CH,Switzerland,GE,Geneva,3384.0,83.0,46.033,6.117,499480
+2020-04-04,CH_GE,CH,Switzerland,GE,Geneva,3683.0,93.0,46.033,6.117,499480
 2020-04-04,CH_JU,CH,Switzerland,JU,Jura,153.0,,47.367,7.150,73419
 2020-04-04,CH_LU,CH,Switzerland,LU,Lucerne,469.0,7.0,47.083,8.117,409557
 2020-04-04,CH_NE,CH,Switzerland,NE,Neuchâtel,449.0,24.0,46.983,6.783,176850
@@ -24994,7 +24994,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-04,CO_CES,CO,Colombia,CES,Cesar,0.0,0.0,10.483,-73.250,1200574
 2020-04-04,CO_COR,CO,Colombia,COR,Córdoba,3.0,1.0,8.750,-75.883,1784783
 2020-04-04,CO_CUN,CO,Colombia,CUN,Cundinamarca,50.0,0.0,4.600,-74.083,2919060
-2020-04-04,CO_DC,CO,Colombia,DC,Bogotá,692.0,23.0,4.71111,-74.07222,
+2020-04-04,CO_DC,CO,Colombia,DC,Bogotá,692.0,24.0,4.71111,-74.07222,
 2020-04-04,CO_HUI,CO,Colombia,HUI,Huila,34.0,0.0,2.99861,-75.30444,1126314
 2020-04-04,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
 2020-04-04,CO_MAG,CO,Colombia,MAG,Magdalena,0.0,0.0,11.24194,-74.20528,1235425
@@ -25652,7 +25652,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-05,CH_BL,CH,Switzerland,BL,Basel-Landschaft,670.0,19.0,47.117,7.733,289527
 2020-04-05,CH_BS,CH,Switzerland,BS,Basel-Stadt,794.0,26.0,47.567,7.600,200298
 2020-04-05,CH_FR,CH,Switzerland,FR,Fribourg,669.0,40.0,46.717,7.083,318714
-2020-04-05,CH_GE,CH,Switzerland,GE,Geneva,3439.0,92.0,46.033,6.117,499480
+2020-04-05,CH_GE,CH,Switzerland,GE,Geneva,3750.0,100.0,46.033,6.117,499480
 2020-04-05,CH_GR,CH,Switzerland,GR,Grisons,646.0,30.0,46.750,9.500,198379
 2020-04-05,CH_JU,CH,Switzerland,JU,Jura,156.0,,47.367,7.150,73419
 2020-04-05,CH_LU,CH,Switzerland,LU,Lucerne,478.0,9.0,47.083,8.117,409557
@@ -25716,7 +25716,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-05,CO_CES,CO,Colombia,CES,Cesar,0.0,0.0,10.483,-73.250,1200574
 2020-04-05,CO_COR,CO,Colombia,COR,Córdoba,0.0,0.0,8.750,-75.883,1784783
 2020-04-05,CO_CUN,CO,Colombia,CUN,Cundinamarca,53.0,0.0,4.600,-74.083,2919060
-2020-04-05,CO_DC,CO,Colombia,DC,Bogotá,724.0,24.0,4.71111,-74.07222,
+2020-04-05,CO_DC,CO,Colombia,DC,Bogotá,724.0,25.0,4.71111,-74.07222,
 2020-04-05,CO_HUI,CO,Colombia,HUI,Huila,0.0,0.0,2.99861,-75.30444,1126314
 2020-04-05,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
 2020-04-05,CO_MAG,CO,Colombia,MAG,Magdalena,0.0,0.0,11.24194,-74.20528,1235425
@@ -26286,7 +26286,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-06,BN,BN,Brunei,,,135.0,1.0,4.535277,114.727669,433285
 2020-04-06,BO,BO,Bolivia,,,183.0,11.0,-16.290154,-63.588653,11513100
 2020-04-06,BO_C,BO,Bolivia,C,Cochabamba,,2.0,-17.333,-65.500,
-2020-04-06,BO_L,BO,Bolivia,L,La Paz,37.0,6.0,-15.000,-68.333,2706359
+2020-04-06,BO_L,BO,Bolivia,L,La Paz,37.0,7.0,-15.000,-68.333,2706359
 2020-04-06,BO_P,BO,Bolivia,P,Potosí,8.0,,-20.66667,-66.66667,823517
 2020-04-06,BO_S,BO,Bolivia,S,Santa Cruz,100.0,,-18.418,-62.345,3320084
 2020-04-06,BR,BR,Brazil,,,11130.0,486.0,-14.235004,-51.925280,211049527
@@ -26347,12 +26347,12 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-06,CH_BL,CH,Switzerland,BL,Basel-Landschaft,682.0,19.0,47.117,7.733,289527
 2020-04-06,CH_BS,CH,Switzerland,BS,Basel-Stadt,803.0,26.0,47.567,7.600,200298
 2020-04-06,CH_FR,CH,Switzerland,FR,Fribourg,689.0,41.0,46.717,7.083,318714
-2020-04-06,CH_GE,CH,Switzerland,GE,Geneva,3562.0,103.0,46.033,6.117,499480
+2020-04-06,CH_GE,CH,Switzerland,GE,Geneva,3862.0,111.0,46.033,6.117,499480
 2020-04-06,CH_GL,CH,Switzerland,GL,Glarus,63.0,2.0,46.983,9.067,40403
 2020-04-06,CH_GR,CH,Switzerland,GR,Grisons,657.0,31.0,46.750,9.500,198379
 2020-04-06,CH_JU,CH,Switzerland,JU,Jura,160.0,,47.367,7.150,73419
 2020-04-06,CH_LU,CH,Switzerland,LU,Lucerne,497.0,9.0,47.083,8.117,409557
-2020-04-06,CH_NE,CH,Switzerland,NE,Neuchâtel,466.0,28.0,46.983,6.783,176850
+2020-04-06,CH_NE,CH,Switzerland,NE,Neuchâtel,466.0,30.0,46.983,6.783,176850
 2020-04-06,CH_NW,CH,Switzerland,NW,Nidwalden,86.0,0.0,46.933,8.067,43223
 2020-04-06,CH_OW,CH,Switzerland,OW,Obwalden,60.0,0.0,46.867,8.033,37841
 2020-04-06,CH_SG,CH,Switzerland,SG,St. Gallen,532.0,11.0,47.333,9.167,507697
@@ -26419,7 +26419,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-06,CO_NSA,CO,Colombia,NSA,Norte de Santander,0.0,0.0,7.900,-72.500,1491689
 2020-04-06,CO_QUI,CO,Colombia,QUI,Quindío,0.0,0.0,4.533,-75.700,558934
 2020-04-06,CO_RIS,CO,Colombia,RIS,Risaralda,0.0,0.0,4.817,-75.700,941283
-2020-04-06,CO_SAN,CO,Colombia,SAN,Santander,14.0,0.0,7.133,-73.000,2061095
+2020-04-06,CO_SAN,CO,Colombia,SAN,Santander,14.0,1.0,7.133,-73.000,2061095
 2020-04-06,CO_SAP,CO,Colombia,SAP,San Andrés,0.0,0.0,12.550,-81.717,75167
 2020-04-06,CO_SUC,CO,Colombia,SUC,Sucre,0.0,0.0,9.300,-75.400,904863
 2020-04-06,CO_TOL,CO,Colombia,TOL,Tolima,0.0,0.0,4.433,-75.233,1400203
@@ -26974,7 +26974,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,AR,AR,Argentina,,,1628.0,53.0,-38.416097,-63.616672,44780677
 2020-04-07,AR_A,AR,Argentina,A,Salta,3.0,,-24.783,-65.417,1214441
 2020-04-07,AR_B,AR,Argentina,B,Buenos Aires Province,443.0,24.0,-33.700,-61.000,15625084
-2020-04-07,AR_C,AR,Argentina,C,City of Buenos Aires,,16.0,-34.60333,-58.38167,2891082
+2020-04-07,AR_C,AR,Argentina,C,City of Buenos Aires,622.0,16.0,-34.60333,-58.38167,2891082
 2020-04-07,AR_D,AR,Argentina,D,San Luis,10.0,,-33.300,-66.350,432310
 2020-04-07,AR_E,AR,Argentina,E,Entre Ríos,20.0,,-32.0477,-60.281,1235994
 2020-04-07,AR_F,AR,Argentina,F,La Rioja,9.0,,-29.433,-66.850,333642
@@ -26984,10 +26984,12 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,AR_L,AR,Argentina,L,La Pampa,3.0,,-36.617,-64.283,543184
 2020-04-07,AR_M,AR,Argentina,M,Mendoza,33.0,5.0,-32.89028,-68.84722,1738929
 2020-04-07,AR_N,AR,Argentina,N,Misiones,3.0,,-26.92,-54.52,1101593
+2020-04-07,AR_Q,AR,Argentina,Q,Neuquén,60.0,3.0,-38.95167,-68.07444,551266
 2020-04-07,AR_R,AR,Argentina,R,Río Negro,28.0,1.0,-40.800,-63.000,638645
 2020-04-07,AR_S,AR,Argentina,S,Santa Fe,187.0,1.0,-33.7227,-62.246,3194537
 2020-04-07,AR_T,AR,Argentina,T,Tucumán,28.0,2.0,-26.94,-65.34,1448188
 2020-04-07,AR_V,AR,Argentina,V,Tierra del Fuego,79.0,,-54.362,-67.638,127205
+2020-04-07,AR_W,AR,Argentina,W,Corrientes,26.0,,-28.66,-57.63,992595
 2020-04-07,AR_X,AR,Argentina,X,Córdoba,154.0,2.0,-31.417,-64.183,3308876
 2020-04-07,AR_Y,AR,Argentina,Y,Jujuy,5.0,,-23.750,-65.500,673307
 2020-04-07,AR_Z,AR,Argentina,Z,Santa Cruz,31.0,,-48.62,-70.01,273964
@@ -27078,12 +27080,12 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,CH_BL,CH,Switzerland,BL,Basel-Landschaft,690.0,19.0,47.117,7.733,289527
 2020-04-07,CH_BS,CH,Switzerland,BS,Basel-Stadt,813.0,28.0,47.567,7.600,200298
 2020-04-07,CH_FR,CH,Switzerland,FR,Fribourg,729.0,44.0,46.717,7.083,318714
-2020-04-07,CH_GE,CH,Switzerland,GE,Geneva,,,46.033,6.117,499480
+2020-04-07,CH_GE,CH,Switzerland,GE,Geneva,3993.0,118.0,46.033,6.117,499480
 2020-04-07,CH_GL,CH,Switzerland,GL,Glarus,63.0,2.0,46.983,9.067,40403
 2020-04-07,CH_GR,CH,Switzerland,GR,Grisons,668.0,34.0,46.750,9.500,198379
 2020-04-07,CH_JU,CH,Switzerland,JU,Jura,168.0,,47.367,7.150,73419
 2020-04-07,CH_LU,CH,Switzerland,LU,Lucerne,509.0,9.0,47.083,8.117,409557
-2020-04-07,CH_NE,CH,Switzerland,NE,Neuchâtel,,,46.983,6.783,176850
+2020-04-07,CH_NE,CH,Switzerland,NE,Neuchâtel,492.0,,46.983,6.783,176850
 2020-04-07,CH_NW,CH,Switzerland,NW,Nidwalden,87.0,0.0,46.933,8.067,43223
 2020-04-07,CH_OW,CH,Switzerland,OW,Obwalden,60.0,0.0,46.867,8.033,37841
 2020-04-07,CH_SG,CH,Switzerland,SG,St. Gallen,557.0,13.0,47.333,9.167,507697
@@ -27131,7 +27133,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,CN_YN,CN,China,YN,Yunnan,184.0,2.0,25.050,101.867,45966239
 2020-04-07,CN_ZJ,CN,China,ZJ,Zhejiang,1265.0,1.0,29.2,120.5,57370000
 2020-04-07,CO,CO,Colombia,,,1579.0,46.0,4.570868,-74.297333,50339443
-2020-04-07,CO_ANT,CO,Colombia,ANT,Antioquia,209.0,0.0,6.217,-75.567,6299886
+2020-04-07,CO_ANT,CO,Colombia,ANT,Antioquia,208.0,0.0,6.217,-75.567,6299886
 2020-04-07,CO_ATL,CO,Colombia,ATL,Atlántico,63.0,0.0,10.983,-74.783,2535517
 2020-04-07,CO_BOL,CO,Colombia,BOL,Bolívar,63.0,0.0,10.400,-75.500,2049083
 2020-04-07,CO_BOY,CO,Colombia,BOY,Boyacá,0.0,0.0,5.533,-73.367,1278061
@@ -27139,7 +27141,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,CO_CAS,CO,Colombia,CAS,Casanare,0.0,0.0,5.35000,-72.41000,344027
 2020-04-07,CO_CAU,CO,Colombia,CAU,Cauca,250.0,0.0,2.450,-76.617,1354744
 2020-04-07,CO_CES,CO,Colombia,CES,Cesar,17.0,0.0,10.483,-73.250,1200574
-2020-04-07,CO_COR,CO,Colombia,COR,Córdoba,7.0,0.0,8.750,-75.883,1784783
+2020-04-07,CO_COR,CO,Colombia,COR,Córdoba,7.0,2.0,8.750,-75.883,1784783
 2020-04-07,CO_CUN,CO,Colombia,CUN,Cundinamarca,60.0,0.0,4.600,-74.083,2919060
 2020-04-07,CO_DC,CO,Colombia,DC,Bogotá,861.0,0.0,4.71111,-74.07222,
 2020-04-07,CO_HUI,CO,Colombia,HUI,Huila,0.0,0.0,2.99861,-75.30444,1126314
@@ -27148,7 +27150,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,CO_MET,CO,Colombia,MET,Meta,0.0,0.0,4.150,-73.633,1039722
 2020-04-07,CO_NAR,CO,Colombia,NAR,Nariño,7.0,0.0,1.167,-77.267,1701840
 2020-04-07,CO_NSA,CO,Colombia,NSA,Norte de Santander,0.0,0.0,7.900,-72.500,1491689
-2020-04-07,CO_QUI,CO,Colombia,QUI,Quindío,34.0,0.0,4.533,-75.700,558934
+2020-04-07,CO_QUI,CO,Colombia,QUI,Quindío,35.0,0.0,4.533,-75.700,558934
 2020-04-07,CO_RIS,CO,Colombia,RIS,Risaralda,44.0,0.0,4.817,-75.700,941283
 2020-04-07,CO_SAN,CO,Colombia,SAN,Santander,0.0,0.0,7.133,-73.000,2061095
 2020-04-07,CO_SAP,CO,Colombia,SAP,San Andrés,0.0,0.0,12.550,-81.717,75167
@@ -27290,6 +27292,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,IL,IL,Israel,,,8904.0,57.0,31.046051,34.851612,8519377
 2020-04-07,IM,IM,Isle of Man,,,139.0,1.0,54.236107,-4.548056,84584
 2020-04-07,IN,IN,India,,,4421.0,114.0,20.593684,78.962880,1366417754
+2020-04-07,IN_AP,IN,India,AP,Andhra Pradesh,266.0,,16.50,80.64,49386799
 2020-04-07,IN_DL,IN,India,DL,Delhi,576.0,,28.61000,77.23000,26454000
 2020-04-07,IN_GJ,IN,India,GJ,Gujarat,165.0,13.0,23.217,72.683,60439692
 2020-04-07,IN_HR,IN,India,HR,Haryana,90.0,,30.73,76.78,25353081
@@ -27300,7 +27303,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,IN_MP,IN,India,MP,Madhya Pradesh,229.0,13.0,23.25,77.417,
 2020-04-07,IN_OR,IN,India,OR,Odisha,42.0,1.0,20.27,85.82,45989232
 2020-04-07,IN_PB,IN,India,PB,Punjab,91.0,7.0,30.79,75.84,27743338
-2020-04-07,IN_RJ,IN,India,RJ,Rajasthan,328.0,3.0,26.6,73.8,68548437
+2020-04-07,IN_RJ,IN,India,RJ,Rajasthan,288.0,3.0,26.6,73.8,68548437
 2020-04-07,IN_TG,IN,India,TG,Telangana,364.0,,17.366,78.475,35193978
 2020-04-07,IN_TN,IN,India,TN,Tamil Nadu,621.0,,13.09,80.27,72147030
 2020-04-07,IN_TR,IN,India,TR,Tripura,1.0,,23.84,91.28,3671032
@@ -27486,12 +27489,25 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,OM,OM,Oman,,,371.0,2.0,21.512583,55.923255,4974986
 2020-04-07,PA,PA,Panama,,,2100.0,55.0,8.537981,-80.782127,4246439
 2020-04-07,PE,PE,Peru,,,2561.0,92.0,-9.189967,-75.015152,32510453
+2020-04-07,PE_AMA,PE,Peru,AMA,Amazonas,11.0,,-6.22,-77.85,379384
+2020-04-07,PE_ANC,PE,Peru,ANC,Ancash,50.0,,-9.53,-77.53,1083519
+2020-04-07,PE_ARE,PE,Peru,ARE,Arequipa,74.0,,-15.86,-72.25,1382730
+2020-04-07,PE_CAJ,PE,Peru,CAJ,Cajamarca,10.0,,-6.61,-78.78,1341012
+2020-04-07,PE_CAL,PE,Peru,CAL,Callao,320.0,,-12.033,-77.133,994494
+2020-04-07,PE_HUC,PE,Peru,HUC,Huánuco,7.0,,-8.36306,-76.31556,730871
+2020-04-07,PE_ICA,PE,Peru,ICA,Ica,28.0,,-14.07,-75.73,850765
+2020-04-07,PE_JUN,PE,Peru,JUN,Junín,42.0,,-11.48,-74.98,1246038
+2020-04-07,PE_LAL,PE,Peru,LAL,La Libertad,82.0,,-8.000,-78.500,1778080
+2020-04-07,PE_LAM,PE,Peru,LAM,Lambayeque,246.0,,-6.433,-79.867,1197260
+2020-04-07,PE_LIM,PE,Peru,LIM,Lima,3016.0,,-12.043333,-77.028333,9485405
+2020-04-07,PE_LOR,PE,Peru,LOR,Loreto,290.0,,-4.0,-74.32,883510
+2020-04-07,PE_MOQ,PE,Peru,MOQ,Moquegua,3.0,,-16.8,-70.8,174863
+2020-04-07,PE_PIU,PE,Peru,PIU,Piura,41.0,,-4.99,-80.41,1856809
+2020-04-07,PE_SAM,PE,Peru,SAM,San Martín,11.0,,-7.2,-76.8,813381
 2020-04-07,PF,PF,French Polynesia,,,41.0,0.0,-17.679742,-149.406843,279287
 2020-04-07,PG,PG,Papua New Guinea,,,1.0,0.0,-6.314993,143.955550,8776109
 2020-04-07,PH,PH,Philippines,,,3660.0,163.0,12.879721,121.774017,108116615
 2020-04-07,PK,PK,Pakistan,,,3864.0,54.0,30.375321,69.345116,216565318
-2020-04-07,PK_BA,PK,Pakistan,BA,Balochistan,202.0,,27.7,65.7,12344408
-2020-04-07,PK_GB,PK,Pakistan,GB,Gilgit-Baltistan,211.0,,35.35,75.9,1249000
 2020-04-07,PK_IS,PK,Pakistan,IS,Islamabad,83.0,,33.7375,73.1475,2006572
 2020-04-07,PK_JK,PK,Pakistan,JK,Azad Kashmir,19.0,,33.84333,73.85139,4045000
 2020-04-07,PK_KP,PK,Pakistan,KP,Khyber Pakhtunkhwa,500.0,,34.0,71.32,35525047
@@ -27690,6 +27706,26 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,AM,AM,Armenia,,,853.0,8.0,40.069099,45.038189,2957731
 2020-04-08,AO,AO,Angola,,,17.0,2.0,-11.202692,17.873887,31825295
 2020-04-08,AR,AR,Argentina,,,1715.0,60.0,-38.416097,-63.616672,44780677
+2020-04-08,AR_A,AR,Argentina,A,Salta,3.0,,-24.783,-65.417,1214441
+2020-04-08,AR_B,AR,Argentina,B,Buenos Aires Province,460.0,25.0,-33.700,-61.000,15625084
+2020-04-08,AR_C,AR,Argentina,C,City of Buenos Aires,,18.0,-34.60333,-58.38167,2891082
+2020-04-08,AR_D,AR,Argentina,D,San Luis,10.0,,-33.300,-66.350,432310
+2020-04-08,AR_E,AR,Argentina,E,Entre Ríos,20.0,,-32.0477,-60.281,1235994
+2020-04-08,AR_F,AR,Argentina,F,La Rioja,9.0,,-29.433,-66.850,333642
+2020-04-08,AR_G,AR,Argentina,G,Santiago del Estero,9.0,,-27.783,-64.267,874006
+2020-04-08,AR_H,AR,Argentina,H,Chaco,148.0,7.0,-27.45139,-58.98667,1055259
+2020-04-08,AR_J,AR,Argentina,J,San Juan,1.0,,-30.87,-68.98,681055
+2020-04-08,AR_L,AR,Argentina,L,La Pampa,4.0,,-36.617,-64.283,543184
+2020-04-08,AR_M,AR,Argentina,M,Mendoza,39.0,5.0,-32.89028,-68.84722,1738929
+2020-04-08,AR_N,AR,Argentina,N,Misiones,3.0,,-26.92,-54.52,1101593
+2020-04-08,AR_Q,AR,Argentina,Q,Neuquén,84.0,4.0,-38.95167,-68.07444,551266
+2020-04-08,AR_R,AR,Argentina,R,Río Negro,35.0,1.0,-40.800,-63.000,638645
+2020-04-08,AR_S,AR,Argentina,S,Santa Fe,189.0,1.0,-33.7227,-62.246,3194537
+2020-04-08,AR_T,AR,Argentina,T,Tucumán,28.0,3.0,-26.94,-65.34,1448188
+2020-04-08,AR_V,AR,Argentina,V,Tierra del Fuego,81.0,,-54.362,-67.638,127205
+2020-04-08,AR_X,AR,Argentina,X,Córdoba,155.0,2.0,-31.417,-64.183,3308876
+2020-04-08,AR_Y,AR,Argentina,Y,Jujuy,5.0,,-23.750,-65.500,673307
+2020-04-08,AR_Z,AR,Argentina,Z,Santa Cruz,31.0,,-48.62,-70.01,273964
 2020-04-08,AT,AT,Austria,,,12640.0,243.0,47.516231,14.550072,8955102
 2020-04-08,AU,AU,Australia,,,5956.0,45.0,-25.274398,133.775136,25203198
 2020-04-08,AU_ACT,AU,Australia,ACT,Australian Capital Territory,99.0,2.0,-35.282001,149.128998,428060
@@ -27714,25 +27750,56 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,BM,BM,Bermuda,,,39.0,2.0,32.321384,-64.757370,62506
 2020-04-08,BN,BN,Brunei,,,135.0,1.0,4.535277,114.727669,433285
 2020-04-08,BO,BO,Bolivia,,,210.0,15.0,-16.290154,-63.588653,11513100
+2020-04-08,BO_C,BO,Bolivia,C,Cochabamba,47.0,,-17.333,-65.500,
+2020-04-08,BO_L,BO,Bolivia,L,La Paz,57.0,,-15.000,-68.333,2706359
+2020-04-08,BO_P,BO,Bolivia,P,Potosí,13.0,,-20.66667,-66.66667,823517
+2020-04-08,BO_S,BO,Bolivia,S,Santa Cruz,127.0,8.0,-18.418,-62.345,3320084
 2020-04-08,BR,BR,Brazil,,,13717.0,667.0,-14.235004,-51.925280,211049527
+2020-04-08,BR_AC,BR,Brazil,AC,Acre,54.0,2.0,-9.183333,-70.866667,881935
+2020-04-08,BR_AL,BR,Brazil,AL,Alagoas,37.0,2.0,-9.57,-36.55,3337357
+2020-04-08,BR_AM,BR,Brazil,AM,Amazonas,804.0,30.0,-5.0,-63.0,4144597
+2020-04-08,BR_AP,BR,Brazil,AP,Amapá,107.0,2.0,1.0,-52.0,845731
+2020-04-08,BR_BA,BR,Brazil,BA,Bahia,497.0,15.0,-12.0,-41.0,14873064
+2020-04-08,BR_CE,BR,Brazil,CE,Ceará,1291.0,43.0,-5.08,-39.65,9132078
+2020-04-08,BR_DF,BR,Brazil,DF,Distrito Federal,509.0,12.0,-15.795,-47.757778,3015268
+2020-04-08,BR_ES,BR,Brazil,ES,Espirito Santo,227.0,6.0,-20.266667,-40.283333,4018650
+2020-04-08,BR_GO,BR,Brazil,GO,Goiás,158.0,7.0,-15.933,-50.133,7018354
+2020-04-08,BR_MA,BR,Brazil,MA,Maranhão,230.0,11.0,-6.183,-45.617,7075181
+2020-04-08,BR_MG,BR,Brazil,MG,Minas Gerais,614.0,14.0,-19.817,-43.950,21168791
+2020-04-08,BR_MS,BR,Brazil,MS,Mato Grosso do Sul,85.0,2.0,-20.44278,-54.64583,2778986
+2020-04-08,BR_MT,BR,Brazil,MT,Mato Grosso,90.0,1.0,-15.567,-56.067,3484466
+2020-04-08,BR_PA,BR,Brazil,PA,Pará,167.0,6.0,-5.667,-52.733,8602865
+2020-04-08,BR_PB,BR,Brazil,PB,Paraíba,41.0,4.0,-7.167,-36.833,4018127
+2020-04-08,BR_PE,BR,Brazil,PE,Pernambuco,401.0,46.0,-8.333,-37.800,9557071
+2020-04-08,BR_PI,BR,Brazil,PI,Piauí,31.0,5.0,-8.233,-43.100,3273227
+2020-04-08,BR_PR,BR,Brazil,PR,Paraná,539.0,17.0,-24.000,-51.000,11433957
+2020-04-08,BR_RJ,BR,Brazil,RJ,Rio de Janeiro,1938.0,106.0,-22.900,-43.200,17264943
+2020-04-08,BR_RN,BR,Brazil,RN,Rio Grande do Norte,261.0,11.0,-5.74,-36.55,3506853
+2020-04-08,BR_RO,BR,Brazil,RO,Rondônia,18.0,1.0,-10.90,-62.76,1777225
+2020-04-08,BR_RR,BR,Brazil,RR,Roraima,49.0,1.0,-2.050,-61.400,605761
+2020-04-08,BR_RS,BR,Brazil,RS,Rio Grande do Sul,555.0,9.0,-53.0,11286500,
+2020-04-08,BR_SC,BR,Brazil,SC,Santa Catarina,457.0,15.0,-27.250,-50.333,6727000
+2020-04-08,BR_SE,BR,Brazil,SE,Sergipe,36.0,4.0,-10.56,-37.36,2298696
+2020-04-08,BR_SP,BR,Brazil,SP,São Paulo,6708.0,428.0,-23.533,-46.633,45919049
+2020-04-08,BR_TO,BR,Brazil,TO,Tocantins,23.0,0.0,-10.183,-48.333,1572866
 2020-04-08,BS,BS,Bahamas,,,36.0,6.0,25.034280,-77.396280,389482
 2020-04-08,BT,BT,Bhutan,,,5.0,0.0,27.514162,90.433601,763092
 2020-04-08,BW,BW,Botswana,,,7.0,1.0,-22.328474,24.684866,2303697
 2020-04-08,BY,BY,Belarus,,,861.0,13.0,53.709807,27.953389,9452411
 2020-04-08,BZ,BZ,Belize,,,7.0,1.0,17.189877,-88.497650,390353
 2020-04-08,CA,CA,Canada,,,17883.0,380.0,56.130366,-106.346771,37411047
-2020-04-08,CA_AB,CA,Canada,AB,Alberta,1373.0,26.0,53.9333,-116.5765,4413146
-2020-04-08,CA_BC,CA,Canada,BC,British Columbia,1291.0,43.0,49.2827,-123.1207,5110917
-2020-04-08,CA_MB,CA,Canada,MB,Manitoba,203.0,3.0,53.7609,-98.8139,1377517
-2020-04-08,CA_NB,CA,Canada,NB,New Brunswick,105.0,0.0,46.5653,-66.4619,779993
-2020-04-08,CA_NL,CA,Canada,NL,Newfoundland and Labrador,228.0,2.0,53.1355,-57.6604,521365
-2020-04-08,CA_NS,CA,Canada,NS,Nova Scotia,310.0,0.0,44.682,-63.7443,977457
+2020-04-08,CA_AB,CA,Canada,AB,Alberta,1423.0,29.0,53.9333,-116.5765,4413146
+2020-04-08,CA_BC,CA,Canada,BC,British Columbia,1336.0,48.0,49.2827,-123.1207,5110917
+2020-04-08,CA_MB,CA,Canada,MB,Manitoba,206.0,3.0,53.7609,-98.8139,1377517
+2020-04-08,CA_NB,CA,Canada,NB,New Brunswick,108.0,0.0,46.5653,-66.4619,779993
+2020-04-08,CA_NL,CA,Canada,NL,Newfoundland and Labrador,232.0,2.0,53.1355,-57.6604,521365
+2020-04-08,CA_NS,CA,Canada,NS,Nova Scotia,342.0,1.0,44.682,-63.7443,977457
 2020-04-08,CA_NT,CA,Canada,NT,Northwest Territories,5.0,0.0,64.8255,-124.8457,44904
 2020-04-08,CA_NU,CA,Canada,NU,Nunavut,0.0,0.0,73.0,-91.0,39097
 2020-04-08,CA_ON,CA,Canada,ON,Ontario,5276.0,174.0,51.2538,-85.3232,14711827
-2020-04-08,CA_PE,CA,Canada,PE,Prince Edward Island,22.0,0.0,46.5107,-63.4168,158158
-2020-04-08,CA_QC,CA,Canada,QC,Quebec,9340.0,150.0,52.9399,-73.5491,8537674
-2020-04-08,CA_SK,CA,Canada,SK,Saskatchewan,260.0,3.0,52.9399,-106.4509,1181666
+2020-04-08,CA_PE,CA,Canada,PE,Prince Edward Island,24.0,0.0,46.5107,-63.4168,158158
+2020-04-08,CA_QC,CA,Canada,QC,Quebec,10031.0,175.0,52.9399,-73.5491,8537674
+2020-04-08,CA_SK,CA,Canada,SK,Saskatchewan,271.0,3.0,52.9399,-106.4509,1181666
 2020-04-08,CA_YT,CA,Canada,YT,Yukon,7.0,0.0,64.2823,-135.0,41078
 2020-04-08,CD,CD,Democratic Republic of the Congo,,,180.0,18.0,-4.038333,21.758664,86790567
 2020-04-08,CF,CF,Central African Republic,,,9.0,0.0,6.611111,20.939444,4745185
@@ -27745,13 +27812,17 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,CH_BL,CH,Switzerland,BL,Basel-Landschaft,694.0,21.0,47.117,7.733,289527
 2020-04-08,CH_BS,CH,Switzerland,BS,Basel-Stadt,834.0,31.0,47.567,7.600,200298
 2020-04-08,CH_FR,CH,Switzerland,FR,Fribourg,756.0,45.0,46.717,7.083,318714
-2020-04-08,CH_GL,CH,Switzerland,GL,Glarus,64.0,,46.983,9.067,40403
+2020-04-08,CH_GE,CH,Switzerland,GE,Geneva,,,46.033,6.117,499480
+2020-04-08,CH_GL,CH,Switzerland,GL,Glarus,64.0,2.0,46.983,9.067,40403
+2020-04-08,CH_JU,CH,Switzerland,JU,Jura,174.0,,47.367,7.150,73419
 2020-04-08,CH_LU,CH,Switzerland,LU,Lucerne,527.0,9.0,47.083,8.117,409557
+2020-04-08,CH_NE,CH,Switzerland,NE,Neuchâtel,,,46.983,6.783,176850
 2020-04-08,CH_NW,CH,Switzerland,NW,Nidwalden,93.0,0.0,46.933,8.067,43223
 2020-04-08,CH_OW,CH,Switzerland,OW,Obwalden,61.0,0.0,46.867,8.033,37841
 2020-04-08,CH_SG,CH,Switzerland,SG,St. Gallen,578.0,15.0,47.333,9.167,507697
 2020-04-08,CH_SH,CH,Switzerland,SH,Schaffhausen,50.0,1.0,47.717,8.567,81991
 2020-04-08,CH_SO,CH,Switzerland,SO,Solothurn,276.0,3.0,47.150,7.633,273194
+2020-04-08,CH_SZ,CH,Switzerland,SZ,Schwyz,196.0,7.0,47.067,8.750,159165
 2020-04-08,CH_TG,CH,Switzerland,TG,Thurgau,236.0,8.0,47.583,9.067,276472
 2020-04-08,CH_TI,CH,Switzerland,TI,Ticino,2659.0,211.0,46.317,8.817,353343
 2020-04-08,CH_UR,CH,Switzerland,UR,Uri,72.0,4.0,46.783,8.617,36433
@@ -27778,12 +27849,52 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,CN_TW,CN,China,TW,Taiwan,379.0,5.0,23.7,121.0,23580000
 2020-04-08,CN_ZJ,CN,China,ZJ,Zhejiang,1266.0,1.0,29.2,120.5,57370000
 2020-04-08,CO,CO,Colombia,,,1780.0,50.0,4.570868,-74.297333,50339443
+2020-04-08,CO_ANT,CO,Colombia,ANT,Antioquia,235.0,0.0,6.217,-75.567,6299886
+2020-04-08,CO_ATL,CO,Colombia,ATL,Atlántico,67.0,0.0,10.983,-74.783,2535517
+2020-04-08,CO_BOL,CO,Colombia,BOL,Bolívar,71.0,0.0,10.400,-75.500,2049083
+2020-04-08,CO_BOY,CO,Colombia,BOY,Boyacá,19.0,0.0,5.533,-73.367,1278061
+2020-04-08,CO_CAL,CO,Colombia,CAL,Caldas,19.0,0.0,5.100,-75.550,984128
+2020-04-08,CO_CAS,CO,Colombia,CAS,Casanare,0.0,0.0,5.35000,-72.41000,344027
+2020-04-08,CO_CAU,CO,Colombia,CAU,Cauca,314.0,0.0,2.450,-76.617,1354744
+2020-04-08,CO_CES,CO,Colombia,CES,Cesar,0.0,0.0,10.483,-73.250,1200574
+2020-04-08,CO_COR,CO,Colombia,COR,Córdoba,0.0,0.0,8.750,-75.883,1784783
+2020-04-08,CO_CUN,CO,Colombia,CUN,Cundinamarca,64.0,0.0,4.600,-74.083,2919060
+2020-04-08,CO_DC,CO,Colombia,DC,Bogotá,992.0,0.0,4.71111,-74.07222,
+2020-04-08,CO_HUI,CO,Colombia,HUI,Huila,38.0,0.0,2.99861,-75.30444,1126314
+2020-04-08,CO_LAG,CO,Colombia,LAG,La Guajira,0.0,0.0,11.550,-72.900,880560
+2020-04-08,CO_MAG,CO,Colombia,MAG,Magdalena,26.0,2.0,11.24194,-74.20528,1235425
+2020-04-08,CO_MET,CO,Colombia,MET,Meta,0.0,0.0,4.150,-73.633,1039722
+2020-04-08,CO_NAR,CO,Colombia,NAR,Nariño,9.0,0.0,1.167,-77.267,1701840
+2020-04-08,CO_NSA,CO,Colombia,NSA,Norte de Santander,27.0,0.0,7.900,-72.500,1491689
+2020-04-08,CO_QUI,CO,Colombia,QUI,Quindío,40.0,1.0,4.533,-75.700,558934
+2020-04-08,CO_RIS,CO,Colombia,RIS,Risaralda,46.0,0.0,4.817,-75.700,941283
+2020-04-08,CO_SAN,CO,Colombia,SAN,Santander,0.0,0.0,7.133,-73.000,2061095
+2020-04-08,CO_SAP,CO,Colombia,SAP,San Andrés,0.0,0.0,12.550,-81.717,75167
+2020-04-08,CO_SUC,CO,Colombia,SUC,Sucre,0.0,0.0,9.300,-75.400,904863
+2020-04-08,CO_TOL,CO,Colombia,TOL,Tolima,0.0,0.0,4.433,-75.233,1400203
+2020-04-08,CO_VAC,CO,Colombia,VAC,Valle del Cauca,314.0,0.0,3.417,-76.517,4560196
 2020-04-08,CR,CR,Costa Rica,,,483.0,2.0,9.748917,-83.753428,5047561
 2020-04-08,CU,CU,Cuba,,,396.0,11.0,21.521757,-77.781167,11333483
 2020-04-08,CV,CV,Cape Verde,,,7.0,1.0,16.002082,-24.013197,549935
 2020-04-08,CY,CY,Cyprus,,,494.0,14.0,35.126413,33.429859,1179551
 2020-04-08,CZ,CZ,Czech Republic,,,5017.0,88.0,49.817492,15.472962,10689209
 2020-04-08,DE,DE,Germany,,,103228.0,1861.0,51.165691,10.451526,83517045
+2020-04-08,DE_BB,DE,Germany,BB,Brandenburg,1697.0,39.0,52.361944,13.008056,2504040
+2020-04-08,DE_BE,DE,Germany,BE,Berlin,4038.0,37.0,52.520000,13.405000,6144600
+2020-04-08,DE_BW,DE,Germany,BW,Baden-Württemberg,22585.0,534.0,48.537778,9.041111,11023424
+2020-04-08,DE_BY,DE,Germany,BY,Bavaria,28809.0,615.0,48.777500,11.431111,13076721
+2020-04-08,DE_HB,DE,Germany,HB,Bremen,424.0,11.0,53.075833,8.807500,681032
+2020-04-08,DE_HE,DE,Germany,HE,Hesse,5182.0,103.0,50.666111,8.591111,6243262
+2020-04-08,DE_HH,DE,Germany,HH,Hamburg,3370.0,29.0,53.565278,10.001389,5107429
+2020-04-08,DE_MV,DE,Germany,MV,Mecklenburg-Vorpommern,558.0,11.0,53.616667,12.700000,1609675
+2020-04-08,DE_NI,DE,Germany,NI,Lower Saxony,7050.0,152.0,52.756111,9.393056,7962775
+2020-04-08,DE_NW,DE,Germany,NW,North Rhine-Westphalia,23174.0,422.0,51.466667,7.550000,17912134
+2020-04-08,DE_RP,DE,Germany,RP,Rhineland-Palatinate,4387.0,53.0,49.913056,7.450000,4084844
+2020-04-08,DE_SH,DE,Germany,SH,Schleswig-Holstein,1823.0,25.0,54.470000,9.513889,2889821
+2020-04-08,DE_SL,DE,Germany,SL,Saarland,1700.0,28.0,49.383056,6.833056,990509
+2020-04-08,DE_SN,DE,Germany,SN,Saxony,3245.0,56.0,51.026944,13.358889,4077937
+2020-04-08,DE_ST,DE,Germany,ST,Saxony-Anhalt,1037.0,16.0,51.971111,11.470000,2208321
+2020-04-08,DE_TH,DE,Germany,TH,Thuringia,1276.0,20.0,50.861111,11.051944,2136752
 2020-04-08,DJ,DJ,Djibouti,,,121.0,0.0,11.825138,42.590275,973560
 2020-04-08,DK,DK,Denmark,,,5071.0,203.0,56.263920,9.501785,5771876
 2020-04-08,DM,DM,Dominica,,,15.0,0.0,15.414999,-61.370976,71808
@@ -27819,6 +27930,24 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,FK,FK,Falkland Islands,,,5.0,0.0,-51.796253,-59.523613,3377
 2020-04-08,FO,FO,Faroe Islands,,,184.0,0.0,61.892635,-6.911806,48678
 2020-04-08,FR,FR,France,,,78167.0,10328.0,46.227638,2.213749,65129728
+2020-04-08,FR_ARA,FR,France,ARA,Auvergne-Rhône-Alpes,,654.0,45.447100,4.385300,
+2020-04-08,FR_BFC,FR,France,BFC,Bourgogne-Franche-Comté,,412.0,47.280500,4.999400,
+2020-04-08,FR_BRE,FR,France,BRE,Brittany,,107.0,48.202000,-2.932600,
+2020-04-08,FR_COR,FR,France,COR,Corsica,,32.0,42.039600,9.012900,
+2020-04-08,FR_CVL,FR,France,CVL,Centre-Val de Loire,,154.0,47.751600,1.675100,
+2020-04-08,FR_GES,FR,France,GES,Grand Est,,1781.0,48.699800,6.187800,
+2020-04-08,FR_GF,FR,France,GF,French Guiana,,0.0,3.933900,-53.125800,
+2020-04-08,FR_GUA,FR,France,GUA,Guadeloupe,,10.0,16.265000,-61.551000,
+2020-04-08,FR_HDF,FR,France,HDF,Hauts-de-France,,679.0,50.480100,2.793700,
+2020-04-08,FR_IDF,FR,France,IDF,Île-de-France,,2850.0,48.849900,2.637000,
+2020-04-08,FR_LRE,FR,France,LRE,La Réunion,,0.0,-21.115100,55.536400,
+2020-04-08,FR_MAY,FR,France,MAY,Mayotte,,2.0,-12.827500,45.166200,
+2020-04-08,FR_MQ,FR,France,MQ,Martinique,,4.0,14.641500,-61.024200,
+2020-04-08,FR_NAQ,FR,France,NAQ,Nouvelle-Aquitaine,,165.0,45.708700,0.626900,
+2020-04-08,FR_NOR,FR,France,NOR,Normandy,,165.0,48.879900,0.171300,
+2020-04-08,FR_OCC,FR,France,OCC,Occitanie,,195.0,43.892700,3.282800,
+2020-04-08,FR_PAC,FR,France,PAC,Provence-Alpes-Côte d'Azur,,269.0,43.935200,6.067900,
+2020-04-08,FR_PDL,FR,France,PDL,Pays de la Loire,,153.0,47.763300,-0.330000,
 2020-04-08,GA,GA,Gabon,,,30.0,1.0,-0.803689,11.609444,2172579
 2020-04-08,GB,GB,United Kingdom,,,55242.0,6159.0,55.378051,-3.435973,67530172
 2020-04-08,GB_NIR,GB,United Kingdom,NIR,Northern Ireland,1339.0,78.0,54.600,-5.917,1885400
@@ -27855,6 +27984,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,IN_HR,IN,India,HR,Haryana,147.0,3.0,30.73,76.78,25353081
 2020-04-08,IN_KL,IN,India,KL,Kerala,336.0,,8.5,77,33387677
 2020-04-08,IN_MH,IN,India,MH,Maharashtra,1018.0,64.0,18.97,72.820,112374333
+2020-04-08,IN_RJ,IN,India,RJ,Rajasthan,328.0,,26.6,73.8,68548437
 2020-04-08,IN_TG,IN,India,TG,Telangana,427.0,,17.366,78.475,35193978
 2020-04-08,IN_TN,IN,India,TN,Tamil Nadu,690.0,7.0,13.09,80.27,72147030
 2020-04-08,IN_UP,IN,India,UP,Uttar Pradesh,343.0,,26.85,80.91,199812341
@@ -27930,6 +28060,12 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,KH,KH,Cambodia,,,117.0,0.0,12.565679,104.990963,16486542
 2020-04-08,KN,KN,Saint Kitts and Nevis,,,11.0,0.0,17.357822,-62.782998,52823
 2020-04-08,KR,KR,South Korea,,,10384.0,200.0,35.907757,127.766922,51225308
+2020-04-08,KR_11,KR,South Korea,11,Seoul,584.0,,37.567,126.967,9733509
+2020-04-08,KR_27,KR,South Korea,27,Daegu,6822.0,111.0,35.867,128.600,2489802
+2020-04-08,KR_41,KR,South Korea,41,Gyeonggi,605.0,11.0,37.500,127.250,13526000
+2020-04-08,KR_44,KR,South Korea,44,Chungnam,126.0,,36.500,126.750,2059871
+2020-04-08,KR_47,KR,South Korea,47,Gyeongbuk,,43.0,36.250,128.750,2700328
+2020-04-08,KR_48,KR,South Korea,48,Gyeongnam,112.0,,35.250,128.250,3447687
 2020-04-08,KW,KW,Kuwait,,,743.0,1.0,29.311660,47.481766,4207083
 2020-04-08,KY,KY,Cayman Islands,,,45.0,1.0,19.513469,-80.566956,64948
 2020-04-08,KZ,KZ,Kazakhstan,,,704.0,6.0,48.019573,66.923684,18551427
@@ -27960,6 +28096,38 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,MV,MV,Maldives,,,19.0,0.0,3.202778,73.220680,530953
 2020-04-08,MW,MW,Malawi,,,8.0,1.0,-13.254308,34.301525,18628747
 2020-04-08,MX,MX,Mexico,,,2785.0,141.0,23.634501,-102.552784,127575529
+2020-04-08,MX_AGU,MX,Mexico,AGU,Aguascalientes,53.0,0.0,22.017,-102.350,1312544
+2020-04-08,MX_BCN,MX,Mexico,BCN,Baja California,225.0,15.0,30.000,-115.167,3315766
+2020-04-08,MX_BCS,MX,Mexico,BCS,Baja California Sur,68.0,2.0,25.850,-111.967,763929
+2020-04-08,MX_CAM,MX,Mexico,CAM,Campeche,14.0,1.0,18.833,-90.400,899931
+2020-04-08,MX_CHH,MX,Mexico,CHH,Chihuahua,29.0,0.0,28.817,-106.433,3556574
+2020-04-08,MX_CHP,MX,Mexico,CHP,Chiapas,32.0,0.0,16.417,-92.417,5217908
+2020-04-08,MX_CMX,MX,Mexico,CMX,Mexico City,855.0,39.0,19.433,-99.133,
+2020-04-08,MX_COA,MX,Mexico,COA,Coahuila,122.0,7.0,27.300,-102.050,2954915
+2020-04-08,MX_COL,MX,Mexico,COL,Colima,7.0,0.0,19.167,-103.883,711235
+2020-04-08,MX_DUR,MX,Mexico,DUR,Durango,15.0,4.0,24.933,-104.917,1754754
+2020-04-08,MX_GRO,MX,Mexico,GRO,Guerrero,47.0,4.0,17.617,-99.950,3533251
+2020-04-08,MX_GUA,MX,Mexico,GUA,Guanajuato,67.0,1.0,21.017,-101.267,5853677
+2020-04-08,MX_HID,MX,Mexico,HID,Hidalgo,46.0,7.0,20.483,-98.867,2858359
+2020-04-08,MX_JAL,MX,Mexico,JAL,Jalisco,139.0,8.0,20.567,-103.683,8256100
+2020-04-08,MX_MEX,MX,Mexico,MEX,State of Mexico,354.0,11.0,19.350,-99.633,16187608
+2020-04-08,MX_MIC,MX,Mexico,MIC,Michoacán,36.0,5.0,19.167,-101.900,4584471
+2020-04-08,MX_MOR,MX,Mexico,MOR,Morelos,26.0,5.0,18.750,-99.067,1903811
+2020-04-08,MX_NAY,MX,Mexico,NAY,Nayarit,12.0,1.0,21.750,-105.233,1181050
+2020-04-08,MX_NLE,MX,Mexico,NLE,Nuevo León,98.0,4.0,25.567,-99.967,5119504
+2020-04-08,MX_OAX,MX,Mexico,OAX,Oaxaca,37.0,1.0,16.900,-96.417,3967889
+2020-04-08,MX_PUE,MX,Mexico,PUE,Puebla,183.0,9.0,19.000,-97.883,6168883
+2020-04-08,MX_QUE,MX,Mexico,QUE,Querétaro,47.0,2.0,20.583,-100.383,2038372
+2020-04-08,MX_ROO,MX,Mexico,ROO,Quintana Roo,143.0,10.0,19.6,-87.92,1501562
+2020-04-08,MX_SIN,MX,Mexico,SIN,Sinaloa,125.0,13.0,25.000,-107.500,3216000
+2020-04-08,MX_SLP,MX,Mexico,SLP,San Luis Potosí,43.0,4.0,22.600,-100.433,2717820
+2020-04-08,MX_SON,MX,Mexico,SON,Sonora,46.0,2.0,29.64611,-110.86889,2850330
+2020-04-08,MX_TAB,MX,Mexico,TAB,Tabasco,112.0,8.0,17.967,-92.583,2395272
+2020-04-08,MX_TAM,MX,Mexico,TAM,Tamaulipas,43.0,3.0,24.283,-98.567,3441698
+2020-04-08,MX_TLA,MX,Mexico,TLA,Tlaxcala,23.0,0.0,19.433,-98.167,1272847
+2020-04-08,MX_VER,MX,Mexico,VER,Veracruz,49.0,3.0,19.433,-96.383,8112505
+2020-04-08,MX_YUC,MX,Mexico,YUC,Yucatán,74.0,3.0,20.833,-89.000,2097175
+2020-04-08,MX_ZAC,MX,Mexico,ZAC,Zacatecas,11.0,2.0,23.300,-102.700,1579209
 2020-04-08,MY,MY,Malaysia,,,3963.0,63.0,4.210484,101.975766,31949777
 2020-04-08,MY_01,MY,Malaysia,01,Johor,496.0,18.0,1.99083,103.48278,3700000
 2020-04-08,MY_02,MY,Malaysia,02,Kedah,91.0,1.0,6.12833,100.36278,2071900
@@ -28004,22 +28172,28 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,PG,PG,Papua New Guinea,,,2.0,0.0,-6.314993,143.955550,8776109
 2020-04-08,PH,PH,Philippines,,,3764.0,177.0,12.879721,121.774017,108116615
 2020-04-08,PK,PK,Pakistan,,,4072.0,58.0,30.375321,69.345116,216565318
+2020-04-08,PK_BA,PK,Pakistan,BA,Balochistan,212.0,,27.7,65.7,12344408
+2020-04-08,PK_GB,PK,Pakistan,GB,Gilgit-Baltistan,213.0,,35.35,75.9,1249000
+2020-04-08,PK_JK,PK,Pakistan,JK,Azad Kashmir,28.0,,33.84333,73.85139,4045000
+2020-04-08,PK_KP,PK,Pakistan,KP,Khyber Pakhtunkhwa,527.0,,34.0,71.32,35525047
+2020-04-08,PK_PB,PK,Pakistan,PB,Punjab,2108.0,,31.0,72.0,110012442
+2020-04-08,PK_SD,PK,Pakistan,SD,Sindh,1036.0,,26.350,68.850,47886051
 2020-04-08,PL,PL,Poland,,,4848.0,129.0,51.919438,19.145136,37887768
 2020-04-08,PL_02,PL,Poland,02,Lower Silesian,539.0,,51.117,17.033,2899986
 2020-04-08,PL_04,PL,Poland,04,Kuyavian-Pomeranian,277.0,,53.07833,18.49361,2098370
 2020-04-08,PL_06,PL,Poland,06,Lublin,199.0,,51.24806,22.57028,2147746
-2020-04-08,PL_08,PL,Poland,08,Lubusz,62.0,,52.19528,15.34750,1013031
-2020-04-08,PL_10,PL,Poland,10,Łódź,358.0,,51.667,19.433,2466322
-2020-04-08,PL_12,PL,Poland,12,Lesser Poland,380.0,,50.06139,19.93833,3406000
-2020-04-08,PL_14,PL,Poland,14,Masovian,1247.0,,52.217,21.000,5384617
-2020-04-08,PL_16,PL,Poland,16,Opole,113.0,,50.667,17.933,984345
-2020-04-08,PL_18,PL,Poland,18,Podkarpackie,170.0,,50.03361,22.00472,2129187
-2020-04-08,PL_20,PL,Poland,20,Podlaskie,142.0,,53.117,23.167,1193348
-2020-04-08,PL_24,PL,Poland,24,Silesian,629.0,,50.250,19.000,4524091
-2020-04-08,PL_26,PL,Poland,26,Świętokrzyskie,123.0,,50.883,20.617,1263176
+2020-04-08,PL_08,PL,Poland,08,Lubusz,66.0,,52.19528,15.34750,1013031
+2020-04-08,PL_10,PL,Poland,10,Łódź,400.0,,51.667,19.433,2466322
+2020-04-08,PL_12,PL,Poland,12,Lesser Poland,398.0,,50.06139,19.93833,3406000
+2020-04-08,PL_14,PL,Poland,14,Masovian,1314.0,,52.217,21.000,5384617
+2020-04-08,PL_16,PL,Poland,16,Opole,116.0,,50.667,17.933,984345
+2020-04-08,PL_18,PL,Poland,18,Podkarpackie,182.0,,50.03361,22.00472,2129187
+2020-04-08,PL_20,PL,Poland,20,Podlaskie,143.0,,53.117,23.167,1193348
+2020-04-08,PL_24,PL,Poland,24,Silesian,644.0,,50.250,19.000,4524091
+2020-04-08,PL_26,PL,Poland,26,Świętokrzyskie,127.0,,50.883,20.617,1263176
 2020-04-08,PL_28,PL,Poland,28,Warmian-Masurian,92.0,,53.783,20.500,1443967
-2020-04-08,PL_30,PL,Poland,30,Greater Poland,378.0,,52.29278,16.73556,3489210
-2020-04-08,PL_32,PL,Poland,32,West Pomeranian,160.0,,53.417,14.583,1715431
+2020-04-08,PL_30,PL,Poland,30,Greater Poland,394.0,,52.29278,16.73556,3489210
+2020-04-08,PL_32,PL,Poland,32,West Pomeranian,165.0,,53.417,14.583,1715431
 2020-04-08,PR,PR,Puerto Rico,,,573.0,23.0,18.220833,-66.590149,2933408
 2020-04-08,PS,PS,Palestine,,,260.0,1.0,31.952162,35.233154,4981420
 2020-04-08,PT,PT,Portugal,,,12442.0,345.0,39.399872,-8.224454,10226187
@@ -28137,6 +28311,57 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,UA_43,RU,Russia,43,Republic of Crimea,23.0,,45.400,35.300,1913731
 2020-04-08,UG,UG,Uganda,,,52.0,0.0,1.373333,32.290275,44269594
 2020-04-08,US,US,United States of America,,,398809.0,12895.0,37.090240,-95.712891,329064917
+2020-04-08,US_AK,US,United States of America,AK,Alaska,226.0,7.0,61.370700,-152.404400,710249
+2020-04-08,US_AL,US,United States of America,AL,Alabama,2369.0,66.0,32.318200,-86.902300,4903185
+2020-04-08,US_AR,US,United States of America,AR,Arkansas,1000.0,18.0,34.969700,-92.373100,3017804
+2020-04-08,US_AZ,US,United States of America,AZ,Arizona,2726.0,80.0,33.729800,-111.431200,7278717
+2020-04-08,US_CA,US,United States of America,CA,California,16957.0,442.0,36.116200,-119.681600,39512223
+2020-04-08,US_CO,US,United States of America,CO,Colorado,5429.0,179.0,39.059800,-105.311100,5758736
+2020-04-08,US_CT,US,United States of America,CT,Connecticut,7781.0,277.0,41.597800,-72.755400,3565287
+2020-04-08,US_DC,US,United States of America,DC,District of Columbia,1440.0,27.0,38.897400,-77.026800,705749
+2020-04-08,US_DE,US,United States of America,DE,Delaware,928.0,16.0,39.318500,-75.507100,973764
+2020-04-08,US_FL,US,United States of America,FL,Florida,15455.0,309.0,27.766300,-81.686800,21477737
+2020-04-08,US_GA,US,United States of America,GA,Georgia,9901.0,362.0,33.040600,-83.643100,10617423
+2020-04-08,US_HI,US,United States of America,HI,Hawaii,410.0,5.0,21.094300,-157.498300,1415872
+2020-04-08,US_IA,US,United States of America,IA,Iowa,1145.0,27.0,42.011500,-93.210500,3155070
+2020-04-08,US_ID,US,United States of America,ID,Idaho,1210.0,15.0,44.240500,-114.478800,1787065
+2020-04-08,US_IL,US,United States of America,IL,Illinois,15078.0,462.0,40.349500,-88.986100,12671821
+2020-04-08,US_IN,US,United States of America,IN,Indiana,5943.0,203.0,39.849400,-86.258300,6732219
+2020-04-08,US_KS,US,United States of America,KS,Kansas,900.0,27.0,38.526600,-96.726500,2911505
+2020-04-08,US_KY,US,United States of America,KY,Kentucky,1149.0,65.0,37.668100,-84.670100,4468402
+2020-04-08,US_LA,US,United States of America,LA,Louisiana,17030.0,652.0,31.169500,-91.867800,4648794
+2020-04-08,US_MA,US,United States of America,MA,Massachusetts,16790.0,433.0,42.230200,-71.530100,6939373
+2020-04-08,US_MD,US,United States of America,MD,Maryland,5529.0,124.0,39.063900,-76.802100,6045680
+2020-04-08,US_ME,US,United States of America,ME,Maine,537.0,14.0,44.693900,-69.381900,1338404
+2020-04-08,US_MI,US,United States of America,MI,Michigan,20346.0,959.0,43.326600,-84.536100,9883635
+2020-04-08,US_MN,US,United States of America,MN,Minnesota,1154.0,39.0,44.825400,-93.784200,5639632
+2020-04-08,US_MO,US,United States of America,MO,Missouri,3327.0,58.0,38.456100,-92.288400,6126452
+2020-04-08,US_MS,US,United States of America,MS,Mississippi,2003.0,67.0,32.741600,-89.678700,2976149
+2020-04-08,US_MT,US,United States of America,MT,Montana,332.0,6.0,46.921900,-110.454400,1068778
+2020-04-08,US_NC,US,United States of America,NC,North Carolina,3426.0,53.0,35.630100,-79.806400,10488084
+2020-04-08,US_ND,US,United States of America,ND,North Dakota,251.0,4.0,47.528900,-99.784000,762062
+2020-04-08,US_NE,US,United States of America,NE,Nebraska,519.0,12.0,41.314800,-96.195100,1934408
+2020-04-08,US_NH,US,United States of America,NH,New Hampshire,788.0,18.0,42.993100,-71.049800,1359711
+2020-04-08,US_NJ,US,United States of America,NJ,New Jersey,47437.0,1504.0,40.298900,-74.521000,8882190
+2020-04-08,US_NM,US,United States of America,NM,New Mexico,794.0,13.0,34.840500,-106.248500,2096829
+2020-04-08,US_NV,US,United States of America,NV,Nevada,2318.0,71.0,38.313500,-117.055400,3080156
+2020-04-08,US_NY,US,United States of America,NY,New York,149316.0,6268.0,42.165700,-74.948100,19453561
+2020-04-08,US_OH,US,United States of America,OH,Ohio,5148.0,193.0,40.388800,-82.764900,11689100
+2020-04-08,US_OK,US,United States of America,OK,Oklahoma,1524.0,79.0,35.565300,-96.928900,3956971
+2020-04-08,US_OR,US,United States of America,OR,Oregon,1181.0,33.0,43.126100,-123.249200,4190713
+2020-04-08,US_PA,US,United States of America,PA,Pennsylvania,16239.0,309.0,40.590800,-77.209800,12801989
+2020-04-08,US_RI,US,United States of America,RI,Rhode Island,1450.0,35.0,41.888200,-71.477400,1057315
+2020-04-08,US_SC,US,United States of America,SC,South Carolina,2552.0,63.0,33.856900,-80.945000,5148714
+2020-04-08,US_SD,US,United States of America,SD,South Dakota,393.0,6.0,43.890100,-102.254800,884659
+2020-04-08,US_TN,US,United States of America,TN,Tennessee,4362.0,79.0,35.747800,-86.692300,6833793
+2020-04-08,US_TX,US,United States of America,TX,Texas,9353.0,177.0,31.054500,-97.563500,28995881
+2020-04-08,US_UT,US,United States of America,UT,Utah,1846.0,13.0,40.150000,-111.862400,3205958
+2020-04-08,US_VA,US,United States of America,VA,Virginia,3645.0,75.0,37.769300,-78.170000,8535519
+2020-04-08,US_VT,US,United States of America,VT,Vermont,605.0,23.0,44.045900,-72.710700,623989
+2020-04-08,US_WA,US,United States of America,WA,Washington,8682.0,394.0,47.400900,-121.490500,7614893
+2020-04-08,US_WI,US,United States of America,WI,Wisconsin,2756.0,99.0,43.018600,-89.549800,5822434
+2020-04-08,US_WV,US,United States of America,WV,West Virginia,462.0,4.0,38.491200,-80.954500,1792147
+2020-04-08,US_WY,US,United States of America,WY,Wyoming,221.0,0.0,42.756000,-107.302500,578759
 2020-04-08,UY,UY,Uruguay,,,424.0,7.0,-32.522779,-55.765835,3461734
 2020-04-08,UZ,UZ,Uzbekistan,,,504.0,2.0,41.377491,64.585262,32981716
 2020-04-08,VA,VA,Vatican City,,,7.0,0.0,41.902916,12.453389,799
@@ -28149,7 +28374,39 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,ZA,ZA,South Africa,,,1749.0,13.0,-30.559482,22.937506,58558270
 2020-04-08,ZM,ZM,Zambia,,,39.0,1.0,-13.133897,27.849332,17861030
 2020-04-08,ZW,ZW,Zimbabwe,,,10.0,1.0,-19.015438,29.154857,14645468
+2020-04-09,CH_AI,CH,Switzerland,AI,Appenzell Innerrhoden,24.0,,47.300,9.400,16145
+2020-04-09,CH_AR,CH,Switzerland,AR,Appenzell Ausserrhoden,74.0,3.0,47.050,9.017,55234
+2020-04-09,CH_SO,CH,Switzerland,SO,Solothurn,282.0,5.0,47.150,7.633,273194
+2020-04-09,CH_ZG,CH,Switzerland,ZG,Zug,165.0,3.0,47.000,8.517,126837
+2020-04-09,CN_AH,CN,China,AH,Anhui,991.0,6.0,31.833,117.0,62000000
+2020-04-09,CN_BJ,CN,China,BJ,Beijing,588.0,8.0,40.182400,116.414200,24000000
 2020-04-09,CN_FJ,CN,China,FJ,Fujian,351.0,1.0,26.078900,117.987400,38565000
+2020-04-09,CN_GD,CN,China,GD,Guangdong,1539.0,8.0,23.4,113.5,113460000
+2020-04-09,CN_GS,CN,China,GS,Gansu,139.0,2.0,38,102,25575254
+2020-04-09,CN_HB,CN,China,HB,Hubei,67803.0,3215.0,31.2,112.3,58500000
+2020-04-09,CN_HE,CN,China,HE,Hebei,327.0,6.0,39.3,116.7,74700500
+2020-04-09,CN_HL,CN,China,HL,Heilongjiang,609.0,13.0,48,129,38312224
 2020-04-09,CN_JL,CN,China,JL,Jilin,98.0,1.0,43.7,126.2,27462297
+2020-04-09,CN_SD,CN,China,SD,Shandong,783.0,7.0,36.4,118.4,100472400
+2020-04-09,CN_SH,CN,China,SH,Shanghai,552.0,7.0,31.22861,121.47472,24281400
+2020-04-09,CN_SX,CN,China,SX,Shanxi,166.0,0.0,37.7,112.4,36500000
+2020-04-09,CN_TJ,CN,China,TJ,Tianjin,181.0,3.0,39.133,117.183,15621200
+2020-04-09,CN_TW,CN,China,TW,Taiwan,379.0,5.0,23.7,121.0,23580000
+2020-04-09,CN_ZJ,CN,China,ZJ,Zhejiang,1267.0,1.0,29.2,120.5,57370000
 2020-04-09,ES,ES,Spain,,,146690.0,14555.0,40.463667,-3.749220,46736776
 2020-04-09,IT,IT,Italy,,,139422.0,17669.0,41.871940,12.567380,60550075
+2020-04-09,JP_01,JP,Japan,01,Hokkaido,214.0,,43,142,5281297
+2020-04-09,JP_02,JP,Japan,02,Aomori,13.0,,40.824667,140.740639,1249314
+2020-04-09,JP_04,JP,Japan,04,Miyagi,35.0,,38.350,140.967,2305596
+2020-04-09,JP_06,JP,Japan,06,Yamagata,27.0,,38.433,140.133,1079950
+2020-04-09,JP_12,JP,Japan,12,Chiba,328.0,,35.60500,140.12333,6278060
+2020-04-09,JP_14,JP,Japan,14,Kanagawa,371.0,,35.4475083,139.6423444,9058094
+2020-04-09,JP_16,JP,Japan,16,Toyama,16.0,,36.717,137.150,1044588
+2020-04-09,JP_18,JP,Japan,18,Fukui,77.0,,35.983,136.183,778943
+2020-04-09,JP_22,JP,Japan,22,Shizuoka,32.0,,34.917,138.317,3637998
+2020-04-09,JP_24,JP,Japan,24,Mie,15.0,,34.700,136.500,1781948
+2020-04-09,JP_28,JP,Japan,28,Hyōgo,267.0,,34.6908167,135.1830778,5469762
+2020-04-09,JP_33,JP,Japan,33,Okayama,15.0,,34.700,133.850,1906464
+2020-04-09,JP_38,JP,Japan,38,Ehime,26.0,,33.833,132.833,1342011
+2020-04-09,JP_39,JP,Japan,39,Kōchi,49.0,,33.433,133.433,757914
+2020-04-09,JP_47,JP,Japan,47,Okinawa,42.0,,26.500,128.000,1457162
