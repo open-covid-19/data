@@ -62,7 +62,7 @@ for key in tqdm(df['Key'].unique()):
     # Fill out the corresponding index in the output forecast
     for idx in forecast_data.index:
         df_forecast.loc[(idx, key), 'ForecastDate'] = forecast_date
-        df_forecast.loc[(idx, key), 'Estimated'] = '%.03f' % forecast_data.loc[idx]
+        df_forecast.loc[(idx, key), 'Estimated'] = forecast_data.loc[idx]
         if idx in subset.index:
             df_forecast.loc[(idx, key), 'Confirmed'] = int(subset.loc[idx, 'Confirmed'])
 

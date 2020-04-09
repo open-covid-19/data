@@ -263,7 +263,7 @@ def safe_int_cast(value):
         value = str(value)
         value = re.sub(r',', '', value)
         value = re.sub(r'−', '-', value)
-        return int(value)
+        return round(float(value))
     except:
         return None
 
