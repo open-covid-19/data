@@ -742,3 +742,11 @@ Date,Country,Indicator,Value
 2020-04-09,UK,Tests,243421
 2020-04-09,Wales,ConfirmedCases,4089
 2020-04-09,Wales,Deaths,286
+2020-04-10,Northern Ireland,ConfirmedCases,1589
+2020-04-10,Northern Ireland,Deaths,92
+2020-04-10,Northern Ireland,Tests,11006
+2020-04-10,Scotland,ConfirmedCases,5275
+2020-04-10,Scotland,Deaths,495
+2020-04-10,Scotland,Tests,28652
+2020-04-10,Wales,ConfirmedCases,4591
+2020-04-10,Wales,Deaths,315

@@ -17,7 +17,7 @@ df.columns = df.iloc[0]
 df = df.rename(columns={'Provinsi': 'Date'})
 df = df.iloc[1:].set_index('Date')
 
-df = df[df.columns[5:]]
+df = df[df.columns.dropna()]
 df = pivot_table(df.transpose(), pivot_name='RegionName')
 df['Date'] = df['Date'].apply(parse_date)
 df = df.rename(columns={'Value': 'Confirmed'})
