@@ -245,7 +245,7 @@ from the relevant authorities, like a country's ministry of health.
 | South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) |
 | Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |
 | Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
-| Switzerland | [OpenZH data](http://open.zh.ch) |
+| Switzerland | [OpenZH data](https://open.zh.ch) |
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
 | USA | [COVID Tracking Project](https://covidtracking.com) |
 
@@ -282,7 +282,7 @@ sh input/update_data.sh
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu
 [3]: https://github.com/BlankerL/DXY-COVID-19-Data
-[4]: https://web.archive.org/web/20200314143253/http://www.salute.gov.it/nuovocoronavirus
+[4]: https://web.archive.org/web/20200314143253/https://www.salute.gov.it/nuovocoronavirus
 [5]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports
 [6]: https://github.com/open-covid-19/data/issues/16
 [7]: https://github.com/open-covid-19/data/examples/data_loading.ipynb
@@ -292,6 +292,6 @@ sh input/update_data.sh
 [11]: https://github.com/datadista/datasets/tree/master/COVID%2019
 [12]: https://open-covid-19.github.io/explorer
 [13]: https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/lrb24g5cc1c15ja/COVID-19_Dataset.json
-[14]: http://www.starlords3k.com/covid19.php
+[14]: https://www.starlords3k.com/covid19.php
 [15]: https://kiksu.net/covid-19/
 [16]: https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
