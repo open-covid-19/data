@@ -248,6 +248,25 @@ def pivot_table(data: DataFrame, pivot_name: str = 'Pivot'):
     return DataFrame.from_records(records, columns=['Date', pivot_name, 'Value'])
 
 
+def cumsum(data: DataFrame, keys: List[str] = None):
+    ''' Performs the cumsum operation per group '''
+
+    # Make sure data is indexed
+    if keys is not None:
+        data = data.set_index(keys)
+
+    # Make sure data is sorted
+    data = data.sort_index()
+
+    # Perform the cumsum per group
+    data = data.groupby(level=0).cumsum()
+
+    # If there are multiple entries for a key, add them up
+    data = data.loc[~data.index.duplicated(keep='last')]
+
+    return data
+
+
 def safe_int_cast(value):
     if value is None:
         return None
