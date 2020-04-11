@@ -348,7 +348,7 @@ ID,ID,Indonesia,,,,-0.789275,113.921327,270625568
 ID_AC,ID,Indonesia,AC,Aceh,,5.550,95.317,5316320
 ID_BA,ID,Indonesia,BA,Bali,,-8.33500,115.08806,4362000
 ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,Kepulauan Bangka Belitung,-2.133,106.117,1430900
-ID_BE,ID,Indonesia,BE,Bengkulu,,,,1971800
+ID_BE,ID,Indonesia,BE,Bengkulu,,-3.795556,102.259167,1971800
 ID_BT,ID,Indonesia,BT,Banten,,-6.500,106.250,12959169
 ID_GO,ID,Indonesia,GO,Gorontalo,,0.667,123.000,1133237
 ID_JA,ID,Indonesia,JA,Jambi,,-1.583,103.617,3515000
@@ -795,7 +795,7 @@ SE_C,SE,Sweden,C,Uppsala,,59.85833,17.65000,367483
 SE_D,SE,Sweden,D,Södermanland,,58.771048,16.869507,290711
 SE_E,SE,Sweden,E,Östergötland,,58.528125,15.238037,456550
 SE_F,SE,Sweden,F,Jönköping,,57.75,14.2,356291
-SE_G,SE,Sweden,G,Kronoberg,,,,197040
+SE_G,SE,Sweden,G,Kronoberg,,56.876944,14.809167,197040
 SE_H,SE,Sweden,H,Kalmar,,56.73333,15.90000,243219
 SE_I,SE,Sweden,I,Gotland,,57.49917,18.50944,58464
 SE_K,SE,Sweden,K,Blekinge,,56.24333,14.38111,159367
