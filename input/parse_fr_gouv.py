@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 from pandas import DataFrame
 from covid_io import read_file
-from utils import cumsum, dataframe_output
+from utils import cumsum_table, dataframe_output
 
 
 # Read the ISO mappings for department -> region
@@ -28,7 +28,7 @@ data['Confirmed'] = data['Critical'].apply(lambda x: x / .075)
 
 # Data is new cases, perform the cumsum to get total
 keys = ['RegionName', 'Date']
-data = cumsum(data.dropna(subset=keys), keys)
+data = cumsum_table(data.dropna(subset=keys), keys)
 
 # Output the results
 dataframe_output(data.reset_index(), 'FR')

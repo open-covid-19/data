@@ -755,11 +755,16 @@ Date,Country,Indicator,Value
 2020-04-10,UK,Tests,256605
 2020-04-10,Wales,ConfirmedCases,4591
 2020-04-10,Wales,Deaths,315
+2020-04-11,England,ConfirmedCases,62658
+2020-04-11,England,Deaths,8937
 2020-04-11,Northern Ireland,ConfirmedCases,1717
 2020-04-11,Northern Ireland,Deaths,107
 2020-04-11,Northern Ireland,Tests,11765
 2020-04-11,Scotland,ConfirmedCases,5590
 2020-04-11,Scotland,Deaths,542
 2020-04-11,Scotland,Tests,29903
+2020-04-11,UK,ConfirmedCases,78991
+2020-04-11,UK,Deaths,9875
+2020-04-11,UK,Tests,269598
 2020-04-11,Wales,ConfirmedCases,4930
 2020-04-11,Wales,Deaths,351

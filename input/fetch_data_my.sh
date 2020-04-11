@@ -8,7 +8,6 @@ SNAPSHOT=$(python "$BASE_DIR"/download_snapshot.py "$URL" --extension html $@)
 python "$BASE_DIR"/parse_wikipedia_country.py "$SNAPSHOT" \
     --country-code MY \
     --date-format '%d/%m' \
-    --table-index 1 \
     --skiprows 0 \
     --skipcols 1 \
     --cumsum

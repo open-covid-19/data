@@ -49,6 +49,11 @@ def _default_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
     return cell.get_text().strip()
 
 
+def count_html_tables(html: str, selector: str = 'table'):
+    page = BeautifulSoup(html, 'lxml')
+    return len(page.select(selector))
+    
+
 def wiki_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
     return re.sub(r'\[.+\]', '', cell.get_text().strip())
 
@@ -64,8 +69,8 @@ def read_html(
     parser = parser if parser is not None else _default_html_cell_parser
 
     # Fetch table and read its rows
-    article = BeautifulSoup(html, 'lxml')
-    table = article.select(selector)[table_index]
+    page = BeautifulSoup(html, 'lxml')
+    table = page.select(selector)[table_index]
     rows = [_get_html_columns(row) for row in table.find_all('tr')]
 
     # Adjust for rowspan > 1

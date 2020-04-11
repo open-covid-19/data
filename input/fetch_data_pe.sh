@@ -9,5 +9,4 @@ python "$BASE_DIR"/parse_wikipedia_country.py "$SNAPSHOT" \
     --locale 'es_ES' \
     --country-code 'PE' \
     --date-format '%d de %B' \
-    --table-index 1 \
     --skiprows 1
