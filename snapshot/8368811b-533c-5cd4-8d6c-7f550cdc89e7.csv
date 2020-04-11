@@ -13017,7 +13017,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-16,SE_D,SE,Sweden,D,Södermanland,17.0,0.0,58.771048,16.869507,290711
 2020-03-16,SE_E,SE,Sweden,E,Östergötland,26.0,0.0,58.528125,15.238037,456550
 2020-03-16,SE_F,SE,Sweden,F,Jönköping,42.0,0.0,57.75,14.2,356291
-2020-03-16,SE_G,SE,Sweden,G,Kronoberg,15.0,0.0,,,197040
+2020-03-16,SE_G,SE,Sweden,G,Kronoberg,15.0,0.0,56.876944,14.809167,197040
 2020-03-16,SE_H,SE,Sweden,H,Kalmar,7.0,0.0,56.73333,15.90000,243219
 2020-03-16,SE_I,SE,Sweden,I,Gotland,2.0,0.0,57.49917,18.50944,58464
 2020-03-16,SE_K,SE,Sweden,K,Blekinge,9.0,0.0,56.24333,14.38111,159367
@@ -13536,7 +13536,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-17,SE_D,SE,Sweden,D,Södermanland,33.0,0.0,58.771048,16.869507,290711
 2020-03-17,SE_E,SE,Sweden,E,Östergötland,39.0,0.0,58.528125,15.238037,456550
 2020-03-17,SE_F,SE,Sweden,F,Jönköping,43.0,0.0,57.75,14.2,356291
-2020-03-17,SE_G,SE,Sweden,G,Kronoberg,15.0,0.0,,,197040
+2020-03-17,SE_G,SE,Sweden,G,Kronoberg,15.0,0.0,56.876944,14.809167,197040
 2020-03-17,SE_H,SE,Sweden,H,Kalmar,7.0,0.0,56.73333,15.90000,243219
 2020-03-17,SE_I,SE,Sweden,I,Gotland,2.0,0.0,57.49917,18.50944,58464
 2020-03-17,SE_K,SE,Sweden,K,Blekinge,11.0,0.0,56.24333,14.38111,159367
@@ -14065,7 +14065,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-18,SE_D,SE,Sweden,D,Södermanland,37.0,0.0,58.771048,16.869507,290711
 2020-03-18,SE_E,SE,Sweden,E,Östergötland,52.0,0.0,58.528125,15.238037,456550
 2020-03-18,SE_F,SE,Sweden,F,Jönköping,44.0,0.0,57.75,14.2,356291
-2020-03-18,SE_G,SE,Sweden,G,Kronoberg,16.0,0.0,,,197040
+2020-03-18,SE_G,SE,Sweden,G,Kronoberg,16.0,0.0,56.876944,14.809167,197040
 2020-03-18,SE_H,SE,Sweden,H,Kalmar,7.0,0.0,56.73333,15.90000,243219
 2020-03-18,SE_I,SE,Sweden,I,Gotland,3.0,0.0,57.49917,18.50944,58464
 2020-03-18,SE_K,SE,Sweden,K,Blekinge,11.0,0.0,56.24333,14.38111,159367
@@ -14628,7 +14628,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-19,SE_D,SE,Sweden,D,Södermanland,38.0,0.0,58.771048,16.869507,290711
 2020-03-19,SE_E,SE,Sweden,E,Östergötland,88.0,0.0,58.528125,15.238037,456550
 2020-03-19,SE_F,SE,Sweden,F,Jönköping,46.0,0.0,57.75,14.2,356291
-2020-03-19,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,,,197040
+2020-03-19,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,56.876944,14.809167,197040
 2020-03-19,SE_H,SE,Sweden,H,Kalmar,7.0,0.0,56.73333,15.90000,243219
 2020-03-19,SE_I,SE,Sweden,I,Gotland,3.0,0.0,57.49917,18.50944,58464
 2020-03-19,SE_K,SE,Sweden,K,Blekinge,11.0,0.0,56.24333,14.38111,159367
@@ -14985,7 +14985,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-20,ID_AC,ID,Indonesia,AC,Aceh,0.0,,5.550,95.317,5316320
 2020-03-20,ID_BA,ID,Indonesia,BA,Bali,3.0,,-8.33500,115.08806,4362000
 2020-03-20,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-20,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-20,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-20,ID_BT,ID,Indonesia,BT,Banten,39.0,,-6.500,106.250,12959169
 2020-03-20,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-20,ID_JA,ID,Indonesia,JA,Jambi,0.0,,-1.583,103.617,3515000
@@ -15240,7 +15240,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-20,SE_D,SE,Sweden,D,Södermanland,43.0,0.0,58.771048,16.869507,290711
 2020-03-20,SE_E,SE,Sweden,E,Östergötland,116.0,0.0,58.528125,15.238037,456550
 2020-03-20,SE_F,SE,Sweden,F,Jönköping,48.0,0.0,57.75,14.2,356291
-2020-03-20,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,,,197040
+2020-03-20,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,56.876944,14.809167,197040
 2020-03-20,SE_H,SE,Sweden,H,Kalmar,9.0,0.0,56.73333,15.90000,243219
 2020-03-20,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-20,SE_K,SE,Sweden,K,Blekinge,12.0,0.0,56.24333,14.38111,159367
@@ -15591,7 +15591,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-21,ID_AC,ID,Indonesia,AC,Aceh,0.0,,5.550,95.317,5316320
 2020-03-21,ID_BA,ID,Indonesia,BA,Bali,3.0,,-8.33500,115.08806,4362000
 2020-03-21,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-21,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-21,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-21,ID_BT,ID,Indonesia,BT,Banten,47.0,,-6.500,106.250,12959169
 2020-03-21,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-21,ID_JA,ID,Indonesia,JA,Jambi,0.0,,-1.583,103.617,3515000
@@ -15856,7 +15856,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-21,SE_D,SE,Sweden,D,Södermanland,47.0,0.0,58.771048,16.869507,290711
 2020-03-21,SE_E,SE,Sweden,E,Östergötland,126.0,0.0,58.528125,15.238037,456550
 2020-03-21,SE_F,SE,Sweden,F,Jönköping,51.0,0.0,57.75,14.2,356291
-2020-03-21,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,,,197040
+2020-03-21,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,56.876944,14.809167,197040
 2020-03-21,SE_H,SE,Sweden,H,Kalmar,10.0,0.0,56.73333,15.90000,243219
 2020-03-21,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-21,SE_K,SE,Sweden,K,Blekinge,12.0,0.0,56.24333,14.38111,159367
@@ -16219,7 +16219,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-22,ID_AC,ID,Indonesia,AC,Aceh,0.0,,5.550,95.317,5316320
 2020-03-22,ID_BA,ID,Indonesia,BA,Bali,3.0,,-8.33500,115.08806,4362000
 2020-03-22,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-22,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-22,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-22,ID_BT,ID,Indonesia,BT,Banten,47.0,,-6.500,106.250,12959169
 2020-03-22,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-22,ID_JA,ID,Indonesia,JA,Jambi,0.0,,-1.583,103.617,3515000
@@ -16478,7 +16478,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-22,SE_D,SE,Sweden,D,Södermanland,53.0,0.0,58.771048,16.869507,290711
 2020-03-22,SE_E,SE,Sweden,E,Östergötland,137.0,0.0,58.528125,15.238037,456550
 2020-03-22,SE_F,SE,Sweden,F,Jönköping,55.0,0.0,57.75,14.2,356291
-2020-03-22,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,,,197040
+2020-03-22,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,56.876944,14.809167,197040
 2020-03-22,SE_H,SE,Sweden,H,Kalmar,11.0,0.0,56.73333,15.90000,243219
 2020-03-22,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-22,SE_K,SE,Sweden,K,Blekinge,12.0,0.0,56.24333,14.38111,159367
@@ -16851,7 +16851,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-23,ID_AC,ID,Indonesia,AC,Aceh,0.0,,5.550,95.317,5316320
 2020-03-23,ID_BA,ID,Indonesia,BA,Bali,6.0,,-8.33500,115.08806,4362000
 2020-03-23,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-23,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-23,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-23,ID_BT,ID,Indonesia,BT,Banten,56.0,,-6.500,106.250,12959169
 2020-03-23,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-23,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -17106,7 +17106,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-23,SE_D,SE,Sweden,D,Södermanland,64.0,0.0,58.771048,16.869507,290711
 2020-03-23,SE_E,SE,Sweden,E,Östergötland,151.0,0.0,58.528125,15.238037,456550
 2020-03-23,SE_F,SE,Sweden,F,Jönköping,56.0,0.0,57.75,14.2,356291
-2020-03-23,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,,,197040
+2020-03-23,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,56.876944,14.809167,197040
 2020-03-23,SE_H,SE,Sweden,H,Kalmar,12.0,0.0,56.73333,15.90000,243219
 2020-03-23,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-23,SE_K,SE,Sweden,K,Blekinge,12.0,0.0,56.24333,14.38111,159367
@@ -17489,7 +17489,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-24,ID_AC,ID,Indonesia,AC,Aceh,0.0,,5.550,95.317,5316320
 2020-03-24,ID_BA,ID,Indonesia,BA,Bali,6.0,,-8.33500,115.08806,4362000
 2020-03-24,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-24,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-24,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-24,ID_BT,ID,Indonesia,BT,Banten,65.0,,-6.500,106.250,12959169
 2020-03-24,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-24,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -17773,7 +17773,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-24,SE_D,SE,Sweden,D,Södermanland,66.0,0.0,58.771048,16.869507,290711
 2020-03-24,SE_E,SE,Sweden,E,Östergötland,181.0,0.0,58.528125,15.238037,456550
 2020-03-24,SE_F,SE,Sweden,F,Jönköping,59.0,0.0,57.75,14.2,356291
-2020-03-24,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,,,197040
+2020-03-24,SE_G,SE,Sweden,G,Kronoberg,18.0,0.0,56.876944,14.809167,197040
 2020-03-24,SE_H,SE,Sweden,H,Kalmar,15.0,0.0,56.73333,15.90000,243219
 2020-03-24,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-24,SE_K,SE,Sweden,K,Blekinge,12.0,0.0,56.24333,14.38111,159367
@@ -18154,7 +18154,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-25,ID_AC,ID,Indonesia,AC,Aceh,0.0,,5.550,95.317,5316320
 2020-03-25,ID_BA,ID,Indonesia,BA,Bali,9.0,,-8.33500,115.08806,4362000
 2020-03-25,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-25,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-25,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-25,ID_BT,ID,Indonesia,BT,Banten,67.0,,-6.500,106.250,12959169
 2020-03-25,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-25,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -18438,7 +18438,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-25,SE_D,SE,Sweden,D,Södermanland,85.0,0.0,58.771048,16.869507,290711
 2020-03-25,SE_E,SE,Sweden,E,Östergötland,203.0,0.0,58.528125,15.238037,456550
 2020-03-25,SE_F,SE,Sweden,F,Jönköping,65.0,0.0,57.75,14.2,356291
-2020-03-25,SE_G,SE,Sweden,G,Kronoberg,19.0,0.0,,,197040
+2020-03-25,SE_G,SE,Sweden,G,Kronoberg,19.0,0.0,56.876944,14.809167,197040
 2020-03-25,SE_H,SE,Sweden,H,Kalmar,17.0,0.0,56.73333,15.90000,243219
 2020-03-25,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-25,SE_K,SE,Sweden,K,Blekinge,12.0,0.0,56.24333,14.38111,159367
@@ -18832,7 +18832,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-26,ID_AC,ID,Indonesia,AC,Aceh,1.0,,5.550,95.317,5316320
 2020-03-26,ID_BA,ID,Indonesia,BA,Bali,9.0,,-8.33500,115.08806,4362000
 2020-03-26,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-26,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-26,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-26,ID_BT,ID,Indonesia,BT,Banten,67.0,,-6.500,106.250,12959169
 2020-03-26,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-26,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -19123,7 +19123,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-26,SE_D,SE,Sweden,D,Södermanland,114.0,0.0,58.771048,16.869507,290711
 2020-03-26,SE_E,SE,Sweden,E,Östergötland,221.0,0.0,58.528125,15.238037,456550
 2020-03-26,SE_F,SE,Sweden,F,Jönköping,70.0,0.0,57.75,14.2,356291
-2020-03-26,SE_G,SE,Sweden,G,Kronoberg,20.0,0.0,,,197040
+2020-03-26,SE_G,SE,Sweden,G,Kronoberg,20.0,0.0,56.876944,14.809167,197040
 2020-03-26,SE_H,SE,Sweden,H,Kalmar,19.0,0.0,56.73333,15.90000,243219
 2020-03-26,SE_I,SE,Sweden,I,Gotland,5.0,0.0,57.49917,18.50944,58464
 2020-03-26,SE_K,SE,Sweden,K,Blekinge,15.0,0.0,56.24333,14.38111,159367
@@ -19510,7 +19510,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-27,ID_AC,ID,Indonesia,AC,Aceh,4.0,,5.550,95.317,5316320
 2020-03-27,ID_BA,ID,Indonesia,BA,Bali,9.0,,-8.33500,115.08806,4362000
 2020-03-27,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-27,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-27,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-27,ID_BT,ID,Indonesia,BT,Banten,93.0,,-6.500,106.250,12959169
 2020-03-27,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-27,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -19797,7 +19797,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-27,SE_C,SE,Sweden,C,Uppsala,129.0,3.0,59.85833,17.65000,367483
 2020-03-27,SE_E,SE,Sweden,E,Östergötland,244.0,4.0,58.528125,15.238037,456550
 2020-03-27,SE_F,SE,Sweden,F,Jönköping,79.0,2.0,57.75,14.2,356291
-2020-03-27,SE_G,SE,Sweden,G,Kronoberg,22.0,0.0,,,197040
+2020-03-27,SE_G,SE,Sweden,G,Kronoberg,22.0,0.0,56.876944,14.809167,197040
 2020-03-27,SE_H,SE,Sweden,H,Kalmar,25.0,1.0,56.73333,15.90000,243219
 2020-03-27,SE_I,SE,Sweden,I,Gotland,9.0,0.0,57.49917,18.50944,58464
 2020-03-27,SE_K,SE,Sweden,K,Blekinge,15.0,0.0,56.24333,14.38111,159367
@@ -20183,7 +20183,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-28,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-03-28,ID_BA,ID,Indonesia,BA,Bali,9.0,,-8.33500,115.08806,4362000
 2020-03-28,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-28,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-28,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-28,ID_BT,ID,Indonesia,BT,Banten,103.0,,-6.500,106.250,12959169
 2020-03-28,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-28,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -20482,7 +20482,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-28,SE_C,SE,Sweden,C,Uppsala,149.0,3.0,59.85833,17.65000,367483
 2020-03-28,SE_E,SE,Sweden,E,Östergötland,272.0,4.0,58.528125,15.238037,456550
 2020-03-28,SE_F,SE,Sweden,F,Jönköping,94.0,3.0,57.75,14.2,356291
-2020-03-28,SE_G,SE,Sweden,G,Kronoberg,23.0,0.0,,,197040
+2020-03-28,SE_G,SE,Sweden,G,Kronoberg,23.0,0.0,56.876944,14.809167,197040
 2020-03-28,SE_H,SE,Sweden,H,Kalmar,28.0,1.0,56.73333,15.90000,243219
 2020-03-28,SE_I,SE,Sweden,I,Gotland,11.0,0.0,57.49917,18.50944,58464
 2020-03-28,SE_K,SE,Sweden,K,Blekinge,15.0,0.0,56.24333,14.38111,159367
@@ -20872,7 +20872,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-29,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-03-29,ID_BA,ID,Indonesia,BA,Bali,10.0,,-8.33500,115.08806,4362000
 2020-03-29,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,0.0,,-2.133,106.117,1430900
-2020-03-29,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-29,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-29,ID_BT,ID,Indonesia,BT,Banten,106.0,,-6.500,106.250,12959169
 2020-03-29,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-29,ID_JA,ID,Indonesia,JA,Jambi,1.0,,-1.583,103.617,3515000
@@ -21172,7 +21172,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-29,SE_C,SE,Sweden,C,Uppsala,156.0,3.0,59.85833,17.65000,367483
 2020-03-29,SE_E,SE,Sweden,E,Östergötland,311.0,4.0,58.528125,15.238037,456550
 2020-03-29,SE_F,SE,Sweden,F,Jönköping,103.0,6.0,57.75,14.2,356291
-2020-03-29,SE_G,SE,Sweden,G,Kronoberg,27.0,0.0,,,197040
+2020-03-29,SE_G,SE,Sweden,G,Kronoberg,27.0,0.0,56.876944,14.809167,197040
 2020-03-29,SE_H,SE,Sweden,H,Kalmar,30.0,1.0,56.73333,15.90000,243219
 2020-03-29,SE_I,SE,Sweden,I,Gotland,11.0,0.0,57.49917,18.50944,58464
 2020-03-29,SE_K,SE,Sweden,K,Blekinge,17.0,0.0,56.24333,14.38111,159367
@@ -21563,7 +21563,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-30,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-03-30,ID_BA,ID,Indonesia,BA,Bali,19.0,,-8.33500,115.08806,4362000
 2020-03-30,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,1.0,,-2.133,106.117,1430900
-2020-03-30,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,,,1971800
+2020-03-30,ID_BE,ID,Indonesia,BE,Bengkulu,0.0,,-3.795556,102.259167,1971800
 2020-03-30,ID_BT,ID,Indonesia,BT,Banten,128.0,,-6.500,106.250,12959169
 2020-03-30,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-30,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -21878,7 +21878,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-30,SE_C,SE,Sweden,C,Uppsala,160.0,3.0,59.85833,17.65000,367483
 2020-03-30,SE_E,SE,Sweden,E,Östergötland,353.0,5.0,58.528125,15.238037,456550
 2020-03-30,SE_F,SE,Sweden,F,Jönköping,109.0,8.0,57.75,14.2,356291
-2020-03-30,SE_G,SE,Sweden,G,Kronoberg,30.0,0.0,,,197040
+2020-03-30,SE_G,SE,Sweden,G,Kronoberg,30.0,0.0,56.876944,14.809167,197040
 2020-03-30,SE_H,SE,Sweden,H,Kalmar,31.0,1.0,56.73333,15.90000,243219
 2020-03-30,SE_I,SE,Sweden,I,Gotland,11.0,0.0,57.49917,18.50944,58464
 2020-03-30,SE_K,SE,Sweden,K,Blekinge,20.0,0.0,56.24333,14.38111,159367
@@ -22248,7 +22248,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-31,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-03-31,ID_BA,ID,Indonesia,BA,Bali,19.0,,-8.33500,115.08806,4362000
 2020-03-31,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-03-31,ID_BE,ID,Indonesia,BE,Bengkulu,1.0,,,,1971800
+2020-03-31,ID_BE,ID,Indonesia,BE,Bengkulu,1.0,,-3.795556,102.259167,1971800
 2020-03-31,ID_BT,ID,Indonesia,BT,Banten,141.0,,-6.500,106.250,12959169
 2020-03-31,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-03-31,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -22560,7 +22560,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-03-31,SE_C,SE,Sweden,C,Uppsala,183.0,6.0,59.85833,17.65000,367483
 2020-03-31,SE_E,SE,Sweden,E,Östergötland,376.0,6.0,58.528125,15.238037,456550
 2020-03-31,SE_F,SE,Sweden,F,Jönköping,126.0,9.0,57.75,14.2,356291
-2020-03-31,SE_G,SE,Sweden,G,Kronoberg,34.0,0.0,,,197040
+2020-03-31,SE_G,SE,Sweden,G,Kronoberg,34.0,0.0,56.876944,14.809167,197040
 2020-03-31,SE_H,SE,Sweden,H,Kalmar,34.0,1.0,56.73333,15.90000,243219
 2020-03-31,SE_I,SE,Sweden,I,Gotland,11.0,0.0,57.49917,18.50944,58464
 2020-03-31,SE_K,SE,Sweden,K,Blekinge,21.0,0.0,56.24333,14.38111,159367
@@ -22950,7 +22950,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-01,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-01,ID_BA,ID,Indonesia,BA,Bali,25.0,,-8.33500,115.08806,4362000
 2020-04-01,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-01,ID_BE,ID,Indonesia,BE,Bengkulu,1.0,,,,1971800
+2020-04-01,ID_BE,ID,Indonesia,BE,Bengkulu,1.0,,-3.795556,102.259167,1971800
 2020-04-01,ID_BT,ID,Indonesia,BT,Banten,156.0,,-6.500,106.250,12959169
 2020-04-01,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-01,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -23281,7 +23281,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-01,SE_C,SE,Sweden,C,Uppsala,194.0,7.0,59.85833,17.65000,367483
 2020-04-01,SE_E,SE,Sweden,E,Östergötland,449.0,8.0,58.528125,15.238037,456550
 2020-04-01,SE_F,SE,Sweden,F,Jönköping,142.0,10.0,57.75,14.2,356291
-2020-04-01,SE_G,SE,Sweden,G,Kronoberg,39.0,0.0,,,197040
+2020-04-01,SE_G,SE,Sweden,G,Kronoberg,39.0,0.0,56.876944,14.809167,197040
 2020-04-01,SE_H,SE,Sweden,H,Kalmar,38.0,1.0,56.73333,15.90000,243219
 2020-04-01,SE_I,SE,Sweden,I,Gotland,11.0,0.0,57.49917,18.50944,58464
 2020-04-01,SE_K,SE,Sweden,K,Blekinge,22.0,1.0,56.24333,14.38111,159367
@@ -23681,7 +23681,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-02,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-02,ID_BA,ID,Indonesia,BA,Bali,25.0,,-8.33500,115.08806,4362000
 2020-04-02,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-02,ID_BE,ID,Indonesia,BE,Bengkulu,1.0,,,,1971800
+2020-04-02,ID_BE,ID,Indonesia,BE,Bengkulu,1.0,,-3.795556,102.259167,1971800
 2020-04-02,ID_BT,ID,Indonesia,BT,Banten,164.0,,-6.500,106.250,12959169
 2020-04-02,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-02,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -23997,7 +23997,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-02,SE_C,SE,Sweden,C,Uppsala,222.0,7.0,59.85833,17.65000,367483
 2020-04-02,SE_E,SE,Sweden,E,Östergötland,514.0,8.0,58.528125,15.238037,456550
 2020-04-02,SE_F,SE,Sweden,F,Jönköping,155.0,11.0,57.75,14.2,356291
-2020-04-02,SE_G,SE,Sweden,G,Kronoberg,40.0,0.0,,,197040
+2020-04-02,SE_G,SE,Sweden,G,Kronoberg,40.0,0.0,56.876944,14.809167,197040
 2020-04-02,SE_H,SE,Sweden,H,Kalmar,42.0,1.0,56.73333,15.90000,243219
 2020-04-02,SE_I,SE,Sweden,I,Gotland,12.0,0.0,57.49917,18.50944,58464
 2020-04-02,SE_K,SE,Sweden,K,Blekinge,27.0,1.0,56.24333,14.38111,159367
@@ -24395,7 +24395,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-03,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-03,ID_BA,ID,Indonesia,BA,Bali,27.0,,-8.33500,115.08806,4362000
 2020-04-03,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-03,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,,,1971800
+2020-04-03,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,-3.795556,102.259167,1971800
 2020-04-03,ID_BT,ID,Indonesia,BT,Banten,170.0,,-6.500,106.250,12959169
 2020-04-03,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-03,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -24729,7 +24729,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-03,SE_C,SE,Sweden,C,Uppsala,247.0,9.0,59.85833,17.65000,367483
 2020-04-03,SE_E,SE,Sweden,E,Östergötland,578.0,10.0,58.528125,15.238037,456550
 2020-04-03,SE_F,SE,Sweden,F,Jönköping,187.0,13.0,57.75,14.2,356291
-2020-04-03,SE_G,SE,Sweden,G,Kronoberg,45.0,0.0,,,197040
+2020-04-03,SE_G,SE,Sweden,G,Kronoberg,45.0,0.0,56.876944,14.809167,197040
 2020-04-03,SE_H,SE,Sweden,H,Kalmar,46.0,1.0,56.73333,15.90000,243219
 2020-04-03,SE_I,SE,Sweden,I,Gotland,12.0,0.0,57.49917,18.50944,58464
 2020-04-03,SE_K,SE,Sweden,K,Blekinge,27.0,1.0,56.24333,14.38111,159367
@@ -25119,7 +25119,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-04,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-04,ID_BA,ID,Indonesia,BA,Bali,32.0,,-8.33500,115.08806,4362000
 2020-04-04,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-04,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,,,1971800
+2020-04-04,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,-3.795556,102.259167,1971800
 2020-04-04,ID_BT,ID,Indonesia,BT,Banten,173.0,,-6.500,106.250,12959169
 2020-04-04,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-04,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -25447,7 +25447,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-04,SE_C,SE,Sweden,C,Uppsala,274.0,9.0,59.85833,17.65000,367483
 2020-04-04,SE_E,SE,Sweden,E,Östergötland,584.0,12.0,58.528125,15.238037,456550
 2020-04-04,SE_F,SE,Sweden,F,Jönköping,199.0,13.0,57.75,14.2,356291
-2020-04-04,SE_G,SE,Sweden,G,Kronoberg,49.0,0.0,,,197040
+2020-04-04,SE_G,SE,Sweden,G,Kronoberg,49.0,0.0,56.876944,14.809167,197040
 2020-04-04,SE_H,SE,Sweden,H,Kalmar,47.0,1.0,56.73333,15.90000,243219
 2020-04-04,SE_I,SE,Sweden,I,Gotland,12.0,0.0,57.49917,18.50944,58464
 2020-04-04,SE_K,SE,Sweden,K,Blekinge,30.0,1.0,56.24333,14.38111,159367
@@ -25841,7 +25841,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-05,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-05,ID_BA,ID,Indonesia,BA,Bali,36.0,,-8.33500,115.08806,4362000
 2020-04-05,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-05,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,,,1971800
+2020-04-05,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,-3.795556,102.259167,1971800
 2020-04-05,ID_BT,ID,Indonesia,BT,Banten,177.0,,-6.500,106.250,12959169
 2020-04-05,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-05,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -26138,7 +26138,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-05,SE_C,SE,Sweden,C,Uppsala,293.0,9.0,59.85833,17.65000,367483
 2020-04-05,SE_E,SE,Sweden,E,Östergötland,644.0,12.0,58.528125,15.238037,456550
 2020-04-05,SE_F,SE,Sweden,F,Jönköping,223.0,13.0,57.75,14.2,356291
-2020-04-05,SE_G,SE,Sweden,G,Kronoberg,49.0,0.0,,,197040
+2020-04-05,SE_G,SE,Sweden,G,Kronoberg,49.0,0.0,56.876944,14.809167,197040
 2020-04-05,SE_H,SE,Sweden,H,Kalmar,49.0,1.0,56.73333,15.90000,243219
 2020-04-05,SE_I,SE,Sweden,I,Gotland,12.0,0.0,57.49917,18.50944,58464
 2020-04-05,SE_K,SE,Sweden,K,Blekinge,31.0,1.0,56.24333,14.38111,159367
@@ -26535,7 +26535,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-06,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-06,ID_BA,ID,Indonesia,BA,Bali,43.0,,-8.33500,115.08806,4362000
 2020-04-06,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-06,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,,,1971800
+2020-04-06,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,-3.795556,102.259167,1971800
 2020-04-06,ID_BT,ID,Indonesia,BT,Banten,187.0,,-6.500,106.250,12959169
 2020-04-06,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-06,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -26870,7 +26870,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-06,SE_C,SE,Sweden,C,Uppsala,308.0,9.0,59.85833,17.65000,367483
 2020-04-06,SE_E,SE,Sweden,E,Östergötland,695.0,17.0,58.528125,15.238037,456550
 2020-04-06,SE_F,SE,Sweden,F,Jönköping,233.0,13.0,57.75,14.2,356291
-2020-04-06,SE_G,SE,Sweden,G,Kronoberg,53.0,0.0,,,197040
+2020-04-06,SE_G,SE,Sweden,G,Kronoberg,53.0,0.0,56.876944,14.809167,197040
 2020-04-06,SE_H,SE,Sweden,H,Kalmar,52.0,1.0,56.73333,15.90000,243219
 2020-04-06,SE_I,SE,Sweden,I,Gotland,12.0,0.0,57.49917,18.50944,58464
 2020-04-06,SE_K,SE,Sweden,K,Blekinge,36.0,1.0,56.24333,14.38111,159367
@@ -27268,7 +27268,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-07,ID_BA,ID,Indonesia,BA,Bali,43.0,,-8.33500,115.08806,4362000
 2020-04-07,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-07,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,,,1971800
+2020-04-07,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,-3.795556,102.259167,1971800
 2020-04-07,ID_BT,ID,Indonesia,BT,Banten,194.0,,-6.500,106.250,12959169
 2020-04-07,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-07,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -27604,7 +27604,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-07,SE_C,SE,Sweden,C,Uppsala,332.0,10.0,59.85833,17.65000,367483
 2020-04-07,SE_E,SE,Sweden,E,Östergötland,733.0,17.0,58.528125,15.238037,456550
 2020-04-07,SE_F,SE,Sweden,F,Jönköping,254.0,15.0,57.75,14.2,356291
-2020-04-07,SE_G,SE,Sweden,G,Kronoberg,54.0,1.0,,,197040
+2020-04-07,SE_G,SE,Sweden,G,Kronoberg,54.0,1.0,56.876944,14.809167,197040
 2020-04-07,SE_H,SE,Sweden,H,Kalmar,57.0,3.0,56.73333,15.90000,243219
 2020-04-07,SE_I,SE,Sweden,I,Gotland,13.0,0.0,57.49917,18.50944,58464
 2020-04-07,SE_K,SE,Sweden,K,Blekinge,37.0,1.0,56.24333,14.38111,159367
@@ -28002,7 +28002,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,ID_AC,ID,Indonesia,AC,Aceh,6.0,,5.550,95.317,5316320
 2020-04-08,ID_BA,ID,Indonesia,BA,Bali,49.0,,-8.33500,115.08806,4362000
 2020-04-08,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,2.0,,-2.133,106.117,1430900
-2020-04-08,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,,,1971800
+2020-04-08,ID_BE,ID,Indonesia,BE,Bengkulu,2.0,,-3.795556,102.259167,1971800
 2020-04-08,ID_BT,ID,Indonesia,BT,Banten,212.0,,-6.500,106.250,12959169
 2020-04-08,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-08,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -28345,7 +28345,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-08,SE_C,SE,Sweden,C,Uppsala,378.0,10.0,59.85833,17.65000,367483
 2020-04-08,SE_E,SE,Sweden,E,Östergötland,811.0,27.0,58.528125,15.238037,456550
 2020-04-08,SE_F,SE,Sweden,F,Jönköping,270.0,20.0,57.75,14.2,356291
-2020-04-08,SE_G,SE,Sweden,G,Kronoberg,61.0,1.0,,,197040
+2020-04-08,SE_G,SE,Sweden,G,Kronoberg,61.0,1.0,56.876944,14.809167,197040
 2020-04-08,SE_H,SE,Sweden,H,Kalmar,61.0,4.0,56.73333,15.90000,243219
 2020-04-08,SE_I,SE,Sweden,I,Gotland,14.0,0.0,57.49917,18.50944,58464
 2020-04-08,SE_K,SE,Sweden,K,Blekinge,37.0,1.0,56.24333,14.38111,159367
@@ -28726,7 +28726,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-09,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-09,ID_BA,ID,Indonesia,BA,Bali,63.0,,-8.33500,115.08806,4362000
 2020-04-09,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,3.0,,-2.133,106.117,1430900
-2020-04-09,ID_BE,ID,Indonesia,BE,Bengkulu,4.0,,,,1971800
+2020-04-09,ID_BE,ID,Indonesia,BE,Bengkulu,4.0,,-3.795556,102.259167,1971800
 2020-04-09,ID_BT,ID,Indonesia,BT,Banten,218.0,,-6.500,106.250,12959169
 2020-04-09,ID_GO,ID,Indonesia,GO,Gorontalo,0.0,,0.667,123.000,1133237
 2020-04-09,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -29069,7 +29069,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-09,SE_C,SE,Sweden,C,Uppsala,412.0,14.0,59.85833,17.65000,367483
 2020-04-09,SE_E,SE,Sweden,E,Östergötland,874.0,27.0,58.528125,15.238037,456550
 2020-04-09,SE_F,SE,Sweden,F,Jönköping,295.0,23.0,57.75,14.2,356291
-2020-04-09,SE_G,SE,Sweden,G,Kronoberg,77.0,1.0,,,197040
+2020-04-09,SE_G,SE,Sweden,G,Kronoberg,77.0,1.0,56.876944,14.809167,197040
 2020-04-09,SE_H,SE,Sweden,H,Kalmar,63.0,4.0,56.73333,15.90000,243219
 2020-04-09,SE_I,SE,Sweden,I,Gotland,14.0,0.0,57.49917,18.50944,58464
 2020-04-09,SE_K,SE,Sweden,K,Blekinge,39.0,1.0,56.24333,14.38111,159367
@@ -29457,7 +29457,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-10,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-10,ID_BA,ID,Indonesia,BA,Bali,75.0,,-8.33500,115.08806,4362000
 2020-04-10,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,3.0,,-2.133,106.117,1430900
-2020-04-10,ID_BE,ID,Indonesia,BE,Bengkulu,4.0,,,,1971800
+2020-04-10,ID_BE,ID,Indonesia,BE,Bengkulu,4.0,,-3.795556,102.259167,1971800
 2020-04-10,ID_BT,ID,Indonesia,BT,Banten,243.0,,-6.500,106.250,12959169
 2020-04-10,ID_GO,ID,Indonesia,GO,Gorontalo,1.0,,0.667,123.000,1133237
 2020-04-10,ID_JA,ID,Indonesia,JA,Jambi,2.0,,-1.583,103.617,3515000
@@ -29788,7 +29788,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-10,SE_C,SE,Sweden,C,Uppsala,431.0,30.0,59.85833,17.65000,367483
 2020-04-10,SE_E,SE,Sweden,E,Östergötland,910.0,32.0,58.528125,15.238037,456550
 2020-04-10,SE_F,SE,Sweden,F,Jönköping,317.0,24.0,57.75,14.2,356291
-2020-04-10,SE_G,SE,Sweden,G,Kronoberg,82.0,1.0,,,197040
+2020-04-10,SE_G,SE,Sweden,G,Kronoberg,82.0,1.0,56.876944,14.809167,197040
 2020-04-10,SE_H,SE,Sweden,H,Kalmar,64.0,4.0,56.73333,15.90000,243219
 2020-04-10,SE_I,SE,Sweden,I,Gotland,16.0,0.0,57.49917,18.50944,58464
 2020-04-10,SE_K,SE,Sweden,K,Blekinge,39.0,1.0,56.24333,14.38111,159367
@@ -29962,6 +29962,8 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-11,CH_SZ,CH,Switzerland,SZ,Schwyz,249.0,10.0,47.067,8.750,159165
 2020-04-11,CH_TG,CH,Switzerland,TG,Thurgau,274.0,8.0,47.583,9.067,276472
 2020-04-11,CH_TI,CH,Switzerland,TI,Ticino,2818.0,229.0,46.317,8.817,353343
+2020-04-11,CH_UR,CH,Switzerland,UR,Uri,75.0,4.0,46.783,8.617,36433
+2020-04-11,CH_VS,CH,Switzerland,VS,Valais,1592.0,82.0,46.067,7.600,343955
 2020-04-11,CH_ZG,CH,Switzerland,ZG,Zug,168.0,4.0,47.000,8.517,126837
 2020-04-11,CH_ZH,CH,Switzerland,ZH,Zürich,2987.0,66.0,47.367,8.550,1520968
 2020-04-11,CI,CI,Ivory Coast,,,480.0,3.0,7.539989,-5.547080,25716544
@@ -30030,6 +30032,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-11,FR,FR,France,,,90676.0,13197.0,46.227638,2.213749,65129728
 2020-04-11,GA,GA,Gabon,,,46.0,1.0,-0.803689,11.609444,2172579
 2020-04-11,GB,GB,United Kingdom,,,70272.0,8958.0,55.378051,-3.435973,67530172
+2020-04-11,GB_ENG,GB,United Kingdom,ENG,England,62658.0,8937.0,51.500,-0.117,55977178
 2020-04-11,GB_NIR,GB,United Kingdom,NIR,Northern Ireland,1717.0,107.0,54.600,-5.917,1885400
 2020-04-11,GB_SCT,GB,United Kingdom,SCT,Scotland,5590.0,542.0,55.95306,-3.18889,5424800
 2020-04-11,GB_WLS,GB,United Kingdom,WLS,Wales,4930.0,351.0,51.483,-3.183,3139000
@@ -30055,7 +30058,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-11,ID_AC,ID,Indonesia,AC,Aceh,5.0,,5.550,95.317,5316320
 2020-04-11,ID_BA,ID,Indonesia,BA,Bali,79.0,,-8.33500,115.08806,4362000
 2020-04-11,ID_BB,ID,Indonesia,BB,Bangka Belitung Islands,4.0,,-2.133,106.117,1430900
-2020-04-11,ID_BE,ID,Indonesia,BE,Bengkulu,4.0,,,,1971800
+2020-04-11,ID_BE,ID,Indonesia,BE,Bengkulu,4.0,,-3.795556,102.259167,1971800
 2020-04-11,ID_BT,ID,Indonesia,BT,Banten,279.0,,-6.500,106.250,12959169
 2020-04-11,ID_GO,ID,Indonesia,GO,Gorontalo,1.0,,0.667,123.000,1133237
 2020-04-11,ID_JA,ID,Indonesia,JA,Jambi,4.0,,-1.583,103.617,3515000
@@ -30319,7 +30322,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-04-11,SE_C,SE,Sweden,C,Uppsala,437.0,30.0,59.85833,17.65000,367483
 2020-04-11,SE_E,SE,Sweden,E,Östergötland,942.0,32.0,58.528125,15.238037,456550
 2020-04-11,SE_F,SE,Sweden,F,Jönköping,336.0,24.0,57.75,14.2,356291
-2020-04-11,SE_G,SE,Sweden,G,Kronoberg,87.0,1.0,,,197040
+2020-04-11,SE_G,SE,Sweden,G,Kronoberg,87.0,1.0,56.876944,14.809167,197040
 2020-04-11,SE_H,SE,Sweden,H,Kalmar,65.0,4.0,56.73333,15.90000,243219
 2020-04-11,SE_I,SE,Sweden,I,Gotland,16.0,0.0,57.49917,18.50944,58464
 2020-04-11,SE_K,SE,Sweden,K,Blekinge,41.0,1.0,56.24333,14.38111,159367
