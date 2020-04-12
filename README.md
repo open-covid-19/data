@@ -99,6 +99,13 @@ consistent with the ECDC daily reports are used.
 a true value of zero is reported. For example, US states where deaths are not
 being reported have null values.
 
+The `CountryName` and `RegionName` values are subject to change. You may use
+them for labels in your application, but you should not assume that they will
+remain the same in future updates. Instead, use `CountryCode` and `RegionCode`
+to perform joins with other data sources or for filtering within your
+application.
+
+#### Notes about the data
 For countries where both country-level and region-level data is available, the
 entry which has a null value for the `RegionCode` and `RegionName` columns
 indicates country-level aggregation. Please note that, sometimes, the
@@ -106,11 +113,12 @@ country-level data and the region-level data come from different sources so
 adding up all region-level values may not equal exactly to the reported
 country-level value. See the [data loading tutorial][7] for more information.
 
-The `CountryName` and `RegionName` values are subject to change. You may use
-them for labels in your application, but you should not assume that they will
-remain the same in future updates. Instead, use `CountryCode` and `RegionCode`
-to perform joins with other data sources or for filtering within your
-application.
+**FR**: Region-level confirmed cases for France only include positive results
+of tests being sent to a subset of all laboratories, therefore the sum of all
+confirmed cases across regions is significantly lower than the country totals.
+
+**PT**: Regions reported by Portugal are broken down at the NUTS-2 level, not
+the usual ISO 3166-2 code reported by most other countries.
 
 #### Metadata
 Non-temporal data related to countries and regions. The columns of
