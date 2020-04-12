@@ -49,10 +49,11 @@ for table_index in range(table_count):
         selector='table.wikitable',
         parser=wiki_html_cell_parser,
         table_index=table_index,
-        skiprows=args.skiprows)
+        skiprows=args.skiprows or 0)
 
     if args.debug:
         print('\n[%d] Data:' % (table_index + 1))
+        print(data.columns)
         print(data.head(50))
 
     # Some of the tables are in Spanish
@@ -88,7 +89,7 @@ for table_index in range(table_count):
     data = data[~data['Date'].isna()]
 
     # If the dataframe is not empty, then we found a good one
-    if len(data) > 10:
+    if len(data) > 10 and len(data['RegionName'].unique()) > 3:
         break
 
 # Convert all dates to ISO format
@@ -130,7 +131,7 @@ if args.null_deaths:
     data['Deaths'] = None
 
 if args.debug:
-    print('Output:')
+    print('\nOutput:')
     print(data.head(50))
 
 # Output the results
