@@ -46,15 +46,12 @@ def dataframe_split(data: DataFrame, pivot_columns: list, root: Path, name: str)
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Read the minimal data file and write to JSON output
-minimal = read_csv(ROOT / 'output' /
-                   'data_minimal.csv').sort_values(['Date', 'Key'])
-dataframe_to_json(minimal, ROOT / 'output' /
-                  'data_minimal.json', orient='records')
+minimal = read_csv(ROOT / 'output' / 'data_minimal.csv').sort_values(['Date', 'Key'])
+dataframe_to_json(minimal, ROOT / 'output' / 'data_minimal.json', orient='records')
 
-# Read the metadata file and write to output (including _latest)
+# Read the metadata file and write to output
 metadata = read_metadata()
-metadata = metadata[[
-    col for col in metadata.columns if not col.startswith('_')]]
+metadata = metadata[[col for col in metadata.columns if not col.startswith('_')]]
 metadata.to_csv(ROOT / 'output' / 'metadata.csv', index=False)
 dataframe_to_json(metadata, ROOT / 'output' / 'metadata.json', orient='records')
 
@@ -94,14 +91,9 @@ world = full[full['RegionCode'].isna()]
 world = world[[col for col in world.columns if 'Region' not in col]]
 dataframe_split(world, ('CountryCode',), ROOT, 'world')
 
-# Read forecast file and output JSON format
-forecast_path = ROOT / 'output' / 'data_forecast.csv'
-if forecast_path.exists():
-    forecast = read_csv(forecast_path)
-    dataframe_to_json(forecast, str(forecast_path).replace('csv', 'json'), orient='records')
-
-# Read categories file and output JSON format
-categories_path = ROOT / 'output' / 'data_categories.csv'
-if categories_path.exists():
-    categories = read_csv(categories_path)
-    dataframe_to_json(categories, str(categories_path).replace('csv', 'json'), orient='records')
+# Read individual output files and output JSON format
+for csv_file in ('mobility', 'response', 'data_forecast', 'data_categories'):
+    file_path = ROOT / 'output' / '{}.csv'.format(csv_file)
+    if file_path.exists():
+        categories = read_csv(file_path)
+        dataframe_to_json(categories, str(file_path).replace('csv', 'json'), orient='records')

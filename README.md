@@ -24,6 +24,8 @@ the latest data. The datasets available from this project are:
 | [Data](#data) | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
 | [Minimal](#minimal) | [Historical](https://open-covid-19.github.io/data/data_minimal.csv) | [Historical](https://open-covid-19.github.io/data/data_minimal.json) |
 | [Metadata](#metadata) | [Latest](https://open-covid-19.github.io/data/metadata.csv) | [Latest](https://open-covid-19.github.io/data/metadata.json) |
+| [Mobility](#mobility) | [Historical](https://open-covid-19.github.io/data/mobility.csv) | [Historical](https://open-covid-19.github.io/data/mobility.json) |
+| [Response](#response) | [Historical](https://open-covid-19.github.io/data/response.csv) | [Historical](https://open-covid-19.github.io/data/response.json) |
 | [Forecast](#forecast) | [Latest](https://open-covid-19.github.io/data/data_forecast.csv) | [Latest](https://open-covid-19.github.io/data/data_forecast.json) |
 | [Categories](#categories) | [Historical](https://open-covid-19.github.io/data/data_categories.csv) | [Historical](https://open-covid-19.github.io/data/data_categories.json) |
 
@@ -155,18 +157,48 @@ following columns:
 | **Residential** | Percentage change in visits to residential locations | -15 |
 | **Workplaces** | Percentage change in visits to workplace locations | -15 |
 
+#### Response
+Summary of a government's response, including a *stringency index*, collected
+from [University of Oxford][18]:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **SchoolClosing** | [0-3] Schools are closed | 2 |
+| **WorkplaceClosing** | [0-3] Workplaces are closed | 2 |
+| **CancelPublicEvents** | [0-3] Public events have been cancelled | 2 |
+| **ClosePublicTransport** | [0-3] Public transport is not operational | 0 |
+| **PublicInformationCampaigns** | [0-2] Government has launched public information campaigns | 1 |
+| **RestrictionsOnInternalMovement** | [0-3] Travel within country is restricted | 1 |
+| **InternationalTravelControls** | [0-3] International travel is restricted | 3 |
+| **FiscalMeasures** | [USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
+| **MonetaryMeasures** | [%] Value of interest rate | -0.75 |
+| **EmergencyInvestmentInHealthCare** | [USD] Emergency funding allocated to healthcare | 500000 |
+| **InvestmentInVaccines** | [USD] Emergency funding allocated to vaccine research | 100000 |
+| **TestingFramework** | [0-3] Country-wide COVID-19 testing policy | 1 |
+| **ContactTracing** | [0-2] Country-wide contact tracing policy | 1 |
+| **StringencyIndex** | [0-100] Overall stringency index | 71.43 |
+
+For more information about each field and how the overall stringency index is
+computed, see the [Oxford COVID-19 government response tracker][18].
+
+**Note**: Keys which correspond to a region-level datapoint always have the
+same value as the country-level datapoint, since the tracked government
+measures are at the country level.
+
 #### Forecasting
 There is also a short-term forecast dataset available in the output folder as
 [data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
 which has the following columns:
 
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint | 2020-03-21 |
-| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
-| **Confirmed** | Total number of cases confirmed after positive test | 67800 |
+| Name | Description | Example | | ---- | ----------- | ------- | |
+**ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint |
+2020-03-21 | | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint |
+2020-03-25 | | **Key** | `CountryCode` if country-level data, otherwise
+`${CountryCode}_${RegionCode}` | US_CA | | **Estimated**\*\* | Total number of
+cases estimated from forecasting model | 66804.567 | | **Confirmed** | Total
+number of cases confirmed after positive test | 67800 |
 
 \*Date used is **reporting** date, which generally lags a day from the actual
 date and is subject to timezone adjustments. Whenever possible, dates
@@ -243,7 +275,8 @@ from the relevant authorities, like a country's ministry of health.
 | Data | Source |
 | ---- | ------ |
 | Metadata | [Wikipedia](https://wikipedia.org) |
-| Mobility | <https://github.com/pastelsky/covid-19-mobility-tracker> |
+| Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> |
+| Government response data | [University of Oxford][18] |
 | Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |
 | Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |
 | Australia | <https://covid-19-au.github.io> |
@@ -321,3 +354,4 @@ sh input/update_data.sh
 [15]: https://kiksu.net/covid-19/
 [16]: https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
 [17]: https://www.google.com/covid19/mobility/
+[18]: https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker

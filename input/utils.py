@@ -285,6 +285,12 @@ def safe_int_cast(value):
 
 def safe_datetime_parse(value: str, date_format: str):
     try:
-        return datetime.strptime(value, date_format)
+        return datetime.strptime(str(value), date_format)
     except:
         return None
+
+
+def datetime_isoformat(value: str, date_format: str):
+    date = safe_datetime_parse(value, date_format)
+    if date is not None:
+        return date.date().isoformat()
