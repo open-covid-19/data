@@ -105,21 +105,6 @@ remain the same in future updates. Instead, use `CountryCode` and `RegionCode`
 to perform joins with other data sources or for filtering within your
 application.
 
-#### Notes about the data
-For countries where both country-level and region-level data is available, the
-entry which has a null value for the `RegionCode` and `RegionName` columns
-indicates country-level aggregation. Please note that, sometimes, the
-country-level data and the region-level data come from different sources so
-adding up all region-level values may not equal exactly to the reported
-country-level value. See the [data loading tutorial][7] for more information.
-
-**FR**: Region-level confirmed cases for France only include positive results
-of tests being sent to a subset of all laboratories, therefore the sum of all
-confirmed cases across regions is significantly lower than the country totals.
-
-**PT**: Regions reported by Portugal are broken down at the NUTS-2 level, not
-the usual ISO 3166-2 code reported by most other countries.
-
 #### Metadata
 Non-temporal data related to countries and regions. The columns of
 [metadata.csv](https://open-covid-19.github.io/data/metadata.csv) are:
@@ -153,6 +138,22 @@ consistent with the ECDC daily reports are used.
 \*\*Missing values will be represented as nulls, whereas zeroes are used when
 a true value of zero is reported. For example, US states where deaths are not
 being reported have null values.
+
+#### Mobility
+Google's [Mobility Reports][17] are presented in CSV form as
+[mobility.csv](https://open-covid-19.github.io/data/data_minimal.csv) with the
+following columns:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **TransitStations** | Percentage change in visits to transit station locations | -15 |
+| **RetailAndRecreation** | Percentage change in visits to retail and recreation locations | -15 |
+| **GroceryAndPharmacy** | Percentage change in visits to grocery and pharmacy locations | -15 |
+| **Parks** | Percentage change in visits to park locations | -15 |
+| **Residential** | Percentage change in visits to residential locations | -15 |
+| **Workplaces** | Percentage change in visits to workplace locations | -15 |
 
 #### Forecasting
 There is also a short-term forecast dataset available in the output folder as
@@ -204,6 +205,21 @@ consistent with the ECDC daily reports are used.
 \*\*See the [category estimation notebook](examples/category_estimation.ipynb)
 for an more thorough explanation of what each category represents and how the
 estimation is done.
+
+#### Notes about the data
+For countries where both country-level and region-level data is available, the
+entry which has a null value for the `RegionCode` and `RegionName` columns
+indicates country-level aggregation. Please note that, sometimes, the
+country-level data and the region-level data come from different sources so
+adding up all region-level values may not equal exactly to the reported
+country-level value. See the [data loading tutorial][7] for more information.
+
+**FR**: Region-level confirmed cases for France only include positive results
+of tests being sent to a subset of all laboratories, therefore the sum of all
+confirmed cases across regions is significantly lower than the country totals.
+
+**PT**: Regions reported by Portugal are broken down at the NUTS-2 level, not
+the usual ISO 3166-2 code reported by most other countries.
 
 #### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
@@ -303,3 +319,4 @@ sh input/update_data.sh
 [14]: https://www.starlords3k.com/covid19.php
 [15]: https://kiksu.net/covid-19/
 [16]: https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html
+[17]: https://www.google.com/covid19/mobility/

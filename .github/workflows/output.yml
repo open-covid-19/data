@@ -20,6 +20,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Extract mobility report
+      run: |
+        python input/extract_mobility_report.py > output/mobility.csv
+
     - name: Compute data forecast
       run: |
         python input/compute_forecast.py > output/data_forecast.csv
