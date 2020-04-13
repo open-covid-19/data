@@ -243,6 +243,7 @@ from the relevant authorities, like a country's ministry of health.
 | Data | Source |
 | ---- | ------ |
 | Metadata | [Wikipedia](https://wikipedia.org) |
+| Mobility | <https://github.com/pastelsky/covid-19-mobility-tracker> |
 | Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |
 | Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |
 | Australia | <https://covid-19-au.github.io> |
