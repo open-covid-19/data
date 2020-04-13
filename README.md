@@ -192,13 +192,13 @@ There is also a short-term forecast dataset available in the output folder as
 [data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
 which has the following columns:
 
-| Name | Description | Example | | ---- | ----------- | ------- | |
-**ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint |
-2020-03-21 | | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint |
-2020-03-25 | | **Key** | `CountryCode` if country-level data, otherwise
-`${CountryCode}_${RegionCode}` | US_CA | | **Estimated**\*\* | Total number of
-cases estimated from forecasting model | 66804.567 | | **Confirmed** | Total
-number of cases confirmed after positive test | 67800 |
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint | 2020-03-21 |
+| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
+| **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
+| **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 
 \*Date used is **reporting** date, which generally lags a day from the actual
 date and is subject to timezone adjustments. Whenever possible, dates
@@ -276,7 +276,7 @@ from the relevant authorities, like a country's ministry of health.
 | ---- | ------ |
 | Metadata | [Wikipedia](https://wikipedia.org) |
 | Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> |
-| Government response data | [University of Oxford][18] |
+| Government response data | [Oxford COVID-19 government response tracker][18] |
 | Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |
 | Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |
 | Australia | <https://covid-19-au.github.io> |
