@@ -36,10 +36,6 @@ jobs:
       run: |
         python input/compute_categories.py > output/data_categories.csv
 
-    - name: Generate all SVG charts
-      run: |
-        python input/compute_charts.py > output/charts/map.json
-
     - name: Create JSON and subset versions of the data
       run: |
         python input/format_data.py

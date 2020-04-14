@@ -794,3 +794,14 @@ Date,Country,Indicator,Value
 2020-04-13,UK,Tests,290720
 2020-04-13,Wales,ConfirmedCases,5610
 2020-04-13,Wales,Deaths,384
+2020-04-14,Northern Ireland,ConfirmedCases,1967
+2020-04-14,Northern Ireland,Deaths,134
+2020-04-14,Northern Ireland,Tests,13095
+2020-04-14,Scotland,ConfirmedCases,6358
+2020-04-14,Scotland,Deaths,615
+2020-04-14,Scotland,Tests,32855
+2020-04-14,UK,ConfirmedCases,93873
+2020-04-14,UK,Deaths,12107
+2020-04-14,UK,Tests,302599
+2020-04-14,Wales,ConfirmedCases,5848
+2020-04-14,Wales,Deaths,403

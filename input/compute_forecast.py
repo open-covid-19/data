@@ -14,8 +14,8 @@ from utils import compute_record_key, get_outbreak_mask, compute_forecast, serie
 ROOT = Path(os.path.dirname(__file__)) / '..'
 
 # Parse parameters
-PREDICT_WINDOW = 3
-DATAPOINT_COUNT = 14
+PREDICT_WINDOW = 7
+DATAPOINT_COUNT = 28 + PREDICT_WINDOW
 
 # Read data from the open COVID-19 dataset
 df = pd.read_csv(ROOT / 'output' / 'data_minimal.csv').set_index('Date')
