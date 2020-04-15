@@ -1,5 +1,4 @@
 beautifulsoup4==4.8.2
-gevent==1.5.0
 pandas==1.0.3
 requests==2.23
 scipy==1.4.1

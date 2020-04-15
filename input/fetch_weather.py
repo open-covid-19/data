@@ -8,14 +8,11 @@ and snowfall for each location in the metadata file.
 import re
 import sys
 import math
+from multiprocessing.pool import ThreadPool
 from typing import Tuple
 
 from tqdm import tqdm
 from pandas import read_csv, concat, isna
-
-from gevent import monkey
-from gevent.pool import Pool as ThreadPool
-monkey.patch_all()
 
 from utils import read_metadata, safe_int_cast
 
@@ -107,8 +104,8 @@ stations = stations.reset_index()
 
 # Get all the POI from metadata and go through each key
 metadata = read_metadata()[['Key', 'Latitude', 'Longitude']]
-# Bottleneck is network so we can use high concurrency load
-records = list(tqdm(ThreadPool(32).imap_unordered(
+# Bottleneck is network so we can use lots of threads in parallel
+records = list(tqdm(ThreadPool(8).imap_unordered(
     station_records, metadata.iterrows()), total=len(metadata)))
 
 concat(records).sort_values(['Key', 'Date']).to_csv(sys.stdout, index=False)
