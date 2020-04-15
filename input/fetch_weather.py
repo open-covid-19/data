@@ -48,7 +48,7 @@ def fix_temp(value: int):
 
 def station_records(location):
 
-    # iterrows outputs index and record, we only want the record
+    # DataFrame.iterrows() outputs index and record, we only want the record
     location = location[1]
 
     # Get the nearest station from our list of stations given lat and lon
@@ -75,7 +75,7 @@ def station_records(location):
     # Get only data for 2020 and add location values
     data = data[data.Date > '2019-12-31']
     data['Key'] = location.Key
-    data['DistanceKilometers'] = nearest.distance
+    data['DistanceKilometers'] = '%.03f' % nearest.distance
 
     # Return all the available data from the records
     output_columns = [

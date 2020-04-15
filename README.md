@@ -22,8 +22,9 @@ the latest data. The datasets available from this project are:
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
 | [Data](#data) | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
-| [Minimal](#minimal) | [Historical](https://open-covid-19.github.io/data/data_minimal.csv) | [Historical](https://open-covid-19.github.io/data/data_minimal.json) |
 | [Metadata](#metadata) | [Latest](https://open-covid-19.github.io/data/metadata.csv) | [Latest](https://open-covid-19.github.io/data/metadata.json) |
+| [Minimal](#minimal) | [Historical](https://open-covid-19.github.io/data/data_minimal.csv) | [Historical](https://open-covid-19.github.io/data/data_minimal.json) |
+| [Weather](#weather) | [Historical](https://open-covid-19.github.io/data/weather.csv) | [Historical](https://open-covid-19.github.io/data/weather.json) |
 | [Mobility](#mobility) | [Historical](https://open-covid-19.github.io/data/mobility.csv) | [Historical](https://open-covid-19.github.io/data/mobility.json) |
 | [Response](#response) | [Historical](https://open-covid-19.github.io/data/response.csv) | [Historical](https://open-covid-19.github.io/data/response.json) |
 | [Forecast](#forecast) | [Latest](https://open-covid-19.github.io/data/data_forecast.csv) | [Latest](https://open-covid-19.github.io/data/data_forecast.json) |
@@ -38,18 +39,18 @@ code showcasing how to load and analyze the data for several programming
 environments. If you want the short version, here are a few snippets to get
 started.
 
-#### Google Colab
+### Google Colab
 You can use Google Colab if you want to run your analysis without having to
 install anything in your computer, simply go to this URL:
 https://colab.research.google.com/github/open-covid-19/data.
 
-#### R
+### R
 If you prefer R, then this is all you need to do to load the historical data:
 ```R
 data <- read.csv("https://open-covid-19.github.io/data/data.csv")
 ```
 
-#### Python
+### Python
 In Python, you need to have the package `pandas` installed to get
 started:
 ```python
@@ -57,14 +58,14 @@ import pandas
 data = pandas.read_csv("https://open-covid-19.github.io/data/data.csv")
 ```
 
-#### jQuery
+### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
 this code snippet loads all historical data into the `data` variable:
 ```javascript
 $.getJSON("https://open-covid-19.github.io/data/data.json", data => { ... }
 ```
 
-#### Powershell
+### Powershell
 You can also use Powershell to get the latest data for a country directly from
 the command line, for example to query the latest data for Australia:
 ```powershell
@@ -74,7 +75,7 @@ Invoke-WebRequest 'https://open-covid-19.github.io/data/data_latest.csv' | Conve
 
 ## Understand the data
 
-#### Data
+### Data
 Make sure that you are using the URL [linked at the table above](#use-the-data) and not the raw
 GitHub file, the latter is subject to change at any moment. The columns of
 [data.csv](https://open-covid-19.github.io/data/data.csv) are:
@@ -107,7 +108,7 @@ remain the same in future updates. Instead, use `CountryCode` and `RegionCode`
 to perform joins with other data sources or for filtering within your
 application.
 
-#### Metadata
+### Metadata
 Non-temporal data related to countries and regions. The columns of
 [metadata.csv](https://open-covid-19.github.io/data/metadata.csv) are:
 
@@ -122,7 +123,7 @@ Non-temporal data related to countries and regions. The columns of
 | **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
 | **Population** | Total count of humans living in the region | 58500000 |
 
-#### Minimal
+### Minimal
 There is a [data_minimal.csv](https://open-covid-19.github.io/data/data_minimal.csv) with a subset
 of the columns from [data.csv](#data) but otherwise identical information:
 
@@ -141,7 +142,30 @@ consistent with the ECDC daily reports are used.
 a true value of zero is reported. For example, US states where deaths are not
 being reported have null values.
 
-#### Mobility
+### Weather
+Daily weather information from nearest station reported by NOAA. The columns of
+[weather.csv](https://open-covid-19.github.io/data/weather.csv) are:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_MI |
+| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **Station** | Identifier for the weather station | USC00206080 |
+| **DistanceKilometers** | Distance between the location coordinates and the weather station | 28.693 |
+| **MinimumTemperature**\*\* | Recorded hourly minimum temperature | 1.7 |
+| **MaximumTemperature**\*\* | Recorded hourly maximum temperature | 19.4 |
+| **Rainfall**\*\* | Rainfall during the entire day measured in millimeters | 51.0 |
+| **Snowfall**\*\* | Snowfall during the entire day measured in millimeters | 0.0 |
+
+\*Date used is the NOAA reported date, which is the true date and may not match
+the date from epidemiology reports since reports are normally delayed by at
+least one day.
+
+Missing values will be represented as nulls, whereas zeroes are used when
+a true value of zero is reported. For example, US states where deaths are not
+being reported have null values.
+
+### Mobility
 Google's [Mobility Reports][17] are presented in CSV form as
 [mobility.csv](https://open-covid-19.github.io/data/data_minimal.csv) with the
 following columns:
@@ -157,7 +181,7 @@ following columns:
 | **Residential** | Percentage change in visits to residential locations | -15 |
 | **Workplaces** | Percentage change in visits to workplace locations | -15 |
 
-#### Response
+### Response
 Summary of a government's response, including a *stringency index*, collected
 from [University of Oxford][18]:
 
@@ -187,7 +211,7 @@ computed, see the [Oxford COVID-19 government response tracker][18].
 same value as the country-level datapoint, since the tracked government
 measures are at the country level.
 
-#### Forecasting
+### Forecasting
 There is also a short-term forecast dataset available in the output folder as
 [data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
 which has the following columns:
@@ -212,7 +236,7 @@ distinguish between *a priori* and *a posteriori* estimates is to see if a
 given date has a value for both **Confirmed** and **Estimated** (*a
 priori*) or if the **Confirmed** value is null (*a posteriori*).
 
-#### Active cases and categories
+### Active cases and categories
 Another dataset available is
 [data_categories.csv](https://open-covid-19.github.io/data/data_categories.csv),
 which has the following columns:
@@ -238,7 +262,7 @@ consistent with the ECDC daily reports are used.
 for an more thorough explanation of what each category represents and how the
 estimation is done.
 
-#### Notes about the data
+### Notes about the data
 For countries where both country-level and region-level data is available, the
 entry which has a null value for the `RegionCode` and `RegionName` columns
 indicates country-level aggregation. Please note that, sometimes, the
@@ -253,7 +277,7 @@ confirmed cases across regions is significantly lower than the country totals.
 **PT**: Regions reported by Portugal are broken down at the NUTS-2 level, not
 the usual ISO 3166-2 code reported by most other countries.
 
-#### Backwards compatibility
+### Backwards compatibility
 Please note that the following datasets are maintained only to preserve
 backwards compatibility, but shouldn't be used in any new projects:
 * [World (deprecated version)](output/world_latest.csv)
