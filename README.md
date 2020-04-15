@@ -151,19 +151,18 @@ Daily weather information from nearest station reported by NOAA. The columns of
 | **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_MI |
 | **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **Station** | Identifier for the weather station | USC00206080 |
-| **DistanceKilometers** | Distance between the location coordinates and the weather station | 28.693 |
-| **MinimumTemperature**\*\* | Recorded hourly minimum temperature | 1.7 |
-| **MaximumTemperature**\*\* | Recorded hourly maximum temperature | 19.4 |
-| **Rainfall**\*\* | Rainfall during the entire day measured in millimeters | 51.0 |
-| **Snowfall**\*\* | Snowfall during the entire day measured in millimeters | 0.0 |
+| **Distance** | [kilometers] Distance between the location coordinates and the weather station | 28.693 |
+| **MinimumTemperature**\*\* | [celsius] Recorded hourly minimum temperature | 1.7 |
+| **MaximumTemperature**\*\* | [celsius] Recorded hourly maximum temperature | 19.4 |
+| **Rainfall**\*\* | [millimeters] Rainfall during the entire day | 51.0 |
+| **Snowfall**\*\* | [millimeters] Snowfall during the entire day | 0.0 |
 
 \* Date used is the NOAA reported date, which is the true date and may not match
 the date from epidemiology reports since reports are normally delayed by at
 least one day.
 
 \*\* Missing values will be represented as nulls, whereas zeroes are used when
-a true value of zero is reported. For example, US states where deaths are not
-being reported have null values.
+a true value of zero is reported.
 
 ### Mobility
 Google's [Mobility Reports][17] are presented in CSV form as

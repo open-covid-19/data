@@ -75,14 +75,14 @@ def station_records(location):
     # Get only data for 2020 and add location values
     data = data[data.Date > '2019-12-31']
     data['Key'] = location.Key
-    data['DistanceKilometers'] = '%.03f' % nearest.distance
+    data['Distance'] = '%.03f' % nearest.distance
 
     # Return all the available data from the records
     output_columns = [
         'Key',
         'Date',
         'Station',
-        'DistanceKilometers',
+        'Distance',
         'MinimumTemperature',
         'MaximumTemperature',
         'Rainfall',
