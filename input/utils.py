@@ -16,18 +16,9 @@ from bs4 import BeautifulSoup
 from pandas import DataFrame, Series
 from scipy import optimize
 
-import matplotlib
-import matplotlib.pyplot
-from matplotlib.ticker import MaxNLocator
-import seaborn
-seaborn.set()
-
 
 # Root path of the project
 ROOT = Path(os.path.dirname(__file__)) / '..'
-
-# Used for deterministic SVG files, see https://stackoverflow.com/a/48110626
-matplotlib.rcParams['svg.hashsalt'] = 0
 
 
 def series_converter(series: pandas.Series):
@@ -187,48 +178,6 @@ def compute_forecast(data: pandas.Series, window: int):
     # Perform projection with the previously estimated parameters
     projected = [_logistic_function(x, *params) for x in range(len(X) + window)]
     return pandas.Series(projected, index=date_indices, name='Estimated')
-
-
-def _plot_options():
-    return {'figsize': (16, 8), 'fontsize': 'x-large', 'grid': True}
-
-
-def _plot_save(fname: str, ax):
-    # Add legend
-    ax.legend(loc='upper left', fontsize='x-large')
-    # Remove X label
-    ax.xaxis.set_label_text('')
-    # Make Y axis int only
-    ax.yaxis.set_major_locator(MaxNLocator(integer=True))
-    # Save the figure
-    ax.get_figure().tight_layout()
-    ax.get_figure().savefig(fname)
-    # Close the figure
-    matplotlib.pyplot.close(ax.get_figure())
-
-
-def plot_column(fname: str, data: pandas.Series):
-    df = DataFrame({data.name: data.iloc[-14:]})
-    ax = df.plot(kind='bar', **_plot_options())
-    _plot_save(fname, ax)
-
-
-def plot_forecast(fname: str, confirmed: pandas.Series, estimated: pandas.Series):
-
-    # Replace all the indices from data with zeroes in our projected data
-    projected = estimated.copy().iloc[-14:]
-    projected[confirmed.dropna().index] = 0
-
-    # Add new date indices to the original data and fill them with zeroes
-    confirmed = confirmed.copy()
-    for index in sorted(set(projected.index) - set(confirmed.index)):
-        confirmed.loc[index] = 0
-    confirmed = confirmed[projected.index]
-
-    df = DataFrame({'Confirmed': confirmed, 'Projected': projected})
-    ax = df.plot(kind='bar', **_plot_options())
-    ax.plot(estimated.index, estimated, color='red', label='Estimate')
-    _plot_save(fname, ax)
 
 
 def compute_record_key(record: dict):

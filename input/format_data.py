@@ -92,7 +92,7 @@ world = world[[col for col in world.columns if 'Region' not in col]]
 dataframe_split(world, ('CountryCode',), ROOT, 'world')
 
 # Read individual output files and output JSON format
-for csv_file in ('mobility', 'response', 'data_forecast', 'data_categories'):
+for csv_file in ('mobility', 'response', 'weather', 'data_forecast', 'data_categories'):
     file_path = ROOT / 'output' / '{}.csv'.format(csv_file)
     if file_path.exists():
         categories = read_csv(file_path)

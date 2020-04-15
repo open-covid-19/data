@@ -28,6 +28,10 @@ jobs:
       run: |
         python input/fetch_response.py > output/response.csv
 
+    - name: Fetch weather data
+      run: |
+        python input/fetch_weather.py > output/weather.csv
+
     - name: Compute data forecast
       run: |
         python input/compute_forecast.py > output/data_forecast.csv
