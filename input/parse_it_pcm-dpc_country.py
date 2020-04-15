@@ -19,6 +19,12 @@ df = df.rename(columns={
 # Add the country code to all records
 df['CountryCode'] = 'IT'
 
+# Parse date into a datetime object
+df['Date'] = df['Date'].apply(lambda date: datetime.fromisoformat(date).date())
+
+# Convert dates to ISO format
+df['Date'] = df['Date'].apply(lambda date: date.isoformat())
+
 
 def filter_function(row): return row['CountryCode'] == 'IT' and pandas.isna(row['RegionCode'])
 
