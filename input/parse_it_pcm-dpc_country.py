@@ -16,16 +16,6 @@ df = df.rename(columns={
     'tamponi': 'Tested'
 })
 
-# Parse date into a datetime object
-df['Date'] = df['Date'].apply(lambda date: datetime.fromisoformat(date).date())
-
-# Offset date by 1 day to match ECDC report
-df['RegionCode'] = None
-df['Date'] = df['Date'].apply(lambda date: date + timedelta(days=1))
-
-# Convert dates to ISO format
-df['Date'] = df['Date'].apply(lambda date: date.isoformat())
-
 # Add the country code to all records
 df['CountryCode'] = 'IT'
 

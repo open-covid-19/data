@@ -33,9 +33,6 @@ df['CountryCode'] = 'ES'
 region_level = df[df['_RegionLabel'] != 'Total']
 country_level = df[df['_RegionLabel'] == 'Total'].drop(columns=['_RegionLabel'])
 
-# Offset date of country-level by 1 day to match ECDC report
-country_level['Date'] = country_level['Date'].apply(lambda date: date + timedelta(days=1))
-
 # Convert dates to ISO format
 for df in (region_level, country_level):
     df['Date'] = df['Date'].apply(lambda date: date.isoformat())

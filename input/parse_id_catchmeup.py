@@ -3,11 +3,11 @@
 from datetime import datetime
 from datetime import datetime
 from covid_io import read_argv
-from utils import safe_datetime_parse, pivot_table, dataframe_output
+from utils import datetime_isoformat, pivot_table, dataframe_output
 
 
 def parse_date(date):
-    return safe_datetime_parse('%s-%d' % (date, datetime.now().year), '%d-%b-%Y')
+    return datetime_isoformat('%s-%d' % (date, datetime.now().year), '%d-%b-%Y')
 
 
 # Read data from Google Sheets
@@ -20,6 +20,7 @@ df = df.iloc[1:].set_index('Date')
 df = df[df.columns.dropna()]
 df = pivot_table(df.transpose(), pivot_name='RegionName')
 df['Date'] = df['Date'].apply(parse_date)
+df = df.dropna(subset=['Date'])
 df = df.rename(columns={'Value': 'Confirmed'})
 df['Deaths'] = None
 df = df.dropna(how='all', subset=['Confirmed', 'Deaths'])

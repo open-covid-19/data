@@ -66,8 +66,7 @@ def read_metadata():
         'RegionCode': str,
         'RegionName': str,
         '_RegionLabel': str,
-        'Confirmed': 'Int64',
-        'Deaths': 'Int64',
+        '_ReportOffsetDays': int,
         'Latitude': str,
         'Longitude': str,
         'Population': 'Int64'
@@ -124,6 +123,11 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
             if len(data_) > 0:
                 data = data_
                 break
+
+    # Perform date adjustment for all records so date is consistent across datasets
+    data['Date'] = data.apply(lambda x: date.fromisoformat(x['Date']), axis=1)
+    data['Date'] = data.apply(lambda x: x['Date'] + timedelta(days=x['_ReportOffsetDays']), axis=1)
+    data['Date'] = data.apply(lambda x: x['Date'].isoformat(), axis=1)
 
     # Preserve the order of the core columns and ensure records are sorted
     data = data[core_columns].sort_values(core_columns)
@@ -212,24 +216,29 @@ def cumsum_table(data: DataFrame):
     return data
 
 
-def safe_int_cast(value):
+def safe_float_cast(value):
     if value is None:
         return None
     if pandas.isna(value):
         return None
     if isinstance(value, int):
-        return value
+        return float(value)
     if isinstance(value, float):
-        return round(value)
+        return value
     if value == '':
         return None
     try:
         value = str(value)
         value = re.sub(r',', '', value)
         value = re.sub(r'−', '-', value)
-        return round(float(value))
+        return float(value)
     except:
         return None
+
+
+def safe_int_cast(value, round_function: callable = round):
+    value = safe_float_cast(value)
+    return None if value is None else round_function(value)
 
 
 def safe_datetime_parse(value: str, date_format: str):

@@ -134,9 +134,9 @@ of the columns from [data.csv](#data) but otherwise identical information:
 | **Confirmed**\*\* | Total number of cases confirmed after positive test | 6447 |
 | **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 133 |
 
-\* Date used is **reporting** date, which generally lags a day from the actual
-date and is subject to timezone adjustments. Whenever possible, dates
-consistent with the ECDC daily reports are used.
+\* Date used is **adjusted reporting** date. ECDC reporting date generally
+lags a day from the actual date. Time zone is used to adjust the date such that
+it matches local reports.
 
 \*\* Missing values will be represented as nulls, whereas zeroes are used when
 a true value of zero is reported. For example, US states where deaths are not
@@ -149,19 +149,15 @@ Daily weather information from nearest station reported by NOAA. The columns of
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_MI |
-| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **Station** | Identifier for the weather station | USC00206080 |
 | **Distance** | [kilometers] Distance between the location coordinates and the weather station | 28.693 |
-| **MinimumTemperature**\*\* | [celsius] Recorded hourly minimum temperature | 1.7 |
-| **MaximumTemperature**\*\* | [celsius] Recorded hourly maximum temperature | 19.4 |
-| **Rainfall**\*\* | [millimeters] Rainfall during the entire day | 51.0 |
-| **Snowfall**\*\* | [millimeters] Snowfall during the entire day | 0.0 |
+| **MinimumTemperature**\* | [celsius] Recorded hourly minimum temperature | 1.7 |
+| **MaximumTemperature**\* | [celsius] Recorded hourly maximum temperature | 19.4 |
+| **Rainfall**\* | [millimeters] Rainfall during the entire day | 51.0 |
+| **Snowfall**\* | [millimeters] Snowfall during the entire day | 0.0 |
 
-\* Date used is the NOAA reported date, which is the true date and may not match
-the date from epidemiology reports since reports are normally delayed by at
-least one day.
-
-\*\* Missing values will be represented as nulls, whereas zeroes are used when
+\* Missing values will be represented as nulls, whereas zeroes are used when
 a true value of zero is reported.
 
 ### Mobility
@@ -223,9 +219,9 @@ which has the following columns:
 | **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
 | **Confirmed** | Total number of cases confirmed after positive test | 67800 |
 
-\* Date used is **reporting** date, which generally lags a day from the actual
-date and is subject to timezone adjustments. Whenever possible, dates
-consistent with the ECDC daily reports are used.
+\* Date used is **adjusted reporting** date. ECDC reporting date generally
+lags a day from the actual date. Time zone is used to adjust the date such that
+it matches local reports.
 
 \*\* An estimate is also provided for dates before the forecast date, which
 corresponds to the output of the fitted model; this is the *a priori*
@@ -253,9 +249,9 @@ which has the following columns:
 | **CurrentlySevere**\*\* | Number of estimated severe active cases at this date | 190 |
 | **CurrentlyCritical**\*\* | Number of estimated critical active cases at this date | 66 |
 
-\* Date used is **reporting** date, which generally lags a day from the actual
-date and is subject to timezone adjustments. Whenever possible, dates
-consistent with the ECDC daily reports are used.
+\* Date used is **adjusted reporting** date. ECDC reporting date generally
+lags a day from the actual date. Time zone is used to adjust the date such that
+it matches local reports.
 
 \*\* See the [category estimation notebook](examples/category_estimation.ipynb)
 for an more thorough explanation of what each category represents and how the
