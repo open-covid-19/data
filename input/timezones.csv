@@ -59,7 +59,7 @@ BL,Saint Barthélemy,America/St_Barthelemy,UTC -04:00
 BM,Bermuda,Atlantic/Bermuda,UTC -03:00
 BN,Brunei Darussalam,Asia/Brunei,UTC +08:00
 BO,Bolivia,America/La_Paz,UTC -04:00
-BQ,Bonaire Sint Eustatius and Saba,America/Kralendijk,UTC -04:00
+BQ,Caribbean Netherlands,America/Kralendijk,UTC -04:00
 BR,Brazil,America/Araguaina,UTC -03:00
 BR,Brazil,America/Bahia,UTC -03:00
 BR,Brazil,America/Belem,UTC -03:00
@@ -235,7 +235,7 @@ MA,Morocco,Africa/Casablanca,UTC +01:00
 MC,Monaco,Europe/Monaco,UTC +02:00
 MD,Moldova,Europe/Chisinau,UTC +03:00
 ME,Montenegro,Europe/Podgorica,UTC +02:00
-MF,Saint Martin (French part),America/Marigot,UTC -04:00
+MF,Saint Martin,America/Marigot,UTC -04:00
 MG,Madagascar,Indian/Antananarivo,UTC +03:00
 MH,Marshall Islands,Pacific/Kwajalein,UTC +12:00
 MH,Marshall Islands,Pacific/Majuro,UTC +12:00
@@ -351,7 +351,7 @@ SR,Suriname,America/Paramaribo,UTC -03:00
 SS,South Sudan,Africa/Juba,UTC +03:00
 ST,Sao Tome and Principe,Africa/Sao_Tome,UTC
 SV,El Salvador,America/El_Salvador,UTC -06:00
-SX,Sint Maarten (Dutch part),America/Lower_Princes,UTC -04:00
+SX,Sint Maarten,America/Lower_Princes,UTC -04:00
 SY,Syrian Arab Republic,Asia/Damascus,UTC +03:00
 SZ,Swaziland,Africa/Mbabane,UTC +02:00
 TC,Turks and Caicos Islands,America/Grand_Turk,UTC -04:00

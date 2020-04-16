@@ -6,9 +6,9 @@ AG,AG,Antigua and Barbuda,,,,-1,17.060816,-61.796428,97118
 AI,AI,Anguilla,,,,-1,18.220554,-63.068615,14869
 AL,AL,Albania,,,,-1,41.153332,20.168331,2880917
 AM,AM,Armenia,,,,-1,40.069099,45.038189,2957731
-AN,AN,Netherlands Antilles,,,,0,12.226079,-69.060087,0
+AN,AN,Netherlands Antilles,,,,0,12.226079,-69.060087,
 AO,AO,Angola,,,,-1,-11.202692,17.873887,31825295
-AQ,AQ,Antarctica,,,,-1,-75.250973,-0.071389,0
+AQ,AQ,Antarctica,,,,-1,-75.250973,-0.071389,
 AR,AR,Argentina,,,,-1,-38.416097,-63.616672,44780677
 AR_A,AR,Argentina,A,Salta,SA,0,-24.783,-65.417,1214441
 AR_B,AR,Argentina,B,Buenos Aires Province,BA (P),0,-33.700,-61.000,15625084
@@ -56,11 +56,12 @@ BG,BG,Bulgaria,,,,-1,42.733883,25.485830,7000119
 BH,BH,Bahrain,,,,-1,25.930414,50.637772,1641172
 BI,BI,Burundi,,,,-1,-3.373056,29.918886,10864245
 BJ,BJ,Benin,,,,-1,9.307690,2.315834,11801151
+BL,BL,Saint Barthélemy,,,,-1,,,
 BM,BM,Bermuda,,,,-1,32.321384,-64.757370,62506
 BN,BN,Brunei,,,,-1,4.535277,114.727669,433285
 BO,BO,Bolivia,,,,-1,-16.290154,-63.588653,11513100
 BO_B,BO,Bolivia,B,Beni,,0,-14,-65,421196
-BO_C,BO,Bolivia,C,Cochabamba,,0,-17.333,-65.500,0
+BO_C,BO,Bolivia,C,Cochabamba,,0,-17.333,-65.500,
 BO_H,BO,Bolivia,H,Chuquisaca,,0,-20.000,-64.417,581347
 BO_L,BO,Bolivia,L,La Paz,,0,-15.000,-68.333,2706359
 BO_N,BO,Bolivia,N,Pando,,0,-11.183,-67.183,110436
@@ -68,6 +69,7 @@ BO_O,BO,Bolivia,O,Oruro,,0,-18.667,-67.667,494178
 BO_P,BO,Bolivia,P,Potosí,,0,-20.66667,-66.66667,823517
 BO_S,BO,Bolivia,S,Santa Cruz,,0,-18.418,-62.345,3320084
 BO_T,BO,Bolivia,T,Tarija,,0,-21.583,-63.833,482196
+BQ,BQ,Caribbean Netherlands,,,,-1,,,
 BR,BR,Brazil,,,,-1,-14.235004,-51.925280,211049527
 BR_AC,BR,Brazil,AC,Acre,,0,-9.183333,-70.866667,881935
 BR_AL,BR,Brazil,AL,Alagoas,,0,-9.57,-36.55,3337357
@@ -91,14 +93,14 @@ BR_RJ,BR,Brazil,RJ,Rio de Janeiro,,0,-22.900,-43.200,17264943
 BR_RN,BR,Brazil,RN,Rio Grande do Norte,,0,-5.74,-36.55,3506853
 BR_RO,BR,Brazil,RO,Rondônia,,0,-10.90,-62.76,1777225
 BR_RR,BR,Brazil,RR,Roraima,,0,-2.050,-61.400,605761
-BR_RS,BR,Brazil,RS,Rio Grande do Sul,-30.0,0,-53.0,11286500,0
+BR_RS,BR,Brazil,RS,Rio Grande do Sul,,0,-30.0,-53.0,11286500
 BR_SC,BR,Brazil,SC,Santa Catarina,,0,-27.250,-50.333,6727000
 BR_SE,BR,Brazil,SE,Sergipe,,0,-10.56,-37.36,2298696
 BR_SP,BR,Brazil,SP,São Paulo,,0,-23.533,-46.633,45919049
 BR_TO,BR,Brazil,TO,Tocantins,,0,-10.183,-48.333,1572866
 BS,BS,Bahamas,,,,-1,25.034280,-77.396280,389482
 BT,BT,Bhutan,,,,-1,27.514162,90.433601,763092
-BV,BV,Bouvet Island,,,,0,-54.423199,3.413194,0
+BV,BV,Bouvet Island,,,,0,-54.423199,3.413194,
 BW,BW,Botswana,,,,-1,-22.328474,24.684866,2303697
 BY,BY,Belarus,,,,-1,53.709807,27.953389,9452411
 BZ,BZ,Belize,,,,-1,17.189877,-88.497650,390353
@@ -116,7 +118,7 @@ CA_PE,CA,Canada,PE,Prince Edward Island,,0,46.5107,-63.4168,158158
 CA_QC,CA,Canada,QC,Quebec,,0,52.9399,-73.5491,8537674
 CA_SK,CA,Canada,SK,Saskatchewan,,0,52.9399,-106.4509,1181666
 CA_YT,CA,Canada,YT,Yukon,,0,64.2823,-135.0,41078
-CC,CC,Cocos Islands,,,,-1,-12.164165,96.870956,0
+CC,CC,Cocos Islands,,,,-1,-12.164165,96.870956,
 CD,CD,Democratic Republic of the Congo,,,,-1,-4.038333,21.758664,86790567
 CF,CF,Central African Republic,,,,-1,6.611111,20.939444,4745185
 CG,CG,Republic of the Congo,,,,-1,-0.228021,15.827659,5380508
@@ -217,7 +219,7 @@ CO_CES,CO,Colombia,CES,Cesar,,0,10.483,-73.250,1200574
 CO_CHO,CO,Colombia,CHO,Chocó,,0,5.700,-76.667,534826
 CO_COR,CO,Colombia,COR,Córdoba,,0,8.750,-75.883,1784783
 CO_CUN,CO,Colombia,CUN,Cundinamarca,,0,4.600,-74.083,2919060
-CO_DC,CO,Colombia,DC,Bogotá,,0,4.71111,-74.07222,0
+CO_DC,CO,Colombia,DC,Bogotá,,0,4.71111,-74.07222,
 CO_GUA,CO,Colombia,GUA,Guainía,,0,3.86528,-67.92389,40203
 CO_GUV,CO,Colombia,GUV,Guaviare,,0,2.567,-72.633,107934
 CO_HUI,CO,Colombia,HUI,Huila,,0,2.99861,-75.30444,1126314
@@ -239,7 +241,8 @@ CO_VID,CO,Colombia,VID,Vichada,,0,6.183,-67.467,68575
 CR,CR,Costa Rica,,,,-1,9.748917,-83.753428,5047561
 CU,CU,Cuba,,,,-1,21.521757,-77.781167,11333483
 CV,CV,Cape Verde,,,,-1,16.002082,-24.013197,549935
-CX,CX,Christmas Island,,,,-1,-10.447525,105.690449,0
+CW,CW,Curaçao,,,,-1,,,
+CX,CX,Christmas Island,,,,-1,-10.447525,105.690449,
 CY,CY,Cyprus,,,,-1,35.126413,33.429859,1179551
 CZ,CZ,Czech Republic,,,,-1,49.817492,15.472962,10689209
 DE,DE,Germany,,,,-1,51.165691,10.451526,83517045
@@ -293,27 +296,27 @@ ET,ET,Ethiopia,,,,-1,9.145000,40.489673,112078730
 FI,FI,Finland,,,,-1,61.924110,25.748151,5532156
 FJ,FJ,Fiji,,,,0,-16.578193,179.414413,889953
 FK,FK,Falkland Islands,,,,-1,-51.796253,-59.523613,3377
-FM,FM,Micronesia,,,,-1,7.425554,150.550812,0
+FM,FM,Micronesia,,,,-1,7.425554,150.550812,
 FO,FO,Faroe Islands,,,,-1,61.892635,-6.911806,48678
 FR,FR,France,,,,-1,46.227638,2.213749,65129728
-FR_ARA,FR,France,ARA,Auvergne-Rhône-Alpes,,0,45.447100,4.385300,0
-FR_BFC,FR,France,BFC,Bourgogne-Franche-Comté,,0,47.280500,4.999400,0
-FR_BRE,FR,France,BRE,Brittany,Bretagne,0,48.202000,-2.932600,0
-FR_COR,FR,France,COR,Corsica,Corse,0,42.039600,9.012900,0
-FR_CVL,FR,France,CVL,Centre-Val de Loire,,0,47.751600,1.675100,0
-FR_GES,FR,France,GES,Grand Est,,0,48.699800,6.187800,0
-FR_GF,FR,France,GF,French Guiana,Guyane,0,3.933900,-53.125800,0
-FR_GUA,FR,France,GUA,Guadeloupe,,0,16.265000,-61.551000,0
-FR_HDF,FR,France,HDF,Hauts-de-France,,0,50.480100,2.793700,0
-FR_IDF,FR,France,IDF,Île-de-France,,0,48.849900,2.637000,0
-FR_LRE,FR,France,LRE,La Réunion,,0,-21.115100,55.536400,0
-FR_MAY,FR,France,MAY,Mayotte,,0,-12.827500,45.166200,0
-FR_MQ,FR,France,MQ,Martinique,,0,14.641500,-61.024200,0
-FR_NAQ,FR,France,NAQ,Nouvelle-Aquitaine,,0,45.708700,0.626900,0
-FR_NOR,FR,France,NOR,Normandy,Normandie,0,48.879900,0.171300,0
-FR_OCC,FR,France,OCC,Occitanie,,0,43.892700,3.282800,0
-FR_PAC,FR,France,PAC,Provence-Alpes-Côte d'Azur,,0,43.935200,6.067900,0
-FR_PDL,FR,France,PDL,Pays de la Loire,,0,47.763300,-0.330000,0
+FR_ARA,FR,France,ARA,Auvergne-Rhône-Alpes,,0,45.447100,4.385300,
+FR_BFC,FR,France,BFC,Bourgogne-Franche-Comté,,0,47.280500,4.999400,
+FR_BRE,FR,France,BRE,Brittany,Bretagne,0,48.202000,-2.932600,
+FR_COR,FR,France,COR,Corsica,Corse,0,42.039600,9.012900,
+FR_CVL,FR,France,CVL,Centre-Val de Loire,,0,47.751600,1.675100,
+FR_GES,FR,France,GES,Grand Est,,0,48.699800,6.187800,
+FR_GF,FR,France,GF,French Guiana,Guyane,0,3.933900,-53.125800,
+FR_GUA,FR,France,GUA,Guadeloupe,,0,16.265000,-61.551000,
+FR_HDF,FR,France,HDF,Hauts-de-France,,0,50.480100,2.793700,
+FR_IDF,FR,France,IDF,Île-de-France,,0,48.849900,2.637000,
+FR_LRE,FR,France,LRE,La Réunion,,0,-21.115100,55.536400,
+FR_MAY,FR,France,MAY,Mayotte,,0,-12.827500,45.166200,
+FR_MQ,FR,France,MQ,Martinique,,0,14.641500,-61.024200,
+FR_NAQ,FR,France,NAQ,Nouvelle-Aquitaine,,0,45.708700,0.626900,
+FR_NOR,FR,France,NOR,Normandy,Normandie,0,48.879900,0.171300,
+FR_OCC,FR,France,OCC,Occitanie,,0,43.892700,3.282800,
+FR_PAC,FR,France,PAC,Provence-Alpes-Côte d'Azur,,0,43.935200,6.067900,
+FR_PDL,FR,France,PDL,Pays de la Loire,,0,47.763300,-0.330000,
 GA,GA,Gabon,,,,-1,-0.803689,11.609444,2172579
 GB,GB,United Kingdom,,,,-1,55.378051,-3.435973,67530172
 GB_ENG,GB,United Kingdom,ENG,England,,0,51.500,-0.117,55977178
@@ -332,14 +335,14 @@ GN,GN,Guinea,,,,-1,9.945587,-9.696645,12771246
 GP,GP,Guadeloupe,,,,-1,16.995971,-62.067641,447905
 GQ,GQ,Equatorial Guinea,,,,-1,1.650801,10.267895,1355986
 GR,GR,Greece,,,,-1,39.074208,21.824312,10473455
-GS,GS,South Georgia and the South Sandwich Islands,,,,-1,-54.429579,-36.587909,0
+GS,GS,South Georgia and the South Sandwich Islands,,,,-1,-54.429579,-36.587909,
 GT,GT,Guatemala,,,,-1,15.783471,-90.230759,17581472
 GU,GU,Guam,,,,-1,13.444304,144.793731,167294
 GW,GW,Guinea-Bissau,,,,-1,11.803749,-15.180413,1920922
 GY,GY,Guyana,,,,-1,4.860416,-58.930180,782766
-GZ,GZ,Gaza Strip,,,,0,31.354676,34.308825,0
+GZ,GZ,Gaza Strip,,,,0,31.354676,34.308825,
 HK,HK,Hong Kong,,,,-1,22.396428,114.109497,7436154
-HM,HM,Heard Island and McDonald Islands,,,,0,-53.081810,73.504158,0
+HM,HM,Heard Island and McDonald Islands,,,,0,-53.081810,73.504158,
 HN,HN,Honduras,,,,-1,15.199999,-86.241905,9746117
 HR,HR,Croatia,,,,-1,45.100000,15.200000,4130304
 HT,HT,Haiti,,,,-1,18.971187,-72.285215,11263770
@@ -354,7 +357,7 @@ ID_GO,ID,Indonesia,GO,Gorontalo,,0,0.667,123.000,1133237
 ID_JA,ID,Indonesia,JA,Jambi,,0,-1.583,103.617,3515000
 ID_JB,ID,Indonesia,JB,West Java,Jawah Barat,0,-6.750,107.500,48683861
 ID_JI,ID,Indonesia,JI,East Java,Jawah Timur,0,-7.267,112.750,39744800
-ID_JK,ID,Indonesia,JK,Jakarta,DKI Jakarta,0,-6.200,106.817,0
+ID_JK,ID,Indonesia,JK,Jakarta,DKI Jakarta,0,-6.200,106.817,
 ID_JT,ID,Indonesia,JT,Central Java,Jawah Tengah,0,-7.500,110.000,34552500
 ID_KB,ID,Indonesia,KB,West Kalimantan,Kalimantan Barat,0,0.000,110.500,5045700
 ID_KI,ID,Indonesia,KI,East Kalimantan,Kalimantan Timur,0,1.050,116.317,3619700
@@ -405,8 +408,8 @@ IN_LA,IN,India,LA,Ladakh,,0,34.17,77.58,274289
 IN_LD,IN,India,LD,Lakshadweep,,0,10.6,72.6,70365
 IN_MH,IN,India,MH,Maharashtra,,0,18.97,72.820,112374333
 IN_ML,IN,India,ML,Meghalaya,,0,25.57,91.88,2964007
-IN_MN,IN,India,MN,Manipur,,0,2855794,2855794,0
-IN_MP,IN,India,MP,Madhya Pradesh,,0,23.25,77.417,0
+IN_MN,IN,India,MN,Manipur,,0,2855794,2855794,
+IN_MP,IN,India,MP,Madhya Pradesh,,0,23.25,77.417,
 IN_MZ,IN,India,MZ,Mizoram,,0,23.36,92.8,1091014
 IN_NL,IN,India,NL,Nagaland,,0,25.67,94.12,1980602
 IN_OR,IN,India,OR,Odisha,,0,20.27,85.82,45989232
@@ -420,7 +423,7 @@ IN_TR,IN,India,TR,Tripura,,0,23.84,91.28,3671032
 IN_UP,IN,India,UP,Uttar Pradesh,,0,26.85,80.91,199812341
 IN_UT,IN,India,UT,Uttarakhand,,0,30.33,78.06,10086292
 IN_WB,IN,India,WB,West Bengal,,0,22.567,88.367,91347736
-IO,IO,British Indian Ocean Territory,,,,-1,-6.343194,71.876519,0
+IO,IO,British Indian Ocean Territory,,,,-1,-6.343194,71.876519,
 IQ,IQ,Iraq,,,,-1,33.223191,43.679291,39309783
 IR,IR,Iran,,,,-1,32.427908,53.688046,82913906
 IS,IS,Iceland,,,,-1,64.963051,-19.020835,339031
@@ -462,7 +465,7 @@ JP_09,JP,Japan,09,Tochigi,栃木,0,36.517,139.817,1943886
 JP_10,JP,Japan,10,Gunma,群馬,0,36.367,139.117,1937626
 JP_11,JP,Japan,11,Saitama,埼玉,0,35.950,139.550,7338536
 JP_12,JP,Japan,12,Chiba,千葉,0,35.60500,140.12333,6278060
-JP_13,JP,Japan,13,Tokyo,東京,0,35.68972,139.69222,0
+JP_13,JP,Japan,13,Tokyo,東京,0,35.68972,139.69222,9273000
 JP_14,JP,Japan,14,Kanagawa,神奈川,0,35.4475083,139.6423444,9058094
 JP_15,JP,Japan,15,Niigata,新潟,0,37.617,138.867,2227496
 JP_16,JP,Japan,16,Toyama,富山,0,36.717,137.150,1044588
@@ -540,6 +543,7 @@ MA,MA,Morocco,,,,-1,31.791702,-7.092620,36471769
 MC,MC,Monaco,,,,-1,43.750298,7.412841,38964
 MD,MD,Moldova,,,,-1,47.411631,28.369885,4043263
 ME,ME,Montenegro,,,,-1,42.708678,19.374390,627987
+MF,MF,Saint Martin,,,,-1,,,
 MG,MG,Madagascar,,,,-1,-18.766947,46.869107,26969307
 MH,MH,Marshall Islands,,,,0,7.131474,171.184478,58791
 MK,MK,Macedonia,,,,-1,41.608635,21.745275,2083459
@@ -562,7 +566,7 @@ MX_BCS,MX,Mexico,BCS,Baja California Sur,,0,25.850,-111.967,763929
 MX_CAM,MX,Mexico,CAM,Campeche,,0,18.833,-90.400,899931
 MX_CHH,MX,Mexico,CHH,Chihuahua,,0,28.817,-106.433,3556574
 MX_CHP,MX,Mexico,CHP,Chiapas,,0,16.417,-92.417,5217908
-MX_CMX,MX,Mexico,CMX,Mexico City,,0,19.433,-99.133,0
+MX_CMX,MX,Mexico,CMX,Mexico City,,0,19.433,-99.133,8855000
 MX_COA,MX,Mexico,COA,Coahuila,,0,27.300,-102.050,2954915
 MX_COL,MX,Mexico,COL,Colima,,0,19.167,-103.883,711235
 MX_DUR,MX,Mexico,DUR,Durango,,0,24.933,-104.917,1754754
@@ -602,24 +606,24 @@ MY_10,MY,Malaysia,10,Selangor,SE,0,3.333,101.500,6448400
 MY_11,MY,Malaysia,11,Terengganu,TR,0,4.750,103.000,1210500
 MY_12,MY,Malaysia,12,Sabah,SB,0,5.250,117.000,3900000
 MY_13,MY,Malaysia,13,Sarawak,SR,0,2.800,113.883,2810000
-MY_14,MY,Malaysia,14,Kuala Lumpur,KL,0,3.14778,101.69528,0
+MY_14,MY,Malaysia,14,Kuala Lumpur,KL,0,3.14778,101.69528,8855000
 MY_15,MY,Malaysia,15,Labuan,LB,0,5.30000,115.22000,99500
 MY_16,MY,Malaysia,16,Putrajaya,PT,0,2.93000,101.69000,91900
 MZ,MZ,Mozambique,,,,-1,-18.665695,35.529562,30366036
 NA,NA,Namibia,,,,0,-22.957640,18.490410,2494530
 NC,NC,New Caledonia,,,,-1,-20.904305,165.618042,282750
 NE,NE,Niger,,,,-1,17.607789,8.081666,23310715
-NF,NF,Norfolk Island,,,,-1,-29.040835,167.954712,0
+NF,NF,Norfolk Island,,,,-1,-29.040835,167.954712,
 NG,NG,Nigeria,,,,-1,9.081999,8.675277,200963599
 NI,NI,Nicaragua,,,,-1,12.865416,-85.207229,6545502
 NL,NL,Netherlands,,,,-1,52.132633,5.291266,17097130
 NO,NO,Norway,,,,-1,60.472024,8.468946,5378857
-NO_03,NO,Norway,03,Oslo,,0,59.91389,10.75222,0
+NO_03,NO,Norway,03,Oslo,,0,59.91389,10.75222,681067
 NO_11,NO,Norway,11,Rogaland,,0,59,6,478910
 NO_15,NO,Norway,15,Møre og Romsdal,,0,62.50000,7.16667,265540
 NO_18,NO,Norway,18,Nordland,,0,66.83333,14.66667,242448
 NO_21,NO,Norway,21,Svalbard,,0,78.22,15.65,2667
-NO_22,NO,Norway,22,Jan Mayen,,0,70.983,-8.533,0
+NO_22,NO,Norway,22,Jan Mayen,,0,70.983,-8.533,
 NO_30,NO,Norway,30,Viken,,0,59.938333,10.506667,1213354
 NO_34,NO,Norway,34,Innlandet,,0,60.799167,11.056111,371385
 NO_38,NO,Norway,38,Vestfold og Telemark,,0,59.208056,9.552778,415777
@@ -689,7 +693,7 @@ PL_28,PL,Poland,28,Warmian-Masurian,warmińsko-mazurskie,0,53.783,20.500,1443967
 PL_30,PL,Poland,30,Greater Poland,wielkopolskie,0,52.29278,16.73556,3489210
 PL_32,PL,Poland,32,West Pomeranian,zachodniopomorskie,0,53.417,14.583,1715431
 PM,PM,Saint Pierre and Miquelon,,,,-1,46.941936,-56.271110,5822
-PN,PN,Pitcairn Islands,,,,-1,-24.703615,-127.439308,0
+PN,PN,Pitcairn Islands,,,,-1,-24.703615,-127.439308,
 PR,PR,Puerto Rico,,,,-1,18.220833,-66.590149,2933408
 PS,PS,Palestine,,,,-1,31.952162,35.233154,4981420
 PT,PT,Portugal,,,,-1,39.399872,-8.224454,10226187
@@ -728,7 +732,7 @@ RU_KEM,RU,Russia,KEM,Kemerovo Oblast,,0,54.933,87.233,2694877
 RU_KGD,RU,Russia,KGD,Kaliningrad Oblast,,0,54.800,21.417,994599
 RU_KGN,RU,Russia,KGN,Kurgan Oblast,,0,55.567,64.750,845537
 RU_KHA,RU,Russia,KHA,Khabarovsk Krai,,0,54.800,136.833,1328302
-RU_KHM,RU,Russia,KHM,Khanty-Mansi AO,,0,62.250,70.167,0
+RU_KHM,RU,Russia,KHM,Khanty-Mansi AO,,0,62.250,70.167,
 RU_KIR,RU,Russia,KIR,Kirov Oblast,,0,58.767,49.833,1283238
 RU_KK,RU,Russia,KK,Khakassia,,0,53.500,90.000,537513
 RU_KL,RU,Russia,KL,Kalmykia,,0,46.567,45.317,275413
@@ -812,20 +816,22 @@ SE_Z,SE,Sweden,Z,Jämtland,,0,63.35,14.4,129649
 SG,SG,Singapore,,,,-1,1.352083,103.819836,5804337
 SH,SH,Saint Helena,,,,-1,-24.143474,-10.030696,6059
 SI,SI,Slovenia,,,,-1,46.151241,14.995463,2078654
-SJ,SJ,Svalbard and Jan Mayen,,,,-1,77.553604,23.670272,0
+SJ,SJ,Svalbard and Jan Mayen,,,,-1,77.553604,23.670272,
 SK,SK,Slovakia,,,,-1,48.669026,19.699024,5457013
 SL,SL,Sierra Leone,,,,-1,8.460555,-11.779889,7813215
 SM,SM,San Marino,,,,-1,43.942360,12.457777,33860
 SN,SN,Senegal,,,,-1,14.497401,-14.452362,16296364
 SO,SO,Somalia,,,,-1,5.152149,46.199616,15442905
 SR,SR,Suriname,,,,-1,3.919305,-56.027783,581372
+SS,SS,South Sudan,,,,-1,,,
 ST,ST,São Tomé and Príncipe,,,,-1,0.186360,6.613081,215056
 SV,SV,El Salvador,,,,-1,13.794185,-88.896530,6453553
+SX,SX,Sint Maarten,,,,-1,,,
 SY,SY,Syria,,,,-1,34.802075,38.996815,17070135
 SZ,SZ,Swaziland,,,,-1,-26.522503,31.465866,1148130
 TC,TC,Turks and Caicos Islands,,,,-1,21.694025,-71.797928,38191
 TD,TD,Chad,,,,-1,15.454166,18.732207,15946876
-TF,TF,French Southern Territories,,,,-1,-49.280366,69.348557,0
+TF,TF,French Southern Territories,,,,-1,-49.280366,69.348557,
 TG,TG,Togo,,,,-1,8.619543,0.824782,8082366
 TH,TH,Thailand,,,,-1,15.870032,100.992541,69037513
 TJ,TJ,Tajikistan,,,,-1,38.861034,71.276093,9321018
@@ -840,10 +846,10 @@ TV,TV,Tuvalu,,,,0,-7.109535,177.649330,11646
 TW,TW,Taiwan,,,,-1,23.697810,120.960515,23773876
 TZ,TZ,Tanzania,,,,-1,-6.369028,34.888822,58005463
 UA,UA,Ukraine,,,,-1,48.379433,31.165580,43993638
-UA-40,RU,Russia,40,Sevastopol,,0,44.6,33.5333,0
+UA-40,RU,Russia,40,Sevastopol,,0,44.6,33.5333,
 UA_43,RU,Russia,43,Republic of Crimea,,0,45.400,35.300,1913731
 UG,UG,Uganda,,,,-1,1.373333,32.290275,44269594
-UM,UM,United States Minor Outlying Islands,,,,-1,19.282300,-166.647000,0
+UM,UM,United States Minor Outlying Islands,,,,-1,19.282300,-166.647000,
 US,US,United States of America,,,,-1,37.090240,-95.712891,329064917
 US_AK,US,United States of America,AK,Alaska,,0,61.370700,-152.404400,710249
 US_AL,US,United States of America,AL,Alabama,,0,32.318200,-86.902300,4903185
@@ -926,20 +932,14 @@ VE_X,VE,Venezuela,X,Vargas,,0,10.572,-66.88,352920
 VE_Y,VE,Venezuela,Y,Delta Amacuro,,0,10.050,-60.800,167676
 VE_Z,VE,Venezuela,Z,Amazonas,,0,3.500,-66.000,146480
 VG,VG,British Virgin Islands,,,,-1,18.420695,-64.639968,30030
-VI,VI,United States Virgin Islands,,,,-1,18.335765,-64.896335,0
+VI,VI,United States Virgin Islands,,,,-1,18.335765,-64.896335,
 VN,VN,Vietnam,,,,-1,14.058324,108.277199,96462106
 VU,VU,Vanuatu,,,,-1,-15.376706,166.959158,299882
 WF,WF,Wallis and Futuna,,,,0,-13.768752,-177.156097,11432
 WS,WS,Samoa,,,,0,-13.759029,-172.104629,197097
-XK,XK,Kosovo,,,,0,42.602636,20.902977,0
+XK,XK,Kosovo,,,,0,42.602636,20.902977,
 YE,YE,Yemen,,,,-1,15.552727,48.516388,29161922
 YT,YT,Mayotte,,,,-1,-12.827500,45.166244,266150
 ZA,ZA,South Africa,,,,-1,-30.559482,22.937506,58558270
 ZM,ZM,Zambia,,,,-1,-13.133897,27.849332,17861030
 ZW,ZW,Zimbabwe,,,,-1,-19.015438,29.154857,14645468
-BL,,,,,,-1,0,0,0
-BQ,,,,,,-1,0,0,0
-CW,,,,,,-1,0,0,0
-MF,,,,,,-1,0,0,0
-SS,,,,,,-1,0,0,0
-SX,,,,,,-1,0,0,0
