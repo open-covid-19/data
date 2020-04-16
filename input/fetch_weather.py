@@ -103,7 +103,8 @@ stations = stations[stations.measurement.apply(lambda x: all(m in x for m in mea
 stations = stations.reset_index()
 
 # Get all the POI from metadata and go through each key
-metadata = read_metadata()[['Key', 'Latitude', 'Longitude']]
+metadata = read_metadata()[['Key', 'Latitude', 'Longitude']].dropna()
+
 # Bottleneck is network so we can use lots of threads in parallel
 records = list(tqdm(ThreadPool(8).imap_unordered(
     station_records, metadata.iterrows()), total=len(metadata)))
