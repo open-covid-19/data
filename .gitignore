@@ -2,4 +2,4 @@ __pycache__/
 .env
 .vscode
 .ipynb_checkpoints/
-*.xls
+input/*.ipynb
