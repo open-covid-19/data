@@ -25,6 +25,9 @@ data = data[[col for col in data.columns
 data.columns = [col.split('_')[-1] for col in data.columns]
 data.columns = [re.sub(r'\s(\w)', lambda m: m.group(1).upper(), col) for col in data.columns]
 
+# Fix column typo
+data = data.rename(columns={'ClosePublicTransport': 'PublicTransportClosing'})
+
 # Use appropriate data type for each column
 for col in data.columns:
     if col in ('Date', 'Key'):

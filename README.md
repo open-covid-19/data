@@ -187,7 +187,7 @@ from [University of Oxford][18]:
 | **SchoolClosing** | [0-3] Schools are closed | 2 |
 | **WorkplaceClosing** | [0-3] Workplaces are closed | 2 |
 | **CancelPublicEvents** | [0-3] Public events have been cancelled | 2 |
-| **ClosePublicTransport** | [0-3] Public transport is not operational | 0 |
+| **PublicTransportClosing** | [0-3] Public transport is not operational | 0 |
 | **PublicInformationCampaigns** | [0-2] Government has launched public information campaigns | 1 |
 | **RestrictionsOnInternalMovement** | [0-3] Travel within country is restricted | 1 |
 | **InternationalTravelControls** | [0-3] International travel is restricted | 3 |
