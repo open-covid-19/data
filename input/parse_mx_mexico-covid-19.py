@@ -6,7 +6,7 @@ import pandas as pd
 from covid_io import read_argv
 from utils import dataframe_output, pivot_table, ROOT
 
-# https://raw.github.com/carranco-sga/Mexico-COVID-19/master/Mexico_COVID19.csv
+# https://raw.githubusercontent.com/carranco-sga/Mexico-COVID-19/master/Mexico_COVID19_CTD.csv
 df = read_argv()
 df = df.rename(columns={'Fecha': 'Date'}).set_index('Date')
 
