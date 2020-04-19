@@ -848,6 +848,8 @@ Date,Country,Indicator,Value
 2020-04-17,Wales,ConfirmedCases,6645
 2020-04-17,Wales,Deaths,506
 2020-04-17,Wales,Tests,20066
+2020-04-18,England,ConfirmedCases,87022
+2020-04-18,England,Deaths,13917
 2020-04-18,Northern Ireland,ConfirmedCases,2486
 2020-04-18,Northern Ireland,Deaths,193
 2020-04-18,Northern Ireland,Tests,15749
@@ -860,3 +862,15 @@ Date,Country,Indicator,Value
 2020-04-18,Wales,ConfirmedCases,6936
 2020-04-18,Wales,Deaths,534
 2020-04-18,Wales,Tests,20766
+2020-04-19,Northern Ireland,ConfirmedCases,2645
+2020-04-19,Northern Ireland,Deaths,194
+2020-04-19,Northern Ireland,Tests,16490
+2020-04-19,Scotland,ConfirmedCases,8187
+2020-04-19,Scotland,Deaths,903
+2020-04-19,Scotland,Tests,39612
+2020-04-19,UK,ConfirmedCases,120067
+2020-04-19,UK,Deaths,16060
+2020-04-19,UK,Tests,372967
+2020-04-19,Wales,ConfirmedCases,7270
+2020-04-19,Wales,Deaths,575
+2020-04-19,Wales,Tests,21717
