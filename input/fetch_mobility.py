@@ -16,7 +16,7 @@ def get_mobility_report(key: str):
     ''' Reads Google's mobility report parsed by @pastelsky '''
 
     # Load data from GitHub
-    url = ('https://pastelsky.github.io/covid-19-mobility-tracker'
+    url = ('https://ssugar.github.io/covid-19-mobility-tracker'
            '/output/%s/mobility.json' % key.replace('_', '/'))
     data = json.loads(requests.get(url).text)
 
