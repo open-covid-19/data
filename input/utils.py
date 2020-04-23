@@ -113,13 +113,11 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
     # Make sure _RegionLabel column exists for all region-label data
     if code is not None:
         data['_RegionLabel1'] = data.apply(_infer_region_label('_RegionLabel'), axis=1)
-        data['_RegionLabel2'] = data.apply(_infer_region_label('_RegionLabel'), axis=1)
         metadata['_RegionLabel1'] = metadata.apply(_infer_region_label('_RegionLabel1'), axis=1)
-        metadata['_RegionLabel2'] = metadata.apply(_infer_region_label('_RegionLabel2'), axis=1)
 
     # Try to merge with metadata using keys in decreasing order of concreteness
     merge_keys = ['Date', 'CountryCode', 'Confirmed', 'Deaths']
-    for key in ('Key', 'RegionCode', '_RegionLabel1', '_RegionLabel2'):
+    for key in ('Key', 'RegionCode', '_RegionLabel1'):
         if key in data.columns:
             data_ = data[[key] + merge_keys].merge(metadata, how=metadata_merge)
             if len(data_) > 0:
