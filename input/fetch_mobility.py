@@ -15,7 +15,7 @@ countries = data[data.sub_region_1.isna()].merge(metadata[metadata.RegionCode.is
 # Then process regional data for the records we can match
 regions = []
 for match_column in ('RegionName', '_RegionLabel1', '_RegionLabel2'):
-    data_ = data[~data.sub_region_1.isna()]
+    data_ = data[(~data.sub_region_1.isna()) & (data.sub_region_2.isna())]
     data_ = data_.rename(columns={'sub_region_1': match_column})
     regions.append(data_.merge(metadata[~metadata.RegionCode.isna()]))
 regions = concat(regions)
