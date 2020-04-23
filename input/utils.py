@@ -75,19 +75,18 @@ def read_metadata():
     metadata = read_file(
         ROOT / 'input' / 'metadata.csv', dtype=column_dtypes, keep_default_na=False, na_values=[''])
 
-    # Make sure that all entries have a valid region label column
-    metadata['_RegionLabel'] = metadata.apply(_infer_region_label, axis=1)
-
     return metadata
 
 
-def _infer_region_label(row: Series):
-    if '_RegionLabel' in row and not pandas.isna(row['_RegionLabel']):
-        return fuzzy_text(row['_RegionLabel'])
-    elif 'RegionName' in row and not pandas.isna(row['RegionName']):
-        return fuzzy_text(row['RegionName'])
-    else:
-        return None
+def _infer_region_label(column: str):
+    def _apply_func(row: Series):
+        if column in row and not pandas.isna(row[column]):
+            return fuzzy_text(row[column])
+        elif 'RegionName' in row and not pandas.isna(row['RegionName']):
+            return fuzzy_text(row['RegionName'])
+        else:
+            return None
+    return _apply_func
 
 
 def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'inner'):
@@ -113,11 +112,14 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
 
     # Make sure _RegionLabel column exists for all region-label data
     if code is not None:
-        data['_RegionLabel'] = data.apply(_infer_region_label, axis=1)
+        data['_RegionLabel1'] = data.apply(_infer_region_label('_RegionLabel'), axis=1)
+        data['_RegionLabel2'] = data.apply(_infer_region_label('_RegionLabel'), axis=1)
+        metadata['_RegionLabel1'] = metadata.apply(_infer_region_label('_RegionLabel1'), axis=1)
+        metadata['_RegionLabel2'] = metadata.apply(_infer_region_label('_RegionLabel2'), axis=1)
 
     # Try to merge with metadata using keys in decreasing order of concreteness
     merge_keys = ['Date', 'CountryCode', 'Confirmed', 'Deaths']
-    for key in ('Key', 'RegionCode', '_RegionLabel'):
+    for key in ('Key', 'RegionCode', '_RegionLabel1', '_RegionLabel2'):
         if key in data.columns:
             data_ = data[[key] + merge_keys].merge(metadata, how=metadata_merge)
             if len(data_) > 0:
