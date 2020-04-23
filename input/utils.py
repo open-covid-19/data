@@ -96,20 +96,20 @@ def dataframe_output(data: DataFrame, code: str = None, metadata_merge: str = 'i
     1. Sorts the dataset by date and country / region
     2. Merges the data with country / region metadata
     '''
-    # If no country code is given, then this is region-level metadata
-    if code is None:
-        data['RegionCode'] = None
-    else:
-        data['CountryCode'] = code
-
-    # We should always have country code column
-    assert 'CountryCode' in data.columns
 
     # Core columns are those that appear in all datasets and can be used for merging with metadata
     core_columns = open(ROOT / 'input' / 'output_columns.csv').readline().strip().split(',')
 
     # Data from https://developers.google.com/public-data/docs/canonical/countries_csv and Wikipedia
     metadata = read_metadata()
+
+    # If no country code is given, then this is region-level metadata
+    if code is None:
+        data['RegionCode'] = None
+        metadata = metadata[metadata['RegionCode'].isna()]
+    else:
+        data['CountryCode'] = code
+        metadata = metadata[~metadata['RegionCode'].isna()]
 
     # Make sure _RegionLabel column exists for all region-label data
     if code is not None:
