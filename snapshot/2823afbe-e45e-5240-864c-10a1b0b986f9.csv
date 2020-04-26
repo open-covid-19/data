@@ -940,9 +940,17 @@ Date,Country,Indicator,Value
 2020-04-24,Wales,ConfirmedCases,8601
 2020-04-24,Wales,Deaths,751
 2020-04-24,Wales,Tests,25898
+2020-04-25,England,ConfirmedCases,108051
+2020-04-25,England,Deaths,18083
+2020-04-25,Northern Ireland,ConfirmedCases,3226
+2020-04-25,Northern Ireland,Deaths,294
+2020-04-25,Northern Ireland,Tests,18666
 2020-04-25,Scotland,ConfirmedCases,10051
 2020-04-25,Scotland,Deaths,1231
 2020-04-25,Scotland,Tests,47749
+2020-04-25,UK,ConfirmedCases,148377
+2020-04-25,UK,Deaths,20319
+2020-04-25,UK,Tests,517836
 2020-04-25,Wales,ConfirmedCases,8900
 2020-04-25,Wales,Deaths,774
 2020-04-25,Wales,Tests,26992
