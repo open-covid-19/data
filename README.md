@@ -163,7 +163,7 @@ a true value of zero is reported.
 
 ### Mobility
 Google's [Mobility Reports][17] are presented in CSV form as
-[mobility.csv](https://open-covid-19.github.io/data/data_minimal.csv) with the
+[mobility.csv](https://open-covid-19.github.io/data/mobility.csv) with the
 following columns:
 
 | Name | Description | Example |
