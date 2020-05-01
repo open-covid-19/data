@@ -26,7 +26,7 @@ jobs:
 
     - name: Fetch government response
       run: |
-        curl -sSL "https://open-covid-19.github.io/data/response.csv" > output/response.csv
+        python input/fetch_response.py  > output/response.csv
 
     - name: Fetch weather data
       run: |
