@@ -59,9 +59,11 @@ for table_index in range(table_count):
     # Some of the tables are in Spanish
     data = data.rename(columns={'Fecha': 'Date'})
 
-    # Set date column as index
+    # Set first date column as index, drop other date columns
     columns_lowercase = [(col or '').lower() for col in data.columns]
     date_index = columns_lowercase.index('date') if 'date' in columns_lowercase else 0
+    del_index = [i for i, col in enumerate(columns_lowercase) if col == 'date'][1:]
+    data = data.iloc[:, [i for i, _ in enumerate(data.columns) if i not in del_index]]
     data = data.set_index(data.columns[date_index])
     data = data.iloc[:, :-args.skipcols]
     if args.droprows is not None:
