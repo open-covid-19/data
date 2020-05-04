@@ -5,11 +5,15 @@ import sys
 from pandas import read_csv
 from utils import ROOT, datetime_isoformat, read_metadata, safe_int_cast
 
-data = read_csv('https://ocgptweb.azurewebsites.net/CSVDownload')
+
+data = read_csv('https://raw.github.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv')
 data = data.drop(columns=['CountryName', 'ConfirmedCases', 'ConfirmedDeaths'])
 data = data.drop(columns=[col for col in data.columns if col.endswith('_Notes')])
 data = data.drop(columns=[col for col in data.columns if col.endswith('_IsGeneral')])
 data['Date'] = data['Date'].apply(lambda x: datetime_isoformat(x, '%Y%m%d'))
+
+# Drop redundant flag columns
+data = data.drop(columns=[col for col in data.columns if '_Flag' in col])
 
 # Join with ISO data
 iso = read_csv(ROOT / 'input' / 'ISO-3166-2.csv')[['3166-2-Alpha-2', '3166-2-Alpha-3']]
