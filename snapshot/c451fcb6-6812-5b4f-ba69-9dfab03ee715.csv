@@ -848,7 +848,7 @@ pruid,prname,prnameFR,date,numconf,numprob,numdeaths,numtotal,numtested,numrecov
 11,Prince Edward Island,Île-du-Prince-Édouard,02-05-2020,27,0,0,27,3086,24,88.89,,0,0.000
 60,Yukon,Yukon,02-05-2020,11,0,0,11,1019,11,100.00,,0,0.000
 61,Northwest Territories,Territoires du Nord-Ouest,02-05-2020,5,0,0,5,1682,5,100.00,,0,0.000
-62,Nunavut,Nunavut,02-05-2020,1,0,0,1,421,0,0.00,,0,0.000
+62,Nunavut,Nunavut,02-05-2020,0,0,0,0,421,0,N/A,,-1,-1.000
 99,Repatriated travellers,Voyageurs rapatriés,02-05-2020,13,0,,13,76,13,100.00,,0,0.000
 1,Canada,Canada,02-05-2020,56714,0,3566,56714,866235,23801,41.97,,1653,0.030
 59,British Columbia,Colombie-Britannique,03-05-2020,2171,0,114,2171,81061,1376,63.38,,0,0.000
@@ -863,7 +863,7 @@ pruid,prname,prnameFR,date,numconf,numprob,numdeaths,numtotal,numtested,numrecov
 11,Prince Edward Island,Île-du-Prince-Édouard,03-05-2020,27,0,0,27,3138,24,88.89,,0,0.000
 60,Yukon,Yukon,03-05-2020,11,0,0,11,1023,11,100.00,,0,0.000
 61,Northwest Territories,Territoires du Nord-Ouest,03-05-2020,5,0,0,5,1697,5,100.00,,0,0.000
-62,Nunavut,Nunavut,03-05-2020,1,0,0,1,421,0,0.00,,0,0.000
+62,Nunavut,Nunavut,03-05-2020,0,0,0,0,421,0,N/A,,0,0.000
 99,Repatriated travellers,Voyageurs rapatriés,03-05-2020,13,0,0,13,76,13,100.00,,0,0.000
 1,Canada,Canada,03-05-2020,59474,0,3682,59474,897444,24908,41.88,,2760,0.049
 59,British Columbia,Colombie-Britannique,04-05-2020,2224,0,117,2224,82862,1417,63.71,,,
