@@ -16,7 +16,7 @@ df = read_argv(encoding='ISO-8859-1').rename(columns={
 df['CountryCode'] = 'ES'
 
 # Confirmed cases are split across 3 columns
-confirmed_columns = ['CASOS', 'PCR+']
+confirmed_columns = ['CASOS', 'PCR+', 'TestAc+']
 for col in confirmed_columns:
     df[col] = df[col].fillna(0)
 df['Confirmed'] = df.apply(lambda x: sum([x[col] for col in confirmed_columns]), axis=1)
