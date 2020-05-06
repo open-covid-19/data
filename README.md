@@ -188,16 +188,20 @@ from [University of Oxford][18]:
 | **SchoolClosing** | [0-3] Schools are closed | 2 |
 | **WorkplaceClosing** | [0-3] Workplaces are closed | 2 |
 | **CancelPublicEvents** | [0-3] Public events have been cancelled | 2 |
+| **RestrictionsOnGatherings** | [0-3] Gatherings of non-household members are restricted | 2 |
 | **PublicTransportClosing** | [0-3] Public transport is not operational | 0 |
-| **PublicInformationCampaigns** | [0-2] Government has launched public information campaigns | 1 |
+| **StayAtHomeRequirements** | [0-3] Self-quarantine at home is mandated for everyone | 0 |
 | **RestrictionsOnInternalMovement** | [0-3] Travel within country is restricted | 1 |
 | **InternationalTravelControls** | [0-3] International travel is restricted | 3 |
+| **IncomeSupport** | [USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
+| **DebtRelief** | [0-3] Debt/contract relief for households | 0 |
 | **FiscalMeasures** | [USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
-| **MonetaryMeasures** | [%] Value of interest rate | -0.75 |
+| **InternationalSupport** | [USD] Giving international support to other countries | -0.75 |
+| **PublicInformationCampaigns** | [0-2] Government has launched public information campaigns | 1 |
+| **TestingPolicy** | [0-3] Country-wide COVID-19 testing policy | 1 |
+| **ContactTracing** | [0-2] Country-wide contact tracing policy | 1 |
 | **EmergencyInvestmentInHealthCare** | [USD] Emergency funding allocated to healthcare | 500000 |
 | **InvestmentInVaccines** | [USD] Emergency funding allocated to vaccine research | 100000 |
-| **TestingFramework** | [0-3] Country-wide COVID-19 testing policy | 1 |
-| **ContactTracing** | [0-2] Country-wide contact tracing policy | 1 |
 | **StringencyIndex** | [0-100] Overall stringency index | 71.43 |
 
 For more information about each field and how the overall stringency index is
