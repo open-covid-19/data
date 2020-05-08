@@ -1,0 +1,7 @@
+__pycache__/
+.env
+.vscode
+.ipynb_checkpoints/
+input/*.ipynb
+output/
+snapshot/

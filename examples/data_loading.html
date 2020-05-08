@@ -1,0 +1,41 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <!-- This will be updated once data loads -->
+    <p>The dataset currently contains <span id="count"></span> records, here are the last few:</p>
+
+    <!-- This table will be populated with our output -->
+    <table id="table" border="1"></table>
+
+    <script>
+        $.getJSON(`https://open-covid-19.github.io/data/data.json`, data => {
+
+            // Update the count of records
+            $('#count').text = data.length;
+
+            // Use a string variable to build HTML output for simplicity (use Buffer in production)
+            let output = '';
+
+            // Get the column names from the first record
+            const columns = Object.keys(data[0]);
+
+            // Write table headers
+            output += `<tr>`;
+            columns.forEach(key => output += `<th>${key}</th>`);
+            output += `</tr>`;
+
+            // Write the last 5 rows of the table
+            data.slice(-5).forEach(row => {
+                output += `<tr>`;
+                columns.forEach(key => output += `<td>${row[key]}</td>`);
+                output += `</tr>`;
+            });
+
+            // Update the table
+            $('#table').html(output);
+        });
+    </script>
+</body>
+</html>
