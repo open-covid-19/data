@@ -9,7 +9,7 @@ from pipelines import epidemiology
 (ROOT / 'snapshot').mkdir(exist_ok=True)
 
 # Read the auxiliary input files into memory
-aux = read_file(ROOT / 'input' / 'data' / 'auxiliary.csv')
+aux = read_file(ROOT / 'src' / 'data' / 'auxiliary.csv')
 
 # Run all the pipelines and place their outputs into the output folder
 for pipeline_chain in [epidemiology]:
