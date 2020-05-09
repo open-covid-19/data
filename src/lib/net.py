@@ -4,7 +4,7 @@
 import uuid
 
 import requests
-from lib.utils import ROOT
+from .utils import ROOT
 
 
 def download(url: str, ext: str = None, offline: bool = False):

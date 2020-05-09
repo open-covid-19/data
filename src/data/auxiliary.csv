@@ -11,8 +11,8 @@ AO,AO,Angola,,,-11.202692,17.873887,31825295,,,-1
 AQ,AQ,Antarctica,,,-75.250973,-0.071389,,,,-1
 AR,AR,Argentina,,,-38.416097,-63.616672,44780677,,,-1
 AR_A,AR,Argentina,A,Salta,-24.783,-65.417,1214441,SA,,0
-AR_B,AR,Argentina,B,Buenos Aires Province,-33.700,-61.000,15625084,BA (P),,0
-AR_C,AR,Argentina,C,City of Buenos Aires,-34.60333,-58.38167,2891082,BA (C),,0
+AR_B,AR,Argentina,B,Buenos Aires Province,-33.700,-61.000,15625084,BA-P,,0
+AR_C,AR,Argentina,C,City of Buenos Aires,-34.60333,-58.38167,2891082,BA-C,,0
 AR_D,AR,Argentina,D,San Luis,-33.300,-66.350,432310,SL,,0
 AR_E,AR,Argentina,E,Entre Ríos,-32.0477,-60.281,1235994,ER,,0
 AR_F,AR,Argentina,F,La Rioja,-29.433,-66.850,333642,LR,,0

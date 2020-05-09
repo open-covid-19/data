@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
-from lib.utils import ROOT
 from lib.io import read_file
+from lib.utils import ROOT
 from pipelines import epidemiology
 
 # Ensure that there is an output folder to put the data in
