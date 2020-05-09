@@ -1,13 +1,15 @@
 from typing import Any, Dict
 from pandas import DataFrame, concat
 
+from lib.cast import column_convert
 from lib.time import date_offset
+from lib.utils import combine_tables
 from lib.default_pipeline import DefaultPipeline
 
-from pipelines.epidemiology.pipeline import EpidemiologyPipeline
-from pipelines.epidemiology.es_datadista import DatadistaPipeline
-from pipelines.epidemiology.xx_ecdc import ECDCPipeline
-from pipelines.epidemiology.xx_wikipedia import WikipediaPipeline
+from .pipeline import EpidemiologyPipeline
+from .es_datadista import DatadistaPipeline
+from .xx_ecdc import ECDCPipeline
+from .xx_wikipedia import WikipediaPipeline
 
 
 def run(aux: DataFrame, **pipeline_opts) -> DataFrame:
@@ -17,8 +19,10 @@ def run(aux: DataFrame, **pipeline_opts) -> DataFrame:
     pipeline_chain = [
         (ECDCPipeline(), {}),
         (DatadistaPipeline(), {}),
-        (WikipediaPipeline('{}/Argentina_medical_cases'.format(wiki_base_url)), {'parse_opts':
-            {'date_format': '%d %b', 'country': 'AR', 'skiprows': 1, 'droprows': 'date'}}),
+        (WikipediaPipeline('{}/Argentina_medical_cases'.format(wiki_base_url)),
+         {'parse_opts': {'date_format': '%d %b', 'country': 'AR', 'skiprows': 1, 'cumsum': True}}),
+        (WikipediaPipeline('{}/Australia_medical_cases'.format(wiki_base_url)),
+         {'parse_opts': {'date_format': '%d %B', 'country': 'AU', 'cumsum': True}}),
     ]
 
     # Get all the pipeline outputs
@@ -28,10 +32,11 @@ def run(aux: DataFrame, **pipeline_opts) -> DataFrame:
     ]
 
     # Combine all pipeline outputs into a single DataFrame
-    data = concat(pipeline_data)
+    data = combine_tables(pipeline_data, ['date', 'key'])
 
-    # TODO: group keys and combine values
-    # data = ...
+    # Re-do casting of columns which sometimes is overriden by the combine step
+    for column, dtype in EpidemiologyPipeline.output_columns.items():
+        data[column] = column_convert(data[column], dtype)
 
     # Return data sorted based on column order
     return data.sort_values(list(EpidemiologyPipeline.output_columns.keys()))

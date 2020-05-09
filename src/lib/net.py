@@ -23,4 +23,4 @@ def download(url: str, ext: str = None, offline: bool = False):
             file_handle.write(requests.get(url).content)
 
     # Output the downloaded file path
-    return file_path.relative_to(ROOT)
+    return file_path.absolute()

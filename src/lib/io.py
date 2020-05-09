@@ -10,6 +10,8 @@ from unidecode import unidecode
 from pandas import DataFrame, read_csv
 from bs4 import BeautifulSoup, Tag
 
+from .cast import safe_int_cast
+
 
 def fuzzy_text(text: str):
     return re.sub(r'[^a-z]', '', unidecode(str(text)).lower())
@@ -41,7 +43,7 @@ def read_file(path: str, **kwargs):
 def _get_html_columns(row: Tag) -> List[Tag]:
     cols = []
     for elem in filter(lambda row: isinstance(row, Tag), row.children):
-        cols += [elem] * int(elem.attrs.get('colspan', 1))
+        cols += [elem] * (safe_int_cast(elem.attrs.get('colspan', 1)) or 1)
     return list(cols)
 
 

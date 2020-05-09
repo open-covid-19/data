@@ -81,4 +81,4 @@ class DataPipeline:
             data = self.patch(data, patch, **patch_opts)
 
         # Return the final dataframe
-        return data[self.output_columns]
+        return data

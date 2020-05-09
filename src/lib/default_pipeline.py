@@ -10,12 +10,13 @@ from .net import download
 from .io import read_file, fuzzy_text
 from .data_pipeline import DataPipeline
 
+
 class DefaultPipeline(DataPipeline):
     '''
     Data pipeline which provides a default implementation for:
     * Fetch: downloads raw data from a list of URLs into ../snapshots folder. See [lib.net].
     * Merge: outputs a key from the auxiliary dataset after performing best-effort matching.
-    *
+    * TODO: finish this list
     '''
     data_urls: List[str] = None
     fetch_opts: List[Dict[str, Any]] = None
@@ -75,7 +76,8 @@ class DefaultPipeline(DataPipeline):
 
         # Make sure all columns are present and have the appropriate type
         for column, dtype in self.output_columns.items():
-            if column not in data: data[column] = None
+            if column not in data:
+                data[column] = None
             data[column] = column_convert(data[column], dtype)
 
         # Filter only the output columns

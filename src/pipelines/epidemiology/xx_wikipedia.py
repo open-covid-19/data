@@ -109,17 +109,18 @@ class WikipediaPipeline(EpidemiologyPipeline):
 
         # Compute diff of the values region by region if required
         value_columns = ['confirmed', 'deceased']
-        if parse_opts.get('diff'):
+        if parse_opts.get('cumsum'):
             for region in data['subregion'].unique():
                 mask = data['subregion'] == region
-                data.loc[mask, value_columns] = data.loc[mask, value_columns].fillna(0).diff()
+                data.loc[mask, value_columns] = data.loc[mask, value_columns].ffill()
+                # Only perform operation if the column is not all NaN
+                for column in value_columns:
+                    zero_filled = data.loc[mask, column].fillna(0)
+                    if sum(zero_filled) > 0:
+                        data.loc[mask, column] = zero_filled.diff()
 
         # Get rid of rows which have all null values
         data = data.dropna(how='all', subset=value_columns)
-
-        # If we don't have deaths data, then make them null rather than zero
-        if parse_opts.get('null_deaths'):
-            data['deceased'] = None
 
         # Add the country code to all records
         data['country'] = parse_opts['country']
