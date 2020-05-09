@@ -3,6 +3,7 @@ from pandas import DataFrame
 from lib.time import datetime_isoformat
 from .pipeline import EpidemiologyPipeline
 
+
 class ECDCPipeline(EpidemiologyPipeline):
     data_urls: List[str] = ['https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/']
     fetch_opts: List[Dict[str, Any]] = [{'ext': 'csv'}]
@@ -31,10 +32,10 @@ class ECDCPipeline(EpidemiologyPipeline):
         data = data[data['geoId'] != 'IT']
 
         # Add a column to denote null subregion to match only country-level metadata
-        data['subregion_1'] = None
+        data['subregion_1_code'] = None
 
         return data.rename(columns={
-            'geoId': 'country',
+            'geoId': 'country_code',
             'cases': 'confirmed',
             'deaths': 'deceased',
-        })[['date', 'country', 'subregion_1', 'confirmed', 'deceased']]
+        })[['date', 'country_code', 'subregion_1_code', 'confirmed', 'deceased']]

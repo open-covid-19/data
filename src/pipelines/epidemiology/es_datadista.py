@@ -19,7 +19,7 @@ class DatadistaPipeline(EpidemiologyPipeline):
         data = merge(data, dataframes[1], suffixes=('confirmed', 'deceased'), **join_opts)
         data = merge(data, dataframes[2], suffixes=('', ''), **join_opts)
 
-        data['country'] = 'ES'
+        data['country_code'] = 'ES'
         data = data.rename(columns={
             'fecha': 'date',
             'CCAA': 'match_string',
@@ -33,8 +33,8 @@ class DatadistaPipeline(EpidemiologyPipeline):
             data[column] = data.groupby(['date', 'match_string'])[column].fillna(0).diff()
 
         # Compute the country-level stats by adding all subregions
-        data_country = data.groupby(['date', 'country']).sum().reset_index()
+        data_country = data.groupby(['date', 'country_code']).sum().reset_index()
         data_country['match_string'] = 'total'
         data = concat([data, data_country])
 
-        return data[['date', 'country', 'match_string', 'confirmed', 'deceased', 'hospitalised']]
+        return data[['date', 'country_code', 'match_string', 'confirmed', 'deceased', 'hospitalised']]

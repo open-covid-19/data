@@ -41,14 +41,11 @@ def output_table(schema: Dict[str, Any], data: DataFrame, *output_opts) -> DataF
     '''
     output_columns = list(schema.keys())
 
-    # Filter only the output columns
-    data = data[output_columns]
-
     # Make sure all columns are present and have the appropriate type
     for column, dtype in schema.items():
         if column not in data:
             data[column] = None
         data[column] = column_convert(data[column], dtype)
 
-    # Output the sorted data
-    return data.sort_values(output_columns)
+    # Filter only output columns and output the sorted data
+    return data[output_columns].sort_values(output_columns)

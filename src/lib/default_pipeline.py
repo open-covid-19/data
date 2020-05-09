@@ -33,13 +33,15 @@ class DefaultPipeline(DataPipeline):
     def merge(self, record: Dict[str, Any], aux: DataFrame, **merge_opts) -> str:
 
         # Start by filtering the auxiliary dataset as much as possible
-        for column in ('country', 'subregion_1', 'subregion_2'):
-            if column not in record:
-                continue
-            elif isna(record[column]):
-                aux = aux[aux[column].isna()]
-            elif record[column]:
-                aux = aux[aux[column] == record[column]]
+        for column_prefix in ('country', 'subregion_1', 'subregion_2'):
+            for column_suffix in ('code', 'name'):
+                column = '{}_{}'.format(column_prefix, column_suffix)
+                if column not in record:
+                    continue
+                elif isna(record[column]):
+                    aux = aux[aux[column].isna()]
+                elif record[column]:
+                    aux = aux[aux[column] == record[column]]
 
         # Auxiliary dataset might have a single record left, then we are done
         if len(aux) == 1:
@@ -49,9 +51,21 @@ class DefaultPipeline(DataPipeline):
         if 'key' in record and record['key'] in aux:
             return record['key']
 
-        # Iterate over the auxiliary dataset and attempt to do a regex match of the input string
+        # Provided match string could be a subregion code / name
+        if 'match_string' in record:
+            record_value = fuzzy_text(record['match_string'])
+            for column_prefix in ('subregion_1', 'subregion_2'):
+                for column_suffix in ('code', 'name'):
+                    column = '{}_{}'.format(column_prefix, column_suffix)
+                    aux_fuzzy = aux[column].apply(fuzzy_text)
+                    aux_match = aux_fuzzy == record_value
+                    if sum(aux_match) == 1:
+                        return aux[aux_match].iloc[0]['key']
+
+        # Last resort is to match the `match_string` column with a regex from aux
         if 'match_string' in record:
             match_string = fuzzy_text(record['match_string'])
+            # TODO: this loop can potentially be vectorized
             for idx, row in aux.iterrows():
                 key = row['key']
                 if 'match_regex' not in row or isnull(row['match_regex']):

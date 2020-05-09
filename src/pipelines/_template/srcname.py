@@ -25,5 +25,11 @@ class SourceNamePipeline(TemplatePipeline):
 
         # Here we can manipulate the data any way we want...
 
+        # The default merge strategy uses the following strategy to merge:
+        # 1. If *all* code / name for country, subregion_1 and subregion_2 match
+        # 2. If `string_match` column is the same as code / name for subregion_1 or subregion_2
+        # 3. If `string_match` matches the `string_regex` using a case-insensitive regex match
+        # data['string_match'] = ...
+
         # Finally, return the data which is ready to go to the next step of the pipeline
         return data

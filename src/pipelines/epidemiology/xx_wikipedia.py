@@ -10,6 +10,7 @@ from lib.time import datetime_isoformat
 from lib.utils import pivot_table
 from .pipeline import EpidemiologyPipeline
 
+
 class WikipediaPipeline(EpidemiologyPipeline):
     data_urls: List[str] = ['https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/']
     fetch_opts: List[Dict[str, Any]] = [{'ext': 'html'}]
@@ -104,29 +105,38 @@ class WikipediaPipeline(EpidemiologyPipeline):
 
         # Add up all the rows with same Date and subregion
         data = data.sort_values(['date', 'subregion'])
-        data = data.drop(columns=['value']).groupby(['subregion', 'date']).agg(self.aggregate_region_values)
+        data = data.drop(columns=['value']).groupby(
+            ['subregion', 'date']).agg(self.aggregate_region_values)
         data = data.reset_index().sort_values(['date', 'subregion'])
 
-        # Compute diff of the values region by region if required
         value_columns = ['confirmed', 'deceased']
-        if parse_opts.get('cumsum'):
-            for region in data['subregion'].unique():
-                mask = data['subregion'] == region
-                data.loc[mask, value_columns] = data.loc[mask, value_columns].ffill()
+        # Iterate over the individual subregions to process the values per group
+        for region in data['subregion'].unique():
+            mask = data['subregion'] == region
+            data.loc[mask, value_columns] = data.loc[mask, value_columns].ffill()
+            for column in value_columns:
+                zero_filled = data.loc[mask, column].fillna(0)
                 # Only perform operation if the column is not all NaN
-                for column in value_columns:
-                    zero_filled = data.loc[mask, column].fillna(0)
-                    if sum(zero_filled) > 0:
+                if sum(zero_filled) > 0:
+                    # Compute diff of the values region by region if required
+                    if parse_opts.get('cumsum'):
                         data.loc[mask, column] = zero_filled.diff()
+                    # If values are already new daily counts, then empty most likely means zero
+                    else:
+                        data.loc[mask, column] = zero_filled
 
         # Get rid of rows which have all null values
         data = data.dropna(how='all', subset=value_columns)
 
         # Add the country code to all records
-        data['country'] = parse_opts['country']
+        data['country_code'] = parse_opts['country']
+
+        # Labels can be any arbitrary column name
+        data = data.rename(columns={'subregion': 'match_string'})
 
         # Output the results
         if parse_opts.get('debug'):
             print('\nOutput:')
             print(data.head(50))
-        return data.rename(columns={'subregion': 'match_string'})
+
+        return data
