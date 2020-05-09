@@ -18,8 +18,12 @@ class DefaultPipeline(DataPipeline):
     * Merge: outputs a key from the auxiliary dataset after performing best-effort matching.
     * TODO: finish this list
     '''
+
     data_urls: List[str] = None
+    ''' Define our URLs of raw data to be downloaded '''
+
     fetch_opts: List[Dict[str, Any]] = None
+    ''' Fetch options; see [lib.net.download] for more details '''
 
     def fetch(self, **fetch_opts) -> List[str]:
         num_urls = len(self.data_urls)
@@ -69,19 +73,7 @@ class DefaultPipeline(DataPipeline):
         return self.parse_dataframes(self._read(sources), **parse_opts)
 
     def filter(self, data: DataFrame, filter_func: Callable[[Any], bool], **filter_opts) -> DataFrame:
-        assert self.output_columns is not None
-
-        if filter_func is not None:
-            data = data[data.apply(filter_func, axis=1)]
-
-        # Make sure all columns are present and have the appropriate type
-        for column, dtype in self.output_columns.items():
-            if column not in data:
-                data[column] = None
-            data[column] = column_convert(data[column], dtype)
-
-        # Filter only the output columns
-        return data[self.output_columns.keys()]
+        return data[data.apply(filter_func, axis=1)]
 
     def patch(self, data: DataFrame, patch: DataFrame, **patch_opts) -> DataFrame:
         data = data.copy()

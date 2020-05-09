@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
-from typing import List
+from typing import Any, List, Dict
 from pandas import DataFrame, Series, concat, isna
-
+from .cast import column_convert
 
 ROOT = Path(os.path.dirname(__file__)) / '..' / '..'
 
@@ -29,3 +29,26 @@ def combine_tables(tables: List[DataFrame], keys: List[str]) -> DataFrame:
     data = concat(tables)
     grouped = data.groupby(keys)
     return grouped.aggregate(agg_last_not_null).reset_index()
+
+
+def output_table(schema: Dict[str, Any], data: DataFrame, *output_opts) -> DataFrame:
+    '''
+    This function performs the following operations:
+    1. Filters out columns not in the output schema
+    2. Converts each column to the appropriate type
+    3. Sorts the values based on the column order
+    4. Outputs the resulting data
+    '''
+    output_columns = list(schema.keys())
+
+    # Filter only the output columns
+    data = data[output_columns]
+
+    # Make sure all columns are present and have the appropriate type
+    for column, dtype in schema.items():
+        if column not in data:
+            data[column] = None
+        data[column] = column_convert(data[column], dtype)
+
+    # Output the sorted data
+    return data.sort_values(output_columns)

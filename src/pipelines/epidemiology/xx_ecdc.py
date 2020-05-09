@@ -1,7 +1,7 @@
 from typing import Any, Dict, List
 from pandas import DataFrame
 from lib.time import datetime_isoformat
-from pipelines.epidemiology.pipeline import EpidemiologyPipeline
+from .pipeline import EpidemiologyPipeline
 
 class ECDCPipeline(EpidemiologyPipeline):
     data_urls: List[str] = ['https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/']

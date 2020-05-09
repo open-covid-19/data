@@ -1,14 +1,15 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.time import datetime_isoformat
-from pipelines.epidemiology.pipeline import EpidemiologyPipeline
+from .pipeline import EpidemiologyPipeline
+
 
 class DatadistaPipeline(EpidemiologyPipeline):
     url_base = 'https://raw.github.com/datadista/datasets/master/COVID%2019'
     data_urls: List[str] = [
-      '{}/ccaa_covid19_casos_long.csv'.format(url_base),
-      '{}/ccaa_covid19_fallecidos_long.csv'.format(url_base),
-      '{}/ccaa_covid19_hospitalizados_long.csv'.format(url_base),
+        '{}/ccaa_covid19_casos_long.csv'.format(url_base),
+        '{}/ccaa_covid19_fallecidos_long.csv'.format(url_base),
+        '{}/ccaa_covid19_hospitalizados_long.csv'.format(url_base),
     ]
 
     def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):

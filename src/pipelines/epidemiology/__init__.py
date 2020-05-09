@@ -1,9 +1,6 @@
-from typing import Any, Dict
-from pandas import DataFrame, concat
+from pandas import DataFrame
 
-from lib.cast import column_convert
-from lib.time import date_offset
-from lib.utils import combine_tables
+from lib.utils import combine_tables, output_table
 from lib.default_pipeline import DefaultPipeline
 
 from .pipeline import EpidemiologyPipeline
@@ -34,9 +31,5 @@ def run(aux: DataFrame, **pipeline_opts) -> DataFrame:
     # Combine all pipeline outputs into a single DataFrame
     data = combine_tables(pipeline_data, ['date', 'key'])
 
-    # Re-do casting of columns which sometimes is overriden by the combine step
-    for column, dtype in EpidemiologyPipeline.output_columns.items():
-        data[column] = column_convert(data[column], dtype)
-
-    # Return data sorted based on column order
-    return data.sort_values(list(EpidemiologyPipeline.output_columns.keys()))
+    # Return data using the pipeline's output parameters
+    return output_table(EpidemiologyPipeline.schema, data)

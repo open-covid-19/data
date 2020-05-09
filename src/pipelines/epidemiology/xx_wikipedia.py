@@ -8,7 +8,7 @@ from lib.cast import safe_int_cast, safe_datetime_parse
 from lib.io import count_html_tables, read_html, wiki_html_cell_parser
 from lib.time import datetime_isoformat
 from lib.utils import pivot_table
-from pipelines.epidemiology.pipeline import EpidemiologyPipeline
+from .pipeline import EpidemiologyPipeline
 
 class WikipediaPipeline(EpidemiologyPipeline):
     data_urls: List[str] = ['https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/']

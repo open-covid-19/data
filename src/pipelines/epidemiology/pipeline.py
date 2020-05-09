@@ -6,7 +6,7 @@ from lib.default_pipeline import DefaultPipeline
 
 
 class EpidemiologyPipeline(DefaultPipeline):
-    output_columns: Dict[str, Any] = {
+    schema: Dict[str, Any] = {
         'date': str,
         'key': str,
         'confirmed': 'Int64',

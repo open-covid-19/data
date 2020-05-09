@@ -1,6 +1,7 @@
 from typing import Any, Callable, Dict, List
 from pandas import DataFrame
 
+
 class DataPipeline:
     '''
     Interface for data pipelines. A data pipeline consists of a series of steps performed in the
@@ -13,7 +14,7 @@ class DataPipeline:
     6. Patch: apply hotfixes to specific data issues
     '''
 
-    output_columns: Dict[str, Any] = None
+    schema: Dict[str, Any] = None
     ''' Names and corresponding dtypes of output columns '''
 
     def fetch(self, **fetch_opts) -> List[str]:
@@ -49,17 +50,18 @@ class DataPipeline:
         ...
 
     def run(
-        self,
-        aux: DataFrame,
-        fetch_opts: Dict[str, Any] = {},
-        parse_opts: Dict[str, Any] = {},
-        merge_opts: Dict[str, Any] = {},
-        transform_opts: Dict[str, Any] = {},
-        filter_func: Callable[[Any], bool] = None,
-        filter_opts: Dict[str, Any] = {},
-        patch: DataFrame = None,
-        patch_opts: Dict[str, Any] = {}) -> DataFrame:
+            self,
+            aux: DataFrame,
+            fetch_opts: Dict[str, Any] = {},
+            parse_opts: Dict[str, Any] = {},
+            merge_opts: Dict[str, Any] = {},
+            transform_opts: Dict[str, Any] = {},
+            filter_func: Callable[[Any], bool] = None,
+            filter_opts: Dict[str, Any] = {},
+            patch: DataFrame = None,
+            patch_opts: Dict[str, Any] = {}) -> DataFrame:
 
+        # Fetch and parse the data
         data = self.fetch(**fetch_opts)
         data = self.parse(data, **parse_opts)
 
@@ -67,14 +69,15 @@ class DataPipeline:
         data['key'] = data.apply(lambda x: self.merge(x, aux), axis=1)
 
         # Drop records which have no key merged
-        # TODO: log records with missing key
+        # TODO: log records with missing key somewhere on disk
         data = data.dropna(subset=['key'])
 
         # Transform the data to perform numerical corrections
         data = self.transform(data, aux, **transform_opts)
 
-        # Filter out data, make sure appropriate columns exist and are of right type
-        data = self.filter(data, filter_func, **filter_opts)
+        # Filter out data according to the user-provided filter function
+        if filter_func is not None:
+            data = self.filter(data, filter_func, **filter_opts)
 
         # Patch the data only if necessary
         if patch is not None:
