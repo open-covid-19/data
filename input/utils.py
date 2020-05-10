@@ -33,7 +33,7 @@ def series_converter(series: pandas.Series):
 
 
 def timezone_adjust(timestamp: str, offset: int):
-    ''' Adjust hour difference between a timezone and GMT+1 '''
+    ''' Adjust hour difference between a timezone and given offset '''
     timestamp = datetime.fromisoformat(timestamp)
     if timestamp.hour <= 24 - offset:
         return timestamp.date().isoformat()

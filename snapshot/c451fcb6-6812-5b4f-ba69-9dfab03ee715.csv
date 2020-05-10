@@ -941,18 +941,33 @@ pruid,prname,prnameFR,date,numconf,numprob,numdeaths,numtotal,numtested,numrecov
 62,Nunavut,Nunavut,08-05-2020,0,0,0,0,550,0,N/A,14183,0,0.000,0.000
 99,Repatriated travellers,Voyageurs rapatriés,08-05-2020,13,0,,13,76,,,,0,0.000,
 1,Canada,Canada,08-05-2020,66434,0,4569,66434,1034905,30226,45.50,27532,1512,0.023,176.737
-59,British Columbia,Colombie-Britannique,09-05-2020,2330,0,129,2330,91668,1659,71.20,18076,,,45.945
-48,Alberta,Alberta,09-05-2020,6157,0,116,6157,169415,4204,68.28,38756,,,140.850
-47,Saskatchewan,Saskatchewan,09-05-2020,553,0,6,553,33453,340,61.48,28484,,,47.085
-46,Manitoba,Manitoba,09-05-2020,284,0,7,284,29438,247,86.97,21496,,,20.738
-35,Ontario,Ontario,09-05-2020,19944,0,1599,19944,402761,14383,72.12,27650,,,136.916
-24,Quebec,Québec,09-05-2020,36986,0,2786,36986,276787,9268,25.06,32621,,,435.900
-10,Newfoundland and Labrador,Terre-Neuve-et-Labrador,09-05-2020,261,0,3,261,9699,244,93.49,18597,,,50.044
-13,New Brunswick,Nouveau-Brunswick,09-05-2020,120,0,0,120,16417,118,98.33,21133,,,15.447
-12,Nova Scotia,Nouvelle-Écosse,09-05-2020,1011,0,47,1011,34531,743,73.49,35548,,,104.077
-11,Prince Edward Island,Île-du-Prince-Édouard,09-05-2020,27,0,0,27,3777,27,100.00,24065,,,17.203
-60,Yukon,Yukon,09-05-2020,11,0,0,11,1075,11,100.00,26313,,,26.925
-61,Northwest Territories,Territoires du Nord-Ouest,09-05-2020,5,0,0,5,1790,5,100.00,39932,,,11.154
-62,Nunavut,Nunavut,09-05-2020,0,0,0,0,568,0,N/A,14647,,,0.000
-99,Repatriated travellers,Voyageurs rapatriés,09-05-2020,13,0,,13,76,,,,,,
-1,Canada,Canada,09-05-2020,67702,0,4693,67702,1071455,31249,46.16,28504,,,180.110
+59,British Columbia,Colombie-Britannique,09-05-2020,2330,0,129,2330,91668,1659,71.20,18076,15,0.006,45.945
+48,Alberta,Alberta,09-05-2020,6157,0,116,6157,169415,4204,68.28,38756,59,0.010,140.850
+47,Saskatchewan,Saskatchewan,09-05-2020,553,0,6,553,33453,340,61.48,28484,9,0.017,47.085
+46,Manitoba,Manitoba,09-05-2020,284,0,7,284,29438,247,86.97,21496,0,0.000,20.738
+35,Ontario,Ontario,09-05-2020,19944,0,1599,19944,402761,14383,72.12,27650,346,0.018,136.916
+24,Quebec,Québec,09-05-2020,36986,0,2786,36986,276787,9268,25.06,32621,836,0.023,435.900
+10,Newfoundland and Labrador,Terre-Neuve-et-Labrador,09-05-2020,261,0,3,261,9699,244,93.49,18597,0,0.000,50.044
+13,New Brunswick,Nouveau-Brunswick,09-05-2020,120,0,0,120,16417,118,98.33,21133,0,0.000,15.447
+12,Nova Scotia,Nouvelle-Écosse,09-05-2020,1011,0,47,1011,34531,743,73.49,35548,3,0.003,104.077
+11,Prince Edward Island,Île-du-Prince-Édouard,09-05-2020,27,0,0,27,3777,27,100.00,24065,0,0.000,17.203
+60,Yukon,Yukon,09-05-2020,11,0,0,11,1075,11,100.00,26313,0,0.000,26.925
+61,Northwest Territories,Territoires du Nord-Ouest,09-05-2020,5,0,0,5,1790,5,100.00,39932,0,0.000,11.154
+62,Nunavut,Nunavut,09-05-2020,0,0,0,0,568,0,N/A,14647,0,0.000,0.000
+99,Repatriated travellers,Voyageurs rapatriés,09-05-2020,13,0,,13,76,,,,0,0.000,
+1,Canada,Canada,09-05-2020,67702,0,4693,67702,1071455,31249,46.16,28504,1268,0.019,180.110
+59,British Columbia,Colombie-Britannique,10-05-2020,2330,0,129,2330,93431,1659,71.20,,,,
+48,Alberta,Alberta,10-05-2020,6157,0,116,6157,169415,4204,68.28,,,,
+47,Saskatchewan,Saskatchewan,10-05-2020,553,0,6,553,34093,340,61.48,,,,
+46,Manitoba,Manitoba,10-05-2020,284,0,7,284,29438,247,86.97,,,,
+35,Ontario,Ontario,10-05-2020,20238,0,1634,20238,419802,14772,72.99,,,,
+24,Quebec,Québec,10-05-2020,36986,0,2786,36986,278389,9268,25.06,,,,
+10,Newfoundland and Labrador,Terre-Neuve-et-Labrador,10-05-2020,261,0,3,261,9802,244,93.49,,,,
+13,New Brunswick,Nouveau-Brunswick,10-05-2020,120,0,0,120,16750,118,98.33,,,,
+12,Nova Scotia,Nouvelle-Écosse,10-05-2020,1011,0,47,1011,34820,743,73.49,,,,
+11,Prince Edward Island,Île-du-Prince-Édouard,10-05-2020,27,0,0,27,3846,27,100.00,,,,
+60,Yukon,Yukon,10-05-2020,11,0,0,11,1075,11,100.00,,,,
+61,Northwest Territories,Territoires du Nord-Ouest,10-05-2020,5,0,0,5,1799,5,100.00,,,,
+62,Nunavut,Nunavut,10-05-2020,0,0,0,0,568,0,N/A,,,,
+99,Repatriated travellers,Voyageurs rapatriés,10-05-2020,13,0,,13,76,,,,,,
+1,Canada,Canada,10-05-2020,67996,0,4728,67996,1093304,31638,46.53,,,,
