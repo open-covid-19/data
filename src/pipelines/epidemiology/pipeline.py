@@ -11,7 +11,7 @@ class EpidemiologyPipeline(DefaultPipeline):
         'key': str,
         'confirmed': 'Int64',
         'deceased': 'Int64',
-        'hospitalised': 'Int64',
+        'recovered': 'Int64',
     }
 
     def transform(self, data: DataFrame, aux: DataFrame, **transform_opts) -> DataFrame:

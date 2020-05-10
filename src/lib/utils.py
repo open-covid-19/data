@@ -31,6 +31,17 @@ def combine_tables(tables: List[DataFrame], keys: List[str]) -> DataFrame:
     return grouped.aggregate(agg_last_not_null).reset_index()
 
 
+def grouped_diff(data: DataFrame, keys: List[str]) -> DataFrame:
+    assert keys[-1] == 'date', '"date" key should be last'
+    data = data.sort_values(keys)
+    group = data.groupby(keys[:-1])
+    value_columns = [column for column in data.columns if column not in keys]
+    for column in value_columns:
+        if sum(~data[column].isna()) == 0: continue
+        data[column] = group[column].transform(lambda x: x.ffill().diff())
+    return data.dropna(subset=value_columns)
+
+
 def output_table(schema: Dict[str, Any], data: DataFrame, *output_opts) -> DataFrame:
     '''
     This function performs the following operations:

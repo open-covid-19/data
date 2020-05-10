@@ -38,7 +38,7 @@ class DefaultPipeline(DataPipeline):
                 column = '{}_{}'.format(column_prefix, column_suffix)
                 if column not in record:
                     continue
-                elif isna(record[column]):
+                elif isnull(record[column]):
                     aux = aux[aux[column].isna()]
                 elif record[column]:
                     aux = aux[aux[column] == record[column]]
@@ -61,6 +61,14 @@ class DefaultPipeline(DataPipeline):
                     aux_match = aux_fuzzy == record_value
                     if sum(aux_match) == 1:
                         return aux[aux_match].iloc[0]['key']
+
+        # Provided match string could be identical to `match_regex` (without applying expr)
+        if 'match_string' in record:
+            record_value = fuzzy_text(record['match_string'])
+            aux_match = aux['match_regex'].apply(fuzzy_text)
+            aux_match = aux_fuzzy == record_value
+            if sum(aux_match) == 1:
+                return aux[aux_match].iloc[0]['key']
 
         # Last resort is to match the `match_string` column with a regex from aux
         if 'match_string' in record:

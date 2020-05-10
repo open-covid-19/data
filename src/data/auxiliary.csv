@@ -213,7 +213,7 @@ CO_BOY,CO,Colombia,BOY,Boyacá,,,1278061,,,0
 CO_CAL,CO,Colombia,CAL,Caldas,,,984128,,,0
 CO_CAQ,CO,Colombia,CAQ,Caquetá,,,465477,,,0
 CO_CAS,CO,Colombia,CAS,Casanare,,,344027,,,0
-CO_CAU,CO,Colombia,CAU,Cauca,,,1354744,Valle del Cauca,,0
+CO_CAU,CO,Colombia,CAU,Cauca,,,1354744,Valle (de)?l Cauca,,0
 CO_CES,CO,Colombia,CES,Cesar,,,1200574,,,0
 CO_CHO,CO,Colombia,CHO,Chocó,,,534826,,,0
 CO_COR,CO,Colombia,COR,Córdoba,,,1784783,,,0
@@ -356,10 +356,10 @@ ID_BE,ID,Indonesia,BE,Bengkulu,,,1971800,,,0
 ID_BT,ID,Indonesia,BT,Banten,,,12959169,,,0
 ID_GO,ID,Indonesia,GO,Gorontalo,,,1133237,,,0
 ID_JA,ID,Indonesia,JA,Jambi,,,3515000,,,0
-ID_JB,ID,Indonesia,JB,West Java,,,48683861,Jawah Barat,,0
-ID_JI,ID,Indonesia,JI,East Java,,,39744800,Jawah Timur,,0
+ID_JB,ID,Indonesia,JB,West Java,,,48683861,Jawa Barat,,0
+ID_JI,ID,Indonesia,JI,East Java,,,39744800,Jawa Timur,,0
 ID_JK,ID,Indonesia,JK,Jakarta,,,,DKI Jakarta,,0
-ID_JT,ID,Indonesia,JT,Central Java,,,34552500,Jawah Tengah,,0
+ID_JT,ID,Indonesia,JT,Central Java,,,34552500,Jawa Tengah,,0
 ID_KB,ID,Indonesia,KB,West Kalimantan,,,5045700,Kalimantan Barat,,0
 ID_KI,ID,Indonesia,KI,East Kalimantan,,,3619700,Kalimantan Timur,,0
 ID_KR,ID,Indonesia,KR,Riau Islands,,,2241570,Kepulauan Riau,,0
@@ -396,7 +396,7 @@ IN_CH,IN,India,CH,Chandigarh,,,1055450,,,0
 IN_CT,IN,India,CT,Chhattisgarh,,,25545198,,,0
 IN_DD,IN,India,DD,Daman and Diu,,,242911,,,0
 IN_DL,IN,India,DL,Delhi,,,26454000,,,0
-IN_DN,IN,India,DN,Dadra and Nagar Haveli,,,342853,,,0
+IN_DN,IN,India,DN,Dadra and Nagar Haveli,,,342853,Dadra and Nagar Haveli and Daman and Diu,,0
 IN_GA,IN,India,GA,Goa,,,1458545,,,0
 IN_GJ,IN,India,GJ,Gujarat,,,60439692,,,0
 IN_HP,IN,India,HP,Himachal Pradesh,,,6864602,,,0
@@ -638,32 +638,32 @@ NZ,NZ,New Zealand,,,,,4783063,,,0
 OM,OM,Oman,,,,,4974986,,,-1
 PA,PA,Panama,,,,,4246439,,,-1
 PE,PE,Peru,,,,,32510453,,,-1
-PE_AMA,PE,Peru,AMA,Amazonas,,,379384,AMA,,0
-PE_ANC,PE,Peru,ANC,Ancash,,,1083519,ANC,,0
-PE_APU,PE,Peru,APU,Apurímac,,,405759,APU,,0
-PE_ARE,PE,Peru,ARE,Arequipa,,,1382730,ARE,,0
-PE_AYA,PE,Peru,AYA,Ayacucho,,,616176,AYA,,0
-PE_CAJ,PE,Peru,CAJ,Cajamarca,,,1341012,CAJ,,0
-PE_CAL,PE,Peru,CAL,Callao,,,994494,CAL,,0
+PE_AMA,PE,Peru,AMA,Amazonas,,,379384,,,0
+PE_ANC,PE,Peru,ANC,Ancash,,,1083519,,,0
+PE_APU,PE,Peru,APU,Apurímac,,,405759,,,0
+PE_ARE,PE,Peru,ARE,Arequipa,,,1382730,,,0
+PE_AYA,PE,Peru,AYA,Ayacucho,,,616176,,,0
+PE_CAJ,PE,Peru,CAJ,Cajamarca,,,1341012,,,0
+PE_CAL,PE,Peru,CAL,Callao,,,994494,,,0
 PE_CUS,PE,Peru,CUS,Cuzco,,,1205527,CUZ,,0
-PE_HUC,PE,Peru,HUC,Huánuco,,,730871,HUC,,0
-PE_HUV,PE,Peru,HUV,Huancavelica,,,347639,HUV,,0
-PE_ICA,PE,Peru,ICA,Ica,,,850765,ICA,,0
-PE_JUN,PE,Peru,JUN,Junín,,,1246038,JUN,,0
-PE_LAL,PE,Peru,LAL,La Libertad,,,1778080,LAL,,0
-PE_LAM,PE,Peru,LAM,Lambayeque,,,1197260,LAM,,0
-PE_LIM,PE,Peru,LIM,Lima,,,9485405,LIM,,0
-PE_LMA,PE,Peru,LMA,Lima Province,,,8574974,LMA,,0
-PE_LOR,PE,Peru,LOR,Loreto,,,883510,LOR,,0
-PE_MDD,PE,Peru,MDD,Madre de Dios,,,141070,MDD,,0
-PE_MOQ,PE,Peru,MOQ,Moquegua,,,174863,MOQ,,0
-PE_PAS,PE,Peru,PAS,Pasco,,,254065,PAS,,0
-PE_PIU,PE,Peru,PIU,Piura,,,1856809,PIU,,0
-PE_PUN,PE,Peru,PUN,Puno,,,1172697,PUN,,0
-PE_SAM,PE,Peru,SAM,San Martín,,,813381,SAM,,0
-PE_TAC,PE,Peru,TAC,Tacna,,,274496,TAC,,0
-PE_TUM,PE,Peru,TUM,Tumbes,,,224863,TUM,,0
-PE_UCA,PE,Peru,UCA,Ucayali,,,496459,UCA,,0
+PE_HUC,PE,Peru,HUC,Huánuco,,,730871,,,0
+PE_HUV,PE,Peru,HUV,Huancavelica,,,347639,HUA,,0
+PE_ICA,PE,Peru,ICA,Ica,,,850765,,,0
+PE_JUN,PE,Peru,JUN,Junín,,,1246038,,,0
+PE_LAL,PE,Peru,LAL,La Libertad,,,1778080,,,0
+PE_LAM,PE,Peru,LAM,Lambayeque,,,1197260,,,0
+PE_LIM,PE,Peru,LIM,Lima,,,9485405,,,0
+PE_LMA,PE,Peru,LMA,Lima Province,,,8574974,,,0
+PE_LOR,PE,Peru,LOR,Loreto,,,883510,,,0
+PE_MDD,PE,Peru,MDD,Madre de Dios,,,141070,,,0
+PE_MOQ,PE,Peru,MOQ,Moquegua,,,174863,,,0
+PE_PAS,PE,Peru,PAS,Pasco,,,254065,,,0
+PE_PIU,PE,Peru,PIU,Piura,,,1856809,,,0
+PE_PUN,PE,Peru,PUN,Puno,,,1172697,,,0
+PE_SAM,PE,Peru,SAM,San Martín,,,813381,,,0
+PE_TAC,PE,Peru,TAC,Tacna,,,274496,,,0
+PE_TUM,PE,Peru,TUM,Tumbes,,,224863,,,0
+PE_UCA,PE,Peru,UCA,Ucayali,,,496459,,,0
 PF,PF,French Polynesia,,,,,279287,,,-1
 PG,PG,Papua New Guinea,,,,,8776109,,,-1
 PH,PH,Philippines,,,,,108116615,,,-1
@@ -712,7 +712,7 @@ RO,RO,Romania,,,,,19364557,,,-1
 RS,RS,Serbia,,,,,8772235,,,-1
 RU,RU,Russia,,,,,145872256,,,0
 RU_AD,RU,Russia,AD,Adygea,,,453376,,,0
-RU_ALT,RU,Russia,ALT,Altai Krai,,,2350080,,,0
+RU_ALT,RU,Russia,ALT,Altai Krai,,,2350080,Altai Republic,,0
 RU_AMU,RU,Russia,AMU,Amur Oblast,,,798424,,,0
 RU_ARK,RU,Russia,ARK,Arkhangelsk Oblast,,,1155028,,,0
 RU_AST,RU,Russia,AST,Astrakhan Oblast,,,1017514,,,0
@@ -722,11 +722,15 @@ RU_BRY,RU,Russia,BRY,Bryansk Oblast,,,1210982,,,0
 RU_BU,RU,Russia,BU,Buryatia,,,984511,,,0
 RU_CE,RU,Russia,CE,Chechnya,,,1436981,,,0
 RU_CHE,RU,Russia,CHE,Chelyabinsk Oblast,,,3493036,,,0
+RU_CHU,RU,Russia,CHU,Chukotka AO,,,3493036,,,0
 RU_CU,RU,Russia,CU,Chuvashia,,,1231117,,,0
 RU_DA,RU,Russia,DA,Dagestan,,,3063885,,,0
+RU_IN,RU,Russia,IN,Ingushetia,,,2404195,,,0
 RU_IRK,RU,Russia,IRK,Irkutsk Oblast,,,2404195,,,0
 RU_IVA,RU,Russia,IVA,Ivanovo Oblast,,,1014646,,,0
+RU_KAM,RU,Russia,KAM,Kamchatka Krai,,,865828,,,0
 RU_KB,RU,Russia,KB,Kabardino-Balkaria,,,865828,,,0
+RU_KC,RU,Russia,KC,Karachay-Cherkessia,,,865828,,,0
 RU_KDA,RU,Russia,KDA,Krasnodar Krai,,,5603420,,,0
 RU_KEM,RU,Russia,KEM,Kemerovo Oblast,,,2694877,,,0
 RU_KGD,RU,Russia,KGD,Kaliningrad Oblast,,,994599,,,0
@@ -739,6 +743,7 @@ RU_KL,RU,Russia,KL,Kalmykia,,,275413,,,0
 RU_KLU,RU,Russia,KLU,Kaluga Oblast,,,1012156,,,0
 RU_KO,RU,Russia,KO,Komi Republic,,,840873,,,0
 RU_KOS,RU,Russia,KOS,Kostroma Oblast,,,643324,,,0
+RU_KR,RU,Russia,KR,Republic of Karelia,,,1115237,,,0
 RU_KRS,RU,Russia,KRS,Kursk Oblast,,,1115237,,,0
 RU_KYA,RU,Russia,KYA,Krasnoyarsk Krai,,,2876497,,,0
 RU_LEN,RU,Russia,LEN,Leningrad Oblast,,,1813816,,,0
@@ -749,6 +754,7 @@ RU_MO,RU,Russia,MO,Mordovia,,,805056,,,0
 RU_MOS,RU,Russia,MOS,Moscow Oblast,,,7503385,,,0
 RU_MOW,RU,Russia,MOW,Moscow,,,12506468,,,0
 RU_MUR,RU,Russia,MUR,Murmansk Oblast,,,753557,,,0
+RU_NEN,RU,Russia,NEN,Nenets AO,,,606476,,,0
 RU_NGR,RU,Russia,NGR,Novgorod Oblast,,,606476,,,0
 RU_NIZ,RU,Russia,NIZ,Nizhny Novgorod Oblast,,,3234752,,,0
 RU_NVS,RU,Russia,NVS,Novosibirsk Oblast,,,2788849,,,0
@@ -775,6 +781,7 @@ RU_TAM,RU,Russia,TAM,Tambov Oblast,,,1033552,,,0
 RU_TOM,RU,Russia,TOM,Tomsk Oblast,,,1078280,,,0
 RU_TUL,RU,Russia,TUL,Tula Oblast,,,1491855,,,0
 RU_TVE,RU,Russia,TVE,Tver Oblast,,,1283873,,,0
+RU_TY,RU,Russia,TY,Tuva,,,3692400,,,0
 RU_TYU,RU,Russia,TYU,Tyumen Oblast,,,3692400,,,0
 RU_UD,RU,Russia,UD,Udmurtia,,,1513044,,,0
 RU_ULY,RU,Russia,ULY,Ulyanovsk Oblast,,,1246618,,,0

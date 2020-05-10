@@ -29,7 +29,7 @@ class WikipediaPipeline(EpidemiologyPipeline):
         non_null = [value for value in group if not (isna(value) or isnull(value))]
         return None if not non_null else sum(non_null)
 
-    def parse(self, sources, **parse_opts):
+    def parse(self, sources: List[str], **parse_opts):
 
         # Get the file contents from source
         html_content = open(sources[0]).read()
@@ -113,9 +113,16 @@ class WikipediaPipeline(EpidemiologyPipeline):
         # Iterate over the individual subregions to process the values per group
         for region in data['subregion'].unique():
             mask = data['subregion'] == region
-            data.loc[mask, value_columns] = data.loc[mask, value_columns].ffill()
+
             for column in value_columns:
+
+                # We can forward-fill values if data is cumsum
+                if parse_opts.get('cumsum'):
+                    data.loc[mask, column] = data.loc[mask, column].ffill()
+
+                # Fill NA with zero to allow for column-wide operations
                 zero_filled = data.loc[mask, column].fillna(0)
+
                 # Only perform operation if the column is not all NaN
                 if sum(zero_filled) > 0:
                     # Compute diff of the values region by region if required
@@ -133,6 +140,15 @@ class WikipediaPipeline(EpidemiologyPipeline):
 
         # Labels can be any arbitrary column name
         data = data.rename(columns={'subregion': 'match_string'})
+
+        # Drop column if requested
+        if 'drop_column' in parse_opts:
+            data = data.drop(columns=[parse_opts['drop_column']])
+
+        # Remove known values that are just noise
+        data['_match_string'] = data['match_string'].apply(lambda x: x.lower())
+        data = data[~data['_match_string'].isin(
+            ['Cml', 'New', 'Total', 'Deaths', 'Tests', 'Airport', 'Abroad', 'Current'])]
 
         # Output the results
         if parse_opts.get('debug'):

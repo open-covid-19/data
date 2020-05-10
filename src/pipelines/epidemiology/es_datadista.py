@@ -1,5 +1,6 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.utils import grouped_diff
 from lib.time import datetime_isoformat
 from .pipeline import EpidemiologyPipeline
 
@@ -29,8 +30,7 @@ class DatadistaPipeline(EpidemiologyPipeline):
         }).sort_values(['match_string', 'date'])
 
         # Data is cumulative, compute the diff
-        for column in ('confirmed', 'deceased', 'hospitalised'):
-            data[column] = data.groupby(['date', 'match_string'])[column].fillna(0).diff()
+        data = grouped_diff(data, ['date', 'match_string'])
 
         # Compute the country-level stats by adding all subregions
         data_country = data.groupby(['date', 'country_code']).sum().reset_index()
