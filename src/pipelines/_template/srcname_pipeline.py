@@ -1,10 +1,10 @@
 from typing import Any, Dict, List
 from pandas import DataFrame
+from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat
-from .pipeline import TemplatePipeline
 
 
-class SourceNamePipeline(TemplatePipeline):
+class SourceNamePipeline(DefaultPipeline):
     ''' This is a custom pipeline that downloads a CSV file and outputs it '''
 
     data_urls: List[str] = ['https://example.com/data.csv']
@@ -13,7 +13,8 @@ class SourceNamePipeline(TemplatePipeline):
     fetch_opts: List[Dict[str, Any]] = None
     ''' Leave the fetch options as the default, see [lib.net.download] for more details '''
 
-    def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):
+    def parse_dataframes(
+            self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts) -> DataFrame:
         '''
         If the data fetched is a supported format, like CSV or JSON, it will be automatically parsed
         and passed as an argument to this function. For data that requires special parsing, override
@@ -25,11 +26,14 @@ class SourceNamePipeline(TemplatePipeline):
 
         # Here we can manipulate the data any way we want...
 
-        # The default merge strategy uses the following strategy to merge:
-        # 1. If *all* code / name for country, subregion_1 and subregion_2 match
-        # 2. If `string_match` column is the same as code / name for subregion_1 or subregion_2
-        # 3. If `string_match` matches the `string_regex` using a case-insensitive regex match
+        # The default merge strategy is defined in [DefaultPipeline.merge], see that method for
+        # more details.
         # data['string_match'] = ...
 
         # Finally, return the data which is ready to go to the next step of the pipeline
         return data
+
+    ##
+    # Any functions of DefaultPipeline could be overridden here. We could also
+    # define our own functions here if necessary.
+    ##

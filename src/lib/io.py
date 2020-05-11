@@ -26,16 +26,19 @@ def read_argv(**kwargs):
     return data[0] if len(data) == 1 else data
 
 
-def read_file(path: str, **kwargs):
+def read_file(path: str, **read_opts):
     ext = str(path).split('.')[-1]
+
     if ext == 'csv':
-        return pandas.read_csv(path, **kwargs)
+        return pandas.read_csv(
+            path, **{**{'keep_default_na': False, 'na_values': ['', 'N/A']}, **read_opts})
     elif ext == 'json':
-        return pandas.read_json(path, **kwargs)
+        return pandas.read_json(path, **read_opts)
     elif ext == 'html':
-        return read_html(open(path).read(), **kwargs)
+        return read_html(open(path).read(), **read_opts)
     elif ext == 'xls' or ext == 'xlsx':
-        return pandas.read_excel(path, **kwargs)
+        return pandas.read_excel(
+            path, **{**{'keep_default_na': False, 'na_values': ['', 'N/A']}, **read_opts})
     else:
         raise ValueError('Unrecognized extension: %s' % ext)
 
@@ -61,12 +64,12 @@ def wiki_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
 
 
 def read_html(
-    html: str,
-    selector: str = 'table',
-    table_index: int = 0,
-    skiprows: int = 0,
-    header: bool = False,
-    parser = None) -> DataFrame:
+        html: str,
+        selector: str = 'table',
+        table_index: int = 0,
+        skiprows: int = 0,
+        header: bool = False,
+        parser: callable = None) -> DataFrame:
     ''' Parse an HTML table into a DataFrame '''
     parser = parser if parser is not None else _default_html_cell_parser
 

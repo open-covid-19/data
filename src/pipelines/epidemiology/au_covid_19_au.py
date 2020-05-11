@@ -1,16 +1,17 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff
-from .pipeline import EpidemiologyPipeline
 
 
-class Covid19AuPipeline(EpidemiologyPipeline):
+class Covid19AuPipeline(DefaultPipeline):
     data_urls: List[str] = [
         'https://raw.github.com/covid-19-au/covid-19-au.github.io/prod/src/data/state.json'
     ]
 
-    def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):
+    def parse_dataframes(
+            self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts) -> DataFrame:
         data = dataframes[0].transpose()
 
         # Transform the data from non-tabulated format to record format
@@ -21,7 +22,7 @@ class Covid19AuPipeline(EpidemiologyPipeline):
                 record = {
                     'date': idx.date().isoformat(),
                     'country_code': 'AU',
-                    'subregion_1_code': code,
+                    'subregion1_code': code,
                     'confirmed': subset[0],
                 }
                 if len(subset) > 1:
@@ -33,4 +34,4 @@ class Covid19AuPipeline(EpidemiologyPipeline):
                 records.append(record)
 
         data = DataFrame.from_records(records)
-        return grouped_diff(data, ['country_code', 'subregion_1_code', 'date'])
+        return grouped_diff(data, ['country_code', 'subregion1_code', 'date'])

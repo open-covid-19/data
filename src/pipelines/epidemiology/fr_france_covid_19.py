@@ -1,18 +1,19 @@
 import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat
-from .pipeline import EpidemiologyPipeline
 
 
-class FranceCovid19Pipeline(EpidemiologyPipeline):
+class FranceCovid19Pipeline(DefaultPipeline):
     url_base = 'https://raw.github.com/cedricguadalupe/FRANCE-COVID-19/master'
     data_urls: List[str] = [
         '{}/france_coronavirus_time_series-confirmed.csv'.format(url_base),
         '{}/france_coronavirus_time_series-deaths.csv'.format(url_base),
     ]
 
-    def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):
+    def parse_dataframes(
+            self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts) -> DataFrame:
 
         confirmed, deaths = dataframes
         for df in (confirmed, deaths):

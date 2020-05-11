@@ -5,13 +5,13 @@ from typing import Any, Dict, List
 from pandas import DataFrame, isna, isnull
 
 from lib.cast import safe_int_cast, safe_datetime_parse
+from lib.pipeline import DefaultPipeline
 from lib.io import count_html_tables, read_html, wiki_html_cell_parser
 from lib.time import datetime_isoformat
 from lib.utils import pivot_table
-from .pipeline import EpidemiologyPipeline
 
 
-class WikipediaPipeline(EpidemiologyPipeline):
+class WikipediaPipeline(DefaultPipeline):
     data_urls: List[str] = ['https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/']
     fetch_opts: List[Dict[str, Any]] = [{'ext': 'html'}]
 
@@ -20,16 +20,18 @@ class WikipediaPipeline(EpidemiologyPipeline):
         self.data_urls = [url]
 
     @staticmethod
-    def parenthesis(x):
+    def _parenthesis(x: str) -> str:
         regexp = r'\((\d+)\)'
         return re.sub(regexp, '', x), (re.search(regexp, x) or [None, None])[1]
 
     @staticmethod
-    def aggregate_region_values(group: DataFrame):
+    def _aggregate_region_values(group: DataFrame) -> float:
         non_null = [value for value in group if not (isna(value) or isnull(value))]
         return None if not non_null else sum(non_null)
 
-    def parse(self, sources: List[str], **parse_opts):
+    def parse(self, sources: List[str], aux: List[DataFrame], **parse_opts) -> DataFrame:
+        if parse_opts.get('debug'):
+            print('File name:', sources[0])
 
         # Get the file contents from source
         html_content = open(sources[0]).read()
@@ -100,13 +102,13 @@ class WikipediaPipeline(EpidemiologyPipeline):
         data['date'] = data['date'].apply(lambda date: date.date().isoformat())
 
         # Get the confirmed and deaths data from the table
-        data['confirmed'] = data['value'].apply(lambda x: safe_int_cast(self.parenthesis(x)[0]))
-        data['deceased'] = data['value'].apply(lambda x: safe_int_cast(self.parenthesis(x)[1]))
+        data['confirmed'] = data['value'].apply(lambda x: safe_int_cast(self._parenthesis(x)[0]))
+        data['deceased'] = data['value'].apply(lambda x: safe_int_cast(self._parenthesis(x)[1]))
 
         # Add up all the rows with same Date and subregion
         data = data.sort_values(['date', 'subregion'])
         data = data.drop(columns=['value']).groupby(
-            ['subregion', 'date']).agg(self.aggregate_region_values)
+            ['subregion', 'date']).agg(self._aggregate_region_values)
         data = data.reset_index().sort_values(['date', 'subregion'])
 
         value_columns = ['confirmed', 'deceased']
@@ -147,8 +149,11 @@ class WikipediaPipeline(EpidemiologyPipeline):
 
         # Remove known values that are just noise
         data['_match_string'] = data['match_string'].apply(lambda x: x.lower())
-        data = data[~data['_match_string'].isin(
-            ['Cml', 'New', 'Total', 'Deaths', 'Tests', 'Airport', 'Abroad', 'Current'])]
+        data = data[~data['_match_string'].isin([
+            'cml', 'new', 'newcases', 'total', 'deaths', 'tests', 'airport', 'abroad', 'current',
+            'confirmed cases', 'acumulado', 'totaltested', 'airport screening', 'repatriated'
+        ])]
+        data = data[~data['_match_string'].apply(lambda x: 'princess' in x or 'total' in x)]
 
         # Output the results
         if parse_opts.get('debug'):

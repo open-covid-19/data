@@ -1,11 +1,11 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.pipeline import DefaultPipeline
 from lib.utils import grouped_diff
 from lib.time import datetime_isoformat
-from .pipeline import EpidemiologyPipeline
 
 
-class DatadistaPipeline(EpidemiologyPipeline):
+class DatadistaPipeline(DefaultPipeline):
     url_base = 'https://raw.github.com/datadista/datasets/master/COVID%2019'
     data_urls: List[str] = [
         '{}/ccaa_covid19_casos_long.csv'.format(url_base),
@@ -13,7 +13,8 @@ class DatadistaPipeline(EpidemiologyPipeline):
         '{}/ccaa_covid19_hospitalizados_long.csv'.format(url_base),
     ]
 
-    def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):
+    def parse_dataframes(
+            self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts) -> DataFrame:
         join_keys = ['fecha', 'CCAA']
         join_opts = {'on': join_keys, 'how': 'outer'}
         data = dataframes[0]

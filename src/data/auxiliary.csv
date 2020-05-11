@@ -1,4 +1,4 @@
-key,country_code,country_name,subregion_1_code,subregion_1_name,subregion_2_code,subregion_2_name,Population,match_regex,_RegionLabel2,epi_report_offset
+key,country_code,country_name,subregion1_code,subregion1_name,subregion2_code,subregion2_name,Population,match_regex,_RegionLabel2,epi_report_offset
 AD,AD,Andorra,,,,,77142,,,-1
 AE,AE,United Arab Emirates,,,,,9770529,,,-1
 AF,AF,Afghanistan,,,,,38041754,,,-1
@@ -168,7 +168,7 @@ CL_RM,CL,Chile,RM,Santiago Metropolitan,,,7036792,,,0
 CL_TA,CL,Chile,TA,Tarapacá,,,324930,,,0
 CL_VS,CL,Chile,VS,Valparaíso,,,1790219,,,0
 CM,CM,Cameroon,,,,,25876380,,,-1
-CN,CN,China,,,,,1433783686,,,-1
+CN,CN,China,,,,,1433783686,China,,-1
 CN_AH,CN,China,AH,Anhui,,,62000000,,,0
 CN_BJ,CN,China,BJ,Beijing,,,24000000,,,0
 CN_CQ,CN,China,CQ,Chongqing,,,30484300,,,0
@@ -189,7 +189,7 @@ CN_JS,CN,China,JS,Jiangsu,,,80400000,,,0
 CN_JX,CN,China,JX,Jiangxi,,,45200000,,,0
 CN_LN,CN,China,LN,Liaoning,,,43900000,,,0
 CN_MO,CN,China,MO,Macau,,,622567,,,0
-CN_NM,CN,China,NM,Inner Mongolia,,,24706321,,,0
+CN_NM,CN,China,NM,Inner Mongolia,,,24706321,Neimenggu,,0
 CN_NX,CN,China,NX,Ningxia,,,6301350,,,0
 CN_QH,CN,China,QH,Qinghai,,,5626722,,,0
 CN_SC,CN,China,SC,Sichuan,,,81100000,,,0
@@ -200,7 +200,7 @@ CN_SX,CN,China,SX,Shanxi,,,36500000,,,0
 CN_TJ,CN,China,TJ,Tianjin,,,15621200,,,0
 CN_TW,CN,China,TW,Taiwan,,,23580000,,,0
 CN_XJ,CN,China,XJ,Xinjiang,,,21815815,,,0
-CN_XZ,CN,China,XZ,Tibet,,,3180000,,,0
+CN_XZ,CN,China,XZ,Tibet,,,3180000,Xizang,,0
 CN_YN,CN,China,YN,Yunnan,,,45966239,,,0
 CN_ZJ,CN,China,ZJ,Zhejiang,,,57370000,,,0
 CO,CO,Colombia,,,,,50339443,,,-1
@@ -525,7 +525,7 @@ KR_46,KR,South Korea,46,Jeonnam,,,1902324,,,0
 KR_47,KR,South Korea,47,Gyeongbuk,,,2700328,,,0
 KR_48,KR,South Korea,48,Gyeongnam,,,3447687,,,0
 KR_49,KR,South Korea,49,Jeju,,,604771,,,0
-KR_50,KR,South Korea,50,Sejong City,,,281120,,,0
+KR_50,KR,South Korea,50,Sejong,,,281120,,,0
 KW,KW,Kuwait,,,,,4207083,,,-1
 KY,KY,Cayman Islands,,,,,64948,,,-1
 KZ,KZ,Kazakhstan,,,,,18551427,,,-1

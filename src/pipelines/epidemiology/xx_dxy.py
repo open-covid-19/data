@@ -1,16 +1,17 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat, timezone_adjust
 from lib.utils import grouped_diff
-from .pipeline import EpidemiologyPipeline
 
 
-class DXYPipeline(EpidemiologyPipeline):
+class DXYPipeline(DefaultPipeline):
     data_urls: List[str] = [
         'https://raw.github.com/BlankerL/DXY-COVID-19-Data/master/csv/DXYArea.csv'
     ]
 
-    def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):
+    def parse_dataframes(
+            self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts) -> DataFrame:
         data = dataframes[0]
 
         # Adjust 7 hour difference between China's GMT+8 and GMT+1
@@ -19,7 +20,7 @@ class DXYPipeline(EpidemiologyPipeline):
         # Rename the appropriate columns
         data = data.rename(columns={
             'countryEnglishName': 'country_name',
-            'provinceEnglishName': 'subregion_1_name',
+            'provinceEnglishName': 'match_string',
             'province_confirmedCount': 'confirmed',
             'province_deadCount': 'deceased',
             'province_curedCount': 'recovered',
@@ -30,14 +31,14 @@ class DXYPipeline(EpidemiologyPipeline):
 
         # This is time series data, get only the last snapshot of each day
         data = data.sort_values('updateTime').groupby(
-            ['date', 'country_name', 'subregion_1_name']).last().reset_index()
+            ['date', 'country_name', 'match_string']).last().reset_index()
 
         keep_columns = [
             'date',
             'country_name',
-            'subregion_1_name',
+            'match_string',
             'confirmed',
             'deceased',
             'recovered',
         ]
-        return grouped_diff(data[keep_columns], ['country_name', 'subregion_1_name', 'date'])
+        return grouped_diff(data[keep_columns], ['country_name', 'match_string', 'date'])
