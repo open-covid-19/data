@@ -19,10 +19,11 @@ python -m unittest
 ```
 
 ## Contributing
-To create a new table, it is recommended to start by making a copy of the [_template](_template)
-folder. The name of the folder will determine the file name of the output table, which will be
-placed under the output folder. For the pipeline chain to be automatically run, add an import
-statement to the [pipelines init file](pipelines/__init__.py).
+To create a new table output, it is recommended to start by making a copy of the
+[_template](pipelines/_template) folder. The name of the folder will determine the file name of the
+output table, which will be placed under the output folder. For the pipeline chain to be
+automatically run, add an import statement to the
+[pipelines module init file](pipelines/__init__.py).
 
 ## Architecture
 ### Pipeline
