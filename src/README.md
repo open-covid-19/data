@@ -19,7 +19,7 @@ python -m unittest
 ```
 
 ## Contributing
-To create a new table, it is recommended to start by making a copy of the c
+To create a new table, it is recommended to start by making a copy of the [_template](_template)
 folder. The name of the folder will determine the file name of the output table, which will be
 placed under the output folder. For the pipeline chain to be automatically run, add an import
 statement to the [pipelines init file](pipelines/__init__.py).
@@ -49,10 +49,10 @@ the `DefaultPipeline` implementation.
 ### Pipeline Chain
 A `PipelineChain` object wraps a list of individual `Pipelines`. Each pipeline is executed in order
 and the output is combined into a single data table. When values for the same `key` (or, if present,
-`key`-`data` pair) overlap, the value that was present in the last pipeline in the list is chosen.
-For example, if `pipeline1` outputs `{key: AA, value: 1}` and `pipeline2` outputs
-`{key: AA, value: 2}`, then the combined output will be `{key: AA, value: 2}` -- assuming that
-`pipeline2` has a higher index than `pipeline1` in the list.
+`key`-`data` pair) overlap, the value present in the last pipeline in the list is chosen. For
+example, if `pipeline1` outputs `{key: AA, value: 1}` and `pipeline2` outputs `{key: AA, value: 2}`,
+then the combined output will be `{key: AA, value: 2}` -- assuming that `pipeline2` has a higher
+index than `pipeline1` in the list.
 
 ### Overview
 The following diagram summarizes the architecture:
