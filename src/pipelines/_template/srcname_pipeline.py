@@ -1,7 +1,6 @@
 from typing import Any, Dict, List
 from pandas import DataFrame
 from lib.pipeline import DefaultPipeline
-from lib.time import datetime_isoformat
 
 
 class SourceNamePipeline(DefaultPipeline):

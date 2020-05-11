@@ -4,7 +4,7 @@ from pstats import Stats
 from unittest import TestCase, main
 
 from pandas import DataFrame
-from lib.default_pipeline import DefaultPipeline
+from lib.pipeline import DefaultPipeline
 
 # Synthetic data used for testing
 TEST_AUX_DATA = DataFrame.from_records([
@@ -72,21 +72,21 @@ class TestPipelineMerge(TestCase):
         aux = TEST_AUX_DATA.copy()
         pipeline = DefaultPipeline()
         record = {'country_code': '__'}
-        key = pipeline.merge(record, aux)
+        key = pipeline.merge(record, [aux])
         self.assertTrue(key is None)
 
     def test_merge_by_key(self):
         aux = TEST_AUX_DATA.copy()
         pipeline = DefaultPipeline()
         record = {'key': 'AE_1_2'}
-        key = pipeline.merge(record, aux)
+        key = pipeline.merge(record, [aux])
         self.assertEqual(key, record['key'])
 
     def test_merge_zero_subregions(self):
         aux = TEST_AUX_DATA.copy()
         pipeline = DefaultPipeline()
         record = {'country_code': 'AA'}
-        key = pipeline.merge(record, aux)
+        key = pipeline.merge(record, [aux])
         self.assertEqual(key, 'AA')
 
     def test_merge_one_subregion(self):
@@ -94,15 +94,15 @@ class TestPipelineMerge(TestCase):
         pipeline = DefaultPipeline()
 
         record = {'country_code': 'AB'}
-        key = pipeline.merge(record, aux)
+        key = pipeline.merge(record, [aux])
         self.assertTrue(key is None)
 
         record = {'country_code': 'AB', 'subregion1_code': None}
-        key = pipeline.merge(record, aux)
+        key = pipeline.merge(record, [aux])
         self.assertEqual(key, 'AB')
 
         record = {'country_code': 'AB', 'subregion1_code': '1'}
-        key = pipeline.merge(record, aux)
+        key = pipeline.merge(record, [aux])
         self.assertEqual(key, 'AB_1')
 
 
