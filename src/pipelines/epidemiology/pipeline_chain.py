@@ -17,94 +17,167 @@ from .xx_dxy import DXYPipeline
 from .xx_ecdc import ECDCPipeline
 from .xx_wikipedia import WikipediaPipeline
 
-_wiki_base_url: str = 'https://en.wikipedia.org/wiki'
-_wiki_template_path: str = 'Template:2019–20_coronavirus_pandemic_data'
+_wiki_base_url: str = "https://en.wikipedia.org/wiki"
+_wiki_template_path: str = "Template:2019–20_coronavirus_pandemic_data"
 
 
 class EpidemiologyPipelineChain(PipelineChain):
 
     schema: Dict[str, Any] = {
-        'date': str,
-        'key': str,
-        'confirmed': 'Int64',
-        'deceased': 'Int64',
-        'recovered': 'Int64',
+        "date": str,
+        "key": str,
+        "confirmed": "Int64",
+        "deceased": "Int64",
+        "recovered": "Int64",
     }
 
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
         # Data sources for all countries level 1
         (ECDCPipeline(), {}),
-
         # Data sources for ES levels 1 and 2
         # (DatadistaPipeline(), {}),
         (ISCIIIPipeline(), {}),
-
         # Data sources for AR level 2
-        (WikipediaPipeline('{}/{}/Argentina_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-            {'parse_opts': {'date_format': '%d %b', 'country': 'AR', 'skiprows': 1, 'cumsum': True}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Argentina_medical_cases".format(
+                    _wiki_base_url, _wiki_template_path
+                )
+            ),
+            {
+                "parse_opts": {
+                    "date_format": "%d %b",
+                    "country": "AR",
+                    "skiprows": 1,
+                    "cumsum": True,
+                }
+            },
+        ),
         # Data sources for AU level 2
         (Covid19AuPipeline(), {}),
-        (WikipediaPipeline('{}/{}/Australia_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%d %B', 'country': 'AU', 'cumsum': True}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Australia_medical_cases".format(
+                    _wiki_base_url, _wiki_template_path
+                )
+            ),
+            {"parse_opts": {"date_format": "%d %B", "country": "AU", "cumsum": True}},
+        ),
         # Data sources for BO level 2
-        (WikipediaPipeline('{}/{}/Bolivia_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%b %d', 'country': 'BO', 'skiprows': 1, 'droprows': 'Date(2020)'}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Bolivia_medical_cases".format(
+                    _wiki_base_url, _wiki_template_path
+                )
+            ),
+            {
+                "parse_opts": {
+                    "date_format": "%b %d",
+                    "country": "BO",
+                    "skiprows": 1,
+                    "droprows": "Date(2020)",
+                }
+            },
+        ),
         # Data sources for BR level 2
         (Covid19BrazilTimeseriesPipeline(), {}),
-
         # Data sources for CA level 2
         (CanadaPipeline(), {}),
-
         # Data sources for CH level 2
         (OpenZHPipeline(), {}),
-
         # Data sources for CL level 2
-        (WikipediaPipeline('{}/{}/Chile_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%Y-%m-%d', 'country': 'CL', 'skiprows': 1}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Chile_medical_cases".format(_wiki_base_url, _wiki_template_path)
+            ),
+            {"parse_opts": {"date_format": "%Y-%m-%d", "country": "CL", "skiprows": 1}},
+        ),
         # Data sources for CN level 2
-        (DXYPipeline(), {'parse_opts': {'country_name': 'China'}}),
-
+        (DXYPipeline(), {"parse_opts": {"country_name": "China"}}),
         # Data sources for DE level 2
         (Covid19GermanyPipeline(), {}),
-
         # Data sources for FR level 2
-        (WikipediaPipeline('{}/{}/France_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%Y-%m-%d', 'country': 'FR', 'skiprows': 1}}),
+        (
+            WikipediaPipeline(
+                "{}/{}/France_medical_cases".format(_wiki_base_url, _wiki_template_path)
+            ),
+            {"parse_opts": {"date_format": "%Y-%m-%d", "country": "FR", "skiprows": 1}},
+        ),
         (FranceCovid19Pipeline(), {}),
-
         # Data sources for ID level 2
         (CatchmeupPipeline(), {}),
-
         # Data sources for IN level 2
-        (WikipediaPipeline('{}/2020_coronavirus_pandemic_in_India'.format(_wiki_base_url)),
-         {'parse_opts': {'date_format': '%b-%d', 'country': 'IN', 'skiprows': 1}}),
-
+        (
+            WikipediaPipeline(
+                "{}/2020_coronavirus_pandemic_in_India".format(_wiki_base_url)
+            ),
+            {"parse_opts": {"date_format": "%b-%d", "country": "IN", "skiprows": 1}},
+        ),
         # Data sources for JP level 2
-        (WikipediaPipeline('{}/{}/Japan_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%Y/%m/%d', 'country': 'JP', 'skiprows': 2}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Japan_medical_cases".format(_wiki_base_url, _wiki_template_path)
+            ),
+            {"parse_opts": {"date_format": "%Y/%m/%d", "country": "JP", "skiprows": 2}},
+        ),
         # Data sources for KR level 2
-        (WikipediaPipeline('{}/{}/South_Korea_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%Y-%m-%d', 'country': 'KR', 'skiprows': 1}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/South_Korea_medical_cases".format(
+                    _wiki_base_url, _wiki_template_path
+                )
+            ),
+            {"parse_opts": {"date_format": "%Y-%m-%d", "country": "KR", "skiprows": 1}},
+        ),
         # Data sources for MY level 2
-        (WikipediaPipeline('{}/2020_coronavirus_pandemic_in_Malaysia'.format(_wiki_base_url)),
-         {'parse_opts': {'date_format': '%d/%m', 'country': 'MY', 'cumsum': True, 'drop_column': 'deceased'}}),
-
+        (
+            WikipediaPipeline(
+                "{}/2020_coronavirus_pandemic_in_Malaysia".format(_wiki_base_url)
+            ),
+            {
+                "parse_opts": {
+                    "date_format": "%d/%m",
+                    "country": "MY",
+                    "cumsum": True,
+                    "drop_column": "deceased",
+                }
+            },
+        ),
         # Data sources for PE level 2
-        (WikipediaPipeline('https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA'),
-         {'parse_opts': {'date_format': '%d de %B', 'country': 'PE', 'locale': 'es_ES', 'skiprows': 1}}),
-
+        (
+            WikipediaPipeline(
+                "https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA"
+            ),
+            {
+                "parse_opts": {
+                    "date_format": "%d de %B",
+                    "country": "PE",
+                    "locale": "es_ES",
+                    "skiprows": 1,
+                }
+            },
+        ),
         # Data sources for PK level 2
-        (WikipediaPipeline('{}/{}/Pakistan_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%b %d', 'country': 'PK', 'skiprows': 1, 'cumsum': True}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Pakistan_medical_cases".format(
+                    _wiki_base_url, _wiki_template_path
+                )
+            ),
+            {
+                "parse_opts": {
+                    "date_format": "%b %d",
+                    "country": "PK",
+                    "skiprows": 1,
+                    "cumsum": True,
+                }
+            },
+        ),
         # Data sources for RU level 2
-        (WikipediaPipeline('{}/{}/Russia_medical_cases'.format(_wiki_base_url, _wiki_template_path)),
-         {'parse_opts': {'date_format': '%d %b', 'country': 'RU', 'skiprows': 1}}),
-
+        (
+            WikipediaPipeline(
+                "{}/{}/Russia_medical_cases".format(_wiki_base_url, _wiki_template_path)
+            ),
+            {"parse_opts": {"date_format": "%d %b", "country": "RU", "skiprows": 1}},
+        ),
     ]
