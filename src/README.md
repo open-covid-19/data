@@ -4,6 +4,7 @@ with the following modules:
 * [data](data): auxiliary and help data files used during processing of input
 * [lib](lib): core functions and utilities used across the package
 * [pipelines](pipelines): contains all the individual pipelines that produce the data tables
+* [scripts](scripts): collection of miscellaneous scripts, used only for manual processing
 * [test](test): unit testing of core functions
 
 ## Running

@@ -330,7 +330,7 @@ GB_ENG_E06000006,GB,United Kingdom,ENG,England,E06000006,Halton,,0
 GB_ENG_E06000007,GB,United Kingdom,ENG,England,E06000007,Warrington,,0
 GB_ENG_E06000008,GB,United Kingdom,ENG,England,E06000008,Blackburn with Darwen,,0
 GB_ENG_E06000009,GB,United Kingdom,ENG,England,E06000009,Blackpool,,0
-GB_ENG_E06000010,GB,United Kingdom,ENG,England,E06000010,"Kingston upon Hull, City of",,0
+GB_ENG_E06000010,GB,United Kingdom,ENG,England,E06000010,Citi of Kingston upon Hull,,0
 GB_ENG_E06000011,GB,United Kingdom,ENG,England,E06000011,East Riding of Yorkshire,,0
 GB_ENG_E06000012,GB,United Kingdom,ENG,England,E06000012,North East Lincolnshire,,0
 GB_ENG_E06000013,GB,United Kingdom,ENG,England,E06000013,North Lincolnshire,,0
@@ -339,11 +339,11 @@ GB_ENG_E06000015,GB,United Kingdom,ENG,England,E06000015,Derby,,0
 GB_ENG_E06000016,GB,United Kingdom,ENG,England,E06000016,Leicester,,0
 GB_ENG_E06000017,GB,United Kingdom,ENG,England,E06000017,Rutland,,0
 GB_ENG_E06000018,GB,United Kingdom,ENG,England,E06000018,Nottingham,,0
-GB_ENG_E06000019,GB,United Kingdom,ENG,England,E06000019,"Herefordshire, County of",,0
+GB_ENG_E06000019,GB,United Kingdom,ENG,England,E06000019,Couty of Herefordshire,,0
 GB_ENG_E06000020,GB,United Kingdom,ENG,England,E06000020,Telford and Wrekin,,0
 GB_ENG_E06000021,GB,United Kingdom,ENG,England,E06000021,Stoke-on-Trent,,0
 GB_ENG_E06000022,GB,United Kingdom,ENG,England,E06000022,Bath and North East Somerset,,0
-GB_ENG_E06000023,GB,United Kingdom,ENG,England,E06000023,"Bristol, City of",,0
+GB_ENG_E06000023,GB,United Kingdom,ENG,England,E06000023,City of Bristol,,0
 GB_ENG_E06000024,GB,United Kingdom,ENG,England,E06000024,North Somerset,,0
 GB_ENG_E06000025,GB,United Kingdom,ENG,England,E06000025,South Gloucestershire,,0
 GB_ENG_E06000026,GB,United Kingdom,ENG,England,E06000026,Plymouth,,0
@@ -904,7 +904,7 @@ RU_BRY,RU,Russia,BRY,Bryansk Oblast,,,,0
 RU_BU,RU,Russia,BU,Buryatia,,,,0
 RU_CE,RU,Russia,CE,Chechnya,,,,0
 RU_CHE,RU,Russia,CHE,Chelyabinsk Oblast,,,,0
-RU_CHU,RU,Russia,CHU,Chukotka AO,,,,0
+RU_CHU,RU,Russia,CHU,Chukotka Avtonomnyy Okrug,,,Chukotka AO,0
 RU_CU,RU,Russia,CU,Chuvashia,,,,0
 RU_DA,RU,Russia,DA,Dagestan,,,,0
 RU_IN,RU,Russia,IN,Ingushetia,,,,0
@@ -918,7 +918,7 @@ RU_KEM,RU,Russia,KEM,Kemerovo Oblast,,,,0
 RU_KGD,RU,Russia,KGD,Kaliningrad Oblast,,,,0
 RU_KGN,RU,Russia,KGN,Kurgan Oblast,,,,0
 RU_KHA,RU,Russia,KHA,Khabarovsk Krai,,,,0
-RU_KHM,RU,Russia,KHM,Khanty-Mansi AO,,,,0
+RU_KHM,RU,Russia,KHM,Khanty-Mansi Avtonomnyy Okrug,,,Khanty-Mansi AO,0
 RU_KIR,RU,Russia,KIR,Kirov Oblast,,,,0
 RU_KK,RU,Russia,KK,Khakassia,,,,0
 RU_KL,RU,Russia,KL,Kalmykia,,,,0
@@ -936,7 +936,7 @@ RU_MO,RU,Russia,MO,Mordovia,,,,0
 RU_MOS,RU,Russia,MOS,Moscow Oblast,,,,0
 RU_MOW,RU,Russia,MOW,Moscow,,,,0
 RU_MUR,RU,Russia,MUR,Murmansk Oblast,,,,0
-RU_NEN,RU,Russia,NEN,Nenets AO,,,,0
+RU_NEN,RU,Russia,NEN,Nenets Avtonomnyy Okrug,,,Nenets AO,0
 RU_NGR,RU,Russia,NGR,Novgorod Oblast,,,,0
 RU_NIZ,RU,Russia,NIZ,Nizhny Novgorod Oblast,,,,0
 RU_NVS,RU,Russia,NVS,Novosibirsk Oblast,,,,0
