@@ -268,7 +268,7 @@ class PipelineChain:
             for pipeline, opts in self.pipelines
         ]
         pipeline_results = tqdm(
-            Pool(4).imap(PipelineChain._run_wrapper, func_iter),
+            Pool(thread_count).imap(PipelineChain._run_wrapper, func_iter),
             total=len(func_iter),
             desc=self.__class__.__name__,
         )

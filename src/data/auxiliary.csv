@@ -321,9 +321,191 @@ FR_PDL,FR,France,PDL,Pays de la Loire,,,,0
 GA,GA,Gabon,,,,,,-1
 GB,GB,United Kingdom,,,,,,-1
 GB_ENG,GB,United Kingdom,ENG,England,,,,0
+GB_ENG_E06000001,GB,United Kingdom,ENG,England,E06000001,Hartlepool,,0
+GB_ENG_E06000002,GB,United Kingdom,ENG,England,E06000002,Middlesbrough,,0
+GB_ENG_E06000003,GB,United Kingdom,ENG,England,E06000003,Redcar and Cleveland,,0
+GB_ENG_E06000004,GB,United Kingdom,ENG,England,E06000004,Stockton-on-Tees,,0
+GB_ENG_E06000005,GB,United Kingdom,ENG,England,E06000005,Darlington,,0
+GB_ENG_E06000006,GB,United Kingdom,ENG,England,E06000006,Halton,,0
+GB_ENG_E06000007,GB,United Kingdom,ENG,England,E06000007,Warrington,,0
+GB_ENG_E06000008,GB,United Kingdom,ENG,England,E06000008,Blackburn with Darwen,,0
+GB_ENG_E06000009,GB,United Kingdom,ENG,England,E06000009,Blackpool,,0
+GB_ENG_E06000010,GB,United Kingdom,ENG,England,E06000010,"Kingston upon Hull, City of",,0
+GB_ENG_E06000011,GB,United Kingdom,ENG,England,E06000011,East Riding of Yorkshire,,0
+GB_ENG_E06000012,GB,United Kingdom,ENG,England,E06000012,North East Lincolnshire,,0
+GB_ENG_E06000013,GB,United Kingdom,ENG,England,E06000013,North Lincolnshire,,0
+GB_ENG_E06000014,GB,United Kingdom,ENG,England,E06000014,York,,0
+GB_ENG_E06000015,GB,United Kingdom,ENG,England,E06000015,Derby,,0
+GB_ENG_E06000016,GB,United Kingdom,ENG,England,E06000016,Leicester,,0
+GB_ENG_E06000017,GB,United Kingdom,ENG,England,E06000017,Rutland,,0
+GB_ENG_E06000018,GB,United Kingdom,ENG,England,E06000018,Nottingham,,0
+GB_ENG_E06000019,GB,United Kingdom,ENG,England,E06000019,"Herefordshire, County of",,0
+GB_ENG_E06000020,GB,United Kingdom,ENG,England,E06000020,Telford and Wrekin,,0
+GB_ENG_E06000021,GB,United Kingdom,ENG,England,E06000021,Stoke-on-Trent,,0
+GB_ENG_E06000022,GB,United Kingdom,ENG,England,E06000022,Bath and North East Somerset,,0
+GB_ENG_E06000023,GB,United Kingdom,ENG,England,E06000023,"Bristol, City of",,0
+GB_ENG_E06000024,GB,United Kingdom,ENG,England,E06000024,North Somerset,,0
+GB_ENG_E06000025,GB,United Kingdom,ENG,England,E06000025,South Gloucestershire,,0
+GB_ENG_E06000026,GB,United Kingdom,ENG,England,E06000026,Plymouth,,0
+GB_ENG_E06000027,GB,United Kingdom,ENG,England,E06000027,Torbay,,0
+GB_ENG_E06000030,GB,United Kingdom,ENG,England,E06000030,Swindon,,0
+GB_ENG_E06000031,GB,United Kingdom,ENG,England,E06000031,Peterborough,,0
+GB_ENG_E06000032,GB,United Kingdom,ENG,England,E06000032,Luton,,0
+GB_ENG_E06000033,GB,United Kingdom,ENG,England,E06000033,Southend-on-Sea,,0
+GB_ENG_E06000034,GB,United Kingdom,ENG,England,E06000034,Thurrock,,0
+GB_ENG_E06000035,GB,United Kingdom,ENG,England,E06000035,Medway,,0
+GB_ENG_E06000036,GB,United Kingdom,ENG,England,E06000036,Bracknell Forest,,0
+GB_ENG_E06000037,GB,United Kingdom,ENG,England,E06000037,West Berkshire,,0
+GB_ENG_E06000038,GB,United Kingdom,ENG,England,E06000038,Reading,,0
+GB_ENG_E06000039,GB,United Kingdom,ENG,England,E06000039,Slough,,0
+GB_ENG_E06000040,GB,United Kingdom,ENG,England,E06000040,Windsor and Maidenhead,,0
+GB_ENG_E06000041,GB,United Kingdom,ENG,England,E06000041,Wokingham,,0
+GB_ENG_E06000042,GB,United Kingdom,ENG,England,E06000042,Milton Keynes,,0
+GB_ENG_E06000043,GB,United Kingdom,ENG,England,E06000043,Brighton and Hove,,0
+GB_ENG_E06000044,GB,United Kingdom,ENG,England,E06000044,Portsmouth,,0
+GB_ENG_E06000045,GB,United Kingdom,ENG,England,E06000045,Southampton,,0
+GB_ENG_E06000046,GB,United Kingdom,ENG,England,E06000046,Isle of Wight,,0
+GB_ENG_E06000047,GB,United Kingdom,ENG,England,E06000047,County Durham,,0
+GB_ENG_E06000049,GB,United Kingdom,ENG,England,E06000049,Cheshire East,,0
+GB_ENG_E06000050,GB,United Kingdom,ENG,England,E06000050,Cheshire West and Chester,,0
+GB_ENG_E06000051,GB,United Kingdom,ENG,England,E06000051,Shropshire,,0
+GB_ENG_E06000052,GB,United Kingdom,ENG,England,E06000052,Cornwall and Isles of Scilly,,0
+GB_ENG_E06000054,GB,United Kingdom,ENG,England,E06000054,Wiltshire,,0
+GB_ENG_E06000055,GB,United Kingdom,ENG,England,E06000055,Bedford,,0
+GB_ENG_E06000056,GB,United Kingdom,ENG,England,E06000056,Central Bedfordshire,,0
+GB_ENG_E06000057,GB,United Kingdom,ENG,England,E06000057,Northumberland,,0
+GB_ENG_E06000058,GB,United Kingdom,ENG,England,E06000058,"Bournemouth, Christchurch and Poole",,0
+GB_ENG_E06000059,GB,United Kingdom,ENG,England,E06000059,Dorset,,0
+GB_ENG_E08000001,GB,United Kingdom,ENG,England,E08000001,Bolton,,0
+GB_ENG_E08000002,GB,United Kingdom,ENG,England,E08000002,Bury,,0
+GB_ENG_E08000003,GB,United Kingdom,ENG,England,E08000003,Manchester,,0
+GB_ENG_E08000004,GB,United Kingdom,ENG,England,E08000004,Oldham,,0
+GB_ENG_E08000005,GB,United Kingdom,ENG,England,E08000005,Rochdale,,0
+GB_ENG_E08000006,GB,United Kingdom,ENG,England,E08000006,Salford,,0
+GB_ENG_E08000007,GB,United Kingdom,ENG,England,E08000007,Stockport,,0
+GB_ENG_E08000008,GB,United Kingdom,ENG,England,E08000008,Tameside,,0
+GB_ENG_E08000009,GB,United Kingdom,ENG,England,E08000009,Trafford,,0
+GB_ENG_E08000010,GB,United Kingdom,ENG,England,E08000010,Wigan,,0
+GB_ENG_E08000011,GB,United Kingdom,ENG,England,E08000011,Knowsley,,0
+GB_ENG_E08000012,GB,United Kingdom,ENG,England,E08000012,Liverpool,,0
+GB_ENG_E08000013,GB,United Kingdom,ENG,England,E08000013,St. Helens,,0
+GB_ENG_E08000014,GB,United Kingdom,ENG,England,E08000014,Sefton,,0
+GB_ENG_E08000015,GB,United Kingdom,ENG,England,E08000015,Wirral,,0
+GB_ENG_E08000016,GB,United Kingdom,ENG,England,E08000016,Barnsley,,0
+GB_ENG_E08000017,GB,United Kingdom,ENG,England,E08000017,Doncaster,,0
+GB_ENG_E08000018,GB,United Kingdom,ENG,England,E08000018,Rotherham,,0
+GB_ENG_E08000019,GB,United Kingdom,ENG,England,E08000019,Sheffield,,0
+GB_ENG_E08000021,GB,United Kingdom,ENG,England,E08000021,Newcastle upon Tyne,,0
+GB_ENG_E08000022,GB,United Kingdom,ENG,England,E08000022,North Tyneside,,0
+GB_ENG_E08000023,GB,United Kingdom,ENG,England,E08000023,South Tyneside,,0
+GB_ENG_E08000024,GB,United Kingdom,ENG,England,E08000024,Sunderland,,0
+GB_ENG_E08000025,GB,United Kingdom,ENG,England,E08000025,Birmingham,,0
+GB_ENG_E08000026,GB,United Kingdom,ENG,England,E08000026,Coventry,,0
+GB_ENG_E08000027,GB,United Kingdom,ENG,England,E08000027,Dudley,,0
+GB_ENG_E08000028,GB,United Kingdom,ENG,England,E08000028,Sandwell,,0
+GB_ENG_E08000029,GB,United Kingdom,ENG,England,E08000029,Solihull,,0
+GB_ENG_E08000030,GB,United Kingdom,ENG,England,E08000030,Walsall,,0
+GB_ENG_E08000031,GB,United Kingdom,ENG,England,E08000031,Wolverhampton,,0
+GB_ENG_E08000032,GB,United Kingdom,ENG,England,E08000032,Bradford,,0
+GB_ENG_E08000033,GB,United Kingdom,ENG,England,E08000033,Calderdale,,0
+GB_ENG_E08000034,GB,United Kingdom,ENG,England,E08000034,Kirklees,,0
+GB_ENG_E08000035,GB,United Kingdom,ENG,England,E08000035,Leeds,,0
+GB_ENG_E08000036,GB,United Kingdom,ENG,England,E08000036,Wakefield,,0
+GB_ENG_E08000037,GB,United Kingdom,ENG,England,E08000037,Gateshead,,0
+GB_ENG_E09000001,GB,United Kingdom,ENG,England,E09000001,City of London,,0
+GB_ENG_E09000002,GB,United Kingdom,ENG,England,E09000002,Barking and Dagenham,,0
+GB_ENG_E09000003,GB,United Kingdom,ENG,England,E09000003,Barnet,,0
+GB_ENG_E09000004,GB,United Kingdom,ENG,England,E09000004,Bexley,,0
+GB_ENG_E09000005,GB,United Kingdom,ENG,England,E09000005,Brent,,0
+GB_ENG_E09000006,GB,United Kingdom,ENG,England,E09000006,Bromley,,0
+GB_ENG_E09000007,GB,United Kingdom,ENG,England,E09000007,Camden,,0
+GB_ENG_E09000008,GB,United Kingdom,ENG,England,E09000008,Croydon,,0
+GB_ENG_E09000009,GB,United Kingdom,ENG,England,E09000009,Ealing,,0
+GB_ENG_E09000010,GB,United Kingdom,ENG,England,E09000010,Enfield,,0
+GB_ENG_E09000011,GB,United Kingdom,ENG,England,E09000011,Greenwich,,0
+GB_ENG_E09000012,GB,United Kingdom,ENG,England,E09000012,Hackney,,0
+GB_ENG_E09000013,GB,United Kingdom,ENG,England,E09000013,Hammersmith and Fulham,,0
+GB_ENG_E09000014,GB,United Kingdom,ENG,England,E09000014,Haringey,,0
+GB_ENG_E09000015,GB,United Kingdom,ENG,England,E09000015,Harrow,,0
+GB_ENG_E09000016,GB,United Kingdom,ENG,England,E09000016,Havering,,0
+GB_ENG_E09000017,GB,United Kingdom,ENG,England,E09000017,Hillingdon,,0
+GB_ENG_E09000018,GB,United Kingdom,ENG,England,E09000018,Hounslow,,0
+GB_ENG_E09000019,GB,United Kingdom,ENG,England,E09000019,Islington,,0
+GB_ENG_E09000020,GB,United Kingdom,ENG,England,E09000020,Kensington and Chelsea,,0
+GB_ENG_E09000021,GB,United Kingdom,ENG,England,E09000021,Kingston upon Thames,,0
+GB_ENG_E09000022,GB,United Kingdom,ENG,England,E09000022,Lambeth,,0
+GB_ENG_E09000023,GB,United Kingdom,ENG,England,E09000023,Lewisham,,0
+GB_ENG_E09000024,GB,United Kingdom,ENG,England,E09000024,Merton,,0
+GB_ENG_E09000025,GB,United Kingdom,ENG,England,E09000025,Newham,,0
+GB_ENG_E09000026,GB,United Kingdom,ENG,England,E09000026,Redbridge,,0
+GB_ENG_E09000027,GB,United Kingdom,ENG,England,E09000027,Richmond upon Thames,,0
+GB_ENG_E09000028,GB,United Kingdom,ENG,England,E09000028,Southwark,,0
+GB_ENG_E09000029,GB,United Kingdom,ENG,England,E09000029,Sutton,,0
+GB_ENG_E09000030,GB,United Kingdom,ENG,England,E09000030,Tower Hamlets,,0
+GB_ENG_E09000031,GB,United Kingdom,ENG,England,E09000031,Waltham Forest,,0
+GB_ENG_E09000032,GB,United Kingdom,ENG,England,E09000032,Wandsworth,,0
+GB_ENG_E09000033,GB,United Kingdom,ENG,England,E09000033,Westminster,,0
+GB_ENG_E10000002,GB,United Kingdom,ENG,England,E10000002,Buckinghamshire,,0
+GB_ENG_E10000003,GB,United Kingdom,ENG,England,E10000003,Cambridgeshire,,0
+GB_ENG_E10000006,GB,United Kingdom,ENG,England,E10000006,Cumbria,,0
+GB_ENG_E10000007,GB,United Kingdom,ENG,England,E10000007,Derbyshire,,0
+GB_ENG_E10000008,GB,United Kingdom,ENG,England,E10000008,Devon,,0
+GB_ENG_E10000011,GB,United Kingdom,ENG,England,E10000011,East Sussex,,0
+GB_ENG_E10000012,GB,United Kingdom,ENG,England,E10000012,Essex,,0
+GB_ENG_E10000013,GB,United Kingdom,ENG,England,E10000013,Gloucestershire,,0
+GB_ENG_E10000014,GB,United Kingdom,ENG,England,E10000014,Hampshire,,0
+GB_ENG_E10000015,GB,United Kingdom,ENG,England,E10000015,Hertfordshire,,0
+GB_ENG_E10000016,GB,United Kingdom,ENG,England,E10000016,Kent,,0
+GB_ENG_E10000017,GB,United Kingdom,ENG,England,E10000017,Lancashire,,0
+GB_ENG_E10000018,GB,United Kingdom,ENG,England,E10000018,Leicestershire,,0
+GB_ENG_E10000019,GB,United Kingdom,ENG,England,E10000019,Lincolnshire,,0
+GB_ENG_E10000020,GB,United Kingdom,ENG,England,E10000020,Norfolk,,0
+GB_ENG_E10000021,GB,United Kingdom,ENG,England,E10000021,Northamptonshire,,0
+GB_ENG_E10000023,GB,United Kingdom,ENG,England,E10000023,North Yorkshire,,0
+GB_ENG_E10000024,GB,United Kingdom,ENG,England,E10000024,Nottinghamshire,,0
+GB_ENG_E10000025,GB,United Kingdom,ENG,England,E10000025,Oxfordshire,,0
+GB_ENG_E10000027,GB,United Kingdom,ENG,England,E10000027,Somerset,,0
+GB_ENG_E10000028,GB,United Kingdom,ENG,England,E10000028,Staffordshire,,0
+GB_ENG_E10000029,GB,United Kingdom,ENG,England,E10000029,Suffolk,,0
+GB_ENG_E10000030,GB,United Kingdom,ENG,England,E10000030,Surrey,,0
+GB_ENG_E10000031,GB,United Kingdom,ENG,England,E10000031,Warwickshire,,0
+GB_ENG_E10000032,GB,United Kingdom,ENG,England,E10000032,West Sussex,,0
+GB_ENG_E10000034,GB,United Kingdom,ENG,England,E10000034,Worcestershire,,0
 GB_NIR,GB,United Kingdom,NIR,Northern Ireland,,,,0
+GB_NIR_N09000001,GB,United Kingdom,NIR,Northern Ireland,N09000001,Antrim and Newtownabbey,,0
+GB_NIR_N09000002,GB,United Kingdom,NIR,Northern Ireland,N09000002,"Armagh, Banbridge and Craigavon",,0
+GB_NIR_N09000003,GB,United Kingdom,NIR,Northern Ireland,N09000003,Belfast,,0
+GB_NIR_N09000004,GB,United Kingdom,NIR,Northern Ireland,N09000004,Causeway Coast and Glens,,0
+GB_NIR_N09000005,GB,United Kingdom,NIR,Northern Ireland,N09000005,Derry and Strabane,,0
+GB_NIR_N09000006,GB,United Kingdom,NIR,Northern Ireland,N09000006,Fermanagh and Omagh,,0
+GB_NIR_N09000007,GB,United Kingdom,NIR,Northern Ireland,N09000007,Lisburn and Castlereagh,,0
+GB_NIR_N09000008,GB,United Kingdom,NIR,Northern Ireland,N09000008,Mid and East Antrim,,0
+GB_NIR_N09000009,GB,United Kingdom,NIR,Northern Ireland,N09000009,Mid Ulster,,0
+GB_NIR_N09000010,GB,United Kingdom,NIR,Northern Ireland,N09000010,"Newry, Mourne and Down",,0
+GB_NIR_N09000011,GB,United Kingdom,NIR,Northern Ireland,N09000011,North Down and Ards,,0
 GB_SCT,GB,United Kingdom,SCT,Scotland,,,,0
+GB_SCT_S08000015,GB,United Kingdom,SCT,Scotland,S08000015,Ayrshire and Arran,,0
+GB_SCT_S08000016,GB,United Kingdom,SCT,Scotland,S08000016,Borders,,0
+GB_SCT_S08000017,GB,United Kingdom,SCT,Scotland,S08000017,Dumfries and Galloway,,0
+GB_SCT_S08000019,GB,United Kingdom,SCT,Scotland,S08000019,Forth Valley,,0
+GB_SCT_S08000020,GB,United Kingdom,SCT,Scotland,S08000020,Grampian,,0
+GB_SCT_S08000022,GB,United Kingdom,SCT,Scotland,S08000022,Highland,,0
+GB_SCT_S08000024,GB,United Kingdom,SCT,Scotland,S08000024,Lothian,,0
+GB_SCT_S08000025,GB,United Kingdom,SCT,Scotland,S08000025,Orkney,,0
+GB_SCT_S08000026,GB,United Kingdom,SCT,Scotland,S08000026,Shetland,,0
+GB_SCT_S08000028,GB,United Kingdom,SCT,Scotland,S08000028,Western Isles,,0
+GB_SCT_S08000029,GB,United Kingdom,SCT,Scotland,S08000029,Fife,,0
+GB_SCT_S08000030,GB,United Kingdom,SCT,Scotland,S08000030,Tayside,,0
+GB_SCT_S08000031,GB,United Kingdom,SCT,Scotland,S08000031,Greater Glasgow and Clyde,,0
+GB_SCT_S08000032,GB,United Kingdom,SCT,Scotland,S08000032,Lanarkshire,,0
 GB_WLS,GB,United Kingdom,WLS,Wales,,,Wales,0
+GB_WLS_W11000023,GB,United Kingdom,WLS,Wales,W11000023,Betsi Cadwaladr,,0
+GB_WLS_W11000024,GB,United Kingdom,WLS,Wales,W11000024,Powys,,0
+GB_WLS_W11000025,GB,United Kingdom,WLS,Wales,W11000025,Hywel Dda,,0
+GB_WLS_W11000028,GB,United Kingdom,WLS,Wales,W11000028,Aneurin Bevan,,0
+GB_WLS_W11000029,GB,United Kingdom,WLS,Wales,W11000029,Cardiff and Vale,,0
+GB_WLS_W11000030,GB,United Kingdom,WLS,Wales,W11000030,Cwm Taf,,0
+GB_WLS_W11000031,GB,United Kingdom,WLS,Wales,W11000031,Swansea Bay,,0
 GD,GD,Grenada,,,,,,-1
 GE,GE,Georgia,,,,,,-1
 GF,GF,French Guiana,,,,,,-1
@@ -610,7 +792,7 @@ MY_14,MY,Malaysia,14,Kuala Lumpur,,,KL,0
 MY_15,MY,Malaysia,15,Labuan,,,LB,0
 MY_16,MY,Malaysia,16,Putrajaya,,,PT,0
 MZ,MZ,Mozambique,,,,,,-1
-,,Namibia,,,,,,0
+NA,NA,Namibia,,,,,,0
 NC,NC,New Caledonia,,,,,,-1
 NE,NE,Niger,,,,,,-1
 NF,NF,Norfolk Island,,,,,,-1
@@ -853,7 +1035,7 @@ TV,TV,Tuvalu,,,,,,0
 TW,TW,Taiwan,,,,,,-1
 TZ,TZ,Tanzania,,,,,,-1
 UA,UA,Ukraine,,,,,,-1
-UA-40,RU,Russia,40,Sevastopol,,,,0
+UA_40,RU,Russia,40,Sevastopol,,,,0
 UA_43,RU,Russia,43,Republic of Crimea,,,,0
 UG,UG,Uganda,,,,,,-1
 UM,UM,United States Minor Outlying Islands,,,,,,-1

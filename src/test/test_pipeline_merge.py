@@ -201,6 +201,40 @@ class TestPipelineMerge(TestCase):
         key = pipeline.merge(record, [aux])
         self.assertEqual(key, "AB_1")
 
+    def test_merge_null_vs_empty(self):
+        aux = TEST_AUX_DATA.copy()
+        pipeline = DefaultPipeline()
+
+        # Only one record has null region1_code
+        record = {"country_code": "AD", "subregion1_code": None}
+        key = pipeline.merge(record, [aux])
+        self.assertEqual(key, "AD")
+
+        # Empty means "do not compare" rather than "filter non-null"
+        record = {"country_code": "AD", "subregion1_code": ""}
+        key = pipeline.merge(record, [aux])
+        self.assertEqual(key, None)
+
+        # There are multiple records that fit this merge, so it's ambiguous
+        record = {"country_code": "AD", "subregion1_code": "1"}
+        key = pipeline.merge(record, [aux])
+        self.assertEqual(key, None)
+
+        # Match fails because subregion1_code is not null
+        record = {"country_code": "AD", "subregion1_code": None, "subregion2_code": "1"}
+        key = pipeline.merge(record, [aux])
+        self.assertEqual(key, None)
+
+        # Match is exact so the merge is unambiguous
+        record = {"country_code": "AD", "subregion1_code": "1", "subregion2_code": "1"}
+        key = pipeline.merge(record, [aux])
+        self.assertEqual(key, "AD_1_1")
+
+        # Even though we don't have subregion1_code, there's only one record that matches
+        record = {"country_code": "AD", "subregion1_code": "", "subregion2_code": "1"}
+        key = pipeline.merge(record, [aux])
+        self.assertEqual(key, "AD_1_1")
+
 
 if __name__ == "__main__":
     sys.exit(main())
