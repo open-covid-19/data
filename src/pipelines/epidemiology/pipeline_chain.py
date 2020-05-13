@@ -1,5 +1,6 @@
 from typing import Any, Dict, List, Tuple
-from pandas import DataFrame
+
+from pandas import DataFrame, Series, Int64Dtype
 
 from lib.time import date_offset
 from lib.pipeline import DataPipeline, PipelineChain
@@ -16,6 +17,8 @@ from .gb_covid_19_uk_data import Covid19UkDataL2Pipeline, Covid19UkDataL3Pipelin
 from .id_catchmeup import CatchmeupPipeline
 from .it_authority import PcmDpcL1Pipeline, PcmDpcL2Pipeline
 from .jp_2019_ncov_japan import Jp2019NcovJapanByDate
+from .mx_mexico_covid_19 import MexicoCovid19Pipeline
+from .xx_covid19_eu_data import Covid19EuDataPipeline
 from .xx_dxy import DXYPipeline
 from .xx_ecdc import ECDCPipeline
 from .xx_wikipedia import WikipediaPipeline
@@ -29,9 +32,9 @@ class EpidemiologyPipelineChain(PipelineChain):
     schema: Dict[str, Any] = {
         "date": str,
         "key": str,
-        "confirmed": "Int64",
-        "deceased": "Int64",
-        "recovered": "Int64",
+        "confirmed": Int64Dtype(),
+        "deceased": Int64Dtype(),
+        "recovered": Int64Dtype(),
     }
 
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
@@ -40,9 +43,7 @@ class EpidemiologyPipelineChain(PipelineChain):
         # Data sources for AR level 2
         (
             WikipediaPipeline(
-                "{}/{}/Argentina_medical_cases".format(
-                    _wiki_base_url, _wiki_template_path
-                )
+                "{}/{}/Argentina_medical_cases".format(_wiki_base_url, _wiki_template_path)
             ),
             {
                 "parse_opts": {
@@ -53,22 +54,25 @@ class EpidemiologyPipelineChain(PipelineChain):
                 }
             },
         ),
+        # Data sources for AT level 2
+        (
+            Covid19EuDataPipeline("AT"),
+            # Remove dates with known bad data
+            # TODO: apply patch to make up for missing dates
+            {"filter_func": lambda x: not x.date in ["2020-04-14", "2020-04-15"]},
+        ),
         # Data sources for AU level 2
         (Covid19AuPipeline(), {}),
         (
             WikipediaPipeline(
-                "{}/{}/Australia_medical_cases".format(
-                    _wiki_base_url, _wiki_template_path
-                )
+                "{}/{}/Australia_medical_cases".format(_wiki_base_url, _wiki_template_path)
             ),
             {"parse_opts": {"date_format": "%d %B", "country": "AU", "cumsum": True}},
         ),
         # Data sources for BO level 2
         (
             WikipediaPipeline(
-                "{}/{}/Bolivia_medical_cases".format(
-                    _wiki_base_url, _wiki_template_path
-                )
+                "{}/{}/Bolivia_medical_cases".format(_wiki_base_url, _wiki_template_path)
             ),
             {
                 "parse_opts": {
@@ -114,9 +118,7 @@ class EpidemiologyPipelineChain(PipelineChain):
         (CatchmeupPipeline(), {}),
         # Data sources for IN level 2
         (
-            WikipediaPipeline(
-                "{}/2020_coronavirus_pandemic_in_India".format(_wiki_base_url)
-            ),
+            WikipediaPipeline("{}/2020_coronavirus_pandemic_in_India".format(_wiki_base_url)),
             {"parse_opts": {"date_format": "%b-%d", "country": "IN", "skiprows": 1}},
         ),
         # Data sources for JP level 2
@@ -130,17 +132,13 @@ class EpidemiologyPipelineChain(PipelineChain):
         # Data sources for KR level 2
         (
             WikipediaPipeline(
-                "{}/{}/South_Korea_medical_cases".format(
-                    _wiki_base_url, _wiki_template_path
-                )
+                "{}/{}/South_Korea_medical_cases".format(_wiki_base_url, _wiki_template_path)
             ),
             {"parse_opts": {"date_format": "%Y-%m-%d", "country": "KR", "skiprows": 1}},
         ),
         # Data sources for MY level 2
         (
-            WikipediaPipeline(
-                "{}/2020_coronavirus_pandemic_in_Malaysia".format(_wiki_base_url)
-            ),
+            WikipediaPipeline("{}/2020_coronavirus_pandemic_in_Malaysia".format(_wiki_base_url)),
             {
                 "parse_opts": {
                     "date_format": "%d/%m",
@@ -150,6 +148,10 @@ class EpidemiologyPipelineChain(PipelineChain):
                 }
             },
         ),
+        # Data sources for MX level 2
+        (MexicoCovid19Pipeline(), {}),
+        # Data sources for NO level 2
+        (Covid19EuDataPipeline("NO"), {"parse_opts": {"subregion_column": "nuts_3"}},),
         # Data sources for PE level 2
         (
             WikipediaPipeline(
@@ -167,9 +169,7 @@ class EpidemiologyPipelineChain(PipelineChain):
         # Data sources for PK level 2
         (
             WikipediaPipeline(
-                "{}/{}/Pakistan_medical_cases".format(
-                    _wiki_base_url, _wiki_template_path
-                )
+                "{}/{}/Pakistan_medical_cases".format(_wiki_base_url, _wiki_template_path)
             ),
             {
                 "parse_opts": {
@@ -180,6 +180,8 @@ class EpidemiologyPipelineChain(PipelineChain):
                 }
             },
         ),
+        # Data sources for PL level 2
+        (Covid19EuDataPipeline("PL"), {"parse_opts": {"subregion_column": "nuts_2"}},),
         # Data sources for RU level 2
         (
             WikipediaPipeline(
@@ -187,4 +189,6 @@ class EpidemiologyPipelineChain(PipelineChain):
             ),
             {"parse_opts": {"date_format": "%d %b", "country": "RU", "skiprows": 1}},
         ),
+        # Data sources for SE level 2
+        (Covid19EuDataPipeline("SE"), {},),
     ]

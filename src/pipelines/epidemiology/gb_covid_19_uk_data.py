@@ -15,7 +15,7 @@ class Covid19UkDataL2Pipeline(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         # Aggregate indicator time series data into relational format
@@ -33,11 +33,7 @@ class Covid19UkDataL2Pipeline(DefaultPipeline):
             )
 
         data = DataFrame.from_records(records).rename(
-            columns={
-                "ConfirmedCases": "confirmed",
-                "Deaths": "deceased",
-                "Tests": "tested",
-            }
+            columns={"ConfirmedCases": "confirmed", "Deaths": "deceased", "Tests": "tested",}
         )
 
         for col in ("confirmed", "deceased", "tested"):
@@ -56,7 +52,7 @@ class Covid19UkDataL3Pipeline(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         # County data is already in the format we want

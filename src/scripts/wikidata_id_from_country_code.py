@@ -37,10 +37,10 @@ def recursive_search(root, key):
 
 def wikidata_id_from_title(title: str) -> str:
     api_base = (
-        "https://en.wikipedia.org/w"
-        "/api.php?action=query&prop=pageprops&redirects=1&format=json"
+        "https://en.wikipedia.org/w" "/api.php?action=query&prop=pageprops&redirects=1&format=json"
     )
     res = requests.get("{}&titles={}".format(api_base, title)).json()
+    print(res)
     return recursive_search(res, "wikibase_item")
 
 
@@ -71,14 +71,14 @@ def subdivision_identifiers(country_code: str, table_index: int = 0):
 
 
 # Parse arguments from the command line
-args = ArgumentParser()
-args.add_argument("country_code", type=str)
-args.add_argument("--table-index", type=int, default=0)
-args.add_argument("--skip-rows", type=int, default=0)
-args = args.parse_args()
+argparser = ArgumentParser()
+argparser.add_argument("country_code", type=str)
+argparser.add_argument("--table-index", type=int, default=0)
+argparser.add_argument("--skip-rows", type=int, default=0)
+args = argparser.parse_args()
 
 country_code = args.country_code
-aux = read_file(ROOT / "src" / "data" / "auxiliary.csv")
+aux = read_file(ROOT / "src" / "data" / "metadata.csv")
 country_name = aux.loc[aux.key == country_code, "country_name"].iloc[0]
 print("{},{}".format(country_code, wikidata_id_from_title(country_name)))
 for wikidata_info in subdivision_identifiers(args.country_code, args.table_index):

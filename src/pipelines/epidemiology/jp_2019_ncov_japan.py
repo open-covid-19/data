@@ -21,9 +21,7 @@ class Jp2019NcovJapanByDate(DefaultPipeline):
         data = data.iloc[:, :-4]
 
         # Convert date to ISO format
-        data["date"] = data["date"].apply(
-            lambda x: datetime_isoformat(str(x), "%Y%m%d")
-        )
+        data["date"] = data["date"].apply(lambda x: datetime_isoformat(str(x), "%Y%m%d"))
         data = pivot_table(data.set_index("date")).rename(
             columns={"value": name, "pivot": "match_string"}
         )
@@ -35,7 +33,7 @@ class Jp2019NcovJapanByDate(DefaultPipeline):
         return data
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
         df1 = Jp2019NcovJapanByDate._parse_pivot(dataframes[0], "confirmed")
         df2 = Jp2019NcovJapanByDate._parse_pivot(dataframes[1], "deceased")
@@ -49,7 +47,7 @@ class Jp2019NcovJapanByRegion(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         data = dataframes[0].rename(

@@ -8,12 +8,10 @@ from lib.utils import grouped_diff
 
 
 class Covid19GermanyPipeline(DefaultPipeline):
-    data_urls: List[str] = [
-        "https://raw.github.com/jgehrcke/covid-19-germany-gae/master/data.csv"
-    ]
+    data_urls: List[str] = ["https://raw.github.com/jgehrcke/covid-19-germany-gae/master/data.csv"]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         # Rename the appropriate columns

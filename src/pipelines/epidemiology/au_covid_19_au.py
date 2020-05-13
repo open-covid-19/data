@@ -11,7 +11,7 @@ class Covid19AuPipeline(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
         data = dataframes[0].transpose()
 

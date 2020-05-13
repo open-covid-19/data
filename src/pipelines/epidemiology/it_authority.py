@@ -9,12 +9,10 @@ _gh_url_base = "https://raw.github.com/pcm-dpc/COVID-19/master/dati-json"
 
 
 class PcmDpcL1Pipeline(DefaultPipeline):
-    data_urls: List[str] = [
-        "{}/dpc-covid19-ita-andamento-nazionale.json".format(_gh_url_base)
-    ]
+    data_urls: List[str] = ["{}/dpc-covid19-ita-andamento-nazionale.json".format(_gh_url_base)]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         # Rename the appropriate columns
@@ -37,9 +35,7 @@ class PcmDpcL1Pipeline(DefaultPipeline):
         )
 
         # Parse date into a datetime object
-        data["date"] = data["date"].apply(
-            lambda date: datetime.fromisoformat(date).date()
-        )
+        data["date"] = data["date"].apply(lambda date: datetime.fromisoformat(date).date())
 
         # Convert dates to ISO format
         data["date"] = data["date"].apply(lambda date: date.isoformat())
@@ -48,9 +44,9 @@ class PcmDpcL1Pipeline(DefaultPipeline):
         data["country_code"] = "IT"
         key_columns = ["country_code", "date"]
         cumsum_columns = ["deceased", "tested", "recovered"]
-        data[cumsum_columns] = grouped_diff(
-            data[cumsum_columns + key_columns], key_columns
-        )[cumsum_columns]
+        data[cumsum_columns] = grouped_diff(data[cumsum_columns + key_columns], key_columns)[
+            cumsum_columns
+        ]
 
         # Make sure all records have the country code and null region code
         data["subregion1_code"] = None
@@ -63,7 +59,7 @@ class PcmDpcL2Pipeline(DefaultPipeline):
     data_urls: List[str] = ["{}/dpc-covid19-ita-regioni.json".format(_gh_url_base)]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         # Rename the appropriate columns
@@ -87,9 +83,7 @@ class PcmDpcL2Pipeline(DefaultPipeline):
         )
 
         # Parse date into a datetime object
-        data["date"] = data["date"].apply(
-            lambda date: datetime.fromisoformat(date).date()
-        )
+        data["date"] = data["date"].apply(lambda date: datetime.fromisoformat(date).date())
 
         # Convert dates to ISO format
         data["date"] = data["date"].apply(lambda date: date.isoformat())
@@ -97,9 +91,9 @@ class PcmDpcL2Pipeline(DefaultPipeline):
         # Compute the daily counts
         key_columns = ["match_string", "date"]
         cumsum_columns = ["deceased", "tested", "recovered"]
-        data[cumsum_columns] = grouped_diff(
-            data[cumsum_columns + key_columns], key_columns
-        )[cumsum_columns]
+        data[cumsum_columns] = grouped_diff(data[cumsum_columns + key_columns], key_columns)[
+            cumsum_columns
+        ]
 
         # Make sure all records have the country code
         data["country_code"] = "IT"

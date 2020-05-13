@@ -1,7 +1,7 @@
 import re
 import locale
 import datetime
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional, Tuple
 from pandas import DataFrame, isna, isnull
 
 from lib.cast import safe_int_cast, safe_datetime_parse
@@ -12,9 +12,7 @@ from lib.utils import pivot_table
 
 
 class WikipediaPipeline(DefaultPipeline):
-    data_urls: List[str] = [
-        "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/"
-    ]
+    data_urls: List[str] = ["https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/"]
     fetch_opts: List[Dict[str, Any]] = [{"ext": "html"}]
 
     def __init__(self, url: str):
@@ -22,18 +20,16 @@ class WikipediaPipeline(DefaultPipeline):
         self.data_urls = [url]
 
     @staticmethod
-    def _parenthesis(x: str) -> str:
+    def _parenthesis(x: str) -> Tuple[str, Optional[str]]:
         regexp = r"\((\d+)\)"
         return re.sub(regexp, "", x), (re.search(regexp, x) or [None, None])[1]
 
     @staticmethod
-    def _aggregate_region_values(group: DataFrame) -> float:
+    def _aggregate_region_values(group: DataFrame) -> Optional[float]:
         non_null = [value for value in group if not (isna(value) or isnull(value))]
         return None if not non_null else sum(non_null)
 
-    def parse(
-        self, sources: List[str], aux: List[DataFrame], **parse_opts
-    ) -> DataFrame:
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
         if parse_opts.get("debug"):
             print("File name:", sources[0])
 
@@ -46,7 +42,7 @@ class WikipediaPipeline(DefaultPipeline):
         # Tables keep changing order, so iterate through all until one looks good
         table_count = count_html_tables(html_content, selector="table.wikitable")
 
-        data = None
+        data: DataFrame = None
         for table_index in range(table_count):
             data = read_html(
                 html_content,
@@ -67,15 +63,9 @@ class WikipediaPipeline(DefaultPipeline):
 
             # Set first date column as index, drop other date columns
             columns_lowercase = [(col or "").lower() for col in data.columns]
-            date_index = (
-                columns_lowercase.index("date") if "date" in columns_lowercase else 0
-            )
-            del_index = [i for i, col in enumerate(columns_lowercase) if col == "date"][
-                1:
-            ]
-            data = data.iloc[
-                :, [i for i, _ in enumerate(data.columns) if i not in del_index]
-            ]
+            date_index = columns_lowercase.index("date") if "date" in columns_lowercase else 0
+            del_index = [i for i, col in enumerate(columns_lowercase) if col == "date"][1:]
+            data = data.iloc[:, [i for i, _ in enumerate(data.columns) if i not in del_index]]
             data = data.set_index(data.columns[date_index])
             # data = data.iloc[:, :-parse_opts.get('skipcols', 0)]
             if parse_opts.get("droprows") is not None:
@@ -96,14 +86,10 @@ class WikipediaPipeline(DefaultPipeline):
             date_format = parse_opts["date_format"]
             if "%Y" not in date_format:
                 date_format = date_format + "-%Y"
-                data["date"] = (
-                    data["date"].astype(str) + "-%d" % datetime.datetime.now().year
-                )
+                data["date"] = data["date"].astype(str) + "-%d" % datetime.datetime.now().year
 
             # Parse into datetime object, drop if not possible
-            data["date"] = data["date"].apply(
-                lambda date: safe_datetime_parse(date, date_format)
-            )
+            data["date"] = data["date"].apply(lambda date: safe_datetime_parse(date, date_format))
             data = data[~data["date"].isna()]
 
             # If the dataframe is not empty, then we found a good one
@@ -111,18 +97,14 @@ class WikipediaPipeline(DefaultPipeline):
                 break
 
         # Make sure we have *some* data
-        assert len(data) > 0
+        assert data is not None and len(data) > 0
 
         # Convert all dates to ISO format
         data["date"] = data["date"].apply(lambda date: date.date().isoformat())
 
         # Get the confirmed and deaths data from the table
-        data["confirmed"] = data["value"].apply(
-            lambda x: safe_int_cast(self._parenthesis(x)[0])
-        )
-        data["deceased"] = data["value"].apply(
-            lambda x: safe_int_cast(self._parenthesis(x)[1])
-        )
+        data["confirmed"] = data["value"].apply(lambda x: safe_int_cast(self._parenthesis(x)[0]))
+        data["deceased"] = data["value"].apply(lambda x: safe_int_cast(self._parenthesis(x)[1]))
 
         # Add up all the rows with same Date and subregion
         data = data.sort_values(["date", "subregion"])
@@ -191,9 +173,7 @@ class WikipediaPipeline(DefaultPipeline):
                 ]
             )
         ]
-        data = data[
-            ~data["_match_string"].apply(lambda x: "princess" in x or "total" in x)
-        ]
+        data = data[~data["_match_string"].apply(lambda x: "princess" in x or "total" in x)]
 
         # Output the results
         if parse_opts.get("debug"):

@@ -8,9 +8,7 @@ from lib.utils import grouped_diff, pivot_table
 
 
 def _parse_date(date: str):
-    return datetime_isoformat(
-        "%s-%d" % (date, datetime.datetime.now().year), "%d-%b-%Y"
-    )
+    return datetime_isoformat("%s-%d" % (date, datetime.datetime.now().year), "%d-%b-%Y")
 
 
 class CatchmeupPipeline(DefaultPipeline):
@@ -20,7 +18,7 @@ class CatchmeupPipeline(DefaultPipeline):
     fetch_opts: List[Dict[str, Any]] = [{"ext": "csv"}]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         df = dataframes[0]

@@ -16,7 +16,9 @@ def get_or_default(dict_like: Dict, key: Any, default: Any):
 def pivot_table(data: DataFrame, pivot_name: str = "pivot") -> DataFrame:
     """ Put a table in our preferred format when the regions are columns and date is index """
     dates = data.index.tolist() * len(data.columns)
-    pivots: List[str] = sum([[name] * len(column) for name, column in data.iteritems()], [])
+    pivots: List[str] = sum(
+        [[name] * len(column) for name, column in data.iteritems()], []
+    )
     values: List[Any] = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
     return DataFrame.from_records(records, columns=["date", pivot_name, "value"])
@@ -37,14 +39,16 @@ def combine_tables(tables: List[DataFrame], keys: List[str]) -> DataFrame:
     return grouped.aggregate(agg_last_not_null).reset_index()
 
 
-def grouped_diff(data: DataFrame, keys: List[str]) -> DataFrame:
+def grouped_diff(data: DataFrame, keys: List[str], skip: List[str] = None) -> DataFrame:
     """ Computes the difference for each item within the group determined by `keys` """
     assert keys[-1] == "date", '"date" key should be last'
     data = data.sort_values(keys)
     group = data.groupby(keys[:-1])
+    skip = [] if skip is None else skip
     value_columns = [column for column in data.columns if column not in keys]
     for column in value_columns:
         if sum(~data[column].isna()) == 0:
             continue
-        data[column] = group[column].transform(lambda x: x.ffill().diff())
-    return data.dropna(subset=value_columns)
+        if column not in skip:
+            data[column] = group[column].transform(lambda x: x.ffill().diff())
+    return data.dropna(subset=value_columns, how="all")

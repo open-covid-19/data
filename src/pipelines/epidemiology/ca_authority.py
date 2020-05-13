@@ -6,12 +6,10 @@ from lib.utils import grouped_diff
 
 
 class CanadaPipeline(DefaultPipeline):
-    data_urls: List[str] = [
-        "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"
-    ]
+    data_urls: List[str] = ["https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         # Rename the appropriate columns
@@ -41,6 +39,9 @@ class CanadaPipeline(DefaultPipeline):
         # Country-level records should have null region name
         country_mask = data["subregion1_name"] == "Canada"
         data.loc[country_mask, "subregion1_name"] = None
+
+        # Remove bogus data
+        data = data[~data["subregion1_name"].apply(lambda x: "traveller" in (x or "").lower())]
 
         # Output the results
         return data

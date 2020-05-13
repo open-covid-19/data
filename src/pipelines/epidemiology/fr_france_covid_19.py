@@ -13,7 +13,7 @@ class FranceCovid19Pipeline(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
 
         confirmed, deaths = dataframes
@@ -23,9 +23,9 @@ class FranceCovid19Pipeline(DefaultPipeline):
 
         # Iterate through all date-region combinations
         regions = confirmed.columns.tolist()
-        df = DataFrame(
-            columns=["date", "match_string", "confirmed", "deceased"]
-        ).set_index(["date", "match_string"])
+        df = DataFrame(columns=["date", "match_string", "confirmed", "deceased"]).set_index(
+            ["date", "match_string"]
+        )
         for region in regions:
             if region == "Total":
                 continue

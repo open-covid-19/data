@@ -36,6 +36,15 @@ AR_Y,AR,Argentina,Y,Jujuy,,,JY,0
 AR_Z,AR,Argentina,Z,Santa Cruz,,,SC,0
 AS,AS,American Samoa,,,,,,-1
 AT,AT,Austria,,,,,,-1
+AT_11,AT,Austria,11,Burgenland,,,,0
+AT_12,AT,Austria,12,Niederösterreich,,,,0
+AT_13,AT,Austria,13,Wien,,,,0
+AT_21,AT,Austria,21,Kärnten,,,,0
+AT_22,AT,Austria,22,Steiermark,,,,0
+AT_31,AT,Austria,31,Oberösterreich,,,,0
+AT_32,AT,Austria,32,Salzburg,,,,0
+AT_33,AT,Austria,33,Tirol,,,,0
+AT_34,AT,Austria,34,Vorarlberg,,,,
 AU,AU,Australia,,,,,,-1
 AU_ACT,AU,Australia,ACT,Australian Capital Territory,,,ACT,0
 AU_NSW,AU,Australia,NSW,New South Wales,,,NSW,0
@@ -244,6 +253,20 @@ CW,CW,Curaçao,,,,,,-1
 CX,CX,Christmas Island,,,,,,-1
 CY,CY,Cyprus,,,,,,-1
 CZ,CZ,Czech Republic,,,,,,-1
+CZ_10,CZ,Czech Republic,10,Hlavní město Praha,,,,0
+CZ_20,CZ,Czech Republic,20,Středočeský kraj,,,,0
+CZ_31,CZ,Czech Republic,31,Jihočeský kraj,,,,0
+CZ_32,CZ,Czech Republic,32,Plzeňský kraj,,,,0
+CZ_41,CZ,Czech Republic,41,Karlovarský kraj,,,,0
+CZ_42,CZ,Czech Republic,42,Ústecký kraj,,,,0
+CZ_51,CZ,Czech Republic,51,Liberecký kraj,,,,0
+CZ_52,CZ,Czech Republic,52,Královéhradecký kraj,,,,0
+CZ_53,CZ,Czech Republic,53,Pardubický kraj,,,,0
+CZ_63,CZ,Czech Republic,63,Kraj Vysočina,,,,0
+CZ_64,CZ,Czech Republic,64,Jihomoravský kraj,,,,0
+CZ_71,CZ,Czech Republic,71,Olomoucký kraj,,,,0
+CZ_72,CZ,Czech Republic,72,Zlínský kraj,,,,0
+CZ_80,CZ,Czech Republic,80,Moravskoslezský kraj,,,,0
 DE,DE,Germany,,,,,,-1
 DE_BB,DE,Germany,BB,Brandenburg,,,,0
 DE_BE,DE,Germany,BE,Berlin,,,,0
@@ -981,27 +1004,27 @@ SB,SB,Solomon Islands,,,,,,-1
 SC,SC,Seychelles,,,,,,-1
 SD,SD,Sudan,,,,,,-1
 SE,SE,Sweden,,,,,,-1
-SE_AB,SE,Sweden,AB,Stockholm,,,,0
-SE_AC,SE,Sweden,AC,Västerbotten,,,,0
-SE_BD,SE,Sweden,BD,Norrbotten,67,19.7,,0
-SE_C,SE,Sweden,C,Uppsala,,,,0
-SE_D,SE,Sweden,D,Södermanland,,,,0
-SE_E,SE,Sweden,E,Östergötland,,,,0
-SE_F,SE,Sweden,F,Jönköping,,,,0
-SE_G,SE,Sweden,G,Kronoberg,,,,0
-SE_H,SE,Sweden,H,Kalmar,,,,0
-SE_I,SE,Sweden,I,Gotland,,,,0
-SE_K,SE,Sweden,K,Blekinge,,,,0
-SE_M,SE,Sweden,M,Skåne,,,,0
-SE_N,SE,Sweden,N,Halland,,,,0
-SE_O,SE,Sweden,O,Västra Götaland,,,,0
-SE_S,SE,Sweden,S,Värmland,,,,0
-SE_T,SE,Sweden,T,Örebro,,,,0
-SE_U,SE,Sweden,U,Västmanland,,,,0
-SE_W,SE,Sweden,W,Dalarna,,,,0
-SE_X,SE,Sweden,X,Gävleborg,,,,0
-SE_Y,SE,Sweden,Y,Västernorrland,,,,0
-SE_Z,SE,Sweden,Z,Jämtland Härjedalen,,,,0
+SE_10,SE,Sweden,10,Stockholm,,,,0
+SE_21,SE,Sweden,21,Uppsala,,,,0
+SE_22,SE,Sweden,22,Södermanland,,,Sörmland,0
+SE_23,SE,Sweden,23,Östergötland,,,,0
+SE_24,SE,Sweden,24,Örebro,,,,0
+SE_25,SE,Sweden,25,Västmanland,,,,0
+SE_11,SE,Sweden,11,Jönköping,,,,0
+SE_12,SE,Sweden,12,Kronoberg,,,,0
+SE_13,SE,Sweden,13,Kalmar,,,,0
+SE_14,SE,Sweden,14,Gotland,,,,0
+SE_21,SE,Sweden,21,Blekinge,,,,0
+SE_24,SE,Sweden,24,Skåne,,,,0
+SE_31,SE,Sweden,31,Halland,,,,0
+SE_32,SE,Sweden,32,Västra Götaland,,,,0
+SE_11,SE,Sweden,11,Värmland,,,,0
+SE_12,SE,Sweden,12,Dalarna,,,,0
+SE_13,SE,Sweden,13,Gävleborg,,,,0
+SE_21,SE,Sweden,21,Västernorrland,,,,0
+SE_22,SE,Sweden,22,Jämtland Härjedalen,,,,0
+SE_31,SE,Sweden,31,Västerbotten,,,,0
+SE_32,SE,Sweden,32,Norrbotten,,,,0
 SG,SG,Singapore,,,,,,-1
 SH,SH,Saint Helena,,,,,,-1
 SI,SI,Slovenia,,,,,,-1

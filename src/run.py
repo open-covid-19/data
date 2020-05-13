@@ -17,7 +17,5 @@ import pipelines
 # The output name for each pipeline chain will be the name of the directory that the chain is in
 for pipeline_chain_class in PipelineChain.__subclasses__():
     pipeline_chain = pipeline_chain_class()
-    pipeline_name = Path(inspect.getsourcefile(type(pipeline_chain))).parent.name
-    pipeline_chain.run().to_csv(
-        ROOT / "output" / "{}.csv".format(pipeline_name), index=False
-    )
+    pipeline_name = Path(str(inspect.getsourcefile(type(pipeline_chain)))).parent.name
+    pipeline_chain.run().to_csv(ROOT / "output" / "{}.csv".format(pipeline_name), index=False)

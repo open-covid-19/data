@@ -14,14 +14,12 @@ class DatadistaPipeline(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
         join_keys = ["fecha", "CCAA"]
         join_opts = {"on": join_keys, "how": "outer"}
         data = dataframes[0]
-        data = merge(
-            data, dataframes[1], suffixes=("confirmed", "deceased"), **join_opts
-        )
+        data = merge(data, dataframes[1], suffixes=("confirmed", "deceased"), **join_opts)
         data = merge(data, dataframes[2], suffixes=("", ""), **join_opts)
 
         data["country_code"] = "ES"
@@ -44,12 +42,5 @@ class DatadistaPipeline(DefaultPipeline):
         data = concat([data, data_country])
 
         return data[
-            [
-                "date",
-                "country_code",
-                "match_string",
-                "confirmed",
-                "deceased",
-                "hospitalised",
-            ]
+            ["date", "country_code", "match_string", "confirmed", "deceased", "hospitalised",]
         ]

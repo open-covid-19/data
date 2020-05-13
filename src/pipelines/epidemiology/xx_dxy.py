@@ -11,7 +11,7 @@ class DXYPipeline(DefaultPipeline):
     ]
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
         data = dataframes[0]
 
@@ -48,6 +48,4 @@ class DXYPipeline(DefaultPipeline):
             "deceased",
             "recovered",
         ]
-        return grouped_diff(
-            data[keep_columns], ["country_name", "match_string", "date"]
-        )
+        return grouped_diff(data[keep_columns], ["country_name", "match_string", "date"])

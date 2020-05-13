@@ -38,8 +38,8 @@ executed in order:
 
 The majority of the processing in a pipeline will likely take place in the `parse` step. All
 individual records output by the pipeline have to follow the following guidelines:
-* Each record **must** be matched with a known `key` present in the
-  [auxiliary table](data/auxiliary.csv). Otherwise, it will be dropped from the output.
+* Each record **must** be matched with a known `key` present in the auxiliary
+  [metadata table](data/metadata.csv). Otherwise, it will be dropped from the output.
 * Each record **may** include a `date` column, which must be ISO 8601 format (i.e. `YYYY-MM-DD`).
 
 To make writing pipelines easier, a default implementation [`DefaultPipeline`](lib/pipeline.py)

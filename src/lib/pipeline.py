@@ -4,13 +4,14 @@ import warnings
 from pathlib import Path
 from functools import partial
 from multiprocessing import cpu_count
-from multiprocessing.pool import Pool
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import requests
+from multiprocess import Pool
 from pandas import DataFrame, isnull, isna
 from tqdm import tqdm
 
+from .anomaly import detect_correct_schema, detect_null_columns, detect_zero_columns
 from .cast import column_convert
 from .net import download
 from .io import read_file, fuzzy_text
@@ -32,14 +33,12 @@ class DataPipeline:
         """ Downloads the required resources and returns a list of local paths. """
         ...
 
-    def parse(
-        self, sources: List[str], aux: List[DataFrame], **parse_opts
-    ) -> DataFrame:
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
         """ Parses a list of raw data records into a DataFrame. """
         ...
 
     def merge(
-        self, record: Dict[str, Any], aux: List[DataFrame], **merge_opts
+        self, record: Dict[str, Any], aux: Dict[str, DataFrame], **merge_opts
     ) -> Optional[str]:
         """
         Outputs a key used to merge this record with the datasets.
@@ -61,7 +60,7 @@ class DataPipeline:
 
     def run(
         self,
-        aux: List[DataFrame],
+        aux: Dict[str, DataFrame],
         fetch_opts: Dict[str, Any] = None,
         parse_opts: Dict[str, Any] = None,
         merge_opts: Dict[str, Any] = None,
@@ -72,16 +71,10 @@ class DataPipeline:
     ) -> DataFrame:
         data: DataFrame = None
 
-        # Make a copy of the auxiliary table to prevent modifying it for everyone
-        aux = [df.copy() for df in aux]
-
-        # Precompute some useful transformations in the auxiliary input files
-        aux[0]["match_string"] = aux[0]["match_regex"].apply(fuzzy_text)
-
         # Fetch and parse the data
         data = self.fetch(**(fetch_opts or {}))
         # Make yet another copy of the auxiliary table to avoid affecting future steps
-        data = self.parse(data, [df.copy() for df in aux], **(parse_opts or {}))
+        data = self.parse(data, {name: df.copy() for name, df in aux.items()}, **(parse_opts or {}))
 
         # Merging is done record by record
         data["key"] = data.apply(lambda x: self.merge(x, aux), axis=1)
@@ -122,10 +115,10 @@ class DefaultPipeline(DataPipeline):
         return [download(url, **{**opts, **fetch_opts}) for url, opts in fetch_iter]
 
     def merge(
-        self, record: Dict[str, Any], aux: List[DataFrame], **merge_opts
+        self, record: Dict[str, Any], aux: Dict[str, DataFrame], **merge_opts
     ) -> Optional[str]:
-        # Merge only needs the first (main) auxiliary data table
-        aux_table: DataFrame = aux[0]
+        # Merge only needs the metadata auxiliary data table
+        metadata = aux["metadata"]
 
         # Start by filtering the auxiliary dataset as much as possible
         for column_prefix in ("country", "subregion1", "subregion2"):
@@ -134,57 +127,49 @@ class DefaultPipeline(DataPipeline):
                 if column not in record:
                     continue
                 elif isnull(record[column]):
-                    aux_table = aux_table[aux_table[column].isna()]
+                    metadata = metadata[metadata[column].isna()]
                 elif record[column]:
-                    aux_table = aux_table[aux_table[column] == record[column]]
+                    metadata = metadata[metadata[column] == record[column]]
 
         # Auxiliary dataset might have a single record left, then we are done
-        if len(aux_table) == 1:
-            return aux_table.iloc[0]["key"]
+        if len(metadata) == 1:
+            return metadata.iloc[0]["key"]
 
         # Exact key match might be possible and it's the next fastest option
-        if "key" in record and record["key"] in aux_table["key"].values:
+        if "key" in record and record["key"] in metadata["key"].values:
             return record["key"]
 
         # Compute a fuzzy version of the record's match string for comparison
-        match_string = (
-            fuzzy_text(record["match_string"]) if "match_string" in record else None
-        )
+        match_string = fuzzy_text(record["match_string"]) if "match_string" in record else None
 
         # Provided match string could be a subregion code / name
         if match_string is not None:
             for column_prefix in ("subregion1", "subregion2"):
                 for column_suffix in ("code", "name"):
                     column = "{}_{}".format(column_prefix, column_suffix)
-                    aux_match = aux_table[column].apply(fuzzy_text) == match_string
+                    aux_match = metadata[column + "_fuzzy"] == match_string
                     if sum(aux_match) == 1:
-                        return aux_table[aux_match].iloc[0]["key"]
+                        return metadata[aux_match].iloc[0]["key"]
 
         # Provided match string could be identical to `match_string` (or with simple fuzzy match)
         if match_string is not None:
-            aux_match_1 = aux_table["match_regex"] == match_string
+            aux_match_1 = metadata["match_regex"] == match_string
             if sum(aux_match_1) == 1:
-                return aux_table[aux_match_1].iloc[0]["key"]
-            aux_match_2 = aux_table["match_regex"] == record["match_string"]
+                return metadata[aux_match_1].iloc[0]["key"]
+            aux_match_2 = metadata["match_regex"] == record["match_string"]
             if sum(aux_match_2) == 1:
-                return aux_table[aux_match_2].iloc[0]["key"]
-            print("Needle:", record["match_string"])
-            print(aux_table["match_regex"])
-            print(sum(aux_match_1), sum(aux_match_2))
-            raise ValueError()
+                return metadata[aux_match_2].iloc[0]["key"]
 
         # Last resort is to match the `match_string` column with a regex from aux
         if match_string is not None:
-            aux_mask = ~aux_table["match_regex"].isna()
-            aux_regex = aux_table["match_regex"][aux_mask].apply(
+            aux_mask = ~metadata["match_regex"].isna()
+            aux_regex = metadata["match_regex"][aux_mask].apply(
                 lambda x: re.compile(x, re.IGNORECASE)
             )
-            aux_match = aux_regex.apply(
-                lambda x: True if x.match(match_string) else False
-            )
+            aux_match = aux_regex.apply(lambda x: True if x.match(match_string) else False)
             if sum(aux_match) == 1:
-                aux_table = aux_table[aux_mask]
-                return aux_table[aux_match].iloc[0]["key"]
+                metadata = metadata[aux_mask]
+                return metadata[aux_match].iloc[0]["key"]
 
         warnings.warn("No key match found for:\n{}".format(record))
         return None
@@ -207,7 +192,7 @@ class DefaultPipeline(DataPipeline):
         return data
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
         """ Parse the inputs into a single output dataframe """
         raise NotImplementedError()
@@ -231,7 +216,10 @@ class PipelineChain:
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = []
     """ List of pipeline-options tuples executed in order """
 
-    auxiliary_tables: List[Union[Path, str]] = [ROOT / "src" / "data" / "auxiliary.csv"]
+    auxiliary_tables: Dict[str, Union[Path, str]] = {
+        "metadata": ROOT / "src" / "data" / "metadata.csv",
+        "country_codes": ROOT / "src" / "data" / "country_codes.csv",
+    }
     """ Auxiliary datasets passed to the pipelines during processing """
 
     schema: Dict[str, Any] = {}
@@ -262,22 +250,32 @@ class PipelineChain:
         return run_func()
 
     def run(
-        self,
-        thread_count: int = cpu_count(),
-        group_keys: List[str] = None,
-        **pipeline_opts
+        self, thread_count: int = cpu_count(), group_keys: List[str] = None, **pipeline_opts
     ) -> DataFrame:
         """
         Main method which executes all the associated [DataPipeline] objects and combines their
         outputs.
         """
         # Read the auxiliary input files into memory
-        aux = [read_file(file_name) for file_name in self.auxiliary_tables]
+        aux = {name: read_file(file_name) for name, file_name in self.auxiliary_tables.items()}
+
+        # Precompute some useful transformations in the auxiliary input files
+        for category in ("country", "subregion1", "subregion2"):
+            for suffix in ("code", "name"):
+                column = "{}_{}".format(category, suffix)
+                aux["metadata"]["{}_fuzzy".format(column)] = aux["metadata"][column].apply(
+                    fuzzy_text
+                )
 
         # Get all the pipeline outputs
         # This operation is parallelized but output order is preserved
         func_iter = [
-            partial(pipeline.run, aux, **{**opts, **pipeline_opts})
+            # Make a copy of the auxiliary table to prevent modifying it for everyone
+            partial(
+                pipeline.run,
+                {name: df.copy() for name, df in aux.items()},
+                **{**opts, **pipeline_opts}
+            )
             for pipeline, opts in self.pipelines
         ]
         pipeline_results = tqdm(
@@ -290,4 +288,10 @@ class PipelineChain:
         data = combine_tables([result for result in pipeline_results], ["date", "key"])
 
         # Return data using the pipeline's output parameters
-        return self.output_table(data)
+        data = self.output_table(data)
+
+        # Validate that the table looks good
+        for anomaly_detector in (detect_correct_schema, detect_null_columns, detect_zero_columns):
+            anomaly_detector(self.schema, data)
+
+        return data

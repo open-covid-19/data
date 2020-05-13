@@ -9,11 +9,11 @@ class SourceNamePipeline(DefaultPipeline):
     data_urls: List[str] = ["https://example.com/data.csv"]
     """ Define our data URLs, which can be more than one """
 
-    fetch_opts: List[Dict[str, Any]] = None
+    fetch_opts: List[Dict[str, Any]] = []
     """ Leave the fetch options as the default, see [lib.net.download] for more details """
 
     def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: List[DataFrame], **parse_opts
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
         """
         If the data fetched is a supported format, like CSV or JSON, it will be automatically parsed

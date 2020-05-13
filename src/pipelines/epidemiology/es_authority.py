@@ -7,13 +7,9 @@ from lib.utils import grouped_diff
 
 
 class ISCIIIPipeline(DefaultPipeline):
-    data_urls: List[str] = [
-        "https://covid19.isciii.es/resources/serie_historica_acumulados.csv"
-    ]
+    data_urls: List[str] = ["https://covid19.isciii.es/resources/serie_historica_acumulados.csv"]
 
-    def parse(
-        self, sources: List[str], aux: List[DataFrame], **parse_opts
-    ) -> DataFrame:
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
         # Retrieve the CSV files from https://covid19.isciii.es
         df = (
@@ -35,9 +31,7 @@ class ISCIIIPipeline(DefaultPipeline):
         confirmed_columns = ["CASOS", "PCR+"]
         for col in confirmed_columns:
             df[col] = df[col].fillna(0)
-        df["confirmed"] = df.apply(
-            lambda x: sum([x[col] for col in confirmed_columns]), axis=1
-        )
+        df["confirmed"] = df.apply(lambda x: sum([x[col] for col in confirmed_columns]), axis=1)
 
         # Convert dates to ISO format
         df["date"] = df["date"].apply(lambda date: datetime_isoformat(date, "%d/%m/%Y"))
