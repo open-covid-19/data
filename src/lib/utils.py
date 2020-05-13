@@ -16,8 +16,8 @@ def get_or_default(dict_like: Dict, key: Any, default: Any):
 def pivot_table(data: DataFrame, pivot_name: str = "pivot") -> DataFrame:
     """ Put a table in our preferred format when the regions are columns and date is index """
     dates = data.index.tolist() * len(data.columns)
-    pivots = sum([[name] * len(column) for name, column in data.iteritems()], [])
-    values = sum([column.tolist() for name, column in data.iteritems()], [])
+    pivots: List[str] = sum([[name] * len(column) for name, column in data.iteritems()], [])
+    values: List[Any] = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
     return DataFrame.from_records(records, columns=["date", pivot_name, "value"])
 

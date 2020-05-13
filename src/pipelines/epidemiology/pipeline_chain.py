@@ -12,7 +12,10 @@ from .de_covid_19_germany_gae import Covid19GermanyPipeline
 from .es_authority import ISCIIIPipeline
 from .es_datadista import DatadistaPipeline
 from .fr_france_covid_19 import FranceCovid19Pipeline
+from .gb_covid_19_uk_data import Covid19UkDataL2Pipeline, Covid19UkDataL3Pipeline
 from .id_catchmeup import CatchmeupPipeline
+from .it_authority import PcmDpcL1Pipeline, PcmDpcL2Pipeline
+from .jp_2019_ncov_japan import Jp2019NcovJapanByDate
 from .xx_dxy import DXYPipeline
 from .xx_ecdc import ECDCPipeline
 from .xx_wikipedia import WikipediaPipeline
@@ -34,9 +37,6 @@ class EpidemiologyPipelineChain(PipelineChain):
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
         # Data sources for all countries level 1
         (ECDCPipeline(), {}),
-        # Data sources for ES levels 1 and 2
-        # (DatadistaPipeline(), {}),
-        (ISCIIIPipeline(), {}),
         # Data sources for AR level 2
         (
             WikipediaPipeline(
@@ -96,6 +96,9 @@ class EpidemiologyPipelineChain(PipelineChain):
         (DXYPipeline(), {"parse_opts": {"country_name": "China"}}),
         # Data sources for DE level 2
         (Covid19GermanyPipeline(), {}),
+        # Data sources for ES levels 1 and 2
+        # (DatadistaPipeline(), {}),
+        (ISCIIIPipeline(), {}),
         # Data sources for FR level 2
         (
             WikipediaPipeline(
@@ -104,6 +107,9 @@ class EpidemiologyPipelineChain(PipelineChain):
             {"parse_opts": {"date_format": "%Y-%m-%d", "country": "FR", "skiprows": 1}},
         ),
         (FranceCovid19Pipeline(), {}),
+        # Data sources for GB lebels 2 + 3
+        (Covid19UkDataL2Pipeline(), {}),
+        (Covid19UkDataL3Pipeline(), {}),
         # Data sources for ID level 2
         (CatchmeupPipeline(), {}),
         # Data sources for IN level 2
@@ -120,6 +126,7 @@ class EpidemiologyPipelineChain(PipelineChain):
             ),
             {"parse_opts": {"date_format": "%Y/%m/%d", "country": "JP", "skiprows": 2}},
         ),
+        (Jp2019NcovJapanByDate(), {}),
         # Data sources for KR level 2
         (
             WikipediaPipeline(

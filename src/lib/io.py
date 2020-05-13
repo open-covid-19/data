@@ -2,7 +2,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from typing import List
+from typing import Callable, List, Union
 from argparse import ArgumentParser
 
 import pandas
@@ -26,7 +26,7 @@ def read_argv(**kwargs):
     return data[0] if len(data) == 1 else data
 
 
-def read_file(path: str, **read_opts):
+def read_file(path: Union[Path, str], **read_opts):
     ext = str(path).split(".")[-1]
 
     if ext == "csv":
@@ -73,7 +73,7 @@ def read_html(
     table_index: int = 0,
     skiprows: int = 0,
     header: bool = False,
-    parser: callable = None,
+    parser: Callable = None,
 ) -> DataFrame:
     """ Parse an HTML table into a DataFrame """
     parser = parser if parser is not None else _default_html_cell_parser

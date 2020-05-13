@@ -1,10 +1,11 @@
 import re
 import traceback
 import warnings
+from pathlib import Path
 from functools import partial
 from multiprocessing import cpu_count
 from multiprocessing.pool import Pool
-from typing import Any, Callable, Dict, List, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import requests
 from pandas import DataFrame, isnull, isna
@@ -37,7 +38,9 @@ class DataPipeline:
         """ Parses a list of raw data records into a DataFrame. """
         ...
 
-    def merge(self, record: Dict[str, Any], aux: List[DataFrame], **merge_opts) -> str:
+    def merge(
+        self, record: Dict[str, Any], aux: List[DataFrame], **merge_opts
+    ) -> Optional[str]:
         """
         Outputs a key used to merge this record with the datasets.
         The key must be present in the `aux` DataFrame index.
@@ -67,6 +70,7 @@ class DataPipeline:
         patch: DataFrame = None,
         patch_opts: Dict[str, Any] = None,
     ) -> DataFrame:
+        data: DataFrame = None
 
         # Make a copy of the auxiliary table to prevent modifying it for everyone
         aux = [df.copy() for df in aux]
@@ -106,10 +110,10 @@ class DefaultPipeline(DataPipeline):
     * TODO: finish this list
     """
 
-    data_urls: List[str] = None
+    data_urls: List[Union[Path, str]] = []
     """ Define our URLs of raw data to be downloaded """
 
-    fetch_opts: List[Dict[str, Any]] = None
+    fetch_opts: List[Dict[str, Any]] = []
     """ Fetch options; see [lib.net.download] for more details """
 
     def fetch(self, **fetch_opts) -> List[str]:
@@ -117,9 +121,11 @@ class DefaultPipeline(DataPipeline):
         fetch_iter = zip(self.data_urls, self.fetch_opts or [{}] * num_urls)
         return [download(url, **{**opts, **fetch_opts}) for url, opts in fetch_iter]
 
-    def merge(self, record: Dict[str, Any], aux: List[DataFrame], **merge_opts) -> str:
+    def merge(
+        self, record: Dict[str, Any], aux: List[DataFrame], **merge_opts
+    ) -> Optional[str]:
         # Merge only needs the first (main) auxiliary data table
-        aux: DataFrame = aux[0]
+        aux_table: DataFrame = aux[0]
 
         # Start by filtering the auxiliary dataset as much as possible
         for column_prefix in ("country", "subregion1", "subregion2"):
@@ -128,16 +134,16 @@ class DefaultPipeline(DataPipeline):
                 if column not in record:
                     continue
                 elif isnull(record[column]):
-                    aux = aux[aux[column].isna()]
+                    aux_table = aux_table[aux_table[column].isna()]
                 elif record[column]:
-                    aux = aux[aux[column] == record[column]]
+                    aux_table = aux_table[aux_table[column] == record[column]]
 
         # Auxiliary dataset might have a single record left, then we are done
-        if len(aux) == 1:
-            return aux.iloc[0]["key"]
+        if len(aux_table) == 1:
+            return aux_table.iloc[0]["key"]
 
         # Exact key match might be possible and it's the next fastest option
-        if "key" in record and record["key"] in aux["key"].values:
+        if "key" in record and record["key"] in aux_table["key"].values:
             return record["key"]
 
         # Compute a fuzzy version of the record's match string for comparison
@@ -150,28 +156,35 @@ class DefaultPipeline(DataPipeline):
             for column_prefix in ("subregion1", "subregion2"):
                 for column_suffix in ("code", "name"):
                     column = "{}_{}".format(column_prefix, column_suffix)
-                    aux_match = aux[column].apply(fuzzy_text) == match_string
+                    aux_match = aux_table[column].apply(fuzzy_text) == match_string
                     if sum(aux_match) == 1:
-                        return aux[aux_match].iloc[0]["key"]
+                        return aux_table[aux_match].iloc[0]["key"]
 
-        # Provided match string could be identical to `match_string` (simple fuzzy match)
+        # Provided match string could be identical to `match_string` (or with simple fuzzy match)
         if match_string is not None:
-            aux_match = aux["match_string"] == match_string
-            if sum(aux_match) == 1:
-                return aux[aux_match].iloc[0]["key"]
+            aux_match_1 = aux_table["match_regex"] == match_string
+            if sum(aux_match_1) == 1:
+                return aux_table[aux_match_1].iloc[0]["key"]
+            aux_match_2 = aux_table["match_regex"] == record["match_string"]
+            if sum(aux_match_2) == 1:
+                return aux_table[aux_match_2].iloc[0]["key"]
+            print("Needle:", record["match_string"])
+            print(aux_table["match_regex"])
+            print(sum(aux_match_1), sum(aux_match_2))
+            raise ValueError()
 
         # Last resort is to match the `match_string` column with a regex from aux
         if match_string is not None:
-            aux_mask = ~aux["match_regex"].isna()
-            aux_regex = aux["match_regex"][aux_mask].apply(
+            aux_mask = ~aux_table["match_regex"].isna()
+            aux_regex = aux_table["match_regex"][aux_mask].apply(
                 lambda x: re.compile(x, re.IGNORECASE)
             )
             aux_match = aux_regex.apply(
                 lambda x: True if x.match(match_string) else False
             )
             if sum(aux_match) == 1:
-                aux = aux[aux_mask]
-                return aux[aux_match].iloc[0]["key"]
+                aux_table = aux_table[aux_mask]
+                return aux_table[aux_match].iloc[0]["key"]
 
         warnings.warn("No key match found for:\n{}".format(record))
         return None
@@ -215,13 +228,13 @@ class PipelineChain:
     is used by many of them it is more efficient to load it here.
     """
 
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = None
+    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = []
     """ List of pipeline-options tuples executed in order """
 
-    auxiliary_tables: List[str] = [ROOT / "src" / "data" / "auxiliary.csv"]
+    auxiliary_tables: List[Union[Path, str]] = [ROOT / "src" / "data" / "auxiliary.csv"]
     """ Auxiliary datasets passed to the pipelines during processing """
 
-    schema: Dict[str, Any] = None
+    schema: Dict[str, Any] = {}
     """ Names and corresponding dtypes of output columns """
 
     def output_table(self, data: DataFrame) -> DataFrame:

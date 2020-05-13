@@ -54,7 +54,15 @@ and the output is combined into a single data table. When values for the same `k
 `key`-`data` pair) overlap, the value present in the last pipeline in the list is chosen. For
 example, if `pipeline1` outputs `{key: AA, value: 1}` and `pipeline2` outputs `{key: AA, value: 2}`,
 then the combined output will be `{key: AA, value: 2}` -- assuming that `pipeline2` has a higher
-index than `pipeline1` in the list.
+index than `pipeline1` in the list. For this reason, you should order your pipelines from less
+trustworthy to more trustworthy, so the less trustworthy values can be overwritten if more trusted
+data is available.
+
+`PipelineChain` objects define the schema of the output table. Individual `Pipeline` objects that
+are part of the schema may output some or all columns defined in the schema, but columns not in the
+schema will be filtered out in the final output.
+
+
 
 ### Overview
 The following diagram summarizes the architecture:

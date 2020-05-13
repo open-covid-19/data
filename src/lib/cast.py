@@ -2,10 +2,10 @@ import re
 import datetime
 import warnings
 import pandas
-from typing import Any, Callable
+from typing import Any, Callable, Optional
 
 
-def safe_float_cast(value: Any) -> float:
+def safe_float_cast(value: Any) -> Optional[float]:
     if value is None:
         return None
     if pandas.isna(value):
@@ -25,14 +25,22 @@ def safe_float_cast(value: Any) -> float:
         return None
 
 
-def safe_int_cast(value: Any, round_function: Callable[[float], int] = round) -> int:
+def safe_int_cast(
+    value: Any, round_function: Callable[[float], int] = round
+) -> Optional[int]:
     value = safe_float_cast(value)
-    return None if value is None else round_function(value)
+    if value is None:
+        return None
+    try:
+        value = round_function(value)
+        return value
+    except:
+        return None
 
 
 def safe_datetime_parse(
     value: str, date_format: str, warn: bool = False
-) -> datetime.datetime:
+) -> Optional[datetime.datetime]:
     try:
         return datetime.datetime.strptime(str(value), date_format)
     except ValueError as exc:
@@ -43,7 +51,7 @@ def safe_datetime_parse(
         return None
 
 
-def column_convert(series: pandas.Series, dtype: Any):
+def column_convert(series: pandas.Series, dtype: Any) -> pandas.Series:
     if series.dtype == dtype:
         return series
     if dtype == "Int64":

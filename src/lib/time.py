@@ -12,15 +12,15 @@ def datetime_isoformat(value: str, date_format: str) -> str:
 
 def date_offset(value: str, offset: int) -> str:
     assert offset is not None, "Offset none: %r" % offset
-    value = datetime.date.fromisoformat(value)
-    value += datetime.timedelta(days=offset)
-    return value.isoformat()
+    date_value = datetime.date.fromisoformat(value)
+    date_value += datetime.timedelta(days=offset)
+    return date_value.isoformat()
 
 
-def timezone_adjust(timestamp: str, offset: int):
+def timezone_adjust(timestamp: str, offset: int) -> str:
     """ Adjust hour difference between a timezone and given offset """
-    timestamp = datetime.datetime.fromisoformat(timestamp)
-    if timestamp.hour <= 24 - offset:
-        return timestamp.date().isoformat()
+    date_timestamp = datetime.datetime.fromisoformat(timestamp)
+    if date_timestamp.hour <= 24 - offset:
+        return date_timestamp.date().isoformat()
     else:
-        return (timestamp + datetime.timedelta(days=1)).date().isoformat()
+        return (date_timestamp + datetime.timedelta(days=1)).date().isoformat()
