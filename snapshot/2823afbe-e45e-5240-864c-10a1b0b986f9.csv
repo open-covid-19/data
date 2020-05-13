@@ -1410,3 +1410,6 @@ Date,Country,Indicator,Value
 2020-05-12,UK,ConfirmedCases,226463
 2020-05-12,UK,Deaths,32692
 2020-05-12,UK,Tests,1460517
+2020-05-13,Scotland,ConfirmedCases,13929
+2020-05-13,Scotland,Deaths,1973
+2020-05-13,Scotland,Tests,77750
