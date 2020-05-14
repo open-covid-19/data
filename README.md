@@ -14,27 +14,21 @@ If you are using this data, feel free to open an issue and let us know so we
 can give you a call-out here.
 
 ## Use the data
-The data is available as CSV and JSON files, which are published in Github
-Pages so they can be served directly to Javascript applications without the
-need of a proxy to set the correct headers for CORS and content type.
-`data.csv` has a version with all historical data, and another version with
-only the latest daily data. All other datasets only have either historical or
-the latest data. The datasets available from this project are:
+The data is available as CSV and JSON files, which are published in Github Pages so they can be
+served directly to Javascript applications without the need of a proxy to set the correct headers
+for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
+is preferred in order to avoid caching issues. The datasets available from this project are:
 
 | Dataset | CSV URL | JSON URL |
 | ------- | ------- | -------- |
-| [Data](#data) | [Latest](https://open-covid-19.github.io/data/data_latest.csv), [Historical](https://open-covid-19.github.io/data/data.csv) | [Latest](https://open-covid-19.github.io/data/data_latest.json), [Historical](https://open-covid-19.github.io/data/data.json) |
-| [Metadata](#metadata) | [Latest](https://open-covid-19.github.io/data/metadata.csv) | [Latest](https://open-covid-19.github.io/data/metadata.json) |
-| [Minimal](#minimal) | [Historical](https://open-covid-19.github.io/data/data_minimal.csv) | [Historical](https://open-covid-19.github.io/data/data_minimal.json) |
-| [Weather](#weather) | [Historical](https://open-covid-19.github.io/data/weather.csv) | [Historical](https://open-covid-19.github.io/data/weather.json) |
-| [Mobility](#mobility) | [Historical](https://open-covid-19.github.io/data/mobility.csv) | [Historical](https://open-covid-19.github.io/data/mobility.json) |
-| [Response](#response) | [Historical](https://open-covid-19.github.io/data/response.csv) | [Historical](https://open-covid-19.github.io/data/response.json) |
-| [Forecast](#forecast) | [Latest](https://open-covid-19.github.io/data/data_forecast.csv) | [Latest](https://open-covid-19.github.io/data/data_forecast.json) |
-| [Categories](#categories) | [Historical](https://open-covid-19.github.io/data/data_categories.csv) | [Historical](https://open-covid-19.github.io/data/data_categories.json) |
-
-You should use the files linked above instead of anything in the `output`
-subfolder via the Raw Github server, since the files under the `output`
-subfolder are subject to change in incompatible ways with no prior notice.
+| [Demographics](#demographics) | [demographics.csv](https://open-covid-19.github.io/data/demographics.csv) | [demographics.json](https://open-covid-19.github.io/data/demographics.json) |
+| [Economy](#economy) | [economy.csv](https://open-covid-19.github.io/data/economy.csv) | [economy.json](https://open-covid-19.github.io/data/economy.json) |
+| [Epidemiology](#epidemiology) | [epidemiology.csv](https://open-covid-19.github.io/data/epidemiology.csv) | [epidemiology.json](https://open-covid-19.github.io/data/epidemiology.json) |
+| [Geography](#geography) | [geography.csv](https://open-covid-19.github.io/data/geography.csv) | [geography.json](https://open-covid-19.github.io/data/geography.json) |
+| [Metadata](#metadata) | [metadata.csv](https://open-covid-19.github.io/data/metadata.csv) | [metadata.json](https://open-covid-19.github.io/data/metadata.json) |
+| [Mobility](#mobility) | [mobility.csv](https://open-covid-19.github.io/data/mobility.csv) | [mobility.json](https://open-covid-19.github.io/data/mobility.json) |
+| [Stringency](#stringency) | [stringency.csv](https://open-covid-19.github.io/data/stringency.csv) | [stringency.json](https://open-covid-19.github.io/data/stringency.json) |
+| [Weather](#weather) | [weather.csv](https://open-covid-19.github.io/data/weather.csv) | [weather.json](https://open-covid-19.github.io/data/weather.json) |
 
 You can find several examples in the [examples subfolder](examples) with
 code showcasing how to load and analyze the data for several programming
@@ -47,9 +41,9 @@ install anything in your computer, simply go to this URL:
 https://colab.research.google.com/github/open-covid-19/data.
 
 ### R
-If you prefer R, then this is all you need to do to load the historical data:
+If you prefer R, then this is all you need to do to load the epidemiology data:
 ```R
-data <- read.csv("https://open-covid-19.github.io/data/data.csv")
+data <- read.csv("https://open-covid-19.github.io/data/epidemiology.csv")
 ```
 
 ### Python
@@ -57,110 +51,143 @@ In Python, you need to have the package `pandas` installed to get
 started:
 ```python
 import pandas
-data = pandas.read_csv("https://open-covid-19.github.io/data/data.csv")
+data = pandas.read_csv("https://open-covid-19.github.io/data/epidemiology.csv")
 ```
 
 ### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
-this code snippet loads all historical data into the `data` variable:
+this code snippet loads all epidemiology data into the `data` variable:
 ```javascript
-$.getJSON("https://open-covid-19.github.io/data/data.json", data => { ... }
+$.getJSON("https://open-covid-19.github.io/data/epidemiology.json", data => { ... }
 ```
 
 ### Powershell
 You can also use Powershell to get the latest data for a country directly from
 the command line, for example to query the latest data for Australia:
 ```powershell
-Invoke-WebRequest 'https://open-covid-19.github.io/data/data_latest.csv' | ConvertFrom-Csv | `
-    where Key -eq 'AU' | select Date,CountryName,Confirmed,Deaths
+Invoke-WebRequest 'https://open-covid-19.github.io/data/epidemiology.csv' | ConvertFrom-Csv | `
+    where Key -eq 'AU' | select key,confirmed,deceased,recovered
 ```
 
 ## Understand the data
-
-### Data
 Make sure that you are using the URL [linked at the table above](#use-the-data) and not the raw
-GitHub file, the latter is subject to change at any moment. The columns of
-[data.csv](https://open-covid-19.github.io/data/data.csv) are:
+GitHub file, the latter is subject to change at any moment.
+
+Missing values will be represented as nulls, whereas zeroes are used when a true value of zero is
+reported.
+
+### Demographics
+Information related to the population demographics for each region:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-21 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | CN_HB |
-| **CountryCode** | ISO 3166-1 code of the country | CN |
-| **CountryName** | American English name of the country, subject to change | China |
-| **RegionCode** | (Optional) ISO 3166-2 or NUTS 2 code of the region | HB |
-| **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
-| **Confirmed**\*\* | Total number of cases confirmed after positive test | 67800 |
-| **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 3139 |
-| **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
-| **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
-| **Population** | Total count of humans living in the region | 58500000 |
+| **key** | [string] Unique string identifying the region | CN_HB |
+| **population** | [string] Total count of humans living in the region | 58500000 |
+| **life_expectancy** | [integer] Average years that an individual is expected to live | China |
+| **human_development_index** | [double][0-1] Composite index of life expectancy, education, and per capita income indicators | HB |
 
-\* Date used is **reporting** date, which generally lags a day from the actual
-date and is subject to timezone adjustments. Whenever possible, dates
-consistent with the ECDC daily reports are used.
+### Economy
+Information related to the economic development for each region:
 
-\*\* Missing values will be represented as nulls, whereas zeroes are used when
-a true value of zero is reported. For example, US states where deaths are not
-being reported have null values.
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **key** | [string] Unique string identifying the region | CN_HB |
+| **gdp** | [integer][USD] Gross domestic product; monetary value of all finished goods and services | 24450604878 |
+| **gdp_per_capita** | [integer][USD] Gross domestic product divided by total population | 1148 |
 
-The `CountryName` and `RegionName` values are subject to change. You may use
-them for labels in your application, but you should not assume that they will
-remain the same in future updates. Instead, use `CountryCode` and `RegionCode`
-to perform joins with other data sources or for filtering within your
-application.
+### Epidemiology
+Information related to the COVID-19 infections for each date-region pair:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **date** | [string] ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **key** | [string] Unique string identifying the region | CN_HB |
+| **new_confirmed\*** | [integer] Count of new cases confirmed after positive test on this date | 34 |
+| **new_deceased\*** | [integer] Count of new deaths from a positive COVID-19 case on this date | 2 |
+| **new_recovered\*** | [integer] Count of new recoveries from a positive COVID-19 case on this date | 13 |
+| **total_confirmed\*\*** | [integer] Count of total cases confirmed after positive test to date | 6447 |
+| **total_deceased\*\*** | [integer] Count of total deaths from a positive COVID-19 case to date | 133 |
+| **total_recovered\*\*** | [integer] Count of total recoveries from a positive COVID-19 case to date | 133 |
+
+\*Values can be negative, typically indicating a correction or an adjustment in the way they were
+measured. For example, a case might have been incorrectly flagged as recovered one date so it will
+be subtracted from the following date.
+
+\*\*Total count will not always amount to the sum of daily counts, because many authorities make
+changes to criteria for counting cases, but not always make adjustments to the data. There is also
+potential missing data. All of that makes the total counts *drift* from the sum of all daily counts.
+
+### Geography
+Information related to the geography for each region:
+
+| Name | Description | Example |
+| ---- | ----------- | ------- |
+| **key** | [string] Unique string identifying the region | CN_HB |
+| **latitude** | [double] Floating point representing the geographic coordinate | 30.9756 |
+| **longitude** | [double] Floating point representing the geographic coordinate | 112.2707 |
+| **elevation** | [integer][meters] Elevation above the sea level | 875 |
+| **area** | [integer][acres] Area encompassing this region | 3729 |
 
 ### Metadata
-Non-temporal data related to countries and regions. The columns of
-[metadata.csv](https://open-covid-19.github.io/data/metadata.csv) are:
+Non-temporal data related to countries and regions:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **CountryCode** | ISO 3166-1 code of the country | CN |
-| **CountryName** | American English name of the country, subject to change | China |
-| **RegionCode** | (Optional) ISO 3166-2 or NUTS 2 code of the region | HB |
-| **RegionName** | (Optional) American English name of the region, subject to change | Hubei |
-| **Latitude** | Floating point representing the geographic coordinate | 30.9756 |
-| **Longitude** | Floating point representing the geographic coordinate | 112.2707 |
-| **Population** | Total count of humans living in the region | 58500000 |
+| **key** | [string] Unique string identifying the region | US_CA_06001 |
+| **wikidata** | [string] WikiData ID corresponding to this key | Q107146 |
+| **country_code** | [string] ISO 3166-1 alphanumeric 2-letter code of the country | US |
+| **country_name** | [string] American English name of the country, subject to change | United States of America |
+| **subregion1_code** | [string] (Optional) ISO 3166-2 or NUTS 2/3 code of the subregion | CA |
+| **subregion1_name** | [string] (Optional) American English name of the subregion, subject to change | California |
+| **subregion2_code** | [string] (Optional) FIPS code of the county (or local equivalent) | 06001 |
+| **subregion2_name** | [string] (Optional) American English name of the county (or local equivalent), subject to change | Alameda County |
+| **3166-1-alpha-2** | [string] ISO 3166-1 alphanumeric 2-letter code of the country | US |
+| **3166-1-alpha-3** | [string] ISO 3166-1 alphanumeric 3-letter code of the country | USA |
+| **aggregation_level** | [integer][0-2] Level at which data is aggregated, i.e. country, state/province or county level | 2 |
 
-### Minimal
-There is a [data_minimal.csv](https://open-covid-19.github.io/data/data_minimal.csv) with a subset
-of the columns from [data.csv](#data) but otherwise identical information:
+### Stringency
+Summary of a government's response, including a *stringency index*, collected from
+[University of Oxford][18]:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **Confirmed**\*\* | Total number of cases confirmed after positive test | 6447 |
-| **Deaths**\*\* | Total number of deaths from a positive COVID-19 case | 133 |
+| **date** | [string] ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **key** | [string] Unique string identifying the region | US_CA |
+| **school_closing** | [integer][0-3] Schools are closed | 2 |
+| **workplace_closing** | [integer][0-3] Workplaces are closed | 2 |
+| **cancel_public_events** | [integer][0-3] Public events have been cancelled | 2 |
+| **restrictions_on_gatherings** | [integer][0-3] Gatherings of non-household members are restricted | 2 |
+| **public_transport_closing** | [integer][0-3] Public transport is not operational | 0 |
+| **stay_at_home_requirements** | [integer][0-3] Self-quarantine at home is mandated for everyone | 0 |
+| **restrictions_on_internal_movement** | [integer][0-3] Travel within country is restricted | 1 |
+| **international_travel_controls** | [integer][0-3] International travel is restricted | 3 |
+| **income_support** | [integer][USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
+| **debt_relief** | [integer][0-3] Debt/contract relief for households | 0 |
+| **fiscal_measures** | [integer][USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
+| **international_support** | [integer][USD] Giving international support to other countries | 274000000 |
+| **public_information_campaigns** | [0-2] Government has launched public information campaigns | 1 |
+| **testing_policy** | [0-3] Country-wide COVID-19 testing policy | 1 |
+| **contact_tracing** | [0-2] Country-wide contact tracing policy | 1 |
+| **emergency_investment_in_healthcare** | [USD] Emergency funding allocated to healthcare | 500000 |
+| **investment_in_vaccines** | [USD] Emergency funding allocated to vaccine research | 100000 |
+| **stringency_index** | [0-100] Overall stringency index | 71.43 |
 
-\* Date used is **adjusted reporting** date. ECDC reporting date generally
-lags a day from the actual date. Time zone is used to adjust the date such that
-it matches local reports.
-
-\*\* Missing values will be represented as nulls, whereas zeroes are used when
-a true value of zero is reported. For example, US states where deaths are not
-being reported have null values.
+For more information about each field and how the overall stringency index is
+computed, see the [Oxford COVID-19 government response tracker][18].
 
 ### Weather
-Daily weather information from nearest station reported by NOAA. The columns of
-[weather.csv](https://open-covid-19.github.io/data/weather.csv) are:
+Daily weather information from nearest station reported by NOAA:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_MI |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
-| **Station** | Identifier for the weather station | USC00206080 |
-| **Distance** | [kilometers] Distance between the location coordinates and the weather station | 28.693 |
-| **MinimumTemperature**\* | [celsius] Recorded hourly minimum temperature | 1.7 |
-| **MaximumTemperature**\* | [celsius] Recorded hourly maximum temperature | 19.4 |
-| **Rainfall**\* | [millimeters] Rainfall during the entire day | 51.0 |
-| **Snowfall**\* | [millimeters] Snowfall during the entire day | 0.0 |
-
-\* Missing values will be represented as nulls, whereas zeroes are used when
-a true value of zero is reported.
+| **date** | [string] ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **key** | [string] Unique string identifying the region | US_CA |
+| **station** | Identifier for the weather station | USC00206080 |
+| **distance** | [kilometers] Distance between the location coordinates and the weather station | 28.693 |
+| **minimum_temperature** | [celsius] Recorded hourly minimum temperature | 1.7 |
+| **maximum_temperature** | [celsius] Recorded hourly maximum temperature | 19.4 |
+| **rainfall** | [millimeters] Rainfall during the entire day | 51.0 |
+| **snowfall** | [millimeters] Snowfall during the entire day | 0.0 |
 
 ### Mobility
 Google's [Mobility Reports][17] are presented in CSV form as
@@ -169,121 +196,36 @@ following columns:
 
 | Name | Description | Example |
 | ---- | ----------- | ------- |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **TransitStations** | Percentage change in visits to transit station locations | -15 |
-| **RetailAndRecreation** | Percentage change in visits to retail and recreation locations | -15 |
-| **GroceryAndPharmacy** | Percentage change in visits to grocery and pharmacy locations | -15 |
-| **Parks** | Percentage change in visits to park locations | -15 |
-| **Residential** | Percentage change in visits to residential locations | -15 |
-| **Workplaces** | Percentage change in visits to workplace locations | -15 |
-
-### Response
-Summary of a government's response, including a *stringency index*, collected
-from [University of Oxford][18]:
-
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **Date** | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **SchoolClosing** | [0-3] Schools are closed | 2 |
-| **WorkplaceClosing** | [0-3] Workplaces are closed | 2 |
-| **CancelPublicEvents** | [0-3] Public events have been cancelled | 2 |
-| **RestrictionsOnGatherings** | [0-3] Gatherings of non-household members are restricted | 2 |
-| **PublicTransportClosing** | [0-3] Public transport is not operational | 0 |
-| **StayAtHomeRequirements** | [0-3] Self-quarantine at home is mandated for everyone | 0 |
-| **RestrictionsOnInternalMovement** | [0-3] Travel within country is restricted | 1 |
-| **InternationalTravelControls** | [0-3] International travel is restricted | 3 |
-| **IncomeSupport** | [USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
-| **DebtRelief** | [0-3] Debt/contract relief for households | 0 |
-| **FiscalMeasures** | [USD] Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
-| **InternationalSupport** | [USD] Giving international support to other countries | -0.75 |
-| **PublicInformationCampaigns** | [0-2] Government has launched public information campaigns | 1 |
-| **TestingPolicy** | [0-3] Country-wide COVID-19 testing policy | 1 |
-| **ContactTracing** | [0-2] Country-wide contact tracing policy | 1 |
-| **EmergencyInvestmentInHealthCare** | [USD] Emergency funding allocated to healthcare | 500000 |
-| **InvestmentInVaccines** | [USD] Emergency funding allocated to vaccine research | 100000 |
-| **StringencyIndex** | [0-100] Overall stringency index | 71.43 |
-
-For more information about each field and how the overall stringency index is
-computed, see the [Oxford COVID-19 government response tracker][18].
-
-**Note**: Keys which correspond to a region-level datapoint always have the
-same value as the country-level datapoint, since the tracked government
-measures are at the country level.
-
-### Forecasting
-There is also a short-term forecast dataset available in the output folder as
-[data_forecast.csv](https://open-covid-19.github.io/data/data_forecast.csv),
-which has the following columns:
-
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **ForecastDate** | ISO 8601 date (YYYY-MM-DD) of last known datapoint | 2020-03-21 |
-| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-25 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **Estimated**\*\* | Total number of cases estimated from forecasting model | 66804.567 |
-| **Confirmed** | Total number of cases confirmed after positive test | 67800 |
-
-\* Date used is **adjusted reporting** date. ECDC reporting date generally
-lags a day from the actual date. Time zone is used to adjust the date such that
-it matches local reports.
-
-\*\* An estimate is also provided for dates before the forecast date, which
-corresponds to the output of the fitted model; this is the *a priori*
-estimate. True forecast values are those that have a **Date** higher than
-**ForecastDate**; which are the *a posteriori* estimates. Another way to
-distinguish between *a priori* and *a posteriori* estimates is to see if a
-given date has a value for both **Confirmed** and **Estimated** (*a
-priori*) or if the **Confirmed** value is null (*a posteriori*).
-
-### Active cases and categories
-Another dataset available is
-[data_categories.csv](https://open-covid-19.github.io/data/data_categories.csv),
-which has the following columns:
-
-| Name | Description | Example |
-| ---- | ----------- | ------- |
-| **Date**\* | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-27 |
-| **Key** | `CountryCode` if country-level data, otherwise `${CountryCode}_${RegionCode}` | US_CA |
-| **NewCases** | Number of reported new cases from previous day | 186 |
-| **NewDeaths** | Number of reported new deaths from previous day | 0 |
-| **NewMild**\*\* | Number of estimated new mild cases from previous day | 148 |
-| **NewSevere**\*\* | Number of estimated new severe cases from previous day | 27 |
-| **NewCritical**\*\* | Number of estimated new critical cases from previous day | 9 |
-| **CurrentlyMild**\*\* | Number of estimated mild active cases at this date | 819 |
-| **CurrentlySevere**\*\* | Number of estimated severe active cases at this date | 190 |
-| **CurrentlyCritical**\*\* | Number of estimated critical active cases at this date | 66 |
-
-\* Date used is **adjusted reporting** date. ECDC reporting date generally
-lags a day from the actual date. Time zone is used to adjust the date such that
-it matches local reports.
-
-\*\* See the [category estimation notebook](examples/category_estimation.ipynb)
-for an more thorough explanation of what each category represents and how the
-estimation is done.
+| **date** | [string] ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **key** | [string] Unique string identifying the region | US_CA |
+| **transit_stations** | [double] Percentage change in visits to transit station locations | -15 |
+| **retail_and_recreation** | [double] Percentage change in visits to retail and recreation locations | -15 |
+| **grocery_and_pharmacy** | [double] Percentage change in visits to grocery and pharmacy locations | -15 |
+| **parks** | [double] Percentage change in visits to park locations | -15 |
+| **residential** | [double] Percentage change in visits to residential locations | -15 |
+| **workplaces** | [double] Percentage change in visits to workplace locations | -15 |
 
 ### Notes about the data
-For countries where both country-level and region-level data is available, the
-entry which has a null value for the `RegionCode` and `RegionName` columns
-indicates country-level aggregation. Please note that, sometimes, the
-country-level data and the region-level data come from different sources so
-adding up all region-level values may not equal exactly to the reported
-country-level value. See the [data loading tutorial][7] for more information.
+For countries where both country-level and subregion-level data is available, the entry which has a
+null value for the subregion level columns indicates upper-level aggregation. For example, if a data
+point has values `{country_code: US, subregion1_code: CA, subregion2_code: null, ...}` then that
+record will have data aggregated at the subregion1 (i.e. state/province) level. If `subregion1_code`
+were null, then it would be data aggregated at the country level.
 
-**FR**: Region-level confirmed cases for France only include positive results
-of tests being sent to a subset of all laboratories, therefore the sum of all
-confirmed cases across regions is significantly lower than the country totals.
+Another way to tell the level of aggregation is the `aggregation_level` of the `metadata` table, see
+the [schema documentation](#metadata) for more details about how to interpret it.
 
-**PT**: Regions reported by Portugal are broken down at the NUTS-2 level, not
-the usual ISO 3166-2 code reported by most other countries.
+Please note that, sometimes, the country-level data and the region-level data come from different
+sources so adding up all region-level values may not equal exactly to the reported country-level
+value. See the [data loading tutorial][7] for more information.
+
+TODO: Document the [notices.csv](src/data/notices.csv) file.
 
 ### Backwards compatibility
-Please note that the following datasets are maintained only to preserve
-backwards compatibility, but shouldn't be used in any new projects:
-* [World (deprecated version)](output/world_latest.csv)
-* [USA (deprecated version)](output/usa_latest.csv)
-* [China (deprecated version)](output/china_latest.csv)
+Please note that the following datasets are maintained only to preserve backwards compatibility, but
+shouldn't be used in any new projects:
+* [Data (deprecated)](https://open-covid-19.github.io/data/data.csv)
+* [Forecast (deprecated)](https://open-covid-19.github.io/data/data_forecast.csv)
 
 ## Contribute
 The data from this repository has become increasingly reliant on Wikipedia sources. If you spot an
@@ -293,45 +235,48 @@ data be parsed automatically by this project, but it will also help inform milli
 receive their information from Wikipedia. See the section below for a direct link to what Wikipedia
 data is being parsed by this project.
 
+For technical contributions, take a look at the [source directory](src/README.md) for more
+information.
+
 ## Sources of data
 All data in this repository is retrieved automatically. When possible, data is retrieved directly
 from the relevant authorities, like a country's ministry of health.
 
-| Data | Source |
-| ---- | ------ |
-| Metadata | [Wikipedia](https://wikipedia.org) |
-| Weather | [NOAA](https://www.ncei.noaa.gov) |
-| Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> |
-| Government response data | [Oxford COVID-19 government response tracker][18] |
-| Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |
-| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |
-| Australia | <https://covid-19-au.github.io> |
-| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) |
-| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |
-| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) |
-| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) |
-| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) |
-| Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) |
-| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |
-| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |
-| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) |
-| Indonesia | <https://catchmeup.id/covid-19> |
-| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |
-| Japan | <https://github.com/swsoyee/2019-ncov-japan> |
-| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) |
-| Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |
-| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
-| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) |
-| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) |
-| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
-| Portugal | <https://github.com/dssg-pt/covid19pt-data> |
-| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) |
-| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) |
-| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |
-| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |
-| Switzerland | [OpenZH data](https://open.zh.ch) |
-| United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> |
-| USA | [COVID Tracking Project](https://covidtracking.com) |
+| Data | Source | License |
+| ---- | ------ | ------- |
+| Metadata | [Wikipedia](https://wikipedia.org) | CC0 |
+| Weather | [NOAA](https://www.ncei.noaa.gov) |  |
+| Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> |  |
+| Government response data | [Oxford COVID-19 government response tracker][18] |  |
+| Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |  |
+| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |  |
+| Australia | <https://covid-19-au.github.io> |  |
+| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) |  |
+| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |  |
+| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) |  |
+| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) |  |
+| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) |  |
+| Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) |  |
+| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |  |
+| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |  |
+| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) |  |
+| Indonesia | <https://catchmeup.id/covid-19> |  |
+| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |  |
+| Japan | <https://github.com/swsoyee/2019-ncov-japan> |  |
+| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) |  |
+| Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |  |
+| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |  |
+| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) |  |
+| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) |  |
+| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |  |
+| Portugal | <https://github.com/dssg-pt/covid19pt-data> |  |
+| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) |  |
+| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) |  |
+| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |  |
+| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |  |
+| Switzerland | [OpenZH data](https://open.zh.ch) | CC 4.0 |
+| United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | The Unlicense |
+| USA | [NYT COVID Dataset](https://covidtracking.com) | CC-like |
 
 The data is automatically scraped and parsed using the scripts found in the
 [input folder](input). This is done daily, and as part of the processing
@@ -352,9 +297,6 @@ of data for that dataset are still unclear.
 To update the contents of the [output folder](output), first install the
 dependencies:
 ```sh
-# Install Ghostscript
-apt-get install -y ghostscript
-# Install Python dependencies
 pip install -r requirements.txt
 ```
 

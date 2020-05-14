@@ -22,6 +22,7 @@ from .us_nyt_covid import NytCovidL2Pipeline, NytCovidL3Pipeline
 from .xx_covid19_eu_data import Covid19EuDataPipeline
 from .xx_dxy import DXYPipeline
 from .xx_ecdc import ECDCPipeline
+from .xx_owid import OurWorldInDataPipeline
 from .xx_wikipedia import WikipediaPipeline
 
 _wiki_base_url: str = "https://en.wikipedia.org/wiki"
@@ -33,13 +34,19 @@ class EpidemiologyPipelineChain(PipelineChain):
     schema: Dict[str, type] = {
         "date": str,
         "key": str,
-        "confirmed": Int64Dtype(),
-        "deceased": Int64Dtype(),
-        "recovered": Int64Dtype(),
+        "new_confirmed": Int64Dtype(),
+        "new_deceased": Int64Dtype(),
+        "new_recovered": Int64Dtype(),
+        "new_tested": Int64Dtype(),
+        "total_confirmed": Int64Dtype(),
+        "total_deceased": Int64Dtype(),
+        "total_recovered": Int64Dtype(),
+        "total_tested": Int64Dtype(),
     }
 
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
         # Data sources for all countries level 1
+        (OurWorldInDataPipeline(), {}),
         (ECDCPipeline(), {}),
         # Data sources for AR level 2
         (

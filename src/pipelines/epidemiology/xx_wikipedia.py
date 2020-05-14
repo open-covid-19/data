@@ -115,7 +115,12 @@ class WikipediaPipeline(DefaultPipeline):
         )
         data = data.reset_index().sort_values(["date", "subregion"])
 
+        # Add the appropriate columns to the data
         value_columns = ["confirmed", "deceased"]
+        for col in value_columns:
+            data["new_" + col] = None
+            data["total_" + col] = None
+
         # Iterate over the individual subregions to process the values per group
         for region in data["subregion"].unique():
             mask = data["subregion"] == region
@@ -133,10 +138,12 @@ class WikipediaPipeline(DefaultPipeline):
                 if sum(zero_filled) > 0:
                     # Compute diff of the values region by region if required
                     if parse_opts.get("cumsum"):
-                        data.loc[mask, column] = zero_filled.diff()
+                        data.loc[mask, "new_" + column] = zero_filled.diff()
+                        data.loc[mask, "total_" + column] = zero_filled
                     # If values are already new daily counts, then empty most likely means zero
                     else:
-                        data.loc[mask, column] = zero_filled
+                        data.loc[mask, "new_" + column] = zero_filled
+                        data.loc[mask, "total_" + column] = zero_filled.cumsum()
 
         # Get rid of rows which have all null values
         data = data.dropna(how="all", subset=value_columns)
@@ -158,18 +165,18 @@ class WikipediaPipeline(DefaultPipeline):
                 [
                     "cml",
                     "new",
-                    "newcases",
                     "total",
-                    "deaths",
                     "tests",
-                    "airport",
+                    "deaths",
                     "abroad",
+                    "airport",
                     "current",
-                    "confirmed cases",
+                    "newcases",
                     "acumulado",
-                    "totaltested",
-                    "airport screening",
                     "repatriated",
+                    "totaltested",
+                    "confirmed cases",
+                    "airport screening",
                 ]
             )
         ]

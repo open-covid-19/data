@@ -20,6 +20,10 @@ class OpenZHPipeline(DefaultPipeline):
                     "ncumul_tested": "tested",
                     "ncumul_conf": "confirmed",
                     "ncumul_deceased": "deceased",
+                    "ncumul_hosp": "hospitalised",
+                    "ncumul_ICU": "intensive_care",
+                    "ncumul_vent": "ventilator",
+                    "ncumul_released": "recovered",
                     "abbreviation_canton_and_fl": "subregion1_code",
                 }
             )

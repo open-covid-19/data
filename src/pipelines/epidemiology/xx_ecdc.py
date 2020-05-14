@@ -2,7 +2,7 @@ from typing import Any, Dict, List
 from pandas import DataFrame, isnull
 from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat, date_offset
-from lib.utils import get_or_default
+from lib.utils import get_or_default, grouped_cumsum
 
 
 class ECDCPipeline(DefaultPipeline):
@@ -54,4 +54,7 @@ class ECDCPipeline(DefaultPipeline):
         # Adjust the date of the records to match local reporting
         data = self._adjust_date(data, metadata)
 
-        return data
+        # Keep only the columns we can process
+        data = data[["date", "key", "confirmed", "deceased"]]
+
+        return grouped_cumsum(data, ["key", "date"])

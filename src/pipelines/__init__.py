@@ -1,3 +1,7 @@
 from .epidemiology.pipeline_chain import EpidemiologyPipelineChain
 from .metadata.metadata_pipeline import MetadataPipelineChain
 from .stringency.stringency_pipeline import StringencyPipelineChain
+from .weather.weather_pipeline import WeatherPipelineChain
+from .geography.geography_pipeline import GeographyPipelineChain
+from .economy.economy_pipeline import EconomyPipelineChain
+from .demographics.demographics_pipeline import DemographicsPipelineChain

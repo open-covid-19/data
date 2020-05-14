@@ -71,7 +71,7 @@ class StringencyPipelineChain(PipelineChain):
         "international_travel_controls": Int64Dtype(),
         "income_support": Int64Dtype(),
         "debt_relief": Int64Dtype(),
-        "fiscal_measures": float,
+        "fiscal_measures": Int64Dtype(),
         "international_support": Int64Dtype(),
         "public_information_campaigns": Int64Dtype(),
         "testing_policy": Int64Dtype(),

@@ -68,17 +68,17 @@ class PcmDpcL2Pipeline(DefaultPipeline):
                 "data": "date",
                 "denominazione_regione": "match_string",
                 "ricoverati_con_sintomi": "symptomatic_hospitalised",
-                "terapia_intensiva": "icu",
+                "terapia_intensiva": "intensive_care",
                 "totale_ospedalizzati": "hospitalised",
                 "isolamento_domiciliare": "quarantined",
                 "totale_positivi": "active_confirmed",
                 "variazione_totale_positivi": "diff_active_confirmed",
-                "nuovi_positivi": "confirmed",
+                "nuovi_positivi": "new_confirmed",
                 "dimessi_guariti": "recovered",
                 "deceduti": "deceased",
-                "totale_casi": "total_cases",
+                "totale_casi": "total_confirmed",
                 "tamponi": "tested",
-                "casi_testati": "cases_tested",
+                "casi_testati": "cases_tested?",
             }
         )
 
@@ -88,12 +88,26 @@ class PcmDpcL2Pipeline(DefaultPipeline):
         # Convert dates to ISO format
         data["date"] = data["date"].apply(lambda date: date.isoformat())
 
+        # Keep only data we can process
+        data = data[
+            [
+                "date",
+                "match_string",
+                "intensive_care",
+                "hospitalised",
+                "quarantined",
+                "new_confirmed",
+                "recovered",
+                "deceased",
+                "total_confirmed",
+                "tested",
+            ]
+        ]
+
         # Compute the daily counts
         key_columns = ["match_string", "date"]
-        cumsum_columns = ["deceased", "tested", "recovered"]
-        data[cumsum_columns] = grouped_diff(data[cumsum_columns + key_columns], key_columns)[
-            cumsum_columns
-        ]
+        skip_columns = ['new_confirmed', 'total_confirmed']
+        data = grouped_diff(data, key_columns, skip=skip_columns)
 
         # Make sure all records have the country code
         data["country_code"] = "IT"

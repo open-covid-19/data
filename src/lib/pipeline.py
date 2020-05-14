@@ -222,6 +222,7 @@ class PipelineChain:
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
         "metadata": ROOT / "src" / "data" / "metadata.csv",
+        "wikidata": ROOT / "src" / "data" / "wikidata.csv",
         "country_codes": ROOT / "src" / "data" / "country_codes.csv",
     }
     """ Auxiliary datasets passed to the pipelines during processing """
@@ -285,7 +286,7 @@ class PipelineChain:
         ]
 
         # If the process count is less than one, run in series (useful to evaluate performance)
-        if process_count <= 1:
+        if process_count <= 1 or len(func_iter) <= 1:
             func_iter_map = map(PipelineChain._run_wrapper, func_iter)
         else:
             func_iter_map = Pool(process_count).imap(PipelineChain._run_wrapper, func_iter)

@@ -3,6 +3,7 @@ from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat
+from lib.utils import grouped_cumsum
 
 
 class FranceCovid19Pipeline(DefaultPipeline):
@@ -39,5 +40,6 @@ class FranceCovid19Pipeline(DefaultPipeline):
         df["date"] = df["date"].apply(lambda x: datetime_isoformat(x, "%d/%m/%Y"))
 
         # Output the results
+        df = grouped_cumsum(df, ["match_string", "date"])
         df["country_code"] = "FR"
         return df

@@ -3,7 +3,7 @@ from pandas import DataFrame, concat, merge
 from lib.io import read_file
 from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat
-from lib.utils import pivot_table
+from lib.utils import pivot_table, grouped_cumsum
 
 _gh_base_url = "https://raw.github.com/swsoyee/2019-ncov-japan/master/50_Data"
 
@@ -37,7 +37,11 @@ class Jp2019NcovJapanByDate(DefaultPipeline):
     ) -> DataFrame:
         df1 = Jp2019NcovJapanByDate._parse_pivot(dataframes[0], "confirmed")
         df2 = Jp2019NcovJapanByDate._parse_pivot(dataframes[1], "deceased")
-        return merge(df1, df2)
+
+        # Keep only columns we can process
+        data = merge(df1, df2)
+        data = data[["date", "country_code", "match_string", "confirmed", "deceased"]]
+        return grouped_cumsum(data, ["country_code", "match_string", "date"])
 
 
 # Unused because it's a different region aggregation
@@ -67,5 +71,8 @@ class Jp2019NcovJapanByRegion(DefaultPipeline):
         # Add the country code to all records
         data["country_code"] = "JP"
 
+        # Keep only columns we can process
+        data = data[["date", "match_string", "confirmed", "hospitalised", "recovered", "deceased"]]
+
         # Output the results
-        return data
+        return grouped_cumsum(data, ["country_code", "match_string", "date"])
