@@ -1,4 +1,6 @@
 date,key,table,notice,adjusted
+,GB,,"United Kingdom uses incorrect ISO 3166-1 code UK in ECDC reports",1
+,GR,,"Greece uses incorrect ISO 3166-1 code EL in ECDC reports",1
 ,PT_11,,"Portugal reports all COVID-19 related data using NUTS-2 regions.",0
 ,PT_15,,"Portugal reports all COVID-19 related data using NUTS-2 regions.",0
 ,PT_16,,"Portugal reports all COVID-19 related data using NUTS-2 regions.",0

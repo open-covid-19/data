@@ -1,41 +1,57 @@
 from typing import Any, Dict, List
-from pandas import DataFrame
-from lib.time import datetime_isoformat
-from .pipeline import EpidemiologyPipeline
+from pandas import DataFrame, isnull
+from lib.pipeline import DefaultPipeline
+from lib.time import datetime_isoformat, date_offset
+from lib.utils import get_or_default
 
 
-class ECDCPipeline(EpidemiologyPipeline):
-    data_urls: List[str] = ['https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/']
-    fetch_opts: List[Dict[str, Any]] = [{'ext': 'csv'}]
+class ECDCPipeline(DefaultPipeline):
+    data_urls: List[str] = ["https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/"]
+    fetch_opts: List[Dict[str, Any]] = [{"ext": "csv"}]
 
-    def parse_dataframes(self, dataframes: List[DataFrame], **parse_opts):
+    @staticmethod
+    def _adjust_date(data: DataFrame, aux: DataFrame) -> DataFrame:
+        """ Adjust the date of the data based on the report offset """
+
+        # Save the current columns to filter others out at the end
+        data_columns = data.columns
+
+        # Filter auxiliary dataset to only get the relevant keys
+        data = data.merge(aux, suffixes=("", "aux_"), how="left")
+
+        # Perform date adjustment for all records so date is consistent across datasets
+        data["date"] = data.apply(
+            lambda x: date_offset(x["date"], get_or_default(x, "epi_report_offset", 0)), axis=1,
+        )
+
+        return data[data_columns]
+
+    def parse_dataframes(
+        self, dataframes: List[DataFrame], metadata: Dict[str, DataFrame], **parse_opts
+    ) -> DataFrame:
         data = dataframes[0]
+        metadata = metadata["metadata"]
 
         # Ensure date field is used as a string
-        data['dateRep'] = data['dateRep'].astype(str)
+        data["dateRep"] = data["dateRep"].astype(str)
 
         # Convert date to ISO format
-        data['date'] = data['dateRep'].apply(lambda x: datetime_isoformat(x, '%d/%m/%Y'))
+        data["date"] = data["dateRep"].apply(lambda x: datetime_isoformat(x, "%d/%m/%Y"))
 
         # Workaround for https://github.com/open-covid-19/data/issues/8
         # ECDC mistakenly labels Greece country code as EL instead of GR
-        data['geoId'] = data['geoId'].apply(lambda code: 'GR' if code == 'EL' else code)
+        data["geoId"] = data["geoId"].apply(lambda code: "GR" if code == "EL" else code)
 
         # Workaround for https://github.com/open-covid-19/data/issues/13
         # ECDC mistakenly labels Greece country code as UK instead of GB
-        data['geoId'] = data['geoId'].apply(lambda code: 'GB' if code == 'UK' else code)
+        data["geoId"] = data["geoId"].apply(lambda code: "GB" if code == "UK" else code)
 
-        # Workaround for https://github.com/open-covid-19/data/issues/12
-        # ECDC data for Italy is simply wrong, so Italy's data will be parsed from a different source
-        # ECDC data for Spain is two days delayed because original reporting time mismatch, parse separately
-        data = data[data['geoId'] != 'ES']
-        data = data[data['geoId'] != 'IT']
+        # Remove bogus entries (cruiseships, etc.)
+        data = data[~data["geoId"].apply(lambda code: len(code) > 2)]
 
-        # Add a column to denote null subregion to match only country-level metadata
-        data['subregion_1_code'] = None
+        data = data.rename(columns={"geoId": "key", "cases": "confirmed", "deaths": "deceased",})
 
-        return data.rename(columns={
-            'geoId': 'country_code',
-            'cases': 'confirmed',
-            'deaths': 'deceased',
-        })[['date', 'country_code', 'subregion_1_code', 'confirmed', 'deceased']]
+        # Adjust the date of the records to match local reporting
+        data = self._adjust_date(data, metadata)
+
+        return data

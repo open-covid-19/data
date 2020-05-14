@@ -1,6 +1,7 @@
 __pycache__/
 .env
 .vscode
+.mypy_cache
 .ipynb_checkpoints/
 input/*.ipynb
 output/
