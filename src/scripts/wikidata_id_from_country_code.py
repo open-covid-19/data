@@ -40,7 +40,6 @@ def wikidata_id_from_title(title: str) -> str:
         "https://en.wikipedia.org/w" "/api.php?action=query&prop=pageprops&redirects=1&format=json"
     )
     res = requests.get("{}&titles={}".format(api_base, title)).json()
-    print(res)
     return recursive_search(res, "wikibase_item")
 
 

@@ -120,6 +120,14 @@ class DefaultPipeline(DataPipeline):
         # Merge only needs the metadata auxiliary data table
         metadata = aux["metadata"]
 
+        # Exact key match might be possible and it's the fastest option
+        if "key" in record:
+            if record["key"] in metadata["key"].values:
+                return record["key"]
+            else:
+                warnings.warn("Key provided but not found in metadata: {}".format(record))
+                return None
+
         # Start by filtering the auxiliary dataset as much as possible
         for column_prefix in ("country", "subregion1", "subregion2"):
             for column_suffix in ("code", "name"):
@@ -134,10 +142,6 @@ class DefaultPipeline(DataPipeline):
         # Auxiliary dataset might have a single record left, then we are done
         if len(metadata) == 1:
             return metadata.iloc[0]["key"]
-
-        # Exact key match might be possible and it's the next fastest option
-        if "key" in record and record["key"] in metadata["key"].values:
-            return record["key"]
 
         # Compute a fuzzy version of the record's match string for comparison
         match_string = fuzzy_text(record["match_string"]) if "match_string" in record else None
@@ -250,7 +254,7 @@ class PipelineChain:
         return run_func()
 
     def run(
-        self, thread_count: int = cpu_count(), group_keys: List[str] = None, **pipeline_opts
+        self, process_count: int = cpu_count(), group_keys: List[str] = None, **pipeline_opts
     ) -> DataFrame:
         """
         Main method which executes all the associated [DataPipeline] objects and combines their
@@ -270,7 +274,8 @@ class PipelineChain:
         # Get all the pipeline outputs
         # This operation is parallelized but output order is preserved
         func_iter = [
-            # Make a copy of the auxiliary table to prevent modifying it for everyone
+            # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
+            # we allow for local modification (which might be wanted for optimization purposes)
             partial(
                 pipeline.run,
                 {name: df.copy() for name, df in aux.items()},
@@ -278,11 +283,15 @@ class PipelineChain:
             )
             for pipeline, opts in self.pipelines
         ]
-        pipeline_results = tqdm(
-            Pool(thread_count).imap(PipelineChain._run_wrapper, func_iter),
-            total=len(func_iter),
-            desc=self.__class__.__name__,
-        )
+
+        # If the process count is less than one, run in series (useful to evaluate performance)
+        if process_count <= 1:
+            func_iter_map = map(PipelineChain._run_wrapper, func_iter)
+        else:
+            func_iter_map = Pool(process_count).imap(PipelineChain._run_wrapper, func_iter)
+
+        # Show progress as the results arrive
+        pipeline_results = tqdm(func_iter_map, total=len(func_iter), desc=self.__class__.__name__,)
 
         # Combine all pipeline outputs into a single DataFrame
         data = combine_tables([result for result in pipeline_results], ["date", "key"])

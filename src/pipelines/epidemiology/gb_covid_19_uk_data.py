@@ -70,7 +70,22 @@ class Covid19UkDataL3Pipeline(DefaultPipeline):
             .dropna(subset=["subregion2_code"])
         )
 
+        # Add subregion1 code to the data
+        gb_meta = aux["metadata"]
+        gb_meta = gb_meta[gb_meta["country_code"] == "GB"]
+        gb_meta = gb_meta[gb_meta["subregion2_code"].isna()]
+        country_map = {
+            idx: code
+            for idx, code in gb_meta.set_index("subregion1_name")["subregion1_code"].iteritems()
+        }
+        data["subregion1_code"] = data["subregion1_name"].apply(lambda x: country_map[x])
+
+        # Manually build the key rather than doing automated merge for performance reasons
+        data["key"] = "GB_" + data["subregion1_code"] + "_" + data["subregion2_code"]
+
+        # Now that we have the key, we don't need any other non-value columns
+        data = data[["date", "key", "confirmed"]]
+
         data["confirmed"] = data["confirmed"].apply(safe_int_cast).astype("Int64")
-        data = grouped_diff(data, ["subregion1_name", "subregion2_code", "date"])
-        data["country_code"] = "GB"
+        data = grouped_diff(data, ["key", "date"])
         return data
