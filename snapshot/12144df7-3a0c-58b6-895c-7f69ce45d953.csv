@@ -1,0 +1,2488 @@
+country,nuts_3,cases,datetime
+CZ,Liberecký kraj,4,2020-03-13T00:00:00
+CZ,Karlovarský kraj,11,2020-03-13T00:00:00
+CZ,Zlínský kraj,18,2020-03-13T00:00:00
+CZ,Jihomoravský kraj,29,2020-03-13T00:00:00
+CZ,Olomoucký kraj,37,2020-03-13T00:00:00
+CZ,Moravskoslezský kraj,41,2020-03-13T00:00:00
+CZ,Pardubický kraj,66,2020-03-13T00:00:00
+CZ,Kraj Vysočina,76,2020-03-13T00:00:00
+CZ,Plzeňský kraj,89,2020-03-13T00:00:00
+CZ,Královéhradecký kraj,99,2020-03-13T00:00:00
+CZ,Středočeský kraj,112,2020-03-13T00:00:00
+CZ,Ústecký kraj,152,2020-03-13T00:00:00
+CZ,Jihočeský kraj,298,2020-03-13T00:00:00
+CZ,Hlavní město Praha,614,2020-03-13T00:00:00
+CZ,Liberecký kraj,8,2020-03-20T17:55:00
+CZ,Kraj Vysočina,9,2020-03-20T17:55:00
+CZ,Královéhradecký kraj,14,2020-03-20T17:55:00
+CZ,Plzeňský kraj,17,2020-03-20T17:55:00
+CZ,Pardubický kraj,19,2020-03-20T17:55:00
+CZ,Jihočeský kraj,22,2020-03-20T17:55:00
+CZ,Karlovarský kraj,27,2020-03-20T17:55:00
+CZ,Ústecký kraj,36,2020-03-20T17:55:00
+CZ,Zlínský kraj,47,2020-03-20T17:55:00
+CZ,Jihomoravský kraj,59,2020-03-20T17:55:00
+CZ,Olomoucký kraj,60,2020-03-20T17:55:00
+CZ,Moravskoslezský kraj,74,2020-03-20T17:55:00
+CZ,Středočeský kraj,108,2020-03-20T17:55:00
+CZ,Hlavní město Praha,124,2020-03-20T17:55:00
+CZ,Liberecký kraj,9,2020-03-21T08:59:00
+CZ,Kraj Vysočina,9,2020-03-21T08:59:00
+CZ,Královéhradecký kraj,15,2020-03-21T08:59:00
+CZ,Plzeňský kraj,17,2020-03-21T08:59:00
+CZ,Pardubický kraj,21,2020-03-21T08:59:00
+CZ,Jihočeský kraj,27,2020-03-21T08:59:00
+CZ,Karlovarský kraj,29,2020-03-21T08:59:00
+CZ,Ústecký kraj,36,2020-03-21T08:59:00
+CZ,Zlínský kraj,47,2020-03-21T08:59:00
+CZ,Jihomoravský kraj,59,2020-03-21T08:59:00
+CZ,Olomoucký kraj,64,2020-03-21T08:59:00
+CZ,Moravskoslezský kraj,76,2020-03-21T08:59:00
+CZ,Středočeský kraj,108,2020-03-21T08:59:00
+CZ,Hlavní město Praha,124,2020-03-21T08:59:00
+CZ,Liberecký kraj,9,2020-03-21T12:11:00
+CZ,Kraj Vysočina,9,2020-03-21T12:11:00
+CZ,Královéhradecký kraj,15,2020-03-21T12:11:00
+CZ,Plzeňský kraj,17,2020-03-21T12:11:00
+CZ,Pardubický kraj,21,2020-03-21T12:11:00
+CZ,Jihočeský kraj,27,2020-03-21T12:11:00
+CZ,Karlovarský kraj,29,2020-03-21T12:11:00
+CZ,Ústecký kraj,36,2020-03-21T12:11:00
+CZ,Zlínský kraj,47,2020-03-21T12:11:00
+CZ,Jihomoravský kraj,59,2020-03-21T12:11:00
+CZ,Olomoucký kraj,66,2020-03-21T12:11:00
+CZ,Moravskoslezský kraj,77,2020-03-21T12:11:00
+CZ,Středočeský kraj,109,2020-03-21T12:11:00
+CZ,Hlavní město Praha,125,2020-03-21T12:11:00
+CZ,Liberecký kraj,9,2020-03-21T17:55:00
+CZ,Kraj Vysočina,9,2020-03-21T17:55:00
+CZ,Královéhradecký kraj,15,2020-03-21T17:55:00
+CZ,Plzeňský kraj,17,2020-03-21T17:55:00
+CZ,Pardubický kraj,22,2020-03-21T17:55:00
+CZ,Jihočeský kraj,30,2020-03-21T17:55:00
+CZ,Karlovarský kraj,32,2020-03-21T17:55:00
+CZ,Ústecký kraj,36,2020-03-21T17:55:00
+CZ,Zlínský kraj,51,2020-03-21T17:55:00
+CZ,Jihomoravský kraj,66,2020-03-21T17:55:00
+CZ,Olomoucký kraj,68,2020-03-21T17:55:00
+CZ,Moravskoslezský kraj,79,2020-03-21T17:55:00
+CZ,Středočeský kraj,118,2020-03-21T17:55:00
+CZ,Hlavní město Praha,135,2020-03-21T17:55:00
+CZ,Liberecký kraj,9,2020-03-22T09:01:00
+CZ,Kraj Vysočina,9,2020-03-22T09:01:00
+CZ,Královéhradecký kraj,15,2020-03-22T09:01:00
+CZ,Plzeňský kraj,17,2020-03-22T09:01:00
+CZ,Pardubický kraj,24,2020-03-22T09:01:00
+CZ,Jihočeský kraj,30,2020-03-22T09:01:00
+CZ,Karlovarský kraj,38,2020-03-22T09:01:00
+CZ,Ústecký kraj,38,2020-03-22T09:01:00
+CZ,Zlínský kraj,53,2020-03-22T09:01:00
+CZ,Jihomoravský kraj,71,2020-03-22T09:01:00
+CZ,Olomoucký kraj,72,2020-03-22T09:01:00
+CZ,Moravskoslezský kraj,79,2020-03-22T09:01:00
+CZ,Středočeský kraj,118,2020-03-22T09:01:00
+CZ,Hlavní město Praha,143,2020-03-22T09:01:00
+CZ,Liberecký kraj,11,2020-03-22T17:45:00
+CZ,Kraj Vysočina,14,2020-03-22T17:45:00
+CZ,Královéhradecký kraj,17,2020-03-22T17:45:00
+CZ,Plzeňský kraj,18,2020-03-22T17:45:00
+CZ,Pardubický kraj,28,2020-03-22T17:45:00
+CZ,Jihočeský kraj,30,2020-03-22T17:45:00
+CZ,Ústecký kraj,39,2020-03-22T17:45:00
+CZ,Karlovarský kraj,40,2020-03-22T17:45:00
+CZ,Zlínský kraj,57,2020-03-22T17:45:00
+CZ,Jihomoravský kraj,76,2020-03-22T17:45:00
+CZ,Olomoucký kraj,81,2020-03-22T17:45:00
+CZ,Moravskoslezský kraj,81,2020-03-22T17:45:00
+CZ,Středočeský kraj,122,2020-03-22T17:45:00
+CZ,Hlavní město Praha,150,2020-03-22T17:45:00
+CZ,Liberecký kraj,12,2020-03-23T08:47:00
+CZ,Královéhradecký kraj,18,2020-03-23T08:47:00
+CZ,Kraj Vysočina,19,2020-03-23T08:47:00
+CZ,Plzeňský kraj,21,2020-03-23T08:47:00
+CZ,Pardubický kraj,28,2020-03-23T08:47:00
+CZ,Jihočeský kraj,30,2020-03-23T08:47:00
+CZ,Karlovarský kraj,40,2020-03-23T08:47:00
+CZ,Ústecký kraj,40,2020-03-23T08:47:00
+CZ,Zlínský kraj,57,2020-03-23T08:47:00
+CZ,Jihomoravský kraj,77,2020-03-23T08:47:00
+CZ,Moravskoslezský kraj,81,2020-03-23T08:47:00
+CZ,Olomoucký kraj,85,2020-03-23T08:47:00
+CZ,Středočeský kraj,122,2020-03-23T08:47:00
+CZ,Hlavní město Praha,172,2020-03-23T08:47:00
+CZ,Liberecký kraj,13,2020-03-23T17:45:00
+CZ,Královéhradecký kraj,18,2020-03-23T17:45:00
+CZ,Plzeňský kraj,20,2020-03-23T17:45:00
+CZ,Kraj Vysočina,23,2020-03-23T17:45:00
+CZ,Jihočeský kraj,30,2020-03-23T17:45:00
+CZ,Pardubický kraj,31,2020-03-23T17:45:00
+CZ,Karlovarský kraj,42,2020-03-23T17:45:00
+CZ,Ústecký kraj,43,2020-03-23T17:45:00
+CZ,Zlínský kraj,60,2020-03-23T17:45:00
+CZ,Jihomoravský kraj,86,2020-03-23T17:45:00
+CZ,Olomoucký kraj,98,2020-03-23T17:45:00
+CZ,Moravskoslezský kraj,115,2020-03-23T17:45:00
+CZ,Středočeský kraj,159,2020-03-23T17:45:00
+CZ,Hlavní město Praha,198,2020-03-23T17:45:00
+CZ,Liberecký kraj,13,2020-03-24T08:45:00
+CZ,Královéhradecký kraj,18,2020-03-24T08:45:00
+CZ,Plzeňský kraj,22,2020-03-24T08:45:00
+CZ,Kraj Vysočina,23,2020-03-24T08:45:00
+CZ,Jihočeský kraj,32,2020-03-24T08:45:00
+CZ,Pardubický kraj,33,2020-03-24T08:45:00
+CZ,Karlovarský kraj,42,2020-03-24T08:45:00
+CZ,Ústecký kraj,46,2020-03-24T08:45:00
+CZ,Zlínský kraj,67,2020-03-24T08:45:00
+CZ,Jihomoravský kraj,86,2020-03-24T08:45:00
+CZ,Olomoucký kraj,100,2020-03-24T08:45:00
+CZ,Moravskoslezský kraj,115,2020-03-24T08:45:00
+CZ,Středočeský kraj,160,2020-03-24T08:45:00
+CZ,Hlavní město Praha,201,2020-03-24T08:45:00
+CZ,Liberecký kraj,17,2020-03-24T17:46:00
+CZ,Plzeňský kraj,22,2020-03-24T17:46:00
+CZ,Královéhradecký kraj,22,2020-03-24T17:46:00
+CZ,Kraj Vysočina,24,2020-03-24T17:46:00
+CZ,Jihočeský kraj,34,2020-03-24T17:46:00
+CZ,Pardubický kraj,40,2020-03-24T17:46:00
+CZ,Karlovarský kraj,48,2020-03-24T17:46:00
+CZ,Ústecký kraj,50,2020-03-24T17:46:00
+CZ,Zlínský kraj,72,2020-03-24T17:46:00
+CZ,Jihomoravský kraj,92,2020-03-24T17:46:00
+CZ,Olomoucký kraj,118,2020-03-24T17:46:00
+CZ,Moravskoslezský kraj,134,2020-03-24T17:46:00
+CZ,Středočeský kraj,184,2020-03-24T17:46:00
+CZ,Hlavní město Praha,233,2020-03-24T17:46:00
+CZ,Liberecký kraj,18,2020-03-25T08:47:00
+CZ,Plzeňský kraj,23,2020-03-25T08:47:00
+CZ,Kraj Vysočina,26,2020-03-25T08:47:00
+CZ,Královéhradecký kraj,30,2020-03-25T08:47:00
+CZ,Jihočeský kraj,35,2020-03-25T08:47:00
+CZ,Pardubický kraj,41,2020-03-25T08:47:00
+CZ,Karlovarský kraj,48,2020-03-25T08:47:00
+CZ,Ústecký kraj,51,2020-03-25T08:47:00
+CZ,Zlínský kraj,75,2020-03-25T08:47:00
+CZ,Jihomoravský kraj,92,2020-03-25T08:47:00
+CZ,Olomoucký kraj,118,2020-03-25T08:47:00
+CZ,Moravskoslezský kraj,138,2020-03-25T08:47:00
+CZ,Středočeský kraj,185,2020-03-25T08:47:00
+CZ,Hlavní město Praha,234,2020-03-25T08:47:00
+CZ,Liberecký kraj,21,2020-03-25T17:46:00
+CZ,Kraj Vysočina,29,2020-03-25T17:46:00
+CZ,Plzeňský kraj,31,2020-03-25T17:46:00
+CZ,Královéhradecký kraj,31,2020-03-25T17:46:00
+CZ,Pardubický kraj,46,2020-03-25T17:46:00
+CZ,Jihočeský kraj,47,2020-03-25T17:46:00
+CZ,Karlovarský kraj,56,2020-03-25T17:46:00
+CZ,Ústecký kraj,58,2020-03-25T17:46:00
+CZ,Zlínský kraj,79,2020-03-25T17:46:00
+CZ,Jihomoravský kraj,103,2020-03-25T17:46:00
+CZ,Olomoucký kraj,134,2020-03-25T17:46:00
+CZ,Moravskoslezský kraj,168,2020-03-25T17:46:00
+CZ,Středočeský kraj,201,2020-03-25T17:46:00
+CZ,Hlavní město Praha,308,2020-03-25T17:46:00
+CZ,Liberecký kraj,21,2020-03-26T08:46:00
+CZ,Kraj Vysočina,29,2020-03-26T08:46:00
+CZ,Plzeňský kraj,31,2020-03-26T08:46:00
+CZ,Královéhradecký kraj,32,2020-03-26T08:46:00
+CZ,Pardubický kraj,49,2020-03-26T08:46:00
+CZ,Jihočeský kraj,55,2020-03-26T08:46:00
+CZ,Karlovarský kraj,56,2020-03-26T08:46:00
+CZ,Ústecký kraj,65,2020-03-26T08:46:00
+CZ,Zlínský kraj,84,2020-03-26T08:46:00
+CZ,Jihomoravský kraj,103,2020-03-26T08:46:00
+CZ,Olomoucký kraj,137,2020-03-26T08:46:00
+CZ,Moravskoslezský kraj,169,2020-03-26T08:46:00
+CZ,Středočeský kraj,206,2020-03-26T08:46:00
+CZ,Hlavní město Praha,313,2020-03-26T08:46:00
+CZ,Plzeňský kraj,32,2020-03-26T17:51:00
+CZ,Liberecký kraj,33,2020-03-26T17:51:00
+CZ,Královéhradecký kraj,41,2020-03-26T17:51:00
+CZ,Kraj Vysočina,41,2020-03-26T17:51:00
+CZ,Pardubický kraj,54,2020-03-26T17:51:00
+CZ,Jihočeský kraj,58,2020-03-26T17:51:00
+CZ,Karlovarský kraj,66,2020-03-26T17:51:00
+CZ,Ústecký kraj,67,2020-03-26T17:51:00
+CZ,Zlínský kraj,92,2020-03-26T17:51:00
+CZ,Jihomoravský kraj,113,2020-03-26T17:51:00
+CZ,Olomoucký kraj,158,2020-03-26T17:51:00
+CZ,Moravskoslezský kraj,192,2020-03-26T17:51:00
+CZ,Středočeský kraj,224,2020-03-26T17:51:00
+CZ,Hlavní město Praha,382,2020-03-26T17:51:00
+CZ,Plzeňský kraj,32,2020-03-27T08:48:00
+CZ,Liberecký kraj,35,2020-03-27T08:48:00
+CZ,Kraj Vysočina,42,2020-03-27T08:48:00
+CZ,Královéhradecký kraj,46,2020-03-27T08:48:00
+CZ,Pardubický kraj,56,2020-03-27T08:48:00
+CZ,Jihočeský kraj,63,2020-03-27T08:48:00
+CZ,Karlovarský kraj,66,2020-03-27T08:48:00
+CZ,Ústecký kraj,70,2020-03-27T08:48:00
+CZ,Zlínský kraj,92,2020-03-27T08:48:00
+CZ,Jihomoravský kraj,113,2020-03-27T08:48:00
+CZ,Olomoucký kraj,171,2020-03-27T08:48:00
+CZ,Moravskoslezský kraj,192,2020-03-27T08:48:00
+CZ,Středočeský kraj,229,2020-03-27T08:48:00
+CZ,Hlavní město Praha,414,2020-03-27T08:48:00
+CZ,Liberecký kraj,46,2020-03-27T17:46:00
+CZ,Kraj Vysočina,46,2020-03-27T17:46:00
+CZ,Královéhradecký kraj,51,2020-03-27T17:46:00
+CZ,Plzeňský kraj,56,2020-03-27T17:46:00
+CZ,Pardubický kraj,58,2020-03-27T17:46:00
+CZ,Jihočeský kraj,68,2020-03-27T17:46:00
+CZ,Karlovarský kraj,68,2020-03-27T17:46:00
+CZ,Ústecký kraj,84,2020-03-27T17:46:00
+CZ,Zlínský kraj,100,2020-03-27T17:46:00
+CZ,Jihomoravský kraj,133,2020-03-27T17:46:00
+CZ,Olomoucký kraj,191,2020-03-27T17:46:00
+CZ,Moravskoslezský kraj,219,2020-03-27T17:46:00
+CZ,Středočeský kraj,255,2020-03-27T17:46:00
+CZ,Hlavní město Praha,446,2020-03-27T17:46:00
+CZ,Kraj Vysočina,46,2020-03-28T08:46:00
+CZ,Liberecký kraj,49,2020-03-28T08:46:00
+CZ,Královéhradecký kraj,52,2020-03-28T08:46:00
+CZ,Plzeňský kraj,56,2020-03-28T08:46:00
+CZ,Pardubický kraj,58,2020-03-28T08:46:00
+CZ,Karlovarský kraj,68,2020-03-28T08:46:00
+CZ,Jihočeský kraj,72,2020-03-28T08:46:00
+CZ,Ústecký kraj,84,2020-03-28T08:46:00
+CZ,Zlínský kraj,101,2020-03-28T08:46:00
+CZ,Jihomoravský kraj,133,2020-03-28T08:46:00
+CZ,Olomoucký kraj,197,2020-03-28T08:46:00
+CZ,Moravskoslezský kraj,219,2020-03-28T08:46:00
+CZ,Středočeský kraj,255,2020-03-28T08:46:00
+CZ,Hlavní město Praha,457,2020-03-28T08:46:00
+CZ,Liberecký kraj,69,2020-03-28T16:26:00
+CZ,Pardubický kraj,72,2020-03-28T16:26:00
+CZ,Královéhradecký kraj,79,2020-03-28T16:26:00
+CZ,Nezjištěno,83,2020-03-28T16:26:00
+CZ,Jihočeský kraj,84,2020-03-28T16:26:00
+CZ,Karlovarský kraj,91,2020-03-28T16:26:00
+CZ,Kraj Vysočina,100,2020-03-28T16:26:00
+CZ,Ústecký kraj,102,2020-03-28T16:26:00
+CZ,Zlínský kraj,111,2020-03-28T16:26:00
+CZ,Plzeňský kraj,113,2020-03-28T16:26:00
+CZ,Jihomoravský kraj,150,2020-03-28T16:26:00
+CZ,Olomoucký kraj,242,2020-03-28T16:26:00
+CZ,Moravskoslezský kraj,279,2020-03-28T16:26:00
+CZ,Středočeský kraj,354,2020-03-28T16:26:00
+CZ,Hlavní město Praha,740,2020-03-28T16:26:00
+CZ,Liberecký kraj,70,2020-03-29T18:25:00
+CZ,Pardubický kraj,74,2020-03-29T18:25:00
+CZ,Královéhradecký kraj,80,2020-03-29T18:25:00
+CZ,Jihočeský kraj,86,2020-03-29T18:25:00
+CZ,Nezjištěno,86,2020-03-29T18:25:00
+CZ,Karlovarský kraj,94,2020-03-29T18:25:00
+CZ,Kraj Vysočina,101,2020-03-29T18:25:00
+CZ,Ústecký kraj,108,2020-03-29T18:25:00
+CZ,Plzeňský kraj,114,2020-03-29T18:25:00
+CZ,Zlínský kraj,124,2020-03-29T18:25:00
+CZ,Jihomoravský kraj,162,2020-03-29T18:25:00
+CZ,Olomoucký kraj,245,2020-03-29T18:25:00
+CZ,Moravskoslezský kraj,289,2020-03-29T18:25:00
+CZ,Středočeský kraj,362,2020-03-29T18:25:00
+CZ,Hlavní město Praha,748,2020-03-29T18:25:00
+CZ,Liberecký kraj,70,2020-03-29T20:25:00
+CZ,Pardubický kraj,75,2020-03-29T20:25:00
+CZ,Královéhradecký kraj,80,2020-03-29T20:25:00
+CZ,Jihočeský kraj,86,2020-03-29T20:25:00
+CZ,Nezjištěno,93,2020-03-29T20:25:00
+CZ,Karlovarský kraj,94,2020-03-29T20:25:00
+CZ,Kraj Vysočina,101,2020-03-29T20:25:00
+CZ,Ústecký kraj,111,2020-03-29T20:25:00
+CZ,Plzeňský kraj,118,2020-03-29T20:25:00
+CZ,Zlínský kraj,128,2020-03-29T20:25:00
+CZ,Jihomoravský kraj,163,2020-03-29T20:25:00
+CZ,Olomoucký kraj,255,2020-03-29T20:25:00
+CZ,Moravskoslezský kraj,289,2020-03-29T20:25:00
+CZ,Středočeský kraj,362,2020-03-29T20:25:00
+CZ,Hlavní město Praha,750,2020-03-29T20:25:00
+CZ,Liberecký kraj,70,2020-03-29T22:30:00
+CZ,Pardubický kraj,75,2020-03-29T22:30:00
+CZ,Jihočeský kraj,86,2020-03-29T22:30:00
+CZ,Královéhradecký kraj,86,2020-03-29T22:30:00
+CZ,Karlovarský kraj,94,2020-03-29T22:30:00
+CZ,Nezjištěno,96,2020-03-29T22:30:00
+CZ,Kraj Vysočina,102,2020-03-29T22:30:00
+CZ,Ústecký kraj,111,2020-03-29T22:30:00
+CZ,Plzeňský kraj,118,2020-03-29T22:30:00
+CZ,Zlínský kraj,128,2020-03-29T22:30:00
+CZ,Jihomoravský kraj,172,2020-03-29T22:30:00
+CZ,Olomoucký kraj,262,2020-03-29T22:30:00
+CZ,Moravskoslezský kraj,290,2020-03-29T22:30:00
+CZ,Středočeský kraj,363,2020-03-29T22:30:00
+CZ,Hlavní město Praha,752,2020-03-29T22:30:00
+CZ,Liberecký kraj,70,2020-03-30T00:30:00
+CZ,Pardubický kraj,75,2020-03-30T00:30:00
+CZ,Jihočeský kraj,86,2020-03-30T00:30:00
+CZ,Královéhradecký kraj,86,2020-03-30T00:30:00
+CZ,Karlovarský kraj,94,2020-03-30T00:30:00
+CZ,Kraj Vysočina,102,2020-03-30T00:30:00
+CZ,Nezjištěno,108,2020-03-30T00:30:00
+CZ,Ústecký kraj,111,2020-03-30T00:30:00
+CZ,Plzeňský kraj,118,2020-03-30T00:30:00
+CZ,Zlínský kraj,128,2020-03-30T00:30:00
+CZ,Jihomoravský kraj,172,2020-03-30T00:30:00
+CZ,Olomoucký kraj,262,2020-03-30T00:30:00
+CZ,Moravskoslezský kraj,290,2020-03-30T00:30:00
+CZ,Středočeský kraj,363,2020-03-30T00:30:00
+CZ,Hlavní město Praha,752,2020-03-30T00:30:00
+CZ,Pardubický kraj,75,2020-03-30T08:25:00
+CZ,Liberecký kraj,78,2020-03-30T08:25:00
+CZ,Jihočeský kraj,86,2020-03-30T08:25:00
+CZ,Královéhradecký kraj,87,2020-03-30T08:25:00
+CZ,Nezjištěno,88,2020-03-30T08:25:00
+CZ,Karlovarský kraj,98,2020-03-30T08:25:00
+CZ,Kraj Vysočina,102,2020-03-30T08:25:00
+CZ,Ústecký kraj,112,2020-03-30T08:25:00
+CZ,Plzeňský kraj,118,2020-03-30T08:25:00
+CZ,Zlínský kraj,128,2020-03-30T08:25:00
+CZ,Jihomoravský kraj,172,2020-03-30T08:25:00
+CZ,Olomoucký kraj,262,2020-03-30T08:25:00
+CZ,Moravskoslezský kraj,290,2020-03-30T08:25:00
+CZ,Středočeský kraj,365,2020-03-30T08:25:00
+CZ,Hlavní město Praha,776,2020-03-30T08:25:00
+CZ,Pardubický kraj,75,2020-03-30T10:30:00
+CZ,Liberecký kraj,78,2020-03-30T10:30:00
+CZ,Jihočeský kraj,86,2020-03-30T10:30:00
+CZ,Královéhradecký kraj,87,2020-03-30T10:30:00
+CZ,Karlovarský kraj,98,2020-03-30T10:30:00
+CZ,Kraj Vysočina,102,2020-03-30T10:30:00
+CZ,Nezjištěno,109,2020-03-30T10:30:00
+CZ,Ústecký kraj,112,2020-03-30T10:30:00
+CZ,Plzeňský kraj,118,2020-03-30T10:30:00
+CZ,Zlínský kraj,128,2020-03-30T10:30:00
+CZ,Jihomoravský kraj,172,2020-03-30T10:30:00
+CZ,Olomoucký kraj,262,2020-03-30T10:30:00
+CZ,Moravskoslezský kraj,289,2020-03-30T10:30:00
+CZ,Středočeský kraj,367,2020-03-30T10:30:00
+CZ,Hlavní město Praha,776,2020-03-30T10:30:00
+CZ,Pardubický kraj,77,2020-03-30T12:25:00
+CZ,Nezjištěno,83,2020-03-30T12:25:00
+CZ,Jihočeský kraj,86,2020-03-30T12:25:00
+CZ,Královéhradecký kraj,87,2020-03-30T12:25:00
+CZ,Liberecký kraj,88,2020-03-30T12:25:00
+CZ,Karlovarský kraj,99,2020-03-30T12:25:00
+CZ,Kraj Vysočina,102,2020-03-30T12:25:00
+CZ,Plzeňský kraj,119,2020-03-30T12:25:00
+CZ,Ústecký kraj,124,2020-03-30T12:25:00
+CZ,Zlínský kraj,128,2020-03-30T12:25:00
+CZ,Jihomoravský kraj,170,2020-03-30T12:25:00
+CZ,Olomoucký kraj,263,2020-03-30T12:25:00
+CZ,Moravskoslezský kraj,290,2020-03-30T12:25:00
+CZ,Středočeský kraj,372,2020-03-30T12:25:00
+CZ,Hlavní město Praha,778,2020-03-30T12:25:00
+CZ,Pardubický kraj,77,2020-03-30T14:30:00
+CZ,Nezjištěno,84,2020-03-30T14:30:00
+CZ,Jihočeský kraj,86,2020-03-30T14:30:00
+CZ,Královéhradecký kraj,87,2020-03-30T14:30:00
+CZ,Liberecký kraj,89,2020-03-30T14:30:00
+CZ,Karlovarský kraj,99,2020-03-30T14:30:00
+CZ,Kraj Vysočina,102,2020-03-30T14:30:00
+CZ,Plzeňský kraj,119,2020-03-30T14:30:00
+CZ,Ústecký kraj,124,2020-03-30T14:30:00
+CZ,Zlínský kraj,128,2020-03-30T14:30:00
+CZ,Jihomoravský kraj,168,2020-03-30T14:30:00
+CZ,Olomoucký kraj,266,2020-03-30T14:30:00
+CZ,Moravskoslezský kraj,290,2020-03-30T14:30:00
+CZ,Středočeský kraj,377,2020-03-30T14:30:00
+CZ,Hlavní město Praha,782,2020-03-30T14:30:00
+CZ,Pardubický kraj,75,2020-03-30T16:25:00
+CZ,Nezjištěno,84,2020-03-30T16:25:00
+CZ,Královéhradecký kraj,87,2020-03-30T16:25:00
+CZ,Jihočeský kraj,88,2020-03-30T16:25:00
+CZ,Liberecký kraj,89,2020-03-30T16:25:00
+CZ,Karlovarský kraj,99,2020-03-30T16:25:00
+CZ,Kraj Vysočina,102,2020-03-30T16:25:00
+CZ,Plzeňský kraj,120,2020-03-30T16:25:00
+CZ,Zlínský kraj,128,2020-03-30T16:25:00
+CZ,Ústecký kraj,129,2020-03-30T16:25:00
+CZ,Jihomoravský kraj,168,2020-03-30T16:25:00
+CZ,Olomoucký kraj,271,2020-03-30T16:25:00
+CZ,Moravskoslezský kraj,292,2020-03-30T16:25:00
+CZ,Středočeský kraj,381,2020-03-30T16:25:00
+CZ,Hlavní město Praha,783,2020-03-30T16:25:00
+CZ,Pardubický kraj,78,2020-03-30T18:30:00
+CZ,Královéhradecký kraj,87,2020-03-30T18:30:00
+CZ,Jihočeský kraj,88,2020-03-30T18:30:00
+CZ,Liberecký kraj,90,2020-03-30T18:30:00
+CZ,Nezjištěno,91,2020-03-30T18:30:00
+CZ,Karlovarský kraj,100,2020-03-30T18:30:00
+CZ,Kraj Vysočina,103,2020-03-30T18:30:00
+CZ,Plzeňský kraj,121,2020-03-30T18:30:00
+CZ,Zlínský kraj,129,2020-03-30T18:30:00
+CZ,Ústecký kraj,139,2020-03-30T18:30:00
+CZ,Jihomoravský kraj,175,2020-03-30T18:30:00
+CZ,Olomoucký kraj,273,2020-03-30T18:30:00
+CZ,Moravskoslezský kraj,293,2020-03-30T18:30:00
+CZ,Středočeský kraj,384,2020-03-30T18:30:00
+CZ,Hlavní město Praha,791,2020-03-30T18:30:00
+CZ,Pardubický kraj,80,2020-03-30T20:30:00
+CZ,Jihočeský kraj,88,2020-03-30T20:30:00
+CZ,Královéhradecký kraj,89,2020-03-30T20:30:00
+CZ,Liberecký kraj,90,2020-03-30T20:30:00
+CZ,Nezjištěno,98,2020-03-30T20:30:00
+CZ,Karlovarský kraj,100,2020-03-30T20:30:00
+CZ,Kraj Vysočina,103,2020-03-30T20:30:00
+CZ,Plzeňský kraj,120,2020-03-30T20:30:00
+CZ,Zlínský kraj,129,2020-03-30T20:30:00
+CZ,Ústecký kraj,138,2020-03-30T20:30:00
+CZ,Jihomoravský kraj,175,2020-03-30T20:30:00
+CZ,Olomoucký kraj,273,2020-03-30T20:30:00
+CZ,Moravskoslezský kraj,293,2020-03-30T20:30:00
+CZ,Středočeský kraj,384,2020-03-30T20:30:00
+CZ,Hlavní město Praha,796,2020-03-30T20:30:00
+CZ,Pardubický kraj,80,2020-03-30T22:25:00
+CZ,Jihočeský kraj,89,2020-03-30T22:25:00
+CZ,Královéhradecký kraj,89,2020-03-30T22:25:00
+CZ,Liberecký kraj,90,2020-03-30T22:25:00
+CZ,Karlovarský kraj,100,2020-03-30T22:25:00
+CZ,Kraj Vysočina,104,2020-03-30T22:25:00
+CZ,Plzeňský kraj,109,2020-03-30T22:25:00
+CZ,Nezjištěno,123,2020-03-30T22:25:00
+CZ,Zlínský kraj,129,2020-03-30T22:25:00
+CZ,Ústecký kraj,138,2020-03-30T22:25:00
+CZ,Jihomoravský kraj,174,2020-03-30T22:25:00
+CZ,Olomoucký kraj,273,2020-03-30T22:25:00
+CZ,Moravskoslezský kraj,293,2020-03-30T22:25:00
+CZ,Středočeský kraj,385,2020-03-30T22:25:00
+CZ,Hlavní město Praha,800,2020-03-30T22:25:00
+CZ,Nezjištěno,65,2020-03-31T00:30:00
+CZ,Pardubický kraj,80,2020-03-31T00:30:00
+CZ,Liberecký kraj,91,2020-03-31T00:30:00
+CZ,Královéhradecký kraj,92,2020-03-31T00:30:00
+CZ,Jihočeský kraj,94,2020-03-31T00:30:00
+CZ,Karlovarský kraj,102,2020-03-31T00:30:00
+CZ,Kraj Vysočina,108,2020-03-31T00:30:00
+CZ,Zlínský kraj,129,2020-03-31T00:30:00
+CZ,Plzeňský kraj,137,2020-03-31T00:30:00
+CZ,Ústecký kraj,140,2020-03-31T00:30:00
+CZ,Jihomoravský kraj,175,2020-03-31T00:30:00
+CZ,Olomoucký kraj,280,2020-03-31T00:30:00
+CZ,Moravskoslezský kraj,302,2020-03-31T00:30:00
+CZ,Středočeský kraj,391,2020-03-31T00:30:00
+CZ,Hlavní město Praha,815,2020-03-31T00:30:00
+CZ,Nezjištěno,65,2020-03-31T08:30:00
+CZ,Pardubický kraj,80,2020-03-31T08:30:00
+CZ,Liberecký kraj,91,2020-03-31T08:30:00
+CZ,Královéhradecký kraj,92,2020-03-31T08:30:00
+CZ,Jihočeský kraj,93,2020-03-31T08:30:00
+CZ,Karlovarský kraj,102,2020-03-31T08:30:00
+CZ,Kraj Vysočina,108,2020-03-31T08:30:00
+CZ,Zlínský kraj,129,2020-03-31T08:30:00
+CZ,Plzeňský kraj,138,2020-03-31T08:30:00
+CZ,Ústecký kraj,140,2020-03-31T08:30:00
+CZ,Jihomoravský kraj,175,2020-03-31T08:30:00
+CZ,Olomoucký kraj,280,2020-03-31T08:30:00
+CZ,Moravskoslezský kraj,302,2020-03-31T08:30:00
+CZ,Středočeský kraj,391,2020-03-31T08:30:00
+CZ,Hlavní město Praha,816,2020-03-31T08:30:00
+CZ,Nezjištěno,76,2020-03-31T19:10:00
+CZ,Královéhradecký kraj,97,2020-03-31T19:10:00
+CZ,Jihočeský kraj,103,2020-03-31T19:10:00
+CZ,Liberecký kraj,105,2020-03-31T19:10:00
+CZ,Pardubický kraj,107,2020-03-31T19:10:00
+CZ,Karlovarský kraj,109,2020-03-31T19:10:00
+CZ,Kraj Vysočina,113,2020-03-31T19:10:00
+CZ,Zlínský kraj,132,2020-03-31T19:10:00
+CZ,Plzeňský kraj,149,2020-03-31T19:10:00
+CZ,Jihomoravský kraj,182,2020-03-31T19:10:00
+CZ,Ústecký kraj,199,2020-03-31T19:10:00
+CZ,Olomoucký kraj,294,2020-03-31T19:10:00
+CZ,Moravskoslezský kraj,310,2020-03-31T19:10:00
+CZ,Středočeský kraj,425,2020-03-31T19:10:00
+CZ,Hlavní město Praha,856,2020-03-31T19:10:00
+CZ,Nezjištěno,71,2020-04-01T00:30:00
+CZ,Královéhradecký kraj,100,2020-04-01T00:30:00
+CZ,Jihočeský kraj,104,2020-04-01T00:30:00
+CZ,Liberecký kraj,105,2020-04-01T00:30:00
+CZ,Pardubický kraj,109,2020-04-01T00:30:00
+CZ,Karlovarský kraj,111,2020-04-01T00:30:00
+CZ,Kraj Vysočina,114,2020-04-01T00:30:00
+CZ,Zlínský kraj,133,2020-04-01T00:30:00
+CZ,Plzeňský kraj,150,2020-04-01T00:30:00
+CZ,Jihomoravský kraj,184,2020-04-01T00:30:00
+CZ,Ústecký kraj,199,2020-04-01T00:30:00
+CZ,Olomoucký kraj,300,2020-04-01T00:30:00
+CZ,Moravskoslezský kraj,314,2020-04-01T00:30:00
+CZ,Středočeský kraj,431,2020-04-01T00:30:00
+CZ,Hlavní město Praha,883,2020-04-01T00:30:00
+CZ,Nezjištěno,93,2020-04-01T08:30:00
+CZ,Královéhradecký kraj,102,2020-04-01T08:30:00
+CZ,Jihočeský kraj,104,2020-04-01T08:30:00
+CZ,Liberecký kraj,105,2020-04-01T08:30:00
+CZ,Pardubický kraj,108,2020-04-01T08:30:00
+CZ,Karlovarský kraj,111,2020-04-01T08:30:00
+CZ,Kraj Vysočina,114,2020-04-01T08:30:00
+CZ,Zlínský kraj,133,2020-04-01T08:30:00
+CZ,Plzeňský kraj,150,2020-04-01T08:30:00
+CZ,Jihomoravský kraj,184,2020-04-01T08:30:00
+CZ,Ústecký kraj,199,2020-04-01T08:30:00
+CZ,Olomoucký kraj,300,2020-04-01T08:30:00
+CZ,Moravskoslezský kraj,314,2020-04-01T08:30:00
+CZ,Středočeský kraj,431,2020-04-01T08:30:00
+CZ,Hlavní město Praha,882,2020-04-01T08:30:00
+CZ,Královéhradecký kraj,105,2020-04-01T17:30:00
+CZ,Nezjištěno,105,2020-04-01T17:30:00
+CZ,Jihočeský kraj,106,2020-04-01T17:30:00
+CZ,Karlovarský kraj,112,2020-04-01T17:30:00
+CZ,Pardubický kraj,114,2020-04-01T17:30:00
+CZ,Kraj Vysočina,114,2020-04-01T17:30:00
+CZ,Liberecký kraj,117,2020-04-01T17:30:00
+CZ,Zlínský kraj,148,2020-04-01T17:30:00
+CZ,Plzeňský kraj,161,2020-04-01T17:30:00
+CZ,Jihomoravský kraj,208,2020-04-01T17:30:00
+CZ,Ústecký kraj,211,2020-04-01T17:30:00
+CZ,Olomoucký kraj,310,2020-04-01T17:30:00
+CZ,Moravskoslezský kraj,319,2020-04-01T17:30:00
+CZ,Středočeský kraj,447,2020-04-01T17:30:00
+CZ,Hlavní město Praha,931,2020-04-01T17:30:00
+CZ,Jihočeský kraj,106,2020-04-02T00:30:00
+CZ,Královéhradecký kraj,108,2020-04-02T00:30:00
+CZ,Karlovarský kraj,112,2020-04-02T00:30:00
+CZ,Kraj Vysočina,114,2020-04-02T00:30:00
+CZ,Pardubický kraj,116,2020-04-02T00:30:00
+CZ,Liberecký kraj,117,2020-04-02T00:30:00
+CZ,Zlínský kraj,150,2020-04-02T00:30:00
+CZ,Nezjištěno,158,2020-04-02T00:30:00
+CZ,Plzeňský kraj,161,2020-04-02T00:30:00
+CZ,Jihomoravský kraj,208,2020-04-02T00:30:00
+CZ,Ústecký kraj,215,2020-04-02T00:30:00
+CZ,Olomoucký kraj,312,2020-04-02T00:30:00
+CZ,Moravskoslezský kraj,321,2020-04-02T00:30:00
+CZ,Středočeský kraj,448,2020-04-02T00:30:00
+CZ,Hlavní město Praha,943,2020-04-02T00:30:00
+CZ,Nezjištěno,81,2020-04-02T08:30:00
+CZ,Královéhradecký kraj,108,2020-04-02T08:30:00
+CZ,Jihočeský kraj,112,2020-04-02T08:30:00
+CZ,Pardubický kraj,117,2020-04-02T08:30:00
+CZ,Karlovarský kraj,119,2020-04-02T08:30:00
+CZ,Liberecký kraj,121,2020-04-02T08:30:00
+CZ,Kraj Vysočina,122,2020-04-02T08:30:00
+CZ,Zlínský kraj,150,2020-04-02T08:30:00
+CZ,Plzeňský kraj,172,2020-04-02T08:30:00
+CZ,Ústecký kraj,216,2020-04-02T08:30:00
+CZ,Jihomoravský kraj,222,2020-04-02T08:30:00
+CZ,Olomoucký kraj,318,2020-04-02T08:30:00
+CZ,Moravskoslezský kraj,332,2020-04-02T08:30:00
+CZ,Středočeský kraj,455,2020-04-02T08:30:00
+CZ,Hlavní město Praha,959,2020-04-02T08:30:00
+CZ,Jihočeský kraj,111,2020-04-02T17:30:00
+CZ,Královéhradecký kraj,111,2020-04-02T17:30:00
+CZ,Pardubický kraj,121,2020-04-02T17:30:00
+CZ,Karlovarský kraj,123,2020-04-02T17:30:00
+CZ,Kraj Vysočina,123,2020-04-02T17:30:00
+CZ,Liberecký kraj,133,2020-04-02T17:30:00
+CZ,Zlínský kraj,155,2020-04-02T17:30:00
+CZ,Plzeňský kraj,173,2020-04-02T17:30:00
+CZ,Nezjištěno,174,2020-04-02T17:30:00
+CZ,Ústecký kraj,229,2020-04-02T17:30:00
+CZ,Jihomoravský kraj,231,2020-04-02T17:30:00
+CZ,Olomoucký kraj,332,2020-04-02T17:30:00
+CZ,Moravskoslezský kraj,334,2020-04-02T17:30:00
+CZ,Středočeský kraj,464,2020-04-02T17:30:00
+CZ,Hlavní město Praha,991,2020-04-02T17:30:00
+CZ,Nezjištěno,88,2020-04-03T00:30:00
+CZ,Jihočeský kraj,112,2020-04-03T00:30:00
+CZ,Královéhradecký kraj,115,2020-04-03T00:30:00
+CZ,Karlovarský kraj,124,2020-04-03T00:30:00
+CZ,Kraj Vysočina,126,2020-04-03T00:30:00
+CZ,Pardubický kraj,130,2020-04-03T00:30:00
+CZ,Liberecký kraj,135,2020-04-03T00:30:00
+CZ,Zlínský kraj,156,2020-04-03T00:30:00
+CZ,Plzeňský kraj,174,2020-04-03T00:30:00
+CZ,Jihomoravský kraj,232,2020-04-03T00:30:00
+CZ,Ústecký kraj,258,2020-04-03T00:30:00
+CZ,Moravskoslezský kraj,347,2020-04-03T00:30:00
+CZ,Olomoucký kraj,356,2020-04-03T00:30:00
+CZ,Středočeský kraj,476,2020-04-03T00:30:00
+CZ,Hlavní město Praha,1029,2020-04-03T00:30:00
+CZ,Nezjištěno,96,2020-04-03T08:30:00
+CZ,Jihočeský kraj,112,2020-04-03T08:30:00
+CZ,Královéhradecký kraj,115,2020-04-03T08:30:00
+CZ,Karlovarský kraj,124,2020-04-03T08:30:00
+CZ,Kraj Vysočina,126,2020-04-03T08:30:00
+CZ,Pardubický kraj,130,2020-04-03T08:30:00
+CZ,Liberecký kraj,135,2020-04-03T08:30:00
+CZ,Zlínský kraj,156,2020-04-03T08:30:00
+CZ,Plzeňský kraj,175,2020-04-03T08:30:00
+CZ,Jihomoravský kraj,234,2020-04-03T08:30:00
+CZ,Ústecký kraj,258,2020-04-03T08:30:00
+CZ,Moravskoslezský kraj,347,2020-04-03T08:30:00
+CZ,Olomoucký kraj,356,2020-04-03T08:30:00
+CZ,Středočeský kraj,476,2020-04-03T08:30:00
+CZ,Hlavní město Praha,1029,2020-04-03T08:30:00
+CZ,Jihočeský kraj,118,2020-04-03T17:25:00
+CZ,Královéhradecký kraj,122,2020-04-03T17:25:00
+CZ,Kraj Vysočina,131,2020-04-03T17:25:00
+CZ,Karlovarský kraj,139,2020-04-03T17:25:00
+CZ,Liberecký kraj,140,2020-04-03T17:25:00
+CZ,Pardubický kraj,141,2020-04-03T17:25:00
+CZ,Nezjištěno,161,2020-04-03T17:25:00
+CZ,Zlínský kraj,162,2020-04-03T17:25:00
+CZ,Plzeňský kraj,186,2020-04-03T17:25:00
+CZ,Jihomoravský kraj,245,2020-04-03T17:25:00
+CZ,Ústecký kraj,273,2020-04-03T17:25:00
+CZ,Moravskoslezský kraj,351,2020-04-03T17:25:00
+CZ,Olomoucký kraj,362,2020-04-03T17:25:00
+CZ,Středočeský kraj,488,2020-04-03T17:25:00
+CZ,Hlavní město Praha,1072,2020-04-03T17:25:00
+CZ,Nezjištěno,53,2020-04-04T00:30:00
+CZ,Jihočeský kraj,119,2020-04-04T00:30:00
+CZ,Královéhradecký kraj,129,2020-04-04T00:30:00
+CZ,Kraj Vysočina,132,2020-04-04T00:30:00
+CZ,Liberecký kraj,140,2020-04-04T00:30:00
+CZ,Karlovarský kraj,141,2020-04-04T00:30:00
+CZ,Pardubický kraj,160,2020-04-04T00:30:00
+CZ,Zlínský kraj,188,2020-04-04T00:30:00
+CZ,Plzeňský kraj,209,2020-04-04T00:30:00
+CZ,Jihomoravský kraj,252,2020-04-04T00:30:00
+CZ,Ústecký kraj,285,2020-04-04T00:30:00
+CZ,Moravskoslezský kraj,376,2020-04-04T00:30:00
+CZ,Olomoucký kraj,380,2020-04-04T00:30:00
+CZ,Středočeský kraj,508,2020-04-04T00:30:00
+CZ,Hlavní město Praha,1118,2020-04-04T00:30:00
+CZ,Nezjištěno,57,2020-04-04T08:25:00
+CZ,Jihočeský kraj,119,2020-04-04T08:25:00
+CZ,Královéhradecký kraj,129,2020-04-04T08:25:00
+CZ,Kraj Vysočina,132,2020-04-04T08:25:00
+CZ,Liberecký kraj,140,2020-04-04T08:25:00
+CZ,Karlovarský kraj,141,2020-04-04T08:25:00
+CZ,Pardubický kraj,160,2020-04-04T08:25:00
+CZ,Zlínský kraj,188,2020-04-04T08:25:00
+CZ,Plzeňský kraj,209,2020-04-04T08:25:00
+CZ,Jihomoravský kraj,252,2020-04-04T08:25:00
+CZ,Ústecký kraj,285,2020-04-04T08:25:00
+CZ,Moravskoslezský kraj,376,2020-04-04T08:25:00
+CZ,Olomoucký kraj,380,2020-04-04T08:25:00
+CZ,Středočeský kraj,508,2020-04-04T08:25:00
+CZ,Hlavní město Praha,1118,2020-04-04T08:25:00
+CZ,Jihočeský kraj,120,2020-04-04T17:30:00
+CZ,Kraj Vysočina,132,2020-04-04T17:30:00
+CZ,Královéhradecký kraj,134,2020-04-04T17:30:00
+CZ,Liberecký kraj,143,2020-04-04T17:30:00
+CZ,Karlovarský kraj,147,2020-04-04T17:30:00
+CZ,Pardubický kraj,163,2020-04-04T17:30:00
+CZ,Nezjištěno,163,2020-04-04T17:30:00
+CZ,Zlínský kraj,192,2020-04-04T17:30:00
+CZ,Plzeňský kraj,211,2020-04-04T17:30:00
+CZ,Jihomoravský kraj,262,2020-04-04T17:30:00
+CZ,Ústecký kraj,286,2020-04-04T17:30:00
+CZ,Olomoucký kraj,381,2020-04-04T17:30:00
+CZ,Moravskoslezský kraj,382,2020-04-04T17:30:00
+CZ,Středočeský kraj,519,2020-04-04T17:30:00
+CZ,Hlavní město Praha,1127,2020-04-04T17:30:00
+CZ,Nezjištěno,83,2020-04-05T00:30:00
+CZ,Jihočeský kraj,120,2020-04-05T00:30:00
+CZ,Kraj Vysočina,135,2020-04-05T00:30:00
+CZ,Královéhradecký kraj,137,2020-04-05T00:30:00
+CZ,Liberecký kraj,146,2020-04-05T00:30:00
+CZ,Karlovarský kraj,152,2020-04-05T00:30:00
+CZ,Pardubický kraj,174,2020-04-05T00:30:00
+CZ,Zlínský kraj,193,2020-04-05T00:30:00
+CZ,Plzeňský kraj,241,2020-04-05T00:30:00
+CZ,Jihomoravský kraj,268,2020-04-05T00:30:00
+CZ,Ústecký kraj,293,2020-04-05T00:30:00
+CZ,Olomoucký kraj,401,2020-04-05T00:30:00
+CZ,Moravskoslezský kraj,434,2020-04-05T00:30:00
+CZ,Středočeský kraj,548,2020-04-05T00:30:00
+CZ,Hlavní město Praha,1147,2020-04-05T00:30:00
+CZ,Nezjištěno,85,2020-04-05T08:30:00
+CZ,Jihočeský kraj,120,2020-04-05T08:30:00
+CZ,Kraj Vysočina,135,2020-04-05T08:30:00
+CZ,Královéhradecký kraj,137,2020-04-05T08:30:00
+CZ,Liberecký kraj,146,2020-04-05T08:30:00
+CZ,Karlovarský kraj,152,2020-04-05T08:30:00
+CZ,Pardubický kraj,174,2020-04-05T08:30:00
+CZ,Zlínský kraj,193,2020-04-05T08:30:00
+CZ,Plzeňský kraj,241,2020-04-05T08:30:00
+CZ,Jihomoravský kraj,268,2020-04-05T08:30:00
+CZ,Ústecký kraj,293,2020-04-05T08:30:00
+CZ,Olomoucký kraj,401,2020-04-05T08:30:00
+CZ,Moravskoslezský kraj,434,2020-04-05T08:30:00
+CZ,Středočeský kraj,549,2020-04-05T08:30:00
+CZ,Hlavní město Praha,1147,2020-04-05T08:30:00
+CZ,Jihočeský kraj,120,2020-04-05T17:30:00
+CZ,Nezjištěno,120,2020-04-05T17:30:00
+CZ,Kraj Vysočina,135,2020-04-05T17:30:00
+CZ,Královéhradecký kraj,138,2020-04-05T17:30:00
+CZ,Liberecký kraj,150,2020-04-05T17:30:00
+CZ,Karlovarský kraj,158,2020-04-05T17:30:00
+CZ,Pardubický kraj,176,2020-04-05T17:30:00
+CZ,Zlínský kraj,194,2020-04-05T17:30:00
+CZ,Plzeňský kraj,241,2020-04-05T17:30:00
+CZ,Jihomoravský kraj,277,2020-04-05T17:30:00
+CZ,Ústecký kraj,294,2020-04-05T17:30:00
+CZ,Olomoucký kraj,402,2020-04-05T17:30:00
+CZ,Moravskoslezský kraj,440,2020-04-05T17:30:00
+CZ,Středočeský kraj,551,2020-04-05T17:30:00
+CZ,Hlavní město Praha,1147,2020-04-05T17:30:00
+CZ,Nezjištěno,71,2020-04-06T00:30:00
+CZ,Jihočeský kraj,120,2020-04-06T00:30:00
+CZ,Kraj Vysočina,136,2020-04-06T00:30:00
+CZ,Královéhradecký kraj,139,2020-04-06T00:30:00
+CZ,Liberecký kraj,151,2020-04-06T00:30:00
+CZ,Karlovarský kraj,158,2020-04-06T00:30:00
+CZ,Pardubický kraj,179,2020-04-06T00:30:00
+CZ,Zlínský kraj,195,2020-04-06T00:30:00
+CZ,Plzeňský kraj,253,2020-04-06T00:30:00
+CZ,Jihomoravský kraj,279,2020-04-06T00:30:00
+CZ,Ústecký kraj,306,2020-04-06T00:30:00
+CZ,Olomoucký kraj,422,2020-04-06T00:30:00
+CZ,Moravskoslezský kraj,455,2020-04-06T00:30:00
+CZ,Středočeský kraj,562,2020-04-06T00:30:00
+CZ,Hlavní město Praha,1161,2020-04-06T00:30:00
+CZ,Nezjištěno,73,2020-04-06T08:25:00
+CZ,Jihočeský kraj,120,2020-04-06T08:25:00
+CZ,Kraj Vysočina,136,2020-04-06T08:25:00
+CZ,Královéhradecký kraj,139,2020-04-06T08:25:00
+CZ,Liberecký kraj,152,2020-04-06T08:25:00
+CZ,Karlovarský kraj,158,2020-04-06T08:25:00
+CZ,Pardubický kraj,179,2020-04-06T08:25:00
+CZ,Zlínský kraj,195,2020-04-06T08:25:00
+CZ,Plzeňský kraj,253,2020-04-06T08:25:00
+CZ,Jihomoravský kraj,279,2020-04-06T08:25:00
+CZ,Ústecký kraj,306,2020-04-06T08:25:00
+CZ,Olomoucký kraj,422,2020-04-06T08:25:00
+CZ,Moravskoslezský kraj,456,2020-04-06T08:25:00
+CZ,Středočeský kraj,562,2020-04-06T08:25:00
+CZ,Hlavní město Praha,1161,2020-04-06T08:25:00
+CZ,Nezjištěno,93,2020-04-06T17:30:00
+CZ,Jihočeský kraj,121,2020-04-06T17:30:00
+CZ,Kraj Vysočina,136,2020-04-06T17:30:00
+CZ,Královéhradecký kraj,138,2020-04-06T17:30:00
+CZ,Liberecký kraj,156,2020-04-06T17:30:00
+CZ,Karlovarský kraj,162,2020-04-06T17:30:00
+CZ,Pardubický kraj,179,2020-04-06T17:30:00
+CZ,Zlínský kraj,197,2020-04-06T17:30:00
+CZ,Plzeňský kraj,267,2020-04-06T17:30:00
+CZ,Jihomoravský kraj,290,2020-04-06T17:30:00
+CZ,Ústecký kraj,308,2020-04-06T17:30:00
+CZ,Olomoucký kraj,424,2020-04-06T17:30:00
+CZ,Moravskoslezský kraj,472,2020-04-06T17:30:00
+CZ,Středočeský kraj,588,2020-04-06T17:30:00
+CZ,Hlavní město Praha,1204,2020-04-06T17:30:00
+CZ,Nezjištěno,94,2020-04-07T00:30:00
+CZ,Jihočeský kraj,121,2020-04-07T00:30:00
+CZ,Královéhradecký kraj,140,2020-04-07T00:30:00
+CZ,Kraj Vysočina,140,2020-04-07T00:30:00
+CZ,Liberecký kraj,156,2020-04-07T00:30:00
+CZ,Karlovarský kraj,162,2020-04-07T00:30:00
+CZ,Pardubický kraj,180,2020-04-07T00:30:00
+CZ,Zlínský kraj,199,2020-04-07T00:30:00
+CZ,Plzeňský kraj,273,2020-04-07T00:30:00
+CZ,Jihomoravský kraj,289,2020-04-07T00:30:00
+CZ,Ústecký kraj,327,2020-04-07T00:30:00
+CZ,Olomoucký kraj,438,2020-04-07T00:30:00
+CZ,Moravskoslezský kraj,494,2020-04-07T00:30:00
+CZ,Středočeský kraj,595,2020-04-07T00:30:00
+CZ,Hlavní město Praha,1214,2020-04-07T00:30:00
+CZ,Nezjištěno,99,2020-04-07T08:30:00
+CZ,Jihočeský kraj,121,2020-04-07T08:30:00
+CZ,Královéhradecký kraj,140,2020-04-07T08:30:00
+CZ,Kraj Vysočina,140,2020-04-07T08:30:00
+CZ,Liberecký kraj,156,2020-04-07T08:30:00
+CZ,Karlovarský kraj,162,2020-04-07T08:30:00
+CZ,Pardubický kraj,180,2020-04-07T08:30:00
+CZ,Zlínský kraj,199,2020-04-07T08:30:00
+CZ,Plzeňský kraj,274,2020-04-07T08:30:00
+CZ,Jihomoravský kraj,289,2020-04-07T08:30:00
+CZ,Ústecký kraj,327,2020-04-07T08:30:00
+CZ,Olomoucký kraj,438,2020-04-07T08:30:00
+CZ,Moravskoslezský kraj,494,2020-04-07T08:30:00
+CZ,Středočeský kraj,595,2020-04-07T08:30:00
+CZ,Hlavní město Praha,1214,2020-04-07T08:30:00
+CZ,Nezjištěno,110,2020-04-07T17:45:00
+CZ,Jihočeský kraj,124,2020-04-07T17:45:00
+CZ,Kraj Vysočina,139,2020-04-07T17:45:00
+CZ,Královéhradecký kraj,147,2020-04-07T17:45:00
+CZ,Liberecký kraj,158,2020-04-07T17:45:00
+CZ,Karlovarský kraj,174,2020-04-07T17:45:00
+CZ,Pardubický kraj,184,2020-04-07T17:45:00
+CZ,Zlínský kraj,202,2020-04-07T17:45:00
+CZ,Plzeňský kraj,278,2020-04-07T17:45:00
+CZ,Jihomoravský kraj,298,2020-04-07T17:45:00
+CZ,Ústecký kraj,334,2020-04-07T17:45:00
+CZ,Olomoucký kraj,450,2020-04-07T17:45:00
+CZ,Moravskoslezský kraj,506,2020-04-07T17:45:00
+CZ,Středočeský kraj,606,2020-04-07T17:45:00
+CZ,Hlavní město Praha,1234,2020-04-07T17:45:00
+CZ,Nezjištěno,68,2020-04-08T00:30:00
+CZ,Jihočeský kraj,130,2020-04-08T00:30:00
+CZ,Kraj Vysočina,142,2020-04-08T00:30:00
+CZ,Královéhradecký kraj,152,2020-04-08T00:30:00
+CZ,Liberecký kraj,159,2020-04-08T00:30:00
+CZ,Karlovarský kraj,177,2020-04-08T00:30:00
+CZ,Pardubický kraj,185,2020-04-08T00:30:00
+CZ,Zlínský kraj,203,2020-04-08T00:30:00
+CZ,Plzeňský kraj,299,2020-04-08T00:30:00
+CZ,Jihomoravský kraj,303,2020-04-08T00:30:00
+CZ,Ústecký kraj,337,2020-04-08T00:30:00
+CZ,Olomoucký kraj,463,2020-04-08T00:30:00
+CZ,Moravskoslezský kraj,520,2020-04-08T00:30:00
+CZ,Středočeský kraj,620,2020-04-08T00:30:00
+CZ,Hlavní město Praha,1259,2020-04-08T00:30:00
+CZ,Nezjištěno,84,2020-04-08T08:25:00
+CZ,Jihočeský kraj,130,2020-04-08T08:25:00
+CZ,Kraj Vysočina,142,2020-04-08T08:25:00
+CZ,Královéhradecký kraj,152,2020-04-08T08:25:00
+CZ,Liberecký kraj,159,2020-04-08T08:25:00
+CZ,Karlovarský kraj,177,2020-04-08T08:25:00
+CZ,Pardubický kraj,185,2020-04-08T08:25:00
+CZ,Zlínský kraj,203,2020-04-08T08:25:00
+CZ,Plzeňský kraj,298,2020-04-08T08:25:00
+CZ,Jihomoravský kraj,303,2020-04-08T08:25:00
+CZ,Ústecký kraj,337,2020-04-08T08:25:00
+CZ,Olomoucký kraj,463,2020-04-08T08:25:00
+CZ,Moravskoslezský kraj,520,2020-04-08T08:25:00
+CZ,Středočeský kraj,620,2020-04-08T08:25:00
+CZ,Hlavní město Praha,1260,2020-04-08T08:25:00
+CZ,Jihočeský kraj,132,2020-04-08T17:30:00
+CZ,Nezjištěno,136,2020-04-08T17:30:00
+CZ,Kraj Vysočina,143,2020-04-08T17:30:00
+CZ,Královéhradecký kraj,152,2020-04-08T17:30:00
+CZ,Liberecký kraj,167,2020-04-08T17:30:00
+CZ,Karlovarský kraj,177,2020-04-08T17:30:00
+CZ,Pardubický kraj,193,2020-04-08T17:30:00
+CZ,Zlínský kraj,221,2020-04-08T17:30:00
+CZ,Jihomoravský kraj,312,2020-04-08T17:30:00
+CZ,Plzeňský kraj,322,2020-04-08T17:30:00
+CZ,Ústecký kraj,338,2020-04-08T17:30:00
+CZ,Olomoucký kraj,477,2020-04-08T17:30:00
+CZ,Moravskoslezský kraj,542,2020-04-08T17:30:00
+CZ,Středočeský kraj,635,2020-04-08T17:30:00
+CZ,Hlavní město Praha,1274,2020-04-08T17:30:00
+CZ,Nezjištěno,58,2020-04-09T00:30:00
+CZ,Jihočeský kraj,136,2020-04-09T00:30:00
+CZ,Kraj Vysočina,151,2020-04-09T00:30:00
+CZ,Královéhradecký kraj,156,2020-04-09T00:30:00
+CZ,Liberecký kraj,167,2020-04-09T00:30:00
+CZ,Karlovarský kraj,180,2020-04-09T00:30:00
+CZ,Pardubický kraj,205,2020-04-09T00:30:00
+CZ,Zlínský kraj,224,2020-04-09T00:30:00
+CZ,Jihomoravský kraj,317,2020-04-09T00:30:00
+CZ,Ústecký kraj,346,2020-04-09T00:30:00
+CZ,Plzeňský kraj,355,2020-04-09T00:30:00
+CZ,Olomoucký kraj,496,2020-04-09T00:30:00
+CZ,Moravskoslezský kraj,565,2020-04-09T00:30:00
+CZ,Středočeský kraj,651,2020-04-09T00:30:00
+CZ,Hlavní město Praha,1305,2020-04-09T00:30:00
+CZ,Nezjištěno,65,2020-04-09T08:30:00
+CZ,Jihočeský kraj,136,2020-04-09T08:30:00
+CZ,Kraj Vysočina,151,2020-04-09T08:30:00
+CZ,Královéhradecký kraj,156,2020-04-09T08:30:00
+CZ,Liberecký kraj,167,2020-04-09T08:30:00
+CZ,Karlovarský kraj,179,2020-04-09T08:30:00
+CZ,Pardubický kraj,205,2020-04-09T08:30:00
+CZ,Zlínský kraj,224,2020-04-09T08:30:00
+CZ,Jihomoravský kraj,317,2020-04-09T08:30:00
+CZ,Ústecký kraj,346,2020-04-09T08:30:00
+CZ,Plzeňský kraj,372,2020-04-09T08:30:00
+CZ,Olomoucký kraj,496,2020-04-09T08:30:00
+CZ,Moravskoslezský kraj,565,2020-04-09T08:30:00
+CZ,Středočeský kraj,650,2020-04-09T08:30:00
+CZ,Hlavní město Praha,1306,2020-04-09T08:30:00
+CZ,Nezjištěno,116,2020-04-09T17:25:00
+CZ,Jihočeský kraj,137,2020-04-09T17:25:00
+CZ,Kraj Vysočina,151,2020-04-09T17:25:00
+CZ,Královéhradecký kraj,156,2020-04-09T17:25:00
+CZ,Liberecký kraj,169,2020-04-09T17:25:00
+CZ,Karlovarský kraj,182,2020-04-09T17:25:00
+CZ,Pardubický kraj,206,2020-04-09T17:25:00
+CZ,Zlínský kraj,230,2020-04-09T17:25:00
+CZ,Jihomoravský kraj,324,2020-04-09T17:25:00
+CZ,Ústecký kraj,346,2020-04-09T17:25:00
+CZ,Plzeňský kraj,374,2020-04-09T17:25:00
+CZ,Olomoucký kraj,505,2020-04-09T17:25:00
+CZ,Moravskoslezský kraj,574,2020-04-09T17:25:00
+CZ,Středočeský kraj,663,2020-04-09T17:25:00
+CZ,Hlavní město Praha,1334,2020-04-09T17:25:00
+CZ,Nezjištěno,128,2020-04-10T00:30:00
+CZ,Jihočeský kraj,138,2020-04-10T00:30:00
+CZ,Kraj Vysočina,153,2020-04-10T00:30:00
+CZ,Královéhradecký kraj,158,2020-04-10T00:30:00
+CZ,Liberecký kraj,169,2020-04-10T00:30:00
+CZ,Karlovarský kraj,181,2020-04-10T00:30:00
+CZ,Pardubický kraj,208,2020-04-10T00:30:00
+CZ,Zlínský kraj,242,2020-04-10T00:30:00
+CZ,Jihomoravský kraj,324,2020-04-10T00:30:00
+CZ,Ústecký kraj,350,2020-04-10T00:30:00
+CZ,Plzeňský kraj,374,2020-04-10T00:30:00
+CZ,Olomoucký kraj,546,2020-04-10T00:30:00
+CZ,Moravskoslezský kraj,584,2020-04-10T00:30:00
+CZ,Středočeský kraj,672,2020-04-10T00:30:00
+CZ,Hlavní město Praha,1342,2020-04-10T00:30:00
+CZ,Jihočeský kraj,138,2020-04-10T08:25:00
+CZ,Nezjištěno,149,2020-04-10T08:25:00
+CZ,Kraj Vysočina,153,2020-04-10T08:25:00
+CZ,Královéhradecký kraj,158,2020-04-10T08:25:00
+CZ,Liberecký kraj,169,2020-04-10T08:25:00
+CZ,Karlovarský kraj,181,2020-04-10T08:25:00
+CZ,Pardubický kraj,208,2020-04-10T08:25:00
+CZ,Zlínský kraj,242,2020-04-10T08:25:00
+CZ,Jihomoravský kraj,324,2020-04-10T08:25:00
+CZ,Ústecký kraj,350,2020-04-10T08:25:00
+CZ,Plzeňský kraj,373,2020-04-10T08:25:00
+CZ,Olomoucký kraj,546,2020-04-10T08:25:00
+CZ,Moravskoslezský kraj,584,2020-04-10T08:25:00
+CZ,Středočeský kraj,672,2020-04-10T08:25:00
+CZ,Hlavní město Praha,1342,2020-04-10T08:25:00
+CZ,Nezjištěno,51,2020-04-10T17:30:00
+CZ,Jihočeský kraj,140,2020-04-10T17:30:00
+CZ,Kraj Vysočina,158,2020-04-10T17:30:00
+CZ,Královéhradecký kraj,165,2020-04-10T17:30:00
+CZ,Liberecký kraj,171,2020-04-10T17:30:00
+CZ,Karlovarský kraj,192,2020-04-10T17:30:00
+CZ,Pardubický kraj,214,2020-04-10T17:30:00
+CZ,Zlínský kraj,243,2020-04-10T17:30:00
+CZ,Jihomoravský kraj,335,2020-04-10T17:30:00
+CZ,Ústecký kraj,355,2020-04-10T17:30:00
+CZ,Plzeňský kraj,395,2020-04-10T17:30:00
+CZ,Olomoucký kraj,561,2020-04-10T17:30:00
+CZ,Moravskoslezský kraj,622,2020-04-10T17:30:00
+CZ,Středočeský kraj,693,2020-04-10T17:30:00
+CZ,Hlavní město Praha,1379,2020-04-10T17:30:00
+CZ,Nezjištěno,44,2020-04-11T00:30:00
+CZ,Jihočeský kraj,146,2020-04-11T00:30:00
+CZ,Kraj Vysočina,158,2020-04-11T00:30:00
+CZ,Královéhradecký kraj,165,2020-04-11T00:30:00
+CZ,Liberecký kraj,173,2020-04-11T00:30:00
+CZ,Karlovarský kraj,193,2020-04-11T00:30:00
+CZ,Pardubický kraj,220,2020-04-11T00:30:00
+CZ,Zlínský kraj,244,2020-04-11T00:30:00
+CZ,Jihomoravský kraj,336,2020-04-11T00:30:00
+CZ,Ústecký kraj,363,2020-04-11T00:30:00
+CZ,Plzeňský kraj,412,2020-04-11T00:30:00
+CZ,Olomoucký kraj,563,2020-04-11T00:30:00
+CZ,Moravskoslezský kraj,629,2020-04-11T00:30:00
+CZ,Středočeský kraj,694,2020-04-11T00:30:00
+CZ,Hlavní město Praha,1392,2020-04-11T00:30:00
+CZ,Nezjištěno,43,2020-04-11T08:30:00
+CZ,Jihočeský kraj,146,2020-04-11T08:30:00
+CZ,Kraj Vysočina,158,2020-04-11T08:30:00
+CZ,Královéhradecký kraj,165,2020-04-11T08:30:00
+CZ,Liberecký kraj,173,2020-04-11T08:30:00
+CZ,Karlovarský kraj,193,2020-04-11T08:30:00
+CZ,Pardubický kraj,220,2020-04-11T08:30:00
+CZ,Zlínský kraj,244,2020-04-11T08:30:00
+CZ,Jihomoravský kraj,338,2020-04-11T08:30:00
+CZ,Ústecký kraj,363,2020-04-11T08:30:00
+CZ,Plzeňský kraj,412,2020-04-11T08:30:00
+CZ,Olomoucký kraj,563,2020-04-11T08:30:00
+CZ,Moravskoslezský kraj,629,2020-04-11T08:30:00
+CZ,Středočeský kraj,695,2020-04-11T08:30:00
+CZ,Hlavní město Praha,1393,2020-04-11T08:30:00
+CZ,Nezjištěno,41,2020-04-11T17:25:00
+CZ,Jihočeský kraj,146,2020-04-11T17:25:00
+CZ,Kraj Vysočina,158,2020-04-11T17:25:00
+CZ,Královéhradecký kraj,168,2020-04-11T17:25:00
+CZ,Liberecký kraj,173,2020-04-11T17:25:00
+CZ,Karlovarský kraj,193,2020-04-11T17:25:00
+CZ,Pardubický kraj,223,2020-04-11T17:25:00
+CZ,Zlínský kraj,252,2020-04-11T17:25:00
+CZ,Jihomoravský kraj,344,2020-04-11T17:25:00
+CZ,Ústecký kraj,371,2020-04-11T17:25:00
+CZ,Plzeňský kraj,417,2020-04-11T17:25:00
+CZ,Olomoucký kraj,579,2020-04-11T17:25:00
+CZ,Moravskoslezský kraj,648,2020-04-11T17:25:00
+CZ,Středočeský kraj,708,2020-04-11T17:25:00
+CZ,Hlavní město Praha,1410,2020-04-11T17:25:00
+CZ,Nezjištěno,43,2020-04-12T00:30:00
+CZ,Jihočeský kraj,149,2020-04-12T00:30:00
+CZ,Kraj Vysočina,158,2020-04-12T00:30:00
+CZ,Královéhradecký kraj,168,2020-04-12T00:30:00
+CZ,Liberecký kraj,176,2020-04-12T00:30:00
+CZ,Karlovarský kraj,200,2020-04-12T00:30:00
+CZ,Pardubický kraj,223,2020-04-12T00:30:00
+CZ,Zlínský kraj,253,2020-04-12T00:30:00
+CZ,Jihomoravský kraj,345,2020-04-12T00:30:00
+CZ,Ústecký kraj,381,2020-04-12T00:30:00
+CZ,Plzeňský kraj,438,2020-04-12T00:30:00
+CZ,Olomoucký kraj,581,2020-04-12T00:30:00
+CZ,Moravskoslezský kraj,655,2020-04-12T00:30:00
+CZ,Středočeský kraj,713,2020-04-12T00:30:00
+CZ,Hlavní město Praha,1419,2020-04-12T00:30:00
+CZ,Nezjištěno,44,2020-04-12T08:25:00
+CZ,Jihočeský kraj,149,2020-04-12T08:25:00
+CZ,Kraj Vysočina,158,2020-04-12T08:25:00
+CZ,Královéhradecký kraj,168,2020-04-12T08:25:00
+CZ,Liberecký kraj,177,2020-04-12T08:25:00
+CZ,Karlovarský kraj,200,2020-04-12T08:25:00
+CZ,Pardubický kraj,223,2020-04-12T08:25:00
+CZ,Zlínský kraj,253,2020-04-12T08:25:00
+CZ,Jihomoravský kraj,346,2020-04-12T08:25:00
+CZ,Ústecký kraj,381,2020-04-12T08:25:00
+CZ,Plzeňský kraj,438,2020-04-12T08:25:00
+CZ,Olomoucký kraj,581,2020-04-12T08:25:00
+CZ,Moravskoslezský kraj,655,2020-04-12T08:25:00
+CZ,Středočeský kraj,713,2020-04-12T08:25:00
+CZ,Hlavní město Praha,1419,2020-04-12T08:25:00
+CZ,Nezjištěno,38,2020-04-12T17:30:00
+CZ,Jihočeský kraj,149,2020-04-12T17:30:00
+CZ,Kraj Vysočina,159,2020-04-12T17:30:00
+CZ,Královéhradecký kraj,169,2020-04-12T17:30:00
+CZ,Liberecký kraj,177,2020-04-12T17:30:00
+CZ,Karlovarský kraj,200,2020-04-12T17:30:00
+CZ,Pardubický kraj,221,2020-04-12T17:30:00
+CZ,Zlínský kraj,259,2020-04-12T17:30:00
+CZ,Jihomoravský kraj,349,2020-04-12T17:30:00
+CZ,Ústecký kraj,384,2020-04-12T17:30:00
+CZ,Plzeňský kraj,444,2020-04-12T17:30:00
+CZ,Olomoucký kraj,584,2020-04-12T17:30:00
+CZ,Moravskoslezský kraj,671,2020-04-12T17:30:00
+CZ,Středočeský kraj,720,2020-04-12T17:30:00
+CZ,Hlavní město Praha,1428,2020-04-12T17:30:00
+CZ,Nezjištěno,42,2020-04-13T00:30:00
+CZ,Jihočeský kraj,153,2020-04-13T00:30:00
+CZ,Kraj Vysočina,160,2020-04-13T00:30:00
+CZ,Královéhradecký kraj,170,2020-04-13T00:30:00
+CZ,Liberecký kraj,177,2020-04-13T00:30:00
+CZ,Karlovarský kraj,202,2020-04-13T00:30:00
+CZ,Pardubický kraj,226,2020-04-13T00:30:00
+CZ,Zlínský kraj,259,2020-04-13T00:30:00
+CZ,Jihomoravský kraj,350,2020-04-13T00:30:00
+CZ,Ústecký kraj,384,2020-04-13T00:30:00
+CZ,Plzeňský kraj,452,2020-04-13T00:30:00
+CZ,Olomoucký kraj,586,2020-04-13T00:30:00
+CZ,Moravskoslezský kraj,674,2020-04-13T00:30:00
+CZ,Středočeský kraj,721,2020-04-13T00:30:00
+CZ,Hlavní město Praha,1435,2020-04-13T00:30:00
+CZ,Nezjištěno,42,2020-04-13T08:30:00
+CZ,Jihočeský kraj,153,2020-04-13T08:30:00
+CZ,Kraj Vysočina,160,2020-04-13T08:30:00
+CZ,Královéhradecký kraj,170,2020-04-13T08:30:00
+CZ,Liberecký kraj,177,2020-04-13T08:30:00
+CZ,Karlovarský kraj,202,2020-04-13T08:30:00
+CZ,Pardubický kraj,226,2020-04-13T08:30:00
+CZ,Zlínský kraj,259,2020-04-13T08:30:00
+CZ,Jihomoravský kraj,350,2020-04-13T08:30:00
+CZ,Ústecký kraj,384,2020-04-13T08:30:00
+CZ,Plzeňský kraj,452,2020-04-13T08:30:00
+CZ,Olomoucký kraj,586,2020-04-13T08:30:00
+CZ,Moravskoslezský kraj,674,2020-04-13T08:30:00
+CZ,Středočeský kraj,721,2020-04-13T08:30:00
+CZ,Hlavní město Praha,1435,2020-04-13T08:30:00
+CZ,Nezjištěno,34,2020-04-13T17:25:00
+CZ,Jihočeský kraj,154,2020-04-13T17:25:00
+CZ,Kraj Vysočina,162,2020-04-13T17:25:00
+CZ,Královéhradecký kraj,170,2020-04-13T17:25:00
+CZ,Liberecký kraj,178,2020-04-13T17:25:00
+CZ,Karlovarský kraj,202,2020-04-13T17:25:00
+CZ,Pardubický kraj,226,2020-04-13T17:25:00
+CZ,Zlínský kraj,259,2020-04-13T17:25:00
+CZ,Jihomoravský kraj,355,2020-04-13T17:25:00
+CZ,Ústecký kraj,385,2020-04-13T17:25:00
+CZ,Plzeňský kraj,454,2020-04-13T17:25:00
+CZ,Olomoucký kraj,589,2020-04-13T17:25:00
+CZ,Moravskoslezský kraj,686,2020-04-13T17:25:00
+CZ,Středočeský kraj,724,2020-04-13T17:25:00
+CZ,Hlavní město Praha,1444,2020-04-13T17:25:00
+CZ,Nezjištěno,33,2020-04-14T00:30:00
+CZ,Jihočeský kraj,155,2020-04-14T00:30:00
+CZ,Kraj Vysočina,163,2020-04-14T00:30:00
+CZ,Královéhradecký kraj,170,2020-04-14T00:30:00
+CZ,Liberecký kraj,179,2020-04-14T00:30:00
+CZ,Karlovarský kraj,203,2020-04-14T00:30:00
+CZ,Pardubický kraj,227,2020-04-14T00:30:00
+CZ,Zlínský kraj,260,2020-04-14T00:30:00
+CZ,Jihomoravský kraj,355,2020-04-14T00:30:00
+CZ,Ústecký kraj,387,2020-04-14T00:30:00
+CZ,Plzeňský kraj,473,2020-04-14T00:30:00
+CZ,Olomoucký kraj,589,2020-04-14T00:30:00
+CZ,Moravskoslezský kraj,690,2020-04-14T00:30:00
+CZ,Středočeský kraj,727,2020-04-14T00:30:00
+CZ,Hlavní město Praha,1448,2020-04-14T00:30:00
+CZ,Nezjištěno,33,2020-04-14T08:25:00
+CZ,Jihočeský kraj,155,2020-04-14T08:25:00
+CZ,Kraj Vysočina,163,2020-04-14T08:25:00
+CZ,Královéhradecký kraj,170,2020-04-14T08:25:00
+CZ,Liberecký kraj,179,2020-04-14T08:25:00
+CZ,Karlovarský kraj,203,2020-04-14T08:25:00
+CZ,Pardubický kraj,227,2020-04-14T08:25:00
+CZ,Zlínský kraj,260,2020-04-14T08:25:00
+CZ,Jihomoravský kraj,355,2020-04-14T08:25:00
+CZ,Ústecký kraj,387,2020-04-14T08:25:00
+CZ,Plzeňský kraj,473,2020-04-14T08:25:00
+CZ,Olomoucký kraj,589,2020-04-14T08:25:00
+CZ,Moravskoslezský kraj,690,2020-04-14T08:25:00
+CZ,Středočeský kraj,728,2020-04-14T08:25:00
+CZ,Hlavní město Praha,1447,2020-04-14T08:25:00
+CZ,Nezjištěno,31,2020-04-14T17:30:00
+CZ,Jihočeský kraj,155,2020-04-14T17:30:00
+CZ,Kraj Vysočina,164,2020-04-14T17:30:00
+CZ,Královéhradecký kraj,170,2020-04-14T17:30:00
+CZ,Liberecký kraj,179,2020-04-14T17:30:00
+CZ,Karlovarský kraj,208,2020-04-14T17:30:00
+CZ,Pardubický kraj,227,2020-04-14T17:30:00
+CZ,Zlínský kraj,260,2020-04-14T17:30:00
+CZ,Jihomoravský kraj,353,2020-04-14T17:30:00
+CZ,Ústecký kraj,387,2020-04-14T17:30:00
+CZ,Plzeňský kraj,486,2020-04-14T17:30:00
+CZ,Olomoucký kraj,589,2020-04-14T17:30:00
+CZ,Moravskoslezský kraj,695,2020-04-14T17:30:00
+CZ,Středočeský kraj,741,2020-04-14T17:30:00
+CZ,Hlavní město Praha,1456,2020-04-14T17:30:00
+CZ,Nezjištěno,32,2020-04-14T18:45:00
+CZ,Jihočeský kraj,155,2020-04-14T18:45:00
+CZ,Kraj Vysočina,164,2020-04-14T18:45:00
+CZ,Královéhradecký kraj,170,2020-04-14T18:45:00
+CZ,Liberecký kraj,179,2020-04-14T18:45:00
+CZ,Karlovarský kraj,208,2020-04-14T18:45:00
+CZ,Pardubický kraj,227,2020-04-14T18:45:00
+CZ,Zlínský kraj,260,2020-04-14T18:45:00
+CZ,Jihomoravský kraj,353,2020-04-14T18:45:00
+CZ,Ústecký kraj,387,2020-04-14T18:45:00
+CZ,Plzeňský kraj,487,2020-04-14T18:45:00
+CZ,Olomoucký kraj,588,2020-04-14T18:45:00
+CZ,Moravskoslezský kraj,702,2020-04-14T18:45:00
+CZ,Středočeský kraj,740,2020-04-14T18:45:00
+CZ,Hlavní město Praha,1459,2020-04-14T18:45:00
+CZ,Nezjištěno,42,2020-04-15T00:30:00
+CZ,Jihočeský kraj,156,2020-04-15T00:30:00
+CZ,Kraj Vysočina,164,2020-04-15T00:30:00
+CZ,Královéhradecký kraj,172,2020-04-15T00:30:00
+CZ,Liberecký kraj,179,2020-04-15T00:30:00
+CZ,Karlovarský kraj,209,2020-04-15T00:30:00
+CZ,Pardubický kraj,227,2020-04-15T00:30:00
+CZ,Zlínský kraj,261,2020-04-15T00:30:00
+CZ,Jihomoravský kraj,352,2020-04-15T00:30:00
+CZ,Ústecký kraj,390,2020-04-15T00:30:00
+CZ,Plzeňský kraj,489,2020-04-15T00:30:00
+CZ,Olomoucký kraj,588,2020-04-15T00:30:00
+CZ,Moravskoslezský kraj,710,2020-04-15T00:30:00
+CZ,Středočeský kraj,740,2020-04-15T00:30:00
+CZ,Hlavní město Praha,1462,2020-04-15T00:30:00
+CZ,Nezjištěno,43,2020-04-15T08:30:00
+CZ,Jihočeský kraj,156,2020-04-15T08:30:00
+CZ,Kraj Vysočina,164,2020-04-15T08:30:00
+CZ,Královéhradecký kraj,172,2020-04-15T08:30:00
+CZ,Liberecký kraj,184,2020-04-15T08:30:00
+CZ,Karlovarský kraj,213,2020-04-15T08:30:00
+CZ,Pardubický kraj,227,2020-04-15T08:30:00
+CZ,Zlínský kraj,261,2020-04-15T08:30:00
+CZ,Jihomoravský kraj,352,2020-04-15T08:30:00
+CZ,Ústecký kraj,390,2020-04-15T08:30:00
+CZ,Plzeňský kraj,489,2020-04-15T08:30:00
+CZ,Olomoucký kraj,588,2020-04-15T08:30:00
+CZ,Moravskoslezský kraj,710,2020-04-15T08:30:00
+CZ,Středočeský kraj,741,2020-04-15T08:30:00
+CZ,Hlavní město Praha,1461,2020-04-15T08:30:00
+CZ,Nezjištěno,32,2020-04-15T17:25:00
+CZ,Jihočeský kraj,156,2020-04-15T17:25:00
+CZ,Kraj Vysočina,164,2020-04-15T17:25:00
+CZ,Královéhradecký kraj,171,2020-04-15T17:25:00
+CZ,Liberecký kraj,184,2020-04-15T17:25:00
+CZ,Karlovarský kraj,217,2020-04-15T17:25:00
+CZ,Pardubický kraj,229,2020-04-15T17:25:00
+CZ,Zlínský kraj,263,2020-04-15T17:25:00
+CZ,Jihomoravský kraj,358,2020-04-15T17:25:00
+CZ,Ústecký kraj,399,2020-04-15T17:25:00
+CZ,Plzeňský kraj,489,2020-04-15T17:25:00
+CZ,Olomoucký kraj,594,2020-04-15T17:25:00
+CZ,Moravskoslezský kraj,715,2020-04-15T17:25:00
+CZ,Středočeský kraj,760,2020-04-15T17:25:00
+CZ,Hlavní město Praha,1485,2020-04-15T17:25:00
+CZ,Nezjištěno,39,2020-04-16T00:30:00
+CZ,Jihočeský kraj,156,2020-04-16T00:30:00
+CZ,Kraj Vysočina,164,2020-04-16T00:30:00
+CZ,Královéhradecký kraj,172,2020-04-16T00:30:00
+CZ,Liberecký kraj,186,2020-04-16T00:30:00
+CZ,Karlovarský kraj,218,2020-04-16T00:30:00
+CZ,Pardubický kraj,237,2020-04-16T00:30:00
+CZ,Zlínský kraj,263,2020-04-16T00:30:00
+CZ,Jihomoravský kraj,363,2020-04-16T00:30:00
+CZ,Ústecký kraj,400,2020-04-16T00:30:00
+CZ,Plzeňský kraj,504,2020-04-16T00:30:00
+CZ,Olomoucký kraj,598,2020-04-16T00:30:00
+CZ,Moravskoslezský kraj,738,2020-04-16T00:30:00
+CZ,Středočeský kraj,771,2020-04-16T00:30:00
+CZ,Hlavní město Praha,1492,2020-04-16T00:30:00
+CZ,Nezjištěno,40,2020-04-16T08:25:00
+CZ,Jihočeský kraj,156,2020-04-16T08:25:00
+CZ,Kraj Vysočina,164,2020-04-16T08:25:00
+CZ,Královéhradecký kraj,172,2020-04-16T08:25:00
+CZ,Liberecký kraj,186,2020-04-16T08:25:00
+CZ,Karlovarský kraj,218,2020-04-16T08:25:00
+CZ,Pardubický kraj,237,2020-04-16T08:25:00
+CZ,Zlínský kraj,263,2020-04-16T08:25:00
+CZ,Jihomoravský kraj,363,2020-04-16T08:25:00
+CZ,Ústecký kraj,400,2020-04-16T08:25:00
+CZ,Plzeňský kraj,504,2020-04-16T08:25:00
+CZ,Olomoucký kraj,598,2020-04-16T08:25:00
+CZ,Moravskoslezský kraj,738,2020-04-16T08:25:00
+CZ,Středočeský kraj,771,2020-04-16T08:25:00
+CZ,Hlavní město Praha,1493,2020-04-16T08:25:00
+CZ,Nezjištěno,36,2020-04-16T17:30:00
+CZ,Jihočeský kraj,158,2020-04-16T17:30:00
+CZ,Kraj Vysočina,162,2020-04-16T17:30:00
+CZ,Královéhradecký kraj,172,2020-04-16T17:30:00
+CZ,Liberecký kraj,186,2020-04-16T17:30:00
+CZ,Karlovarský kraj,219,2020-04-16T17:30:00
+CZ,Pardubický kraj,241,2020-04-16T17:30:00
+CZ,Zlínský kraj,264,2020-04-16T17:30:00
+CZ,Jihomoravský kraj,365,2020-04-16T17:30:00
+CZ,Ústecký kraj,408,2020-04-16T17:30:00
+CZ,Plzeňský kraj,504,2020-04-16T17:30:00
+CZ,Olomoucký kraj,604,2020-04-16T17:30:00
+CZ,Moravskoslezský kraj,742,2020-04-16T17:30:00
+CZ,Středočeský kraj,782,2020-04-16T17:30:00
+CZ,Hlavní město Praha,1516,2020-04-16T17:30:00
+CZ,Nezjištěno,43,2020-04-17T00:30:00
+CZ,Jihočeský kraj,158,2020-04-17T00:30:00
+CZ,Kraj Vysočina,162,2020-04-17T00:30:00
+CZ,Královéhradecký kraj,175,2020-04-17T00:30:00
+CZ,Liberecký kraj,186,2020-04-17T00:30:00
+CZ,Karlovarský kraj,223,2020-04-17T00:30:00
+CZ,Pardubický kraj,245,2020-04-17T00:30:00
+CZ,Zlínský kraj,265,2020-04-17T00:30:00
+CZ,Jihomoravský kraj,374,2020-04-17T00:30:00
+CZ,Ústecký kraj,408,2020-04-17T00:30:00
+CZ,Plzeňský kraj,513,2020-04-17T00:30:00
+CZ,Olomoucký kraj,604,2020-04-17T00:30:00
+CZ,Moravskoslezský kraj,761,2020-04-17T00:30:00
+CZ,Středočeský kraj,789,2020-04-17T00:30:00
+CZ,Hlavní město Praha,1527,2020-04-17T00:30:00
+CZ,Nezjištěno,43,2020-04-17T08:30:00
+CZ,Jihočeský kraj,158,2020-04-17T08:30:00
+CZ,Kraj Vysočina,162,2020-04-17T08:30:00
+CZ,Královéhradecký kraj,175,2020-04-17T08:30:00
+CZ,Liberecký kraj,186,2020-04-17T08:30:00
+CZ,Karlovarský kraj,225,2020-04-17T08:30:00
+CZ,Pardubický kraj,245,2020-04-17T08:30:00
+CZ,Zlínský kraj,265,2020-04-17T08:30:00
+CZ,Jihomoravský kraj,374,2020-04-17T08:30:00
+CZ,Ústecký kraj,410,2020-04-17T08:30:00
+CZ,Plzeňský kraj,513,2020-04-17T08:30:00
+CZ,Olomoucký kraj,604,2020-04-17T08:30:00
+CZ,Moravskoslezský kraj,761,2020-04-17T08:30:00
+CZ,Středočeský kraj,788,2020-04-17T08:30:00
+CZ,Hlavní město Praha,1528,2020-04-17T08:30:00
+CZ,Nezjištěno,32,2020-04-17T17:25:00
+CZ,Jihočeský kraj,159,2020-04-17T17:25:00
+CZ,Kraj Vysočina,163,2020-04-17T17:25:00
+CZ,Královéhradecký kraj,176,2020-04-17T17:25:00
+CZ,Liberecký kraj,187,2020-04-17T17:25:00
+CZ,Karlovarský kraj,227,2020-04-17T17:25:00
+CZ,Pardubický kraj,246,2020-04-17T17:25:00
+CZ,Zlínský kraj,267,2020-04-17T17:25:00
+CZ,Jihomoravský kraj,383,2020-04-17T17:25:00
+CZ,Ústecký kraj,419,2020-04-17T17:25:00
+CZ,Plzeňský kraj,513,2020-04-17T17:25:00
+CZ,Olomoucký kraj,610,2020-04-17T17:25:00
+CZ,Moravskoslezský kraj,782,2020-04-17T17:25:00
+CZ,Středočeský kraj,798,2020-04-17T17:25:00
+CZ,Hlavní město Praha,1537,2020-04-17T17:25:00
+CZ,Nezjištěno,34,2020-04-18T00:30:00
+CZ,Jihočeský kraj,159,2020-04-18T00:30:00
+CZ,Kraj Vysočina,163,2020-04-18T00:30:00
+CZ,Královéhradecký kraj,176,2020-04-18T00:30:00
+CZ,Liberecký kraj,187,2020-04-18T00:30:00
+CZ,Karlovarský kraj,227,2020-04-18T00:30:00
+CZ,Pardubický kraj,247,2020-04-18T00:30:00
+CZ,Zlínský kraj,267,2020-04-18T00:30:00
+CZ,Jihomoravský kraj,383,2020-04-18T00:30:00
+CZ,Ústecký kraj,420,2020-04-18T00:30:00
+CZ,Plzeňský kraj,529,2020-04-18T00:30:00
+CZ,Olomoucký kraj,612,2020-04-18T00:30:00
+CZ,Moravskoslezský kraj,799,2020-04-18T00:30:00
+CZ,Středočeský kraj,801,2020-04-18T00:30:00
+CZ,Hlavní město Praha,1545,2020-04-18T00:30:00
+CZ,Nezjištěno,36,2020-04-18T08:25:00
+CZ,Jihočeský kraj,160,2020-04-18T08:25:00
+CZ,Kraj Vysočina,163,2020-04-18T08:25:00
+CZ,Královéhradecký kraj,176,2020-04-18T08:25:00
+CZ,Liberecký kraj,187,2020-04-18T08:25:00
+CZ,Karlovarský kraj,227,2020-04-18T08:25:00
+CZ,Pardubický kraj,247,2020-04-18T08:25:00
+CZ,Zlínský kraj,268,2020-04-18T08:25:00
+CZ,Jihomoravský kraj,383,2020-04-18T08:25:00
+CZ,Ústecký kraj,420,2020-04-18T08:25:00
+CZ,Plzeňský kraj,529,2020-04-18T08:25:00
+CZ,Olomoucký kraj,612,2020-04-18T08:25:00
+CZ,Moravskoslezský kraj,799,2020-04-18T08:25:00
+CZ,Středočeský kraj,801,2020-04-18T08:25:00
+CZ,Hlavní město Praha,1545,2020-04-18T08:25:00
+CZ,Nezjištěno,36,2020-04-18T17:30:00
+CZ,Jihočeský kraj,161,2020-04-18T17:30:00
+CZ,Kraj Vysočina,163,2020-04-18T17:30:00
+CZ,Královéhradecký kraj,176,2020-04-18T17:30:00
+CZ,Liberecký kraj,187,2020-04-18T17:30:00
+CZ,Karlovarský kraj,225,2020-04-18T17:30:00
+CZ,Pardubický kraj,250,2020-04-18T17:30:00
+CZ,Zlínský kraj,275,2020-04-18T17:30:00
+CZ,Jihomoravský kraj,383,2020-04-18T17:30:00
+CZ,Ústecký kraj,423,2020-04-18T17:30:00
+CZ,Plzeňský kraj,530,2020-04-18T17:30:00
+CZ,Olomoucký kraj,618,2020-04-18T17:30:00
+CZ,Středočeský kraj,806,2020-04-18T17:30:00
+CZ,Moravskoslezský kraj,806,2020-04-18T17:30:00
+CZ,Hlavní město Praha,1567,2020-04-18T17:30:00
+CZ,Nezjištěno,35,2020-04-19T00:30:00
+CZ,Jihočeský kraj,161,2020-04-19T00:30:00
+CZ,Kraj Vysočina,163,2020-04-19T00:30:00
+CZ,Královéhradecký kraj,176,2020-04-19T00:30:00
+CZ,Liberecký kraj,189,2020-04-19T00:30:00
+CZ,Karlovarský kraj,237,2020-04-19T00:30:00
+CZ,Pardubický kraj,250,2020-04-19T00:30:00
+CZ,Zlínský kraj,276,2020-04-19T00:30:00
+CZ,Jihomoravský kraj,386,2020-04-19T00:30:00
+CZ,Ústecký kraj,424,2020-04-19T00:30:00
+CZ,Plzeňský kraj,534,2020-04-19T00:30:00
+CZ,Olomoucký kraj,619,2020-04-19T00:30:00
+CZ,Středočeský kraj,812,2020-04-19T00:30:00
+CZ,Moravskoslezský kraj,818,2020-04-19T00:30:00
+CZ,Hlavní město Praha,1574,2020-04-19T00:30:00
+CZ,Nezjištěno,35,2020-04-19T08:30:00
+CZ,Jihočeský kraj,161,2020-04-19T08:30:00
+CZ,Kraj Vysočina,163,2020-04-19T08:30:00
+CZ,Královéhradecký kraj,176,2020-04-19T08:30:00
+CZ,Liberecký kraj,191,2020-04-19T08:30:00
+CZ,Karlovarský kraj,237,2020-04-19T08:30:00
+CZ,Pardubický kraj,250,2020-04-19T08:30:00
+CZ,Zlínský kraj,277,2020-04-19T08:30:00
+CZ,Jihomoravský kraj,386,2020-04-19T08:30:00
+CZ,Ústecký kraj,424,2020-04-19T08:30:00
+CZ,Plzeňský kraj,534,2020-04-19T08:30:00
+CZ,Olomoucký kraj,619,2020-04-19T08:30:00
+CZ,Středočeský kraj,812,2020-04-19T08:30:00
+CZ,Moravskoslezský kraj,818,2020-04-19T08:30:00
+CZ,Hlavní město Praha,1574,2020-04-19T08:30:00
+CZ,Nezjištěno,36,2020-04-19T17:25:00
+CZ,Jihočeský kraj,162,2020-04-19T17:25:00
+CZ,Kraj Vysočina,163,2020-04-19T17:25:00
+CZ,Královéhradecký kraj,176,2020-04-19T17:25:00
+CZ,Liberecký kraj,191,2020-04-19T17:25:00
+CZ,Karlovarský kraj,240,2020-04-19T17:25:00
+CZ,Pardubický kraj,249,2020-04-19T17:25:00
+CZ,Zlínský kraj,281,2020-04-19T17:25:00
+CZ,Jihomoravský kraj,389,2020-04-19T17:25:00
+CZ,Ústecký kraj,426,2020-04-19T17:25:00
+CZ,Plzeňský kraj,551,2020-04-19T17:25:00
+CZ,Olomoucký kraj,620,2020-04-19T17:25:00
+CZ,Středočeský kraj,815,2020-04-19T17:25:00
+CZ,Moravskoslezský kraj,822,2020-04-19T17:25:00
+CZ,Hlavní město Praha,1580,2020-04-19T17:25:00
+CZ,Nezjištěno,41,2020-04-20T00:30:00
+CZ,Jihočeský kraj,162,2020-04-20T00:30:00
+CZ,Kraj Vysočina,163,2020-04-20T00:30:00
+CZ,Královéhradecký kraj,176,2020-04-20T00:30:00
+CZ,Liberecký kraj,191,2020-04-20T00:30:00
+CZ,Karlovarský kraj,248,2020-04-20T00:30:00
+CZ,Pardubický kraj,251,2020-04-20T00:30:00
+CZ,Zlínský kraj,281,2020-04-20T00:30:00
+CZ,Jihomoravský kraj,390,2020-04-20T00:30:00
+CZ,Ústecký kraj,432,2020-04-20T00:30:00
+CZ,Plzeňský kraj,559,2020-04-20T00:30:00
+CZ,Olomoucký kraj,621,2020-04-20T00:30:00
+CZ,Středočeský kraj,816,2020-04-20T00:30:00
+CZ,Moravskoslezský kraj,824,2020-04-20T00:30:00
+CZ,Hlavní město Praha,1591,2020-04-20T00:30:00
+CZ,Nezjištěno,81,2020-04-20T08:25:00
+CZ,Jihočeský kraj,162,2020-04-20T08:25:00
+CZ,Kraj Vysočina,163,2020-04-20T08:25:00
+CZ,Královéhradecký kraj,176,2020-04-20T08:25:00
+CZ,Liberecký kraj,191,2020-04-20T08:25:00
+CZ,Karlovarský kraj,248,2020-04-20T08:25:00
+CZ,Pardubický kraj,251,2020-04-20T08:25:00
+CZ,Zlínský kraj,281,2020-04-20T08:25:00
+CZ,Jihomoravský kraj,390,2020-04-20T08:25:00
+CZ,Ústecký kraj,433,2020-04-20T08:25:00
+CZ,Plzeňský kraj,559,2020-04-20T08:25:00
+CZ,Olomoucký kraj,621,2020-04-20T08:25:00
+CZ,Středočeský kraj,816,2020-04-20T08:25:00
+CZ,Moravskoslezský kraj,824,2020-04-20T08:25:00
+CZ,Hlavní město Praha,1591,2020-04-20T08:25:00
+CZ,Nezjištěno,67,2020-04-20T17:30:00
+CZ,Jihočeský kraj,160,2020-04-20T17:30:00
+CZ,Kraj Vysočina,164,2020-04-20T17:30:00
+CZ,Královéhradecký kraj,178,2020-04-20T17:30:00
+CZ,Liberecký kraj,191,2020-04-20T17:30:00
+CZ,Karlovarský kraj,249,2020-04-20T17:30:00
+CZ,Pardubický kraj,253,2020-04-20T17:30:00
+CZ,Zlínský kraj,284,2020-04-20T17:30:00
+CZ,Jihomoravský kraj,389,2020-04-20T17:30:00
+CZ,Ústecký kraj,440,2020-04-20T17:30:00
+CZ,Plzeňský kraj,561,2020-04-20T17:30:00
+CZ,Olomoucký kraj,625,2020-04-20T17:30:00
+CZ,Středočeský kraj,818,2020-04-20T17:30:00
+CZ,Moravskoslezský kraj,838,2020-04-20T17:30:00
+CZ,Hlavní město Praha,1621,2020-04-20T17:30:00
+CZ,Nezjištěno,67,2020-04-21T00:30:00
+CZ,Jihočeský kraj,161,2020-04-21T00:30:00
+CZ,Kraj Vysočina,164,2020-04-21T00:30:00
+CZ,Královéhradecký kraj,178,2020-04-21T00:30:00
+CZ,Liberecký kraj,191,2020-04-21T00:30:00
+CZ,Pardubický kraj,253,2020-04-21T00:30:00
+CZ,Karlovarský kraj,255,2020-04-21T00:30:00
+CZ,Zlínský kraj,285,2020-04-21T00:30:00
+CZ,Jihomoravský kraj,393,2020-04-21T00:30:00
+CZ,Ústecký kraj,452,2020-04-21T00:30:00
+CZ,Plzeňský kraj,562,2020-04-21T00:30:00
+CZ,Olomoucký kraj,631,2020-04-21T00:30:00
+CZ,Středočeský kraj,826,2020-04-21T00:30:00
+CZ,Moravskoslezský kraj,848,2020-04-21T00:30:00
+CZ,Hlavní město Praha,1634,2020-04-21T00:30:00
+CZ,Nezjištěno,67,2020-04-21T08:30:00
+CZ,Jihočeský kraj,161,2020-04-21T08:30:00
+CZ,Kraj Vysočina,164,2020-04-21T08:30:00
+CZ,Královéhradecký kraj,178,2020-04-21T08:30:00
+CZ,Liberecký kraj,191,2020-04-21T08:30:00
+CZ,Pardubický kraj,253,2020-04-21T08:30:00
+CZ,Karlovarský kraj,261,2020-04-21T08:30:00
+CZ,Zlínský kraj,285,2020-04-21T08:30:00
+CZ,Jihomoravský kraj,394,2020-04-21T08:30:00
+CZ,Ústecký kraj,452,2020-04-21T08:30:00
+CZ,Plzeňský kraj,562,2020-04-21T08:30:00
+CZ,Olomoucký kraj,636,2020-04-21T08:30:00
+CZ,Středočeský kraj,826,2020-04-21T08:30:00
+CZ,Moravskoslezský kraj,850,2020-04-21T08:30:00
+CZ,Hlavní město Praha,1634,2020-04-21T08:30:00
+CZ,Nezjištěno,55,2020-04-21T17:25:00
+CZ,Jihočeský kraj,162,2020-04-21T17:25:00
+CZ,Kraj Vysočina,166,2020-04-21T17:25:00
+CZ,Královéhradecký kraj,179,2020-04-21T17:25:00
+CZ,Liberecký kraj,191,2020-04-21T17:25:00
+CZ,Pardubický kraj,254,2020-04-21T17:25:00
+CZ,Karlovarský kraj,263,2020-04-21T17:25:00
+CZ,Zlínský kraj,290,2020-04-21T17:25:00
+CZ,Jihomoravský kraj,397,2020-04-21T17:25:00
+CZ,Ústecký kraj,455,2020-04-21T17:25:00
+CZ,Plzeňský kraj,564,2020-04-21T17:25:00
+CZ,Olomoucký kraj,643,2020-04-21T17:25:00
+CZ,Středočeský kraj,831,2020-04-21T17:25:00
+CZ,Moravskoslezský kraj,863,2020-04-21T17:25:00
+CZ,Hlavní město Praha,1648,2020-04-21T17:25:00
+CZ,Nezjištěno,55,2020-04-22T00:30:00
+CZ,Jihočeský kraj,164,2020-04-22T00:30:00
+CZ,Kraj Vysočina,166,2020-04-22T00:30:00
+CZ,Královéhradecký kraj,179,2020-04-22T00:30:00
+CZ,Liberecký kraj,191,2020-04-22T00:30:00
+CZ,Pardubický kraj,256,2020-04-22T00:30:00
+CZ,Karlovarský kraj,266,2020-04-22T00:30:00
+CZ,Zlínský kraj,294,2020-04-22T00:30:00
+CZ,Jihomoravský kraj,400,2020-04-22T00:30:00
+CZ,Ústecký kraj,463,2020-04-22T00:30:00
+CZ,Plzeňský kraj,567,2020-04-22T00:30:00
+CZ,Olomoucký kraj,658,2020-04-22T00:30:00
+CZ,Středočeský kraj,837,2020-04-22T00:30:00
+CZ,Moravskoslezský kraj,882,2020-04-22T00:30:00
+CZ,Hlavní město Praha,1655,2020-04-22T00:30:00
+CZ,Nezjištěno,55,2020-04-22T09:15:00
+CZ,Jihočeský kraj,164,2020-04-22T09:15:00
+CZ,Kraj Vysočina,166,2020-04-22T09:15:00
+CZ,Královéhradecký kraj,179,2020-04-22T09:15:00
+CZ,Liberecký kraj,191,2020-04-22T09:15:00
+CZ,Pardubický kraj,256,2020-04-22T09:15:00
+CZ,Karlovarský kraj,274,2020-04-22T09:15:00
+CZ,Zlínský kraj,294,2020-04-22T09:15:00
+CZ,Jihomoravský kraj,400,2020-04-22T09:15:00
+CZ,Ústecký kraj,463,2020-04-22T09:15:00
+CZ,Plzeňský kraj,566,2020-04-22T09:15:00
+CZ,Olomoucký kraj,658,2020-04-22T09:15:00
+CZ,Středočeský kraj,837,2020-04-22T09:15:00
+CZ,Moravskoslezský kraj,882,2020-04-22T09:15:00
+CZ,Hlavní město Praha,1656,2020-04-22T09:15:00
+CZ,Nezjištěno,51,2020-04-22T17:30:00
+CZ,Jihočeský kraj,164,2020-04-22T17:30:00
+CZ,Kraj Vysočina,169,2020-04-22T17:30:00
+CZ,Královéhradecký kraj,179,2020-04-22T17:30:00
+CZ,Liberecký kraj,191,2020-04-22T17:30:00
+CZ,Pardubický kraj,255,2020-04-22T17:30:00
+CZ,Karlovarský kraj,274,2020-04-22T17:30:00
+CZ,Zlínský kraj,295,2020-04-22T17:30:00
+CZ,Jihomoravský kraj,403,2020-04-22T17:30:00
+CZ,Ústecký kraj,468,2020-04-22T17:30:00
+CZ,Plzeňský kraj,572,2020-04-22T17:30:00
+CZ,Olomoucký kraj,658,2020-04-22T17:30:00
+CZ,Středočeský kraj,846,2020-04-22T17:30:00
+CZ,Moravskoslezský kraj,903,2020-04-22T17:30:00
+CZ,Hlavní město Praha,1659,2020-04-22T17:30:00
+CZ,Nezjištěno,54,2020-04-23T00:30:00
+CZ,Jihočeský kraj,164,2020-04-23T00:30:00
+CZ,Kraj Vysočina,169,2020-04-23T00:30:00
+CZ,Královéhradecký kraj,179,2020-04-23T00:30:00
+CZ,Liberecký kraj,191,2020-04-23T00:30:00
+CZ,Pardubický kraj,255,2020-04-23T00:30:00
+CZ,Karlovarský kraj,286,2020-04-23T00:30:00
+CZ,Zlínský kraj,295,2020-04-23T00:30:00
+CZ,Jihomoravský kraj,408,2020-04-23T00:30:00
+CZ,Ústecký kraj,468,2020-04-23T00:30:00
+CZ,Plzeňský kraj,576,2020-04-23T00:30:00
+CZ,Olomoucký kraj,663,2020-04-23T00:30:00
+CZ,Středočeský kraj,848,2020-04-23T00:30:00
+CZ,Moravskoslezský kraj,911,2020-04-23T00:30:00
+CZ,Hlavní město Praha,1665,2020-04-23T00:30:00
+CZ,Nezjištěno,54,2020-04-23T08:30:00
+CZ,Jihočeský kraj,164,2020-04-23T08:30:00
+CZ,Kraj Vysočina,169,2020-04-23T08:30:00
+CZ,Královéhradecký kraj,179,2020-04-23T08:30:00
+CZ,Liberecký kraj,192,2020-04-23T08:30:00
+CZ,Pardubický kraj,256,2020-04-23T08:30:00
+CZ,Karlovarský kraj,286,2020-04-23T08:30:00
+CZ,Zlínský kraj,295,2020-04-23T08:30:00
+CZ,Jihomoravský kraj,408,2020-04-23T08:30:00
+CZ,Ústecký kraj,468,2020-04-23T08:30:00
+CZ,Plzeňský kraj,576,2020-04-23T08:30:00
+CZ,Olomoucký kraj,663,2020-04-23T08:30:00
+CZ,Středočeský kraj,849,2020-04-23T08:30:00
+CZ,Moravskoslezský kraj,911,2020-04-23T08:30:00
+CZ,Hlavní město Praha,1666,2020-04-23T08:30:00
+CZ,Nezjištěno,23,2020-04-23T17:25:00
+CZ,Jihočeský kraj,169,2020-04-23T17:25:00
+CZ,Kraj Vysočina,170,2020-04-23T17:25:00
+CZ,Královéhradecký kraj,176,2020-04-23T17:25:00
+CZ,Liberecký kraj,192,2020-04-23T17:25:00
+CZ,Pardubický kraj,259,2020-04-23T17:25:00
+CZ,Karlovarský kraj,289,2020-04-23T17:25:00
+CZ,Zlínský kraj,317,2020-04-23T17:25:00
+CZ,Jihomoravský kraj,411,2020-04-23T17:25:00
+CZ,Ústecký kraj,467,2020-04-23T17:25:00
+CZ,Plzeňský kraj,572,2020-04-23T17:25:00
+CZ,Olomoucký kraj,666,2020-04-23T17:25:00
+CZ,Středočeský kraj,847,2020-04-23T17:25:00
+CZ,Moravskoslezský kraj,917,2020-04-23T17:25:00
+CZ,Hlavní město Praha,1663,2020-04-23T17:25:00
+CZ,Nezjištěno,26,2020-04-24T00:30:00
+CZ,Jihočeský kraj,169,2020-04-24T00:30:00
+CZ,Kraj Vysočina,171,2020-04-24T00:30:00
+CZ,Královéhradecký kraj,176,2020-04-24T00:30:00
+CZ,Liberecký kraj,193,2020-04-24T00:30:00
+CZ,Pardubický kraj,259,2020-04-24T00:30:00
+CZ,Karlovarský kraj,297,2020-04-24T00:30:00
+CZ,Zlínský kraj,317,2020-04-24T00:30:00
+CZ,Jihomoravský kraj,416,2020-04-24T00:30:00
+CZ,Ústecký kraj,472,2020-04-24T00:30:00
+CZ,Plzeňský kraj,582,2020-04-24T00:30:00
+CZ,Olomoucký kraj,668,2020-04-24T00:30:00
+CZ,Středočeský kraj,850,2020-04-24T00:30:00
+CZ,Moravskoslezský kraj,925,2020-04-24T00:30:00
+CZ,Hlavní město Praha,1666,2020-04-24T00:30:00
+CZ,Nezjištěno,26,2020-04-24T08:30:00
+CZ,Jihočeský kraj,169,2020-04-24T08:30:00
+CZ,Kraj Vysočina,171,2020-04-24T08:30:00
+CZ,Královéhradecký kraj,176,2020-04-24T08:30:00
+CZ,Liberecký kraj,193,2020-04-24T08:30:00
+CZ,Pardubický kraj,259,2020-04-24T08:30:00
+CZ,Karlovarský kraj,297,2020-04-24T08:30:00
+CZ,Zlínský kraj,317,2020-04-24T08:30:00
+CZ,Jihomoravský kraj,416,2020-04-24T08:30:00
+CZ,Ústecký kraj,473,2020-04-24T08:30:00
+CZ,Plzeňský kraj,582,2020-04-24T08:30:00
+CZ,Olomoucký kraj,668,2020-04-24T08:30:00
+CZ,Středočeský kraj,850,2020-04-24T08:30:00
+CZ,Moravskoslezský kraj,925,2020-04-24T08:30:00
+CZ,Hlavní město Praha,1666,2020-04-24T08:30:00
+CZ,Nezjištěno,21,2020-04-24T17:30:00
+CZ,Jihočeský kraj,169,2020-04-24T17:30:00
+CZ,Kraj Vysočina,172,2020-04-24T17:30:00
+CZ,Královéhradecký kraj,176,2020-04-24T17:30:00
+CZ,Liberecký kraj,193,2020-04-24T17:30:00
+CZ,Pardubický kraj,260,2020-04-24T17:30:00
+CZ,Karlovarský kraj,301,2020-04-24T17:30:00
+CZ,Zlínský kraj,317,2020-04-24T17:30:00
+CZ,Jihomoravský kraj,426,2020-04-24T17:30:00
+CZ,Ústecký kraj,477,2020-04-24T17:30:00
+CZ,Plzeňský kraj,580,2020-04-24T17:30:00
+CZ,Olomoucký kraj,676,2020-04-24T17:30:00
+CZ,Středočeský kraj,854,2020-04-24T17:30:00
+CZ,Moravskoslezský kraj,942,2020-04-24T17:30:00
+CZ,Hlavní město Praha,1672,2020-04-24T17:30:00
+CZ,Nezjištěno,26,2020-04-25T00:30:00
+CZ,Jihočeský kraj,171,2020-04-25T00:30:00
+CZ,Kraj Vysočina,172,2020-04-25T00:30:00
+CZ,Královéhradecký kraj,178,2020-04-25T00:30:00
+CZ,Liberecký kraj,193,2020-04-25T00:30:00
+CZ,Pardubický kraj,262,2020-04-25T00:30:00
+CZ,Karlovarský kraj,301,2020-04-25T00:30:00
+CZ,Zlínský kraj,317,2020-04-25T00:30:00
+CZ,Jihomoravský kraj,432,2020-04-25T00:30:00
+CZ,Ústecký kraj,477,2020-04-25T00:30:00
+CZ,Plzeňský kraj,584,2020-04-25T00:30:00
+CZ,Olomoucký kraj,676,2020-04-25T00:30:00
+CZ,Středočeský kraj,857,2020-04-25T00:30:00
+CZ,Moravskoslezský kraj,951,2020-04-25T00:30:00
+CZ,Hlavní město Praha,1676,2020-04-25T00:30:00
+CZ,Nezjištěno,26,2020-04-25T08:30:00
+CZ,Jihočeský kraj,171,2020-04-25T08:30:00
+CZ,Kraj Vysočina,172,2020-04-25T08:30:00
+CZ,Královéhradecký kraj,178,2020-04-25T08:30:00
+CZ,Liberecký kraj,193,2020-04-25T08:30:00
+CZ,Pardubický kraj,262,2020-04-25T08:30:00
+CZ,Karlovarský kraj,301,2020-04-25T08:30:00
+CZ,Zlínský kraj,317,2020-04-25T08:30:00
+CZ,Jihomoravský kraj,432,2020-04-25T08:30:00
+CZ,Ústecký kraj,477,2020-04-25T08:30:00
+CZ,Plzeňský kraj,584,2020-04-25T08:30:00
+CZ,Olomoucký kraj,676,2020-04-25T08:30:00
+CZ,Středočeský kraj,857,2020-04-25T08:30:00
+CZ,Moravskoslezský kraj,951,2020-04-25T08:30:00
+CZ,Hlavní město Praha,1676,2020-04-25T08:30:00
+CZ,Nezjištěno,27,2020-04-25T17:25:00
+CZ,Jihočeský kraj,172,2020-04-25T17:25:00
+CZ,Kraj Vysočina,172,2020-04-25T17:25:00
+CZ,Královéhradecký kraj,178,2020-04-25T17:25:00
+CZ,Liberecký kraj,194,2020-04-25T17:25:00
+CZ,Pardubický kraj,261,2020-04-25T17:25:00
+CZ,Zlínský kraj,319,2020-04-25T17:25:00
+CZ,Karlovarský kraj,331,2020-04-25T17:25:00
+CZ,Jihomoravský kraj,432,2020-04-25T17:25:00
+CZ,Ústecký kraj,479,2020-04-25T17:25:00
+CZ,Plzeňský kraj,585,2020-04-25T17:25:00
+CZ,Olomoucký kraj,676,2020-04-25T17:25:00
+CZ,Středočeský kraj,866,2020-04-25T17:25:00
+CZ,Moravskoslezský kraj,955,2020-04-25T17:25:00
+CZ,Hlavní město Praha,1686,2020-04-25T17:25:00
+CZ,Nezjištěno,30,2020-04-26T00:30:00
+CZ,Jihočeský kraj,172,2020-04-26T00:30:00
+CZ,Kraj Vysočina,172,2020-04-26T00:30:00
+CZ,Královéhradecký kraj,178,2020-04-26T00:30:00
+CZ,Liberecký kraj,194,2020-04-26T00:30:00
+CZ,Pardubický kraj,263,2020-04-26T00:30:00
+CZ,Zlínský kraj,319,2020-04-26T00:30:00
+CZ,Karlovarský kraj,331,2020-04-26T00:30:00
+CZ,Jihomoravský kraj,432,2020-04-26T00:30:00
+CZ,Ústecký kraj,481,2020-04-26T00:30:00
+CZ,Plzeňský kraj,586,2020-04-26T00:30:00
+CZ,Olomoucký kraj,676,2020-04-26T00:30:00
+CZ,Středočeský kraj,869,2020-04-26T00:30:00
+CZ,Moravskoslezský kraj,960,2020-04-26T00:30:00
+CZ,Hlavní město Praha,1689,2020-04-26T00:30:00
+CZ,Nezjištěno,30,2020-04-26T08:25:00
+CZ,Jihočeský kraj,172,2020-04-26T08:25:00
+CZ,Kraj Vysočina,172,2020-04-26T08:25:00
+CZ,Královéhradecký kraj,178,2020-04-26T08:25:00
+CZ,Liberecký kraj,194,2020-04-26T08:25:00
+CZ,Pardubický kraj,263,2020-04-26T08:25:00
+CZ,Zlínský kraj,319,2020-04-26T08:25:00
+CZ,Karlovarský kraj,331,2020-04-26T08:25:00
+CZ,Jihomoravský kraj,432,2020-04-26T08:25:00
+CZ,Ústecký kraj,481,2020-04-26T08:25:00
+CZ,Plzeňský kraj,586,2020-04-26T08:25:00
+CZ,Olomoucký kraj,676,2020-04-26T08:25:00
+CZ,Středočeský kraj,869,2020-04-26T08:25:00
+CZ,Moravskoslezský kraj,960,2020-04-26T08:25:00
+CZ,Hlavní město Praha,1689,2020-04-26T08:25:00
+CZ,Nezjištěno,27,2020-04-26T17:30:00
+CZ,Kraj Vysočina,172,2020-04-26T17:30:00
+CZ,Jihočeský kraj,173,2020-04-26T17:30:00
+CZ,Královéhradecký kraj,178,2020-04-26T17:30:00
+CZ,Liberecký kraj,194,2020-04-26T17:30:00
+CZ,Pardubický kraj,264,2020-04-26T17:30:00
+CZ,Zlínský kraj,323,2020-04-26T17:30:00
+CZ,Karlovarský kraj,350,2020-04-26T17:30:00
+CZ,Jihomoravský kraj,433,2020-04-26T17:30:00
+CZ,Ústecký kraj,481,2020-04-26T17:30:00
+CZ,Plzeňský kraj,587,2020-04-26T17:30:00
+CZ,Olomoucký kraj,678,2020-04-26T17:30:00
+CZ,Středočeský kraj,870,2020-04-26T17:30:00
+CZ,Moravskoslezský kraj,969,2020-04-26T17:30:00
+CZ,Hlavní město Praha,1688,2020-04-26T17:30:00
+CZ,Nezjištěno,27,2020-04-27T00:30:00
+CZ,Jihočeský kraj,173,2020-04-27T00:30:00
+CZ,Kraj Vysočina,174,2020-04-27T00:30:00
+CZ,Královéhradecký kraj,179,2020-04-27T00:30:00
+CZ,Liberecký kraj,194,2020-04-27T00:30:00
+CZ,Pardubický kraj,264,2020-04-27T00:30:00
+CZ,Zlínský kraj,325,2020-04-27T00:30:00
+CZ,Karlovarský kraj,350,2020-04-27T00:30:00
+CZ,Jihomoravský kraj,434,2020-04-27T00:30:00
+CZ,Ústecký kraj,481,2020-04-27T00:30:00
+CZ,Plzeňský kraj,591,2020-04-27T00:30:00
+CZ,Olomoucký kraj,678,2020-04-27T00:30:00
+CZ,Středočeský kraj,874,2020-04-27T00:30:00
+CZ,Moravskoslezský kraj,970,2020-04-27T00:30:00
+CZ,Hlavní město Praha,1690,2020-04-27T00:30:00
+CZ,Nezjištěno,27,2020-04-27T08:30:00
+CZ,Jihočeský kraj,173,2020-04-27T08:30:00
+CZ,Kraj Vysočina,175,2020-04-27T08:30:00
+CZ,Královéhradecký kraj,179,2020-04-27T08:30:00
+CZ,Liberecký kraj,194,2020-04-27T08:30:00
+CZ,Pardubický kraj,264,2020-04-27T08:30:00
+CZ,Zlínský kraj,325,2020-04-27T08:30:00
+CZ,Karlovarský kraj,350,2020-04-27T08:30:00
+CZ,Jihomoravský kraj,434,2020-04-27T08:30:00
+CZ,Ústecký kraj,481,2020-04-27T08:30:00
+CZ,Plzeňský kraj,591,2020-04-27T08:30:00
+CZ,Olomoucký kraj,678,2020-04-27T08:30:00
+CZ,Středočeský kraj,873,2020-04-27T08:30:00
+CZ,Moravskoslezský kraj,970,2020-04-27T08:30:00
+CZ,Hlavní město Praha,1690,2020-04-27T08:30:00
+CZ,Nezjištěno,27,2020-04-27T10:25:00
+CZ,Jihočeský kraj,172,2020-04-27T10:25:00
+CZ,Kraj Vysočina,174,2020-04-27T10:25:00
+CZ,Královéhradecký kraj,179,2020-04-27T10:25:00
+CZ,Liberecký kraj,193,2020-04-27T10:25:00
+CZ,Pardubický kraj,265,2020-04-27T10:25:00
+CZ,Zlínský kraj,325,2020-04-27T10:25:00
+CZ,Karlovarský kraj,349,2020-04-27T10:25:00
+CZ,Jihomoravský kraj,435,2020-04-27T10:25:00
+CZ,Ústecký kraj,483,2020-04-27T10:25:00
+CZ,Plzeňský kraj,590,2020-04-27T10:25:00
+CZ,Olomoucký kraj,679,2020-04-27T10:25:00
+CZ,Středočeský kraj,876,2020-04-27T10:25:00
+CZ,Moravskoslezský kraj,969,2020-04-27T10:25:00
+CZ,Hlavní město Praha,1692,2020-04-27T10:25:00
+CZ,Nezjištěno,25,2020-04-27T17:25:00
+CZ,Jihočeský kraj,172,2020-04-27T17:25:00
+CZ,Kraj Vysočina,174,2020-04-27T17:25:00
+CZ,Královéhradecký kraj,179,2020-04-27T17:25:00
+CZ,Liberecký kraj,193,2020-04-27T17:25:00
+CZ,Pardubický kraj,266,2020-04-27T17:25:00
+CZ,Zlínský kraj,325,2020-04-27T17:25:00
+CZ,Karlovarský kraj,351,2020-04-27T17:25:00
+CZ,Jihomoravský kraj,436,2020-04-27T17:25:00
+CZ,Ústecký kraj,482,2020-04-27T17:25:00
+CZ,Plzeňský kraj,593,2020-04-27T17:25:00
+CZ,Olomoucký kraj,682,2020-04-27T17:25:00
+CZ,Středočeský kraj,876,2020-04-27T17:25:00
+CZ,Moravskoslezský kraj,981,2020-04-27T17:25:00
+CZ,Hlavní město Praha,1696,2020-04-27T17:25:00
+CZ,Nezjištěno,27,2020-04-28T00:30:00
+CZ,Jihočeský kraj,172,2020-04-28T00:30:00
+CZ,Kraj Vysočina,174,2020-04-28T00:30:00
+CZ,Královéhradecký kraj,179,2020-04-28T00:30:00
+CZ,Liberecký kraj,193,2020-04-28T00:30:00
+CZ,Pardubický kraj,267,2020-04-28T00:30:00
+CZ,Zlínský kraj,326,2020-04-28T00:30:00
+CZ,Karlovarský kraj,351,2020-04-28T00:30:00
+CZ,Jihomoravský kraj,437,2020-04-28T00:30:00
+CZ,Ústecký kraj,483,2020-04-28T00:30:00
+CZ,Plzeňský kraj,595,2020-04-28T00:30:00
+CZ,Olomoucký kraj,682,2020-04-28T00:30:00
+CZ,Středočeský kraj,880,2020-04-28T00:30:00
+CZ,Moravskoslezský kraj,987,2020-04-28T00:30:00
+CZ,Hlavní město Praha,1692,2020-04-28T00:30:00
+CZ,Nezjištěno,26,2020-04-28T08:25:00
+CZ,Jihočeský kraj,172,2020-04-28T08:25:00
+CZ,Kraj Vysočina,174,2020-04-28T08:25:00
+CZ,Královéhradecký kraj,180,2020-04-28T08:25:00
+CZ,Liberecký kraj,193,2020-04-28T08:25:00
+CZ,Pardubický kraj,267,2020-04-28T08:25:00
+CZ,Zlínský kraj,326,2020-04-28T08:25:00
+CZ,Karlovarský kraj,351,2020-04-28T08:25:00
+CZ,Jihomoravský kraj,438,2020-04-28T08:25:00
+CZ,Ústecký kraj,483,2020-04-28T08:25:00
+CZ,Plzeňský kraj,595,2020-04-28T08:25:00
+CZ,Olomoucký kraj,683,2020-04-28T08:25:00
+CZ,Středočeský kraj,880,2020-04-28T08:25:00
+CZ,Moravskoslezský kraj,988,2020-04-28T08:25:00
+CZ,Hlavní město Praha,1693,2020-04-28T08:25:00
+CZ,Nezjištěno,26,2020-04-28T17:30:00
+CZ,Jihočeský kraj,173,2020-04-28T17:30:00
+CZ,Kraj Vysočina,174,2020-04-28T17:30:00
+CZ,Královéhradecký kraj,178,2020-04-28T17:30:00
+CZ,Liberecký kraj,193,2020-04-28T17:30:00
+CZ,Pardubický kraj,268,2020-04-28T17:30:00
+CZ,Zlínský kraj,327,2020-04-28T17:30:00
+CZ,Karlovarský kraj,356,2020-04-28T17:30:00
+CZ,Jihomoravský kraj,441,2020-04-28T17:30:00
+CZ,Ústecký kraj,484,2020-04-28T17:30:00
+CZ,Plzeňský kraj,594,2020-04-28T17:30:00
+CZ,Olomoucký kraj,688,2020-04-28T17:30:00
+CZ,Středočeský kraj,886,2020-04-28T17:30:00
+CZ,Moravskoslezský kraj,996,2020-04-28T17:30:00
+CZ,Hlavní město Praha,1702,2020-04-28T17:30:00
+CZ,Nezjištěno,29,2020-04-29T00:30:00
+CZ,Jihočeský kraj,173,2020-04-29T00:30:00
+CZ,Kraj Vysočina,174,2020-04-29T00:30:00
+CZ,Královéhradecký kraj,178,2020-04-29T00:30:00
+CZ,Liberecký kraj,195,2020-04-29T00:30:00
+CZ,Pardubický kraj,268,2020-04-29T00:30:00
+CZ,Zlínský kraj,327,2020-04-29T00:30:00
+CZ,Karlovarský kraj,356,2020-04-29T00:30:00
+CZ,Jihomoravský kraj,442,2020-04-29T00:30:00
+CZ,Ústecký kraj,484,2020-04-29T00:30:00
+CZ,Plzeňský kraj,600,2020-04-29T00:30:00
+CZ,Olomoucký kraj,688,2020-04-29T00:30:00
+CZ,Středočeský kraj,886,2020-04-29T00:30:00
+CZ,Moravskoslezský kraj,1002,2020-04-29T00:30:00
+CZ,Hlavní město Praha,1702,2020-04-29T00:30:00
+CZ,Nezjištěno,29,2020-04-29T08:30:00
+CZ,Jihočeský kraj,173,2020-04-29T08:30:00
+CZ,Kraj Vysočina,174,2020-04-29T08:30:00
+CZ,Královéhradecký kraj,178,2020-04-29T08:30:00
+CZ,Liberecký kraj,195,2020-04-29T08:30:00
+CZ,Pardubický kraj,268,2020-04-29T08:30:00
+CZ,Zlínský kraj,327,2020-04-29T08:30:00
+CZ,Karlovarský kraj,356,2020-04-29T08:30:00
+CZ,Jihomoravský kraj,443,2020-04-29T08:30:00
+CZ,Ústecký kraj,484,2020-04-29T08:30:00
+CZ,Plzeňský kraj,600,2020-04-29T08:30:00
+CZ,Olomoucký kraj,688,2020-04-29T08:30:00
+CZ,Středočeský kraj,886,2020-04-29T08:30:00
+CZ,Moravskoslezský kraj,1001,2020-04-29T08:30:00
+CZ,Hlavní město Praha,1702,2020-04-29T08:30:00
+CZ,Nezjištěno,51,2020-04-29T17:25:00
+CZ,Jihočeský kraj,173,2020-04-29T17:25:00
+CZ,Kraj Vysočina,175,2020-04-29T17:25:00
+CZ,Královéhradecký kraj,178,2020-04-29T17:25:00
+CZ,Liberecký kraj,193,2020-04-29T17:25:00
+CZ,Pardubický kraj,268,2020-04-29T17:25:00
+CZ,Zlínský kraj,327,2020-04-29T17:25:00
+CZ,Karlovarský kraj,358,2020-04-29T17:25:00
+CZ,Jihomoravský kraj,445,2020-04-29T17:25:00
+CZ,Ústecký kraj,490,2020-04-29T17:25:00
+CZ,Plzeňský kraj,600,2020-04-29T17:25:00
+CZ,Olomoucký kraj,691,2020-04-29T17:25:00
+CZ,Středočeský kraj,894,2020-04-29T17:25:00
+CZ,Moravskoslezský kraj,1011,2020-04-29T17:25:00
+CZ,Hlavní město Praha,1709,2020-04-29T17:25:00
+CZ,Nezjištěno,53,2020-04-30T00:30:00
+CZ,Jihočeský kraj,173,2020-04-30T00:30:00
+CZ,Kraj Vysočina,175,2020-04-30T00:30:00
+CZ,Královéhradecký kraj,178,2020-04-30T00:30:00
+CZ,Liberecký kraj,193,2020-04-30T00:30:00
+CZ,Pardubický kraj,269,2020-04-30T00:30:00
+CZ,Zlínský kraj,327,2020-04-30T00:30:00
+CZ,Karlovarský kraj,358,2020-04-30T00:30:00
+CZ,Jihomoravský kraj,447,2020-04-30T00:30:00
+CZ,Ústecký kraj,490,2020-04-30T00:30:00
+CZ,Plzeňský kraj,600,2020-04-30T00:30:00
+CZ,Olomoucký kraj,691,2020-04-30T00:30:00
+CZ,Středočeský kraj,894,2020-04-30T00:30:00
+CZ,Moravskoslezský kraj,1020,2020-04-30T00:30:00
+CZ,Hlavní město Praha,1711,2020-04-30T00:30:00
+CZ,Nezjištěno,53,2020-04-30T08:25:00
+CZ,Jihočeský kraj,173,2020-04-30T08:25:00
+CZ,Kraj Vysočina,175,2020-04-30T08:25:00
+CZ,Královéhradecký kraj,178,2020-04-30T08:25:00
+CZ,Liberecký kraj,193,2020-04-30T08:25:00
+CZ,Pardubický kraj,269,2020-04-30T08:25:00
+CZ,Zlínský kraj,327,2020-04-30T08:25:00
+CZ,Karlovarský kraj,358,2020-04-30T08:25:00
+CZ,Jihomoravský kraj,447,2020-04-30T08:25:00
+CZ,Ústecký kraj,490,2020-04-30T08:25:00
+CZ,Plzeňský kraj,600,2020-04-30T08:25:00
+CZ,Olomoucký kraj,691,2020-04-30T08:25:00
+CZ,Středočeský kraj,894,2020-04-30T08:25:00
+CZ,Moravskoslezský kraj,1021,2020-04-30T08:25:00
+CZ,Hlavní město Praha,1712,2020-04-30T08:25:00
+CZ,Nezjištěno,79,2020-04-30T17:30:00
+CZ,Jihočeský kraj,174,2020-04-30T17:30:00
+CZ,Kraj Vysočina,174,2020-04-30T17:30:00
+CZ,Královéhradecký kraj,178,2020-04-30T17:30:00
+CZ,Liberecký kraj,193,2020-04-30T17:30:00
+CZ,Pardubický kraj,270,2020-04-30T17:30:00
+CZ,Zlínský kraj,328,2020-04-30T17:30:00
+CZ,Karlovarský kraj,359,2020-04-30T17:30:00
+CZ,Jihomoravský kraj,444,2020-04-30T17:30:00
+CZ,Ústecký kraj,493,2020-04-30T17:30:00
+CZ,Plzeňský kraj,601,2020-04-30T17:30:00
+CZ,Olomoucký kraj,692,2020-04-30T17:30:00
+CZ,Středočeský kraj,902,2020-04-30T17:30:00
+CZ,Moravskoslezský kraj,1034,2020-04-30T17:30:00
+CZ,Hlavní město Praha,1721,2020-04-30T17:30:00
+CZ,Nezjištěno,107,2020-05-01T00:30:00
+CZ,Jihočeský kraj,174,2020-05-01T00:30:00
+CZ,Kraj Vysočina,174,2020-05-01T00:30:00
+CZ,Královéhradecký kraj,178,2020-05-01T00:30:00
+CZ,Liberecký kraj,193,2020-05-01T00:30:00
+CZ,Pardubický kraj,270,2020-05-01T00:30:00
+CZ,Zlínský kraj,328,2020-05-01T00:30:00
+CZ,Karlovarský kraj,359,2020-05-01T00:30:00
+CZ,Jihomoravský kraj,446,2020-05-01T00:30:00
+CZ,Ústecký kraj,493,2020-05-01T00:30:00
+CZ,Plzeňský kraj,607,2020-05-01T00:30:00
+CZ,Olomoucký kraj,691,2020-05-01T00:30:00
+CZ,Středočeský kraj,901,2020-05-01T00:30:00
+CZ,Moravskoslezský kraj,1038,2020-05-01T00:30:00
+CZ,Hlavní město Praha,1723,2020-05-01T00:30:00
+CZ,Nezjištěno,112,2020-05-01T08:30:00
+CZ,Jihočeský kraj,174,2020-05-01T08:30:00
+CZ,Kraj Vysočina,174,2020-05-01T08:30:00
+CZ,Královéhradecký kraj,178,2020-05-01T08:30:00
+CZ,Liberecký kraj,193,2020-05-01T08:30:00
+CZ,Pardubický kraj,271,2020-05-01T08:30:00
+CZ,Zlínský kraj,328,2020-05-01T08:30:00
+CZ,Karlovarský kraj,359,2020-05-01T08:30:00
+CZ,Jihomoravský kraj,446,2020-05-01T08:30:00
+CZ,Ústecký kraj,493,2020-05-01T08:30:00
+CZ,Plzeňský kraj,607,2020-05-01T08:30:00
+CZ,Olomoucký kraj,691,2020-05-01T08:30:00
+CZ,Středočeský kraj,901,2020-05-01T08:30:00
+CZ,Moravskoslezský kraj,1038,2020-05-01T08:30:00
+CZ,Hlavní město Praha,1724,2020-05-01T08:30:00
+CZ,Nezjištěno,100,2020-05-01T17:25:00
+CZ,Jihočeský kraj,174,2020-05-01T17:25:00
+CZ,Kraj Vysočina,174,2020-05-01T17:25:00
+CZ,Královéhradecký kraj,178,2020-05-01T17:25:00
+CZ,Liberecký kraj,193,2020-05-01T17:25:00
+CZ,Pardubický kraj,272,2020-05-01T17:25:00
+CZ,Zlínský kraj,328,2020-05-01T17:25:00
+CZ,Karlovarský kraj,369,2020-05-01T17:25:00
+CZ,Jihomoravský kraj,447,2020-05-01T17:25:00
+CZ,Ústecký kraj,493,2020-05-01T17:25:00
+CZ,Plzeňský kraj,608,2020-05-01T17:25:00
+CZ,Olomoucký kraj,693,2020-05-01T17:25:00
+CZ,Středočeský kraj,905,2020-05-01T17:25:00
+CZ,Moravskoslezský kraj,1060,2020-05-01T17:25:00
+CZ,Hlavní město Praha,1732,2020-05-01T17:25:00
+CZ,Nezjištěno,102,2020-05-02T00:30:00
+CZ,Jihočeský kraj,173,2020-05-02T00:30:00
+CZ,Kraj Vysočina,174,2020-05-02T00:30:00
+CZ,Královéhradecký kraj,178,2020-05-02T00:30:00
+CZ,Liberecký kraj,194,2020-05-02T00:30:00
+CZ,Pardubický kraj,272,2020-05-02T00:30:00
+CZ,Zlínský kraj,328,2020-05-02T00:30:00
+CZ,Karlovarský kraj,369,2020-05-02T00:30:00
+CZ,Jihomoravský kraj,447,2020-05-02T00:30:00
+CZ,Ústecký kraj,493,2020-05-02T00:30:00
+CZ,Plzeňský kraj,611,2020-05-02T00:30:00
+CZ,Olomoucký kraj,693,2020-05-02T00:30:00
+CZ,Středočeský kraj,905,2020-05-02T00:30:00
+CZ,Moravskoslezský kraj,1064,2020-05-02T00:30:00
+CZ,Hlavní město Praha,1734,2020-05-02T00:30:00
+CZ,Nezjištěno,102,2020-05-02T08:25:00
+CZ,Jihočeský kraj,173,2020-05-02T08:25:00
+CZ,Kraj Vysočina,174,2020-05-02T08:25:00
+CZ,Královéhradecký kraj,178,2020-05-02T08:25:00
+CZ,Liberecký kraj,194,2020-05-02T08:25:00
+CZ,Pardubický kraj,272,2020-05-02T08:25:00
+CZ,Zlínský kraj,328,2020-05-02T08:25:00
+CZ,Karlovarský kraj,369,2020-05-02T08:25:00
+CZ,Jihomoravský kraj,447,2020-05-02T08:25:00
+CZ,Ústecký kraj,494,2020-05-02T08:25:00
+CZ,Plzeňský kraj,611,2020-05-02T08:25:00
+CZ,Olomoucký kraj,693,2020-05-02T08:25:00
+CZ,Středočeský kraj,906,2020-05-02T08:25:00
+CZ,Moravskoslezský kraj,1064,2020-05-02T08:25:00
+CZ,Hlavní město Praha,1735,2020-05-02T08:25:00
+CZ,Nezjištěno,99,2020-05-02T17:30:00
+CZ,Jihočeský kraj,173,2020-05-02T17:30:00
+CZ,Kraj Vysočina,175,2020-05-02T17:30:00
+CZ,Královéhradecký kraj,178,2020-05-02T17:30:00
+CZ,Liberecký kraj,194,2020-05-02T17:30:00
+CZ,Pardubický kraj,272,2020-05-02T17:30:00
+CZ,Zlínský kraj,328,2020-05-02T17:30:00
+CZ,Karlovarský kraj,373,2020-05-02T17:30:00
+CZ,Jihomoravský kraj,447,2020-05-02T17:30:00
+CZ,Ústecký kraj,494,2020-05-02T17:30:00
+CZ,Plzeňský kraj,611,2020-05-02T17:30:00
+CZ,Olomoucký kraj,693,2020-05-02T17:30:00
+CZ,Středočeský kraj,910,2020-05-02T17:30:00
+CZ,Moravskoslezský kraj,1064,2020-05-02T17:30:00
+CZ,Hlavní město Praha,1739,2020-05-02T17:30:00
+CZ,Nezjištěno,90,2020-05-03T00:30:00
+CZ,Jihočeský kraj,173,2020-05-03T00:30:00
+CZ,Kraj Vysočina,175,2020-05-03T00:30:00
+CZ,Královéhradecký kraj,179,2020-05-03T00:30:00
+CZ,Liberecký kraj,194,2020-05-03T00:30:00
+CZ,Pardubický kraj,272,2020-05-03T00:30:00
+CZ,Zlínský kraj,329,2020-05-03T00:30:00
+CZ,Karlovarský kraj,373,2020-05-03T00:30:00
+CZ,Jihomoravský kraj,449,2020-05-03T00:30:00
+CZ,Ústecký kraj,495,2020-05-03T00:30:00
+CZ,Plzeňský kraj,611,2020-05-03T00:30:00
+CZ,Olomoucký kraj,698,2020-05-03T00:30:00
+CZ,Středočeský kraj,910,2020-05-03T00:30:00
+CZ,Moravskoslezský kraj,1067,2020-05-03T00:30:00
+CZ,Hlavní město Praha,1740,2020-05-03T00:30:00
+CZ,Nezjištěno,67,2020-05-03T08:30:00
+CZ,Jihočeský kraj,173,2020-05-03T08:30:00
+CZ,Kraj Vysočina,175,2020-05-03T08:30:00
+CZ,Královéhradecký kraj,179,2020-05-03T08:30:00
+CZ,Liberecký kraj,195,2020-05-03T08:30:00
+CZ,Pardubický kraj,272,2020-05-03T08:30:00
+CZ,Zlínský kraj,329,2020-05-03T08:30:00
+CZ,Karlovarský kraj,377,2020-05-03T08:30:00
+CZ,Jihomoravský kraj,449,2020-05-03T08:30:00
+CZ,Ústecký kraj,496,2020-05-03T08:30:00
+CZ,Plzeňský kraj,612,2020-05-03T08:30:00
+CZ,Olomoucký kraj,698,2020-05-03T08:30:00
+CZ,Středočeský kraj,911,2020-05-03T08:30:00
+CZ,Moravskoslezský kraj,1071,2020-05-03T08:30:00
+CZ,Hlavní město Praha,1751,2020-05-03T08:30:00
+CZ,Nezjištěno,68,2020-05-03T17:25:00
+CZ,Jihočeský kraj,173,2020-05-03T17:25:00
+CZ,Kraj Vysočina,175,2020-05-03T17:25:00
+CZ,Královéhradecký kraj,179,2020-05-03T17:25:00
+CZ,Liberecký kraj,196,2020-05-03T17:25:00
+CZ,Pardubický kraj,272,2020-05-03T17:25:00
+CZ,Zlínský kraj,328,2020-05-03T17:25:00
+CZ,Karlovarský kraj,381,2020-05-03T17:25:00
+CZ,Jihomoravský kraj,451,2020-05-03T17:25:00
+CZ,Ústecký kraj,496,2020-05-03T17:25:00
+CZ,Plzeňský kraj,612,2020-05-03T17:25:00
+CZ,Olomoucký kraj,698,2020-05-03T17:25:00
+CZ,Středočeský kraj,910,2020-05-03T17:25:00
+CZ,Moravskoslezský kraj,1073,2020-05-03T17:25:00
+CZ,Hlavní město Praha,1752,2020-05-03T17:25:00
+CZ,Nezjištěno,69,2020-05-04T00:30:00
+CZ,Jihočeský kraj,173,2020-05-04T00:30:00
+CZ,Kraj Vysočina,175,2020-05-04T00:30:00
+CZ,Královéhradecký kraj,179,2020-05-04T00:30:00
+CZ,Liberecký kraj,196,2020-05-04T00:30:00
+CZ,Pardubický kraj,272,2020-05-04T00:30:00
+CZ,Zlínský kraj,328,2020-05-04T00:30:00
+CZ,Karlovarský kraj,381,2020-05-04T00:30:00
+CZ,Jihomoravský kraj,451,2020-05-04T00:30:00
+CZ,Ústecký kraj,496,2020-05-04T00:30:00
+CZ,Plzeňský kraj,615,2020-05-04T00:30:00
+CZ,Olomoucký kraj,698,2020-05-04T00:30:00
+CZ,Středočeský kraj,911,2020-05-04T00:30:00
+CZ,Moravskoslezský kraj,1083,2020-05-04T00:30:00
+CZ,Hlavní město Praha,1754,2020-05-04T00:30:00
+CZ,Nezjištěno,69,2020-05-04T08:25:00
+CZ,Jihočeský kraj,173,2020-05-04T08:25:00
+CZ,Kraj Vysočina,175,2020-05-04T08:25:00
+CZ,Královéhradecký kraj,179,2020-05-04T08:25:00
+CZ,Liberecký kraj,196,2020-05-04T08:25:00
+CZ,Pardubický kraj,272,2020-05-04T08:25:00
+CZ,Zlínský kraj,328,2020-05-04T08:25:00
+CZ,Karlovarský kraj,382,2020-05-04T08:25:00
+CZ,Jihomoravský kraj,451,2020-05-04T08:25:00
+CZ,Ústecký kraj,496,2020-05-04T08:25:00
+CZ,Plzeňský kraj,612,2020-05-04T08:25:00
+CZ,Olomoucký kraj,698,2020-05-04T08:25:00
+CZ,Středočeský kraj,911,2020-05-04T08:25:00
+CZ,Moravskoslezský kraj,1083,2020-05-04T08:25:00
+CZ,Hlavní město Praha,1754,2020-05-04T08:25:00
+CZ,Nezjištěno,63,2020-05-04T17:30:00
+CZ,Jihočeský kraj,173,2020-05-04T17:30:00
+CZ,Kraj Vysočina,175,2020-05-04T17:30:00
+CZ,Královéhradecký kraj,181,2020-05-04T17:30:00
+CZ,Liberecký kraj,196,2020-05-04T17:30:00
+CZ,Pardubický kraj,274,2020-05-04T17:30:00
+CZ,Zlínský kraj,328,2020-05-04T17:30:00
+CZ,Karlovarský kraj,386,2020-05-04T17:30:00
+CZ,Jihomoravský kraj,456,2020-05-04T17:30:00
+CZ,Ústecký kraj,496,2020-05-04T17:30:00
+CZ,Plzeňský kraj,611,2020-05-04T17:30:00
+CZ,Olomoucký kraj,698,2020-05-04T17:30:00
+CZ,Středočeský kraj,914,2020-05-04T17:30:00
+CZ,Moravskoslezský kraj,1084,2020-05-04T17:30:00
+CZ,Hlavní město Praha,1764,2020-05-04T17:30:00
+CZ,Nezjištěno,73,2020-05-05T00:30:00
+CZ,Jihočeský kraj,173,2020-05-05T00:30:00
+CZ,Kraj Vysočina,175,2020-05-05T00:30:00
+CZ,Královéhradecký kraj,181,2020-05-05T00:30:00
+CZ,Liberecký kraj,196,2020-05-05T00:30:00
+CZ,Pardubický kraj,274,2020-05-05T00:30:00
+CZ,Zlínský kraj,328,2020-05-05T00:30:00
+CZ,Karlovarský kraj,386,2020-05-05T00:30:00
+CZ,Jihomoravský kraj,456,2020-05-05T00:30:00
+CZ,Ústecký kraj,496,2020-05-05T00:30:00
+CZ,Plzeňský kraj,612,2020-05-05T00:30:00
+CZ,Olomoucký kraj,698,2020-05-05T00:30:00
+CZ,Středočeský kraj,916,2020-05-05T00:30:00
+CZ,Moravskoslezský kraj,1088,2020-05-05T00:30:00
+CZ,Hlavní město Praha,1767,2020-05-05T00:30:00
+CZ,Nezjištěno,65,2020-05-05T08:30:00
+CZ,Jihočeský kraj,173,2020-05-05T08:30:00
+CZ,Kraj Vysočina,175,2020-05-05T08:30:00
+CZ,Královéhradecký kraj,181,2020-05-05T08:30:00
+CZ,Liberecký kraj,196,2020-05-05T08:30:00
+CZ,Pardubický kraj,274,2020-05-05T08:30:00
+CZ,Zlínský kraj,328,2020-05-05T08:30:00
+CZ,Karlovarský kraj,409,2020-05-05T08:30:00
+CZ,Jihomoravský kraj,456,2020-05-05T08:30:00
+CZ,Ústecký kraj,497,2020-05-05T08:30:00
+CZ,Plzeňský kraj,613,2020-05-05T08:30:00
+CZ,Olomoucký kraj,698,2020-05-05T08:30:00
+CZ,Středočeský kraj,920,2020-05-05T08:30:00
+CZ,Moravskoslezský kraj,1089,2020-05-05T08:30:00
+CZ,Hlavní město Praha,1767,2020-05-05T08:30:00
+CZ,Nezjištěno,65,2020-05-05T17:25:00
+CZ,Jihočeský kraj,173,2020-05-05T17:25:00
+CZ,Kraj Vysočina,177,2020-05-05T17:25:00
+CZ,Královéhradecký kraj,182,2020-05-05T17:25:00
+CZ,Liberecký kraj,195,2020-05-05T17:25:00
+CZ,Pardubický kraj,275,2020-05-05T17:25:00
+CZ,Zlínský kraj,329,2020-05-05T17:25:00
+CZ,Karlovarský kraj,410,2020-05-05T17:25:00
+CZ,Jihomoravský kraj,456,2020-05-05T17:25:00
+CZ,Ústecký kraj,497,2020-05-05T17:25:00
+CZ,Plzeňský kraj,612,2020-05-05T17:25:00
+CZ,Olomoucký kraj,702,2020-05-05T17:25:00
+CZ,Středočeský kraj,924,2020-05-05T17:25:00
+CZ,Moravskoslezský kraj,1100,2020-05-05T17:25:00
+CZ,Hlavní město Praha,1781,2020-05-05T17:25:00
+CZ,Nezjištěno,69,2020-05-06T00:30:00
+CZ,Jihočeský kraj,174,2020-05-06T00:30:00
+CZ,Kraj Vysočina,177,2020-05-06T00:30:00
+CZ,Královéhradecký kraj,182,2020-05-06T00:30:00
+CZ,Liberecký kraj,195,2020-05-06T00:30:00
+CZ,Pardubický kraj,275,2020-05-06T00:30:00
+CZ,Zlínský kraj,329,2020-05-06T00:30:00
+CZ,Karlovarský kraj,411,2020-05-06T00:30:00
+CZ,Jihomoravský kraj,456,2020-05-06T00:30:00
+CZ,Ústecký kraj,497,2020-05-06T00:30:00
+CZ,Plzeňský kraj,617,2020-05-06T00:30:00
+CZ,Olomoucký kraj,702,2020-05-06T00:30:00
+CZ,Středočeský kraj,924,2020-05-06T00:30:00
+CZ,Moravskoslezský kraj,1105,2020-05-06T00:30:00
+CZ,Hlavní město Praha,1783,2020-05-06T00:30:00
+CZ,Nezjištěno,70,2020-05-06T08:25:00
+CZ,Jihočeský kraj,174,2020-05-06T08:25:00
+CZ,Kraj Vysočina,177,2020-05-06T08:25:00
+CZ,Královéhradecký kraj,182,2020-05-06T08:25:00
+CZ,Liberecký kraj,195,2020-05-06T08:25:00
+CZ,Pardubický kraj,275,2020-05-06T08:25:00
+CZ,Zlínský kraj,329,2020-05-06T08:25:00
+CZ,Karlovarský kraj,412,2020-05-06T08:25:00
+CZ,Jihomoravský kraj,458,2020-05-06T08:25:00
+CZ,Ústecký kraj,497,2020-05-06T08:25:00
+CZ,Plzeňský kraj,617,2020-05-06T08:25:00
+CZ,Olomoucký kraj,702,2020-05-06T08:25:00
+CZ,Středočeský kraj,923,2020-05-06T08:25:00
+CZ,Moravskoslezský kraj,1105,2020-05-06T08:25:00
+CZ,Hlavní město Praha,1783,2020-05-06T08:25:00
+CZ,Nezjištěno,63,2020-05-06T17:30:00
+CZ,Jihočeský kraj,176,2020-05-06T17:30:00
+CZ,Kraj Vysočina,176,2020-05-06T17:30:00
+CZ,Královéhradecký kraj,184,2020-05-06T17:30:00
+CZ,Liberecký kraj,196,2020-05-06T17:30:00
+CZ,Pardubický kraj,275,2020-05-06T17:30:00
+CZ,Zlínský kraj,331,2020-05-06T17:30:00
+CZ,Karlovarský kraj,414,2020-05-06T17:30:00
+CZ,Jihomoravský kraj,461,2020-05-06T17:30:00
+CZ,Ústecký kraj,498,2020-05-06T17:30:00
+CZ,Plzeňský kraj,621,2020-05-06T17:30:00
+CZ,Olomoucký kraj,712,2020-05-06T17:30:00
+CZ,Středočeský kraj,931,2020-05-06T17:30:00
+CZ,Moravskoslezský kraj,1113,2020-05-06T17:30:00
+CZ,Hlavní město Praha,1782,2020-05-06T17:30:00
+CZ,Nezjištěno,77,2020-05-07T00:30:00
+CZ,Jihočeský kraj,176,2020-05-07T00:30:00
+CZ,Kraj Vysočina,176,2020-05-07T00:30:00
+CZ,Královéhradecký kraj,184,2020-05-07T00:30:00
+CZ,Liberecký kraj,196,2020-05-07T00:30:00
+CZ,Pardubický kraj,275,2020-05-07T00:30:00
+CZ,Zlínský kraj,331,2020-05-07T00:30:00
+CZ,Karlovarský kraj,414,2020-05-07T00:30:00
+CZ,Jihomoravský kraj,465,2020-05-07T00:30:00
+CZ,Ústecký kraj,498,2020-05-07T00:30:00
+CZ,Plzeňský kraj,623,2020-05-07T00:30:00
+CZ,Olomoucký kraj,712,2020-05-07T00:30:00
+CZ,Středočeský kraj,932,2020-05-07T00:30:00
+CZ,Moravskoslezský kraj,1126,2020-05-07T00:30:00
+CZ,Hlavní město Praha,1789,2020-05-07T00:30:00
+CZ,Nezjištěno,81,2020-05-07T08:30:00
+CZ,Jihočeský kraj,176,2020-05-07T08:30:00
+CZ,Kraj Vysočina,176,2020-05-07T08:30:00
+CZ,Královéhradecký kraj,184,2020-05-07T08:30:00
+CZ,Liberecký kraj,196,2020-05-07T08:30:00
+CZ,Pardubický kraj,275,2020-05-07T08:30:00
+CZ,Zlínský kraj,331,2020-05-07T08:30:00
+CZ,Karlovarský kraj,414,2020-05-07T08:30:00
+CZ,Jihomoravský kraj,466,2020-05-07T08:30:00
+CZ,Ústecký kraj,499,2020-05-07T08:30:00
+CZ,Plzeňský kraj,623,2020-05-07T08:30:00
+CZ,Olomoucký kraj,711,2020-05-07T08:30:00
+CZ,Středočeský kraj,932,2020-05-07T08:30:00
+CZ,Moravskoslezský kraj,1126,2020-05-07T08:30:00
+CZ,Hlavní město Praha,1789,2020-05-07T08:30:00
+CZ,Nezjištěno,66,2020-05-07T17:25:00
+CZ,Kraj Vysočina,176,2020-05-07T17:25:00
+CZ,Jihočeský kraj,179,2020-05-07T17:25:00
+CZ,Královéhradecký kraj,185,2020-05-07T17:25:00
+CZ,Liberecký kraj,196,2020-05-07T17:25:00
+CZ,Pardubický kraj,275,2020-05-07T17:25:00
+CZ,Zlínský kraj,331,2020-05-07T17:25:00
+CZ,Karlovarský kraj,420,2020-05-07T17:25:00
+CZ,Jihomoravský kraj,470,2020-05-07T17:25:00
+CZ,Ústecký kraj,500,2020-05-07T17:25:00
+CZ,Plzeňský kraj,624,2020-05-07T17:25:00
+CZ,Olomoucký kraj,714,2020-05-07T17:25:00
+CZ,Středočeský kraj,934,2020-05-07T17:25:00
+CZ,Moravskoslezský kraj,1133,2020-05-07T17:25:00
+CZ,Hlavní město Praha,1799,2020-05-07T17:25:00
+CZ,Nezjištěno,72,2020-05-08T00:30:00
+CZ,Kraj Vysočina,177,2020-05-08T00:30:00
+CZ,Jihočeský kraj,179,2020-05-08T00:30:00
+CZ,Královéhradecký kraj,185,2020-05-08T00:30:00
+CZ,Liberecký kraj,197,2020-05-08T00:30:00
+CZ,Pardubický kraj,277,2020-05-08T00:30:00
+CZ,Zlínský kraj,332,2020-05-08T00:30:00
+CZ,Karlovarský kraj,420,2020-05-08T00:30:00
+CZ,Jihomoravský kraj,471,2020-05-08T00:30:00
+CZ,Ústecký kraj,500,2020-05-08T00:30:00
+CZ,Plzeňský kraj,628,2020-05-08T00:30:00
+CZ,Olomoucký kraj,714,2020-05-08T00:30:00
+CZ,Středočeský kraj,935,2020-05-08T00:30:00
+CZ,Moravskoslezský kraj,1139,2020-05-08T00:30:00
+CZ,Hlavní město Praha,1805,2020-05-08T00:30:00
+CZ,Nezjištěno,74,2020-05-08T08:25:00
+CZ,Kraj Vysočina,177,2020-05-08T08:25:00
+CZ,Jihočeský kraj,179,2020-05-08T08:25:00
+CZ,Královéhradecký kraj,186,2020-05-08T08:25:00
+CZ,Liberecký kraj,197,2020-05-08T08:25:00
+CZ,Pardubický kraj,277,2020-05-08T08:25:00
+CZ,Zlínský kraj,332,2020-05-08T08:25:00
+CZ,Karlovarský kraj,420,2020-05-08T08:25:00
+CZ,Jihomoravský kraj,471,2020-05-08T08:25:00
+CZ,Ústecký kraj,500,2020-05-08T08:25:00
+CZ,Plzeňský kraj,628,2020-05-08T08:25:00
+CZ,Olomoucký kraj,714,2020-05-08T08:25:00
+CZ,Středočeský kraj,935,2020-05-08T08:25:00
+CZ,Moravskoslezský kraj,1139,2020-05-08T08:25:00
+CZ,Hlavní město Praha,1805,2020-05-08T08:25:00
+CZ,Nezjištěno,74,2020-05-08T17:30:00
+CZ,Kraj Vysočina,178,2020-05-08T17:30:00
+CZ,Jihočeský kraj,179,2020-05-08T17:30:00
+CZ,Královéhradecký kraj,187,2020-05-08T17:30:00
+CZ,Liberecký kraj,197,2020-05-08T17:30:00
+CZ,Pardubický kraj,277,2020-05-08T17:30:00
+CZ,Zlínský kraj,333,2020-05-08T17:30:00
+CZ,Karlovarský kraj,426,2020-05-08T17:30:00
+CZ,Jihomoravský kraj,476,2020-05-08T17:30:00
+CZ,Ústecký kraj,500,2020-05-08T17:30:00
+CZ,Plzeňský kraj,629,2020-05-08T17:30:00
+CZ,Olomoucký kraj,714,2020-05-08T17:30:00
+CZ,Středočeský kraj,937,2020-05-08T17:30:00
+CZ,Moravskoslezský kraj,1139,2020-05-08T17:30:00
+CZ,Hlavní město Praha,1819,2020-05-08T17:30:00
+CZ,Nezjištěno,74,2020-05-09T00:30:00
+CZ,Jihočeský kraj,179,2020-05-09T00:30:00
+CZ,Kraj Vysočina,179,2020-05-09T00:30:00
+CZ,Královéhradecký kraj,187,2020-05-09T00:30:00
+CZ,Liberecký kraj,197,2020-05-09T00:30:00
+CZ,Pardubický kraj,277,2020-05-09T00:30:00
+CZ,Zlínský kraj,333,2020-05-09T00:30:00
+CZ,Karlovarský kraj,426,2020-05-09T00:30:00
+CZ,Jihomoravský kraj,478,2020-05-09T00:30:00
+CZ,Ústecký kraj,502,2020-05-09T00:30:00
+CZ,Plzeňský kraj,629,2020-05-09T00:30:00
+CZ,Olomoucký kraj,714,2020-05-09T00:30:00
+CZ,Středočeský kraj,938,2020-05-09T00:30:00
+CZ,Moravskoslezský kraj,1140,2020-05-09T00:30:00
+CZ,Hlavní město Praha,1824,2020-05-09T00:30:00
+CZ,Nezjištěno,75,2020-05-09T08:30:00
+CZ,Jihočeský kraj,179,2020-05-09T08:30:00
+CZ,Kraj Vysočina,179,2020-05-09T08:30:00
+CZ,Královéhradecký kraj,187,2020-05-09T08:30:00
+CZ,Liberecký kraj,197,2020-05-09T08:30:00
+CZ,Pardubický kraj,277,2020-05-09T08:30:00
+CZ,Zlínský kraj,333,2020-05-09T08:30:00
+CZ,Karlovarský kraj,426,2020-05-09T08:30:00
+CZ,Jihomoravský kraj,478,2020-05-09T08:30:00
+CZ,Ústecký kraj,502,2020-05-09T08:30:00
+CZ,Plzeňský kraj,629,2020-05-09T08:30:00
+CZ,Olomoucký kraj,714,2020-05-09T08:30:00
+CZ,Středočeský kraj,938,2020-05-09T08:30:00
+CZ,Moravskoslezský kraj,1140,2020-05-09T08:30:00
+CZ,Hlavní město Praha,1824,2020-05-09T08:30:00
+CZ,Nezjištěno,65,2020-05-09T17:25:00
+CZ,Kraj Vysočina,178,2020-05-09T17:25:00
+CZ,Jihočeský kraj,179,2020-05-09T17:25:00
+CZ,Královéhradecký kraj,189,2020-05-09T17:25:00
+CZ,Liberecký kraj,197,2020-05-09T17:25:00
+CZ,Pardubický kraj,277,2020-05-09T17:25:00
+CZ,Zlínský kraj,334,2020-05-09T17:25:00
+CZ,Karlovarský kraj,427,2020-05-09T17:25:00
+CZ,Jihomoravský kraj,481,2020-05-09T17:25:00
+CZ,Ústecký kraj,502,2020-05-09T17:25:00
+CZ,Plzeňský kraj,629,2020-05-09T17:25:00
+CZ,Olomoucký kraj,714,2020-05-09T17:25:00
+CZ,Středočeský kraj,940,2020-05-09T17:25:00
+CZ,Moravskoslezský kraj,1144,2020-05-09T17:25:00
+CZ,Hlavní město Praha,1833,2020-05-09T17:25:00
+CZ,Nezjištěno,68,2020-05-10T00:30:00
+CZ,Kraj Vysočina,178,2020-05-10T00:30:00
+CZ,Jihočeský kraj,179,2020-05-10T00:30:00
+CZ,Královéhradecký kraj,189,2020-05-10T00:30:00
+CZ,Liberecký kraj,197,2020-05-10T00:30:00
+CZ,Pardubický kraj,277,2020-05-10T00:30:00
+CZ,Zlínský kraj,334,2020-05-10T00:30:00
+CZ,Karlovarský kraj,426,2020-05-10T00:30:00
+CZ,Jihomoravský kraj,481,2020-05-10T00:30:00
+CZ,Ústecký kraj,503,2020-05-10T00:30:00
+CZ,Plzeňský kraj,630,2020-05-10T00:30:00
+CZ,Olomoucký kraj,714,2020-05-10T00:30:00
+CZ,Středočeský kraj,941,2020-05-10T00:30:00
+CZ,Moravskoslezský kraj,1143,2020-05-10T00:30:00
+CZ,Hlavní město Praha,1835,2020-05-10T00:30:00
+CZ,Nezjištěno,66,2020-05-10T08:25:00
+CZ,Kraj Vysočina,178,2020-05-10T08:25:00
+CZ,Jihočeský kraj,179,2020-05-10T08:25:00
+CZ,Královéhradecký kraj,189,2020-05-10T08:25:00
+CZ,Liberecký kraj,197,2020-05-10T08:25:00
+CZ,Pardubický kraj,277,2020-05-10T08:25:00
+CZ,Zlínský kraj,334,2020-05-10T08:25:00
+CZ,Karlovarský kraj,426,2020-05-10T08:25:00
+CZ,Jihomoravský kraj,481,2020-05-10T08:25:00
+CZ,Ústecký kraj,503,2020-05-10T08:25:00
+CZ,Plzeňský kraj,630,2020-05-10T08:25:00
+CZ,Olomoucký kraj,714,2020-05-10T08:25:00
+CZ,Středočeský kraj,941,2020-05-10T08:25:00
+CZ,Moravskoslezský kraj,1143,2020-05-10T08:25:00
+CZ,Hlavní město Praha,1835,2020-05-10T08:25:00
+CZ,Nezjištěno,63,2020-05-10T17:30:00
+CZ,Kraj Vysočina,178,2020-05-10T17:30:00
+CZ,Jihočeský kraj,179,2020-05-10T17:30:00
+CZ,Královéhradecký kraj,189,2020-05-10T17:30:00
+CZ,Liberecký kraj,197,2020-05-10T17:30:00
+CZ,Pardubický kraj,277,2020-05-10T17:30:00
+CZ,Zlínský kraj,335,2020-05-10T17:30:00
+CZ,Karlovarský kraj,427,2020-05-10T17:30:00
+CZ,Jihomoravský kraj,486,2020-05-10T17:30:00
+CZ,Ústecký kraj,504,2020-05-10T17:30:00
+CZ,Plzeňský kraj,632,2020-05-10T17:30:00
+CZ,Olomoucký kraj,714,2020-05-10T17:30:00
+CZ,Středočeský kraj,944,2020-05-10T17:30:00
+CZ,Moravskoslezský kraj,1146,2020-05-10T17:30:00
+CZ,Hlavní město Praha,1835,2020-05-10T17:30:00
+CZ,Nezjištěno,70,2020-05-11T00:30:00
+CZ,Kraj Vysočina,178,2020-05-11T00:30:00
+CZ,Jihočeský kraj,179,2020-05-11T00:30:00
+CZ,Královéhradecký kraj,190,2020-05-11T00:30:00
+CZ,Liberecký kraj,197,2020-05-11T00:30:00
+CZ,Pardubický kraj,277,2020-05-11T00:30:00
+CZ,Zlínský kraj,335,2020-05-11T00:30:00
+CZ,Karlovarský kraj,427,2020-05-11T00:30:00
+CZ,Jihomoravský kraj,486,2020-05-11T00:30:00
+CZ,Ústecký kraj,504,2020-05-11T00:30:00
+CZ,Plzeňský kraj,632,2020-05-11T00:30:00
+CZ,Olomoucký kraj,714,2020-05-11T00:30:00
+CZ,Středočeský kraj,946,2020-05-11T00:30:00
+CZ,Moravskoslezský kraj,1146,2020-05-11T00:30:00
+CZ,Hlavní město Praha,1842,2020-05-11T00:30:00
+CZ,Nezjištěno,68,2020-05-11T08:30:00
+CZ,Kraj Vysočina,178,2020-05-11T08:30:00
+CZ,Jihočeský kraj,179,2020-05-11T08:30:00
+CZ,Královéhradecký kraj,190,2020-05-11T08:30:00
+CZ,Liberecký kraj,197,2020-05-11T08:30:00
+CZ,Pardubický kraj,277,2020-05-11T08:30:00
+CZ,Zlínský kraj,335,2020-05-11T08:30:00
+CZ,Karlovarský kraj,427,2020-05-11T08:30:00
+CZ,Jihomoravský kraj,486,2020-05-11T08:30:00
+CZ,Ústecký kraj,504,2020-05-11T08:30:00
+CZ,Plzeňský kraj,632,2020-05-11T08:30:00
+CZ,Olomoucký kraj,714,2020-05-11T08:30:00
+CZ,Středočeský kraj,946,2020-05-11T08:30:00
+CZ,Moravskoslezský kraj,1146,2020-05-11T08:30:00
+CZ,Hlavní město Praha,1842,2020-05-11T08:30:00
+CZ,Nezjištěno,63,2020-05-11T13:42:00
+CZ,Kraj Vysočina,178,2020-05-11T13:42:00
+CZ,Jihočeský kraj,179,2020-05-11T13:42:00
+CZ,Královéhradecký kraj,190,2020-05-11T13:42:00
+CZ,Liberecký kraj,197,2020-05-11T13:42:00
+CZ,Pardubický kraj,277,2020-05-11T13:42:00
+CZ,Zlínský kraj,336,2020-05-11T13:42:00
+CZ,Karlovarský kraj,431,2020-05-11T13:42:00
+CZ,Jihomoravský kraj,489,2020-05-11T13:42:00
+CZ,Ústecký kraj,505,2020-05-11T13:42:00
+CZ,Plzeňský kraj,633,2020-05-11T13:42:00
+CZ,Olomoucký kraj,714,2020-05-11T13:42:00
+CZ,Středočeský kraj,950,2020-05-11T13:42:00
+CZ,Moravskoslezský kraj,1148,2020-05-11T13:42:00
+CZ,Hlavní město Praha,1846,2020-05-11T13:42:00
+CZ,Nezjištěno,63,2020-05-11T14:00:00
+CZ,Kraj Vysočina,178,2020-05-11T14:00:00
+CZ,Jihočeský kraj,179,2020-05-11T14:00:00
+CZ,Královéhradecký kraj,190,2020-05-11T14:00:00
+CZ,Liberecký kraj,197,2020-05-11T14:00:00
+CZ,Pardubický kraj,277,2020-05-11T14:00:00
+CZ,Zlínský kraj,336,2020-05-11T14:00:00
+CZ,Karlovarský kraj,431,2020-05-11T14:00:00
+CZ,Jihomoravský kraj,489,2020-05-11T14:00:00
+CZ,Ústecký kraj,505,2020-05-11T14:00:00
+CZ,Plzeňský kraj,633,2020-05-11T14:00:00
+CZ,Olomoucký kraj,714,2020-05-11T14:00:00
+CZ,Středočeský kraj,950,2020-05-11T14:00:00
+CZ,Moravskoslezský kraj,1148,2020-05-11T14:00:00
+CZ,Hlavní město Praha,1846,2020-05-11T14:00:00
+CZ,Nezjištěno,70,2020-05-11T17:25:00
+CZ,Kraj Vysočina,178,2020-05-11T17:25:00
+CZ,Jihočeský kraj,179,2020-05-11T17:25:00
+CZ,Královéhradecký kraj,191,2020-05-11T17:25:00
+CZ,Liberecký kraj,197,2020-05-11T17:25:00
+CZ,Pardubický kraj,278,2020-05-11T17:25:00
+CZ,Zlínský kraj,336,2020-05-11T17:25:00
+CZ,Karlovarský kraj,430,2020-05-11T17:25:00
+CZ,Jihomoravský kraj,493,2020-05-11T17:25:00
+CZ,Ústecký kraj,505,2020-05-11T17:25:00
+CZ,Plzeňský kraj,633,2020-05-11T17:25:00
+CZ,Olomoucký kraj,717,2020-05-11T17:25:00
+CZ,Středočeský kraj,954,2020-05-11T17:25:00
+CZ,Moravskoslezský kraj,1149,2020-05-11T17:25:00
+CZ,Hlavní město Praha,1847,2020-05-11T17:25:00
+CZ,Nezjištěno,84,2020-05-12T00:30:00
+CZ,Kraj Vysočina,178,2020-05-12T00:30:00
+CZ,Jihočeský kraj,179,2020-05-12T00:30:00
+CZ,Královéhradecký kraj,191,2020-05-12T00:30:00
+CZ,Liberecký kraj,197,2020-05-12T00:30:00
+CZ,Pardubický kraj,279,2020-05-12T00:30:00
+CZ,Zlínský kraj,336,2020-05-12T00:30:00
+CZ,Karlovarský kraj,430,2020-05-12T00:30:00
+CZ,Jihomoravský kraj,493,2020-05-12T00:30:00
+CZ,Ústecký kraj,506,2020-05-12T00:30:00
+CZ,Plzeňský kraj,633,2020-05-12T00:30:00
+CZ,Olomoucký kraj,720,2020-05-12T00:30:00
+CZ,Středočeský kraj,954,2020-05-12T00:30:00
+CZ,Moravskoslezský kraj,1149,2020-05-12T00:30:00
+CZ,Hlavní město Praha,1847,2020-05-12T00:30:00
+CZ,Nezjištěno,85,2020-05-12T08:25:00
+CZ,Kraj Vysočina,178,2020-05-12T08:25:00
+CZ,Jihočeský kraj,179,2020-05-12T08:25:00
+CZ,Královéhradecký kraj,191,2020-05-12T08:25:00
+CZ,Liberecký kraj,197,2020-05-12T08:25:00
+CZ,Pardubický kraj,279,2020-05-12T08:25:00
+CZ,Zlínský kraj,336,2020-05-12T08:25:00
+CZ,Karlovarský kraj,430,2020-05-12T08:25:00
+CZ,Jihomoravský kraj,493,2020-05-12T08:25:00
+CZ,Ústecký kraj,506,2020-05-12T08:25:00
+CZ,Plzeňský kraj,634,2020-05-12T08:25:00
+CZ,Olomoucký kraj,719,2020-05-12T08:25:00
+CZ,Středočeský kraj,954,2020-05-12T08:25:00
+CZ,Moravskoslezský kraj,1149,2020-05-12T08:25:00
+CZ,Hlavní město Praha,1847,2020-05-12T08:25:00
+CZ,Nezjištěno,76,2020-05-12T17:30:00
+CZ,Kraj Vysočina,178,2020-05-12T17:30:00
+CZ,Jihočeský kraj,182,2020-05-12T17:30:00
+CZ,Královéhradecký kraj,191,2020-05-12T17:30:00
+CZ,Liberecký kraj,198,2020-05-12T17:30:00
+CZ,Pardubický kraj,279,2020-05-12T17:30:00
+CZ,Zlínský kraj,338,2020-05-12T17:30:00
+CZ,Karlovarský kraj,431,2020-05-12T17:30:00
+CZ,Jihomoravský kraj,494,2020-05-12T17:30:00
+CZ,Ústecký kraj,507,2020-05-12T17:30:00
+CZ,Plzeňský kraj,635,2020-05-12T17:30:00
+CZ,Olomoucký kraj,724,2020-05-12T17:30:00
+CZ,Středočeský kraj,957,2020-05-12T17:30:00
+CZ,Moravskoslezský kraj,1154,2020-05-12T17:30:00
+CZ,Hlavní město Praha,1854,2020-05-12T17:30:00
+CZ,Nezjištěno,85,2020-05-13T00:30:00
+CZ,Kraj Vysočina,178,2020-05-13T00:30:00
+CZ,Jihočeský kraj,182,2020-05-13T00:30:00
+CZ,Královéhradecký kraj,191,2020-05-13T00:30:00
+CZ,Liberecký kraj,198,2020-05-13T00:30:00
+CZ,Pardubický kraj,279,2020-05-13T00:30:00
+CZ,Zlínský kraj,338,2020-05-13T00:30:00
+CZ,Karlovarský kraj,431,2020-05-13T00:30:00
+CZ,Jihomoravský kraj,494,2020-05-13T00:30:00
+CZ,Ústecký kraj,510,2020-05-13T00:30:00
+CZ,Plzeňský kraj,635,2020-05-13T00:30:00
+CZ,Olomoucký kraj,724,2020-05-13T00:30:00
+CZ,Středočeský kraj,959,2020-05-13T00:30:00
+CZ,Moravskoslezský kraj,1156,2020-05-13T00:30:00
+CZ,Hlavní město Praha,1861,2020-05-13T00:30:00
+CZ,Nezjištěno,49,2020-05-13T09:00:00
+CZ,Kraj Vysočina,178,2020-05-13T09:00:00
+CZ,Jihočeský kraj,181,2020-05-13T09:00:00
+CZ,Královéhradecký kraj,192,2020-05-13T09:00:00
+CZ,Liberecký kraj,199,2020-05-13T09:00:00
+CZ,Pardubický kraj,280,2020-05-13T09:00:00
+CZ,Zlínský kraj,342,2020-05-13T09:00:00
+CZ,Karlovarský kraj,435,2020-05-13T09:00:00
+CZ,Jihomoravský kraj,494,2020-05-13T09:00:00
+CZ,Ústecký kraj,511,2020-05-13T09:00:00
+CZ,Plzeňský kraj,641,2020-05-13T09:00:00
+CZ,Olomoucký kraj,721,2020-05-13T09:00:00
+CZ,Středočeský kraj,963,2020-05-13T09:00:00
+CZ,Moravskoslezský kraj,1150,2020-05-13T09:00:00
+CZ,Hlavní město Praha,1887,2020-05-13T09:00:00
+CZ,Nezjištěno,47,2020-05-13T17:30:00
+CZ,Kraj Vysočina,179,2020-05-13T17:30:00
+CZ,Jihočeský kraj,181,2020-05-13T17:30:00
+CZ,Královéhradecký kraj,193,2020-05-13T17:30:00
+CZ,Liberecký kraj,198,2020-05-13T17:30:00
+CZ,Pardubický kraj,280,2020-05-13T17:30:00
+CZ,Zlínský kraj,343,2020-05-13T17:30:00
+CZ,Karlovarský kraj,435,2020-05-13T17:30:00
+CZ,Jihomoravský kraj,496,2020-05-13T17:30:00
+CZ,Ústecký kraj,510,2020-05-13T17:30:00
+CZ,Plzeňský kraj,641,2020-05-13T17:30:00
+CZ,Olomoucký kraj,723,2020-05-13T17:30:00
+CZ,Středočeský kraj,970,2020-05-13T17:30:00
+CZ,Moravskoslezský kraj,1153,2020-05-13T17:30:00
+CZ,Hlavní město Praha,1891,2020-05-13T17:30:00
