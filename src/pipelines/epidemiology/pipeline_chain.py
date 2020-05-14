@@ -30,7 +30,7 @@ _wiki_template_path: str = "Template:2019–20_coronavirus_pandemic_data"
 
 class EpidemiologyPipelineChain(PipelineChain):
 
-    schema: Dict[str, Any] = {
+    schema: Dict[str, type] = {
         "date": str,
         "key": str,
         "confirmed": Int64Dtype(),
@@ -101,7 +101,7 @@ class EpidemiologyPipelineChain(PipelineChain):
         (DXYPipeline(), {"parse_opts": {"country_name": "China"}}),
         # Data sources for DE level 2
         (Covid19GermanyPipeline(), {}),
-        # Data sources for ES levels 1 and 2
+        # Data sources for ES levels 1 + 2
         # (DatadistaPipeline(), {}),
         (ISCIIIPipeline(), {}),
         # Data sources for FR level 2
