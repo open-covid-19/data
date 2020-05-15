@@ -18,6 +18,7 @@ from .id_catchmeup import CatchmeupPipeline
 from .it_authority import PcmDpcL1Pipeline, PcmDpcL2Pipeline
 from .jp_2019_ncov_japan import Jp2019NcovJapanByDate
 from .mx_mexico_covid_19 import MexicoCovid19Pipeline
+from .pt_covid19pt import Covid19PtPipeline
 from .us_nyt_covid import NytCovidL2Pipeline, NytCovidL3Pipeline
 from .xx_covid19_eu_data import Covid19EuDataPipeline
 from .xx_dxy import DXYPipeline
@@ -106,6 +107,8 @@ class EpidemiologyPipelineChain(PipelineChain):
         ),
         # Data sources for CN level 2
         (DXYPipeline(), {"parse_opts": {"country_name": "China"}}),
+        # Data sources for CZ level 2
+        (Covid19EuDataPipeline("CZ"), {}),
         # Data sources for DE level 2
         (Covid19GermanyPipeline(), {}),
         # Data sources for ES levels 1 + 2
@@ -129,6 +132,9 @@ class EpidemiologyPipelineChain(PipelineChain):
             WikipediaPipeline("{}/2020_coronavirus_pandemic_in_India".format(_wiki_base_url)),
             {"parse_opts": {"date_format": "%b-%d", "country": "IN", "skiprows": 1}},
         ),
+        # Data sources for IT level 2
+        (PcmDpcL1Pipeline(), {}),
+        (PcmDpcL2Pipeline(), {}),
         # Data sources for JP level 2
         (
             WikipediaPipeline(
@@ -159,7 +165,7 @@ class EpidemiologyPipelineChain(PipelineChain):
         # Data sources for MX level 2
         (MexicoCovid19Pipeline(), {}),
         # Data sources for NO level 2
-        (Covid19EuDataPipeline("NO"), {"parse_opts": {"subregion_column": "nuts_3"}},),
+        (Covid19EuDataPipeline("NO"), {}),
         # Data sources for PE level 2
         (
             WikipediaPipeline(
@@ -189,7 +195,7 @@ class EpidemiologyPipelineChain(PipelineChain):
             },
         ),
         # Data sources for PL level 2
-        (Covid19EuDataPipeline("PL"), {"parse_opts": {"subregion_column": "nuts_2"}},),
+        (Covid19EuDataPipeline("PL"), {}),
         # Data sources for RU level 2
         (
             WikipediaPipeline(
@@ -198,7 +204,7 @@ class EpidemiologyPipelineChain(PipelineChain):
             {"parse_opts": {"date_format": "%d %b", "country": "RU", "skiprows": 1}},
         ),
         # Data sources for SE level 2
-        (Covid19EuDataPipeline("SE"), {},),
+        (Covid19EuDataPipeline("SE"), {}),
         # Data sources for US levels 2 + 3
         (NytCovidL2Pipeline(), {}),
         (NytCovidL3Pipeline(), {}),

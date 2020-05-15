@@ -47,7 +47,7 @@ def grouped_transform(
     group = data.groupby(keys[:-1])
     skip = [] if skip is None else skip
     prefix = ("", "") if prefix is None else prefix
-    value_columns = [column for column in data.columns if column not in keys]
+    value_columns = [column for column in data.columns if column not in keys + skip]
     data = data.dropna(subset=value_columns, how="all").copy()
     for column in value_columns:
         if column in skip:

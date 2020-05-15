@@ -1004,18 +1004,27 @@ SB,Q685,SB,Solomon Islands,,,,,SB,SLB,0
 SC,Q1042,SC,Seychelles,,,,,SC,SYC,0
 SD,Q1049,SD,Sudan,,,,,SD,SDN,0
 SE,Q34,SE,Sweden,,,,,SE,SWE,0
-SE_10,,SE,Sweden,10,Stockholm,,,SE,SWE,1
-SE_11,,SE,Sweden,11,Värmland,,,SE,SWE,1
-SE_12,,SE,Sweden,12,Dalarna,,,SE,SWE,1
-SE_13,,SE,Sweden,13,Gävleborg,,,SE,SWE,1
-SE_14,,SE,Sweden,14,Gotland,,,SE,SWE,1
-SE_21,,SE,Sweden,21,Västernorrland,,,SE,SWE,1
-SE_22,,SE,Sweden,22,Jämtland Härjedalen,,,SE,SWE,1
-SE_23,,SE,Sweden,23,Östergötland,,,SE,SWE,1
-SE_24,,SE,Sweden,24,Skåne,,,SE,SWE,1
-SE_25,,SE,Sweden,25,Västmanland,,,SE,SWE,1
-SE_31,,SE,Sweden,31,Västerbotten,,,SE,SWE,1
-SE_32,,SE,Sweden,32,Norrbotten,,,SE,SWE,1
+SE_110,Q104231,SE,Sweden,110,Stockholm,,,SE,SWE,1
+SE_121,Q104926,SE,Sweden,121,Uppsala,,,SE,SWE,1
+SE_122,Q106915,SE,Sweden,122,Södermanland,,,SE,SWE,1
+SE_123,Q104940,SE,Sweden,123,Östergötland,,,SE,SWE,1
+SE_124,Q104257,SE,Sweden,124,Örebro,,,SE,SWE,1
+SE_125,Q105075,SE,Sweden,125,Västmanland,,,SE,SWE,1
+SE_211,Q103672,SE,Sweden,211,Jönköping,,,SE,SWE,1
+SE_212,Q104746,SE,Sweden,212,Kronoberg,,,SE,SWE,1
+SE_213,Q103707,SE,Sweden,213,Kalmar,,,SE,SWE,1
+SE_214,Q103738,SE,Sweden,214,Gotland,,,SE,SWE,1
+SE_221,Q102377,SE,Sweden,221,Blekinge,,,SE,SWE,1
+SE_224,Q103659,SE,Sweden,224,Skåne,,,SE,SWE,1
+SE_231,Q103691,SE,Sweden,231,Halland,,,SE,SWE,1
+SE_232,Q103093,SE,Sweden,232,Västra Götaland,,,SE,SWE,1
+SE_311,Q106789,SE,Sweden,311,Värmland,,,SE,SWE,1
+SE_312,Q103732,SE,Sweden,312,Dalarna,,,SE,SWE,1
+SE_313,Q103699,SE,Sweden,313,Gävleborg,,,SE,SWE,1
+SE_321,Q104891,SE,Sweden,321,Västernorrland,,,SE,SWE,1
+SE_322,Q103679,SE,Sweden,322,Jämtland Härjedalen,,,SE,SWE,1
+SE_331,Q104877,SE,Sweden,331,Västerbotten,,,SE,SWE,1
+SE_332,Q103686,SE,Sweden,332,Norrbotten,,,SE,SWE,1
 SG,Q334,SG,Singapore,,,,,SG,SGP,0
 SH,Q34497,SH,Saint Helena,,,,,SH,SHN,0
 SI,Q215,SI,Slovenia,,,,,SI,SVN,0

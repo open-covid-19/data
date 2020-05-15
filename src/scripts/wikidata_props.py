@@ -85,10 +85,14 @@ def process_entity(props: Dict[str, str], record: pandas.Series):
     return key + "," + ",".join("{%s}" % col for col in all_props_keys(props)).format(**data)
 
 
+# Read file from disk
+wikidata = read_file(ROOT / "src" / "data" / "knowledge_graph.csv").set_index("key")["wikidata"]
+
 # Parse arguments from the command line
 argparser = ArgumentParser()
 argparser.add_argument("props", type=str)
-argparser.add_argument("--output-file", type=str, default=sys.stdout)
+argparser.add_argument("--filter", type=str)
+argparser.add_argument("--output-file", type=str)
 args = argparser.parse_args()
 
 # Process the properties provided
@@ -97,19 +101,27 @@ for prop in args.props.split(","):
     k, v = map(lambda x: x.replace("\n", "").strip(), prop.split(":", 2))
     props[k] = v
 
+# Process list and filter if necessary
+if args.filter:
+    print("Filtering using expr:", args.filter)
+    expr = re.compile(args.filter, re.IGNORECASE)
+    filter_func = lambda key: expr.match(key) is not None
+    wikidata = wikidata[map(filter_func, wikidata.index)]
+
 # Load metadata and setup parallel processing
-wikidata = read_file(ROOT / "src" / "data" / "knowledge_graph.csv")
-iter_values = tqdm(wikidata.set_index("key")["wikidata"].iteritems(), total=len(wikidata))
+iter_values = tqdm(wikidata.iteritems(), total=len(wikidata))
 iter_func = partial(process_entity, props)
 
-with open(args.output_file, "w") as fd:
-    fd.write("key," + ",".join(all_props_keys(props)) + "\n")
-    for idx, res in enumerate(Pool(cpu_count() // 2).imap_unordered(iter_func, iter_values)):
-        if res:
-            fd.write(res + "\n")
-            if idx % 32:
-                fd.flush()
+fd = open(args.output_file, "w") if args.output_file else sys.stdout
+fd.write("key," + ",".join(all_props_keys(props)) + "\n")
+for idx, res in enumerate(Pool(cpu_count() // 2).imap_unordered(iter_func, iter_values)):
+    if res:
+        fd.write(res + "\n")
+        if idx % 32:
+            fd.flush()
 
+if fd is not sys.stdout:
+    fd.close()
 """
 Sample usage:
 python scripts/wikidata_props.py "`

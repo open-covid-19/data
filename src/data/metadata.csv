@@ -907,7 +907,7 @@ PT_15,PT,Portugal,15,Algarve,,,,0
 PT_16,PT,Portugal,16,Centro,,,,0
 PT_17,PT,Portugal,17,Lisbon Metropolitan Area,,,lvt,0
 PT_18,PT,Portugal,18,Alentejo,,,,0
-PT_20,PT,Portugal,20,Azores,,,açores,0
+PT_20,PT,Portugal,20,Azores,,,acores,0
 PT_30,PT,Portugal,30,Madeira,,,,0
 PW,PW,Palau,,,,,,-1
 PY,PY,Paraguay,,,,,,-1
@@ -1004,27 +1004,27 @@ SB,SB,Solomon Islands,,,,,,-1
 SC,SC,Seychelles,,,,,,-1
 SD,SD,Sudan,,,,,,-1
 SE,SE,Sweden,,,,,,-1
-SE_10,SE,Sweden,10,Stockholm,,,,0
-SE_21,SE,Sweden,21,Uppsala,,,,0
-SE_22,SE,Sweden,22,Södermanland,,,Sörmland,0
-SE_23,SE,Sweden,23,Östergötland,,,,0
-SE_24,SE,Sweden,24,Örebro,,,,0
-SE_25,SE,Sweden,25,Västmanland,,,,0
-SE_11,SE,Sweden,11,Jönköping,,,,0
-SE_12,SE,Sweden,12,Kronoberg,,,,0
-SE_13,SE,Sweden,13,Kalmar,,,,0
-SE_14,SE,Sweden,14,Gotland,,,,0
-SE_21,SE,Sweden,21,Blekinge,,,,0
-SE_24,SE,Sweden,24,Skåne,,,,0
-SE_31,SE,Sweden,31,Halland,,,,0
-SE_32,SE,Sweden,32,Västra Götaland,,,,0
-SE_11,SE,Sweden,11,Värmland,,,,0
-SE_12,SE,Sweden,12,Dalarna,,,,0
-SE_13,SE,Sweden,13,Gävleborg,,,,0
-SE_21,SE,Sweden,21,Västernorrland,,,,0
-SE_22,SE,Sweden,22,Jämtland Härjedalen,,,,0
-SE_31,SE,Sweden,31,Västerbotten,,,,0
-SE_32,SE,Sweden,32,Norrbotten,,,,0
+SE_110,SE,Sweden,110,Stockholm,,,,0
+SE_121,SE,Sweden,121,Uppsala,,,,0
+SE_122,SE,Sweden,122,Södermanland,,,Sörmland,0
+SE_123,SE,Sweden,123,Östergötland,,,,0
+SE_124,SE,Sweden,124,Örebro,,,,0
+SE_125,SE,Sweden,125,Västmanland,,,,0
+SE_211,SE,Sweden,211,Jönköping,,,,0
+SE_212,SE,Sweden,212,Kronoberg,,,,0
+SE_213,SE,Sweden,213,Kalmar,,,,0
+SE_214,SE,Sweden,214,Gotland,,,,0
+SE_221,SE,Sweden,221,Blekinge,,,,0
+SE_224,SE,Sweden,224,Skåne,,,,0
+SE_231,SE,Sweden,231,Halland,,,,0
+SE_232,SE,Sweden,232,Västra Götaland,,,,0
+SE_311,SE,Sweden,311,Värmland,,,,0
+SE_312,SE,Sweden,312,Dalarna,,,,0
+SE_313,SE,Sweden,313,Gävleborg,,,,0
+SE_321,SE,Sweden,321,Västernorrland,,,,0
+SE_322,SE,Sweden,322,Jämtland Härjedalen,,
+SE_331,SE,Sweden,331,Västerbotten,,,,0
+SE_332,SE,Sweden,332,Norrbotten,,,,0
 SG,SG,Singapore,,,,,,-1
 SH,SH,Saint Helena,,,,,,-1
 SI,SI,Slovenia,,,,,,-1
