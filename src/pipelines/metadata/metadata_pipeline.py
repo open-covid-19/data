@@ -24,7 +24,6 @@ class MetadataPipeline(DefaultPipeline):
         data = merge(
             data,
             aux["country_codes"].rename(columns={"key": "country_code"}),
-            how="left",
             on="country_code",
         )
 
