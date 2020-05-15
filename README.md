@@ -82,9 +82,9 @@ Information related to the population demographics for each region:
 | Name | Description | Example |
 | ---- | ----------- | ------- |
 | **key** | [string] Unique string identifying the region | CN_HB |
-| **population** | [string] Total count of humans living in the region | 58500000 |
-| **life_expectancy** | [integer] Average years that an individual is expected to live | China |
-| **human_development_index** | [double][0-1] Composite index of life expectancy, education, and per capita income indicators | HB |
+| **population** | [integer] Total count of humans living in the region | 58500000 |
+| **life_expectancy** | [double] Average years that an individual is expected to live | 70.944 |
+| **human_development_index** | [double][0-1] Composite index of life expectancy, education, and per capita income indicators | 0.773 |
 
 ### Economy
 Information related to the economic development for each region:

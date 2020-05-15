@@ -100,7 +100,12 @@ class DefaultPipeline(DataPipeline):
     Data pipeline which provides a default implementation for:
     * Fetch: downloads raw data from a list of URLs into ../snapshots folder. See [lib.net].
     * Merge: outputs a key from the auxiliary dataset after performing best-effort matching.
-    * TODO: finish this list
+    * Filter: applies `filter_func` to each record and keeps the rows for which the result is `true`
+    * Patch: applies the `patch` dataframe to substitute the values in the existing dataframe
+
+    The merge function provided here is crucial for many pipelines that use it. The easiest/fastest
+    way to merge records is by providing the exact `key` that will match an existing record in the
+    [data/metadata.csv] file.
     """
 
     data_urls: List[Union[Path, str]] = []

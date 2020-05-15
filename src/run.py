@@ -6,9 +6,7 @@ import inspect
 from pstats import Stats
 from pathlib import Path
 from lib.pipeline import PipelineChain
-from lib.io import read_file, fuzzy_text
 from lib.utils import ROOT
-import pipelines
 
 # Ensure that there is an output folder to put the data in
 (ROOT / "output").mkdir(exist_ok=True)
