@@ -1,2 +1,3 @@
 *.json
+_*.csv
 data*.csv

@@ -19,5 +19,8 @@ class RExamplePipeline(ExternalProcessPipeline):
     command: str = "RScript"
     """ Prefer to invoke using the RScript binary to avoid executable permission issues """
 
-    arguments: List[str] = ["./R_example_pipeline.R"]
-    """ Optionally, add a list of arguments to be passed to your script """
+    arguments: List[str] = ["./pipelines/_template/R_example_pipeline.R"]
+    """
+    This is where the location of the R script is defined **relative to the root `src` folder**.
+    Optionally, add a list of arguments to be passed to your script
+    """

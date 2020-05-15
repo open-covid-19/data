@@ -218,7 +218,7 @@ class ExternalProcessPipeline(DefaultPipeline):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
         process = subprocess.Popen(
             [self.command] + self.arguments + sources,
-            cwd=Path(ROOT / "src" / "pipelines" / "_template"),
+            cwd=ROOT / "src",
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
         )
@@ -234,8 +234,15 @@ class ExternalProcessPipeline(DefaultPipeline):
         if not stdout:
             raise RuntimeError("Output is empty, did you write the CSV to STDOUT?")
 
+        # Decode stdout as a string
+        output = stdout.decode("UTF-8")
+
+        # Verify that stdout isn't just reporting an error (why is this not written to stderr?)
+        if output.startswith("Fatal error:"):
+            raise RuntimeError(output.strip())
+
         # Finally, read the output as a CSV
-        return read_csv(StringIO(stdout.decode("UTF-8")))
+        return read_csv(StringIO(output))
 
 
 class PipelineChain:
