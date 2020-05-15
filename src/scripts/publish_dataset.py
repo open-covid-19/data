@@ -11,13 +11,6 @@ from lib.io import read_file
 from lib.utils import ROOT
 
 
-# Parse arguments from the command line
-# argparser = ArgumentParser()
-# argparser.add_argument("country_code", type=str)
-# argparser.add_argument("--nuts-level", type=int, default=2)
-# argparser.add_argument("--dc-api-key", type=str, default=os.environ["DATACOMMONS_API_KEY"])
-# args = argparser.parse_args()
-
 # Create the legacy data.csv file
 data = read_file(ROOT / "output" / "metadata.csv")
 data = data.merge(read_file(ROOT / "output" / "geography.csv"))
@@ -45,4 +38,4 @@ data.to_json(ROOT / "output" / "data.json", orient="records")
 for csv_file in (ROOT / "output").glob("*.csv"):
     json_name = csv_file.name.replace("csv", "json")
     data = read_file(csv_file)
-    data.to_json(ROOT / "output" / json_name, orient="records")
+    data.to_json(ROOT / "output" / json_name, orient="values")
