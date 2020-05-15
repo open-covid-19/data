@@ -25,6 +25,7 @@ class MetadataPipeline(DefaultPipeline):
             data,
             aux["country_codes"].rename(columns={"key": "country_code"}),
             on="country_code",
+            how='left',
         )
 
         # Determine the level of aggregation for each datapoint

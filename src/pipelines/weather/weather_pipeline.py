@@ -126,8 +126,8 @@ class WeatherPipeline(DefaultPipeline):
         stations = stations.reset_index()
 
         # Get all the POI from metadata and go through each key
-        geo = aux["wikidata"][["key", "latitude", "longitude"]]
-        metadata = geo.merge(aux["metadata"][["key"]]).dropna()
+        metadata = aux["metadata"][["key"]]
+        metadata = metadata.merge(aux["wikidata"][["key", "latitude", "longitude"]]).dropna()
 
         # Use a cache to avoid having to query the same station multiple times
         station_cache: Dict[str, DataFrame] = {}
