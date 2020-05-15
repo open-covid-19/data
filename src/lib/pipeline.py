@@ -1,6 +1,9 @@
 import re
-import traceback
+import sys
 import warnings
+import traceback
+import subprocess
+from io import StringIO
 from pathlib import Path
 from functools import partial
 from multiprocessing import cpu_count
@@ -8,7 +11,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import requests
 from multiprocess import Pool
-from pandas import DataFrame, isnull, isna
+from pandas import DataFrame, isnull, isna, read_csv
 from tqdm import tqdm
 
 from .anomaly import detect_correct_schema, detect_null_columns, detect_zero_columns
@@ -187,7 +190,7 @@ class DefaultPipeline(DataPipeline):
         """ Reads a raw file input path into a DataFrame """
         return [read_file(file_path, **read_opts) for file_path in file_paths]
 
-    def parse(self, sources: List[str], aux: DataFrame, **parse_opts) -> DataFrame:
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
         return self.parse_dataframes(self._read(sources), aux, **parse_opts)
 
     def filter(
@@ -205,6 +208,34 @@ class DefaultPipeline(DataPipeline):
     ) -> DataFrame:
         """ Parse the inputs into a single output dataframe """
         raise NotImplementedError()
+
+
+class ExternalProcessPipeline(DefaultPipeline):
+
+    command: str = ""
+    arguments: List[str] = []
+
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
+        process = subprocess.Popen(
+            [self.command] + self.arguments + sources,
+            cwd=Path(ROOT / "src" / "pipelines" / "_template"),
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+
+        # Wait for process to finish and get out and err streams
+        stdout, stderr = process.communicate()
+
+        # Write error to our stderr output
+        if not stderr:
+            print(stderr.decode("UTF-8"), file=sys.stderr)
+
+        # Verify that the stdout output is not empty
+        if not stdout:
+            raise RuntimeError("Output is empty, did you write the CSV to STDOUT?")
+
+        # Finally, read the output as a CSV
+        return read_csv(StringIO(stdout.decode("UTF-8")))
 
 
 class PipelineChain:

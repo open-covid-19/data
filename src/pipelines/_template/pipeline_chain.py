@@ -2,6 +2,7 @@ from typing import Any, Dict, List, Tuple
 from pandas import Int64Dtype
 from lib.pipeline import DataPipeline, PipelineChain
 from .srcname_pipeline import SourceNamePipeline
+from .R_example_pipeline import RExamplePipeline
 
 
 class TemplatePipelineChain(PipelineChain):
@@ -20,6 +21,7 @@ class TemplatePipelineChain(PipelineChain):
     """ Defines the schema of the output table, dtypes str, float and Int64 are supported """
 
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
-        (SourceNamePipeline(), {"parse_opts": ..., "merge_opts": ..., "filter_func": ...},)
+        (SourceNamePipeline(), {"parse_opts": {}, "merge_opts": {}, "filter_func": None},),
+        (RExamplePipeline(), {}),
     ]
     """ Defines the pipelines to be run in order to produce the combined, full output """
