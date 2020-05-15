@@ -244,36 +244,38 @@ from the relevant authorities, like a country's ministry of health.
 
 | Data | Source | License |
 | ---- | ------ | ------- |
-| Metadata | [Wikipedia](https://wikipedia.org) | CC0 |
-| Weather | [NOAA](https://www.ncei.noaa.gov) |  |
-| Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> |  |
-| Government response data | [Oxford COVID-19 government response tracker][18] |  |
-| Country-level data | Daily reports from the [ECDC portal](https://www.ecdc.europa.eu) |  |
-| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) |  |
-| Australia | <https://covid-19-au.github.io> |  |
-| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) |  |
-| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> |  |
-| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) |  |
-| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) |  |
-| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) |  |
-| Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) |  |
-| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> |  |
-| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> |  |
-| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) |  |
-| Indonesia | <https://catchmeup.id/covid-19> |  |
-| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) |  |
-| Japan | <https://github.com/swsoyee/2019-ncov-japan> |  |
-| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) |  |
-| Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> |  |
-| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |  |
-| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) |  |
-| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) |  |
-| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |  |
-| Portugal | <https://github.com/dssg-pt/covid19pt-data> |  |
-| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) |  |
-| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) |  |
-| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) |  |
-| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) |  |
+| Metadata | [Wikipedia](https://wikipedia.org) | CC BY-SA |
+| Weather | [NOAA](https://www.ncei.noaa.gov) | Custom (unrestricted for non-commercial use) |
+| Google Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> | N/A |
+| Government response data | [Oxford COVID-19 government response tracker][18] | CC BY 4.0 |
+| Country-level data | [ECDC](https://www.ecdc.europa.eu) | Custom (attribution required for non-commercial use) |
+| Country-level data | [Our World in Data](https://ourworldindata.org) | CC BY 4.0 |
+| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) | CC BY-SA |
+| Australia | <https://covid-19-au.com/> | Various (unrestricted for non-commercial use) |
+| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) | CC BY-SA |
+| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> | N/A (written consent) |
+| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) | Public Domain |
+| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) | CC BY-SA |
+| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) | MIT |
+| Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) | Public Domain |
+| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> | GPLv3 |
+| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | MIT |
+| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | CC BY-SA |
+| Indonesia | <https://catchmeup.id/covid-19> | N/A |
+| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | CC BY 4.0 |
+| Japan | <https://github.com/swsoyee/2019-ncov-japan> | MIT |
+| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | CC BY-SA |
+| Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> | MIT |
+| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
+| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | CC BY-SA |
+| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) | CC BY-SA |
+| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
+| Portugal | <https://github.com/dssg-pt/covid19pt-data> | GPLv3 |
+| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) | CC BY-SA |
+| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) | CC BY-SA |
+| Spain | [Government Authority](https://covid19.isciii.es) | Public Domain |
+| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) | AGPLv3 |
+| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
 | Switzerland | [OpenZH data](https://open.zh.ch) | CC 4.0 |
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | The Unlicense |
 | USA | [NYT COVID Dataset](https://covidtracking.com) | CC-like |

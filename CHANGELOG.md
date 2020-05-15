@@ -7,7 +7,8 @@ Preview of V2 finalized:
 * Implemented new data ingestion pipeline
 * Changed column names to snake_case to improve readability
 * Added capability for 3 levels of region hierarchy (country, state/province and county)
-* Break down tables into: metadata, epidemiology, demographics, geography, economy, stringency
+* Broke down tables into: metadata, epidemiology, demographics, geography, economy, stringency
 * Matched every region with a wikidata ID
 * Added tested and recovered data to epidemiology table
 * Added county-level data for US and GB
+* Now tracking both new and cumulative cases
