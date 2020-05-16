@@ -293,9 +293,17 @@ class PipelineChain:
         return data[output_columns].sort_values(output_columns)
 
     @staticmethod
-    def _run_wrapper(run_func: Callable[[], DataFrame]) -> DataFrame:
+    def _run_wrapper(
+        pipeline_aux_kwargs: Tuple[DataPipeline, Dict[str, DataFrame], Dict[str, Any]]
+    ) -> Optional[DataFrame]:
         """ Workaround necessary for multiprocess pool, which does not accept lambda functions """
-        return run_func()
+        pipeline, aux, opts = pipeline_aux_kwargs
+        try:
+            return pipeline.run(aux, **opts)
+        except Exception as exc:
+            warnings.warn("Error running pipeline {}".format(pipeline.__class__.__name__))
+            traceback.print_exc()
+        return None
 
     def run(
         self, process_count: int = cpu_count(), group_keys: List[str] = None, **pipeline_opts
@@ -320,11 +328,7 @@ class PipelineChain:
         func_iter = [
             # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
             # we allow for local modification (which might be wanted for optimization purposes)
-            partial(
-                pipeline.run,
-                {name: df.copy() for name, df in aux.items()},
-                **{**opts, **pipeline_opts}
-            )
+            (pipeline, {name: df.copy() for name, df in aux.items()}, {**opts, **pipeline_opts})
             for pipeline, opts in self.pipelines
         ]
 

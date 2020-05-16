@@ -19,6 +19,7 @@ from .it_authority import PcmDpcL1Pipeline, PcmDpcL2Pipeline
 from .jp_2019_ncov_japan import Jp2019NcovJapanByDate
 from .mx_mexico_covid_19 import MexicoCovid19Pipeline
 from .pt_covid19pt import Covid19PtPipeline
+from .si_authority import SloveniaPipeline
 from .us_nyt_covid import NytCovidL2Pipeline, NytCovidL3Pipeline
 from .xx_covid19_eu_data import Covid19EuDataPipeline
 from .xx_dxy import DXYPipeline
@@ -196,6 +197,8 @@ class EpidemiologyPipelineChain(PipelineChain):
         ),
         # Data sources for PL level 2
         (Covid19EuDataPipeline("PL"), {}),
+        # Data sources for PT level 2
+        (Covid19PtPipeline(), {}),
         # Data sources for RU level 2
         (
             WikipediaPipeline(
@@ -205,6 +208,8 @@ class EpidemiologyPipelineChain(PipelineChain):
         ),
         # Data sources for SE level 2
         (Covid19EuDataPipeline("SE"), {}),
+        # Data sources for SI level 1
+        (SloveniaPipeline(), {}),
         # Data sources for US levels 2 + 3
         (NytCovidL2Pipeline(), {}),
         (NytCovidL3Pipeline(), {}),
