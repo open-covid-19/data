@@ -266,6 +266,7 @@ from the relevant authorities, like a country's ministry of health.
 | Japan | <https://github.com/swsoyee/2019-ncov-japan> | MIT |
 | Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | CC BY-SA |
 | Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> | MIT |
+| Netherlands | <https://github.com/J535D165/CoronaWatchNL> | CC0 |
 | Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
 | Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | CC BY-SA |
 | Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) | CC BY-SA |
@@ -278,15 +279,8 @@ from the relevant authorities, like a country's ministry of health.
 | Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
 | Switzerland | [OpenZH data](https://open.zh.ch) | CC 4.0 |
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | The Unlicense |
-| USA | [NYT COVID Dataset](https://covidtracking.com) | CC-like |
-
-The data is automatically scraped and parsed using the scripts found in the
-[input folder](input). This is done daily, and as part of the processing
-some additional columns are added, like region-level coordinates.
-
-Before updating the outputs, data is spot-checked using various data sources
-including data from local authorities like [Italy's ministry of health][4] and
-the [reports from WHO][5].
+| USA | [NYT COVID Dataset](https://github.com/nytimes) | Custom (attribution required for non-commercial use) |
+| USA | [COVID Tracking Project](https://covidtracking.com) | Apache 2.0 |
 
 ## Why another dataset?
 This dataset is heavily inspired by the dataset maintained by

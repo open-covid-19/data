@@ -822,6 +822,373 @@ NF,Q31057,NF,Norfolk Island,,,,,NF,NFK,0
 NG,Q1033,NG,Nigeria,,,,,NG,NGA,0
 NI,Q811,NI,Nicaragua,,,,,NI,NIC,0
 NL,Q55,NL,Netherlands,,,,,NL,NLD,0
+NL_DR,Q772,NL,Netherlands,DR,Drenthe,,,NL,NLD,1
+NL_DR_0106,Q798,NL,Netherlands,DR,Drenthe,0106,Assen,NL,NLD,2
+NL_DR_0109,Q60453,NL,Netherlands,DR,Drenthe,0109,Coevorden,NL,NLD,2
+NL_DR_0114,Q14641,NL,Netherlands,DR,Drenthe,0114,Emmen,NL,NLD,2
+NL_DR_0118,Q208012,NL,Netherlands,DR,Drenthe,0118,Hoogeveen,NL,NLD,2
+NL_DR_0119,Q60425,NL,Netherlands,DR,Drenthe,0119,Meppel,NL,NLD,2
+NL_DR_1680,Q300665,NL,Netherlands,DR,Drenthe,1680,Aa en Hunze,NL,NLD,2
+NL_DR_1681,Q835118,NL,Netherlands,DR,Drenthe,1681,Borger-Odoorn,NL,NLD,2
+NL_DR_1690,Q835108,NL,Netherlands,DR,Drenthe,1690,De Wolden,NL,NLD,2
+NL_DR_1699,Q835083,NL,Netherlands,DR,Drenthe,1699,Noordenveld,NL,NLD,2
+NL_DR_1701,Q747920,NL,Netherlands,DR,Drenthe,1701,Westerveld,NL,NLD,2
+NL_DR_1730,Q840457,NL,Netherlands,DR,Drenthe,1730,Tynaarlo,NL,NLD,2
+NL_DR_1731,Q835125,NL,Netherlands,DR,Drenthe,1731,Midden-Drenthe,NL,NLD,2
+NL_FL,Q707,NL,Netherlands,FL,Flevoland,,,NL,NLD,1
+NL_FL_0034,Q83178,NL,Netherlands,FL,Flevoland,0034,Almere,NL,NLD,2
+NL_FL_0050,Q184454,NL,Netherlands,FL,Flevoland,0050,Zeewolde,NL,NLD,2
+NL_FL_0171,Q69262,NL,Netherlands,FL,Flevoland,0171,Noordoostpolder,NL,NLD,2
+NL_FL_0184,Q273746,NL,Netherlands,FL,Flevoland,0184,Urk,NL,NLD,2
+NL_FL_0303,Q328087,NL,Netherlands,FL,Flevoland,0303,Dronten,NL,NLD,2
+NL_FL_0995,Q166065,NL,Netherlands,FL,Flevoland,0995,Lelystad,NL,NLD,2
+NL_FR,Q770,NL,Netherlands,FR,Friesland,,,NL,NLD,1
+NL_FR_0059,Q341024,NL,Netherlands,FR,Friesland,0059,Achtkarspelen,NL,NLD,2
+NL_FR_0060,Q208259,NL,Netherlands,FR,Friesland,0060,Ameland,NL,NLD,2
+NL_FR_0072,Q60475,NL,Netherlands,FR,Friesland,0072,Harlingen,NL,NLD,2
+NL_FR_0074,Q574558,NL,Netherlands,FR,Friesland,0074,Heerenveen,NL,NLD,2
+NL_FR_0080,Q25390,NL,Netherlands,FR,Friesland,0080,Leeuwarden,NL,NLD,2
+NL_FR_0085,Q259205,NL,Netherlands,FR,Friesland,0085,Ooststellingwerf,NL,NLD,2
+NL_FR_0086,Q840632,NL,Netherlands,FR,Friesland,0086,Opsterland,NL,NLD,2
+NL_FR_0088,Q208011,NL,Netherlands,FR,Friesland,0088,Schiermonnikoog,NL,NLD,2
+NL_FR_0090,Q507065,NL,Netherlands,FR,Friesland,0090,Smallingerland,NL,NLD,2
+NL_FR_0093,Q204412,NL,Netherlands,FR,Friesland,0093,Terschelling,NL,NLD,2
+NL_FR_0096,Q207851,NL,Netherlands,FR,Friesland,0096,Vlieland,NL,NLD,2
+NL_FR_0098,Q753913,NL,Netherlands,FR,Friesland,0098,Weststellingwerf,NL,NLD,2
+NL_FR_0737,Q840636,NL,Netherlands,FR,Friesland,0737,Tytsjerksteradiel,NL,NLD,2
+NL_FR_1891,Q389213,NL,Netherlands,FR,Friesland,1891,Dantumadiel,NL,NLD,2
+NL_FR_1900,Q1473276,NL,Netherlands,FR,Friesland,1900,Súdwest-Fryslân,NL,NLD,2
+NL_FR_1940,Q2114866,NL,Netherlands,FR,Friesland,1940,De Fryske Marren,NL,NLD,2
+NL_FR_1949,Q27526271,NL,Netherlands,FR,Friesland,1949,Waadhoeke,NL,NLD,2
+NL_FR_1970,Q29509979,NL,Netherlands,FR,Friesland,1970,Noardeast-Fryslân,NL,NLD,2
+NL_GE,Q775,NL,Netherlands,GE,Gelderland,,,NL,NLD,1
+NL_GE_0197,Q275909,NL,Netherlands,GE,Gelderland,0197,Aalten,NL,NLD,2
+NL_GE_0200,Q101918,NL,Netherlands,GE,Gelderland,0200,Apeldoorn,NL,NLD,2
+NL_GE_0202,Q1310,NL,Netherlands,GE,Gelderland,0202,Arnhem,NL,NLD,2
+NL_GE_0203,Q164098,NL,Netherlands,GE,Gelderland,0203,Barneveld,NL,NLD,2
+NL_GE_0209,Q851244,NL,Netherlands,GE,Gelderland,0209,Beuningen,NL,NLD,2
+NL_GE_0213,Q843895,NL,Netherlands,GE,Gelderland,0213,Brummen,NL,NLD,2
+NL_GE_0214,Q73061,NL,Netherlands,GE,Gelderland,0214,Buren,NL,NLD,2
+NL_GE_0216,Q816699,NL,Netherlands,GE,Gelderland,0216,Culemborg,NL,NLD,2
+NL_GE_0221,Q165736,NL,Netherlands,GE,Gelderland,0221,Doesburg,NL,NLD,2
+NL_GE_0222,Q145845,NL,Netherlands,GE,Gelderland,0222,Doetinchem,NL,NLD,2
+NL_GE_0225,Q932142,NL,Netherlands,GE,Gelderland,0225,Druten,NL,NLD,2
+NL_GE_0226,Q613989,NL,Netherlands,GE,Gelderland,0226,Duiven,NL,NLD,2
+NL_GE_0228,Q26555,NL,Netherlands,GE,Gelderland,0228,Ede,NL,NLD,2
+NL_GE_0230,Q165662,NL,Netherlands,GE,Gelderland,0230,Elburg,NL,NLD,2
+NL_GE_0232,Q238396,NL,Netherlands,GE,Gelderland,0232,Epe,NL,NLD,2
+NL_GE_0233,Q753920,NL,Netherlands,GE,Gelderland,0233,Ermelo,NL,NLD,2
+NL_GE_0243,Q58931,NL,Netherlands,GE,Gelderland,0243,Harderwijk,NL,NLD,2
+NL_GE_0244,Q58797,NL,Netherlands,GE,Gelderland,0244,Hattem,NL,NLD,2
+NL_GE_0246,Q615491,NL,Netherlands,GE,Gelderland,0246,Heerde,NL,NLD,2
+NL_GE_0252,Q932155,NL,Netherlands,GE,Gelderland,0252,Heumen,NL,NLD,2
+NL_GE_0262,Q932058,NL,Netherlands,GE,Gelderland,0262,Lochem,NL,NLD,2
+NL_GE_0263,Q904544,NL,Netherlands,GE,Gelderland,0263,Maasdriel,NL,NLD,2
+NL_GE_0267,Q73226,NL,Netherlands,GE,Gelderland,0267,Nijkerk,NL,NLD,2
+NL_GE_0268,Q47887,NL,Netherlands,GE,Gelderland,0268,Nijmegen,NL,NLD,2
+NL_GE_0269,Q932042,NL,Netherlands,GE,Gelderland,0269,Oldebroek,NL,NLD,2
+NL_GE_0273,Q939948,NL,Netherlands,GE,Gelderland,0273,Putten,NL,NLD,2
+NL_GE_0274,Q691725,NL,Netherlands,GE,Gelderland,0274,Renkum,NL,NLD,2
+NL_GE_0275,Q843899,NL,Netherlands,GE,Gelderland,0275,Rheden,NL,NLD,2
+NL_GE_0277,Q372592,NL,Netherlands,GE,Gelderland,0277,Rozendaal,NL,NLD,2
+NL_GE_0279,Q939964,NL,Netherlands,GE,Gelderland,0279,Scherpenzeel,NL,NLD,2
+NL_GE_0281,Q73221,NL,Netherlands,GE,Gelderland,0281,Tiel,NL,NLD,2
+NL_GE_0285,Q384772,NL,Netherlands,GE,Gelderland,0285,Voorst,NL,NLD,2
+NL_GE_0289,Q1305,NL,Netherlands,GE,Gelderland,0289,Wageningen,NL,NLD,2
+NL_GE_0293,Q524808,NL,Netherlands,GE,Gelderland,0293,Westervoort,NL,NLD,2
+NL_GE_0294,Q72974,NL,Netherlands,GE,Gelderland,0294,Winterswijk,NL,NLD,2
+NL_GE_0296,Q72981,NL,Netherlands,GE,Gelderland,0296,Wijchen,NL,NLD,2
+NL_GE_0297,Q1532373,NL,Netherlands,GE,Gelderland,0297,Zaltbommel,NL,NLD,2
+NL_GE_0299,Q197050,NL,Netherlands,GE,Gelderland,0299,Zevenaar,NL,NLD,2
+NL_GE_0301,Q109535,NL,Netherlands,GE,Gelderland,0301,Zutphen,NL,NLD,2
+NL_GE_0302,Q931997,NL,Netherlands,GE,Gelderland,0302,Nunspeet,NL,NLD,2
+NL_GE_0668,Q658081,NL,Netherlands,GE,Gelderland,0668,West Maas en Waal,NL,NLD,2
+NL_GE_1509,Q932031,NL,Netherlands,GE,Gelderland,1509,Oude IJsselstreek,NL,NLD,2
+NL_GE_1586,Q1147580,NL,Netherlands,GE,Gelderland,1586,Oost Gelre,NL,NLD,2
+NL_GE_1705,Q952939,NL,Netherlands,GE,Gelderland,1705,Lingewaard,NL,NLD,2
+NL_GE_1734,Q600871,NL,Netherlands,GE,Gelderland,1734,Overbetuwe,NL,NLD,2
+NL_GE_1740,Q952997,NL,Netherlands,GE,Gelderland,1740,Neder-Betuwe,NL,NLD,2
+NL_GE_1859,Q47104,NL,Netherlands,GE,Gelderland,1859,Berkelland,NL,NLD,2
+NL_GE_1876,Q747999,NL,Netherlands,GE,Gelderland,1876,Bronckhorst,NL,NLD,2
+NL_GE_1945,Q18088965,NL,Netherlands,GE,Gelderland,1945,Berg en Dal,NL,NLD,2
+NL_GE_1955,Q952963,NL,Netherlands,GE,Gelderland,1955,Montferland,NL,NLD,2
+NL_GE_1960,Q30142059,NL,Netherlands,GE,Gelderland,1960,West Betuwe,NL,NLD,2
+NL_GR,Q752,NL,Netherlands,GR,Groningen,,,NL,NLD,1
+NL_GR_0003,Q995,NL,Netherlands,GR,Groningen,0003,Appingedam,NL,NLD,2
+NL_GR_0010,Q322986,NL,Netherlands,GR,Groningen,0010,Delfzijl,NL,NLD,2
+NL_GR_0014,Q749,NL,Netherlands,GR,Groningen,0014,Groningen,NL,NLD,2
+NL_GR_0024,Q849574,NL,Netherlands,GR,Groningen,0024,Loppersum,NL,NLD,2
+NL_GR_0037,Q73074,NL,Netherlands,GR,Groningen,0037,Stadskanaal,NL,NLD,2
+NL_GR_0047,Q73065,NL,Netherlands,GR,Groningen,0047,Veendam,NL,NLD,2
+NL_GR_0765,Q932077,NL,Netherlands,GR,Groningen,0765,Pekela,NL,NLD,2
+NL_GR_1895,Q1347872,NL,Netherlands,GR,Groningen,1895,Oldambt,NL,NLD,2
+NL_GR_1950,Q27768267,NL,Netherlands,GR,Groningen,1950,Westerwolde,NL,NLD,2
+NL_GR_1952,Q23991032,NL,Netherlands,GR,Groningen,1952,Midden-Groningen,NL,NLD,2
+NL_GR_1966,Q27959423,NL,Netherlands,GR,Groningen,1966,Het Hogeland,NL,NLD,2
+NL_GR_1969,Q30011757,NL,Netherlands,GR,Groningen,1969,Westerkwartier,NL,NLD,2
+NL_LI,Q1093,NL,Netherlands,LI,Limburg,,,NL,NLD,1
+NL_LI_0882,Q9795,NL,Netherlands,LI,Limburg,0882,Landgraaf,NL,NLD,2
+NL_LI_0888,Q3972033,NL,Netherlands,LI,Limburg,0888,Beek,NL,NLD,2
+NL_LI_0889,Q9805,NL,Netherlands,LI,Limburg,0889,Beesel,NL,NLD,2
+NL_LI_0893,Q9804,NL,Netherlands,LI,Limburg,0893,Bergen,NL,NLD,2
+NL_LI_0899,Q9803,NL,Netherlands,LI,Limburg,0899,Brunssum,NL,NLD,2
+NL_LI_0907,Q9800,NL,Netherlands,LI,Limburg,0907,Gennep,NL,NLD,2
+NL_LI_0917,Q9799,NL,Netherlands,LI,Limburg,0917,Heerlen,NL,NLD,2
+NL_LI_0928,Q9796,NL,Netherlands,LI,Limburg,0928,Kerkrade,NL,NLD,2
+NL_LI_0935,Q1309,NL,Netherlands,LI,Limburg,0935,Maastricht,NL,NLD,2
+NL_LI_0938,Q9772,NL,Netherlands,LI,Limburg,0938,Meerssen,NL,NLD,2
+NL_LI_0944,Q9791,NL,Netherlands,LI,Limburg,0944,Mook en Middelaar,NL,NLD,2
+NL_LI_0946,Q9789,NL,Netherlands,LI,Limburg,0946,Nederweert,NL,NLD,2
+NL_LI_0957,Q9783,NL,Netherlands,LI,Limburg,0957,Roermond,NL,NLD,2
+NL_LI_0965,Q9769,NL,Netherlands,LI,Limburg,0965,Simpelveld,NL,NLD,2
+NL_LI_0971,Q9780,NL,Netherlands,LI,Limburg,0971,Stein,NL,NLD,2
+NL_LI_0981,Q9768,NL,Netherlands,LI,Limburg,0981,Vaals,NL,NLD,2
+NL_LI_0983,Q9777,NL,Netherlands,LI,Limburg,0983,Venlo,NL,NLD,2
+NL_LI_0984,Q9775,NL,Netherlands,LI,Limburg,0984,Venray,NL,NLD,2
+NL_LI_0986,Q9770,NL,Netherlands,LI,Limburg,0986,Voerendaal,NL,NLD,2
+NL_LI_0988,Q9774,NL,Netherlands,LI,Limburg,0988,Weert,NL,NLD,2
+NL_LI_0994,Q9771,NL,Netherlands,LI,Limburg,0994,Valkenburg aan de Geul,NL,NLD,2
+NL_LI_1507,Q9797,NL,Netherlands,LI,Limburg,1507,Horst aan de Maas,NL,NLD,2
+NL_LI_1640,Q9793,NL,Netherlands,LI,Limburg,1640,Leudal,NL,NLD,2
+NL_LI_1641,Q9792,NL,Netherlands,LI,Limburg,1641,Maasgouw,NL,NLD,2
+NL_LI_1669,Q9784,NL,Netherlands,LI,Limburg,1669,Roerdalen,NL,NLD,2
+NL_LI_1711,Q9802,NL,Netherlands,LI,Limburg,1711,Echt-Susteren,NL,NLD,2
+NL_LI_1729,Q9767,NL,Netherlands,LI,Limburg,1729,Gulpen-Wittem,NL,NLD,2
+NL_LI_1883,Q9781,NL,Netherlands,LI,Limburg,1883,Sittard-Geleen,NL,NLD,2
+NL_LI_1894,Q9785,NL,Netherlands,LI,Limburg,1894,Peel en Maas,NL,NLD,2
+NL_LI_1903,Q9766,NL,Netherlands,LI,Limburg,1903,Eijsden-Margraten,NL,NLD,2
+NL_LI_1954,Q29957432,NL,Netherlands,LI,Limburg,1954,Beekdaelen,NL,NLD,2
+NL_NB,Q1101,NL,Netherlands,NB,North Brabant,,,NL,NLD,1
+NL_NB_0743,Q9810,NL,Netherlands,NB,North Brabant,0743,Asten,NL,NLD,2
+NL_NB_0744,Q9811,NL,Netherlands,NB,North Brabant,0744,Baarle-Nassau,NL,NLD,2
+NL_NB_0748,Q192508,NL,Netherlands,NB,North Brabant,0748,Bergen op Zoom,NL,NLD,2
+NL_NB_0753,Q9816,NL,Netherlands,NB,North Brabant,0753,Best,NL,NLD,2
+NL_NB_0755,Q9818,NL,Netherlands,NB,North Brabant,0755,Boekel,NL,NLD,2
+NL_NB_0756,Q9819,NL,Netherlands,NB,North Brabant,0756,Boxmeer,NL,NLD,2
+NL_NB_0757,Q9821,NL,Netherlands,NB,North Brabant,0757,Boxtel,NL,NLD,2
+NL_NB_0758,Q40844,NL,Netherlands,NB,North Brabant,0758,Breda,NL,NLD,2
+NL_NB_0762,Q9828,NL,Netherlands,NB,North Brabant,0762,Deurne,NL,NLD,2
+NL_NB_0766,Q9829,NL,Netherlands,NB,North Brabant,0766,Dongen,NL,NLD,2
+NL_NB_0770,Q9831,NL,Netherlands,NB,North Brabant,0770,Eersel,NL,NLD,2
+NL_NB_0772,Q9832,NL,Netherlands,NB,North Brabant,0772,Eindhoven,NL,NLD,2
+NL_NB_0777,Q9833,NL,Netherlands,NB,North Brabant,0777,Etten-Leur,NL,NLD,2
+NL_NB_0779,Q9834,NL,Netherlands,NB,North Brabant,0779,Geertruidenberg,NL,NLD,2
+NL_NB_0784,Q9837,NL,Netherlands,NB,North Brabant,0784,Gilze en Rijen,NL,NLD,2
+NL_NB_0785,Q9838,NL,Netherlands,NB,North Brabant,0785,Goirle,NL,NLD,2
+NL_NB_0786,Q9839,NL,Netherlands,NB,North Brabant,0786,Grave,NL,NLD,2
+NL_NB_0788,Q9840,NL,Netherlands,NB,North Brabant,0788,Haaren,NL,NLD,2
+NL_NB_0794,Q9844,NL,Netherlands,NB,North Brabant,0794,Helmond,NL,NLD,2
+NL_NB_0796,Q2766547,NL,Netherlands,NB,North Brabant,0796,'s-Hertogenbosch,NL,NLD,2
+NL_NB_0797,Q9845,NL,Netherlands,NB,North Brabant,0797,Heusden,NL,NLD,2
+NL_NB_0798,Q9846,NL,Netherlands,NB,North Brabant,0798,Hilvarenbeek,NL,NLD,2
+NL_NB_0809,Q9850,NL,Netherlands,NB,North Brabant,0809,Loon op Zand,NL,NLD,2
+NL_NB_0815,Q9853,NL,Netherlands,NB,North Brabant,0815,Mill en Sint Hubert,NL,NLD,2
+NL_NB_0820,Q9855,NL,Netherlands,NB,North Brabant,0820,Nuenen,NL,NLD,2
+NL_NB_0823,Q9856,NL,Netherlands,NB,North Brabant,0823,Oirschot,NL,NLD,2
+NL_NB_0824,Q9857,NL,Netherlands,NB,North Brabant,0824,Oisterwijk,NL,NLD,2
+NL_NB_0826,Q9858,NL,Netherlands,NB,North Brabant,0826,Oosterhout,NL,NLD,2
+NL_NB_0828,Q9859,NL,Netherlands,NB,North Brabant,0828,Oss,NL,NLD,2
+NL_NB_0840,Q9862,NL,Netherlands,NB,North Brabant,0840,Rucphen,NL,NLD,2
+NL_NB_0845,Q9866,NL,Netherlands,NB,North Brabant,0845,Sint-Michielsgestel,NL,NLD,2
+NL_NB_0847,Q9868,NL,Netherlands,NB,North Brabant,0847,Someren,NL,NLD,2
+NL_NB_0848,Q9869,NL,Netherlands,NB,North Brabant,0848,Son en Breugel,NL,NLD,2
+NL_NB_0851,Q9870,NL,Netherlands,NB,North Brabant,0851,Steenbergen,NL,NLD,2
+NL_NB_0855,Q26430,NL,Netherlands,NB,North Brabant,0855,Tilburg,NL,NLD,2
+NL_NB_0856,Q9872,NL,Netherlands,NB,North Brabant,0856,Uden,NL,NLD,2
+NL_NB_0858,Q9873,NL,Netherlands,NB,North Brabant,0858,Valkenswaard,NL,NLD,2
+NL_NB_0861,Q9875,NL,Netherlands,NB,North Brabant,0861,Veldhoven,NL,NLD,2
+NL_NB_0865,Q9876,NL,Netherlands,NB,North Brabant,0865,Vught,NL,NLD,2
+NL_NB_0866,Q9877,NL,Netherlands,NB,North Brabant,0866,Waalre,NL,NLD,2
+NL_NB_0867,Q745038,NL,Netherlands,NB,North Brabant,0867,Waalwijk,NL,NLD,2
+NL_NB_0873,Q9881,NL,Netherlands,NB,North Brabant,0873,Woensdrecht,NL,NLD,2
+NL_NB_0879,Q9883,NL,Netherlands,NB,North Brabant,0879,Zundert,NL,NLD,2
+NL_NB_1652,Q9836,NL,Netherlands,NB,North Brabant,1652,Gemert-Bakel,NL,NLD,2
+NL_NB_1655,Q9841,NL,Netherlands,NB,North Brabant,1655,Halderberge,NL,NLD,2
+NL_NB_1658,Q9843,NL,Netherlands,NB,North Brabant,1658,Heeze-Leende,NL,NLD,2
+NL_NB_1659,Q9848,NL,Netherlands,NB,North Brabant,1659,Laarbeek,NL,NLD,2
+NL_NB_1667,Q9860,NL,Netherlands,NB,North Brabant,1667,Reusel-De Mierden,NL,NLD,2
+NL_NB_1674,Q6903267,NL,Netherlands,NB,North Brabant,1674,Roosendaal,NL,NLD,2
+NL_NB_1684,Q9827,NL,Netherlands,NB,North Brabant,1684,Cuijk,NL,NLD,2
+NL_NB_1685,Q9849,NL,Netherlands,NB,North Brabant,1685,Landerd,NL,NLD,2
+NL_NB_1702,Q9865,NL,Netherlands,NB,North Brabant,1702,Sint Anthonis,NL,NLD,2
+NL_NB_1706,Q9823,NL,Netherlands,NB,North Brabant,1706,Cranendonck,NL,NLD,2
+NL_NB_1709,Q9854,NL,Netherlands,NB,North Brabant,1709,Moerdijk,NL,NLD,2
+NL_NB_1719,Q9830,NL,Netherlands,NB,North Brabant,1719,Drimmelen,NL,NLD,2
+NL_NB_1721,Q9815,NL,Netherlands,NB,North Brabant,1721,Bernheze,NL,NLD,2
+NL_NB_1723,Q9809,NL,Netherlands,NB,North Brabant,1723,Alphen-Chaam,NL,NLD,2
+NL_NB_1724,Q585672,NL,Netherlands,NB,North Brabant,1724,Bergeijk,NL,NLD,2
+NL_NB_1728,Q9817,NL,Netherlands,NB,North Brabant,1728,Bladel,NL,NLD,2
+NL_NB_1771,Q9835,NL,Netherlands,NB,North Brabant,1771,Geldrop-Mierlo,NL,NLD,2
+NL_NB_1948,Q18655255,NL,Netherlands,NB,North Brabant,1948,Meierijstad,NL,NLD,2
+NL_NB_1959,Q28057171,NL,Netherlands,NB,North Brabant,1959,Altena,NL,NLD,2
+NL_NH,Q701,NL,Netherlands,NH,North Holland,,,NL,NLD,1
+NL_NH_0358,Q9897,NL,Netherlands,NH,North Holland,0358,Aalsmeer,NL,NLD,2
+NL_NH_0361,Q972,NL,Netherlands,NH,North Holland,0361,Alkmaar,NL,NLD,2
+NL_NH_0362,Q9898,NL,Netherlands,NH,North Holland,0362,Amstelveen,NL,NLD,2
+NL_NH_0363,Q727,NL,Netherlands,NH,North Holland,0363,Amsterdam,NL,NLD,2
+NL_NH_0370,Q9900,NL,Netherlands,NH,North Holland,0370,Beemster,NL,NLD,2
+NL_NH_0373,Q9901,NL,Netherlands,NH,North Holland,0373,Bergen,NL,NLD,2
+NL_NH_0375,Q9905,NL,Netherlands,NH,North Holland,0375,Beverwijk,NL,NLD,2
+NL_NH_0376,Q9906,NL,Netherlands,NH,North Holland,0376,Blaricum,NL,NLD,2
+NL_NH_0377,Q9908,NL,Netherlands,NH,North Holland,0377,Bloemendaal,NL,NLD,2
+NL_NH_0383,Q9910,NL,Netherlands,NH,North Holland,0383,Castricum,NL,NLD,2
+NL_NH_0384,Q9913,NL,Netherlands,NH,North Holland,0384,Diemen,NL,NLD,2
+NL_NH_0385,Q9917,NL,Netherlands,NH,North Holland,0385,Edam-Volendam,NL,NLD,2
+NL_NH_0388,Q9918,NL,Netherlands,NH,North Holland,0388,Enkhuizen,NL,NLD,2
+NL_NH_0392,Q9920,NL,Netherlands,NH,North Holland,0392,Haarlem,NL,NLD,2
+NL_NH_0394,Q9924,NL,Netherlands,NH,North Holland,0394,Haarlemmermeer,NL,NLD,2
+NL_NH_0396,Q9926,NL,Netherlands,NH,North Holland,0396,Heemskerk,NL,NLD,2
+NL_NH_0397,Q9928,NL,Netherlands,NH,North Holland,0397,Heemstede,NL,NLD,2
+NL_NH_0398,Q9930,NL,Netherlands,NH,North Holland,0398,Heerhugowaard,NL,NLD,2
+NL_NH_0399,Q9932,NL,Netherlands,NH,North Holland,0399,Heiloo,NL,NLD,2
+NL_NH_0400,Q9911,NL,Netherlands,NH,North Holland,0400,Den Helder,NL,NLD,2
+NL_NH_0402,Q9934,NL,Netherlands,NH,North Holland,0402,Hilversum,NL,NLD,2
+NL_NH_0405,Q9938,NL,Netherlands,NH,North Holland,0405,Hoorn,NL,NLD,2
+NL_NH_0406,Q9939,NL,Netherlands,NH,North Holland,0406,Huizen,NL,NLD,2
+NL_NH_0415,Q9942,NL,Netherlands,NH,North Holland,0415,Landsmeer,NL,NLD,2
+NL_NH_0416,Q9944,NL,Netherlands,NH,North Holland,0416,Langedijk,NL,NLD,2
+NL_NH_0417,Q9945,NL,Netherlands,NH,North Holland,0417,Laren,NL,NLD,2
+NL_NH_0420,Q9947,NL,Netherlands,NH,North Holland,0420,Medemblik,NL,NLD,2
+NL_NH_0431,Q9951,NL,Netherlands,NH,North Holland,0431,Oostzaan,NL,NLD,2
+NL_NH_0432,Q9952,NL,Netherlands,NH,North Holland,0432,Opmeer,NL,NLD,2
+NL_NH_0437,Q9953,NL,Netherlands,NH,North Holland,0437,Ouder-Amstel,NL,NLD,2
+NL_NH_0439,Q9954,NL,Netherlands,NH,North Holland,0439,Purmerend,NL,NLD,2
+NL_NH_0441,Q9955,NL,Netherlands,NH,North Holland,0441,Schagen,NL,NLD,2
+NL_NH_0448,Q9966,NL,Netherlands,NH,North Holland,0448,Texel,NL,NLD,2
+NL_NH_0450,Q9967,NL,Netherlands,NH,North Holland,0450,Uitgeest,NL,NLD,2
+NL_NH_0451,Q9969,NL,Netherlands,NH,North Holland,0451,Uithoorn,NL,NLD,2
+NL_NH_0453,Q9970,NL,Netherlands,NH,North Holland,0453,Velsen,NL,NLD,2
+NL_NH_0457,Q9974,NL,Netherlands,NH,North Holland,0457,Weesp,NL,NLD,2
+NL_NH_0473,Q9980,NL,Netherlands,NH,North Holland,0473,Zandvoort,NL,NLD,2
+NL_NH_0479,Q9978,NL,Netherlands,NH,North Holland,0479,Zaanstad,NL,NLD,2
+NL_NH_0498,Q9915,NL,Netherlands,NH,North Holland,0498,Drechterland,NL,NLD,2
+NL_NH_0532,Q9962,NL,Netherlands,NH,North Holland,0532,Stede Broec,NL,NLD,2
+NL_NH_0852,Q9971,NL,Netherlands,NH,North Holland,0852,Waterland,NL,NLD,2
+NL_NH_0880,Q9976,NL,Netherlands,NH,North Holland,0880,Wormerland,NL,NLD,2
+NL_NH_1598,Q9940,NL,Netherlands,NH,North Holland,1598,Koggenland,NL,NLD,2
+NL_NH_1696,Q9975,NL,Netherlands,NH,North Holland,1696,Wijdemeren,NL,NLD,2
+NL_NH_1911,Q9936,NL,Netherlands,NH,North Holland,1911,Hollands Kroon,NL,NLD,2
+NL_NH_1942,Q18335889,NL,Netherlands,NH,North Holland,1942,Gooise Meren,NL,NLD,2
+NL_OV,Q773,NL,Netherlands,OV,Overijssel,,,NL,NLD,1
+NL_OV_0141,Q988,NL,Netherlands,OV,Overijssel,0141,Almelo,NL,NLD,2
+NL_OV_0147,Q9997,NL,Netherlands,OV,Overijssel,0147,Borne,NL,NLD,2
+NL_OV_0148,Q9998,NL,Netherlands,OV,Overijssel,0148,Dalfsen,NL,NLD,2
+NL_OV_0150,Q10001,NL,Netherlands,OV,Overijssel,0150,Deventer,NL,NLD,2
+NL_OV_0153,Q10002,NL,Netherlands,OV,Overijssel,0153,Enschede,NL,NLD,2
+NL_OV_0158,Q10003,NL,Netherlands,OV,Overijssel,0158,Haaksbergen,NL,NLD,2
+NL_OV_0160,Q10013,NL,Netherlands,OV,Overijssel,0160,Hardenberg,NL,NLD,2
+NL_OV_0163,Q10005,NL,Netherlands,OV,Overijssel,0163,Hellendoorn,NL,NLD,2
+NL_OV_0164,Q10006,NL,Netherlands,OV,Overijssel,0164,Hengelo,NL,NLD,2
+NL_OV_0166,Q10014,NL,Netherlands,OV,Overijssel,0166,Kampen,NL,NLD,2
+NL_OV_0168,Q10015,NL,Netherlands,OV,Overijssel,0168,Losser,NL,NLD,2
+NL_OV_0173,Q10016,NL,Netherlands,OV,Overijssel,0173,Oldenzaal,NL,NLD,2
+NL_OV_0175,Q10018,NL,Netherlands,OV,Overijssel,0175,Ommen,NL,NLD,2
+NL_OV_0177,Q10019,NL,Netherlands,OV,Overijssel,0177,Raalte,NL,NLD,2
+NL_OV_0180,Q10021,NL,Netherlands,OV,Overijssel,0180,Staphorst,NL,NLD,2
+NL_OV_0183,Q10023,NL,Netherlands,OV,Overijssel,0183,Tubbergen,NL,NLD,2
+NL_OV_0189,Q10025,NL,Netherlands,OV,Overijssel,0189,Wierden,NL,NLD,2
+NL_OV_0193,Q793,NL,Netherlands,OV,Overijssel,0193,Zwolle,NL,NLD,2
+NL_OV_1700,Q10024,NL,Netherlands,OV,Overijssel,1700,Twenterand,NL,NLD,2
+NL_OV_1708,Q10022,NL,Netherlands,OV,Overijssel,1708,Steenwijkerland,NL,NLD,2
+NL_OV_1735,Q9996,NL,Netherlands,OV,Overijssel,1735,Hof van Twente,NL,NLD,2
+NL_OV_1742,Q10020,NL,Netherlands,OV,Overijssel,1742,Rijssen-Holten,NL,NLD,2
+NL_OV_1773,Q10017,NL,Netherlands,OV,Overijssel,1773,Olst-Wijhe,NL,NLD,2
+NL_OV_1774,Q9999,NL,Netherlands,OV,Overijssel,1774,Dinkelland,NL,NLD,2
+NL_OV_1896,Q10026,NL,Netherlands,OV,Overijssel,1896,Zwartewaterland,NL,NLD,2
+NL_UT,Q776,NL,Netherlands,UT,Utrecht,,,NL,NLD,1
+NL_UT_0307,Q992,NL,Netherlands,UT,Utrecht,0307,Amersfoort,NL,NLD,2
+NL_UT_0308,Q10027,NL,Netherlands,UT,Utrecht,0308,Baarn,NL,NLD,2
+NL_UT_0310,Q10035,NL,Netherlands,UT,Utrecht,0310,De Bilt,NL,NLD,2
+NL_UT_0312,Q10032,NL,Netherlands,UT,Utrecht,0312,Bunnik,NL,NLD,2
+NL_UT_0313,Q10034,NL,Netherlands,UT,Utrecht,0313,Bunschoten,NL,NLD,2
+NL_UT_0317,Q10037,NL,Netherlands,UT,Utrecht,0317,Eemnes,NL,NLD,2
+NL_UT_0321,Q10044,NL,Netherlands,UT,Utrecht,0321,Houten,NL,NLD,2
+NL_UT_0327,Q10046,NL,Netherlands,UT,Utrecht,0327,Leusden,NL,NLD,2
+NL_UT_0331,Q10047,NL,Netherlands,UT,Utrecht,0331,Lopik,NL,NLD,2
+NL_UT_0335,Q10048,NL,Netherlands,UT,Utrecht,0335,Montfoort,NL,NLD,2
+NL_UT_0339,Q10039,NL,Netherlands,UT,Utrecht,0339,Renswoude,NL,NLD,2
+NL_UT_0340,Q10040,NL,Netherlands,UT,Utrecht,0340,Rhenen,NL,NLD,2
+NL_UT_0342,Q10041,NL,Netherlands,UT,Utrecht,0342,Soest,NL,NLD,2
+NL_UT_0344,Q803,NL,Netherlands,UT,Utrecht,0344,Utrecht,NL,NLD,2
+NL_UT_0345,Q1840,NL,Netherlands,UT,Utrecht,0345,Veenendaal,NL,NLD,2
+NL_UT_0351,Q10055,NL,Netherlands,UT,Utrecht,0351,Woudenberg,NL,NLD,2
+NL_UT_0352,Q10053,NL,Netherlands,UT,Utrecht,0352,Wijk bij Duurstede,NL,NLD,2
+NL_UT_0353,Q10045,NL,Netherlands,UT,Utrecht,0353,IJsselstein,NL,NLD,2
+NL_UT_0355,Q10056,NL,Netherlands,UT,Utrecht,0355,Zeist,NL,NLD,2
+NL_UT_0356,Q10050,NL,Netherlands,UT,Utrecht,0356,Nieuwegein,NL,NLD,2
+NL_UT_0589,Q10051,NL,Netherlands,UT,Utrecht,0589,Oudewater,NL,NLD,2
+NL_UT_0632,Q5128,NL,Netherlands,UT,Utrecht,0632,Woerden,NL,NLD,2
+NL_UT_0736,Q10036,NL,Netherlands,UT,Utrecht,0736,De Ronde Venen,NL,NLD,2
+NL_UT_1581,Q10043,NL,Netherlands,UT,Utrecht,1581,Utrechtse Heuvelrug,NL,NLD,2
+NL_UT_1904,Q10042,NL,Netherlands,UT,Utrecht,1904,Stichtse Vecht,NL,NLD,2
+NL_UT_1961,Q29032345,NL,Netherlands,UT,Utrecht,1961,Vijfheerenlanden,NL,NLD,2
+NL_ZE,Q705,NL,Netherlands,ZE,Zeeland,,,NL,NLD,1
+NL_ZE_0654,Q10071,NL,Netherlands,ZE,Zeeland,0654,Borsele,NL,NLD,2
+NL_ZE_0664,Q81220,NL,Netherlands,ZE,Zeeland,0664,Goes,NL,NLD,2
+NL_ZE_0677,Q10073,NL,Netherlands,ZE,Zeeland,0677,Hulst,NL,NLD,2
+NL_ZE_0678,Q1024703,NL,Netherlands,ZE,Zeeland,0678,Kapelle,NL,NLD,2
+NL_ZE_0687,Q52101,NL,Netherlands,ZE,Zeeland,0687,Middelburg,NL,NLD,2
+NL_ZE_0703,Q10078,NL,Netherlands,ZE,Zeeland,0703,Reimerswaal,NL,NLD,2
+NL_ZE_0715,Q10081,NL,Netherlands,ZE,Zeeland,0715,Terneuzen,NL,NLD,2
+NL_ZE_0716,Q10082,NL,Netherlands,ZE,Zeeland,0716,Tholen,NL,NLD,2
+NL_ZE_0717,Q10083,NL,Netherlands,ZE,Zeeland,0717,Veere,NL,NLD,2
+NL_ZE_0718,Q10084,NL,Netherlands,ZE,Zeeland,0718,Vlissingen,NL,NLD,2
+NL_ZE_1676,Q10079,NL,Netherlands,ZE,Zeeland,1676,Schouwen-Duiveland,NL,NLD,2
+NL_ZE_1695,Q10077,NL,Netherlands,ZE,Zeeland,1695,Noord-Beveland,NL,NLD,2
+NL_ZE_1714,Q10080,NL,Netherlands,ZE,Zeeland,1714,Sluis,NL,NLD,2
+NL_ZH,Q694,NL,Netherlands,ZH,South Holland,,,NL,NLD,1
+NL_ZH_0482,Q736131,NL,Netherlands,ZH,South Holland,0482,Alblasserdam,NL,NLD,2
+NL_ZH_0484,Q213246,NL,Netherlands,ZH,South Holland,0484,Alphen aan den Rijn,NL,NLD,2
+NL_ZH_0489,Q204239,NL,Netherlands,ZH,South Holland,0489,Barendrecht,NL,NLD,2
+NL_ZH_0501,Q462663,NL,Netherlands,ZH,South Holland,0501,Brielle,NL,NLD,2
+NL_ZH_0502,Q734860,NL,Netherlands,ZH,South Holland,0502,Capelle aan den IJssel,NL,NLD,2
+NL_ZH_0503,Q690,NL,Netherlands,ZH,South Holland,0503,Delft,NL,NLD,2
+NL_ZH_0505,Q26421,NL,Netherlands,ZH,South Holland,0505,Dordrecht,NL,NLD,2
+NL_ZH_0512,Q244327,NL,Netherlands,ZH,South Holland,0512,Gorinchem,NL,NLD,2
+NL_ZH_0513,Q84125,NL,Netherlands,ZH,South Holland,0513,Gouda,NL,NLD,2
+NL_ZH_0518,Q36600,NL,Netherlands,ZH,South Holland,0518,The Hague,NL,NLD,2
+NL_ZH_0523,Q953012,NL,Netherlands,ZH,South Holland,0523,Hardinxveld-Giessendam,NL,NLD,2
+NL_ZH_0530,Q826130,NL,Netherlands,ZH,South Holland,0530,Hellevoetsluis,NL,NLD,2
+NL_ZH_0531,Q538725,NL,Netherlands,ZH,South Holland,0531,Hendrik-Ido-Ambacht,NL,NLD,2
+NL_ZH_0534,Q932116,NL,Netherlands,ZH,South Holland,0534,Hillegom,NL,NLD,2
+NL_ZH_0537,Q208764,NL,Netherlands,ZH,South Holland,0537,Katwijk,NL,NLD,2
+NL_ZH_0542,Q739449,NL,Netherlands,ZH,South Holland,0542,Krimpen aan den IJssel,NL,NLD,2
+NL_ZH_0546,Q43631,NL,Netherlands,ZH,South Holland,0546,Leiden,NL,NLD,2
+NL_ZH_0547,Q1000817,NL,Netherlands,ZH,South Holland,0547,Leiderdorp,NL,NLD,2
+NL_ZH_0553,Q332730,NL,Netherlands,ZH,South Holland,0553,Lisse,NL,NLD,2
+NL_ZH_0556,Q497130,NL,Netherlands,ZH,South Holland,0556,Maassluis,NL,NLD,2
+NL_ZH_0569,Q948866,NL,Netherlands,ZH,South Holland,0569,Nieuwkoop,NL,NLD,2
+NL_ZH_0575,Q455464,NL,Netherlands,ZH,South Holland,0575,Noordwijk,NL,NLD,2
+NL_ZH_0579,Q94747,NL,Netherlands,ZH,South Holland,0579,Oegstgeest,NL,NLD,2
+NL_ZH_0590,Q934511,NL,Netherlands,ZH,South Holland,0590,Papendrecht,NL,NLD,2
+NL_ZH_0597,Q222220,NL,Netherlands,ZH,South Holland,0597,Ridderkerk,NL,NLD,2
+NL_ZH_0599,Q34370,NL,Netherlands,ZH,South Holland,0599,Rotterdam,NL,NLD,2
+NL_ZH_0603,Q506745,NL,Netherlands,ZH,South Holland,0603,Rijswijk,NL,NLD,2
+NL_ZH_0606,Q204709,NL,Netherlands,ZH,South Holland,0606,Schiedam,NL,NLD,2
+NL_ZH_0610,Q750760,NL,Netherlands,ZH,South Holland,0610,Sliedrecht,NL,NLD,2
+NL_ZH_0613,Q934525,NL,Netherlands,ZH,South Holland,0613,Albrandswaard,NL,NLD,2
+NL_ZH_0614,Q935657,NL,Netherlands,ZH,South Holland,0614,Westvoorne,NL,NLD,2
+NL_ZH_0622,Q210007,NL,Netherlands,ZH,South Holland,0622,Vlaardingen,NL,NLD,2
+NL_ZH_0626,Q848324,NL,Netherlands,ZH,South Holland,0626,Voorschoten,NL,NLD,2
+NL_ZH_0627,Q826048,NL,Netherlands,ZH,South Holland,0627,Waddinxveen,NL,NLD,2
+NL_ZH_0629,Q505601,NL,Netherlands,ZH,South Holland,0629,Wassenaar,NL,NLD,2
+NL_ZH_0637,Q26432,NL,Netherlands,ZH,South Holland,0637,Zoetermeer,NL,NLD,2
+NL_ZH_0638,Q218259,NL,Netherlands,ZH,South Holland,0638,Zoeterwoude,NL,NLD,2
+NL_ZH_0642,Q244692,NL,Netherlands,ZH,South Holland,0642,Zwijndrecht,NL,NLD,2
+NL_ZH_1525,Q1368003,NL,Netherlands,ZH,South Holland,1525,Teylingen,NL,NLD,2
+NL_ZH_1621,Q1144739,NL,Netherlands,ZH,South Holland,1621,Lansingerland,NL,NLD,2
+NL_ZH_1783,Q26556,NL,Netherlands,ZH,South Holland,1783,Westland,NL,NLD,2
+NL_ZH_1842,Q952206,NL,Netherlands,ZH,South Holland,1842,Midden-Delfland,NL,NLD,2
+NL_ZH_1884,Q1348471,NL,Netherlands,ZH,South Holland,1884,Kaag en Braassem,NL,NLD,2
+NL_ZH_1892,Q228673,NL,Netherlands,ZH,South Holland,1892,Zuidplas,NL,NLD,2
+NL_ZH_1901,Q889423,NL,Netherlands,ZH,South Holland,1901,Bodegraven-Reeuwijk,NL,NLD,2
+NL_ZH_1916,Q112675,NL,Netherlands,ZH,South Holland,1916,Leidschendam-Voorburg,NL,NLD,2
+NL_ZH_1924,Q933459,NL,Netherlands,ZH,South Holland,1924,Goeree-Overflakkee,NL,NLD,2
+NL_ZH_1926,Q281768,NL,Netherlands,ZH,South Holland,1926,Pijnacker-Nootdorp,NL,NLD,2
+NL_ZH_1930,Q14853527,NL,Netherlands,ZH,South Holland,1930,Nissewaard,NL,NLD,2
+NL_ZH_1931,Q15991891,NL,Netherlands,ZH,South Holland,1931,Krimpenerwaard,NL,NLD,2
+NL_ZH_1963,Q56682979,NL,Netherlands,ZH,South Holland,1963,Hoeksche Waard,NL,NLD,2
+NL_ZH_1978,Q42115473,NL,Netherlands,ZH,South Holland,1978,Molenlanden,NL,NLD,2
 NO,Q20,NO,Norway,,,,,NO,NOR,0
 NO_03,Q585,NO,Norway,03,Oslo,,,NO,NOR,1
 NO_11,Q50624,NO,Norway,11,Rogaland,,,NO,NOR,1
@@ -1237,6 +1604,7 @@ US_AR_05143,Q61148,US,United States of America,AR,Arkansas,05143,Washington Coun
 US_AR_05145,Q61170,US,United States of America,AR,Arkansas,05145,White County,US,USA,2
 US_AR_05147,Q61204,US,United States of America,AR,Arkansas,05147,Woodruff County,US,USA,2
 US_AR_05149,Q61317,US,United States of America,AR,Arkansas,05149,Yell County,US,USA,2
+US_AS,Q16641,US,United States of America,AS,American Samoa,,,US,USA,1
 US_AZ,Q816,US,United States of America,AZ,Arizona,,,US,USA,1
 US_AZ_04001,Q58771,US,United States of America,AZ,Arizona,04001,Apache County,US,USA,2
 US_AZ_04003,Q58774,US,United States of America,AZ,Arizona,04003,Cochise County,US,USA,2

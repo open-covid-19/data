@@ -30,7 +30,7 @@ dc.set_api_key(args.dc_api_key)
 country = "country/{}".format(country_code_alpha_3)
 nuts_name = "EurostatNUTS{}".format(args.nuts_level)
 regions = dc.get_places_in([country], nuts_name)[country]
-names = dc.get_property_values(regions, "wikidataId")
+names = dc.get_property_values(regions, "name")
 for key, name in names.items():
     region_name = name[0]
     region_code = key.split("/")[-1][2:]

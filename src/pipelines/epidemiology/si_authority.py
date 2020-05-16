@@ -44,7 +44,6 @@ class SloveniaPipeline(DefaultPipeline):
                 if any(kword in col for kword in ("new", "total", "active"))
             ],
         )
-        print(data)
 
         # Output the results
         return data
