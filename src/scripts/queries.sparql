@@ -1,0 +1,18 @@
+# Sample queries to be used at https://query.wikidata.org
+
+# Get all ISO-3166-2 codes and their labels
+SELECT ?code ?place ?placeLabel
+WHERE
+{
+  ?place wdt:P300 ?code.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+}
+ORDER BY ASC(?code)
+
+# Get all instances of wd:Q2555896 (municipalities of Colombia)
+SELECT ?place ?placeLabel
+WHERE
+{
+  ?place wdt:P31/wdt:P279* wd:Q2555896.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+}

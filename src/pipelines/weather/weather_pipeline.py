@@ -60,7 +60,7 @@ class WeatherPipeline(DefaultPipeline):
         # Get the nearest station from our list of stations given lat and lon
         nearest = WeatherPipeline.nearest_station(stations, (location.latitude, location.longitude))
 
-        # Query the cache and pull data only if not already there
+        # Query the cache and pull data only if not already cached
         if nearest.id not in station_cache:
 
             # Read the records from the nearest station

@@ -9,6 +9,7 @@ from .au_covid_19_au import Covid19AuPipeline
 from .br_covid19_brazil_timeseries import Covid19BrazilTimeseriesPipeline
 from .ca_authority import CanadaPipeline
 from .ch_openzh import OpenZHPipeline
+from .co_authority import ColombiaPipeline
 from .de_covid_19_germany_gae import Covid19GermanyPipeline
 from .es_authority import ISCIIIPipeline
 from .es_datadista import DatadistaPipeline
@@ -110,6 +111,8 @@ class EpidemiologyPipelineChain(PipelineChain):
         ),
         # Data sources for CN level 2
         (DXYPipeline(), {"parse_opts": {"country_name": "China"}}),
+        # Data sources for CO levels 2 + 3
+        (ColombiaPipeline(), {}),
         # Data sources for CZ level 2
         (Covid19EuDataPipeline("CZ"), {}),
         # Data sources for DE level 2

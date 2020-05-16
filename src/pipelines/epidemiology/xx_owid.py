@@ -1,5 +1,6 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, isnull
+from lib.cast import safe_int_cast
 from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat, date_offset
 from lib.utils import get_or_default
@@ -19,8 +20,10 @@ class OurWorldInDataPipeline(DefaultPipeline):
         data = data.merge(metadata, suffixes=("", "aux_"), how="left")
 
         # Perform date adjustment for all records so date is consistent across datasets
+        data.aggregate_report_offset = data.aggregate_report_offset.apply(safe_int_cast)
         data["date"] = data.apply(
-            lambda x: date_offset(x["date"], get_or_default(x, "epi_report_offset", 0)), axis=1,
+            lambda x: date_offset(x["date"], get_or_default(x, "aggregate_report_offset", 0)),
+            axis=1,
         )
 
         return data[data_columns]
@@ -36,9 +39,9 @@ class OurWorldInDataPipeline(DefaultPipeline):
                     "new_cases": "new_confirmed",
                     "new_deaths": "new_deceased",
                     "new_tests": "new_tested",
-                    'total_cases': 'total_confirmed',
-                    'total_deaths': 'total_deceased',
-                    'total_tests': 'total_tested',
+                    "total_cases": "total_confirmed",
+                    "total_deaths": "total_deceased",
+                    "total_tests": "total_tested",
                 }
             )
             .merge(aux["country_codes"])

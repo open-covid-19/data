@@ -213,39 +213,1161 @@ CN_XZ,Q17269,CN,China,XZ,Tibet,,,CN,CHN,1
 CN_YN,Q43194,CN,China,YN,Yunnan,,,CN,CHN,1
 CN_ZJ,Q16967,CN,China,ZJ,Zhejiang,,,CN,CHN,1
 CO,Q739,CO,Colombia,,,,,CO,COL,0
-CO_AMA,Q44724,CO,Colombia,AMA,Amazonas,,,CO,COL,1
-CO_ANT,Q123304,CO,Colombia,ANT,Antioquia,,,CO,COL,1
-CO_ARA,Q230223,CO,Colombia,ARA,Arauca,,,CO,COL,1
-CO_ATL,Q230882,CO,Colombia,ATL,Atlántico,,,CO,COL,1
-CO_BOL,Q230597,CO,Colombia,BOL,Bolívar,,,CO,COL,1
-CO_BOY,Q121233,CO,Colombia,BOY,Boyacá,,,CO,COL,1
-CO_CAL,Q230607,CO,Colombia,CAL,Caldas,,,CO,COL,1
-CO_CAQ,Q13985,CO,Colombia,CAQ,Caquetá,,,CO,COL,1
-CO_CAS,Q13984,CO,Colombia,CAS,Casanare,,,CO,COL,1
-CO_CAU,Q230602,CO,Colombia,CAU,Cauca,,,CO,COL,1
-CO_CES,Q234916,CO,Colombia,CES,Cesar,,,CO,COL,1
-CO_CHO,Q230584,CO,Colombia,CHO,Chocó,,,CO,COL,1
-CO_COR,Q234912,CO,Colombia,COR,Córdoba,,,CO,COL,1
-CO_CUN,Q232564,CO,Colombia,CUN,Cundinamarca,,,CO,COL,1
-CO_DC,Q2841,CO,Colombia,DC,Bogotá,,,CO,COL,1
-CO_GUA,Q238645,CO,Colombia,GUA,Guainía,,,CO,COL,1
-CO_GUV,Q272885,CO,Colombia,GUV,Guaviare,,,CO,COL,1
-CO_HUI,Q234920,CO,Colombia,HUI,Huila,,,CO,COL,1
-CO_LAG,Q272747,CO,Colombia,LAG,La Guajira,,,CO,COL,1
-CO_MAG,Q199910,CO,Colombia,MAG,Magdalena,,,CO,COL,1
-CO_MET,Q238629,CO,Colombia,MET,Meta,,,CO,COL,1
-CO_NAR,Q230217,CO,Colombia,NAR,Nariño,,,CO,COL,1
-CO_NSA,Q233058,CO,Colombia,NSA,Norte de Santander,,,CO,COL,1
-CO_PUT,Q232953,CO,Colombia,PUT,Putumayo,,,CO,COL,1
-CO_QUI,Q13995,CO,Colombia,QUI,Quindío,,,CO,COL,1
-CO_RIS,Q13993,CO,Colombia,RIS,Risaralda,,,CO,COL,1
-CO_SAN,Q235166,CO,Colombia,SAN,Santander,,,CO,COL,1
-CO_SAP,Q26855,CO,Colombia,SAP,San Andrés,,,CO,COL,1
-CO_SUC,Q235188,CO,Colombia,SUC,Sucre,,,CO,COL,1
-CO_TOL,Q234501,CO,Colombia,TOL,Tolima,,,CO,COL,1
-CO_VAC,Q13990,CO,Colombia,VAC,Valle del Cauca,,,CO,COL,1
-CO_VAU,Q234505,CO,Colombia,VAU,Vaupés,,,CO,COL,1
-CO_VID,Q268729,CO,Colombia,VID,Vichada,,,CO,COL,1
+CO_05,Q123304,CO,Colombia,05,Antioquia,,,CO,COL,1
+CO_05_05001,Q48278,CO,Colombia,05,Antioquia,05001,Medellín,CO,COL,2
+CO_05_05002,Q1441947,CO,Colombia,05,Antioquia,05002,Abejorral,CO,COL,2
+CO_05_05004,Q1655866,CO,Colombia,05,Antioquia,05004,Abriaquí,CO,COL,2
+CO_05_05021,Q1655881,CO,Colombia,05,Antioquia,05021,Alejandría,CO,COL,2
+CO_05_05030,Q1441660,CO,Colombia,05,Antioquia,05030,Amagá,CO,COL,2
+CO_05_05031,Q1441668,CO,Colombia,05,Antioquia,05031,Amalfi,CO,COL,2
+CO_05_05034,Q267585,CO,Colombia,05,Antioquia,05034,Andes,CO,COL,2
+CO_05_05036,Q1576502,CO,Colombia,05,Antioquia,05036,Angelópolis,CO,COL,2
+CO_05_05038,Q1525268,CO,Colombia,05,Antioquia,05038,Angostura,CO,COL,2
+CO_05_05040,Q1526012,CO,Colombia,05,Antioquia,05040,Anorí,CO,COL,2
+CO_05_05042,Q927703,CO,Colombia,05,Antioquia,05042,Santa Fé De Antioquia,CO,COL,2
+CO_05_05044,Q1577307,CO,Colombia,05,Antioquia,05044,Anzá,CO,COL,2
+CO_05_05045,Q1093516,CO,Colombia,05,Antioquia,05045,Apartadó,CO,COL,2
+CO_05_05051,Q2088061,CO,Colombia,05,Antioquia,05051,Arboletes,CO,COL,2
+CO_05_05055,Q2336241,CO,Colombia,05,Antioquia,05055,Argelia,CO,COL,2
+CO_05_05059,Q934767,CO,Colombia,05,Antioquia,05059,Armenia,CO,COL,2
+CO_05_05079,Q1946659,CO,Colombia,05,Antioquia,05079,Barbosa,CO,COL,2
+CO_05_05086,Q1576993,CO,Colombia,05,Antioquia,05086,Belmira,CO,COL,2
+CO_05_05088,Q816024,CO,Colombia,05,Antioquia,05088,Bello,CO,COL,2
+CO_05_05091,Q1578748,CO,Colombia,05,Antioquia,05091,Betania,CO,COL,2
+CO_05_05093,Q426415,CO,Colombia,05,Antioquia,05093,Betulia,CO,COL,2
+CO_05_05101,Q1392639,CO,Colombia,05,Antioquia,05101,Ciudad Bolívar,CO,COL,2
+CO_05_05107,Q1579007,CO,Colombia,05,Antioquia,05107,Briceño,CO,COL,2
+CO_05_05113,Q1576546,CO,Colombia,05,Antioquia,05113,Buriticá,CO,COL,2
+CO_05_05120,Q2431763,CO,Colombia,05,Antioquia,05120,Cáceres,CO,COL,2
+CO_05_05125,Q1579442,CO,Colombia,05,Antioquia,05125,Caicedo,CO,COL,2
+CO_05_05129,Q598777,CO,Colombia,05,Antioquia,05129,Caldas,CO,COL,2
+CO_05_05134,Q546011,CO,Colombia,05,Antioquia,05134,Campamento,CO,COL,2
+CO_05_05138,Q1525112,CO,Colombia,05,Antioquia,05138,Cañasgordas,CO,COL,2
+CO_05_05142,Q1655826,CO,Colombia,05,Antioquia,05142,Caracolí,CO,COL,2
+CO_05_05145,Q1655846,CO,Colombia,05,Antioquia,05145,Caramanta,CO,COL,2
+CO_05_05147,Q1946648,CO,Colombia,05,Antioquia,05147,Carepa,CO,COL,2
+CO_05_05148,Q1256664,CO,Colombia,05,Antioquia,05148,El Carmen De Viboral,CO,COL,2
+CO_05_05150,Q1655875,CO,Colombia,05,Antioquia,05150,Carolina,CO,COL,2
+CO_05_05154,Q511705,CO,Colombia,05,Antioquia,05154,Caucasia,CO,COL,2
+CO_05_05172,Q2088075,CO,Colombia,05,Antioquia,05172,Chigorodó,CO,COL,2
+CO_05_05190,Q1578727,CO,Colombia,05,Antioquia,05190,Cisneros,CO,COL,2
+CO_05_05197,Q1946669,CO,Colombia,05,Antioquia,05197,Cocorná,CO,COL,2
+CO_05_05206,Q2279494,CO,Colombia,05,Antioquia,05206,Concepción,CO,COL,2
+CO_05_05209,Q1441793,CO,Colombia,05,Antioquia,05209,Concordia,CO,COL,2
+CO_05_05212,Q285891,CO,Colombia,05,Antioquia,05212,Copacabana,CO,COL,2
+CO_05_05234,Q1441773,CO,Colombia,05,Antioquia,05234,Dabeiba,CO,COL,2
+CO_05_05237,Q1525993,CO,Colombia,05,Antioquia,05237,Donmatías,CO,COL,2
+CO_05_05240,Q1525223,CO,Colombia,05,Antioquia,05240,Ebéjico,CO,COL,2
+CO_05_05250,Q1014722,CO,Colombia,05,Antioquia,05250,El Bagre,CO,COL,2
+CO_05_05264,Q1575512,CO,Colombia,05,Antioquia,05264,Entrerríos,CO,COL,2
+CO_05_05266,Q1447266,CO,Colombia,05,Antioquia,05266,Envigado,CO,COL,2
+CO_05_05282,Q1442002,CO,Colombia,05,Antioquia,05282,Fredonia,CO,COL,2
+CO_05_05284,Q636963,CO,Colombia,05,Antioquia,05284,Frontino,CO,COL,2
+CO_05_05306,Q1655837,CO,Colombia,05,Antioquia,05306,Giraldo,CO,COL,2
+CO_05_05308,Q774725,CO,Colombia,05,Antioquia,05308,Girardota,CO,COL,2
+CO_05_05310,Q1576474,CO,Colombia,05,Antioquia,05310,Gómez Plata,CO,COL,2
+CO_05_05313,Q1578735,CO,Colombia,05,Antioquia,05313,Granada,CO,COL,2
+CO_05_05315,Q2315211,CO,Colombia,05,Antioquia,05315,Guadalupe,CO,COL,2
+CO_05_05318,Q2088069,CO,Colombia,05,Antioquia,05318,Guarne,CO,COL,2
+CO_05_05321,Q1578769,CO,Colombia,05,Antioquia,05321,Guatapé,CO,COL,2
+CO_05_05347,Q1576041,CO,Colombia,05,Antioquia,05347,Heliconia,CO,COL,2
+CO_05_05353,Q1654573,CO,Colombia,05,Antioquia,05353,Hispania,CO,COL,2
+CO_05_05360,Q1527934,CO,Colombia,05,Antioquia,05360,Itagüí,CO,COL,2
+CO_05_05361,Q1441937,CO,Colombia,05,Antioquia,05361,Ituango,CO,COL,2
+CO_05_05364,Q1525138,CO,Colombia,05,Antioquia,05364,Jardín,CO,COL,2
+CO_05_05368,Q1525982,CO,Colombia,05,Antioquia,05368,Jericó,CO,COL,2
+CO_05_05376,Q1946679,CO,Colombia,05,Antioquia,05376,La Ceja,CO,COL,2
+CO_05_05380,Q932102,CO,Colombia,05,Antioquia,05380,La Estrella,CO,COL,2
+CO_05_05390,Q1576562,CO,Colombia,05,Antioquia,05390,La Pintada,CO,COL,2
+CO_05_05400,Q2143798,CO,Colombia,05,Antioquia,05400,La Unión,CO,COL,2
+CO_05_05411,Q1576529,CO,Colombia,05,Antioquia,05411,Liborina,CO,COL,2
+CO_05_05425,Q1576486,CO,Colombia,05,Antioquia,05425,Maceo,CO,COL,2
+CO_05_05440,Q2088084,CO,Colombia,05,Antioquia,05440,Marinilla,CO,COL,2
+CO_05_05467,Q1577236,CO,Colombia,05,Antioquia,05467,Montebello,CO,COL,2
+CO_05_05475,Q1655857,CO,Colombia,05,Antioquia,05475,Murindó,CO,COL,2
+CO_05_05480,Q1525997,CO,Colombia,05,Antioquia,05480,Mutatá,CO,COL,2
+CO_05_05483,Q590382,CO,Colombia,05,Antioquia,05483,Nariño,CO,COL,2
+CO_05_05490,Q976938,CO,Colombia,05,Antioquia,05490,Necoclí,CO,COL,2
+CO_05_05495,Q1441743,CO,Colombia,05,Antioquia,05495,Nechí,CO,COL,2
+CO_05_05501,Q1656222,CO,Colombia,05,Antioquia,05501,Olaya,CO,COL,2
+CO_05_05541,Q1525273,CO,Colombia,05,Antioquia,05541,Peñol,CO,COL,2
+CO_05_05543,Q1577164,CO,Colombia,05,Antioquia,05543,Peque,CO,COL,2
+CO_05_05576,Q1576028,CO,Colombia,05,Antioquia,05576,Pueblorrico,CO,COL,2
+CO_05_05579,Q1946640,CO,Colombia,05,Antioquia,05579,Puerto Berrío,CO,COL,2
+CO_05_05585,Q1526008,CO,Colombia,05,Antioquia,05585,Puerto Nare,CO,COL,2
+CO_05_05591,Q932785,CO,Colombia,05,Antioquia,05591,Puerto Triunfo,CO,COL,2
+CO_05_05604,Q1441733,CO,Colombia,05,Antioquia,05604,Remedios,CO,COL,2
+CO_05_05607,Q1525690,CO,Colombia,05,Antioquia,05607,Retiro,CO,COL,2
+CO_05_05615,Q1774644,CO,Colombia,05,Antioquia,05615,Rionegro,CO,COL,2
+CO_05_05628,Q589862,CO,Colombia,05,Antioquia,05628,Sabanalarga,CO,COL,2
+CO_05_05631,Q1770717,CO,Colombia,05,Antioquia,05631,Sabaneta,CO,COL,2
+CO_05_05642,Q1525126,CO,Colombia,05,Antioquia,05642,Salgar,CO,COL,2
+CO_05_05647,Q2433819,CO,Colombia,05,Antioquia,05647,San Andrés De Cuerquía,CO,COL,2
+CO_05_05649,Q2433839,CO,Colombia,05,Antioquia,05649,San Carlos,CO,COL,2
+CO_05_05652,Q975641,CO,Colombia,05,Antioquia,05652,San Francisco,CO,COL,2
+CO_05_05656,Q1526016,CO,Colombia,05,Antioquia,05656,San Jerónimo,CO,COL,2
+CO_05_05658,Q1655028,CO,Colombia,05,Antioquia,05658,San José De La Montaña,CO,COL,2
+CO_05_05659,Q1441760,CO,Colombia,05,Antioquia,05659,San Juan De Urabá,CO,COL,2
+CO_05_05660,Q2057762,CO,Colombia,05,Antioquia,05660,San Luis,CO,COL,2
+CO_05_05664,Q1441754,CO,Colombia,05,Antioquia,05664,San Pedro De Los Milagros,CO,COL,2
+CO_05_05665,Q1391914,CO,Colombia,05,Antioquia,05665,San Pedro De Urabá,CO,COL,2
+CO_05_05667,Q1526004,CO,Colombia,05,Antioquia,05667,San Rafael,CO,COL,2
+CO_05_05670,Q1525767,CO,Colombia,05,Antioquia,05670,San Roque,CO,COL,2
+CO_05_05674,Q1525987,CO,Colombia,05,Antioquia,05674,San Vicente Ferrer,CO,COL,2
+CO_05_05679,Q1441781,CO,Colombia,05,Antioquia,05679,Santa Bárbara,CO,COL,2
+CO_05_05686,Q2088093,CO,Colombia,05,Antioquia,05686,Santa Rosa De Osos,CO,COL,2
+CO_05_05690,Q1578783,CO,Colombia,05,Antioquia,05690,Santo Domingo,CO,COL,2
+CO_05_05697,Q1440830,CO,Colombia,05,Antioquia,05697,El Santuario,CO,COL,2
+CO_05_05736,Q2274555,CO,Colombia,05,Antioquia,05736,Segovia,CO,COL,2
+CO_05_05756,Q649293,CO,Colombia,05,Antioquia,05756,Sonsón,CO,COL,2
+CO_05_05761,Q1525131,CO,Colombia,05,Antioquia,05761,Sopetrán,CO,COL,2
+CO_05_05789,Q1526001,CO,Colombia,05,Antioquia,05789,Támesis,CO,COL,2
+CO_05_05790,Q2075499,CO,Colombia,05,Antioquia,05790,Tarazá,CO,COL,2
+CO_05_05792,Q1578758,CO,Colombia,05,Antioquia,05792,Tarso,CO,COL,2
+CO_05_05809,Q544083,CO,Colombia,05,Antioquia,05809,Titiribí,CO,COL,2
+CO_05_05819,Q2078498,CO,Colombia,05,Antioquia,05819,Toledo,CO,COL,2
+CO_05_05837,Q727559,CO,Colombia,05,Antioquia,05837,Turbo,CO,COL,2
+CO_05_05842,Q1578712,CO,Colombia,05,Antioquia,05842,Uramita,CO,COL,2
+CO_05_05847,Q1026557,CO,Colombia,05,Antioquia,05847,Urrao,CO,COL,2
+CO_05_05854,Q1525117,CO,Colombia,05,Antioquia,05854,Valdivia,CO,COL,2
+CO_05_05856,Q600927,CO,Colombia,05,Antioquia,05856,Valparaíso,CO,COL,2
+CO_05_05858,Q1576012,CO,Colombia,05,Antioquia,05858,Vegachí,CO,COL,2
+CO_05_05861,Q525532,CO,Colombia,05,Antioquia,05861,Venecia,CO,COL,2
+CO_05_05873,Q1655819,CO,Colombia,05,Antioquia,05873,Vigía Del Fuerte,CO,COL,2
+CO_05_05885,Q1576665,CO,Colombia,05,Antioquia,05885,Yalí,CO,COL,2
+CO_05_05887,Q972405,CO,Colombia,05,Antioquia,05887,Yarumal,CO,COL,2
+CO_05_05890,Q367639,CO,Colombia,05,Antioquia,05890,Yolombó,CO,COL,2
+CO_05_05893,Q1526021,CO,Colombia,05,Antioquia,05893,Yondó,CO,COL,2
+CO_05_05895,Q1441664,CO,Colombia,05,Antioquia,05895,Zaragoza,CO,COL,2
+CO_08,Q230882,CO,Colombia,08,Atlántico,,,CO,COL,1
+CO_08_08001,Q62823,CO,Colombia,08,Atlántico,08001,Barranquilla,CO,COL,2
+CO_08_08078,Q979097,CO,Colombia,08,Atlántico,08078,Baranoa,CO,COL,2
+CO_08_08137,Q2279534,CO,Colombia,08,Atlántico,08137,Campo De La Cruz,CO,COL,2
+CO_08_08141,Q1023776,CO,Colombia,08,Atlántico,08141,Candelaria,CO,COL,2
+CO_08_08296,Q2307260,CO,Colombia,08,Atlántico,08296,Galapa,CO,COL,2
+CO_08_08372,Q2320402,CO,Colombia,08,Atlántico,08372,Juan De Acosta,CO,COL,2
+CO_08_08421,Q2308661,CO,Colombia,08,Atlántico,08421,Luruaco,CO,COL,2
+CO_08_08433,Q568597,CO,Colombia,08,Atlántico,08433,Malambo,CO,COL,2
+CO_08_08436,Q2432352,CO,Colombia,08,Atlántico,08436,Manatí,CO,COL,2
+CO_08_08520,Q1023805,CO,Colombia,08,Atlántico,08520,Palmar De Varela,CO,COL,2
+CO_08_08549,Q2320388,CO,Colombia,08,Atlántico,08549,Piojó,CO,COL,2
+CO_08_08558,Q1526194,CO,Colombia,08,Atlántico,08558,Polonuevo,CO,COL,2
+CO_08_08560,Q512871,CO,Colombia,08,Atlántico,08560,Ponedera,CO,COL,2
+CO_08_08573,Q2186176,CO,Colombia,08,Atlántico,08573,Puerto Colombia,CO,COL,2
+CO_08_08606,Q2320315,CO,Colombia,08,Atlántico,08606,Repelón,CO,COL,2
+CO_08_08634,Q2433625,CO,Colombia,08,Atlántico,08634,Sabanagrande,CO,COL,2
+CO_08_08638,Q1027007,CO,Colombia,08,Atlántico,08638,Sabanalarga,CO,COL,2
+CO_08_08675,Q1867062,CO,Colombia,08,Atlántico,08675,Santa Lucía,CO,COL,2
+CO_08_08685,Q2434309,CO,Colombia,08,Atlántico,08685,Santo Tomás,CO,COL,2
+CO_08_08758,Q767071,CO,Colombia,08,Atlántico,08758,Soledad,CO,COL,2
+CO_08_08770,Q1449926,CO,Colombia,08,Atlántico,08770,Suan,CO,COL,2
+CO_08_08832,Q1932814,CO,Colombia,08,Atlántico,08832,Tubará,CO,COL,2
+CO_08_08849,Q2084023,CO,Colombia,08,Atlántico,08849,Usiacurí,CO,COL,2
+CO_11,Q2841,CO,Colombia,11,Bogotá D.C.,,,CO,COL,1
+CO_11_11001,Q2841,CO,Colombia,11,Bogotá D.C.,11001,Bogotá D.C.,CO,COL,2
+CO_13,Q230597,CO,Colombia,13,Bolívar,,,CO,COL,1
+CO_13_13001,Q657461,CO,Colombia,13,Bolívar,13001,Cartagena De Indias,CO,COL,2
+CO_13_13006,Q933580,CO,Colombia,13,Bolívar,13006,Achí,CO,COL,2
+CO_13_13030,Q444511,CO,Colombia,13,Bolívar,13030,Altos Del Rosario,CO,COL,2
+CO_13_13042,Q641599,CO,Colombia,13,Bolívar,13042,Arenal,CO,COL,2
+CO_13_13052,Q671427,CO,Colombia,13,Bolívar,13052,Arjona,CO,COL,2
+CO_13_13062,Q513501,CO,Colombia,13,Bolívar,13062,Arroyohondo,CO,COL,2
+CO_13_13074,Q1525685,CO,Colombia,13,Bolívar,13074,Barranco De Loba,CO,COL,2
+CO_13_13140,Q476071,CO,Colombia,13,Bolívar,13140,Calamar,CO,COL,2
+CO_13_13160,Q1576351,CO,Colombia,13,Bolívar,13160,Cantagallo,CO,COL,2
+CO_13_13188,Q1579035,CO,Colombia,13,Bolívar,13188,Cicuco,CO,COL,2
+CO_13_13212,Q1150886,CO,Colombia,13,Bolívar,13212,Córdoba,CO,COL,2
+CO_13_13222,Q1524792,CO,Colombia,13,Bolívar,13222,Clemencia,CO,COL,2
+CO_13_13244,Q1323930,CO,Colombia,13,Bolívar,13244,El Carmen De Bolívar,CO,COL,2
+CO_13_13248,Q1576366,CO,Colombia,13,Bolívar,13248,El Guamo,CO,COL,2
+CO_13_13268,Q662799,CO,Colombia,13,Bolívar,13268,El Peñón,CO,COL,2
+CO_13_13300,Q369599,CO,Colombia,13,Bolívar,13300,Hatillo De Loba,CO,COL,2
+CO_13_13430,Q1011196,CO,Colombia,13,Bolívar,13430,Magangué,CO,COL,2
+CO_13_13433,Q1440795,CO,Colombia,13,Bolívar,13433,Mahates,CO,COL,2
+CO_13_13440,Q1575498,CO,Colombia,13,Bolívar,13440,Margarita,CO,COL,2
+CO_13_13442,Q597264,CO,Colombia,13,Bolívar,13442,María La Baja,CO,COL,2
+CO_13_13458,Q1526097,CO,Colombia,13,Bolívar,13458,Montecristo,CO,COL,2
+CO_13_13468,Q740288,CO,Colombia,13,Bolívar,13468,Santa Cruz De Mompox,CO,COL,2
+CO_13_13473,Q2432408,CO,Colombia,13,Bolívar,13473,Morales,CO,COL,2
+CO_13_13490,Q2565188,CO,Colombia,13,Bolívar,13490,Norosí,CO,COL,2
+CO_13_13549,Q1442317,CO,Colombia,13,Bolívar,13549,Pinillos,CO,COL,2
+CO_13_13580,Q1577604,CO,Colombia,13,Bolívar,13580,Regidor,CO,COL,2
+CO_13_13600,Q1442380,CO,Colombia,13,Bolívar,13600,Río Viejo,CO,COL,2
+CO_13_13620,Q2434056,CO,Colombia,13,Bolívar,13620,San Cristóbal,CO,COL,2
+CO_13_13647,Q1525416,CO,Colombia,13,Bolívar,13647,San Estanislao,CO,COL,2
+CO_13_13650,Q1526065,CO,Colombia,13,Bolívar,13650,San Fernando,CO,COL,2
+CO_13_13654,Q1441919,CO,Colombia,13,Bolívar,13654,San Jacinto,CO,COL,2
+CO_13_13655,Q1576322,CO,Colombia,13,Bolívar,13655,San Jacinto Del Cauca,CO,COL,2
+CO_13_13657,Q1822959,CO,Colombia,13,Bolívar,13657,San Juan Nepomuceno,CO,COL,2
+CO_13_13667,Q1525726,CO,Colombia,13,Bolívar,13667,San Martín De Loba,CO,COL,2
+CO_13_13670,Q1440762,CO,Colombia,13,Bolívar,13670,San Pablo,CO,COL,2
+CO_13_13673,Q1525304,CO,Colombia,13,Bolívar,13673,Santa Catalina,CO,COL,2
+CO_13_13683,Q1526264,CO,Colombia,13,Bolívar,13683,Santa Rosa,CO,COL,2
+CO_13_13688,Q1256676,CO,Colombia,13,Bolívar,13688,Santa Rosa Del Sur,CO,COL,2
+CO_13_13744,Q1525774,CO,Colombia,13,Bolívar,13744,Simití,CO,COL,2
+CO_13_13760,Q1575590,CO,Colombia,13,Bolívar,13760,Soplaviento,CO,COL,2
+CO_13_13780,Q1576337,CO,Colombia,13,Bolívar,13780,Talaigua Nuevo,CO,COL,2
+CO_13_13810,Q1526147,CO,Colombia,13,Bolívar,13810,Tiquisio,CO,COL,2
+CO_13_13836,Q2080243,CO,Colombia,13,Bolívar,13836,Turbaco,CO,COL,2
+CO_13_13838,Q1526061,CO,Colombia,13,Bolívar,13838,Turbaná,CO,COL,2
+CO_13_13873,Q2433377,CO,Colombia,13,Bolívar,13873,Villanueva,CO,COL,2
+CO_13_13894,Q746961,CO,Colombia,13,Bolívar,13894,Zambrano,CO,COL,2
+CO_15,Q121233,CO,Colombia,15,Boyacá,,,CO,COL,1
+CO_15_15001,Q236744,CO,Colombia,15,Boyacá,15001,Tunja,CO,COL,2
+CO_15_15022,Q1656170,CO,Colombia,15,Boyacá,15022,Almeida,CO,COL,2
+CO_15_15047,Q1526099,CO,Colombia,15,Boyacá,15047,Aquitania,CO,COL,2
+CO_15_15051,Q1654728,CO,Colombia,15,Boyacá,15051,Arcabuco,CO,COL,2
+CO_15_15087,Q1575687,CO,Colombia,15,Boyacá,15087,Belén,CO,COL,2
+CO_15_15090,Q1656286,CO,Colombia,15,Boyacá,15090,Berbeo,CO,COL,2
+CO_15_15092,Q1654814,CO,Colombia,15,Boyacá,15092,Betéitiva,CO,COL,2
+CO_15_15097,Q1576227,CO,Colombia,15,Boyacá,15097,Boavita,CO,COL,2
+CO_15_15104,Q1654749,CO,Colombia,15,Boyacá,15104,Boyacá,CO,COL,2
+CO_15_15106,Q2430372,CO,Colombia,15,Boyacá,15106,Briceño,CO,COL,2
+CO_15_15109,Q1879585,CO,Colombia,15,Boyacá,15109,Buenavista,CO,COL,2
+CO_15_15114,Q1654742,CO,Colombia,15,Boyacá,15114,Busbanzá,CO,COL,2
+CO_15_15131,Q2430634,CO,Colombia,15,Boyacá,15131,Caldas,CO,COL,2
+CO_15_15135,Q1656329,CO,Colombia,15,Boyacá,15135,Campohermoso,CO,COL,2
+CO_15_15162,Q1654487,CO,Colombia,15,Boyacá,15162,Cerinza,CO,COL,2
+CO_15_15172,Q1654938,CO,Colombia,15,Boyacá,15172,Chinavita,CO,COL,2
+CO_15_15176,Q951897,CO,Colombia,15,Boyacá,15176,Chiquinquirá,CO,COL,2
+CO_15_15180,Q1654579,CO,Colombia,15,Boyacá,15180,Chiscas,CO,COL,2
+CO_15_15183,Q1575553,CO,Colombia,15,Boyacá,15183,Chita,CO,COL,2
+CO_15_15185,Q1574783,CO,Colombia,15,Boyacá,15185,Chitaraque,CO,COL,2
+CO_15_15187,Q1654780,CO,Colombia,15,Boyacá,15187,Chivatá,CO,COL,2
+CO_15_15189,Q2431058,CO,Colombia,15,Boyacá,15189,Ciénega,CO,COL,2
+CO_15_15204,Q1525695,CO,Colombia,15,Boyacá,15204,Cómbita,CO,COL,2
+CO_15_15212,Q10749881,CO,Colombia,15,Boyacá,15212,Coper,CO,COL,2
+CO_15_15215,Q928725,CO,Colombia,15,Boyacá,15215,Corrales,CO,COL,2
+CO_15_15218,Q1654501,CO,Colombia,15,Boyacá,15218,Covarachía,CO,COL,2
+CO_15_15223,Q1576256,CO,Colombia,15,Boyacá,15223,Cubará,CO,COL,2
+CO_15_15224,Q1654879,CO,Colombia,15,Boyacá,15224,Cucaita,CO,COL,2
+CO_15_15226,Q1654830,CO,Colombia,15,Boyacá,15226,Cuítiva,CO,COL,2
+CO_15_15232,Q1575485,CO,Colombia,15,Boyacá,15232,Chíquiza,CO,COL,2
+CO_15_15236,Q1656250,CO,Colombia,15,Boyacá,15236,Chivor,CO,COL,2
+CO_15_15238,Q1011125,CO,Colombia,15,Boyacá,15238,Duitama,CO,COL,2
+CO_15_15244,Q1655984,CO,Colombia,15,Boyacá,15244,El Cocuy,CO,COL,2
+CO_15_15248,Q1654603,CO,Colombia,15,Boyacá,15248,El Espino,CO,COL,2
+CO_15_15272,Q1579392,CO,Colombia,15,Boyacá,15272,Firavitoba,CO,COL,2
+CO_15_15276,Q1656297,CO,Colombia,15,Boyacá,15276,Floresta,CO,COL,2
+CO_15_15293,Q1656242,CO,Colombia,15,Boyacá,15293,Gachantivá,CO,COL,2
+CO_15_15296,Q1654547,CO,Colombia,15,Boyacá,15296,Gámeza,CO,COL,2
+CO_15_15299,Q1524837,CO,Colombia,15,Boyacá,15299,Garagoa,CO,COL,2
+CO_15_15317,Q963379,CO,Colombia,15,Boyacá,15317,Guacamayas,CO,COL,2
+CO_15_15322,Q1577072,CO,Colombia,15,Boyacá,15322,Guateque,CO,COL,2
+CO_15_15325,Q1577926,CO,Colombia,15,Boyacá,15325,Guayatá,CO,COL,2
+CO_15_15332,Q1577669,CO,Colombia,15,Boyacá,15332,Güicán De La Sierra,CO,COL,2
+CO_15_15362,Q1655524,CO,Colombia,15,Boyacá,15362,Iza,CO,COL,2
+CO_15_15367,Q1577759,CO,Colombia,15,Boyacá,15367,Jenesano,CO,COL,2
+CO_15_15368,Q2408710,CO,Colombia,15,Boyacá,15368,Jericó,CO,COL,2
+CO_15_15377,Q1654772,CO,Colombia,15,Boyacá,15377,Labranzagrande,CO,COL,2
+CO_15_15380,Q1654986,CO,Colombia,15,Boyacá,15380,La Capilla,CO,COL,2
+CO_15_15401,Q2192512,CO,Colombia,15,Boyacá,15401,La Victoria,CO,COL,2
+CO_15_15403,Q1654706,CO,Colombia,15,Boyacá,15403,La Uvita,CO,COL,2
+CO_15_15407,Q1409503,CO,Colombia,15,Boyacá,15407,Villa De Leyva,CO,COL,2
+CO_15_15425,Q1656366,CO,Colombia,15,Boyacá,15425,Macanal,CO,COL,2
+CO_15_15442,Q1574705,CO,Colombia,15,Boyacá,15442,Maripí,CO,COL,2
+CO_15_15455,Q2266341,CO,Colombia,15,Boyacá,15455,Miraflores,CO,COL,2
+CO_15_15464,Q1656199,CO,Colombia,15,Boyacá,15464,Mongua,CO,COL,2
+CO_15_15466,Q1654539,CO,Colombia,15,Boyacá,15466,Monguí,CO,COL,2
+CO_15_15469,Q1440715,CO,Colombia,15,Boyacá,15469,Moniquirá,CO,COL,2
+CO_15_15476,Q1577790,CO,Colombia,15,Boyacá,15476,Motavita,CO,COL,2
+CO_15_15480,Q1431785,CO,Colombia,15,Boyacá,15480,Muzo,CO,COL,2
+CO_15_15491,Q1524817,CO,Colombia,15,Boyacá,15491,Nobsa,CO,COL,2
+CO_15_15494,Q1577145,CO,Colombia,15,Boyacá,15494,Nuevo Colón,CO,COL,2
+CO_15_15500,Q1656214,CO,Colombia,15,Boyacá,15500,Oicatá,CO,COL,2
+CO_15_15507,Q1577588,CO,Colombia,15,Boyacá,15507,Otanche,CO,COL,2
+CO_15_15511,Q1654528,CO,Colombia,15,Boyacá,15511,Pachavita,CO,COL,2
+CO_15_15514,Q2433466,CO,Colombia,15,Boyacá,15514,Páez,CO,COL,2
+CO_15_15516,Q1391867,CO,Colombia,15,Boyacá,15516,Paipa,CO,COL,2
+CO_15_15518,Q935494,CO,Colombia,15,Boyacá,15518,Pajarito,CO,COL,2
+CO_15_15522,Q1656207,CO,Colombia,15,Boyacá,15522,Panqueba,CO,COL,2
+CO_15_15531,Q1577120,CO,Colombia,15,Boyacá,15531,Pauna,CO,COL,2
+CO_15_15533,Q2022761,CO,Colombia,15,Boyacá,15533,Paya,CO,COL,2
+CO_15_15537,Q2279482,CO,Colombia,15,Boyacá,15537,Paz De Río,CO,COL,2
+CO_15_15542,Q1575463,CO,Colombia,15,Boyacá,15542,Pesca,CO,COL,2
+CO_15_15550,Q1656260,CO,Colombia,15,Boyacá,15550,Pisba,CO,COL,2
+CO_15_15572,Q2335098,CO,Colombia,15,Boyacá,15572,Puerto Boyacá,CO,COL,2
+CO_15_15580,Q1575472,CO,Colombia,15,Boyacá,15580,Quípama,CO,COL,2
+CO_15_15599,Q1575682,CO,Colombia,15,Boyacá,15599,Ramiriquí,CO,COL,2
+CO_15_15600,Q1526054,CO,Colombia,15,Boyacá,15600,Ráquira,CO,COL,2
+CO_15_15621,Q1654613,CO,Colombia,15,Boyacá,15621,Rondón,CO,COL,2
+CO_15_15632,Q1525813,CO,Colombia,15,Boyacá,15632,Saboyá,CO,COL,2
+CO_15_15638,Q1656093,CO,Colombia,15,Boyacá,15638,Sáchica,CO,COL,2
+CO_15_15646,Q1526091,CO,Colombia,15,Boyacá,15646,Samacá,CO,COL,2
+CO_15_15660,Q1656180,CO,Colombia,15,Boyacá,15660,San Eduardo,CO,COL,2
+CO_15_15664,Q1576405,CO,Colombia,15,Boyacá,15664,San José De Pare,CO,COL,2
+CO_15_15667,Q1577001,CO,Colombia,15,Boyacá,15667,San Luis De Gaceno,CO,COL,2
+CO_15_15673,Q1654673,CO,Colombia,15,Boyacá,15673,San Mateo,CO,COL,2
+CO_15_15676,Q1656150,CO,Colombia,15,Boyacá,15676,San Miguel De Sema,CO,COL,2
+CO_15_15681,Q1575910,CO,Colombia,15,Boyacá,15681,San Pablo De Borbur,CO,COL,2
+CO_15_15686,Q1575506,CO,Colombia,15,Boyacá,15686,Santana,CO,COL,2
+CO_15_15690,Q2434307,CO,Colombia,15,Boyacá,15690,Santa María,CO,COL,2
+CO_15_15693,Q1526329,CO,Colombia,15,Boyacá,15693,Santa Rosa De Viterbo,CO,COL,2
+CO_15_15696,Q1654858,CO,Colombia,15,Boyacá,15696,Santa Sofía,CO,COL,2
+CO_15_15720,Q1654912,CO,Colombia,15,Boyacá,15720,Sativanorte,CO,COL,2
+CO_15_15723,Q1656373,CO,Colombia,15,Boyacá,15723,Sativasur,CO,COL,2
+CO_15_15740,Q1576379,CO,Colombia,15,Boyacá,15740,Siachoque,CO,COL,2
+CO_15_15753,Q1577643,CO,Colombia,15,Boyacá,15753,Soatá,CO,COL,2
+CO_15_15755,Q1576416,CO,Colombia,15,Boyacá,15755,Socotá,CO,COL,2
+CO_15_15757,Q1574712,CO,Colombia,15,Boyacá,15757,Socha,CO,COL,2
+CO_15_15759,Q989996,CO,Colombia,15,Boyacá,15759,Sogamoso,CO,COL,2
+CO_15_15761,Q1654735,CO,Colombia,15,Boyacá,15761,Somondoco,CO,COL,2
+CO_15_15762,Q1655051,CO,Colombia,15,Boyacá,15762,Sora,CO,COL,2
+CO_15_15763,Q1579502,CO,Colombia,15,Boyacá,15763,Sotaquirá,CO,COL,2
+CO_15_15764,Q1576242,CO,Colombia,15,Boyacá,15764,Soracá,CO,COL,2
+CO_15_15774,Q1656233,CO,Colombia,15,Boyacá,15774,Susacón,CO,COL,2
+CO_15_15776,Q1576393,CO,Colombia,15,Boyacá,15776,Sutamarchán,CO,COL,2
+CO_15_15778,Q1654861,CO,Colombia,15,Boyacá,15778,Sutatenza,CO,COL,2
+CO_15_15790,Q1574813,CO,Colombia,15,Boyacá,15790,Tasco,CO,COL,2
+CO_15_15798,Q1654622,CO,Colombia,15,Boyacá,15798,Tenza,CO,COL,2
+CO_15_15804,Q1579430,CO,Colombia,15,Boyacá,15804,Tibaná,CO,COL,2
+CO_15_15806,Q1525713,CO,Colombia,15,Boyacá,15806,Tibasosa,CO,COL,2
+CO_15_15808,Q1654591,CO,Colombia,15,Boyacá,15808,Tinjacá,CO,COL,2
+CO_15_15810,Q1654480,CO,Colombia,15,Boyacá,15810,Tipacoque,CO,COL,2
+CO_15_15814,Q514196,CO,Colombia,15,Boyacá,15814,Toca,CO,COL,2
+CO_15_15816,Q1654994,CO,Colombia,15,Boyacá,15816,Togüí,CO,COL,2
+CO_15_15820,Q1656317,CO,Colombia,15,Boyacá,15820,Tópaga,CO,COL,2
+CO_15_15822,Q517235,CO,Colombia,15,Boyacá,15822,Tota,CO,COL,2
+CO_15_15832,Q1654497,CO,Colombia,15,Boyacá,15832,Tununguá,CO,COL,2
+CO_15_15835,Q927087,CO,Colombia,15,Boyacá,15835,Turmequé,CO,COL,2
+CO_15_15837,Q742239,CO,Colombia,15,Boyacá,15837,Tuta,CO,COL,2
+CO_15_15839,Q735698,CO,Colombia,15,Boyacá,15839,Tutazá,CO,COL,2
+CO_15_15842,Q1576294,CO,Colombia,15,Boyacá,15842,Úmbita,CO,COL,2
+CO_15_15861,Q1525707,CO,Colombia,15,Boyacá,15861,Ventaquemada,CO,COL,2
+CO_15_15879,Q1655106,CO,Colombia,15,Boyacá,15879,Viracachá,CO,COL,2
+CO_15_15897,Q1654785,CO,Colombia,15,Boyacá,15897,Zetaquira,CO,COL,2
+CO_17,Q230607,CO,Colombia,17,Caldas,,,CO,COL,1
+CO_17_17001,Q235190,CO,Colombia,17,Caldas,17001,Manizales,CO,COL,2
+CO_17_17013,Q1442012,CO,Colombia,17,Caldas,17013,Aguadas,CO,COL,2
+CO_17_17042,Q547678,CO,Colombia,17,Caldas,17042,Anserma,CO,COL,2
+CO_17_17050,Q1525243,CO,Colombia,17,Caldas,17050,Aranzazu,CO,COL,2
+CO_17_17088,Q1525292,CO,Colombia,17,Caldas,17088,Belalcázar,CO,COL,2
+CO_17_17174,Q1073678,CO,Colombia,17,Caldas,17174,Chinchiná,CO,COL,2
+CO_17_17272,Q1525422,CO,Colombia,17,Caldas,17272,Filadelfia,CO,COL,2
+CO_17_17380,Q2279516,CO,Colombia,17,Caldas,17380,La Dorada,CO,COL,2
+CO_17_17388,Q1574759,CO,Colombia,17,Caldas,17388,La Merced,CO,COL,2
+CO_17_17433,Q1442335,CO,Colombia,17,Caldas,17433,Manzanares,CO,COL,2
+CO_17_17442,Q1577890,CO,Colombia,17,Caldas,17442,Marmato,CO,COL,2
+CO_17_17444,Q925735,CO,Colombia,17,Caldas,17444,Marquetalia,CO,COL,2
+CO_17_17446,Q1654886,CO,Colombia,17,Caldas,17446,Marulanda,CO,COL,2
+CO_17_17486,Q1393029,CO,Colombia,17,Caldas,17486,Neira,CO,COL,2
+CO_17_17495,Q921734,CO,Colombia,17,Caldas,17495,Norcasia,CO,COL,2
+CO_17_17513,Q1526108,CO,Colombia,17,Caldas,17513,Pácora,CO,COL,2
+CO_17_17524,Q1524756,CO,Colombia,17,Caldas,17524,Palestina,CO,COL,2
+CO_17_17541,Q1440753,CO,Colombia,17,Caldas,17541,Pensilvania,CO,COL,2
+CO_17_17614,Q1093015,CO,Colombia,17,Caldas,17614,Riosucio,CO,COL,2
+CO_17_17616,Q536797,CO,Colombia,17,Caldas,17616,Risaralda,CO,COL,2
+CO_17_17653,Q610524,CO,Colombia,17,Caldas,17653,Salamina,CO,COL,2
+CO_17_17662,Q726717,CO,Colombia,17,Caldas,17662,Samaná,CO,COL,2
+CO_17_17665,Q1574774,CO,Colombia,17,Caldas,17665,San José,CO,COL,2
+CO_17_17777,Q1441985,CO,Colombia,17,Caldas,17777,Supía,CO,COL,2
+CO_17_17867,Q586109,CO,Colombia,17,Caldas,17867,Victoria,CO,COL,2
+CO_17_17873,Q961399,CO,Colombia,17,Caldas,17873,Villamaría,CO,COL,2
+CO_17_17877,Q1525310,CO,Colombia,17,Caldas,17877,Viterbo,CO,COL,2
+CO_18,Q13985,CO,Colombia,18,Caquetá,,,CO,COL,1
+CO_18_18001,Q849859,CO,Colombia,18,Caquetá,18001,Florencia,CO,COL,2
+CO_18_18029,Q1576577,CO,Colombia,18,Caquetá,18029,Albania,CO,COL,2
+CO_18_18094,Q1579354,CO,Colombia,18,Caquetá,18094,Belén De Los Andaquíes,CO,COL,2
+CO_18_18150,Q1391874,CO,Colombia,18,Caquetá,18150,Cartagena Del Chairá,CO,COL,2
+CO_18_18205,Q660268,CO,Colombia,18,Caquetá,18205,Curillo,CO,COL,2
+CO_18_18247,Q746033,CO,Colombia,18,Caquetá,18247,El Doncello,CO,COL,2
+CO_18_18256,Q13998,CO,Colombia,18,Caquetá,18256,El Paujíl,CO,COL,2
+CO_18_18410,Q1441926,CO,Colombia,18,Caquetá,18410,La Montañita,CO,COL,2
+CO_18_18460,Q1576645,CO,Colombia,18,Caquetá,18460,Milán,CO,COL,2
+CO_18_18479,Q1654632,CO,Colombia,18,Caquetá,18479,Morelia,CO,COL,2
+CO_18_18592,Q938384,CO,Colombia,18,Caquetá,18592,Puerto Rico,CO,COL,2
+CO_18_18610,Q1525719,CO,Colombia,18,Caquetá,18610,San José Del Fragua,CO,COL,2
+CO_18_18753,Q1642041,CO,Colombia,18,Caquetá,18753,San Vicente Del Caguán,CO,COL,2
+CO_18_18756,Q1525682,CO,Colombia,18,Caquetá,18756,Solano,CO,COL,2
+CO_18_18785,Q1575560,CO,Colombia,18,Caquetá,18785,Solita,CO,COL,2
+CO_18_18860,Q1577776,CO,Colombia,18,Caquetá,18860,Valparaíso,CO,COL,2
+CO_19,Q230602,CO,Colombia,19,Cauca,,,CO,COL,1
+CO_19_19001,Q335135,CO,Colombia,19,Cauca,19001,Popayán,CO,COL,2
+CO_19_19022,Q2308989,CO,Colombia,19,Cauca,19022,Almaguer,CO,COL,2
+CO_19_19050,Q2429884,CO,Colombia,19,Cauca,19050,Argelia,CO,COL,2
+CO_19_19075,Q2309052,CO,Colombia,19,Cauca,19075,Balboa,CO,COL,2
+CO_19_19100,Q1936249,CO,Colombia,19,Cauca,19100,Bolívar,CO,COL,2
+CO_19_19110,Q2025478,CO,Colombia,19,Cauca,19110,Buenos Aires,CO,COL,2
+CO_19_19130,Q1256885,CO,Colombia,19,Cauca,19130,Cajibío,CO,COL,2
+CO_19_19137,Q1391900,CO,Colombia,19,Cauca,19137,Caldono,CO,COL,2
+CO_19_19142,Q2420491,CO,Colombia,19,Cauca,19142,Caloto,CO,COL,2
+CO_19_19212,Q2236398,CO,Colombia,19,Cauca,19212,Corinto,CO,COL,2
+CO_19_19256,Q961294,CO,Colombia,19,Cauca,19256,El Tambo,CO,COL,2
+CO_19_19290,Q2308980,CO,Colombia,19,Cauca,19290,Florencia,CO,COL,2
+CO_19_19300,Q3091297,CO,Colombia,19,Cauca,19300,Guachené,CO,COL,2
+CO_19_19318,Q2432113,CO,Colombia,19,Cauca,19318,Guapi,CO,COL,2
+CO_19_19355,Q1441907,CO,Colombia,19,Cauca,19355,Inzá,CO,COL,2
+CO_19_19364,Q1525285,CO,Colombia,19,Cauca,19364,Jambaló,CO,COL,2
+CO_19_19392,Q508563,CO,Colombia,19,Cauca,19392,La Sierra,CO,COL,2
+CO_19_19397,Q2309024,CO,Colombia,19,Cauca,19397,La Vega,CO,COL,2
+CO_19_19418,Q2297415,CO,Colombia,19,Cauca,19418,López De Micay,CO,COL,2
+CO_19_19450,Q1526078,CO,Colombia,19,Cauca,19450,Mercaderes,CO,COL,2
+CO_19_19455,Q2308999,CO,Colombia,19,Cauca,19455,Miranda,CO,COL,2
+CO_19_19473,Q615597,CO,Colombia,19,Cauca,19473,Morales,CO,COL,2
+CO_19_19513,Q2433292,CO,Colombia,19,Cauca,19513,Padilla,CO,COL,2
+CO_19_19517,Q1391859,CO,Colombia,19,Cauca,19517,Páez,CO,COL,2
+CO_19_19532,Q1256878,CO,Colombia,19,Cauca,19532,Patía,CO,COL,2
+CO_19_19533,Q1579367,CO,Colombia,19,Cauca,19533,Piamonte,CO,COL,2
+CO_19_19548,Q2433349,CO,Colombia,19,Cauca,19548,Piendamó - Tunía,CO,COL,2
+CO_19_19573,Q1256377,CO,Colombia,19,Cauca,19573,Puerto Tejada,CO,COL,2
+CO_19_19585,Q2317482,CO,Colombia,19,Cauca,19585,Puracé,CO,COL,2
+CO_19_19622,Q1525805,CO,Colombia,19,Cauca,19622,Rosas,CO,COL,2
+CO_19_19693,Q2434304,CO,Colombia,19,Cauca,19693,San Sebastián,CO,COL,2
+CO_19_19698,Q1093175,CO,Colombia,19,Cauca,19698,Santander De Quilichao,CO,COL,2
+CO_19_19701,Q2026818,CO,Colombia,19,Cauca,19701,Santa Rosa,CO,COL,2
+CO_19_19743,Q2418703,CO,Colombia,19,Cauca,19743,Silvia,CO,COL,2
+CO_19_19760,Q2434321,CO,Colombia,19,Cauca,19760,Sotará Paispamba,CO,COL,2
+CO_19_19780,Q2203425,CO,Colombia,19,Cauca,19780,Suárez,CO,COL,2
+CO_19_19785,Q2434329,CO,Colombia,19,Cauca,19785,Sucre,CO,COL,2
+CO_19_19807,Q2309015,CO,Colombia,19,Cauca,19807,Timbío,CO,COL,2
+CO_19_19809,Q1787517,CO,Colombia,19,Cauca,19809,Timbiquí,CO,COL,2
+CO_19_19821,Q1870972,CO,Colombia,19,Cauca,19821,Toribío,CO,COL,2
+CO_19_19824,Q2405808,CO,Colombia,19,Cauca,19824,Totoró,CO,COL,2
+CO_19_19845,Q2434767,CO,Colombia,19,Cauca,19845,Villa Rica,CO,COL,2
+CO_20,Q234916,CO,Colombia,20,Cesar,,,CO,COL,1
+CO_20_20001,Q376903,CO,Colombia,20,Cesar,20001,Valledupar,CO,COL,2
+CO_20_20011,Q2309010,CO,Colombia,20,Cesar,20011,Aguachica,CO,COL,2
+CO_20_20013,Q781307,CO,Colombia,20,Cesar,20013,Agustín Codazzi,CO,COL,2
+CO_20_20032,Q1525298,CO,Colombia,20,Cesar,20032,Astrea,CO,COL,2
+CO_20_20045,Q1524772,CO,Colombia,20,Cesar,20045,Becerril,CO,COL,2
+CO_20_20060,Q1391851,CO,Colombia,20,Cesar,20060,Bosconia,CO,COL,2
+CO_20_20175,Q509339,CO,Colombia,20,Cesar,20175,Chimichagua,CO,COL,2
+CO_20_20178,Q1440741,CO,Colombia,20,Cesar,20178,Chiriguaná,CO,COL,2
+CO_20_20228,Q2309031,CO,Colombia,20,Cesar,20228,Curumaní,CO,COL,2
+CO_20_20238,Q1440746,CO,Colombia,20,Cesar,20238,El Copey,CO,COL,2
+CO_20_20250,Q1441955,CO,Colombia,20,Cesar,20250,El Paso,CO,COL,2
+CO_20_20295,Q1525797,CO,Colombia,20,Cesar,20295,Gamarra,CO,COL,2
+CO_20_20310,Q1577059,CO,Colombia,20,Cesar,20310,González,CO,COL,2
+CO_20_20383,Q1526106,CO,Colombia,20,Cesar,20383,La Gloria,CO,COL,2
+CO_20_20400,Q950053,CO,Colombia,20,Cesar,20400,La Jagua De Ibirico,CO,COL,2
+CO_20_20443,Q936283,CO,Colombia,20,Cesar,20443,Manaure Balcón Del Cesar,CO,COL,2
+CO_20_20517,Q1525724,CO,Colombia,20,Cesar,20517,Pailitas,CO,COL,2
+CO_20_20550,Q962740,CO,Colombia,20,Cesar,20550,Pelaya,CO,COL,2
+CO_20_20570,Q1526171,CO,Colombia,20,Cesar,20570,Pueblo Bello,CO,COL,2
+CO_20_20614,Q1526621,CO,Colombia,20,Cesar,20614,Río De Oro,CO,COL,2
+CO_20_20621,Q1442342,CO,Colombia,20,Cesar,20621,La Paz,CO,COL,2
+CO_20_20710,Q1441898,CO,Colombia,20,Cesar,20710,San Alberto,CO,COL,2
+CO_20_20750,Q1524790,CO,Colombia,20,Cesar,20750,San Diego,CO,COL,2
+CO_20_20770,Q545257,CO,Colombia,20,Cesar,20770,San Martín,CO,COL,2
+CO_20_20787,Q1524857,CO,Colombia,20,Cesar,20787,Tamalameque,CO,COL,2
+CO_23,Q234912,CO,Colombia,23,Córdoba,,,CO,COL,1
+CO_23_23001,Q852725,CO,Colombia,23,Córdoba,23001,Montería,CO,COL,2
+CO_23_23068,Q2430087,CO,Colombia,23,Córdoba,23068,Ayapel,CO,COL,2
+CO_23_23079,Q1525624,CO,Colombia,23,Córdoba,23079,Buenavista,CO,COL,2
+CO_23_23090,Q1526135,CO,Colombia,23,Córdoba,23090,Canalete,CO,COL,2
+CO_23_23162,Q2308618,CO,Colombia,23,Córdoba,23162,Cereté,CO,COL,2
+CO_23_23168,Q1525620,CO,Colombia,23,Córdoba,23168,Chimá,CO,COL,2
+CO_23_23182,Q2387112,CO,Colombia,23,Córdoba,23182,Chinú,CO,COL,2
+CO_23_23189,Q2069794,CO,Colombia,23,Córdoba,23189,Ciénaga De Oro,CO,COL,2
+CO_23_23300,Q1526122,CO,Colombia,23,Córdoba,23300,Cotorra,CO,COL,2
+CO_23_23350,Q1525412,CO,Colombia,23,Córdoba,23350,La Apartada,CO,COL,2
+CO_23_23417,Q775761,CO,Colombia,23,Córdoba,23417,Lorica,CO,COL,2
+CO_23_23419,Q1525401,CO,Colombia,23,Córdoba,23419,Los Córdobas,CO,COL,2
+CO_23_23464,Q24831,CO,Colombia,23,Córdoba,23464,Momil,CO,COL,2
+CO_23_23466,Q1787546,CO,Colombia,23,Córdoba,23466,Montelíbano,CO,COL,2
+CO_23_23500,Q1441218,CO,Colombia,23,Córdoba,23500,Moñitos,CO,COL,2
+CO_23_23555,Q956174,CO,Colombia,23,Córdoba,23555,Planeta Rica,CO,COL,2
+CO_23_23570,Q2433383,CO,Colombia,23,Córdoba,23570,Pueblo Nuevo,CO,COL,2
+CO_23_23574,Q1441033,CO,Colombia,23,Córdoba,23574,Puerto Escondido,CO,COL,2
+CO_23_23580,Q2433456,CO,Colombia,23,Córdoba,23580,Puerto Libertador,CO,COL,2
+CO_23_23586,Q1525834,CO,Colombia,23,Córdoba,23586,Purísima De La Concepción,CO,COL,2
+CO_23_23660,Q591547,CO,Colombia,23,Córdoba,23660,Sahagún,CO,COL,2
+CO_23_23670,Q2433828,CO,Colombia,23,Córdoba,23670,San Andrés De Sotavento,CO,COL,2
+CO_23_23672,Q1442369,CO,Colombia,23,Córdoba,23672,San Antero,CO,COL,2
+CO_23_23675,Q2433835,CO,Colombia,23,Córdoba,23675,San Bernardo Del Viento,CO,COL,2
+CO_23_23678,Q1440812,CO,Colombia,23,Córdoba,23678,San Carlos,CO,COL,2
+CO_23_23682,Q2605421,CO,Colombia,23,Córdoba,23682,San José De Uré,CO,COL,2
+CO_23_23686,Q2314281,CO,Colombia,23,Córdoba,23686,San Pelayo,CO,COL,2
+CO_23_23807,Q2434756,CO,Colombia,23,Córdoba,23807,Tierralta,CO,COL,2
+CO_23_23815,Q2606076,CO,Colombia,23,Córdoba,23815,Tuchín,CO,COL,2
+CO_23_23855,Q1983488,CO,Colombia,23,Córdoba,23855,Valencia,CO,COL,2
+CO_25,Q232564,CO,Colombia,25,Cundinamarca,,,CO,COL,1
+CO_25_25001,Q1525734,CO,Colombia,25,Cundinamarca,25001,Agua De Dios,CO,COL,2
+CO_25_25019,Q1576197,CO,Colombia,25,Cundinamarca,25019,Albán,CO,COL,2
+CO_25_25035,Q1577095,CO,Colombia,25,Cundinamarca,25035,Anapoima,CO,COL,2
+CO_25_25040,Q1524766,CO,Colombia,25,Cundinamarca,25040,Anolaima,CO,COL,2
+CO_25_25053,Q925824,CO,Colombia,25,Cundinamarca,25053,Arbeláez,CO,COL,2
+CO_25_25086,Q432570,CO,Colombia,25,Cundinamarca,25086,Beltrán,CO,COL,2
+CO_25_25095,Q1655019,CO,Colombia,25,Cundinamarca,25095,Bituima,CO,COL,2
+CO_25_25099,Q1577083,CO,Colombia,25,Cundinamarca,25099,Bojacá,CO,COL,2
+CO_25_25120,Q922111,CO,Colombia,25,Cundinamarca,25120,Cabrera,CO,COL,2
+CO_25_25123,Q425657,CO,Colombia,25,Cundinamarca,25123,Cachipay,CO,COL,2
+CO_25_25126,Q1093182,CO,Colombia,25,Cundinamarca,25126,Cajicá,CO,COL,2
+CO_25_25148,Q1524797,CO,Colombia,25,Cundinamarca,25148,Caparrapí,CO,COL,2
+CO_25_25151,Q577538,CO,Colombia,25,Cundinamarca,25151,Cáqueza,CO,COL,2
+CO_25_25154,Q639256,CO,Colombia,25,Cundinamarca,25154,Carmen De Carupa,CO,COL,2
+CO_25_25168,Q1654559,CO,Colombia,25,Cundinamarca,25168,Chaguaní,CO,COL,2
+CO_25_25175,Q1093102,CO,Colombia,25,Cundinamarca,25175,Chía,CO,COL,2
+CO_25_25178,Q740349,CO,Colombia,25,Cundinamarca,25178,Chipaque,CO,COL,2
+CO_25_25181,Q936199,CO,Colombia,25,Cundinamarca,25181,Choachí,CO,COL,2
+CO_25_25183,Q1525247,CO,Colombia,25,Cundinamarca,25183,Chocontá,CO,COL,2
+CO_25_25200,Q1524844,CO,Colombia,25,Cundinamarca,25200,Cogua,CO,COL,2
+CO_25_25214,Q579820,CO,Colombia,25,Cundinamarca,25214,Cota,CO,COL,2
+CO_25_25224,Q1575538,CO,Colombia,25,Cundinamarca,25224,Cucunubá,CO,COL,2
+CO_25_25245,Q935205,CO,Colombia,25,Cundinamarca,25245,El Colegio,CO,COL,2
+CO_25_25258,Q1908008,CO,Colombia,25,Cundinamarca,25258,El Peñón,CO,COL,2
+CO_25_25260,Q602957,CO,Colombia,25,Cundinamarca,25260,El Rosal,CO,COL,2
+CO_25_25269,Q1947594,CO,Colombia,25,Cundinamarca,25269,Facatativá,CO,COL,2
+CO_25_25279,Q1525506,CO,Colombia,25,Cundinamarca,25279,Fómeque,CO,COL,2
+CO_25_25281,Q1577716,CO,Colombia,25,Cundinamarca,25281,Fosca,CO,COL,2
+CO_25_25286,Q608955,CO,Colombia,25,Cundinamarca,25286,Funza,CO,COL,2
+CO_25_25288,Q1656191,CO,Colombia,25,Cundinamarca,25288,Fúquene,CO,COL,2
+CO_25_25290,Q2077525,CO,Colombia,25,Cundinamarca,25290,Fusagasugá,CO,COL,2
+CO_25_25293,Q1577621,CO,Colombia,25,Cundinamarca,25293,Gachalá,CO,COL,2
+CO_25_25295,Q1575577,CO,Colombia,25,Cundinamarca,25295,Gachancipá,CO,COL,2
+CO_25_25297,Q1577746,CO,Colombia,25,Cundinamarca,25297,Gachetá,CO,COL,2
+CO_25_25299,Q1656344,CO,Colombia,25,Cundinamarca,25299,Gama,CO,COL,2
+CO_25_25307,Q186193,CO,Colombia,25,Cundinamarca,25307,Girardot,CO,COL,2
+CO_25_25312,Q751246,CO,Colombia,25,Cundinamarca,25312,Granada,CO,COL,2
+CO_25_25317,Q955108,CO,Colombia,25,Cundinamarca,25317,Guachetá,CO,COL,2
+CO_25_25320,Q685990,CO,Colombia,25,Cundinamarca,25320,Guaduas,CO,COL,2
+CO_25_25322,Q179672,CO,Colombia,25,Cundinamarca,25322,Guasca,CO,COL,2
+CO_25_25324,Q1654896,CO,Colombia,25,Cundinamarca,25324,Guataquí,CO,COL,2
+CO_25_25326,Q1576750,CO,Colombia,25,Cundinamarca,25326,Guatavita,CO,COL,2
+CO_25_25328,Q1654927,CO,Colombia,25,Cundinamarca,25328,Guayabal De Síquima,CO,COL,2
+CO_25_25335,Q1656121,CO,Colombia,25,Cundinamarca,25335,Guayabetal,CO,COL,2
+CO_25_25339,Q1654682,CO,Colombia,25,Cundinamarca,25339,Gutiérrez,CO,COL,2
+CO_25_25368,Q953123,CO,Colombia,25,Cundinamarca,25368,Jerusalén,CO,COL,2
+CO_25_25372,Q1579341,CO,Colombia,25,Cundinamarca,25372,Junín,CO,COL,2
+CO_25_25377,Q1440823,CO,Colombia,25,Cundinamarca,25377,La Calera,CO,COL,2
+CO_25_25386,Q936790,CO,Colombia,25,Cundinamarca,25386,La Mesa,CO,COL,2
+CO_25_25394,Q1578797,CO,Colombia,25,Cundinamarca,25394,La Palma,CO,COL,2
+CO_25_25398,Q375653,CO,Colombia,25,Cundinamarca,25398,La Peña,CO,COL,2
+CO_25_25402,Q2022377,CO,Colombia,25,Cundinamarca,25402,La Vega,CO,COL,2
+CO_25_25407,Q516210,CO,Colombia,25,Cundinamarca,25407,Lenguazaque,CO,COL,2
+CO_25_25426,Q1577733,CO,Colombia,25,Cundinamarca,25426,Machetá,CO,COL,2
+CO_25_25430,Q2316396,CO,Colombia,25,Cundinamarca,25430,Madrid,CO,COL,2
+CO_25_25436,Q1654947,CO,Colombia,25,Cundinamarca,25436,Manta,CO,COL,2
+CO_25_25438,Q1579406,CO,Colombia,25,Cundinamarca,25438,Medina,CO,COL,2
+CO_25_25473,Q2432909,CO,Colombia,25,Cundinamarca,25473,Mosquera,CO,COL,2
+CO_25_25483,Q1847862,CO,Colombia,25,Cundinamarca,25483,Nariño,CO,COL,2
+CO_25_25486,Q1574741,CO,Colombia,25,Cundinamarca,25486,Nemocón,CO,COL,2
+CO_25_25488,Q1524825,CO,Colombia,25,Cundinamarca,25488,Nilo,CO,COL,2
+CO_25_25489,Q1654819,CO,Colombia,25,Cundinamarca,25489,Nimaima,CO,COL,2
+CO_25_25491,Q1577029,CO,Colombia,25,Cundinamarca,25491,Nocaima,CO,COL,2
+CO_25_25506,Q2434762,CO,Colombia,25,Cundinamarca,25506,Venecia,CO,COL,2
+CO_25_25513,Q680909,CO,Colombia,25,Cundinamarca,25513,Pacho,CO,COL,2
+CO_25_25518,Q597973,CO,Colombia,25,Cundinamarca,25518,Paime,CO,COL,2
+CO_25_25524,Q1656274,CO,Colombia,25,Cundinamarca,25524,Pandi,CO,COL,2
+CO_25_25530,Q932870,CO,Colombia,25,Cundinamarca,25530,Paratebueno,CO,COL,2
+CO_25_25535,Q2241175,CO,Colombia,25,Cundinamarca,25535,Pasca,CO,COL,2
+CO_25_25572,Q1524761,CO,Colombia,25,Cundinamarca,25572,Puerto Salgar,CO,COL,2
+CO_25_25580,Q1656309,CO,Colombia,25,Cundinamarca,25580,Pulí,CO,COL,2
+CO_25_25592,Q1656162,CO,Colombia,25,Cundinamarca,25592,Quebradanegra,CO,COL,2
+CO_25_25594,Q1577699,CO,Colombia,25,Cundinamarca,25594,Quetame,CO,COL,2
+CO_25_25596,Q941367,CO,Colombia,25,Cundinamarca,25596,Quipile,CO,COL,2
+CO_25_25599,Q1574840,CO,Colombia,25,Cundinamarca,25599,Apulo,CO,COL,2
+CO_25_25612,Q2226527,CO,Colombia,25,Cundinamarca,25612,Ricaurte,CO,COL,2
+CO_25_25645,Q1525530,CO,Colombia,25,Cundinamarca,25645,San Antonio Del Tequendama,CO,COL,2
+CO_25_25649,Q2433832,CO,Colombia,25,Cundinamarca,25649,San Bernardo,CO,COL,2
+CO_25_25653,Q610537,CO,Colombia,25,Cundinamarca,25653,San Cayetano,CO,COL,2
+CO_25_25658,Q1576269,CO,Colombia,25,Cundinamarca,25658,San Francisco,CO,COL,2
+CO_25_25662,Q1576673,CO,Colombia,25,Cundinamarca,25662,San Juan De Rioseco,CO,COL,2
+CO_25_25718,Q1575923,CO,Colombia,25,Cundinamarca,25718,Sasaima,CO,COL,2
+CO_25_25736,Q1576281,CO,Colombia,25,Cundinamarca,25736,Sesquilé,CO,COL,2
+CO_25_25740,Q1391630,CO,Colombia,25,Cundinamarca,25740,Sibaté,CO,COL,2
+CO_25_25743,Q1441993,CO,Colombia,25,Cundinamarca,25743,Silvania,CO,COL,2
+CO_25_25745,Q1576943,CO,Colombia,25,Cundinamarca,25745,Simijaca,CO,COL,2
+CO_25_25754,Q1011151,CO,Colombia,25,Cundinamarca,25754,Soacha,CO,COL,2
+CO_25_25758,Q1440902,CO,Colombia,25,Cundinamarca,25758,Sopó,CO,COL,2
+CO_25_25769,Q959079,CO,Colombia,25,Cundinamarca,25769,Subachoque,CO,COL,2
+CO_25_25772,Q1525782,CO,Colombia,25,Cundinamarca,25772,Suesca,CO,COL,2
+CO_25_25777,Q1654867,CO,Colombia,25,Cundinamarca,25777,Supatá,CO,COL,2
+CO_25_25779,Q598748,CO,Colombia,25,Cundinamarca,25779,Susa,CO,COL,2
+CO_25_25781,Q1654822,CO,Colombia,25,Cundinamarca,25781,Sutatausa,CO,COL,2
+CO_25_25785,Q1441966,CO,Colombia,25,Cundinamarca,25785,Tabio,CO,COL,2
+CO_25_25793,Q1577109,CO,Colombia,25,Cundinamarca,25793,Tausa,CO,COL,2
+CO_25_25797,Q1575522,CO,Colombia,25,Cundinamarca,25797,Tena,CO,COL,2
+CO_25_25799,Q1525701,CO,Colombia,25,Cundinamarca,25799,Tenjo,CO,COL,2
+CO_25_25805,Q1654475,CO,Colombia,25,Cundinamarca,25805,Tibacuy,CO,COL,2
+CO_25_25807,Q1655992,CO,Colombia,25,Cundinamarca,25807,Tibirita,CO,COL,2
+CO_25_25815,Q1525235,CO,Colombia,25,Cundinamarca,25815,Tocaima,CO,COL,2
+CO_25_25817,Q1442348,CO,Colombia,25,Cundinamarca,25817,Tocancipá,CO,COL,2
+CO_25_25823,Q1656355,CO,Colombia,25,Cundinamarca,25823,Topaipí,CO,COL,2
+CO_25_25839,Q1525790,CO,Colombia,25,Cundinamarca,25839,Ubalá,CO,COL,2
+CO_25_25841,Q1574736,CO,Colombia,25,Cundinamarca,25841,Ubaque,CO,COL,2
+CO_25_25843,Q2219816,CO,Colombia,25,Cundinamarca,25843,Villa De San Diego De Ubaté,CO,COL,2
+CO_25_25845,Q1577653,CO,Colombia,25,Cundinamarca,25845,Une,CO,COL,2
+CO_25_25851,Q1655784,CO,Colombia,25,Cundinamarca,25851,Útica,CO,COL,2
+CO_25_25862,Q1575601,CO,Colombia,25,Cundinamarca,25862,Vergara,CO,COL,2
+CO_25_25867,Q1656656,CO,Colombia,25,Cundinamarca,25867,Vianí,CO,COL,2
+CO_25_25871,Q1655514,CO,Colombia,25,Cundinamarca,25871,Villagómez,CO,COL,2
+CO_25_25873,Q1526073,CO,Colombia,25,Cundinamarca,25873,Villapinzón,CO,COL,2
+CO_25_25875,Q1440837,CO,Colombia,25,Cundinamarca,25875,Villeta,CO,COL,2
+CO_25_25878,Q1524864,CO,Colombia,25,Cundinamarca,25878,Viotá,CO,COL,2
+CO_25_25885,Q1525351,CO,Colombia,25,Cundinamarca,25885,Yacopí,CO,COL,2
+CO_25_25898,Q1654791,CO,Colombia,25,Cundinamarca,25898,Zipacón,CO,COL,2
+CO_25_25899,Q205429,CO,Colombia,25,Cundinamarca,25899,Zipaquirá,CO,COL,2
+CO_27,Q230584,CO,Colombia,27,Chocó,,,CO,COL,1
+CO_27_27001,Q816420,CO,Colombia,27,Chocó,27001,Quibdó,CO,COL,2
+CO_27_27006,Q1575935,CO,Colombia,27,Chocó,27006,Acandí,CO,COL,2
+CO_27_27025,Q1391883,CO,Colombia,27,Chocó,27025,Alto Baudó,CO,COL,2
+CO_27_27050,Q1576206,CO,Colombia,27,Chocó,27050,Atrato,CO,COL,2
+CO_27_27073,Q1576654,CO,Colombia,27,Chocó,27073,Bagadó,CO,COL,2
+CO_27_27075,Q1579457,CO,Colombia,27,Chocó,27075,Bahía Solano,CO,COL,2
+CO_27_27077,Q1525766,CO,Colombia,27,Chocó,27077,Bajo Baudó,CO,COL,2
+CO_27_27099,Q1579055,CO,Colombia,27,Chocó,27099,Bojayá,CO,COL,2
+CO_27_27135,Q1576215,CO,Colombia,27,Chocó,27135,El Cantón Del San Pablo,CO,COL,2
+CO_27_27150,Q963885,CO,Colombia,27,Chocó,27150,Carmen Del Darién,CO,COL,2
+CO_27_27160,Q610657,CO,Colombia,27,Chocó,27160,Cértegui,CO,COL,2
+CO_27_27205,Q1525250,CO,Colombia,27,Chocó,27205,Condoto,CO,COL,2
+CO_27_27245,Q533627,CO,Colombia,27,Chocó,27245,El Carmen De Atrato,CO,COL,2
+CO_27_27250,Q931811,CO,Colombia,27,Chocó,27250,El Litoral Del San Juan,CO,COL,2
+CO_27_27361,Q1441410,CO,Colombia,27,Chocó,27361,Istmina,CO,COL,2
+CO_27_27372,Q1655005,CO,Colombia,27,Chocó,27372,Juradó,CO,COL,2
+CO_27_27413,Q1575268,CO,Colombia,27,Chocó,27413,Lloró,CO,COL,2
+CO_27_27425,Q1442444,CO,Colombia,27,Chocó,27425,Medio Atrato,CO,COL,2
+CO_27_27430,Q1525732,CO,Colombia,27,Chocó,27430,Medio Baudó,CO,COL,2
+CO_27_27450,Q1526086,CO,Colombia,27,Chocó,27450,Medio San Juan,CO,COL,2
+CO_27_27491,Q1579423,CO,Colombia,27,Chocó,27491,Nóvita,CO,COL,2
+CO_27_27495,Q1577833,CO,Colombia,27,Chocó,27495,Nuquí,CO,COL,2
+CO_27_27580,Q646865,CO,Colombia,27,Chocó,27580,Río Iró,CO,COL,2
+CO_27_27600,Q1577684,CO,Colombia,27,Chocó,27600,Río Quito,CO,COL,2
+CO_27_27615,Q2196660,CO,Colombia,27,Chocó,27615,Riosucio,CO,COL,2
+CO_27_27660,Q1654797,CO,Colombia,27,Chocó,27660,San José Del Palmar,CO,COL,2
+CO_27_27745,Q1656061,CO,Colombia,27,Chocó,27745,Sipí,CO,COL,2
+CO_27_27787,Q1524808,CO,Colombia,27,Chocó,27787,Tadó,CO,COL,2
+CO_27_27800,Q1525509,CO,Colombia,27,Chocó,27800,Unguía,CO,COL,2
+CO_27_27810,Q941447,CO,Colombia,27,Chocó,27810,Unión Panamericana,CO,COL,2
+CO_41,Q234920,CO,Colombia,41,Huila,,,CO,COL,1
+CO_41_41001,Q638260,CO,Colombia,41,Huila,41001,Neiva,CO,COL,2
+CO_41_41006,Q1110278,CO,Colombia,41,Huila,41006,Acevedo,CO,COL,2
+CO_41_41013,Q1576785,CO,Colombia,41,Huila,41013,Agrado,CO,COL,2
+CO_41_41016,Q1524884,CO,Colombia,41,Huila,41016,Aipe,CO,COL,2
+CO_41_41020,Q1441055,CO,Colombia,41,Huila,41020,Algeciras,CO,COL,2
+CO_41_41026,Q1654714,CO,Colombia,41,Huila,41026,Altamira,CO,COL,2
+CO_41_41078,Q977818,CO,Colombia,41,Huila,41078,Baraya,CO,COL,2
+CO_41_41132,Q2327412,CO,Colombia,41,Huila,41132,Campoalegre,CO,COL,2
+CO_41_41206,Q1576192,CO,Colombia,41,Huila,41206,Colombia,CO,COL,2
+CO_41_41244,Q1656750,CO,Colombia,41,Huila,41244,Elías,CO,COL,2
+CO_41_41298,Q1970613,CO,Colombia,41,Huila,41298,Garzón,CO,COL,2
+CO_41_41306,Q919595,CO,Colombia,41,Huila,41306,Gigante,CO,COL,2
+CO_41_41319,Q1525875,CO,Colombia,41,Huila,41319,Guadalupe,CO,COL,2
+CO_41_41349,Q751116,CO,Colombia,41,Huila,41349,Hobo,CO,COL,2
+CO_41_41357,Q1574768,CO,Colombia,41,Huila,41357,Íquira,CO,COL,2
+CO_41_41359,Q953401,CO,Colombia,41,Huila,41359,Isnos,CO,COL,2
+CO_41_41378,Q1578514,CO,Colombia,41,Huila,41378,La Argentina,CO,COL,2
+CO_41_41396,Q593144,CO,Colombia,41,Huila,41396,La Plata,CO,COL,2
+CO_41_41483,Q600553,CO,Colombia,41,Huila,41483,Nátaga,CO,COL,2
+CO_41_41503,Q1575433,CO,Colombia,41,Huila,41503,Oporapa,CO,COL,2
+CO_41_41518,Q1655580,CO,Colombia,41,Huila,41518,Paicol,CO,COL,2
+CO_41_41524,Q1442359,CO,Colombia,41,Huila,41524,Palermo,CO,COL,2
+CO_41_41530,Q2083903,CO,Colombia,41,Huila,41530,Palestina,CO,COL,2
+CO_41_41548,Q1525602,CO,Colombia,41,Huila,41548,Pital,CO,COL,2
+CO_41_41551,Q1014922,CO,Colombia,41,Huila,41551,Pitalito,CO,COL,2
+CO_41_41615,Q1526269,CO,Colombia,41,Huila,41615,Rivera,CO,COL,2
+CO_41_41660,Q1579483,CO,Colombia,41,Huila,41660,Saladoblanco,CO,COL,2
+CO_41_41668,Q1010129,CO,Colombia,41,Huila,41668,San Agustín,CO,COL,2
+CO_41_41676,Q1575656,CO,Colombia,41,Huila,41676,Santa María,CO,COL,2
+CO_41_41770,Q1526187,CO,Colombia,41,Huila,41770,Suaza,CO,COL,2
+CO_41_41791,Q1526198,CO,Colombia,41,Huila,41791,Tarqui,CO,COL,2
+CO_41_41797,Q384534,CO,Colombia,41,Huila,41797,Tesalia,CO,COL,2
+CO_41_41799,Q934561,CO,Colombia,41,Huila,41799,Tello,CO,COL,2
+CO_41_41801,Q641800,CO,Colombia,41,Huila,41801,Teruel,CO,COL,2
+CO_41_41807,Q1441125,CO,Colombia,41,Huila,41807,Timaná,CO,COL,2
+CO_41_41872,Q1574725,CO,Colombia,41,Huila,41872,Villavieja,CO,COL,2
+CO_41_41885,Q1577431,CO,Colombia,41,Huila,41885,Yaguará,CO,COL,2
+CO_44,Q272747,CO,Colombia,44,La Guajira,,,CO,COL,1
+CO_44_44001,Q826566,CO,Colombia,44,La Guajira,44001,Riohacha,CO,COL,2
+CO_44_44035,Q932378,CO,Colombia,44,La Guajira,44035,Albania,CO,COL,2
+CO_44_44078,Q786529,CO,Colombia,44,La Guajira,44078,Barrancas,CO,COL,2
+CO_44_44090,Q1441095,CO,Colombia,44,La Guajira,44090,Dibulla,CO,COL,2
+CO_44_44098,Q1525662,CO,Colombia,44,La Guajira,44098,Distracción,CO,COL,2
+CO_44_44110,Q1574943,CO,Colombia,44,La Guajira,44110,El Molino,CO,COL,2
+CO_44_44279,Q1441074,CO,Colombia,44,La Guajira,44279,Fonseca,CO,COL,2
+CO_44_44378,Q1525358,CO,Colombia,44,La Guajira,44378,Hatonuevo,CO,COL,2
+CO_44_44420,Q1656023,CO,Colombia,44,La Guajira,44420,La Jagua Del Pilar,CO,COL,2
+CO_44_44430,Q1937427,CO,Colombia,44,La Guajira,44430,Maicao,CO,COL,2
+CO_44_44560,Q635230,CO,Colombia,44,La Guajira,44560,Manaure,CO,COL,2
+CO_44_44650,Q1256394,CO,Colombia,44,La Guajira,44650,San Juan Del Cesar,CO,COL,2
+CO_44_44847,Q2215403,CO,Colombia,44,La Guajira,44847,Uribia,CO,COL,2
+CO_44_44855,Q1525847,CO,Colombia,44,La Guajira,44855,Urumita,CO,COL,2
+CO_44_44874,Q1442429,CO,Colombia,44,La Guajira,44874,Villanueva,CO,COL,2
+CO_47,Q199910,CO,Colombia,47,Magdalena,,,CO,COL,1
+CO_47_47001,Q209016,CO,Colombia,47,Magdalena,47001,Santa Marta,CO,COL,2
+CO_47_47030,Q1524871,CO,Colombia,47,Magdalena,47030,Algarrobo,CO,COL,2
+CO_47_47053,Q624492,CO,Colombia,47,Magdalena,47053,Aracataca,CO,COL,2
+CO_47_47058,Q1392520,CO,Colombia,47,Magdalena,47058,Ariguaní,CO,COL,2
+CO_47_47161,Q1575697,CO,Colombia,47,Magdalena,47161,Cerro De San Antonio,CO,COL,2
+CO_47_47170,Q1525439,CO,Colombia,47,Magdalena,47170,Chivolo,CO,COL,2
+CO_47_47189,Q1092797,CO,Colombia,47,Magdalena,47189,Ciénaga,CO,COL,2
+CO_47_47205,Q2311966,CO,Colombia,47,Magdalena,47205,Concordia,CO,COL,2
+CO_47_47245,Q2330760,CO,Colombia,47,Magdalena,47245,El Banco,CO,COL,2
+CO_47_47258,Q614970,CO,Colombia,47,Magdalena,47258,El Piñón,CO,COL,2
+CO_47_47268,Q547081,CO,Colombia,47,Magdalena,47268,El Retén,CO,COL,2
+CO_47_47288,Q303437,CO,Colombia,47,Magdalena,47288,Fundación,CO,COL,2
+CO_47_47318,Q1441081,CO,Colombia,47,Magdalena,47318,Guamal,CO,COL,2
+CO_47_47460,Q1526240,CO,Colombia,47,Magdalena,47460,Nueva Granada,CO,COL,2
+CO_47_47541,Q1575673,CO,Colombia,47,Magdalena,47541,Pedraza,CO,COL,2
+CO_47_47545,Q1525585,CO,Colombia,47,Magdalena,47545,Pijiño Del Carmen,CO,COL,2
+CO_47_47551,Q929338,CO,Colombia,47,Magdalena,47551,Pivijay,CO,COL,2
+CO_47_47555,Q1093229,CO,Colombia,47,Magdalena,47555,Plato,CO,COL,2
+CO_47_47570,Q1441089,CO,Colombia,47,Magdalena,47570,Puebloviejo,CO,COL,2
+CO_47_47605,Q1575711,CO,Colombia,47,Magdalena,47605,Remolino,CO,COL,2
+CO_47_47660,Q1526159,CO,Colombia,47,Magdalena,47660,Sabanas De San Ángel,CO,COL,2
+CO_47_47675,Q2433634,CO,Colombia,47,Magdalena,47675,Salamina,CO,COL,2
+CO_47_47692,Q532854,CO,Colombia,47,Magdalena,47692,San Sebastián De Buenavista,CO,COL,2
+CO_47_47703,Q1575348,CO,Colombia,47,Magdalena,47703,San Zenón,CO,COL,2
+CO_47_47707,Q1441044,CO,Colombia,47,Magdalena,47707,Santa Ana,CO,COL,2
+CO_47_47720,Q1576142,CO,Colombia,47,Magdalena,47720,Santa Bárbara De Pinto,CO,COL,2
+CO_47_47745,Q1441228,CO,Colombia,47,Magdalena,47745,Sitionuevo,CO,COL,2
+CO_47_47798,Q1525827,CO,Colombia,47,Magdalena,47798,Tenerife,CO,COL,2
+CO_47_47960,Q544335,CO,Colombia,47,Magdalena,47960,Zapayán,CO,COL,2
+CO_47_47980,Q2434796,CO,Colombia,47,Magdalena,47980,Zona Bananera,CO,COL,2
+CO_50,Q238629,CO,Colombia,50,Meta,,,CO,COL,1
+CO_50_50001,Q749224,CO,Colombia,50,Meta,50001,Villavicencio,CO,COL,2
+CO_50_50006,Q2429780,CO,Colombia,50,Meta,50006,Acacías,CO,COL,2
+CO_50_50110,Q1654757,CO,Colombia,50,Meta,50110,Barranca De Upía,CO,COL,2
+CO_50_50124,Q517693,CO,Colombia,50,Meta,50124,Cabuyaro,CO,COL,2
+CO_50_50150,Q1577876,CO,Colombia,50,Meta,50150,Castilla La Nueva,CO,COL,2
+CO_50_50223,Q1655116,CO,Colombia,50,Meta,50223,Cubarral,CO,COL,2
+CO_50_50226,Q1525841,CO,Colombia,50,Meta,50226,Cumaral,CO,COL,2
+CO_50_50245,Q1655089,CO,Colombia,50,Meta,50245,El Calvario,CO,COL,2
+CO_50_50251,Q1577456,CO,Colombia,50,Meta,50251,El Castillo,CO,COL,2
+CO_50_50270,Q1656681,CO,Colombia,50,Meta,50270,El Dorado,CO,COL,2
+CO_50_50287,Q1576131,CO,Colombia,50,Meta,50287,Fuente De Oro,CO,COL,2
+CO_50_50313,Q2101383,CO,Colombia,50,Meta,50313,Granada,CO,COL,2
+CO_50_50318,Q949695,CO,Colombia,50,Meta,50318,Guamal,CO,COL,2
+CO_50_50325,Q1525460,CO,Colombia,50,Meta,50325,Mapiripán,CO,COL,2
+CO_50_50330,Q1574693,CO,Colombia,50,Meta,50330,Mesetas,CO,COL,2
+CO_50_50350,Q973745,CO,Colombia,50,Meta,50350,La Macarena,CO,COL,2
+CO_50_50370,Q1525863,CO,Colombia,50,Meta,50370,Uribe,CO,COL,2
+CO_50_50400,Q1577508,CO,Colombia,50,Meta,50400,Lejanías,CO,COL,2
+CO_50_50450,Q1525869,CO,Colombia,50,Meta,50450,Puerto Concordia,CO,COL,2
+CO_50_50568,Q1524747,CO,Colombia,50,Meta,50568,Puerto Gaitán,CO,COL,2
+CO_50_50573,Q2143650,CO,Colombia,50,Meta,50573,Puerto López,CO,COL,2
+CO_50_50577,Q1577863,CO,Colombia,50,Meta,50577,Puerto Lleras,CO,COL,2
+CO_50_50590,Q1956919,CO,Colombia,50,Meta,50590,Puerto Rico,CO,COL,2
+CO_50_50606,Q2042902,CO,Colombia,50,Meta,50606,Restrepo,CO,COL,2
+CO_50_50680,Q955327,CO,Colombia,50,Meta,50680,San Carlos De Guaroa,CO,COL,2
+CO_50_50683,Q1575316,CO,Colombia,50,Meta,50683,San Juan De Arama,CO,COL,2
+CO_50_50686,Q2434067,CO,Colombia,50,Meta,50686,San Juanito,CO,COL,2
+CO_50_50689,Q1441359,CO,Colombia,50,Meta,50689,San Martín,CO,COL,2
+CO_50_50711,Q1442495,CO,Colombia,50,Meta,50711,Vistahermosa,CO,COL,2
+CO_52,Q230217,CO,Colombia,52,Nariño,,,CO,COL,1
+CO_52_52001,Q320015,CO,Colombia,52,Nariño,52001,Pasto,CO,COL,2
+CO_52_52019,Q1524751,CO,Colombia,52,Nariño,52019,Albán,CO,COL,2
+CO_52_52022,Q648948,CO,Colombia,52,Nariño,52022,Aldana,CO,COL,2
+CO_52_52036,Q1575668,CO,Colombia,52,Nariño,52036,Ancuya,CO,COL,2
+CO_52_52051,Q1579470,CO,Colombia,52,Nariño,52051,Arboleda,CO,COL,2
+CO_52_52079,Q1883260,CO,Colombia,52,Nariño,52079,Barbacoas,CO,COL,2
+CO_52_52083,Q2359099,CO,Colombia,52,Nariño,52083,Belén,CO,COL,2
+CO_52_52110,Q1441100,CO,Colombia,52,Nariño,52110,Buesaco,CO,COL,2
+CO_52_52203,Q1577014,CO,Colombia,52,Nariño,52203,Colón,CO,COL,2
+CO_52_52207,Q2431669,CO,Colombia,52,Nariño,52207,Consacá,CO,COL,2
+CO_52_52210,Q1113699,CO,Colombia,52,Nariño,52210,Contadero,CO,COL,2
+CO_52_52215,Q1524850,CO,Colombia,52,Nariño,52215,Córdoba,CO,COL,2
+CO_52_52224,Q1577488,CO,Colombia,52,Nariño,52224,Cuaspud Carlosama,CO,COL,2
+CO_52_52227,Q976111,CO,Colombia,52,Nariño,52227,Cumbal,CO,COL,2
+CO_52_52233,Q927628,CO,Colombia,52,Nariño,52233,Cumbitara,CO,COL,2
+CO_52_52240,Q775003,CO,Colombia,52,Nariño,52240,Chachagüí,CO,COL,2
+CO_52_52250,Q1441184,CO,Colombia,52,Nariño,52250,El Charco,CO,COL,2
+CO_52_52254,Q1577562,CO,Colombia,52,Nariño,52254,El Peñol,CO,COL,2
+CO_52_52256,Q1574979,CO,Colombia,52,Nariño,52256,El Rosario,CO,COL,2
+CO_52_52258,Q1525086,CO,Colombia,52,Nariño,52258,El Tablón De Gómez,CO,COL,2
+CO_52_52260,Q2431847,CO,Colombia,52,Nariño,52260,El Tambo,CO,COL,2
+CO_52_52287,Q1574953,CO,Colombia,52,Nariño,52287,Funes,CO,COL,2
+CO_52_52317,Q1526179,CO,Colombia,52,Nariño,52317,Guachucal,CO,COL,2
+CO_52_52320,Q1525820,CO,Colombia,52,Nariño,52320,Guaitarilla,CO,COL,2
+CO_52_52323,Q1655544,CO,Colombia,52,Nariño,52323,Gualmatán,CO,COL,2
+CO_52_52352,Q1575358,CO,Colombia,52,Nariño,52352,Iles,CO,COL,2
+CO_52_52354,Q1575329,CO,Colombia,52,Nariño,52354,Imués,CO,COL,2
+CO_52_52356,Q1010094,CO,Colombia,52,Nariño,52356,Ipiales,CO,COL,2
+CO_52_52378,Q1525434,CO,Colombia,52,Nariño,52378,La Cruz,CO,COL,2
+CO_52_52381,Q1577471,CO,Colombia,52,Nariño,52381,La Florida,CO,COL,2
+CO_52_52385,Q1577486,CO,Colombia,52,Nariño,52385,La Llanada,CO,COL,2
+CO_52_52390,Q1577045,CO,Colombia,52,Nariño,52390,La Tola,CO,COL,2
+CO_52_52399,Q979791,CO,Colombia,52,Nariño,52399,La Unión,CO,COL,2
+CO_52_52405,Q1526208,CO,Colombia,52,Nariño,52405,Leiva,CO,COL,2
+CO_52_52411,Q1526262,CO,Colombia,52,Nariño,52411,Linares,CO,COL,2
+CO_52_52418,Q1526257,CO,Colombia,52,Nariño,52418,Los Andes,CO,COL,2
+CO_52_52427,Q1525449,CO,Colombia,52,Nariño,52427,Magüí,CO,COL,2
+CO_52_52435,Q1576117,CO,Colombia,52,Nariño,52435,Mallama,CO,COL,2
+CO_52_52473,Q2432971,CO,Colombia,52,Nariño,52473,Mosquera,CO,COL,2
+CO_52_52480,Q2433055,CO,Colombia,52,Nariño,52480,Nariño,CO,COL,2
+CO_52_52490,Q1441140,CO,Colombia,52,Nariño,52490,Olaya Herrera,CO,COL,2
+CO_52_52506,Q1578953,CO,Colombia,52,Nariño,52506,Ospina,CO,COL,2
+CO_52_52520,Q1578185,CO,Colombia,52,Nariño,52520,Francisco Pizarro,CO,COL,2
+CO_52_52540,Q1525852,CO,Colombia,52,Nariño,52540,Policarpa,CO,COL,2
+CO_52_52560,Q1525078,CO,Colombia,52,Nariño,52560,Potosí,CO,COL,2
+CO_52_52565,Q681111,CO,Colombia,52,Nariño,52565,Providencia,CO,COL,2
+CO_52_52573,Q948935,CO,Colombia,52,Nariño,52573,Puerres,CO,COL,2
+CO_52_52585,Q368268,CO,Colombia,52,Nariño,52585,Pupiales,CO,COL,2
+CO_52_52612,Q1525322,CO,Colombia,52,Nariño,52612,Ricaurte,CO,COL,2
+CO_52_52621,Q1524879,CO,Colombia,52,Nariño,52621,Roberto Payán,CO,COL,2
+CO_52_52678,Q2195228,CO,Colombia,52,Nariño,52678,Samaniego,CO,COL,2
+CO_52_52683,Q1441195,CO,Colombia,52,Nariño,52683,Sandoná,CO,COL,2
+CO_52_52685,Q1525355,CO,Colombia,52,Nariño,52685,San Bernardo,CO,COL,2
+CO_52_52687,Q1525075,CO,Colombia,52,Nariño,52687,San Lorenzo,CO,COL,2
+CO_52_52693,Q1936455,CO,Colombia,52,Nariño,52693,San Pablo,CO,COL,2
+CO_52_52694,Q974273,CO,Colombia,52,Nariño,52694,San Pedro De Cartago,CO,COL,2
+CO_52_52696,Q1991926,CO,Colombia,52,Nariño,52696,Santa Bárbara,CO,COL,2
+CO_52_52699,Q1442399,CO,Colombia,52,Nariño,52699,Santacruz,CO,COL,2
+CO_52_52720,Q1577815,CO,Colombia,52,Nariño,52720,Sapuyes,CO,COL,2
+CO_52_52786,Q1525858,CO,Colombia,52,Nariño,52786,Taminango,CO,COL,2
+CO_52_52788,Q1574964,CO,Colombia,52,Nariño,52788,Tangua,CO,COL,2
+CO_52_52835,Q1005555,CO,Colombia,52,Nariño,52835,San Andrés De Tumaco,CO,COL,2
+CO_52_52838,Q2373315,CO,Colombia,52,Nariño,52838,Túquerres,CO,COL,2
+CO_52_52885,Q1578989,CO,Colombia,52,Nariño,52885,Yacuanquer,CO,COL,2
+CO_54,Q233058,CO,Colombia,54,Norte De Santander,,,CO,COL,1
+CO_54_54001,Q216847,CO,Colombia,54,Norte De Santander,54001,San José De Cúcuta,CO,COL,2
+CO_54_54003,Q2429591,CO,Colombia,54,Norte De Santander,54003,Ábrego,CO,COL,2
+CO_54_54051,Q1574827,CO,Colombia,54,Norte De Santander,54051,Arboledas,CO,COL,2
+CO_54_54099,Q1575422,CO,Colombia,54,Norte De Santander,54099,Bochalema,CO,COL,2
+CO_54_54109,Q1655530,CO,Colombia,54,Norte De Santander,54109,Bucarasica,CO,COL,2
+CO_54_54125,Q1655073,CO,Colombia,54,Norte De Santander,54125,Cácota,CO,COL,2
+CO_54_54128,Q1575962,CO,Colombia,54,Norte De Santander,54128,Cáchira,CO,COL,2
+CO_54_54172,Q1526150,CO,Colombia,54,Norte De Santander,54172,Chinácota,CO,COL,2
+CO_54_54174,Q1576762,CO,Colombia,54,Norte De Santander,54174,Chitagá,CO,COL,2
+CO_54_54206,Q1525332,CO,Colombia,54,Norte De Santander,54206,Convención,CO,COL,2
+CO_54_54223,Q515211,CO,Colombia,54,Norte De Santander,54223,Cucutilla,CO,COL,2
+CO_54_54239,Q510149,CO,Colombia,54,Norte De Santander,54239,Durania,CO,COL,2
+CO_54_54245,Q1525675,CO,Colombia,54,Norte De Santander,54245,El Carmen,CO,COL,2
+CO_54_54250,Q1577131,CO,Colombia,54,Norte De Santander,54250,El Tarra,CO,COL,2
+CO_54_54261,Q1441107,CO,Colombia,54,Norte De Santander,54261,El Zulia,CO,COL,2
+CO_54_54313,Q1576677,CO,Colombia,54,Norte De Santander,54313,Gramalote,CO,COL,2
+CO_54_54344,Q1577521,CO,Colombia,54,Norte De Santander,54344,Hacarí,CO,COL,2
+CO_54_54347,Q1655591,CO,Colombia,54,Norte De Santander,54347,Herrán,CO,COL,2
+CO_54_54377,Q1575676,CO,Colombia,54,Norte De Santander,54377,Labateca,CO,COL,2
+CO_54_54385,Q1576157,CO,Colombia,54,Norte De Santander,54385,La Esperanza,CO,COL,2
+CO_54_54398,Q1971807,CO,Colombia,54,Norte De Santander,54398,La Playa,CO,COL,2
+CO_54_54405,Q634066,CO,Colombia,54,Norte De Santander,54405,Los Patios,CO,COL,2
+CO_54_54418,Q1656799,CO,Colombia,54,Norte De Santander,54418,Lourdes,CO,COL,2
+CO_54_54480,Q1656003,CO,Colombia,54,Norte De Santander,54480,Mutiscua,CO,COL,2
+CO_54_54498,Q2283773,CO,Colombia,54,Norte De Santander,54498,Ocaña,CO,COL,2
+CO_54_54518,Q997796,CO,Colombia,54,Norte De Santander,54518,Pamplona,CO,COL,2
+CO_54_54520,Q1655477,CO,Colombia,54,Norte De Santander,54520,Pamplonita,CO,COL,2
+CO_54_54553,Q1575400,CO,Colombia,54,Norte De Santander,54553,Puerto Santander,CO,COL,2
+CO_54_54599,Q1576165,CO,Colombia,54,Norte De Santander,54599,Ragonvalia,CO,COL,2
+CO_54_54660,Q776636,CO,Colombia,54,Norte De Santander,54660,Salazar,CO,COL,2
+CO_54_54670,Q2348501,CO,Colombia,54,Norte De Santander,54670,San Calixto,CO,COL,2
+CO_54_54673,Q2434048,CO,Colombia,54,Norte De Santander,54673,San Cayetano,CO,COL,2
+CO_54_54680,Q2078735,CO,Colombia,54,Norte De Santander,54680,Santiago,CO,COL,2
+CO_54_54720,Q629630,CO,Colombia,54,Norte De Santander,54720,Sardinata,CO,COL,2
+CO_54_54743,Q1655140,CO,Colombia,54,Norte De Santander,54743,Silos,CO,COL,2
+CO_54_54800,Q1524830,CO,Colombia,54,Norte De Santander,54800,Teorama,CO,COL,2
+CO_54_54810,Q2309040,CO,Colombia,54,Norte De Santander,54810,Tibú,CO,COL,2
+CO_54_54820,Q1525656,CO,Colombia,54,Norte De Santander,54820,Toledo,CO,COL,2
+CO_54_54871,Q1654451,CO,Colombia,54,Norte De Santander,54871,Villa Caro,CO,COL,2
+CO_54_54874,Q923525,CO,Colombia,54,Norte De Santander,54874,Villa Del Rosario,CO,COL,2
+CO_63,Q13995,CO,Colombia,63,Quindío,,,CO,COL,1
+CO_63_63001,Q328518,CO,Colombia,63,Quindío,63001,Armenia,CO,COL,2
+CO_63_63111,Q607290,CO,Colombia,63,Quindío,63111,Buenavista,CO,COL,2
+CO_63_63130,Q2240918,CO,Colombia,63,Quindío,63130,Calarcá,CO,COL,2
+CO_63_63190,Q958855,CO,Colombia,63,Quindío,63190,Circasia,CO,COL,2
+CO_63_63212,Q1883426,CO,Colombia,63,Quindío,63212,Córdoba,CO,COL,2
+CO_63_63272,Q1525384,CO,Colombia,63,Quindío,63272,Filandia,CO,COL,2
+CO_63_63302,Q968063,CO,Colombia,63,Quindío,63302,Génova,CO,COL,2
+CO_63_63401,Q2432300,CO,Colombia,63,Quindío,63401,La Tebaida,CO,COL,2
+CO_63_63470,Q1256403,CO,Colombia,63,Quindío,63470,Montenegro,CO,COL,2
+CO_63_63548,Q636738,CO,Colombia,63,Quindío,63548,Pijao,CO,COL,2
+CO_63_63594,Q2433472,CO,Colombia,63,Quindío,63594,Quimbaya,CO,COL,2
+CO_63_63690,Q1576707,CO,Colombia,63,Quindío,63690,Salento,CO,COL,2
+CO_66,Q13993,CO,Colombia,66,Risaralda,,,CO,COL,1
+CO_66_66001,Q51111,CO,Colombia,66,Risaralda,66001,Pereira,CO,COL,2
+CO_66_66045,Q1525318,CO,Colombia,66,Risaralda,66045,Apía,CO,COL,2
+CO_66_66075,Q634563,CO,Colombia,66,Risaralda,66075,Balboa,CO,COL,2
+CO_66_66088,Q1391572,CO,Colombia,66,Risaralda,66088,Belén De Umbría,CO,COL,2
+CO_66_66170,Q1093584,CO,Colombia,66,Risaralda,66170,Dosquebradas,CO,COL,2
+CO_66_66318,Q1526252,CO,Colombia,66,Risaralda,66318,Guática,CO,COL,2
+CO_66_66383,Q1576175,CO,Colombia,66,Risaralda,66383,La Celia,CO,COL,2
+CO_66_66400,Q2310853,CO,Colombia,66,Risaralda,66400,La Virginia,CO,COL,2
+CO_66_66440,Q1441429,CO,Colombia,66,Risaralda,66440,Marsella,CO,COL,2
+CO_66_66456,Q923166,CO,Colombia,66,Risaralda,66456,Mistrató,CO,COL,2
+CO_66_66572,Q514908,CO,Colombia,66,Risaralda,66572,Pueblo Rico,CO,COL,2
+CO_66_66594,Q2433476,CO,Colombia,66,Risaralda,66594,Quinchía,CO,COL,2
+CO_66_66682,Q955068,CO,Colombia,66,Risaralda,66682,Santa Rosa De Cabal,CO,COL,2
+CO_66_66687,Q1526270,CO,Colombia,66,Risaralda,66687,Santuario,CO,COL,2
+CO_68,Q235166,CO,Colombia,68,Santander,,,CO,COL,1
+CO_68_68001,Q243766,CO,Colombia,68,Santander,68001,Bucaramanga,CO,COL,2
+CO_68_68013,Q1656766,CO,Colombia,68,Santander,68013,Aguada,CO,COL,2
+CO_68_68020,Q1655535,CO,Colombia,68,Santander,68020,Albania,CO,COL,2
+CO_68_68051,Q933015,CO,Colombia,68,Santander,68051,Aratoca,CO,COL,2
+CO_68_68077,Q937957,CO,Colombia,68,Santander,68077,Barbosa,CO,COL,2
+CO_68_68079,Q1576773,CO,Colombia,68,Santander,68079,Barichara,CO,COL,2
+CO_68_68081,Q808830,CO,Colombia,68,Santander,68081,Barrancabermeja,CO,COL,2
+CO_68_68092,Q2430135,CO,Colombia,68,Santander,68092,Betulia,CO,COL,2
+CO_68_68101,Q2430208,CO,Colombia,68,Santander,68101,Bolívar,CO,COL,2
+CO_68_68121,Q942758,CO,Colombia,68,Santander,68121,Cabrera,CO,COL,2
+CO_68_68132,Q1654766,CO,Colombia,68,Santander,68132,California,CO,COL,2
+CO_68_68147,Q1574750,CO,Colombia,68,Santander,68147,Capitanejo,CO,COL,2
+CO_68_68152,Q1656695,CO,Colombia,68,Santander,68152,Carcasí,CO,COL,2
+CO_68_68160,Q963127,CO,Colombia,68,Santander,68160,Cepitá,CO,COL,2
+CO_68_68162,Q2012935,CO,Colombia,68,Santander,68162,Cerrito,CO,COL,2
+CO_68_68167,Q652409,CO,Colombia,68,Santander,68167,Charalá,CO,COL,2
+CO_68_68169,Q594164,CO,Colombia,68,Santander,68169,Charta,CO,COL,2
+CO_68_68176,Q783143,CO,Colombia,68,Santander,68176,Chima,CO,COL,2
+CO_68_68179,Q2430935,CO,Colombia,68,Santander,68179,Chipatá,CO,COL,2
+CO_68_68190,Q2430987,CO,Colombia,68,Santander,68190,Cimitarra,CO,COL,2
+CO_68_68207,Q1575628,CO,Colombia,68,Santander,68207,Concepción,CO,COL,2
+CO_68_68209,Q1655570,CO,Colombia,68,Santander,68209,Confines,CO,COL,2
+CO_68_68211,Q1655552,CO,Colombia,68,Santander,68211,Contratación,CO,COL,2
+CO_68_68217,Q1579660,CO,Colombia,68,Santander,68217,Coromoro,CO,COL,2
+CO_68_68229,Q1575978,CO,Colombia,68,Santander,68229,Curití,CO,COL,2
+CO_68_68235,Q515182,CO,Colombia,68,Santander,68235,El Carmen De Chucuri,CO,COL,2
+CO_68_68245,Q1655487,CO,Colombia,68,Santander,68245,El Guacamayo,CO,COL,2
+CO_68_68250,Q1748606,CO,Colombia,68,Santander,68250,El Peñón,CO,COL,2
+CO_68_68255,Q1525443,CO,Colombia,68,Santander,68255,El Playón,CO,COL,2
+CO_68_68264,Q1654297,CO,Colombia,68,Santander,68264,Encino,CO,COL,2
+CO_68_68266,Q1654246,CO,Colombia,68,Santander,68266,Enciso,CO,COL,2
+CO_68_68271,Q1575413,CO,Colombia,68,Santander,68271,Florián,CO,COL,2
+CO_68_68276,Q1006661,CO,Colombia,68,Santander,68276,Floridablanca,CO,COL,2
+CO_68_68296,Q1492832,CO,Colombia,68,Santander,68296,Galán,CO,COL,2
+CO_68_68298,Q1655623,CO,Colombia,68,Santander,68298,Gámbita,CO,COL,2
+CO_68_68307,Q1093497,CO,Colombia,68,Santander,68307,Girón,CO,COL,2
+CO_68_68318,Q948769,CO,Colombia,68,Santander,68318,Guaca,CO,COL,2
+CO_68_68320,Q2432014,CO,Colombia,68,Santander,68320,Guadalupe,CO,COL,2
+CO_68_68322,Q1655667,CO,Colombia,68,Santander,68322,Guapotá,CO,COL,2
+CO_68_68324,Q597693,CO,Colombia,68,Santander,68324,Guavatá,CO,COL,2
+CO_68_68327,Q1560045,CO,Colombia,68,Santander,68327,Güepsa,CO,COL,2
+CO_68_68344,Q1655700,CO,Colombia,68,Santander,68344,Hato,CO,COL,2
+CO_68_68368,Q731893,CO,Colombia,68,Santander,68368,Jesús María,CO,COL,2
+CO_68_68370,Q726802,CO,Colombia,68,Santander,68370,Jordán,CO,COL,2
+CO_68_68377,Q1575306,CO,Colombia,68,Santander,68377,La Belleza,CO,COL,2
+CO_68_68385,Q612555,CO,Colombia,68,Santander,68385,Landázuri,CO,COL,2
+CO_68_68397,Q2432181,CO,Colombia,68,Santander,68397,La Paz,CO,COL,2
+CO_68_68406,Q2279924,CO,Colombia,68,Santander,68406,Lebrija,CO,COL,2
+CO_68_68418,Q1574960,CO,Colombia,68,Santander,68418,Los Santos,CO,COL,2
+CO_68_68425,Q1655505,CO,Colombia,68,Santander,68425,Macaravita,CO,COL,2
+CO_68_68432,Q950892,CO,Colombia,68,Santander,68432,Málaga,CO,COL,2
+CO_68_68444,Q1574806,CO,Colombia,68,Santander,68444,Matanza,CO,COL,2
+CO_68_68464,Q1577177,CO,Colombia,68,Santander,68464,Mogotes,CO,COL,2
+CO_68_68468,Q1575454,CO,Colombia,68,Santander,68468,Molagavita,CO,COL,2
+CO_68_68498,Q1655496,CO,Colombia,68,Santander,68498,Ocamonte,CO,COL,2
+CO_68_68500,Q1577577,CO,Colombia,68,Santander,68500,Oiba,CO,COL,2
+CO_68_68502,Q2245327,CO,Colombia,68,Santander,68502,Onzaga,CO,COL,2
+CO_68_68522,Q1654701,CO,Colombia,68,Santander,68522,Palmar,CO,COL,2
+CO_68_68524,Q1656731,CO,Colombia,68,Santander,68524,Palmas Del Socorro,CO,COL,2
+CO_68_68533,Q366923,CO,Colombia,68,Santander,68533,Páramo,CO,COL,2
+CO_68_68547,Q2075634,CO,Colombia,68,Santander,68547,Piedecuesta,CO,COL,2
+CO_68_68549,Q585762,CO,Colombia,68,Santander,68549,Pinchote,CO,COL,2
+CO_68_68572,Q1525489,CO,Colombia,68,Santander,68572,Puente Nacional,CO,COL,2
+CO_68_68573,Q1575386,CO,Colombia,68,Santander,68573,Puerto Parra,CO,COL,2
+CO_68_68575,Q579352,CO,Colombia,68,Santander,68575,Puerto Wilches,CO,COL,2
+CO_68_68615,Q2433619,CO,Colombia,68,Santander,68615,Rionegro,CO,COL,2
+CO_68_68655,Q1525377,CO,Colombia,68,Santander,68655,Sabana De Torres,CO,COL,2
+CO_68_68669,Q964241,CO,Colombia,68,Santander,68669,San Andrés,CO,COL,2
+CO_68_68673,Q1655659,CO,Colombia,68,Santander,68673,San Benito,CO,COL,2
+CO_68_68679,,CO,Colombia,68,Santander,68679,San Gil,CO,COL,2
+CO_68_68682,Q1655466,CO,Colombia,68,Santander,68682,San Joaquín,CO,COL,2
+CO_68_68684,Q1657219,CO,Colombia,68,Santander,68684,San José De Miranda,CO,COL,2
+CO_68_68686,Q2434034,CO,Colombia,68,Santander,68686,San Miguel,CO,COL,2
+CO_68_68689,Q1256417,CO,Colombia,68,Santander,68689,San Vicente De Chucurí,CO,COL,2
+CO_68_68705,Q1828744,CO,Colombia,68,Santander,68705,Santa Bárbara,CO,COL,2
+CO_68_68720,Q1655934,CO,Colombia,68,Santander,68720,Santa Helena Del Opón,CO,COL,2
+CO_68_68745,Q1578171,CO,Colombia,68,Santander,68745,Simacota,CO,COL,2
+CO_68_68755,Q979980,CO,Colombia,68,Santander,68755,Socorro,CO,COL,2
+CO_68_68770,Q2434325,CO,Colombia,68,Santander,68770,Suaita,CO,COL,2
+CO_68_68773,Q2434746,CO,Colombia,68,Santander,68773,Sucre,CO,COL,2
+CO_68_68780,Q1655935,CO,Colombia,68,Santander,68780,Suratá,CO,COL,2
+CO_68_68820,Q1574932,CO,Colombia,68,Santander,68820,Tona,CO,COL,2
+CO_68_68855,Q1657211,CO,Colombia,68,Santander,68855,Valle De San José,CO,COL,2
+CO_68_68861,Q1525651,CO,Colombia,68,Santander,68861,Vélez,CO,COL,2
+CO_68_68867,Q2184603,CO,Colombia,68,Santander,68867,Vetas,CO,COL,2
+CO_68_68872,Q942314,CO,Colombia,68,Santander,68872,Villanueva,CO,COL,2
+CO_68_68895,Q1574792,CO,Colombia,68,Santander,68895,Zapatoca,CO,COL,2
+CO_70,Q235188,CO,Colombia,70,Sucre,,,CO,COL,1
+CO_70_70001,Q1043513,CO,Colombia,70,Sucre,70001,Sincelejo,CO,COL,2
+CO_70_70110,Q2430438,CO,Colombia,70,Sucre,70110,Buenavista,CO,COL,2
+CO_70_70124,Q738108,CO,Colombia,70,Sucre,70124,Caimito,CO,COL,2
+CO_70_70204,Q1576957,CO,Colombia,70,Sucre,70204,Colosó,CO,COL,2
+CO_70_70215,Q2431720,CO,Colombia,70,Sucre,70215,Corozal,CO,COL,2
+CO_70_70221,Q952231,CO,Colombia,70,Sucre,70221,Coveñas,CO,COL,2
+CO_70_70230,Q1656706,CO,Colombia,70,Sucre,70230,Chalán,CO,COL,2
+CO_70_70233,Q1577912,CO,Colombia,70,Sucre,70233,El Roble,CO,COL,2
+CO_70_70235,Q389099,CO,Colombia,70,Sucre,70235,Galeras,CO,COL,2
+CO_70_70265,Q1526247,CO,Colombia,70,Sucre,70265,Guaranda,CO,COL,2
+CO_70_70400,Q684303,CO,Colombia,70,Sucre,70400,La Unión,CO,COL,2
+CO_70_70418,Q595791,CO,Colombia,70,Sucre,70418,Los Palmitos,CO,COL,2
+CO_70_70429,Q2173993,CO,Colombia,70,Sucre,70429,Majagual,CO,COL,2
+CO_70_70473,Q1526204,CO,Colombia,70,Sucre,70473,Morroa,CO,COL,2
+CO_70_70508,Q1441134,CO,Colombia,70,Sucre,70508,Ovejas,CO,COL,2
+CO_70_70523,Q1577493,CO,Colombia,70,Sucre,70523,Palmito,CO,COL,2
+CO_70_70670,Q2433637,CO,Colombia,70,Sucre,70670,Sampués,CO,COL,2
+CO_70_70678,Q1441153,CO,Colombia,70,Sucre,70678,San Benito Abad,CO,COL,2
+CO_70_70702,Q1526281,CO,Colombia,70,Sucre,70702,San Juan De Betulia,CO,COL,2
+CO_70_70708,Q2434075,CO,Colombia,70,Sucre,70708,San Marcos,CO,COL,2
+CO_70_70713,Q2324811,CO,Colombia,70,Sucre,70713,San Onofre,CO,COL,2
+CO_70_70717,Q768315,CO,Colombia,70,Sucre,70717,San Pedro,CO,COL,2
+CO_70_70742,Q587626,CO,Colombia,70,Sucre,70742,San Luis De Sincé,CO,COL,2
+CO_70_70771,Q1442422,CO,Colombia,70,Sucre,70771,Sucre,CO,COL,2
+CO_70_70820,Q601893,CO,Colombia,70,Sucre,70820,Santiago De Tolú,CO,COL,2
+CO_70_70823,Q652493,CO,Colombia,70,Sucre,70823,San José De Toluviejo,CO,COL,2
+CO_73,Q234501,CO,Colombia,73,Tolima,,,CO,COL,1
+CO_73_73001,Q222755,CO,Colombia,73,Tolima,73001,Ibagué,CO,COL,2
+CO_73_73024,Q748817,CO,Colombia,73,Tolima,73024,Alpujarra,CO,COL,2
+CO_73_73026,Q1575371,CO,Colombia,73,Tolima,73026,Alvarado,CO,COL,2
+CO_73_73030,Q1574897,CO,Colombia,73,Tolima,73030,Ambalema,CO,COL,2
+CO_73_73043,Q1525611,CO,Colombia,73,Tolima,73043,Anzoátegui,CO,COL,2
+CO_73_73055,Q584880,CO,Colombia,73,Tolima,73055,Armero,CO,COL,2
+CO_73_73067,Q2430018,CO,Colombia,73,Tolima,73067,Ataco,CO,COL,2
+CO_73_73124,Q1441115,CO,Colombia,73,Tolima,73124,Cajamarca,CO,COL,2
+CO_73_73148,Q1574988,CO,Colombia,73,Tolima,73148,Carmen De Apicalá,CO,COL,2
+CO_73_73152,Q1576184,CO,Colombia,73,Tolima,73152,Casabianca,CO,COL,2
+CO_73_73168,Q1977885,CO,Colombia,73,Tolima,73168,Chaparral,CO,COL,2
+CO_73_73200,Q1577445,CO,Colombia,73,Tolima,73200,Coello,CO,COL,2
+CO_73_73217,Q583757,CO,Colombia,73,Tolima,73217,Coyaima,CO,COL,2
+CO_73_73226,Q577597,CO,Colombia,73,Tolima,73226,Cunday,CO,COL,2
+CO_73_73236,Q520486,CO,Colombia,73,Tolima,73236,Dolores,CO,COL,2
+CO_73_73268,Q2298176,CO,Colombia,73,Tolima,73268,Espinal,CO,COL,2
+CO_73_73270,Q1577895,CO,Colombia,73,Tolima,73270,Falan,CO,COL,2
+CO_73_73275,Q764821,CO,Colombia,73,Tolima,73275,Flandes,CO,COL,2
+CO_73_73283,Q2431919,CO,Colombia,73,Tolima,73283,Fresno,CO,COL,2
+CO_73_73319,Q664349,CO,Colombia,73,Tolima,73319,Guamo,CO,COL,2
+CO_73_73347,Q1578580,CO,Colombia,73,Tolima,73347,Herveo,CO,COL,2
+CO_73_73349,Q932513,CO,Colombia,73,Tolima,73349,Honda,CO,COL,2
+CO_73_73352,Q1525390,CO,Colombia,73,Tolima,73352,Icononzo,CO,COL,2
+CO_73_73408,Q1526029,CO,Colombia,73,Tolima,73408,Lérida,CO,COL,2
+CO_73_73411,Q1256428,CO,Colombia,73,Tolima,73411,Líbano,CO,COL,2
+CO_73_73443,Q532572,CO,Colombia,73,Tolima,73443,San Sebastián De Mariquita,CO,COL,2
+CO_73_73449,Q1257259,CO,Colombia,73,Tolima,73449,Melgar,CO,COL,2
+CO_73_73461,Q977896,CO,Colombia,73,Tolima,73461,Murillo,CO,COL,2
+CO_73_73483,Q258673,CO,Colombia,73,Tolima,73483,Natagaima,CO,COL,2
+CO_73_73504,Q2433233,CO,Colombia,73,Tolima,73504,Ortega,CO,COL,2
+CO_73_73520,Q1575427,CO,Colombia,73,Tolima,73520,Palocabildo,CO,COL,2
+CO_73_73547,Q1655981,CO,Colombia,73,Tolima,73547,Piedras,CO,COL,2
+CO_73_73555,Q1964548,CO,Colombia,73,Tolima,73555,Planadas,CO,COL,2
+CO_73_73563,Q1576149,CO,Colombia,73,Tolima,73563,Prado,CO,COL,2
+CO_73_73585,Q1392469,CO,Colombia,73,Tolima,73585,Purificación,CO,COL,2
+CO_73_73616,Q2299677,CO,Colombia,73,Tolima,73616,Rioblanco,CO,COL,2
+CO_73_73622,Q748399,CO,Colombia,73,Tolima,73622,Roncesvalles,CO,COL,2
+CO_73_73624,Q1441209,CO,Colombia,73,Tolima,73624,Rovira,CO,COL,2
+CO_73_73671,Q1525454,CO,Colombia,73,Tolima,73671,Saldaña,CO,COL,2
+CO_73_73675,Q1526235,CO,Colombia,73,Tolima,73675,San Antonio,CO,COL,2
+CO_73_73678,Q1525328,CO,Colombia,73,Tolima,73678,San Luis,CO,COL,2
+CO_73_73686,Q1574921,CO,Colombia,73,Tolima,73686,Santa Isabel,CO,COL,2
+CO_73_73770,Q2104427,CO,Colombia,73,Tolima,73770,Suárez,CO,COL,2
+CO_73_73854,Q1575444,CO,Colombia,73,Tolima,73854,Valle De San Juan,CO,COL,2
+CO_73_73861,Q1525428,CO,Colombia,73,Tolima,73861,Venadillo,CO,COL,2
+CO_73_73870,Q1575039,CO,Colombia,73,Tolima,73870,Villahermosa,CO,COL,2
+CO_73_73873,Q1577347,CO,Colombia,73,Tolima,73873,Villarrica,CO,COL,2
+CO_76,Q13990,CO,Colombia,76,Valle Del Cauca,,,CO,COL,1
+CO_76_76001,Q51103,CO,Colombia,76,Valle Del Cauca,76001,Cali,CO,COL,2
+CO_76_76020,Q1526276,CO,Colombia,76,Valle Del Cauca,76020,Alcalá,CO,COL,2
+CO_76_76036,Q1526216,CO,Colombia,76,Valle Del Cauca,76036,Andalucía,CO,COL,2
+CO_76_76041,Q1441179,CO,Colombia,76,Valle Del Cauca,76041,Ansermanuevo,CO,COL,2
+CO_76_76054,Q2142901,CO,Colombia,76,Valle Del Cauca,76054,Argelia,CO,COL,2
+CO_76_76100,Q1880935,CO,Colombia,76,Valle Del Cauca,76100,Bolívar,CO,COL,2
+CO_76_76109,Q996581,CO,Colombia,76,Valle Del Cauca,76109,Buenaventura,CO,COL,2
+CO_76_76111,Q934753,CO,Colombia,76,Valle Del Cauca,76111,Guadalajara De Buga,CO,COL,2
+CO_76_76113,Q686202,CO,Colombia,76,Valle Del Cauca,76113,Bugalagrande,CO,COL,2
+CO_76_76122,Q2430520,CO,Colombia,76,Valle Del Cauca,76122,Caicedonia,CO,COL,2
+CO_76_76126,Q1526288,CO,Colombia,76,Valle Del Cauca,76126,Calima,CO,COL,2
+CO_76_76130,Q2430763,CO,Colombia,76,Valle Del Cauca,76130,Candelaria,CO,COL,2
+CO_76_76147,Q2004074,CO,Colombia,76,Valle Del Cauca,76147,Cartago,CO,COL,2
+CO_76_76233,Q2406018,CO,Colombia,76,Valle Del Cauca,76233,Dagua,CO,COL,2
+CO_76_76243,Q1578199,CO,Colombia,76,Valle Del Cauca,76243,El Águila,CO,COL,2
+CO_76_76246,Q1577535,CO,Colombia,76,Valle Del Cauca,76246,El Cairo,CO,COL,2
+CO_76_76248,Q1093505,CO,Colombia,76,Valle Del Cauca,76248,El Cerrito,CO,COL,2
+CO_76_76250,Q606862,CO,Colombia,76,Valle Del Cauca,76250,El Dovio,CO,COL,2
+CO_76_76275,Q1093490,CO,Colombia,76,Valle Del Cauca,76275,Florida,CO,COL,2
+CO_76_76306,Q1525670,CO,Colombia,76,Valle Del Cauca,76306,Ginebra,CO,COL,2
+CO_76_76318,Q2431973,CO,Colombia,76,Valle Del Cauca,76318,Guacarí,CO,COL,2
+CO_76_76364,Q1681497,CO,Colombia,76,Valle Del Cauca,76364,Jamundí,CO,COL,2
+CO_76_76377,Q677687,CO,Colombia,76,Valle Del Cauca,76377,La Cumbre,CO,COL,2
+CO_76_76400,Q2022508,CO,Colombia,76,Valle Del Cauca,76400,La Unión,CO,COL,2
+CO_76_76403,Q1526230,CO,Colombia,76,Valle Del Cauca,76403,La Victoria,CO,COL,2
+CO_76_76497,Q676377,CO,Colombia,76,Valle Del Cauca,76497,Obando,CO,COL,2
+CO_76_76520,Q989858,CO,Colombia,76,Valle Del Cauca,76520,Palmira,CO,COL,2
+CO_76_76563,Q2433369,CO,Colombia,76,Valle Del Cauca,76563,Pradera,CO,COL,2
+CO_76_76606,Q751122,CO,Colombia,76,Valle Del Cauca,76606,Restrepo,CO,COL,2
+CO_76_76616,Q584328,CO,Colombia,76,Valle Del Cauca,76616,Riofrío,CO,COL,2
+CO_76_76622,Q1146669,CO,Colombia,76,Valle Del Cauca,76622,Roldanillo,CO,COL,2
+CO_76_76670,Q2434300,CO,Colombia,76,Valle Del Cauca,76670,San Pedro,CO,COL,2
+CO_76_76736,Q2263673,CO,Colombia,76,Valle Del Cauca,76736,Sevilla,CO,COL,2
+CO_76_76823,Q1526212,CO,Colombia,76,Valle Del Cauca,76823,Toro,CO,COL,2
+CO_76_76828,Q1525974,CO,Colombia,76,Valle Del Cauca,76828,Trujillo,CO,COL,2
+CO_76_76834,Q1002577,CO,Colombia,76,Valle Del Cauca,76834,Tuluá,CO,COL,2
+CO_76_76845,Q1575644,CO,Colombia,76,Valle Del Cauca,76845,Ulloa,CO,COL,2
+CO_76_76863,Q1575339,CO,Colombia,76,Valle Del Cauca,76863,Versalles,CO,COL,2
+CO_76_76869,Q1579084,CO,Colombia,76,Valle Del Cauca,76869,Vijes,CO,COL,2
+CO_76_76890,Q543996,CO,Colombia,76,Valle Del Cauca,76890,Yotoco,CO,COL,2
+CO_76_76892,Q735378,CO,Colombia,76,Valle Del Cauca,76892,Yumbo,CO,COL,2
+CO_76_76895,Q2434788,CO,Colombia,76,Valle Del Cauca,76895,Zarzal,CO,COL,2
+CO_81,Q230223,CO,Colombia,81,Arauca,,,CO,COL,1
+CO_81_81001,Q626543,CO,Colombia,81,Arauca,81001,Arauca,CO,COL,2
+CO_81_81065,Q2320331,CO,Colombia,81,Arauca,81065,Arauquita,CO,COL,2
+CO_81_81220,Q593491,CO,Colombia,81,Arauca,81220,Cravo Norte,CO,COL,2
+CO_81_81300,Q1442438,CO,Colombia,81,Arauca,81300,Fortul,CO,COL,2
+CO_81_81591,Q924553,CO,Colombia,81,Arauca,81591,Puerto Rondón,CO,COL,2
+CO_81_81736,Q940904,CO,Colombia,81,Arauca,81736,Saravena,CO,COL,2
+CO_81_81794,Q2434750,CO,Colombia,81,Arauca,81794,Tame,CO,COL,2
+CO_85,Q13984,CO,Colombia,85,Casanare,,,CO,COL,1
+CO_85_85001,Q13591,CO,Colombia,85,Casanare,85001,Yopal,CO,COL,2
+CO_85_85010,Q13663,CO,Colombia,85,Casanare,85010,Aguazul,CO,COL,2
+CO_85_85015,Q1654975,CO,Colombia,85,Casanare,85015,Chámeza,CO,COL,2
+CO_85_85125,Q1575569,CO,Colombia,85,Casanare,85125,Hato Corozal,CO,COL,2
+CO_85_85136,Q952145,CO,Colombia,85,Casanare,85136,La Salina,CO,COL,2
+CO_85_85139,Q1579380,CO,Colombia,85,Casanare,85139,Maní,CO,COL,2
+CO_85_85162,Q1525276,CO,Colombia,85,Casanare,85162,Monterrey,CO,COL,2
+CO_85_85225,Q1575548,CO,Colombia,85,Casanare,85225,Nunchía,CO,COL,2
+CO_85_85230,Q1576308,CO,Colombia,85,Casanare,85230,Orocué,CO,COL,2
+CO_85_85250,Q1442453,CO,Colombia,85,Casanare,85250,Paz De Ariporo,CO,COL,2
+CO_85_85263,Q1555513,CO,Colombia,85,Casanare,85263,Pore,CO,COL,2
+CO_85_85279,Q954584,CO,Colombia,85,Casanare,85279,Recetor,CO,COL,2
+CO_85_85300,Q2433631,CO,Colombia,85,Casanare,85300,Sabanalarga,CO,COL,2
+CO_85_85315,Q1654723,CO,Colombia,85,Casanare,85315,Sácama,CO,COL,2
+CO_85_85325,Q648843,CO,Colombia,85,Casanare,85325,San Luis De Palenque,CO,COL,2
+CO_85_85400,Q529835,CO,Colombia,85,Casanare,85400,Támara,CO,COL,2
+CO_85_85410,Q281554,CO,Colombia,85,Casanare,85410,Tauramena,CO,COL,2
+CO_85_85430,Q1575575,CO,Colombia,85,Casanare,85430,Trinidad,CO,COL,2
+CO_85_85440,Q1440726,CO,Colombia,85,Casanare,85440,Villanueva,CO,COL,2
+CO_86,Q232953,CO,Colombia,86,Putumayo,,,CO,COL,1
+CO_86_86001,Q579803,CO,Colombia,86,Putumayo,86001,Mocoa,CO,COL,2
+CO_86_86219,Q1962031,CO,Colombia,86,Putumayo,86219,Colón,CO,COL,2
+CO_86_86320,Q12981826,CO,Colombia,86,Putumayo,86320,Orito,CO,COL,2
+CO_86_86568,Q1018571,CO,Colombia,86,Putumayo,86568,Puerto Asís,CO,COL,2
+CO_86_86569,Q282117,CO,Colombia,86,Putumayo,86569,Puerto Caicedo,CO,COL,2
+CO_86_86571,Q1440780,CO,Colombia,86,Putumayo,86571,Puerto Guzmán,CO,COL,2
+CO_86_86573,Q1525407,CO,Colombia,86,Putumayo,86573,Puerto Leguízamo,CO,COL,2
+CO_86_86749,Q368507,CO,Colombia,86,Putumayo,86749,Sibundoy,CO,COL,2
+CO_86_86755,Q2434062,CO,Colombia,86,Putumayo,86755,San Francisco,CO,COL,2
+CO_86_86757,Q1442390,CO,Colombia,86,Putumayo,86757,San Miguel,CO,COL,2
+CO_86_86760,Q1577803,CO,Colombia,86,Putumayo,86760,Santiago,CO,COL,2
+CO_86_86865,Q739165,CO,Colombia,86,Putumayo,86865,Valle Del Guamuez,CO,COL,2
+CO_86_86885,Q1441065,CO,Colombia,86,Putumayo,86885,Villagarzón,CO,COL,2
+CO_88,Q26855,CO,Colombia,88,"Archipelago of Saint Andrews, Providence and Saint Catalina",,,CO,COL,1
+CO_88_88001,Q134678,CO,Colombia,88,"Archipelago of Saint Andrews, Providence and Saint Catalina",88001,Saint Andrews,CO,COL,2
+CO_88_88564,Q3408299,CO,Colombia,88,"Archipelago of Saint Andrews, Providence and Saint Catalina",88564,Providence,CO,COL,2
+CO_91,Q44724,CO,Colombia,91,Amazonas,,,CO,COL,1
+CO_91_91001,Q214913,CO,Colombia,91,Amazonas,91001,Leticia,CO,COL,2
+CO_91_91263,Q665774,CO,Colombia,91,Amazonas,91263,El Encanto,CO,COL,2
+CO_91_91405,Q1654959,CO,Colombia,91,Amazonas,91405,La Chorrera,CO,COL,2
+CO_91_91407,Q2423679,CO,Colombia,91,Amazonas,91407,La Pedrera,CO,COL,2
+CO_91_91430,Q1821133,CO,Colombia,91,Amazonas,91430,La Victoria,CO,COL,2
+CO_91_91460,Q1654918,CO,Colombia,91,Amazonas,91460,Mirití - Paraná,CO,COL,2
+CO_91_91530,Q1654802,CO,Colombia,91,Amazonas,91530,Puerto Alegría,CO,COL,2
+CO_91_91536,Q2243950,CO,Colombia,91,Amazonas,91536,Puerto Arica,CO,COL,2
+CO_91_91540,Q767738,CO,Colombia,91,Amazonas,91540,Puerto Nariño,CO,COL,2
+CO_91_91669,Q2433464,CO,Colombia,91,Amazonas,91669,Puerto Santander,CO,COL,2
+CO_91_91798,Q1654901,CO,Colombia,91,Amazonas,91798,Tarapacá,CO,COL,2
+CO_94,Q238645,CO,Colombia,94,Guainía,,,CO,COL,1
+CO_94_94001,Q130281,CO,Colombia,94,Guainía,94001,Inírida,CO,COL,2
+CO_94_94343,Q1655675,CO,Colombia,94,Guainía,94343,Barrancominas*,CO,COL,2
+CO_94_94663,Q1654196,CO,Colombia,94,Guainía,94663,Mapiripana*,CO,COL,2
+CO_94_94883,Q1656718,CO,Colombia,94,Guainía,94883,San Felipe,CO,COL,2
+CO_94_94884,Q2219881,CO,Colombia,94,Guainía,94884,Puerto Colombia,CO,COL,2
+CO_94_94885,Q13195048,CO,Colombia,94,Guainía,94885,La Guadalupe,CO,COL,2
+CO_94_94886,Q1654694,CO,Colombia,94,Guainía,94886,Cacahual,CO,COL,2
+CO_94_94887,Q980937,CO,Colombia,94,Guainía,94887,Pana Pana,CO,COL,2
+CO_94_94888,Q1655191,CO,Colombia,94,Guainía,94888,Morichal,CO,COL,2
+CO_95,Q272885,CO,Colombia,95,Guaviare,,,CO,COL,1
+CO_95_95001,Q864675,CO,Colombia,95,Guaviare,95001,San José Del Guaviare,CO,COL,2
+CO_95_95015,Q2430564,CO,Colombia,95,Guaviare,95015,Calamar,CO,COL,2
+CO_95_95025,Q1526156,CO,Colombia,95,Guaviare,95025,El Retorno,CO,COL,2
+CO_95_95200,Q980001,CO,Colombia,95,Guaviare,95200,Miraflores,CO,COL,2
+CO_97,Q234505,CO,Colombia,97,Vaupés,,,CO,COL,1
+CO_97_97001,Q130242,CO,Colombia,97,Vaupés,97001,Mitú,CO,COL,2
+CO_97_97161,Q1655130,CO,Colombia,97,Vaupés,97161,Carurú,CO,COL,2
+CO_97_97511,Q1654444,CO,Colombia,97,Vaupés,97511,Pacoa,CO,COL,2
+CO_97_97666,Q1655173,CO,Colombia,97,Vaupés,97666,Taraira,CO,COL,2
+CO_97_97777,Q962671,CO,Colombia,97,Vaupés,97777,Papunahua,CO,COL,2
+CO_97_97889,,CO,Colombia,97,Vaupés,97889,Yavaraté,CO,COL,2
+CO_99,Q268729,CO,Colombia,99,Vichada,,,CO,COL,1
+CO_99_99001,Q130304,CO,Colombia,99,Vichada,99001,Puerto Carreño,CO,COL,2
+CO_99_99524,Q941906,CO,Colombia,99,Vichada,99524,La Primavera,CO,COL,2
+CO_99_99624,Q1655146,CO,Colombia,99,Vichada,99624,Santa Rosalía,CO,COL,2
+CO_99_99773,Q255288,CO,Colombia,99,Vichada,99773,Cumaribo,CO,COL,2
 CR,Q800,CR,Costa Rica,,,,,CR,CRI,0
 CU,Q241,CU,Cuba,,,,,CU,CUB,0
 CV,Q1011,CV,Cape Verde,,,,,CV,CPV,0

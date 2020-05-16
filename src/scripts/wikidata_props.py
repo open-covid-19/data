@@ -1,5 +1,20 @@
 #!/usr/bin/env python
 
+"""
+Sample usage:
+python scripts/wikidata_props.py "`
+    latitude|longitude:P625,`
+    area:P2046,`
+    elevation:P2044,`
+    population:P1082,`
+    gdp:P2131,`
+    gdp_per_capita:P2132,`
+    human_development_index:P1081,`
+    life_expectancy:P2250" `
+    --filter "CO.*"`
+    --output-file data/output.csv
+"""
+
 import os
 import re
 import sys
@@ -122,16 +137,3 @@ for idx, res in enumerate(Pool(cpu_count() // 2).imap_unordered(iter_func, iter_
 
 if fd is not sys.stdout:
     fd.close()
-"""
-Sample usage:
-python scripts/wikidata_props.py "`
-    latitude|longitude:P625,`
-    area:P2046,`
-    elevation:P2044,`
-    population:P1082,`
-    gdp:P2131,`
-    gdp_per_capita:P2132,`
-    human_development_index:P1081,`
-    life_expectancy:P2250" `
-    --output-file data/output.csv
-"""

@@ -56,6 +56,10 @@ if args.profile:
 for pipeline_chain_class in all_pipeline_chains:
     pipeline_chain = pipeline_chain_class()
     pipeline_name = Path(str(inspect.getsourcefile(type(pipeline_chain)))).parent.name
+    if args.only and pipeline_name != args.only:
+        continue
+    if args.exclude and pipeline_name in args.exclude.split(","):
+        continue
     pipeline_chain.run().to_csv(ROOT / "output" / "{}.csv".format(pipeline_name), index=False)
 
 if args.profile:

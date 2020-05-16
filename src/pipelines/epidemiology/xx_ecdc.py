@@ -1,5 +1,6 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, isnull
+from lib.cast import safe_int_cast
 from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat, date_offset
 from lib.utils import get_or_default, grouped_cumsum
@@ -20,8 +21,10 @@ class ECDCPipeline(DefaultPipeline):
         data = data.merge(aux, suffixes=("", "aux_"), how="left")
 
         # Perform date adjustment for all records so date is consistent across datasets
+        data.aggregate_report_offset = data.aggregate_report_offset.apply(safe_int_cast)
         data["date"] = data.apply(
-            lambda x: date_offset(x["date"], get_or_default(x, "epi_report_offset", 0)), axis=1,
+            lambda x: date_offset(x["date"], get_or_default(x, "aggregate_report_offset", 0)),
+            axis=1,
         )
 
         return data[data_columns]
@@ -43,7 +46,7 @@ class ECDCPipeline(DefaultPipeline):
         data["geoId"] = data["geoId"].apply(lambda code: "GR" if code == "EL" else code)
 
         # Workaround for https://github.com/open-covid-19/data/issues/13
-        # ECDC mistakenly labels Greece country code as UK instead of GB
+        # ECDC mistakenly labels Great Britain country code as UK instead of GB
         data["geoId"] = data["geoId"].apply(lambda code: "GB" if code == "UK" else code)
 
         # Remove bogus entries (cruiseships, etc.)
