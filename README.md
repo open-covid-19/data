@@ -2,6 +2,27 @@
 This repository contains datasets of daily time-series data related to COVID-19, including
 state/province data for over 30 countries and county/municipality data for US, UK, NL and CO.
 
+The data is available as CSV and JSON files, which are published in Github Pages so they can be
+served directly to Javascript applications without the need of a proxy to set the correct headers
+for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
+is preferred in order to avoid caching issues and potential, future breaking changes. The datasets
+available from this project are:
+
+| Dataset | CSV URL | JSON URL |
+| ------- | ------- | -------- |
+| [Index](#index) | [index.csv](https://open-covid-19.github.io/data/v2/index.csv) | [index.json](https://open-covid-19.github.io/data/v2/index.json) |
+| [Demographics](#demographics) | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv) | [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) |
+| [Economy](#economy) | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv) | [economy.json](https://open-covid-19.github.io/data/v2/economy.json) |
+| [Epidemiology](#epidemiology) | [epidemiology.csv](https://open-covid-19.github.io/data/v2/epidemiology.csv) | [epidemiology.json](https://open-covid-19.github.io/data/v2/epidemiology.json) |
+| [Geography](#geography) | [geography.csv](https://open-covid-19.github.io/data/v2/geography.csv) | [geography.json](https://open-covid-19.github.io/data/v2/geography.json) |
+| [Google Mobility](#google-mobility) | [google-mobility.csv](https://open-covid-19.github.io/data/v2/google-mobility.csv) | [google-mobility.json](https://open-covid-19.github.io/data/v2/google-mobility.json) |
+| [Oxford Government Response](#oxford-government-response) | [oxford-government-response.csv](https://open-covid-19.github.io/data/v2/oxford-government-response.csv) | [oxford-government-response.json](https://open-covid-19.github.io/data/v2/oxford-government-response.json) |
+| [Weather](#weather) | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv) | [weather.json](https://open-covid-19.github.io/data/v2/weather.json) |
+
+For more information about how to use these files see the section about
+[using the data](#use-the-data), and for more details about each dataset see the section about
+[understanding the data](#understand-the-data).
+
 ## Explore the data
 |     |     |
 | --- | --- |
@@ -14,21 +35,6 @@ If you are using this data, feel free to open an issue and let us know so we can
 your project here.
 
 ## Use the data
-The data is available as CSV and JSON files, which are published in Github Pages so they can be
-served directly to Javascript applications without the need of a proxy to set the correct headers
-for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
-is preferred in order to avoid caching issues. The datasets available from this project are:
-
-| Dataset | CSV URL | JSON URL |
-| ------- | ------- | -------- |
-| [Index](#index) | [index.csv](https://open-covid-19.github.io/data/v2/index.csv) | [index.json](https://open-covid-19.github.io/data/v2/index.json) |
-| [Demographics](#demographics) | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv) | [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) |
-| [Economy](#economy) | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv) | [economy.json](https://open-covid-19.github.io/data/v2/economy.json) |
-| [Epidemiology](#epidemiology) | [epidemiology.csv](https://open-covid-19.github.io/data/v2/epidemiology.csv) | [epidemiology.json](https://open-covid-19.github.io/data/v2/epidemiology.json) |
-| [Geography](#geography) | [geography.csv](https://open-covid-19.github.io/data/v2/geography.csv) | [geography.json](https://open-covid-19.github.io/data/v2/geography.json) |
-| [Mobility](#mobility) | [mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) | [mobility.json](https://open-covid-19.github.io/data/v2/mobility.json) |
-| [Stringency](#stringency) | [stringency.csv](https://open-covid-19.github.io/data/v2/stringency.csv) | [stringency.json](https://open-covid-19.github.io/data/v2/stringency.json) |
-| [Weather](#weather) | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv) | [weather.json](https://open-covid-19.github.io/data/v2/weather.json) |
 
 If you are trying to use this data alongside your own datasets, then you can use the [Index](#index)
 table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions are
@@ -82,9 +88,9 @@ Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/epidemiology.csv' | C
 ```
 
 ## Understand the data
-Make sure that you are using the URL [linked at the table above](#use-the-data) and not the raw
-GitHub file, the latter is subject to change at any moment in non-compatible ways, and due to the
-configuration of GitHub's raw file server you may run into potential caching issues.
+Make sure that you are using the URL [linked at the table above](#open-covid-19-dataset) and not the
+raw GitHub file, the latter is subject to change at any moment in non-compatible ways, and due to
+the configuration of GitHub's raw file server you may run into potential caching issues.
 
 Missing values will be represented as nulls, whereas zeroes are used when a true value of zero is
 reported.
@@ -160,8 +166,8 @@ Information related to the geography for each region:
 | **elevation** | `integer` [meters] | Elevation above the sea level | 875 |
 | **area** | `integer` [squared kilometers] | Area encompassing this region | 3729 |
 
-### Stringency
-Summary of a government's response, including a *stringency index*, collected from
+### Oxford Government Response
+Summary of a government's response to the events, including a *stringency index*, collected from
 [University of Oxford][18]:
 
 | Name | Type | Description | Example |
@@ -204,9 +210,9 @@ Daily weather information from nearest station reported by NOAA:
 | **rainfall** | `double` [millimeters] | Rainfall during the entire day | 51.0 |
 | **snowfall** | `double` [millimeters] | Snowfall during the entire day | 0.0 |
 
-### Mobility
+### Google Mobility
 Google's [Mobility Reports][17] are presented in CSV form as
-[mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) with the
+[google-mobility.csv](https://open-covid-19.github.io/data/v2/google-mobility.csv) with the
 following columns:
 
 | Name | Type | Description | Example |
@@ -227,8 +233,8 @@ point has values `{country_code: US, subregion1_code: CA, subregion2_code: null,
 record will have data aggregated at the subregion1 (i.e. state/province) level. If `subregion1_code`
 were null, then it would be data aggregated at the country level.
 
-Another way to tell the level of aggregation is the `aggregation_level` of the `metadata` table, see
-the [schema documentation](#metadata) for more details about how to interpret it.
+Another way to tell the level of aggregation is the `aggregation_level` of the `index` table, see
+the [schema documentation](#index) for more details about how to interpret it.
 
 Please note that, sometimes, the country-level data and the region-level data come from different
 sources so adding up all region-level values may not equal exactly to the reported country-level

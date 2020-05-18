@@ -7,7 +7,7 @@ from lib.time import datetime_isoformat
 from lib.utils import ROOT
 
 
-class StringencyPipeline(DefaultPipeline):
+class OxfordGovernmentResponsePipeline(DefaultPipeline):
     data_urls: List[str] = [
         "https://raw.github.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
     ]
@@ -24,12 +24,8 @@ class StringencyPipeline(DefaultPipeline):
         # Drop redundant flag columns
         data = data.drop(columns=[col for col in data.columns if "_Flag" in col])
 
-        # Join with ISO data
+        # Join with ISO data to retrieve our key
         data = data.rename(columns={"CountryCode": "3166-1-alpha-3"}).merge(aux["country_codes"])
-
-        # Join with our metadata
-        metadata = aux["metadata"][["key", "country_code"]]
-        data = data.rename(columns={"3166-1-alpha-2": "country_code"}).merge(metadata)
 
         # Use consistent naming convention for columns
         data = data[
@@ -56,7 +52,7 @@ class StringencyPipeline(DefaultPipeline):
         return data.sort_values(first_columns)
 
 
-class StringencyPipelineChain(PipelineChain):
+class OxfordGovernmentResponsePipelineChain(PipelineChain):
 
     schema: Dict[str, type] = {
         "date": str,
@@ -81,4 +77,6 @@ class StringencyPipelineChain(PipelineChain):
         "stringency_index": float,
     }
 
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [(StringencyPipeline(), {})]
+    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
+        (OxfordGovernmentResponsePipeline(), {})
+    ]

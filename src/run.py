@@ -12,21 +12,24 @@ from lib.pipeline import PipelineChain
 from lib.utils import ROOT
 
 # Step 1: Add your pipeline chain to this import block
-from pipelines.epidemiology.pipeline_chain import EpidemiologyPipelineChain
-from pipelines.index.index_pipeline import IndexPipelineChain
-from pipelines.stringency.stringency_pipeline import StringencyPipelineChain
-from pipelines.weather.weather_pipeline import WeatherPipelineChain
-from pipelines.geography.geography_pipeline import GeographyPipelineChain
-from pipelines.economy.economy_pipeline import EconomyPipelineChain
 from pipelines.demographics.demographics_pipeline import DemographicsPipelineChain
+from pipelines.economy.economy_pipeline import EconomyPipelineChain
+from pipelines.epidemiology.pipeline_chain import EpidemiologyPipelineChain
+from pipelines.geography.geography_pipeline import GeographyPipelineChain
+from pipelines.index.index_pipeline import IndexPipelineChain
+from pipelines.oxford_government_response.oxford_government_response_pipeline import (
+    OxfordGovernmentResponsePipelineChain,
+)
+from pipelines.weather.weather_pipeline import WeatherPipelineChain
 
 # Step 2: After adding the import statement above, add your pipeline chain to this list
 all_pipeline_chains: List[PipelineChain] = [
-    IndexPipelineChain,
-    StringencyPipelineChain,
-    GeographyPipelineChain,
     DemographicsPipelineChain,
+    EconomyPipelineChain,
     EpidemiologyPipelineChain,
+    GeographyPipelineChain,
+    IndexPipelineChain,
+    OxfordGovernmentResponsePipelineChain,
     WeatherPipelineChain,
 ]
 
@@ -55,7 +58,8 @@ if args.profile:
 # The output name for each pipeline chain will be the name of the directory that the chain is in
 for pipeline_chain_class in all_pipeline_chains:
     pipeline_chain = pipeline_chain_class()
-    pipeline_name = Path(str(inspect.getsourcefile(type(pipeline_chain)))).parent.name
+    pipeline_path = Path(str(inspect.getsourcefile(type(pipeline_chain))))
+    pipeline_name = pipeline_path.parent.name.replace("_", "-")
     if args.only and pipeline_name != args.only:
         continue
     if args.exclude and pipeline_name in args.exclude.split(","):
