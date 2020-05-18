@@ -31,8 +31,8 @@ is preferred in order to avoid caching issues. The datasets available from this 
 | [Weather](#weather) | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv) | [weather.json](https://open-covid-19.github.io/data/v2/weather.json) |
 
 If you are trying to use this data alongside your own datasets, then you can use the [Index](#index)
-table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions is not
-consistent among all reporting regions. For example, for the intra-country reporting, some EU
+table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions are
+not consistent among all reporting regions. For example, for the intra-country reporting, some EU
 countries use NUTS2, others NUTS3 and many ISO 3166-2 codes.
 
 NOTE: If you load data using `pandas`, make sure that you disable automatic parsing of NaN-like
@@ -260,6 +260,7 @@ from the relevant authorities, like a country's ministry of health.
 | Data | Source | License |
 | ---- | ------ | ------- |
 | Metadata | [Wikipedia](https://wikipedia.org) | CC BY-SA |
+| Demographics | [DataCommons](https://datacommons.org) | CC BY-SA |
 | Weather | [NOAA](https://www.ncei.noaa.gov) | Custom (unrestricted for non-commercial use) |
 | Google Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> | N/A |
 | Government response data | [Oxford COVID-19 government response tracker][18] | CC BY 4.0 |
