@@ -5,9 +5,10 @@ from random import shuffle
 from functools import partial
 from typing import Any, Dict, List, Tuple
 from multiprocessing import cpu_count
+from multiprocessing.pool import ThreadPool as Pool
 
+import numpy
 from tqdm import tqdm
-from multiprocess import Pool
 from pandas import DataFrame, Series, Int64Dtype, merge, read_csv, concat, isna
 
 from lib.cast import safe_int_cast
@@ -19,31 +20,27 @@ from lib.utils import ROOT
 class WeatherPipeline(DefaultPipeline):
     @staticmethod
     def haversine_distance(
-        latlon1: Tuple[float, ...], latlon2: Tuple[float, ...], radius: float = 6373.0
-    ):
+        stations: DataFrame, lat: float, lon: float, radius: float = 6373.0
+    ) -> Series:
         """ Compute the distance between two <latitude, longitude> pairs in kilometers """
 
-        # Convert to radians
-        latlon1 = tuple(map(lambda x: math.radians(float(x)), latlon1))
-        latlon2 = tuple(map(lambda x: math.radians(float(x)), latlon2))
-
         # Compute the pairwise deltas
-        deltaLon = latlon2[1] - latlon1[1]
-        deltaLat = latlon2[0] - latlon1[0]
+        lat_diff = stations.lat - lat
+        lon_diff = stations.lon - lon
 
         # Apply Haversine formula
-        a = (
-            math.sin(deltaLat / 2) ** 2
-            + math.cos(latlon1[0]) * math.cos(latlon2[0]) * math.sin(deltaLon / 2) ** 2
-        )
-        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
+        a = numpy.sin(lat_diff / 2) ** 2
+        a += math.cos(lat) * numpy.cos(stations.lat) * numpy.sin(lon_diff / 2) ** 2
+        c = numpy.arctan2(numpy.sqrt(a), numpy.sqrt(1 - a)) * 2
+
         return radius * c
 
     @staticmethod
-    def nearest_station(stations, latlon: Tuple[int, int]):
-        distances = stations.apply(
-            lambda row: WeatherPipeline.haversine_distance(latlon, (row.lat, row.lon)), axis=1
-        )
+    def nearest_station(stations, lat: float, lon: float):
+        # Compute the distance with each station
+        distances = WeatherPipeline.haversine_distance(stations, lat, lon)
+
+        # Return the closest station and its distance
         idxmin = distances.idxmin()
         nearest = stations.iloc[idxmin].copy()
         nearest["distance"] = distances.iloc[idxmin]
@@ -58,7 +55,7 @@ class WeatherPipeline(DefaultPipeline):
     def station_records(station_cache: Dict[str, DataFrame], stations: DataFrame, location: Series):
 
         # Get the nearest station from our list of stations given lat and lon
-        nearest = WeatherPipeline.nearest_station(stations, (location.latitude, location.longitude))
+        nearest = WeatherPipeline.nearest_station(stations, location.lat, location.lon)
 
         # Query the cache and pull data only if not already cached
         if nearest.id not in station_cache:
@@ -121,13 +118,19 @@ class WeatherPipeline(DefaultPipeline):
 
         # Filter stations that at least provide max and min temps
         measurements = ["TMIN", "TMAX"]
-        stations = stations.groupby(["id", "lat", "lon"]).sum()
+        stations = stations.groupby(["id", "lat", "lon"]).agg(lambda x: "|".join(x))
         stations = stations[stations.measurement.apply(lambda x: all(m in x for m in measurements))]
         stations = stations.reset_index()
 
         # Get all the POI from metadata and go through each key
         metadata = aux["metadata"][["key"]]
         metadata = metadata.merge(aux["wikidata"][["key", "latitude", "longitude"]]).dropna()
+
+        # Convert all coordinates to radians
+        stations["lat"] = stations.lat.apply(math.radians)
+        stations["lon"] = stations.lon.apply(math.radians)
+        metadata["lat"] = metadata.latitude.apply(math.radians)
+        metadata["lon"] = metadata.longitude.apply(math.radians)
 
         # Use a cache to avoid having to query the same station multiple times
         station_cache: Dict[str, DataFrame] = {}
@@ -136,14 +139,14 @@ class WeatherPipeline(DefaultPipeline):
         map_func = partial(WeatherPipeline.station_records, station_cache, stations)
 
         # We don't care about the index while iterating over each metadata item
-        iter_values = [record for _, record in metadata.iterrows()]
+        map_iter = [record for _, record in metadata.iterrows()]
 
         # Shuffle the iterables to try to make better use of the caching
-        shuffle(iter_values)
+        shuffle(map_iter)
 
         # Bottleneck is network so we can use lots of threads in parallel
         records = list(
-            tqdm(Pool(cpu_count()).imap_unordered(map_func, iter_values), total=len(metadata),)
+            tqdm(Pool(cpu_count()).imap_unordered(map_func, map_iter), total=len(metadata),)
         )
 
         return concat(records).sort_values(["key", "date"])

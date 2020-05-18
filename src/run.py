@@ -13,7 +13,7 @@ from lib.utils import ROOT
 
 # Step 1: Add your pipeline chain to this import block
 from pipelines.epidemiology.pipeline_chain import EpidemiologyPipelineChain
-from pipelines.metadata.metadata_pipeline import MetadataPipelineChain
+from pipelines.index.index_pipeline import IndexPipelineChain
 from pipelines.stringency.stringency_pipeline import StringencyPipelineChain
 from pipelines.weather.weather_pipeline import WeatherPipelineChain
 from pipelines.geography.geography_pipeline import GeographyPipelineChain
@@ -22,7 +22,7 @@ from pipelines.demographics.demographics_pipeline import DemographicsPipelineCha
 
 # Step 2: After adding the import statement above, add your pipeline chain to this list
 all_pipeline_chains: List[PipelineChain] = [
-    MetadataPipelineChain,
+    IndexPipelineChain,
     StringencyPipelineChain,
     GeographyPipelineChain,
     DemographicsPipelineChain,
