@@ -6,7 +6,7 @@ from os.path import relpath
 from datetime import datetime
 from functools import partial
 from argparse import ArgumentParser
-from typing import Any, Callable, Dict
+from typing import Any, Callable, Dict, List
 
 # Declare the ROOT as the path of this file
 ROOT = Path(__file__).parent
@@ -70,7 +70,7 @@ for source in json.loads(open("cached_sources.json", "r").read()):
     map_func(source)
 
 # Build a "sitemap" of the cache output folder
-sitemap = {}
+sitemap: Dict[str, List[str]] = {}
 for snapshot in output_path.iterdir():
     if snapshot.is_file():
         warnings.warn(f"Unexpected file seen in root of {snapshot}")
@@ -79,9 +79,10 @@ for snapshot in output_path.iterdir():
         if not cached_file.is_file():
             warnings.warn(f"Unexpected folder seen in directory {cached_file}")
             continue
-        snapshot_list = sitemap.get(cached_file, [])
+        sitemap_key = cached_file.stem
+        snapshot_list = sitemap.get(sitemap_key, [])
         snapshot_list.append(str(cached_file.relative_to(output_path)))
-        sitemap[cached_file.stem] = snapshot_list
+        sitemap[sitemap_key] = snapshot_list
 
 # Output the sitemap
 with open(output_path / "sitemap.json", "w") as fd:
