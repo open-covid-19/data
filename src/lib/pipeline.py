@@ -1,5 +1,6 @@
 import re
 import sys
+import json
 import warnings
 import traceback
 import subprocess
@@ -18,7 +19,7 @@ from .anomaly import detect_correct_schema, detect_null_columns, detect_zero_col
 from .cast import column_convert
 from .net import download
 from .io import read_file, fuzzy_text
-from .utils import ROOT, column_convert, combine_tables
+from .utils import ROOT, CACHE_URL, column_convert, combine_tables
 
 
 class DataPipeline:
@@ -32,7 +33,7 @@ class DataPipeline:
     1. Patch: apply hotfixes to specific data issues
     """
 
-    def fetch(self, **fetch_opts) -> List[str]:
+    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
         """ Downloads the required resources and returns a list of local paths. """
         ...
 
@@ -63,6 +64,7 @@ class DataPipeline:
 
     def run(
         self,
+        cache: Dict[str, str],
         aux: Dict[str, DataFrame],
         fetch_opts: Dict[str, Any] = None,
         parse_opts: Dict[str, Any] = None,
@@ -74,9 +76,10 @@ class DataPipeline:
     ) -> DataFrame:
         data: DataFrame = None
 
-        # Fetch and parse the data
-        data = self.fetch(**(fetch_opts or {}))
-        # Make yet another copy of the auxiliary table to avoid affecting future steps
+        # Fetch the data, feeding the cached resources to the fetch step
+        data = self.fetch(cache, **(fetch_opts or {}))
+
+        # Make yet another copy of the auxiliary table to avoid affecting future steps in `parse`
         data = self.parse(data, {name: df.copy() for name, df in aux.items()}, **(parse_opts or {}))
 
         # Merging is done record by record
@@ -117,7 +120,7 @@ class DefaultPipeline(DataPipeline):
     fetch_opts: List[Dict[str, Any]] = []
     """ Fetch options; see [lib.net.download] for more details """
 
-    def fetch(self, **fetch_opts) -> List[str]:
+    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
         num_urls = len(self.data_urls)
         fetch_iter = zip(self.data_urls, self.fetch_opts or [{}] * num_urls)
         return [download(url, **{**opts, **fetch_opts}) for url, opts in fetch_iter]
@@ -227,7 +230,7 @@ class ExternalProcessPipeline(DefaultPipeline):
         stdout, stderr = process.communicate()
 
         # Write error to our stderr output
-        if not stderr:
+        if stderr:
             print(stderr.decode("UTF-8"), file=sys.stderr)
 
         # Verify that the stdout output is not empty
@@ -294,12 +297,14 @@ class PipelineChain:
 
     @staticmethod
     def _run_wrapper(
-        pipeline_aux_kwargs: Tuple[DataPipeline, Dict[str, DataFrame], Dict[str, Any]]
+        pipeline_cache_aux_kwargs: Tuple[
+            DataPipeline, Dict[str, str], Dict[str, DataFrame], Dict[str, Any]
+        ]
     ) -> Optional[DataFrame]:
         """ Workaround necessary for multiprocess pool, which does not accept lambda functions """
-        pipeline, aux, opts = pipeline_aux_kwargs
+        pipeline, cache, aux, opts = pipeline_cache_aux_kwargs
         try:
-            return pipeline.run(aux, **opts)
+            return pipeline.run(cache, aux, **opts)
         except Exception as exc:
             warnings.warn("Error running pipeline {}".format(pipeline.__class__.__name__))
             traceback.print_exc()
@@ -312,6 +317,9 @@ class PipelineChain:
         Main method which executes all the associated [DataPipeline] objects and combines their
         outputs.
         """
+        # Read the cache directory from our cloud storage
+        cache = json.loads(requests.get("{}/sitemap.json".format(CACHE_URL)).text)
+
         # Read the auxiliary input files into memory
         aux = {name: read_file(file_name) for name, file_name in self.auxiliary_tables.items()}
 
@@ -328,7 +336,12 @@ class PipelineChain:
         func_iter = [
             # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
             # we allow for local modification (which might be wanted for optimization purposes)
-            (pipeline, {name: df.copy() for name, df in aux.items()}, {**opts, **pipeline_opts})
+            (
+                pipeline,
+                cache,
+                {name: df.copy() for name, df in aux.items()},
+                {**opts, **pipeline_opts},
+            )
             for pipeline, opts in self.pipelines
         ]
 
@@ -342,7 +355,12 @@ class PipelineChain:
         pipeline_results = tqdm(func_iter_map, total=len(func_iter), desc=self.__class__.__name__,)
 
         # Combine all pipeline outputs into a single DataFrame
-        data = combine_tables([result for result in pipeline_results], ["date", "key"])
+        pipeline_outputs = [result for result in pipeline_results if result is not None]
+        if not pipeline_outputs:
+            warnings.warn("Empty result for pipeline chain {}".format(self.__class__.__name__))
+            data = DataFrame(columns=self.schema.keys())
+        else:
+            data = combine_tables(pipeline_outputs, ["date", "key"])
 
         # Return data using the pipeline's output parameters
         data = self.output_table(data)

@@ -60,7 +60,7 @@ for pipeline_chain_class in all_pipeline_chains:
     pipeline_chain = pipeline_chain_class()
     pipeline_path = Path(str(inspect.getsourcefile(type(pipeline_chain))))
     pipeline_name = pipeline_path.parent.name.replace("_", "-")
-    if args.only and pipeline_name != args.only:
+    if args.only and not pipeline_name in args.only.split(","):
         continue
     if args.exclude and pipeline_name in args.exclude.split(","):
         continue

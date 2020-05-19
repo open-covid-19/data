@@ -8,9 +8,14 @@ with the following modules:
 * [test](test): unit testing of core functions
 
 ## Running
-To run all the pipelines, execute the `run.py` script:
+To run all the pipeline chains, execute the `run.py` script:
 ```sh
 python run.py
+```
+
+To run a specific pipeline chain, use the option `--only <comma_separated_names>`; for example:
+```sh
+python run.py --only index,demographics,geography
 ```
 
 ## Testing
@@ -51,7 +56,7 @@ the `DefaultPipeline` implementation.
 ### Pipeline Chain
 A `PipelineChain` object wraps a list of individual `Pipelines`. Each pipeline is executed in order
 and the output is combined into a single data table. When values for the same `key` (or, if present,
-`key`-`data` pair) overlap, the value present in the last pipeline in the list is chosen. For
+`date`-`key` pair) overlap, the value present in the last pipeline in the list is chosen. For
 example, if `pipeline1` outputs `{key: AA, value: 1}` and `pipeline2` outputs `{key: AA, value: 2}`,
 then the combined output will be `{key: AA, value: 2}` -- assuming that `pipeline2` has a higher
 index than `pipeline1` in the list. For this reason, you should order your pipelines from less
@@ -61,8 +66,6 @@ data is available.
 `PipelineChain` objects define the schema of the output table. Individual `Pipeline` objects that
 are part of the schema may output some or all columns defined in the schema, but columns not in the
 schema will be filtered out in the final output.
-
-
 
 ### Overview
 The following diagram summarizes the architecture:

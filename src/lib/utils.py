@@ -6,6 +6,7 @@ from pandas import DataFrame, Series, concat, isna, isnull
 from .cast import column_convert
 
 ROOT = Path(os.path.dirname(__file__)) / ".." / ".."
+CACHE_URL = "https://open-covid-19.github.io/cache"
 
 
 def get_or_default(dict_like: Dict, key: Any, default: Any):

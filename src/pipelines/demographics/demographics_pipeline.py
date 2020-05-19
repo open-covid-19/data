@@ -5,7 +5,7 @@ from lib.utils import ROOT
 
 
 class DemographicsPipeline(DefaultPipeline):
-    def fetch(self, **fetch_opts) -> List[str]:
+    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
         return [
             ROOT / "src" / "data" / "metadata.csv",
             ROOT / "src" / "data" / "wikidata.csv",

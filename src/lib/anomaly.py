@@ -29,6 +29,8 @@ def detect_null_columns(schema: Dict[str, type], data: DataFrame, action: str = 
 
 def detect_zero_columns(schema: Dict[str, type], data: DataFrame, action: str = "warn") -> None:
     for column in data.columns:
+        if len(data[column]) == 0:
+            continue
         if not is_numeric_dtype(data[column]):
             continue
         if sum(data[column].apply(safe_float_cast).fillna(0).apply(abs)) < 1:
