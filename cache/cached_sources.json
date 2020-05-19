@@ -1,0 +1,11 @@
+[
+    {
+        "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/COVID-19/Race-Ethnicity.aspx",
+        "cmd": "python",
+        "args": [
+            "__ROOT__/scripts/download.py",
+            "--output",
+            "US_CA-mortality-stratified.html"
+        ]
+    }
+]
