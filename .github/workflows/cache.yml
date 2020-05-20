@@ -2,7 +2,7 @@ name: Run Hourly Cache
 on:
   schedule:
     - cron: "0 * * * *"
-    
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -32,7 +32,7 @@ jobs:
     - name: Clone previous cache data
       working-directory: cache
       run: |
-        git clone https://@github.com/open-covid-19/data -b cache output
+        git clone https://@github.com/open-covid-19/data --single-branch -b cache output
         git config --global user.name open-covid-bot
         git config --global user.email open-covid-bot@${{ github.repository }}
 

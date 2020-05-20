@@ -11,6 +11,8 @@ sys.path.append(os.getcwd())
 from lib.io import read_file
 from lib.utils import ROOT
 
+from backcompat_forecast import main as build_forecast
+
 
 def snake_to_camel_case(txt: str) -> str:
     """ Used to convert V2 column names to V1 column names for backwards compatibility """
@@ -57,13 +59,7 @@ data = data.sort_values(["Date", "Key"])
 data.to_csv(v1_folder / "data.csv", index=False)
 
 # Create the v1 minimal.csv file
-data[['Date', 'Key', 'Confirmed', 'Deaths']].to_csv(v1_folder / 'minimal.csv', index=False)
-
-# Create the v1 mobility.csv file
-# TMP: mobility reports are not in V2 yet, copy that last known one as-is
-read_csv(
-    "https://open-covid-19.github.io/data/mobility.csv", keep_default_na=False, na_values=[""]
-).to_csv(v1_folder / "mobility.csv", index=False)
+data[["Date", "Key", "Confirmed", "Deaths"]].to_csv(v1_folder / "data_minimal.csv", index=False)
 
 # Create the v1 CSV files which only require column mapping
 v1_v2_name_map = {"response": "oxford-government-response", "weather": "weather"}
@@ -71,6 +67,15 @@ for v1_name, v2_name in v1_v2_name_map.items():
     df = read_csv(v2_folder / f"{v2_name}.csv")
     df.columns = list(map(snake_to_camel_case, df.columns))
     df.to_csv(v1_folder / f"{v1_name}.csv", index=False)
+
+# Create the v1 mobility.csv file
+build_forecast().to_csv(v1_folder / "forecast.csv", index=False)
+read_csv(
+    "https://open-covid-19.github.io/data/mobility.csv", keep_default_na=False, na_values=[""]
+).to_csv(v1_folder / "mobility.csv", index=False)
+
+# Create the v1 forecast.csv file
+build_forecast().to_csv(v1_folder / 'forecast.csv', index=False)
 
 # Convert all v1 CSV files to JSON using record format
 for csv_file in (v1_folder).glob("*.csv"):

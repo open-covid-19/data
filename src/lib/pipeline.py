@@ -30,7 +30,6 @@ class DataPipeline:
     1. Parse: convert raw data to structured format
     1. Merge: associate each record with a known `key`
     1. Filter: filter out unneeded data and keep only desired output columns
-    1. Patch: apply hotfixes to specific data issues
     """
 
     def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
@@ -56,12 +55,6 @@ class DataPipeline:
         """ Outputs a filtered version of the input dataset respecting `filter_opts`. """
         ...
 
-    def patch(self, data: DataFrame, patch: DataFrame, **patch_opts) -> DataFrame:
-        """
-        Outputs a patched version of the dataframe overwriting records from `data` with `patch`.
-        """
-        ...
-
     def run(
         self,
         cache: Dict[str, str],
@@ -71,8 +64,6 @@ class DataPipeline:
         merge_opts: Dict[str, Any] = None,
         filter_func: Callable[[Any], bool] = None,
         filter_opts: Dict[str, Any] = None,
-        patch: DataFrame = None,
-        patch_opts: Dict[str, Any] = None,
     ) -> DataFrame:
         data: DataFrame = None
 
@@ -93,10 +84,6 @@ class DataPipeline:
         if filter_func is not None:
             data = self.filter(data, filter_func, **(filter_opts or {}))
 
-        # Patch the data only if necessary
-        if patch is not None:
-            data = self.patch(data, patch, **(patch_opts or {}))
-
         # Return the final dataframe
         return data
 
@@ -107,7 +94,6 @@ class DefaultPipeline(DataPipeline):
     * Fetch: downloads raw data from a list of URLs into ../snapshots folder. See [lib.net].
     * Merge: outputs a key from the auxiliary dataset after performing best-effort matching.
     * Filter: applies `filter_func` to each record and keeps the rows for which the result is `true`
-    * Patch: applies the `patch` dataframe to substitute the values in the existing dataframe
 
     The merge function provided here is crucial for many pipelines that use it. The easiest/fastest
     way to merge records is by providing the exact `key` that will match an existing record in the
@@ -200,11 +186,6 @@ class DefaultPipeline(DataPipeline):
         self, data: DataFrame, filter_func: Callable[[Any], bool], **filter_opts
     ) -> DataFrame:
         return data[data.apply(filter_func, axis=1)]
-
-    def patch(self, data: DataFrame, patch: DataFrame, **patch_opts) -> DataFrame:
-        data = data.copy()
-        data[patch.index] = patch
-        return data
 
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts

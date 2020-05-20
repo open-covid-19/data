@@ -39,7 +39,6 @@ executed in order:
 1. Parse: convert raw data to structured format
 1. Merge: associate each record with a known `key`
 1. Filter: filter out unneeded data and keep only desired output columns
-1. Patch: apply hotfixes to specific data issues
 
 The majority of the processing in a pipeline will likely take place in the `parse` step. All
 individual records output by the pipeline have to follow the following guidelines:

@@ -82,7 +82,7 @@ for source in json.loads(open("cached_sources.json", "r").read()):
 # Build a "sitemap" of the cache output folder
 sitemap: Dict[str, List[str]] = {}
 for snapshot in output_path.iterdir():
-    if str(snapshot).startswith(".") or snapshot.name == "sitemap.json":
+    if snapshot.name.startswith(".") or snapshot.name == "sitemap.json":
         continue
     if snapshot.is_file():
         warnings.warn(f"Unexpected file seen in root of {snapshot}")
@@ -94,7 +94,7 @@ for snapshot in output_path.iterdir():
         sitemap_key = cached_file.stem
         snapshot_list = sitemap.get(sitemap_key, [])
         snapshot_list.append(str(cached_file.relative_to(output_path)))
-        sitemap[sitemap_key] = snapshot_list
+        sitemap[sitemap_key] = list(sorted(snapshot_list))
 
 # Output the sitemap
 with open(output_path / "sitemap.json", "w") as fd:

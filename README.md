@@ -111,7 +111,7 @@ region, which is helpful for displaying purposes or when merging with other data
 | **subregion2_name** | `string` | (Optional) American English name of the county (or local equivalent), subject to change | Alameda County |
 | **3166-1-alpha-2** | `string` | ISO 3166-1 alphanumeric 2-letter code of the country | US |
 | **3166-1-alpha-3** | `string` | ISO 3166-1 alphanumeric 3-letter code of the country | USA |
-| **aggregation_level** | `integer` [0-2] | Level at which data is aggregated, i.e. country, state/province or county level | 2 |
+| **aggregation_level** | `integer` `[0-2]` | Level at which data is aggregated, i.e. country, state/province or county level | 2 |
 
 ### Demographics
 Information related to the population demographics for each region:
@@ -129,8 +129,8 @@ Information related to the economic development for each region:
 | Name | Name | Description | Example |
 | ---- | ---- | ----------- | ------- |
 | **key** | `string` | Unique string identifying the region | CN_HB |
-| **gdp** | `integer` [USD] | Gross domestic product; monetary value of all finished goods and services | 24450604878 |
-| **gdp_per_capita** | `integer` [USD] | Gross domestic product divided by total population | 1148 |
+| **gdp** | `integer` `[USD]` | Gross domestic product; monetary value of all finished goods and services | 24450604878 |
+| **gdp_per_capita** | `integer` `[USD]` | Gross domestic product divided by total population | 1148 |
 
 ### Epidemiology
 Information related to the COVID-19 infections for each date-region pair:
@@ -174,24 +174,24 @@ Summary of a government's response to the events, including a *stringency index*
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
-| **school_closing** | `integer` [0-3] | Schools are closed | 2 |
-| **workplace_closing** | `integer` [0-3] | Workplaces are closed | 2 |
-| **cancel_public_events** | `integer` [0-3] | Public events have been cancelled | 2 |
-| **restrictions_on_gatherings** | `integer` [0-3] | Gatherings of non-household members are restricted | 2 |
-| **public_transport_closing** | `integer` [0-3] | Public transport is not operational | 0 |
-| **stay_at_home_requirements** | `integer` [0-3] | Self-quarantine at home is mandated for everyone | 0 |
-| **restrictions_on_internal_movement** | `integer` [0-3] | Travel within country is restricted | 1 |
-| **international_travel_controls** | `integer` [0-3] | International travel is restricted | 3 |
-| **income_support** | `integer` [USD] | Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
-| **debt_relief** | `integer` [0-3] | Debt/contract relief for households | 0 |
-| **fiscal_measures** | `integer` [USD] | Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
-| **international_support** | `integer` [USD] | Giving international support to other countries | 274000000 |
-| **public_information_campaigns** | `integer` [0-2] | Government has launched public information campaigns | 1 |
-| **testing_policy** | `integer` [0-3] | Country-wide COVID-19 testing policy | 1 |
-| **contact_tracing** | `integer` [0-2] | Country-wide contact tracing policy | 1 |
-| **emergency_investment_in_healthcare** | `integer` [USD] | Emergency funding allocated to healthcare | 500000 |
-| **investment_in_vaccines** | `integer` [USD] | Emergency funding allocated to vaccine research | 100000 |
-| **stringency_index** | `double` [0-100] | Overall stringency index | 71.43 |
+| **school_closing** | `integer` `[0-3]` | Schools are closed | 2 |
+| **workplace_closing** | `integer` `[0-3]` | Workplaces are closed | 2 |
+| **cancel_public_events** | `integer` `[0-3]` | Public events have been cancelled | 2 |
+| **restrictions_on_gatherings** | `integer` `[0-3]` | Gatherings of non-household members are restricted | 2 |
+| **public_transport_closing** | `integer` `[0-3]` | Public transport is not operational | 0 |
+| **stay_at_home_requirements** | `integer` `[0-3]` | Self-quarantine at home is mandated for everyone | 0 |
+| **restrictions_on_internal_movement** | `integer` `[0-3]` | Travel within country is restricted | 1 |
+| **international_travel_controls** | `integer` `[0-3]` | International travel is restricted | 3 |
+| **income_support** | `integer` `[USD]` | Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
+| **debt_relief** | `integer` `[0-3]` | Debt/contract relief for households | 0 |
+| **fiscal_measures** | `integer` `[USD]` | Value of fiscal stimuli, including spending or tax cuts | 20449287023 |
+| **international_support** | `integer` `[USD]` | Giving international support to other countries | 274000000 |
+| **public_information_campaigns** | `integer` `[0-2]` | Government has launched public information campaigns | 1 |
+| **testing_policy** | `integer` `[0-3]` | Country-wide COVID-19 testing policy | 1 |
+| **contact_tracing** | `integer` `[0-2]` | Country-wide contact tracing policy | 1 |
+| **emergency_investment_in_healthcare** | `integer` `[USD]` | Emergency funding allocated to healthcare | 500000 |
+| **investment_in_vaccines** | `integer` `[USD]` | Emergency funding allocated to vaccine research | 100000 |
+| **stringency_index** | `double` `[0-100]` | Overall stringency index | 71.43 |
 
 For more information about each field and how the overall stringency index is
 computed, see the [Oxford COVID-19 government response tracker][18].
@@ -204,11 +204,11 @@ Daily weather information from nearest station reported by NOAA:
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
 | **station** | `string` | Identifier for the weather station | USC00206080 |
-| **distance** | `double` [kilometers] | Distance between the location coordinates and the weather station | 28.693 |
-| **minimum_temperature** | `double` [celsius] | Recorded hourly minimum temperature | 1.7 |
-| **maximum_temperature** | `double` [celsius] | Recorded hourly maximum temperature | 19.4 |
-| **rainfall** | `double` [millimeters] | Rainfall during the entire day | 51.0 |
-| **snowfall** | `double` [millimeters] | Snowfall during the entire day | 0.0 |
+| **distance** | `double` `[kilometers]` | Distance between the location coordinates and the weather station | 28.693 |
+| **minimum_temperature** | `double` `[celsius]` | Recorded hourly minimum temperature | 1.7 |
+| **maximum_temperature** | `double` `[celsius]` | Recorded hourly maximum temperature | 19.4 |
+| **rainfall** | `double` `[millimeters]` | Rainfall during the entire day | 51.0 |
+| **snowfall** | `double` `[millimeters]` | Snowfall during the entire day | 0.0 |
 
 ### Google Mobility
 Google's [Mobility Reports][17] are presented in CSV form as
@@ -219,12 +219,12 @@ following columns:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
-| **transit_stations** | `double` [%] |  Percentage change in visits to transit station locations | -15 |
-| **retail_and_recreation** | `double` [%] |  Percentage change in visits to retail and recreation locations | -15 |
-| **grocery_and_pharmacy** | `double` [%] |  Percentage change in visits to grocery and pharmacy locations | -15 |
-| **parks** | `double` [%] |  Percentage change in visits to park locations | -15 |
-| **residential** | `double` [%] |  Percentage change in visits to residential locations | -15 |
-| **workplaces** | `double` [%] |  Percentage change in visits to workplace locations | -15 |
+| **transit_stations** | `double` `[%]` |  Percentage change in visits to transit station locations | -15 |
+| **retail_and_recreation** | `double` `[%]` |  Percentage change in visits to retail and recreation locations | -15 |
+| **grocery_and_pharmacy** | `double` `[%]` |  Percentage change in visits to grocery and pharmacy locations | -15 |
+| **parks** | `double` `[%]` |  Percentage change in visits to park locations | -15 |
+| **residential** | `double` `[%]` |  Percentage change in visits to residential locations | -15 |
+| **workplaces** | `double` `[%]` |  Percentage change in visits to workplace locations | -15 |
 
 ### Notes about the data
 For countries where both country-level and subregion-level data is available, the entry which has a
