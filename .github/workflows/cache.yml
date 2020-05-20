@@ -1,0 +1,47 @@
+name: Run Hourly Cache
+on:
+  push:
+    branches:
+      - master
+      - development
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+
+    - name: Set up Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Intall Node dependencies
+      working-directory: cache
+      run: yarn
+
+    - name: Clone previous cache data
+      working-directory: cache
+      run: |
+        git clone https://${{ secrets.GITHUB_TOKEN }}:x-oauth-basic@github.com/open-covid-19/cache output
+        git config --global user.name open-covid-bot
+        git config --global user.email open-covid-bot@${{ github.repository }}
+
+    - name: Cache data sources
+      working-directory: cache
+      run: |
+        python ./fetch.py --continue-on-error
+        cd output
+        git add -f .
+        git commit -m "Automatic cache update"
+        git push

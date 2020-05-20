@@ -9,7 +9,7 @@ import requests
 
 # Parse arguments
 parser = ArgumentParser()
-parser.add_argument("url", type=str)
+parser.add_argument("--url", type=str, required=True)
 parser.add_argument("--output", type=str, required=True)
 args = parser.parse_args()
 

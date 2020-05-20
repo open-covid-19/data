@@ -1,4 +1,4 @@
-name: Run Data Pipeline
+name: Test Data Pipeline
 on:
   push:
     branches:

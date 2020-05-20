@@ -10,22 +10,32 @@ from typing import Any, Callable, Dict, List
 
 # Declare the ROOT as the path of this file
 ROOT = Path(__file__).parent
-ROOT_PLACEHOLDER = "__ROOT__"
+
+
+def parse_command(cmd: str) -> List[str]:
+    if cmd == "curl":
+        return ["python", str(ROOT / "scripts" / "curl_fetch.py")]
+    if cmd == "static_download":
+        return ["python", str(ROOT / "scripts" / "static_fetch.py")]
+    if cmd == "dynamic_download":
+        return ["node", str(ROOT / "scripts" / "dynamic_fetch.js")]
+    raise ValueError(f"Unknown command {cmd}")
 
 
 def process_source(cwd: Path, error_handler: Callable[[str], None], data_source: Dict[str, Any]):
     """
-    Call the `cmd` and `args` from `data_source` using `cwd` as the current working directory.
-    All instances of `__ROOT__` in `cmd` or `args` are replaced by the cache project's root
-    directory.
+    Use the appropriate download command for the given data source.
     """
 
-    cmd = data_source["cmd"]
-    args = data_source["args"] + [data_source["url"]]
-    relative_root = relpath(ROOT.absolute(), cwd.absolute())
-    tokens = [token.replace(ROOT_PLACEHOLDER, str(relative_root)) for token in [cmd] + args]
-    print(">", " ".join(tokens))
-    process = subprocess.Popen(tokens, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    cmd_tokens = parse_command(data_source["cmd"])
+    cmd_tokens += ["--output", str(cwd / data_source["output"])]
+    for option, value in data_source.items():
+        if not option in ("cmd", "output"):
+            value = value if isinstance(value, str) else json.dumps(value)
+            cmd_tokens += [f"--{option}", value]
+
+    print(">", " ".join(cmd_tokens))
+    process = subprocess.Popen(cmd_tokens, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     # Wait for process to finish and get err streams
     stdout, stderr = process.communicate()
@@ -34,7 +44,7 @@ def process_source(cwd: Path, error_handler: Callable[[str], None], data_source:
     if stderr:
         error_handler(stderr.decode("UTF-8"))
 
-    # Decode stdout as a string and pipe to STDOUT
+    # If there's any output, pipe it through
     if stdout:
         print(stdout.decode("UTF-8"))
 

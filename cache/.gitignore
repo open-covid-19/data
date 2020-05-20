@@ -1,5 +1,3 @@
-*.pyc
-*.csv
-*.html
-*.json
 output/
+node_modules/
+yarn.lock
