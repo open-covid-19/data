@@ -82,6 +82,8 @@ for source in json.loads(open("cached_sources.json", "r").read()):
 # Build a "sitemap" of the cache output folder
 sitemap: Dict[str, List[str]] = {}
 for snapshot in output_path.iterdir():
+    if str(snapshot).startswith(".") or snapshot.name == "sitemap.json":
+        continue
     if snapshot.is_file():
         warnings.warn(f"Unexpected file seen in root of {snapshot}")
         continue
