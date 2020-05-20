@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
+import re
 import os
 import sys
-from argparse import ArgumentParser
-import datacommons as dc
+import shutil
+from pandas import read_csv
 
 # This script must be run from /src
 sys.path.append(os.getcwd())
@@ -11,11 +12,31 @@ from lib.io import read_file
 from lib.utils import ROOT
 
 
+def snake_to_camel_case(txt: str) -> str:
+    """ Used to convert V2 column names to V1 column names for backwards compatibility """
+    txt = re.sub(r"_(\w)", lambda m: m.group(1).upper(), txt.capitalize())
+
+
+# Create the folder which will be published
+v2_folder = ROOT / "public" / "v2"
+v2_folder.mkdir(exist_ok=True, parents=True)
+
+# Copy all output files to the V2 folder
+for output_file in (ROOT / "output").glob("*.csv"):
+    shutil.copy(output_file, v2_folder / output_file.name)
+
+# Convert all CSV files to JSON using values format
+for csv_file in (v2_folder).glob("*.csv"):
+    json_name = csv_file.name.replace("csv", "json")
+    data = read_file(csv_file)
+    data.to_json(v2_folder / json_name, orient="values")
+
 # Create the legacy data.csv file
-data = read_file(ROOT / "output" / "metadata.csv")
-data = data.merge(read_file(ROOT / "output" / "geography.csv"))
-data = data.merge(read_file(ROOT / "output" / "demographics.csv"))
-data = data.merge(read_file(ROOT / "output" / "epidemiology.csv"))
+v1_folder = ROOT / "public"
+data = read_file(v2_folder / "index.csv")
+data = data.merge(read_file(v2_folder / "geography.csv"))
+data = data.merge(read_file(v2_folder / "demographics.csv"))
+data = data.merge(read_file(v2_folder / "epidemiology.csv"))
 data = data[data.subregion2_code.isna()]
 rename_columns = {
     "date": "Date",
@@ -31,11 +52,28 @@ rename_columns = {
     "population": "Population",
 }
 data = data[rename_columns.keys()].rename(columns=rename_columns)
-data.to_csv(ROOT / "output" / "data.csv", index=False)
-data.to_json(ROOT / "output" / "data.json", orient="records")
+data = data.dropna(subset=["Confirmed", "Deaths"], how="all")
+data = data.sort_values(["Date", "Key"])
+data.to_csv(v1_folder / "data.csv", index=False)
 
-# Convert all CSV to JSON
-for csv_file in (ROOT / "output").glob("*.csv"):
+# Create the v1 minimal.csv file
+data[['Date', 'Key', 'Confirmed', 'Deaths']].to_csv(v1_folder / 'minimal.csv', index=False)
+
+# Create the v1 mobility.csv file
+# TMP: mobility reports are not in V2 yet, copy that last known one as-is
+read_csv(
+    "https://open-covid-19.github.io/data/mobility.csv", keep_default_na=False, na_values=[""]
+).to_csv(v1_folder / "mobility.csv", index=False)
+
+# Create the v1 CSV files which only require column mapping
+v1_v2_name_map = {"response": "oxford-government-response", "weather": "weather"}
+for v1_name, v2_name in v1_v2_name_map.items():
+    df = read_csv(v2_folder / f"{v2_name}.csv")
+    df.columns = list(map(snake_to_camel_case, df.columns))
+    df.to_csv(v1_folder / f"{v1_name}.csv", index=False)
+
+# Convert all v1 CSV files to JSON using record format
+for csv_file in (v1_folder).glob("*.csv"):
     json_name = csv_file.name.replace("csv", "json")
     data = read_file(csv_file)
-    data.to_json(ROOT / "output" / json_name, orient="values")
+    data.to_json(v1_folder / json_name, orient="records")
