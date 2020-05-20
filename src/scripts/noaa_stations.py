@@ -12,7 +12,7 @@ from multiprocessing import cpu_count
 
 # This script must be run from /src
 sys.path.append(os.getcwd())
-from lib.io import read_file
+from lib.io import read_file, export_csv
 from lib.utils import ROOT
 
 
@@ -86,6 +86,4 @@ data = (
     .sort_values("key")
     .rename(columns={"id": "station", "lat": "latitude", "lon": "longitude"})
 )
-data[["key", "station", "latitude", "longitude", "distance", "measurement"]].to_csv(
-    sys.stdout, index=False
-)
+export_csv(data[["key", "station", "latitude", "longitude", "distance", "measurement"]], sys.stdout)

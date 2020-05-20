@@ -1937,7 +1937,7 @@ MY_14,Q1865,,MY,Malaysia,14,Kuala Lumpur,,,,,1
 MY_15,Q214504,,MY,Malaysia,15,Labuan,,,,,1
 MY_16,Q182378,,MY,Malaysia,16,Putrajaya,,,,,1
 MZ,Q1029,country/MOZ,MZ,Mozambique,,,,,,,0
-NA,Q1030,country/NAM,NA,Namibia,,,,,,,0
+"NA",Q1030,country/NAM,"NA",Namibia,,,,,,,0
 NC,Q33788,country/NCL,NC,New Caledonia,,,,,,,0
 NE,Q1032,country/NER,NE,Niger,,,,,,,0
 NF,Q31057,country/NFK,NF,Norfolk Island,,,,,,,0

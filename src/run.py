@@ -8,6 +8,7 @@ from pathlib import Path
 from argparse import ArgumentParser
 from typing import List
 
+from lib.io import export_csv
 from lib.pipeline import PipelineChain
 from lib.utils import ROOT
 
@@ -37,6 +38,7 @@ all_pipeline_chains: List[PipelineChain] = [
 argarser = ArgumentParser()
 argarser.add_argument("--only", type=str, default=None)
 argarser.add_argument("--exclude", type=str, default=None)
+argarser.add_argument("--verify", action="store_true")
 argarser.add_argument("--profile", action="store_true")
 args = argarser.parse_args()
 
@@ -64,7 +66,8 @@ for pipeline_chain_class in all_pipeline_chains:
         continue
     if args.exclude and pipeline_name in args.exclude.split(","):
         continue
-    pipeline_chain.run().to_csv(ROOT / "output" / "{}.csv".format(pipeline_name), index=False)
+    pipeline_output = pipeline_chain.run(pipeline_name, verify=args.verify)
+    export_csv(pipeline_output, ROOT / "output" / "{}.csv".format(pipeline_name))
 
 if args.profile:
     stats = Stats(profiler)

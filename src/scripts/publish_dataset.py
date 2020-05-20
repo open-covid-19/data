@@ -4,11 +4,10 @@ import re
 import os
 import sys
 import shutil
-from pandas import read_csv
 
 # This script must be run from /src
 sys.path.append(os.getcwd())
-from lib.io import read_file
+from lib.io import read_file, export_csv
 from lib.utils import ROOT
 
 from backcompat_forecast import main as build_forecast
@@ -56,26 +55,25 @@ rename_columns = {
 data = data[rename_columns.keys()].rename(columns=rename_columns)
 data = data.dropna(subset=["Confirmed", "Deaths"], how="all")
 data = data.sort_values(["Date", "Key"])
-data.to_csv(v1_folder / "data.csv", index=False)
+export_csv(data, v1_folder / "data.csv")
 
 # Create the v1 minimal.csv file
-data[["Date", "Key", "Confirmed", "Deaths"]].to_csv(v1_folder / "data_minimal.csv", index=False)
+export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minimal.csv")
 
 # Create the v1 CSV files which only require column mapping
 v1_v2_name_map = {"response": "oxford-government-response", "weather": "weather"}
 for v1_name, v2_name in v1_v2_name_map.items():
-    df = read_csv(v2_folder / f"{v2_name}.csv")
+    df = read_file(v2_folder / f"{v2_name}.csv")
     df.columns = list(map(snake_to_camel_case, df.columns))
-    df.to_csv(v1_folder / f"{v1_name}.csv", index=False)
+    export_csv(df, v1_folder / f"{v1_name}.csv")
 
 # Create the v1 mobility.csv file
-build_forecast().to_csv(v1_folder / "forecast.csv", index=False)
-read_csv(
-    "https://open-covid-19.github.io/data/mobility.csv", keep_default_na=False, na_values=[""]
-).to_csv(v1_folder / "mobility.csv", index=False)
+export_csv(
+    read_file("https://open-covid-19.github.io/data/mobility.csv"), v1_folder / "mobility.csv",
+)
 
 # Create the v1 forecast.csv file
-build_forecast().to_csv(v1_folder / 'forecast.csv', index=False)
+export_csv(build_forecast(), v1_folder / "forecast.csv")
 
 # Convert all v1 CSV files to JSON using record format
 for csv_file in (v1_folder).glob("*.csv"):

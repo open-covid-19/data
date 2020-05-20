@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+from io import StringIO
 from pathlib import Path
 from typing import Callable, List, Union
 from argparse import ArgumentParser
@@ -17,22 +18,12 @@ def fuzzy_text(text: str):
     return re.sub(r"[^a-z]", "", unidecode(str(text)).lower())
 
 
-def read_argv(**kwargs):
-    """ Reads the files given as arguments """
-    parser = ArgumentParser()
-    parser.add_argument("path", type=str, nargs="+")
-    args = parser.parse_args(sys.argv[1:])
-    data = [read_file(path, **kwargs) for path in args.path]
-    return data[0] if len(data) == 1 else data
-
-
 def read_file(path: Union[Path, str], **read_opts):
     ext = str(path).split(".")[-1]
 
     if ext == "csv":
         return pandas.read_csv(
-            path,
-            **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
+            path, **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
         )
     elif ext == "json":
         return pandas.read_json(path, **read_opts)
@@ -40,8 +31,7 @@ def read_file(path: Union[Path, str], **read_opts):
         return read_html(open(path).read(), **read_opts)
     elif ext == "xls" or ext == "xlsx":
         return pandas.read_excel(
-            path,
-            **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
+            path, **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
         )
     else:
         raise ValueError("Unrecognized extension: %s" % ext)
@@ -94,9 +84,7 @@ def read_html(
     # Get text within table cells and build dataframe
     records = []
     for row_idx, row in enumerate(rows[skiprows:]):
-        records.append(
-            [parser(elem, row_idx, col_idx) for col_idx, elem in enumerate(row)]
-        )
+        records.append([parser(elem, row_idx, col_idx) for col_idx, elem in enumerate(row)])
     data = DataFrame.from_records(records)
 
     # Parse header if requested
@@ -105,3 +93,22 @@ def read_html(
         data = data.drop(data.index[0])
 
     return data
+
+
+def export_csv(data: DataFrame, path: Union[Path, str]) -> None:
+    """ Exports a DataFrame to CSV using consistent options """
+    # Output to a buffer first
+    buffer = StringIO()
+    # Since all large quantities use Int64, we can assume floats will not be represented using the
+    # exponential notation that %G formatting uses for large numbers
+    data.to_csv(buffer, index=False, float_format="%.8G")
+    output = buffer.getvalue()
+
+    # Workaround for Namibia's code, which is interpreted as NaN when read back
+    output = re.sub(r"^NA,", '"NA",', output)
+    output = re.sub(r",NA,", ',"NA",', output)
+    output = re.sub(r"\nNA,", '\n"NA",', output)
+
+    # Write the output to the provided file
+    with open(path, "w") as fd:
+        fd.write(output)

@@ -64,13 +64,8 @@ data <- read.csv("https://open-covid-19.github.io/data/v2/epidemiology.csv")
 In Python, you need to have the package `pandas` installed to get started:
 ```python
 import pandas
-data = pandas.read_csv(
-    "https://open-covid-19.github.io/data/v2/epidemiology.csv",
-    keep_default_na=False, na_values=[""])
+data = pandas.read_csv("https://open-covid-19.github.io/data/v2/epidemiology.csv")
 ```
-
-NOTE: when using `pandas`, it's important to use the `keep_default_na=False` option to avoid
-interpreting Namibia's country code (`NA`) as a `NaN` value instead of the literal string `"NA"`.
 
 ### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
@@ -120,8 +115,8 @@ Information related to the population demographics for each region:
 | ---- | ---- | ----------- | ------- |
 | **key** | `string` | Unique string identifying the region | CN_HB |
 | **population** | `integer` | Total count of humans living in the region | 58500000 |
-| **life_expectancy** | `double` [years] |  Average years that an individual is expected to live | 70.944 |
-| **human_development_index** | `double` [0-1] | Composite index of life expectancy, education, and per capita income indicators | 0.773 |
+| **life_expectancy** | `double` `[years]` |  Average years that an individual is expected to live | 70.944 |
+| **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.773 |
 
 ### Economy
 Information related to the economic development for each region:
@@ -228,10 +223,11 @@ following columns:
 
 ### Notes about the data
 For countries where both country-level and subregion-level data is available, the entry which has a
-null value for the subregion level columns indicates upper-level aggregation. For example, if a data
-point has values `{country_code: US, subregion1_code: CA, subregion2_code: null, ...}` then that
-record will have data aggregated at the subregion1 (i.e. state/province) level. If `subregion1_code`
-were null, then it would be data aggregated at the country level.
+null value for the subregion level columns in the `index` table indicates upper-level aggregation.
+For example, if a data point has values
+`{country_code: US, subregion1_code: CA, subregion2_code: null, ...}` then that record will have
+data aggregated at the subregion1 (i.e. state/province) level. If `subregion1_code`were null, then
+it would be data aggregated at the country level.
 
 Another way to tell the level of aggregation is the `aggregation_level` of the `index` table, see
 the [schema documentation](#index) for more details about how to interpret it.
@@ -240,13 +236,18 @@ Please note that, sometimes, the country-level data and the region-level data co
 sources so adding up all region-level values may not equal exactly to the reported country-level
 value. See the [data loading tutorial][7] for more information.
 
-TODO: Document the [notices.csv](src/data/notices.csv) file.
+There is also a [notices.csv](src/data/notices.csv) file which is manually updated with quirks about
+the data. The goal is to be able to query by key and date, to get a list of applicable notices to
+the requested subset.
 
 ### Backwards compatibility
 Please note that the following datasets are maintained only to preserve backwards compatibility, but
 shouldn't be used in any new projects:
-* [Data (deprecated)](https://open-covid-19.github.io/data/data.csv)
-* [Forecast (deprecated)](https://open-covid-19.github.io/data/data_forecast.csv)
+* [Data](https://open-covid-19.github.io/data/data.csv)
+* [Minimal](https://open-covid-19.github.io/data/data_minimal.csv)
+* [Forecast](https://open-covid-19.github.io/data/data_forecast.csv)
+* [Mobility](https://open-covid-19.github.io/data/mobility.csv)
+* [Weather](https://open-covid-19.github.io/data/weather.csv)
 
 ## Contribute
 The data from this repository has become increasingly reliant on Wikipedia sources. If you spot an

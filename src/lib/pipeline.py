@@ -15,7 +15,7 @@ from multiprocess import Pool
 from pandas import DataFrame, isnull, isna, read_csv
 from tqdm import tqdm
 
-from .anomaly import detect_correct_schema, detect_null_columns, detect_zero_columns
+from .anomaly import detect_anomaly_all, detect_stale_columns
 from .cast import column_convert
 from .net import download
 from .io import read_file, fuzzy_text
@@ -292,7 +292,11 @@ class PipelineChain:
         return None
 
     def run(
-        self, process_count: int = cpu_count(), group_keys: List[str] = None, **pipeline_opts
+        self,
+        pipeline_name: str,
+        process_count: int = cpu_count(),
+        verify: bool = True,
+        **pipeline_opts,
     ) -> DataFrame:
         """
         Main method which executes all the associated [DataPipeline] objects and combines their
@@ -328,17 +332,19 @@ class PipelineChain:
 
         # If the process count is less than one, run in series (useful to evaluate performance)
         if process_count <= 1 or len(func_iter) <= 1:
-            func_iter_map = map(PipelineChain._run_wrapper, func_iter)
+            func_map = map(PipelineChain._run_wrapper, func_iter)
         else:
-            func_iter_map = Pool(process_count).imap(PipelineChain._run_wrapper, func_iter)
+            func_map = Pool(process_count).imap(PipelineChain._run_wrapper, func_iter)
 
         # Show progress as the results arrive
-        pipeline_results = tqdm(func_iter_map, total=len(func_iter), desc=self.__class__.__name__,)
+        pipeline_results = tqdm(
+            func_map, total=len(func_iter), desc=f"Run {pipeline_name} pipeline"
+        )
 
         # Combine all pipeline outputs into a single DataFrame
         pipeline_outputs = [result for result in pipeline_results if result is not None]
         if not pipeline_outputs:
-            warnings.warn("Empty result for pipeline chain {}".format(self.__class__.__name__))
+            warnings.warn("Empty result for pipeline chain {}".format(pipeline_name))
             data = DataFrame(columns=self.schema.keys())
         else:
             data = combine_tables(pipeline_outputs, ["date", "key"])
@@ -346,8 +352,24 @@ class PipelineChain:
         # Return data using the pipeline's output parameters
         data = self.output_table(data)
 
-        # Validate that the table looks good
-        for anomaly_detector in (detect_correct_schema, detect_null_columns, detect_zero_columns):
-            anomaly_detector(self.schema, data)
+        # Skip anomaly detection unless requested
+        if verify:
+
+            # Validate that the table looks good
+            detect_anomaly_all(self.schema, data, pipeline_name)
+
+            # Perform anomaly detection for each known key
+            func_iter = data.key.unique()
+            func_map = lambda key: detect_stale_columns(
+                self.schema, data[data.key == key], (pipeline_name, key)
+            )
+            if process_count <= 1 or len(func_iter) <= 1:
+                func_map = map(func_map, func_iter)
+            else:
+                func_map = Pool(process_count).imap(func_map, func_iter)
+            for result in tqdm(
+                func_map, total=len(func_iter), desc=f"Verify {pipeline_name} pipeline"
+            ):
+                pass
 
         return data
