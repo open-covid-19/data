@@ -8,7 +8,6 @@ class IndexPipeline(DefaultPipeline):
     def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
         return [
             ROOT / "src" / "data" / "metadata.csv",
-            ROOT / "src" / "data" / "country_codes.csv",
             ROOT / "src" / "data" / "knowledge_graph.csv",
         ]
 
@@ -21,12 +20,8 @@ class IndexPipeline(DefaultPipeline):
             data = merge(data, df, how="left")
 
         # Country codes are joined by country_code rather than the usual key
-        data = merge(
-            data,
-            aux["country_codes"].rename(columns={"key": "country_code"}),
-            on="country_code",
-            how="left",
-        )
+        country_codes = aux["country_codes"].rename(columns={"key": "country_code"})
+        data = merge(data, country_codes, how="left")
 
         # Determine the level of aggregation for each datapoint
         data["aggregation_level"] = None

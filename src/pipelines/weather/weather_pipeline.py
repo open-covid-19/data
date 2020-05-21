@@ -43,7 +43,7 @@ class WeatherPipeline(DefaultPipeline):
         # Return the closest station and its distance
         idxmin = distances.idxmin()
         nearest = stations.iloc[idxmin].copy()
-        nearest["distance"] = distances.iloc[idxmin]
+        nearest["noaa_distance"] = distances.iloc[idxmin]
         return nearest
 
     @staticmethod
@@ -67,7 +67,7 @@ class WeatherPipeline(DefaultPipeline):
             ).format(nearest.id)
             column_mapping = {
                 "DATE": "date",
-                "STATION": "station",
+                "STATION": "noaa_station",
                 "TMIN": "minimum_temperature",
                 "TMAX": "maximum_temperature",
                 "PRCP": "rainfall",
@@ -86,13 +86,13 @@ class WeatherPipeline(DefaultPipeline):
 
             # Get only data for 2020 and add location values
             data = data[data.date > "2019-12-31"]
-            data["distance"] = "%.03f" % nearest.distance
+            data["noaa_distance"] = "%.03f" % nearest.noaa_distance
 
             # Save into the cache
             output_columns = [
                 "date",
-                "station",
-                "distance",
+                "noaa_station",
+                "noaa_distance",
                 "minimum_temperature",
                 "maximum_temperature",
                 "rainfall",
@@ -157,8 +157,8 @@ class WeatherPipelineChain(PipelineChain):
     schema: Dict[str, type] = {
         "date": str,
         "key": str,
-        "station": str,
-        "distance": float,
+        "noaa_station": str,
+        "noaa_distance": float,
         "minimum_temperature": float,
         "maximum_temperature": float,
         "rainfall": float,
