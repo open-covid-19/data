@@ -31,6 +31,21 @@ def subset_last_days(data: DataFrame, days: int) -> DataFrame:
         return data[data.date > first_date.isoformat()]
 
 
+def subset_latest(data: DataFrame) -> DataFrame:
+    """ Used to get the latest data for each key """
+    # Early exit: this data has no date
+    if not "date" in data.columns or len(data.date.dropna()) == 0:
+        return data
+    else:
+        records = []
+        for key in data.key.unique():
+            non_null_columns = [col for col in data.columns if not col in ("key", "date")]
+            subset = data[data.key == key].dropna(subset=non_null_columns, how="all")
+            if len(subset) > 0:
+                records.append(subset.iloc[-1])
+        return DataFrame.from_records(records)
+
+
 # Create the folder which will be published
 v2_folder = ROOT / "public" / "v2"
 v2_folder.mkdir(exist_ok=True, parents=True)
@@ -40,27 +55,27 @@ print("Copying files to output folder...")
 for output_file in (ROOT / "output").glob("*.csv"):
     shutil.copy(output_file, v2_folder / output_file.name)
 
-# Merge all output files into a single data.csv file
+# Merge all output files into a single master table
 print("Creating master table...")
 all_data = read_file(v2_folder / "index.csv")
 for output_file in v2_folder.glob("*.csv"):
     if output_file.name not in ("index.csv", "master.csv"):
-        all_data = all_data.merge(read_file(output_file), how="left")
+        all_data = all_data.merge(read_file(output_file, low_memory=False), how="left")
 
 # TMP: Try to use integer type for all possible columns
 # TODO: Use data schema instead of blindly trying to convert values
 for column in all_data.columns:
     try:
-        all_data[column] = all_data[column].astype('Int64')
+        all_data[column] = all_data[column].astype("Int64")
     except:
         pass
 
 # Drop rows without a single dated record
 export_csv(all_data.dropna(subset=["date"]), v2_folder / "master.csv")
 
-# Create subsets with the last 30, 14, 7 and 1 last days of data
+# Create subsets with the last 30, 14 and 7 days of data
 print("Creating last N days subsets...")
-for n_days in (30, 14, 7, 1):
+for n_days in (30, 14, 7):
     n_days_folder = v2_folder / str(n_days)
     n_days_folder.mkdir(exist_ok=True)
     for csv_file in (v2_folder).glob("*.csv"):
@@ -107,9 +122,19 @@ export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minim
 
 # Create the v1 weather.csv file
 weather = read_file(v2_folder / "weather.csv")
-weather.columns = list(map(snake_to_camel_case, weather.columns))
-weather = weather[weather.key.apply(lambda x: len(x.split('_')) < 3)]
-weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station"})
+weather = weather[weather.key.apply(lambda x: len(x.split("_")) < 3)]
+weather = weather.rename(
+    columns={
+        "date": "Date",
+        "key": "Key",
+        "noaa_distance": "Distance",
+        "noaa_station": "Station",
+        "minimum_temperature": "MinimumTemperature",
+        "maximum_temperature": "MaximumTemperature",
+        "rainfall": "Rainfall",
+        "snowfall": "Snowfall",
+    }
+)
 export_csv(weather, v1_folder / "weather.csv")
 
 # Create the v1 mobility.csv file
