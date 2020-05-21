@@ -24,7 +24,6 @@ jobs:
         pip install -r requirements.txt
 
     - name: Clone previous data
-      working-directory: src
       run: |
         git clone https://@github.com/open-covid-19/data --single-branch -b gh-pages public
         git config --global user.name open-covid-bot
