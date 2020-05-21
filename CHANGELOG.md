@@ -10,5 +10,5 @@ Preview of V2 finalized:
 * Broke down tables into: metadata, epidemiology, demographics, geography, economy, stringency
 * Matched every region with a wikidata ID
 * Added tested and recovered data to epidemiology table
-* Added county-level data for US and GB
+* Added county-level data for CO, GB, NL and US
 * Now tracking both new and cumulative cases
