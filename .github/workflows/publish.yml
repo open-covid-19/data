@@ -1,0 +1,42 @@
+name: Publish Data
+# Publish the data to a server every time master branch is updated
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Clone previous data
+      working-directory: src
+      run: |
+        git clone https://@github.com/open-covid-19/data --single-branch -b gh-pages public
+        git config --global user.name open-covid-bot
+        git config --global user.email open-covid-bot@${{ github.repository }}
+
+    - name: Publish current data
+      working-directory: src
+      run: |
+        python ./scripts/publish_dataset.py
+        cd public
+        git add -f .
+        git commit -m "Automatic data publish"
+        git push \
+          "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data.git" \
+          HEAD:gh-pages
