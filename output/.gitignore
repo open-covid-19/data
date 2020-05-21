@@ -1,5 +1,3 @@
-*
-!.gitignore
-!README.md
-!data.csv
-!data_minimal.csv
+*.json
+_*.csv
+data*.csv

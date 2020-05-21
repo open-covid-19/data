@@ -1,0 +1,114 @@
+import os
+import re
+import sys
+from io import StringIO
+from pathlib import Path
+from typing import Callable, List, Union
+from argparse import ArgumentParser
+
+import pandas
+from unidecode import unidecode
+from pandas import DataFrame, read_csv
+from bs4 import BeautifulSoup, Tag
+
+from .cast import safe_int_cast
+
+
+def fuzzy_text(text: str):
+    return re.sub(r"[^a-z]", "", unidecode(str(text)).lower())
+
+
+def read_file(path: Union[Path, str], **read_opts):
+    ext = str(path).split(".")[-1]
+
+    if ext == "csv":
+        return pandas.read_csv(
+            path, **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
+        )
+    elif ext == "json":
+        return pandas.read_json(path, **read_opts)
+    elif ext == "html":
+        return read_html(open(path).read(), **read_opts)
+    elif ext == "xls" or ext == "xlsx":
+        return pandas.read_excel(
+            path, **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
+        )
+    else:
+        raise ValueError("Unrecognized extension: %s" % ext)
+
+
+def _get_html_columns(row: Tag) -> List[Tag]:
+    cols = []
+    for elem in filter(lambda row: isinstance(row, Tag), row.children):
+        cols += [elem] * (safe_int_cast(elem.attrs.get("colspan", 1)) or 1)
+    return list(cols)
+
+
+def _default_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
+    return cell.get_text().strip()
+
+
+def count_html_tables(html: str, selector: str = "table"):
+    page = BeautifulSoup(html, "lxml")
+    return len(page.select(selector))
+
+
+def wiki_html_cell_parser(cell: Tag, row_idx: int, col_idx: int):
+    return re.sub(r"\[.+\]", "", cell.get_text().strip())
+
+
+def read_html(
+    html: str,
+    selector: str = "table",
+    table_index: int = 0,
+    skiprows: int = 0,
+    header: bool = False,
+    parser: Callable = None,
+) -> DataFrame:
+    """ Parse an HTML table into a DataFrame """
+    parser = parser if parser is not None else _default_html_cell_parser
+
+    # Fetch table and read its rows
+    page = BeautifulSoup(html, "lxml")
+    table = page.select(selector)[table_index]
+    rows = [_get_html_columns(row) for row in table.find_all("tr")]
+
+    # Adjust for rowspan > 1
+    for idx_row, row in enumerate(rows):
+        for idx_cell, cell in enumerate(row):
+            rowspan = int(cell.attrs.get("rowspan", 1))
+            cell.attrs["rowspan"] = 1  # reset to prevent cascading
+            for offset in range(1, rowspan):
+                rows[idx_row + offset].insert(idx_cell, cell)
+
+    # Get text within table cells and build dataframe
+    records = []
+    for row_idx, row in enumerate(rows[skiprows:]):
+        records.append([parser(elem, row_idx, col_idx) for col_idx, elem in enumerate(row)])
+    data = DataFrame.from_records(records)
+
+    # Parse header if requested
+    if header:
+        data.columns = data.iloc[0]
+        data = data.drop(data.index[0])
+
+    return data
+
+
+def export_csv(data: DataFrame, path: Union[Path, str]) -> None:
+    """ Exports a DataFrame to CSV using consistent options """
+    # Output to a buffer first
+    buffer = StringIO()
+    # Since all large quantities use Int64, we can assume floats will not be represented using the
+    # exponential notation that %G formatting uses for large numbers
+    data.to_csv(buffer, index=False, float_format="%.8G")
+    output = buffer.getvalue()
+
+    # Workaround for Namibia's code, which is interpreted as NaN when read back
+    output = re.sub(r"^NA,", '"NA",', output)
+    output = re.sub(r",NA,", ',"NA",', output)
+    output = re.sub(r"\nNA,", '\n"NA",', output)
+
+    # Write the output to the provided file
+    with open(path, "w") as fd:
+        fd.write(output)
