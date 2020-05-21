@@ -34,7 +34,7 @@ jobs:
       working-directory: src
       run: |
         python ./scripts/publish_dataset.py
-        cd public
+        cd ../public
         git add -f .
         git commit -m "Automatic data publish"
         git push \

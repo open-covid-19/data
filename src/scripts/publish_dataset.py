@@ -109,7 +109,7 @@ export_csv(
 )
 
 # Create the v1 forecast.csv file
-export_csv(build_forecast(), v1_folder / "forecast.csv")
+# export_csv(build_forecast(), v1_folder / "forecast.csv")
 
 # Create the v1 CSV files which only require column mapping
 v1_v2_name_map = {"response": "oxford-government-response"}
