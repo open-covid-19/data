@@ -17,7 +17,7 @@ from backcompat_forecast import main as build_forecast
 
 def snake_to_camel_case(txt: str) -> str:
     """ Used to convert V2 column names to V1 column names for backwards compatibility """
-    txt = re.sub(r"_(\w)", lambda m: m.group(1).upper(), txt.capitalize())
+    return re.sub(r"_(\w)", lambda m: m.group(1).upper(), txt.capitalize())
 
 
 def subset_last_days(data: DataFrame, days: int) -> DataFrame:
@@ -82,6 +82,16 @@ for n_days in (30, 14, 7):
         data = read_file(csv_file, low_memory=False)
         export_csv(subset_last_days(data, n_days), n_days_folder / csv_file.name)
 
+# Create a subset with the latest known day of data for each key
+# print("Creating the latest subset...")
+# for key in all_data.key.unique():
+#     latest_folder = v2_folder / "latest"
+#     latest_folder.mkdir(exist_ok=True)
+#     subset = all_data[all_data.key == key]
+#     for csv_file in (v2_folder).glob("*.csv"):
+#         data = read_file(csv_file, low_memory=False)
+#         export_csv(subset_latest(data), latest_folder / csv_file.name)
+
 # Convert all CSV files to JSON using values format
 print("Converting CSV to JSON...")
 for csv_file in (v2_folder).glob("**/*.csv"):
@@ -115,7 +125,8 @@ rename_columns = {
 data = data[rename_columns.keys()].rename(columns=rename_columns)
 data = data.dropna(subset=["Confirmed", "Deaths"], how="all")
 data = data.sort_values(["Date", "Key"])
-export_csv(data, v1_folder / "data.csv")
+# export_csv(data, v1_folder / "data.csv")
+data.to_csv(v1_folder / "data.csv", index=False)
 
 # Create the v1 minimal.csv file
 export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minimal.csv")
@@ -123,19 +134,9 @@ export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minim
 # Create the v1 weather.csv file
 weather = read_file(v2_folder / "weather.csv")
 weather = weather[weather.key.apply(lambda x: len(x.split("_")) < 3)]
-weather = weather.rename(
-    columns={
-        "date": "Date",
-        "key": "Key",
-        "noaa_distance": "Distance",
-        "noaa_station": "Station",
-        "minimum_temperature": "MinimumTemperature",
-        "maximum_temperature": "MaximumTemperature",
-        "rainfall": "Rainfall",
-        "snowfall": "Snowfall",
-    }
-)
-export_csv(weather, v1_folder / "weather.csv")
+weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station",})
+rename_columns = {col: snake_to_camel_case(col) for col in weather.columns}
+export_csv(weather.rename(columns=rename_columns), v1_folder / "weather.csv")
 
 # Create the v1 mobility.csv file
 export_csv(
@@ -148,9 +149,9 @@ export_csv(
 # Create the v1 CSV files which only require column mapping
 v1_v2_name_map = {"response": "oxford-government-response"}
 for v1_name, v2_name in v1_v2_name_map.items():
-    df = read_file(v2_folder / f"{v2_name}.csv")
-    df.columns = list(map(snake_to_camel_case, df.columns))
-    export_csv(df, v1_folder / f"{v1_name}.csv")
+    data = read_file(v2_folder / f"{v2_name}.csv")
+    rename_columns = {col: snake_to_camel_case(col) for col in data.columns}
+    export_csv(data.rename(columns=rename_columns), v1_folder / f"{v1_name}.csv")
 
 # Convert all v1 CSV files to JSON using record format
 for csv_file in (v1_folder).glob("*.csv"):
