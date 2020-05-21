@@ -123,3 +123,6 @@ for csv_file in (v1_folder).glob("*.csv"):
     data = read_file(csv_file, low_memory=False)
     json_path = str(csv_file).replace("csv", "json")
     data.to_json(json_path, orient="records")
+
+# TMP: remove weather.json which is too big for gh-pages
+(v1_folder / "weather.json").unlink()
