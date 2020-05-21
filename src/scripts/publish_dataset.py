@@ -23,7 +23,7 @@ def snake_to_camel_case(txt: str) -> str:
 def subset_last_days(data: DataFrame, days: int) -> DataFrame:
     """ Used to get the last N days of data """
     # Early exit: this data has no date
-    if not "date" in data.columns:
+    if not "date" in data.columns or len(data.date.dropna()) == 0:
         return data
     else:
         last_date = datetime.date.fromisoformat(data.date.max())
