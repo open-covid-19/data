@@ -47,6 +47,14 @@ for output_file in v2_folder.glob("*.csv"):
     if output_file.name not in ("index.csv", "master.csv"):
         all_data = all_data.merge(read_file(output_file), how="left")
 
+# TMP: Try to use integer type for all possible columns
+# TODO: Use data schema instead of blindly trying to convert values
+for column in all_data.columns:
+    try:
+        all_data[column] = all_data[column].astype('Int64')
+    except:
+        pass
+
 # Drop rows without a single dated record
 export_csv(all_data.dropna(subset=["date"]), v2_folder / "master.csv")
 
