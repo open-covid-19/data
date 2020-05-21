@@ -108,6 +108,7 @@ export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minim
 # Create the v1 weather.csv file
 weather = read_file(v2_folder / "weather.csv")
 weather.columns = list(map(snake_to_camel_case, weather.columns))
+weather = weather[weather.key.apply(lambda x: len(x.split('_')) < 3)]
 weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station"})
 export_csv(weather, v1_folder / "weather.csv")
 
@@ -131,6 +132,3 @@ for csv_file in (v1_folder).glob("*.csv"):
     data = read_file(csv_file, low_memory=False)
     json_path = str(csv_file).replace("csv", "json")
     data.to_json(json_path, orient="records")
-
-# TMP: remove weather.json which is too big for gh-pages
-(v1_folder / "weather.json").unlink()
