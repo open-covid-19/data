@@ -1,15 +1,21 @@
 # Open COVID-19 Dataset
 This repository contains datasets of daily time-series data related to COVID-19, including
-state/province data for over 30 countries and county/municipality data for US, UK, NL and CO.
+state/province epidemiology data for over 30 countries and county/municipality data for US, UK, NL
+and CO.
 
 The data is available as CSV and JSON files, which are published in Github Pages so they can be
 served directly to Javascript applications without the need of a proxy to set the correct headers
 for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
-is preferred in order to avoid caching issues and potential, future breaking changes. The datasets
-available from this project are:
+is preferred in order to avoid caching issues and potential, future breaking changes.
 
-| Dataset | CSV URL | JSON URL |
-| ------- | ------- | -------- |
+For the purpose of making the data as easy to use as possible, there is a [master](#master) table
+which contains the columns of all other tables joined by `key` and `date`. However,
+performance-wise, it may be better to download the data separately and join the tables locally. The
+datasets available from this project are:
+
+| Table | CSV URL | JSON URL |
+| ----- | ------- | -------- |
+| [Master](#master) | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | [master.json](https://open-covid-19.github.io/data/v2/master.json) |
 | [Index](#index) | [index.csv](https://open-covid-19.github.io/data/v2/index.csv) | [index.json](https://open-covid-19.github.io/data/v2/index.json) |
 | [Demographics](#demographics) | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv) | [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) |
 | [Economy](#economy) | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv) | [economy.json](https://open-covid-19.github.io/data/v2/economy.json) |
@@ -35,6 +41,15 @@ If you are using this data, feel free to open an issue and let us know so we can
 your project here.
 
 ## Use the data
+Each table has a full version as well as subsets with only the last 30, 14, 7 and 1 days of data.
+The full version is accessible at the URL described [in the table above](#open-covid-19-dataset).
+The subsets can be found by appending the number of days to the path. For example, the subsets of
+the master table are available at the following locations:
+* Full version: https://open-covid-19.github.io/data/v2/master.csv
+* Last 30 days: https://open-covid-19.github.io/data/v2/30/master.csv
+* Last 14 days: https://open-covid-19.github.io/data/v2/14/master.csv
+* Last 7 days: https://open-covid-19.github.io/data/v2/7/master.csv
+* Last day https://open-covid-19.github.io/data/v2/1/master.csv
 
 If you are trying to use this data alongside your own datasets, then you can use the [Index](#index)
 table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions are
@@ -57,29 +72,29 @@ computer, simply go to this URL: https://colab.research.google.com/github/open-c
 ### R
 If you prefer R, then this is all you need to do to load the epidemiology data:
 ```R
-data <- read.csv("https://open-covid-19.github.io/data/v2/epidemiology.csv")
+data <- read.csv("https://open-covid-19.github.io/data/v2/master.csv")
 ```
 
 ### Python
 In Python, you need to have the package `pandas` installed to get started:
 ```python
 import pandas
-data = pandas.read_csv("https://open-covid-19.github.io/data/v2/epidemiology.csv")
+data = pandas.read_csv("https://open-covid-19.github.io/data/v2/master.csv")
 ```
 
 ### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
 this code snippet loads all epidemiology data into the `data` variable:
 ```javascript
-$.getJSON("https://open-covid-19.github.io/data/v2/epidemiology.json", data => { ... }
+$.getJSON("https://open-covid-19.github.io/data/v2/master.json", data => { ... }
 ```
 
 ### Powershell
 You can also use Powershell to get the latest data for a country directly from
 the command line, for example to query the latest data for Australia:
 ```powershell
-Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/epidemiology.csv' | ConvertFrom-Csv | `
-    where Key -eq 'AU' | select key,confirmed,deceased,recovered
+Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/master.csv' | ConvertFrom-Csv | `
+    where Key -eq 'AU' | select country_name,total_confirmed,total_deceased,total_recovered
 ```
 
 ## Understand the data
@@ -89,6 +104,10 @@ the configuration of GitHub's raw file server you may run into potential caching
 
 Missing values will be represented as nulls, whereas zeroes are used when a true value of zero is
 reported.
+
+### Master
+Flat table with records from all other tables joined by `key` and `date`. See below for information
+about all the tables and columns.
 
 ### Index
 Non-temporal data related to countries and regions. It includes keys, codes and names for each
@@ -198,8 +217,8 @@ Daily weather information from nearest station reported by NOAA:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
-| **station** | `string` | Identifier for the weather station | USC00206080 |
-| **distance** | `double` `[kilometers]` | Distance between the location coordinates and the weather station | 28.693 |
+| **noaa_station** | `string` | Identifier for the weather station | USC00206080 |
+| **noaa_distance** | `double` `[kilometers]` | Distance between the location coordinates and the weather station | 28.693 |
 | **minimum_temperature** | `double` `[celsius]` | Recorded hourly minimum temperature | 1.7 |
 | **maximum_temperature** | `double` `[celsius]` | Recorded hourly maximum temperature | 19.4 |
 | **rainfall** | `double` `[millimeters]` | Rainfall during the entire day | 51.0 |
