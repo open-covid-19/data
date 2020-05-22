@@ -1,6 +1,7 @@
 from datetime import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.cast import safe_datetime_parse
 from lib.pipeline import DefaultPipeline
 from lib.time import datetime_isoformat
 from lib.utils import grouped_cumsum
@@ -47,7 +48,9 @@ class ColombiaPipeline(DefaultPipeline):
                 merged = merged.merge(subset, how="outer")
 
         # Convert date to ISO format
-        merged.date = merged.date.apply(lambda x: datetime.fromisoformat(x).date().isoformat())
+        merged.date = merged.date.apply(safe_datetime_parse)
+        merged = merged[~merged.date.isna()]
+        merged.date = merged.date.apply(lambda x: x.date().isoformat())
         merged = merged.fillna(0)
 
         # Compute the daily counts

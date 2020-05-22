@@ -102,18 +102,18 @@ def export_csv(data: DataFrame, path: Union[Path, str]) -> None:
     data = data.copy()
 
     # Convert Int64 to string representation to avoid scientific notation of big numbers
-    # for column in data.columns:
-    #     if len(data) > 0 and is_numeric_dtype(data[column]):
-    #         max_value = data[column].dropna().max()
-    #         if max_value > 1e8:
-    #             try:
-    #                 data[column] = (
-    #                     data[column]
-    #                     .astype("Int64")
-    #                     .apply(lambda x: "" if pandas.isnull(x) else str(x))
-    #                 )
-    #             except:
-    #                 data[column] = data[column].astype(str).fillna("")
+    for column in data.columns:
+        if is_numeric_dtype(data[column]):
+            values = data[column].dropna()
+            if len(values) > 0 and max(values) > 1e8:
+                try:
+                    data[column] = (
+                        data[column]
+                        .astype("Int64")
+                        .apply(lambda x: "" if pandas.isnull(x) else str(x))
+                    )
+                except:
+                    data[column] = data[column].astype(str).fillna("")
 
     # Output to a buffer first
     buffer = StringIO()

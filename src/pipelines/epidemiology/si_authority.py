@@ -15,7 +15,6 @@ class SloveniaPipeline(DefaultPipeline):
     ) -> DataFrame:
 
         # Rename the appropriate columns
-        #
         data = dataframes[0].rename(
             columns={
                 "Date": "date",
@@ -33,6 +32,9 @@ class SloveniaPipeline(DefaultPipeline):
 
         # Make sure all records have the country code
         data["country_code"] = "SI"
+
+        # Make sure that the date column is a string
+        data.date = data.date.astype(str)
 
         # Compute the cumsum counts
         data = grouped_cumsum(

@@ -37,13 +37,9 @@ def subset_latest(data: DataFrame) -> DataFrame:
     if not "date" in data.columns or len(data.date.dropna()) == 0:
         return data
     else:
-        records = []
-        for key in data.key.unique():
-            non_null_columns = [col for col in data.columns if not col in ("key", "date")]
-            subset = data[data.key == key].dropna(subset=non_null_columns, how="all")
-            if len(subset) > 0:
-                records.append(subset.iloc[-1])
-        return DataFrame.from_records(records)
+        non_null_columns = [col for col in data.columns if not col in ("key", "date")]
+        data = data.dropna(subset=non_null_columns, how="all")
+        return data.sort_values("date").groupby("key").last().reset_index()
 
 
 # Create the folder which will be published
@@ -83,14 +79,12 @@ for n_days in (30, 14, 7):
         export_csv(subset_last_days(data, n_days), n_days_folder / csv_file.name)
 
 # Create a subset with the latest known day of data for each key
-# print("Creating the latest subset...")
-# for key in all_data.key.unique():
-#     latest_folder = v2_folder / "latest"
-#     latest_folder.mkdir(exist_ok=True)
-#     subset = all_data[all_data.key == key]
-#     for csv_file in (v2_folder).glob("*.csv"):
-#         data = read_file(csv_file, low_memory=False)
-#         export_csv(subset_latest(data), latest_folder / csv_file.name)
+print("Creating the latest subset...")
+latest_folder = v2_folder / "latest"
+latest_folder.mkdir(exist_ok=True)
+for csv_file in (v2_folder).glob("*.csv"):
+    data = read_file(csv_file, low_memory=False)
+    export_csv(subset_latest(data), latest_folder / csv_file.name)
 
 # Convert all CSV files to JSON using values format
 print("Converting CSV to JSON...")
@@ -103,7 +97,7 @@ for csv_file in (v2_folder).glob("**/*.csv"):
 v1_folder = ROOT / "public"
 print("Performing backwards compatibility transformations...")
 
-# Create the legacy data.csv file
+# Create the v1 data.csv file
 data = read_file(v2_folder / "index.csv")
 data = data.merge(read_file(v2_folder / "geography.csv"))
 data = data.merge(read_file(v2_folder / "demographics.csv"))
@@ -125,11 +119,13 @@ rename_columns = {
 data = data[rename_columns.keys()].rename(columns=rename_columns)
 data = data.dropna(subset=["Confirmed", "Deaths"], how="all")
 data = data.sort_values(["Date", "Key"])
-# export_csv(data, v1_folder / "data.csv")
-data.to_csv(v1_folder / "data.csv", index=False)
+export_csv(data, v1_folder / "data.csv")
 
-# Create the v1 minimal.csv file
+# Create the v1 data_minimal.csv file
 export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minimal.csv")
+
+# Create the v1 data_latest.csv file
+export_csv(data.groupby("Key").last().reset_index(), v1_folder / "data_latest.csv")
 
 # Create the v1 weather.csv file
 weather = read_file(v2_folder / "weather.csv")

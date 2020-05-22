@@ -49,7 +49,10 @@ the master table are available at the following locations:
 * Last 30 days: https://open-covid-19.github.io/data/v2/30/master.csv
 * Last 14 days: https://open-covid-19.github.io/data/v2/14/master.csv
 * Last 7 days: https://open-covid-19.github.io/data/v2/7/master.csv
-* Last day https://open-covid-19.github.io/data/v2/1/master.csv
+* Latest: https://open-covid-19.github.io/data/v2/latest/master.csv
+
+Note that the `latest` version contains the last non-null record for each key, whereas all others
+contain the last `N` days of data (all of which could be null for some keys).
 
 If you are trying to use this data alongside your own datasets, then you can use the [Index](#index)
 table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions are
@@ -299,7 +302,7 @@ from the relevant authorities, like a country's ministry of health.
 | Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) | Public Domain |
 | Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) | CC BY-SA |
 | China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) | MIT |
-| Colombia | [Colombia's Ministry of Health](https://www.minsalud.gov.co) | Public Domain |
+| Colombia | [Government Authority](https://www.datos.gov.co) | Public Domain |
 | France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> | GPLv3 |
 | Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | MIT |
 | India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | CC BY-SA |
@@ -307,7 +310,7 @@ from the relevant authorities, like a country's ministry of health.
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | CC BY 4.0 |
 | Japan | <https://github.com/swsoyee/2019-ncov-japan> | MIT |
 | Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | CC BY-SA |
-| Mexico | <https://github.com/carranco-sga/Mexico-COVID-19> | MIT |
+| Mexico | <https://github.com/mexicovid19/Mexico-datos> | MIT |
 | Netherlands | <https://github.com/J535D165/CoronaWatchNL> | CC0 |
 | Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
 | Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | CC BY-SA |
