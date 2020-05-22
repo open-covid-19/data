@@ -26,6 +26,7 @@ jobs:
     - name: Clone previous data
       run: |
         git clone https://github.com/open-covid-19/data --single-branch -b gh-pages public
+        rm -rf public/.git
 
     - name: Update public data
       working-directory: src

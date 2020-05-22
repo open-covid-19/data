@@ -34,6 +34,7 @@ jobs:
       working-directory: cache
       run: |
         git clone https://github.com/open-covid-19/data --single-branch -b cache output
+        rm -rf output/.git
 
     - name: Cache data sources
       working-directory: cache
