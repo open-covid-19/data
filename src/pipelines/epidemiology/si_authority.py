@@ -22,7 +22,7 @@ class SloveniaPipeline(DefaultPipeline):
                 "Tested (daily)": "new_tested",
                 "Positive (all)": "total_confirmed",
                 "Positive (daily)": "new_confirmed",
-                "All hospitalized on certain day": "active_hospitalised",
+                "All hospitalized on certain day": "current_hospitalized",
                 "All persons in intensive care on certain day": "active_intensive_care",
                 "Discharged": "recovered",
                 "Deaths (all)": "total_deceased",

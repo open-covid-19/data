@@ -29,7 +29,7 @@ class DatadistaPipeline(DefaultPipeline):
                 "CCAA": "match_string",
                 "totalconfirmed": "confirmed",
                 "totaldeceased": "deceased",
-                "total": "hospitalised",
+                "total": "hospitalized",
             }
         ).sort_values(["match_string", "date"])
 
@@ -42,5 +42,5 @@ class DatadistaPipeline(DefaultPipeline):
         data = concat([data, data_country])
 
         return data[
-            ["date", "country_code", "match_string", "confirmed", "deceased", "hospitalised",]
+            ["date", "country_code", "match_string", "confirmed", "deceased", "hospitalized",]
         ]

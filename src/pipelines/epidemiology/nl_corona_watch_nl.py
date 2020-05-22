@@ -26,7 +26,7 @@ class CoronaWatchNlPipeline(DefaultPipeline):
     ) -> DataFrame:
 
         # Rename the appropriate columns
-        count_column = {0: "confirmed", 1: "deceased", 2: "hospitalised"}
+        count_column = {0: "confirmed", 1: "deceased", 2: "hospitalized"}
         for idx, df in enumerate(dataframes):
             df.rename(columns={**_column_mapping, "Aantal": count_column[idx]}, inplace=True)
 
@@ -47,15 +47,15 @@ class CoronaWatchNlPipeline(DefaultPipeline):
         data = data.merge(aux["metadata"], on="subregion2_code")
 
         # We only need to keep key-date pair for identification
-        data = data[["date", "key", "confirmed", "deceased", "hospitalised"]]
+        data = data[["date", "key", "confirmed", "deceased", "hospitalized"]]
 
         # Compute the daily counts
         data = grouped_diff(data, ["key", "date"])
 
         # Group by level 2 region, and add the parts
         l2 = data.copy()
-        l2['key'] = l2.key.apply(lambda x: x[:5])
-        l2 = l2.groupby(['key', 'date']).sum().reset_index()
+        l2["key"] = l2.key.apply(lambda x: x[:5])
+        l2 = l2.groupby(["key", "date"]).sum().reset_index()
 
         # Output the results
         return concat([l2, data])

@@ -19,7 +19,7 @@ class ISCIIIPipeline(DefaultPipeline):
                     "FECHA": "date",
                     "CCAA": "subregion1_code",
                     "Fallecidos": "deceased",
-                    "Hospitalizados": "hospitalised",
+                    "Hospitalizados": "hospitalized",
                     "UCI": "ICU",
                     "Recuperados": "recovered",
                 }

@@ -59,7 +59,7 @@ class Jp2019NcovJapanByRegion(DefaultPipeline):
                 "日付": "date",
                 "都道府県名": "match_string",
                 "患者数": "confirmed",
-                "入院中": "hospitalised",
+                "入院中": "hospitalized",
                 "退院者": "recovered",
                 "死亡者": "deceased",
             }
@@ -72,7 +72,7 @@ class Jp2019NcovJapanByRegion(DefaultPipeline):
         data["country_code"] = "JP"
 
         # Keep only columns we can process
-        data = data[["date", "match_string", "confirmed", "hospitalised", "recovered", "deceased"]]
+        data = data[["date", "match_string", "confirmed", "hospitalized", "recovered", "deceased"]]
 
         # Output the results
         return grouped_cumsum(data, ["country_code", "match_string", "date"])

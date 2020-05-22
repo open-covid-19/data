@@ -118,7 +118,7 @@ class DefaultPipeline(DataPipeline):
         metadata = aux["metadata"]
 
         # Exact key match might be possible and it's the fastest option
-        if "key" in record:
+        if "key" in record and not isnull(record["key"]):
             if record["key"] in metadata["key"].values:
                 return record["key"]
             else:

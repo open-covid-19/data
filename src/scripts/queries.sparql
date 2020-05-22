@@ -16,3 +16,13 @@ WHERE
   ?place wdt:P31/wdt:P279* wd:Q2555896.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
 }
+
+# Get all departments of France, and what administrative region they belong to
+SELECT ?place ?subregion1_code ?subregion2_code ?placeLabel
+WHERE
+{
+  ?place wdt:P131 ?subregion1_code.
+  ?place wdt:P2586 ?subregion2_code.
+  ?place wdt:P31/wdt:P279* wd:Q6465.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+}
