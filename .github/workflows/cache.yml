@@ -34,16 +34,15 @@ jobs:
       working-directory: cache
       run: |
         git clone https://github.com/open-covid-19/data --single-branch -b cache output
-        git config --global user.name open-covid-bot
-        git config --global user.email open-covid-bot@${{ github.repository }}
 
     - name: Cache data sources
       working-directory: cache
       run: |
         python ./fetch.py --continue-on-error
-        cd output
-        git add -f .
-        git commit -m "Automatic cache update"
-        git push \
-          "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data" \
-          HEAD:cache
+
+    - name: Deploy data to server
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: cache
+        publish_dir: ./cache/output
