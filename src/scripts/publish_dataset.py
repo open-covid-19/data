@@ -26,7 +26,7 @@ def subset_last_days(data: DataFrame, days: int) -> DataFrame:
     if not "date" in data.columns or len(data.date.dropna()) == 0:
         return data
     else:
-        last_date = datetime.date.fromisoformat(data.date.max())
+        last_date = datetime.date.fromisoformat(max(data.date))
         first_date = last_date - datetime.timedelta(days=days)
         return data[data.date > first_date.isoformat()]
 
@@ -45,10 +45,10 @@ def subset_latest(data: DataFrame) -> DataFrame:
 def subset_last_days(data: DataFrame, days: int) -> DataFrame:
     """ Used to get the last N days of data """
     # Early exit: this data has no date
-    if not "date" in data.columns:
+    if not "date" in data.columns or len(data.date.dropna()) == 0:
         return data
     else:
-        last_date = datetime.date.fromisoformat(data.date.max())
+        last_date = datetime.date.fromisoformat(max(data.date))
         first_date = last_date - datetime.timedelta(days=days)
         return data[data.date > first_date.isoformat()]
 

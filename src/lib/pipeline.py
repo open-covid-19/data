@@ -1,6 +1,5 @@
 import re
 import sys
-import json
 import warnings
 import traceback
 import subprocess
@@ -303,7 +302,11 @@ class PipelineChain:
         outputs.
         """
         # Read the cache directory from our cloud storage
-        cache = json.loads(requests.get("{}/sitemap.json".format(CACHE_URL)).text)
+        try:
+            cache = requests.get("{}/sitemap.json".format(CACHE_URL)).json()
+        except:
+            cache = {}
+            warnings.warn("Cache unavailable")
 
         # Read the auxiliary input files into memory
         aux = {name: read_file(file_name) for name, file_name in self.auxiliary_tables.items()}
