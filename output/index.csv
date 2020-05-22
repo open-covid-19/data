@@ -1444,25 +1444,121 @@ FM,Q3359409,,FM,Micronesia,,,,,FM,FSM,0
 FO,Q4628,country/FRO,FO,Faroe Islands,,,,,FO,FRO,0
 FR,Q142,country/FRA,FR,France,,,,,FR,FRA,0
 FR_ARA,Q18338206,nuts/FR7,FR,France,ARA,Auvergne-Rhône-Alpes,,,FR,FRA,1
+FR_ARA_01,Q3083,,FR,France,ARA,Auvergne-Rhône-Alpes,01,Ain,FR,FRA,2
+FR_ARA_03,Q3113,,FR,France,ARA,Auvergne-Rhône-Alpes,03,Allier,FR,FRA,2
+FR_ARA_07,Q3148,,FR,France,ARA,Auvergne-Rhône-Alpes,07,Ardèche,FR,FRA,2
+FR_ARA_15,Q3259,,FR,France,ARA,Auvergne-Rhône-Alpes,15,Cantal,FR,FRA,2
+FR_ARA_26,Q3364,,FR,France,ARA,Auvergne-Rhône-Alpes,26,Drôme,FR,FRA,2
+FR_ARA_38,Q12559,,FR,France,ARA,Auvergne-Rhône-Alpes,38,Isère,FR,FRA,2
+FR_ARA_42,Q12569,,FR,France,ARA,Auvergne-Rhône-Alpes,42,Loire,FR,FRA,2
+FR_ARA_43,Q12572,,FR,France,ARA,Auvergne-Rhône-Alpes,43,Haute-Loire,FR,FRA,2
+FR_ARA_63,Q12694,,FR,France,ARA,Auvergne-Rhône-Alpes,63,Puy-de-Dôme,FR,FRA,2
+FR_ARA_69,Q46130,,FR,France,ARA,Auvergne-Rhône-Alpes,69,Rhône,FR,FRA,2
+FR_ARA_73,Q12745,,FR,France,ARA,Auvergne-Rhône-Alpes,73,Savoie,FR,FRA,2
+FR_ARA_74,Q12751,,FR,France,ARA,Auvergne-Rhône-Alpes,74,Haute-Savoie,FR,FRA,2
 FR_BFC,Q18578267,,FR,France,BFC,Bourgogne-Franche-Comté,,,FR,FRA,1
+FR_BFC_21,Q3342,,FR,France,BFC,Bourgogne-Franche-Comté,21,Côte-d’Or,FR,FRA,2
+FR_BFC_25,Q3361,,FR,France,BFC,Bourgogne-Franche-Comté,25,Doubs,FR,FRA,2
+FR_BFC_39,Q3120,,FR,France,BFC,Bourgogne-Franche-Comté,39,Jura,FR,FRA,2
+FR_BFC_58,Q12657,,FR,France,BFC,Bourgogne-Franche-Comté,58,Nièvre,FR,FRA,2
+FR_BFC_70,Q12730,,FR,France,BFC,Bourgogne-Franche-Comté,70,Haute-Saône,FR,FRA,2
+FR_BFC_71,Q12736,,FR,France,BFC,Bourgogne-Franche-Comté,71,Saône-et-Loire,FR,FRA,2
+FR_BFC_89,Q12816,,FR,France,BFC,Bourgogne-Franche-Comté,89,Yonne,FR,FRA,2
+FR_BFC_90,Q12782,,FR,France,BFC,Bourgogne-Franche-Comté,90,Territoire de Belfort,FR,FRA,2
 FR_BL,,,FR,France,BL,Saint Barthélemy,,,FR,FRA,1
-FR_BRE,Q327,,FR,France,BRE,Brittany,,,FR,FRA,1
+FR_BRE,Q12130,,FR,France,BRE,Brittany,,,FR,FRA,1
+FR_BRE_22,,,FR,France,BRE,Brittany,22,Côtes-d'Armor,FR,FRA,2
+FR_BRE_29,,,FR,France,BRE,Brittany,29,Finistère,FR,FRA,2
+FR_BRE_35,,,FR,France,BRE,Brittany,35,Ille-et-Vilaine,FR,FRA,2
+FR_BRE_56,,,FR,France,BRE,Brittany,56,Morbihan,FR,FRA,2
 FR_COR,Q14112,nuts/FR83,FR,France,COR,Corsica,,,FR,FRA,1
+FR_COR_2A,Q3336,,FR,France,COR,Corsica,2A,Corse-du-Sud,FR,FRA,2
+FR_COR_2B,Q3334,,FR,France,COR,Corsica,2B,Haute-Corse,FR,FRA,2
 FR_CVL,Q13947,nuts/FR24,FR,France,CVL,Centre-Val de Loire,,,FR,FRA,1
+FR_CVL_18,Q3286,,FR,France,CVL,Centre-Val de Loire,18,Cher,FR,FRA,2
+FR_CVL_28,Q3377,,FR,France,CVL,Centre-Val de Loire,28,Eure-et-Loir,FR,FRA,2
+FR_CVL_36,Q12553,,FR,France,CVL,Centre-Val de Loire,36,Indre,FR,FRA,2
+FR_CVL_37,Q12556,,FR,France,CVL,Centre-Val de Loire,37,Indre-et-Loire,FR,FRA,2
+FR_CVL_41,Q12564,,FR,France,CVL,Centre-Val de Loire,41,Loir-et-Cher,FR,FRA,2
+FR_CVL_45,Q12574,,FR,France,CVL,Centre-Val de Loire,45,Loiret,FR,FRA,2
 FR_GES,Q18677983,,FR,France,GES,Grand Est,,,FR,FRA,1
+FR_GES_08,Q3164,,FR,France,GES,Grand Est,08,Ardennes,FR,FRA,2
+FR_GES_10,Q3194,,FR,France,GES,Grand Est,10,Aube,FR,FRA,2
+FR_GES_51,Q12594,,FR,France,GES,Grand Est,51,Marne,FR,FRA,2
+FR_GES_52,Q12607,,FR,France,GES,Grand Est,52,Haute-Marne,FR,FRA,2
+FR_GES_54,Q12626,,FR,France,GES,Grand Est,54,Meurthe-et-Moselle,FR,FRA,2
+FR_GES_55,Q12631,,FR,France,GES,Grand Est,55,Meuse,FR,FRA,2
+FR_GES_57,Q12652,,FR,France,GES,Grand Est,57,Moselle,FR,FRA,2
+FR_GES_67,Q12717,,FR,France,GES,Grand Est,67,Bas-Rhin,FR,FRA,2
+FR_GES_68,Q12722,,FR,France,GES,Grand Est,68,Haut-Rhin,FR,FRA,2
+FR_GES_88,Q3105,,FR,France,GES,Grand Est,88,Vosges,FR,FRA,2
 FR_GF,,,FR,France,GF,French Guiana,,,FR,FRA,1
 FR_GUA,Q17012,country/GLP,FR,France,GUA,Guadeloupe,,,FR,FRA,1
 FR_HDF,Q18677767,,FR,France,HDF,Hauts-de-France,,,FR,FRA,1
+FR_HDF_02,Q3093,,FR,France,HDF,Hauts-de-France,02,Aisne,FR,FRA,2
+FR_HDF_59,Q12661,,FR,France,HDF,Hauts-de-France,59,Nord,FR,FRA,2
+FR_HDF_60,Q12675,,FR,France,HDF,Hauts-de-France,60,Oise,FR,FRA,2
+FR_HDF_62,Q12689,,FR,France,HDF,Hauts-de-France,62,Pas-de-Calais,FR,FRA,2
+FR_HDF_80,Q12770,,FR,France,HDF,Hauts-de-France,80,Somme,FR,FRA,2
 FR_IDF,Q13917,nuts/FR10,FR,France,IDF,Île-de-France,,,FR,FRA,1
+FR_IDF_75,Q90,,FR,France,IDF,Île-de-France,75,Paris,FR,FRA,2
+FR_IDF_77,Q12753,,FR,France,IDF,Île-de-France,77,Seine-et-Marne,FR,FRA,2
+FR_IDF_78,Q12820,,FR,France,IDF,Île-de-France,78,Yvelines,FR,FRA,2
+FR_IDF_91,Q3368,,FR,France,IDF,Île-de-France,91,Essonne,FR,FRA,2
+FR_IDF_92,Q12543,,FR,France,IDF,Île-de-France,92,Hauts-de-Seine,FR,FRA,2
+FR_IDF_93,Q12761,,FR,France,IDF,Île-de-France,93,Seine-Saint-Denis,FR,FRA,2
+FR_IDF_94,Q12788,,FR,France,IDF,Île-de-France,94,Val-de-Marne,FR,FRA,2
+FR_IDF_95,Q12784,,FR,France,IDF,Île-de-France,95,Val-d'Oise,FR,FRA,2
 FR_LRE,Q17070,country/REU,FR,France,LRE,La Réunion,,,FR,FRA,1
 FR_MAY,Q17063,country/MYT,FR,France,MAY,Mayotte,,,FR,FRA,1
 FR_MF,,,FR,France,MF,Saint Martin,,,FR,FRA,1
 FR_MQ,,,FR,France,MQ,Martinique,,,FR,FRA,1
 FR_NAQ,Q18678082,,FR,France,NAQ,Nouvelle-Aquitaine,,,FR,FRA,1
-FR_NOR,Q402814,,FR,France,NOR,Normandy,,,FR,FRA,1
+FR_NAQ_16,Q3266,,FR,France,NAQ,Nouvelle-Aquitaine,16,Charente,FR,FRA,2
+FR_NAQ_17,Q3278,,FR,France,NAQ,Nouvelle-Aquitaine,17,Charente-Maritime,FR,FRA,2
+FR_NAQ_19,Q3326,,FR,France,NAQ,Nouvelle-Aquitaine,19,Corrèze,FR,FRA,2
+FR_NAQ_23,Q3353,,FR,France,NAQ,Nouvelle-Aquitaine,23,Creuse,FR,FRA,2
+FR_NAQ_24,Q3357,,FR,France,NAQ,Nouvelle-Aquitaine,24,Dordogne,FR,FRA,2
+FR_NAQ_33,Q12526,,FR,France,NAQ,Nouvelle-Aquitaine,33,Gironde,FR,FRA,2
+FR_NAQ_40,Q12563,,FR,France,NAQ,Nouvelle-Aquitaine,40,Landes,FR,FRA,2
+FR_NAQ_47,Q12578,,FR,France,NAQ,Nouvelle-Aquitaine,47,Lot-et-Garonne,FR,FRA,2
+FR_NAQ_64,Q12703,,FR,France,NAQ,Nouvelle-Aquitaine,64,Pyrénées-Atlantiques,FR,FRA,2
+FR_NAQ_79,Q12765,,FR,France,NAQ,Nouvelle-Aquitaine,79,Deux-Sèvres,FR,FRA,2
+FR_NAQ_86,Q12804,,FR,France,NAQ,Nouvelle-Aquitaine,86,Vienne,FR,FRA,2
+FR_NAQ_87,Q12808,,FR,France,NAQ,Nouvelle-Aquitaine,87,Haute-Vienne,FR,FRA,2
+FR_NOR,Q18677875,,FR,France,NOR,Normandy,,,FR,FRA,1
+FR_NOR_14,,,FR,France,NOR,Normandy,14,Calvados,FR,FRA,2
+FR_NOR_27,,,FR,France,NOR,Normandy,27,Eure,FR,FRA,2
+FR_NOR_50,,,FR,France,NOR,Normandy,50,Manche,FR,FRA,2
+FR_NOR_61,,,FR,France,NOR,Normandy,61,Orne,FR,FRA,2
+FR_NOR_76,,,FR,France,NOR,Normandy,76,Seine-Maritime,FR,FRA,2
 FR_OCC,Q18678265,,FR,France,OCC,Occitanie,,,FR,FRA,1
+FR_OCC_09,Q3184,,FR,France,OCC,Occitanie,09,Ariège,FR,FRA,2
+FR_OCC_11,Q3207,,FR,France,OCC,Occitanie,11,Aude,FR,FRA,2
+FR_OCC_12,Q3216,,FR,France,OCC,Occitanie,12,Aveyron,FR,FRA,2
+FR_OCC_30,Q12515,,FR,France,OCC,Occitanie,30,Gard,FR,FRA,2
+FR_OCC_31,Q12538,,FR,France,OCC,Occitanie,31,Haute-Garonne,FR,FRA,2
+FR_OCC_32,Q12517,,FR,France,OCC,Occitanie,32,Gers,FR,FRA,2
+FR_OCC_34,Q12545,,FR,France,OCC,Occitanie,34,Hérault,FR,FRA,2
+FR_OCC_46,Q12576,,FR,France,OCC,Occitanie,46,Lot,FR,FRA,2
+FR_OCC_48,Q12580,,FR,France,OCC,Occitanie,48,Lozère,FR,FRA,2
+FR_OCC_65,Q12700,,FR,France,OCC,Occitanie,65,Hautes-Pyrénées,FR,FRA,2
+FR_OCC_66,Q12709,,FR,France,OCC,Occitanie,66,Pyrénées-Orientales,FR,FRA,2
+FR_OCC_81,Q12772,,FR,France,OCC,Occitanie,81,Tarn,FR,FRA,2
+FR_OCC_82,Q12779,,FR,France,OCC,Occitanie,82,Tarn-et-Garonne,FR,FRA,2
 FR_PAC,Q15104,nuts/FR82,FR,France,PAC,Provence-Alpes-Côte d'Azur,,,FR,FRA,1
+FR_PAC_04,Q3131,,FR,France,PAC,Provence-Alpes-Côte d'Azur,04,Alpes-de-Haute-Provence,FR,FRA,2
+FR_PAC_05,Q3125,,FR,France,PAC,Provence-Alpes-Côte d'Azur,05,Hautes-Alpes,FR,FRA,2
+FR_PAC_06,Q3139,,FR,France,PAC,Provence-Alpes-Côte d'Azur,06,Alpes-Maritimes,FR,FRA,2
+FR_PAC_13,Q3240,,FR,France,PAC,Provence-Alpes-Côte d'Azur,13,Bouches-du-Rhône,FR,FRA,2
+FR_PAC_83,Q12789,,FR,France,PAC,Provence-Alpes-Côte d'Azur,83,Var,FR,FRA,2
+FR_PAC_84,Q12792,,FR,France,PAC,Provence-Alpes-Côte d'Azur,84,Vaucluse,FR,FRA,2
 FR_PDL,Q16994,nuts/FR51,FR,France,PDL,Pays de la Loire,,,FR,FRA,1
+FR_PDL_44,Q3068,,FR,France,PDL,Pays de la Loire,44,Loire-Atlantique,FR,FRA,2
+FR_PDL_49,Q12584,,FR,France,PDL,Pays de la Loire,49,Maine-et-Loire,FR,FRA,2
+FR_PDL_53,Q12620,,FR,France,PDL,Pays de la Loire,53,Mayenne,FR,FRA,2
+FR_PDL_72,Q12740,,FR,France,PDL,Pays de la Loire,72,Sarthe,FR,FRA,2
+FR_PDL_85,Q12798,,FR,France,PDL,Pays de la Loire,85,Vendée,FR,FRA,2
 GA,Q1000,country/GAB,GA,Gabon,,,,,GA,GAB,0
 GB,Q145,country/GBR,GB,United Kingdom,,,,,GB,GBR,0
 GB_ENG,Q21,,GB,United Kingdom,ENG,England,,,GB,GBR,1

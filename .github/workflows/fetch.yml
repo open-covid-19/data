@@ -1,12 +1,12 @@
 name: Run Data Pipeline
-# Run the data pipeline twice a day
+# Run the data pipeline twice a day, at 12:00 and 20:00 UTC
 
 on:
   schedule:
-    - cron: "0 8,16 * * *"
+    - cron: "0 12,20 * * *"
 
 jobs:
-  build-and-deploy:
+  main:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
