@@ -9,6 +9,7 @@ from argparse import ArgumentParser
 import pandas
 from unidecode import unidecode
 from pandas import DataFrame, read_csv
+from pandas.api.types import is_numeric_dtype
 from bs4 import BeautifulSoup, Tag
 
 from .cast import safe_int_cast
@@ -97,6 +98,23 @@ def read_html(
 
 def export_csv(data: DataFrame, path: Union[Path, str]) -> None:
     """ Exports a DataFrame to CSV using consistent options """
+    # Make a copy of the data to avoid overwriting
+    data = data.copy()
+
+    # Convert Int64 to string representation to avoid scientific notation of big numbers
+    for column in data.columns:
+        if is_numeric_dtype(data[column]):
+            values = data[column].dropna()
+            if len(values) > 0 and max(values) > 1e8:
+                try:
+                    data[column] = (
+                        data[column]
+                        .astype("Int64")
+                        .apply(lambda x: "" if pandas.isnull(x) else str(x))
+                    )
+                except:
+                    data[column] = data[column].astype(str).fillna("")
+
     # Output to a buffer first
     buffer = StringIO()
     # Since all large quantities use Int64, we can assume floats will not be represented using the

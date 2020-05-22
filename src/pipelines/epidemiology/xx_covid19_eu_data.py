@@ -27,7 +27,7 @@ class Covid19EuDataPipeline(DefaultPipeline):
                 "deaths": "deceased",
                 "tests": "tested",
                 "recovered": "recovered",
-                "hospitalized": "hospitalised",
+                "hospitalized": "hospitalized",
                 "intensive_care": "icu",
             }
         )
@@ -47,5 +47,5 @@ class Covid19EuDataPipeline(DefaultPipeline):
         return grouped_diff(
             data,
             ["country_code", "match_string", "date"],
-            skip=["tests", "recovered", "hospitalised", "icu"],
+            skip=["tests", "recovered", "hospitalized", "icu"],
         )

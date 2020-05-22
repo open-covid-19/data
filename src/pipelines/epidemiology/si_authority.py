@@ -15,7 +15,6 @@ class SloveniaPipeline(DefaultPipeline):
     ) -> DataFrame:
 
         # Rename the appropriate columns
-        #
         data = dataframes[0].rename(
             columns={
                 "Date": "date",
@@ -23,7 +22,7 @@ class SloveniaPipeline(DefaultPipeline):
                 "Tested (daily)": "new_tested",
                 "Positive (all)": "total_confirmed",
                 "Positive (daily)": "new_confirmed",
-                "All hospitalized on certain day": "active_hospitalised",
+                "All hospitalized on certain day": "current_hospitalized",
                 "All persons in intensive care on certain day": "active_intensive_care",
                 "Discharged": "recovered",
                 "Deaths (all)": "total_deceased",
@@ -33,6 +32,9 @@ class SloveniaPipeline(DefaultPipeline):
 
         # Make sure all records have the country code
         data["country_code"] = "SI"
+
+        # Make sure that the date column is a string
+        data.date = data.date.astype(str)
 
         # Compute the cumsum counts
         data = grouped_cumsum(

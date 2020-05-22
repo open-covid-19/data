@@ -13,13 +13,13 @@ class ISCIIIPipeline(DefaultPipeline):
 
         # Retrieve the CSV files from https://covid19.isciii.es
         df = (
-            read_file(sources[0], encoding="ISO-8859-1")
+            read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1")
             .rename(
                 columns={
                     "FECHA": "date",
                     "CCAA": "subregion1_code",
                     "Fallecidos": "deceased",
-                    "Hospitalizados": "hospitalised",
+                    "Hospitalizados": "hospitalized",
                     "UCI": "ICU",
                     "Recuperados": "recovered",
                 }

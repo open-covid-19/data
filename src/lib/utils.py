@@ -30,7 +30,6 @@ def agg_last_not_null(series: Series) -> Series:
 def combine_tables(tables: List[DataFrame], keys: List[str]) -> DataFrame:
     """ Combine a list of tables, keeping the right-most non-null value for every column """
     data = concat(tables)
-    keys = [col for col in keys if col in data.columns]
     grouped = data.groupby([col for col in keys if col in data.columns])
     return grouped.aggregate(agg_last_not_null).reset_index()
 

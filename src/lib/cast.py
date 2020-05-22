@@ -37,10 +37,14 @@ def safe_int_cast(value: Any, round_function: Callable[[float], int] = round) ->
 
 
 def safe_datetime_parse(
-    value: str, date_format: str, warn: bool = False
+    value: str, date_format: str = None, warn: bool = False
 ) -> Optional[datetime.datetime]:
     try:
-        return datetime.datetime.strptime(str(value), date_format)
+        return (
+            datetime.datetime.fromisoformat(str(value))
+            if not date_format
+            else datetime.datetime.strptime(str(value), date_format)
+        )
     except ValueError as exc:
         if warn:
             warnings.warn("Could not parse date {} using format {}".format(value, date_format))

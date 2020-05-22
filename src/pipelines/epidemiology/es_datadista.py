@@ -29,12 +29,12 @@ class DatadistaPipeline(DefaultPipeline):
                 "CCAA": "match_string",
                 "totalconfirmed": "confirmed",
                 "totaldeceased": "deceased",
-                "total": "hospitalised",
+                "total": "hospitalized",
             }
         ).sort_values(["match_string", "date"])
 
         # Data is cumulative, compute the diff
-        data = grouped_diff(data, ["date", "match_string"])
+        data = grouped_diff(data, ["match_string", "date"])
 
         # Compute the country-level stats by adding all subregions
         data_country = data.groupby(["date", "country_code"]).sum().reset_index()
@@ -42,5 +42,5 @@ class DatadistaPipeline(DefaultPipeline):
         data = concat([data, data_country])
 
         return data[
-            ["date", "country_code", "match_string", "confirmed", "deceased", "hospitalised",]
+            ["date", "country_code", "match_string", "confirmed", "deceased", "hospitalized",]
         ]
