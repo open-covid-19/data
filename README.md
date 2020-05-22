@@ -266,6 +266,7 @@ the requested subset.
 Please note that the following datasets are maintained only to preserve backwards compatibility, but
 shouldn't be used in any new projects:
 * [Data](https://open-covid-19.github.io/data/data.csv)
+* [Latest](https://open-covid-19.github.io/data/data_latest.csv)
 * [Minimal](https://open-covid-19.github.io/data/data_minimal.csv)
 * [Forecast](https://open-covid-19.github.io/data/data_forecast.csv)
 * [Mobility](https://open-covid-19.github.io/data/mobility.csv)
