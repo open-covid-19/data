@@ -15,7 +15,7 @@ datasets available from this project are:
 
 | Table | CSV URL | JSON URL |
 | ----- | ------- | -------- |
-| [Master](#master) | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | [master.json](https://open-covid-19.github.io/data/v2/master.json) |
+| [Master](#master) | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | N/A |
 | [Index](#index) | [index.csv](https://open-covid-19.github.io/data/v2/index.csv) | [index.json](https://open-covid-19.github.io/data/v2/index.json) |
 | [Demographics](#demographics) | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv) | [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) |
 | [Economy](#economy) | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv) | [economy.json](https://open-covid-19.github.io/data/v2/economy.json) |
@@ -236,12 +236,12 @@ following columns:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
-| **transit_stations** | `double` `[%]` |  Percentage change in visits to transit station locations | -15 |
-| **retail_and_recreation** | `double` `[%]` |  Percentage change in visits to retail and recreation locations | -15 |
-| **grocery_and_pharmacy** | `double` `[%]` |  Percentage change in visits to grocery and pharmacy locations | -15 |
-| **parks** | `double` `[%]` |  Percentage change in visits to park locations | -15 |
-| **residential** | `double` `[%]` |  Percentage change in visits to residential locations | -15 |
-| **workplaces** | `double` `[%]` |  Percentage change in visits to workplace locations | -15 |
+| **mobility_transit_stations** | `double` `[%]` |  Percentage change in visits to transit station locations | -15 |
+| **mobility_retail_and_recreation** | `double` `[%]` |  Percentage change in visits to retail and recreation locations | -15 |
+| **mobility_grocery_and_pharmacy** | `double` `[%]` |  Percentage change in visits to grocery and pharmacy locations | -15 |
+| **mobility_parks** | `double` `[%]` |  Percentage change in visits to park locations | -15 |
+| **mobility_residential** | `double` `[%]` |  Percentage change in visits to residential locations | -15 |
+| **mobility_workplaces** | `double` `[%]` |  Percentage change in visits to workplace locations | -15 |
 
 ### Notes about the data
 For countries where both country-level and subregion-level data is available, the entry which has a
@@ -266,6 +266,7 @@ the requested subset.
 Please note that the following datasets are maintained only to preserve backwards compatibility, but
 shouldn't be used in any new projects:
 * [Data](https://open-covid-19.github.io/data/data.csv)
+* [Latest](https://open-covid-19.github.io/data/data_latest.csv)
 * [Minimal](https://open-covid-19.github.io/data/data_minimal.csv)
 * [Forecast](https://open-covid-19.github.io/data/data_forecast.csv)
 * [Mobility](https://open-covid-19.github.io/data/mobility.csv)

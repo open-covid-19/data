@@ -1,6 +1,5 @@
 import re
 import sys
-import json
 import warnings
 import traceback
 import subprocess
@@ -249,8 +248,8 @@ class PipelineChain:
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
         "metadata": ROOT / "src" / "data" / "metadata.csv",
-        "wikidata": ROOT / "src" / "data" / "wikidata.csv",
         "country_codes": ROOT / "src" / "data" / "country_codes.csv",
+        "knowledge_graph": ROOT / "src" / "data" / "knowledge_graph.csv",
     }
     """ Auxiliary datasets passed to the pipelines during processing """
 
@@ -303,7 +302,11 @@ class PipelineChain:
         outputs.
         """
         # Read the cache directory from our cloud storage
-        cache = json.loads(requests.get("{}/sitemap.json".format(CACHE_URL)).text)
+        try:
+            cache = requests.get("{}/sitemap.json".format(CACHE_URL)).json()
+        except:
+            cache = {}
+            warnings.warn("Cache unavailable")
 
         # Read the auxiliary input files into memory
         aux = {name: read_file(file_name) for name, file_name in self.auxiliary_tables.items()}

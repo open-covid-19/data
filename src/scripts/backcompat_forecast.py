@@ -4,11 +4,13 @@ import os
 import sys
 import datetime
 from pathlib import Path
+from functools import partial
 
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from scipy import optimize
+from tqdm.contrib import concurrent
 
 # This script must be run from /src
 sys.path.append(os.getcwd())
@@ -77,12 +79,8 @@ def main():
     # Read data from the open COVID-19 dataset
     df = pd.read_csv(ROOT / "public" / "data_minimal.csv").set_index("Date")
 
-    # Create the output dataframe ahead, we will fill it one row at a time
-    forecast_columns = ["ForecastDate", "Date", "Key", "Estimated", "Confirmed"]
-    df_forecast = pd.DataFrame(columns=forecast_columns).set_index(["Date", "Key"])
-
     # Loop through each unique combination of country / region
-    for key in tqdm(df["Key"].unique()):
+    def map_func(df, key: str):
 
         # Filter dataset
         cols = ["Key", "Confirmed"]
@@ -92,7 +90,7 @@ def main():
         subset = subset[_get_outbreak_mask(subset)]
         # Early exit: no outbreak found
         if not len(subset):
-            continue
+            return []
         # Get a list of dates for existing data
         date_range = map(
             lambda datetime: datetime.date().isoformat(),
@@ -108,7 +106,7 @@ def main():
 
         # Early exit: If there are less than DATAPOINT_COUNT output datapoints
         if len(subset) < DATAPOINT_COUNT - PREDICT_WINDOW:
-            continue
+            return []
 
         # Perform forecast
         forecast_data = _compute_forecast(subset["Confirmed"], PREDICT_WINDOW)
@@ -117,14 +115,26 @@ def main():
         forecast_data = forecast_data.sort_index().iloc[-DATAPOINT_COUNT:]
 
         # Fill out the corresponding index in the output forecast
-        for idx in forecast_data.index:
-            df_forecast.loc[(idx, key), "ForecastDate"] = forecast_date
-            df_forecast.loc[(idx, key), "Estimated"] = forecast_data.loc[idx]
-            if idx in subset.index:
-                df_forecast.loc[(idx, key), "Confirmed"] = int(subset.loc[idx, "Confirmed"])
+        return [
+            {
+                "Key": key,
+                "Date": idx,
+                "ForecastDate": forecast_date,
+                "Estimated": forecast_data.loc[idx],
+                "Confirmed": int(subset.loc[idx, "Confirmed"]) if idx in subset.index else None,
+            }
+            for idx in forecast_data.index
+        ]
+
+    # Perform the processing in parallel
+    records = []
+    map_func = partial(map_func, df)
+    # for result in concurrent.thread_map(map_func, df.Key.unique()):
+    for result in tqdm(map(map_func, df.Key.unique()), total=len(df.Key.unique())):
+        records += result
 
     # Do data cleanup here
-    data = df_forecast.reset_index()
+    data = pd.DataFrame.from_records(records)
     forecast_columns = ["ForecastDate", "Date", "Key", "Estimated", "Confirmed"]
     data = data.sort_values(["Key", "Date"])[forecast_columns]
 

@@ -8,7 +8,7 @@ from multiprocessing import cpu_count
 from multiprocessing.pool import ThreadPool as Pool
 
 import numpy
-from tqdm import tqdm
+from tqdm.contrib import concurrent
 from pandas import DataFrame, Series, Int64Dtype, merge, read_csv, concat, isna
 
 from lib.cast import safe_int_cast
@@ -18,6 +18,11 @@ from lib.utils import ROOT
 
 
 class WeatherPipeline(DefaultPipeline):
+
+    # A bit of a circular dependency but we need the latitude and longitude to compute weather
+    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
+        return [ROOT / "output" / "geography.csv"]
+
     @staticmethod
     def haversine_distance(
         stations: DataFrame, lat: float, lon: float, radius: float = 6373.0
@@ -105,7 +110,9 @@ class WeatherPipeline(DefaultPipeline):
         data["key"] = location.key
         return data
 
-    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
+    def parse_dataframes(
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
+    ):
 
         # Get all the weather stations with data up until 2020
         stations_url = "https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-inventory.txt"
@@ -123,8 +130,7 @@ class WeatherPipeline(DefaultPipeline):
         stations = stations.reset_index()
 
         # Get all the POI from metadata and go through each key
-        metadata = aux["metadata"][["key"]]
-        metadata = metadata.merge(aux["wikidata"][["key", "latitude", "longitude"]]).dropna()
+        metadata = dataframes[0][["key", "latitude", "longitude"]].dropna()
 
         # Convert all coordinates to radians
         stations["lat"] = stations.lat.apply(math.radians)
@@ -145,9 +151,7 @@ class WeatherPipeline(DefaultPipeline):
         shuffle(map_iter)
 
         # Bottleneck is network so we can use lots of threads in parallel
-        records = list(
-            tqdm(Pool(cpu_count()).imap_unordered(map_func, map_iter), total=len(metadata),)
-        )
+        records = concurrent.thread_map(map_func, map_iter, total=len(metadata))
 
         return concat(records).sort_values(["key", "date"])
 

@@ -6,9 +6,13 @@ on:
     branches:
       - master
       - development
+  pull_request:
+    branches:
+      - master
+      - development
 
 jobs:
-  build-and-deploy:
+  main:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
