@@ -70,7 +70,10 @@ for output_file in (ROOT / "output").glob("*.csv"):
 
 # TMP: Get mobility from V1
 mobility = read_file("https://open-covid-19.github.io/data/mobility.csv")
-rename_columns = {col: camel_to_snake_case(col) for col in mobility.columns}
+rename_columns = {
+    col: ("mobility_" if col not in ("Key", "Date") else "") + camel_to_snake_case(col)
+    for col in mobility.columns
+}
 export_csv(mobility.rename(columns=rename_columns), v2_folder / "google-mobility.csv")
 
 # Merge all output files into a single master table
@@ -105,7 +108,9 @@ print("Converting V2 CSV to JSON...")
 for csv_file in (v2_folder).glob("**/*.csv"):
     data = read_file(csv_file, low_memory=False)
     json_path = str(csv_file).replace("csv", "json")
-    data.to_json(json_path, orient="values")
+    # The main master.json is too big for GitHub Pages...
+    if json_path != str(v2_folder / "master.json"):
+        data.to_json(json_path, orient="values")
 
 # Perform data transformations for backwards compatibility
 v1_folder = ROOT / "public"
@@ -148,8 +153,12 @@ weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "
 rename_columns = {col: snake_to_camel_case(col) for col in weather.columns}
 export_csv(weather.rename(columns=rename_columns), v1_folder / "weather.csv")
 
+# TMP: Get mobility from V1
+mobility = read_file("https://open-covid-19.github.io/data/mobility.csv")
+export_csv(mobility, v1_folder / "mobility.csv")
+
 # Create the v1 CSV files which only require column mapping
-v1_v2_name_map = {"response": "oxford-government-response", "mobility": "google-mobility"}
+v1_v2_name_map = {"response": "oxford-government-response"}
 for v1_name, v2_name in v1_v2_name_map.items():
     data = read_file(v2_folder / f"{v2_name}.csv")
     rename_columns = {col: snake_to_camel_case(col) for col in data.columns}
