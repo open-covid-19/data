@@ -249,8 +249,8 @@ class PipelineChain:
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
         "metadata": ROOT / "src" / "data" / "metadata.csv",
-        "wikidata": ROOT / "src" / "data" / "wikidata.csv",
         "country_codes": ROOT / "src" / "data" / "country_codes.csv",
+        "knowledge_graph": ROOT / "src" / "data" / "knowledge_graph.csv",
     }
     """ Auxiliary datasets passed to the pipelines during processing """
 

@@ -12,7 +12,6 @@ from lib.utils import pivot_table
 
 
 class WikipediaPipeline(DefaultPipeline):
-    data_urls: List[str] = ["https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/"]
     fetch_opts: List[Dict[str, Any]] = [{"ext": "html"}]
 
     def __init__(self, url: str):
@@ -37,7 +36,7 @@ class WikipediaPipeline(DefaultPipeline):
         html_content = open(sources[0]).read()
 
         # We need to set locale in order to parse dates properly
-        locale.setlocale(locale.LC_TIME, parse_opts.get("locale", "en_US"))
+        locale.setlocale(locale.LC_TIME, parse_opts.get("locale", "en_US") + ".UTF-8")
 
         # Tables keep changing order, so iterate through all until one looks good
         table_count = count_html_tables(html_content, selector="table.wikitable")
@@ -154,9 +153,17 @@ class WikipediaPipeline(DefaultPipeline):
         # Labels can be any arbitrary column name
         data = data.rename(columns={"subregion": "match_string"})
 
-        # Drop column if requested
+        # Drop columns if requested
         if "drop_column" in parse_opts:
             data = data.drop(columns=[parse_opts["drop_column"]])
+
+        # Filter out the appropriate levels
+        aggregation_level = parse_opts.get("aggregation_level", 1)
+        if aggregation_level == 1:
+            null_column = "subregion2_code"
+        elif aggregation_level == 2:
+            null_column = "subregion1_code"
+        data[null_column] = None
 
         # Remove known values that are just noise
         data["_match_string"] = data["match_string"].apply(lambda x: x.lower())
@@ -176,6 +183,7 @@ class WikipediaPipeline(DefaultPipeline):
                     "repatriated",
                     "totaltested",
                     "confirmed cases",
+                    "unassigned\ncases",
                     "airport screening",
                 ]
             )

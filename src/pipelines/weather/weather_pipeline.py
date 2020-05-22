@@ -18,6 +18,10 @@ from lib.utils import ROOT
 
 
 class WeatherPipeline(DefaultPipeline):
+
+    # A bit of a circular dependency but we need the latitude and longitude to compute weather
+    data_urls: List[str] = [ROOT / "output" / "geography.csv"]
+
     @staticmethod
     def haversine_distance(
         stations: DataFrame, lat: float, lon: float, radius: float = 6373.0
@@ -105,7 +109,9 @@ class WeatherPipeline(DefaultPipeline):
         data["key"] = location.key
         return data
 
-    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
+    def parse_dataframes(
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
+    ):
 
         # Get all the weather stations with data up until 2020
         stations_url = "https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-inventory.txt"
@@ -123,8 +129,7 @@ class WeatherPipeline(DefaultPipeline):
         stations = stations.reset_index()
 
         # Get all the POI from metadata and go through each key
-        metadata = aux["metadata"][["key"]]
-        metadata = metadata.merge(aux["wikidata"][["key", "latitude", "longitude"]]).dropna()
+        metadata = metadata.merge(dataframes[0][["key", "latitude", "longitude"]]).dropna()
 
         # Convert all coordinates to radians
         stations["lat"] = stations.lat.apply(math.radians)

@@ -41,5 +41,6 @@ class FranceCovid19Pipeline(DefaultPipeline):
 
         # Output the results
         df = grouped_cumsum(df, ["match_string", "date"])
+        df["subregion2_code"] = None
         df["country_code"] = "FR"
         return df

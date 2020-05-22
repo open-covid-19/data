@@ -1,10 +1,11 @@
 name: Run Hourly Cache
+
 on:
   schedule:
     - cron: "0 * * * *"
 
 jobs:
-  build-and-deploy:
+  main:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -32,7 +33,7 @@ jobs:
     - name: Clone previous cache data
       working-directory: cache
       run: |
-        git clone https://@github.com/open-covid-19/data --single-branch -b cache output
+        git clone https://github.com/open-covid-19/data --single-branch -b cache output
         git config --global user.name open-covid-bot
         git config --global user.email open-covid-bot@${{ github.repository }}
 
@@ -44,5 +45,5 @@ jobs:
         git add -f .
         git commit -m "Automatic cache update"
         git push \
-          "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data.git" \
+          "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data" \
           HEAD:cache
