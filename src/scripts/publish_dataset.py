@@ -78,13 +78,13 @@ export_csv(mobility.rename(columns=rename_columns), v2_folder / "google-mobility
 
 # Merge all output files into a single master table
 print("Creating master table...")
-all_data = read_file(v2_folder / "index.csv")
+master = read_file(v2_folder / "index.csv")
 for output_file in v2_folder.glob("*.csv"):
     if output_file.name not in ("index.csv", "master.csv"):
-        all_data = all_data.merge(read_file(output_file, low_memory=False), how="left")
+        master = master.merge(read_file(output_file, low_memory=False), how="left")
 
 # Drop rows without a single dated record
-export_csv(all_data.dropna(subset=["date"]), v2_folder / "master.csv")
+export_csv(master.dropna(subset=["date"]), v2_folder / "master.csv")
 
 # Create subsets with the last 30, 14 and 7 days of data
 print("Creating last N days subsets...")
@@ -117,11 +117,7 @@ v1_folder = ROOT / "public"
 print("Performing backwards compatibility transformations...")
 
 # Create the v1 data.csv file
-data = read_file(v2_folder / "index.csv")
-data = data.merge(read_file(v2_folder / "geography.csv"))
-data = data.merge(read_file(v2_folder / "demographics.csv"))
-data = data.merge(read_file(v2_folder / "epidemiology.csv"))
-data = data[data.subregion2_code.isna()]
+data = master[master.aggregation_level < 2]
 rename_columns = {
     "date": "Date",
     "key": "Key",
@@ -166,7 +162,7 @@ for v1_name, v2_name in v1_v2_name_map.items():
 
 # Create the v1 forecast.csv file
 print("Computing forecast...")
-export_csv(build_forecast(), v1_folder / "forecast.csv")
+export_csv(build_forecast(read_file(v1_folder / "data_minimal.csv")), v1_folder / "forecast.csv")
 
 # Convert all v1 CSV files to JSON using record format
 print("Converting V1 CSV to JSON...")

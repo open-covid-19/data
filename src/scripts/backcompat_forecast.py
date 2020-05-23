@@ -71,13 +71,13 @@ def _compute_record_key(record: dict):
     return country_code + key_suffix
 
 
-def main():
+def main(df):
     # Parse parameters
     PREDICT_WINDOW = 7
     DATAPOINT_COUNT = 28 + PREDICT_WINDOW
 
     # Read data from the open COVID-19 dataset
-    df = pd.read_csv(ROOT / "public" / "data_minimal.csv").set_index("Date")
+    df = df.set_index("Date")
 
     # Loop through each unique combination of country / region
     def map_func(df, key: str):
@@ -98,7 +98,7 @@ def main():
         )
 
         # Forecast date is equal to the date of the last known datapoint, unless manually supplied
-        forecast_date = subset.index[-1]
+        forecast_date = max(subset.index)
         subset = subset[subset.index <= forecast_date].sort_index()
 
         # Sometimes our data appears to have duplicate values for specific cases, work around that
