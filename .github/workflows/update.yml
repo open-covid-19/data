@@ -1,9 +1,9 @@
 name: Run Data Pipeline
-# Run the data pipeline twice a day, at 12:00 and 21:00 UTC
+# Run the data pipeline twice a day, at 12:00 and 00:00 UTC
 
 on:
   schedule:
-    - cron: "0 12,21 * * *"
+    - cron: "0 12,0 * * *"
 
 jobs:
   main:
@@ -33,7 +33,7 @@ jobs:
       working-directory: src
       run: |
         python ./run.py --verify simple
-        git add -f output
+        git add -f ../output
         git config user.name open-covid-bot
         git config user.email open-covid-bot@${{ github.repository }}
         git commit -m "Automatic data fetch"
