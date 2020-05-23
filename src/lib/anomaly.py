@@ -54,9 +54,9 @@ def detect_stale_columns(
 ) -> None:
     if "date" not in schema:
         return
-    last_dates = list(sorted(data.date.unique))[-3:]
+    last_dates = list(sorted(data.date.unique()))[-3:]
     for column in data.columns:
-        subset = data[column].dropna()
+        subset = data[['date', column]].dropna()
         if len(subset) == 0:
             # Already flagged by detect_null_columns
             continue

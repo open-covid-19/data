@@ -7,6 +7,7 @@ from pstats import Stats
 from pathlib import Path
 from argparse import ArgumentParser
 from typing import List
+from multiprocessing import cpu_count
 
 from lib.io import export_csv
 from lib.pipeline import PipelineChain
@@ -38,8 +39,10 @@ all_pipeline_chains: List[PipelineChain] = [
 argarser = ArgumentParser()
 argarser.add_argument("--only", type=str, default=None)
 argarser.add_argument("--exclude", type=str, default=None)
-argarser.add_argument("--verify", action="store_true")
+argarser.add_argument("--verify", type=str, default=None)
 argarser.add_argument("--profile", action="store_true")
+argarser.add_argument("--no-progress", action="store_true")
+argarser.add_argument("--process-count", type=int, default=cpu_count())
 args = argarser.parse_args()
 
 assert not (
@@ -66,7 +69,10 @@ for pipeline_chain_class in all_pipeline_chains:
         continue
     if args.exclude and pipeline_name in args.exclude.split(","):
         continue
-    pipeline_output = pipeline_chain.run(pipeline_name, verify=args.verify)
+    show_progress = not args.no_progress
+    pipeline_output = pipeline_chain.run(
+        pipeline_name, verify=args.verify, process_count=args.process_count, progress=show_progress
+    )
     export_csv(pipeline_output, ROOT / "output" / "{}.csv".format(pipeline_name))
 
 if args.profile:

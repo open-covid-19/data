@@ -1,7 +1,8 @@
 import os
 from pathlib import Path
-from functools import reduce
-from typing import Any, Callable, List, Dict, Tuple
+from functools import partial, reduce
+from typing import Any, Callable, List, Dict, Tuple, Optional
+from tqdm import tqdm
 from pandas import DataFrame, Series, concat, isna, isnull
 from .cast import column_convert
 
@@ -22,16 +23,30 @@ def pivot_table(data: DataFrame, pivot_name: str = "pivot") -> DataFrame:
     return DataFrame.from_records(records, columns=["date", pivot_name, "value"])
 
 
-def agg_last_not_null(series: Series) -> Series:
+def agg_last_not_null(series: Series, progress_bar: Optional[tqdm] = None) -> Series:
     """ Aggregator function used to keep the last non-null value in a list of rows """
+    if progress_bar:
+        progress_bar.update()
     return reduce(lambda x, y: y if not isnull(y) else x, series)
 
 
-def combine_tables(tables: List[DataFrame], keys: List[str]) -> DataFrame:
+def combine_tables(
+    tables: List[DataFrame], keys: List[str], progress_label: str = None
+) -> DataFrame:
     """ Combine a list of tables, keeping the right-most non-null value for every column """
     data = concat(tables)
     grouped = data.groupby([col for col in keys if col in data.columns])
-    return grouped.aggregate(agg_last_not_null).reset_index()
+    if not progress_label:
+        return grouped.aggregate(agg_last_not_null).reset_index()
+    else:
+        progress_bar = tqdm(
+            total=len(grouped) * len(data.columns), desc=f"Combine {progress_label} outputs"
+        )
+        agg_func = partial(agg_last_not_null, progress_bar=progress_bar)
+        combined = grouped.aggregate(agg_func).reset_index()
+        progress_bar.n = len(grouped) * len(data.columns)
+        progress_bar.refresh()
+        return combined
 
 
 def grouped_transform(

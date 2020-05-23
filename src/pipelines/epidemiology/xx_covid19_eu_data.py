@@ -35,8 +35,11 @@ class Covid19EuDataPipeline(DefaultPipeline):
         data["date"] = data["date"].apply(lambda x: x.date().isoformat())
 
         # Remove bogus data
+        blacklist = ("unknown", "unknown county", "nezjištěno", "outside mainland norway")
         data = data.dropna(subset=["match_string"])
-        data = data[~data["match_string"].apply(lambda x: len(x) == 0 or "unknown" in x.lower())]
+        data.match_string = data.match_string.str.lower()
+        data = data[~data["match_string"].isin(blacklist)]
+        data = data[~data["match_string"].apply(lambda x: len(x) == 0 or x.startswith("http"))]
 
         # Remove unnecessary columns
         data = data[[col for col in data.columns if not "/" in col]]

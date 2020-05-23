@@ -10,12 +10,12 @@ from multiprocessing import cpu_count
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import requests
-from multiprocess import Pool
 from pandas import DataFrame, isnull, isna, read_csv
 from tqdm import tqdm
 
 from .anomaly import detect_anomaly_all, detect_stale_columns
 from .cast import column_convert
+from .concurrent import process_map
 from .net import download
 from .io import read_file, fuzzy_text
 from .utils import ROOT, CACHE_URL, column_convert, combine_tables
@@ -153,7 +153,7 @@ class DefaultPipeline(DataPipeline):
 
         # Provided match string could be identical to `match_string` (or with simple fuzzy match)
         if match_string is not None:
-            aux_match_1 = metadata["match_regex"] == match_string
+            aux_match_1 = metadata["match_regex_fuzzy"] == match_string
             if sum(aux_match_1) == 1:
                 return metadata[aux_match_1].iloc[0]["key"]
             aux_match_2 = metadata["match_regex"] == record["match_string"]
@@ -294,7 +294,8 @@ class PipelineChain:
         self,
         pipeline_name: str,
         process_count: int = cpu_count(),
-        verify: bool = True,
+        verify: str = "simple",
+        progress: bool = True,
         **pipeline_opts,
     ) -> DataFrame:
         """
@@ -312,6 +313,7 @@ class PipelineChain:
         aux = {name: read_file(file_name) for name, file_name in self.auxiliary_tables.items()}
 
         # Precompute some useful transformations in the auxiliary input files
+        aux["metadata"]["match_regex_fuzzy"] = aux["metadata"].match_regex.apply(fuzzy_text)
         for category in ("country", "subregion1", "subregion2"):
             for suffix in ("code", "name"):
                 column = "{}_{}".format(category, suffix)
@@ -321,58 +323,78 @@ class PipelineChain:
 
         # Get all the pipeline outputs
         # This operation is parallelized but output order is preserved
-        func_iter = [
+        map_iter = [
             # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
             # we allow for local modification (which might be wanted for optimization purposes)
             (
                 pipeline,
                 cache,
                 {name: df.copy() for name, df in aux.items()},
-                {**opts, **pipeline_opts},
+                # TODO: Combine nested attributes of dict instead of plain override
+                {"parse_opts": {"progress": progress}, **opts, **pipeline_opts},
             )
             for pipeline, opts in self.pipelines
         ]
 
         # If the process count is less than one, run in series (useful to evaluate performance)
-        if process_count <= 1 or len(func_iter) <= 1:
-            func_map = map(PipelineChain._run_wrapper, func_iter)
+        progress_label = f"Run {pipeline_name} pipeline"
+        if process_count <= 1 or len(map_iter) <= 1:
+            map_func = tqdm(
+                map(PipelineChain._run_wrapper, map_iter),
+                total=len(map_iter),
+                desc=progress_label,
+                disable=not progress,
+            )
         else:
-            func_map = Pool(process_count).imap(PipelineChain._run_wrapper, func_iter)
-
-        # Show progress as the results arrive
-        pipeline_results = tqdm(
-            func_map, total=len(func_iter), desc=f"Run {pipeline_name} pipeline"
-        )
+            map_func = process_map(
+                PipelineChain._run_wrapper, map_iter, desc=progress_label, disable=not progress,
+            )
 
         # Combine all pipeline outputs into a single DataFrame
-        pipeline_outputs = [result for result in pipeline_results if result is not None]
+        pipeline_outputs = [result for result in map_func if result is not None]
         if not pipeline_outputs:
             warnings.warn("Empty result for pipeline chain {}".format(pipeline_name))
             data = DataFrame(columns=self.schema.keys())
         else:
-            data = combine_tables(pipeline_outputs, ["date", "key"])
+            progress_label = pipeline_name if progress else None
+            data = combine_tables(pipeline_outputs, ["date", "key"], progress_label=progress_label)
 
         # Return data using the pipeline's output parameters
         data = self.output_table(data)
 
         # Skip anomaly detection unless requested
-        if verify:
+        if verify == "simple":
 
             # Validate that the table looks good
             detect_anomaly_all(self.schema, data, pipeline_name)
 
-            # Perform anomaly detection for each known key
-            func_iter = data.key.unique()
-            func_map = lambda key: detect_stale_columns(
+        if verify == "full":
+
+            # Perform stale column detection for each known key
+            map_iter = data.key.unique()
+            map_func = lambda key: detect_stale_columns(
                 self.schema, data[data.key == key], (pipeline_name, key)
             )
-            if process_count <= 1 or len(func_iter) <= 1:
-                func_map = map(func_map, func_iter)
+            progress_label = f"Verify {pipeline_name} pipeline"
+            if process_count <= 1 or len(map_iter) <= 1:
+                map_func = tqdm(
+                    map(map_func, map_iter),
+                    total=len(map_iter),
+                    desc=progress_label,
+                    disable=not progress,
+                )
             else:
-                func_map = Pool(process_count).imap(func_map, func_iter)
-            for result in tqdm(
-                func_map, total=len(func_iter), desc=f"Verify {pipeline_name} pipeline"
-            ):
-                pass
+                map_func = process_map(
+                    map_func, map_iter, desc=progress_label, disable=not progress,
+                )
+
+            # Show progress as the results arrive if requested
+            if progress:
+                map_func = tqdm(
+                    map_func, total=len(map_iter), desc=f"Verify {pipeline_name} pipeline"
+                )
+
+            # Consume the results
+            _ = list(map_func)
 
         return data

@@ -31,6 +31,8 @@ class OpenZHPipeline(DefaultPipeline):
         )
 
         # TODO: Match FL subdivision (not a canton?)
+        data = data[data.subregion1_code != "FL"]
+        
         data = grouped_diff(data, ["subregion1_code", "date"])
         data["country_code"] = "CH"
         return data

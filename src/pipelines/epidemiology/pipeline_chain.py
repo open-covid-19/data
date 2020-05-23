@@ -27,6 +27,7 @@ from .us_nyt_covid import NytCovidL2Pipeline, NytCovidL3Pipeline
 from .xx_covid19_eu_data import Covid19EuDataPipeline
 from .xx_dxy import DXYPipeline
 from .xx_ecdc import ECDCPipeline
+from .xx_open_covid_19 import OpenCovid19Pipeline
 from .xx_owid import OurWorldInDataPipeline
 from .xx_wikipedia import WikipediaPipeline
 
@@ -50,6 +51,9 @@ class EpidemiologyPipelineChain(PipelineChain):
     }
 
     pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
+        # Start with yesterday's data to make sure that we carry over datapoints in case the data
+        # source has gone offline or is temporarily unavailable
+        # (OpenCovid19Pipeline(), {}),
         # Data sources for all countries level 1
         (OurWorldInDataPipeline(), {}),
         (ECDCPipeline(), {}),
