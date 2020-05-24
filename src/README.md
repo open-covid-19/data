@@ -8,7 +8,8 @@ with the following modules:
 * [test](test): unit testing of core functions
 
 ## Running
-To update the data for all the pipeline chains, execute the `update.py` script:
+Data is automatically updated by the CI server on a schedule. To manually update the data for all
+the pipeline chains, execute the `update.py` script:
 ```sh
 python update.py
 ```
@@ -18,21 +19,13 @@ To update a specific pipeline chain, use the option `--only <comma_separated_nam
 python update.py --only index,demographics,geography
 ```
 
-The update command will use the `output` and `snapshot` folders at the root of the project path.
-The raw data sources downloaded to produce outputs are placed under the `snapshot` folder, and the
-processed data is placed in the `output` folder.
+The update command will use the `output/tables` and `output/snapshot` folders at the root of the
+project path. The raw data sources downloaded to produce outputs are placed under the `snapshot`
+folder, and the processed data is placed in the `tables` folder.
 
-Files in the `output` folder are not meant to be used as-is. They are intended to be used for the
-purpose of auditing changes in the dataset, being tracket by `git`. The files in the `output` folder
-are made available for general use via the `publish.py` script which uploads the files to a file
-server and creates the different versions of the datasets (like date subsets, the master table, JSON
-formatted files, etc.). To run the `publish.py` script, simply execute it:
-```sh
-python publish.py
-```
-
-Both the `update.py` and `publish.py` scripts are automatically run. The first on a schedule, and
-the second every time there are any changes made to the master branch of this repo.
+Files in the `tables` folder are not meant to be used as-is. They are intended to be used for the
+purpose of auditing changes in the dataset, being tracked by `git`. The files in the `tables` folder
+are made available for general use after a [publishing step](#publish).
 
 ## Testing
 To execute the unit tests, run the following command from this directory:
@@ -85,3 +78,18 @@ schema will be filtered out in the final output.
 ### Overview
 The following diagram summarizes the architecture:
 ![](data/architecture.png)
+
+## Publish
+Data tables are made available for use via the `publish.py` script which uploads the files to a file
+server and creates the different versions of the datasets (like date subsets, the master table, JSON
+formatted files, etc.). Data is published automatically by the CI server with every change to the
+master branch; to run the publish step locally, simply execute this script from the `src` directory:
+```sh
+python publish.py
+```
+
+## Caching
+Some data sources are unreliable or only provide daily data (instead of historical). To improve the
+resiliency of the data pipeline, you may also use a cache layer which creates hourly snapshots of
+data sources, which can then be aggregated into historical data. See the [cache](./cache) folder for
+more details.

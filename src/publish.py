@@ -62,7 +62,7 @@ v2_folder.mkdir(exist_ok=True, parents=True)
 
 # Copy all output files to the V2 folder
 print("Copying files to output folder...")
-for output_file in (ROOT / "output").glob("*.csv"):
+for output_file in (ROOT / "output" / "tables").glob("*.csv"):
     shutil.copy(output_file, v2_folder / output_file.name)
 
 # TMP: Get mobility from V1

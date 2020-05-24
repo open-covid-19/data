@@ -8,17 +8,16 @@ from functools import partial
 from argparse import ArgumentParser
 from typing import Any, Callable, Dict, List
 
-# Declare the ROOT as the path of this file
-ROOT = Path(__file__).parent
+from lib.utils import ROOT
 
 
 def parse_command(cmd: str) -> List[str]:
     if cmd == "curl":
-        return ["python", str(ROOT / "scripts" / "curl_fetch.py")]
+        return ["python", str(ROOT / "src" / "cache" / "commands" / "curl_fetch.py")]
     if cmd == "static_download":
-        return ["python", str(ROOT / "scripts" / "static_fetch.py")]
+        return ["python", str(ROOT / "src" / "cache" / "commands" / "static_fetch.py")]
     if cmd == "dynamic_download":
-        return ["node", str(ROOT / "scripts" / "dynamic_fetch.js")]
+        return ["node", str(ROOT / "src" / "cache" / "commands" / "dynamic_fetch.js")]
     raise ValueError(f"Unknown command {cmd}")
 
 
@@ -70,13 +69,13 @@ def error_handler(error_message: str):
 # Create the output folder for the nearest hour in UTC time
 now = datetime.utcnow()
 output_name = now.strftime("%Y-%m-%d-%H")
-output_path = ROOT / "output"
+output_path = ROOT / "output" / "cache"
 snapshot_path = output_path / output_name
-snapshot_path.mkdir(parents=True)
+snapshot_path.mkdir(parents=True, exist_ok=True)
 
 # Iterate over each source and process it
 map_func = partial(process_source, snapshot_path, error_handler)
-for source in json.loads(open("cached_sources.json", "r").read()):
+for source in json.loads(open(ROOT / "src" / "cache" / "config.json", "r").read()):
     map_func(source)
 
 # Build a "sitemap" of the cache output folder

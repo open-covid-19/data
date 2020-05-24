@@ -51,8 +51,8 @@ assert not (
 
 
 # Ensure that there is an output folder to put the data in
-(ROOT / "output").mkdir(exist_ok=True)
-(ROOT / "snapshot").mkdir(exist_ok=True)
+(ROOT / "output" / "tables").mkdir(parents=True, exist_ok=True)
+(ROOT / "output" / "snapshot").mkdir(parents=True, exist_ok=True)
 
 if args.profile:
     profiler = cProfile.Profile()
@@ -73,7 +73,7 @@ for pipeline_chain_class in all_pipeline_chains:
     pipeline_output = pipeline_chain.run(
         pipeline_name, verify=args.verify, process_count=args.process_count, progress=show_progress
     )
-    export_csv(pipeline_output, ROOT / "output" / "{}.csv".format(pipeline_name))
+    export_csv(pipeline_output, ROOT / "output" / "tables" / "{}.csv".format(pipeline_name))
 
 if args.profile:
     stats = Stats(profiler)
