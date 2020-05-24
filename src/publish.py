@@ -7,12 +7,9 @@ import shutil
 import datetime
 from pandas import DataFrame
 
-# This script must be run from /src
-sys.path.append(os.getcwd())
+from lib.forecast import main as build_forecast
 from lib.io import read_file, export_csv
 from lib.utils import ROOT
-
-from backcompat_forecast import main as build_forecast
 
 
 def snake_to_camel_case(txt: str) -> str:

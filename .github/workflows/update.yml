@@ -1,9 +1,9 @@
 name: Run Data Pipeline
-# Run the data pipeline twice a day, at 12:00 and 00:00 UTC
+# Run the data pipeline twice a day, at 12:00 and 20:00 UTC
 
 on:
   schedule:
-    - cron: "0 12,0 * * *"
+    - cron: "0 12,20 * * *"
 
 jobs:
   main:
@@ -29,17 +29,15 @@ jobs:
         sudo locale-gen es_ES.UTF-8
         locale -a
 
-    - name: Fetch current data
+    - name: Update datasets
       working-directory: src
       run: |
-        python ./run.py --verify simple
-        git add -f ../output
-        git config user.name open-covid-bot
-        git config user.email open-covid-bot@${{ github.repository }}
-        git commit -m "Automatic data fetch"
+        python ./update.py --verify simple
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
+        title: Automatic data update
+        body: Data updated by GitHub Bot
         branch-name: data-update
         branch-suffix: timestamp

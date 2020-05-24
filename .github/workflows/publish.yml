@@ -31,7 +31,7 @@ jobs:
     - name: Update public data
       working-directory: src
       run: |
-        python ./scripts/publish_dataset.py
+        python ./publish.py
 
     - name: Deploy data to server
       uses: peaceiris/actions-gh-pages@v3

@@ -12,8 +12,6 @@ from tqdm import tqdm
 from scipy import optimize
 from tqdm.contrib import concurrent
 
-# This script must be run from /src
-sys.path.append(os.getcwd())
 from lib.io import read_file
 from lib.utils import ROOT
 
