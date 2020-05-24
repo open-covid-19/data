@@ -21,7 +21,7 @@ class WeatherPipeline(DefaultPipeline):
 
     # A bit of a circular dependency but we need the latitude and longitude to compute weather
     def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
-        return [ROOT / "output" / "geography.csv"]
+        return [ROOT / "output" / "tables" / "geography.csv"]
 
     @staticmethod
     def haversine_distance(
@@ -47,9 +47,7 @@ class WeatherPipeline(DefaultPipeline):
 
         # Return the closest station and its distance
         idxmin = distances.idxmin()
-        nearest = stations.iloc[idxmin].copy()
-        nearest["noaa_distance"] = distances.iloc[idxmin]
-        return nearest
+        return distances.loc[idxmin], stations.loc[idxmin]
 
     @staticmethod
     def fix_temp(value: int):
@@ -60,7 +58,7 @@ class WeatherPipeline(DefaultPipeline):
     def station_records(station_cache: Dict[str, DataFrame], stations: DataFrame, location: Series):
 
         # Get the nearest station from our list of stations given lat and lon
-        nearest = WeatherPipeline.nearest_station(stations, location.lat, location.lon)
+        distance, nearest = WeatherPipeline.nearest_station(stations, location.lat, location.lon)
 
         # Query the cache and pull data only if not already cached
         if nearest.id not in station_cache:
@@ -91,24 +89,27 @@ class WeatherPipeline(DefaultPipeline):
 
             # Get only data for 2020 and add location values
             data = data[data.date > "2019-12-31"]
-            data["noaa_distance"] = "%.03f" % nearest.noaa_distance
 
             # Save into the cache
-            output_columns = [
-                "date",
-                "noaa_station",
-                "noaa_distance",
-                "minimum_temperature",
-                "maximum_temperature",
-                "rainfall",
-                "snowfall",
-            ]
-            station_cache[nearest.id] = data[[col for col in output_columns if col in data.columns]]
+            station_cache[nearest.id] = data
+
+        # Get station records from the cache
+        data = station_cache[nearest.id].copy()
 
         # Return all the available data from the records
-        data = station_cache[nearest.id].copy()
+        output_columns = [
+            "date",
+            "key",
+            "noaa_station",
+            "noaa_distance",
+            "minimum_temperature",
+            "maximum_temperature",
+            "rainfall",
+            "snowfall",
+        ]
         data["key"] = location.key
-        return data
+        data["noaa_distance"] = "%.03f" % distance
+        return data[[col for col in output_columns if col in data.columns]]
 
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
@@ -141,7 +142,7 @@ class WeatherPipeline(DefaultPipeline):
         # Use a cache to avoid having to query the same station multiple times
         station_cache: Dict[str, DataFrame] = {}
 
-        # Make sure the stations and the cache is sent to each function call
+        # Make sure the stations and the cache are sent to each function call
         map_func = partial(WeatherPipeline.station_records, station_cache, stations)
 
         # We don't care about the index while iterating over each metadata item
@@ -153,7 +154,7 @@ class WeatherPipeline(DefaultPipeline):
         # Bottleneck is network so we can use lots of threads in parallel
         records = concurrent.thread_map(map_func, map_iter, total=len(metadata))
 
-        return concat(records).sort_values(["key", "date"])
+        return concat(records)
 
 
 class WeatherPipelineChain(PipelineChain):

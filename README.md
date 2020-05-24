@@ -59,11 +59,6 @@ table to get access to the ISO 3166 / NUTS / FIPS code, although administrative 
 not consistent among all reporting regions. For example, for the intra-country reporting, some EU
 countries use NUTS2, others NUTS3 and many ISO 3166-2 codes.
 
-NOTE: If you load data using `pandas`, make sure that you disable automatic parsing of NaN-like
-strings. Otherwise, the records for Namibia, which has country code `NA`, will be interpreted as a
-`NaN` value instead of the literal string `"NA"`. See the [python](#python) example below for how to
-set this option when reading CSV files.
-
 You can find several examples in the [examples subfolder](examples) with code showcasing how to load
 and analyze the data for several programming environments. If you want the short version, here are a
 few snippets to get started.

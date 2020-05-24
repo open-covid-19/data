@@ -18,9 +18,10 @@ jobs:
         python-version: '3.x'
 
     - name: Install Python dependencies
+      working-directory: src
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
     - name: Install locales
       run: |
@@ -32,12 +33,14 @@ jobs:
     - name: Update datasets
       working-directory: src
       run: |
+        echo ::set-env name=TIMESTAMP::"$(date +'%m-%d-%Y %H')"
         python ./update.py --verify simple
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
         title: Automatic data update
-        body: Data updated by GitHub Bot
+        body: Data updated by GitHub Bot (${{ env.TIMESTAMP }})
+        commit-message: Data updated by GitHub Bot (${{ env.TIMESTAMP }})
         branch-name: data-update
         branch-suffix: timestamp

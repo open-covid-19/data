@@ -8,7 +8,7 @@ from lib.utils import ROOT
 
 class OpenCovid19Pipeline(DefaultPipeline):
     def fetch(self, cache: Dict[str, str], **fetch_opts):
-        return [ROOT / "output" / "epidemiology.csv"]
+        return [ROOT / "output" / "tables" / "epidemiology.csv"]
 
     def parse_dataframes(
         self, dataframes: List[DataFrame], metadata: Dict[str, DataFrame], **parse_opts
