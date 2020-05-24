@@ -20,7 +20,7 @@ def download(url: Union[Path, str], ext: str = None, offline: bool = False) -> s
     if ext is None:
         ext = url.split(".")[-1]
     file_path = (
-        ROOT / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
+        ROOT / "output" / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
     )
 
     # Download the file if online

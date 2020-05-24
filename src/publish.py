@@ -56,12 +56,22 @@ def subset_last_days(data: DataFrame, days: int) -> DataFrame:
         return data[data.date > first_date.isoformat()]
 
 
+# Wipe the public folder first
+public_folder = ROOT / "output" / "public"
+for item in public_folder.glob("*"):
+    if item.name.startswith("."):
+        continue
+    if item.is_file():
+        item.unlink()
+    else:
+        shutil.rmtree(item)
+
 # Create the folder which will be published
-v2_folder = ROOT / "public" / "v2"
+v2_folder = public_folder / "v2"
 v2_folder.mkdir(exist_ok=True, parents=True)
 
 # Copy all output files to the V2 folder
-print("Copying files to output folder...")
+print("Copying files to public folder...")
 for output_file in (ROOT / "output" / "tables").glob("*.csv"):
     shutil.copy(output_file, v2_folder / output_file.name)
 
@@ -110,7 +120,7 @@ for csv_file in (v2_folder).glob("**/*.csv"):
         data.to_json(json_path, orient="values")
 
 # Perform data transformations for backwards compatibility
-v1_folder = ROOT / "public"
+v1_folder = public_folder  # Same as root
 print("Performing backwards compatibility transformations...")
 
 # Create the v1 data.csv file
