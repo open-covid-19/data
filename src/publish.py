@@ -159,7 +159,9 @@ for v1_name, v2_name in v1_v2_name_map.items():
 
 # Create the v1 forecast.csv file
 print("Computing forecast...")
-export_csv(build_forecast(read_file(v1_folder / "data_minimal.csv")), v1_folder / "forecast.csv")
+export_csv(
+    build_forecast(read_file(v1_folder / "data_minimal.csv")), v1_folder / "data_forecast.csv"
+)
 
 # Convert all v1 CSV files to JSON using record format
 print("Converting V1 CSV to JSON...")
