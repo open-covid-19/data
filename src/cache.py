@@ -14,10 +14,15 @@ from lib.utils import ROOT
 def parse_command(cmd: str) -> List[str]:
     if cmd == "curl":
         return ["python", str(ROOT / "src" / "cache" / "commands" / "curl_fetch.py")]
-    if cmd == "static_download":
+    if cmd == "static_fetch":
         return ["python", str(ROOT / "src" / "cache" / "commands" / "static_fetch.py")]
-    if cmd == "dynamic_download":
+    if cmd == "dynamic_fetch":
         return ["node", str(ROOT / "src" / "cache" / "commands" / "dynamic_fetch.js")]
+    if cmd.startswith("dynamic_custom/"):
+        script_name = cmd.split("/")[-1]
+        script_extension = script_name.split(".")[-1]
+        assert script_extension == "js", "Dynamic script must be a NodeJS script"
+        return ["node", str(ROOT / "src" / "cache" / "commands" / "dynamic_custom" / script_name)]
     raise ValueError(f"Unknown command {cmd}")
 
 
@@ -37,19 +42,24 @@ def process_source(cwd: Path, error_handler: Callable[[str], None], data_source:
     process = subprocess.Popen(cmd_tokens, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     # Wait for process to finish and get err streams
-    stdout, stderr = process.communicate()
+    try:
+        stdout, stderr = process.communicate(timeout=30)
 
-    # Write error to our stderr output
-    if stderr:
-        error_handler(stderr.decode("UTF-8"))
+        # Write error to our stderr output
+        if stderr:
+            error_handler(stderr.decode("UTF-8"))
 
-    # If there's any output, pipe it through
-    if stdout:
-        print(stdout.decode("UTF-8"))
+        # If there's any output, pipe it through
+        if stdout:
+            print(stdout.decode("UTF-8"))
 
-    # Verify that the return code is zero
-    if process.returncode != 0:
-        error_handler(f"Exit code: {process.returncode}")
+        # Verify that the return code is zero
+        if process.returncode != 0:
+            error_handler(f"Exit code: {process.returncode}")
+
+    except Exception as exc:
+        # Most likely a timeout, but catching all potential errors so we can proceed
+        error_handler(getattr(exc, "message", str(exc)))
 
 
 # Parse arguments

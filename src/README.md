@@ -1,11 +1,12 @@
 # src
 This folder contains all the code necessary to update the data tables. It is a single Python package
 with the following modules:
-* [data](data): auxiliary and help data files used during processing of input
-* [lib](lib): core functions and utilities used across the package
-* [pipelines](pipelines): contains all the individual pipelines that produce the data tables
-* [scripts](scripts): collection of miscellaneous scripts, used only for manual processing
-* [test](test): unit testing of core functions
+* [cache](./cache): used to help aggregating data sources which do not provide historical data
+* [data](./data): auxiliary and help data files used during processing of input
+* [lib](./lib): core functions and utilities used across the package
+* [pipelines](./pipelines): contains all the individual pipelines that produce the data tables
+* [scripts](./scripts): collection of miscellaneous scripts, used only for manual processing
+* [test](./test): unit testing of core functions
 
 ## Running
 Data is automatically updated by the CI server on a schedule. To manually update the data for all
