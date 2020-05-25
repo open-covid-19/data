@@ -26,8 +26,8 @@ jobs:
 
     - name: Clone previous data
       run: |
-        git clone https://github.com/open-covid-19/data --single-branch -b gh-pages public
-        rm -rf public/.git
+        git clone https://github.com/open-covid-19/data --single-branch -b gh-pages ./output/public
+        rm -rf ./output/public/.git
 
     - name: Update public data
       working-directory: src
@@ -38,4 +38,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        publish_dir: ./output/public
