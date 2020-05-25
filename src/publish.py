@@ -75,14 +75,6 @@ print("Copying files to public folder...")
 for output_file in (ROOT / "output" / "tables").glob("*.csv"):
     shutil.copy(output_file, v2_folder / output_file.name)
 
-# TMP: Get mobility from V1
-mobility = read_file("https://open-covid-19.github.io/data/mobility.csv")
-rename_columns = {
-    col: ("mobility_" if col not in ("Key", "Date") else "") + camel_to_snake_case(col)
-    for col in mobility.columns
-}
-export_csv(mobility.rename(columns=rename_columns), v2_folder / "google-mobility.csv")
-
 # Merge all output files into a single master table
 print("Creating master table...")
 master = read_file(v2_folder / "index.csv")
