@@ -19,6 +19,7 @@ from pipelines.economy.economy_pipeline import EconomyPipelineChain
 from pipelines.epidemiology.pipeline_chain import EpidemiologyPipelineChain
 from pipelines.geography.geography_pipeline import GeographyPipelineChain
 from pipelines.index.index_pipeline import IndexPipelineChain
+from pipelines.mobility.mobility_pipeline import MobilityPipelineChain
 from pipelines.oxford_government_response.oxford_government_response_pipeline import (
     OxfordGovernmentResponsePipelineChain,
 )
@@ -26,6 +27,7 @@ from pipelines.weather.weather_pipeline import WeatherPipelineChain
 
 # Step 2: After adding the import statement above, add your pipeline chain to this list
 all_pipeline_chains: List[PipelineChain] = [
+    MobilityPipelineChain,
     DemographicsPipelineChain,
     EconomyPipelineChain,
     EpidemiologyPipelineChain,

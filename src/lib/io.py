@@ -16,7 +16,16 @@ from .cast import safe_int_cast
 
 
 def fuzzy_text(text: str):
-    return re.sub(r"[^a-z]", "", unidecode(str(text)).lower())
+    # TODO: handle bad inputs (like empty text)
+    text = unidecode(str(text)).lower()
+    for token in ("y", "and", "of"):
+        text = re.sub(f"\s{token}\s", " ", text)
+    text = re.sub(r"[^a-z]", "", text)
+    text = re.sub(r"^region", "", text)
+    text = re.sub(r"region$", "", text)
+    text = re.sub(r"^borough", "", text)
+    text = re.sub(r"borough$", "", text)
+    return text
 
 
 def read_file(path: Union[Path, str], **read_opts):

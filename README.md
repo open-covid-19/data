@@ -82,7 +82,7 @@ data = pandas.read_csv("https://open-covid-19.github.io/data/v2/master.csv")
 
 ### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
-this code snippet loads all epidemiology data into the `data` variable:
+this code snippet loads the master table into the `data` variable:
 ```javascript
 $.getJSON("https://open-covid-19.github.io/data/v2/master.json", data => { ... }
 ```
@@ -91,8 +91,8 @@ $.getJSON("https://open-covid-19.github.io/data/v2/master.json", data => { ... }
 You can also use Powershell to get the latest data for a country directly from
 the command line, for example to query the latest data for Australia:
 ```powershell
-Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/master.csv' | ConvertFrom-Csv | `
-    where Key -eq 'AU' | select country_name,total_confirmed,total_deceased,total_recovered
+Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/latest/master.csv' | ConvertFrom-Csv | `
+    where Key -eq 'AU' | select country_name,date,total_confirmed,total_deceased,total_recovered
 ```
 
 ## Understand the data
@@ -105,7 +105,7 @@ reported.
 
 ### Master
 Flat table with records from all other tables joined by `key` and `date`. See below for information
-about all the tables and columns.
+about all the different tables and columns.
 
 ### Index
 Non-temporal data related to countries and regions. It includes keys, codes and names for each

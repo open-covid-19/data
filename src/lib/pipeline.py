@@ -9,8 +9,9 @@ from functools import partial
 from multiprocessing import cpu_count
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
+import numpy
 import requests
-from pandas import DataFrame, isnull, isna, read_csv
+from pandas import DataFrame, isnull, isna, read_csv, NA
 from tqdm import tqdm
 
 from .anomaly import detect_anomaly_all, detect_stale_columns
@@ -72,8 +73,42 @@ class DataPipeline:
         # Make yet another copy of the auxiliary table to avoid affecting future steps in `parse`
         data = self.parse(data, {name: df.copy() for name, df in aux.items()}, **(parse_opts or {}))
 
-        # Merging is done record by record
-        data["key"] = data.apply(lambda x: self.merge(x, aux), axis=1)
+        # Merge expects for null values to be NaN (otherwise grouping does not work as expected)
+        data.replace([None], numpy.nan, inplace=True)
+
+        # Merging is done record by record, but can be sped up if we build a map first aggregating
+        # by the non-temporal fields and only matching the aggregated records with keys
+        key_merge_columns = [
+            col for col in data if col in aux["metadata"].columns and len(data[col].unique()) > 1
+        ]
+        if not key_merge_columns or (merge_opts and merge_opts.get("serial")):
+            data["key"] = data.apply(lambda x: self.merge(x, aux), axis=1)
+
+        else:
+            # "_nan_magic_number" replacement necessary to work around
+            # https://github.com/pandas-dev/pandas/issues/3729
+            # This issue will be fixed in Pandas 1.1
+            _nan_magic_number = -123456789
+            grouped_data = (
+                data.fillna(_nan_magic_number)
+                .groupby(key_merge_columns)
+                .first()
+                .reset_index()
+                .replace([_nan_magic_number], numpy.nan)
+            )
+
+            # Build a _vec column used to merge the key back from the groups into data
+            make_key_vec = lambda x: "|".join([str(x[col]) for col in key_merge_columns])
+            grouped_data["_vec"] = grouped_data.apply(make_key_vec, axis=1)
+            data["_vec"] = data.apply(make_key_vec, axis=1)
+
+            # Iterate only over the grouped data to merge with the metadata key
+            grouped_data["key"] = grouped_data.apply(lambda x: self.merge(x, aux), axis=1)
+
+            # Merge the grouped data which has key back with the original data
+            if "key" in data.columns:
+                data = data.drop(columns=["key"])
+            data = data.merge(grouped_data[["key", "_vec"]], on="_vec").drop(columns=["_vec"])
 
         # Drop records which have no key merged
         # TODO: log records with missing key somewhere on disk
@@ -105,7 +140,7 @@ class DefaultPipeline(DataPipeline):
     fetch_opts: List[Dict[str, Any]] = []
     """ Fetch options; see [lib.net.download] for more details """
 
-    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
+    def fetch(self, cache: Dict[str, List[str]], **fetch_opts) -> List[str]:
         num_urls = len(self.data_urls)
         fetch_iter = zip(self.data_urls, self.fetch_opts or [{}] * num_urls)
         return [download(url, **{**opts, **fetch_opts}) for url, opts in fetch_iter]
@@ -153,23 +188,31 @@ class DefaultPipeline(DataPipeline):
 
         # Provided match string could be identical to `match_string` (or with simple fuzzy match)
         if match_string is not None:
-            aux_match_1 = metadata["match_regex_fuzzy"] == match_string
+            aux_match_1 = metadata["match_string_fuzzy"] == match_string
             if sum(aux_match_1) == 1:
                 return metadata[aux_match_1].iloc[0]["key"]
-            aux_match_2 = metadata["match_regex"] == record["match_string"]
+            aux_match_2 = metadata["match_string"] == record["match_string"]
             if sum(aux_match_2) == 1:
                 return metadata[aux_match_2].iloc[0]["key"]
 
         # Last resort is to match the `match_string` column with a regex from aux
         if match_string is not None:
-            aux_mask = ~metadata["match_regex"].isna()
-            aux_regex = metadata["match_regex"][aux_mask].apply(
+            aux_mask = ~metadata["match_string"].isna()
+            aux_regex = metadata["match_string"][aux_mask].apply(
                 lambda x: re.compile(x, re.IGNORECASE)
             )
-            aux_match = aux_regex.apply(lambda x: True if x.match(match_string) else False)
-            if sum(aux_match) == 1:
-                metadata = metadata[aux_mask]
-                return metadata[aux_match].iloc[0]["key"]
+            for search_string in (match_string, record["match_string"]):
+                aux_match = aux_regex.apply(lambda x: True if x.match(search_string) else False)
+                if sum(aux_match) == 1:
+                    metadata = metadata[aux_mask]
+                    return metadata[aux_match].iloc[0]["key"]
+
+            # Uncomment when debugging mismatches
+            # print(aux_regex)
+            # print(match_string)
+            # print(record)
+            # print(metadata)
+            # raise ValueError()
 
         warnings.warn("No key match found for:\n{}".format(record))
         return None
@@ -313,7 +356,7 @@ class PipelineChain:
         aux = {name: read_file(file_name) for name, file_name in self.auxiliary_tables.items()}
 
         # Precompute some useful transformations in the auxiliary input files
-        aux["metadata"]["match_regex_fuzzy"] = aux["metadata"].match_regex.apply(fuzzy_text)
+        aux["metadata"]["match_string_fuzzy"] = aux["metadata"].match_string.apply(fuzzy_text)
         for category in ("country", "subregion1", "subregion2"):
             for suffix in ("code", "name"):
                 column = "{}_{}".format(category, suffix)
