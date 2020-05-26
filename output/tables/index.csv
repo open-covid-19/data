@@ -37,13 +37,13 @@ AR_Z,Q44821,,AR,Argentina,Z,Santa Cruz,,,AR,ARG,1
 AS,Q16641,country/ASM,AS,American Samoa,,,,,AS,ASM,0
 AT,Q40,country/AUT,AT,Austria,,,,,AT,AUT,0
 AT_11,Q43210,nuts/AT11,AT,Austria,11,Burgenland,,,AT,AUT,1
-AT_12,Q42497,nuts/AT12,AT,Austria,12,Niederösterreich,,,AT,AUT,1
-AT_13,Q1741,nuts/AT13,AT,Austria,13,Wien,,,AT,AUT,1
-AT_21,Q37985,nuts/AT21,AT,Austria,21,Kärnten,,,AT,AUT,1
-AT_22,Q41358,nuts/AT22,AT,Austria,22,Steiermark,,,AT,AUT,1
-AT_31,Q41967,nuts/AT31,AT,Austria,31,Oberösterreich,,,AT,AUT,1
+AT_12,Q42497,nuts/AT12,AT,Austria,12,Lower Austria,,,AT,AUT,1
+AT_13,Q1741,nuts/AT13,AT,Austria,13,Vienna,,,AT,AUT,1
+AT_21,Q37985,nuts/AT21,AT,Austria,21,Carinthia,,,AT,AUT,1
+AT_22,Q41358,nuts/AT22,AT,Austria,22,Styria,,,AT,AUT,1
+AT_31,Q41967,nuts/AT31,AT,Austria,31,Upper Austria,,,AT,AUT,1
 AT_32,Q43325,nuts/AT32,AT,Austria,32,Salzburg,,,AT,AUT,1
-AT_33,Q42880,nuts/AT33,AT,Austria,33,Tirol,,,AT,AUT,1
+AT_33,Q42880,nuts/AT33,AT,Austria,33,Tyrol,,,AT,AUT,1
 AT_34,Q38981,nuts/AT34,AT,Austria,34,Vorarlberg,,,AT,AUT,1
 AU,Q408,country/AUS,AU,Australia,,,,,AU,AUS,0
 AU_ACT,Q3258,,AU,Australia,ACT,Australian Capital Territory,,,AU,AUS,1
@@ -162,7 +162,7 @@ CK,Q26988,country/COK,CK,Cook Islands,,,,,CK,COK,0
 CL,Q298,country/CHL,CL,Chile,,,,,CL,CHL,0
 CL_AI,Q2181,,CL,Chile,AI,Aysén,,,CL,CHL,1
 CL_AN,Q2118,,CL,Chile,AN,Antofagasta,,,CL,CHL,1
-CL_AP,Q2109,,CL,Chile,AP,Arica y Parinacota,,,CL,CHL,1
+CL_AP,Q2109,,CL,Chile,AP,Arica and Parinacota,,,CL,CHL,1
 CL_AR,Q2176,,CL,Chile,AR,Araucanía,,,CL,CHL,1
 CL_AT,Q2120,,CL,Chile,AT,Atacama,,,CL,CHL,1
 CL_BI,Q2170,,CL,Chile,BI,Biobío,,,CL,CHL,1
@@ -1009,47 +1009,47 @@ CO_52_52788,Q1574964,,CO,Colombia,52,Nariño,52788,Tangua,CO,COL,2
 CO_52_52835,Q1005555,,CO,Colombia,52,Nariño,52835,San Andrés De Tumaco,CO,COL,2
 CO_52_52838,Q2373315,,CO,Colombia,52,Nariño,52838,Túquerres,CO,COL,2
 CO_52_52885,Q1578989,,CO,Colombia,52,Nariño,52885,Yacuanquer,CO,COL,2
-CO_54,Q233058,,CO,Colombia,54,Norte De Santander,,,CO,COL,1
-CO_54_54001,Q216847,,CO,Colombia,54,Norte De Santander,54001,San José De Cúcuta,CO,COL,2
-CO_54_54003,Q2429591,,CO,Colombia,54,Norte De Santander,54003,Ábrego,CO,COL,2
-CO_54_54051,Q1574827,,CO,Colombia,54,Norte De Santander,54051,Arboledas,CO,COL,2
-CO_54_54099,Q1575422,,CO,Colombia,54,Norte De Santander,54099,Bochalema,CO,COL,2
-CO_54_54109,Q1655530,,CO,Colombia,54,Norte De Santander,54109,Bucarasica,CO,COL,2
-CO_54_54125,Q1655073,,CO,Colombia,54,Norte De Santander,54125,Cácota,CO,COL,2
-CO_54_54128,Q1575962,,CO,Colombia,54,Norte De Santander,54128,Cáchira,CO,COL,2
-CO_54_54172,Q1526150,,CO,Colombia,54,Norte De Santander,54172,Chinácota,CO,COL,2
-CO_54_54174,Q1576762,,CO,Colombia,54,Norte De Santander,54174,Chitagá,CO,COL,2
-CO_54_54206,Q1525332,,CO,Colombia,54,Norte De Santander,54206,Convención,CO,COL,2
-CO_54_54223,Q515211,,CO,Colombia,54,Norte De Santander,54223,Cucutilla,CO,COL,2
-CO_54_54239,Q510149,,CO,Colombia,54,Norte De Santander,54239,Durania,CO,COL,2
-CO_54_54245,Q1525675,,CO,Colombia,54,Norte De Santander,54245,El Carmen,CO,COL,2
-CO_54_54250,Q1577131,,CO,Colombia,54,Norte De Santander,54250,El Tarra,CO,COL,2
-CO_54_54261,Q1441107,,CO,Colombia,54,Norte De Santander,54261,El Zulia,CO,COL,2
-CO_54_54313,Q1576677,,CO,Colombia,54,Norte De Santander,54313,Gramalote,CO,COL,2
-CO_54_54344,Q1577521,,CO,Colombia,54,Norte De Santander,54344,Hacarí,CO,COL,2
-CO_54_54347,Q1655591,,CO,Colombia,54,Norte De Santander,54347,Herrán,CO,COL,2
-CO_54_54377,Q1575676,,CO,Colombia,54,Norte De Santander,54377,Labateca,CO,COL,2
-CO_54_54385,Q1576157,,CO,Colombia,54,Norte De Santander,54385,La Esperanza,CO,COL,2
-CO_54_54398,Q1971807,,CO,Colombia,54,Norte De Santander,54398,La Playa,CO,COL,2
-CO_54_54405,Q634066,,CO,Colombia,54,Norte De Santander,54405,Los Patios,CO,COL,2
-CO_54_54418,Q1656799,,CO,Colombia,54,Norte De Santander,54418,Lourdes,CO,COL,2
-CO_54_54480,Q1656003,,CO,Colombia,54,Norte De Santander,54480,Mutiscua,CO,COL,2
-CO_54_54498,Q2283773,,CO,Colombia,54,Norte De Santander,54498,Ocaña,CO,COL,2
-CO_54_54518,Q997796,,CO,Colombia,54,Norte De Santander,54518,Pamplona,CO,COL,2
-CO_54_54520,Q1655477,,CO,Colombia,54,Norte De Santander,54520,Pamplonita,CO,COL,2
-CO_54_54553,Q1575400,,CO,Colombia,54,Norte De Santander,54553,Puerto Santander,CO,COL,2
-CO_54_54599,Q1576165,,CO,Colombia,54,Norte De Santander,54599,Ragonvalia,CO,COL,2
-CO_54_54660,Q776636,,CO,Colombia,54,Norte De Santander,54660,Salazar,CO,COL,2
-CO_54_54670,Q2348501,,CO,Colombia,54,Norte De Santander,54670,San Calixto,CO,COL,2
-CO_54_54673,Q2434048,,CO,Colombia,54,Norte De Santander,54673,San Cayetano,CO,COL,2
-CO_54_54680,Q2078735,,CO,Colombia,54,Norte De Santander,54680,Santiago,CO,COL,2
-CO_54_54720,Q629630,,CO,Colombia,54,Norte De Santander,54720,Sardinata,CO,COL,2
-CO_54_54743,Q1655140,,CO,Colombia,54,Norte De Santander,54743,Silos,CO,COL,2
-CO_54_54800,Q1524830,,CO,Colombia,54,Norte De Santander,54800,Teorama,CO,COL,2
-CO_54_54810,Q2309040,,CO,Colombia,54,Norte De Santander,54810,Tibú,CO,COL,2
-CO_54_54820,Q1525656,,CO,Colombia,54,Norte De Santander,54820,Toledo,CO,COL,2
-CO_54_54871,Q1654451,,CO,Colombia,54,Norte De Santander,54871,Villa Caro,CO,COL,2
-CO_54_54874,Q923525,,CO,Colombia,54,Norte De Santander,54874,Villa Del Rosario,CO,COL,2
+CO_54,Q233058,,CO,Colombia,54,Norte de Santander,,,CO,COL,1
+CO_54_54001,Q216847,,CO,Colombia,54,Norte de Santander,54001,San José De Cúcuta,CO,COL,2
+CO_54_54003,Q2429591,,CO,Colombia,54,Norte de Santander,54003,Ábrego,CO,COL,2
+CO_54_54051,Q1574827,,CO,Colombia,54,Norte de Santander,54051,Arboledas,CO,COL,2
+CO_54_54099,Q1575422,,CO,Colombia,54,Norte de Santander,54099,Bochalema,CO,COL,2
+CO_54_54109,Q1655530,,CO,Colombia,54,Norte de Santander,54109,Bucarasica,CO,COL,2
+CO_54_54125,Q1655073,,CO,Colombia,54,Norte de Santander,54125,Cácota,CO,COL,2
+CO_54_54128,Q1575962,,CO,Colombia,54,Norte de Santander,54128,Cáchira,CO,COL,2
+CO_54_54172,Q1526150,,CO,Colombia,54,Norte de Santander,54172,Chinácota,CO,COL,2
+CO_54_54174,Q1576762,,CO,Colombia,54,Norte de Santander,54174,Chitagá,CO,COL,2
+CO_54_54206,Q1525332,,CO,Colombia,54,Norte de Santander,54206,Convención,CO,COL,2
+CO_54_54223,Q515211,,CO,Colombia,54,Norte de Santander,54223,Cucutilla,CO,COL,2
+CO_54_54239,Q510149,,CO,Colombia,54,Norte de Santander,54239,Durania,CO,COL,2
+CO_54_54245,Q1525675,,CO,Colombia,54,Norte de Santander,54245,El Carmen,CO,COL,2
+CO_54_54250,Q1577131,,CO,Colombia,54,Norte de Santander,54250,El Tarra,CO,COL,2
+CO_54_54261,Q1441107,,CO,Colombia,54,Norte de Santander,54261,El Zulia,CO,COL,2
+CO_54_54313,Q1576677,,CO,Colombia,54,Norte de Santander,54313,Gramalote,CO,COL,2
+CO_54_54344,Q1577521,,CO,Colombia,54,Norte de Santander,54344,Hacarí,CO,COL,2
+CO_54_54347,Q1655591,,CO,Colombia,54,Norte de Santander,54347,Herrán,CO,COL,2
+CO_54_54377,Q1575676,,CO,Colombia,54,Norte de Santander,54377,Labateca,CO,COL,2
+CO_54_54385,Q1576157,,CO,Colombia,54,Norte de Santander,54385,La Esperanza,CO,COL,2
+CO_54_54398,Q1971807,,CO,Colombia,54,Norte de Santander,54398,La Playa,CO,COL,2
+CO_54_54405,Q634066,,CO,Colombia,54,Norte de Santander,54405,Los Patios,CO,COL,2
+CO_54_54418,Q1656799,,CO,Colombia,54,Norte de Santander,54418,Lourdes,CO,COL,2
+CO_54_54480,Q1656003,,CO,Colombia,54,Norte de Santander,54480,Mutiscua,CO,COL,2
+CO_54_54498,Q2283773,,CO,Colombia,54,Norte de Santander,54498,Ocaña,CO,COL,2
+CO_54_54518,Q997796,,CO,Colombia,54,Norte de Santander,54518,Pamplona,CO,COL,2
+CO_54_54520,Q1655477,,CO,Colombia,54,Norte de Santander,54520,Pamplonita,CO,COL,2
+CO_54_54553,Q1575400,,CO,Colombia,54,Norte de Santander,54553,Puerto Santander,CO,COL,2
+CO_54_54599,Q1576165,,CO,Colombia,54,Norte de Santander,54599,Ragonvalia,CO,COL,2
+CO_54_54660,Q776636,,CO,Colombia,54,Norte de Santander,54660,Salazar,CO,COL,2
+CO_54_54670,Q2348501,,CO,Colombia,54,Norte de Santander,54670,San Calixto,CO,COL,2
+CO_54_54673,Q2434048,,CO,Colombia,54,Norte de Santander,54673,San Cayetano,CO,COL,2
+CO_54_54680,Q2078735,,CO,Colombia,54,Norte de Santander,54680,Santiago,CO,COL,2
+CO_54_54720,Q629630,,CO,Colombia,54,Norte de Santander,54720,Sardinata,CO,COL,2
+CO_54_54743,Q1655140,,CO,Colombia,54,Norte de Santander,54743,Silos,CO,COL,2
+CO_54_54800,Q1524830,,CO,Colombia,54,Norte de Santander,54800,Teorama,CO,COL,2
+CO_54_54810,Q2309040,,CO,Colombia,54,Norte de Santander,54810,Tibú,CO,COL,2
+CO_54_54820,Q1525656,,CO,Colombia,54,Norte de Santander,54820,Toledo,CO,COL,2
+CO_54_54871,Q1654451,,CO,Colombia,54,Norte de Santander,54871,Villa Caro,CO,COL,2
+CO_54_54874,Q923525,,CO,Colombia,54,Norte de Santander,54874,Villa Del Rosario,CO,COL,2
 CO_63,Q13995,,CO,Colombia,63,Quindío,,,CO,COL,1
 CO_63_63001,Q328518,,CO,Colombia,63,Quindío,63001,Armenia,CO,COL,2
 CO_63_63111,Q607290,,CO,Colombia,63,Quindío,63111,Buenavista,CO,COL,2
@@ -1326,9 +1326,9 @@ CO_86_86757,Q1442390,,CO,Colombia,86,Putumayo,86757,San Miguel,CO,COL,2
 CO_86_86760,Q1577803,,CO,Colombia,86,Putumayo,86760,Santiago,CO,COL,2
 CO_86_86865,Q739165,,CO,Colombia,86,Putumayo,86865,Valle Del Guamuez,CO,COL,2
 CO_86_86885,Q1441065,,CO,Colombia,86,Putumayo,86885,Villagarzón,CO,COL,2
-CO_88,Q26855,,CO,Colombia,88,"Archipelago of Saint Andrews, Providence and Saint Catalina",,,CO,COL,1
-CO_88_88001,Q134678,,CO,Colombia,88,"Archipelago of Saint Andrews, Providence and Saint Catalina",88001,Saint Andrews,CO,COL,2
-CO_88_88564,Q3408299,,CO,Colombia,88,"Archipelago of Saint Andrews, Providence and Saint Catalina",88564,Providence,CO,COL,2
+CO_88,Q26855,,CO,Colombia,88,San Andrés and Providencia,,,CO,COL,1
+CO_88_88001,Q134678,,CO,Colombia,88,San Andrés and Providencia,88001,Saint Andrews,CO,COL,2
+CO_88_88564,Q3408299,,CO,Colombia,88,San Andrés and Providencia,88564,Providence,CO,COL,2
 CO_91,Q44724,,CO,Colombia,91,Amazonas,,,CO,COL,1
 CO_91_91001,Q214913,,CO,Colombia,91,Amazonas,91001,Leticia,CO,COL,2
 CO_91_91263,Q665774,,CO,Colombia,91,Amazonas,91263,El Encanto,CO,COL,2
@@ -1375,20 +1375,20 @@ CW,Q25279,country/CUW,CW,Curaçao,,,,,CW,CUW,0
 CX,Q31063,country/CXR,CX,Christmas Island,,,,,CX,CXR,0
 CY,Q229,country/CYP,CY,Cyprus,,,,,CY,CYP,0
 CZ,Q213,country/CZE,CZ,Czech Republic,,,,,CZ,CZE,0
-CZ_10,Q1085,nuts/CZ010,CZ,Czech Republic,10,Hlavní město Praha,,,CZ,CZE,1
-CZ_20,Q188399,nuts/CZ020,CZ,Czech Republic,20,Středočeský kraj,,,CZ,CZE,1
-CZ_31,Q188373,nuts/CZ031,CZ,Czech Republic,31,Jihočeský kraj,,,CZ,CZE,1
-CZ_32,Q46070,nuts/CZ032,CZ,Czech Republic,32,Plzeňský kraj,,,CZ,CZE,1
-CZ_41,Q191091,nuts/CZ041,CZ,Czech Republic,41,Karlovarský kraj,,,CZ,CZE,1
-CZ_42,Q192702,nuts/CZ042,CZ,Czech Republic,42,Ústecký kraj,,,CZ,CZE,1
-CZ_51,Q193266,nuts/CZ051,CZ,Czech Republic,51,Liberecký kraj,,,CZ,CZE,1
-CZ_52,Q193295,nuts/CZ052,CZ,Czech Republic,52,Královéhradecký kraj,,,CZ,CZE,1
-CZ_53,Q193317,nuts/CZ053,CZ,Czech Republic,53,Pardubický kraj,,,CZ,CZE,1
-CZ_63,Q190930,nuts/CZ063,CZ,Czech Republic,63,Kraj Vysočina,,,CZ,CZE,1
-CZ_64,Q192697,nuts/CZ064,CZ,Czech Republic,64,Jihomoravský kraj,,,CZ,CZE,1
-CZ_71,Q193307,nuts/CZ071,CZ,Czech Republic,71,Olomoucký kraj,,,CZ,CZE,1
-CZ_72,Q192536,nuts/CZ072,CZ,Czech Republic,72,Zlínský kraj,,,CZ,CZE,1
-CZ_80,Q190550,nuts/CZ080,CZ,Czech Republic,80,Moravskoslezský kraj,,,CZ,CZE,1
+CZ_10,Q1085,nuts/CZ010,CZ,Czech Republic,10,Prague,,,CZ,CZE,1
+CZ_20,Q188399,nuts/CZ020,CZ,Czech Republic,20,Central Bohemian Region,,,CZ,CZE,1
+CZ_31,Q188373,nuts/CZ031,CZ,Czech Republic,31,South Bohemian Region,,,CZ,CZE,1
+CZ_32,Q46070,nuts/CZ032,CZ,Czech Republic,32,Plzeň Region,,,CZ,CZE,1
+CZ_41,Q191091,nuts/CZ041,CZ,Czech Republic,41,Karlovy Vary Region,,,CZ,CZE,1
+CZ_42,Q192702,nuts/CZ042,CZ,Czech Republic,42,Ústí nad Labem Region,,,CZ,CZE,1
+CZ_51,Q193266,nuts/CZ051,CZ,Czech Republic,51,Liberec Region,,,CZ,CZE,1
+CZ_52,Q193295,nuts/CZ052,CZ,Czech Republic,52,Hradec Králové Region,,,CZ,CZE,1
+CZ_53,Q193317,nuts/CZ053,CZ,Czech Republic,53,Pardubice Region,,,CZ,CZE,1
+CZ_63,Q190930,nuts/CZ063,CZ,Czech Republic,63,Vysocina Region,,,CZ,CZE,1
+CZ_64,Q192697,nuts/CZ064,CZ,Czech Republic,64,South Moravian Region,,,CZ,CZE,1
+CZ_71,Q193307,nuts/CZ071,CZ,Czech Republic,71,Olomouc Region,,,CZ,CZE,1
+CZ_72,Q192536,nuts/CZ072,CZ,Czech Republic,72,Zlin Region,,,CZ,CZE,1
+CZ_80,Q190550,nuts/CZ080,CZ,Czech Republic,80,Moravian-Silesian Region,,,CZ,CZE,1
 DE,Q183,country/DEU,DE,Germany,,,,,DE,DEU,0
 DE_BB,Q1208,nuts/DE4,DE,Germany,BB,Brandenburg,,,DE,DEU,1
 DE_BE,Q64,nuts/DE3,DE,Germany,BE,Berlin,,,DE,DEU,1
@@ -1425,12 +1425,12 @@ ES_CE,Q5823,nuts/ES63,ES,Spain,CE,Ceuta,,,ES,ESP,1
 ES_CL,Q5739,nuts/ES41,ES,Spain,CL,Castilla y León,,,ES,ESP,1
 ES_CM,Q5748,nuts/ES42,ES,Spain,CM,Castilla-La Mancha,,,ES,ESP,1
 ES_CN,Q5813,nuts/ES70,ES,Spain,CN,Islas Canarias,,,ES,ESP,1
-ES_CT,Q5705,nuts/ES51,ES,Spain,CT,Cataluña,,,ES,ESP,1
+ES_CT,Q5705,nuts/ES51,ES,Spain,CT,Catalonia,,,ES,ESP,1
 ES_EX,Q5777,nuts/ES43,ES,Spain,EX,Extremadura,,,ES,ESP,1
 ES_GA,Q3908,nuts/ES11,ES,Spain,GA,Galicia,,,ES,ESP,1
 ES_IB,Q5765,nuts/ES53,ES,Spain,IB,Islas Baleares,,,ES,ESP,1
 ES_MC,Q5772,nuts/ES62,ES,Spain,MC,Murcia,,,ES,ESP,1
-ES_MD,Q5756,nuts/ES30,ES,Spain,MD,Madrid,,,ES,ESP,1
+ES_MD,Q5756,nuts/ES30,ES,Spain,MD,Comunidad de Madrid,,,ES,ESP,1
 ES_ML,Q5831,nuts/ES64,ES,Spain,ML,Melilla,,,ES,ESP,1
 ES_NC,Q4018,nuts/ES22,ES,Spain,NC,Navarra,,,ES,ESP,1
 ES_PV,Q3995,nuts/ES21,ES,Spain,PV,País Vasco,,,ES,ESP,1
@@ -1571,7 +1571,7 @@ GB_ENG_E06000006,Q376141,,GB,United Kingdom,ENG,England,E06000006,Halton,GB,GBR,
 GB_ENG_E06000007,Q894095,,GB,United Kingdom,ENG,England,E06000007,Warrington,GB,GBR,2
 GB_ENG_E06000008,Q880782,nuts/UKD41,GB,United Kingdom,ENG,England,E06000008,Blackburn with Darwen,GB,GBR,2
 GB_ENG_E06000009,Q20989106,nuts/UKD42,GB,United Kingdom,ENG,England,E06000009,Blackpool,GB,GBR,2
-GB_ENG_E06000010,Q21885987,,GB,United Kingdom,ENG,England,E06000010,Citi of Kingston upon Hull,GB,GBR,2
+GB_ENG_E06000010,Q21885987,,GB,United Kingdom,ENG,England,E06000010,Kingston upon Hull,GB,GBR,2
 GB_ENG_E06000011,Q21695028,,GB,United Kingdom,ENG,England,E06000011,East Riding of Yorkshire,GB,GBR,2
 GB_ENG_E06000012,Q1342914,,GB,United Kingdom,ENG,England,E06000012,North East Lincolnshire,GB,GBR,2
 GB_ENG_E06000013,Q175945,,GB,United Kingdom,ENG,England,E06000013,North Lincolnshire,GB,GBR,2
@@ -1580,7 +1580,7 @@ GB_ENG_E06000015,Q21885980,,GB,United Kingdom,ENG,England,E06000015,Derby,GB,GBR
 GB_ENG_E06000016,Q21683242,,GB,United Kingdom,ENG,England,E06000016,Leicester,GB,GBR,2
 GB_ENG_E06000017,Q23107,nuts/UKF22,GB,United Kingdom,ENG,England,E06000017,Rutland,GB,GBR,2
 GB_ENG_E06000018,Q21885994,,GB,United Kingdom,ENG,England,E06000018,Nottingham,GB,GBR,2
-GB_ENG_E06000019,Q23129,nuts/UKG11,GB,United Kingdom,ENG,England,E06000019,Couty of Herefordshire,GB,GBR,2
+GB_ENG_E06000019,Q23129,nuts/UKG11,GB,United Kingdom,ENG,England,E06000019,Herefordshire,GB,GBR,2
 GB_ENG_E06000020,Q1425298,nuts/UKG21,GB,United Kingdom,ENG,England,E06000020,Telford and Wrekin,GB,GBR,2
 GB_ENG_E06000021,Q21891722,,GB,United Kingdom,ENG,England,E06000021,Stoke-on-Trent,GB,GBR,2
 GB_ENG_E06000022,Q810793,,GB,United Kingdom,ENG,England,E06000022,Bath and North East Somerset,GB,GBR,2
@@ -1606,7 +1606,7 @@ GB_ENG_E06000043,Q1022488,,GB,United Kingdom,ENG,England,E06000043,Brighton and 
 GB_ENG_E06000044,Q21683233,,GB,United Kingdom,ENG,England,E06000044,Portsmouth,GB,GBR,2
 GB_ENG_E06000045,Q21683230,,GB,United Kingdom,ENG,England,E06000045,Southampton,GB,GBR,2
 GB_ENG_E06000046,Q9679,nuts/UKJ34,GB,United Kingdom,ENG,England,E06000046,Isle of Wight,GB,GBR,2
-GB_ENG_E06000047,Q1137286,,GB,United Kingdom,ENG,England,E06000047,County Durham,GB,GBR,2
+GB_ENG_E06000047,Q1137286,,GB,United Kingdom,ENG,England,E06000047,Durham,GB,GBR,2
 GB_ENG_E06000049,Q1070590,nuts/UKD62,GB,United Kingdom,ENG,England,E06000049,Cheshire East,GB,GBR,2
 GB_ENG_E06000050,Q1070591,nuts/UKD63,GB,United Kingdom,ENG,England,E06000050,Cheshire West and Chester,GB,GBR,2
 GB_ENG_E06000051,Q21694759,,GB,United Kingdom,ENG,England,E06000051,Shropshire,GB,GBR,2
@@ -1714,7 +1714,7 @@ GB_ENG_E10000032,Q23287,nuts/UKJ24,GB,United Kingdom,ENG,England,E10000032,West 
 GB_ENG_E10000034,Q23135,nuts/UKG12,GB,United Kingdom,ENG,England,E10000034,Worcestershire,GB,GBR,2
 GB_NIR,Q26,nuts/UKN,GB,United Kingdom,NIR,Northern Ireland,,,GB,GBR,1
 GB_NIR_N09000001,Q4777347,,GB,United Kingdom,NIR,Northern Ireland,N09000001,Antrim and Newtownabbey,GB,GBR,2
-GB_NIR_N09000002,Q4792580,,GB,United Kingdom,NIR,Northern Ireland,N09000002,"Armagh, Banbridge and Craigavon",GB,GBR,2
+GB_NIR_N09000002,Q4792580,,GB,United Kingdom,NIR,Northern Ireland,N09000002,"Armagh City, Banbridge and Craigavon",GB,GBR,2
 GB_NIR_N09000003,Q1140130,nuts/UKN01,GB,United Kingdom,NIR,Northern Ireland,N09000003,Belfast,GB,GBR,2
 GB_NIR_N09000004,Q5054638,,GB,United Kingdom,NIR,Northern Ireland,N09000004,Causeway Coast and Glens,GB,GBR,2
 GB_NIR_N09000005,Q15213714,,GB,United Kingdom,NIR,Northern Ireland,N09000005,Derry and Strabane,GB,GBR,2
@@ -1723,7 +1723,7 @@ GB_NIR_N09000007,Q6558667,,GB,United Kingdom,NIR,Northern Ireland,N09000007,Lisb
 GB_NIR_N09000008,Q6841059,,GB,United Kingdom,NIR,Northern Ireland,N09000008,Mid and East Antrim,GB,GBR,2
 GB_NIR_N09000009,Q6840825,,GB,United Kingdom,NIR,Northern Ireland,N09000009,Mid Ulster,GB,GBR,2
 GB_NIR_N09000010,Q15262186,,GB,United Kingdom,NIR,Northern Ireland,N09000010,"Newry, Mourne and Down",GB,GBR,2
-GB_NIR_N09000011,Q7055155,,GB,United Kingdom,NIR,Northern Ireland,N09000011,North Down and Ards,GB,GBR,2
+GB_NIR_N09000011,Q7055155,,GB,United Kingdom,NIR,Northern Ireland,N09000011,Ards and North Down,GB,GBR,2
 GB_SCT,Q22,nuts/UKM,GB,United Kingdom,SCT,Scotland,,,GB,GBR,1
 GB_SCT_S08000015,,,GB,United Kingdom,SCT,Scotland,S08000015,Ayrshire and Arran,GB,GBR,2
 GB_SCT_S08000016,,,GB,United Kingdom,SCT,Scotland,S08000016,Borders,GB,GBR,2
@@ -1852,7 +1852,7 @@ IQ,Q796,country/IRQ,IQ,Iraq,,,,,IQ,IRQ,0
 IR,Q794,country/IRN,IR,Iran,,,,,IR,IRN,0
 IS,Q189,country/ISL,IS,Iceland,,,,,IS,ISL,0
 IT,Q38,country/ITA,IT,Italy,,,,,IT,ITA,0
-IT_21,Q1216,nuts/ITC1,IT,Italy,21,Piemont,,,IT,ITA,1
+IT_21,Q1216,nuts/ITC1,IT,Italy,21,Piedmont,,,IT,ITA,1
 IT_23,Q1222,nuts/ITC2,IT,Italy,23,Aosta Valley,,,IT,ITA,1
 IT_25,Q1210,nuts/ITC4,IT,Italy,25,Lombardy,,,IT,ITA,1
 IT_34,Q1243,nuts/ITH3,IT,Italy,34,Veneto,,,IT,ITA,1
@@ -2466,20 +2466,20 @@ PK_KP,Q183314,,PK,Pakistan,KP,Khyber Pakhtunkhwa,,,PK,PAK,1
 PK_PB,Q4478,,PK,Pakistan,PB,Punjab,,,PK,PAK,1
 PK_SD,Q37211,,PK,Pakistan,SD,Sindh,,,PK,PAK,1
 PL,Q36,country/POL,PL,Poland,,,,,PL,POL,0
-PL_02,Q54150,,PL,Poland,02,Lower Silesian,,,PL,POL,1
-PL_04,Q54153,,PL,Poland,04,Kuyavian-Pomeranian,,,PL,POL,1
+PL_02,Q54150,,PL,Poland,02,Lower Silesia,,,PL,POL,1
+PL_04,Q54153,,PL,Poland,04,Kuiavia-Pomerania,,,PL,POL,1
 PL_06,Q54155,,PL,Poland,06,Lublin,,,PL,POL,1
 PL_08,Q54157,,PL,Poland,08,Lubusz,,,PL,POL,1
 PL_10,Q54158,nuts/PL71,PL,Poland,10,Łódź,,,PL,POL,1
 PL_12,Q54159,,PL,Poland,12,Lesser Poland,,,PL,POL,1
-PL_14,Q54169,,PL,Poland,14,Masovian,,,PL,POL,1
+PL_14,Q54169,,PL,Poland,14,Mazovia,,,PL,POL,1
 PL_16,Q54171,,PL,Poland,16,Opole,,,PL,POL,1
-PL_18,Q54175,,PL,Poland,18,Podkarpackie,,,PL,POL,1
+PL_18,Q54175,,PL,Poland,18,Subcarpathia,,,PL,POL,1
 PL_20,Q54177,,PL,Poland,20,Podlaskie,,,PL,POL,1
-PL_22,Q54180,,PL,Poland,22,Pomeranian,,,PL,POL,1
-PL_24,Q54181,,PL,Poland,24,Silesian,,,PL,POL,1
-PL_26,Q54183,nuts/PL72,PL,Poland,26,Świętokrzyskie,,,PL,POL,1
-PL_28,Q54184,,PL,Poland,28,Warmian-Masurian,,,PL,POL,1
+PL_22,Q54180,,PL,Poland,22,Pomerania,,,PL,POL,1
+PL_24,Q54181,,PL,Poland,24,Silesia,,,PL,POL,1
+PL_26,Q54183,nuts/PL72,PL,Poland,26,Swietokrzyskie,,,PL,POL,1
+PL_28,Q54184,,PL,Poland,28,Warmia-Masuria,,,PL,POL,1
 PL_30,Q54187,,PL,Poland,30,Greater Poland,,,PL,POL,1
 PL_32,Q54188,,PL,Poland,32,West Pomeranian,,,PL,POL,1
 PM,Q34617,country/SPM,PM,Saint Pierre and Miquelon,,,,,PM,SPM,0
@@ -2649,35 +2649,35 @@ UG,Q1036,country/UGA,UG,Uganda,,,,,UG,UGA,0
 UM,Q16645,country/UMI,UM,United States Minor Outlying Islands,,,,,UM,UMI,0
 US,Q30,country/USA,US,United States of America,,,,,US,USA,0
 US_AK,Q797,geoId/02,US,United States of America,AK,Alaska,,,US,USA,1
-US_AK_02013,Q504371,geoId/02013,US,United States of America,AK,Alaska,02013,Aleutians East Borough,US,USA,2
-US_AK_02016,Q185533,geoId/02016,US,United States of America,AK,Alaska,02016,Aleutians West Census Area,US,USA,2
+US_AK_02013,Q504371,geoId/02013,US,United States of America,AK,Alaska,02013,Aleutians East,US,USA,2
+US_AK_02016,Q185533,geoId/02016,US,United States of America,AK,Alaska,02016,Aleutians West,US,USA,2
 US_AK_02020,Q39450,geoId/02020,US,United States of America,AK,Alaska,02020,Anchorage Municipality,US,USA,2
-US_AK_02050,Q500312,geoId/02050,US,United States of America,AK,Alaska,02050,Bethel Census Area,US,USA,2
-US_AK_02060,Q501130,geoId/02060,US,United States of America,AK,Alaska,02060,Bristol Bay Borough,US,USA,2
-US_AK_02068,Q179950,geoId/02068,US,United States of America,AK,Alaska,02068,Denali Borough,US,USA,2
-US_AK_02070,Q277728,geoId/02070,US,United States of America,AK,Alaska,02070,Dillingham Census Area,US,USA,2
-US_AK_02090,Q512901,geoId/02090,US,United States of America,AK,Alaska,02090,Fairbanks North Star Borough,US,USA,2
-US_AK_02100,Q512981,geoId/02100,US,United States of America,AK,Alaska,02100,Haines Borough,US,USA,2
-US_AK_02105,Q500827,geoId/02105,US,United States of America,AK,Alaska,02105,Hoonah-Angoon Census Area,US,USA,2
-US_AK_02110,Q29445,geoId/02110,US,United States of America,AK,Alaska,02110,Juneau City and Borough,US,USA,2
+US_AK_02050,Q500312,geoId/02050,US,United States of America,AK,Alaska,02050,Bethel,US,USA,2
+US_AK_02060,Q501130,geoId/02060,US,United States of America,AK,Alaska,02060,Bristol Bay,US,USA,2
+US_AK_02068,Q179950,geoId/02068,US,United States of America,AK,Alaska,02068,Denali,US,USA,2
+US_AK_02070,Q277728,geoId/02070,US,United States of America,AK,Alaska,02070,Dillingham,US,USA,2
+US_AK_02090,Q512901,geoId/02090,US,United States of America,AK,Alaska,02090,Fairbanks North Star,US,USA,2
+US_AK_02100,Q512981,geoId/02100,US,United States of America,AK,Alaska,02100,Haines,US,USA,2
+US_AK_02105,Q500827,geoId/02105,US,United States of America,AK,Alaska,02105,Hoonah-Angoon,US,USA,2
+US_AK_02110,Q29445,geoId/02110,US,United States of America,AK,Alaska,02110,Juneau,US,USA,2
 US_AK_02122,Q512713,geoId/02122,US,United States of America,AK,Alaska,02122,Kenai Peninsula Borough,US,USA,2
-US_AK_02130,Q506064,geoId/02130,US,United States of America,AK,Alaska,02130,Ketchikan Gateway Borough,US,USA,2
-US_AK_02150,Q514093,geoId/02150,US,United States of America,AK,Alaska,02150,Kodiak Island Borough,US,USA,2
-US_AK_02158,Q379474,geoId/02158,US,United States of America,AK,Alaska,02158,Kusilvak Census Area,US,USA,2
-US_AK_02164,Q511679,geoId/02164,US,United States of America,AK,Alaska,02164,Lake and Peninsula Borough,US,USA,2
-US_AK_02170,Q512925,geoId/02170,US,United States of America,AK,Alaska,02170,Matanuska-Susitna Borough,US,USA,2
-US_AK_02180,Q503023,geoId/02180,US,United States of America,AK,Alaska,02180,Nome Census Area,US,USA,2
-US_AK_02185,Q511806,geoId/02185,US,United States of America,AK,Alaska,02185,North Slope Borough,US,USA,2
-US_AK_02188,Q511723,geoId/02188,US,United States of America,AK,Alaska,02188,Northwest Arctic Borough,US,USA,2
-US_AK_02195,Q25408755,geoId/02195,US,United States of America,AK,Alaska,02195,Petersburg Borough,US,USA,2
-US_AK_02198,Q18120072,geoId/02198,US,United States of America,AK,Alaska,02198,Prince of Wales-Hyder Census Area,US,USA,2
-US_AK_02220,Q79804,geoId/02220,US,United States of America,AK,Alaska,02220,Sitka City and Borough,US,USA,2
+US_AK_02130,Q506064,geoId/02130,US,United States of America,AK,Alaska,02130,Ketchikan Gateway,US,USA,2
+US_AK_02150,Q514093,geoId/02150,US,United States of America,AK,Alaska,02150,Kodiak Island,US,USA,2
+US_AK_02158,Q379474,geoId/02158,US,United States of America,AK,Alaska,02158,Kusilvak,US,USA,2
+US_AK_02164,Q511679,geoId/02164,US,United States of America,AK,Alaska,02164,Lake and Peninsula,US,USA,2
+US_AK_02170,Q512925,geoId/02170,US,United States of America,AK,Alaska,02170,Matanuska-Susitna,US,USA,2
+US_AK_02180,Q503023,geoId/02180,US,United States of America,AK,Alaska,02180,Nome,US,USA,2
+US_AK_02185,Q511806,geoId/02185,US,United States of America,AK,Alaska,02185,North Slope,US,USA,2
+US_AK_02188,Q511723,geoId/02188,US,United States of America,AK,Alaska,02188,Northwest Arctic,US,USA,2
+US_AK_02195,Q25408755,geoId/02195,US,United States of America,AK,Alaska,02195,Petersburg,US,USA,2
+US_AK_02198,Q18120072,geoId/02198,US,United States of America,AK,Alaska,02198,Prince of Wales-Hyder,US,USA,2
+US_AK_02220,Q79804,geoId/02220,US,United States of America,AK,Alaska,02220,Sitka,US,USA,2
 US_AK_02230,Q615975,geoId/02230,US,United States of America,AK,Alaska,02230,Skagway Municipality,US,USA,2
-US_AK_02240,Q500845,geoId/02240,US,United States of America,AK,Alaska,02240,Southeast Fairbanks Census Area,US,USA,2
-US_AK_02261,Q508618,geoId/02261,US,United States of America,AK,Alaska,02261,Valdez-Cordova Census Area,US,USA,2
-US_AK_02275,Q43983,geoId/02275,US,United States of America,AK,Alaska,02275,Wrangell City and Borough,US,USA,2
-US_AK_02282,Q487681,geoId/02282,US,United States of America,AK,Alaska,02282,Yakutat City and Borough,US,USA,2
-US_AK_02290,Q500818,geoId/02290,US,United States of America,AK,Alaska,02290,Yukon-Koyukuk Census Area,US,USA,2
+US_AK_02240,Q500845,geoId/02240,US,United States of America,AK,Alaska,02240,Southeast Fairbanks,US,USA,2
+US_AK_02261,Q508618,geoId/02261,US,United States of America,AK,Alaska,02261,Valdez-Cordova,US,USA,2
+US_AK_02275,Q43983,geoId/02275,US,United States of America,AK,Alaska,02275,Wrangell,US,USA,2
+US_AK_02282,Q487681,geoId/02282,US,United States of America,AK,Alaska,02282,Yakutat,US,USA,2
+US_AK_02290,Q500818,geoId/02290,US,United States of America,AK,Alaska,02290,Yukon-Koyukuk,US,USA,2
 US_AL,Q173,geoId/01,US,United States of America,AL,Alabama,,,US,USA,1
 US_AL_01001,Q156168,geoId/01001,US,United States of America,AL,Alabama,01001,Autauga County,US,USA,2
 US_AL_01003,Q156163,geoId/01003,US,United States of America,AL,Alabama,01003,Baldwin County,US,USA,2
