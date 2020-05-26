@@ -6,7 +6,7 @@ use Google Colab if you want to run your analysis using notebooks without
 having to install anything in your computer, simply go to this URL:
 https://colab.research.google.com/github/open-covid-19/data.
 
-See below for a list and description of each of the files in this folder.
+See below for a list and description of some of the files in this folder.
 
 #### [Data Loading Jupyter Notebook](data_loading.ipynb)
 This notebook contains very basic examples of how to load and filter data

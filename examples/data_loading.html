@@ -10,7 +10,8 @@
     <table id="table" border="1"></table>
 
     <script>
-        $.getJSON(`https://open-covid-19.github.io/data/data.json`, data => {
+        // Load the last 30 days of data (the full dataset is only available in CSV format)
+        $.getJSON(`https://open-covid-19.github.io/data/v2/30/master.json`, data => {
 
             // Update the count of records
             $('#count').text = data.length;
