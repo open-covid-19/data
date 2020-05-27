@@ -13,17 +13,24 @@ which contains the columns of all other tables joined by `key` and `date`. Howev
 performance-wise, it may be better to download the data separately and join the tables locally. The
 datasets available from this project are:
 
-| Table | CSV URL | JSON URL |
-| ----- | ------- | -------- |
-| [Master](#master) | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | N/A |
-| [Index](#index) | [index.csv](https://open-covid-19.github.io/data/v2/index.csv) | [index.json](https://open-covid-19.github.io/data/v2/index.json) |
-| [Demographics](#demographics) | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv) | [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) |
-| [Economy](#economy) | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv) | [economy.json](https://open-covid-19.github.io/data/v2/economy.json) |
-| [Epidemiology](#epidemiology) | [epidemiology.csv](https://open-covid-19.github.io/data/v2/epidemiology.csv) | [epidemiology.json](https://open-covid-19.github.io/data/v2/epidemiology.json) |
-| [Geography](#geography) | [geography.csv](https://open-covid-19.github.io/data/v2/geography.csv) | [geography.json](https://open-covid-19.github.io/data/v2/geography.json) |
-| [Mobility](#mobility) | [mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) | [google-mobility.json](https://open-covid-19.github.io/data/v2/google-mobility.json) |
-| [Oxford Government Response](#oxford-government-response) | [oxford-government-response.csv](https://open-covid-19.github.io/data/v2/oxford-government-response.csv) | [oxford-government-response.json](https://open-covid-19.github.io/data/v2/oxford-government-response.json) |
-| [Weather](#weather) | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv) | [weather.json](https://open-covid-19.github.io/data/v2/weather.json) |
+| Table | Keys<sup>1</sup> | Content | URL | Sources<sup>2</sup> |
+| ----- | ---------------- | ------- | --- | ------------------- |
+| [Master](#master) | `[key][date]` | Flat table with records from all other tables joined by `key` and `date` | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | All tables below |
+| [Index](#index) | `[key]` | Various names and codes, useful for joining with other datasets | [index.csv](https://open-covid-19.github.io/data/v2/index.csv), [index.json](https://open-covid-19.github.io/data/v2/index.json) | Wikidata, DataCommons |
+| [Demographics](#demographics) | `[key]` | Various (current<sup>3</sup>) population statistics | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv), [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) | Wikidata, DataCommons |
+| [Economy](#economy) | `[key]` | Various (current<sup>3</sup>) economic indicators | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv), [economy.json](https://open-covid-19.github.io/data/v2/economy.json) | Wikidata, DataCommons |
+| [Epidemiology](#epidemiology) | `[key][date]` | COVID-19 cases, deaths, recoveries and tests | [epidemiology.csv](https://open-covid-19.github.io/data/v2/epidemiology.csv), [epidemiology.json](https://open-covid-19.github.io/data/v2/epidemiology.json) | Various<sup>2</sup> |
+| [Geography](#geography) | `[key]` | Geographical information about the region | [geography.csv](https://open-covid-19.github.io/data/v2/geography.csv), [geography.json](https://open-covid-19.github.io/data/v2/geography.json) | Wikidata |
+| [Mobility](#mobility) | `[key][date]` | Various metrics related to the movement of people | [mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv), [google-mobility.json](https://open-covid-19.github.io/data/v2/google-mobility.json) | Google, Apple |
+| [Oxford Government Response](#oxford-government-response) | `[key][date]` | Government interventions and their relative stringency | [oxford-government-response.csv](https://open-covid-19.github.io/data/v2/oxford-government-response.csv), [oxford-government-response.json](https://open-covid-19.github.io/data/v2/oxford-government-response.json) | University of Oxford |
+| [Weather](#weather) | `[key][date]` | Dated meteorological information for each region | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv), [weather.json](https://open-covid-19.github.io/data/v2/weather.json) | NOAA |
+
+<sup>1</sup> `key` is a unique string for the specific geographical region built from a combination
+of codes such as `ISO 3166`, `NUTS`, `FIPS` and other local equivalents.\
+<sup>2</sup> Refer to the [sources](sources-of-data) for specifics about each data source and the
+associated terms of use.\
+<sup>3</sup> Datasets without a `date` column contain the most recently reported information for
+each datapoint to date.
 
 For more information about how to use these files see the section about
 [using the data](#use-the-data), and for more details about each dataset see the section about
@@ -114,7 +121,7 @@ region, which is helpful for displaying purposes or when merging with other data
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
 | **key** | `string` | Unique string identifying the region | US_CA_06001 |
-| **wikidata** | `string` | WikiData ID corresponding to this key | Q107146 |
+| **wikidata** | `string` | Wikidata ID corresponding to this key | Q107146 |
 | **country_code** | `string` | ISO 3166-1 alphanumeric 2-letter code of the country | US |
 | **country_name** | `string` | American English name of the country, subject to change | United States of America |
 | **subregion1_code** | `string` | (Optional) ISO 3166-2 or NUTS 2/3 code of the subregion | CA |
@@ -175,7 +182,7 @@ Information related to the geography for each region:
 | **key** | `string` | Unique string identifying the region | CN_HB |
 | **latitude** | `double` | Floating point representing the geographic coordinate | 30.9756 |
 | **longitude** | `double` | Floating point representing the geographic coordinate | 112.2707 |
-| **elevation** | `integer` [meters] | Elevation above the sea level | 875 |
+| **elevation** | `integer` `[meters]` | Elevation above the sea level | 875 |
 | **area** | `integer` [squared kilometers] | Area encompassing this region | 3729 |
 
 ### Oxford Government Response
@@ -288,7 +295,11 @@ from the relevant authorities, like a country's ministry of health.
 | Data | Source | License |
 | ---- | ------ | ------- |
 | Metadata | [Wikipedia](https://wikipedia.org) | CC BY-SA |
+| Demographics | [Wikidata](https://wikidata.org) | CC BY-SA |
 | Demographics | [DataCommons](https://datacommons.org) | CC BY-SA |
+| Economy | [Wikidata](https://wikidata.org) | CC BY-SA |
+| Economy | [DataCommons](https://datacommons.org) | CC BY-SA |
+| Geography | [Wikidata](https://wikidata.org) | CC BY-SA |
 | Weather | [NOAA](https://www.ncei.noaa.gov) | Custom (unrestricted for non-commercial use) |
 | Google Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> | N/A |
 | Government response data | [Oxford COVID-19 government response tracker][18] | CC BY 4.0 |
