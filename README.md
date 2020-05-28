@@ -294,48 +294,50 @@ from the relevant authorities, like a country's ministry of health.
 
 | Data | Source | License and Terms of Use |
 | ---- | ------ | ------------------------ |
-| Metadata | [Wikipedia](https://wikipedia.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
-| Demographics | [Wikidata](https://wikidata.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
-| Demographics | [DataCommons](https://datacommons.org) | [CC BY-SA](https://policies.google.com/terms) |
-| Economy | [Wikidata](https://wikidata.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
-| Economy | [DataCommons](https://datacommons.org) | [CC BY-SA](https://policies.google.com/terms) |
-| Geography | [Wikidata](https://wikidata.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
-| Weather | [NOAA](https://www.ncei.noaa.gov) | Custom (unrestricted for non-commercial use) |
-| Google Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> | N/A |
-| Government response data | [Oxford COVID-19 government response tracker][18] | CC BY 4.0 |
-| Country-level data | [ECDC](https://www.ecdc.europa.eu) | Custom (attribution required for non-commercial use) |
+| Metadata | [Wikipedia](https://wikidata.org) | [CC BY-SA][24] |
+| Demographics | [Wikidata](https://wikidata.org) | [CC0][23] |
+| Demographics | [DataCommons](https://datacommons.org) | [Attribution required](https://policies.google.com/terms) |
+| Economy | [Wikidata](https://wikidata.org) | [CC0][23] |
+| Economy | [DataCommons](https://datacommons.org) | [Attribution required](https://policies.google.com/terms) |
+| Geography | [Wikidata](https://wikidata.org) | [CC0][23] |
+| Weather | [NOAA](https://www.ncei.noaa.gov) | [Attribution required, non-commercial use](https://www.wmo.int/pages/prog/www/ois/Operational_Information/Publications/Congress/Cg_XII/res40_en.html) |
+| Apple Mobility data | <https://www.apple.com/covid19/mobility> | [Attribution required](https://www.google.com/help/terms_maps/?hl=en) |
+| Google Mobility data | <https://www.google.com/covid19/mobility/> | [Attribution required](https://www.google.com/help/terms_maps/?hl=en) |
+| Government response data | [Oxford COVID-19 government response tracker][18] | [CC BY 4.0](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt) |
+| Country-level data | [ECDC](https://www.ecdc.europa.eu) | [Attribution required](https://www.ecdc.europa.eu/en/copyright) |
 | Country-level data | [Our World in Data](https://ourworldindata.org) | [CC BY 4.0](https://ourworldindata.org/how-to-use-our-world-in-data#how-is-our-work-copyrighted) |
-| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) | CC BY-SA |
-| Australia | <https://covid-19-au.com/> | Various (unrestricted for non-commercial use) |
-| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) | CC BY-SA |
-| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> | N/A (written consent) |
-| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) | Public Domain |
-| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) | CC BY-SA |
-| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) | MIT |
-| Colombia | [Government Authority](https://www.datos.gov.co) | Public Domain |
-| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> | GPLv3 |
-| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | MIT |
-| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | CC BY-SA |
-| Indonesia | <https://catchmeup.id/covid-19> | N/A |
-| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | CC BY 4.0 |
-| Japan | <https://github.com/swsoyee/2019-ncov-japan> | MIT |
-| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | CC BY-SA |
-| Mexico | <https://github.com/mexicovid19/Mexico-datos> | MIT |
-| Netherlands | <https://github.com/J535D165/CoronaWatchNL> | CC0 |
-| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
-| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | CC BY-SA |
-| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) | CC BY-SA |
-| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
-| Portugal | <https://github.com/dssg-pt/covid19pt-data> | GPLv3 |
-| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) | CC BY-SA |
-| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) | CC BY-SA |
-| Spain | [Government Authority](https://covid19.isciii.es) | Public Domain |
-| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) | AGPLv3 |
-| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | N/A |
-| Switzerland | [OpenZH data](https://open.zh.ch) | CC 4.0 |
-| United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | The Unlicense |
-| USA | [NYT COVID Dataset](https://github.com/nytimes) | Custom (attribution required for non-commercial use) |
-| USA | [COVID Tracking Project](https://covidtracking.com) | Apache 2.0 |
+| Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) | [CC BY-SA][24] |
+| Australia | <https://covid-19-au.com/> | [Attribution required, educational and academic research purposes](https://covid-19-au.com/faq) |
+| Austria | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
+| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) | [CC BY-SA][24] |
+| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> | [Public Domain](https://github.com/elhenrico/covid19-Brazil-timeseries/blob/master/README.md#public-domain-and-open-data) |
+| Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) | [Attribution required](https://www.canada.ca/en/transparency/terms.html) |
+| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) | [CC BY-SA][24] |
+| China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) | [MIT](https://github.com/BlankerL/DXY-COVID-19-Data/blob/master/LICENSE) |
+| Colombia | [Government Authority](https://www.datos.gov.co) | [Attribution required, non-commercial use](https://herramientas.datos.gov.co/es/terms-and-conditions-es) |
+| France | <https://github.com/cedricguadalupe/FRANCE-COVID-19> | [GPLv3](https://github.com/cedricguadalupe/FRANCE-COVID-19/blob/master/LICENSE) |
+| Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | [MIT](https://github.com/jgehrcke/covid-19-germany-gae/blob/master/LICENSE) |
+| India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | [CC BY-SA][24] |
+| Indonesia | <https://catchmeup.id/covid-19> | [Permission required](https://catchmeup.id/ketentuan-pelayanan) |
+| Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | [CC BY 4.0](https://github.com/pcm-dpc/COVID-19/blob/master/LICENSE) |
+| Japan | <https://github.com/swsoyee/2019-ncov-japan> | [MIT](https://github.com/swsoyee/2019-ncov-japan/blob/master/LICENSE) |
+| Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | [CC BY-SA][24] |
+| Mexico | <https://github.com/mexicovid19/Mexico-datos> | [MIT](https://github.com/mexicovid19/Mexico-datos/blob/master/LICENSE.md) |
+| Netherlands | <https://github.com/J535D165/CoronaWatchNL> | [CC0](https://github.com/J535D165/CoronaWatchNL/blob/master/README.md) |
+| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
+| Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | [CC BY-SA][24] |
+| Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) | [CC BY-SA][24] |
+| Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
+| Portugal | <https://github.com/dssg-pt/covid19pt-data> | [GPLv3](https://github.com/dssg-pt/covid19pt-data/blob/master/LICENSE) |
+| Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) | [CC BY-SA][24] |
+| South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) | [CC BY-SA][24] |
+| Spain | [Government Authority](https://covid19.isciii.es) | [Attribution required](https://www.mscbs.gob.es/avisoLegal/home.html) |
+| Spain | [Datadista COVID-19 dataset](https://github.com/datadista/datasets) | [AGPLv3](https://github.com/datadista/datasets/blob/master/LICENSE) |
+| Sweden | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
+| Switzerland | [OpenZH data](https://open.zh.ch) | [CC 4.0](https://github.com/openZH/covid_19/blob/master/LICENSE) |
+| United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | [The Unlicense](https://github.com/tomwhite/covid-19-uk-data/blob/master/LICENSE.txt) |
+| USA | [NYT COVID Dataset](https://github.com/nytimes) | [Attribution required, non-commercial use](https://github.com/nytimes/covid-19-data/blob/master/LICENSE) |
+| USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
 
 ## Why another dataset?
 This dataset is heavily inspired by the dataset maintained by [Johns Hopkins University][1].
@@ -380,3 +382,5 @@ See the [source documentation](src) for more technical details.
 [20]: https://www.coronavirusdailytracker.info/
 [21]: https://omnimodel.com/
 [22]: https://www.apple.com/covid19/mobility
+[23]: https://www.wikidata.org/wiki/Wikidata:Licensing
+[24]: https://en.wikipedia.org/wiki/Wikipedia:Copyrights
