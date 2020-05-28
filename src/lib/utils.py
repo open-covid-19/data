@@ -1,4 +1,5 @@
 import os
+import warnings
 from pathlib import Path
 from functools import partial, reduce
 from typing import Any, Callable, List, Dict, Tuple, Optional
@@ -67,9 +68,9 @@ def grouped_transform(
     for column in value_columns:
         if column in skip:
             continue
-        if sum(~data[column].isna()) == 0:
+        if data[column].isnull().all():
             continue
-        data[prefix[0] + column] = group[column].transform(transform)
+        data[prefix[0] + column] = group[column].apply(transform)
     return data.rename(columns={col: prefix[1] + col for col in value_columns})
 
 

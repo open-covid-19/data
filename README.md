@@ -13,8 +13,8 @@ which contains the columns of all other tables joined by `key` and `date`. Howev
 performance-wise, it may be better to download the data separately and join the tables locally. The
 datasets available from this project are:
 
-| Table | Keys<sup>1</sup> | Content | URL | Sources<sup>2</sup> |
-| ----- | ---------------- | ------- | --- | ------------------- |
+| Table | Keys<sup>1</sup> | Content | URL | Source<sup>2</sup> |
+| ----- | ---------------- | ------- | --- | ------------------ |
 | [Master](#master) | `[key][date]` | Flat table with records from all other tables joined by `key` and `date` | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | All tables below |
 | [Index](#index) | `[key]` | Various names and codes, useful for joining with other datasets | [index.csv](https://open-covid-19.github.io/data/v2/index.csv), [index.json](https://open-covid-19.github.io/data/v2/index.json) | Wikidata, DataCommons |
 | [Demographics](#demographics) | `[key]` | Various (current<sup>3</sup>) population statistics | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv), [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) | Wikidata, DataCommons |
@@ -27,7 +27,7 @@ datasets available from this project are:
 
 <sup>1</sup> `key` is a unique string for the specific geographical region built from a combination
 of codes such as `ISO 3166`, `NUTS`, `FIPS` and other local equivalents.\
-<sup>2</sup> Refer to the [sources](sources-of-data) for specifics about each data source and the
+<sup>2</sup> Refer to the [data sources](sources-of-data) for specifics about each data source and the
 associated terms of use.\
 <sup>3</sup> Datasets without a `date` column contain the most recently reported information for
 each datapoint to date.
@@ -292,19 +292,19 @@ information.
 All data in this repository is retrieved automatically. When possible, data is retrieved directly
 from the relevant authorities, like a country's ministry of health.
 
-| Data | Source | License |
-| ---- | ------ | ------- |
-| Metadata | [Wikipedia](https://wikipedia.org) | CC BY-SA |
-| Demographics | [Wikidata](https://wikidata.org) | CC BY-SA |
-| Demographics | [DataCommons](https://datacommons.org) | CC BY-SA |
-| Economy | [Wikidata](https://wikidata.org) | CC BY-SA |
-| Economy | [DataCommons](https://datacommons.org) | CC BY-SA |
-| Geography | [Wikidata](https://wikidata.org) | CC BY-SA |
+| Data | Source | License and Terms of Use |
+| ---- | ------ | ------------------------ |
+| Metadata | [Wikipedia](https://wikipedia.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
+| Demographics | [Wikidata](https://wikidata.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
+| Demographics | [DataCommons](https://datacommons.org) | [CC BY-SA](https://policies.google.com/terms) |
+| Economy | [Wikidata](https://wikidata.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
+| Economy | [DataCommons](https://datacommons.org) | [CC BY-SA](https://policies.google.com/terms) |
+| Geography | [Wikidata](https://wikidata.org) | [CC BY-SA](https://www.wikidata.org/wiki/Wikidata:Text_of_the_Creative_Commons_Public_Domain_Dedication) |
 | Weather | [NOAA](https://www.ncei.noaa.gov) | Custom (unrestricted for non-commercial use) |
 | Google Mobility data | <https://github.com/pastelsky/covid-19-mobility-tracker> | N/A |
 | Government response data | [Oxford COVID-19 government response tracker][18] | CC BY 4.0 |
 | Country-level data | [ECDC](https://www.ecdc.europa.eu) | Custom (attribution required for non-commercial use) |
-| Country-level data | [Our World in Data](https://ourworldindata.org) | CC BY 4.0 |
+| Country-level data | [Our World in Data](https://ourworldindata.org) | [CC BY 4.0](https://ourworldindata.org/how-to-use-our-world-in-data#how-is-our-work-copyrighted) |
 | Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) | CC BY-SA |
 | Australia | <https://covid-19-au.com/> | Various (unrestricted for non-commercial use) |
 | Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) | CC BY-SA |

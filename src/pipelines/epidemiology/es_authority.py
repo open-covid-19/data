@@ -12,7 +12,7 @@ class ISCIIIPipeline(DefaultPipeline):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
         # Retrieve the CSV files from https://covid19.isciii.es
-        df = (
+        data = (
             read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1")
             .rename(
                 columns={
@@ -20,8 +20,7 @@ class ISCIIIPipeline(DefaultPipeline):
                     "CCAA": "subregion1_code",
                     "Fallecidos": "deceased",
                     "Hospitalizados": "hospitalized",
-                    "UCI": "ICU",
-                    "Recuperados": "recovered",
+                    "UCI": "intensive_care",
                 }
             )
             .dropna(subset=["date"])
@@ -30,27 +29,22 @@ class ISCIIIPipeline(DefaultPipeline):
         # Confirmed cases are split across 2 columns
         confirmed_columns = ["CASOS", "PCR+"]
         for col in confirmed_columns:
-            df[col] = df[col].fillna(0)
-        df["confirmed"] = df.apply(lambda x: sum([x[col] for col in confirmed_columns]), axis=1)
+            data[col] = data[col].fillna(0)
+        data["confirmed"] = data.apply(lambda x: sum([x[col] for col in confirmed_columns]), axis=1)
 
         # Convert dates to ISO format
-        df["date"] = df["date"].apply(lambda date: datetime_isoformat(date, "%d/%m/%Y"))
+        data["date"] = data["date"].apply(lambda date: datetime_isoformat(date, "%d/%m/%Y"))
+
+        # Keep only the columns we can process
+        data = data[
+            ["date", "subregion1_code", "confirmed", "deceased", "hospitalized", "intensive_care"]
+        ]
 
         # Reported cases are cumulative, compute the diff
-        df = grouped_diff(df, ["subregion1_code", "date"])
+        data = grouped_diff(data, ["subregion1_code", "date"])
 
         # Add the country code to all records
-        df["country_code"] = "ES"
-
-        # Country-wide is the sum of all regions
-        country_level = (
-            df.drop(columns=["subregion1_code"])
-            .groupby(["date", "country_code"])
-            .sum()
-            .reset_index()
-        )
-        country_level["subregion1_code"] = None
-        df = concat([country_level, df])
+        data["country_code"] = "ES"
 
         # Output the results
-        return df
+        return data

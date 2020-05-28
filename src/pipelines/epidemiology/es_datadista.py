@@ -33,14 +33,12 @@ class DatadistaPipeline(DefaultPipeline):
             }
         ).sort_values(["match_string", "date"])
 
-        # Data is cumulative, compute the diff
-        data = grouped_diff(data, ["match_string", "date"])
+        # Keep only the columns we can process
+        data = data[["date", "match_string", "confirmed", "deceased", "hospitalized"]]
 
-        # Compute the country-level stats by adding all subregions
-        data_country = data.groupby(["date", "country_code"]).sum().reset_index()
-        data_country["match_string"] = "total"
-        data = concat([data, data_country])
+        # Compute the diff for each day
+        data = grouped_diff(data, keys=["match_string", "date"])
 
-        return data[
-            ["date", "country_code", "match_string", "confirmed", "deceased", "hospitalized",]
-        ]
+        # Add a country code column to all records
+        data["country_code"] = "ES"
+        return data

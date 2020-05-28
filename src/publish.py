@@ -148,11 +148,14 @@ weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "
 rename_columns = {col: snake_to_camel_case(col) for col in weather.columns}
 export_csv(weather.rename(columns=rename_columns), v1_folder / "weather.csv")
 
-# TMP: Get mobility from V1
-mobility = read_file("https://open-covid-19.github.io/data/mobility.csv")
-export_csv(mobility, v1_folder / "mobility.csv")
+# Create the v1 mobility.csv file
+mobility = read_file(v2_folder / "mobility.csv")
+mobility = mobility[mobility.key.apply(lambda x: len(x.split("_")) < 3)]
+mobility = mobility.drop(columns=["mobility_driving", "mobility_transit", "mobility_walking"])
+rename_columns = {col: snake_to_camel_case(col).replace("Mobility", "") for col in mobility.columns}
+export_csv(mobility.rename(columns=rename_columns), v1_folder / "mobility.csv")
 
-# Create the v1 CSV files which only require column mapping
+# Create the v1 CSV files which only require simple column mapping
 v1_v2_name_map = {"response": "oxford-government-response"}
 for v1_name, v2_name in v1_v2_name_map.items():
     data = read_file(v2_folder / f"{v2_name}.csv")

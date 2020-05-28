@@ -32,7 +32,13 @@ class OpenZHPipeline(DefaultPipeline):
 
         # TODO: Match FL subdivision (not a canton?)
         data = data[data.subregion1_code != "FL"]
-        
+
+        # Data provided is cumulative, compute the diffs
         data = grouped_diff(data, ["subregion1_code", "date"])
         data["country_code"] = "CH"
+
+        # Country-level data is reported as "ZH"
+        country_mask = data.subregion1_code == "ZH"
+        data.loc[country_mask, "subregion1_code"] = None
+
         return data

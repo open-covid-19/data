@@ -122,8 +122,16 @@ class EpidemiologyPipelineChain(PipelineChain):
         # Data sources for DE level 2
         (Covid19GermanyPipeline(), {}),
         # Data sources for ES levels 1 + 2
-        # (DatadistaPipeline(), {}),
-        (ISCIIIPipeline(), {}),
+        (
+            DatadistaPipeline(),
+            # Remove dates with known bad data
+            {"filter_func": lambda x: x.date < "2020-05-22"},
+        ),
+        (
+            ISCIIIPipeline(),
+            # Remove dates with known bad data
+            {"filter_func": lambda x: x.date < "2020-05-22"},
+        ),
         # Data sources for FR level 2
         (
             WikipediaPipeline(
