@@ -599,7 +599,7 @@ Date,Country,Indicator,Value
 2020-03-15,England,Deaths,42
 2020-03-15,Northern Ireland,ConfirmedCases,57
 2020-03-15,Northern Ireland,Deaths,0
-2020-03-15,Northern Ireland,Tests,1235
+2020-03-15,Northern Ireland,Tests,1234
 2020-03-15,Scotland,ConfirmedCases,153
 2020-03-15,Scotland,Deaths,1
 2020-03-15,Scotland,Tests,4240
@@ -613,7 +613,7 @@ Date,Country,Indicator,Value
 2020-03-16,England,Deaths,64
 2020-03-16,Northern Ireland,ConfirmedCases,65
 2020-03-16,Northern Ireland,Deaths,0
-2020-03-16,Northern Ireland,Tests,1377
+2020-03-16,Northern Ireland,Tests,1376
 2020-03-16,Scotland,ConfirmedCases,171
 2020-03-16,Scotland,Deaths,1
 2020-03-16,Scotland,Tests,4895
@@ -627,7 +627,7 @@ Date,Country,Indicator,Value
 2020-03-17,England,Deaths,79
 2020-03-17,Northern Ireland,ConfirmedCases,74
 2020-03-17,Northern Ireland,Deaths,0
-2020-03-17,Northern Ireland,Tests,1508
+2020-03-17,Northern Ireland,Tests,1506
 2020-03-17,Scotland,ConfirmedCases,195
 2020-03-17,Scotland,Deaths,2
 2020-03-17,Scotland,Tests,5246
@@ -641,7 +641,7 @@ Date,Country,Indicator,Value
 2020-03-18,England,Deaths,112
 2020-03-18,Northern Ireland,ConfirmedCases,87
 2020-03-18,Northern Ireland,Deaths,1
-2020-03-18,Northern Ireland,Tests,1705
+2020-03-18,Northern Ireland,Tests,1703
 2020-03-18,Scotland,ConfirmedCases,227
 2020-03-18,Scotland,Deaths,3
 2020-03-18,Scotland,Tests,6091
@@ -655,7 +655,7 @@ Date,Country,Indicator,Value
 2020-03-19,England,Deaths,154
 2020-03-19,Northern Ireland,ConfirmedCases,102
 2020-03-19,Northern Ireland,Deaths,2
-2020-03-19,Northern Ireland,Tests,1895
+2020-03-19,Northern Ireland,Tests,1892
 2020-03-19,Scotland,ConfirmedCases,266
 2020-03-19,Scotland,Deaths,6
 2020-03-19,Scotland,Tests,6772
@@ -669,7 +669,7 @@ Date,Country,Indicator,Value
 2020-03-20,England,Deaths,186
 2020-03-20,Northern Ireland,ConfirmedCases,119
 2020-03-20,Northern Ireland,Deaths,1
-2020-03-20,Northern Ireland,Tests,2139
+2020-03-20,Northern Ireland,Tests,2136
 2020-03-20,Scotland,ConfirmedCases,322
 2020-03-20,Scotland,Deaths,6
 2020-03-20,Scotland,Tests,7550
@@ -683,7 +683,7 @@ Date,Country,Indicator,Value
 2020-03-21,England,Deaths,240
 2020-03-21,Northern Ireland,ConfirmedCases,141
 2020-03-21,Northern Ireland,Deaths,3
-2020-03-21,Northern Ireland,Tests,2347
+2020-03-21,Northern Ireland,Tests,2344
 2020-03-21,Scotland,ConfirmedCases,373
 2020-03-21,Scotland,Deaths,7
 2020-03-21,Scotland,Tests,8259
@@ -697,7 +697,7 @@ Date,Country,Indicator,Value
 2020-03-22,England,Deaths,264
 2020-03-22,Northern Ireland,ConfirmedCases,159
 2020-03-22,Northern Ireland,Deaths,4
-2020-03-22,Northern Ireland,Tests,2545
+2020-03-22,Northern Ireland,Tests,2541
 2020-03-22,Scotland,ConfirmedCases,416
 2020-03-22,Scotland,Deaths,10
 2020-03-22,Scotland,Tests,8679
@@ -711,7 +711,7 @@ Date,Country,Indicator,Value
 2020-03-23,England,Deaths,331
 2020-03-23,Northern Ireland,ConfirmedCases,198
 2020-03-23,Northern Ireland,Deaths,9
-2020-03-23,Northern Ireland,Tests,2918
+2020-03-23,Northern Ireland,Tests,2912
 2020-03-23,Scotland,ConfirmedCases,499
 2020-03-23,Scotland,Deaths,14
 2020-03-23,Scotland,Tests,9364
@@ -725,7 +725,7 @@ Date,Country,Indicator,Value
 2020-03-24,England,Deaths,474
 2020-03-24,Northern Ireland,ConfirmedCases,237
 2020-03-24,Northern Ireland,Deaths,11
-2020-03-24,Northern Ireland,Tests,3261
+2020-03-24,Northern Ireland,Tests,3255
 2020-03-24,Scotland,ConfirmedCases,584
 2020-03-24,Scotland,Deaths,16
 2020-03-24,Scotland,Tests,9968
@@ -739,7 +739,7 @@ Date,Country,Indicator,Value
 2020-03-25,England,Deaths,651
 2020-03-25,Northern Ireland,ConfirmedCases,295
 2020-03-25,Northern Ireland,Deaths,15
-2020-03-25,Northern Ireland,Tests,3663
+2020-03-25,Northern Ireland,Tests,3656
 2020-03-25,Scotland,ConfirmedCases,719
 2020-03-25,Scotland,Deaths,22
 2020-03-25,Scotland,Tests,10676
@@ -753,7 +753,7 @@ Date,Country,Indicator,Value
 2020-03-26,England,Deaths,820
 2020-03-26,Northern Ireland,ConfirmedCases,372
 2020-03-26,Northern Ireland,Deaths,17
-2020-03-26,Northern Ireland,Tests,4118
+2020-03-26,Northern Ireland,Tests,4111
 2020-03-26,Scotland,ConfirmedCases,894
 2020-03-26,Scotland,Deaths,25
 2020-03-26,Scotland,Tests,11487
@@ -767,7 +767,7 @@ Date,Country,Indicator,Value
 2020-03-27,England,Deaths,1092
 2020-03-27,Northern Ireland,ConfirmedCases,441
 2020-03-27,Northern Ireland,Deaths,20
-2020-03-27,Northern Ireland,Tests,4505
+2020-03-27,Northern Ireland,Tests,4497
 2020-03-27,Scotland,ConfirmedCases,1059
 2020-03-27,Scotland,Deaths,33
 2020-03-27,Scotland,Tests,12273
@@ -781,7 +781,7 @@ Date,Country,Indicator,Value
 2020-03-28,England,Deaths,1371
 2020-03-28,Northern Ireland,ConfirmedCases,520
 2020-03-28,Northern Ireland,Deaths,28
-2020-03-28,Northern Ireland,Tests,4844
+2020-03-28,Northern Ireland,Tests,4834
 2020-03-28,Scotland,ConfirmedCases,1245
 2020-03-28,Scotland,Deaths,40
 2020-03-28,Scotland,Tests,13133
@@ -795,7 +795,7 @@ Date,Country,Indicator,Value
 2020-03-29,England,Deaths,1566
 2020-03-29,Northern Ireland,ConfirmedCases,579
 2020-03-29,Northern Ireland,Deaths,32
-2020-03-29,Northern Ireland,Tests,5146
+2020-03-29,Northern Ireland,Tests,5135
 2020-03-29,Scotland,ConfirmedCases,1384
 2020-03-29,Scotland,Deaths,41
 2020-03-29,Scotland,Tests,13889
@@ -809,7 +809,7 @@ Date,Country,Indicator,Value
 2020-03-30,England,Deaths,1919
 2020-03-30,Northern Ireland,ConfirmedCases,662
 2020-03-30,Northern Ireland,Deaths,36
-2020-03-30,Northern Ireland,Tests,5577
+2020-03-30,Northern Ireland,Tests,5566
 2020-03-30,Scotland,ConfirmedCases,1563
 2020-03-30,Scotland,Deaths,47
 2020-03-30,Scotland,Tests,14624
@@ -823,7 +823,7 @@ Date,Country,Indicator,Value
 2020-03-31,England,Deaths,2287
 2020-03-31,Northern Ireland,ConfirmedCases,771
 2020-03-31,Northern Ireland,Deaths,41
-2020-03-31,Northern Ireland,Tests,6045
+2020-03-31,Northern Ireland,Tests,6033
 2020-03-31,Scotland,ConfirmedCases,1993
 2020-03-31,Scotland,Deaths,69
 2020-03-31,Scotland,Tests,15895
@@ -837,7 +837,7 @@ Date,Country,Indicator,Value
 2020-04-01,England,Deaths,2900
 2020-04-01,Northern Ireland,ConfirmedCases,875
 2020-04-01,Northern Ireland,Deaths,45
-2020-04-01,Northern Ireland,Tests,6550
+2020-04-01,Northern Ireland,Tests,6537
 2020-04-01,Scotland,ConfirmedCases,2310
 2020-04-01,Scotland,Deaths,97
 2020-04-01,Scotland,Tests,17007
@@ -851,7 +851,7 @@ Date,Country,Indicator,Value
 2020-04-02,England,Deaths,3503
 2020-04-02,Northern Ireland,ConfirmedCases,979
 2020-04-02,Northern Ireland,Deaths,55
-2020-04-02,Northern Ireland,Tests,6987
+2020-04-02,Northern Ireland,Tests,6972
 2020-04-02,Scotland,ConfirmedCases,2602
 2020-04-02,Scotland,Deaths,126
 2020-04-02,Scotland,Tests,18128
@@ -863,9 +863,9 @@ Date,Country,Indicator,Value
 2020-04-02,Wales,Tests,11087
 2020-04-03,England,ConfirmedCases,44811
 2020-04-03,England,Deaths,4158
-2020-04-03,Northern Ireland,ConfirmedCases,1067
+2020-04-03,Northern Ireland,ConfirmedCases,1068
 2020-04-03,Northern Ireland,Deaths,65
-2020-04-03,Northern Ireland,Tests,7347
+2020-04-03,Northern Ireland,Tests,7332
 2020-04-03,Scotland,ConfirmedCases,3001
 2020-04-03,Scotland,Deaths,172
 2020-04-03,Scotland,Tests,19535
@@ -877,9 +877,9 @@ Date,Country,Indicator,Value
 2020-04-03,Wales,Tests,11894
 2020-04-04,England,ConfirmedCases,48131
 2020-04-04,England,Deaths,4847
-2020-04-04,Northern Ireland,ConfirmedCases,1145
+2020-04-04,Northern Ireland,ConfirmedCases,1147
 2020-04-04,Northern Ireland,Deaths,74
-2020-04-04,Northern Ireland,Tests,7669
+2020-04-04,Northern Ireland,Tests,7654
 2020-04-04,Scotland,ConfirmedCases,3345
 2020-04-04,Scotland,Deaths,218
 2020-04-04,Scotland,Tests,20798
@@ -891,9 +891,9 @@ Date,Country,Indicator,Value
 2020-04-04,Wales,Tests,12563
 2020-04-05,England,ConfirmedCases,51160
 2020-04-05,England,Deaths,5425
-2020-04-05,Northern Ireland,ConfirmedCases,1202
+2020-04-05,Northern Ireland,ConfirmedCases,1205
 2020-04-05,Northern Ireland,Deaths,85
-2020-04-05,Northern Ireland,Tests,7925
+2020-04-05,Northern Ireland,Tests,7910
 2020-04-05,Scotland,ConfirmedCases,3706
 2020-04-05,Scotland,Deaths,220
 2020-04-05,Scotland,Tests,23143
@@ -905,9 +905,9 @@ Date,Country,Indicator,Value
 2020-04-05,Wales,Tests,13066
 2020-04-06,England,ConfirmedCases,55500
 2020-04-06,England,Deaths,5957
-2020-04-06,Northern Ireland,ConfirmedCases,1302
+2020-04-06,Northern Ireland,ConfirmedCases,1306
 2020-04-06,Northern Ireland,Deaths,91
-2020-04-06,Northern Ireland,Tests,8348
+2020-04-06,Northern Ireland,Tests,8333
 2020-04-06,Scotland,ConfirmedCases,3961
 2020-04-06,Scotland,Deaths,222
 2020-04-06,Scotland,Tests,24036
@@ -919,9 +919,9 @@ Date,Country,Indicator,Value
 2020-04-06,Wales,Tests,13882
 2020-04-07,England,ConfirmedCases,59996
 2020-04-07,England,Deaths,6967
-2020-04-07,Northern Ireland,ConfirmedCases,1427
+2020-04-07,Northern Ireland,ConfirmedCases,1435
 2020-04-07,Northern Ireland,Deaths,99
-2020-04-07,Northern Ireland,Tests,8820
+2020-04-07,Northern Ireland,Tests,8824
 2020-04-07,Scotland,ConfirmedCases,4229
 2020-04-07,Scotland,Deaths,296
 2020-04-07,Scotland,Tests,25022
@@ -933,9 +933,9 @@ Date,Country,Indicator,Value
 2020-04-07,Wales,Tests,14754
 2020-04-08,England,ConfirmedCases,64254
 2020-04-08,England,Deaths,7891
-2020-04-08,Northern Ireland,ConfirmedCases,1528
+2020-04-08,Northern Ireland,ConfirmedCases,1541
 2020-04-08,Northern Ireland,Deaths,103
-2020-04-08,Northern Ireland,Tests,9339
+2020-04-08,Northern Ireland,Tests,9362
 2020-04-08,Scotland,ConfirmedCases,4565
 2020-04-08,Scotland,Deaths,366
 2020-04-08,Scotland,Tests,26226
@@ -947,9 +947,9 @@ Date,Country,Indicator,Value
 2020-04-08,Wales,Tests,15671
 2020-04-09,England,ConfirmedCases,68277
 2020-04-09,England,Deaths,8878
-2020-04-09,Northern Ireland,ConfirmedCases,1630
+2020-04-09,Northern Ireland,ConfirmedCases,1644
 2020-04-09,Northern Ireland,Deaths,121
-2020-04-09,Northern Ireland,Tests,9931
+2020-04-09,Northern Ireland,Tests,9972
 2020-04-09,Scotland,ConfirmedCases,4957
 2020-04-09,Scotland,Deaths,447
 2020-04-09,Scotland,Tests,27518
@@ -961,9 +961,9 @@ Date,Country,Indicator,Value
 2020-04-09,Wales,Tests,16577
 2020-04-10,England,ConfirmedCases,71801
 2020-04-10,England,Deaths,9916
-2020-04-10,Northern Ireland,ConfirmedCases,1724
+2020-04-10,Northern Ireland,ConfirmedCases,1741
 2020-04-10,Northern Ireland,Deaths,132
-2020-04-10,Northern Ireland,Tests,10454
+2020-04-10,Northern Ireland,Tests,10509
 2020-04-10,Scotland,ConfirmedCases,5275
 2020-04-10,Scotland,Deaths,495
 2020-04-10,Scotland,Tests,28652
@@ -975,9 +975,9 @@ Date,Country,Indicator,Value
 2020-04-10,Wales,Tests,17313
 2020-04-11,England,ConfirmedCases,74804
 2020-04-11,England,Deaths,10661
-2020-04-11,Northern Ireland,ConfirmedCases,1788
+2020-04-11,Northern Ireland,ConfirmedCases,1809
 2020-04-11,Northern Ireland,Deaths,143
-2020-04-11,Northern Ireland,Tests,10782
+2020-04-11,Northern Ireland,Tests,10845
 2020-04-11,Scotland,ConfirmedCases,5590
 2020-04-11,Scotland,Deaths,542
 2020-04-11,Scotland,Tests,29903
@@ -989,9 +989,9 @@ Date,Country,Indicator,Value
 2020-04-11,Wales,Tests,17915
 2020-04-12,England,ConfirmedCases,77498
 2020-04-12,England,Deaths,11267
-2020-04-12,Northern Ireland,ConfirmedCases,1864
+2020-04-12,Northern Ireland,ConfirmedCases,1889
 2020-04-12,Northern Ireland,Deaths,159
-2020-04-12,Northern Ireland,Tests,11168
+2020-04-12,Northern Ireland,Tests,11244
 2020-04-12,Scotland,ConfirmedCases,5912
 2020-04-12,Scotland,Deaths,566
 2020-04-12,Scotland,Tests,31114
@@ -1003,9 +1003,9 @@ Date,Country,Indicator,Value
 2020-04-12,Wales,Tests,18481
 2020-04-13,England,ConfirmedCases,80837
 2020-04-13,England,Deaths,11961
-2020-04-13,Northern Ireland,ConfirmedCases,1970
+2020-04-13,Northern Ireland,ConfirmedCases,2001
 2020-04-13,Northern Ireland,Deaths,166
-2020-04-13,Northern Ireland,Tests,11549
+2020-04-13,Northern Ireland,Tests,11643
 2020-04-13,Scotland,ConfirmedCases,6067
 2020-04-13,Scotland,Deaths,575
 2020-04-13,Scotland,Tests,31813
@@ -1017,9 +1017,9 @@ Date,Country,Indicator,Value
 2020-04-13,Wales,Tests,19115
 2020-04-14,England,ConfirmedCases,84275
 2020-04-14,England,Deaths,12971
-2020-04-14,Northern Ireland,ConfirmedCases,2069
+2020-04-14,Northern Ireland,ConfirmedCases,2103
 2020-04-14,Northern Ireland,Deaths,178
-2020-04-14,Northern Ireland,Tests,12023
+2020-04-14,Northern Ireland,Tests,12126
 2020-04-14,Scotland,ConfirmedCases,6358
 2020-04-14,Scotland,Deaths,615
 2020-04-14,Scotland,Tests,32855
@@ -1031,9 +1031,9 @@ Date,Country,Indicator,Value
 2020-04-14,Wales,Tests,19875
 2020-04-15,England,ConfirmedCases,87902
 2020-04-15,England,Deaths,13703
-2020-04-15,Northern Ireland,ConfirmedCases,2201
+2020-04-15,Northern Ireland,ConfirmedCases,2240
 2020-04-15,Northern Ireland,Deaths,194
-2020-04-15,Northern Ireland,Tests,12639
+2020-04-15,Northern Ireland,Tests,12744
 2020-04-15,Scotland,ConfirmedCases,6748
 2020-04-15,Scotland,Deaths,699
 2020-04-15,Scotland,Tests,34064
@@ -1045,9 +1045,9 @@ Date,Country,Indicator,Value
 2020-04-15,Wales,Tests,20877
 2020-04-16,England,ConfirmedCases,91353
 2020-04-16,England,Deaths,14610
-2020-04-16,Northern Ireland,ConfirmedCases,2348
+2020-04-16,Northern Ireland,ConfirmedCases,2387
 2020-04-16,Northern Ireland,Deaths,205
-2020-04-16,Northern Ireland,Tests,13263
+2020-04-16,Northern Ireland,Tests,13360
 2020-04-16,Scotland,ConfirmedCases,7102
 2020-04-16,Scotland,Deaths,779
 2020-04-16,Scotland,Tests,35392
@@ -1059,9 +1059,9 @@ Date,Country,Indicator,Value
 2020-04-16,Wales,Tests,21882
 2020-04-17,England,ConfirmedCases,94786
 2020-04-17,England,Deaths,15436
-2020-04-17,Northern Ireland,ConfirmedCases,2515
+2020-04-17,Northern Ireland,ConfirmedCases,2556
 2020-04-17,Northern Ireland,Deaths,214
-2020-04-17,Northern Ireland,Tests,13924
+2020-04-17,Northern Ireland,Tests,14016
 2020-04-17,Scotland,ConfirmedCases,7409
 2020-04-17,Scotland,Deaths,837
 2020-04-17,Scotland,Tests,36637
@@ -1070,12 +1070,12 @@ Date,Country,Indicator,Value
 2020-04-17,UK,Tests,341551
 2020-04-17,Wales,ConfirmedCases,7790
 2020-04-17,Wales,Deaths,668
-2020-04-17,Wales,Tests,22890
+2020-04-17,Wales,Tests,22888
 2020-04-18,England,ConfirmedCases,97357
 2020-04-18,England,Deaths,16447
-2020-04-18,Northern Ireland,ConfirmedCases,2608
+2020-04-18,Northern Ireland,ConfirmedCases,2649
 2020-04-18,Northern Ireland,Deaths,224
-2020-04-18,Northern Ireland,Tests,14340
+2020-04-18,Northern Ireland,Tests,14431
 2020-04-18,Scotland,ConfirmedCases,7820
 2020-04-18,Scotland,Deaths,893
 2020-04-18,Scotland,Tests,38233
@@ -1084,12 +1084,12 @@ Date,Country,Indicator,Value
 2020-04-18,UK,Tests,357023
 2020-04-18,Wales,ConfirmedCases,8038
 2020-04-18,Wales,Deaths,700
-2020-04-18,Wales,Tests,23646
+2020-04-18,Wales,Tests,23643
 2020-04-19,England,ConfirmedCases,99443
 2020-04-19,England,Deaths,16831
-2020-04-19,Northern Ireland,ConfirmedCases,2654
+2020-04-19,Northern Ireland,ConfirmedCases,2695
 2020-04-19,Northern Ireland,Deaths,234
-2020-04-19,Northern Ireland,Tests,14623
+2020-04-19,Northern Ireland,Tests,14711
 2020-04-19,Scotland,ConfirmedCases,8187
 2020-04-19,Scotland,Deaths,903
 2020-04-19,Scotland,Tests,39612
@@ -1098,12 +1098,12 @@ Date,Country,Indicator,Value
 2020-04-19,UK,Tests,372967
 2020-04-19,Wales,ConfirmedCases,8219
 2020-04-19,Wales,Deaths,726
-2020-04-19,Wales,Tests,24218
+2020-04-19,Wales,Tests,24214
 2020-04-20,England,ConfirmedCases,102521
 2020-04-20,England,Deaths,17370
-2020-04-20,Northern Ireland,ConfirmedCases,2767
+2020-04-20,Northern Ireland,ConfirmedCases,2808
 2020-04-20,Northern Ireland,Deaths,246
-2020-04-20,Northern Ireland,Tests,15153
+2020-04-20,Northern Ireland,Tests,15240
 2020-04-20,Scotland,ConfirmedCases,8450
 2020-04-20,Scotland,Deaths,915
 2020-04-20,Scotland,Tests,40700
@@ -1112,12 +1112,12 @@ Date,Country,Indicator,Value
 2020-04-20,UK,Tests,386044
 2020-04-20,Wales,ConfirmedCases,8500
 2020-04-20,Wales,Deaths,751
-2020-04-20,Wales,Tests,25119
+2020-04-20,Wales,Tests,25115
 2020-04-21,England,ConfirmedCases,105513
 2020-04-21,England,Deaths,18492
-2020-04-21,Northern Ireland,ConfirmedCases,2905
+2020-04-21,Northern Ireland,ConfirmedCases,2946
 2020-04-21,Northern Ireland,Deaths,259
-2020-04-21,Northern Ireland,Tests,15830
+2020-04-21,Northern Ireland,Tests,15914
 2020-04-21,Scotland,ConfirmedCases,8672
 2020-04-21,Scotland,Deaths,985
 2020-04-21,Scotland,Tests,41699
@@ -1126,12 +1126,12 @@ Date,Country,Indicator,Value
 2020-04-21,UK,Tests,397670
 2020-04-21,Wales,ConfirmedCases,8759
 2020-04-21,Wales,Deaths,781
-2020-04-21,Wales,Tests,26136
+2020-04-21,Wales,Tests,26132
 2020-04-22,England,ConfirmedCases,108289
 2020-04-22,England,Deaths,19231
-2020-04-22,Northern Ireland,ConfirmedCases,3021
+2020-04-22,Northern Ireland,ConfirmedCases,3064
 2020-04-22,Northern Ireland,Deaths,278
-2020-04-22,Northern Ireland,Tests,16463
+2020-04-22,Northern Ireland,Tests,16541
 2020-04-22,Scotland,ConfirmedCases,9038
 2020-04-22,Scotland,Deaths,1062
 2020-04-22,Scotland,Tests,43309
@@ -1140,12 +1140,12 @@ Date,Country,Indicator,Value
 2020-04-22,UK,Tests,411192
 2020-04-22,Wales,ConfirmedCases,9012
 2020-04-22,Wales,Deaths,804
-2020-04-22,Wales,Tests,27072
+2020-04-22,Wales,Tests,27068
 2020-04-23,England,ConfirmedCases,111053
 2020-04-23,England,Deaths,19834
-2020-04-23,Northern Ireland,ConfirmedCases,3099
+2020-04-23,Northern Ireland,ConfirmedCases,3142
 2020-04-23,Northern Ireland,Deaths,294
-2020-04-23,Northern Ireland,Tests,16984
+2020-04-23,Northern Ireland,Tests,17061
 2020-04-23,Scotland,ConfirmedCases,9409
 2020-04-23,Scotland,Deaths,1120
 2020-04-23,Scotland,Tests,44799
@@ -1154,12 +1154,12 @@ Date,Country,Indicator,Value
 2020-04-23,UK,Tests,425821
 2020-04-23,Wales,ConfirmedCases,9212
 2020-04-23,Wales,Deaths,822
-2020-04-23,Wales,Tests,28044
+2020-04-23,Wales,Tests,28040
 2020-04-24,England,ConfirmedCases,113832
 2020-04-24,England,Deaths,20658
-2020-04-24,Northern Ireland,ConfirmedCases,3188
+2020-04-24,Northern Ireland,ConfirmedCases,3231
 2020-04-24,Northern Ireland,Deaths,303
-2020-04-24,Northern Ireland,Tests,17599
+2020-04-24,Northern Ireland,Tests,17669
 2020-04-24,Scotland,ConfirmedCases,9697
 2020-04-24,Scotland,Deaths,1184
 2020-04-24,Scotland,Tests,46089
@@ -1168,194 +1168,194 @@ Date,Country,Indicator,Value
 2020-04-24,UK,Tests,444222
 2020-04-24,Wales,ConfirmedCases,9425
 2020-04-24,Wales,Deaths,852
-2020-04-24,Wales,Tests,29079
+2020-04-24,Wales,Tests,29075
 2020-04-25,England,ConfirmedCases,115643
 2020-04-25,England,Deaths,21399
-2020-04-25,Northern Ireland,ConfirmedCases,3243
+2020-04-25,Northern Ireland,ConfirmedCases,3286
 2020-04-25,Northern Ireland,Deaths,318
-2020-04-25,Northern Ireland,Tests,18019
+2020-04-25,Northern Ireland,Tests,18087
 2020-04-25,Scotland,ConfirmedCases,10051
 2020-04-25,Scotland,Deaths,1231
 2020-04-25,Scotland,Tests,47749
 2020-04-25,UK,ConfirmedCases,148377
 2020-04-25,UK,Deaths,23635
 2020-04-25,UK,Tests,517836
-2020-04-25,Wales,ConfirmedCases,9561
+2020-04-25,Wales,ConfirmedCases,9562
 2020-04-25,Wales,Deaths,881
-2020-04-25,Wales,Tests,29727
+2020-04-25,Wales,Tests,29722
 2020-04-26,England,ConfirmedCases,117042
 2020-04-26,England,Deaths,21742
-2020-04-26,Northern Ireland,ConfirmedCases,3290
+2020-04-26,Northern Ireland,ConfirmedCases,3333
 2020-04-26,Northern Ireland,Deaths,332
-2020-04-26,Northern Ireland,Tests,18460
+2020-04-26,Northern Ireland,Tests,18526
 2020-04-26,Scotland,ConfirmedCases,10324
 2020-04-26,Scotland,Deaths,1249
 2020-04-26,Scotland,Tests,49157
 2020-04-26,UK,ConfirmedCases,152840
 2020-04-26,UK,Deaths,24055
 2020-04-26,UK,Tests,543413
-2020-04-26,Wales,ConfirmedCases,9681
+2020-04-26,Wales,ConfirmedCases,9682
 2020-04-26,Wales,Deaths,897
-2020-04-26,Wales,Tests,30233
+2020-04-26,Wales,Tests,30228
 2020-04-27,England,ConfirmedCases,119258
 2020-04-27,England,Deaths,22049
-2020-04-27,Northern Ireland,ConfirmedCases,3371
+2020-04-27,Northern Ireland,ConfirmedCases,3416
 2020-04-27,Northern Ireland,Deaths,344
-2020-04-27,Northern Ireland,Tests,19229
+2020-04-27,Northern Ireland,Tests,19294
 2020-04-27,Scotland,ConfirmedCases,10521
 2020-04-27,Scotland,Deaths,1262
 2020-04-27,Scotland,Tests,50294
 2020-04-27,UK,ConfirmedCases,157149
 2020-04-27,UK,Deaths,24393
 2020-04-27,UK,Tests,569768
-2020-04-27,Wales,ConfirmedCases,9847
+2020-04-27,Wales,ConfirmedCases,9848
 2020-04-27,Wales,Deaths,913
-2020-04-27,Wales,Tests,31090
+2020-04-27,Wales,Tests,31085
 2020-04-28,England,ConfirmedCases,121543
 2020-04-28,England,Deaths,22918
-2020-04-28,Northern Ireland,ConfirmedCases,3442
+2020-04-28,Northern Ireland,ConfirmedCases,3484
 2020-04-28,Northern Ireland,Deaths,350
-2020-04-28,Northern Ireland,Tests,20101
+2020-04-28,Northern Ireland,Tests,20156
 2020-04-28,Scotland,ConfirmedCases,10721
 2020-04-28,Scotland,Deaths,1332
 2020-04-28,Scotland,Tests,51499
 2020-04-28,UK,ConfirmedCases,161145
 2020-04-28,UK,Deaths,25302
 2020-04-28,UK,Tests,599339
-2020-04-28,Wales,ConfirmedCases,9995
+2020-04-28,Wales,ConfirmedCases,9996
 2020-04-28,Wales,Deaths,928
-2020-04-28,Wales,Tests,32044
+2020-04-28,Wales,Tests,32037
 2020-04-29,England,ConfirmedCases,123914
 2020-04-29,England,Deaths,23550
-2020-04-29,Northern Ireland,ConfirmedCases,3530
+2020-04-29,Northern Ireland,ConfirmedCases,3571
 2020-04-29,Northern Ireland,Deaths,364
-2020-04-29,Northern Ireland,Tests,21045
+2020-04-29,Northern Ireland,Tests,21093
 2020-04-29,Scotland,ConfirmedCases,11034
 2020-04-29,Scotland,Deaths,1415
 2020-04-29,Scotland,Tests,53082
 2020-04-29,UK,ConfirmedCases,165221
 2020-04-29,UK,Deaths,26097
 2020-04-29,UK,Tests,632794
-2020-04-29,Wales,ConfirmedCases,10162
+2020-04-29,Wales,ConfirmedCases,10163
 2020-04-29,Wales,Deaths,954
-2020-04-29,Wales,Tests,33060
+2020-04-29,Wales,Tests,33052
 2020-04-30,England,ConfirmedCases,126031
 2020-04-30,England,Deaths,24110
-2020-04-30,Northern Ireland,ConfirmedCases,3628
+2020-04-30,Northern Ireland,ConfirmedCases,3658
 2020-04-30,Northern Ireland,Deaths,372
-2020-04-30,Northern Ireland,Tests,22065
+2020-04-30,Northern Ireland,Tests,22079
 2020-04-30,Scotland,ConfirmedCases,11353
 2020-04-30,Scotland,Deaths,1475
 2020-04-30,Scotland,Tests,54639
 2020-04-30,UK,ConfirmedCases,171253
 2020-04-30,UK,Deaths,26771
 2020-04-30,UK,Tests,687369
-2020-04-30,Wales,ConfirmedCases,10356
+2020-04-30,Wales,ConfirmedCases,10357
 2020-04-30,Wales,Deaths,970
-2020-04-30,Wales,Tests,34118
+2020-04-30,Wales,Tests,34110
 2020-05-01,England,ConfirmedCases,127991
 2020-05-01,England,Deaths,24763
-2020-05-01,Northern Ireland,ConfirmedCases,3725
+2020-05-01,Northern Ireland,ConfirmedCases,3744
 2020-05-01,Northern Ireland,Deaths,384
-2020-05-01,Northern Ireland,Tests,23205
+2020-05-01,Northern Ireland,Tests,23207
 2020-05-01,Scotland,ConfirmedCases,11654
 2020-05-01,Scotland,Deaths,1515
 2020-05-01,Scotland,Tests,56702
 2020-05-01,UK,ConfirmedCases,177454
 2020-05-01,UK,Deaths,27510
 2020-05-01,UK,Tests,762279
-2020-05-01,Wales,ConfirmedCases,10517
+2020-05-01,Wales,ConfirmedCases,10518
 2020-05-01,Wales,Deaths,999
-2020-05-01,Wales,Tests,35299
+2020-05-01,Wales,Tests,35289
 2020-05-02,England,ConfirmedCases,129243
 2020-05-02,England,Deaths,25282
-2020-05-02,Northern Ireland,ConfirmedCases,3789
+2020-05-02,Northern Ireland,ConfirmedCases,3799
 2020-05-02,Northern Ireland,Deaths,396
-2020-05-02,Northern Ireland,Tests,24053
+2020-05-02,Northern Ireland,Tests,24038
 2020-05-02,Scotland,ConfirmedCases,11927
 2020-05-02,Scotland,Deaths,1559
 2020-05-02,Scotland,Tests,58833
 2020-05-02,UK,ConfirmedCases,182260
 2020-05-02,UK,Deaths,28131
 2020-05-02,UK,Tests,825946
-2020-05-02,Wales,ConfirmedCases,10686
+2020-05-02,Wales,ConfirmedCases,10687
 2020-05-02,Wales,Deaths,1013
-2020-05-02,Wales,Tests,36229
+2020-05-02,Wales,Tests,36219
 2020-05-03,England,ConfirmedCases,130218
 2020-05-03,England,Deaths,25528
-2020-05-03,Northern Ireland,ConfirmedCases,3824
+2020-05-03,Northern Ireland,ConfirmedCases,3827
 2020-05-03,Northern Ireland,Deaths,407
-2020-05-03,Northern Ireland,Tests,24607
+2020-05-03,Northern Ireland,Tests,24574
 2020-05-03,Scotland,ConfirmedCases,12097
 2020-05-03,Scotland,Deaths,1571
 2020-05-03,Scotland,Tests,60295
 2020-05-03,UK,ConfirmedCases,186599
 2020-05-03,UK,Deaths,28446
 2020-05-03,UK,Tests,882343
-2020-05-03,Wales,ConfirmedCases,10780
+2020-05-03,Wales,ConfirmedCases,10781
 2020-05-03,Wales,Deaths,1027
-2020-05-03,Wales,Tests,36723
+2020-05-03,Wales,Tests,36713
 2020-05-04,England,ConfirmedCases,131860
 2020-05-04,England,Deaths,25785
-2020-05-04,Northern Ireland,ConfirmedCases,3878
+2020-05-04,Northern Ireland,ConfirmedCases,3880
 2020-05-04,Northern Ireland,Deaths,415
-2020-05-04,Northern Ireland,Tests,25706
+2020-05-04,Northern Ireland,Tests,25671
 2020-05-04,Scotland,ConfirmedCases,12266
 2020-05-04,Scotland,Deaths,1576
 2020-05-04,Scotland,Tests,61696
 2020-05-04,UK,ConfirmedCases,190584
 2020-05-04,UK,Deaths,28734
 2020-05-04,UK,Tests,945299
-2020-05-04,Wales,ConfirmedCases,10911
+2020-05-04,Wales,ConfirmedCases,10912
 2020-05-04,Wales,Deaths,1050
-2020-05-04,Wales,Tests,37630
+2020-05-04,Wales,Tests,37620
 2020-05-05,England,ConfirmedCases,133485
 2020-05-05,England,Deaths,26441
-2020-05-05,Northern Ireland,ConfirmedCases,3936
+2020-05-05,Northern Ireland,ConfirmedCases,3938
 2020-05-05,Northern Ireland,Deaths,421
-2020-05-05,Northern Ireland,Tests,26811
+2020-05-05,Northern Ireland,Tests,26772
 2020-05-05,Scotland,ConfirmedCases,12437
 2020-05-05,Scotland,Deaths,1620
 2020-05-05,Scotland,Tests,63311
 2020-05-05,UK,ConfirmedCases,194990
 2020-05-05,UK,Deaths,29427
 2020-05-05,UK,Tests,1015138
-2020-05-05,Wales,ConfirmedCases,11074
+2020-05-05,Wales,ConfirmedCases,11075
 2020-05-05,Wales,Deaths,1067
-2020-05-05,Wales,Tests,38855
+2020-05-05,Wales,Tests,38844
 2020-05-06,England,ConfirmedCases,134961
 2020-05-06,England,Deaths,27008
-2020-05-06,Northern Ireland,ConfirmedCases,3976
+2020-05-06,Northern Ireland,ConfirmedCases,3978
 2020-05-06,Northern Ireland,Deaths,424
-2020-05-06,Northern Ireland,Tests,28017
+2020-05-06,Northern Ireland,Tests,27971
 2020-05-06,Scotland,ConfirmedCases,12709
 2020-05-06,Scotland,Deaths,1703
 2020-05-06,Scotland,Tests,65125
 2020-05-06,UK,ConfirmedCases,201101
 2020-05-06,UK,Deaths,30076
 2020-05-06,UK,Tests,1072144
-2020-05-06,Wales,ConfirmedCases,11241
+2020-05-06,Wales,ConfirmedCases,11242
 2020-05-06,Wales,Deaths,1090
-2020-05-06,Wales,Tests,40259
+2020-05-06,Wales,Tests,40246
 2020-05-07,England,ConfirmedCases,136438
 2020-05-07,England,Deaths,27432
-2020-05-07,Northern Ireland,ConfirmedCases,4033
+2020-05-07,Northern Ireland,ConfirmedCases,4035
 2020-05-07,Northern Ireland,Deaths,427
-2020-05-07,Northern Ireland,Tests,29111
+2020-05-07,Northern Ireland,Tests,29058
 2020-05-07,Scotland,ConfirmedCases,12924
 2020-05-07,Scotland,Deaths,1762
 2020-05-07,Scotland,Tests,67097
 2020-05-07,UK,ConfirmedCases,206715
 2020-05-07,UK,Deaths,30615
 2020-05-07,UK,Tests,1139626
-2020-05-07,Wales,ConfirmedCases,11409
+2020-05-07,Wales,ConfirmedCases,11410
 2020-05-07,Wales,Deaths,1109
-2020-05-07,Wales,Tests,41529
+2020-05-07,Wales,Tests,41514
 2020-05-08,England,ConfirmedCases,137474
 2020-05-08,England,Deaths,27967
-2020-05-08,Northern Ireland,ConfirmedCases,4075
+2020-05-08,Northern Ireland,ConfirmedCases,4077
 2020-05-08,Northern Ireland,Deaths,433
-2020-05-08,Northern Ireland,Tests,30077
+2020-05-08,Northern Ireland,Tests,30015
 2020-05-08,Scotland,ConfirmedCases,13149
 2020-05-08,Scotland,Deaths,1811
 2020-05-08,Scotland,Tests,69191
@@ -1364,12 +1364,12 @@ Date,Country,Indicator,Value
 2020-05-08,UK,Tests,1207069
 2020-05-08,Wales,ConfirmedCases,11511
 2020-05-08,Wales,Deaths,1122
-2020-05-08,Wales,Tests,42514
+2020-05-08,Wales,Tests,42498
 2020-05-09,England,ConfirmedCases,138377
 2020-05-09,England,Deaths,28250
-2020-05-09,Northern Ireland,ConfirmedCases,4108
+2020-05-09,Northern Ireland,ConfirmedCases,4110
 2020-05-09,Northern Ireland,Deaths,440
-2020-05-09,Northern Ireland,Tests,30921
+2020-05-09,Northern Ireland,Tests,30850
 2020-05-09,Scotland,ConfirmedCases,13305
 2020-05-09,Scotland,Deaths,1847
 2020-05-09,Scotland,Tests,71092
@@ -1378,12 +1378,12 @@ Date,Country,Indicator,Value
 2020-05-09,UK,Tests,1270408
 2020-05-09,Wales,ConfirmedCases,11635
 2020-05-09,Wales,Deaths,1129
-2020-05-09,Wales,Tests,43462
+2020-05-09,Wales,Tests,43446
 2020-05-10,England,ConfirmedCases,139103
 2020-05-10,England,Deaths,28467
-2020-05-10,Northern Ireland,ConfirmedCases,4153
+2020-05-10,Northern Ireland,ConfirmedCases,4155
 2020-05-10,Northern Ireland,Deaths,450
-2020-05-10,Northern Ireland,Tests,31735
+2020-05-10,Northern Ireland,Tests,31663
 2020-05-10,Scotland,ConfirmedCases,13486
 2020-05-10,Scotland,Deaths,1857
 2020-05-10,Scotland,Tests,72683
@@ -1392,12 +1392,12 @@ Date,Country,Indicator,Value
 2020-05-10,UK,Tests,1334770
 2020-05-10,Wales,ConfirmedCases,11736
 2020-05-10,Wales,Deaths,1139
-2020-05-10,Wales,Tests,44410
+2020-05-10,Wales,Tests,44394
 2020-05-11,England,ConfirmedCases,140346
 2020-05-11,England,Deaths,28657
-2020-05-11,Northern Ireland,ConfirmedCases,4217
+2020-05-11,Northern Ireland,ConfirmedCases,4219
 2020-05-11,Northern Ireland,Deaths,452
-2020-05-11,Northern Ireland,Tests,32850
+2020-05-11,Northern Ireland,Tests,32777
 2020-05-11,Scotland,ConfirmedCases,13627
 2020-05-11,Scotland,Deaths,1862
 2020-05-11,Scotland,Tests,74063
@@ -1406,12 +1406,12 @@ Date,Country,Indicator,Value
 2020-05-11,UK,Tests,1400107
 2020-05-11,Wales,ConfirmedCases,11908
 2020-05-11,Wales,Deaths,1154
-2020-05-11,Wales,Tests,45531
+2020-05-11,Wales,Tests,45514
 2020-05-12,England,ConfirmedCases,141444
 2020-05-12,England,Deaths,29260
-2020-05-12,Northern Ireland,ConfirmedCases,4274
+2020-05-12,Northern Ireland,ConfirmedCases,4276
 2020-05-12,Northern Ireland,Deaths,456
-2020-05-12,Northern Ireland,Tests,34012
+2020-05-12,Northern Ireland,Tests,33933
 2020-05-12,Scotland,ConfirmedCases,13763
 2020-05-12,Scotland,Deaths,1912
 2020-05-12,Scotland,Tests,75570
@@ -1420,12 +1420,12 @@ Date,Country,Indicator,Value
 2020-05-12,UK,Tests,1460517
 2020-05-12,Wales,ConfirmedCases,12047
 2020-05-12,Wales,Deaths,1165
-2020-05-12,Wales,Tests,46665
+2020-05-12,Wales,Tests,46648
 2020-05-13,England,ConfirmedCases,142519
 2020-05-13,England,Deaths,29673
-2020-05-13,Northern Ireland,ConfirmedCases,4306
+2020-05-13,Northern Ireland,ConfirmedCases,4308
 2020-05-13,Northern Ireland,Deaths,459
-2020-05-13,Northern Ireland,Tests,35249
+2020-05-13,Northern Ireland,Tests,35164
 2020-05-13,Scotland,ConfirmedCases,13929
 2020-05-13,Scotland,Deaths,1973
 2020-05-13,Scotland,Tests,77750
@@ -1434,12 +1434,12 @@ Date,Country,Indicator,Value
 2020-05-13,UK,Tests,1522258
 2020-05-13,Wales,ConfirmedCases,12190
 2020-05-13,Wales,Deaths,1180
-2020-05-13,Wales,Tests,48004
+2020-05-13,Wales,Tests,47987
 2020-05-14,England,ConfirmedCases,143439
 2020-05-14,England,Deaths,30028
-2020-05-14,Northern Ireland,ConfirmedCases,4340
+2020-05-14,Northern Ireland,ConfirmedCases,4342
 2020-05-14,Northern Ireland,Deaths,469
-2020-05-14,Northern Ireland,Tests,36356
+2020-05-14,Northern Ireland,Tests,36263
 2020-05-14,Scotland,ConfirmedCases,14117
 2020-05-14,Scotland,Deaths,2007
 2020-05-14,Scotland,Tests,80275
@@ -1448,12 +1448,12 @@ Date,Country,Indicator,Value
 2020-05-14,UK,Tests,1593902
 2020-05-14,Wales,ConfirmedCases,12310
 2020-05-14,Wales,Deaths,1192
-2020-05-14,Wales,Tests,49325
+2020-05-14,Wales,Tests,49308
 2020-05-15,England,ConfirmedCases,144361
 2020-05-15,England,Deaths,30364
-2020-05-15,Northern Ireland,ConfirmedCases,4381
+2020-05-15,Northern Ireland,ConfirmedCases,4382
 2020-05-15,Northern Ireland,Deaths,472
-2020-05-15,Northern Ireland,Tests,37647
+2020-05-15,Northern Ireland,Tests,37546
 2020-05-15,Scotland,ConfirmedCases,14260
 2020-05-15,Scotland,Deaths,2053
 2020-05-15,Scotland,Tests,82266
@@ -1462,12 +1462,12 @@ Date,Country,Indicator,Value
 2020-05-15,UK,Tests,1663492
 2020-05-15,Wales,ConfirmedCases,12485
 2020-05-15,Wales,Deaths,1208
-2020-05-15,Wales,Tests,51285
+2020-05-15,Wales,Tests,51268
 2020-05-16,England,ConfirmedCases,145013
 2020-05-16,England,Deaths,30753
-2020-05-16,Northern Ireland,ConfirmedCases,4404
+2020-05-16,Northern Ireland,ConfirmedCases,4405
 2020-05-16,Northern Ireland,Deaths,476
-2020-05-16,Northern Ireland,Tests,38420
+2020-05-16,Northern Ireland,Tests,38313
 2020-05-16,Scotland,ConfirmedCases,14447
 2020-05-16,Scotland,Deaths,2094
 2020-05-16,Scotland,Tests,85604
@@ -1476,12 +1476,12 @@ Date,Country,Indicator,Value
 2020-05-16,UK,Tests,1742028
 2020-05-16,Wales,ConfirmedCases,12644
 2020-05-16,Wales,Deaths,1221
-2020-05-16,Wales,Tests,53024
+2020-05-16,Wales,Tests,53007
 2020-05-17,England,ConfirmedCases,145655
 2020-05-17,England,Deaths,30866
-2020-05-17,Northern Ireland,ConfirmedCases,4427
+2020-05-17,Northern Ireland,ConfirmedCases,4428
 2020-05-17,Northern Ireland,Deaths,483
-2020-05-17,Northern Ireland,Tests,39076
+2020-05-17,Northern Ireland,Tests,38963
 2020-05-17,Scotland,ConfirmedCases,14537
 2020-05-17,Scotland,Deaths,2103
 2020-05-17,Scotland,Tests,87660
@@ -1490,12 +1490,12 @@ Date,Country,Indicator,Value
 2020-05-17,UK,Tests,1818712
 2020-05-17,Wales,ConfirmedCases,12757
 2020-05-17,Wales,Deaths,1231
-2020-05-17,Wales,Tests,54251
+2020-05-17,Wales,Tests,54231
 2020-05-18,England,ConfirmedCases,146629
 2020-05-18,England,Deaths,31010
-2020-05-18,Northern Ireland,ConfirmedCases,4460
+2020-05-18,Northern Ireland,ConfirmedCases,4461
 2020-05-18,Northern Ireland,Deaths,490
-2020-05-18,Northern Ireland,Tests,40371
+2020-05-18,Northern Ireland,Tests,40240
 2020-05-18,Scotland,ConfirmedCases,14594
 2020-05-18,Scotland,Deaths,2105
 2020-05-18,Scotland,Tests,88940
@@ -1504,24 +1504,24 @@ Date,Country,Indicator,Value
 2020-05-18,UK,Tests,1887051
 2020-05-18,Wales,ConfirmedCases,12921
 2020-05-18,Wales,Deaths,1241
-2020-05-18,Wales,Tests,55721
+2020-05-18,Wales,Tests,55700
 2020-05-19,England,ConfirmedCases,147704
 2020-05-19,England,Deaths,31530
 2020-05-19,Northern Ireland,ConfirmedCases,4505
 2020-05-19,Northern Ireland,Deaths,495
-2020-05-19,Northern Ireland,Tests,41588
+2020-05-19,Northern Ireland,Tests,41443
 2020-05-19,Scotland,ConfirmedCases,14655
 2020-05-19,Scotland,Deaths,2134
 2020-05-19,Scotland,Tests,90421
 2020-05-19,UK,Deaths,35341
 2020-05-19,Wales,ConfirmedCases,13128
 2020-05-19,Wales,Deaths,1251
-2020-05-19,Wales,Tests,57814
+2020-05-19,Wales,Tests,57793
 2020-05-20,England,ConfirmedCases,148530
 2020-05-20,England,Deaths,31843
 2020-05-20,Northern Ireland,ConfirmedCases,4531
 2020-05-20,Northern Ireland,Deaths,500
-2020-05-20,Northern Ireland,Tests,42843
+2020-05-20,Northern Ireland,Tests,42687
 2020-05-20,Scotland,ConfirmedCases,14751
 2020-05-20,Scotland,Deaths,2184
 2020-05-20,Scotland,Tests,92594
@@ -1530,90 +1530,101 @@ Date,Country,Indicator,Value
 2020-05-20,UK,Tests,1996648
 2020-05-20,Wales,ConfirmedCases,13280
 2020-05-20,Wales,Deaths,1257
-2020-05-20,Wales,Tests,59948
+2020-05-20,Wales,Tests,59933
 2020-05-21,England,ConfirmedCases,149276
 2020-05-21,England,Deaths,32117
 2020-05-21,Northern Ireland,ConfirmedCases,4570
 2020-05-21,Northern Ireland,Deaths,504
-2020-05-21,Northern Ireland,Tests,44054
+2020-05-21,Northern Ireland,Tests,43887
 2020-05-21,Scotland,ConfirmedCases,14856
 2020-05-21,Scotland,Deaths,2221
 2020-05-21,Scotland,Tests,95173
 2020-05-21,UK,ConfirmedCases,250908
 2020-05-21,UK,Deaths,36042
 2020-05-21,UK,Tests,2064329
-2020-05-21,Wales,ConfirmedCases,13384
+2020-05-21,Wales,ConfirmedCases,13387
 2020-05-21,Wales,Deaths,1264
-2020-05-21,Wales,Tests,62064
+2020-05-21,Wales,Tests,62052
 2020-05-22,England,ConfirmedCases,149946
 2020-05-22,England,Deaths,32417
-2020-05-22,Northern Ireland,ConfirmedCases,4590
-2020-05-22,Northern Ireland,Tests,45342
+2020-05-22,Northern Ireland,ConfirmedCases,4589
+2020-05-22,Northern Ireland,Tests,45157
 2020-05-22,Scotland,ConfirmedCases,14969
 2020-05-22,Scotland,Deaths,2245
 2020-05-22,Scotland,Tests,97607
 2020-05-22,UK,ConfirmedCases,254195
 2020-05-22,UK,Deaths,36393
 2020-05-22,UK,Tests,2144626
-2020-05-22,Wales,ConfirmedCases,13486
-2020-05-22,Wales,Deaths,1272
-2020-05-22,Wales,Tests,63936
+2020-05-22,Wales,ConfirmedCases,13493
+2020-05-22,Wales,Deaths,1273
+2020-05-22,Wales,Tests,64071
 2020-05-23,England,ConfirmedCases,150339
 2020-05-23,England,Deaths,32666
-2020-05-23,Northern Ireland,ConfirmedCases,4624
+2020-05-23,Northern Ireland,ConfirmedCases,4623
 2020-05-23,Northern Ireland,Deaths,506
-2020-05-23,Northern Ireland,Tests,46244
+2020-05-23,Northern Ireland,Tests,46049
 2020-05-23,Scotland,ConfirmedCases,15041
 2020-05-23,Scotland,Deaths,2261
 2020-05-23,Scotland,Tests,99932
 2020-05-23,UK,ConfirmedCases,257154
 2020-05-23,UK,Deaths,36675
-2020-05-23,Wales,ConfirmedCases,13588
-2020-05-23,Wales,Deaths,1277
-2020-05-23,Wales,Tests,66022
+2020-05-23,Wales,ConfirmedCases,13597
+2020-05-23,Wales,Deaths,1280
+2020-05-23,Wales,Tests,66234
 2020-05-24,England,ConfirmedCases,150656
 2020-05-24,England,Deaths,32760
-2020-05-24,Northern Ireland,ConfirmedCases,4637
+2020-05-24,Northern Ireland,ConfirmedCases,4636
 2020-05-24,Northern Ireland,Deaths,513
-2020-05-24,Northern Ireland,Tests,47003
+2020-05-24,Northern Ireland,Tests,46798
 2020-05-24,Scotland,ConfirmedCases,15101
 2020-05-24,Scotland,Deaths,2270
 2020-05-24,Scotland,Tests,101713
 2020-05-24,UK,ConfirmedCases,259559
 2020-05-24,UK,Deaths,36793
-2020-05-24,Wales,ConfirmedCases,13639
-2020-05-24,Wales,Deaths,1286
-2020-05-24,Wales,Tests,66884
+2020-05-24,Wales,ConfirmedCases,13657
+2020-05-24,Wales,Deaths,1291
+2020-05-24,Wales,Tests,67396
 2020-05-25,England,ConfirmedCases,150864
 2020-05-25,England,Deaths,32864
-2020-05-25,Northern Ireland,ConfirmedCases,4656
+2020-05-25,Northern Ireland,ConfirmedCases,4655
 2020-05-25,Northern Ireland,Deaths,514
-2020-05-25,Northern Ireland,Tests,48047
+2020-05-25,Northern Ireland,Tests,47831
 2020-05-25,Scotland,ConfirmedCases,15156
 2020-05-25,Scotland,Deaths,2273
 2020-05-25,Scotland,Tests,103508
 2020-05-25,UK,ConfirmedCases,261184
 2020-05-25,UK,Deaths,36914
-2020-05-25,Wales,ConfirmedCases,13653
-2020-05-25,Wales,Deaths,1293
-2020-05-25,Wales,Tests,67160
+2020-05-25,Wales,ConfirmedCases,13712
+2020-05-25,Wales,Deaths,1301
+2020-05-25,Wales,Tests,68221
 2020-05-26,England,ConfirmedCases,150903
 2020-05-26,England,Deaths,32979
-2020-05-26,Northern Ireland,ConfirmedCases,4663
+2020-05-26,Northern Ireland,ConfirmedCases,4671
 2020-05-26,Northern Ireland,Deaths,515
-2020-05-26,Northern Ireland,Tests,48374
+2020-05-26,Northern Ireland,Tests,48943
 2020-05-26,Scotland,ConfirmedCases,15185
 2020-05-26,Scotland,Deaths,2291
 2020-05-26,Scotland,Tests,104880
 2020-05-26,UK,ConfirmedCases,265227
 2020-05-26,UK,Deaths,37048
-2020-05-26,Wales,ConfirmedCases,13653
-2020-05-26,Wales,Deaths,1293
-2020-05-26,Wales,Tests,67172
+2020-05-26,Wales,ConfirmedCases,13724
+2020-05-26,Wales,Deaths,1306
+2020-05-26,Wales,Tests,68379
 2020-05-27,England,Deaths,33362
-2020-05-27,Northern Ireland,Deaths,516
+2020-05-27,Northern Ireland,ConfirmedCases,4679
+2020-05-27,Northern Ireland,Deaths,517
+2020-05-27,Northern Ireland,Tests,49440
 2020-05-27,Scotland,ConfirmedCases,15240
 2020-05-27,Scotland,Deaths,2304
 2020-05-27,Scotland,Tests,106984
 2020-05-27,UK,ConfirmedCases,267240
 2020-05-27,UK,Deaths,37460
+2020-05-27,Wales,ConfirmedCases,13725
+2020-05-27,Wales,Deaths,1307
+2020-05-27,Wales,Tests,68388
+2020-05-28,Northern Ireland,ConfirmedCases,4679
+2020-05-28,Northern Ireland,Deaths,518
+2020-05-28,Northern Ireland,Tests,49441
+2020-05-28,Scotland,ConfirmedCases,15288
+2020-05-28,Scotland,Deaths,2316
+2020-05-28,Scotland,Tests,109031
