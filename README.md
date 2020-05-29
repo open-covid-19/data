@@ -1,18 +1,20 @@
 # Open COVID-19 Dataset
+
 This repository contains datasets of daily time-series data related to COVID-19 for 30 countries
 around the world. For most countries, the data is at the spatial resolution of states/provinces,
-although for US, UK, NL and CO, it is at the finer resolution of county/municipality. All regions are
-assigned a unique key, which resolves discrepancies between ISO/ NUTS/ FIPS codes, etc.
+although for US, UK, NL and CO, it is at the finer resolution of county/municipality. All regions
+are assigned a unique key, which resolves discrepancies between ISO/ NUTS/ FIPS codes, etc.
 
 There are multiple types of data:
-* outcome data Y(i,t), such as cases, deaths, tests, for regions i and time t
-* static covariate data X(i), such as population size, GDP, latitude/ longitude
-* dynamic covariate data X(i,t), such as mobility, weather
-* dynamic interventional data C(i,t), such as government lockdowns
-The data is drawn from multiple sources, as listed [below](#sources-of-data). 
+* Outcome data `Y(i,t)`, such as cases, deaths, tests, for regions i and time t
+* Static covariate data `X(i)`, such as population size, GDP, latitude/ longitude
+* Dynamic covariate data `X(i,t)`, such as mobility, weather
+* Dynamic interventional data `C(i,t)`, such as government lockdowns
 
-The data is stored in separate csv/ json files,
-which can be easily merged due to the use of consistent geographic (and temporal) keys.
+The data is drawn from multiple sources, as listed [below](#sources-of-data).
+
+The data is stored in separate csv/ json files, which can be easily merged due to the use of
+consistent geographic (and temporal) keys.
 
 | Table | Keys<sup>1</sup> | Content | URL | Source<sup>2</sup> |
 | ----- | ---------------- | ------- | --- | ------------------ |
@@ -28,8 +30,8 @@ which can be easily merged due to the use of consistent geographic (and temporal
 
 <sup>1</sup> `key` is a unique string for the specific geographical region built from a combination
 of codes such as `ISO 3166`, `NUTS`, `FIPS` and other local equivalents.\
-<sup>2</sup> Refer to the [data sources](#sources-of-data) for specifics about each data source and the
-associated terms of use.\
+<sup>2</sup> Refer to the [data sources](#sources-of-data) for specifics about each data source and
+the associated terms of use.\
 <sup>3</sup> Datasets without a `date` column contain the most recently reported information for
 each datapoint to date.
 
@@ -41,22 +43,23 @@ For more information about how to use these files see the section about
 
 ## Why another dataset?
 
-There are many other public covid19 datasets.
-However, we believe this dataset is unique in the way that it merges multiple global sources,
-at a fine spatial resolution,
-using a consistent set of region keys. We hope this will make it easier for researchers to use.
-We are also very transparent about the [data sources](#sources-of-data),
-and the  [code](src/README.md) for ingesting and merging the data is easy to understand and modify.
-
+There are many other public COVID-19 datasets. However, we believe this dataset is unique in the way
+that it merges multiple global sources, at a fine spatial resolution, using a consistent set of
+region keys. We hope this will make it easier for researchers to use. We are also very transparent
+about the [data sources](#sources-of-data), and the [code](src/README.md) for ingesting and merging
+the data is easy to understand and modify.
 
 
 ## Explore the data
+
 |     |     |
 | --- | --- |
 | A simple visualization tool was built to explore the Open COVID-19 datasets, the [Open COVID-19 Explorer][12]: [![](https://github.com/open-covid-19/explorer/raw/master/screenshots/explorer.png)][12] | If you want to see [interactive charts with a unique UX][14], don't miss what [@Mahks](https://github.com/Mahks) built using the Open COVID-19 dataset: [![](https://i.imgur.com/cIODOtp.png)][14] |
 | You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/nFwxJId.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
 | Become an armchair epidemiologist with the [COVID-19 timeline simulation tool][19] built by [@LeviticusMB](https://github.com/LeviticusMB): [![](https://i.imgur.com/4iWaP7E.png)][19] | Whether you want an interactive map, compare stats or look at charts, [@saadmas](https://github.com/saadmas) has you covered with a [COVID-19 Daily Tracking site][20]: [![](https://i.imgur.com/rAJvLSI.png)][20] |
 | Compare per-million data at [Omnimodel][21] thanks to [@OmarJay1](https://github.com/OmarJay1): [![](https://i.imgur.com/RG7ZKXp.png)][21] |  |
+
+
 
 ## Use the data
 
@@ -123,7 +126,10 @@ Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/latest/master.csv' | 
     where Key -eq 'AU' | select country_name,date,total_confirmed,total_deceased,total_recovered
 ```
 
+
+
 ## Understand the data
+
 Make sure that you are using the URL [linked at the table above](#open-covid-19-dataset) and not the
 raw GitHub file, the latter is subject to change at any moment in non-compatible ways, and due to
 the configuration of GitHub's raw file server you may run into potential caching issues.
@@ -300,9 +306,8 @@ shouldn't be used in any new projects:
 
 
 
-
-
 ## Sources of data
+
 All data in this repository is retrieved automatically. When possible, data is retrieved directly
 from the relevant authorities, like a country's ministry of health.
 
@@ -354,7 +359,9 @@ from the relevant authorities, like a country's ministry of health.
 | USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
 
 
+
 ## Running the data extraction pipeline
+
 To update the contents of the [output folder](output), first install the dependencies:
 ```sh
 pip install -r requirements.txt
@@ -368,18 +375,22 @@ python run.py
 
 See the [source documentation](src) for more technical details.
 
+
+
 ## Contribute
-If you spot an error in the data, or there's a country you would like to include, the best way to contribute to
-this project is by helping maintain the data on the relevant Wikipedia article. Not only can that
-data be parsed automatically by this project, but it will also help inform millions of others that
-receive their information from Wikipedia. 
+If you spot an error in the data, or there's a country you would like to include, the best way to
+contribute to this project is by helping maintain the data on the relevant Wikipedia article. Not
+only can that data be parsed automatically by this project, but it will also help inform millions of
+others that receive their information from Wikipedia.
 
-For code contributions, take a look at the [source directory](src/README.md) for more
-information.
+For code contributions, take a look at the [source directory](src/README.md) for more information.
 
-If you do something cool with the data (e.g., visualization or analysis), please let us know.
+If you do something cool with the data (e.g., visualization or analysis), please let us know!
+
+
 
 ## Contributors
+
 The main creator of this project is Oscar Wahltinez.
 Other contributors will be listed here in the future.
 
