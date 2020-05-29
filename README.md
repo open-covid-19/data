@@ -42,8 +42,12 @@ For more information about how to use these files see the section about
 ## Why another dataset?
 
 There are many other public covid19 datasets.
-However, we believe this dataset is unique in the way that it merges multiple global sources
+However, we believe this dataset is unique in the way that it merges multiple global sources,
+at a fine spatial resolution,
 using a consistent set of region keys. We hope this will make it easier for researchers to use.
+We are also very transparent about the [data sources](#sources-of-data),
+and the  [code](src/README.md) for ingesting and merging the data is easy to understand and modify.
+
 
 
 ## Explore the data
@@ -350,7 +354,7 @@ from the relevant authorities, like a country's ministry of health.
 | USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
 
 
-## Update the data
+## Running the data extraction pipeline
 To update the contents of the [output folder](output), first install the dependencies:
 ```sh
 pip install -r requirements.txt
