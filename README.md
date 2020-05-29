@@ -5,11 +5,11 @@ although for US, UK, NL and CO, it is at the finer resolution of county/municipa
 assigned a unique key, which resolves discrepancies between ISO/ NUTS/ FIPS codes, etc.
 
 There are multiple types of data:
-* outcome data Y(i,t), such as cases, deaths, tests, hospital occupancy, for regions i and time t
+* outcome data Y(i,t), such as cases, deaths, tests, for regions i and time t
 * static covariate data X(i), such as population size, GDP, latitude/ longitude
 * dynamic covariate data X(i,t), such as mobility, weather
 * dynamic interventional data C(i,t), such as government lockdowns
-The data is drawn from multiple sources, as listed below. 
+The data is drawn from multiple sources, as listed [below](#sources-of-data). 
 
 The data is stored in separate csv/ json files,
 which can be easily merged due to the use of consistent geographic (and temporal) keys.
@@ -28,7 +28,7 @@ which can be easily merged due to the use of consistent geographic (and temporal
 
 <sup>1</sup> `key` is a unique string for the specific geographical region built from a combination
 of codes such as `ISO 3166`, `NUTS`, `FIPS` and other local equivalents.\
-<sup>2</sup> Refer to the [data sources](sources-of-data) for specifics about each data source and the
+<sup>2</sup> Refer to the [data sources](#sources-of-data) for specifics about each data source and the
 associated terms of use.\
 <sup>3</sup> Datasets without a `date` column contain the most recently reported information for
 each datapoint to date.
@@ -37,6 +37,15 @@ For more information about how to use these files see the section about
 [using the data](#use-the-data), and for more details about each dataset see the section about
 [understanding the data](#understand-the-data).
 
+
+
+## Why another dataset?
+
+There are many other public covid19 datasets.
+However, we believe this dataset is unique in the way that it merges multiple global sources
+using a consistent set of region keys. We hope this will make it easier for researchers to use.
+
+
 ## Explore the data
 |     |     |
 | --- | --- |
@@ -44,9 +53,6 @@ For more information about how to use these files see the section about
 | You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/nFwxJId.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
 | Become an armchair epidemiologist with the [COVID-19 timeline simulation tool][19] built by [@LeviticusMB](https://github.com/LeviticusMB): [![](https://i.imgur.com/4iWaP7E.png)][19] | Whether you want an interactive map, compare stats or look at charts, [@saadmas](https://github.com/saadmas) has you covered with a [COVID-19 Daily Tracking site][20]: [![](https://i.imgur.com/rAJvLSI.png)][20] |
 | Compare per-million data at [Omnimodel][21] thanks to [@OmarJay1](https://github.com/OmarJay1): [![](https://i.imgur.com/RG7ZKXp.png)][21] |  |
-
-If you are using this data, feel free to open an issue and let us know so we can give a call-out to
-your project here.
 
 ## Use the data
 
@@ -288,16 +294,9 @@ shouldn't be used in any new projects:
 * [Mobility](https://open-covid-19.github.io/data/mobility.csv)
 * [Weather](https://open-covid-19.github.io/data/weather.csv)
 
-## Contribute
-The data from this repository has become increasingly reliant on Wikipedia sources. If you spot an
-error in the data, or there's a country you would like to include, the best way to contribute to
-this project is by helping maintain the data on the relevant Wikipedia article. Not only can that
-data be parsed automatically by this project, but it will also help inform millions of others that
-receive their information from Wikipedia. See the section below for a direct link to what Wikipedia
-data is being parsed by this project.
 
-For technical contributions, take a look at the [source directory](src/README.md) for more
-information.
+
+
 
 ## Sources of data
 All data in this repository is retrieved automatically. When possible, data is retrieved directly
@@ -350,12 +349,6 @@ from the relevant authorities, like a country's ministry of health.
 | USA | [NYT COVID Dataset](https://github.com/nytimes) | [Attribution required, non-commercial use](https://github.com/nytimes/covid-19-data/blob/master/LICENSE) |
 | USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
 
-## Why another dataset?
-This dataset is heavily inspired by the dataset maintained by [Johns Hopkins University][1].
-Unfortunately, that dataset has intermittently experienced maintenance issues and a lot of
-applications depend on this critical data being available in a timely manner. Further, the true
-sources of data for that dataset are still unclear and the methodology used to process the data has
-not been made open sourced (at least at the time of this writing).
 
 ## Update the data
 To update the contents of the [output folder](output), first install the dependencies:
@@ -370,6 +363,21 @@ python run.py
 ```
 
 See the [source documentation](src) for more technical details.
+
+## Contribute
+If you spot an error in the data, or there's a country you would like to include, the best way to contribute to
+this project is by helping maintain the data on the relevant Wikipedia article. Not only can that
+data be parsed automatically by this project, but it will also help inform millions of others that
+receive their information from Wikipedia. 
+
+For code contributions, take a look at the [source directory](src/README.md) for more
+information.
+
+If you do something cool with the data (e.g., visualization or analysis), please let us know.
+
+## Contributors
+The main creator of this project is Oscar Wahltinez.
+Other contributors will be listed here in the future.
 
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu
