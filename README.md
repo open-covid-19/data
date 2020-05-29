@@ -1,17 +1,18 @@
 # Open COVID-19 Dataset
-This repository contains datasets of daily time-series data related to COVID-19, including
-state/province epidemiology data for over 30 countries and county/municipality data for US, UK, NL
-and CO.
+This repository contains datasets of daily time-series data related to COVID-19 for 30 countries
+around the world. For most countries, the data is at the spatial resolution of states/provinces,
+although for US, UK, NL and CO, it is at the finer resolution of county/municipality. All regions are
+assigned a unique key, which resolves discrepancies between ISO/ NUTS/ FIPS codes, etc.
 
-The data is available as CSV and JSON files, which are published in Github Pages so they can be
-served directly to Javascript applications without the need of a proxy to set the correct headers
-for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
-is preferred in order to avoid caching issues and potential, future breaking changes.
+There are multiple types of data:
+* outcome data Y(i,t), such as cases, deaths, tests, hospital occupancy, for regions i and time t
+* static covariate data X(i), such as population size, GDP, latitude/ longitude
+* dynamic covariate data X(i,t), such as mobility, weather
+* dynamic interventional data C(i,t), such as government lockdowns
+The data is drawn from multiple sources, as listed below. 
 
-For the purpose of making the data as easy to use as possible, there is a [master](#master) table
-which contains the columns of all other tables joined by `key` and `date`. However,
-performance-wise, it may be better to download the data separately and join the tables locally. The
-datasets available from this project are:
+The data is stored in separate csv/ json files,
+which can be easily merged due to the use of consistent geographic (and temporal) keys.
 
 | Table | Keys<sup>1</sup> | Content | URL | Source<sup>2</sup> |
 | ----- | ---------------- | ------- | --- | ------------------ |
@@ -48,6 +49,16 @@ If you are using this data, feel free to open an issue and let us know so we can
 your project here.
 
 ## Use the data
+
+The data is available as CSV and JSON files, which are published in Github Pages so they can be
+served directly to Javascript applications without the need of a proxy to set the correct headers
+for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
+is preferred in order to avoid caching issues and potential, future breaking changes.
+
+For the purpose of making the data as easy to use as possible, there is a [master](#master) table
+which contains the columns of all other tables joined by `key` and `date`. However,
+performance-wise, it may be better to download the data separately and join the tables locally.
+
 Each table has a full version as well as subsets with only the last 30, 14, 7 and 1 days of data.
 The full version is accessible at the URL described [in the table above](#open-covid-19-dataset).
 The subsets can be found by appending the number of days to the path. For example, the subsets of
