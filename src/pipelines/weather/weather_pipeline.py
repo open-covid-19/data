@@ -1,3 +1,17 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import re
 import sys
 import math
@@ -12,15 +26,15 @@ from tqdm.contrib import concurrent
 from pandas import DataFrame, Series, Int64Dtype, merge, read_csv, concat, isna
 
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DefaultPipeline, PipelineChain
+from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
 from lib.time import datetime_isoformat
 from lib.utils import ROOT
 
 
-class WeatherPipeline(DefaultPipeline):
+class WeatherPipeline(DataPipeline):
 
     # A bit of a circular dependency but we need the latitude and longitude to compute weather
-    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
+    def fetch(self, cache: Dict[str, str], fetch_opts: Dict[str, Any]) -> List[str]:
         return [ROOT / "output" / "tables" / "geography.csv"]
 
     @staticmethod
@@ -155,19 +169,3 @@ class WeatherPipeline(DefaultPipeline):
         records = concurrent.thread_map(map_func, map_iter, total=len(metadata))
 
         return concat(records)
-
-
-class WeatherPipelineChain(PipelineChain):
-
-    schema: Dict[str, type] = {
-        "date": str,
-        "key": str,
-        "noaa_station": str,
-        "noaa_distance": float,
-        "minimum_temperature": float,
-        "maximum_temperature": float,
-        "rainfall": float,
-        "snowfall": float,
-    }
-
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [(WeatherPipeline(), {})]

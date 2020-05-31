@@ -56,11 +56,11 @@ individual records output by the pipeline have to follow the following guideline
   [metadata table](data/metadata.csv). Otherwise, it will be dropped from the output.
 * Each record **may** include a `date` column, which must be ISO 8601 format (i.e. `YYYY-MM-DD`).
 
-To make writing pipelines easier, a default implementation [`DefaultPipeline`](lib/pipeline.py)
+To make writing pipelines easier, a default implementation [`DataPipeline`](lib/pipeline.py)
 already includes a lot of the functionality that is likely to be used by a standard data parsing
 routine, including downloading and conversion of raw resources into a pandas `DataFrame`. See the
 [template pipeline](pipelines/_template/srcname_pipeline.py) for a trivial example which subclasses
-the `DefaultPipeline` implementation.
+the `DataPipeline` implementation.
 
 ### Pipeline Chain
 A `PipelineChain` object wraps a list of individual `Pipelines`. Each pipeline is executed in order

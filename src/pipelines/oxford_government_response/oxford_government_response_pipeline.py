@@ -1,17 +1,27 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import re
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, Int64Dtype, merge
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DefaultPipeline, PipelineChain
+from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
 from lib.time import datetime_isoformat
 from lib.utils import ROOT
 
 
-class OxfordGovernmentResponsePipeline(DefaultPipeline):
-    data_urls: List[str] = [
-        "https://raw.github.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
-    ]
-
+class OxfordGovernmentResponsePipeline(DataPipeline):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -50,33 +60,3 @@ class OxfordGovernmentResponsePipeline(DefaultPipeline):
         first_columns = ["date", "key"]
         data = data[first_columns + [col for col in data.columns if col not in first_columns]]
         return data.sort_values(first_columns)
-
-
-class OxfordGovernmentResponsePipelineChain(PipelineChain):
-
-    schema: Dict[str, type] = {
-        "date": str,
-        "key": str,
-        "school_closing": Int64Dtype(),
-        "workplace_closing": Int64Dtype(),
-        "cancel_public_events": Int64Dtype(),
-        "restrictions_on_gatherings": Int64Dtype(),
-        "public_transport_closing": Int64Dtype(),
-        "stay_at_home_requirements": Int64Dtype(),
-        "restrictions_on_internal_movement": Int64Dtype(),
-        "international_travel_controls": Int64Dtype(),
-        "income_support": Int64Dtype(),
-        "debt_relief": Int64Dtype(),
-        "fiscal_measures": Int64Dtype(),
-        "international_support": Int64Dtype(),
-        "public_information_campaigns": Int64Dtype(),
-        "testing_policy": Int64Dtype(),
-        "contact_tracing": Int64Dtype(),
-        "emergency_investment_in_healthcare": Int64Dtype(),
-        "investment_in_vaccines": Int64Dtype(),
-        "stringency_index": float,
-    }
-
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [
-        (OxfordGovernmentResponsePipeline(), {})
-    ]

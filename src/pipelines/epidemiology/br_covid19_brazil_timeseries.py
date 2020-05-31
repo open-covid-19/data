@@ -1,20 +1,26 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 from datetime import datetime
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DefaultPipeline
+from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff
 
 
-class Covid19BrazilTimeseriesPipeline(DefaultPipeline):
-    url_base = "https://raw.github.com/elhenrico/covid19-Brazil-timeseries/master"
-    data_urls: List[str] = [
-        "{}/confirmed-cases.csv".format(url_base),
-        "{}/deaths.csv".format(url_base),
-        "{}/confirmed-new.csv".format(url_base),
-        "{}/deaths-new.csv".format(url_base),
-    ]
-
+class Covid19BrazilTimeseriesPipeline(DataPipeline):
     def _parse_dataframes(self, dataframes: Tuple[DataFrame, DataFrame], prefix: str):
 
         # Read data from GitHub repo

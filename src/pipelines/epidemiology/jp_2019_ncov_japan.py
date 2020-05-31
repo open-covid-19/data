@@ -1,19 +1,26 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.io import read_file
-from lib.pipeline import DefaultPipeline
+from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import pivot_table, grouped_cumsum
 
-_gh_base_url = "https://raw.github.com/swsoyee/2019-ncov-japan/master/50_Data"
 
-
-class Jp2019NcovJapanByDate(DefaultPipeline):
-    data_urls: List[str] = [
-        "{}/byDate.csv".format(_gh_base_url),
-        "{}/death.csv".format(_gh_base_url),
-    ]
-
+class Jp2019NcovJapanByDate(DataPipeline):
     @staticmethod
     def _parse_pivot(data: DataFrame, name: str):
 
@@ -45,10 +52,10 @@ class Jp2019NcovJapanByDate(DefaultPipeline):
 
 
 # Unused because it's a different region aggregation
-class Jp2019NcovJapanByRegion(DefaultPipeline):
-    data_urls: List[str] = [
-        "{}/detailByRegion.csv".format(_gh_base_url),
-    ]
+class Jp2019NcovJapanByRegion(DataPipeline):
+    # data_urls: List[str] = [
+    #     "{}/detailByRegion.csv".format(_gh_base_url),
+    # ]
 
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
@@ -74,5 +81,12 @@ class Jp2019NcovJapanByRegion(DefaultPipeline):
         # Keep only columns we can process
         data = data[["date", "match_string", "confirmed", "hospitalized", "recovered", "deceased"]]
 
+        # Aggregate the region-level data
+        data = grouped_cumsum(data, ["country_code", "match_string", "date"])
+
+        # Aggregate the country-level data
+        data_country = data.groupby("date").sum().reset_index()
+        data_country["key"] = "JP"
+
         # Output the results
-        return grouped_cumsum(data, ["country_code", "match_string", "date"])
+        return concat([data_country, data])

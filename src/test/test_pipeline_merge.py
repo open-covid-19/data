@@ -1,10 +1,24 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import sys
 import cProfile
 from pstats import Stats
 from unittest import TestCase, main
 
 from pandas import DataFrame
-from lib.pipeline import DefaultPipeline
+from lib.pipeline import DataPipeline
 
 # Synthetic data used for testing
 TEST_AUX_DATA = DataFrame.from_records(
@@ -166,28 +180,28 @@ class TestPipelineMerge(TestCase):
 
     def test_merge_no_match(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DefaultPipeline()
+        pipeline = DataPipeline()
         record = {"country_code": "__"}
         key = pipeline.merge(record, {"metadata": aux})
         self.assertTrue(key is None)
 
     def test_merge_by_key(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DefaultPipeline()
+        pipeline = DataPipeline()
         record = {"key": "AE_1_2"}
         key = pipeline.merge(record, {"metadata": aux})
         self.assertEqual(key, record["key"])
 
     def test_merge_zero_subregions(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DefaultPipeline()
+        pipeline = DataPipeline()
         record = {"country_code": "AA"}
         key = pipeline.merge(record, {"metadata": aux})
         self.assertEqual(key, "AA")
 
     def test_merge_one_subregion(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DefaultPipeline()
+        pipeline = DataPipeline()
 
         record = {"country_code": "AB"}
         key = pipeline.merge(record, {"metadata": aux})
@@ -203,7 +217,7 @@ class TestPipelineMerge(TestCase):
 
     def test_merge_null_vs_empty(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DefaultPipeline()
+        pipeline = DataPipeline()
 
         # Only one record has null region1_code
         record = {"country_code": "AD", "subregion1_code": None}

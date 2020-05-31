@@ -1,6 +1,21 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import re
 import sys
 import warnings
+import importlib
 import traceback
 import subprocess
 from io import StringIO
@@ -9,9 +24,10 @@ from functools import partial
 from multiprocessing import cpu_count
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
+import yaml
 import numpy
 import requests
-from pandas import DataFrame, isnull, isna, read_csv, NA
+from pandas import DataFrame, Int64Dtype, isnull, isna, read_csv, NA
 from tqdm import tqdm
 
 from .anomaly import detect_anomaly_all, detect_stale_columns
@@ -29,125 +45,50 @@ class DataPipeline:
     1. Fetch: download resources into raw data
     1. Parse: convert raw data to structured format
     1. Merge: associate each record with a known `key`
-    1. Filter: filter out unneeded data and keep only desired output columns
-    """
 
-    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
-        """ Downloads the required resources and returns a list of local paths. """
-        ...
-
-    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
-        """ Parses a list of raw data records into a DataFrame. """
-        ...
-
-    def merge(
-        self, record: Dict[str, Any], aux: Dict[str, DataFrame], **merge_opts
-    ) -> Optional[str]:
-        """
-        Outputs a key used to merge this record with the datasets.
-        The key must be present in the `aux` DataFrame index.
-        """
-        ...
-
-    def filter(
-        self, data: DataFrame, filter_func: Callable[[Any], bool], **filter_opts
-    ) -> DataFrame:
-        """ Outputs a filtered version of the input dataset respecting `filter_opts`. """
-        ...
-
-    def run(
-        self,
-        cache: Dict[str, str],
-        aux: Dict[str, DataFrame],
-        fetch_opts: Dict[str, Any] = None,
-        parse_opts: Dict[str, Any] = None,
-        merge_opts: Dict[str, Any] = None,
-        filter_func: Callable[[Any], bool] = None,
-        filter_opts: Dict[str, Any] = None,
-    ) -> DataFrame:
-        data: DataFrame = None
-
-        # Fetch the data, feeding the cached resources to the fetch step
-        data = self.fetch(cache, **(fetch_opts or {}))
-
-        # Make yet another copy of the auxiliary table to avoid affecting future steps in `parse`
-        data = self.parse(data, {name: df.copy() for name, df in aux.items()}, **(parse_opts or {}))
-
-        # Merge expects for null values to be NaN (otherwise grouping does not work as expected)
-        data.replace([None], numpy.nan, inplace=True)
-
-        # Merging is done record by record, but can be sped up if we build a map first aggregating
-        # by the non-temporal fields and only matching the aggregated records with keys
-        key_merge_columns = [
-            col for col in data if col in aux["metadata"].columns and len(data[col].unique()) > 1
-        ]
-        if not key_merge_columns or (merge_opts and merge_opts.get("serial")):
-            data["key"] = data.apply(lambda x: self.merge(x, aux), axis=1)
-
-        else:
-            # "_nan_magic_number" replacement necessary to work around
-            # https://github.com/pandas-dev/pandas/issues/3729
-            # This issue will be fixed in Pandas 1.1
-            _nan_magic_number = -123456789
-            grouped_data = (
-                data.fillna(_nan_magic_number)
-                .groupby(key_merge_columns)
-                .first()
-                .reset_index()
-                .replace([_nan_magic_number], numpy.nan)
-            )
-
-            # Build a _vec column used to merge the key back from the groups into data
-            make_key_vec = lambda x: "|".join([str(x[col]) for col in key_merge_columns])
-            grouped_data["_vec"] = grouped_data.apply(make_key_vec, axis=1)
-            data["_vec"] = data.apply(make_key_vec, axis=1)
-
-            # Iterate only over the grouped data to merge with the metadata key
-            grouped_data["key"] = grouped_data.apply(lambda x: self.merge(x, aux), axis=1)
-
-            # Merge the grouped data which has key back with the original data
-            if "key" in data.columns:
-                data = data.drop(columns=["key"])
-            data = data.merge(grouped_data[["key", "_vec"]], on="_vec").drop(columns=["_vec"])
-
-        # Drop records which have no key merged
-        # TODO: log records with missing key somewhere on disk
-        data = data.dropna(subset=["key"])
-
-        # Filter out data according to the user-provided filter function
-        if filter_func is not None:
-            data = self.filter(data, filter_func, **(filter_opts or {}))
-
-        # Return the final dataframe
-        return data
-
-
-class DefaultPipeline(DataPipeline):
-    """
-    Data pipeline which provides a default implementation for:
+    The default implementation of a data pipeline includes the following functionality:
     * Fetch: downloads raw data from a list of URLs into ../snapshots folder. See [lib.net].
     * Merge: outputs a key from the auxiliary dataset after performing best-effort matching.
-    * Filter: applies `filter_func` to each record and keeps the rows for which the result is `true`
 
     The merge function provided here is crucial for many pipelines that use it. The easiest/fastest
     way to merge records is by providing the exact `key` that will match an existing record in the
     [data/metadata.csv] file.
     """
 
-    data_urls: List[Union[Path, str]] = []
-    """ Define our URLs of raw data to be downloaded """
+    config: Dict[str, Any]
 
-    fetch_opts: List[Dict[str, Any]] = []
-    """ Fetch options; see [lib.net.download] for more details """
+    def __init__(self, config: Dict[str, Any]):
+        super().__init__()
+        self.config = config or {}
 
-    def fetch(self, cache: Dict[str, List[str]], **fetch_opts) -> List[str]:
-        num_urls = len(self.data_urls)
-        fetch_iter = zip(self.data_urls, self.fetch_opts or [{}] * num_urls)
-        return [download(url, **{**opts, **fetch_opts}) for url, opts in fetch_iter]
+    def fetch(self, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]) -> List[str]:
+        """ Downloads the required resources and returns a list of local paths. """
+        return [
+            download(source_config["url"], **source_config.get("opts", {}))
+            for source_config in fetch_opts
+        ]
 
-    def merge(
-        self, record: Dict[str, Any], aux: Dict[str, DataFrame], **merge_opts
-    ) -> Optional[str]:
+    def _read(self, file_paths: List[str], **read_opts) -> List[DataFrame]:
+        """ Reads a raw file input path into a DataFrame """
+        return [read_file(file_path, **read_opts) for file_path in file_paths]
+
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
+        """ Parses a list of raw data records into a DataFrame. """
+        # Some read options are passed as parse_opts
+        read_opts = {k: v for k, v in parse_opts.items() if k in ("sep",)}
+        return self.parse_dataframes(self._read(sources, **read_opts), aux, **parse_opts)
+
+    def parse_dataframes(
+        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
+    ) -> DataFrame:
+        """ Parse the inputs into a single output dataframe """
+        raise NotImplementedError()
+
+    def merge(self, record: Dict[str, Any], aux: Dict[str, DataFrame]) -> Optional[str]:
+        """
+        Outputs a key used to merge this record with the datasets.
+        The key must be present in the `aux` DataFrame index.
+        """
         # Merge only needs the metadata auxiliary data table
         metadata = aux["metadata"]
 
@@ -217,58 +158,64 @@ class DefaultPipeline(DataPipeline):
         warnings.warn("No key match found for:\n{}".format(record))
         return None
 
-    def _read(self, file_paths: List[str], **read_opts) -> List[DataFrame]:
-        """ Reads a raw file input path into a DataFrame """
-        return [read_file(file_path, **read_opts) for file_path in file_paths]
+    def run(self, cache: Dict[str, str], aux: Dict[str, DataFrame]) -> DataFrame:
+        data: DataFrame = None
 
-    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
-        return self.parse_dataframes(self._read(sources), aux, **parse_opts)
+        # Fetch the data, feeding the cached resources to the fetch step
+        data = self.fetch(cache, self.config.get("fetch", []))
 
-    def filter(
-        self, data: DataFrame, filter_func: Callable[[Any], bool], **filter_opts
-    ) -> DataFrame:
-        return data[data.apply(filter_func, axis=1)]
+        # Make yet another copy of the auxiliary table to avoid affecting future steps in `parse`
+        parse_opts = self.config.get("parse", {})
+        data = self.parse(data, {name: df.copy() for name, df in aux.items()}, **parse_opts)
 
-    def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
-    ) -> DataFrame:
-        """ Parse the inputs into a single output dataframe """
-        raise NotImplementedError()
+        # Merge expects for null values to be NaN (otherwise grouping does not work as expected)
+        data.replace([None], numpy.nan, inplace=True)
 
+        # Merging is done record by record, but can be sped up if we build a map first aggregating
+        # by the non-temporal fields and only matching the aggregated records with keys
+        merge_opts = self.config.get("merge", {})
+        key_merge_columns = [
+            col for col in data if col in aux["metadata"].columns and len(data[col].unique()) > 1
+        ]
+        if not key_merge_columns or (merge_opts and merge_opts.get("serial")):
+            data["key"] = data.apply(lambda x: self.merge(x, aux), axis=1)
 
-class ExternalProcessPipeline(DefaultPipeline):
+        else:
+            # "_nan_magic_number" replacement necessary to work around
+            # https://github.com/pandas-dev/pandas/issues/3729
+            # This issue will be fixed in Pandas 1.1
+            _nan_magic_number = -123456789
+            grouped_data = (
+                data.fillna(_nan_magic_number)
+                .groupby(key_merge_columns)
+                .first()
+                .reset_index()
+                .replace([_nan_magic_number], numpy.nan)
+            )
 
-    command: str = ""
-    arguments: List[str] = []
+            # Build a _vec column used to merge the key back from the groups into data
+            make_key_vec = lambda x: "|".join([str(x[col]) for col in key_merge_columns])
+            grouped_data["_vec"] = grouped_data.apply(make_key_vec, axis=1)
+            data["_vec"] = data.apply(make_key_vec, axis=1)
 
-    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
-        process = subprocess.Popen(
-            [self.command] + self.arguments + sources,
-            cwd=ROOT / "src",
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-        )
+            # Iterate only over the grouped data to merge with the metadata key
+            grouped_data["key"] = grouped_data.apply(lambda x: self.merge(x, aux), axis=1)
 
-        # Wait for process to finish and get out and err streams
-        stdout, stderr = process.communicate()
+            # Merge the grouped data which has key back with the original data
+            if "key" in data.columns:
+                data = data.drop(columns=["key"])
+            data = data.merge(grouped_data[["key", "_vec"]], on="_vec").drop(columns=["_vec"])
 
-        # Write error to our stderr output
-        if stderr:
-            print(stderr.decode("UTF-8"), file=sys.stderr)
+        # Drop records which have no key merged
+        # TODO: log records with missing key somewhere on disk
+        data = data.dropna(subset=["key"])
 
-        # Verify that the stdout output is not empty
-        if not stdout:
-            raise RuntimeError("Output is empty, did you write the CSV to STDOUT?")
+        # Filter out data according to the user-provided filter function
+        if "query" in self.config:
+            data = data.query(self.config["query"])
 
-        # Decode stdout as a string
-        output = stdout.decode("UTF-8")
-
-        # Verify that stdout isn't just reporting an error (why is this not written to stderr?)
-        if output.startswith("Fatal error:"):
-            raise RuntimeError(output.strip())
-
-        # Finally, read the output as a CSV
-        return read_csv(StringIO(output))
+        # Return the final dataframe
+        return data
 
 
 class PipelineChain:
@@ -286,7 +233,10 @@ class PipelineChain:
     is used by many of them it is more efficient to load it here.
     """
 
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = []
+    schema: Dict[str, Any]
+    """ Names and corresponding dtypes of output columns """
+
+    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]]
     """ List of pipeline-options tuples executed in order """
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
@@ -296,8 +246,44 @@ class PipelineChain:
     }
     """ Auxiliary datasets passed to the pipelines during processing """
 
-    schema: Dict[str, Any] = {}
-    """ Names and corresponding dtypes of output columns """
+    def __init__(
+        self,
+        schema: Dict[str, type],
+        auxiliary: Dict[str, Union[Path, str]],
+        pipelines: List[Tuple[DataPipeline, Dict[str, Any]]],
+    ):
+        super().__init__()
+        self.schema = schema
+        self.auxiliary_tables = auxiliary
+        self.pipelines = pipelines
+
+    @staticmethod
+    def load(name: str):
+        config_path = ROOT / "src" / "pipelines" / name / "config.yaml"
+        config_yaml = yaml.safe_load(open(config_path, "r"))
+        schema = {
+            name: PipelineChain._parse_dtype(dtype) for name, dtype in config_yaml["schema"].items()
+        }
+        auxiliary = {name: ROOT / path for name, path in config_yaml.get("auxiliary", {}).items()}
+        pipelines = []
+        for pipeline_config in config_yaml["sources"]:
+            module_tokens = pipeline_config["name"].split(".")
+            class_name = module_tokens[-1]
+            module_name = ".".join(module_tokens[:-1])
+            module = importlib.import_module(module_name)
+            pipelines.append(getattr(module, class_name)(pipeline_config))
+
+        return PipelineChain(schema, auxiliary, pipelines)
+
+    @staticmethod
+    def _parse_dtype(dtype_name: str) -> type:
+        if dtype_name == "str":
+            return str
+        if dtype_name == "int":
+            return Int64Dtype()
+        if dtype_name == "float":
+            return float
+        raise TypeError(f"Unsupported dtype: {dtype_name}")
 
     def output_table(self, data: DataFrame) -> DataFrame:
         """
@@ -316,18 +302,18 @@ class PipelineChain:
             data[column] = column_convert(data[column], dtype)
 
         # Filter only output columns and output the sorted data
-        return data[output_columns].sort_values(output_columns)
+        value_columns = [col for col in output_columns if not col in ("date", "key")]
+        data = data[output_columns].dropna(subset=value_columns, how="all")
+        return data.sort_values(output_columns)
 
     @staticmethod
     def _run_wrapper(
-        pipeline_cache_aux_kwargs: Tuple[
-            DataPipeline, Dict[str, str], Dict[str, DataFrame], Dict[str, Any]
-        ]
+        pipeline_cache_aux: Tuple[DataPipeline, Dict[str, str], Dict[str, DataFrame]]
     ) -> Optional[DataFrame]:
         """ Workaround necessary for multiprocess pool, which does not accept lambda functions """
-        pipeline, cache, aux, opts = pipeline_cache_aux_kwargs
+        pipeline, cache, aux = pipeline_cache_aux
         try:
-            return pipeline.run(cache, aux, **opts)
+            return pipeline.run(cache, aux)
         except Exception as exc:
             warnings.warn("Error running pipeline {}".format(pipeline.__class__.__name__))
             traceback.print_exc()
@@ -339,7 +325,6 @@ class PipelineChain:
         process_count: int = cpu_count(),
         verify: str = "simple",
         progress: bool = True,
-        **pipeline_opts,
     ) -> DataFrame:
         """
         Main method which executes all the associated [DataPipeline] objects and combines their
@@ -369,14 +354,8 @@ class PipelineChain:
         map_iter = [
             # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
             # we allow for local modification (which might be wanted for optimization purposes)
-            (
-                pipeline,
-                cache,
-                {name: df.copy() for name, df in aux.items()},
-                # TODO: Combine nested attributes of dict instead of plain override
-                {"parse_opts": {"progress": progress}, **opts, **pipeline_opts},
-            )
-            for pipeline, opts in self.pipelines
+            (pipeline, cache, {name: df.copy() for name, df in aux.items()})
+            for pipeline in self.pipelines
         ]
 
         # If the process count is less than one, run in series (useful to evaluate performance)
@@ -409,7 +388,7 @@ class PipelineChain:
         if verify == "simple":
 
             # Validate that the table looks good
-            detect_anomaly_all(self.schema, data, pipeline_name)
+            detect_anomaly_all(self.schema, data, [pipeline_name])
 
         if verify == "full":
 

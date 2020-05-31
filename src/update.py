@@ -1,4 +1,18 @@
 #!/usr/bin/env python
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 
 import sys
 import inspect
@@ -14,28 +28,7 @@ from lib.pipeline import PipelineChain
 from lib.utils import ROOT
 
 # Step 1: Add your pipeline chain to this import block
-from pipelines.demographics.demographics_pipeline import DemographicsPipelineChain
-from pipelines.economy.economy_pipeline import EconomyPipelineChain
-from pipelines.epidemiology.pipeline_chain import EpidemiologyPipelineChain
-from pipelines.geography.geography_pipeline import GeographyPipelineChain
-from pipelines.index.index_pipeline import IndexPipelineChain
-from pipelines.mobility.mobility_pipeline import MobilityPipelineChain
-from pipelines.oxford_government_response.oxford_government_response_pipeline import (
-    OxfordGovernmentResponsePipelineChain,
-)
-from pipelines.weather.weather_pipeline import WeatherPipelineChain
-
-# Step 2: After adding the import statement above, add your pipeline chain to this list
-all_pipeline_chains: List[PipelineChain] = [
-    MobilityPipelineChain,
-    DemographicsPipelineChain,
-    EconomyPipelineChain,
-    EpidemiologyPipelineChain,
-    GeographyPipelineChain,
-    IndexPipelineChain,
-    OxfordGovernmentResponsePipelineChain,
-    WeatherPipelineChain,
-]
+import pipelines.epidemiology
 
 # Process command-line arguments
 argarser = ArgumentParser()
@@ -60,22 +53,26 @@ if args.profile:
     profiler = cProfile.Profile()
     profiler.enable()
 
+# A pipeline chain is any subfolder not starting with "_" in the pipelines folder
+all_pipeline_chains = []
+for item in (ROOT / "src" / "pipelines").iterdir():
+    if not item.name.startswith("_") and not item.is_file():
+        all_pipeline_chains.append(item.name)
+
 # Run all the pipelines and place their outputs into the output folder
-# All the pipelines imported in this file which subclass PipelineChain are run
 # The output name for each pipeline chain will be the name of the directory that the chain is in
-for pipeline_chain_class in all_pipeline_chains:
-    pipeline_chain = pipeline_chain_class()
-    pipeline_path = Path(str(inspect.getsourcefile(type(pipeline_chain))))
-    pipeline_name = pipeline_path.parent.name.replace("_", "-")
+for pipeline_name in all_pipeline_chains:
     if args.only and not pipeline_name in args.only.split(","):
         continue
     if args.exclude and pipeline_name in args.exclude.split(","):
         continue
+    pipeline_chain = PipelineChain.load(pipeline_name)
     show_progress = not args.no_progress
     pipeline_output = pipeline_chain.run(
         pipeline_name, verify=args.verify, process_count=args.process_count, progress=show_progress
     )
-    export_csv(pipeline_output, ROOT / "output" / "tables" / "{}.csv".format(pipeline_name))
+    table_name = pipeline_name.replace("_", "-")
+    export_csv(pipeline_output, ROOT / "output" / "tables" / f"{table_name}.csv")
 
 if args.profile:
     stats = Stats(profiler)

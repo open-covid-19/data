@@ -1,3 +1,17 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import re
 import locale
 import datetime
@@ -5,19 +19,13 @@ from typing import Any, Dict, List, Optional, Tuple
 from pandas import DataFrame, isna, isnull
 
 from lib.cast import safe_int_cast, safe_datetime_parse
-from lib.pipeline import DefaultPipeline
+from lib.pipeline import DataPipeline
 from lib.io import count_html_tables, read_html, wiki_html_cell_parser
 from lib.time import datetime_isoformat
 from lib.utils import pivot_table
 
 
-class WikipediaPipeline(DefaultPipeline):
-    fetch_opts: List[Dict[str, Any]] = [{"ext": "html"}]
-
-    def __init__(self, url: str):
-        super().__init__()
-        self.data_urls = [url]
-
+class WikipediaPipeline(DataPipeline):
     @staticmethod
     def _parenthesis(x: str) -> Tuple[str, Optional[str]]:
         regexp = r"\((\d+)\)"

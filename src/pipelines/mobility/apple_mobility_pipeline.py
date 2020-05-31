@@ -1,10 +1,24 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import re
 import numpy
 import requests
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, concat, isnull
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DefaultPipeline, PipelineChain
+from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
 from lib.time import datetime_isoformat
 from lib.utils import ROOT, CACHE_URL, pivot_table
 
@@ -12,14 +26,13 @@ from lib.utils import ROOT, CACHE_URL, pivot_table
 _url_base = "https://covid19-static.cdn-apple.com"
 
 
-class AppleMobilityPipeline(DefaultPipeline):
-    def fetch(self, cache: Dict[str, List[str]], **fetch_opts):
-        api_url = f"{_url_base}/covid19-mobility-data/current/v3/index.json"
-        api_res = requests.get(api_url).json()
-        self.data_urls = [
-            f"{_url_base}{api_res['basePath']}{api_res['regions']['en-us']['csvPath']}"
+class AppleMobilityPipeline(DataPipeline):
+    def fetch(self, cache: Dict[str, List[str]], fetch_opts: List[Dict[str, Any]]):
+        api_res = requests.get(fetch_opts[0]['url']).json()
+        fetch_opts = [
+            {"url": f"{_url_base}{api_res['basePath']}{api_res['regions']['en-us']['csvPath']}"}
         ]
-        return super().fetch(cache, **fetch_opts)
+        return super().fetch(cache, fetch_opts)
 
     @staticmethod
     def process_record(record: Dict):

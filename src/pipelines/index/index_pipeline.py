@@ -1,23 +1,26 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, Int64Dtype, merge
-from lib.pipeline import DataPipeline, DefaultPipeline, PipelineChain
+from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
 from lib.utils import ROOT
 
 
-class IndexPipeline(DefaultPipeline):
-    def fetch(self, cache: Dict[str, str], **fetch_opts) -> List[str]:
-        return [
-            ROOT / "src" / "data" / "metadata.csv",
-            ROOT / "src" / "data" / "knowledge_graph.csv",
-        ]
-
-    def parse_dataframes(
-        self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
-    ) -> DataFrame:
-        # Outer join auxiliary metadata all provided tables
-        data = dataframes[0]
-        for df in dataframes[1:]:
-            data = merge(data, df, how="left")
+class IndexPipeline(DataPipeline):
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
+        data = aux["metadata"].merge(aux["knowledge_graph"], how="left")
 
         # Country codes are joined by country_code rather than the usual key
         country_codes = aux["country_codes"].rename(columns={"key": "country_code"})
@@ -31,23 +34,3 @@ class IndexPipeline(DefaultPipeline):
         data.loc[~subregion1_null & subregion2_null, "aggregation_level"] = 1
         data.loc[~subregion1_null & ~subregion2_null, "aggregation_level"] = 2
         return data
-
-
-class IndexPipelineChain(PipelineChain):
-
-    schema: Dict[str, type] = {
-        "key": str,
-        "wikidata": str,
-        "datacommons": str,
-        "country_code": str,
-        "country_name": str,
-        "subregion1_code": str,
-        "subregion1_name": str,
-        "subregion2_code": str,
-        "subregion2_name": str,
-        "3166-1-alpha-2": str,
-        "3166-1-alpha-3": str,
-        "aggregation_level": Int64Dtype(),
-    }
-
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]] = [(IndexPipeline(), {})]

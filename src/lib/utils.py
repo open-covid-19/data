@@ -1,4 +1,19 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import os
+import json
 import warnings
 from pathlib import Path
 from functools import partial, reduce
@@ -59,11 +74,16 @@ def grouped_transform(
 ) -> DataFrame:
     """ Computes the transform for each item within the group determined by `keys` """
     assert keys[-1] == "date", '"date" key should be last'
+
+    # Keep a copy of the columns that will not be transformed
     data = data.sort_values(keys)
-    group = data.groupby(keys[:-1])
     skip = [] if skip is None else skip
+    data_skipped = {col: data[col].copy() for col in skip if col in data}
+
+    group = data.groupby(keys[:-1])
     prefix = ("", "") if prefix is None else prefix
     value_columns = [column for column in data.columns if column not in keys + skip]
+
     data = data.dropna(subset=value_columns, how="all").copy()
     for column in value_columns:
         if column in skip:
@@ -71,7 +91,15 @@ def grouped_transform(
         if data[column].isnull().all():
             continue
         data[prefix[0] + column] = group[column].apply(transform)
-    return data.rename(columns={col: prefix[1] + col for col in value_columns})
+
+    # Apply the prefix to all transformed columns
+    data = data.rename(columns={col: prefix[1] + col for col in value_columns})
+
+    # Restore the columns that were not transformed
+    for name, col in data_skipped.items():
+        data[name] = col
+
+    return data
 
 
 def grouped_diff(data: DataFrame, keys: List[str], skip: List[str] = None) -> DataFrame:

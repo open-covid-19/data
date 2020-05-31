@@ -1,17 +1,30 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 from datetime import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DefaultPipeline
+from lib.pipeline import DataPipeline
 from lib.utils import grouped_diff
 
 
-_gh_url_base = "https://raw.github.com/pcm-dpc/COVID-19/master/dati-json"
 _column_map = {
     "data": "date",
     "denominazione_regione": "match_string",
     "ricoverati_con_sintomi": "symptomatic_hospitalized",
-    "terapia_intensiva": "intensive_care",
-    "totale_ospedalizzati": "hospitalized",
+    "terapia_intensiva": "current_intensive_care",
+    "totale_ospedalizzati": "current_hospitalized",
     "isolamento_domiciliare": "quarantined",
     "totale_positivi": "active_confirmed",
     "variazione_totale_positivi": "diff_active_confirmed",
@@ -24,9 +37,7 @@ _column_map = {
 }
 
 
-class PcmDpcL1Pipeline(DefaultPipeline):
-    data_urls: List[str] = ["{}/dpc-covid19-ita-andamento-nazionale.json".format(_gh_url_base)]
-
+class PcmDpcL1Pipeline(DataPipeline):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -41,24 +52,17 @@ class PcmDpcL1Pipeline(DefaultPipeline):
         data["date"] = data["date"].apply(lambda date: date.isoformat())
 
         # Keep only data we can process
-        data = data[
-            [
-                "date",
-                "intensive_care",
-                "hospitalized",
-                "quarantined",
-                "new_confirmed",
-                "recovered",
-                "deceased",
-                "total_confirmed",
-                "tested",
-            ]
-        ]
+        data = data[[col for col in data.columns if col in _column_map.values()]]
 
         # Compute the daily counts
         data["country_code"] = "IT"
         key_columns = ["country_code", "date"]
-        skip_columns = ["new_confirmed", "total_confirmed"]
+        skip_columns = [
+            "new_confirmed",
+            "total_confirmed",
+            "current_intensive_care",
+            "current_hospitalized",
+        ]
         data = grouped_diff(data, key_columns, skip=skip_columns)
 
         # Make sure all records have the country code and null region code
@@ -68,9 +72,7 @@ class PcmDpcL1Pipeline(DefaultPipeline):
         return data
 
 
-class PcmDpcL2Pipeline(DefaultPipeline):
-    data_urls: List[str] = ["{}/dpc-covid19-ita-regioni.json".format(_gh_url_base)]
-
+class PcmDpcL2Pipeline(DataPipeline):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -85,24 +87,16 @@ class PcmDpcL2Pipeline(DefaultPipeline):
         data["date"] = data["date"].apply(lambda date: date.isoformat())
 
         # Keep only data we can process
-        data = data[
-            [
-                "date",
-                "match_string",
-                "intensive_care",
-                "hospitalized",
-                "quarantined",
-                "new_confirmed",
-                "recovered",
-                "deceased",
-                "total_confirmed",
-                "tested",
-            ]
-        ]
+        data = data[[col for col in data.columns if col in _column_map.values()]]
 
         # Compute the daily counts
         key_columns = ["match_string", "date"]
-        skip_columns = ["new_confirmed", "total_confirmed"]
+        skip_columns = [
+            "new_confirmed",
+            "total_confirmed",
+            "current_intensive_care",
+            "current_hospitalized",
+        ]
         data = grouped_diff(data, key_columns, skip=skip_columns)
 
         # Make sure all records have the country code
