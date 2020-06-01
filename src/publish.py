@@ -153,7 +153,12 @@ export_csv(data, v1_folder / "data.csv")
 export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minimal.csv")
 
 # Create the v1 data_latest.csv file
-export_csv(data.groupby("Key").last().reset_index(), v1_folder / "data_latest.csv")
+latest = read_file(latest_folder / 'master.csv')
+latest = latest[latest.aggregation_level < 2]
+latest = latest[rename_columns.keys()].rename(columns=rename_columns)
+latest = latest.dropna(subset=["Confirmed", "Deaths"], how="all")
+latest = latest.sort_values(["Date", "Key"])
+export_csv(latest, v1_folder / "data_latest.csv")
 
 # Create the v1 weather.csv file
 weather = read_file(v2_folder / "weather.csv")
