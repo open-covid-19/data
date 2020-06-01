@@ -35,7 +35,7 @@ from .cast import column_convert
 from .concurrent import process_map
 from .net import download
 from .io import read_file, fuzzy_text
-from .utils import ROOT, CACHE_URL, column_convert, combine_tables
+from .utils import ROOT, CACHE_URL, column_convert, combine_tables, drop_na_records
 
 
 class DataPipeline:
@@ -57,7 +57,7 @@ class DataPipeline:
 
     config: Dict[str, Any]
 
-    def __init__(self, config: Dict[str, Any]):
+    def __init__(self, config: Dict[str, Any] = None):
         super().__init__()
         self.config = config or {}
 
@@ -302,9 +302,7 @@ class PipelineChain:
             data[column] = column_convert(data[column], dtype)
 
         # Filter only output columns and output the sorted data
-        value_columns = [col for col in output_columns if not col in ("date", "key")]
-        data = data[output_columns].dropna(subset=value_columns, how="all")
-        return data.sort_values(output_columns)
+        return drop_na_records(data[output_columns], ["date", "key"]).sort_values(output_columns)
 
     @staticmethod
     def _run_wrapper(

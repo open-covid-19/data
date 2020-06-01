@@ -23,7 +23,7 @@ from pandas import DataFrame
 
 from lib.forecast import main as build_forecast
 from lib.io import read_file, export_csv
-from lib.utils import ROOT
+from lib.utils import ROOT, drop_na_records
 
 
 def snake_to_camel_case(txt: str) -> str:
@@ -166,6 +166,7 @@ export_csv(weather.rename(columns=rename_columns), v1_folder / "weather.csv")
 mobility = read_file(v2_folder / "mobility.csv")
 mobility = mobility[mobility.key.apply(lambda x: len(x.split("_")) < 3)]
 mobility = mobility.drop(columns=["mobility_driving", "mobility_transit", "mobility_walking"])
+mobility = drop_na_records(mobility, ["date", "key"])
 rename_columns = {col: snake_to_camel_case(col).replace("Mobility", "") for col in mobility.columns}
 export_csv(mobility.rename(columns=rename_columns), v1_folder / "mobility.csv")
 
