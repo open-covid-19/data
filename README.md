@@ -1,6 +1,6 @@
 # Open COVID-19 Dataset
 
-This repository contains datasets of daily time-series data related to COVID-19 for 30 countries
+This repository contains datasets of daily time-series data related to COVID-19 for 30+ countries
 around the world. For most countries, the data is at the spatial resolution of states/provinces,
 although for US, UK, NL and CO, it is at the finer resolution of county/municipality. All regions
 are assigned a unique key, which resolves discrepancies between ISO/ NUTS/ FIPS codes, etc.
@@ -9,7 +9,7 @@ There are multiple types of data:
 * Outcome data `Y(i,t)`, such as cases, deaths, tests, for regions i and time t
 * Static covariate data `X(i)`, such as population size, GDP, latitude/ longitude
 * Dynamic covariate data `X(i,t)`, such as mobility, weather
-* Dynamic interventional data `C(i,t)`, such as government lockdowns
+* Dynamic interventional data `A(i,t)`, such as government lockdowns
 
 The data is drawn from multiple sources, as listed [below](#sources-of-data).
 
