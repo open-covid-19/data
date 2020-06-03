@@ -44,12 +44,12 @@ jobs:
       working-directory: src
       run: |
         echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H:%M')"
-        find ../output -type f
+        ls -hal ../output/tables
         python ./publish.py
 
     - name: Verify public output
       working-directory: output
       run: |
-        ls -hal output/tables
-        ls -hal output/public
-        ls -hal output/public/v2
+        ls -hal tables
+        ls -hal public
+        ls -hal public/v2

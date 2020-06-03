@@ -354,6 +354,14 @@ shouldn't be used in any new projects:
 
 
 
+## Licensing
+The output data files are published under the [CC BY-SA](./CC-BY-SA) license. All data is
+subject to the terms of agreement individual to each data source, refer to the
+[sources of data](#sources-of-data) table for more details. All other code and assets are published
+under the [Apache License 2.0](./LICENSE).
+
+
+
 ## Sources of data
 
 All data in this repository is retrieved automatically. When possible, data is retrieved directly
