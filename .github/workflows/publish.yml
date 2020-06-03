@@ -38,11 +38,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-    - name: Clone previous data
-      run: |
-        git clone https://github.com/open-covid-19/data --single-branch -b gh-pages ./output/public
-        rm -rf ./output/public/.git
-
     - name: Update public data
       working-directory: src
       run: |
