@@ -44,21 +44,12 @@ jobs:
       working-directory: src
       run: |
         echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H:%M')"
-        ls -hal ../output/tables
-        rm -rf ../output/public
+        find ../output -type f
         python ./publish.py
 
-    - name: Deploy data to server
-      working-directory: output/public
-      run : |
-        rm -rf .git
-        git init
-        git add --all --force
-        git status
-        git config user.name open-covid-bot
-        git config user.email open-covid-bot@${{ github.repository }}
-        git commit --message "Data updated by GitHub Bot (${{ env.TIMESTAMP }})"
-        git push \
-          --force \
-          "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data.git" \
-          HEAD:gh-pages
+    - name: Verify public output
+      working-directory: output
+      run: |
+        ls -hal output/tables
+        ls -hal output/public
+        ls -hal output/public/v2
