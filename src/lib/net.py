@@ -14,16 +14,16 @@
 # limitations under the License.
 
 
-
 import uuid
 from pathlib import Path
-from typing import Union
+from typing import Union, BinaryIO
 
 import requests
+from tqdm import tqdm
 from .utils import ROOT
 
 
-def download(url: Union[Path, str], ext: str = None, offline: bool = False) -> str:
+def download_snapshot(url: Union[Path, str], ext: str = None, offline: bool = False) -> str:
     """
     This function downloads a file into the snapshots folder and outputs the
     hashed file name based on the input URL. This is used to ensure
@@ -40,7 +40,22 @@ def download(url: Union[Path, str], ext: str = None, offline: bool = False) -> s
     # Download the file if online
     if not offline:
         with open(file_path, "wb") as file_handle:
-            file_handle.write(requests.get(url).content)
+            download(url, file_handle)
 
     # Output the downloaded file path
     return str(file_path.absolute())
+
+
+def download(url: Union[Path, str], file_handle: Union[Path, str], progress: bool = False):
+    """ https://stackoverflow.com/a/37573701 """
+    if not progress:
+        file_handle.write(requests.get(url).content)
+    else:
+        block_size = 1024
+        req = requests.get(url, stream=True)
+        total_size = int(req.headers.get("content-length", 0))
+        progress_bar = tqdm(total=total_size, unit="iB", unit_scale=True)
+        for data in req.iter_content(block_size):
+            progress_bar.update(len(data))
+            file_handle.write(data)
+        progress_bar.close()

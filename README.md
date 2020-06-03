@@ -24,9 +24,11 @@ consistent geographic (and temporal) keys.
 | [Economy](#economy) | `[key]` | Various (current<sup>3</sup>) economic indicators | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv), [economy.json](https://open-covid-19.github.io/data/v2/economy.json) | Wikidata, DataCommons |
 | [Epidemiology](#epidemiology) | `[key][date]` | COVID-19 cases, deaths, recoveries and tests | [epidemiology.csv](https://open-covid-19.github.io/data/v2/epidemiology.csv), [epidemiology.json](https://open-covid-19.github.io/data/v2/epidemiology.json) | Various<sup>2</sup> |
 | [Geography](#geography) | `[key]` | Geographical information about the region | [geography.csv](https://open-covid-19.github.io/data/v2/geography.csv), [geography.json](https://open-covid-19.github.io/data/v2/geography.json) | Wikidata |
+| [Health](#health) | `[key]` | Health indicators for the region | [health.csv](https://open-covid-19.github.io/data/v2/health.csv), [health.json](https://open-covid-19.github.io/data/v2/geography.json) | Wikidata, WorldBank |
 | [Mobility](#mobility) | `[key][date]` | Various metrics related to the movement of people | [mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv), [google-mobility.json](https://open-covid-19.github.io/data/v2/google-mobility.json) | Google, Apple |
 | [Oxford Government Response](#oxford-government-response) | `[key][date]` | Government interventions and their relative stringency | [oxford-government-response.csv](https://open-covid-19.github.io/data/v2/oxford-government-response.csv), [oxford-government-response.json](https://open-covid-19.github.io/data/v2/oxford-government-response.json) | University of Oxford |
 | [Weather](#weather) | `[key][date]` | Dated meteorological information for each region | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv), [weather.json](https://open-covid-19.github.io/data/v2/weather.json) | NOAA |
+| [WorldBank](#worldbank) | `[key]` | Latest record for each indicator from WorldBank for all reporting countries | [worldbank.csv](https://open-covid-19.github.io/data/v2/worldbank.csv), [worldbank.json](https://open-covid-19.github.io/data/v2/worldbank.json) | WorldBank |
 
 <sup>1</sup> `key` is a unique string for the specific geographical region built from a combination
 of codes such as `ISO 3166`, `NUTS`, `FIPS` and other local equivalents.\
@@ -164,10 +166,16 @@ Information related to the population demographics for each region:
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| **key** | `string` | Unique string identifying the region | CN_HB |
-| **population** | `integer` | Total count of humans living in the region | 58500000 |
-| **life_expectancy** | `double` `[years]` |  Average years that an individual is expected to live | 70.944 |
-| **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.773 |
+| **key** | `string` | Unique string identifying the region | KR |
+| **population** | `integer` | Total count of humans | 51606633 |
+| **male_population** | `integer` | Total count of males | 25846211 |
+| **female_population** | `integer` | Total count of females | 25760422 |
+| **rural_population** | `integer` | Population in a rural area | 9568386 |
+| **urban_population** | `integer` | Population in an urban area | 42038247 |
+| **largest_city_population** | `integer` | Population in the largest city of the region | 9963497 |
+| **clustered_population** | `integer` | Population in urban agglomerations of more than 1 million | 25893097 |
+| **population_density** | `double` `[persons per squared kilometer]` | Population per squared kilometer of land area | 529.3585 |
+| **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.903 |
 
 ### Economy
 Information related to the economic development for each region:
@@ -177,6 +185,7 @@ Information related to the economic development for each region:
 | **key** | `string` | Unique string identifying the region | CN_HB |
 | **gdp** | `integer` `[USD]` | Gross domestic product; monetary value of all finished goods and services | 24450604878 |
 | **gdp_per_capita** | `integer` `[USD]` | Gross domestic product divided by total population | 1148 |
+| **human_capital_index** | `double` `[0-1]` | Mobilization of the economic and professional potential of citizens | 0.765 |
 
 ### Epidemiology
 Information related to the COVID-19 infections for each date-region pair:
@@ -211,6 +220,47 @@ Information related to the geography for each region:
 | **longitude** | `double` | Floating point representing the geographic coordinate | 112.2707 |
 | **elevation** | `integer` `[meters]` | Elevation above the sea level | 875 |
 | **area** | `integer` [squared kilometers] | Area encompassing this region | 3729 |
+
+### Health
+Health related indicators for each region:
+
+| Name | Type | Description | Example |
+| ---- | ---- | ----------- | ------- |
+| **key** | `string` | Unique string identifying the region | BN |
+| **life_expectancy** | `double` `[years]` |Average years that an individual is expected to live | 75.722 |
+| **smoking_prevalence** | `double` `[%]` | Percentage of smokers in population | 16.9 |
+| **diabetes_prevalence** | `double` `[%]` | Percentage of persons with diabetes in population | 13.3 |
+| **infant_mortality_rate** | `double` | Infant mortality rate (per 1,000 live births) | 9.8 |
+| **adult_male_mortality_rate** | `double` | Mortality rate, adult, male (per 1,000 male adults) | 143.719 |
+| **adult_female_mortality_rate** | `double` | Mortality rate, adult, female (per 1,000 male adults) | 98.803 |
+| **pollution_mortality_rate** | `double` | Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population) | 13.3 |
+| **comorbidity_mortality_rate** | `double` `[%]` | Mortality from cardiovascular disease, cancer, diabetes or cardiorespiratory disease between exact ages 30 and 70 | 16.6 |
+| **hospital_beds** | `double` | Hospital beds (per 1,000 people) | 2.7 |
+| **nurses** | `double` | Nurses and midwives (per 1,000 people) | 5.8974 |
+| **physicians** | `double` | Physicians (per 1,000 people) | 1.609 |
+| **health_expenditure** | `double` `[USD]` | Health expenditure per capita | 671.4115 |
+| **out_of_pocket_health_expenditure** | `double` `[USD]` | Out-of-pocket health expenditure per capita | 34.756348 |
+
+Note that the majority of the health indicators are only available at the country level.
+
+### Mobility
+[Google's][17] and [Apple's][22] Mobility Reports] are presented in CSV form as
+[mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) with the
+following columns:
+
+| Name | Type | Description | Example |
+| ---- | ---- | ----------- | ------- |
+| **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
+| **key** | `string` | Unique string identifying the region | US_CA |
+| **mobility_driving** | `double` `[%]` |  Percentage change in movement via driving compared to baseline | -15 |
+| **mobility_transit** | `double` `[%]` |  Percentage change in movement via public transit compared to baseline | -15 |
+| **mobility_walking** | `double` `[%]` |  Percentage change in movement via walking compared to baseline | -15 |
+| **mobility_transit_stations** | `double` `[%]` |  Percentage change in visits to transit station locations compared to baseline | -15 |
+| **mobility_retail_and_recreation** | `double` `[%]` |  Percentage change in visits to retail and recreation locations compared to baseline | -15 |
+| **mobility_grocery_and_pharmacy** | `double` `[%]` |  Percentage change in visits to grocery and pharmacy locations compared to baseline | -15 |
+| **mobility_parks** | `double` `[%]` |  Percentage change in visits to park locations compared to baseline | -15 |
+| **mobility_residential** | `double` `[%]` |  Percentage change in visits to residential locations compared to baseline | -15 |
+| **mobility_workplaces** | `double` `[%]` |  Percentage change in visits to workplace locations compared to baseline | -15 |
 
 ### Oxford Government Response
 Summary of a government's response to the events, including a *stringency index*, collected from
@@ -256,24 +306,22 @@ Daily weather information from nearest station reported by NOAA:
 | **rainfall** | `double` `[millimeters]` | Rainfall during the entire day | 51.0 |
 | **snowfall** | `double` `[millimeters]` | Snowfall during the entire day | 0.0 |
 
-### Mobility
-[Google's][17] and [Apple's][22] Mobility Reports] are presented in CSV form as
-[mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) with the
-following columns:
+### WorldBank
+Most recent value for each indicator of the [WorldBank Database][25].
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
-| **key** | `string` | Unique string identifying the region | US_CA |
-| **mobility_driving** | `double` `[%]` |  Percentage change in movement via driving compared to baseline | -15 |
-| **mobility_transit** | `double` `[%]` |  Percentage change in movement via public transit compared to baseline | -15 |
-| **mobility_walking** | `double` `[%]` |  Percentage change in movement via walking compared to baseline | -15 |
-| **mobility_transit_stations** | `double` `[%]` |  Percentage change in visits to transit station locations compared to baseline | -15 |
-| **mobility_retail_and_recreation** | `double` `[%]` |  Percentage change in visits to retail and recreation locations compared to baseline | -15 |
-| **mobility_grocery_and_pharmacy** | `double` `[%]` |  Percentage change in visits to grocery and pharmacy locations compared to baseline | -15 |
-| **mobility_parks** | `double` `[%]` |  Percentage change in visits to park locations compared to baseline | -15 |
-| **mobility_residential** | `double` `[%]` |  Percentage change in visits to residential locations compared to baseline | -15 |
-| **mobility_workplaces** | `double` `[%]` |  Percentage change in visits to workplace locations compared to baseline | -15 |
+| **key** | `string` | Unique string identifying the region | ES |
+| **`<indicator>`** | `double` | Value of the indicator corresponding to this column, column name is indicator code | 0 |
+
+Refer to the [WorldBank documentation][25] for more details, or refer to the
+[worldbank_indicators.csv](./src/data/worldbank_indicators.csv) file for a short description of each
+indicator. Each column uses the indicator code as its name, and the rows are filled with the values
+for the corresponding `key`.
+
+Note that WorldBank data is only available at the country level and it's not included in the master
+table. If no values are reported by WorldBank for the country since 2015, the row value will be
+null.
 
 ### Notes about the data
 For countries where both country-level and subregion-level data is available, the entry which has a
@@ -316,9 +364,14 @@ from the relevant authorities, like a country's ministry of health.
 | Metadata | [Wikipedia](https://wikidata.org) | [CC BY-SA][24] |
 | Demographics | [Wikidata](https://wikidata.org) | [CC0][23] |
 | Demographics | [DataCommons](https://datacommons.org) | [Attribution required](https://policies.google.com/terms) |
+| Demographics | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |
 | Economy | [Wikidata](https://wikidata.org) | [CC0][23] |
 | Economy | [DataCommons](https://datacommons.org) | [Attribution required](https://policies.google.com/terms) |
+| Economy | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |
 | Geography | [Wikidata](https://wikidata.org) | [CC0][23] |
+| Geography | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |
+| Health | [Wikidata](https://wikidata.org) | [CC0][23] |
+| Health | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |
 | Weather | [NOAA](https://www.ncei.noaa.gov) | [Attribution required, non-commercial use](https://www.wmo.int/pages/prog/www/ois/Operational_Information/Publications/Congress/Cg_XII/res40_en.html) |
 | Apple Mobility data | <https://www.apple.com/covid19/mobility> | [Attribution required](https://www.google.com/help/terms_maps/?hl=en) |
 | Google Mobility data | <https://www.google.com/covid19/mobility/> | [Attribution required](https://www.google.com/help/terms_maps/?hl=en) |
@@ -417,3 +470,4 @@ Other contributors will be listed here in the future.
 [22]: https://www.apple.com/covid19/mobility
 [23]: https://www.wikidata.org/wiki/Wikidata:Licensing
 [24]: https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+[25]: https://worldbank.org

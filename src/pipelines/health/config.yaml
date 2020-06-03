@@ -12,16 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Geography pipeline configuration
+# Demographics pipeline configuration
 
 schema:
   key: str
-  latitude: float
-  longitude: float
-  elevation: int
-  area: int
-  rural_area: int
-  urban_area: int
+  life_expectancy: float
+  smoking_prevalence: float
+  diabetes_prevalence: float
+  infant_mortality_rate: float
+  adult_male_mortality_rate: float
+  adult_female_mortality_rate: float
+  pollution_mortality_rate: float
+  comorbidity_mortality_rate: float
+  hospital_beds: float
+  nurses: float
+  physicians: float
+  health_expenditure: float
+  out_of_pocket_health_expenditure: float
 
 auxiliary:
   metadata: ./src/data/metadata.csv
@@ -33,17 +40,23 @@ sources:
 
   - name: pipelines._common.wikidata_pipeline.WikidataPipeline
     parse:
-      latitude: P625
-      longitude: P625
-      elevation: P2044
-      area: P2046
+      life_expectancy: P2250
 
   - name: pipelines.worldbank.worldbank_pipeline.WorldbankPipeline
     fetch:
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
     parse:
-      min_year: 2000
       indicators:
-        area: "AG.SRF.TOTL.K2"
-        rural_area: "AG.LND.TOTL.RU.K2"
-        urban_area: "AG.LND.TOTL.UR.K2"
+        life_expectancy: "SP.DYN.LE00.IN"
+        smoking_prevalence: "SH.PRV.SMOK"
+        diabetes_prevalence: "SH.STA.DIAB.ZS"
+        infant_mortality_rate: "SP.DYN.IMRT.IN"
+        adult_male_mortality_rate: "SP.DYN.AMRT.MA"
+        adult_female_mortality_rate: "SP.DYN.AMRT.FE"
+        pollution_mortality_rate: "SH.STA.AIRP.P5"
+        comorbidity_mortality_rate: "SH.DYN.NCOM.ZS"
+        hospital_beds: "SH.MED.BEDS.ZS"
+        nurses: "SH.MED.NUMW.P3"
+        physicians: "SH.MED.PHYS.ZS"
+        health_expenditure: "SH.XPD.CHEX.PC.CD"
+        out_of_pocket_health_expenditure: "SH.XPD.OOPC.PC.CD"

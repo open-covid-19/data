@@ -17,18 +17,38 @@
 schema:
   key: str
   population: int
-  life_expectancy: float
+  male_population: int
+  female_population: int
+  rural_population: int
+  urban_population: int
+  largest_city_population: int
+  clustered_population: int
+  population_density: float
   human_development_index: float
 
 auxiliary:
   metadata: ./src/data/metadata.csv
   country_codes: ./src/data/country_codes.csv
   knowledge_graph: ./src/data/knowledge_graph.csv
+  worldbank_indicators: ./src/data/worldbank_indicators.csv
 
 sources:
 
   - name: pipelines._common.wikidata_pipeline.WikidataPipeline
     parse:
       population: P1082
-      life_expectancy: P2250
       human_development_index: P1081
+
+  - name: pipelines.worldbank.worldbank_pipeline.WorldbankPipeline
+    fetch:
+      - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
+    parse:
+      indicators:
+        population: "SP.POP.TOTL"
+        male_population: "SP.POP.TOTL.MA.IN"
+        female_population: "SP.POP.TOTL.FE.IN"
+        rural_population: "SP.RUR.TOTL"
+        urban_population: "SP.URB.TOTL"
+        largest_city_population: "EN.URB.LCTY"
+        clustered_population: "EN.URB.MCTY"
+        population_density: "EN.POP.DNST"

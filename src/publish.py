@@ -91,9 +91,10 @@ for output_file in (ROOT / "output" / "tables").glob("*.csv"):
 
 # Merge all output files into a single master table
 print("Creating master table...")
+exclude_from_master = ("master.csv", "index.csv", "worldbank.csv")
 master = read_file(v2_folder / "index.csv")
 for output_file in v2_folder.glob("*.csv"):
-    if output_file.name not in ("index.csv", "master.csv"):
+    if output_file.name not in exclude_from_master:
         master = master.merge(read_file(output_file, low_memory=False), how="left")
 
 # Drop rows without a single dated record

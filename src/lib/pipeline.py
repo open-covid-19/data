@@ -33,7 +33,7 @@ from tqdm import tqdm
 from .anomaly import detect_anomaly_all, detect_stale_columns
 from .cast import column_convert
 from .concurrent import process_map
-from .net import download
+from .net import download_snapshot
 from .io import read_file, fuzzy_text
 from .utils import ROOT, CACHE_URL, column_convert, combine_tables, drop_na_records
 
@@ -64,7 +64,7 @@ class DataPipeline:
     def fetch(self, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]) -> List[str]:
         """ Downloads the required resources and returns a list of local paths. """
         return [
-            download(source_config["url"], **source_config.get("opts", {}))
+            download_snapshot(source_config["url"], **source_config.get("opts", {}))
             for source_config in fetch_opts
         ]
 

@@ -36,7 +36,9 @@ class WikidataPipeline(DataPipeline):
         # Load wikidata using parallel processing
         map_iter = data.wikidata.iteritems()
         map_func = partial(WikidataPipeline._process_item, parse_opts)
-        records = concurrent.thread_map(map_func, map_iter, total=len(data))
+        records = concurrent.thread_map(
+            map_func, map_iter, total=len(data), desc="Wikidata Properties"
+        )
 
         # Return all records in DataFrame form
         return DataFrame.from_records(records)

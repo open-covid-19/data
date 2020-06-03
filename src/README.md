@@ -63,14 +63,14 @@ routine, including downloading and conversion of raw resources into a pandas `Da
 the `DataPipeline` implementation.
 
 ### Pipeline Chain
-A `PipelineChain` object wraps a list of individual `Pipelines`. Each pipeline is executed in order
-and the output is combined into a single data table. When values for the same `key` (or, if present,
-`date`-`key` pair) overlap, the value present in the last pipeline in the list is chosen. For
-example, if `pipeline1` outputs `{key: AA, value: 1}` and `pipeline2` outputs `{key: AA, value: 2}`,
-then the combined output will be `{key: AA, value: 2}` -- assuming that `pipeline2` has a higher
-index than `pipeline1` in the list. For this reason, you should order your pipelines from less
-trustworthy to more trustworthy, so the less trustworthy values can be overwritten if more trusted
-data is available.
+A `PipelineChain` object wraps a list of individual `Pipelines` and is defined in a `config.yaml`
+file. Each pipeline is executed in order and the output is combined into a single data table. When
+values for the same `key` (or, if present, `date`-`key` pair) overlap, the value present in the last
+pipeline in the list is chosen. For example, if `pipeline1` outputs `{key: AA, value: 1}` and
+`pipeline2` outputs `{key: AA, value: 2}`, then the combined output will be `{key: AA, value: 2}` --
+assuming that `pipeline2` has a higher index than `pipeline1` in the list. For this reason, you
+should order your pipelines from less trustworthy to more trustworthy, so the less trustworthy
+values can be overwritten if more trusted data is available.
 
 `PipelineChain` objects define the schema of the output table. Individual `Pipeline` objects that
 are part of the schema may output some or all columns defined in the schema, but columns not in the
