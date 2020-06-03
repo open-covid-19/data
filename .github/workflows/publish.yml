@@ -41,10 +41,16 @@ jobs:
     - name: Update public data
       working-directory: src
       run: |
+        echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H:%M')"
         python ./publish.py
 
     - name: Deploy data to server
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./output/public
+      working-directory: output/public
+      run : |
+        rm -rf .git
+        git init
+        git remote add origin https://${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data.git
+        git add --all --force
+        git status
+        git commit --message "Data updated by GitHub Bot (${{ env.TIMESTAMP }})"
+        git push --force --set-upstream origin master:gh-pages

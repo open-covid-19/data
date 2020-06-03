@@ -59,8 +59,7 @@ class WorldbankPipeline(DataPipeline):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
 
         buffer = BytesIO()
-        # download(sources[0], buffer, progress=True)
-        buffer = ROOT / "src" / "data" / "WDI_csv.zip"
+        download(sources[0], buffer, progress=True)
 
         data = None
         with zipfile.ZipFile(buffer) as zipped:

@@ -166,16 +166,16 @@ Information related to the population demographics for each region:
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| **key** | `string` | Unique string identifying the region | CN_HB |
-| **population** | `integer` | Total count of humans living in the region | 4137309 |
-| **male_population** | `integer` | Total count of humans living in the region | 2501079 |
-| **female_population** | `integer` | Total count of humans living in the region | 1636230 |
-| **rural_population** | `integer` | Total count of humans living in the region | 7778939 |
-| **urban_population** | `integer` | Total count of humans living in the region | 4137309 |
-| **largest_city_population** | `integer` | Total count of humans living in the region | 2989270 |
-| **clustered_population** | `integer` | Total count of humans living in the region | 2989270 |
-| **population_density** | `double` `[persons per squared kilometer]` |  Count of persons per squared kilometer of land area | 232.17222 |
-| **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.803 |
+| **key** | `string` | Unique string identifying the region | KR |
+| **population** | `integer` | Total count of humans | 51606633 |
+| **male_population** | `integer` | Total count of males | 25846211 |
+| **female_population** | `integer` | Total count of females | 25760422 |
+| **rural_population** | `integer` | Population in a rural area | 9568386 |
+| **urban_population** | `integer` | Population in an urban area | 42038247 |
+| **largest_city_population** | `integer` | Population in the largest city of the region | 9963497 |
+| **clustered_population** | `integer` | Population in urban agglomerations of more than 1 million | 25893097 |
+| **population_density** | `double` `[persons per squared kilometer]` | Population per squared kilometer of land area | 529.3585 |
+| **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.903 |
 
 ### Economy
 Information related to the economic development for each region:
@@ -226,22 +226,22 @@ Health related indicators for each region:
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
-| **key** | `string` | Unique string identifying the region | CO |
-| **life_expectancy** | `double` `[years]` |Average years that an individual is expected to live | 77.109 |
-| **smoking_prevalence** | `double` `[%]` | Percentage of smokers in population | 9.0 |
-| **diabetes_prevalence** | `double` `[%]` | Percentage of persons with diabetes in population | 7.4 |
-| **infant_mortality_rate** | `integer` | Mortality rate TODO | TODO |
-| **adult_male_mortality_rate** | `integer` | Mortality rate TODO | TODO |
-| **adult_female_mortality_rate** | `integer` | Mortality rate TODO | TODO |
-| **pollution_mortality_rate** | `integer` | Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population) | 37 |
-| **comorbidity_mortality_rate** | `double` `[%]` | Mortality from cardiovascular disease, cancer, diabetes or cardiorespiratory disease between exact ages 30 and 70 | 15.8 |
-| **hospital_beds** | `integer` | Area encompassing this region | 18.3 |
-| **nurses** | `integer` | Nurses and midwives (per 1,000 people) | 6 |
-| **physicians** | `integer` | Physicians (per 1,000 people) | 4 |
-| **health_expenditure** | `integer` `[USD]` | TODO | TODO |
-| **out_of_pocket_health_expenditure** | `integer` `[USD]` | TODO | TODO |
+| **key** | `string` | Unique string identifying the region | BN |
+| **life_expectancy** | `double` `[years]` |Average years that an individual is expected to live | 75.722 |
+| **smoking_prevalence** | `double` `[%]` | Percentage of smokers in population | 16.9 |
+| **diabetes_prevalence** | `double` `[%]` | Percentage of persons with diabetes in population | 13.3 |
+| **infant_mortality_rate** | `double` | Infant mortality rate (per 1,000 live births) | 9.8 |
+| **adult_male_mortality_rate** | `double` | Mortality rate, adult, male (per 1,000 male adults) | 143.719 |
+| **adult_female_mortality_rate** | `double` | Mortality rate, adult, female (per 1,000 male adults) | 98.803 |
+| **pollution_mortality_rate** | `double` | Mortality rate attributed to household and ambient air pollution, age-standardized (per 100,000 population) | 13.3 |
+| **comorbidity_mortality_rate** | `double` `[%]` | Mortality from cardiovascular disease, cancer, diabetes or cardiorespiratory disease between exact ages 30 and 70 | 16.6 |
+| **hospital_beds** | `double` | Hospital beds (per 1,000 people) | 2.7 |
+| **nurses** | `double` | Nurses and midwives (per 1,000 people) | 5.8974 |
+| **physicians** | `double` | Physicians (per 1,000 people) | 1.609 |
+| **health_expenditure** | `double` `[USD]` | Health expenditure per capita | 671.4115 |
+| **out_of_pocket_health_expenditure** | `double` `[USD]` | Out-of-pocket health expenditure per capita | 34.756348 |
 
-The majority of the health indicators are only available at the country level.
+Note that the majority of the health indicators are only available at the country level.
 
 ### Mobility
 [Google's][17] and [Apple's][22] Mobility Reports] are presented in CSV form as

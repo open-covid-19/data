@@ -19,11 +19,16 @@ schema:
   life_expectancy: float
   smoking_prevalence: float
   diabetes_prevalence: float
+  infant_mortality_rate: float
+  adult_male_mortality_rate: float
+  adult_female_mortality_rate: float
   pollution_mortality_rate: float
   comorbidity_mortality_rate: float
   hospital_beds: float
   nurses: float
   physicians: float
+  health_expenditure: float
+  out_of_pocket_health_expenditure: float
 
 auxiliary:
   metadata: ./src/data/metadata.csv
