@@ -26,6 +26,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        ref: master
 
     - name: Set up Python 3.x
       uses: actions/setup-python@v1
@@ -42,6 +44,7 @@ jobs:
       working-directory: src
       run: |
         echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H:%M')"
+        ls -hal ../output/tables
         rm -rf ../output/public
         python ./publish.py
 
@@ -58,4 +61,4 @@ jobs:
         git push \
           --force \
           "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/open-covid-19/data.git" \
-          HEAD:cache
+          HEAD:gh-pages
