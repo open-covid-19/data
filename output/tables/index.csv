@@ -2,6 +2,40 @@ key,wikidata,datacommons,country_code,country_name,subregion1_code,subregion1_na
 AD,Q228,country/AND,AD,Andorra,,,,,AD,AND,0
 AE,Q878,country/ARE,AE,United Arab Emirates,,,,,AE,ARE,0
 AF,Q889,country/AFG,AF,Afghanistan,,,,,AF,AFG,0
+AF_BAL,Q121104,,AF,Afhanistan,BAL,Balkh,,,AF,AFG,1
+AF_BAM,Q171382,,AF,Afhanistan,BAM,Bamyan,,,AF,AFG,1
+AF_BDG,Q172052,,AF,Afhanistan,BDG,Badghis,,,AF,AFG,1
+AF_BDS,Q165376,,AF,Afhanistan,BDS,Badakhshan,,,AF,AFG,1
+AF_BGL,Q170309,,AF,Afhanistan,BGL,Baghlan,,,AF,AFG,1
+AF_DAY,Q181220,,AF,Afhanistan,DAY,Daykundi,,,AF,AFG,1
+AF_FRA,Q180330,,AF,Afhanistan,FRA,Farah,,,AF,AFG,1
+AF_FYB,Q173830,,AF,Afhanistan,FYB,Faryab,,,AF,AFG,1
+AF_GHA,Q180415,,AF,Afhanistan,GHA,Ghazni,,,AF,AFG,1
+AF_GHO,Q186392,,AF,Afhanistan,GHO,Ghor,,,AF,AFG,1
+AF_HEL,Q173821,,AF,Afhanistan,HEL,Helmand,,,AF,AFG,1
+AF_HER,Q182844,,AF,Afhanistan,HER,Herat,,,AF,AFG,1
+AF_JOW,Q183036,,AF,Afhanistan,JOW,Jowzjan,,,AF,AFG,1
+AF_KAB,Q188933,,AF,Afhanistan,KAB,Kabul,,,AF,AFG,1
+AF_KAN,Q173808,,AF,Afhanistan,KAN,Kandahar,,,AF,AFG,1
+AF_KAP,Q173816,,AF,Afhanistan,KAP,Kapisa,,,AF,AFG,1
+AF_KDZ,Q186418,,AF,Afhanistan,KDZ,Kunduz,,,AF,AFG,1
+AF_KHO,Q185752,,AF,Afhanistan,KHO,Khost,,,AF,AFG,1
+AF_KNR,Q188147,,AF,Afhanistan,KNR,Kunar,,,AF,AFG,1
+AF_LAG,Q185442,,AF,Afhanistan,LAG,Laghman,,,AF,AFG,1
+AF_LOG,Q6667298,,AF,Afhanistan,LOG,Logar,,,AF,AFG,1
+AF_NAN,Q178471,,AF,Afhanistan,NAN,Nangarhar,,,AF,AFG,1
+AF_NIM,Q183021,,AF,Afhanistan,NIM,Nimruz,,,AF,AFG,1
+AF_NUR,Q167485,,AF,Afhanistan,NUR,Nuristan,,,AF,AFG,1
+AF_PAN,Q181235,,AF,Afhanistan,PAN,Panjshir,,,AF,AFG,1
+AF_PAR,Q188157,,AF,Afhanistan,PAR,Parwan,,,AF,AFG,1
+AF_PIA,Q182493,,AF,Afhanistan,PIA,Paktia,,,AF,AFG,1
+AF_PKA,Q185575,,AF,Afhanistan,PKA,Paktika,,,AF,AFG,1
+AF_SAM,Q183015,,AF,Afhanistan,SAM,Samangan,,,AF,AFG,1
+AF_SAR,Q182487,,AF,Afhanistan,SAR,Sar-e Pol,,,AF,AFG,1
+AF_TAK,Q186395,,AF,Afhanistan,TAK,Takhar,,,AF,AFG,1
+AF_URU,Q183028,,AF,Afhanistan,URU,Urozgan,,,AF,AFG,1
+AF_WAR,Q183056,,AF,Afhanistan,WAR,Maidan Wardak,,,AF,AFG,1
+AF_ZAB,Q139126,,AF,Afhanistan,ZAB,Zabul,,,AF,AFG,1
 AG,Q781,country/ATG,AG,Antigua and Barbuda,,,,,AG,ATG,0
 AI,Q25228,country/AIA,AI,Anguilla,,,,,AI,AIA,0
 AL,Q222,country/ALB,AL,Albania,,,,,AL,ALB,0
