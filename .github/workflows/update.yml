@@ -47,7 +47,7 @@ jobs:
     - name: Update datasets
       working-directory: src
       run: |
-        echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H')"
+        echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H:%M')"
         python ./update.py --verify simple --exclude weather
 
     - name: Create Pull Request
