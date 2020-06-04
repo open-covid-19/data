@@ -35,6 +35,13 @@ python -m unittest
 ```
 
 ## Contributing
+### Existing Tables
+To add new sources to be ingested into an existing table, please take a look to the epidemiology
+table's [README](pipelines/epidemiology/README.md) for step-by-step instructions. Even though it's
+written in the context of adding new sources to the epidemiology table, the same advice applies
+for any other table.
+
+### New Tables
 To create a new table output, it is recommended to start by making a copy of the
 [_template](pipelines/_template) folder. The name of the folder will determine the file name of the
 output table, which will be placed under the output folder. For the pipeline chain to be
