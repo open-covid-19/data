@@ -44,6 +44,13 @@ sources:
         opts:
           ext: csv
 
+  # Data sources for AF level 2
+  - name: pipelines.epidemiology.af_humdata.AfghanistanHumdataPipeline
+    fetch:
+      - url: "https://docs.google.com/spreadsheets/d/1F-AMEDtqK78EA6LYME2oOsWQsgJi4CT3V_G4Uo-47Rg/export?format=csv&gid=1539509351"
+        opts:
+          ext: csv
+
   # Data sources for AR level 2
   - name: pipelines.epidemiology.xx_wikipedia.WikipediaPipeline
     fetch:

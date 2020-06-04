@@ -2,6 +2,40 @@ key,country_code,country_name,subregion1_code,subregion1_name,subregion2_code,su
 AD,AD,Andorra,,,,,,-1
 AE,AE,United Arab Emirates,,,,,,-1
 AF,AF,Afghanistan,,,,,,-1
+AF_BAL,AF,Afhanistan,BAL,Balkh,,,,
+AF_BAM,AF,Afhanistan,BAM,Bamyan,,,,
+AF_BDG,AF,Afhanistan,BDG,Badghis,,,,
+AF_BDS,AF,Afhanistan,BDS,Badakhshan,,,,
+AF_BGL,AF,Afhanistan,BGL,Baghlan,,,,
+AF_DAY,AF,Afhanistan,DAY,Daykundi,,,,
+AF_FRA,AF,Afhanistan,FRA,Farah,,,,
+AF_FYB,AF,Afhanistan,FYB,Faryab,,,,
+AF_GHA,AF,Afhanistan,GHA,Ghazni,,,,
+AF_GHO,AF,Afhanistan,GHO,Ghor,,,,
+AF_HEL,AF,Afhanistan,HEL,Helmand,,,,
+AF_HER,AF,Afhanistan,HER,Herat,,,,
+AF_JOW,AF,Afhanistan,JOW,Jowzjan,,,,
+AF_KAB,AF,Afhanistan,KAB,Kabul,,,,
+AF_KAN,AF,Afhanistan,KAN,Kandahar,,,,
+AF_KAP,AF,Afhanistan,KAP,Kapisa,,,,
+AF_KDZ,AF,Afhanistan,KDZ,Kunduz,,,,
+AF_KHO,AF,Afhanistan,KHO,Khost,,,,
+AF_KNR,AF,Afhanistan,KNR,Kunar,,,,
+AF_LAG,AF,Afhanistan,LAG,Laghman,,,,
+AF_LOG,AF,Afhanistan,LOG,Logar,,,,
+AF_NAN,AF,Afhanistan,NAN,Nangarhar,,,,
+AF_NIM,AF,Afhanistan,NIM,Nimruz,,,,
+AF_NUR,AF,Afhanistan,NUR,Nuristan,,,,
+AF_PAN,AF,Afhanistan,PAN,Panjshir,,,,
+AF_PAR,AF,Afhanistan,PAR,Parwan,,,,
+AF_PIA,AF,Afhanistan,PIA,Paktia,,,,
+AF_PKA,AF,Afhanistan,PKA,Paktika,,,,
+AF_SAM,AF,Afhanistan,SAM,Samangan,,,,
+AF_SAR,AF,Afhanistan,SAR,Sar-e Pol,,,,
+AF_TAK,AF,Afhanistan,TAK,Takhar,,,,
+AF_URU,AF,Afhanistan,URU,Urozgan,,,,
+AF_WAR,AF,Afhanistan,WAR,Maidan Wardak,,,Wardak,
+AF_ZAB,AF,Afhanistan,ZAB,Zabul,,,,
 AG,AG,Antigua and Barbuda,,,,,,-1
 AI,AI,Anguilla,,,,,,-1
 AL,AL,Albania,,,,,,-1
@@ -5929,7 +5963,7 @@ UZ,UZ,Uzbekistan,,,,,,-1
 VA,VA,Vatican City,,,,,,-1
 VC,VC,Saint Vincent and the Grenadines,,,,,,-1
 VE,VE,Venezuela,,,,,,-1
-VE_A,VE,Venezuela,A,Capital District,,,,
+VE_A,VE,Venezuela,A,Capital District,,,Distrito Capital,
 VE_B,VE,Venezuela,B,Anzoátegui,,,,
 VE_C,VE,Venezuela,C,Apure,,,,
 VE_D,VE,Venezuela,D,Aragua,,,,
