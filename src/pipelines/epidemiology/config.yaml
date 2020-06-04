@@ -359,3 +359,10 @@ sources:
   - name: pipelines.epidemiology.us_nyt_covid.NytCovidL3Pipeline
     fetch:
       - url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
+
+  # Data sources for VE level 2
+  - name: pipelines.epidemiology.ve_humdata.VenezuelaHumdataPipeline
+    fetch:
+      - url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQI4s0no2TS1dYxbv82nhKD7iz8fbDGwdsOI4kzJ0cg3gjOR51KIw_rNOff97Xic_fRQD41xmsDGUfM/pub?gid=1029482781&single=true&output=csv"
+        opts:
+          ext: csv
