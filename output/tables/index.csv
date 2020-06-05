@@ -204,7 +204,7 @@ CL_CO,Q2121,,CL,Chile,CO,Coquimbo,,,CL,CHL,1
 CL_LI,Q2133,,CL,Chile,LI,O'Higgins,,,CL,CHL,1
 CL_LL,Q2178,,CL,Chile,LL,Los Lagos,,,CL,CHL,1
 CL_LR,Q2177,,CL,Chile,LR,Los Ríos,,,CL,CHL,1
-CL_MA,Q2189,,CL,Chile,MA,Magallanes,,,CL,CHL,1
+CL_MA,Q684369,,CL,Chile,MA,Magallanes,,,CL,CHL,1
 CL_ML,Q2166,,CL,Chile,ML,Maule,,,CL,CHL,1
 CL_NB,Q24076693,,CL,Chile,NB,Ñuble,,,CL,CHL,1
 CL_RM,Q2131,,CL,Chile,RM,Santiago Metropolitan,,,CL,CHL,1
@@ -1424,7 +1424,7 @@ CZ_71,Q193307,nuts/CZ071,CZ,Czech Republic,71,Olomouc Region,,,CZ,CZE,1
 CZ_72,Q192536,nuts/CZ072,CZ,Czech Republic,72,Zlin Region,,,CZ,CZE,1
 CZ_80,Q190550,nuts/CZ080,CZ,Czech Republic,80,Moravian-Silesian Region,,,CZ,CZE,1
 DE,Q183,country/DEU,DE,Germany,,,,,DE,DEU,0
-DE_BB,Q1208,nuts/DE4,DE,Germany,BB,Brandenburg,,,DE,DEU,1
+DE_BB,Q61437729,nuts/DE4,DE,Germany,BB,Brandenburg,,,DE,DEU,1
 DE_BE,Q64,nuts/DE3,DE,Germany,BE,Berlin,,,DE,DEU,1
 DE_BW,Q985,nuts/DE1,DE,Germany,BW,Baden-Württemberg,,,DE,DEU,1
 DE_BY,Q980,nuts/DE2,DE,Germany,BY,Bavaria,,,DE,DEU,1
@@ -1499,7 +1499,7 @@ FR_BFC_70,Q12730,,FR,France,BFC,Bourgogne-Franche-Comté,70,Haute-Saône,FR,FRA,
 FR_BFC_71,Q12736,,FR,France,BFC,Bourgogne-Franche-Comté,71,Saône-et-Loire,FR,FRA,2
 FR_BFC_89,Q12816,,FR,France,BFC,Bourgogne-Franche-Comté,89,Yonne,FR,FRA,2
 FR_BFC_90,Q12782,,FR,France,BFC,Bourgogne-Franche-Comté,90,Territoire de Belfort,FR,FRA,2
-FR_BL,,,FR,France,BL,Saint Barthélemy,,,FR,FRA,1
+FR_BL,Q25362,,FR,France,BL,Saint Barthélemy,,,FR,FRA,1
 FR_BRE,Q12130,,FR,France,BRE,Brittany,,,FR,FRA,1
 FR_BRE_22,,,FR,France,BRE,Brittany,22,Côtes-d'Armor,FR,FRA,2
 FR_BRE_29,,,FR,France,BRE,Brittany,29,Finistère,FR,FRA,2
@@ -1526,7 +1526,7 @@ FR_GES_57,Q12652,,FR,France,GES,Grand Est,57,Moselle,FR,FRA,2
 FR_GES_67,Q12717,,FR,France,GES,Grand Est,67,Bas-Rhin,FR,FRA,2
 FR_GES_68,Q12722,,FR,France,GES,Grand Est,68,Haut-Rhin,FR,FRA,2
 FR_GES_88,Q3105,,FR,France,GES,Grand Est,88,Vosges,FR,FRA,2
-FR_GF,,,FR,France,GF,French Guiana,,,FR,FRA,1
+FR_GF,Q3769,,FR,France,GF,French Guiana,,,FR,FRA,1
 FR_GUA,Q17012,country/GLP,FR,France,GUA,Guadeloupe,,,FR,FRA,1
 FR_HDF,Q18677767,,FR,France,HDF,Hauts-de-France,,,FR,FRA,1
 FR_HDF_02,Q3093,,FR,France,HDF,Hauts-de-France,02,Aisne,FR,FRA,2
@@ -1545,8 +1545,8 @@ FR_IDF_94,Q12788,,FR,France,IDF,Île-de-France,94,Val-de-Marne,FR,FRA,2
 FR_IDF_95,Q12784,,FR,France,IDF,Île-de-France,95,Val-d'Oise,FR,FRA,2
 FR_LRE,Q17070,country/REU,FR,France,LRE,La Réunion,,,FR,FRA,1
 FR_MAY,Q17063,country/MYT,FR,France,MAY,Mayotte,,,FR,FRA,1
-FR_MF,,,FR,France,MF,Saint Martin,,,FR,FRA,1
-FR_MQ,,,FR,France,MQ,Martinique,,,FR,FRA,1
+FR_MF,Q126125,,FR,France,MF,Saint Martin,,,FR,FRA,1
+FR_MQ,Q17054,,FR,France,MQ,Martinique,,,FR,FRA,1
 FR_NAQ,Q18678082,,FR,France,NAQ,Nouvelle-Aquitaine,,,FR,FRA,1
 FR_NAQ_16,Q3266,,FR,France,NAQ,Nouvelle-Aquitaine,16,Charente,FR,FRA,2
 FR_NAQ_17,Q3278,,FR,France,NAQ,Nouvelle-Aquitaine,17,Charente-Maritime,FR,FRA,2
