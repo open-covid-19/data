@@ -355,6 +355,7 @@ shouldn't be used in any new projects:
 
 
 ## Licensing
+
 The output data files are published under the [CC BY-SA](./CC-BY-SA) license. All data is
 subject to the terms of agreement individual to each data source, refer to the
 [sources of data](#sources-of-data) table for more details. All other code and assets are published
@@ -440,6 +441,7 @@ See the [source documentation](src) for more technical details.
 
 
 ## Contribute
+
 If you spot an error in the data, or there's a country you would like to include, the best way to
 contribute to this project is by helping maintain the data on the relevant Wikipedia article. Not
 only can that data be parsed automatically by this project, but it will also help inform millions of
