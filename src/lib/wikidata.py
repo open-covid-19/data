@@ -38,7 +38,15 @@ def _cast_property_amount(value):
 
 
 def _process_property(obj, name: str, prop: str):
-    value = _obj_get(obj, "claims", prop, -1, "mainsnak", "datavalue", "value")
+    # Attempt to sort by "point in time" P585
+    value_array = list(
+        sorted(
+            _obj_get(obj, "claims", prop),
+            key=lambda x: _obj_get(x, "qualifiers", "P585", 0, "datavalue", "value", "time") or "0",
+        )
+    )
+    # Get the latest known value
+    value = _obj_get(value_array, -1, "mainsnak", "datavalue", "value") if value_array else {}
     if "amount" in value:
         value = {name: _cast_property_amount(value.get("amount"))}
     return value
