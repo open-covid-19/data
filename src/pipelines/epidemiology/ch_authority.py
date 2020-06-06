@@ -16,7 +16,6 @@ from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
-from lib.utils import grouped_diff
 
 
 class SwitzerlandPipeline(DataPipeline):
@@ -27,13 +26,13 @@ class SwitzerlandPipeline(DataPipeline):
             dataframes[0]
             .rename(
                 columns={
-                    "ncumul_tested": "tested",
-                    "ncumul_conf": "confirmed",
-                    "ncumul_deceased": "deceased",
-                    "ncumul_hosp": "hospitalized",
-                    "ncumul_ICU": "intensive_care",
-                    "ncumul_vent": "ventilator",
-                    "ncumul_released": "recovered",
+                    "ncumul_tested": "total_tested",
+                    "ncumul_conf": "total_confirmed",
+                    "ncumul_deceased": "total_deceased",
+                    "ncumul_hosp": "total_hospitalized",
+                    "ncumul_ICU": "total_intensive_care",
+                    "ncumul_vent": "total_ventilator",
+                    "ncumul_released": "total_recovered",
                     "abbreviation_canton_and_fl": "subregion1_code",
                 }
             )
@@ -43,11 +42,8 @@ class SwitzerlandPipeline(DataPipeline):
         # TODO: Match FL subdivision (not a canton?)
         data = data[data.subregion1_code != "FL"]
 
-        # Data provided is cumulative, compute the diffs
-        data = grouped_diff(data, ["subregion1_code", "date"])
-        data["country_code"] = "CH"
-
         # Country-level data is reported as "ZH"
+        data["country_code"] = "CH"
         country_mask = data.subregion1_code == "ZH"
         data.loc[country_mask, "subregion1_code"] = None
 

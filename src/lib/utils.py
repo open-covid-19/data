@@ -77,6 +77,7 @@ def grouped_transform(
     transform: Callable,
     skip: List[str] = None,
     prefix: Tuple[str, str] = None,
+    compat: bool = True,
 ) -> DataFrame:
     """ Computes the transform for each item within the group determined by `keys` """
     assert keys[-1] == "date", '"date" key should be last'
@@ -96,7 +97,12 @@ def grouped_transform(
             continue
         if data[column].isnull().all():
             continue
-        data[prefix[0] + column] = group[column].apply(transform)
+        # This behavior can be simplified once all scripts are updated not to perform the
+        # grouped transformations on their own
+        if compat:
+            data[prefix[0] + column] = group[column].apply(transform)
+        else:
+            data[prefix[0] + column.replace(prefix[1], "")] = group[column].apply(transform)
 
     # Apply the prefix to all transformed columns
     data = data.rename(columns={col: prefix[1] + col for col in value_columns})
@@ -108,13 +114,158 @@ def grouped_transform(
     return data
 
 
-def grouped_diff(data: DataFrame, keys: List[str], skip: List[str] = None) -> DataFrame:
+def grouped_diff(
+    data: DataFrame,
+    keys: List[str],
+    skip: List[str] = None,
+    prefix: Tuple[str, str] = ("new_", "total_"),
+    compat: bool = True,
+) -> DataFrame:
     return grouped_transform(
-        data, keys, lambda x: x.ffill().diff(), skip=skip, prefix=("new_", "total_")
+        data, keys, lambda x: x.ffill().diff(), skip=skip, prefix=prefix, compat=compat
     )
 
 
-def grouped_cumsum(data: DataFrame, keys: List[str], skip: List[str] = None) -> DataFrame:
+def grouped_cumsum(
+    data: DataFrame,
+    keys: List[str],
+    skip: List[str] = None,
+    prefix: Tuple[str, str] = ("total_", "new_"),
+    compat: bool = True,
+) -> DataFrame:
     return grouped_transform(
-        data, keys, lambda x: x.fillna(0).cumsum(), skip=skip, prefix=("total_", "new_")
+        data, keys, lambda x: x.fillna(0).cumsum(), skip=skip, prefix=prefix, compat=compat
     )
+
+
+def stack_table(
+    data: DataFrame, index_columns: List[str], value_columns: List[str], stack_columns: List[str]
+) -> DataFrame:
+    """
+    Pivots a DataFrame's columns and aggregates the result as new columns with suffix. E.g.:
+
+    data:
+
+    idx piv val
+     0   A   1
+     0   B   2
+     1   A   3
+     1   B   4
+
+    stack_table(data, index_columns=[idx], value_columns=[val], stack_columns=[piv]):
+
+    idx val val_A val_B
+     0   3    1     2
+     1   7    3     4
+    """
+    output = data.drop(columns=stack_columns).groupby(index_columns).sum()
+
+    # Stash columns which are not part of the columns being indexed, aggregated or stacked
+    used_columns = index_columns + value_columns + stack_columns
+    stash_columns = [col for col in data.columns if col not in used_columns]
+    stash_output = data[stash_columns].copy()
+    data = data.drop(columns=stash_columns)
+
+    # Aggregate (stack) columns with respect to the value columns
+    for col_stack in stack_columns:
+        col_stack_values = data[col_stack].dropna().unique()
+        for col_variable in value_columns:
+            df = data[index_columns + [col_variable, col_stack]].copy()
+            df = df.pivot_table(
+                values=col_variable, index=index_columns, columns=[col_stack], aggfunc="sum"
+            )
+            column_mapping = {suffix: f"{col_variable}_{suffix}" for suffix in col_stack_values}
+            df = df.rename(columns=column_mapping)
+            transfer_columns = list(column_mapping.values())
+            output[transfer_columns] = df[transfer_columns]
+
+    # Restore the stashed columns, reset index and return
+    output[stash_columns] = stash_output
+    return output.reset_index()
+
+
+def age_group(age: int) -> str:
+    """
+    Categorical age group given a specific age, codified into a function to enforce consistency.
+    """
+    if age < 15:
+        return "children"
+    elif age < 65:
+        return "adult"
+    else:
+        return "elderly"
+
+
+def filter_index_columns(columns: List[str], index_schema: Dict[str, str]) -> List[str]:
+    """ Private function used to infer columns that this table should be indexed by """
+    index_columns = [col for col in columns if col in index_schema.keys()]
+    return index_columns + (["date"] if "date" in columns else [])
+
+
+def filter_output_columns(columns: List[str], output_schema: Dict[str, str]) -> List[str]:
+    """ Private function used to infer columns which are part of the output """
+    return [col for col in columns if col in output_schema.keys()]
+
+
+def infer_new_and_total(data: DataFrame, index_schema: Dict[str, str]) -> DataFrame:
+    """
+    We use the prefixes "new_" and "total_" as a convention to declare that a column contains values
+    which are daily and cumulative, respectively. This helper function will infer daily values when
+    only cumulative values are provided (by computing the daily difference) and, conversely, it will
+    also infer cumulative values when only daily values are provided (by computing the cumsum).
+    """
+
+    index_columns = filter_index_columns(data.columns, index_schema)
+
+    # We only care about columns which have prefix new_ and total_
+    prefix_search = ("new_", "total_")
+    value_columns = [
+        col for col in data.columns if any(col.startswith(prefix) for prefix in prefix_search)
+    ]
+
+    # Perform the cumsum of columns which only have new_ values
+    tot_columns = [
+        col
+        for col in data.columns
+        if col.startswith("total_") and col.replace("total_", "new_") not in data.columns
+    ]
+    if tot_columns:
+        new_data = grouped_diff(
+            data[index_columns + tot_columns], keys=index_columns, compat=False
+        ).drop(columns=index_columns)
+        data[new_data.columns] = new_data
+
+    # Perform the diff of columns which only have total_ values
+    new_columns = [
+        col
+        for col in data.columns
+        if col.startswith("new_") and col.replace("new_", "total_") not in data.columns
+    ]
+    if new_columns:
+        tot_data = grouped_cumsum(
+            data[index_columns + new_columns], keys=index_columns, compat=False
+        ).drop(columns=index_columns)
+        data[tot_data.columns] = tot_data
+
+    return data
+
+
+def stratify_age_and_sex(data: DataFrame, index_schema: Dict[str, str]) -> DataFrame:
+    """
+    Some data sources contain age and sex information. The output tables enforce that each record
+    must have a unique <key, date> pair (or `key` if no `date` field is present). To solve this
+    problem without losing the age and sex information, additional columns are created. For example,
+    an input table might have columns [key, date, population, sex] and this function would produce
+    the output [key, date, population, population_male, population_female].
+    """
+
+    index_columns = filter_index_columns(data, index_schema)
+    value_columns = [col for col in data.columns if col not in index_columns]
+
+    # Stack the columns which give us a stratified view of the data
+    stack_columns = [col for col in data.columns if col in ("age", "sex")]
+    data = stack_table(
+        data, index_columns=index_columns, value_columns=value_columns, stack_columns=stack_columns,
+    )
+
+    return data
