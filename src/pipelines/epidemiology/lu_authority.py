@@ -23,7 +23,7 @@ from lib.utils import grouped_diff, grouped_cumsum
 class LuxembourgPipeline(DataPipeline):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
-        data = read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1", sep=";").rename(
+        data = read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1").rename(
             columns={
                 "Date": "date",
                 "Nombre de personnes en soins normaux": "current_hospitalized",

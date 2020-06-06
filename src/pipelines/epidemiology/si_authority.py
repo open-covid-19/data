@@ -33,7 +33,7 @@ class SloveniaPipeline(DataPipeline):
                 "Positive (all)": "total_confirmed",
                 "Positive (daily)": "new_confirmed",
                 "All hospitalized on certain day": "current_hospitalized",
-                "All persons in intensive care on certain day": "active_intensive_care",
+                "All persons in intensive care on certain day": "current_intensive_care",
                 "Discharged": "recovered",
                 "Deaths (all)": "total_deceased",
                 "Deaths (daily)": "new_deceased",
@@ -53,7 +53,7 @@ class SloveniaPipeline(DataPipeline):
             skip=[
                 col
                 for col in data.columns
-                if any(kword in col for kword in ("new", "total", "active"))
+                if any(kword in col for kword in ("new", "total", "current"))
             ],
         )
 
