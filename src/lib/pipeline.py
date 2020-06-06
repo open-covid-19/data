@@ -35,7 +35,15 @@ from .cast import column_convert
 from .concurrent import process_map
 from .net import download_snapshot
 from .io import read_file, fuzzy_text
-from .utils import ROOT, CACHE_URL, column_convert, combine_tables, drop_na_records
+from .utils import (
+    ROOT,
+    CACHE_URL,
+    column_convert,
+    combine_tables,
+    drop_na_records,
+    filter_output_columns,
+    infer_new_and_total,
+)
 
 
 class DataPipeline:
@@ -214,6 +222,13 @@ class DataPipeline:
         if "query" in self.config:
             data = data.query(self.config["query"])
 
+        # Get the schema of our index table, necessary for processing to infer which columns in the
+        # data belong to the index and should not be aggregated
+        index_schema = PipelineChain.load("index").schema
+
+        # Process each record to add missing cumsum or daily diffs
+        data = infer_new_and_total(data, index_schema)
+
         # Return the final dataframe
         return data
 
@@ -370,8 +385,14 @@ class PipelineChain:
                 PipelineChain._run_wrapper, map_iter, desc=progress_label, disable=not progress,
             )
 
+        # Get rid of all columns which are not part of the output to speed up data combination
+        pipeline_outputs = [
+            result[filter_output_columns(result.columns, self.schema)]
+            for result in map_func
+            if result is not None
+        ]
+
         # Combine all pipeline outputs into a single DataFrame
-        pipeline_outputs = [result for result in map_func if result is not None]
         if not pipeline_outputs:
             warnings.warn("Empty result for pipeline chain {}".format(pipeline_name))
             data = DataFrame(columns=self.schema.keys())
