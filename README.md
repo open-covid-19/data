@@ -299,12 +299,17 @@ Daily weather information from nearest station reported by NOAA:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
-| **noaa_station** | `string` | Identifier for the weather station | USC00206080 |
-| **noaa_distance** | `double` `[kilometers]` | Distance between the location coordinates and the weather station | 28.693 |
+| **noaa_station\*** | `string` | Identifier for the weather station | USC00206080 |
+| **noaa_distance\*** | `double` `[kilometers]` | Distance between the location coordinates and the weather station | 28.693 |
+| **average_temperature** | `double` `[celsius]` | Recorded hourly average temperature | 11.2 |
 | **minimum_temperature** | `double` `[celsius]` | Recorded hourly minimum temperature | 1.7 |
 | **maximum_temperature** | `double` `[celsius]` | Recorded hourly maximum temperature | 19.4 |
 | **rainfall** | `double` `[millimeters]` | Rainfall during the entire day | 51.0 |
 | **snowfall** | `double` `[millimeters]` | Snowfall during the entire day | 0.0 |
+
+\*The reported weather station refers to the nearest station which provides temperature
+measurements, but rainfall and snowfall may come from a different nearby weather station. In all
+cases, only weather stations which are at most 300km from the location coordinates are considered.
 
 ### WorldBank
 Most recent value for each indicator of the [WorldBank Database][25].
