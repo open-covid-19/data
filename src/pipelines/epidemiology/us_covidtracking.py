@@ -27,20 +27,20 @@ class CovidTrackingPipeline(DataPipeline):
         column_map = {
             "date": "date",
             "state": "subregion1_code",
-            "positive": "confirmed",
-            "death": "deceased",
-            "total": "tested",
-            "recovered": "recovered",
-            "hospitalizedCurrently": "currently_hospitalized",
-            "hospitalizedCumulative": "hospitalized",
-            "inIcuCurrently": "currently_intensive_care",
-            "inIcuCumulative": "intensive_care",
-            "onVentilatorCurrently": "currently_ventilator",
-            "onVentilatorCumulative": "ventilator",
+            "positive": "total_confirmed",
+            "death": "total_deceased",
+            "total": "total_tested",
+            "recovered": "total_recovered",
+            "hospitalizedCurrently": "current_hospitalized",
+            "hospitalizedCumulative": "total_hospitalized",
+            "inIcuCurrently": "current_intensive_care",
+            "inIcuCumulative": "total_intensive_care",
+            "onVentilatorCurrently": "current_ventilator",
+            "onVentilatorCumulative": "total_ventilator",
         }
 
         # Rename the appropriate columns
-        data = dataframes[0].drop(columns=["hospitalized"]).rename(columns=column_map)
+        data = dataframes[0].rename(columns=column_map)
 
         # Convert date to ISO format
         data["date"] = data["date"].apply(lambda x: datetime_isoformat(x, "%Y%m%d"))
@@ -48,10 +48,6 @@ class CovidTrackingPipeline(DataPipeline):
         # Keep only columns we can process
         data["key"] = "US_" + data["subregion1_code"]
         data = data[["key"] + list(column_map.values())].drop(columns=["subregion1_code"])
-
-        # Compute the daily counts
-        curr_columns = [col for col in data.columns if "current" in col]
-        data = grouped_diff(data, ["key", "date"], skip=curr_columns)
 
         # Output the results
         return data
