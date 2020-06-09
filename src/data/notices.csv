@@ -28,3 +28,4 @@ date,key,table,notice,adjusted
 2020-04-18,ES_PV,epidemiology,"Starting on 2020-04-18 Spain reports only PCR+ as confirmed cases, antibody tests are reported separately.",0
 2020-04-18,ES_RI,epidemiology,"Starting on 2020-04-18 Spain reports only PCR+ as confirmed cases, antibody tests are reported separately.",0
 2020-04-18,ES_VC,epidemiology,"Starting on 2020-04-18 Spain reports only PCR+ as confirmed cases, antibody tests are reported separately.",0
+2020-05-24,US_TX,epidemiology,"Starting on 2020-05-24 data for the state of Texas is sourced from DHSH which reports a significantly different number of tests performed.",0
