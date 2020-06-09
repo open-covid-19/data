@@ -455,6 +455,7 @@ from the relevant authorities, like a country's ministry of health.
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | [The Unlicense](https://github.com/tomwhite/covid-19-uk-data/blob/master/LICENSE.txt) |
 | USA | [NYT COVID Dataset](https://github.com/nytimes) | [Attribution required, non-commercial use](https://github.com/nytimes/covid-19-data/blob/master/LICENSE) |
 | USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
+| USA (Texas) | [Texas Department of State Health Services](https://dshs.texas.gov) | [Attribution required, non-commercial use](https://dshs.texas.gov/policy/copyright.shtm) |
 
 
 

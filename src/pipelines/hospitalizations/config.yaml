@@ -144,3 +144,8 @@ sources:
   - name: pipelines.epidemiology.us_covidtracking.CovidTrackingPipeline
     fetch:
       - url: "https://raw.github.com/COVID19Tracking/covid-tracking-data/master/data/states_daily_4pm_et.csv"
+
+  # Data sources for US_TX level 2
+  - name: pipelines.epidemiology.us_tx_authority.TexasPipeline
+    fetch:
+      - url: "https://dshs.texas.gov/coronavirus/TexasCOVID19CaseCountData.xlsx"
