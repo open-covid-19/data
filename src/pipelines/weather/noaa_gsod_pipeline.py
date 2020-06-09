@@ -57,9 +57,6 @@ _OUTPUT_COLUMNS = [
 ]
 _DISTANCE_THRESHOLD = 300
 _INVENTORY_URL = "https://www1.ncdc.noaa.gov/pub/data/noaa/isd-history.csv"
-# _STATION_URL_TPL = "https://open-covid-19.github.io/weather/gsod/{}.csv"
-# _INVENTORY_URL = "https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/ghcnd-inventory.txt"
-# _STATION_URL_TPL = "https://www.ncei.noaa.gov/data/global-summary-of-the-day/access/2020/{}.csv"
 
 
 class NoaaGsodPipeline(DataPipeline):

@@ -367,6 +367,11 @@ sources:
     fetch:
       - url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
 
+  # Data sources for US_TX level 2
+  - name: pipelines.epidemiology.us_tx_authority.TexasPipeline
+    fetch:
+      - url: "https://dshs.texas.gov/coronavirus/TexasCOVID19CaseCountData.xlsx"
+
   # Data sources for VE level 2
   - name: pipelines.epidemiology.ve_humdata.VenezuelaHumdataPipeline
     fetch:
