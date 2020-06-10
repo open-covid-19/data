@@ -28,7 +28,7 @@ _url_base = "https://covid19-static.cdn-apple.com"
 
 class AppleMobilityPipeline(DataPipeline):
     def fetch(self, cache: Dict[str, List[str]], fetch_opts: List[Dict[str, Any]]):
-        api_res = requests.get(fetch_opts[0]['url']).json()
+        api_res = requests.get(fetch_opts[0]["url"]).json()
         fetch_opts = [
             {"url": f"{_url_base}{api_res['basePath']}{api_res['regions']['en-us']['csvPath']}"}
         ]

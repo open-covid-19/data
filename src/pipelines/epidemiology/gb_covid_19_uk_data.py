@@ -81,7 +81,7 @@ class Covid19UkDataL2Pipeline(DataPipeline):
             )
 
         data = DataFrame.from_records(records).rename(
-            columns={"ConfirmedCases": "confirmed", "Deaths": "deceased", "Tests": "tested",}
+            columns={"ConfirmedCases": "confirmed", "Deaths": "deceased", "Tests": "tested"}
         )
 
         for col in ("confirmed", "deceased", "tested"):

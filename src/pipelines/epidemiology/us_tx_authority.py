@@ -58,7 +58,7 @@ class TexasPipeline(DataPipeline):
         data.columns = data.iloc[0]
         data.columns = [col.replace("\n", " ") for col in data.columns]
         data = data.iloc[1:].rename(
-            columns={"Date": "date", "Hospitalization by Day": "current_hospitalized",}
+            columns={"Date": "date", "Hospitalization by Day": "current_hospitalized"}
         )
         data = data.replace(".", numpy.nan)
         return data

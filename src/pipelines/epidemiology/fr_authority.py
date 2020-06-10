@@ -73,7 +73,7 @@ class FrancePipeline(DataPipeline):
         l2 = l2.groupby(["key", "date"]).sum().reset_index()
 
         # Group by country level, and add the parts
-        l1 = l2.copy().drop(columns=['key'])
+        l1 = l2.copy().drop(columns=["key"])
         l1 = l1.groupby("date").sum().reset_index()
         l1["key"] = "FR"
 

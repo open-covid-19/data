@@ -382,7 +382,7 @@ class PipelineChain:
             )
         else:
             map_func = process_map(
-                PipelineChain._run_wrapper, map_iter, desc=progress_label, disable=not progress,
+                PipelineChain._run_wrapper, map_iter, desc=progress_label, disable=not progress
             )
 
         # Get rid of all columns which are not part of the output to speed up data combination
@@ -426,7 +426,7 @@ class PipelineChain:
                 )
             else:
                 map_func = process_map(
-                    map_func, map_iter, desc=progress_label, disable=not progress,
+                    map_func, map_iter, desc=progress_label, disable=not progress
                 )
 
             # Show progress as the results arrive if requested

@@ -265,7 +265,7 @@ def stratify_age_and_sex(data: DataFrame, index_schema: Dict[str, str]) -> DataF
     # Stack the columns which give us a stratified view of the data
     stack_columns = [col for col in data.columns if col in ("age", "sex")]
     data = stack_table(
-        data, index_columns=index_columns, value_columns=value_columns, stack_columns=stack_columns,
+        data, index_columns=index_columns, value_columns=value_columns, stack_columns=stack_columns
     )
 
     return data

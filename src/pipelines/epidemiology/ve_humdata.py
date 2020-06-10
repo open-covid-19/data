@@ -28,7 +28,7 @@ class VenezuelaHumdataPipeline(DataPipeline):
         )
 
         # Remove cities from output
-        data = data[~data.match_string.isin(['La Guaira', 'Los Roques'])]
+        data = data[~data.match_string.isin(["La Guaira", "Los Roques"])]
 
         # Compute daily differences
         data = grouped_diff(data, ["match_string", "date"])

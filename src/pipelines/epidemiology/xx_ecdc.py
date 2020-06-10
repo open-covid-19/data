@@ -63,7 +63,7 @@ class ECDCPipeline(DataPipeline):
         # Remove bogus entries (cruiseships, etc.)
         data = data[~data["geoId"].apply(lambda code: len(code) > 2)]
 
-        data = data.rename(columns={"geoId": "key", "cases": "confirmed", "deaths": "deceased",})
+        data = data.rename(columns={"geoId": "key", "cases": "confirmed", "deaths": "deceased"})
 
         # Adjust the date of the records to match local reporting
         data = self._adjust_date(data, metadata)

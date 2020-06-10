@@ -164,7 +164,7 @@ export_csv(latest, v1_folder / "data_latest.csv")
 # Create the v1 weather.csv file
 weather = read_file(v2_folder / "weather.csv")
 weather = weather[weather.key.apply(lambda x: len(x.split("_")) < 3)]
-weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station",})
+weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station"})
 rename_columns = {col: snake_to_camel_case(col) for col in weather.columns}
 export_csv(weather.rename(columns=rename_columns), v1_folder / "weather.csv")
 

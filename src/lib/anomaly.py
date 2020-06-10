@@ -70,7 +70,7 @@ def detect_stale_columns(
         return
     last_dates = list(sorted(data.date.unique()))[-3:]
     for column in data.columns:
-        subset = data[['date', column]].dropna()
+        subset = data[["date", column]].dropna()
         if len(subset) == 0:
             # Already flagged by detect_null_columns
             continue
