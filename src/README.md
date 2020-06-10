@@ -101,3 +101,32 @@ Some data sources are unreliable or only provide daily data (instead of historic
 resiliency of the data pipeline, you may also use a cache layer which creates hourly snapshots of
 data sources, which can then be aggregated into historical data. See the [cache](./cache) folder for
 more details.
+
+## Development Environment
+There are no strict guidelines regarding a development environment. Here are the recommended
+settings, which would help ensure consistency across the codebase.
+
+### Python
+Any python above 3.6 should be able to update and publish the data pipelines, provided the required
+dependencies are met. The recommended approach is to install a virtual environment, like [conda][1],
+and then install the dependencies using the following command from the `src` folder:
+```sh
+conda install --file requirements.txt
+```
+
+### Git Hooks
+Pre-commit Git hooks have a [common configuration](./.pre-commit-config.yaml) managed by
+[pre-commit][2] which can be installed like this:
+```sh
+conda install -c conda-forge pre-commit
+pre-commit install
+```
+
+This will ensure that lint checks run automatically prior to a git commit. You can also run the lint
+checks manually:
+```sh
+pre-commit run --all-files
+```
+
+[1]: https://docs.conda.io
+[2]: https://pre-commit.com
