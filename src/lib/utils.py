@@ -19,6 +19,7 @@ from pathlib import Path
 from functools import partial, reduce
 from typing import Any, Callable, List, Dict, Tuple, Optional
 from tqdm import tqdm
+from numpy import unique
 from pandas import DataFrame, Series, concat, isna, isnull
 from .cast import column_convert
 
@@ -184,16 +185,20 @@ def stack_table(
     return output.reset_index()
 
 
-def age_group(age: int) -> str:
+def age_group(age: int, bin_count: int = 10, max_age: int = 100) -> str:
     """
     Categorical age group given a specific age, codified into a function to enforce consistency.
     """
-    if age < 15:
-        return "children"
-    elif age < 65:
-        return "adult"
-    else:
-        return "elderly"
+    bin_size = max_age // bin_count
+    if age >= max_age - bin_size:
+        return f"{max_age - bin_size}-"
+
+    boundaries = [(i * bin_size, (i + 1) * bin_size - 1) for i in range(bin_count - 1)]
+    for a, b in boundaries:
+        if age >= a and age <= b:
+            return f"{a}-{b}"
+
+    return None
 
 
 def filter_index_columns(columns: List[str], index_schema: Dict[str, str]) -> List[str]:
@@ -260,12 +265,34 @@ def stratify_age_and_sex(data: DataFrame, index_schema: Dict[str, str]) -> DataF
     """
 
     index_columns = filter_index_columns(data, index_schema)
-    value_columns = [col for col in data.columns if col not in index_columns]
+    value_columns = [
+        col for col in data.columns if col not in index_columns and col not in ("age", "sex")
+    ]
+
+    # Stratified age uses a prefix since it's less obvious from the value names
+    age_prefix = "age_"
+    if "age" in data.columns:
+        data.age = age_prefix + data.age
 
     # Stack the columns which give us a stratified view of the data
-    stack_columns = [col for col in data.columns if col in ("age", "sex")]
     data = stack_table(
-        data, index_columns=index_columns, value_columns=value_columns, stack_columns=stack_columns
+        data, index_columns=index_columns, value_columns=value_columns, stack_columns=["age", "sex"]
     )
+
+    # Age ranges are not uniform, so we add a helper variable which indicates the actual range and
+    # make sure that the columns which contain the counts are unifrom across all sources
+    age_columns = {col: col.split(age_prefix, 2) for col in data.columns if age_prefix in col}
+    age_buckets = unique([bucket for _, bucket in age_columns.values()])
+    age_buckets_map = {bucket: f"{idx:02d}" for idx, bucket in enumerate(sorted(age_buckets))}
+    data = data.rename(
+        columns={
+            col_name_old: f"{prefix}{age_prefix}{age_buckets_map[bucket]}"
+            for col_name_old, (prefix, bucket) in age_columns.items()
+        }
+    )
+
+    # Add helper columns to indicate range, assuming all variables have the same buckets
+    for bucket_range, bucket_name in age_buckets_map.items():
+        data[f"age_bin_{bucket_name}"] = bucket_range
 
     return data

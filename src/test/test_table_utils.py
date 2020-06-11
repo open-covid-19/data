@@ -19,7 +19,7 @@ from pstats import Stats
 from unittest import TestCase, main
 
 from pandas import DataFrame, isnull
-from lib.utils import combine_tables, stack_table
+from lib.utils import combine_tables, stack_table, age_group
 
 # Synthetic data used for testing
 COMBINE_TEST_DATA_1 = DataFrame.from_records(
@@ -151,6 +151,19 @@ class TestPipelineMerge(TestCase):
         ).to_csv(buffer2)
 
         self.assertEqual(buffer1.getvalue(), buffer2.getvalue())
+
+    def test_age_group(self):
+        self.assertEqual("0-9", age_group(0, bin_count=10, max_age=100))
+        self.assertEqual("0-9", age_group(0.0, bin_count=10, max_age=100))
+        self.assertEqual("0-9", age_group(9, bin_count=10, max_age=100))
+        self.assertEqual("10-19", age_group(10, bin_count=10, max_age=100))
+        self.assertEqual("10-19", age_group(19, bin_count=10, max_age=100))
+        self.assertEqual("90-", age_group(90, bin_count=10, max_age=100))
+        self.assertEqual("90-", age_group(100, bin_count=10, max_age=100))
+        self.assertEqual("90-", age_group(1e9, bin_count=10, max_age=100))
+        self.assertEqual(None, age_group(-1, bin_count=10, max_age=100))
+
+    # TODO: Add test for stratify_age_and_sex
 
 
 if __name__ == "__main__":

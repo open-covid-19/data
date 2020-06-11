@@ -18,7 +18,7 @@ from pandas import DataFrame, concat, merge
 from lib.cast import safe_datetime_parse
 from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
-from lib.utils import grouped_cumsum
+from lib.utils import age_group
 
 
 class ColombiaPipeline(DataPipeline):
@@ -30,9 +30,11 @@ class ColombiaPipeline(DataPipeline):
         data = dataframes[0].rename(
             columns={
                 "Codigo DIVIPOLA": "subregion2_code",
-                "Fecha de muerte": "date_deceased",
-                "Fecha diagnostico": "date_confirmed",
-                "Fecha recuperado": "date_recovered",
+                "Fecha de muerte": "date_new_deceased",
+                "Fecha diagnostico": "date_new_confirmed",
+                "Fecha recuperado": "date_new_recovered",
+                "Edad": "age",
+                "Sexo": "sex",
             }
         )
 
@@ -47,13 +49,21 @@ class ColombiaPipeline(DataPipeline):
         # A few cases are at the l2 level
         data.key = data.key.apply(lambda x: "CO_" + x[-2:] if x.startswith("CO_00_") else x)
 
+        # Create stratified age bands
+        data.age = data.age.apply(age_group)
+
+        # Rename the sex values
+        data.sex = data.sex.apply({"M": "male", "F": "female"}.get)
+
         # Go from individual case records to key-grouped records in a flat table
         merged: DataFrame = None
-        for value_column in ("confirmed", "deceased", "recovered"):
-            subset = data.rename(columns={"date_{}".format(value_column): "date"})[["key", "date"]]
+        index_columns = ["key", "date", "sex", "age"]
+        value_columns = ["new_confirmed", "new_deceased", "new_recovered"]
+        for value_column in value_columns:
+            subset = data.rename(columns={"date_{}".format(value_column): "date"})[index_columns]
             subset = subset[~subset.date.isna() & (subset.date != "-   -")].dropna()
             subset[value_column] = 1
-            subset = subset.groupby(["key", "date"]).sum().reset_index()
+            subset = subset.groupby(index_columns).sum().reset_index()
             if merged is None:
                 merged = subset
             else:
@@ -65,17 +75,14 @@ class ColombiaPipeline(DataPipeline):
         merged.date = merged.date.apply(lambda x: x.date().isoformat())
         merged = merged.fillna(0)
 
-        # Compute the daily counts
-        data = grouped_cumsum(merged, ["key", "date"])
-
         # Group by level 2 region, and add the parts
-        l2 = data.copy()
+        l2 = merged.copy()
         l2["key"] = l2.key.apply(lambda x: "_".join(x.split("_")[:2]))
-        l2 = l2.groupby(["key", "date"]).sum().reset_index()
+        l2 = l2.groupby(index_columns).sum().reset_index()
 
         # Group by country level, and add the parts
         l1 = l2.copy().drop(columns=["key"])
-        l1 = l1.groupby("date").sum().reset_index()
+        l1 = l1.groupby(index_columns[1:]).sum().reset_index()
         l1["key"] = "CO"
 
-        return data
+        return concat([merged, l1, l2])[index_columns + value_columns]

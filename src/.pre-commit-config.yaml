@@ -1,4 +1,4 @@
-files: '(.*\.py)|(.*\.yaml)'
+files: '(.*\.py)|(.*\.md)|(.*\.yaml)'
 exclude: '.*/output/.*'
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
