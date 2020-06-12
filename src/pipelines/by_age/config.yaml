@@ -209,3 +209,12 @@ sources:
   - name: pipelines.epidemiology.co_authority.ColombiaPipeline
     fetch:
       - url: "https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv"
+
+  # Data sources for FR levels 1 + 2 + 3
+  - name: pipelines.epidemiology.fr_authority.FrancePipeline
+    fetch:
+      - url: "https://www.data.gouv.fr/fr/datasets/r/08c18e08-6780-452d-9b8c-ae244ad529b3"
+        opts:
+          ext: csv
+    parse:
+      sep: ";"

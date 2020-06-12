@@ -274,9 +274,16 @@ def stratify_age_and_sex(data: DataFrame, index_schema: Dict[str, str]) -> DataF
     if "age" in data.columns:
         data.age = age_prefix + data.age
 
+    # Determine the columns to stack depending on what's available
+    stack_columns = []
+    if "age" in data.columns:
+        stack_columns += ["age"]
+    if "sex" in data.columns:
+        stack_columns += ["sex"]
+
     # Stack the columns which give us a stratified view of the data
     data = stack_table(
-        data, index_columns=index_columns, value_columns=value_columns, stack_columns=["age", "sex"]
+        data, index_columns=index_columns, value_columns=value_columns, stack_columns=stack_columns
     )
 
     # Age ranges are not uniform, so we add a helper variable which indicates the actual range and

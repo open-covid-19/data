@@ -160,17 +160,17 @@ sources:
   # Data sources for FR levels 1 + 2 + 3
   - name: pipelines.epidemiology.fr_authority.FrancePipeline
     fetch:
+      - url: "https://www.data.gouv.fr/fr/datasets/r/406c6a23-e283-4300-9484-54e78c8ae675"
+        opts:
+          ext: csv
+
+  - name: pipelines.epidemiology.fr_authority.FrancePipeline
+    fetch:
       - url: "https://www.data.gouv.fr/fr/datasets/r/6fadff46-9efd-4c53-942a-54aca783c30c"
         opts:
           ext: csv
     parse:
       sep: ";"
-
-  - name: pipelines.epidemiology.fr_authority.FrancePipeline
-    fetch:
-      - url: "https://www.data.gouv.fr/fr/datasets/r/406c6a23-e283-4300-9484-54e78c8ae675"
-        opts:
-          ext: csv
 
   # Data sources for GB levels 1 + 2 + 3
   - name: pipelines.epidemiology.gb_covid_19_uk_data.Covid19UkDataL1Pipeline
