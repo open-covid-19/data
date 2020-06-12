@@ -1,104 +1,751 @@
-Date,Nombre de personnes en soins normaux,Nombre de personnes en soins intensifs (patients du Grand Est inclus),Nombre de personnes en soins intensifs (sans patients du Grand Est),Nombre de d�c�s - cumul� (sans patients du Grand Est),"Total patients COVID ayant quitt� l'h�pital (hospitalisations stationnaires, donn�es brutes)",Nombre cumul� de nouvelles personnes test�es COVID+ (si la personne a d�j� �t� test�e + pr�c�demment elle n'est donc pas reprise dans le compte),Nombre de nouvelles personnes test�es COVID+ par jour ,"Nombre cumul� de personnes test�es pour COVID
-*le 26/03 des r�sultats de tests ont �t� rapatri�s en masse ",Nombre de nouvelles personnes test�es pour COVID par jour (si la personne a d�j� �t� test�e pr�c�demment (- ou +) est n'est donc pas reprise dans le compte)
-24/02/2020,0,0,0,0,-,0,0,2,2
-25/02/2020,0,0,0,0,-,0,0,9,7
-26/02/2020,0,0,0,0,-,0,0,11,2
-27/02/2020,0,0,0,0,-,0,0,12,1
-28/02/2020,0,0,0,0,-,0,0,19,7
-29/02/2020,0,0,0,0,-,1,1,20,1
-01/03/2020,0,0,0,0,-,1,0,20,
-02/03/2020,0,0,0,0,-,1,0,27,7
-03/03/2020,0,0,0,0,-,1,0,31,4
-04/03/2020,0,0,0,0,-,1,0,31,
-05/03/2020,0,0,0,0,-,2,1,37,6
-06/03/2020,0,0,0,0,-,3,1,46,9
-07/03/2020,0,0,0,0,-,4,1,52,6
-08/03/2020,0,0,0,0,-,4,0,52,
-09/03/2020,0,0,0,0,-,4,0,68,16
-10/03/2020,0,0,0,0,3,4,0,93,25
-11/03/2020,0,0,0,0,-,6,2,144,51
-12/03/2020,0,0,0,0,1,21,15,344,200
-13/03/2020,0,0,0,0,4,45,24,547,203
-14/03/2020,0,0,0,0,-,66,21,654,107
-15/03/2020,0,0,0,0,-,66,0,678,24
-16/03/2020,0,0,0,0,4,99,33,1098,420
-17/03/2020,0,0,0,2,0,221,122,1748,650
-18/03/2020,0,0,0,2,3,379,158,2698,950
-19/03/2020,1,0,0,3,0,522,143,3669,971
-20/03/2020,18,3,3,5,2,697,175,4777,1108
-21/03/2020,56,6,6,6,2,824,127,5259,482
-22/03/2020,63,5,2,6,5,845,21,5280,21
-23/03/2020,71,7,2,6,6,1087,242,6477,1197
-24/03/2020,97,9,2,6,2,1280,193,7453,976
-25/03/2020,128,21,14,8,2,1450,170,8440,987
-26/03/2020,120,26,20,9,11,1713,263,13925,5485
-27/03/2020,128,26,20,14,4,1909,196,15163,1238
-28/03/2020,152,29,23,17,7,2036,127,16135,972
-29/03/2020,160,27,21,21,1,2080,44,16456,321
-30/03/2020,156,30,24,22,19,2251,171,17669,1213
-31/03/2020,163,32,26,26,16,2363,112,18783,1114
-01/04/2020,166,33,27,27,11,2554,191,20193,1410
-02/04/2020,184,40,30,28,9,2683,129,21617,1424
-03/04/2020,183,45,35,29,19,2800,117,22960,1343
-04/04/2020,190,43,33,34,13,2871,71,23834,874
-05/04/2020,177,43,33,36,10,2910,39,24454,620
-06/04/2020,180,41,31,38,16,2987,77,25482,1028
-07/04/2020,179,41,31,43,12,3074,87,26612,1130
-08/04/2020,189,43,33,46,10,3154,80,27623,1011
-09/04/2020,185,39,29,49,10,3225,71,28497,874
-10/04/2020,186,38,28,55,20,3273,48,29185,688
-11/04/2020,172,40,30,58,8,3285,12,29520,335
-12/04/2020,183,40,31,62,3,3304,19,29736,216
-13/04/2020,161,42,33,65,14,3307,3,29794,58
-14/04/2020,163,43,34,68,21,3383,76,31237,1443
-15/04/2020,144,44,35,68,14,3433,50,32080,843
-16/04/2020,157,41,32,71,18,3477,44,32967,887
-17/04/2020,141,39,30,71,15,3532,55,33919,952
-18/04/2020,152,40,31,74,10,3551,19,34434,515
-19/04/2020,148,39,30,75,0,3559,8,34570,136
-20/04/2020,149,39,31,78,22,3590,31,35537,967
-21/04/2020,147,38,31,80,10,3638,48,36395,858
-22/04/2020,143,35,28,81,13,3656,18,37526,1131
-23/04/2020,133,30,24,84,12,3676,20,38242,716
-24/04/2020,129,30,25,85,17,3708,32,39467,1225
-25/04/2020,119,28,23,88,6,3723,15,40065,598
-26/04/2020,121,25,20,88,4,3729,6,40166,101
-27/04/2020,112,25,20,89,19,3741,12,40863,697
-28/04/2020,115,25,22,89,20,3774,33,42485,1622
-29/04/2020,101,27,24,90,10,3790,16,44193,1708
-30/04/2020,87,27,24,92,13,3804,14,46042,1849
-01/05/2020,98,28,25,93,4,3811,7,47477,1435
-02/05/2020,93,27,24,96,3,3823,12,48113,636
-03/05/2020,92,26,23,96,2,3827,4,48334,221
-04/05/2020,90,25,22,98,8,3839,12,49302,968
-05/05/2020,98,23,20,98,16,3850,11,50538,1236
-06/05/2020,90,24,21,100,6,3859,9,51879,1341
-07/05/2020,80,19,16,100,7,3870,11,53315,1436
-08/05/2020,88,18,15,101,12,3876,6,54554,1239
-09/05/2020,79,17,14,101,6,3885,9,55247,693
-10/05/2020,69,21,18,101,3,3887,2,55412,165
-11/05/2020,66,23,22,102,1,3894,7,56391,979
-12/05/2020,67,23,22,103,7,3904,10,57688,1297
-13/05/2020,67,12,11,103,8,3916,12,58835,1147
-14/05/2020,71,12,11,104,3,3923,7,59988,1153
-15/05/2020,58,16,15,105,3,3932,9,61207,1219
-16/05/2020,50,14,13,106,5,3945,13,62154,947
-17/05/2020,46,9,8,106,1,3947,2,62260,106
-18/05/2020,50,11,10,108,6,3959,12,63085,825
-19/05/2020,51,7,6,108,5,3971,12,64086,1001
-20/05/2020,56,7,6,108,10,3980,9,65331,1245
-21/05/2020,46,6,5,108,1,3981,1,66087,756
-22/05/2020,47,9,8,108,9,3990,9,67190,1103
-23/05/2020,36,8,7,109,0,3992,2,68302,1112
-24/05/2020,37,5,4,109,-,3993,1,68368,66
-25/05/2020,39,6,5,109,2,3995,2,69152,784
-26/05/2020,46,5,4,110,3,4001,6,70399,1247
-27/05/2020,35,5,4,110,4,4008,7,71442,1043
-28/05/2020,30,5,4,110,3,4012,4,73428,1986
-29/05/2020,32,4,3,110,5,4016,4,76025,2597
-30/05/2020,30,4,3,110,2,4018,2,78102,2077
-31/05/2020,31,4,3,110,2,4019,1,78264,162
-01/06/2020,28,4,4,110,1,4020,1,78906,642
-02/06/2020,31,2,2,110,2,4024,4,80898,1992
-03/06/2020,28,3,3,110,2,4028,4,82984,2086
-04/06/2020,28,1,1,110,5,4033,5,84165,1181
+
+<!DOCTYPE html><html lang="fr">
+  <head>
+    
+    
+    
+
+
+
+
+
+<meta charset="utf-8" />
+<title>Accueil - Portail Open Data</title>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Accueil - Portail Open Data" />
+<link rel="author" href="https://data.public.lu" />
+<meta name="description" content="Partagez, améliorez et réutilisez les données publiques" />
+
+<meta property="og:description" content="Partagez, améliorez et réutilisez les données publiques" />
+<meta property="og:image" content="https://data.public.lu/_themes/gouvlu/img/logo-social.png?_=1.3.14" />
+<meta name="keywords" content="opendata, udata" />
+<meta name="theme-static-root" content="/_themes/gouvlu/" />
+<meta name="static-root" content="/static/" />
+<meta name="api-root" content="/api/1/" />
+<meta name="admin-root" content="/fr/admin/" />
+<meta name="api-specs" content="https://data.public.lu/api/1/swagger.json"/>
+<meta name="auth-url" content="/fr/login" />
+<meta name="github" content="https://github.com/etalab/udata" />
+<link rel="alternate" href="/en/datasets/r/79dab0da-3518-4fa5-80e0-db6319eb5977" hreflang="en" />
+
+
+<meta name="sentry" content="http://6195970a314c4d95a849c5d773023652@sentry.data.public.lu/5"
+    data-release=""
+    data-tags="%7B%22gouvlu%22%3A%20%221.3.14%22%2C%20%22udata%22%3A%20%221.6.20%22%2C%20%22udata-croquemort%22%3A%20%221.0.4%22%2C%20%22udata-piwik%22%3A%20%221.5.1%22%7D"
+/>
+
+<meta name="csrf-token" content="Ijc5NDc2ZDczN2ZlMGMwNjRmZTk3ZTU2MTViMzY5ZmU4NTlhM2NmNjIi.XuPjRA.d44vKJmBqaBTjkRjL7BSTdmtyxI" />
+<meta name="site-title" content="Portail Open Data" />
+
+
+
+<meta name="check-urls" content="true" />
+<meta name="unchecked-types" content="%5B%22api%22%5D" />
+<meta name="territory-enabled" content="false">
+<meta name="delete-me-enabled" content="true">
+<meta name="search-autocomplete-enabled" content="true">
+<meta name="search-autocomplete-debounce" content="200">
+<meta name="dataset-max-resources-uncollapsed" content="6">
+<meta name="markdown-config" content="%7B%22attributes%22%3A%20%7B%22a%22%3A%20%5B%22href%22%2C%20%22title%22%5D%2C%20%22abbr%22%3A%20%5B%22title%22%5D%2C%20%22acronym%22%3A%20%5B%22title%22%5D%7D%2C%20%22styles%22%3A%20%5B%5D%2C%20%22tags%22%3A%20%5B%22a%22%2C%20%22abbr%22%2C%20%22acronym%22%2C%20%22b%22%2C%20%22br%22%2C%20%22blockquote%22%2C%20%22code%22%2C%20%22dd%22%2C%20%22dl%22%2C%20%22dt%22%2C%20%22em%22%2C%20%22i%22%2C%20%22li%22%2C%20%22ol%22%2C%20%22pre%22%2C%20%22small%22%2C%20%22strong%22%2C%20%22ul%22%2C%20%22sup%22%2C%20%22sub%22%5D%7D" />
+
+<meta name="map-config" content="%7B%22init%22%3A%20%7B%22center%22%3A%20%5B42%2C%202.4%5D%2C%20%22level%22%3A%200%2C%20%22zoom%22%3A%204%7D%2C%20%22tiles%22%3A%20%7B%22config%22%3A%20%7B%22attribution%22%3A%20%22%26copy%3B%3Ca%20href%3D%5C%22http%3A//openstreetmap.org/copyright%5C%22%3EOpenStreetMap%3C/a%3E/%3Ca%20href%3D%5C%22https%3A//cartodb.com/attributions%5C%22%3ECartoDB%3C/a%3E%22%2C%20%22subdomains%22%3A%20%22abcd%22%7D%2C%20%22hidpi%22%3A%20%22https%3A//cartodb-basemaps-%7Bs%7D.global.ssl.fastly.net/light_all/%7Bz%7D/%7Bx%7D/%7By%7D%402x.png%22%2C%20%22url%22%3A%20%22https%3A//cartodb-basemaps-%7Bs%7D.global.ssl.fastly.net/light_all/%7Bz%7D/%7Bx%7D/%7By%7D.png%22%7D%7D" />
+<meta name="tags-config" content="%7B%22MAX_LENGTH%22%3A%2096%2C%20%22MIN_LENGTH%22%3A%203%7D" />
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/common.b52e97da2bd8878697fd98a607f524ed.css">
+    
+    <link rel="stylesheet" href="/static/site.d41d8cd98f00b204e9800998ecf8427e.css">
+    
+    
+    
+
+<link href="/_themes/gouvlu/theme.71ef3929c581857c1892.css" rel="stylesheet">
+
+    
+    <link href="/fr/datasets/recent.atom"
+        rel="alternate" type="application/atom+xml"
+        title="Jeux de données recents" />
+
+    <link href="/fr/reuses/recent.atom"
+        rel="alternate" type="application/atom+xml"
+        title="Réutilisations récentes" />
+
+    
+
+<link rel="shortcut icon" href="/_themes/gouvlu/img/favicon/default.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="57x57" href="/_themes/gouvlu/img/favicon/57x57.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="60x60" href="/_themes/gouvlu/img/favicon/60x60.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="72x72" href="/_themes/gouvlu/img/favicon/72x72.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="76x76" href="/_themes/gouvlu/img/favicon/76x76.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="114x114" href="/_themes/gouvlu/img/favicon/114x114.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="120x120" href="/_themes/gouvlu/img/favicon/120x120.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="144x144" href="/_themes/gouvlu/img/favicon/144x144.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="152x152" href="/_themes/gouvlu/img/favicon/152x152.png?_=1.3.14">
+<link rel="apple-touch-icon" sizes="180x180" href="/_themes/gouvlu/img/favicon/180x180.png?_=1.3.14">
+<link rel="icon" type="image/png" sizes="16x16" href="/_themes/gouvlu/img/favicon/16x16.png?_=1.3.14">
+<link rel="icon" type="image/png" sizes="32x32" href="/_themes/gouvlu/img/favicon/32x32.png?_=1.3.14">
+<link rel="icon" type="image/png" sizes="96x96" href="/_themes/gouvlu/img/favicon/96x96.png?_=1.3.14">
+<link rel="icon" type="image/png" sizes="192x192" href="/_themes/gouvlu/img/favicon/192x192.png?_=1.3.14">
+<link rel="icon" type="image/png" sizes="194x194" href="/_themes/gouvlu/img/favicon/194x194.png?_=1.3.14">
+<link rel="mask-icon" href="/_themes/gouvlu/img/favicon/safari-pinned-tab.svg?_=1.3.14" color="#5bbad5">
+<meta name="msapplication-TileImage" content="/_themes/gouvlu/img/favicon/144x144.png?_=1.3.14">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+
+
+    
+
+  </head>
+
+  <body class=" theme-default">
+    
+<nav id="menu" class="mobile-menu slideout-menu">
+  
+
+<header>
+    <a href="/fr/">
+        <img class="img-responsive" src="/_themes/gouvlu/img/logo-url.svg?_=1.3.14" alt="Portail Open Data" />
+        <span class="tagline">La plate-forme de données luxembourgeoise</span>
+    </a>
+</header>
+
+<site-search v-ref:search action="/fr/search/" placeholder="Recherche"
+    
+    
+    >
+    <form class="site-search" action="/fr/search/">
+        <div class="input-group ">
+            <div class="input-group-btn">
+                <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <label for="search" class="hidden">Recherche</label>
+            <input id="search" name="q" type="search" class="form-control" placeholder="Recherche" />
+        </div>
+    </form>
+</site-search>
+
+<a href class="btn btn-warning btn-block contribute" @click.prevent="$refs.publishActionModal.show" title="Contribuer">
+    Contribuez !
+</a>
+
+<ul class="list-unstyled menu" role="menu">
+    
+    <li>
+        
+        <a class="pull-right"><span class="fa fa-angle-right"></span></a>
+        
+        <a href="/fr/datasets/">
+            Données
+        </a>
+        
+        <ul class="list-unstyled submenu" role="menu">
+            
+            <li><a href="/fr/datasets/">Jeux de données</a></li>
+            
+            <li><a href="/fr/reuses/">Réutilisations</a></li>
+            
+            <li><a href="/fr/organizations/">Organisations</a></li>
+            
+        </ul>
+        
+    </li>
+    
+    <li>
+        
+        <a href="/fr/dashboard/">
+            Tableau de bord
+        </a>
+        
+    </li>
+    
+    <li>
+        
+        <a class="pull-right"><span class="fa fa-angle-right"></span></a>
+        
+        <a href="#">
+            Événements
+        </a>
+        
+        <ul class="list-unstyled submenu" role="menu">
+            
+            <li><a href="http://www.gameofcode.eu/">Game of Code</a></li>
+            
+        </ul>
+        
+    </li>
+    
+    
+    <li>
+        <a class="pull-right"><span class="fa fa-angle-right"></span></a>
+        <a>
+            <!--span class="fa fa-fw fa-bars"></span-->
+            Naviguer par thème
+        </a>
+        <ul class="list-unstyled submenu" role="menu">
+            
+            <li>
+                <a href="/fr/topics/affaires-internationales/">
+                    Affaires internationales
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/agriculture/">
+                    Agriculture
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/droit/">
+                    Justice, droit et sécurité publique
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/economie/">
+                    Economie et finances
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/energie/">
+                    Energie et ressources naturelles
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/environnement/">
+                    Environnement et climat
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/gouvernement-et-secteur-public/">
+                    Gouvernement et secteur public
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/population-et-societe/">
+                    Population et société
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/regions-et-developement-local/">
+                    Régions et développement local
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/sante/">
+                    Santé
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/science-et-technologie/">
+                    Science et technologie
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/transports/">
+                    Transport
+                </a>
+            </li>
+            
+            <li>
+                <a href="/fr/topics/vie-quotidienne/">
+                    Education, culture et sport
+                </a>
+            </li>
+            
+        </ul>
+    </li>
+    
+    
+    <li>
+        <a title="Connexion / Inscription" href="/fr/login?next=https%3A%2F%2Fdata.public.lu%2Ffr%2Fdatasets%2Fr%2F79dab0da-3518-4fa5-80e0-db6319eb5977">
+            <span class="fa fa-fw fa-sign-in"></span>
+            Connexion / Inscription
+        </a>
+    </li>
+    
+
+    
+    
+    <li>
+        <a class="pull-right"><span class="fa fa-angle-right"></span></a>
+        <a>
+            <!--span class="fa fa-fw fa-globe"></span-->
+            Langue
+        </a>
+        <ul class="list-unstyled submenu">
+            
+            <li>
+                <a href="https://data.public.lu/fr/datasets/?tag=etude">
+                    Français
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://data.public.lu/en/datasets/?tag=etude">
+                    English
+                </a>
+            </li>
+            
+        </ul>
+    </li>
+    
+    
+</ul>
+</nav>
+
+<main id="panel">
+  
+    
+<span id="top"></span>
+
+<section class="header">
+    <div class="container">
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"
+                data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/fr/">
+                <img class="header-logo" src="/_themes/gouvlu/img/logo-bloc-borderless.svg?_=1.3.14" alt="Portail Open Data" />
+            </a>
+            <p class="navbar-slogan">La plate-forme de données luxembourgeoise</p>
+        </div>
+        <nav class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                
+                <li class="dropdown dropdown-hover">
+                    <a href="/fr/datasets/">Données</a>
+                    
+                    <ul class="dropdown-menu" role="menu">
+                        
+                        <li><a href="/fr/datasets/">Jeux de données</a></li>
+                        
+                        <li><a href="/fr/reuses/">Réutilisations</a></li>
+                        
+                        <li><a href="/fr/organizations/">Organisations</a></li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li >
+                    <a href="/fr/dashboard/">Tableau de bord</a>
+                    
+                </li>
+                
+                <li class="dropdown dropdown-hover">
+                    <a href="#">Événements</a>
+                    
+                    <ul class="dropdown-menu" role="menu">
+                        
+                        <li><a href="http://www.gameofcode.eu/">Game of Code</a></li>
+                        
+                    </ul>
+                    
+                </li>
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right navbar-middle">
+                <li class="dropdown">
+                    
+                    <a role="button" class="btn btn-link topic-chooser dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-bars hidden-sm"></span>
+                        Naviguer par thème
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="topics">
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/affaires-internationales/">
+                                Affaires internationales
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/agriculture/">
+                                Agriculture
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/droit/">
+                                Justice, droit et sécurité publique
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/economie/">
+                                Economie et finances
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/energie/">
+                                Energie et ressources naturelles
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/environnement/">
+                                Environnement et climat
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/gouvernement-et-secteur-public/">
+                                Gouvernement et secteur public
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/population-et-societe/">
+                                Population et société
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/regions-et-developement-local/">
+                                Régions et développement local
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/sante/">
+                                Santé
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/science-et-technologie/">
+                                Science et technologie
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/transports/">
+                                Transport
+                            </a>
+                        </li>
+                        
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="/fr/topics/vie-quotidienne/">
+                                Education, culture et sport
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <site-search v-ref:search action="/fr/search/" placeholder="Recherche"
+    class="navbar-form"
+    
+    >
+    <form class="site-search navbar-form" action="/fr/search/">
+        <div class="input-group ">
+            <div class="input-group-btn">
+                <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <label for="search" class="hidden">Recherche</label>
+            <input id="search" name="q" type="search" class="form-control" placeholder="Recherche" />
+        </div>
+    </form>
+</site-search>
+                </li>
+            </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right navbar-top">
+                <li>
+                    <a href class="btn btn-link contribute" @click.prevent="$refs.publishActionModal.show" title="Contribuer">
+                        Contribuez !
+                    </a>
+                </li>
+                
+                <li>
+                    <a title="Connexion / Inscription" class="btn btn-link "
+                        href="/fr/login?next=https%3A%2F%2Fdata.public.lu%2Ffr%2Fdatasets%2Fr%2F79dab0da-3518-4fa5-80e0-db6319eb5977">
+                        <span class="fa fa-fw fa-sign-in"></span>
+                        Connexion / Inscription
+                    </a>
+                </li>
+                
+                
+                <li class="dropdown language">
+                    <a role="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+                        <span class="fa fa-fw fa-2x fa-globe"></span>
+                        Langue
+                        <span class="fa fa-angle-down"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        
+                        <li>
+                            <a href="https://data.public.lu/fr/datasets/r/79dab0da-3518-4fa5-80e0-db6319eb5977">
+                                Français
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://data.public.lu/en/datasets/r/79dab0da-3518-4fa5-80e0-db6319eb5977">
+                                English
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+
+            </ul>
+        </nav>
+    </div>
+</section>
+    
+
+    <notification-zone></notification-zone>
+
+    
+      
+    
+    
+<section class="error">
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>
+                Erreur 404
+                <small>Page non trouvée</small>
+            </h1>
+            
+<p class="lead">La page que vous cherchez ne peut être trouvée.</p>
+
+            <p class="text-center">
+                <a class="btn btn-primary btn-lg" role="button" href="/fr/">
+                    <span class="fa fa-home"></span>
+                    Accueil
+                </a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+    
+<a href @click.prevent="$scrollTo('#top')" title="Haut de page" class="top-button fa fa-4x fa-angle-up"></a>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <section class="col-xs-12 col-sm-4">
+                <h3>Guide de l’Open Data</h3>
+                <ul>
+                    
+                    <li>
+                        <a href="/fr/docapi/">API</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/faq/">Questions fréquentes</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/usage/">Guide d&#39;utilisation des données ouvertes</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/publishing/">Guide de publication des données ouvertes</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/strategy/">Stratégie des données ouvertes</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/5yearplan/">Feuille de route de données ouvertes</a>
+                        
+                    </li>
+                    
+                    <li>
+                        <a href="/fr/terms/">Conditions générales d&#39;utilisation</a>
+                        
+                    </li>
+                    
+                </ul>
+            </section>
+
+            <section class="col-xs-12 col-sm-4 social">
+                <h3>Contactez-nous</h3>
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/opendatalu" title="Twitter">
+                            <span class="fa fa-fw fa-twitter"></span>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/opendatalu/" title="Github">
+                            <span class="fa fa-fw fa-github"></span>
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/fr/posts/" title="Actualités">
+                            <span class="fa fa-fw fa-newspaper-o"></span>
+                            Actualités
+                        </a>
+                    </li>
+                    <li>
+                        <a href="m&#x61;ilto:info%40data&#46;public&#46;lu">
+                            <span class="fa fa-fw fa-envelope"></span>
+                            info@data.public.lu
+                        </a>
+                    </li>
+                    <li>
+                        <span tabindex="-1" title="Flux" class="feed-icon" role="button"
+                            v-popover popover-placement="top" popover-class="rss-popover">
+                            <span class="fa fa-fw fa-rss"></span>
+                            Flux
+                            <span data-popover-content>
+                                <a title="Jeux de données" href="/fr/datasets/recent.atom">
+                                    <span class="fa fa-rss"></span>
+                                    Jeux de données
+                                </a>
+                                <br/>
+                                <a title="Réutilisations" href="/fr/reuses/recent.atom">
+                                    <span class="fa fa-rss"></span>
+                                    Réutilisations
+                                </a>
+                            </span>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="col-xs-12 col-sm-4 text-right">
+                <img class="footer-logo img-responsive" src="/_themes/gouvlu/img/logo-bloc.svg?_=1.3.14" alt="data.gouv.lu logo" />
+                <ul class="versions">
+                    <li>
+                        <a href="https://github.com/opendatateam/udata/" title="Moteur open-source">udata</a>
+                        <a href="https://pypi.python.org/pypi/udata/1.6.20/" title="Version déployée">1.6.20</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/opendatalu/gouvlu/" title="Extension Data.public.lu">gouvlu</a>
+                        <a href="https://pypi.python.org/pypi/gouvlu/1.3.14/" title="Version déployée">1.3.14</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="row credits">
+            <div class="col-xs-12">
+                <a href="http://www.digital-luxembourg.public.lu/" class="pull-right">
+                    
+                    Une initiative de 
+                    <img src="//cdn.public.lu/pictures/logos/digital-letzebuerg.png"
+                        srcset="//cdn.public.lu/pictures/logos/digital-letzebuerg-hdpi.png 1.5x,
+                                //cdn.public.lu/pictures/logos/digital-letzebuerg-xhdpi.png 2x,
+                                //cdn.public.lu/pictures/logos/digital-letzebuerg-xxhdpi.png 3x"
+                        alt="Digital Lëtzebuerg" />
+                    
+                </a>
+                <a class="renow" href="http://renow.lu" title="Renow, votre guide en matière de qualité web gouvernemental luxembourgeois">
+                    <img src="/_themes/gouvlu/img/renow.svg?_=1.3.14" alt="Renow" />
+                </a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+    <modal v-ref:publish-action-modal :visible="false">
+    <div class="modal-body">
+        <div class="list-group actions-list">
+            <a class="list-group-item" href="/fr/admin/dataset/new/">
+                <div class="action-icon">
+                    <span class="fa fa-cubes fa-3x"></span>
+                </div>
+                <h4 class="list-group-item-heading">
+                    
+                    Publiez un jeu de données
+                </h4>
+                 <p class="list-group-item-text">
+                
+                Contribuez et ajoutez un nouveau jeu de données au catalogue de ce site
+                </p>
+            </a>
+
+            <a class="list-group-item" href="/fr/admin/reuse/new/">
+                <div class="action-icon">
+                    <span class="fa fa-recycle fa-3x"></span>
+                </div>
+                <h4 class="list-group-item-heading">
+                    
+                    Publiez une réutilisation
+                </h4>
+                <p class="list-group-item-text">
+                
+                Contribuez et ajoutez une nouvelle réutilisation au catalogue de ce site.
+                </p>
+            </a>
+
+            <a class="list-group-item" href="/fr/admin/organization/new/">
+                <div class="action-icon">
+                    <span class="fa fa-building-o fa-3x"></span>
+                </div>
+                <h4 class="list-group-item-heading">
+                    
+                    Créez ou trouvez votre organisation
+                </h4>
+                <p class="list-group-item-text">
+                
+                Vous pouvez créer une nouvelle organisation ou trouver la vôtre
+                </p>
+            </a>
+        </div>
+    </div>
+</modal>
+    
+
+</main>
+
+
+
+    <script src="/static/common.da0dd2923c85bc3ed9a8.js"></script>
+    
+    <script src="/static/site.da0dd2923c85bc3ed9a8.js"></script>
+    
+    
+
+
+
+<script src="//cdn.public.lu/skizz/govbar/2-2-0/govbar.js" data-govbar="{ }"></script>
+<script>govbar();</script>
+
+
+<script src="/_themes/gouvlu/theme.js?_=1.3.14"></script>
+
+
+    
+    
+    
+
+  </body>
+</html>
