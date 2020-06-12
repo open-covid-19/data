@@ -287,7 +287,7 @@ def stratify_age_and_sex(data: DataFrame, index_schema: Dict[str, str]) -> DataF
     )
 
     # Age ranges are not uniform, so we add a helper variable which indicates the actual range and
-    # make sure that the columns which contain the counts are unifrom across all sources
+    # make sure that the columns which contain the counts are uniform across all sources
     age_columns = {col: col.split(age_prefix, 2) for col in data.columns if age_prefix in col}
     age_buckets = unique([bucket for _, bucket in age_columns.values()])
     age_buckets_map = {bucket: f"{idx:02d}" for idx, bucket in enumerate(sorted(age_buckets))}
