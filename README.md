@@ -25,7 +25,7 @@ consistent geographic (and temporal) keys.
 | [Epidemiology](#epidemiology) | `[key][date]` | COVID-19 cases, deaths, recoveries and tests | [epidemiology.csv](https://open-covid-19.github.io/data/v2/epidemiology.csv), [epidemiology.json](https://open-covid-19.github.io/data/v2/epidemiology.json) | Various<sup>2</sup> |
 | [Geography](#geography) | `[key]` | Geographical information about the region | [geography.csv](https://open-covid-19.github.io/data/v2/geography.csv), [geography.json](https://open-covid-19.github.io/data/v2/geography.json) | Wikidata |
 | [Health](#health) | `[key]` | Health indicators for the region | [health.csv](https://open-covid-19.github.io/data/v2/health.csv), [health.json](https://open-covid-19.github.io/data/v2/geography.json) | Wikidata, WorldBank |
-| [Hospitalization](#hospitalization) | [hospitalization.csv](https://open-covid-19.github.io/data/v2/hospitalization.csv) | [hospitalization.json](https://open-covid-19.github.io/data/v2/hospitalization.json) |
+| [Hospitalizations](#hospitalizations) | `[key][date]` | [hospitalizations.csv](https://open-covid-19.github.io/data/v2/hospitalizations.csv) | [hospitalizations.json](https://open-covid-19.github.io/data/v2/hospitalization.json) | Various<sup>2</sup> |
 | [Mobility](#mobility) | `[key][date]` | Various metrics related to the movement of people | [mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv), [google-mobility.json](https://open-covid-19.github.io/data/v2/google-mobility.json) | Google, Apple |
 | [Oxford Government Response](#oxford-government-response) | `[key][date]` | Government interventions and their relative stringency | [oxford-government-response.csv](https://open-covid-19.github.io/data/v2/oxford-government-response.csv), [oxford-government-response.json](https://open-covid-19.github.io/data/v2/oxford-government-response.json) | University of Oxford |
 | [Weather](#weather) | `[key][date]` | Dated meteorological information for each region | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv), [weather.json](https://open-covid-19.github.io/data/v2/weather.json) | NOAA |
@@ -248,7 +248,7 @@ Health related indicators for each region:
 
 Note that the majority of the health indicators are only available at the country level.
 
-### Hospitalization
+### Hospitalizations
 Information related to patients of COVID-19 and hospitals:
 
 | Name | Type | Description | Example |
