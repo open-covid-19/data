@@ -66,9 +66,11 @@ sources:
 
   - name: pipelines.epidemiology.fr_authority.FrancePipeline
     fetch:
-      - url: "https://www.data.gouv.fr/fr/datasets/r/406c6a23-e283-4300-9484-54e78c8ae675"
+      - url: "https://www.data.gouv.fr/fr/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7"
         opts:
           ext: csv
+    parse:
+      sep: ";"
 
   # Data sources for GB levels 1 + 2 + 3
   - name: pipelines.hospitalizations.gb_authority.ScotlandPipeline

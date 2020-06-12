@@ -62,16 +62,16 @@ for item in (ROOT / "src" / "pipelines").iterdir():
 # Run all the pipelines and place their outputs into the output folder
 # The output name for each pipeline chain will be the name of the directory that the chain is in
 for pipeline_name in all_pipeline_chains:
-    if args.only and not pipeline_name in args.only.split(","):
+    table_name = pipeline_name.replace("_", "-")
+    if args.only and not table_name in args.only.split(","):
         continue
-    if args.exclude and pipeline_name in args.exclude.split(","):
+    if args.exclude and table_name in args.exclude.split(","):
         continue
     pipeline_chain = PipelineChain.load(pipeline_name)
     show_progress = not args.no_progress
     pipeline_output = pipeline_chain.run(
         pipeline_name, verify=args.verify, process_count=args.process_count, progress=show_progress
     )
-    table_name = pipeline_name.replace("_", "-")
     export_csv(pipeline_output, ROOT / "output" / "tables" / f"{table_name}.csv")
 
 if args.profile:

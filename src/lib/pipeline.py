@@ -43,6 +43,7 @@ from .utils import (
     drop_na_records,
     filter_output_columns,
     infer_new_and_total,
+    stratify_age_and_sex,
 )
 
 
@@ -225,6 +226,10 @@ class DataPipeline:
         # Get the schema of our index table, necessary for processing to infer which columns in the
         # data belong to the index and should not be aggregated
         index_schema = PipelineChain.load("index").schema
+
+        # Provide a stratified view of certain key variables
+        if any(stratify_column in data.columns for stratify_column in ("age", "sex")):
+            data = stratify_age_and_sex(data, index_schema)
 
         # Process each record to add missing cumsum or daily diffs
         data = infer_new_and_total(data, index_schema)

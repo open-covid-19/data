@@ -17,7 +17,6 @@ from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, concat, merge
 from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
-from lib.utils import grouped_diff
 
 
 class Covid19BrazilTimeseriesPipeline(DataPipeline):
