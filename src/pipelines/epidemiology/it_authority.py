@@ -16,23 +16,22 @@ from datetime import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.pipeline import DataPipeline
-from lib.utils import grouped_diff
 
 
 _column_map = {
     "data": "date",
     "denominazione_regione": "match_string",
-    "ricoverati_con_sintomi": "symptomatic_hospitalized",
+    "ricoverati_con_sintomi": "total_hospitalized_symptomatic",
     "terapia_intensiva": "current_intensive_care",
     "totale_ospedalizzati": "current_hospitalized",
-    "isolamento_domiciliare": "quarantined",
-    "totale_positivi": "active_confirmed",
-    "variazione_totale_positivi": "diff_active_confirmed",
+    "isolamento_domiciliare": "total_quarantined",
+    "totale_positivi": "current_confirmed",
+    "variazione_totale_positivi": "new_current_confirmed",
     "nuovi_positivi": "new_confirmed",
-    "dimessi_guariti": "recovered",
-    "deceduti": "deceased",
+    "dimessi_guariti": "total_recovered",
+    "deceduti": "total_deceased",
     "totale_casi": "total_confirmed",
-    "tamponi": "tested",
+    "tamponi": "total_tested",
     "casi_testati": "cases_tested?",
 }
 
@@ -45,28 +44,14 @@ class PcmDpcL1Pipeline(DataPipeline):
         # Rename the appropriate columns
         data = dataframes[0].rename(columns=_column_map)
 
-        # Parse date into a datetime object
-        data["date"] = data["date"].apply(lambda date: datetime.fromisoformat(date).date())
-
         # Convert dates to ISO format
-        data["date"] = data["date"].apply(lambda date: date.isoformat())
+        data["date"] = data["date"].apply(lambda x: datetime.fromisoformat(x).date().isoformat())
 
         # Keep only data we can process
         data = data[[col for col in data.columns if col in _column_map.values()]]
 
-        # Compute the daily counts
-        data["country_code"] = "IT"
-        key_columns = ["country_code", "date"]
-        skip_columns = [
-            "new_confirmed",
-            "total_confirmed",
-            "current_intensive_care",
-            "current_hospitalized",
-        ]
-        data = grouped_diff(data, key_columns, skip=skip_columns)
-
-        # Make sure all records have the country code and null region code
-        data["subregion1_code"] = None
+        # We can compute the key directly
+        data["key"] = "IT"
 
         # Output the results
         return data
@@ -80,24 +65,11 @@ class PcmDpcL2Pipeline(DataPipeline):
         # Rename the appropriate columns
         data = dataframes[0].rename(columns=_column_map)
 
-        # Parse date into a datetime object
-        data["date"] = data["date"].apply(lambda date: datetime.fromisoformat(date).date())
-
         # Convert dates to ISO format
-        data["date"] = data["date"].apply(lambda date: date.isoformat())
+        data["date"] = data["date"].apply(lambda x: datetime.fromisoformat(x).date().isoformat())
 
         # Keep only data we can process
         data = data[[col for col in data.columns if col in _column_map.values()]]
-
-        # Compute the daily counts
-        key_columns = ["match_string", "date"]
-        skip_columns = [
-            "new_confirmed",
-            "total_confirmed",
-            "current_intensive_care",
-            "current_hospitalized",
-        ]
-        data = grouped_diff(data, key_columns, skip=skip_columns)
 
         # Make sure all records have the country code
         data["country_code"] = "IT"
