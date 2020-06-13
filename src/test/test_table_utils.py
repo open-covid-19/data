@@ -18,9 +18,10 @@ from io import StringIO
 from pstats import Stats
 from unittest import TestCase, main
 
+import numpy
 from pandas import DataFrame, isnull
 from lib.cast import age_group
-from lib.utils import combine_tables, stack_table
+from lib.utils import combine_tables, stack_table, infer_new_and_total
 
 # Synthetic data used for testing
 COMBINE_TEST_DATA_1 = DataFrame.from_records(
@@ -53,6 +54,18 @@ STACK_TEST_DATA = DataFrame.from_records(
         {"idx": 0, "piv": "B", "val": 2},
         {"idx": 1, "piv": "A", "val": 3},
         {"idx": 1, "piv": "B", "val": 4},
+    ]
+)
+NEW_AND_TOTAL_TEST_DATA = DataFrame.from_records(
+    [
+        {"key": "A", "date": "2020-01-01", "new_value_column": 1, "total_value_column": 1},
+        {"key": "A", "date": "2020-01-02", "new_value_column": 5, "total_value_column": 6},
+        {"key": "A", "date": "2020-01-03", "new_value_column": -1, "total_value_column": 5},
+        {"key": "A", "date": "2020-01-04", "new_value_column": 10, "total_value_column": 15},
+        {"key": "B", "date": "2020-01-01", "new_value_column": 10, "total_value_column": 10},
+        {"key": "B", "date": "2020-01-02", "new_value_column": -1, "total_value_column": 9},
+        {"key": "B", "date": "2020-01-03", "new_value_column": 5, "total_value_column": 14},
+        {"key": "B", "date": "2020-01-04", "new_value_column": 1, "total_value_column": 15},
     ]
 )
 
@@ -155,6 +168,85 @@ class TestPipelineMerge(TestCase):
         self.assertEqual("90-", age_group(1e9, bin_count=10, max_age=100))
         self.assertEqual(None, age_group(-1, bin_count=10, max_age=100))
 
+    def test_infer_nothing(self):
+
+        # Ensure that no columns are added when both new_* and total_* are present
+        self.assertSetEqual(
+            set(NEW_AND_TOTAL_TEST_DATA.columns),
+            set(["key", "date", "new_value_column", "total_value_column"]),
+        )
+
+        # Infer all missing new_ and total_ values, which should be none
+        inferred_data = infer_new_and_total(NEW_AND_TOTAL_TEST_DATA, index_schema={"key": "str"})
+
+        # Ensure that only the expected columns (and all the expected columns) are present
+        self.assertSetEqual(
+            set(inferred_data.columns),
+            set(["key", "date", "new_value_column", "total_value_column"]),
+        )
+
+    def test_infer_total_from_new(self):
+
+        # Ensure that total can be inferred from new_* values
+        new_only_data = DataFrame.from_records(
+            [
+                {k: v for k, v in row.items() if "total" not in k}
+                for _, row in NEW_AND_TOTAL_TEST_DATA.iterrows()
+            ]
+        )
+
+        # Assert that only the new_* columns + index have been filtered
+        self.assertSetEqual(set(new_only_data.columns), set(["key", "date", "new_value_column"]))
+
+        # Compute the total_* values from new_*
+        inferred_data = infer_new_and_total(new_only_data, index_schema={"key": "str"})
+
+        # Ensure that only the expected columns (and all the expected columns) are present
+        self.assertSetEqual(
+            set(inferred_data.columns),
+            set(["key", "date", "new_value_column", "total_value_column"]),
+        )
+
+        # Compare the result with the expected values
+        inferred_total_values = inferred_data.total_value_column
+        expected_total_values = NEW_AND_TOTAL_TEST_DATA.total_value_column
+        self.assertListEqual(inferred_total_values.to_list(), expected_total_values.to_list())
+
+    def test_infer_new_from_total(self):
+
+        # Ensure that total can be inferred from new_* values
+        new_only_data = DataFrame.from_records(
+            [
+                {k: v for k, v in row.items() if "new" not in k}
+                for _, row in NEW_AND_TOTAL_TEST_DATA.iterrows()
+            ]
+        )
+
+        # Assert that only the total_* columns + index have been filtered
+        self.assertSetEqual(set(new_only_data.columns), set(["key", "date", "total_value_column"]))
+
+        # Compute the total_* values from new_*
+        inferred_data = infer_new_and_total(new_only_data, index_schema={"key": "str"})
+
+        # Ensure that only the expected columns (and all the expected columns) are present
+        self.assertSetEqual(
+            set(inferred_data.columns),
+            set(["key", "date", "new_value_column", "total_value_column"]),
+        )
+
+        # We can't infer new_* for the first value!
+        test_data = NEW_AND_TOTAL_TEST_DATA.copy()
+        test_data.loc[test_data.date == "2020-01-01", "new_value_column"] = numpy.nan
+        expected_new_values = test_data.new_value_column
+
+        # Compare the result with the expected values
+        inferred_new_values = inferred_data.new_value_column
+        # Workaround to remove nans because nan != nan
+        self.assertListEqual(
+            inferred_new_values.dropna().to_list(), expected_new_values.dropna().to_list()
+        )
+
+    # TODO: Add test for complex infer example (e.g. missing values)
     # TODO: Add test for stratify_age_and_sex
 
 

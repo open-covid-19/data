@@ -117,7 +117,8 @@ def grouped_transform(
             data[prefix[0] + column.replace(prefix[1], "")] = group[column].apply(transform)
 
     # Apply the prefix to all transformed columns
-    data = data.rename(columns={col: prefix[1] + col for col in value_columns})
+    if compat:
+        data = data.rename(columns={col: prefix[1] + col for col in value_columns})
 
     # Restore the columns that were not transformed
     for name, col in data_skipped.items():
