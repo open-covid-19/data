@@ -5997,5 +5997,14 @@ XK,XK,Kosovo,,,,,,0
 YE,YE,Yemen,,,,,,-1
 YT,YT,Mayotte,,,,,,-1
 ZA,ZA,South Africa,,,,,,-1
+ZA_EC,South Africa,EC,Eastern Cape,,,,
+ZA_FS,South Africa,FS,Free State,,,,
+ZA_GP,South Africa,GP,Gauteng,,,,
+ZA_KZN,South Africa,KZN,KwaZulu-Natal,,,,
+ZA_LP,South Africa,LP,Limpopo,,,,
+ZA_MP,South Africa,MP,Mpumalanga,,,,
+ZA_NC,South Africa,NC,Northern Cape,,,,
+ZA_NW,South Africa,NW,North West,,,,
+ZA_WC,South Africa,WC,Western Cape,,,,
 ZM,ZM,Zambia,,,,,,-1
 ZW,ZW,Zimbabwe,,,,,,-1
