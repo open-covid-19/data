@@ -50,8 +50,8 @@ COMBINE_TEST_DATA_2 = DataFrame.from_records(
 STACK_TEST_DATA = DataFrame.from_records(
     [
         {"idx": 0, "piv": "A", "val": 1},
-        {"idx": 0, "piv": "A", "val": 2},
-        {"idx": 1, "piv": "B", "val": 3},
+        {"idx": 0, "piv": "B", "val": 2},
+        {"idx": 1, "piv": "A", "val": 3},
         {"idx": 1, "piv": "B", "val": 4},
     ]
 )
@@ -127,15 +127,6 @@ class TestPipelineMerge(TestCase):
         self.assertEqual(1, result.loc[0, "value_column_2"])
 
     def test_stack_data(self):
-        data = DataFrame.from_records(
-            [
-                {"idx": 0, "piv": "A", "val": 1},
-                {"idx": 0, "piv": "B", "val": 2},
-                {"idx": 1, "piv": "A", "val": 3},
-                {"idx": 1, "piv": "B", "val": 4},
-            ]
-        )
-
         expected = DataFrame.from_records(
             [
                 {"idx": 0, "val": 3, "val_A": 1, "val_B": 2},
@@ -148,7 +139,7 @@ class TestPipelineMerge(TestCase):
 
         expected.to_csv(buffer1)
         stack_table(
-            data, index_columns=["idx"], value_columns=["val"], stack_columns=["piv"]
+            STACK_TEST_DATA, index_columns=["idx"], value_columns=["val"], stack_columns=["piv"]
         ).to_csv(buffer2)
 
         self.assertEqual(buffer1.getvalue(), buffer2.getvalue())
