@@ -22,6 +22,7 @@ from tqdm import tqdm
 from numpy import unique
 from pandas import DataFrame, Series, concat, isna, isnull
 from .cast import column_convert
+from .io import fuzzy_text
 
 ROOT = Path(os.path.dirname(__file__)) / ".." / ".."
 CACHE_URL = "https://raw.githubusercontent.com/open-covid-19/data/cache"
@@ -38,6 +39,16 @@ def pivot_table(data: DataFrame, pivot_name: str = "pivot") -> DataFrame:
     values: List[Any] = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
     return DataFrame.from_records(records, columns=["date", pivot_name, "value"])
+
+
+def table_rename(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
+    """ Renames the table columns after converting all names to ASCII """
+    data = data.copy()
+    ascii_name = partial(fuzzy_text, collapse_spaces=False)
+    data.columns = [ascii_name(col) for col in data.columns]
+    return data.rename(
+        columns={ascii_name(name_old): name_new for name_old, name_new in column_adapter.items()}
+    )
 
 
 def agg_last_not_null(series: Series, progress_bar: Optional[tqdm] = None) -> Series:
@@ -183,22 +194,6 @@ def stack_table(
     # Restore the stashed columns, reset index and return
     output[stash_columns] = stash_output
     return output.reset_index()
-
-
-def age_group(age: int, bin_count: int = 10, max_age: int = 100) -> str:
-    """
-    Categorical age group given a specific age, codified into a function to enforce consistency.
-    """
-    bin_size = max_age // bin_count
-    if age >= max_age - bin_size:
-        return f"{max_age - bin_size}-"
-
-    boundaries = [(i * bin_size, (i + 1) * bin_size - 1) for i in range(bin_count - 1)]
-    for a, b in boundaries:
-        if age >= a and age <= b:
-            return f"{a}-{b}"
-
-    return None
 
 
 def filter_index_columns(columns: List[str], index_schema: Dict[str, str]) -> List[str]:

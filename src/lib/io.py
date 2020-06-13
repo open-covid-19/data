@@ -29,17 +29,19 @@ from bs4 import BeautifulSoup, Tag
 from .cast import safe_int_cast
 
 
-def fuzzy_text(text: str):
+def fuzzy_text(text: str, collapse_spaces: bool = True):
     # TODO: handle bad inputs (like empty text)
     text = unidecode(str(text)).lower()
     for token in ("y", "and", "of"):
         text = re.sub(f"\s{token}\s", " ", text)
-    text = re.sub(r"[^a-z]", "", text)
+    text = re.sub(r"[^a-z\s]", "", text)
     text = re.sub(r"^region", "", text)
     text = re.sub(r"region$", "", text)
     text = re.sub(r"^borough", "", text)
     text = re.sub(r"borough$", "", text)
-    return text
+    if collapse_spaces:
+        text = re.sub(r"\s", "", text)
+    return text.strip()
 
 
 def read_file(path: Union[Path, str], **read_opts):

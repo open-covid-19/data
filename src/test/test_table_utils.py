@@ -19,7 +19,8 @@ from pstats import Stats
 from unittest import TestCase, main
 
 from pandas import DataFrame, isnull
-from lib.utils import combine_tables, stack_table, age_group
+from lib.cast import age_group
+from lib.utils import combine_tables, stack_table
 
 # Synthetic data used for testing
 COMBINE_TEST_DATA_1 = DataFrame.from_records(

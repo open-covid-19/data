@@ -74,3 +74,19 @@ def column_convert(series: pandas.Series, dtype: type) -> pandas.Series:
         return series.fillna("").astype(str)
 
     raise ValueError("Unsupported dtype %r" % dtype)
+
+
+def age_group(age: int, bin_count: int = 10, max_age: int = 100) -> str:
+    """
+    Categorical age group given a specific age, codified into a function to enforce consistency.
+    """
+    bin_size = max_age // bin_count
+    if age >= max_age - bin_size:
+        return f"{max_age - bin_size}-"
+
+    boundaries = [(i * bin_size, (i + 1) * bin_size - 1) for i in range(bin_count - 1)]
+    for a, b in boundaries:
+        if age >= a and age <= b:
+            return f"{a}-{b}"
+
+    return None

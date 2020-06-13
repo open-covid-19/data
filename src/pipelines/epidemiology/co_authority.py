@@ -15,10 +15,10 @@
 from datetime import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.cast import safe_datetime_parse
+from lib.cast import safe_datetime_parse, age_group
 from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
-from lib.utils import age_group
+from lib.utils import table_rename
 
 
 class ColombiaPipeline(DataPipeline):
@@ -27,15 +27,16 @@ class ColombiaPipeline(DataPipeline):
     ) -> DataFrame:
 
         # Rename appropriate columns
-        data = dataframes[0].rename(
-            columns={
-                "Codigo DIVIPOLA": "subregion2_code",
-                "Fecha de muerte": "date_new_deceased",
-                "Fecha diagnostico": "date_new_confirmed",
-                "Fecha recuperado": "date_new_recovered",
-                "Edad": "age",
-                "Sexo": "sex",
-            }
+        data = table_rename(
+            dataframes[0],
+            {
+                "codigo divipola": "subregion2_code",
+                "fecha de muerte": "date_new_deceased",
+                "fecha diagnostico": "date_new_confirmed",
+                "fecha recuperado": "date_new_recovered",
+                "edad": "age",
+                "sexo": "sex",
+            },
         )
 
         # Clean up the subregion code
