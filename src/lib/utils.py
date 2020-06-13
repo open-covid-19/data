@@ -61,7 +61,7 @@ def agg_last_not_null(series: Series, progress_bar: Optional[tqdm] = None) -> Se
 def combine_tables(
     tables: List[DataFrame], keys: List[str], progress_label: str = None
 ) -> DataFrame:
-    """ Combine a list of tables, keeping the right-most non-null value for every column """
+    """ Combine a list of tables, keeping the last non-null value for every column """
     data = concat(tables)
     grouped = data.groupby([col for col in keys if col in data.columns])
     if not progress_label:
