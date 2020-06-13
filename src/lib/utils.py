@@ -159,17 +159,20 @@ def stack_table(
 
     data:
 
-    idx piv val
-     0   A   1
-     0   B   2
-     1   A   3
-     1   B   4
+    idx piv_1 piv_2 val
+     0    A     X   1
+     0    B     Y   2
+     1    A     X   3
+     1    B     Y   4
 
     stack_table(data, index_columns=[idx], value_columns=[val], stack_columns=[piv]):
 
-    idx val val_A val_B
-     0   3    1     2
-     1   7    3     4
+    idx val val_A val_B val_X val_Y
+     0   3    1     2     1     2
+     1   7    3     4     3     4
+
+    Note that this is not equivalent to the cartesian product of `stack_columns` as seen in the
+    example above.
     """
     output = data.drop(columns=stack_columns).groupby(index_columns).sum()
 
