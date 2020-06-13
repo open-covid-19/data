@@ -522,7 +522,7 @@ pip install -r requirements.txt
 Then run the following script from the source folder to update all datasets:
 ```sh
 cd src
-python run.py
+python update.py
 ```
 
 See the [source documentation](src) for more technical details.
