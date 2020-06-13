@@ -227,8 +227,8 @@ def infer_new_and_total(data: DataFrame, index_schema: Dict[str, str]) -> DataFr
     # Perform the cumsum of columns which only have new_ values
     tot_columns = [
         col
-        for col in data.columns
-        if col.startswith("total_") and col.replace("total_", "new_") not in data.columns
+        for col in value_columns
+        if col.startswith("total_") and col.replace("total_", "new_") not in value_columns
     ]
     if tot_columns:
         new_data = grouped_diff(
@@ -239,8 +239,8 @@ def infer_new_and_total(data: DataFrame, index_schema: Dict[str, str]) -> DataFr
     # Perform the diff of columns which only have total_ values
     new_columns = [
         col
-        for col in data.columns
-        if col.startswith("new_") and col.replace("new_", "total_") not in data.columns
+        for col in value_columns
+        if col.startswith("new_") and col.replace("new_", "total_") not in value_columns
     ]
     if new_columns:
         tot_data = grouped_cumsum(
