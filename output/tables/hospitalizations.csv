@@ -56421,6 +56421,7 @@ date,key,new_hospitalized,total_hospitalized,current_hospitalized,new_intensive_
 2020-06-11,NL_ZH_1931,0,45,,,,,,,
 2020-06-11,NL_ZH_1963,0,76,,,,,,,
 2020-06-11,NL_ZH_1978,0,18,,,,,,,
+2020-06-11,PT,,,415,,,70,,,
 2020-06-11,SI,,,6,,,0,,,
 2020-06-11,US_AK,0,,18,,,,,,4
 2020-06-11,US_AL,36,2165,647,4,650,,2,380,
@@ -57027,6 +57028,7 @@ date,key,new_hospitalized,total_hospitalized,current_hospitalized,new_intensive_
 2020-06-12,NL_ZH_1931,0,45,,,,,,,
 2020-06-12,NL_ZH_1963,0,76,,,,,,,
 2020-06-12,NL_ZH_1978,0,18,,,,,,,
+2020-06-12,PT,,,440,,,73,,,
 2020-06-12,SI,,,6,,,0,,,
 2020-06-12,US_AK,0,,15,,,,,,3
 2020-06-12,US_AL,37,2202,622,8,658,,4,384,
@@ -57600,3 +57602,4 @@ date,key,new_hospitalized,total_hospitalized,current_hospitalized,new_intensive_
 2020-06-13,NL_ZH_1931,0,45,,,,,,,
 2020-06-13,NL_ZH_1963,0,76,,,,,,,
 2020-06-13,NL_ZH_1978,0,18,,,,,,,
+2020-06-13,PT,,,428,,,77,,,
