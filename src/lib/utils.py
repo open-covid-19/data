@@ -20,7 +20,7 @@ from functools import partial, reduce
 from typing import Any, Callable, List, Dict, Tuple, Optional
 from tqdm import tqdm
 from numpy import unique
-from pandas import DataFrame, Series, concat, isna, isnull
+from pandas import DataFrame, Series, concat, isna, isnull, merge
 from .cast import column_convert
 from .io import fuzzy_text
 
@@ -32,13 +32,13 @@ def get_or_default(dict_like: Dict, key: Any, default: Any):
     return dict_like[key] if key in dict_like and not isnull(dict_like[key]) else default
 
 
-def pivot_table(data: DataFrame, pivot_name: str = "pivot") -> DataFrame:
+def pivot_table(data: DataFrame, pivot_name: str = "pivot", value_name: str = "value") -> DataFrame:
     """ Put a table in our preferred format when the regions are columns and date is index """
     dates = data.index.tolist() * len(data.columns)
     pivots: List[str] = sum([[name] * len(column) for name, column in data.iteritems()], [])
     values: List[Any] = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
-    return DataFrame.from_records(records, columns=["date", pivot_name, "value"])
+    return DataFrame.from_records(records, columns=[data.index.name, pivot_name, value_name])
 
 
 def table_rename(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
@@ -49,6 +49,14 @@ def table_rename(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
     return data.rename(
         columns={ascii_name(name_old): name_new for name_old, name_new in column_adapter.items()}
     )
+
+
+def table_multimerge(dataframes: List[DataFrame], **merge_opts) -> DataFrame:
+    """
+    Merge multiple dataframes into a single one. This method assumes that all dataframes have at
+    least one column in common.
+    """
+    return reduce(lambda df1, df2: merge(df1, df2, **merge_opts), dataframes)
 
 
 def agg_last_not_null(series: Series, progress_bar: Optional[tqdm] = None) -> Series:
