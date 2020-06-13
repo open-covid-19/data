@@ -14,24 +14,27 @@
 
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
+from lib.cast import safe_int_cast
 from lib.io import read_file
 from lib.pipeline import DataPipeline
 from lib.time import datetime_isoformat
-from lib.utils import grouped_diff, grouped_cumsum
+from lib.utils import table_rename
 
 
 class LuxembourgPipeline(DataPipeline):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
-        data = read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1").rename(
-            columns={
+        data = read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1")
+        data = table_rename(
+            data,
+            {
                 "Date": "date",
                 "Nombre de personnes en soins normaux": "current_hospitalized",
                 "Nombre de personnes en soins intensifs (sans patients du Grand Est)": "current_intensive_care",
-                "Nombre de décès - cumulé (sans patients du Grand Est)": "deceased",
-                "Total patients COVID ayant quitté l'hôpital (hospitalisations stationnaires, données brutes)": "recovered",
-                "Nombre de nouvelles personnes testées COVID+ par jour ": "tested",
-            }
+                "Nombre de décès - cumulé (sans patients du Grand Est)": "total_deceased",
+                "Total patients COVID ayant quitté l'hôpital (hospitalisations stationnaires, données brutes)": "new_recovered",
+                "Nombre de nouvelles personnes testées COVID+ par jour ": "new_tested",
+            },
         )
 
         # Get date in ISO format
@@ -43,21 +46,17 @@ class LuxembourgPipeline(DataPipeline):
                 "date",
                 "current_hospitalized",
                 "current_intensive_care",
-                "deceased",
-                "recovered",
-                "tested",
+                "total_deceased",
+                "new_recovered",
+                "new_tested",
             ]
         ]
 
         # Convert recovered into a number
-        data.recovered = data.recovered.apply(lambda x: int(x.replace("-", "0")))
+        data.new_recovered = data.new_recovered.apply(lambda x: safe_int_cast(x.replace("-", "0")))
 
-        # Compute the daily counts
+        # Only country-level data is provided
         data["key"] = "LU"
-        data_new = grouped_diff(data[["key", "date", "deceased"]], ["key", "date"])
-        data_cum = grouped_cumsum(data[["key", "date", "tested", "recovered"]], ["key", "date"])
-        data_cur = data[["key", "date", "current_hospitalized", "current_intensive_care"]]
-        data = data_new.merge(data_cum, how="outer").merge(data_cur, how="outer")
 
         # Output the results
         return data

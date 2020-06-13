@@ -102,11 +102,10 @@ sources:
   # Data sources for LU level 1
   - name: pipelines.epidemiology.lu_authority.LuxembourgPipeline
     fetch:
-      - url: "https://data.public.lu/fr/datasets/r/79dab0da-3518-4fa5-80e0-db6319eb5977"
+      - url: "https://data.public.lu/fr/datasets/r/82e4873d-a1f3-462a-ae93-dd7b95e68787"
         opts:
           ext: csv
     parse:
-      sep: ";"
       encoding: ISO-8859-1
 
   # Data sources for MX levels 1 + 2
