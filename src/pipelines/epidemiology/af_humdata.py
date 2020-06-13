@@ -46,7 +46,7 @@ class AfghanistanHumdataPipeline(DataPipeline):
         for column in (
             "total_confirmed",
             "total_deceased",
-            "recovered",
+            "total_recovered",
         ):
             data[column] = data[column].apply(
                 lambda x: safe_int_cast(str(x).replace(",", ""))
