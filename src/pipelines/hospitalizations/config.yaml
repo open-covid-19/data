@@ -150,3 +150,15 @@ sources:
   - name: pipelines.epidemiology.us_tx_authority.TexasPipeline
     fetch:
       - url: "https://dshs.texas.gov/coronavirus/TexasCOVID19CaseCountData.xlsx"
+
+  # Data sources for ZA levels 1 + 2
+  - name: pipelines.epidemiology.za_dsfsi.Covid19ZaCumulativePipeline
+    fetch:
+      - url: "https://raw.github.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv"
+      - url: "https://raw.github.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_deaths.csv"
+      - url: "https://raw.github.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_recoveries.csv"
+      - url: "https://raw.github.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_testing.csv"
+
+  - name: pipelines.epidemiology.za_dsfsi.Covid19ZaTimelineTestingPipeline
+    fetch:
+      - url: "https://raw.github.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv"

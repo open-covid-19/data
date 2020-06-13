@@ -501,6 +501,7 @@ from the relevant authorities, like a country's ministry of health.
 | Portugal | [COVID-19: Portugal](https://github.com/carlospramalheira/covid19) | [MIT](https://github.com/carlospramalheira/covid19/blob/master/LICENSE) |
 | Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) | [CC BY-SA][24] |
 | Slovenia | <https://www.gov.si> | [CC BY-SA][24] |
+| South Africa| [Data Science for Social Impact research group, the University of Pretoria](https://github.com/dsfsi/covid19za) | [CC BY-SA](https://github.com/dsfsi/covid19za/blob/master/data/LICENSE.md) |
 | South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) | [CC BY-SA][24] |
 | Spain | [Government Authority](https://covid19.isciii.es) | [Attribution required](https://www.mscbs.gob.es/avisoLegal/home.html) |
 | Sweden | [Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/) |  |

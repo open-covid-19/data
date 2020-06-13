@@ -66,7 +66,7 @@ class WikipediaPipeline(DataPipeline):
                 print(data.head(50))
 
             # Some of the tables are in Spanish
-            data = data.rename(columns={"Fecha": "Date"})
+            data = data.rename(columns={"Fecha": "date"})
 
             # Set first date column as index, drop other date columns
             columns_lowercase = [(col or "").lower() for col in data.columns]
@@ -82,6 +82,7 @@ class WikipediaPipeline(DataPipeline):
                     pass
 
             # Pivot the table to fit our preferred format
+            data.index.name = "date"
             data = pivot_table(data, pivot_name="subregion")
             data = data[~data["subregion"].isna()]
 
