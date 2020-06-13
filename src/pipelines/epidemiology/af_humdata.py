@@ -32,27 +32,33 @@ class AfghanistanHumdataPipeline(DataPipeline):
                 columns={
                     "Date": "date",
                     "Province": "match_string",
-                    "Cases": "confirmed",
-                    "Deaths": "deceased",
+                    "Cases": "total_confirmed",
+                    "Deaths": "total_deceased",
                     "Active Cases": "current_confirmed",
-                    "Recoveries": "recovered",
+                    "Recoveries": "total_recovered",
                 }
             )
             .drop([0])
+            .drop(axis=1, columns="current_confirmed")
         )
 
         # Parse integers
-        for column in ("confirmed", "deceased", "current_confirmed", "recovered"):
-            data[column] = data[column].apply(lambda x: safe_int_cast(str(x).replace(",", "")))
-
-        # Compute the daily counts
-        data = grouped_cumsum(data, ["match_string", "date"], skip=["current_confirmed"])
+        for column in (
+            "total_confirmed",
+            "total_deceased",
+            "recovered",
+        ):
+            data[column] = data[column].apply(
+                lambda x: safe_int_cast(str(x).replace(",", ""))
+            )
 
         # Make sure all records have the country code
         data["country_code"] = "AF"
 
         # Remove redundant info from names
-        data.match_string = data.match_string.apply(lambda x: x.replace(" Province", ""))
+        data.match_string = data.match_string.apply(
+            lambda x: x.replace(" Province", "")
+        )
 
         # Output the results
         return data
