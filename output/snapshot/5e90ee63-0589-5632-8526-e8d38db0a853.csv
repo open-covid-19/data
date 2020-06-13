@@ -34,7 +34,7 @@
     data-tags="%7B%22gouvlu%22%3A%20%221.3.14%22%2C%20%22udata%22%3A%20%221.6.20%22%2C%20%22udata-croquemort%22%3A%20%221.0.4%22%2C%20%22udata-piwik%22%3A%20%221.5.1%22%7D"
 />
 
-<meta name="csrf-token" content="ImVkNTM1MTIzYjAwOTk2YzY0ODdmY2U4ZjI2YTgzMzI4M2Q5MTNmZGUi.XuP3_w.8f8DavIl4zCWFZirZl5naGV3Hy4" />
+<meta name="csrf-token" content="ImNlN2ZiZmNlOWVmNTViZWI5YWNjMzUyZDU4MDk3ZDE4MzNkMWM1Mjki.XuTEYw.Tm0ny6vetVvdgCnl31XTLYyOwys" />
 <meta name="site-title" content="Portail Open Data" />
 
 
@@ -287,13 +287,13 @@
         <ul class="list-unstyled submenu">
             
             <li>
-                <a href="https://data.public.lu/fr/datasets/carte-de-la-couverture-internet-ultra-haut-debit/">
+                <a href="https://data.public.lu/fr/topics/transports/datasets?sort=-created&amp;tag=statistiques&amp;format=xsd">
                     Français
                 </a>
             </li>
             
             <li>
-                <a href="https://data.public.lu/en/datasets/carte-de-la-couverture-internet-ultra-haut-debit/">
+                <a href="https://data.public.lu/en/topics/transports/datasets?sort=-created&amp;tag=statistiques&amp;format=xsd">
                     English
                 </a>
             </li>
