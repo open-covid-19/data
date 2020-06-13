@@ -34,7 +34,7 @@
     data-tags="%7B%22gouvlu%22%3A%20%221.3.14%22%2C%20%22udata%22%3A%20%221.6.20%22%2C%20%22udata-croquemort%22%3A%20%221.0.4%22%2C%20%22udata-piwik%22%3A%20%221.5.1%22%7D"
 />
 
-<meta name="csrf-token" content="ImVkNTM1MTIzYjAwOTk2YzY0ODdmY2U4ZjI2YTgzMzI4M2Q5MTNmZGUi.XuP3_w.8f8DavIl4zCWFZirZl5naGV3Hy4" />
+<meta name="csrf-token" content="IjY3ODNlMTNlZTA1MGFlMGYxYjBhMjdiMGQ5ZmQwMzBkZTU1NWEwMTAi.XuUg9Q.cG8JZjIy5dUzqSmLAjRzHUat7tg" />
 <meta name="site-title" content="Portail Open Data" />
 
 
@@ -287,13 +287,13 @@
         <ul class="list-unstyled submenu">
             
             <li>
-                <a href="https://data.public.lu/fr/datasets/carte-de-la-couverture-internet-ultra-haut-debit/">
+                <a href="https://data.public.lu/fr/reset?next=https%3A%2F%2Fdata.public.lu%2Ffr%2Flogin%3Fnext%3Dhttps%253A%252F%252Fdata.public.lu%252Ffr%252Flogin%253Fnext%253Dhttps%25253A%25252F%25252Fdata.public.lu%25252Ffr%25252Flogin%25253Fnext%25253Dhttps%2525253A%2525252F%2525252Fdata.public.lu%2525252Fen%2525252Ftopics%2525252Feconomie%2525252Fdatasets%2525253Flicense%2525253Dcc-zero%25252526organization%2525253D5885f539111e9b44e185ac76%25252526reuses%2525253Dnone%25252526sort%2525253Dfollowers%25252526tag%2525253Dmarche-du-travail%25252526tag%2525253Dresidence%25252526tag%2525253Dsecteur-activite%25252526tag%2525253Dsecteur-activite%25252526tag%2525253Dsecteur-activite">
                     Français
                 </a>
             </li>
             
             <li>
-                <a href="https://data.public.lu/en/datasets/carte-de-la-couverture-internet-ultra-haut-debit/">
+                <a href="https://data.public.lu/en/reset?next=https%3A%2F%2Fdata.public.lu%2Ffr%2Flogin%3Fnext%3Dhttps%253A%252F%252Fdata.public.lu%252Ffr%252Flogin%253Fnext%253Dhttps%25253A%25252F%25252Fdata.public.lu%25252Ffr%25252Flogin%25253Fnext%25253Dhttps%2525253A%2525252F%2525252Fdata.public.lu%2525252Fen%2525252Ftopics%2525252Feconomie%2525252Fdatasets%2525253Flicense%2525253Dcc-zero%25252526organization%2525253D5885f539111e9b44e185ac76%25252526reuses%2525253Dnone%25252526sort%2525253Dfollowers%25252526tag%2525253Dmarche-du-travail%25252526tag%2525253Dresidence%25252526tag%2525253Dsecteur-activite%25252526tag%2525253Dsecteur-activite%25252526tag%2525253Dsecteur-activite">
                     English
                 </a>
             </li>
