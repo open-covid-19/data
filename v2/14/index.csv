@@ -5997,5 +5997,14 @@ XK,Q1246,country/XKS,XK,Kosovo,,,,,XK,RKS,0
 YE,Q805,country/YEM,YE,Yemen,,,,,YE,YEM,0
 YT,Q17063,country/MYT,YT,Mayotte,,,,,YT,MYT,0
 ZA,Q258,country/ZAF,ZA,South Africa,,,,,ZA,ZAF,0
+ZA_EC,Q130840,,South Africa,EC,Eastern Cape,,,,,,1
+ZA_FS,Q160284,,South Africa,FS,Free State,,,,,,1
+ZA_GP,Q133083,,South Africa,GP,Gauteng,,,,,,1
+ZA_KZN,Q81725,,South Africa,KZN,KwaZulu-Natal,,,,,,1
+ZA_LP,Q134907,,South Africa,LP,Limpopo,,,,,,1
+ZA_MP,Q132410,,South Africa,MP,Mpumalanga,,,,,,1
+ZA_NC,Q132418,,South Africa,NC,Northern Cape,,,,,,1
+ZA_NW,Q165956,,South Africa,NW,North West,,,,,,1
+ZA_WC,Q127167,,South Africa,WC,Western Cape,,,,,,1
 ZM,Q953,country/ZMB,ZM,Zambia,,,,,ZM,ZMB,0
 ZW,Q954,country/ZWE,ZW,Zimbabwe,,,,,ZW,ZWE,0
