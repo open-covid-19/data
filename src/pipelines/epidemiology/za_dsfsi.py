@@ -38,7 +38,8 @@ class Covid19ZaCumulativePipeline(DataPipeline):
                     dataframes,
                     ["total_confirmed", "total_deceased", "total_recovered", "total_tested"],
                 )
-            ]
+            ],
+            how="outer",
         )
 
         # Convert date to ISO format
