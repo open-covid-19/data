@@ -44,7 +44,7 @@ def pivot_table(data: DataFrame, pivot_name: str = "pivot", value_name: str = "v
 def table_rename(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
     """ Renames the table columns after converting all names to ASCII """
     data = data.copy()
-    ascii_name = partial(fuzzy_text, collapse_spaces=False)
+    ascii_name = partial(fuzzy_text, remove_spaces=False)
     data.columns = [ascii_name(col) for col in data.columns]
     return data.rename(
         columns={ascii_name(name_old): name_new for name_old, name_new in column_adapter.items()}

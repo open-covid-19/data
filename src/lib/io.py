@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup, Tag
 from .cast import safe_int_cast
 
 
-def fuzzy_text(text: str, collapse_spaces: bool = True):
+def fuzzy_text(text: str, remove_spaces: bool = True):
     # TODO: handle bad inputs (like empty text)
     text = unidecode(str(text)).lower()
     for token in ("y", "and", "of"):
@@ -39,8 +39,7 @@ def fuzzy_text(text: str, collapse_spaces: bool = True):
     text = re.sub(r"region$", "", text)
     text = re.sub(r"^borough", "", text)
     text = re.sub(r"borough$", "", text)
-    if collapse_spaces:
-        text = re.sub(r"\s", "", text)
+    text = re.sub(r"\s+", "" if remove_spaces else " ", text)
     return text.strip()
 
 
