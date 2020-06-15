@@ -30,7 +30,7 @@ from pandas import DataFrame, Series, Int64Dtype, merge, read_csv, concat, isna
 
 from lib.cast import safe_int_cast, safe_float_cast
 from lib.net import download
-from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
+from lib.pipeline import DataSource, DataSource, DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import ROOT, combine_tables
 
@@ -59,7 +59,7 @@ _DISTANCE_THRESHOLD = 300
 _INVENTORY_URL = "https://www1.ncdc.noaa.gov/pub/data/noaa/isd-history.csv"
 
 
-class NoaaGsodPipeline(DataPipeline):
+class NoaaGsodDataSource(DataSource):
 
     # A bit of a circular dependency but we need the latitude and longitude to compute weather
     def fetch(self, cache: Dict[str, str], fetch_opts: Dict[str, Any]) -> List[str]:
@@ -88,12 +88,12 @@ class NoaaGsodPipeline(DataPipeline):
 
     @staticmethod
     def conv_temp(value: int):
-        value = NoaaGsodPipeline.noaa_number(value)
+        value = NoaaGsodDataSource.noaa_number(value)
         return numpy.nan if value is None else (value - 32) * 5 / 9
 
     @staticmethod
     def conv_dist(value: int):
-        value = NoaaGsodPipeline.noaa_number(value)
+        value = NoaaGsodDataSource.noaa_number(value)
         return numpy.nan if value is None else value * 25.4
 
     @staticmethod
@@ -104,7 +104,7 @@ class NoaaGsodPipeline(DataPipeline):
         nearest["key"] = location.key
 
         # Get the nearest stations from our list of stations given lat and lon
-        nearest["distance"] = NoaaGsodPipeline.haversine_distance(
+        nearest["distance"] = NoaaGsodDataSource.haversine_distance(
             nearest, location.lat, location.lon
         )
 
@@ -162,11 +162,11 @@ class NoaaGsodPipeline(DataPipeline):
 
                 # Fix data types
                 data.noaa_station = data.noaa_station.astype(str)
-                data.rainfall = data.rainfall.apply(NoaaGsodPipeline.conv_dist)
-                data.snowfall = data.snowfall.apply(NoaaGsodPipeline.conv_dist)
+                data.rainfall = data.rainfall.apply(NoaaGsodDataSource.conv_dist)
+                data.snowfall = data.snowfall.apply(NoaaGsodDataSource.conv_dist)
                 for temp_type in ("average", "minimum", "maximum"):
                     col = f"{temp_type}_temperature"
-                    data[col] = data[col].apply(NoaaGsodPipeline.conv_temp)
+                    data[col] = data[col].apply(NoaaGsodDataSource.conv_temp)
 
                 station_cache[member.name.replace(".csv", "")] = data
 
@@ -180,7 +180,7 @@ class NoaaGsodPipeline(DataPipeline):
         metadata["lon"] = metadata.longitude.apply(math.radians)
 
         # Make sure the stations and the cache are sent to each function call
-        map_func = partial(NoaaGsodPipeline.process_location, station_cache, stations)
+        map_func = partial(NoaaGsodDataSource.process_location, station_cache, stations)
 
         # We don't care about the index while iterating over each metadata item
         map_iter = [record for _, record in metadata.iterrows()]

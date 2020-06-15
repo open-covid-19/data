@@ -30,6 +30,6 @@ auxiliary:
 
 # Defines the pipelines to be run in order to produce the combined, full output
 sources:
-  - name: pipelines._template.srcname_pipeline.SourceNamePipeline
+  - name: pipelines._template.srcname.SourceNameDataSource
     fetch:
       - url: "http://samplecsvs.s3.amazonaws.com/SalesJan2009.csv"

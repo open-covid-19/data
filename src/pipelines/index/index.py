@@ -14,11 +14,11 @@
 
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, Int64Dtype, merge
-from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
+from lib.pipeline import DataSource, DataSource, DataPipeline
 from lib.utils import ROOT
 
 
-class IndexPipeline(DataPipeline):
+class IndexDataSource(DataSource):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
         data = aux["metadata"].merge(aux["knowledge_graph"], how="left")
 

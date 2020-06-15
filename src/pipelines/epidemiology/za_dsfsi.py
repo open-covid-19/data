@@ -14,12 +14,12 @@
 
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import table_rename, pivot_table, table_multimerge
 
 
-class Covid19ZaCumulativePipeline(DataPipeline):
+class Covid19ZaCumulativeDataSource(DataSource):
     @staticmethod
     def _parse_variable(data: DataFrame, var_name: str) -> DataFrame:
         data = data.drop(columns=["YYYYMMDD", "UNKNOWN", "source"])
@@ -33,7 +33,7 @@ class Covid19ZaCumulativePipeline(DataPipeline):
 
         data = table_multimerge(
             [
-                Covid19ZaCumulativePipeline._parse_variable(df, name)
+                Covid19ZaCumulativeDataSource._parse_variable(df, name)
                 for df, name in zip(
                     dataframes,
                     ["total_confirmed", "total_deceased", "total_recovered", "total_tested"],
@@ -56,7 +56,7 @@ class Covid19ZaCumulativePipeline(DataPipeline):
         return data
 
 
-class Covid19ZaTimelineTestingPipeline(DataPipeline):
+class Covid19ZaTimelineTestingDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -80,7 +80,7 @@ class Covid19ZaTimelineTestingPipeline(DataPipeline):
         return data
 
 
-class Covid19ZaTimelineDeathsPipeline(DataPipeline):
+class Covid19ZaTimelineDeathsDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

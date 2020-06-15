@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff
 
 
-class ISCIIIPipeline(DataPipeline):
+class ISCIIIDataSource(DataSource):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
         # Retrieve the CSV files from https://covid19.isciii.es

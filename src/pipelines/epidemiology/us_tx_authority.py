@@ -18,12 +18,12 @@ import numpy
 from pandas import DataFrame, concat, merge
 from lib.cast import safe_float_cast
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import table_multimerge, table_rename
 
 
-class TexasPipeline(DataPipeline):
+class TexasDataSource(DataSource):
     @staticmethod
     def _rename_columns(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
         data.columns = data.iloc[0]
@@ -33,7 +33,7 @@ class TexasPipeline(DataPipeline):
 
     @staticmethod
     def _parse_trends(data: DataFrame) -> DataFrame:
-        return TexasPipeline._rename_columns(
+        return TexasDataSource._rename_columns(
             data,
             {
                 "Date": "date",
@@ -46,7 +46,7 @@ class TexasPipeline(DataPipeline):
 
     @staticmethod
     def _parse_tests(data: DataFrame) -> DataFrame:
-        return TexasPipeline._rename_columns(
+        return TexasDataSource._rename_columns(
             data,
             {
                 "Date": "date",
@@ -58,7 +58,7 @@ class TexasPipeline(DataPipeline):
 
     @staticmethod
     def _parse_hospitalized(data: DataFrame) -> DataFrame:
-        return TexasPipeline._rename_columns(
+        return TexasDataSource._rename_columns(
             data, {"Date": "date", "Hospitalizations": "current_hospitalized"}
         )
 
@@ -66,9 +66,9 @@ class TexasPipeline(DataPipeline):
 
         sheets = []
         sheet_processors = {
-            "Trends": TexasPipeline._parse_trends,
-            "Tests by day": TexasPipeline._parse_tests,
-            "Hospitalization by Day": TexasPipeline._parse_hospitalized,
+            "Trends": TexasDataSource._parse_trends,
+            "Tests by day": TexasDataSource._parse_tests,
+            "Hospitalization by Day": TexasDataSource._parse_hospitalized,
         }
         for sheet_name, sheet_processor in sheet_processors.items():
             df = sheet_processor(read_file(sources[0], sheet_name=sheet_name))

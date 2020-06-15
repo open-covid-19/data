@@ -24,7 +24,7 @@ from typing import List
 from multiprocessing import cpu_count
 
 from lib.io import export_csv
-from lib.pipeline import PipelineChain
+from lib.pipeline import DataPipeline
 from lib.utils import ROOT
 
 # Step 1: Add your pipeline chain to this import block
@@ -67,7 +67,7 @@ for pipeline_name in all_pipeline_chains:
         continue
     if args.exclude and table_name in args.exclude.split(","):
         continue
-    pipeline_chain = PipelineChain.load(pipeline_name)
+    pipeline_chain = DataPipeline.load(pipeline_name)
     show_progress = not args.no_progress
     pipeline_output = pipeline_chain.run(
         pipeline_name, verify=args.verify, process_count=args.process_count, progress=show_progress

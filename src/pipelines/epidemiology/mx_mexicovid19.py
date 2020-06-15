@@ -16,12 +16,12 @@ import datetime
 from typing import Any, Dict, List
 from numpy import unique
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_cumsum, pivot_table
 
 
-class Mexicovid19Pipeline(DataPipeline):
+class Mexicovid19DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

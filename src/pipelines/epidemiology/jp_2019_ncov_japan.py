@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import pivot_table, grouped_cumsum
 
 
-class Jp2019NcovJapanByDate(DataPipeline):
+class Jp2019NcovJapanByDate(DataSource):
     @staticmethod
     def _parse_pivot(data: DataFrame, name: str):
 
@@ -52,7 +52,7 @@ class Jp2019NcovJapanByDate(DataPipeline):
 
 
 # Unused because it's a different region aggregation
-class Jp2019NcovJapanByRegion(DataPipeline):
+class Jp2019NcovJapanByRegion(DataSource):
     # data_urls: List[str] = [
     #     "{}/detailByRegion.csv".format(_gh_base_url),
     # ]

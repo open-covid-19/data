@@ -19,13 +19,13 @@ from typing import Any, Dict, List, Optional, Tuple
 from pandas import DataFrame, isna, isnull
 
 from lib.cast import safe_int_cast, safe_datetime_parse
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.io import count_html_tables, read_html, wiki_html_cell_parser
 from lib.time import datetime_isoformat
 from lib.utils import pivot_table
 
 
-class WikipediaPipeline(DataPipeline):
+class WikipediaDataSource(DataSource):
     @staticmethod
     def _parenthesis(x: str) -> Tuple[str, Optional[str]]:
         regexp = r"\((\d+)\)"

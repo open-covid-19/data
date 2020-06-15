@@ -14,12 +14,12 @@
 
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.cast import safe_int_cast
 from lib.utils import grouped_diff, pivot_table
 
 
-class VenezuelaHumdataPipeline(DataPipeline):
+class VenezuelaHumDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

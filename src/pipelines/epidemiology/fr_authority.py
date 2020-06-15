@@ -15,12 +15,12 @@
 import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.cast import age_group
 from lib.time import datetime_isoformat
 
 
-class FrancePipeline(DataPipeline):
+class FranceDataSource(DataSource):
 
     column_adapter = {
         "jour": "date",
@@ -46,7 +46,7 @@ class FrancePipeline(DataPipeline):
     ) -> DataFrame:
 
         # Rename the appropriate columns
-        data = dataframes[0].rename(columns=FrancePipeline.column_adapter)
+        data = dataframes[0].rename(columns=self.column_adapter)
 
         # Make sure that the department is a string
         data.subregion2_code = data.subregion2_code.apply(
@@ -57,7 +57,7 @@ class FrancePipeline(DataPipeline):
         data["subregion1_code"] = ""
 
         # Adjust for special regions
-        for subregion2_code, subregion1_code in FrancePipeline.region_adapter.items():
+        for subregion2_code, subregion1_code in self.region_adapter.items():
             mask = data.subregion2_code == subregion2_code
             data.loc[mask, "subregion2_code"] = None
             data.loc[mask, "subregion1_code"] = subregion1_code

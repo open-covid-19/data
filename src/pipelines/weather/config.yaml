@@ -32,5 +32,5 @@ auxiliary:
 
 sources:
   # Data is fetched dynamically, so no URL can be declared here
-  - name: pipelines.weather.noaa_gsod_pipeline.NoaaGsodPipeline
-  # - name: pipelines.weather.noaa_ghcn_pipeline.NoaaGhcnPipeline
+  # - name: pipelines.weather.noaa_ghcn.NoaaGhcnDataSource
+  - name: pipelines.weather.noaa_gsod.NoaaGsodDataSource

@@ -206,12 +206,12 @@ auxiliary:
 sources:
 
   # Data sources for CO levels 1 + 2 + 3
-  - name: pipelines.epidemiology.co_authority.ColombiaPipeline
+  - name: pipelines.epidemiology.co_authority.ColombiaDataSource
     fetch:
       - url: "https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv"
 
   # Data sources for FR levels 1 + 2 + 3
-  - name: pipelines.epidemiology.fr_authority.FrancePipeline
+  - name: pipelines.epidemiology.fr_authority.FranceDataSource
     fetch:
       - url: "https://www.data.gouv.fr/fr/datasets/r/08c18e08-6780-452d-9b8c-ae244ad529b3"
         opts:
@@ -220,6 +220,6 @@ sources:
       sep: ";"
 
   # Data sources for ZA level 1
-  - name: pipelines.epidemiology.za_dsfsi.Covid19ZaTimelineDeathsPipeline
+  - name: pipelines.epidemiology.za_dsfsi.Covid19ZaTimelineDeathsDataSource
     fetch:
       - url: "https://raw.github.com/dsfsi/covid19za/master/data/covid19za_timeline_death_statistics.csv"

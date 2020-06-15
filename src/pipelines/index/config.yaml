@@ -34,4 +34,4 @@ auxiliary:
   knowledge_graph: ./src/data/knowledge_graph.csv
 
 sources:
-  - name: pipelines.index.index_pipeline.IndexPipeline
+  - name: pipelines.index.index.IndexDataSource

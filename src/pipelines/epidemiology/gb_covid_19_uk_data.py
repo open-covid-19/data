@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge, NA
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff
 
 
-class Covid19UkDataL3Pipeline(DataPipeline):
+class Covid19UkDataL3DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -61,7 +61,7 @@ class Covid19UkDataL3Pipeline(DataPipeline):
         return data
 
 
-class Covid19UkDataL2Pipeline(DataPipeline):
+class Covid19UkDataL2DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -94,7 +94,7 @@ class Covid19UkDataL2Pipeline(DataPipeline):
         return data
 
 
-class Covid19UkDataL1Pipeline(Covid19UkDataL2Pipeline):
+class Covid19UkDataL1DataSource(Covid19UkDataL2DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

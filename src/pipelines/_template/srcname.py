@@ -14,10 +14,10 @@
 
 from typing import Any, Dict, List
 from pandas import DataFrame
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 
 
-class SourceNamePipeline(DataPipeline):
+class SourceNameDataSource(DataSource):
     """ This is a custom pipeline that downloads a CSV file and outputs it as-is """
 
     def parse_dataframes(
@@ -26,7 +26,7 @@ class SourceNamePipeline(DataPipeline):
         """
         If the data fetched uses a supported format, (XLS, CSV or JSON), it will be automatically
         parsed and passed as an argument to this function. For data that requires special parsing,
-        override the [DataPipeline.parse] function instead.
+        override the [DataSource.parse] function instead.
         """
 
         # We only fetched one source, so the list will be of length one
@@ -34,7 +34,7 @@ class SourceNamePipeline(DataPipeline):
 
         # Here we can manipulate the data any way we want...
 
-        # The default merge strategy is defined in [DataPipeline.merge], see that method for
+        # The default merge strategy is defined in [DataSource.merge], see that method for
         # more details. Whenever possible, add a 'key' column to each record with a value found in
         # aux['metadata']['key'] for the best performance.
         # data['key'] = ...
@@ -43,6 +43,6 @@ class SourceNamePipeline(DataPipeline):
         return data
 
     ##
-    # Any functions of DataPipeline could be overridden here. We could also
+    # Any functions of DataSource could be overridden here. We could also
     # define our own functions to the class if necessary.
     ##

@@ -14,11 +14,11 @@
 
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 
 
-class SwitzerlandPipeline(DataPipeline):
+class SwitzerlandSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

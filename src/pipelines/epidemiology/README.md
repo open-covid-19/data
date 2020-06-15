@@ -51,8 +51,8 @@ a parsing script for Afghanistan regional data:
 ```yaml
 sources:
 
-  # Full class name of the parsing script which subclasses `DataPipeline`, relative to `./src`
-  - name: pipelines.epidemiology.af_humdata.AfghanistanHumdataPipeline
+  # Full class name of the parsing script which subclasses `DataSource`, relative to `./src`
+  - name: pipelines.epidemiology.af_humdata.AfghanistanHumdataDataSource
     fetch:
       # `fetch` contains a list of URLs which will be downloaded and passed to the `parse` function
       - url: "https://docs.google.com/spreadsheets/d/1F-AMEDtqK78EA6LYME2oOsWQsgJi4CT3V_G4Uo-47Rg/export?format=csv&gid=1539509351"
@@ -71,7 +71,7 @@ to the `parse` function.
 ## Step 3: Create a parsing script for your source
 A file with the path provided in the `name` of the configuration in step #2 will contain the parsing
 script. It should contain a class with a unique name descriptive of the data source and subclassing
-`DataPipeline`. If the data source is an authoritative one (i.e. government or health ministry) then
+`DataSource`. If the data source is an authoritative one (i.e. government or health ministry) then
 the file should be named `xx_authority.py` where `xx` is the 2-character country code. If the data
 is being downloaded from any source other than the authority directly, then name it
 `xx_sourcename.py` where `sourcename` is some short descriptive name derived from the location that
@@ -84,7 +84,7 @@ local filesystem.
 
 Here's an example of a very simple parsing script:
 ```python
-class MySourceNamePipeline(DataPipeline):
+class MySourceNameDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -124,7 +124,7 @@ The arguments to the parsing script are:
 * `parse_opts`: options passed to this script via the `config.yaml` configuration. In the example
   from step #2, here we would receive {opt_name: opt_value}.
 
-The core idea is that you need to write a script overriding the `DataPipeline` class which
+The core idea is that you need to write a script overriding the `DataSource` class which
 implements a `parse` method and outputs a set of variables (confirmed cases, deaths, tests, etc.)
 alongside whatever information is needed to match each record to a `key` and `date`. The output is
 in a Pandas DataFrame, and each record may look like this:

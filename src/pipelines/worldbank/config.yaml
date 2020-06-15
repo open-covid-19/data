@@ -1428,6 +1428,6 @@ auxiliary:
 
 sources:
 
-  - name: pipelines.worldbank.worldbank_pipeline.WorldbankPipeline
+  - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"

@@ -17,12 +17,12 @@ from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.cast import safe_float_cast
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff, grouped_cumsum, pivot_table
 
 
-class ScotlandPipeline(DataPipeline):
+class ScotlandDataSource(DataSource):
     @staticmethod
     def _parse(file_path: str, sheet_name: str, value_name: str):
         data = read_file(file_path, sheet_name=sheet_name)
@@ -49,10 +49,10 @@ class ScotlandPipeline(DataPipeline):
         return data
 
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
-        hospitalized = ScotlandPipeline._parse(
+        hospitalized = ScotlandDataSource._parse(
             sources[0], sheet_name="Table 3a - Hospital Confirmed", value_name="hospitalized"
         )
-        intensive_care = ScotlandPipeline._parse(
+        intensive_care = ScotlandDataSource._parse(
             sources[0], sheet_name="Table 2 - ICU patients", value_name="intensive_care"
         )
 
