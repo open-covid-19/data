@@ -1,0 +1,815 @@
+country_code,match_string,date,total_confirmed,new_confirmed,key
+NO,agder,2020-03-20,79,,NO_42
+NO,agder,2020-03-21,82,3,NO_42
+NO,agder,2020-03-22,91,9,NO_42
+NO,agder,2020-03-23,91,0,NO_42
+NO,agder,2020-03-24,92,1,NO_42
+NO,agder,2020-03-25,101,9,NO_42
+NO,agder,2020-03-26,134,33,NO_42
+NO,agder,2020-03-27,148,14,NO_42
+NO,agder,2020-03-28,159,11,NO_42
+NO,agder,2020-03-29,161,2,NO_42
+NO,agder,2020-03-30,166,5,NO_42
+NO,agder,2020-03-31,176,10,NO_42
+NO,agder,2020-04-01,190,14,NO_42
+NO,agder,2020-04-02,207,17,NO_42
+NO,agder,2020-04-03,221,14,NO_42
+NO,agder,2020-04-04,227,6,NO_42
+NO,agder,2020-04-05,230,3,NO_42
+NO,agder,2020-04-06,231,1,NO_42
+NO,agder,2020-04-07,236,5,NO_42
+NO,agder,2020-04-08,243,7,NO_42
+NO,agder,2020-04-09,249,6,NO_42
+NO,agder,2020-04-10,253,4,NO_42
+NO,agder,2020-04-11,258,5,NO_42
+NO,agder,2020-04-12,261,3,NO_42
+NO,agder,2020-04-13,266,5,NO_42
+NO,agder,2020-04-15,268,2,NO_42
+NO,agder,2020-04-16,275,7,NO_42
+NO,agder,2020-04-18,286,11,NO_42
+NO,agder,2020-04-19,287,1,NO_42
+NO,agder,2020-04-20,292,5,NO_42
+NO,agder,2020-04-21,294,2,NO_42
+NO,agder,2020-04-22,303,9,NO_42
+NO,agder,2020-04-23,312,9,NO_42
+NO,agder,2020-04-24,316,4,NO_42
+NO,agder,2020-04-27,319,3,NO_42
+NO,agder,2020-04-28,323,4,NO_42
+NO,agder,2020-04-29,324,1,NO_42
+NO,agder,2020-04-30,325,1,NO_42
+NO,agder,2020-05-07,333,8,NO_42
+NO,agder,2020-05-09,333,0,NO_42
+NO,agder,2020-05-11,333,0,NO_42
+NO,agder,2020-05-12,336,3,NO_42
+NO,agder,2020-05-13,336,0,NO_42
+NO,agder,2020-05-14,336,0,NO_42
+NO,agder,2020-05-15,338,2,NO_42
+NO,agder,2020-05-18,338,0,NO_42
+NO,agder,2020-05-19,338,0,NO_42
+NO,agder,2020-05-20,338,0,NO_42
+NO,agder,2020-05-21,338,0,NO_42
+NO,agder,2020-05-22,338,0,NO_42
+NO,agder,2020-05-23,338,0,NO_42
+NO,agder,2020-05-24,338,0,NO_42
+NO,agder,2020-05-25,338,0,NO_42
+NO,agder,2020-05-26,338,0,NO_42
+NO,agder,2020-05-27,338,0,NO_42
+NO,agder,2020-05-28,338,0,NO_42
+NO,agder,2020-05-29,338,0,NO_42
+NO,agder,2020-05-30,338,0,NO_42
+NO,agder,2020-05-31,338,0,NO_42
+NO,agder,2020-06-01,338,0,NO_42
+NO,agder,2020-06-02,338,0,NO_42
+NO,agder,2020-06-03,338,0,NO_42
+NO,agder,2020-06-04,338,0,NO_42
+NO,agder,2020-06-05,341,3,NO_42
+NO,agder,2020-06-06,341,0,NO_42
+NO,agder,2020-06-07,341,0,NO_42
+NO,agder,2020-06-08,342,1,NO_42
+NO,agder,2020-06-09,342,0,NO_42
+NO,agder,2020-06-10,342,0,NO_42
+NO,agder,2020-06-11,343,1,NO_42
+NO,agder,2020-06-12,343,0,NO_42
+NO,agder,2020-06-13,343,0,NO_42
+NO,agder,2020-06-14,343,0,NO_42
+NO,agder,2020-06-15,343,0,NO_42
+NO,innlandet,2020-03-20,115,,NO_34
+NO,innlandet,2020-03-21,125,10,NO_34
+NO,innlandet,2020-03-22,148,23,NO_34
+NO,innlandet,2020-03-23,148,0,NO_34
+NO,innlandet,2020-03-24,163,15,NO_34
+NO,innlandet,2020-03-25,193,30,NO_34
+NO,innlandet,2020-03-26,147,-46,NO_34
+NO,innlandet,2020-03-27,200,53,NO_34
+NO,innlandet,2020-03-28,228,28,NO_34
+NO,innlandet,2020-03-29,246,18,NO_34
+NO,innlandet,2020-03-30,258,12,NO_34
+NO,innlandet,2020-03-31,293,35,NO_34
+NO,innlandet,2020-04-01,327,34,NO_34
+NO,innlandet,2020-04-02,344,17,NO_34
+NO,innlandet,2020-04-03,350,6,NO_34
+NO,innlandet,2020-04-04,360,10,NO_34
+NO,innlandet,2020-04-05,362,2,NO_34
+NO,innlandet,2020-04-06,369,7,NO_34
+NO,innlandet,2020-04-07,373,4,NO_34
+NO,innlandet,2020-04-08,381,8,NO_34
+NO,innlandet,2020-04-09,387,6,NO_34
+NO,innlandet,2020-04-10,389,2,NO_34
+NO,innlandet,2020-04-11,392,3,NO_34
+NO,innlandet,2020-04-12,395,3,NO_34
+NO,innlandet,2020-04-13,398,3,NO_34
+NO,innlandet,2020-04-15,399,1,NO_34
+NO,innlandet,2020-04-16,403,4,NO_34
+NO,innlandet,2020-04-18,409,6,NO_34
+NO,innlandet,2020-04-19,412,3,NO_34
+NO,innlandet,2020-04-20,412,0,NO_34
+NO,innlandet,2020-04-21,414,2,NO_34
+NO,innlandet,2020-04-22,418,4,NO_34
+NO,innlandet,2020-04-23,419,1,NO_34
+NO,innlandet,2020-04-24,424,5,NO_34
+NO,innlandet,2020-04-27,430,6,NO_34
+NO,innlandet,2020-04-28,432,2,NO_34
+NO,innlandet,2020-04-29,437,5,NO_34
+NO,innlandet,2020-04-30,437,0,NO_34
+NO,innlandet,2020-05-07,453,16,NO_34
+NO,innlandet,2020-05-09,453,0,NO_34
+NO,innlandet,2020-05-11,453,0,NO_34
+NO,innlandet,2020-05-12,467,14,NO_34
+NO,innlandet,2020-05-13,472,5,NO_34
+NO,innlandet,2020-05-14,477,5,NO_34
+NO,innlandet,2020-05-15,480,3,NO_34
+NO,innlandet,2020-05-18,480,0,NO_34
+NO,innlandet,2020-05-19,480,0,NO_34
+NO,innlandet,2020-05-20,480,0,NO_34
+NO,innlandet,2020-05-21,480,0,NO_34
+NO,innlandet,2020-05-22,486,6,NO_34
+NO,innlandet,2020-05-23,486,0,NO_34
+NO,innlandet,2020-05-24,486,0,NO_34
+NO,innlandet,2020-05-25,490,4,NO_34
+NO,innlandet,2020-05-26,491,1,NO_34
+NO,innlandet,2020-05-27,495,4,NO_34
+NO,innlandet,2020-05-28,497,2,NO_34
+NO,innlandet,2020-05-29,499,2,NO_34
+NO,innlandet,2020-05-30,499,0,NO_34
+NO,innlandet,2020-05-31,499,0,NO_34
+NO,innlandet,2020-06-01,499,0,NO_34
+NO,innlandet,2020-06-02,508,9,NO_34
+NO,innlandet,2020-06-03,508,0,NO_34
+NO,innlandet,2020-06-04,510,2,NO_34
+NO,innlandet,2020-06-05,510,0,NO_34
+NO,innlandet,2020-06-06,510,0,NO_34
+NO,innlandet,2020-06-07,510,0,NO_34
+NO,innlandet,2020-06-08,510,0,NO_34
+NO,innlandet,2020-06-09,511,1,NO_34
+NO,innlandet,2020-06-10,511,0,NO_34
+NO,innlandet,2020-06-11,511,0,NO_34
+NO,innlandet,2020-06-12,511,0,NO_34
+NO,innlandet,2020-06-13,511,0,NO_34
+NO,innlandet,2020-06-14,511,0,NO_34
+NO,innlandet,2020-06-15,511,0,NO_34
+NO,møre og romsdal,2020-03-20,29,,NO_15
+NO,møre og romsdal,2020-03-21,32,3,NO_15
+NO,møre og romsdal,2020-03-22,38,6,NO_15
+NO,møre og romsdal,2020-03-23,38,0,NO_15
+NO,møre og romsdal,2020-03-24,46,8,NO_15
+NO,møre og romsdal,2020-03-25,55,9,NO_15
+NO,møre og romsdal,2020-03-26,71,16,NO_15
+NO,møre og romsdal,2020-03-27,74,3,NO_15
+NO,møre og romsdal,2020-03-28,80,6,NO_15
+NO,møre og romsdal,2020-03-29,81,1,NO_15
+NO,møre og romsdal,2020-03-30,81,0,NO_15
+NO,møre og romsdal,2020-03-31,82,1,NO_15
+NO,møre og romsdal,2020-04-01,90,8,NO_15
+NO,møre og romsdal,2020-04-02,95,5,NO_15
+NO,møre og romsdal,2020-04-03,106,11,NO_15
+NO,møre og romsdal,2020-04-04,113,7,NO_15
+NO,møre og romsdal,2020-04-05,115,2,NO_15
+NO,møre og romsdal,2020-04-06,116,1,NO_15
+NO,møre og romsdal,2020-04-07,115,-1,NO_15
+NO,møre og romsdal,2020-04-08,116,1,NO_15
+NO,møre og romsdal,2020-04-09,116,0,NO_15
+NO,møre og romsdal,2020-04-10,116,0,NO_15
+NO,møre og romsdal,2020-04-11,116,0,NO_15
+NO,møre og romsdal,2020-04-12,116,0,NO_15
+NO,møre og romsdal,2020-04-13,117,1,NO_15
+NO,møre og romsdal,2020-04-15,117,0,NO_15
+NO,møre og romsdal,2020-04-16,118,1,NO_15
+NO,møre og romsdal,2020-04-18,118,0,NO_15
+NO,møre og romsdal,2020-04-19,118,0,NO_15
+NO,møre og romsdal,2020-04-20,118,0,NO_15
+NO,møre og romsdal,2020-04-21,118,0,NO_15
+NO,møre og romsdal,2020-04-22,118,0,NO_15
+NO,møre og romsdal,2020-04-23,119,1,NO_15
+NO,møre og romsdal,2020-04-24,120,1,NO_15
+NO,møre og romsdal,2020-04-27,121,1,NO_15
+NO,møre og romsdal,2020-04-28,122,1,NO_15
+NO,møre og romsdal,2020-04-29,123,1,NO_15
+NO,møre og romsdal,2020-04-30,123,0,NO_15
+NO,møre og romsdal,2020-05-07,123,0,NO_15
+NO,møre og romsdal,2020-05-09,123,0,NO_15
+NO,møre og romsdal,2020-05-11,123,0,NO_15
+NO,møre og romsdal,2020-05-12,129,6,NO_15
+NO,møre og romsdal,2020-05-13,132,3,NO_15
+NO,møre og romsdal,2020-05-14,132,0,NO_15
+NO,møre og romsdal,2020-05-15,133,1,NO_15
+NO,møre og romsdal,2020-05-18,133,0,NO_15
+NO,møre og romsdal,2020-05-19,133,0,NO_15
+NO,møre og romsdal,2020-05-20,133,0,NO_15
+NO,møre og romsdal,2020-05-21,133,0,NO_15
+NO,møre og romsdal,2020-05-22,133,0,NO_15
+NO,møre og romsdal,2020-05-23,133,0,NO_15
+NO,møre og romsdal,2020-05-24,133,0,NO_15
+NO,møre og romsdal,2020-05-25,133,0,NO_15
+NO,møre og romsdal,2020-05-26,133,0,NO_15
+NO,møre og romsdal,2020-05-27,133,0,NO_15
+NO,møre og romsdal,2020-05-28,134,1,NO_15
+NO,møre og romsdal,2020-05-29,134,0,NO_15
+NO,møre og romsdal,2020-05-30,134,0,NO_15
+NO,møre og romsdal,2020-05-31,134,0,NO_15
+NO,møre og romsdal,2020-06-01,134,0,NO_15
+NO,møre og romsdal,2020-06-02,140,6,NO_15
+NO,møre og romsdal,2020-06-03,142,2,NO_15
+NO,møre og romsdal,2020-06-04,141,-1,NO_15
+NO,møre og romsdal,2020-06-05,145,4,NO_15
+NO,møre og romsdal,2020-06-06,145,0,NO_15
+NO,møre og romsdal,2020-06-07,145,0,NO_15
+NO,møre og romsdal,2020-06-08,145,0,NO_15
+NO,møre og romsdal,2020-06-09,145,0,NO_15
+NO,møre og romsdal,2020-06-10,145,0,NO_15
+NO,møre og romsdal,2020-06-11,145,0,NO_15
+NO,møre og romsdal,2020-06-12,145,0,NO_15
+NO,møre og romsdal,2020-06-13,145,0,NO_15
+NO,møre og romsdal,2020-06-14,145,0,NO_15
+NO,møre og romsdal,2020-06-15,145,0,NO_15
+NO,nordland,2020-03-20,17,,NO_18
+NO,nordland,2020-03-21,17,0,NO_18
+NO,nordland,2020-03-22,19,2,NO_18
+NO,nordland,2020-03-23,19,0,NO_18
+NO,nordland,2020-03-24,18,-1,NO_18
+NO,nordland,2020-03-25,22,4,NO_18
+NO,nordland,2020-03-26,29,7,NO_18
+NO,nordland,2020-03-27,36,7,NO_18
+NO,nordland,2020-03-28,42,6,NO_18
+NO,nordland,2020-03-29,46,4,NO_18
+NO,nordland,2020-03-30,48,2,NO_18
+NO,nordland,2020-03-31,52,4,NO_18
+NO,nordland,2020-04-01,62,10,NO_18
+NO,nordland,2020-04-02,68,6,NO_18
+NO,nordland,2020-04-03,71,3,NO_18
+NO,nordland,2020-04-04,74,3,NO_18
+NO,nordland,2020-04-05,75,1,NO_18
+NO,nordland,2020-04-06,76,1,NO_18
+NO,nordland,2020-04-07,77,1,NO_18
+NO,nordland,2020-04-08,84,7,NO_18
+NO,nordland,2020-04-09,86,2,NO_18
+NO,nordland,2020-04-10,87,1,NO_18
+NO,nordland,2020-04-11,90,3,NO_18
+NO,nordland,2020-04-12,91,1,NO_18
+NO,nordland,2020-04-13,95,4,NO_18
+NO,nordland,2020-04-15,97,2,NO_18
+NO,nordland,2020-04-16,104,7,NO_18
+NO,nordland,2020-04-18,108,4,NO_18
+NO,nordland,2020-04-19,109,1,NO_18
+NO,nordland,2020-04-20,109,0,NO_18
+NO,nordland,2020-04-21,110,1,NO_18
+NO,nordland,2020-04-22,110,0,NO_18
+NO,nordland,2020-04-23,110,0,NO_18
+NO,nordland,2020-04-24,113,3,NO_18
+NO,nordland,2020-04-27,113,0,NO_18
+NO,nordland,2020-04-28,114,1,NO_18
+NO,nordland,2020-04-29,114,0,NO_18
+NO,nordland,2020-04-30,114,0,NO_18
+NO,nordland,2020-05-07,115,1,NO_18
+NO,nordland,2020-05-09,115,0,NO_18
+NO,nordland,2020-05-11,115,0,NO_18
+NO,nordland,2020-05-12,116,1,NO_18
+NO,nordland,2020-05-13,117,1,NO_18
+NO,nordland,2020-05-14,117,0,NO_18
+NO,nordland,2020-05-15,117,0,NO_18
+NO,nordland,2020-05-18,117,0,NO_18
+NO,nordland,2020-05-19,117,0,NO_18
+NO,nordland,2020-05-20,117,0,NO_18
+NO,nordland,2020-05-21,117,0,NO_18
+NO,nordland,2020-05-22,118,1,NO_18
+NO,nordland,2020-05-23,118,0,NO_18
+NO,nordland,2020-05-24,118,0,NO_18
+NO,nordland,2020-05-25,121,3,NO_18
+NO,nordland,2020-05-26,121,0,NO_18
+NO,nordland,2020-05-27,121,0,NO_18
+NO,nordland,2020-05-28,121,0,NO_18
+NO,nordland,2020-05-29,121,0,NO_18
+NO,nordland,2020-05-30,121,0,NO_18
+NO,nordland,2020-05-31,121,0,NO_18
+NO,nordland,2020-06-01,121,0,NO_18
+NO,nordland,2020-06-02,121,0,NO_18
+NO,nordland,2020-06-03,121,0,NO_18
+NO,nordland,2020-06-04,121,0,NO_18
+NO,nordland,2020-06-05,121,0,NO_18
+NO,nordland,2020-06-06,121,0,NO_18
+NO,nordland,2020-06-07,121,0,NO_18
+NO,nordland,2020-06-08,121,0,NO_18
+NO,nordland,2020-06-09,121,0,NO_18
+NO,nordland,2020-06-10,122,1,NO_18
+NO,nordland,2020-06-11,122,0,NO_18
+NO,nordland,2020-06-12,122,0,NO_18
+NO,nordland,2020-06-13,122,0,NO_18
+NO,nordland,2020-06-14,122,0,NO_18
+NO,nordland,2020-06-15,122,0,NO_18
+NO,oslo,2020-03-20,419,,NO_03
+NO,oslo,2020-03-21,448,29,NO_03
+NO,oslo,2020-03-22,523,75,NO_03
+NO,oslo,2020-03-23,523,0,NO_03
+NO,oslo,2020-03-24,657,134,NO_03
+NO,oslo,2020-03-25,719,62,NO_03
+NO,oslo,2020-03-26,744,25,NO_03
+NO,oslo,2020-03-27,903,159,NO_03
+NO,oslo,2020-03-28,989,86,NO_03
+NO,oslo,2020-03-29,1118,129,NO_03
+NO,oslo,2020-03-30,1169,51,NO_03
+NO,oslo,2020-03-31,1233,64,NO_03
+NO,oslo,2020-04-01,1281,48,NO_03
+NO,oslo,2020-04-02,1379,98,NO_03
+NO,oslo,2020-04-03,1438,59,NO_03
+NO,oslo,2020-04-04,1534,96,NO_03
+NO,oslo,2020-04-05,1582,48,NO_03
+NO,oslo,2020-04-06,1626,44,NO_03
+NO,oslo,2020-04-07,1673,47,NO_03
+NO,oslo,2020-04-08,1730,57,NO_03
+NO,oslo,2020-04-09,1780,50,NO_03
+NO,oslo,2020-04-10,1827,47,NO_03
+NO,oslo,2020-04-11,1866,39,NO_03
+NO,oslo,2020-04-12,1893,27,NO_03
+NO,oslo,2020-04-13,1960,67,NO_03
+NO,oslo,2020-04-15,1985,25,NO_03
+NO,oslo,2020-04-16,2031,46,NO_03
+NO,oslo,2020-04-18,2095,64,NO_03
+NO,oslo,2020-04-19,2132,37,NO_03
+NO,oslo,2020-04-20,2156,24,NO_03
+NO,oslo,2020-04-21,2177,21,NO_03
+NO,oslo,2020-04-22,2212,35,NO_03
+NO,oslo,2020-04-23,2252,40,NO_03
+NO,oslo,2020-04-24,2273,21,NO_03
+NO,oslo,2020-04-27,2324,51,NO_03
+NO,oslo,2020-04-28,2339,15,NO_03
+NO,oslo,2020-04-29,2354,15,NO_03
+NO,oslo,2020-04-30,2364,10,NO_03
+NO,oslo,2020-05-07,2470,106,NO_03
+NO,oslo,2020-05-09,2470,0,NO_03
+NO,oslo,2020-05-11,2470,0,NO_03
+NO,oslo,2020-05-12,2537,67,NO_03
+NO,oslo,2020-05-13,2547,10,NO_03
+NO,oslo,2020-05-14,2551,4,NO_03
+NO,oslo,2020-05-15,2568,17,NO_03
+NO,oslo,2020-05-18,2568,0,NO_03
+NO,oslo,2020-05-19,2572,4,NO_03
+NO,oslo,2020-05-20,2572,0,NO_03
+NO,oslo,2020-05-21,2572,0,NO_03
+NO,oslo,2020-05-22,2589,17,NO_03
+NO,oslo,2020-05-23,2589,0,NO_03
+NO,oslo,2020-05-24,2589,0,NO_03
+NO,oslo,2020-05-25,2607,18,NO_03
+NO,oslo,2020-05-26,2614,7,NO_03
+NO,oslo,2020-05-27,2620,6,NO_03
+NO,oslo,2020-05-28,2625,5,NO_03
+NO,oslo,2020-05-29,2632,7,NO_03
+NO,oslo,2020-05-30,2632,0,NO_03
+NO,oslo,2020-05-31,2632,0,NO_03
+NO,oslo,2020-06-01,2632,0,NO_03
+NO,oslo,2020-06-02,2641,9,NO_03
+NO,oslo,2020-06-03,2643,2,NO_03
+NO,oslo,2020-06-04,2660,17,NO_03
+NO,oslo,2020-06-05,2676,16,NO_03
+NO,oslo,2020-06-06,2676,0,NO_03
+NO,oslo,2020-06-07,2676,0,NO_03
+NO,oslo,2020-06-08,2706,30,NO_03
+NO,oslo,2020-06-09,2722,16,NO_03
+NO,oslo,2020-06-10,2727,5,NO_03
+NO,oslo,2020-06-11,2738,11,NO_03
+NO,oslo,2020-06-12,2748,10,NO_03
+NO,oslo,2020-06-13,2748,0,NO_03
+NO,oslo,2020-06-14,2748,0,NO_03
+NO,oslo,2020-06-15,2748,0,NO_03
+NO,rogaland,2020-03-20,180,,NO_11
+NO,rogaland,2020-03-21,199,19,NO_11
+NO,rogaland,2020-03-22,219,20,NO_11
+NO,rogaland,2020-03-23,219,0,NO_11
+NO,rogaland,2020-03-24,251,32,NO_11
+NO,rogaland,2020-03-25,266,15,NO_11
+NO,rogaland,2020-03-26,270,4,NO_11
+NO,rogaland,2020-03-27,277,7,NO_11
+NO,rogaland,2020-03-28,304,27,NO_11
+NO,rogaland,2020-03-29,305,1,NO_11
+NO,rogaland,2020-03-30,305,0,NO_11
+NO,rogaland,2020-03-31,317,12,NO_11
+NO,rogaland,2020-04-01,321,4,NO_11
+NO,rogaland,2020-04-02,332,11,NO_11
+NO,rogaland,2020-04-03,351,19,NO_11
+NO,rogaland,2020-04-04,368,17,NO_11
+NO,rogaland,2020-04-05,372,4,NO_11
+NO,rogaland,2020-04-06,377,5,NO_11
+NO,rogaland,2020-04-07,378,1,NO_11
+NO,rogaland,2020-04-08,379,1,NO_11
+NO,rogaland,2020-04-09,379,0,NO_11
+NO,rogaland,2020-04-10,379,0,NO_11
+NO,rogaland,2020-04-11,378,-1,NO_11
+NO,rogaland,2020-04-12,380,2,NO_11
+NO,rogaland,2020-04-13,380,0,NO_11
+NO,rogaland,2020-04-15,382,2,NO_11
+NO,rogaland,2020-04-16,383,1,NO_11
+NO,rogaland,2020-04-18,391,8,NO_11
+NO,rogaland,2020-04-19,391,0,NO_11
+NO,rogaland,2020-04-20,392,1,NO_11
+NO,rogaland,2020-04-21,393,1,NO_11
+NO,rogaland,2020-04-22,395,2,NO_11
+NO,rogaland,2020-04-23,397,2,NO_11
+NO,rogaland,2020-04-24,397,0,NO_11
+NO,rogaland,2020-04-27,400,3,NO_11
+NO,rogaland,2020-04-28,422,22,NO_11
+NO,rogaland,2020-04-29,423,1,NO_11
+NO,rogaland,2020-04-30,431,8,NO_11
+NO,rogaland,2020-05-07,435,4,NO_11
+NO,rogaland,2020-05-09,435,0,NO_11
+NO,rogaland,2020-05-11,435,0,NO_11
+NO,rogaland,2020-05-12,437,2,NO_11
+NO,rogaland,2020-05-13,438,1,NO_11
+NO,rogaland,2020-05-14,438,0,NO_11
+NO,rogaland,2020-05-15,438,0,NO_11
+NO,rogaland,2020-05-18,438,0,NO_11
+NO,rogaland,2020-05-19,438,0,NO_11
+NO,rogaland,2020-05-20,438,0,NO_11
+NO,rogaland,2020-05-21,438,0,NO_11
+NO,rogaland,2020-05-22,438,0,NO_11
+NO,rogaland,2020-05-23,438,0,NO_11
+NO,rogaland,2020-05-24,438,0,NO_11
+NO,rogaland,2020-05-25,438,0,NO_11
+NO,rogaland,2020-05-26,438,0,NO_11
+NO,rogaland,2020-05-27,437,-1,NO_11
+NO,rogaland,2020-05-28,437,0,NO_11
+NO,rogaland,2020-05-29,437,0,NO_11
+NO,rogaland,2020-05-30,437,0,NO_11
+NO,rogaland,2020-05-31,437,0,NO_11
+NO,rogaland,2020-06-01,437,0,NO_11
+NO,rogaland,2020-06-02,438,1,NO_11
+NO,rogaland,2020-06-03,438,0,NO_11
+NO,rogaland,2020-06-04,438,0,NO_11
+NO,rogaland,2020-06-05,439,1,NO_11
+NO,rogaland,2020-06-06,439,0,NO_11
+NO,rogaland,2020-06-07,439,0,NO_11
+NO,rogaland,2020-06-08,441,2,NO_11
+NO,rogaland,2020-06-09,440,-1,NO_11
+NO,rogaland,2020-06-10,440,0,NO_11
+NO,rogaland,2020-06-11,441,1,NO_11
+NO,rogaland,2020-06-12,441,0,NO_11
+NO,rogaland,2020-06-13,441,0,NO_11
+NO,rogaland,2020-06-14,441,0,NO_11
+NO,rogaland,2020-06-15,441,0,NO_11
+NO,troms og finnmark,2020-03-20,32,,NO_54
+NO,troms og finnmark,2020-03-21,37,5,NO_54
+NO,troms og finnmark,2020-03-22,49,12,NO_54
+NO,troms og finnmark,2020-03-23,49,0,NO_54
+NO,troms og finnmark,2020-03-24,59,10,NO_54
+NO,troms og finnmark,2020-03-25,73,14,NO_54
+NO,troms og finnmark,2020-03-26,93,20,NO_54
+NO,troms og finnmark,2020-03-27,116,23,NO_54
+NO,troms og finnmark,2020-03-28,129,13,NO_54
+NO,troms og finnmark,2020-03-29,143,14,NO_54
+NO,troms og finnmark,2020-03-30,146,3,NO_54
+NO,troms og finnmark,2020-03-31,152,6,NO_54
+NO,troms og finnmark,2020-04-01,157,5,NO_54
+NO,troms og finnmark,2020-04-02,164,7,NO_54
+NO,troms og finnmark,2020-04-03,176,12,NO_54
+NO,troms og finnmark,2020-04-04,178,2,NO_54
+NO,troms og finnmark,2020-04-05,181,3,NO_54
+NO,troms og finnmark,2020-04-06,181,0,NO_54
+NO,troms og finnmark,2020-04-07,184,3,NO_54
+NO,troms og finnmark,2020-04-08,185,1,NO_54
+NO,troms og finnmark,2020-04-09,187,2,NO_54
+NO,troms og finnmark,2020-04-10,188,1,NO_54
+NO,troms og finnmark,2020-04-11,190,2,NO_54
+NO,troms og finnmark,2020-04-12,190,0,NO_54
+NO,troms og finnmark,2020-04-13,197,7,NO_54
+NO,troms og finnmark,2020-04-15,200,3,NO_54
+NO,troms og finnmark,2020-04-16,203,3,NO_54
+NO,troms og finnmark,2020-04-18,212,9,NO_54
+NO,troms og finnmark,2020-04-19,218,6,NO_54
+NO,troms og finnmark,2020-04-20,223,5,NO_54
+NO,troms og finnmark,2020-04-21,225,2,NO_54
+NO,troms og finnmark,2020-04-22,227,2,NO_54
+NO,troms og finnmark,2020-04-23,230,3,NO_54
+NO,troms og finnmark,2020-04-24,229,-1,NO_54
+NO,troms og finnmark,2020-04-27,232,3,NO_54
+NO,troms og finnmark,2020-04-28,234,2,NO_54
+NO,troms og finnmark,2020-04-29,237,3,NO_54
+NO,troms og finnmark,2020-04-30,240,3,NO_54
+NO,troms og finnmark,2020-05-07,247,7,NO_54
+NO,troms og finnmark,2020-05-09,247,0,NO_54
+NO,troms og finnmark,2020-05-11,247,0,NO_54
+NO,troms og finnmark,2020-05-12,251,4,NO_54
+NO,troms og finnmark,2020-05-13,251,0,NO_54
+NO,troms og finnmark,2020-05-14,251,0,NO_54
+NO,troms og finnmark,2020-05-15,252,1,NO_54
+NO,troms og finnmark,2020-05-18,252,0,NO_54
+NO,troms og finnmark,2020-05-19,252,0,NO_54
+NO,troms og finnmark,2020-05-20,252,0,NO_54
+NO,troms og finnmark,2020-05-21,252,0,NO_54
+NO,troms og finnmark,2020-05-22,252,0,NO_54
+NO,troms og finnmark,2020-05-23,252,0,NO_54
+NO,troms og finnmark,2020-05-24,252,0,NO_54
+NO,troms og finnmark,2020-05-25,252,0,NO_54
+NO,troms og finnmark,2020-05-26,252,0,NO_54
+NO,troms og finnmark,2020-05-27,252,0,NO_54
+NO,troms og finnmark,2020-05-28,252,0,NO_54
+NO,troms og finnmark,2020-05-29,252,0,NO_54
+NO,troms og finnmark,2020-05-30,252,0,NO_54
+NO,troms og finnmark,2020-05-31,252,0,NO_54
+NO,troms og finnmark,2020-06-01,252,0,NO_54
+NO,troms og finnmark,2020-06-02,252,0,NO_54
+NO,troms og finnmark,2020-06-03,252,0,NO_54
+NO,troms og finnmark,2020-06-04,252,0,NO_54
+NO,troms og finnmark,2020-06-05,252,0,NO_54
+NO,troms og finnmark,2020-06-06,252,0,NO_54
+NO,troms og finnmark,2020-06-07,252,0,NO_54
+NO,troms og finnmark,2020-06-08,252,0,NO_54
+NO,troms og finnmark,2020-06-09,252,0,NO_54
+NO,troms og finnmark,2020-06-10,252,0,NO_54
+NO,troms og finnmark,2020-06-11,252,0,NO_54
+NO,troms og finnmark,2020-06-12,252,0,NO_54
+NO,troms og finnmark,2020-06-13,252,0,NO_54
+NO,troms og finnmark,2020-06-14,252,0,NO_54
+NO,troms og finnmark,2020-06-15,252,0,NO_54
+NO,trøndelag,2020-03-20,97,,NO_50
+NO,trøndelag,2020-03-21,122,25,NO_50
+NO,trøndelag,2020-03-22,131,9,NO_50
+NO,trøndelag,2020-03-23,131,0,NO_50
+NO,trøndelag,2020-03-24,158,27,NO_50
+NO,trøndelag,2020-03-25,179,21,NO_50
+NO,trøndelag,2020-03-26,236,57,NO_50
+NO,trøndelag,2020-03-27,261,25,NO_50
+NO,trøndelag,2020-03-28,281,20,NO_50
+NO,trøndelag,2020-03-29,296,15,NO_50
+NO,trøndelag,2020-03-30,311,15,NO_50
+NO,trøndelag,2020-03-31,320,9,NO_50
+NO,trøndelag,2020-04-01,330,10,NO_50
+NO,trøndelag,2020-04-02,340,10,NO_50
+NO,trøndelag,2020-04-03,352,12,NO_50
+NO,trøndelag,2020-04-04,361,9,NO_50
+NO,trøndelag,2020-04-05,369,8,NO_50
+NO,trøndelag,2020-04-06,372,3,NO_50
+NO,trøndelag,2020-04-07,375,3,NO_50
+NO,trøndelag,2020-04-08,377,2,NO_50
+NO,trøndelag,2020-04-09,388,11,NO_50
+NO,trøndelag,2020-04-10,391,3,NO_50
+NO,trøndelag,2020-04-11,393,2,NO_50
+NO,trøndelag,2020-04-12,400,7,NO_50
+NO,trøndelag,2020-04-13,403,3,NO_50
+NO,trøndelag,2020-04-15,405,2,NO_50
+NO,trøndelag,2020-04-16,406,1,NO_50
+NO,trøndelag,2020-04-18,414,8,NO_50
+NO,trøndelag,2020-04-19,418,4,NO_50
+NO,trøndelag,2020-04-20,420,2,NO_50
+NO,trøndelag,2020-04-21,422,2,NO_50
+NO,trøndelag,2020-04-22,423,1,NO_50
+NO,trøndelag,2020-04-23,431,8,NO_50
+NO,trøndelag,2020-04-24,434,3,NO_50
+NO,trøndelag,2020-04-27,459,25,NO_50
+NO,trøndelag,2020-04-28,471,12,NO_50
+NO,trøndelag,2020-04-29,472,1,NO_50
+NO,trøndelag,2020-04-30,477,5,NO_50
+NO,trøndelag,2020-05-07,506,29,NO_50
+NO,trøndelag,2020-05-09,506,0,NO_50
+NO,trøndelag,2020-05-11,506,0,NO_50
+NO,trøndelag,2020-05-12,519,13,NO_50
+NO,trøndelag,2020-05-13,523,4,NO_50
+NO,trøndelag,2020-05-14,525,2,NO_50
+NO,trøndelag,2020-05-15,530,5,NO_50
+NO,trøndelag,2020-05-18,530,0,NO_50
+NO,trøndelag,2020-05-19,530,0,NO_50
+NO,trøndelag,2020-05-20,532,2,NO_50
+NO,trøndelag,2020-05-21,532,0,NO_50
+NO,trøndelag,2020-05-22,532,0,NO_50
+NO,trøndelag,2020-05-23,532,0,NO_50
+NO,trøndelag,2020-05-24,532,0,NO_50
+NO,trøndelag,2020-05-25,533,1,NO_50
+NO,trøndelag,2020-05-26,534,1,NO_50
+NO,trøndelag,2020-05-27,534,0,NO_50
+NO,trøndelag,2020-05-28,536,2,NO_50
+NO,trøndelag,2020-05-29,536,0,NO_50
+NO,trøndelag,2020-05-30,536,0,NO_50
+NO,trøndelag,2020-05-31,536,0,NO_50
+NO,trøndelag,2020-06-01,536,0,NO_50
+NO,trøndelag,2020-06-02,537,1,NO_50
+NO,trøndelag,2020-06-03,537,0,NO_50
+NO,trøndelag,2020-06-04,537,0,NO_50
+NO,trøndelag,2020-06-05,537,0,NO_50
+NO,trøndelag,2020-06-06,537,0,NO_50
+NO,trøndelag,2020-06-07,537,0,NO_50
+NO,trøndelag,2020-06-08,536,-1,NO_50
+NO,trøndelag,2020-06-09,535,-1,NO_50
+NO,trøndelag,2020-06-10,535,0,NO_50
+NO,trøndelag,2020-06-11,535,0,NO_50
+NO,trøndelag,2020-06-12,535,0,NO_50
+NO,trøndelag,2020-06-13,535,0,NO_50
+NO,trøndelag,2020-06-14,535,0,NO_50
+NO,trøndelag,2020-06-15,535,0,NO_50
+NO,vestfold og telemark,2020-03-20,72,,NO_38
+NO,vestfold og telemark,2020-03-21,81,9,NO_38
+NO,vestfold og telemark,2020-03-22,85,4,NO_38
+NO,vestfold og telemark,2020-03-23,85,0,NO_38
+NO,vestfold og telemark,2020-03-24,95,10,NO_38
+NO,vestfold og telemark,2020-03-25,107,12,NO_38
+NO,vestfold og telemark,2020-03-26,136,29,NO_38
+NO,vestfold og telemark,2020-03-27,146,10,NO_38
+NO,vestfold og telemark,2020-03-28,149,3,NO_38
+NO,vestfold og telemark,2020-03-29,154,5,NO_38
+NO,vestfold og telemark,2020-03-30,163,9,NO_38
+NO,vestfold og telemark,2020-03-31,174,11,NO_38
+NO,vestfold og telemark,2020-04-01,180,6,NO_38
+NO,vestfold og telemark,2020-04-02,190,10,NO_38
+NO,vestfold og telemark,2020-04-03,201,11,NO_38
+NO,vestfold og telemark,2020-04-04,217,16,NO_38
+NO,vestfold og telemark,2020-04-05,220,3,NO_38
+NO,vestfold og telemark,2020-04-06,224,4,NO_38
+NO,vestfold og telemark,2020-04-07,226,2,NO_38
+NO,vestfold og telemark,2020-04-08,234,8,NO_38
+NO,vestfold og telemark,2020-04-09,237,3,NO_38
+NO,vestfold og telemark,2020-04-10,237,0,NO_38
+NO,vestfold og telemark,2020-04-11,238,1,NO_38
+NO,vestfold og telemark,2020-04-12,241,3,NO_38
+NO,vestfold og telemark,2020-04-13,247,6,NO_38
+NO,vestfold og telemark,2020-04-15,250,3,NO_38
+NO,vestfold og telemark,2020-04-16,251,1,NO_38
+NO,vestfold og telemark,2020-04-18,260,9,NO_38
+NO,vestfold og telemark,2020-04-19,261,1,NO_38
+NO,vestfold og telemark,2020-04-20,261,0,NO_38
+NO,vestfold og telemark,2020-04-21,263,2,NO_38
+NO,vestfold og telemark,2020-04-22,263,0,NO_38
+NO,vestfold og telemark,2020-04-23,265,2,NO_38
+NO,vestfold og telemark,2020-04-24,268,3,NO_38
+NO,vestfold og telemark,2020-04-27,271,3,NO_38
+NO,vestfold og telemark,2020-04-28,271,0,NO_38
+NO,vestfold og telemark,2020-04-29,272,1,NO_38
+NO,vestfold og telemark,2020-04-30,272,0,NO_38
+NO,vestfold og telemark,2020-05-07,278,6,NO_38
+NO,vestfold og telemark,2020-05-09,278,0,NO_38
+NO,vestfold og telemark,2020-05-11,278,0,NO_38
+NO,vestfold og telemark,2020-05-12,279,1,NO_38
+NO,vestfold og telemark,2020-05-13,281,2,NO_38
+NO,vestfold og telemark,2020-05-14,281,0,NO_38
+NO,vestfold og telemark,2020-05-15,282,1,NO_38
+NO,vestfold og telemark,2020-05-18,282,0,NO_38
+NO,vestfold og telemark,2020-05-19,282,0,NO_38
+NO,vestfold og telemark,2020-05-20,282,0,NO_38
+NO,vestfold og telemark,2020-05-21,282,0,NO_38
+NO,vestfold og telemark,2020-05-22,284,2,NO_38
+NO,vestfold og telemark,2020-05-23,284,0,NO_38
+NO,vestfold og telemark,2020-05-24,284,0,NO_38
+NO,vestfold og telemark,2020-05-25,286,2,NO_38
+NO,vestfold og telemark,2020-05-26,286,0,NO_38
+NO,vestfold og telemark,2020-05-27,287,1,NO_38
+NO,vestfold og telemark,2020-05-28,287,0,NO_38
+NO,vestfold og telemark,2020-05-29,287,0,NO_38
+NO,vestfold og telemark,2020-05-30,287,0,NO_38
+NO,vestfold og telemark,2020-05-31,287,0,NO_38
+NO,vestfold og telemark,2020-06-01,287,0,NO_38
+NO,vestfold og telemark,2020-06-02,287,0,NO_38
+NO,vestfold og telemark,2020-06-03,287,0,NO_38
+NO,vestfold og telemark,2020-06-04,288,1,NO_38
+NO,vestfold og telemark,2020-06-05,288,0,NO_38
+NO,vestfold og telemark,2020-06-06,288,0,NO_38
+NO,vestfold og telemark,2020-06-07,288,0,NO_38
+NO,vestfold og telemark,2020-06-08,290,2,NO_38
+NO,vestfold og telemark,2020-06-09,291,1,NO_38
+NO,vestfold og telemark,2020-06-10,291,0,NO_38
+NO,vestfold og telemark,2020-06-11,291,0,NO_38
+NO,vestfold og telemark,2020-06-12,291,0,NO_38
+NO,vestfold og telemark,2020-06-13,291,0,NO_38
+NO,vestfold og telemark,2020-06-14,291,0,NO_38
+NO,vestfold og telemark,2020-06-15,291,0,NO_38
+NO,vestland,2020-03-20,173,,NO_46
+NO,vestland,2020-03-21,200,27,NO_46
+NO,vestland,2020-03-22,214,14,NO_46
+NO,vestland,2020-03-23,214,0,NO_46
+NO,vestland,2020-03-24,279,65,NO_46
+NO,vestland,2020-03-25,297,18,NO_46
+NO,vestland,2020-03-26,375,78,NO_46
+NO,vestland,2020-03-27,410,35,NO_46
+NO,vestland,2020-03-28,436,26,NO_46
+NO,vestland,2020-03-29,445,9,NO_46
+NO,vestland,2020-03-30,460,15,NO_46
+NO,vestland,2020-03-31,467,7,NO_46
+NO,vestland,2020-04-01,490,23,NO_46
+NO,vestland,2020-04-02,510,20,NO_46
+NO,vestland,2020-04-03,525,15,NO_46
+NO,vestland,2020-04-04,552,27,NO_46
+NO,vestland,2020-04-05,556,4,NO_46
+NO,vestland,2020-04-06,573,17,NO_46
+NO,vestland,2020-04-07,578,5,NO_46
+NO,vestland,2020-04-08,603,25,NO_46
+NO,vestland,2020-04-09,633,30,NO_46
+NO,vestland,2020-04-10,646,13,NO_46
+NO,vestland,2020-04-11,648,2,NO_46
+NO,vestland,2020-04-12,670,22,NO_46
+NO,vestland,2020-04-13,684,14,NO_46
+NO,vestland,2020-04-15,729,45,NO_46
+NO,vestland,2020-04-16,743,14,NO_46
+NO,vestland,2020-04-18,787,44,NO_46
+NO,vestland,2020-04-19,792,5,NO_46
+NO,vestland,2020-04-20,795,3,NO_46
+NO,vestland,2020-04-21,807,12,NO_46
+NO,vestland,2020-04-22,812,5,NO_46
+NO,vestland,2020-04-23,819,7,NO_46
+NO,vestland,2020-04-24,829,10,NO_46
+NO,vestland,2020-04-27,835,6,NO_46
+NO,vestland,2020-04-28,841,6,NO_46
+NO,vestland,2020-04-29,853,12,NO_46
+NO,vestland,2020-04-30,856,3,NO_46
+NO,vestland,2020-05-07,871,15,NO_46
+NO,vestland,2020-05-09,871,0,NO_46
+NO,vestland,2020-05-11,871,0,NO_46
+NO,vestland,2020-05-12,877,6,NO_46
+NO,vestland,2020-05-13,878,1,NO_46
+NO,vestland,2020-05-14,879,1,NO_46
+NO,vestland,2020-05-15,879,0,NO_46
+NO,vestland,2020-05-18,879,0,NO_46
+NO,vestland,2020-05-19,880,1,NO_46
+NO,vestland,2020-05-20,881,1,NO_46
+NO,vestland,2020-05-21,881,0,NO_46
+NO,vestland,2020-05-22,882,1,NO_46
+NO,vestland,2020-05-23,882,0,NO_46
+NO,vestland,2020-05-24,882,0,NO_46
+NO,vestland,2020-05-25,882,0,NO_46
+NO,vestland,2020-05-26,882,0,NO_46
+NO,vestland,2020-05-27,883,1,NO_46
+NO,vestland,2020-05-28,883,0,NO_46
+NO,vestland,2020-05-29,883,0,NO_46
+NO,vestland,2020-05-30,883,0,NO_46
+NO,vestland,2020-05-31,883,0,NO_46
+NO,vestland,2020-06-01,883,0,NO_46
+NO,vestland,2020-06-02,883,0,NO_46
+NO,vestland,2020-06-03,882,-1,NO_46
+NO,vestland,2020-06-04,884,2,NO_46
+NO,vestland,2020-06-05,881,-3,NO_46
+NO,vestland,2020-06-06,881,0,NO_46
+NO,vestland,2020-06-07,881,0,NO_46
+NO,vestland,2020-06-08,881,0,NO_46
+NO,vestland,2020-06-09,881,0,NO_46
+NO,vestland,2020-06-10,884,3,NO_46
+NO,vestland,2020-06-11,884,0,NO_46
+NO,vestland,2020-06-12,884,0,NO_46
+NO,vestland,2020-06-13,884,0,NO_46
+NO,vestland,2020-06-14,884,0,NO_46
+NO,vestland,2020-06-15,884,0,NO_46
+NO,viken,2020-03-20,529,,NO_30
+NO,viken,2020-03-21,583,54,NO_30
+NO,viken,2020-03-22,615,32,NO_30
+NO,viken,2020-03-23,615,0,NO_30
+NO,viken,2020-03-24,748,133,NO_30
+NO,viken,2020-03-25,818,70,NO_30
+NO,viken,2020-03-26,896,78,NO_30
+NO,viken,2020-03-27,1007,111,NO_30
+NO,viken,2020-03-28,1048,41,NO_30
+NO,viken,2020-03-29,1107,59,NO_30
+NO,viken,2020-03-30,1118,11,NO_30
+NO,viken,2020-03-31,1180,62,NO_30
+NO,viken,2020-04-01,1225,45,NO_30
+NO,viken,2020-04-02,1306,81,NO_30
+NO,viken,2020-04-03,1416,110,NO_30
+NO,viken,2020-04-04,1524,108,NO_30
+NO,viken,2020-04-05,1576,52,NO_30
+NO,viken,2020-04-06,1608,32,NO_30
+NO,viken,2020-04-07,1647,39,NO_30
+NO,viken,2020-04-08,1677,30,NO_30
+NO,viken,2020-04-09,1712,35,NO_30
+NO,viken,2020-04-10,1728,16,NO_30
+NO,viken,2020-04-11,1747,19,NO_30
+NO,viken,2020-04-12,1771,24,NO_30
+NO,viken,2020-04-13,1810,39,NO_30
+NO,viken,2020-04-15,1836,26,NO_30
+NO,viken,2020-04-16,1864,28,NO_30
+NO,viken,2020-04-18,1903,39,NO_30
+NO,viken,2020-04-19,1929,26,NO_30
+NO,viken,2020-04-20,1933,4,NO_30
+NO,viken,2020-04-21,1940,7,NO_30
+NO,viken,2020-04-22,1967,27,NO_30
+NO,viken,2020-04-23,1991,24,NO_30
+NO,viken,2020-04-24,2005,14,NO_30
+NO,viken,2020-04-27,2029,24,NO_30
+NO,viken,2020-04-28,2036,7,NO_30
+NO,viken,2020-04-29,2058,22,NO_30
+NO,viken,2020-04-30,2071,13,NO_30
+NO,viken,2020-05-07,2122,51,NO_30
+NO,viken,2020-05-09,2122,0,NO_30
+NO,viken,2020-05-11,2122,0,NO_30
+NO,viken,2020-05-12,2187,65,NO_30
+NO,viken,2020-05-13,2200,13,NO_30
+NO,viken,2020-05-14,2209,9,NO_30
+NO,viken,2020-05-15,2230,21,NO_30
+NO,viken,2020-05-18,2230,0,NO_30
+NO,viken,2020-05-19,2235,5,NO_30
+NO,viken,2020-05-20,2242,7,NO_30
+NO,viken,2020-05-21,2242,0,NO_30
+NO,viken,2020-05-22,2257,15,NO_30
+NO,viken,2020-05-23,2257,0,NO_30
+NO,viken,2020-05-24,2257,0,NO_30
+NO,viken,2020-05-25,2269,12,NO_30
+NO,viken,2020-05-26,2275,6,NO_30
+NO,viken,2020-05-27,2282,7,NO_30
+NO,viken,2020-05-28,2290,8,NO_30
+NO,viken,2020-05-29,2292,2,NO_30
+NO,viken,2020-05-30,2292,0,NO_30
+NO,viken,2020-05-31,2292,0,NO_30
+NO,viken,2020-06-01,2292,0,NO_30
+NO,viken,2020-06-02,2301,9,NO_30
+NO,viken,2020-06-03,2305,4,NO_30
+NO,viken,2020-06-04,2307,2,NO_30
+NO,viken,2020-06-05,2313,6,NO_30
+NO,viken,2020-06-06,2313,0,NO_30
+NO,viken,2020-06-07,2313,0,NO_30
+NO,viken,2020-06-08,2321,8,NO_30
+NO,viken,2020-06-09,2322,1,NO_30
+NO,viken,2020-06-10,2327,5,NO_30
+NO,viken,2020-06-11,2331,4,NO_30
+NO,viken,2020-06-12,2334,3,NO_30
+NO,viken,2020-06-13,2334,0,NO_30
+NO,viken,2020-06-14,2334,0,NO_30
+NO,viken,2020-06-15,2334,0,NO_30

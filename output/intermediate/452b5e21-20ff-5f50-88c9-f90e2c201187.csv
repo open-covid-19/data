@@ -1,0 +1,583 @@
+match_string,date,confirmed,deceased,new_confirmed,total_confirmed,new_deceased,total_deceased,country_code,subregion2_code,_match_string,key
+Sindh,2020-02-26,2,,,2,,,PK,,sindh,PK_SD
+Sindh,2020-02-27,2,,0,2,,,PK,,sindh,PK_SD
+Sindh,2020-02-28,2,,0,2,,,PK,,sindh,PK_SD
+Sindh,2020-02-29,4,,2,4,,,PK,,sindh,PK_SD
+Sindh,2020-03-01,4,,0,4,,,PK,,sindh,PK_SD
+Sindh,2020-03-02,4,,0,4,,,PK,,sindh,PK_SD
+Sindh,2020-03-03,4,,0,4,,,PK,,sindh,PK_SD
+Sindh,2020-03-04,4,,0,4,,,PK,,sindh,PK_SD
+Sindh,2020-03-05,5,,1,5,,,PK,,sindh,PK_SD
+Sindh,2020-03-06,5,,0,5,,,PK,,sindh,PK_SD
+Sindh,2020-03-07,5,,0,5,,,PK,,sindh,PK_SD
+Sindh,2020-03-08,6,,1,6,,,PK,,sindh,PK_SD
+Sindh,2020-03-09,9,,3,9,,,PK,,sindh,PK_SD
+Sindh,2020-03-10,9,,0,9,,,PK,,sindh,PK_SD
+Sindh,2020-03-11,9,,0,9,,,PK,,sindh,PK_SD
+Sindh,2020-03-12,15,,6,15,,,PK,,sindh,PK_SD
+Sindh,2020-03-13,16,,1,16,,,PK,,sindh,PK_SD
+Sindh,2020-03-14,18,,2,18,,,PK,,sindh,PK_SD
+Sindh,2020-03-15,34,,16,34,,,PK,,sindh,PK_SD
+Sindh,2020-03-16,150,,116,150,,,PK,,sindh,PK_SD
+Sindh,2020-03-17,172,,22,172,,,PK,,sindh,PK_SD
+Sindh,2020-03-18,208,,36,208,,,PK,,sindh,PK_SD
+Sindh,2020-03-19,245,,37,245,,,PK,,sindh,PK_SD
+Sindh,2020-03-20,253,,8,253,,,PK,,sindh,PK_SD
+Sindh,2020-03-21,292,,39,292,,,PK,,sindh,PK_SD
+Sindh,2020-03-22,333,,41,333,,,PK,,sindh,PK_SD
+Sindh,2020-03-23,394,,61,394,,,PK,,sindh,PK_SD
+Sindh,2020-03-24,407,,13,407,,,PK,,sindh,PK_SD
+Sindh,2020-03-25,413,,6,413,,,PK,,sindh,PK_SD
+Sindh,2020-03-26,417,,4,417,,,PK,,sindh,PK_SD
+Sindh,2020-03-27,457,,40,457,,,PK,,sindh,PK_SD
+Sindh,2020-03-28,481,,24,481,,,PK,,sindh,PK_SD
+Sindh,2020-03-29,508,,27,508,,,PK,,sindh,PK_SD
+Sindh,2020-03-30,627,,119,627,,,PK,,sindh,PK_SD
+Sindh,2020-03-31,676,,49,676,,,PK,,sindh,PK_SD
+Sindh,2020-04-01,743,,67,743,,,PK,,sindh,PK_SD
+Sindh,2020-04-02,783,,40,783,,,PK,,sindh,PK_SD
+Sindh,2020-04-03,783,,0,783,,,PK,,sindh,PK_SD
+Sindh,2020-04-04,839,,56,839,,,PK,,sindh,PK_SD
+Sindh,2020-04-05,881,,42,881,,,PK,,sindh,PK_SD
+Sindh,2020-04-06,932,,51,932,,,PK,,sindh,PK_SD
+Sindh,2020-04-07,986,,54,986,,,PK,,sindh,PK_SD
+Sindh,2020-04-08,1036,,50,1036,,,PK,,sindh,PK_SD
+Sindh,2020-04-09,1128,,92,1128,,,PK,,sindh,PK_SD
+Sindh,2020-04-10,1214,,86,1214,,,PK,,sindh,PK_SD
+Sindh,2020-04-11,1318,,104,1318,,,PK,,sindh,PK_SD
+Sindh,2020-04-12,1411,,93,1411,,,PK,,sindh,PK_SD
+Sindh,2020-04-13,1452,,41,1452,,,PK,,sindh,PK_SD
+Sindh,2020-04-14,1518,,66,1518,,,PK,,sindh,PK_SD
+Sindh,2020-04-15,1668,,150,1668,,,PK,,sindh,PK_SD
+Sindh,2020-04-16,2008,,340,2008,,,PK,,sindh,PK_SD
+Sindh,2020-04-17,2008,,0,2008,,,PK,,sindh,PK_SD
+Sindh,2020-04-18,2335,,327,2335,,,PK,,sindh,PK_SD
+Sindh,2020-04-19,2537,,202,2537,,,PK,,sindh,PK_SD
+Sindh,2020-04-20,2537,,0,2537,,,PK,,sindh,PK_SD
+Sindh,2020-04-21,3052,,515,3052,,,PK,,sindh,PK_SD
+Sindh,2020-04-22,3373,,321,3373,,,PK,,sindh,PK_SD
+Sindh,2020-04-23,3671,,298,3671,,,PK,,sindh,PK_SD
+Sindh,2020-04-24,3945,,274,3945,,,PK,,sindh,PK_SD
+Sindh,2020-04-25,4232,,287,4232,,,PK,,sindh,PK_SD
+Sindh,2020-04-26,4615,,383,4615,,,PK,,sindh,PK_SD
+Sindh,2020-04-27,4996,,381,4996,,,PK,,sindh,PK_SD
+Sindh,2020-04-28,5291,,295,5291,,,PK,,sindh,PK_SD
+Sindh,2020-04-29,5695,,404,5695,,,PK,,sindh,PK_SD
+Sindh,2020-04-30,6053,,358,6053,,,PK,,sindh,PK_SD
+Sindh,2020-05-01,6675,,622,6675,,,PK,,sindh,PK_SD
+Sindh,2020-05-02,7102,,427,7102,,,PK,,sindh,PK_SD
+Sindh,2020-05-03,7465,,363,7465,,,PK,,sindh,PK_SD
+Sindh,2020-05-04,7882,,417,7882,,,PK,,sindh,PK_SD
+Sindh,2020-05-05,8189,,307,8189,,,PK,,sindh,PK_SD
+Sindh,2020-05-06,8640,,451,8640,,,PK,,sindh,PK_SD
+Sindh,2020-05-07,9093,,453,9093,,,PK,,sindh,PK_SD
+Sindh,2020-05-08,9691,,598,9691,,,PK,,sindh,PK_SD
+Sindh,2020-05-09,10771,,1080,10771,,,PK,,sindh,PK_SD
+Sindh,2020-05-10,11480,,709,11480,,,PK,,sindh,PK_SD
+Sindh,2020-05-11,11480,,0,11480,,,PK,,sindh,PK_SD
+Sindh,2020-05-12,12610,,1130,12610,,,PK,,sindh,PK_SD
+Sindh,2020-05-13,12610,,0,12610,,,PK,,sindh,PK_SD
+Sindh,2020-05-14,13341,,731,13341,,,PK,,sindh,PK_SD
+Sindh,2020-05-15,14099,,758,14099,,,PK,,sindh,PK_SD
+Sindh,2020-05-16,14916,,817,14916,,,PK,,sindh,PK_SD
+Sindh,2020-05-17,15590,,674,15590,,,PK,,sindh,PK_SD
+Sindh,2020-05-18,16377,,787,16377,,,PK,,sindh,PK_SD
+Sindh,2020-05-19,17241,,864,17241,,,PK,,sindh,PK_SD
+Sindh,2020-05-20,17947,,706,17947,,,PK,,sindh,PK_SD
+Sindh,2020-05-21,18964,,1017,18964,,,PK,,sindh,PK_SD
+Sindh,2020-05-22,19924,,960,19924,,,PK,,sindh,PK_SD
+Sindh,2020-05-23,20883,,959,20883,,,PK,,sindh,PK_SD
+Sindh,2020-05-24,21645,,762,21645,,,PK,,sindh,PK_SD
+Sindh,2020-05-25,22491,,846,22491,,,PK,,sindh,PK_SD
+Sindh,2020-05-26,22934,,443,22934,,,PK,,sindh,PK_SD
+Sindh,2020-05-27,23507,,573,23507,,,PK,,sindh,PK_SD
+Sindh,2020-05-28,24206,,699,24206,,,PK,,sindh,PK_SD
+Sindh,2020-05-29,25309,,1103,25309,,,PK,,sindh,PK_SD
+Sindh,2020-05-30,26113,,804,26113,,,PK,,sindh,PK_SD
+Sindh,2020-05-31,27360,,1247,27360,,,PK,,sindh,PK_SD
+Gilgit-Baltistan,2020-03-03,1,,1,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-04,1,,0,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-05,1,,0,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-06,1,,0,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-07,1,,0,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-08,1,,0,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-09,1,,0,1,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-10,2,,1,2,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-11,3,,1,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-12,3,,0,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-13,3,,0,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-14,3,,0,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-15,3,,0,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-16,3,,0,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-17,3,,0,3,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-18,13,,10,13,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-19,21,,8,21,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-20,30,,9,30,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-21,55,,25,55,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-22,71,,16,71,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-23,80,,9,80,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-24,81,,1,81,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-25,83,,2,83,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-26,91,,8,91,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-27,107,,16,107,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-28,116,,9,116,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-29,128,,12,128,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-30,148,,20,148,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-03-31,184,,36,184,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-01,187,,3,187,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-02,190,,3,190,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-03,193,,3,193,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-04,193,,0,193,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-05,206,,13,206,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-06,211,,5,211,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-07,211,,0,211,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-08,213,,2,213,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-09,213,,0,213,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-10,215,,2,215,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-11,215,,0,215,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-12,224,,9,224,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-13,224,,0,224,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-14,233,,9,233,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-15,234,,1,234,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-16,237,,3,237,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-17,245,,8,245,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-18,250,,5,250,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-19,257,,7,257,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-20,263,,6,263,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-21,281,,18,281,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-22,290,,9,290,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-23,290,,0,290,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-24,307,,17,307,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-25,308,,1,308,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-26,318,,10,318,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-27,318,,0,318,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-28,330,,12,330,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-29,333,,3,333,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-04-30,339,,6,339,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-01,340,,1,340,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-02,356,,16,356,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-03,364,,8,364,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-04,372,,8,372,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-05,372,,0,372,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-06,386,,14,386,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-07,388,,2,388,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-08,394,,6,394,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-09,421,,27,421,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-10,430,,9,430,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-11,442,,12,442,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-12,457,,15,457,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-13,475,,18,475,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-14,482,,7,482,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-15,501,,19,501,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-16,518,,17,518,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-17,527,,9,527,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-18,540,,13,540,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-19,550,,10,550,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-20,556,,6,556,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-21,579,,23,579,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-22,602,,23,602,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-23,607,,5,607,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-24,619,,12,619,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-25,619,,0,619,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-26,630,,11,630,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-27,638,,8,638,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-28,651,,13,651,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-29,658,,7,658,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-30,660,,2,660,,,PK,,gilgit-baltistan,PK_GB
+Gilgit-Baltistan,2020-05-31,678,,18,678,,,PK,,gilgit-baltistan,PK_GB
+Balochistan,2020-03-10,1,,1,1,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-11,1,,0,1,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-12,1,,0,1,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-13,6,,5,6,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-14,6,,0,6,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-15,11,,5,11,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-16,14,,3,14,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-17,15,,1,15,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-18,23,,8,23,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-19,81,,58,81,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-20,81,,0,81,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-21,104,,23,104,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-22,108,,4,108,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-23,110,,2,110,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-24,110,,0,110,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-25,131,,21,131,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-26,131,,0,131,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-27,133,,2,133,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-28,138,,5,138,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-29,144,,6,144,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-30,153,,9,153,,,PK,,balochistan,PK_BA
+Balochistan,2020-03-31,158,,5,158,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-01,169,,11,169,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-02,169,,0,169,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-03,175,,6,175,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-04,185,,10,185,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-05,192,,7,192,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-06,202,,10,202,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-07,202,,0,202,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-08,212,,10,212,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-09,212,,0,212,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-10,219,,7,219,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-11,220,,1,220,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-12,228,,8,228,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-13,230,,2,230,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-14,231,,1,231,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-15,240,,9,240,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-16,280,,40,280,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-17,303,,23,303,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-18,335,,32,335,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-19,376,,41,376,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-20,432,,56,432,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-21,465,,33,465,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-22,495,,30,495,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-23,607,,112,607,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-24,656,,49,656,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-25,722,,66,722,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-26,781,,59,781,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-27,781,,0,781,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-28,915,,134,915,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-29,978,,63,978,,,PK,,balochistan,PK_BA
+Balochistan,2020-04-30,1049,,71,1049,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-01,1136,,87,1136,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-02,1172,,36,1172,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-03,1218,,46,1218,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-04,1321,,103,1321,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-05,1321,,0,1321,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-06,1495,,174,1495,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-07,1659,,164,1659,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-08,1725,,66,1725,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-09,1876,,151,1876,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-10,1935,,59,1935,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-11,2017,,82,2017,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-12,2061,,44,2061,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-13,2158,,97,2158,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-14,2239,,81,2239,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-15,2310,,71,2310,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-16,2457,,147,2457,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-17,2544,,87,2544,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-18,2692,,148,2692,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-19,2820,,128,2820,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-20,2885,,65,2885,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-21,2968,,83,2968,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-22,3074,,106,3074,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-23,3198,,124,3198,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-24,3306,,108,3306,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-25,3407,,101,3407,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-26,3468,,61,3468,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-27,3536,,68,3536,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-28,3616,,80,3616,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-29,3928,,312,3928,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-30,4087,,159,4087,,,PK,,balochistan,PK_BA
+Balochistan,2020-05-31,4193,,106,4193,,,PK,,balochistan,PK_BA
+Islamabad,2020-03-10,2,,2,2,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-11,2,,0,2,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-12,2,,0,2,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-13,2,,0,2,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-14,4,,2,4,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-15,4,,0,4,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-16,4,,0,4,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-17,8,,4,8,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-18,5,,-3,5,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-19,10,,5,10,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-20,11,,1,11,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-21,11,,0,11,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-22,15,,4,15,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-23,15,,0,15,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-24,18,,3,18,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-25,25,,7,25,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-26,25,,0,25,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-27,39,,14,39,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-28,43,,4,43,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-29,51,,8,51,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-30,58,,7,58,,,PK,,islamabad,PK_IS
+Islamabad,2020-03-31,54,,-4,54,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-01,62,,8,62,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-02,68,,6,68,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-03,68,,0,68,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-04,75,,7,75,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-05,78,,3,78,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-06,82,,4,82,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-07,83,,1,83,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-08,83,,0,83,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-09,102,,19,102,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-10,107,,5,107,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-11,113,,6,113,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-12,119,,6,119,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-13,131,,12,131,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-14,131,,0,131,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-15,140,,9,140,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-16,145,,5,145,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-17,154,,9,154,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-18,163,,9,163,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-19,171,,8,171,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-20,181,,10,181,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-21,185,,4,185,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-22,194,,9,194,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-23,214,,20,214,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-24,223,,9,223,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-25,235,,12,235,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-26,245,,10,245,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-27,245,,0,245,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-28,297,,52,297,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-29,313,,16,313,,,PK,,islamabad,PK_IS
+Islamabad,2020-04-30,343,,30,343,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-01,365,,22,365,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-02,393,,28,393,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-03,415,,22,415,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-04,464,,49,464,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-05,464,,0,464,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-06,485,,21,485,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-07,521,,36,521,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-08,558,,37,558,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-09,609,,51,609,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-10,641,,32,641,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-11,679,,38,679,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-12,716,,37,716,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-13,759,,43,759,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-14,822,,63,822,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-15,866,,44,866,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-16,921,,55,921,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-17,947,,26,947,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-18,997,,50,997,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-19,1034,,37,1034,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-20,1138,,104,1138,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-21,1235,,97,1235,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-22,1326,,91,1326,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-23,1457,,131,1457,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-24,1592,,135,1592,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-25,1641,,49,1641,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-26,1728,,87,1728,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-27,1879,,151,1879,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-28,2015,,136,2015,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-29,2100,,85,2100,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-30,2192,,92,2192,,,PK,,islamabad,PK_IS
+Islamabad,2020-05-31,2418,,226,2418,,,PK,,islamabad,PK_IS
+Punjab,2020-03-15,1,,1,1,,,PK,,punjab,PK_PB
+Punjab,2020-03-16,1,,0,1,,,PK,,punjab,PK_PB
+Punjab,2020-03-17,26,,25,26,,,PK,,punjab,PK_PB
+Punjab,2020-03-18,33,,7,33,,,PK,,punjab,PK_PB
+Punjab,2020-03-19,80,,47,80,,,PK,,punjab,PK_PB
+Punjab,2020-03-20,96,,16,96,,,PK,,punjab,PK_PB
+Punjab,2020-03-21,152,,56,152,,,PK,,punjab,PK_PB
+Punjab,2020-03-22,225,,73,225,,,PK,,punjab,PK_PB
+Punjab,2020-03-23,249,,24,249,,,PK,,punjab,PK_PB
+Punjab,2020-03-24,296,,47,296,,,PK,,punjab,PK_PB
+Punjab,2020-03-25,323,,27,323,,,PK,,punjab,PK_PB
+Punjab,2020-03-26,408,,85,408,,,PK,,punjab,PK_PB
+Punjab,2020-03-27,490,,82,490,,,PK,,punjab,PK_PB
+Punjab,2020-03-28,558,,68,558,,,PK,,punjab,PK_PB
+Punjab,2020-03-29,593,,35,593,,,PK,,punjab,PK_PB
+Punjab,2020-03-30,652,,59,652,,,PK,,punjab,PK_PB
+Punjab,2020-03-31,708,,56,708,,,PK,,punjab,PK_PB
+Punjab,2020-04-01,845,,137,845,,,PK,,punjab,PK_PB
+Punjab,2020-04-02,920,,75,920,,,PK,,punjab,PK_PB
+Punjab,2020-04-03,1069,,149,1069,,,PK,,punjab,PK_PB
+Punjab,2020-04-04,1131,,62,1131,,,PK,,punjab,PK_PB
+Punjab,2020-04-05,1319,,188,1319,,,PK,,punjab,PK_PB
+Punjab,2020-04-06,1708,,389,1708,,,PK,,punjab,PK_PB
+Punjab,2020-04-07,2004,,296,2004,,,PK,,punjab,PK_PB
+Punjab,2020-04-08,2108,,104,2108,,,PK,,punjab,PK_PB
+Punjab,2020-04-09,2241,,133,2241,,,PK,,punjab,PK_PB
+Punjab,2020-04-10,2287,,46,2287,,,PK,,punjab,PK_PB
+Punjab,2020-04-11,2414,,127,2414,,,PK,,punjab,PK_PB
+Punjab,2020-04-12,2464,,50,2464,,,PK,,punjab,PK_PB
+Punjab,2020-04-13,2672,,208,2672,,,PK,,punjab,PK_PB
+Punjab,2020-04-14,2881,,209,2881,,,PK,,punjab,PK_PB
+Punjab,2020-04-15,3143,,262,3143,,,PK,,punjab,PK_PB
+Punjab,2020-04-16,3291,,148,3291,,,PK,,punjab,PK_PB
+Punjab,2020-04-17,3276,,-15,3276,,,PK,,punjab,PK_PB
+Punjab,2020-04-18,3410,,134,3410,,,PK,,punjab,PK_PB
+Punjab,2020-04-19,3822,,412,3822,,,PK,,punjab,PK_PB
+Punjab,2020-04-20,3721,,-101,3721,,,PK,,punjab,PK_PB
+Punjab,2020-04-21,4255,,534,4255,,,PK,,punjab,PK_PB
+Punjab,2020-04-22,4328,,73,4328,,,PK,,punjab,PK_PB
+Punjab,2020-04-23,4767,,439,4767,,,PK,,punjab,PK_PB
+Punjab,2020-04-24,5046,,279,5046,,,PK,,punjab,PK_PB
+Punjab,2020-04-25,5378,,332,5378,,,PK,,punjab,PK_PB
+Punjab,2020-04-26,5446,,68,5446,,,PK,,punjab,PK_PB
+Punjab,2020-04-27,5526,,80,5526,,,PK,,punjab,PK_PB
+Punjab,2020-04-28,5730,,204,5730,,,PK,,punjab,PK_PB
+Punjab,2020-04-29,5827,,97,5827,,,PK,,punjab,PK_PB
+Punjab,2020-04-30,6340,,513,6340,,,PK,,punjab,PK_PB
+Punjab,2020-05-01,6733,,393,6733,,,PK,,punjab,PK_PB
+Punjab,2020-05-02,7106,,373,7106,,,PK,,punjab,PK_PB
+Punjab,2020-05-03,7524,,418,7524,,,PK,,punjab,PK_PB
+Punjab,2020-05-04,8103,,579,8103,,,PK,,punjab,PK_PB
+Punjab,2020-05-05,8133,,30,8133,,,PK,,punjab,PK_PB
+Punjab,2020-05-06,8420,,287,8420,,,PK,,punjab,PK_PB
+Punjab,2020-05-07,9195,,775,9195,,,PK,,punjab,PK_PB
+Punjab,2020-05-08,10033,,838,10033,,,PK,,punjab,PK_PB
+Punjab,2020-05-09,10471,,438,10471,,,PK,,punjab,PK_PB
+Punjab,2020-05-10,11093,,622,11093,,,PK,,punjab,PK_PB
+Punjab,2020-05-11,11568,,475,11568,,,PK,,punjab,PK_PB
+Punjab,2020-05-12,11869,,301,11869,,,PK,,punjab,PK_PB
+Punjab,2020-05-13,13225,,1356,13225,,,PK,,punjab,PK_PB
+Punjab,2020-05-14,13561,,336,13561,,,PK,,punjab,PK_PB
+Punjab,2020-05-15,13914,,353,13914,,,PK,,punjab,PK_PB
+Punjab,2020-05-16,14201,,287,14201,,,PK,,punjab,PK_PB
+Punjab,2020-05-17,14584,,383,14584,,,PK,,punjab,PK_PB
+Punjab,2020-05-18,15346,,762,15346,,,PK,,punjab,PK_PB
+Punjab,2020-05-19,15976,,630,15976,,,PK,,punjab,PK_PB
+Punjab,2020-05-20,16685,,709,16685,,,PK,,punjab,PK_PB
+Punjab,2020-05-21,17382,,697,17382,,,PK,,punjab,PK_PB
+Punjab,2020-05-22,18455,,1073,18455,,,PK,,punjab,PK_PB
+Punjab,2020-05-23,18730,,275,18730,,,PK,,punjab,PK_PB
+Punjab,2020-05-24,19557,,827,19557,,,PK,,punjab,PK_PB
+Punjab,2020-05-25,20077,,520,20077,,,PK,,punjab,PK_PB
+Punjab,2020-05-26,20654,,577,20654,,,PK,,punjab,PK_PB
+Punjab,2020-05-27,21118,,464,21118,,,PK,,punjab,PK_PB
+Punjab,2020-05-28,22037,,919,22037,,,PK,,punjab,PK_PB
+Punjab,2020-05-29,22964,,927,22964,,,PK,,punjab,PK_PB
+Punjab,2020-05-30,24104,,1140,24104,,,PK,,punjab,PK_PB
+Punjab,2020-05-31,25056,,952,25056,,,PK,,punjab,PK_PB
+Khyber Pakhtunkhwa,2020-03-16,15,,15,15,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-17,17,,2,17,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-18,19,,2,19,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-19,23,,4,23,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-20,23,,0,23,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-21,31,,8,31,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-22,31,,0,31,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-23,38,,7,38,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-24,78,,40,78,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-25,80,,2,80,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-26,123,,43,123,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-27,180,,57,180,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-28,188,,8,188,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-29,195,,7,195,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-30,221,,26,221,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-03-31,253,,32,253,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-01,276,,23,276,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-02,311,,35,311,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-03,343,,32,343,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-04,383,,40,383,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-05,372,,-11,372,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-06,405,,33,405,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-07,500,,95,500,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-08,527,,27,527,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-09,560,,33,560,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-10,620,,60,620,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-11,697,,77,697,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-12,744,,47,744,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-13,744,,0,744,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-14,800,,56,800,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-15,912,,112,912,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-16,912,,0,912,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-17,993,,81,993,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-18,1077,,84,1077,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-19,1137,,60,1137,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-20,1235,,98,1235,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-21,1276,,41,1276,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-22,1345,,69,1345,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-23,1453,,108,1453,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-24,1708,,255,1708,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-25,1793,,85,1793,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-26,1864,,71,1864,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-27,1984,,120,1984,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-28,1984,,0,1984,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-29,2313,,329,2313,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-04-30,2627,,314,2627,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-01,2799,,172,2799,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-02,2907,,108,2907,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-03,3129,,222,3129,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-04,3288,,159,3288,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-05,3499,,211,3499,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-06,3712,,213,3712,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-07,3712,,0,3712,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-08,3956,,244,3956,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-09,4509,,553,4509,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-10,4669,,160,4669,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-11,4669,,0,4669,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-12,4875,,206,4875,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-13,5021,,146,5021,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-14,5252,,231,5252,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-15,5423,,171,5423,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-16,5678,,255,5678,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-17,5847,,169,5847,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-18,6061,,214,6061,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-19,6230,,169,6230,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-20,6554,,324,6554,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-21,6815,,261,6815,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-22,7155,,340,7155,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-23,7391,,236,7391,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-24,7685,,294,7685,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-25,7905,,220,7905,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-26,8080,,175,8080,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-27,8259,,179,8259,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-28,8483,,224,8483,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-29,8842,,359,8842,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-30,9067,,225,9067,,,PK,,khyber pakhtunkhwa,PK_KP
+Khyber Pakhtunkhwa,2020-05-31,9540,,473,9540,,,PK,,khyber pakhtunkhwa,PK_KP
+Azad Kashmir,2020-03-18,1,,1,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-19,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-20,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-21,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-22,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-23,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-24,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-25,1,,0,1,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-26,2,,1,2,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-27,2,,0,2,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-28,2,,0,2,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-29,6,,4,6,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-30,6,,0,6,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-03-31,6,,0,6,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-01,9,,3,9,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-02,9,,0,9,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-03,9,,0,9,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-04,12,,3,12,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-05,14,,2,14,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-06,16,,2,16,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-07,19,,3,19,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-08,28,,9,28,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-09,33,,5,33,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-10,33,,0,33,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-11,34,,1,34,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-12,40,,6,40,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-13,43,,3,43,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-14,43,,0,43,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-15,46,,3,46,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-16,46,,0,46,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-17,46,,0,46,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-18,48,,2,48,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-19,48,,0,48,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-20,49,,1,49,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-21,51,,2,51,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-22,51,,0,51,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-23,55,,4,55,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-24,55,,0,55,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-25,55,,0,55,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-26,59,,4,59,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-27,65,,6,65,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-28,65,,0,65,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-29,66,,1,66,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-04-30,66,,0,66,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-01,66,,0,66,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-02,67,,1,67,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-03,71,,4,71,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-04,71,,0,71,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-05,71,,0,71,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-06,76,,5,76,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-07,76,,0,76,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-08,78,,2,78,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-09,79,,1,79,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-10,86,,7,86,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-11,86,,0,86,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-12,86,,0,86,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-13,88,,2,88,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-14,91,,3,91,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-15,105,,14,105,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-16,108,,3,108,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-17,112,,4,112,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-18,112,,0,112,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-19,115,,3,115,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-20,133,,18,133,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-21,148,,15,148,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-22,158,,10,158,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-23,171,,13,171,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-24,197,,26,197,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-25,209,,12,209,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-26,211,,2,211,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-27,214,,3,214,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-28,219,,5,219,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-29,227,,8,227,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-30,234,,7,234,,,PK,,azad kashmir,PK_JK
+Azad Kashmir,2020-05-31,251,,17,251,,,PK,,azad kashmir,PK_JK
