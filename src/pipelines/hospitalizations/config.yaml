@@ -41,6 +41,11 @@ sources:
     parse:
       key: AU
 
+  # Data sources for CH level 2
+  - name: pipelines.epidemiology.ch_authority.SwitzerlandSource
+    fetch:
+      - url: "https://raw.github.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total.csv"
+
   # Data sources for CZ level 1
   - name: pipelines.hospitalizations.xx_scraped.ScrapedDataSource
     fetch:
@@ -54,6 +59,12 @@ sources:
       - url: "https://raw.github.com/google-research/open-covid-19-data/7a3dded1090d32950d0dff4819856a0db6bfa79b/data/inputs/scraped/denmark/2020-05-21/denmark_hospitalizations.csv"
     parse:
       key: DK
+
+  # Data sources for ES levels 1 + 2
+  - name: pipelines.epidemiology.es_authority.ISCIIIDataSource
+    fetch:
+      - url: "https://covid19.isciii.es/resources/serie_historica_acumulados.csv"
+    query: "date < '2020-05-22'"
 
   # Data sources for FR levels 1 + 2 + 3
   - name: pipelines.epidemiology.fr_authority.FranceDataSource
