@@ -14,6 +14,7 @@
 
 import re
 import sys
+import uuid
 import warnings
 import importlib
 import traceback
@@ -34,7 +35,7 @@ from .anomaly import detect_anomaly_all, detect_stale_columns
 from .cast import column_convert
 from .concurrent import process_map
 from .net import download_snapshot
-from .io import read_file, fuzzy_text
+from .io import read_file, fuzzy_text, export_csv
 from .utils import (
     ROOT,
     CACHE_URL,
@@ -256,8 +257,8 @@ class DataPipeline:
     schema: Dict[str, Any]
     """ Names and corresponding dtypes of output columns """
 
-    pipelines: List[Tuple[DataSource, Dict[str, Any]]]
-    """ List of pipeline-options tuples executed in order """
+    data_sources: List[Tuple[DataSource, Dict[str, Any]]]
+    """ List of <data source, option> tuples executed in order """
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
         "metadata": ROOT / "src" / "data" / "metadata.csv",
@@ -270,12 +271,12 @@ class DataPipeline:
         self,
         schema: Dict[str, type],
         auxiliary: Dict[str, Union[Path, str]],
-        pipelines: List[Tuple[DataSource, Dict[str, Any]]],
+        data_sources: List[Tuple[DataSource, Dict[str, Any]]],
     ):
         super().__init__()
         self.schema = schema
         self.auxiliary_tables = auxiliary
-        self.pipelines = pipelines
+        self.data_sources = data_sources
 
     @staticmethod
     def load(name: str):
@@ -326,14 +327,14 @@ class DataPipeline:
 
     @staticmethod
     def _run_wrapper(
-        pipeline_cache_aux: Tuple[DataSource, Dict[str, str], Dict[str, DataFrame]]
+        source_cache_aux: Tuple[DataSource, Dict[str, str], Dict[str, DataFrame]]
     ) -> Optional[DataFrame]:
         """ Workaround necessary for multiprocess pool, which does not accept lambda functions """
-        pipeline, cache, aux = pipeline_cache_aux
+        data_source, cache, aux = source_cache_aux
         try:
-            return pipeline.run(cache, aux)
+            return data_source.run(cache, aux)
         except Exception as exc:
-            warnings.warn("Error running pipeline {}".format(pipeline.__class__.__name__))
+            warnings.warn("Error running data source {}".format(data_source.__class__.__name__))
             traceback.print_exc()
         return None
 
@@ -372,8 +373,8 @@ class DataPipeline:
         map_iter = [
             # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
             # we allow for local modification (which might be wanted for optimization purposes)
-            (pipeline, cache, {name: df.copy() for name, df in aux.items()})
-            for pipeline in self.pipelines
+            (data_source, cache, {name: df.copy() for name, df in aux.items()})
+            for data_source in self.data_sources
         ]
 
         # If the process count is less than one, run in series (useful to evaluate performance)
@@ -390,11 +391,32 @@ class DataPipeline:
                 DataPipeline._run_wrapper, map_iter, desc=progress_label, disable=not progress
             )
 
+        # Save all intermediate results (to allow for reprocessing)
+        intermediate_outputs = ROOT / "output" / "intermediate"
+        intermediate_outputs_files = []
+        for (data_source, _, _), result in zip(map_iter, map_func):
+            data_source_class = data_source.__class__
+            data_source_config = str(data_source.config)
+            source_full_name = f"{data_source_class.__module__}.{data_source_class.__name__}"
+            intermediate_name = uuid.uuid5(
+                uuid.NAMESPACE_DNS, f"{source_full_name}.{data_source_config}"
+            )
+            intermediate_file = intermediate_outputs / f"{intermediate_name}.csv"
+            intermediate_outputs_files += [intermediate_file]
+            if result is not None:
+                export_csv(result, intermediate_file)
+
+        # Reload all intermediate results from disk
+        # In-memory results are discarded, this ensures reproducibility and allows for data sources
+        # to fail since the last successful intermediate result will be used in the combined output
+        pipeline_outputs = [
+            read_file(source_output) for source_output in intermediate_outputs_files
+        ]
+
         # Get rid of all columns which are not part of the output to speed up data combination
         pipeline_outputs = [
-            result[filter_output_columns(result.columns, self.schema)]
-            for result in map_func
-            if result is not None
+            source_output[filter_output_columns(source_output.columns, self.schema)]
+            for source_output in pipeline_outputs
         ]
 
         # Combine all pipeline outputs into a single DataFrame

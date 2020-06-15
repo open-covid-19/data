@@ -46,8 +46,9 @@ assert not (
 
 
 # Ensure that there is an output folder to put the data in
-(ROOT / "output" / "tables").mkdir(parents=True, exist_ok=True)
 (ROOT / "output" / "snapshot").mkdir(parents=True, exist_ok=True)
+(ROOT / "output" / "intermediate").mkdir(parents=True, exist_ok=True)
+(ROOT / "output" / "tables").mkdir(parents=True, exist_ok=True)
 
 if args.profile:
     profiler = cProfile.Profile()
