@@ -18,7 +18,7 @@ from pstats import Stats
 from unittest import TestCase, main
 
 from pandas import DataFrame
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 
 # Synthetic data used for testing
 TEST_AUX_DATA = DataFrame.from_records(
@@ -165,7 +165,7 @@ TEST_AUX_DATA = DataFrame.from_records(
 )
 
 
-class TestPipelineMerge(TestCase):
+class TestSourceMerge(TestCase):
     @classmethod
     def setUpClass(cls):
         cls.profiler = cProfile.Profile()
@@ -180,28 +180,28 @@ class TestPipelineMerge(TestCase):
 
     def test_merge_no_match(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DataPipeline()
+        pipeline = DataSource()
         record = {"country_code": "__"}
         key = pipeline.merge(record, {"metadata": aux})
         self.assertTrue(key is None)
 
     def test_merge_by_key(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DataPipeline()
+        pipeline = DataSource()
         record = {"key": "AE_1_2"}
         key = pipeline.merge(record, {"metadata": aux})
         self.assertEqual(key, record["key"])
 
     def test_merge_zero_subregions(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DataPipeline()
+        pipeline = DataSource()
         record = {"country_code": "AA"}
         key = pipeline.merge(record, {"metadata": aux})
         self.assertEqual(key, "AA")
 
     def test_merge_one_subregion(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DataPipeline()
+        pipeline = DataSource()
 
         record = {"country_code": "AB"}
         key = pipeline.merge(record, {"metadata": aux})
@@ -217,7 +217,7 @@ class TestPipelineMerge(TestCase):
 
     def test_merge_null_vs_empty(self):
         aux = TEST_AUX_DATA.copy()
-        pipeline = DataPipeline()
+        pipeline = DataSource()
 
         # Only one record has null region1_code
         record = {"country_code": "AD", "subregion1_code": None}

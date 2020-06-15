@@ -38,11 +38,11 @@ auxiliary:
 
 sources:
 
-  - name: pipelines._common.wikidata_pipeline.WikidataPipeline
+  - name: pipelines._common.wikidata.WikidataDataSource
     parse:
       life_expectancy: P2250
 
-  - name: pipelines.worldbank.worldbank_pipeline.WorldbankPipeline
+  - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
     parse:

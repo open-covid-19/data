@@ -16,12 +16,12 @@ import datetime
 from typing import Any, Dict, List
 from numpy import unique
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff, pivot_table
 
 
-class PtCovid19L1Pipeline(DataPipeline):
+class PtCovid19L1DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -44,7 +44,7 @@ class PtCovid19L1Pipeline(DataPipeline):
         return data
 
 
-class PtCovid19L2Pipeline(DataPipeline):
+class PtCovid19L2DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

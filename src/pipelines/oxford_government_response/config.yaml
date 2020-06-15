@@ -42,6 +42,6 @@ auxiliary:
   knowledge_graph: ./src/data/knowledge_graph.csv
 
 sources:
-  - name: pipelines.oxford_government_response.oxford_government_response_pipeline.OxfordGovernmentResponsePipeline
+  - name: pipelines.oxford_government_response.oxford_government_response.OxfordGovernmentResponseDataSource
     fetch:
       - url: "https://raw.github.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"

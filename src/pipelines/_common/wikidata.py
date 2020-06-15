@@ -18,11 +18,11 @@ from typing import Any, Dict, List, Tuple
 from pandas import DataFrame
 from tqdm.contrib import concurrent
 
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.wikidata import wikidata_properties
 
 
-class WikidataPipeline(DataPipeline):
+class WikidataDataSource(DataSource):
     """ Retrieves the requested properties from Wikidata for all items in metadata.csv """
 
     @staticmethod
@@ -35,7 +35,7 @@ class WikidataPipeline(DataPipeline):
 
         # Load wikidata using parallel processing
         map_iter = data.wikidata.iteritems()
-        map_func = partial(WikidataPipeline._process_item, parse_opts)
+        map_func = partial(self._process_item, parse_opts)
         records = concurrent.thread_map(
             map_func, map_iter, total=len(data), desc="Wikidata Properties"
         )

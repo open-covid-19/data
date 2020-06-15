@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, isnull
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat, date_offset
 from lib.utils import ROOT
 
 
-class OpenCovid19Pipeline(DataPipeline):
+class OpenCovid19DataSource(DataSource):
     def fetch(self, cache: Dict[str, str], **fetch_opts):
         return [ROOT / "output" / "tables" / "epidemiology.csv"]
 

@@ -24,7 +24,7 @@ from tqdm.contrib import concurrent
 from pandas import DataFrame, Series, Int64Dtype, merge, read_csv, concat, isna
 
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
+from lib.pipeline import DataSource, DataSource, DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import ROOT, combine_tables
 
@@ -56,7 +56,7 @@ _STATION_URL_TPL = "https://open-covid-19.github.io/weather/ghcn/{}.csv"
 # )
 
 
-class NoaaGhcnPipeline(DataPipeline):
+class NoaaGhcnDataSource(DataSource):
 
     # A bit of a circular dependency but we need the latitude and longitude to compute weather
     def fetch(self, cache: Dict[str, str], fetch_opts: Dict[str, Any]) -> List[str]:
@@ -90,7 +90,7 @@ class NoaaGhcnPipeline(DataPipeline):
         nearest["key"] = location.key
 
         # Get the nearest stations from our list of stations given lat and lon
-        nearest["distance"] = NoaaGhcnPipeline.haversine_distance(
+        nearest["distance"] = NoaaGhcnDataSource.haversine_distance(
             nearest, location.lat, location.lon
         )
 
@@ -112,10 +112,10 @@ class NoaaGhcnPipeline(DataPipeline):
 
             # Convert temperature to correct values
             data["minimum_temperature"] = data["minimum_temperature"].apply(
-                NoaaGhcnPipeline.fix_temp
+                NoaaGhcnDataSource.fix_temp
             )
             data["maximum_temperature"] = data["maximum_temperature"].apply(
-                NoaaGhcnPipeline.fix_temp
+                NoaaGhcnDataSource.fix_temp
             )
 
             # Get only data for 2020 and add location values
@@ -164,7 +164,7 @@ class NoaaGhcnPipeline(DataPipeline):
         station_cache: Dict[str, DataFrame] = {}
 
         # Make sure the stations and the cache are sent to each function call
-        map_func = partial(NoaaGhcnPipeline.station_records, station_cache, stations)
+        map_func = partial(NoaaGhcnDataSource.station_records, station_cache, stations)
 
         # We don't care about the index while iterating over each metadata item
         map_iter = [record for _, record in metadata.iterrows()]

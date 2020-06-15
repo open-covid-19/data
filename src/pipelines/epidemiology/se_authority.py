@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff, grouped_cumsum, pivot_table
 
 
-class SwedenPipeline(DataPipeline):
+class SwedenDataSource(DataSource):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
         data = read_file(sources[0], sheet_name="Antal per dag region").rename(

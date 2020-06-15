@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import grouped_diff, grouped_cumsum, pivot_table
 
 
-class ScrapedPipeline(DataPipeline):
+class ScrapedDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ):

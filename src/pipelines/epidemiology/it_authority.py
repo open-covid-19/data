@@ -15,7 +15,7 @@
 from datetime import datetime
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 
 
 _column_map = {
@@ -36,7 +36,7 @@ _column_map = {
 }
 
 
-class PcmDpcL1Pipeline(DataPipeline):
+class PcmDpcL1DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -57,7 +57,7 @@ class PcmDpcL1Pipeline(DataPipeline):
         return data
 
 
-class PcmDpcL2Pipeline(DataPipeline):
+class PcmDpcL2DataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

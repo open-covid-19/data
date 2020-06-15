@@ -16,12 +16,12 @@ import re
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, Int64Dtype, merge
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
+from lib.pipeline import DataSource, DataSource, DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import ROOT
 
 
-class OxfordGovernmentResponsePipeline(DataPipeline):
+class OxfordGovernmentResponseDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:

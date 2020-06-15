@@ -23,11 +23,11 @@ from pandas import DataFrame, Series, read_csv, isnull
 
 from lib.concurrent import thread_map
 from lib.net import download
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.utils import ROOT
 
 
-class WorldbankPipeline(DataPipeline):
+class WorldbankDataSource(DataSource):
     """ Retrieves the requested properties from Wikidata for all items in metadata.csv """
 
     @staticmethod
@@ -53,7 +53,7 @@ class WorldbankPipeline(DataPipeline):
         indicators = {name: code for name, code in indicators.items() if code in subset.index}
         for name, code in indicators.items():
             row = subset.loc[code:code].iloc[0]
-            record[name] = WorldbankPipeline._get_latest(row, min_year)
+            record[name] = WorldbankDataSource._get_latest(row, min_year)
         return record
 
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
@@ -89,7 +89,7 @@ class WorldbankPipeline(DataPipeline):
         indexed = {key: data[data.key == key].set_index("indicator_code") for key in keys}
 
         # There is probably a fancy pandas function to this more efficiently but this works for now
-        map_func = partial(WorldbankPipeline._process_record, indexed, indicators, min_year)
+        map_func = partial(WorldbankDataSource._process_record, indexed, indicators, min_year)
         records = thread_map(map_func, keys, desc="WorldBank Indicators")
 
         # Some countries are better described as subregions

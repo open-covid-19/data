@@ -15,12 +15,12 @@
 from typing import Any, Dict, List
 from pandas import DataFrame, isnull
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat, date_offset
 from lib.utils import get_or_default, grouped_cumsum
 
 
-class ECDCPipeline(DataPipeline):
+class ECDCDataSource(DataSource):
     @staticmethod
     def _adjust_date(data: DataFrame, aux: DataFrame) -> DataFrame:
         """ Adjust the date of the data based on the report offset """

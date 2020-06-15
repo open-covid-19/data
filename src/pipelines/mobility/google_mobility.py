@@ -16,12 +16,12 @@ import re
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, Int64Dtype, merge, isna
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
+from lib.pipeline import DataSource, DataSource, DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import ROOT
 
 
-class GoogleMobilityPipeline(DataPipeline):
+class GoogleMobilityDataSource(DataSource):
     data_urls: List[str] = ["https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv"]
 
     @staticmethod
@@ -84,7 +84,7 @@ class GoogleMobilityPipeline(DataPipeline):
         data = data[~data.key.isna() | data.country_code.isin(regional_data_countries)]
 
         # Clean up known issues with subregion names
-        data["match_string"] = data.apply(GoogleMobilityPipeline.process_record, axis=1)
+        data["match_string"] = data.apply(GoogleMobilityDataSource.process_record, axis=1)
         usa_mask = data.country_code == "US"
         data.loc[~usa_mask & ~data.subregion1_name.isna(), "subregion1_name"] = ""
         data.loc[~data.subregion2_name.isna(), "subregion2_name"] = ""

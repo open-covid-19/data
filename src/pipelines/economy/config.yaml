@@ -27,12 +27,12 @@ auxiliary:
   worldbank_indicators: ./src/data/worldbank_indicators.csv
 
 sources:
-  - name: pipelines._common.wikidata_pipeline.WikidataPipeline
+  - name: pipelines._common.wikidata.WikidataDataSource
     parse:
       gdp: P2131
       gdp_per_capita: P2132
 
-  - name: pipelines.worldbank.worldbank_pipeline.WorldbankPipeline
+  - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
     parse:

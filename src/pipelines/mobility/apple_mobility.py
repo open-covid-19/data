@@ -18,7 +18,7 @@ import requests
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, concat, isnull
 from lib.cast import safe_int_cast
-from lib.pipeline import DataPipeline, DataPipeline, PipelineChain
+from lib.pipeline import DataSource, DataSource, DataPipeline
 from lib.time import datetime_isoformat
 from lib.utils import ROOT, CACHE_URL, pivot_table
 
@@ -26,7 +26,7 @@ from lib.utils import ROOT, CACHE_URL, pivot_table
 _url_base = "https://covid19-static.cdn-apple.com"
 
 
-class AppleMobilityPipeline(DataPipeline):
+class AppleMobilityDataSource(DataSource):
     def fetch(self, cache: Dict[str, List[str]], fetch_opts: List[Dict[str, Any]]):
         api_res = requests.get(fetch_opts[0]["url"]).json()
         fetch_opts = [
@@ -125,7 +125,7 @@ class AppleMobilityPipeline(DataPipeline):
 
         meta = aux["metadata"]
         data = data.merge(meta[meta.subregion1_code.isna()][["country_code", "country_name"]])
-        data["match_string"] = data.apply(AppleMobilityPipeline.process_record, axis=1)
+        data["match_string"] = data.apply(AppleMobilityDataSource.process_record, axis=1)
 
         # We can derive the key directly from country code for country-level data
         data["key"] = None

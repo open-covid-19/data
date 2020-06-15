@@ -16,12 +16,12 @@ from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
 from lib.cast import safe_int_cast
 from lib.io import read_file
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 from lib.utils import table_rename
 
 
-class LuxembourgPipeline(DataPipeline):
+class LuxembourgDataSource(DataSource):
     def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
 
         data = read_file(sources[0], error_bad_lines=False, encoding="ISO-8859-1")

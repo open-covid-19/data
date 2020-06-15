@@ -47,19 +47,19 @@ from .utils import (
 )
 
 
-class DataPipeline:
+class DataSource:
     """
-    Interface for data pipelines. A data pipeline consists of a series of steps performed in the
+    Interface for data sources. A data source consists of a series of steps performed in the
     following order:
     1. Fetch: download resources into raw data
     1. Parse: convert raw data to structured format
     1. Merge: associate each record with a known `key`
 
-    The default implementation of a data pipeline includes the following functionality:
+    The default implementation of a data source includes the following functionality:
     * Fetch: downloads raw data from a list of URLs into ../snapshots folder. See [lib.net].
     * Merge: outputs a key from the auxiliary dataset after performing best-effort matching.
 
-    The merge function provided here is crucial for many pipelines that use it. The easiest/fastest
+    The merge function provided here is crucial for many sources that use it. The easiest/fastest
     way to merge records is by providing the exact `key` that will match an existing record in the
     [data/metadata.csv] file.
     """
@@ -225,7 +225,7 @@ class DataPipeline:
 
         # Get the schema of our index table, necessary for processing to infer which columns in the
         # data belong to the index and should not be aggregated
-        index_schema = PipelineChain.load("index").schema
+        index_schema = DataPipeline.load("index").schema
 
         # Provide a stratified view of certain key variables
         if any(stratify_column in data.columns for stratify_column in ("age", "sex")):
@@ -238,13 +238,13 @@ class DataPipeline:
         return data
 
 
-class PipelineChain:
+class DataPipeline:
     """
-    A pipeline chain is a collection of individual [DataPipeline]s which produce a full table
+    A pipeline chain is a collection of individual [DataSource]s which produce a full table
     ready for output. This is a very thin wrapper that runs the data pipelines and combines their
     outputs.
 
-    One of the reasons for a dedicated class is to allow for discovery of [PipelineChain] objects
+    One of the reasons for a dedicated class is to allow for discovery of [DataPipeline] objects
     via reflection, users of this class are encouraged to override its methods if custom processing
     is required.
 
@@ -256,7 +256,7 @@ class PipelineChain:
     schema: Dict[str, Any]
     """ Names and corresponding dtypes of output columns """
 
-    pipelines: List[Tuple[DataPipeline, Dict[str, Any]]]
+    pipelines: List[Tuple[DataSource, Dict[str, Any]]]
     """ List of pipeline-options tuples executed in order """
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
@@ -270,7 +270,7 @@ class PipelineChain:
         self,
         schema: Dict[str, type],
         auxiliary: Dict[str, Union[Path, str]],
-        pipelines: List[Tuple[DataPipeline, Dict[str, Any]]],
+        pipelines: List[Tuple[DataSource, Dict[str, Any]]],
     ):
         super().__init__()
         self.schema = schema
@@ -282,7 +282,7 @@ class PipelineChain:
         config_path = ROOT / "src" / "pipelines" / name / "config.yaml"
         config_yaml = yaml.safe_load(open(config_path, "r"))
         schema = {
-            name: PipelineChain._parse_dtype(dtype) for name, dtype in config_yaml["schema"].items()
+            name: DataPipeline._parse_dtype(dtype) for name, dtype in config_yaml["schema"].items()
         }
         auxiliary = {name: ROOT / path for name, path in config_yaml.get("auxiliary", {}).items()}
         pipelines = []
@@ -293,7 +293,7 @@ class PipelineChain:
             module = importlib.import_module(module_name)
             pipelines.append(getattr(module, class_name)(pipeline_config))
 
-        return PipelineChain(schema, auxiliary, pipelines)
+        return DataPipeline(schema, auxiliary, pipelines)
 
     @staticmethod
     def _parse_dtype(dtype_name: str) -> type:
@@ -326,7 +326,7 @@ class PipelineChain:
 
     @staticmethod
     def _run_wrapper(
-        pipeline_cache_aux: Tuple[DataPipeline, Dict[str, str], Dict[str, DataFrame]]
+        pipeline_cache_aux: Tuple[DataSource, Dict[str, str], Dict[str, DataFrame]]
     ) -> Optional[DataFrame]:
         """ Workaround necessary for multiprocess pool, which does not accept lambda functions """
         pipeline, cache, aux = pipeline_cache_aux
@@ -345,7 +345,7 @@ class PipelineChain:
         progress: bool = True,
     ) -> DataFrame:
         """
-        Main method which executes all the associated [DataPipeline] objects and combines their
+        Main method which executes all the associated [DataSource] objects and combines their
         outputs.
         """
         # Read the cache directory from our cloud storage
@@ -380,14 +380,14 @@ class PipelineChain:
         progress_label = f"Run {pipeline_name} pipeline"
         if process_count <= 1 or len(map_iter) <= 1:
             map_func = tqdm(
-                map(PipelineChain._run_wrapper, map_iter),
+                map(DataPipeline._run_wrapper, map_iter),
                 total=len(map_iter),
                 desc=progress_label,
                 disable=not progress,
             )
         else:
             map_func = process_map(
-                PipelineChain._run_wrapper, map_iter, desc=progress_label, disable=not progress
+                DataPipeline._run_wrapper, map_iter, desc=progress_label, disable=not progress
             )
 
         # Get rid of all columns which are not part of the output to speed up data combination

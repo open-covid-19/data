@@ -15,11 +15,11 @@
 from datetime import datetime
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.time import datetime_isoformat
 
 
-class Covid19BrazilTimeseriesPipeline(DataPipeline):
+class Covid19BrazilTimeseriesDataSource(DataSource):
     def _parse_dataframes(self, dataframes: Tuple[DataFrame, DataFrame], prefix: str):
 
         # Read data from GitHub repo

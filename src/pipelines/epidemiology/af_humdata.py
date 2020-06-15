@@ -14,13 +14,13 @@
 
 from typing import Any, Dict, List
 from pandas import DataFrame, concat, merge
-from lib.pipeline import DataPipeline
+from lib.pipeline import DataSource
 from lib.cast import safe_int_cast
 from lib.time import datetime_isoformat
 from lib.utils import grouped_cumsum
 
 
-class AfghanistanHumdataPipeline(DataPipeline):
+class AfghanistanHumdataDataSource(DataSource):
     def parse_dataframes(
         self, dataframes: List[DataFrame], aux: Dict[str, DataFrame], **parse_opts
     ) -> DataFrame:
@@ -43,22 +43,14 @@ class AfghanistanHumdataPipeline(DataPipeline):
         )
 
         # Parse integers
-        for column in (
-            "total_confirmed",
-            "total_deceased",
-            "total_recovered",
-        ):
-            data[column] = data[column].apply(
-                lambda x: safe_int_cast(str(x).replace(",", ""))
-            )
+        for column in ("total_confirmed", "total_deceased", "total_recovered"):
+            data[column] = data[column].apply(lambda x: safe_int_cast(str(x).replace(",", "")))
 
         # Make sure all records have the country code
         data["country_code"] = "AF"
 
         # Remove redundant info from names
-        data.match_string = data.match_string.apply(
-            lambda x: x.replace(" Province", "")
-        )
+        data.match_string = data.match_string.apply(lambda x: x.replace(" Province", ""))
 
         # Output the results
         return data
