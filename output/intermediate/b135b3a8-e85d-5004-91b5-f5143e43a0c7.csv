@@ -1,0 +1,1427 @@
+date,match_string,total_confirmed,new_confirmed,country_code,key
+2020-04-16,Amazonas,0,,VE,VE_Z
+2020-04-17,Amazonas,0,0,VE,VE_Z
+2020-04-18,Amazonas,0,0,VE,VE_Z
+2020-04-19,Amazonas,0,0,VE,VE_Z
+2020-04-20,Amazonas,0,0,VE,VE_Z
+2020-04-21,Amazonas,0,0,VE,VE_Z
+2020-04-22,Amazonas,0,0,VE,VE_Z
+2020-04-23,Amazonas,0,0,VE,VE_Z
+2020-04-24,Amazonas,0,0,VE,VE_Z
+2020-04-25,Amazonas,0,0,VE,VE_Z
+2020-04-26,Amazonas,0,0,VE,VE_Z
+2020-04-27,Amazonas,0,0,VE,VE_Z
+2020-04-28,Amazonas,0,0,VE,VE_Z
+2020-04-29,Amazonas,0,0,VE,VE_Z
+2020-04-30,Amazonas,0,0,VE,VE_Z
+2020-05-01,Amazonas,0,0,VE,VE_Z
+2020-05-02,Amazonas,0,0,VE,VE_Z
+2020-05-03,Amazonas,0,0,VE,VE_Z
+2020-05-04,Amazonas,0,0,VE,VE_Z
+2020-05-05,Amazonas,0,0,VE,VE_Z
+2020-05-06,Amazonas,0,0,VE,VE_Z
+2020-05-07,Amazonas,0,0,VE,VE_Z
+2020-05-08,Amazonas,0,0,VE,VE_Z
+2020-05-09,Amazonas,0,0,VE,VE_Z
+2020-05-09,Amazonas,0,0,VE,VE_Z
+2020-05-10,Amazonas,0,0,VE,VE_Z
+2020-05-11,Amazonas,4,4,VE,VE_Z
+2020-05-12,Amazonas,4,0,VE,VE_Z
+2020-05-13,Amazonas,4,0,VE,VE_Z
+2020-05-14,Amazonas,4,0,VE,VE_Z
+2020-05-15,Amazonas,7,3,VE,VE_Z
+2020-05-16,Amazonas,7,0,VE,VE_Z
+2020-05-17,Amazonas,8,1,VE,VE_Z
+2020-05-18,Amazonas,8,0,VE,VE_Z
+2020-05-19,Amazonas,9,1,VE,VE_Z
+2020-05-20,Amazonas,9,0,VE,VE_Z
+2020-05-21,Amazonas,13,4,VE,VE_Z
+2020-05-22,Amazonas,13,0,VE,VE_Z
+2020-05-23,Amazonas,14,1,VE,VE_Z
+2020-05-24,Amazonas,14,0,VE,VE_Z
+2020-05-25,Amazonas,14,0,VE,VE_Z
+2020-05-26,Amazonas,14,0,VE,VE_Z
+2020-05-27,Amazonas,14,0,VE,VE_Z
+2020-05-28,Amazonas,14,0,VE,VE_Z
+2020-05-29,Amazonas,14,0,VE,VE_Z
+2020-05-30,Amazonas,14,0,VE,VE_Z
+2020-05-31,Amazonas,14,0,VE,VE_Z
+2020-06-01,Amazonas,14,0,VE,VE_Z
+2020-06-02,Amazonas,14,0,VE,VE_Z
+2020-06-03,Amazonas,14,0,VE,VE_Z
+2020-06-04,Amazonas,14,0,VE,VE_Z
+2020-06-05,Amazonas,14,0,VE,VE_Z
+2020-06-06,Amazonas,14,0,VE,VE_Z
+2020-06-07,Amazonas,14,0,VE,VE_Z
+2020-06-08,Amazonas,14,0,VE,VE_Z
+2020-06-09,Amazonas,14,0,VE,VE_Z
+2020-06-10,Amazonas,14,0,VE,VE_Z
+2020-06-11,Amazonas,14,0,VE,VE_Z
+2020-06-12,Amazonas,14,0,VE,VE_Z
+2020-06-13,Amazonas,14,0,VE,VE_Z
+2020-06-14,Amazonas,15,1,VE,VE_Z
+2020-06-15,Amazonas,15,0,VE,VE_Z
+2020-04-16,Anzoátegui,2,,VE,VE_B
+2020-04-17,Anzoátegui,2,0,VE,VE_B
+2020-04-18,Anzoátegui,2,0,VE,VE_B
+2020-04-19,Anzoátegui,2,0,VE,VE_B
+2020-04-20,Anzoátegui,2,0,VE,VE_B
+2020-04-21,Anzoátegui,2,0,VE,VE_B
+2020-04-22,Anzoátegui,2,0,VE,VE_B
+2020-04-23,Anzoátegui,2,0,VE,VE_B
+2020-04-24,Anzoátegui,2,0,VE,VE_B
+2020-04-25,Anzoátegui,2,0,VE,VE_B
+2020-04-26,Anzoátegui,2,0,VE,VE_B
+2020-04-27,Anzoátegui,2,0,VE,VE_B
+2020-04-28,Anzoátegui,3,1,VE,VE_B
+2020-04-29,Anzoátegui,3,0,VE,VE_B
+2020-04-30,Anzoátegui,3,0,VE,VE_B
+2020-05-01,Anzoátegui,3,0,VE,VE_B
+2020-05-02,Anzoátegui,3,0,VE,VE_B
+2020-05-03,Anzoátegui,3,0,VE,VE_B
+2020-05-04,Anzoátegui,3,0,VE,VE_B
+2020-05-05,Anzoátegui,4,1,VE,VE_B
+2020-05-06,Anzoátegui,4,0,VE,VE_B
+2020-05-07,Anzoátegui,4,0,VE,VE_B
+2020-05-08,Anzoátegui,4,0,VE,VE_B
+2020-05-09,Anzoátegui,4,0,VE,VE_B
+2020-05-09,Anzoátegui,4,0,VE,VE_B
+2020-05-10,Anzoátegui,4,0,VE,VE_B
+2020-05-11,Anzoátegui,4,0,VE,VE_B
+2020-05-12,Anzoátegui,4,0,VE,VE_B
+2020-05-13,Anzoátegui,4,0,VE,VE_B
+2020-05-14,Anzoátegui,4,0,VE,VE_B
+2020-05-15,Anzoátegui,4,0,VE,VE_B
+2020-05-16,Anzoátegui,4,0,VE,VE_B
+2020-05-17,Anzoátegui,5,1,VE,VE_B
+2020-05-18,Anzoátegui,5,0,VE,VE_B
+2020-05-19,Anzoátegui,5,0,VE,VE_B
+2020-05-20,Anzoátegui,5,0,VE,VE_B
+2020-05-21,Anzoátegui,5,0,VE,VE_B
+2020-05-22,Anzoátegui,5,0,VE,VE_B
+2020-05-23,Anzoátegui,5,0,VE,VE_B
+2020-05-24,Anzoátegui,5,0,VE,VE_B
+2020-05-25,Anzoátegui,5,0,VE,VE_B
+2020-05-26,Anzoátegui,8,3,VE,VE_B
+2020-05-27,Anzoátegui,8,0,VE,VE_B
+2020-05-28,Anzoátegui,8,0,VE,VE_B
+2020-05-29,Anzoátegui,8,0,VE,VE_B
+2020-05-30,Anzoátegui,8,0,VE,VE_B
+2020-05-31,Anzoátegui,9,1,VE,VE_B
+2020-06-01,Anzoátegui,9,0,VE,VE_B
+2020-06-02,Anzoátegui,9,0,VE,VE_B
+2020-06-03,Anzoátegui,10,1,VE,VE_B
+2020-06-04,Anzoátegui,10,0,VE,VE_B
+2020-06-05,Anzoátegui,10,0,VE,VE_B
+2020-06-06,Anzoátegui,10,0,VE,VE_B
+2020-06-07,Anzoátegui,20,10,VE,VE_B
+2020-06-08,Anzoátegui,20,0,VE,VE_B
+2020-06-09,Anzoátegui,20,0,VE,VE_B
+2020-06-10,Anzoátegui,20,0,VE,VE_B
+2020-06-11,Anzoátegui,20,0,VE,VE_B
+2020-06-12,Anzoátegui,20,0,VE,VE_B
+2020-06-13,Anzoátegui,20,0,VE,VE_B
+2020-06-14,Anzoátegui,20,0,VE,VE_B
+2020-06-15,Anzoátegui,20,0,VE,VE_B
+2020-04-16,Apure,1,,VE,VE_C
+2020-04-17,Apure,1,0,VE,VE_C
+2020-04-18,Apure,1,0,VE,VE_C
+2020-04-19,Apure,1,0,VE,VE_C
+2020-04-20,Apure,1,0,VE,VE_C
+2020-04-21,Apure,1,0,VE,VE_C
+2020-04-22,Apure,1,0,VE,VE_C
+2020-04-23,Apure,1,0,VE,VE_C
+2020-04-24,Apure,1,0,VE,VE_C
+2020-04-25,Apure,1,0,VE,VE_C
+2020-04-26,Apure,1,0,VE,VE_C
+2020-04-27,Apure,1,0,VE,VE_C
+2020-04-28,Apure,1,0,VE,VE_C
+2020-04-29,Apure,1,0,VE,VE_C
+2020-04-30,Apure,1,0,VE,VE_C
+2020-05-01,Apure,2,1,VE,VE_C
+2020-05-02,Apure,2,0,VE,VE_C
+2020-05-03,Apure,2,0,VE,VE_C
+2020-05-04,Apure,2,0,VE,VE_C
+2020-05-05,Apure,3,1,VE,VE_C
+2020-05-06,Apure,3,0,VE,VE_C
+2020-05-07,Apure,3,0,VE,VE_C
+2020-05-08,Apure,3,0,VE,VE_C
+2020-05-09,Apure,3,0,VE,VE_C
+2020-05-09,Apure,3,0,VE,VE_C
+2020-05-10,Apure,6,3,VE,VE_C
+2020-05-11,Apure,6,0,VE,VE_C
+2020-05-12,Apure,6,0,VE,VE_C
+2020-05-13,Apure,6,0,VE,VE_C
+2020-05-14,Apure,6,0,VE,VE_C
+2020-05-15,Apure,6,0,VE,VE_C
+2020-05-16,Apure,6,0,VE,VE_C
+2020-05-17,Apure,6,0,VE,VE_C
+2020-05-18,Apure,10,4,VE,VE_C
+2020-05-19,Apure,10,0,VE,VE_C
+2020-05-20,Apure,20,10,VE,VE_C
+2020-05-21,Apure,55,35,VE,VE_C
+2020-05-22,Apure,55,0,VE,VE_C
+2020-05-23,Apure,72,17,VE,VE_C
+2020-05-24,Apure,73,1,VE,VE_C
+2020-05-25,Apure,142,69,VE,VE_C
+2020-05-26,Apure,157,15,VE,VE_C
+2020-05-27,Apure,157,0,VE,VE_C
+2020-05-28,Apure,183,26,VE,VE_C
+2020-05-29,Apure,254,71,VE,VE_C
+2020-05-30,Apure,255,1,VE,VE_C
+2020-05-31,Apure,256,1,VE,VE_C
+2020-06-01,Apure,259,3,VE,VE_C
+2020-06-02,Apure,348,89,VE,VE_C
+2020-06-03,Apure,452,104,VE,VE_C
+2020-06-04,Apure,472,20,VE,VE_C
+2020-06-05,Apure,475,3,VE,VE_C
+2020-06-06,Apure,492,17,VE,VE_C
+2020-06-07,Apure,493,1,VE,VE_C
+2020-06-08,Apure,495,2,VE,VE_C
+2020-06-09,Apure,556,61,VE,VE_C
+2020-06-10,Apure,682,126,VE,VE_C
+2020-06-11,Apure,757,75,VE,VE_C
+2020-06-12,Apure,757,0,VE,VE_C
+2020-06-13,Apure,775,18,VE,VE_C
+2020-06-14,Apure,775,0,VE,VE_C
+2020-06-15,Apure,812,37,VE,VE_C
+2020-04-16,Aragua,29,,VE,VE_D
+2020-04-17,Aragua,29,0,VE,VE_D
+2020-04-18,Aragua,29,0,VE,VE_D
+2020-04-19,Aragua,29,0,VE,VE_D
+2020-04-20,Aragua,29,0,VE,VE_D
+2020-04-21,Aragua,29,0,VE,VE_D
+2020-04-22,Aragua,29,0,VE,VE_D
+2020-04-23,Aragua,29,0,VE,VE_D
+2020-04-24,Aragua,29,0,VE,VE_D
+2020-04-25,Aragua,29,0,VE,VE_D
+2020-04-26,Aragua,29,0,VE,VE_D
+2020-04-27,Aragua,30,1,VE,VE_D
+2020-04-28,Aragua,30,0,VE,VE_D
+2020-04-29,Aragua,30,0,VE,VE_D
+2020-04-30,Aragua,30,0,VE,VE_D
+2020-05-01,Aragua,31,1,VE,VE_D
+2020-05-02,Aragua,31,0,VE,VE_D
+2020-05-03,Aragua,31,0,VE,VE_D
+2020-05-04,Aragua,34,3,VE,VE_D
+2020-05-05,Aragua,34,0,VE,VE_D
+2020-05-06,Aragua,34,0,VE,VE_D
+2020-05-07,Aragua,34,0,VE,VE_D
+2020-05-08,Aragua,34,0,VE,VE_D
+2020-05-09,Aragua,34,0,VE,VE_D
+2020-05-09,Aragua,34,0,VE,VE_D
+2020-05-10,Aragua,36,2,VE,VE_D
+2020-05-11,Aragua,36,0,VE,VE_D
+2020-05-12,Aragua,39,3,VE,VE_D
+2020-05-13,Aragua,40,1,VE,VE_D
+2020-05-14,Aragua,47,7,VE,VE_D
+2020-05-15,Aragua,47,0,VE,VE_D
+2020-05-16,Aragua,47,0,VE,VE_D
+2020-05-17,Aragua,47,0,VE,VE_D
+2020-05-18,Aragua,47,0,VE,VE_D
+2020-05-19,Aragua,48,1,VE,VE_D
+2020-05-20,Aragua,49,1,VE,VE_D
+2020-05-21,Aragua,51,2,VE,VE_D
+2020-05-22,Aragua,51,0,VE,VE_D
+2020-05-23,Aragua,51,0,VE,VE_D
+2020-05-24,Aragua,51,0,VE,VE_D
+2020-05-25,Aragua,51,0,VE,VE_D
+2020-05-26,Aragua,61,10,VE,VE_D
+2020-05-27,Aragua,62,1,VE,VE_D
+2020-05-28,Aragua,62,0,VE,VE_D
+2020-05-29,Aragua,62,0,VE,VE_D
+2020-05-30,Aragua,72,10,VE,VE_D
+2020-05-31,Aragua,74,2,VE,VE_D
+2020-06-01,Aragua,78,4,VE,VE_D
+2020-06-02,Aragua,80,2,VE,VE_D
+2020-06-03,Aragua,80,0,VE,VE_D
+2020-06-04,Aragua,102,22,VE,VE_D
+2020-06-05,Aragua,102,0,VE,VE_D
+2020-06-06,Aragua,103,1,VE,VE_D
+2020-06-07,Aragua,103,0,VE,VE_D
+2020-06-08,Aragua,103,0,VE,VE_D
+2020-06-09,Aragua,103,0,VE,VE_D
+2020-06-10,Aragua,106,3,VE,VE_D
+2020-06-11,Aragua,106,0,VE,VE_D
+2020-06-12,Aragua,106,0,VE,VE_D
+2020-06-13,Aragua,106,0,VE,VE_D
+2020-06-14,Aragua,106,0,VE,VE_D
+2020-06-15,Aragua,107,1,VE,VE_D
+2020-04-16,Barinas,6,,VE,VE_E
+2020-04-17,Barinas,6,0,VE,VE_E
+2020-04-18,Barinas,7,1,VE,VE_E
+2020-04-19,Barinas,7,0,VE,VE_E
+2020-04-20,Barinas,7,0,VE,VE_E
+2020-04-21,Barinas,7,0,VE,VE_E
+2020-04-22,Barinas,7,0,VE,VE_E
+2020-04-23,Barinas,7,0,VE,VE_E
+2020-04-24,Barinas,7,0,VE,VE_E
+2020-04-25,Barinas,7,0,VE,VE_E
+2020-04-26,Barinas,7,0,VE,VE_E
+2020-04-27,Barinas,7,0,VE,VE_E
+2020-04-28,Barinas,7,0,VE,VE_E
+2020-04-29,Barinas,7,0,VE,VE_E
+2020-04-30,Barinas,7,0,VE,VE_E
+2020-05-01,Barinas,7,0,VE,VE_E
+2020-05-02,Barinas,7,0,VE,VE_E
+2020-05-03,Barinas,7,0,VE,VE_E
+2020-05-04,Barinas,7,0,VE,VE_E
+2020-05-05,Barinas,7,0,VE,VE_E
+2020-05-06,Barinas,7,0,VE,VE_E
+2020-05-07,Barinas,7,0,VE,VE_E
+2020-05-08,Barinas,7,0,VE,VE_E
+2020-05-09,Barinas,7,0,VE,VE_E
+2020-05-09,Barinas,7,0,VE,VE_E
+2020-05-10,Barinas,7,0,VE,VE_E
+2020-05-11,Barinas,7,0,VE,VE_E
+2020-05-12,Barinas,7,0,VE,VE_E
+2020-05-13,Barinas,7,0,VE,VE_E
+2020-05-14,Barinas,7,0,VE,VE_E
+2020-05-15,Barinas,7,0,VE,VE_E
+2020-05-16,Barinas,8,1,VE,VE_E
+2020-05-17,Barinas,11,3,VE,VE_E
+2020-05-18,Barinas,11,0,VE,VE_E
+2020-05-19,Barinas,11,0,VE,VE_E
+2020-05-20,Barinas,12,1,VE,VE_E
+2020-05-21,Barinas,12,0,VE,VE_E
+2020-05-22,Barinas,20,8,VE,VE_E
+2020-05-23,Barinas,20,0,VE,VE_E
+2020-05-24,Barinas,20,0,VE,VE_E
+2020-05-25,Barinas,20,0,VE,VE_E
+2020-05-26,Barinas,22,2,VE,VE_E
+2020-05-27,Barinas,22,0,VE,VE_E
+2020-05-28,Barinas,22,0,VE,VE_E
+2020-05-29,Barinas,22,0,VE,VE_E
+2020-05-30,Barinas,22,0,VE,VE_E
+2020-05-31,Barinas,22,0,VE,VE_E
+2020-06-01,Barinas,22,0,VE,VE_E
+2020-06-02,Barinas,22,0,VE,VE_E
+2020-06-03,Barinas,22,0,VE,VE_E
+2020-06-04,Barinas,23,1,VE,VE_E
+2020-06-05,Barinas,23,0,VE,VE_E
+2020-06-06,Barinas,23,0,VE,VE_E
+2020-06-07,Barinas,23,0,VE,VE_E
+2020-06-08,Barinas,23,0,VE,VE_E
+2020-06-09,Barinas,23,0,VE,VE_E
+2020-06-10,Barinas,23,0,VE,VE_E
+2020-06-11,Barinas,23,0,VE,VE_E
+2020-06-12,Barinas,23,0,VE,VE_E
+2020-06-13,Barinas,23,0,VE,VE_E
+2020-06-14,Barinas,23,0,VE,VE_E
+2020-06-15,Barinas,23,0,VE,VE_E
+2020-04-16,Bolívar,2,,VE,VE_F
+2020-04-17,Bolívar,2,0,VE,VE_F
+2020-04-18,Bolívar,2,0,VE,VE_F
+2020-04-19,Bolívar,2,0,VE,VE_F
+2020-04-20,Bolívar,2,0,VE,VE_F
+2020-04-21,Bolívar,2,0,VE,VE_F
+2020-04-22,Bolívar,2,0,VE,VE_F
+2020-04-23,Bolívar,2,0,VE,VE_F
+2020-04-24,Bolívar,2,0,VE,VE_F
+2020-04-25,Bolívar,2,0,VE,VE_F
+2020-04-26,Bolívar,2,0,VE,VE_F
+2020-04-27,Bolívar,2,0,VE,VE_F
+2020-04-28,Bolívar,3,1,VE,VE_F
+2020-04-29,Bolívar,3,0,VE,VE_F
+2020-04-30,Bolívar,3,0,VE,VE_F
+2020-05-01,Bolívar,3,0,VE,VE_F
+2020-05-02,Bolívar,3,0,VE,VE_F
+2020-05-03,Bolívar,3,0,VE,VE_F
+2020-05-04,Bolívar,3,0,VE,VE_F
+2020-05-05,Bolívar,3,0,VE,VE_F
+2020-05-06,Bolívar,5,2,VE,VE_F
+2020-05-07,Bolívar,9,4,VE,VE_F
+2020-05-08,Bolívar,11,2,VE,VE_F
+2020-05-09,Bolívar,12,1,VE,VE_F
+2020-05-09,Bolívar,12,0,VE,VE_F
+2020-05-10,Bolívar,12,0,VE,VE_F
+2020-05-11,Bolívar,13,1,VE,VE_F
+2020-05-12,Bolívar,13,0,VE,VE_F
+2020-05-13,Bolívar,13,0,VE,VE_F
+2020-05-14,Bolívar,13,0,VE,VE_F
+2020-05-15,Bolívar,16,3,VE,VE_F
+2020-05-16,Bolívar,16,0,VE,VE_F
+2020-05-17,Bolívar,16,0,VE,VE_F
+2020-05-18,Bolívar,16,0,VE,VE_F
+2020-05-19,Bolívar,24,8,VE,VE_F
+2020-05-20,Bolívar,47,23,VE,VE_F
+2020-05-21,Bolívar,52,5,VE,VE_F
+2020-05-22,Bolívar,78,26,VE,VE_F
+2020-05-23,Bolívar,84,6,VE,VE_F
+2020-05-24,Bolívar,113,29,VE,VE_F
+2020-05-25,Bolívar,114,1,VE,VE_F
+2020-05-26,Bolívar,124,10,VE,VE_F
+2020-05-27,Bolívar,146,22,VE,VE_F
+2020-05-28,Bolívar,146,0,VE,VE_F
+2020-05-29,Bolívar,146,0,VE,VE_F
+2020-05-30,Bolívar,146,0,VE,VE_F
+2020-05-31,Bolívar,169,23,VE,VE_F
+2020-06-01,Bolívar,188,19,VE,VE_F
+2020-06-02,Bolívar,202,14,VE,VE_F
+2020-06-03,Bolívar,203,1,VE,VE_F
+2020-06-04,Bolívar,219,16,VE,VE_F
+2020-06-05,Bolívar,298,79,VE,VE_F
+2020-06-06,Bolívar,300,2,VE,VE_F
+2020-06-07,Bolívar,300,0,VE,VE_F
+2020-06-08,Bolívar,300,0,VE,VE_F
+2020-06-09,Bolívar,300,0,VE,VE_F
+2020-06-10,Bolívar,300,0,VE,VE_F
+2020-06-11,Bolívar,300,0,VE,VE_F
+2020-06-12,Bolívar,333,33,VE,VE_F
+2020-06-13,Bolívar,362,29,VE,VE_F
+2020-06-14,Bolívar,362,0,VE,VE_F
+2020-06-15,Bolívar,381,19,VE,VE_F
+2020-04-16,Carabobo,0,,VE,VE_G
+2020-04-17,Carabobo,0,0,VE,VE_G
+2020-04-18,Carabobo,0,0,VE,VE_G
+2020-04-19,Carabobo,0,0,VE,VE_G
+2020-04-20,Carabobo,0,0,VE,VE_G
+2020-04-21,Carabobo,0,0,VE,VE_G
+2020-04-22,Carabobo,0,0,VE,VE_G
+2020-04-23,Carabobo,0,0,VE,VE_G
+2020-04-24,Carabobo,0,0,VE,VE_G
+2020-04-25,Carabobo,0,0,VE,VE_G
+2020-04-26,Carabobo,0,0,VE,VE_G
+2020-04-27,Carabobo,0,0,VE,VE_G
+2020-04-28,Carabobo,0,0,VE,VE_G
+2020-04-29,Carabobo,0,0,VE,VE_G
+2020-04-30,Carabobo,0,0,VE,VE_G
+2020-05-01,Carabobo,0,0,VE,VE_G
+2020-05-02,Carabobo,0,0,VE,VE_G
+2020-05-03,Carabobo,0,0,VE,VE_G
+2020-05-04,Carabobo,0,0,VE,VE_G
+2020-05-05,Carabobo,0,0,VE,VE_G
+2020-05-06,Carabobo,0,0,VE,VE_G
+2020-05-07,Carabobo,0,0,VE,VE_G
+2020-05-08,Carabobo,0,0,VE,VE_G
+2020-05-09,Carabobo,0,0,VE,VE_G
+2020-05-09,Carabobo,0,0,VE,VE_G
+2020-05-10,Carabobo,0,0,VE,VE_G
+2020-05-11,Carabobo,0,0,VE,VE_G
+2020-05-12,Carabobo,0,0,VE,VE_G
+2020-05-13,Carabobo,0,0,VE,VE_G
+2020-05-14,Carabobo,0,0,VE,VE_G
+2020-05-15,Carabobo,0,0,VE,VE_G
+2020-05-16,Carabobo,1,1,VE,VE_G
+2020-05-17,Carabobo,1,0,VE,VE_G
+2020-05-18,Carabobo,1,0,VE,VE_G
+2020-05-19,Carabobo,1,0,VE,VE_G
+2020-05-20,Carabobo,1,0,VE,VE_G
+2020-05-21,Carabobo,1,0,VE,VE_G
+2020-05-22,Carabobo,1,0,VE,VE_G
+2020-05-23,Carabobo,1,0,VE,VE_G
+2020-05-24,Carabobo,1,0,VE,VE_G
+2020-05-25,Carabobo,1,0,VE,VE_G
+2020-05-26,Carabobo,6,5,VE,VE_G
+2020-05-27,Carabobo,6,0,VE,VE_G
+2020-05-28,Carabobo,6,0,VE,VE_G
+2020-05-29,Carabobo,6,0,VE,VE_G
+2020-05-30,Carabobo,6,0,VE,VE_G
+2020-05-31,Carabobo,6,0,VE,VE_G
+2020-06-01,Carabobo,6,0,VE,VE_G
+2020-06-02,Carabobo,7,1,VE,VE_G
+2020-06-03,Carabobo,7,0,VE,VE_G
+2020-06-04,Carabobo,7,0,VE,VE_G
+2020-06-05,Carabobo,7,0,VE,VE_G
+2020-06-06,Carabobo,7,0,VE,VE_G
+2020-06-07,Carabobo,7,0,VE,VE_G
+2020-06-08,Carabobo,7,0,VE,VE_G
+2020-06-09,Carabobo,7,0,VE,VE_G
+2020-06-10,Carabobo,7,0,VE,VE_G
+2020-06-11,Carabobo,7,0,VE,VE_G
+2020-06-12,Carabobo,7,0,VE,VE_G
+2020-06-13,Carabobo,7,0,VE,VE_G
+2020-06-14,Carabobo,7,0,VE,VE_G
+2020-06-15,Carabobo,7,0,VE,VE_G
+2020-04-16,Cojedes,1,,VE,VE_H
+2020-04-17,Cojedes,1,0,VE,VE_H
+2020-04-18,Cojedes,1,0,VE,VE_H
+2020-04-19,Cojedes,1,0,VE,VE_H
+2020-04-20,Cojedes,1,0,VE,VE_H
+2020-04-21,Cojedes,1,0,VE,VE_H
+2020-04-22,Cojedes,1,0,VE,VE_H
+2020-04-23,Cojedes,1,0,VE,VE_H
+2020-04-24,Cojedes,1,0,VE,VE_H
+2020-04-25,Cojedes,1,0,VE,VE_H
+2020-04-26,Cojedes,1,0,VE,VE_H
+2020-04-27,Cojedes,1,0,VE,VE_H
+2020-04-28,Cojedes,1,0,VE,VE_H
+2020-04-29,Cojedes,1,0,VE,VE_H
+2020-04-30,Cojedes,1,0,VE,VE_H
+2020-05-01,Cojedes,1,0,VE,VE_H
+2020-05-02,Cojedes,1,0,VE,VE_H
+2020-05-03,Cojedes,1,0,VE,VE_H
+2020-05-04,Cojedes,1,0,VE,VE_H
+2020-05-05,Cojedes,1,0,VE,VE_H
+2020-05-06,Cojedes,1,0,VE,VE_H
+2020-05-07,Cojedes,1,0,VE,VE_H
+2020-05-08,Cojedes,1,0,VE,VE_H
+2020-05-09,Cojedes,1,0,VE,VE_H
+2020-05-09,Cojedes,1,0,VE,VE_H
+2020-05-10,Cojedes,1,0,VE,VE_H
+2020-05-11,Cojedes,1,0,VE,VE_H
+2020-05-12,Cojedes,1,0,VE,VE_H
+2020-05-13,Cojedes,1,0,VE,VE_H
+2020-05-14,Cojedes,1,0,VE,VE_H
+2020-05-15,Cojedes,1,0,VE,VE_H
+2020-05-16,Cojedes,1,0,VE,VE_H
+2020-05-17,Cojedes,1,0,VE,VE_H
+2020-05-18,Cojedes,1,0,VE,VE_H
+2020-05-19,Cojedes,1,0,VE,VE_H
+2020-05-20,Cojedes,1,0,VE,VE_H
+2020-05-21,Cojedes,1,0,VE,VE_H
+2020-05-22,Cojedes,3,2,VE,VE_H
+2020-05-23,Cojedes,3,0,VE,VE_H
+2020-05-24,Cojedes,3,0,VE,VE_H
+2020-05-25,Cojedes,3,0,VE,VE_H
+2020-05-26,Cojedes,4,1,VE,VE_H
+2020-05-27,Cojedes,4,0,VE,VE_H
+2020-05-28,Cojedes,4,0,VE,VE_H
+2020-05-29,Cojedes,4,0,VE,VE_H
+2020-05-30,Cojedes,4,0,VE,VE_H
+2020-05-31,Cojedes,4,0,VE,VE_H
+2020-06-01,Cojedes,6,2,VE,VE_H
+2020-06-02,Cojedes,6,0,VE,VE_H
+2020-06-03,Cojedes,6,0,VE,VE_H
+2020-06-04,Cojedes,6,0,VE,VE_H
+2020-06-05,Cojedes,6,0,VE,VE_H
+2020-06-06,Cojedes,6,0,VE,VE_H
+2020-06-07,Cojedes,6,0,VE,VE_H
+2020-06-08,Cojedes,6,0,VE,VE_H
+2020-06-09,Cojedes,6,0,VE,VE_H
+2020-06-10,Cojedes,6,0,VE,VE_H
+2020-06-11,Cojedes,7,1,VE,VE_H
+2020-06-12,Cojedes,7,0,VE,VE_H
+2020-06-13,Cojedes,7,0,VE,VE_H
+2020-06-14,Cojedes,7,0,VE,VE_H
+2020-06-15,Cojedes,7,0,VE,VE_H
+2020-04-16,Delta Amacuro,0,,VE,VE_Y
+2020-04-17,Delta Amacuro,0,0,VE,VE_Y
+2020-04-18,Delta Amacuro,0,0,VE,VE_Y
+2020-04-19,Delta Amacuro,0,0,VE,VE_Y
+2020-04-20,Delta Amacuro,0,0,VE,VE_Y
+2020-04-21,Delta Amacuro,0,0,VE,VE_Y
+2020-04-22,Delta Amacuro,0,0,VE,VE_Y
+2020-04-23,Delta Amacuro,0,0,VE,VE_Y
+2020-04-24,Delta Amacuro,0,0,VE,VE_Y
+2020-04-25,Delta Amacuro,0,0,VE,VE_Y
+2020-04-26,Delta Amacuro,0,0,VE,VE_Y
+2020-04-27,Delta Amacuro,0,0,VE,VE_Y
+2020-04-28,Delta Amacuro,0,0,VE,VE_Y
+2020-04-29,Delta Amacuro,0,0,VE,VE_Y
+2020-04-30,Delta Amacuro,0,0,VE,VE_Y
+2020-05-01,Delta Amacuro,0,0,VE,VE_Y
+2020-05-02,Delta Amacuro,0,0,VE,VE_Y
+2020-05-03,Delta Amacuro,0,0,VE,VE_Y
+2020-05-04,Delta Amacuro,0,0,VE,VE_Y
+2020-05-05,Delta Amacuro,0,0,VE,VE_Y
+2020-05-06,Delta Amacuro,0,0,VE,VE_Y
+2020-05-07,Delta Amacuro,0,0,VE,VE_Y
+2020-05-08,Delta Amacuro,0,0,VE,VE_Y
+2020-05-09,Delta Amacuro,0,0,VE,VE_Y
+2020-05-09,Delta Amacuro,0,0,VE,VE_Y
+2020-05-10,Delta Amacuro,0,0,VE,VE_Y
+2020-05-11,Delta Amacuro,0,0,VE,VE_Y
+2020-05-12,Delta Amacuro,0,0,VE,VE_Y
+2020-05-13,Delta Amacuro,0,0,VE,VE_Y
+2020-05-14,Delta Amacuro,1,1,VE,VE_Y
+2020-05-15,Delta Amacuro,1,0,VE,VE_Y
+2020-05-16,Delta Amacuro,1,0,VE,VE_Y
+2020-05-17,Delta Amacuro,1,0,VE,VE_Y
+2020-05-18,Delta Amacuro,1,0,VE,VE_Y
+2020-05-19,Delta Amacuro,1,0,VE,VE_Y
+2020-05-20,Delta Amacuro,1,0,VE,VE_Y
+2020-05-21,Delta Amacuro,1,0,VE,VE_Y
+2020-05-22,Delta Amacuro,1,0,VE,VE_Y
+2020-05-23,Delta Amacuro,6,5,VE,VE_Y
+2020-05-24,Delta Amacuro,6,0,VE,VE_Y
+2020-05-25,Delta Amacuro,6,0,VE,VE_Y
+2020-05-26,Delta Amacuro,6,0,VE,VE_Y
+2020-05-27,Delta Amacuro,6,0,VE,VE_Y
+2020-05-28,Delta Amacuro,6,0,VE,VE_Y
+2020-05-29,Delta Amacuro,6,0,VE,VE_Y
+2020-05-30,Delta Amacuro,6,0,VE,VE_Y
+2020-05-31,Delta Amacuro,6,0,VE,VE_Y
+2020-06-01,Delta Amacuro,10,4,VE,VE_Y
+2020-06-02,Delta Amacuro,10,0,VE,VE_Y
+2020-06-03,Delta Amacuro,10,0,VE,VE_Y
+2020-06-04,Delta Amacuro,10,0,VE,VE_Y
+2020-06-05,Delta Amacuro,10,0,VE,VE_Y
+2020-06-06,Delta Amacuro,10,0,VE,VE_Y
+2020-06-07,Delta Amacuro,10,0,VE,VE_Y
+2020-06-08,Delta Amacuro,10,0,VE,VE_Y
+2020-06-09,Delta Amacuro,10,0,VE,VE_Y
+2020-06-10,Delta Amacuro,10,0,VE,VE_Y
+2020-06-11,Delta Amacuro,10,0,VE,VE_Y
+2020-06-12,Delta Amacuro,10,0,VE,VE_Y
+2020-06-13,Delta Amacuro,10,0,VE,VE_Y
+2020-06-14,Delta Amacuro,10,0,VE,VE_Y
+2020-06-15,Delta Amacuro,10,0,VE,VE_Y
+2020-04-16,Distrito Capital,30,,VE,VE_A
+2020-04-17,Distrito Capital,31,1,VE,VE_A
+2020-04-18,Distrito Capital,31,0,VE,VE_A
+2020-04-19,Distrito Capital,31,0,VE,VE_A
+2020-04-20,Distrito Capital,32,1,VE,VE_A
+2020-04-21,Distrito Capital,32,0,VE,VE_A
+2020-04-22,Distrito Capital,32,0,VE,VE_A
+2020-04-23,Distrito Capital,32,0,VE,VE_A
+2020-04-24,Distrito Capital,32,0,VE,VE_A
+2020-04-25,Distrito Capital,32,0,VE,VE_A
+2020-04-26,Distrito Capital,32,0,VE,VE_A
+2020-04-27,Distrito Capital,32,0,VE,VE_A
+2020-04-28,Distrito Capital,32,0,VE,VE_A
+2020-04-29,Distrito Capital,32,0,VE,VE_A
+2020-04-30,Distrito Capital,33,1,VE,VE_A
+2020-05-01,Distrito Capital,33,0,VE,VE_A
+2020-05-02,Distrito Capital,33,0,VE,VE_A
+2020-05-03,Distrito Capital,33,0,VE,VE_A
+2020-05-04,Distrito Capital,33,0,VE,VE_A
+2020-05-05,Distrito Capital,33,0,VE,VE_A
+2020-05-06,Distrito Capital,33,0,VE,VE_A
+2020-05-07,Distrito Capital,33,0,VE,VE_A
+2020-05-08,Distrito Capital,33,0,VE,VE_A
+2020-05-09,Distrito Capital,33,0,VE,VE_A
+2020-05-09,Distrito Capital,33,0,VE,VE_A
+2020-05-10,Distrito Capital,34,1,VE,VE_A
+2020-05-11,Distrito Capital,34,0,VE,VE_A
+2020-05-12,Distrito Capital,34,0,VE,VE_A
+2020-05-13,Distrito Capital,34,0,VE,VE_A
+2020-05-14,Distrito Capital,34,0,VE,VE_A
+2020-05-15,Distrito Capital,34,0,VE,VE_A
+2020-05-16,Distrito Capital,33,-1,VE,VE_A
+2020-05-17,Distrito Capital,63,30,VE,VE_A
+2020-05-18,Distrito Capital,96,33,VE,VE_A
+2020-05-19,Distrito Capital,109,13,VE,VE_A
+2020-05-20,Distrito Capital,109,0,VE,VE_A
+2020-05-21,Distrito Capital,109,0,VE,VE_A
+2020-05-22,Distrito Capital,114,5,VE,VE_A
+2020-05-23,Distrito Capital,119,5,VE,VE_A
+2020-05-24,Distrito Capital,120,1,VE,VE_A
+2020-05-25,Distrito Capital,131,11,VE,VE_A
+2020-05-26,Distrito Capital,135,4,VE,VE_A
+2020-05-27,Distrito Capital,135,0,VE,VE_A
+2020-05-28,Distrito Capital,135,0,VE,VE_A
+2020-05-29,Distrito Capital,135,0,VE,VE_A
+2020-05-30,Distrito Capital,136,1,VE,VE_A
+2020-05-31,Distrito Capital,138,2,VE,VE_A
+2020-06-01,Distrito Capital,150,12,VE,VE_A
+2020-06-02,Distrito Capital,154,4,VE,VE_A
+2020-06-03,Distrito Capital,156,2,VE,VE_A
+2020-06-04,Distrito Capital,159,3,VE,VE_A
+2020-06-05,Distrito Capital,167,8,VE,VE_A
+2020-06-06,Distrito Capital,168,1,VE,VE_A
+2020-06-07,Distrito Capital,178,10,VE,VE_A
+2020-06-08,Distrito Capital,178,0,VE,VE_A
+2020-06-09,Distrito Capital,178,0,VE,VE_A
+2020-06-10,Distrito Capital,178,0,VE,VE_A
+2020-06-11,Distrito Capital,181,3,VE,VE_A
+2020-06-12,Distrito Capital,182,1,VE,VE_A
+2020-06-13,Distrito Capital,186,4,VE,VE_A
+2020-06-14,Distrito Capital,187,1,VE,VE_A
+2020-06-15,Distrito Capital,190,3,VE,VE_A
+2020-04-16,Falcón,2,,VE,VE_I
+2020-04-17,Falcón,2,0,VE,VE_I
+2020-04-18,Falcón,2,0,VE,VE_I
+2020-04-19,Falcón,2,0,VE,VE_I
+2020-04-20,Falcón,2,0,VE,VE_I
+2020-04-21,Falcón,2,0,VE,VE_I
+2020-04-22,Falcón,2,0,VE,VE_I
+2020-04-23,Falcón,2,0,VE,VE_I
+2020-04-24,Falcón,2,0,VE,VE_I
+2020-04-25,Falcón,2,0,VE,VE_I
+2020-04-26,Falcón,2,0,VE,VE_I
+2020-04-27,Falcón,2,0,VE,VE_I
+2020-04-28,Falcón,2,0,VE,VE_I
+2020-04-29,Falcón,2,0,VE,VE_I
+2020-04-30,Falcón,2,0,VE,VE_I
+2020-05-01,Falcón,2,0,VE,VE_I
+2020-05-02,Falcón,2,0,VE,VE_I
+2020-05-03,Falcón,2,0,VE,VE_I
+2020-05-04,Falcón,3,1,VE,VE_I
+2020-05-05,Falcón,3,0,VE,VE_I
+2020-05-06,Falcón,3,0,VE,VE_I
+2020-05-07,Falcón,4,1,VE,VE_I
+2020-05-08,Falcón,4,0,VE,VE_I
+2020-05-09,Falcón,5,1,VE,VE_I
+2020-05-09,Falcón,5,0,VE,VE_I
+2020-05-10,Falcón,5,0,VE,VE_I
+2020-05-11,Falcón,6,1,VE,VE_I
+2020-05-12,Falcón,7,1,VE,VE_I
+2020-05-13,Falcón,7,0,VE,VE_I
+2020-05-14,Falcón,7,0,VE,VE_I
+2020-05-15,Falcón,7,0,VE,VE_I
+2020-05-16,Falcón,7,0,VE,VE_I
+2020-05-17,Falcón,7,0,VE,VE_I
+2020-05-18,Falcón,7,0,VE,VE_I
+2020-05-19,Falcón,7,0,VE,VE_I
+2020-05-20,Falcón,10,3,VE,VE_I
+2020-05-21,Falcón,10,0,VE,VE_I
+2020-05-22,Falcón,13,3,VE,VE_I
+2020-05-23,Falcón,15,2,VE,VE_I
+2020-05-24,Falcón,15,0,VE,VE_I
+2020-05-25,Falcón,16,1,VE,VE_I
+2020-05-26,Falcón,15,-1,VE,VE_I
+2020-05-27,Falcón,15,0,VE,VE_I
+2020-05-28,Falcón,21,6,VE,VE_I
+2020-05-29,Falcón,21,0,VE,VE_I
+2020-05-30,Falcón,21,0,VE,VE_I
+2020-05-31,Falcón,21,0,VE,VE_I
+2020-06-01,Falcón,21,0,VE,VE_I
+2020-06-02,Falcón,21,0,VE,VE_I
+2020-06-03,Falcón,21,0,VE,VE_I
+2020-06-04,Falcón,28,7,VE,VE_I
+2020-06-05,Falcón,34,6,VE,VE_I
+2020-06-06,Falcón,34,0,VE,VE_I
+2020-06-07,Falcón,34,0,VE,VE_I
+2020-06-08,Falcón,34,0,VE,VE_I
+2020-06-09,Falcón,34,0,VE,VE_I
+2020-06-10,Falcón,34,0,VE,VE_I
+2020-06-11,Falcón,34,0,VE,VE_I
+2020-06-12,Falcón,34,0,VE,VE_I
+2020-06-13,Falcón,34,0,VE,VE_I
+2020-06-14,Falcón,35,1,VE,VE_I
+2020-06-15,Falcón,35,0,VE,VE_I
+2020-04-16,Guárico,2,,VE,VE_J
+2020-04-17,Guárico,2,0,VE,VE_J
+2020-04-18,Guárico,2,0,VE,VE_J
+2020-04-19,Guárico,2,0,VE,VE_J
+2020-04-20,Guárico,2,0,VE,VE_J
+2020-04-21,Guárico,2,0,VE,VE_J
+2020-04-22,Guárico,2,0,VE,VE_J
+2020-04-23,Guárico,2,0,VE,VE_J
+2020-04-24,Guárico,2,0,VE,VE_J
+2020-04-25,Guárico,2,0,VE,VE_J
+2020-04-26,Guárico,2,0,VE,VE_J
+2020-04-27,Guárico,2,0,VE,VE_J
+2020-04-28,Guárico,2,0,VE,VE_J
+2020-04-29,Guárico,2,0,VE,VE_J
+2020-04-30,Guárico,2,0,VE,VE_J
+2020-05-01,Guárico,2,0,VE,VE_J
+2020-05-02,Guárico,2,0,VE,VE_J
+2020-05-03,Guárico,2,0,VE,VE_J
+2020-05-04,Guárico,2,0,VE,VE_J
+2020-05-05,Guárico,2,0,VE,VE_J
+2020-05-06,Guárico,2,0,VE,VE_J
+2020-05-07,Guárico,2,0,VE,VE_J
+2020-05-08,Guárico,2,0,VE,VE_J
+2020-05-09,Guárico,2,0,VE,VE_J
+2020-05-09,Guárico,2,0,VE,VE_J
+2020-05-10,Guárico,2,0,VE,VE_J
+2020-05-11,Guárico,2,0,VE,VE_J
+2020-05-12,Guárico,2,0,VE,VE_J
+2020-05-13,Guárico,2,0,VE,VE_J
+2020-05-14,Guárico,2,0,VE,VE_J
+2020-05-15,Guárico,2,0,VE,VE_J
+2020-05-16,Guárico,2,0,VE,VE_J
+2020-05-17,Guárico,2,0,VE,VE_J
+2020-05-18,Guárico,2,0,VE,VE_J
+2020-05-19,Guárico,3,1,VE,VE_J
+2020-05-20,Guárico,3,0,VE,VE_J
+2020-05-21,Guárico,3,0,VE,VE_J
+2020-05-22,Guárico,3,0,VE,VE_J
+2020-05-23,Guárico,3,0,VE,VE_J
+2020-05-24,Guárico,3,0,VE,VE_J
+2020-05-25,Guárico,3,0,VE,VE_J
+2020-05-26,Guárico,6,3,VE,VE_J
+2020-05-27,Guárico,6,0,VE,VE_J
+2020-05-28,Guárico,6,0,VE,VE_J
+2020-05-29,Guárico,6,0,VE,VE_J
+2020-05-30,Guárico,6,0,VE,VE_J
+2020-05-31,Guárico,6,0,VE,VE_J
+2020-06-01,Guárico,6,0,VE,VE_J
+2020-06-02,Guárico,6,0,VE,VE_J
+2020-06-03,Guárico,6,0,VE,VE_J
+2020-06-04,Guárico,6,0,VE,VE_J
+2020-06-05,Guárico,6,0,VE,VE_J
+2020-06-06,Guárico,6,0,VE,VE_J
+2020-06-07,Guárico,6,0,VE,VE_J
+2020-06-08,Guárico,6,0,VE,VE_J
+2020-06-09,Guárico,6,0,VE,VE_J
+2020-06-10,Guárico,6,0,VE,VE_J
+2020-06-11,Guárico,6,0,VE,VE_J
+2020-06-12,Guárico,6,0,VE,VE_J
+2020-06-13,Guárico,6,0,VE,VE_J
+2020-06-14,Guárico,6,0,VE,VE_J
+2020-06-15,Guárico,6,0,VE,VE_J
+2020-04-16,Lara,4,,VE,VE_K
+2020-04-17,Lara,5,1,VE,VE_K
+2020-04-18,Lara,5,0,VE,VE_K
+2020-04-19,Lara,5,0,VE,VE_K
+2020-04-20,Lara,5,0,VE,VE_K
+2020-04-21,Lara,5,0,VE,VE_K
+2020-04-22,Lara,5,0,VE,VE_K
+2020-04-23,Lara,5,0,VE,VE_K
+2020-04-24,Lara,5,0,VE,VE_K
+2020-04-25,Lara,5,0,VE,VE_K
+2020-04-26,Lara,5,0,VE,VE_K
+2020-04-27,Lara,5,0,VE,VE_K
+2020-04-28,Lara,5,0,VE,VE_K
+2020-04-29,Lara,5,0,VE,VE_K
+2020-04-30,Lara,5,0,VE,VE_K
+2020-05-01,Lara,5,0,VE,VE_K
+2020-05-02,Lara,5,0,VE,VE_K
+2020-05-03,Lara,5,0,VE,VE_K
+2020-05-04,Lara,5,0,VE,VE_K
+2020-05-05,Lara,5,0,VE,VE_K
+2020-05-06,Lara,5,0,VE,VE_K
+2020-05-07,Lara,5,0,VE,VE_K
+2020-05-08,Lara,5,0,VE,VE_K
+2020-05-09,Lara,5,0,VE,VE_K
+2020-05-09,Lara,5,0,VE,VE_K
+2020-05-10,Lara,5,0,VE,VE_K
+2020-05-11,Lara,5,0,VE,VE_K
+2020-05-12,Lara,5,0,VE,VE_K
+2020-05-13,Lara,5,0,VE,VE_K
+2020-05-14,Lara,9,4,VE,VE_K
+2020-05-15,Lara,9,0,VE,VE_K
+2020-05-16,Lara,9,0,VE,VE_K
+2020-05-17,Lara,9,0,VE,VE_K
+2020-05-18,Lara,9,0,VE,VE_K
+2020-05-19,Lara,18,9,VE,VE_K
+2020-05-20,Lara,29,11,VE,VE_K
+2020-05-21,Lara,30,1,VE,VE_K
+2020-05-22,Lara,30,0,VE,VE_K
+2020-05-23,Lara,37,7,VE,VE_K
+2020-05-24,Lara,37,0,VE,VE_K
+2020-05-25,Lara,37,0,VE,VE_K
+2020-05-26,Lara,39,2,VE,VE_K
+2020-05-27,Lara,39,0,VE,VE_K
+2020-05-28,Lara,39,0,VE,VE_K
+2020-05-29,Lara,39,0,VE,VE_K
+2020-05-30,Lara,39,0,VE,VE_K
+2020-05-31,Lara,39,0,VE,VE_K
+2020-06-01,Lara,40,1,VE,VE_K
+2020-06-02,Lara,41,1,VE,VE_K
+2020-06-03,Lara,42,1,VE,VE_K
+2020-06-04,Lara,42,0,VE,VE_K
+2020-06-05,Lara,42,0,VE,VE_K
+2020-06-06,Lara,42,0,VE,VE_K
+2020-06-07,Lara,42,0,VE,VE_K
+2020-06-08,Lara,42,0,VE,VE_K
+2020-06-09,Lara,42,0,VE,VE_K
+2020-06-10,Lara,42,0,VE,VE_K
+2020-06-11,Lara,42,0,VE,VE_K
+2020-06-12,Lara,42,0,VE,VE_K
+2020-06-13,Lara,42,0,VE,VE_K
+2020-06-14,Lara,46,4,VE,VE_K
+2020-06-15,Lara,46,0,VE,VE_K
+2020-04-16,Miranda,68,,VE,VE_M
+2020-04-17,Miranda,72,4,VE,VE_M
+2020-04-18,Miranda,73,1,VE,VE_M
+2020-04-19,Miranda,73,0,VE,VE_M
+2020-04-20,Miranda,76,3,VE,VE_M
+2020-04-21,Miranda,82,6,VE,VE_M
+2020-04-22,Miranda,85,3,VE,VE_M
+2020-04-23,Miranda,85,0,VE,VE_M
+2020-04-24,Miranda,85,0,VE,VE_M
+2020-04-25,Miranda,85,0,VE,VE_M
+2020-04-26,Miranda,85,0,VE,VE_M
+2020-04-27,Miranda,86,1,VE,VE_M
+2020-04-28,Miranda,86,0,VE,VE_M
+2020-04-29,Miranda,86,0,VE,VE_M
+2020-04-30,Miranda,86,0,VE,VE_M
+2020-05-01,Miranda,86,0,VE,VE_M
+2020-05-02,Miranda,87,1,VE,VE_M
+2020-05-03,Miranda,88,1,VE,VE_M
+2020-05-04,Miranda,89,1,VE,VE_M
+2020-05-05,Miranda,89,0,VE,VE_M
+2020-05-06,Miranda,89,0,VE,VE_M
+2020-05-07,Miranda,89,0,VE,VE_M
+2020-05-08,Miranda,89,0,VE,VE_M
+2020-05-09,Miranda,90,1,VE,VE_M
+2020-05-09,Miranda,90,0,VE,VE_M
+2020-05-10,Miranda,96,6,VE,VE_M
+2020-05-11,Miranda,97,1,VE,VE_M
+2020-05-12,Miranda,98,1,VE,VE_M
+2020-05-13,Miranda,98,0,VE,VE_M
+2020-05-14,Miranda,98,0,VE,VE_M
+2020-05-15,Miranda,98,0,VE,VE_M
+2020-05-16,Miranda,102,4,VE,VE_M
+2020-05-17,Miranda,102,0,VE,VE_M
+2020-05-18,Miranda,102,0,VE,VE_M
+2020-05-19,Miranda,124,22,VE,VE_M
+2020-05-20,Miranda,125,1,VE,VE_M
+2020-05-21,Miranda,130,5,VE,VE_M
+2020-05-22,Miranda,141,11,VE,VE_M
+2020-05-23,Miranda,142,1,VE,VE_M
+2020-05-24,Miranda,146,4,VE,VE_M
+2020-05-25,Miranda,153,7,VE,VE_M
+2020-05-26,Miranda,177,24,VE,VE_M
+2020-05-27,Miranda,178,1,VE,VE_M
+2020-05-28,Miranda,179,1,VE,VE_M
+2020-05-29,Miranda,179,0,VE,VE_M
+2020-05-30,Miranda,181,2,VE,VE_M
+2020-05-31,Miranda,186,5,VE,VE_M
+2020-06-01,Miranda,191,5,VE,VE_M
+2020-06-02,Miranda,223,32,VE,VE_M
+2020-06-03,Miranda,263,40,VE,VE_M
+2020-06-04,Miranda,264,1,VE,VE_M
+2020-06-05,Miranda,299,35,VE,VE_M
+2020-06-06,Miranda,305,6,VE,VE_M
+2020-06-07,Miranda,310,5,VE,VE_M
+2020-06-08,Miranda,310,0,VE,VE_M
+2020-06-09,Miranda,310,0,VE,VE_M
+2020-06-10,Miranda,310,0,VE,VE_M
+2020-06-11,Miranda,311,1,VE,VE_M
+2020-06-12,Miranda,311,0,VE,VE_M
+2020-06-13,Miranda,313,2,VE,VE_M
+2020-06-14,Miranda,314,1,VE,VE_M
+2020-06-15,Miranda,315,1,VE,VE_M
+2020-04-16,Monagas,1,,VE,VE_N
+2020-04-17,Monagas,1,0,VE,VE_N
+2020-04-18,Monagas,1,0,VE,VE_N
+2020-04-19,Monagas,1,0,VE,VE_N
+2020-04-20,Monagas,1,0,VE,VE_N
+2020-04-21,Monagas,1,0,VE,VE_N
+2020-04-22,Monagas,1,0,VE,VE_N
+2020-04-23,Monagas,1,0,VE,VE_N
+2020-04-24,Monagas,1,0,VE,VE_N
+2020-04-25,Monagas,1,0,VE,VE_N
+2020-04-26,Monagas,1,0,VE,VE_N
+2020-04-27,Monagas,1,0,VE,VE_N
+2020-04-28,Monagas,1,0,VE,VE_N
+2020-04-29,Monagas,1,0,VE,VE_N
+2020-04-30,Monagas,1,0,VE,VE_N
+2020-05-01,Monagas,1,0,VE,VE_N
+2020-05-02,Monagas,1,0,VE,VE_N
+2020-05-03,Monagas,1,0,VE,VE_N
+2020-05-04,Monagas,1,0,VE,VE_N
+2020-05-05,Monagas,1,0,VE,VE_N
+2020-05-06,Monagas,1,0,VE,VE_N
+2020-05-07,Monagas,1,0,VE,VE_N
+2020-05-08,Monagas,1,0,VE,VE_N
+2020-05-09,Monagas,1,0,VE,VE_N
+2020-05-09,Monagas,1,0,VE,VE_N
+2020-05-10,Monagas,1,0,VE,VE_N
+2020-05-11,Monagas,1,0,VE,VE_N
+2020-05-12,Monagas,1,0,VE,VE_N
+2020-05-13,Monagas,1,0,VE,VE_N
+2020-05-14,Monagas,1,0,VE,VE_N
+2020-05-15,Monagas,1,0,VE,VE_N
+2020-05-16,Monagas,1,0,VE,VE_N
+2020-05-17,Monagas,1,0,VE,VE_N
+2020-05-18,Monagas,1,0,VE,VE_N
+2020-05-19,Monagas,1,0,VE,VE_N
+2020-05-20,Monagas,2,1,VE,VE_N
+2020-05-21,Monagas,2,0,VE,VE_N
+2020-05-22,Monagas,2,0,VE,VE_N
+2020-05-23,Monagas,2,0,VE,VE_N
+2020-05-24,Monagas,2,0,VE,VE_N
+2020-05-25,Monagas,2,0,VE,VE_N
+2020-05-26,Monagas,3,1,VE,VE_N
+2020-05-27,Monagas,3,0,VE,VE_N
+2020-05-28,Monagas,3,0,VE,VE_N
+2020-05-29,Monagas,3,0,VE,VE_N
+2020-05-30,Monagas,5,2,VE,VE_N
+2020-05-31,Monagas,5,0,VE,VE_N
+2020-06-01,Monagas,5,0,VE,VE_N
+2020-06-02,Monagas,5,0,VE,VE_N
+2020-06-03,Monagas,5,0,VE,VE_N
+2020-06-04,Monagas,5,0,VE,VE_N
+2020-06-05,Monagas,5,0,VE,VE_N
+2020-06-06,Monagas,5,0,VE,VE_N
+2020-06-07,Monagas,5,0,VE,VE_N
+2020-06-08,Monagas,5,0,VE,VE_N
+2020-06-09,Monagas,5,0,VE,VE_N
+2020-06-10,Monagas,5,0,VE,VE_N
+2020-06-11,Monagas,5,0,VE,VE_N
+2020-06-12,Monagas,5,0,VE,VE_N
+2020-06-13,Monagas,5,0,VE,VE_N
+2020-06-14,Monagas,5,0,VE,VE_N
+2020-06-15,Monagas,5,0,VE,VE_N
+2020-04-16,Mérida,1,,VE,VE_L
+2020-04-17,Mérida,1,0,VE,VE_L
+2020-04-18,Mérida,1,0,VE,VE_L
+2020-04-19,Mérida,1,0,VE,VE_L
+2020-04-20,Mérida,2,1,VE,VE_L
+2020-04-21,Mérida,2,0,VE,VE_L
+2020-04-22,Mérida,2,0,VE,VE_L
+2020-04-23,Mérida,2,0,VE,VE_L
+2020-04-24,Mérida,2,0,VE,VE_L
+2020-04-25,Mérida,2,0,VE,VE_L
+2020-04-26,Mérida,2,0,VE,VE_L
+2020-04-27,Mérida,2,0,VE,VE_L
+2020-04-28,Mérida,2,0,VE,VE_L
+2020-04-29,Mérida,2,0,VE,VE_L
+2020-04-30,Mérida,2,0,VE,VE_L
+2020-05-01,Mérida,2,0,VE,VE_L
+2020-05-02,Mérida,2,0,VE,VE_L
+2020-05-03,Mérida,2,0,VE,VE_L
+2020-05-04,Mérida,2,0,VE,VE_L
+2020-05-05,Mérida,2,0,VE,VE_L
+2020-05-06,Mérida,2,0,VE,VE_L
+2020-05-07,Mérida,2,0,VE,VE_L
+2020-05-08,Mérida,2,0,VE,VE_L
+2020-05-09,Mérida,2,0,VE,VE_L
+2020-05-09,Mérida,2,0,VE,VE_L
+2020-05-10,Mérida,2,0,VE,VE_L
+2020-05-11,Mérida,2,0,VE,VE_L
+2020-05-12,Mérida,2,0,VE,VE_L
+2020-05-13,Mérida,2,0,VE,VE_L
+2020-05-14,Mérida,2,0,VE,VE_L
+2020-05-15,Mérida,2,0,VE,VE_L
+2020-05-16,Mérida,1,-1,VE,VE_L
+2020-05-17,Mérida,1,0,VE,VE_L
+2020-05-18,Mérida,1,0,VE,VE_L
+2020-05-19,Mérida,1,0,VE,VE_L
+2020-05-20,Mérida,4,3,VE,VE_L
+2020-05-21,Mérida,4,0,VE,VE_L
+2020-05-22,Mérida,5,1,VE,VE_L
+2020-05-23,Mérida,6,1,VE,VE_L
+2020-05-24,Mérida,6,0,VE,VE_L
+2020-05-25,Mérida,11,5,VE,VE_L
+2020-05-26,Mérida,17,6,VE,VE_L
+2020-05-27,Mérida,17,0,VE,VE_L
+2020-05-28,Mérida,18,1,VE,VE_L
+2020-05-29,Mérida,18,0,VE,VE_L
+2020-05-30,Mérida,18,0,VE,VE_L
+2020-05-31,Mérida,18,0,VE,VE_L
+2020-06-01,Mérida,19,1,VE,VE_L
+2020-06-02,Mérida,21,2,VE,VE_L
+2020-06-03,Mérida,21,0,VE,VE_L
+2020-06-04,Mérida,21,0,VE,VE_L
+2020-06-05,Mérida,21,0,VE,VE_L
+2020-06-06,Mérida,26,5,VE,VE_L
+2020-06-07,Mérida,26,0,VE,VE_L
+2020-06-08,Mérida,26,0,VE,VE_L
+2020-06-09,Mérida,26,0,VE,VE_L
+2020-06-10,Mérida,26,0,VE,VE_L
+2020-06-11,Mérida,27,1,VE,VE_L
+2020-06-12,Mérida,27,0,VE,VE_L
+2020-06-13,Mérida,27,0,VE,VE_L
+2020-06-14,Mérida,29,2,VE,VE_L
+2020-06-15,Mérida,29,0,VE,VE_L
+2020-04-16,Nueva Esparta,9,,VE,VE_O
+2020-04-17,Nueva Esparta,10,1,VE,VE_O
+2020-04-18,Nueva Esparta,30,20,VE,VE_O
+2020-04-19,Nueva Esparta,30,0,VE,VE_O
+2020-04-20,Nueva Esparta,51,21,VE,VE_O
+2020-04-21,Nueva Esparta,72,21,VE,VE_O
+2020-04-22,Nueva Esparta,72,0,VE,VE_O
+2020-04-23,Nueva Esparta,80,8,VE,VE_O
+2020-04-24,Nueva Esparta,93,13,VE,VE_O
+2020-04-25,Nueva Esparta,97,4,VE,VE_O
+2020-04-26,Nueva Esparta,97,0,VE,VE_O
+2020-04-27,Nueva Esparta,97,0,VE,VE_O
+2020-04-28,Nueva Esparta,99,2,VE,VE_O
+2020-04-29,Nueva Esparta,99,0,VE,VE_O
+2020-04-30,Nueva Esparta,99,0,VE,VE_O
+2020-05-01,Nueva Esparta,99,0,VE,VE_O
+2020-05-02,Nueva Esparta,100,1,VE,VE_O
+2020-05-03,Nueva Esparta,108,8,VE,VE_O
+2020-05-04,Nueva Esparta,111,3,VE,VE_O
+2020-05-05,Nueva Esparta,112,1,VE,VE_O
+2020-05-06,Nueva Esparta,116,4,VE,VE_O
+2020-05-07,Nueva Esparta,122,6,VE,VE_O
+2020-05-08,Nueva Esparta,122,0,VE,VE_O
+2020-05-09,Nueva Esparta,125,3,VE,VE_O
+2020-05-09,Nueva Esparta,125,0,VE,VE_O
+2020-05-10,Nueva Esparta,127,2,VE,VE_O
+2020-05-11,Nueva Esparta,129,2,VE,VE_O
+2020-05-12,Nueva Esparta,130,1,VE,VE_O
+2020-05-13,Nueva Esparta,130,0,VE,VE_O
+2020-05-14,Nueva Esparta,130,0,VE,VE_O
+2020-05-15,Nueva Esparta,130,0,VE,VE_O
+2020-05-16,Nueva Esparta,130,0,VE,VE_O
+2020-05-17,Nueva Esparta,140,10,VE,VE_O
+2020-05-18,Nueva Esparta,140,0,VE,VE_O
+2020-05-19,Nueva Esparta,144,4,VE,VE_O
+2020-05-20,Nueva Esparta,144,0,VE,VE_O
+2020-05-21,Nueva Esparta,144,0,VE,VE_O
+2020-05-22,Nueva Esparta,144,0,VE,VE_O
+2020-05-23,Nueva Esparta,144,0,VE,VE_O
+2020-05-24,Nueva Esparta,144,0,VE,VE_O
+2020-05-25,Nueva Esparta,146,2,VE,VE_O
+2020-05-26,Nueva Esparta,146,0,VE,VE_O
+2020-05-27,Nueva Esparta,146,0,VE,VE_O
+2020-05-28,Nueva Esparta,146,0,VE,VE_O
+2020-05-29,Nueva Esparta,146,0,VE,VE_O
+2020-05-30,Nueva Esparta,146,0,VE,VE_O
+2020-05-31,Nueva Esparta,148,2,VE,VE_O
+2020-06-01,Nueva Esparta,148,0,VE,VE_O
+2020-06-02,Nueva Esparta,148,0,VE,VE_O
+2020-06-03,Nueva Esparta,149,1,VE,VE_O
+2020-06-04,Nueva Esparta,150,1,VE,VE_O
+2020-06-05,Nueva Esparta,150,0,VE,VE_O
+2020-06-06,Nueva Esparta,150,0,VE,VE_O
+2020-06-07,Nueva Esparta,150,0,VE,VE_O
+2020-06-08,Nueva Esparta,150,0,VE,VE_O
+2020-06-09,Nueva Esparta,150,0,VE,VE_O
+2020-06-10,Nueva Esparta,150,0,VE,VE_O
+2020-06-11,Nueva Esparta,151,1,VE,VE_O
+2020-06-12,Nueva Esparta,151,0,VE,VE_O
+2020-06-13,Nueva Esparta,151,0,VE,VE_O
+2020-06-14,Nueva Esparta,151,0,VE,VE_O
+2020-06-15,Nueva Esparta,151,0,VE,VE_O
+2020-04-16,Portuguesa,3,,VE,VE_P
+2020-04-17,Portuguesa,3,0,VE,VE_P
+2020-04-18,Portuguesa,3,0,VE,VE_P
+2020-04-19,Portuguesa,3,0,VE,VE_P
+2020-04-20,Portuguesa,3,0,VE,VE_P
+2020-04-21,Portuguesa,4,1,VE,VE_P
+2020-04-22,Portuguesa,4,0,VE,VE_P
+2020-04-23,Portuguesa,4,0,VE,VE_P
+2020-04-24,Portuguesa,4,0,VE,VE_P
+2020-04-25,Portuguesa,4,0,VE,VE_P
+2020-04-26,Portuguesa,4,0,VE,VE_P
+2020-04-27,Portuguesa,4,0,VE,VE_P
+2020-04-28,Portuguesa,4,0,VE,VE_P
+2020-04-29,Portuguesa,4,0,VE,VE_P
+2020-04-30,Portuguesa,4,0,VE,VE_P
+2020-05-01,Portuguesa,4,0,VE,VE_P
+2020-05-02,Portuguesa,4,0,VE,VE_P
+2020-05-03,Portuguesa,4,0,VE,VE_P
+2020-05-04,Portuguesa,4,0,VE,VE_P
+2020-05-05,Portuguesa,4,0,VE,VE_P
+2020-05-06,Portuguesa,4,0,VE,VE_P
+2020-05-07,Portuguesa,5,1,VE,VE_P
+2020-05-08,Portuguesa,5,0,VE,VE_P
+2020-05-09,Portuguesa,5,0,VE,VE_P
+2020-05-09,Portuguesa,5,0,VE,VE_P
+2020-05-10,Portuguesa,5,0,VE,VE_P
+2020-05-11,Portuguesa,5,0,VE,VE_P
+2020-05-12,Portuguesa,5,0,VE,VE_P
+2020-05-13,Portuguesa,5,0,VE,VE_P
+2020-05-14,Portuguesa,5,0,VE,VE_P
+2020-05-15,Portuguesa,5,0,VE,VE_P
+2020-05-16,Portuguesa,5,0,VE,VE_P
+2020-05-17,Portuguesa,5,0,VE,VE_P
+2020-05-18,Portuguesa,5,0,VE,VE_P
+2020-05-19,Portuguesa,5,0,VE,VE_P
+2020-05-20,Portuguesa,5,0,VE,VE_P
+2020-05-21,Portuguesa,5,0,VE,VE_P
+2020-05-22,Portuguesa,5,0,VE,VE_P
+2020-05-23,Portuguesa,5,0,VE,VE_P
+2020-05-24,Portuguesa,5,0,VE,VE_P
+2020-05-25,Portuguesa,5,0,VE,VE_P
+2020-05-26,Portuguesa,12,7,VE,VE_P
+2020-05-27,Portuguesa,12,0,VE,VE_P
+2020-05-28,Portuguesa,12,0,VE,VE_P
+2020-05-29,Portuguesa,12,0,VE,VE_P
+2020-05-30,Portuguesa,12,0,VE,VE_P
+2020-05-31,Portuguesa,12,0,VE,VE_P
+2020-06-01,Portuguesa,12,0,VE,VE_P
+2020-06-02,Portuguesa,14,2,VE,VE_P
+2020-06-03,Portuguesa,14,0,VE,VE_P
+2020-06-04,Portuguesa,14,0,VE,VE_P
+2020-06-05,Portuguesa,14,0,VE,VE_P
+2020-06-06,Portuguesa,14,0,VE,VE_P
+2020-06-07,Portuguesa,14,0,VE,VE_P
+2020-06-08,Portuguesa,14,0,VE,VE_P
+2020-06-09,Portuguesa,14,0,VE,VE_P
+2020-06-10,Portuguesa,14,0,VE,VE_P
+2020-06-11,Portuguesa,14,0,VE,VE_P
+2020-06-12,Portuguesa,14,0,VE,VE_P
+2020-06-13,Portuguesa,14,0,VE,VE_P
+2020-06-14,Portuguesa,15,1,VE,VE_P
+2020-06-15,Portuguesa,15,0,VE,VE_P
+2020-04-16,Sucre,2,,VE,VE_R
+2020-04-17,Sucre,2,0,VE,VE_R
+2020-04-18,Sucre,2,0,VE,VE_R
+2020-04-19,Sucre,2,0,VE,VE_R
+2020-04-20,Sucre,2,0,VE,VE_R
+2020-04-21,Sucre,2,0,VE,VE_R
+2020-04-22,Sucre,2,0,VE,VE_R
+2020-04-23,Sucre,2,0,VE,VE_R
+2020-04-24,Sucre,2,0,VE,VE_R
+2020-04-25,Sucre,2,0,VE,VE_R
+2020-04-26,Sucre,2,0,VE,VE_R
+2020-04-27,Sucre,2,0,VE,VE_R
+2020-04-28,Sucre,2,0,VE,VE_R
+2020-04-29,Sucre,2,0,VE,VE_R
+2020-04-30,Sucre,2,0,VE,VE_R
+2020-05-01,Sucre,2,0,VE,VE_R
+2020-05-02,Sucre,2,0,VE,VE_R
+2020-05-03,Sucre,2,0,VE,VE_R
+2020-05-04,Sucre,2,0,VE,VE_R
+2020-05-05,Sucre,2,0,VE,VE_R
+2020-05-06,Sucre,2,0,VE,VE_R
+2020-05-07,Sucre,2,0,VE,VE_R
+2020-05-08,Sucre,2,0,VE,VE_R
+2020-05-09,Sucre,2,0,VE,VE_R
+2020-05-09,Sucre,2,0,VE,VE_R
+2020-05-10,Sucre,2,0,VE,VE_R
+2020-05-11,Sucre,2,0,VE,VE_R
+2020-05-12,Sucre,2,0,VE,VE_R
+2020-05-13,Sucre,2,0,VE,VE_R
+2020-05-14,Sucre,5,3,VE,VE_R
+2020-05-15,Sucre,5,0,VE,VE_R
+2020-05-16,Sucre,5,0,VE,VE_R
+2020-05-17,Sucre,5,0,VE,VE_R
+2020-05-18,Sucre,5,0,VE,VE_R
+2020-05-19,Sucre,5,0,VE,VE_R
+2020-05-20,Sucre,6,1,VE,VE_R
+2020-05-21,Sucre,8,2,VE,VE_R
+2020-05-22,Sucre,9,1,VE,VE_R
+2020-05-23,Sucre,9,0,VE,VE_R
+2020-05-24,Sucre,9,0,VE,VE_R
+2020-05-25,Sucre,9,0,VE,VE_R
+2020-05-26,Sucre,13,4,VE,VE_R
+2020-05-27,Sucre,13,0,VE,VE_R
+2020-05-28,Sucre,13,0,VE,VE_R
+2020-05-29,Sucre,13,0,VE,VE_R
+2020-05-30,Sucre,14,1,VE,VE_R
+2020-05-31,Sucre,14,0,VE,VE_R
+2020-06-01,Sucre,14,0,VE,VE_R
+2020-06-02,Sucre,15,1,VE,VE_R
+2020-06-03,Sucre,15,0,VE,VE_R
+2020-06-04,Sucre,19,4,VE,VE_R
+2020-06-05,Sucre,19,0,VE,VE_R
+2020-06-06,Sucre,19,0,VE,VE_R
+2020-06-07,Sucre,19,0,VE,VE_R
+2020-06-08,Sucre,19,0,VE,VE_R
+2020-06-09,Sucre,19,0,VE,VE_R
+2020-06-10,Sucre,19,0,VE,VE_R
+2020-06-11,Sucre,21,2,VE,VE_R
+2020-06-12,Sucre,21,0,VE,VE_R
+2020-06-13,Sucre,21,0,VE,VE_R
+2020-06-14,Sucre,21,0,VE,VE_R
+2020-06-15,Sucre,21,0,VE,VE_R
+2020-04-16,Trujillo,7,,VE,VE_T
+2020-04-17,Trujillo,7,0,VE,VE_T
+2020-04-18,Trujillo,7,0,VE,VE_T
+2020-04-19,Trujillo,7,0,VE,VE_T
+2020-04-20,Trujillo,7,0,VE,VE_T
+2020-04-21,Trujillo,7,0,VE,VE_T
+2020-04-22,Trujillo,7,0,VE,VE_T
+2020-04-23,Trujillo,7,0,VE,VE_T
+2020-04-24,Trujillo,7,0,VE,VE_T
+2020-04-25,Trujillo,7,0,VE,VE_T
+2020-04-26,Trujillo,7,0,VE,VE_T
+2020-04-27,Trujillo,7,0,VE,VE_T
+2020-04-28,Trujillo,7,0,VE,VE_T
+2020-04-29,Trujillo,7,0,VE,VE_T
+2020-04-30,Trujillo,7,0,VE,VE_T
+2020-05-01,Trujillo,7,0,VE,VE_T
+2020-05-02,Trujillo,7,0,VE,VE_T
+2020-05-03,Trujillo,7,0,VE,VE_T
+2020-05-04,Trujillo,7,0,VE,VE_T
+2020-05-05,Trujillo,7,0,VE,VE_T
+2020-05-06,Trujillo,7,0,VE,VE_T
+2020-05-07,Trujillo,7,0,VE,VE_T
+2020-05-08,Trujillo,7,0,VE,VE_T
+2020-05-09,Trujillo,7,0,VE,VE_T
+2020-05-09,Trujillo,7,0,VE,VE_T
+2020-05-10,Trujillo,7,0,VE,VE_T
+2020-05-11,Trujillo,7,0,VE,VE_T
+2020-05-12,Trujillo,7,0,VE,VE_T
+2020-05-13,Trujillo,7,0,VE,VE_T
+2020-05-14,Trujillo,8,1,VE,VE_T
+2020-05-15,Trujillo,8,0,VE,VE_T
+2020-05-16,Trujillo,8,0,VE,VE_T
+2020-05-17,Trujillo,8,0,VE,VE_T
+2020-05-18,Trujillo,8,0,VE,VE_T
+2020-05-19,Trujillo,8,0,VE,VE_T
+2020-05-20,Trujillo,8,0,VE,VE_T
+2020-05-21,Trujillo,8,0,VE,VE_T
+2020-05-22,Trujillo,8,0,VE,VE_T
+2020-05-23,Trujillo,8,0,VE,VE_T
+2020-05-24,Trujillo,8,0,VE,VE_T
+2020-05-25,Trujillo,8,0,VE,VE_T
+2020-05-26,Trujillo,8,0,VE,VE_T
+2020-05-27,Trujillo,8,0,VE,VE_T
+2020-05-28,Trujillo,8,0,VE,VE_T
+2020-05-29,Trujillo,8,0,VE,VE_T
+2020-05-30,Trujillo,8,0,VE,VE_T
+2020-05-31,Trujillo,8,0,VE,VE_T
+2020-06-01,Trujillo,8,0,VE,VE_T
+2020-06-02,Trujillo,8,0,VE,VE_T
+2020-06-03,Trujillo,8,0,VE,VE_T
+2020-06-04,Trujillo,17,9,VE,VE_T
+2020-06-05,Trujillo,18,1,VE,VE_T
+2020-06-06,Trujillo,18,0,VE,VE_T
+2020-06-07,Trujillo,19,1,VE,VE_T
+2020-06-08,Trujillo,19,0,VE,VE_T
+2020-06-09,Trujillo,19,0,VE,VE_T
+2020-06-10,Trujillo,19,0,VE,VE_T
+2020-06-11,Trujillo,19,0,VE,VE_T
+2020-06-12,Trujillo,19,0,VE,VE_T
+2020-06-13,Trujillo,21,2,VE,VE_T
+2020-06-14,Trujillo,21,0,VE,VE_T
+2020-06-15,Trujillo,22,1,VE,VE_T
+2020-04-16,Táchira,4,,VE,VE_S
+2020-04-17,Táchira,4,0,VE,VE_S
+2020-04-18,Táchira,5,1,VE,VE_S
+2020-04-19,Táchira,5,0,VE,VE_S
+2020-04-20,Táchira,8,3,VE,VE_S
+2020-04-21,Táchira,8,0,VE,VE_S
+2020-04-22,Táchira,8,0,VE,VE_S
+2020-04-23,Táchira,10,2,VE,VE_S
+2020-04-24,Táchira,10,0,VE,VE_S
+2020-04-25,Táchira,13,3,VE,VE_S
+2020-04-26,Táchira,18,5,VE,VE_S
+2020-04-27,Táchira,18,0,VE,VE_S
+2020-04-28,Táchira,18,0,VE,VE_S
+2020-04-29,Táchira,18,0,VE,VE_S
+2020-04-30,Táchira,19,1,VE,VE_S
+2020-05-01,Táchira,19,0,VE,VE_S
+2020-05-02,Táchira,19,0,VE,VE_S
+2020-05-03,Táchira,20,1,VE,VE_S
+2020-05-04,Táchira,20,0,VE,VE_S
+2020-05-05,Táchira,22,2,VE,VE_S
+2020-05-06,Táchira,22,0,VE,VE_S
+2020-05-07,Táchira,22,0,VE,VE_S
+2020-05-08,Táchira,22,0,VE,VE_S
+2020-05-09,Táchira,23,1,VE,VE_S
+2020-05-09,Táchira,23,0,VE,VE_S
+2020-05-10,Táchira,23,0,VE,VE_S
+2020-05-11,Táchira,26,3,VE,VE_S
+2020-05-12,Táchira,26,0,VE,VE_S
+2020-05-13,Táchira,26,0,VE,VE_S
+2020-05-14,Táchira,26,0,VE,VE_S
+2020-05-15,Táchira,27,1,VE,VE_S
+2020-05-16,Táchira,25,-2,VE,VE_S
+2020-05-17,Táchira,25,0,VE,VE_S
+2020-05-18,Táchira,25,0,VE,VE_S
+2020-05-19,Táchira,33,8,VE,VE_S
+2020-05-20,Táchira,108,75,VE,VE_S
+2020-05-21,Táchira,129,21,VE,VE_S
+2020-05-22,Táchira,130,1,VE,VE_S
+2020-05-23,Táchira,146,16,VE,VE_S
+2020-05-24,Táchira,151,5,VE,VE_S
+2020-05-25,Táchira,153,2,VE,VE_S
+2020-05-26,Táchira,89,-64,VE,VE_S
+2020-05-27,Táchira,99,10,VE,VE_S
+2020-05-28,Táchira,99,0,VE,VE_S
+2020-05-29,Táchira,108,9,VE,VE_S
+2020-05-30,Táchira,111,3,VE,VE_S
+2020-05-31,Táchira,119,8,VE,VE_S
+2020-06-01,Táchira,119,0,VE,VE_S
+2020-06-02,Táchira,122,3,VE,VE_S
+2020-06-03,Táchira,128,6,VE,VE_S
+2020-06-04,Táchira,136,8,VE,VE_S
+2020-06-05,Táchira,137,1,VE,VE_S
+2020-06-06,Táchira,162,25,VE,VE_S
+2020-06-07,Táchira,261,99,VE,VE_S
+2020-06-08,Táchira,320,59,VE,VE_S
+2020-06-09,Táchira,355,35,VE,VE_S
+2020-06-10,Táchira,384,29,VE,VE_S
+2020-06-11,Táchira,398,14,VE,VE_S
+2020-06-12,Táchira,402,4,VE,VE_S
+2020-06-13,Táchira,412,10,VE,VE_S
+2020-06-14,Táchira,426,14,VE,VE_S
+2020-06-15,Táchira,438,12,VE,VE_S
+2020-04-16,Yaracuy,1,,VE,VE_U
+2020-04-17,Yaracuy,1,0,VE,VE_U
+2020-04-18,Yaracuy,1,0,VE,VE_U
+2020-04-19,Yaracuy,1,0,VE,VE_U
+2020-04-20,Yaracuy,1,0,VE,VE_U
+2020-04-21,Yaracuy,1,0,VE,VE_U
+2020-04-22,Yaracuy,1,0,VE,VE_U
+2020-04-23,Yaracuy,1,0,VE,VE_U
+2020-04-24,Yaracuy,1,0,VE,VE_U
+2020-04-25,Yaracuy,1,0,VE,VE_U
+2020-04-26,Yaracuy,1,0,VE,VE_U
+2020-04-27,Yaracuy,1,0,VE,VE_U
+2020-04-28,Yaracuy,1,0,VE,VE_U
+2020-04-29,Yaracuy,1,0,VE,VE_U
+2020-04-30,Yaracuy,1,0,VE,VE_U
+2020-05-01,Yaracuy,1,0,VE,VE_U
+2020-05-02,Yaracuy,1,0,VE,VE_U
+2020-05-03,Yaracuy,1,0,VE,VE_U
+2020-05-04,Yaracuy,1,0,VE,VE_U
+2020-05-05,Yaracuy,1,0,VE,VE_U
+2020-05-06,Yaracuy,1,0,VE,VE_U
+2020-05-07,Yaracuy,1,0,VE,VE_U
+2020-05-08,Yaracuy,1,0,VE,VE_U
+2020-05-09,Yaracuy,1,0,VE,VE_U
+2020-05-09,Yaracuy,1,0,VE,VE_U
+2020-05-10,Yaracuy,1,0,VE,VE_U
+2020-05-11,Yaracuy,1,0,VE,VE_U
+2020-05-12,Yaracuy,1,0,VE,VE_U
+2020-05-13,Yaracuy,1,0,VE,VE_U
+2020-05-14,Yaracuy,1,0,VE,VE_U
+2020-05-15,Yaracuy,1,0,VE,VE_U
+2020-05-16,Yaracuy,2,1,VE,VE_U
+2020-05-17,Yaracuy,2,0,VE,VE_U
+2020-05-18,Yaracuy,2,0,VE,VE_U
+2020-05-19,Yaracuy,2,0,VE,VE_U
+2020-05-20,Yaracuy,2,0,VE,VE_U
+2020-05-21,Yaracuy,2,0,VE,VE_U
+2020-05-22,Yaracuy,2,0,VE,VE_U
+2020-05-23,Yaracuy,2,0,VE,VE_U
+2020-05-24,Yaracuy,6,4,VE,VE_U
+2020-05-25,Yaracuy,6,0,VE,VE_U
+2020-05-26,Yaracuy,8,2,VE,VE_U
+2020-05-27,Yaracuy,8,0,VE,VE_U
+2020-05-28,Yaracuy,8,0,VE,VE_U
+2020-05-29,Yaracuy,8,0,VE,VE_U
+2020-05-30,Yaracuy,8,0,VE,VE_U
+2020-05-31,Yaracuy,8,0,VE,VE_U
+2020-06-01,Yaracuy,8,0,VE,VE_U
+2020-06-02,Yaracuy,8,0,VE,VE_U
+2020-06-03,Yaracuy,8,0,VE,VE_U
+2020-06-04,Yaracuy,8,0,VE,VE_U
+2020-06-05,Yaracuy,9,1,VE,VE_U
+2020-06-06,Yaracuy,9,0,VE,VE_U
+2020-06-07,Yaracuy,9,0,VE,VE_U
+2020-06-08,Yaracuy,9,0,VE,VE_U
+2020-06-09,Yaracuy,9,0,VE,VE_U
+2020-06-10,Yaracuy,9,0,VE,VE_U
+2020-06-11,Yaracuy,9,0,VE,VE_U
+2020-06-12,Yaracuy,9,0,VE,VE_U
+2020-06-13,Yaracuy,9,0,VE,VE_U
+2020-06-14,Yaracuy,9,0,VE,VE_U
+2020-06-15,Yaracuy,9,0,VE,VE_U
+2020-04-16,Zulia,4,,VE,VE_V
+2020-04-17,Zulia,4,0,VE,VE_V
+2020-04-18,Zulia,4,0,VE,VE_V
+2020-04-19,Zulia,4,0,VE,VE_V
+2020-04-20,Zulia,4,0,VE,VE_V
+2020-04-21,Zulia,4,0,VE,VE_V
+2020-04-22,Zulia,4,0,VE,VE_V
+2020-04-23,Zulia,4,0,VE,VE_V
+2020-04-24,Zulia,4,0,VE,VE_V
+2020-04-25,Zulia,4,0,VE,VE_V
+2020-04-26,Zulia,4,0,VE,VE_V
+2020-04-27,Zulia,4,0,VE,VE_V
+2020-04-28,Zulia,4,0,VE,VE_V
+2020-04-29,Zulia,4,0,VE,VE_V
+2020-04-30,Zulia,4,0,VE,VE_V
+2020-05-01,Zulia,4,0,VE,VE_V
+2020-05-02,Zulia,4,0,VE,VE_V
+2020-05-03,Zulia,4,0,VE,VE_V
+2020-05-04,Zulia,6,2,VE,VE_V
+2020-05-05,Zulia,6,0,VE,VE_V
+2020-05-06,Zulia,6,0,VE,VE_V
+2020-05-07,Zulia,6,0,VE,VE_V
+2020-05-08,Zulia,6,0,VE,VE_V
+2020-05-09,Zulia,6,0,VE,VE_V
+2020-05-09,Zulia,6,0,VE,VE_V
+2020-05-10,Zulia,6,0,VE,VE_V
+2020-05-11,Zulia,6,0,VE,VE_V
+2020-05-12,Zulia,6,0,VE,VE_V
+2020-05-13,Zulia,6,0,VE,VE_V
+2020-05-14,Zulia,6,0,VE,VE_V
+2020-05-15,Zulia,6,0,VE,VE_V
+2020-05-16,Zulia,6,0,VE,VE_V
+2020-05-17,Zulia,6,0,VE,VE_V
+2020-05-18,Zulia,6,0,VE,VE_V
+2020-05-19,Zulia,8,2,VE,VE_V
+2020-05-20,Zulia,9,1,VE,VE_V
+2020-05-21,Zulia,9,0,VE,VE_V
+2020-05-22,Zulia,9,0,VE,VE_V
+2020-05-23,Zulia,9,0,VE,VE_V
+2020-05-24,Zulia,9,0,VE,VE_V
+2020-05-25,Zulia,22,13,VE,VE_V
+2020-05-26,Zulia,39,17,VE,VE_V
+2020-05-27,Zulia,39,0,VE,VE_V
+2020-05-28,Zulia,39,0,VE,VE_V
+2020-05-29,Zulia,39,0,VE,VE_V
+2020-05-30,Zulia,61,22,VE,VE_V
+2020-05-31,Zulia,107,46,VE,VE_V
+2020-06-01,Zulia,107,0,VE,VE_V
+2020-06-02,Zulia,108,1,VE,VE_V
+2020-06-03,Zulia,108,0,VE,VE_V
+2020-06-04,Zulia,137,29,VE,VE_V
+2020-06-05,Zulia,138,1,VE,VE_V
+2020-06-06,Zulia,138,0,VE,VE_V
+2020-06-07,Zulia,183,45,VE,VE_V
+2020-06-08,Zulia,183,0,VE,VE_V
+2020-06-09,Zulia,183,0,VE,VE_V
+2020-06-10,Zulia,183,0,VE,VE_V
+2020-06-11,Zulia,190,7,VE,VE_V
+2020-06-12,Zulia,228,38,VE,VE_V
+2020-06-13,Zulia,228,0,VE,VE_V
+2020-06-14,Zulia,228,0,VE,VE_V
+2020-06-15,Zulia,228,0,VE,VE_V

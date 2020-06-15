@@ -1,0 +1,320 @@
+match_string,date,confirmed,deceased,new_confirmed,total_confirmed,new_deceased,total_deceased,country_code,subregion2_code,_match_string,key
+Oruro,2020-03-10,1,,1,1,0,0,BO,,oruro,BO_O
+Oruro,2020-03-13,6,,6,7,0,0,BO,,oruro,BO_O
+Oruro,2020-03-19,1,,1,8,0,0,BO,,oruro,BO_O
+Oruro,2020-04-10,1,1,1,9,1,1,BO,,oruro,BO_O
+Oruro,2020-04-11,2,,2,11,0,1,BO,,oruro,BO_O
+Oruro,2020-04-12,2,1,2,13,1,2,BO,,oruro,BO_O
+Oruro,2020-04-13,1,,1,14,0,2,BO,,oruro,BO_O
+Oruro,2020-04-14,16,,16,30,0,2,BO,,oruro,BO_O
+Oruro,2020-04-15,7,,7,37,0,2,BO,,oruro,BO_O
+Oruro,2020-04-16,1,,1,38,0,2,BO,,oruro,BO_O
+Oruro,2020-04-17,4,,4,42,0,2,BO,,oruro,BO_O
+Oruro,2020-04-18,3,,3,45,0,2,BO,,oruro,BO_O
+Oruro,2020-04-20,4,,4,49,0,2,BO,,oruro,BO_O
+Oruro,2020-04-22,10,,10,59,0,2,BO,,oruro,BO_O
+Oruro,2020-04-23,3,,3,62,0,2,BO,,oruro,BO_O
+Oruro,2020-04-24,3,,3,65,0,2,BO,,oruro,BO_O
+Oruro,2020-04-26,14,2,14,79,2,4,BO,,oruro,BO_O
+Oruro,2020-04-27,13,,13,92,0,4,BO,,oruro,BO_O
+Oruro,2020-04-29,10,2,10,102,2,6,BO,,oruro,BO_O
+Oruro,2020-05-01,5,,5,107,0,6,BO,,oruro,BO_O
+Oruro,2020-05-02,4,,4,111,0,6,BO,,oruro,BO_O
+Oruro,2020-05-03,,1,0,111,1,7,BO,,oruro,BO_O
+Oruro,2020-05-05,2,,2,113,0,7,BO,,oruro,BO_O
+Oruro,2020-05-07,2,1,2,115,1,8,BO,,oruro,BO_O
+Oruro,2020-05-08,1,,1,116,0,8,BO,,oruro,BO_O
+Oruro,2020-05-09,5,1,5,121,1,9,BO,,oruro,BO_O
+Oruro,2020-05-10,3,,3,124,0,9,BO,,oruro,BO_O
+Oruro,2020-05-12,4,,4,128,0,9,BO,,oruro,BO_O
+Oruro,2020-05-14,4,,4,132,0,9,BO,,oruro,BO_O
+Oruro,2020-05-16,1,,1,133,0,9,BO,,oruro,BO_O
+Oruro,2020-05-17,3,,3,136,0,9,BO,,oruro,BO_O
+Oruro,2020-05-18,2,,2,138,0,9,BO,,oruro,BO_O
+Oruro,2020-05-19,1,,1,139,0,9,BO,,oruro,BO_O
+Oruro,2020-05-20,,1,0,139,1,10,BO,,oruro,BO_O
+Oruro,2020-05-21,3,2,3,142,2,12,BO,,oruro,BO_O
+Oruro,2020-05-22,2,1,2,144,1,13,BO,,oruro,BO_O
+Oruro,2020-05-23,2,,2,146,0,13,BO,,oruro,BO_O
+Oruro,2020-05-24,5,,5,151,0,13,BO,,oruro,BO_O
+Oruro,2020-05-25,1,,1,152,0,13,BO,,oruro,BO_O
+Oruro,2020-05-26,2,,2,154,0,13,BO,,oruro,BO_O
+Santa Cruz,2020-03-10,1,,1,1,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-11,1,,1,2,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-15,1,,1,3,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-17,1,,1,4,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-19,1,,1,5,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-20,3,,3,8,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-21,1,,1,9,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-22,6,,6,15,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-23,1,,1,16,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-24,2,,2,18,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-25,6,,6,24,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-26,10,,10,34,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-27,8,,8,42,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-28,2,,2,44,0,0,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-29,8,1,8,52,1,1,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-30,7,2,7,59,2,3,BO,,santa cruz,BO_S
+Santa Cruz,2020-03-31,5,1,5,64,1,4,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-01,4,1,4,68,1,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-02,2,,2,70,0,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-03,4,,4,74,0,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-04,14,,14,88,0,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-05,9,,9,97,0,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-06,3,,3,100,0,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-07,3,,3,103,0,5,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-08,24,3,24,127,3,8,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-09,3,1,3,130,1,9,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-10,4,,4,134,0,9,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-11,13,1,13,147,1,10,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-12,16,,16,163,0,10,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-13,14,,14,177,0,10,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-14,13,,13,190,0,10,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-15,25,1,25,215,1,11,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-16,3,1,3,218,1,12,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-17,19,,19,237,0,12,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-18,18,,18,255,0,12,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-19,35,,35,290,0,12,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-20,27,,27,317,0,12,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-21,7,2,7,324,2,14,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-22,47,2,47,371,2,16,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-23,14,3,14,385,3,19,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-24,61,,61,446,0,19,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-25,43,1,43,489,1,20,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-26,36,2,36,525,2,22,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-27,28,3,28,553,3,25,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-28,34,2,34,587,2,27,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-29,28,2,28,615,2,29,BO,,santa cruz,BO_S
+Santa Cruz,2020-04-30,41,3,41,656,3,32,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-01,37,2,37,693,2,34,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-02,113,4,113,806,4,38,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-03,98,2,98,904,2,40,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-04,75,4,75,979,4,44,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-05,104,2,104,1083,2,46,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-06,77,4,77,1160,4,50,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-07,158,2,158,1318,2,52,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-08,69,1,69,1387,1,53,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-09,150,3,150,1537,3,56,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-10,96,3,96,1633,3,59,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-11,190,1,190,1823,1,60,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-12,102,4,102,1925,4,64,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-13,116,8,116,2041,8,72,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-14,122,4,122,2163,4,76,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-15,134,7,134,2297,7,83,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-16,221,1,221,2518,1,84,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-17,245,3,245,2763,3,87,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-18,131,1,131,2894,1,88,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-19,88,7,88,2982,7,95,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-20,259,2,259,3241,2,97,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-21,173,10,173,3414,10,107,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-22,251,4,251,3665,4,111,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-23,235,6,235,3900,6,117,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-24,299,6,299,4199,6,123,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-25,328,5,328,4527,5,128,BO,,santa cruz,BO_S
+Santa Cruz,2020-05-26,361,7,361,4888,7,135,BO,,santa cruz,BO_S
+Cochabamba,2020-03-13,1,,1,1,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-03-19,1,,1,2,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-03-22,1,,1,3,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-03-26,7,,7,10,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-03-27,4,,4,14,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-03-29,4,,4,18,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-03-30,2,,2,20,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-04-01,1,,1,21,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-04-02,1,,1,22,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-04-03,2,,2,24,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-04-04,1,,1,25,0,0,BO,,cochabamba,BO_C
+Cochabamba,2020-04-05,8,1,8,33,1,1,BO,,cochabamba,BO_C
+Cochabamba,2020-04-06,,1,0,33,1,2,BO,,cochabamba,BO_C
+Cochabamba,2020-04-07,5,,5,38,0,2,BO,,cochabamba,BO_C
+Cochabamba,2020-04-08,9,,9,47,0,2,BO,,cochabamba,BO_C
+Cochabamba,2020-04-09,1,,1,48,0,2,BO,,cochabamba,BO_C
+Cochabamba,2020-04-11,1,2,1,49,2,4,BO,,cochabamba,BO_C
+Cochabamba,2020-04-12,3,,3,52,0,4,BO,,cochabamba,BO_C
+Cochabamba,2020-04-13,2,,2,54,0,4,BO,,cochabamba,BO_C
+Cochabamba,2020-04-14,3,,3,57,0,4,BO,,cochabamba,BO_C
+Cochabamba,2020-04-15,2,,2,59,0,4,BO,,cochabamba,BO_C
+Cochabamba,2020-04-17,1,,1,60,0,4,BO,,cochabamba,BO_C
+Cochabamba,2020-04-19,1,1,1,61,1,5,BO,,cochabamba,BO_C
+Cochabamba,2020-04-20,,1,0,61,1,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-21,1,,1,62,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-22,1,,1,63,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-23,3,,3,66,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-24,4,,4,70,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-25,1,,1,71,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-26,7,,7,78,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-28,1,,1,79,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-04-29,1,,1,80,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-02,1,,1,81,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-04,1,,1,82,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-08,8,,8,90,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-09,5,,5,95,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-10,9,,9,104,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-11,5,,5,109,0,6,BO,,cochabamba,BO_C
+Cochabamba,2020-05-12,21,1,21,130,1,7,BO,,cochabamba,BO_C
+Cochabamba,2020-05-13,18,1,18,148,1,8,BO,,cochabamba,BO_C
+Cochabamba,2020-05-14,22,,22,170,0,8,BO,,cochabamba,BO_C
+Cochabamba,2020-05-15,26,1,26,196,1,9,BO,,cochabamba,BO_C
+Cochabamba,2020-05-16,18,,18,214,0,9,BO,,cochabamba,BO_C
+Cochabamba,2020-05-17,10,,10,224,0,9,BO,,cochabamba,BO_C
+Cochabamba,2020-05-18,4,1,4,228,1,10,BO,,cochabamba,BO_C
+Cochabamba,2020-05-19,18,1,18,246,1,11,BO,,cochabamba,BO_C
+Cochabamba,2020-05-20,13,,13,259,0,11,BO,,cochabamba,BO_C
+Cochabamba,2020-05-21,7,,7,266,0,11,BO,,cochabamba,BO_C
+Cochabamba,2020-05-22,19,,19,285,0,11,BO,,cochabamba,BO_C
+Cochabamba,2020-05-23,10,2,10,295,2,13,BO,,cochabamba,BO_C
+Cochabamba,2020-05-24,34,,34,329,0,13,BO,,cochabamba,BO_C
+Cochabamba,2020-05-25,10,5,10,339,5,18,BO,,cochabamba,BO_C
+Cochabamba,2020-05-26,6,,6,345,0,18,BO,,cochabamba,BO_C
+La Paz,2020-03-19,1,,1,1,0,0,BO,,la paz,BO_L
+La Paz,2020-03-24,2,,2,3,0,0,BO,,la paz,BO_L
+La Paz,2020-03-25,1,,1,4,0,0,BO,,la paz,BO_L
+La Paz,2020-03-26,4,,4,8,0,0,BO,,la paz,BO_L
+La Paz,2020-03-28,2,,2,10,0,0,BO,,la paz,BO_L
+La Paz,2020-03-29,3,2,3,13,2,2,BO,,la paz,BO_L
+La Paz,2020-03-30,1,1,1,14,1,3,BO,,la paz,BO_L
+La Paz,2020-03-31,2,,2,16,0,3,BO,,la paz,BO_L
+La Paz,2020-04-02,3,1,3,19,1,4,BO,,la paz,BO_L
+La Paz,2020-04-03,1,1,1,20,1,5,BO,,la paz,BO_L
+La Paz,2020-04-04,3,,3,23,0,5,BO,,la paz,BO_L
+La Paz,2020-04-05,9,,9,32,0,5,BO,,la paz,BO_L
+La Paz,2020-04-06,5,2,5,37,2,7,BO,,la paz,BO_L
+La Paz,2020-04-07,2,,2,39,0,7,BO,,la paz,BO_L
+La Paz,2020-04-08,18,,18,57,0,7,BO,,la paz,BO_L
+La Paz,2020-04-10,2,,2,59,0,7,BO,,la paz,BO_L
+La Paz,2020-04-11,6,1,6,65,1,8,BO,,la paz,BO_L
+La Paz,2020-04-12,8,2,8,73,2,10,BO,,la paz,BO_L
+La Paz,2020-04-13,7,1,7,80,1,11,BO,,la paz,BO_L
+La Paz,2020-04-14,11,,11,91,0,11,BO,,la paz,BO_L
+La Paz,2020-04-15,10,,10,101,0,11,BO,,la paz,BO_L
+La Paz,2020-04-16,19,1,19,120,1,12,BO,,la paz,BO_L
+La Paz,2020-04-18,6,,6,126,0,12,BO,,la paz,BO_L
+La Paz,2020-04-19,7,,7,133,0,12,BO,,la paz,BO_L
+La Paz,2020-04-20,1,,1,134,0,12,BO,,la paz,BO_L
+La Paz,2020-04-21,3,,3,137,0,12,BO,,la paz,BO_L
+La Paz,2020-04-22,3,1,3,140,1,13,BO,,la paz,BO_L
+La Paz,2020-04-23,10,,10,150,0,13,BO,,la paz,BO_L
+La Paz,2020-04-24,5,1,5,155,1,14,BO,,la paz,BO_L
+La Paz,2020-04-25,4,1,4,159,1,15,BO,,la paz,BO_L
+La Paz,2020-04-26,9,,9,168,0,15,BO,,la paz,BO_L
+La Paz,2020-04-27,17,,17,185,0,15,BO,,la paz,BO_L
+La Paz,2020-04-28,3,,3,188,0,15,BO,,la paz,BO_L
+La Paz,2020-04-29,14,,14,202,0,15,BO,,la paz,BO_L
+La Paz,2020-04-30,16,,16,218,0,15,BO,,la paz,BO_L
+La Paz,2020-05-01,3,,3,221,0,15,BO,,la paz,BO_L
+La Paz,2020-05-02,15,,15,236,0,15,BO,,la paz,BO_L
+La Paz,2020-05-03,5,,5,241,0,15,BO,,la paz,BO_L
+La Paz,2020-05-04,2,,2,243,0,15,BO,,la paz,BO_L
+La Paz,2020-05-05,10,1,10,253,1,16,BO,,la paz,BO_L
+La Paz,2020-05-06,7,,7,260,0,16,BO,,la paz,BO_L
+La Paz,2020-05-07,11,,11,271,0,16,BO,,la paz,BO_L
+La Paz,2020-05-08,23,,23,294,0,16,BO,,la paz,BO_L
+La Paz,2020-05-09,7,,7,301,0,16,BO,,la paz,BO_L
+La Paz,2020-05-10,8,,8,309,0,16,BO,,la paz,BO_L
+La Paz,2020-05-11,4,1,4,313,1,17,BO,,la paz,BO_L
+La Paz,2020-05-12,3,,3,316,0,17,BO,,la paz,BO_L
+La Paz,2020-05-13,3,2,3,319,2,19,BO,,la paz,BO_L
+La Paz,2020-05-14,3,,3,322,0,19,BO,,la paz,BO_L
+La Paz,2020-05-15,6,,6,328,0,19,BO,,la paz,BO_L
+La Paz,2020-05-16,5,,5,333,0,19,BO,,la paz,BO_L
+La Paz,2020-05-17,2,,2,335,0,19,BO,,la paz,BO_L
+La Paz,2020-05-18,7,1,7,342,1,20,BO,,la paz,BO_L
+La Paz,2020-05-19,13,1,13,355,1,21,BO,,la paz,BO_L
+La Paz,2020-05-20,8,,8,363,0,21,BO,,la paz,BO_L
+La Paz,2020-05-21,12,1,12,375,1,22,BO,,la paz,BO_L
+La Paz,2020-05-22,6,1,6,381,1,23,BO,,la paz,BO_L
+La Paz,2020-05-23,5,1,5,386,1,24,BO,,la paz,BO_L
+La Paz,2020-05-24,8,,8,394,0,24,BO,,la paz,BO_L
+La Paz,2020-05-25,9,,9,403,0,24,BO,,la paz,BO_L
+La Paz,2020-05-26,7,,7,410,0,24,BO,,la paz,BO_L
+Potosí,2020-03-26,1,,1,1,0,0,BO,,potosí,BO_P
+Potosí,2020-03-28,2,,2,3,0,0,BO,,potosí,BO_P
+Potosí,2020-03-31,1,,1,4,0,0,BO,,potosí,BO_P
+Potosí,2020-04-02,1,,1,5,0,0,BO,,potosí,BO_P
+Potosí,2020-04-06,3,,3,8,0,0,BO,,potosí,BO_P
+Potosí,2020-04-07,2,1,2,10,1,1,BO,,potosí,BO_P
+Potosí,2020-04-08,3,,3,13,0,1,BO,,potosí,BO_P
+Potosí,2020-04-11,2,,2,15,0,1,BO,,potosí,BO_P
+Potosí,2020-04-16,1,,1,16,0,1,BO,,potosí,BO_P
+Potosí,2020-04-17,2,,2,18,0,1,BO,,potosí,BO_P
+Potosí,2020-04-19,1,,1,19,0,1,BO,,potosí,BO_P
+Potosí,2020-04-22,2,,2,21,0,1,BO,,potosí,BO_P
+Potosí,2020-04-25,5,,5,26,0,1,BO,,potosí,BO_P
+Potosí,2020-05-04,7,,7,33,0,1,BO,,potosí,BO_P
+Potosí,2020-05-05,2,,2,35,0,1,BO,,potosí,BO_P
+Potosí,2020-05-11,1,,1,36,0,1,BO,,potosí,BO_P
+Potosí,2020-05-17,2,,2,38,0,1,BO,,potosí,BO_P
+Potosí,2020-05-18,1,,1,39,0,1,BO,,potosí,BO_P
+Potosí,2020-05-20,1,,1,40,0,1,BO,,potosí,BO_P
+Potosí,2020-05-21,1,,1,41,0,1,BO,,potosí,BO_P
+Potosí,2020-05-24,1,,1,42,0,1,BO,,potosí,BO_P
+Potosí,2020-05-25,2,,2,44,0,1,BO,,potosí,BO_P
+Chuquisaca,2020-03-27,1,,1,1,0,0,BO,,chuquisaca,BO_H
+Chuquisaca,2020-04-23,1,,1,2,0,0,BO,,chuquisaca,BO_H
+Chuquisaca,2020-04-27,1,,1,3,0,0,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-01,1,,1,4,0,0,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-04,1,1,1,5,1,1,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-05,1,,1,6,0,1,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-07,5,,5,11,0,1,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-09,3,,3,14,0,1,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-10,1,,1,15,0,1,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-11,,1,0,15,1,2,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-16,1,,1,16,0,2,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-17,1,,1,17,0,2,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-20,2,,2,19,0,2,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-23,2,,2,21,0,2,BO,,chuquisaca,BO_H
+Chuquisaca,2020-05-25,1,,1,22,0,2,BO,,chuquisaca,BO_H
+Pando,2020-03-28,1,,1,1,0,0,BO,,pando,BO_N
+Pando,2020-04-01,3,,3,4,0,0,BO,,pando,BO_N
+Pando,2020-04-02,2,,2,6,0,0,BO,,pando,BO_N
+Pando,2020-04-07,4,,4,10,0,0,BO,,pando,BO_N
+Pando,2020-04-11,1,,1,11,0,0,BO,,pando,BO_N
+Pando,2020-04-17,1,,1,12,0,0,BO,,pando,BO_N
+Pando,2020-04-18,,1,0,12,1,1,BO,,pando,BO_N
+Pando,2020-05-24,1,,1,13,0,1,BO,,pando,BO_N
+Tarija,2020-03-30,1,,1,1,0,0,BO,,tarija,BO_T
+Tarija,2020-04-12,1,,1,2,0,0,BO,,tarija,BO_T
+Tarija,2020-04-17,1,,1,3,0,0,BO,,tarija,BO_T
+Tarija,2020-05-04,1,1,1,4,1,1,BO,,tarija,BO_T
+Tarija,2020-05-05,2,,2,6,0,1,BO,,tarija,BO_T
+Tarija,2020-05-08,3,,3,9,0,1,BO,,tarija,BO_T
+Tarija,2020-05-09,1,,1,10,0,1,BO,,tarija,BO_T
+Tarija,2020-05-12,3,,3,13,0,1,BO,,tarija,BO_T
+Tarija,2020-05-18,,1,0,13,1,2,BO,,tarija,BO_T
+Tarija,2020-05-20,1,,1,14,0,2,BO,,tarija,BO_T
+Tarija,2020-05-21,3,,3,17,0,2,BO,,tarija,BO_T
+Tarija,2020-05-22,1,,1,18,0,2,BO,,tarija,BO_T
+Tarija,2020-05-25,1,,1,19,0,2,BO,,tarija,BO_T
+Tarija,2020-05-26,,1,0,19,1,3,BO,,tarija,BO_T
+Beni,2020-04-20,2,,2,2,0,0,BO,,beni,BO_B
+Beni,2020-04-21,,1,0,2,1,1,BO,,beni,BO_B
+Beni,2020-04-24,31,,31,33,0,1,BO,,beni,BO_B
+Beni,2020-04-25,6,,6,39,0,1,BO,,beni,BO_B
+Beni,2020-04-26,18,,18,57,0,1,BO,,beni,BO_B
+Beni,2020-04-27,5,,5,62,0,1,BO,,beni,BO_B
+Beni,2020-04-28,1,,1,63,0,1,BO,,beni,BO_B
+Beni,2020-04-29,4,,4,67,0,1,BO,,beni,BO_B
+Beni,2020-05-01,16,2,16,83,2,3,BO,,beni,BO_B
+Beni,2020-05-02,108,1,108,191,1,4,BO,,beni,BO_B
+Beni,2020-05-03,21,2,21,212,2,6,BO,,beni,BO_B
+Beni,2020-05-05,,1,0,212,1,7,BO,,beni,BO_B
+Beni,2020-05-06,,1,0,212,1,8,BO,,beni,BO_B
+Beni,2020-05-07,19,8,19,231,8,16,BO,,beni,BO_B
+Beni,2020-05-08,81,3,81,312,3,19,BO,,beni,BO_B
+Beni,2020-05-09,,4,0,312,4,23,BO,,beni,BO_B
+Beni,2020-05-10,2,,2,314,0,23,BO,,beni,BO_B
+Beni,2020-05-11,75,2,75,389,2,25,BO,,beni,BO_B
+Beni,2020-05-12,,1,0,389,1,26,BO,,beni,BO_B
+Beni,2020-05-13,47,3,47,436,3,29,BO,,beni,BO_B
+Beni,2020-05-14,73,6,73,509,6,35,BO,,beni,BO_B
+Beni,2020-05-15,39,4,39,548,4,39,BO,,beni,BO_B
+Beni,2020-05-16,3,,3,551,0,39,BO,,beni,BO_B
+Beni,2020-05-17,,1,0,551,1,40,BO,,beni,BO_B
+Beni,2020-05-18,30,1,30,581,1,41,BO,,beni,BO_B
+Beni,2020-05-19,98,6,98,679,6,47,BO,,beni,BO_B
+Beni,2020-05-20,154,7,154,833,7,54,BO,,beni,BO_B
+Beni,2020-05-21,69,3,69,902,3,57,BO,,beni,BO_B
+Beni,2020-05-22,113,9,113,1015,9,66,BO,,beni,BO_B
+Beni,2020-05-23,82,1,82,1097,1,67,BO,,beni,BO_B
+Beni,2020-05-24,,4,0,1097,4,71,BO,,beni,BO_B
+Beni,2020-05-25,45,1,45,1142,1,72,BO,,beni,BO_B
+Beni,2020-05-26,100,5,100,1242,5,77,BO,,beni,BO_B

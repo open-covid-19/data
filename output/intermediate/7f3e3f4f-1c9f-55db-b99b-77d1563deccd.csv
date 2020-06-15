@@ -1,0 +1,2015 @@
+match_string,date,confirmed,deceased,new_confirmed,total_confirmed,new_deceased,total_deceased,country_code,subregion2_code,_match_string,key
+Kerala,2020-01-30,1,,1,1,0,0,IN,,kerala,IN_KL
+Kerala,2020-02-02,1,,1,2,0,0,IN,,kerala,IN_KL
+Kerala,2020-02-03,1,,1,3,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-08,5,,5,8,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-09,1,,1,9,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-11,8,,8,17,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-13,2,,2,19,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-15,3,,3,22,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-16,1,,1,23,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-17,3,,3,26,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-18,1,,1,27,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-20,1,,1,28,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-21,12,,12,40,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-22,12,,12,52,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-23,15,,15,67,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-24,28,,28,95,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-25,14,,14,109,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-26,9,,9,118,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-27,43,,43,161,0,0,IN,,kerala,IN_KL
+Kerala,2020-03-28,15,1,15,176,1,1,IN,,kerala,IN_KL
+Kerala,2020-03-29,6,,6,182,0,1,IN,,kerala,IN_KL
+Kerala,2020-03-30,37,,37,219,0,1,IN,,kerala,IN_KL
+Kerala,2020-03-31,15,,15,234,0,1,IN,,kerala,IN_KL
+Kerala,2020-04-01,7,1,7,241,1,2,IN,,kerala,IN_KL
+Kerala,2020-04-02,24,,24,265,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-03,21,,21,286,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-04,9,,9,295,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-05,11,,11,306,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-06,8,,8,314,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-07,13,,13,327,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-08,9,,9,336,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-09,9,,9,345,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-10,12,,12,357,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-11,7,,7,364,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-12,10,,10,374,0,2,IN,,kerala,IN_KL
+Kerala,2020-04-13,2,1,2,376,1,3,IN,,kerala,IN_KL
+Kerala,2020-04-14,3,,3,379,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-15,8,,8,387,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-16,1,,1,388,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-17,7,,7,395,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-18,1,,1,396,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-19,4,,4,400,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-20,2,,2,402,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-21,6,,6,408,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-22,19,,19,427,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-23,11,,11,438,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-24,10,,10,448,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-25,3,,3,451,0,3,IN,,kerala,IN_KL
+Kerala,2020-04-26,7,1,7,458,1,4,IN,,kerala,IN_KL
+Kerala,2020-04-27,11,,11,469,0,4,IN,,kerala,IN_KL
+Kerala,2020-04-28,13,,13,482,0,4,IN,,kerala,IN_KL
+Kerala,2020-04-29,4,,4,486,0,4,IN,,kerala,IN_KL
+Kerala,2020-04-30,10,,10,496,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-01,1,,1,497,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-02,1,,1,498,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-03,2,,2,500,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-06,2,,2,502,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-07,1,,1,503,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-10,2,,2,505,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-11,7,,7,512,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-12,7,,7,519,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-13,5,,5,524,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-14,10,,10,534,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-15,26,,26,560,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-16,16,,16,576,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-17,11,,11,587,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-18,14,,14,601,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-19,29,,29,630,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-20,12,,12,642,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-21,24,,24,666,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-22,24,,24,690,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-23,42,,42,732,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-24,63,,63,795,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-25,52,,52,847,0,4,IN,,kerala,IN_KL
+Kerala,2020-05-26,49,1,49,896,1,5,IN,,kerala,IN_KL
+Kerala,2020-05-27,67,1,67,963,1,6,IN,,kerala,IN_KL
+Kerala,2020-05-28,41,1,41,1004,1,7,IN,,kerala,IN_KL
+Kerala,2020-05-29,84,,84,1088,0,7,IN,,kerala,IN_KL
+Kerala,2020-05-30,62,1,62,1150,1,8,IN,,kerala,IN_KL
+Kerala,2020-05-31,58,1,58,1208,1,9,IN,,kerala,IN_KL
+Kerala,2020-06-01,61,,61,1269,0,9,IN,,kerala,IN_KL
+Kerala,2020-06-02,57,1,57,1326,1,10,IN,,kerala,IN_KL
+Kerala,2020-06-03,86,1,86,1412,1,11,IN,,kerala,IN_KL
+Kerala,2020-06-04,82,,82,1494,0,11,IN,,kerala,IN_KL
+Kerala,2020-06-05,94,3,94,1588,3,14,IN,,kerala,IN_KL
+Kerala,2020-06-06,111,,111,1699,0,14,IN,,kerala,IN_KL
+Kerala,2020-06-07,108,1,108,1807,1,15,IN,,kerala,IN_KL
+Kerala,2020-06-08,107,,107,1914,0,15,IN,,kerala,IN_KL
+Kerala,2020-06-09,91,1,91,2005,1,16,IN,,kerala,IN_KL
+Kerala,2020-06-10,91,,91,2096,0,16,IN,,kerala,IN_KL
+Kerala,2020-06-11,64,2,64,2160,2,18,IN,,kerala,IN_KL
+Kerala,2020-06-12,83,,83,2243,0,18,IN,,kerala,IN_KL
+Kerala,2020-06-13,78,1,78,2321,1,19,IN,,kerala,IN_KL
+Kerala,2020-06-14,85,,85,2406,0,19,IN,,kerala,IN_KL
+Delhi,2020-03-02,1,,1,1,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-04,1,,1,2,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-05,1,,1,3,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-06,1,,1,4,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-09,1,,1,5,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-11,1,,1,6,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-12,2,,2,8,0,0,IN,,delhi,IN_DL
+Delhi,2020-03-14,1,1,1,9,1,1,IN,,delhi,IN_DL
+Delhi,2020-03-17,1,,1,10,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-18,2,,2,12,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-19,2,,2,14,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-20,5,,5,19,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-21,8,,8,27,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-22,3,,3,30,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-25,1,,1,31,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-26,5,,5,36,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-27,3,,3,39,0,1,IN,,delhi,IN_DL
+Delhi,2020-03-29,10,1,10,49,1,2,IN,,delhi,IN_DL
+Delhi,2020-03-30,48,,48,97,0,2,IN,,delhi,IN_DL
+Delhi,2020-04-01,55,,55,152,0,2,IN,,delhi,IN_DL
+Delhi,2020-04-02,67,2,67,219,2,4,IN,,delhi,IN_DL
+Delhi,2020-04-03,77,,77,296,0,4,IN,,delhi,IN_DL
+Delhi,2020-04-04,149,2,149,445,2,6,IN,,delhi,IN_DL
+Delhi,2020-04-05,58,1,58,503,1,7,IN,,delhi,IN_DL
+Delhi,2020-04-06,20,,20,523,0,7,IN,,delhi,IN_DL
+Delhi,2020-04-07,53,,53,576,0,7,IN,,delhi,IN_DL
+Delhi,2020-04-08,0,2,0,576,2,9,IN,,delhi,IN_DL
+Delhi,2020-04-09,93,,93,669,0,9,IN,,delhi,IN_DL
+Delhi,2020-04-10,229,4,229,898,4,13,IN,,delhi,IN_DL
+Delhi,2020-04-11,5,1,5,903,1,14,IN,,delhi,IN_DL
+Delhi,2020-04-12,166,5,166,1069,5,19,IN,,delhi,IN_DL
+Delhi,2020-04-13,85,5,85,1154,5,24,IN,,delhi,IN_DL
+Delhi,2020-04-14,356,4,356,1510,4,28,IN,,delhi,IN_DL
+Delhi,2020-04-15,51,2,51,1561,2,30,IN,,delhi,IN_DL
+Delhi,2020-04-16,17,2,17,1578,2,32,IN,,delhi,IN_DL
+Delhi,2020-04-17,62,6,62,1640,6,38,IN,,delhi,IN_DL
+Delhi,2020-04-18,67,4,67,1707,4,42,IN,,delhi,IN_DL
+Delhi,2020-04-19,186,1,186,1893,1,43,IN,,delhi,IN_DL
+Delhi,2020-04-20,110,2,110,2003,2,45,IN,,delhi,IN_DL
+Delhi,2020-04-21,78,2,78,2081,2,47,IN,,delhi,IN_DL
+Delhi,2020-04-22,75,,75,2156,0,47,IN,,delhi,IN_DL
+Delhi,2020-04-23,92,1,92,2248,1,48,IN,,delhi,IN_DL
+Delhi,2020-04-24,128,2,128,2376,2,50,IN,,delhi,IN_DL
+Delhi,2020-04-25,138,3,138,2514,3,53,IN,,delhi,IN_DL
+Delhi,2020-04-26,111,1,111,2625,1,54,IN,,delhi,IN_DL
+Delhi,2020-04-27,293,,293,2918,0,54,IN,,delhi,IN_DL
+Delhi,2020-04-28,190,,190,3108,0,54,IN,,delhi,IN_DL
+Delhi,2020-04-29,206,,206,3314,0,54,IN,,delhi,IN_DL
+Delhi,2020-04-30,125,2,125,3439,2,56,IN,,delhi,IN_DL
+Delhi,2020-05-01,76,3,76,3515,3,59,IN,,delhi,IN_DL
+Delhi,2020-05-02,223,2,223,3738,2,61,IN,,delhi,IN_DL
+Delhi,2020-05-03,384,3,384,4122,3,64,IN,,delhi,IN_DL
+Delhi,2020-05-04,427,,427,4549,0,64,IN,,delhi,IN_DL
+Delhi,2020-05-05,349,,349,4898,0,64,IN,,delhi,IN_DL
+Delhi,2020-05-06,206,,206,5104,0,64,IN,,delhi,IN_DL
+Delhi,2020-05-07,428,1,428,5532,1,65,IN,,delhi,IN_DL
+Delhi,2020-05-08,448,1,448,5980,1,66,IN,,delhi,IN_DL
+Delhi,2020-05-09,338,2,338,6318,2,68,IN,,delhi,IN_DL
+Delhi,2020-05-10,224,5,224,6542,5,73,IN,,delhi,IN_DL
+Delhi,2020-05-11,381,,381,6923,0,73,IN,,delhi,IN_DL
+Delhi,2020-05-12,310,,310,7233,0,73,IN,,delhi,IN_DL
+Delhi,2020-05-13,406,13,406,7639,13,86,IN,,delhi,IN_DL
+Delhi,2020-05-14,359,20,359,7998,20,106,IN,,delhi,IN_DL
+Delhi,2020-05-15,472,9,472,8470,9,115,IN,,delhi,IN_DL
+Delhi,2020-05-16,425,8,425,8895,8,123,IN,,delhi,IN_DL
+Delhi,2020-05-17,438,6,438,9333,6,129,IN,,delhi,IN_DL
+Delhi,2020-05-18,721,31,721,10054,31,160,IN,,delhi,IN_DL
+Delhi,2020-05-19,0,8,0,10054,8,168,IN,,delhi,IN_DL
+Delhi,2020-05-20,500,,500,10554,0,168,IN,,delhi,IN_DL
+Delhi,2020-05-21,534,8,534,11088,8,176,IN,,delhi,IN_DL
+Delhi,2020-05-22,571,18,571,11659,18,194,IN,,delhi,IN_DL
+Delhi,2020-05-23,660,14,660,12319,14,208,IN,,delhi,IN_DL
+Delhi,2020-05-24,591,23,591,12910,23,231,IN,,delhi,IN_DL
+Delhi,2020-05-25,508,30,508,13418,30,261,IN,,delhi,IN_DL
+Delhi,2020-05-26,635,15,635,14053,15,276,IN,,delhi,IN_DL
+Delhi,2020-05-27,412,12,412,14465,12,288,IN,,delhi,IN_DL
+Delhi,2020-05-28,792,15,792,15257,15,303,IN,,delhi,IN_DL
+Delhi,2020-05-29,1024,13,1024,16281,13,316,IN,,delhi,IN_DL
+Delhi,2020-05-30,1105,82,1105,17386,82,398,IN,,delhi,IN_DL
+Delhi,2020-05-31,1163,18,1163,18549,18,416,IN,,delhi,IN_DL
+Delhi,2020-06-01,1295,57,1295,19844,57,473,IN,,delhi,IN_DL
+Delhi,2020-06-02,990,50,990,20834,50,523,IN,,delhi,IN_DL
+Delhi,2020-06-03,1298,33,1298,22132,33,556,IN,,delhi,IN_DL
+Delhi,2020-06-04,1513,50,1513,23645,50,606,IN,,delhi,IN_DL
+Delhi,2020-06-05,1359,44,1359,25004,44,650,IN,,delhi,IN_DL
+Delhi,2020-06-06,1330,58,1330,26334,58,708,IN,,delhi,IN_DL
+Delhi,2020-06-07,1320,53,1320,27654,53,761,IN,,delhi,IN_DL
+Delhi,2020-06-08,1282,51,1282,28936,51,812,IN,,delhi,IN_DL
+Delhi,2020-06-09,1007,62,1007,29943,62,874,IN,,delhi,IN_DL
+Delhi,2020-06-10,1366,31,1366,31309,31,905,IN,,delhi,IN_DL
+Delhi,2020-06-11,1501,79,1501,32810,79,984,IN,,delhi,IN_DL
+Delhi,2020-06-12,1877,101,1877,34687,101,1085,IN,,delhi,IN_DL
+Delhi,2020-06-13,2137,129,2137,36824,129,1214,IN,,delhi,IN_DL
+Delhi,2020-06-14,2134,57,2134,38958,57,1271,IN,,delhi,IN_DL
+Telangana,2020-03-02,1,,1,1,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-15,2,,2,3,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-17,2,,2,5,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-19,1,,1,6,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-20,11,,11,17,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-21,4,,4,21,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-22,1,,1,22,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-23,10,,10,32,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-24,3,,3,35,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-26,9,,9,44,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-27,4,,4,48,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-28,8,,8,56,0,0,IN,,telangana,IN_TG
+Telangana,2020-03-29,10,1,10,66,1,1,IN,,telangana,IN_TG
+Telangana,2020-03-30,5,,5,71,0,1,IN,,telangana,IN_TG
+Telangana,2020-03-31,8,,8,79,0,1,IN,,telangana,IN_TG
+Telangana,2020-04-01,17,2,17,96,2,3,IN,,telangana,IN_TG
+Telangana,2020-04-02,11,,11,107,0,3,IN,,telangana,IN_TG
+Telangana,2020-04-03,51,4,51,158,4,7,IN,,telangana,IN_TG
+Telangana,2020-04-04,1,,1,159,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-05,110,,110,269,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-06,52,,52,321,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-07,43,,43,364,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-08,63,,63,427,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-09,15,,15,442,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-10,31,,31,473,0,7,IN,,telangana,IN_TG
+Telangana,2020-04-11,31,2,31,504,2,9,IN,,telangana,IN_TG
+Telangana,2020-04-13,58,7,58,562,7,16,IN,,telangana,IN_TG
+Telangana,2020-04-14,62,1,62,624,1,17,IN,,telangana,IN_TG
+Telangana,2020-04-15,23,1,23,647,1,18,IN,,telangana,IN_TG
+Telangana,2020-04-16,51,,51,698,0,18,IN,,telangana,IN_TG
+Telangana,2020-04-17,45,,45,743,0,18,IN,,telangana,IN_TG
+Telangana,2020-04-18,48,,48,791,0,18,IN,,telangana,IN_TG
+Telangana,2020-04-19,53,,53,844,0,18,IN,,telangana,IN_TG
+Telangana,2020-04-20,29,3,29,873,3,21,IN,,telangana,IN_TG
+Telangana,2020-04-21,46,2,46,919,2,23,IN,,telangana,IN_TG
+Telangana,2020-04-22,26,,26,945,0,23,IN,,telangana,IN_TG
+Telangana,2020-04-23,15,1,15,960,1,24,IN,,telangana,IN_TG
+Telangana,2020-04-24,24,2,24,984,2,26,IN,,telangana,IN_TG
+Telangana,2020-04-26,7,,7,991,0,26,IN,,telangana,IN_TG
+Telangana,2020-04-27,11,,11,1002,0,26,IN,,telangana,IN_TG
+Telangana,2020-04-28,2,,2,1004,0,26,IN,,telangana,IN_TG
+Telangana,2020-04-29,8,,8,1012,0,26,IN,,telangana,IN_TG
+Telangana,2020-05-01,27,,27,1039,0,26,IN,,telangana,IN_TG
+Telangana,2020-05-02,18,,18,1057,0,26,IN,,telangana,IN_TG
+Telangana,2020-05-03,6,2,6,1063,2,28,IN,,telangana,IN_TG
+Telangana,2020-05-04,19,1,19,1082,1,29,IN,,telangana,IN_TG
+Telangana,2020-05-05,3,,3,1085,0,29,IN,,telangana,IN_TG
+Telangana,2020-05-06,11,,11,1096,0,29,IN,,telangana,IN_TG
+Telangana,2020-05-07,11,,11,1107,0,29,IN,,telangana,IN_TG
+Telangana,2020-05-08,16,,16,1123,0,29,IN,,telangana,IN_TG
+Telangana,2020-05-09,10,,10,1133,0,29,IN,,telangana,IN_TG
+Telangana,2020-05-10,30,1,30,1163,1,30,IN,,telangana,IN_TG
+Telangana,2020-05-11,33,,33,1196,0,30,IN,,telangana,IN_TG
+Telangana,2020-05-12,79,,79,1275,0,30,IN,,telangana,IN_TG
+Telangana,2020-05-13,51,2,51,1326,2,32,IN,,telangana,IN_TG
+Telangana,2020-05-14,41,2,41,1367,2,34,IN,,telangana,IN_TG
+Telangana,2020-05-15,47,,47,1414,0,34,IN,,telangana,IN_TG
+Telangana,2020-05-16,40,,40,1454,0,34,IN,,telangana,IN_TG
+Telangana,2020-05-17,55,,55,1509,0,34,IN,,telangana,IN_TG
+Telangana,2020-05-18,42,,42,1551,0,34,IN,,telangana,IN_TG
+Telangana,2020-05-19,46,1,46,1597,1,35,IN,,telangana,IN_TG
+Telangana,2020-05-20,37,3,37,1634,3,38,IN,,telangana,IN_TG
+Telangana,2020-05-21,27,2,27,1661,2,40,IN,,telangana,IN_TG
+Telangana,2020-05-22,38,5,38,1699,5,45,IN,,telangana,IN_TG
+Telangana,2020-05-23,62,,62,1761,0,45,IN,,telangana,IN_TG
+Telangana,2020-05-24,52,4,52,1813,4,49,IN,,telangana,IN_TG
+Telangana,2020-05-25,41,4,41,1854,4,53,IN,,telangana,IN_TG
+Telangana,2020-05-26,66,3,66,1920,3,56,IN,,telangana,IN_TG
+Telangana,2020-05-27,71,1,71,1991,1,57,IN,,telangana,IN_TG
+Telangana,2020-05-28,107,6,107,2098,6,63,IN,,telangana,IN_TG
+Telangana,2020-05-29,158,4,158,2256,4,67,IN,,telangana,IN_TG
+Telangana,2020-05-30,169,4,169,2425,4,71,IN,,telangana,IN_TG
+Telangana,2020-05-31,74,6,74,2499,6,77,IN,,telangana,IN_TG
+Telangana,2020-06-01,199,5,199,2698,5,82,IN,,telangana,IN_TG
+Telangana,2020-06-02,94,6,94,2792,6,88,IN,,telangana,IN_TG
+Telangana,2020-06-03,99,4,99,2891,4,92,IN,,telangana,IN_TG
+Telangana,2020-06-04,129,7,129,3020,7,99,IN,,telangana,IN_TG
+Telangana,2020-06-05,127,6,127,3147,6,105,IN,,telangana,IN_TG
+Telangana,2020-06-06,143,8,143,3290,8,113,IN,,telangana,IN_TG
+Telangana,2020-06-07,206,10,206,3496,10,123,IN,,telangana,IN_TG
+Telangana,2020-06-08,154,14,154,3650,14,137,IN,,telangana,IN_TG
+Telangana,2020-06-09,92,5,92,3742,5,142,IN,,telangana,IN_TG
+Telangana,2020-06-10,178,6,178,3920,6,148,IN,,telangana,IN_TG
+Telangana,2020-06-11,191,8,191,4111,8,156,IN,,telangana,IN_TG
+Telangana,2020-06-12,209,9,209,4320,9,165,IN,,telangana,IN_TG
+Telangana,2020-06-13,164,9,164,4484,9,174,IN,,telangana,IN_TG
+Telangana,2020-06-14,253,8,253,4737,8,182,IN,,telangana,IN_TG
+Rajasthan,2020-03-03,1,,1,1,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-04,1,,1,2,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-11,1,,1,3,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-12,1,,1,4,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-14,1,,1,5,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-18,1,,1,6,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-19,3,,3,9,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-20,10,,10,19,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-22,5,,5,24,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-23,4,,4,28,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-24,4,,4,32,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-25,4,,4,36,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-26,5,,5,41,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-27,7,,7,48,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-28,6,,6,54,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-29,1,,1,55,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-30,4,,4,59,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-03-31,15,,15,74,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-01,19,,19,93,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-02,15,,15,108,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-03,59,,59,167,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-04,33,,33,200,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-06,74,,74,274,0,0,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-07,14,3,14,288,3,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-08,40,,40,328,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-09,55,,55,383,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-10,80,,80,463,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-11,90,,90,553,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-12,147,,147,700,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-13,112,,112,812,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-14,67,,67,879,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-15,126,,126,1005,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-16,18,,18,1023,0,3,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-17,108,8,108,1131,8,11,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-18,98,,98,1229,0,11,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-19,122,,122,1351,0,11,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-20,127,3,127,1478,3,14,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-21,98,11,98,1576,11,25,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-22,225,,225,1801,0,25,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-23,89,2,89,1890,2,27,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-24,74,,74,1964,0,27,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-25,70,,70,2034,0,27,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-26,49,6,49,2083,6,33,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-27,102,8,102,2185,8,41,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-28,77,5,77,2262,5,46,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-29,102,5,102,2364,5,51,IN,,rajasthan,IN_RJ
+Rajasthan,2020-04-30,74,,74,2438,0,51,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-01,146,7,146,2584,7,58,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-02,82,4,82,2666,4,62,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-03,106,3,106,2772,3,65,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-04,114,6,114,2886,6,71,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-05,175,6,175,3061,6,77,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-06,97,12,97,3158,12,89,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-07,159,3,159,3317,3,92,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-08,110,5,110,3427,5,97,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-09,152,4,152,3579,4,101,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-10,129,5,129,3708,5,106,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-11,106,1,106,3814,1,107,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-12,174,6,174,3988,6,113,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-13,138,4,138,4126,4,117,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-14,202,4,202,4328,4,121,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-15,206,4,206,4534,4,125,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-16,193,,193,4727,0,125,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-17,233,1,233,4960,1,126,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-18,242,5,242,5202,5,131,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-19,305,7,305,5507,7,138,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-20,338,5,338,5845,5,143,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-21,170,4,170,6015,4,147,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-22,212,4,212,6227,4,151,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-23,267,2,267,6494,2,153,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-24,248,7,248,6742,7,160,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-25,286,3,286,7028,3,163,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-26,272,4,272,7300,4,167,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-27,236,3,236,7536,3,170,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-28,167,3,167,7703,3,173,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-29,364,7,364,8067,7,180,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-30,298,4,298,8365,4,184,IN,,rajasthan,IN_RJ
+Rajasthan,2020-05-31,252,9,252,8617,9,193,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-01,214,1,214,8831,1,194,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-02,149,4,149,8980,4,198,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-03,393,5,393,9373,5,203,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-04,279,6,279,9652,6,209,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-05,210,4,210,9862,4,213,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-06,222,5,222,10084,5,218,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-07,247,13,247,10331,13,231,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-08,268,9,268,10599,9,240,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-09,164,6,164,10763,6,246,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-10,482,9,482,11245,9,255,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-11,355,4,355,11600,4,259,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-12,238,6,238,11838,6,265,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-13,230,7,230,12068,7,272,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-14,333,10,333,12401,10,282,IN,,rajasthan,IN_RJ
+Haryana,2020-03-04,14,,14,14,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-17,1,,1,15,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-18,2,,2,17,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-22,4,,4,21,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-23,5,,5,26,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-24,2,,2,28,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-26,2,,2,30,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-27,3,,3,33,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-30,3,,3,36,0,0,IN,,haryana,IN_HR
+Haryana,2020-03-31,4,,4,40,0,0,IN,,haryana,IN_HR
+Haryana,2020-04-01,3,,3,43,0,0,IN,,haryana,IN_HR
+Haryana,2020-04-03,6,,6,49,0,0,IN,,haryana,IN_HR
+Haryana,2020-04-05,10,1,10,59,1,1,IN,,haryana,IN_HR
+Haryana,2020-04-06,25,,25,84,0,1,IN,,haryana,IN_HR
+Haryana,2020-04-07,6,,6,90,0,1,IN,,haryana,IN_HR
+Haryana,2020-04-08,57,2,57,147,2,3,IN,,haryana,IN_HR
+Haryana,2020-04-09,22,,22,169,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-11,8,,8,177,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-12,8,,8,185,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-14,14,,14,199,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-16,6,,6,205,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-18,20,,20,225,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-19,8,,8,233,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-21,21,,21,254,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-23,8,,8,262,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-24,10,,10,272,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-26,17,,17,289,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-28,7,,7,296,0,3,IN,,haryana,IN_HR
+Haryana,2020-04-29,14,,14,310,0,3,IN,,haryana,IN_HR
+Haryana,2020-05-01,3,,3,313,0,3,IN,,haryana,IN_HR
+Haryana,2020-05-02,47,1,47,360,1,4,IN,,haryana,IN_HR
+Haryana,2020-05-03,34,,34,394,0,4,IN,,haryana,IN_HR
+Haryana,2020-05-04,48,1,48,442,1,5,IN,,haryana,IN_HR
+Haryana,2020-05-05,75,1,75,517,1,6,IN,,haryana,IN_HR
+Haryana,2020-05-06,31,,31,548,0,6,IN,,haryana,IN_HR
+Haryana,2020-05-07,46,1,46,594,1,7,IN,,haryana,IN_HR
+Haryana,2020-05-08,31,,31,625,0,7,IN,,haryana,IN_HR
+Haryana,2020-05-09,22,1,22,647,1,8,IN,,haryana,IN_HR
+Haryana,2020-05-10,28,1,28,675,1,9,IN,,haryana,IN_HR
+Haryana,2020-05-11,28,1,28,703,1,10,IN,,haryana,IN_HR
+Haryana,2020-05-12,27,1,27,730,1,11,IN,,haryana,IN_HR
+Haryana,2020-05-13,50,,50,780,0,11,IN,,haryana,IN_HR
+Haryana,2020-05-14,13,,13,793,0,11,IN,,haryana,IN_HR
+Haryana,2020-05-15,25,,25,818,0,11,IN,,haryana,IN_HR
+Haryana,2020-05-17,69,2,69,887,2,13,IN,,haryana,IN_HR
+Haryana,2020-05-18,23,1,23,910,1,14,IN,,haryana,IN_HR
+Haryana,2020-05-19,18,,18,928,0,14,IN,,haryana,IN_HR
+Haryana,2020-05-20,36,,36,964,0,14,IN,,haryana,IN_HR
+Haryana,2020-05-21,29,,29,993,0,14,IN,,haryana,IN_HR
+Haryana,2020-05-22,38,1,38,1031,1,15,IN,,haryana,IN_HR
+Haryana,2020-05-23,36,1,36,1067,1,16,IN,,haryana,IN_HR
+Haryana,2020-05-24,64,,64,1131,0,16,IN,,haryana,IN_HR
+Haryana,2020-05-25,53,,53,1184,0,16,IN,,haryana,IN_HR
+Haryana,2020-05-27,121,1,121,1305,1,17,IN,,haryana,IN_HR
+Haryana,2020-05-28,76,1,76,1381,1,18,IN,,haryana,IN_HR
+Haryana,2020-05-29,123,1,123,1504,1,19,IN,,haryana,IN_HR
+Haryana,2020-05-30,217,,217,1721,0,19,IN,,haryana,IN_HR
+Haryana,2020-05-31,202,1,202,1923,1,20,IN,,haryana,IN_HR
+Haryana,2020-06-01,168,,168,2091,0,20,IN,,haryana,IN_HR
+Haryana,2020-06-02,265,1,265,2356,1,21,IN,,haryana,IN_HR
+Haryana,2020-06-03,296,2,296,2652,2,23,IN,,haryana,IN_HR
+Haryana,2020-06-04,302,,302,2954,0,23,IN,,haryana,IN_HR
+Haryana,2020-06-05,327,1,327,3281,1,24,IN,,haryana,IN_HR
+Haryana,2020-06-06,316,,316,3597,0,24,IN,,haryana,IN_HR
+Haryana,2020-06-07,355,,355,3952,0,24,IN,,haryana,IN_HR
+Haryana,2020-06-08,496,4,496,4448,4,28,IN,,haryana,IN_HR
+Haryana,2020-06-09,406,11,406,4854,11,39,IN,,haryana,IN_HR
+Haryana,2020-06-10,355,6,355,5209,6,45,IN,,haryana,IN_HR
+Haryana,2020-06-11,370,7,370,5579,7,52,IN,,haryana,IN_HR
+Haryana,2020-06-12,389,12,389,5968,12,64,IN,,haryana,IN_HR
+Haryana,2020-06-13,366,6,366,6334,6,70,IN,,haryana,IN_HR
+Haryana,2020-06-14,415,8,415,6749,8,78,IN,,haryana,IN_HR
+Uttar Pradesh,2020-03-04,6,,6,6,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-05,1,,1,7,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-09,1,,1,8,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-12,2,,2,10,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-13,1,,1,11,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-14,1,,1,12,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-17,2,,2,14,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-18,2,,2,16,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-19,4,,4,20,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-20,4,,4,24,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-22,3,,3,27,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-23,4,,4,31,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-24,2,,2,33,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-25,4,,4,37,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-26,4,,4,41,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-27,4,,4,45,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-28,10,,10,55,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-29,10,,10,65,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-30,27,,27,92,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-03-31,9,,9,101,0,0,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-01,2,2,2,103,2,2,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-02,10,,10,113,0,2,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-03,59,,59,172,0,2,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-04,2,,2,174,0,2,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-05,53,,53,227,0,2,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-06,78,1,78,305,1,3,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-08,38,,38,343,0,3,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-09,67,1,67,410,1,4,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-10,21,,21,431,0,4,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-11,2,,2,433,0,4,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-12,19,1,19,452,1,5,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-13,31,,31,483,0,5,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-14,174,,174,657,0,5,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-15,78,6,78,735,6,11,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-16,38,2,38,773,2,13,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-17,73,1,73,846,1,14,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-18,123,,123,969,0,14,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-19,115,3,115,1084,3,17,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-20,92,,92,1176,0,17,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-21,118,3,118,1294,3,20,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-22,118,1,118,1412,1,21,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-23,97,,97,1509,0,21,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-24,95,3,95,1604,3,24,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-25,174,2,174,1778,2,26,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-26,65,3,65,1843,3,29,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-27,112,2,112,1955,2,31,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-28,88,,88,2043,0,31,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-29,72,5,72,2115,5,36,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-04-30,88,3,88,2203,3,39,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-01,78,2,78,2281,2,41,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-02,174,2,174,2455,2,43,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-03,171,,171,2626,0,43,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-04,116,2,116,2742,2,45,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-05,117,8,117,2859,8,53,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-06,21,3,21,2880,3,56,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-07,118,4,118,2998,4,60,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-08,73,2,73,3071,2,62,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-09,143,4,143,3214,4,66,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-10,159,8,159,3373,8,74,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-11,94,,94,3467,0,74,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-12,106,6,106,3573,6,80,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-13,91,2,91,3664,2,82,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-14,65,1,65,3729,1,83,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-15,173,5,173,3902,5,88,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-16,155,7,155,4057,7,95,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-17,201,9,201,4258,9,104,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-18,1,,1,4259,0,104,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-19,346,14,346,4605,14,118,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-20,321,5,321,4926,5,123,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-21,249,4,249,5175,4,127,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-22,340,11,340,5515,11,138,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-23,220,14,220,5735,14,152,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-24,282,3,282,6017,3,155,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-25,251,6,251,6268,6,161,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-26,264,4,264,6532,4,165,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-27,16,5,16,6548,5,170,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-28,443,12,443,6991,12,182,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-29,179,15,179,7170,15,197,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-30,114,1,114,7284,1,198,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-05-31,161,3,161,7445,3,201,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-01,378,12,378,7823,12,213,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-02,252,4,252,8075,4,217,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-03,286,5,286,8361,5,222,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-04,368,7,368,8729,7,229,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-05,508,16,508,9237,16,245,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-06,496,12,496,9733,12,257,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-08,803,18,803,10536,18,275,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-09,411,8,411,10947,8,283,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-10,388,18,388,11335,18,301,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-11,275,20,275,11610,20,321,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-12,478,24,478,12088,24,345,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-13,528,20,528,12616,20,365,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-14,502,20,502,13118,20,385,IN,,uttar pradesh,IN_UP
+Ladakh,2020-03-07,2,,2,2,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-03-12,1,,1,3,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-03-16,1,,1,4,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-03-17,4,,4,8,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-03-20,2,,2,10,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-03-21,3,,3,13,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-04-03,1,,1,14,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-04-10,1,,1,15,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-04-15,2,,2,17,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-04-17,1,,1,18,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-04-25,2,,2,20,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-04-28,2,,2,22,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-03,18,,18,40,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-04,1,,1,41,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-08,1,,1,42,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-14,1,,1,43,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-21,1,,1,44,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-24,5,,5,49,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-25,3,,3,52,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-27,1,,1,53,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-29,20,,20,73,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-05-30,1,,1,74,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-06-02,3,,3,77,0,0,IN,,ladakh,IN_LA
+Ladakh,2020-06-03,4,1,4,81,1,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-04,9,,9,90,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-06,7,,7,97,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-07,2,,2,99,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-08,4,,4,103,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-10,5,,5,108,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-11,7,,7,115,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-12,20,,20,135,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-13,104,,104,239,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-14,198,,198,437,0,1,IN,,ladakh,IN_LA
+Tamil Nadu,2020-03-07,1,,1,1,0,0,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-19,1,,1,2,0,0,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-20,1,,1,3,0,0,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-22,3,,3,6,0,0,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-23,3,,3,9,0,0,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-24,6,,6,15,0,0,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-25,3,1,3,18,1,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-26,8,,8,26,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-27,12,,12,38,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-28,2,,2,40,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-29,9,,9,49,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-30,18,,18,67,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-03-31,7,,7,74,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-01,160,,160,234,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-03,75,,75,309,0,1,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-04,102,1,102,411,1,2,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-05,74,1,74,485,1,3,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-06,86,2,86,571,2,5,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-07,50,,50,621,0,5,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-08,69,2,69,690,2,7,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-09,48,1,48,738,1,8,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-10,96,,96,834,0,8,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-11,77,,77,911,0,8,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-12,58,2,58,969,2,10,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-13,106,1,106,1075,1,11,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-14,98,,98,1173,0,11,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-15,31,1,31,1204,1,12,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-16,38,2,38,1242,2,14,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-17,25,1,25,1267,1,15,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-18,56,,56,1323,0,15,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-19,49,,49,1372,0,15,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-20,105,,105,1477,0,15,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-21,43,2,43,1520,2,17,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-22,76,1,76,1596,1,18,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-23,33,,33,1629,0,18,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-24,54,2,54,1683,2,20,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-25,72,2,72,1755,2,22,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-26,66,1,66,1821,1,23,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-27,64,1,64,1885,1,24,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-28,52,,52,1937,0,24,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-29,121,1,121,2058,1,25,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-04-30,104,2,104,2162,2,27,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-01,161,,161,2323,0,27,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-02,203,1,203,2526,1,28,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-03,231,1,231,2757,1,29,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-04,266,1,266,3023,1,30,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-05,527,1,527,3550,1,31,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-06,508,2,508,4058,2,33,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-07,771,2,771,4829,2,35,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-08,580,2,580,5409,2,37,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-09,600,3,600,6009,3,40,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-10,526,4,526,6535,4,44,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-11,669,3,669,7204,3,47,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-12,798,6,798,8002,6,53,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-13,716,8,716,8718,8,61,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-14,509,3,509,9227,3,64,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-15,447,2,447,9674,2,66,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-16,434,5,434,10108,5,71,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-17,477,3,477,10585,3,74,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-18,639,4,639,11224,4,78,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-19,536,3,536,11760,3,81,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-20,688,3,688,12448,3,84,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-21,743,3,743,13191,3,87,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-22,776,7,776,13967,7,94,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-23,786,4,786,14753,4,98,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-24,759,5,759,15512,5,103,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-25,765,8,765,16277,8,111,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-26,805,7,805,17082,7,118,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-27,646,9,646,17728,9,127,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-28,817,6,817,18545,6,133,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-29,827,12,827,19372,12,145,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-30,874,9,874,20246,9,154,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-05-31,938,6,938,21184,6,160,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-01,1149,13,1149,22333,13,173,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-02,1162,11,1162,23495,11,184,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-03,1091,13,1091,24586,13,197,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-04,1286,11,1286,25872,11,208,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-05,1384,12,1384,27256,12,220,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-06,1438,12,1438,28694,12,232,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-07,1458,19,1458,30152,19,251,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-08,1515,18,1515,31667,18,269,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-09,1562,17,1562,33229,17,286,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-10,1685,21,1685,34914,21,307,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-11,1927,19,1927,36841,19,326,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-12,1875,23,1875,38716,23,349,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-13,1982,18,1982,40698,18,367,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-14,1989,30,1989,42687,30,397,IN,,tamil nadu,IN_TN
+Jammu and Kashmir,2020-03-09,1,,1,1,0,0,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-14,1,,1,2,0,0,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-16,1,,1,3,0,0,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-19,1,,1,4,0,0,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-25,3,,3,7,0,0,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-26,6,1,6,13,1,1,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-27,5,,5,18,0,1,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-28,2,,2,20,0,1,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-29,11,1,11,31,1,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-30,17,,17,48,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-03-31,6,,6,54,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-01,8,,8,62,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-03,13,,13,75,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-05,31,,31,106,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-06,3,,3,109,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-07,7,,7,116,0,2,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-09,42,2,42,158,2,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-10,26,,26,184,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-11,23,,23,207,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-12,17,,17,224,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-13,21,,21,245,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-14,25,,25,270,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-15,8,,8,278,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-16,22,,22,300,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-17,14,,14,314,0,4,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-18,14,1,14,328,1,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-19,13,,13,341,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-20,9,,9,350,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-21,18,,18,368,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-22,12,,12,380,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-23,27,,27,407,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-24,20,,20,427,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-25,27,,27,454,0,5,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-26,40,1,40,494,1,6,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-27,29,,29,523,0,6,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-28,23,1,23,546,1,7,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-29,19,1,19,565,1,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-04-30,16,,16,581,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-01,33,,33,614,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-02,25,,25,639,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-03,27,,27,666,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-04,35,,35,701,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-05,25,,25,726,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-06,15,,15,741,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-07,34,,34,775,0,8,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-08,18,1,18,793,1,9,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-09,30,,30,823,0,9,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-10,13,,13,836,0,9,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-11,25,,25,861,0,9,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-12,18,1,18,879,1,10,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-13,55,,55,934,0,10,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-14,37,1,37,971,1,11,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-15,12,,12,983,0,11,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-16,30,,30,1013,0,11,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-17,108,1,108,1121,1,12,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-18,62,1,62,1183,1,13,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-19,106,2,106,1289,2,15,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-20,28,2,28,1317,2,17,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-21,73,1,73,1390,1,18,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-22,59,2,59,1449,2,20,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-23,40,,40,1489,0,20,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-24,80,1,80,1569,1,21,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-25,52,,52,1621,0,21,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-26,47,2,47,1668,2,23,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-27,91,1,91,1759,1,24,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-28,162,2,162,1921,2,26,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-29,115,1,115,2036,1,27,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-30,128,1,128,2164,1,28,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-05-31,177,,177,2341,0,28,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-01,105,,105,2446,0,28,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-02,155,3,155,2601,3,31,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-03,117,2,117,2718,2,33,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-04,139,1,139,2857,1,34,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-05,285,1,285,3142,1,35,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-06,182,1,182,3324,1,36,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-07,143,3,143,3467,3,39,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-08,620,2,620,4087,2,41,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-09,198,4,198,4285,4,45,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-10,61,3,61,4346,3,48,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-11,161,3,161,4507,3,51,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-12,67,1,67,4574,1,52,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-13,156,1,156,4730,1,53,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-14,148,2,148,4878,2,55,IN,,jammu and kashmir,IN_JK
+Punjab,2020-03-09,1,,1,1,0,0,IN,,punjab,IN_PB
+Punjab,2020-03-19,1,1,1,2,1,1,IN,,punjab,IN_PB
+Punjab,2020-03-20,1,,1,3,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-21,11,,11,14,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-22,7,,7,21,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-23,2,,2,23,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-24,6,,6,29,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-25,4,,4,33,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-27,5,,5,38,0,1,IN,,punjab,IN_PB
+Punjab,2020-03-31,3,2,3,41,2,3,IN,,punjab,IN_PB
+Punjab,2020-04-01,1,,1,42,0,3,IN,,punjab,IN_PB
+Punjab,2020-04-02,4,1,4,46,1,4,IN,,punjab,IN_PB
+Punjab,2020-04-03,2,1,2,48,1,5,IN,,punjab,IN_PB
+Punjab,2020-04-04,9,,9,57,0,5,IN,,punjab,IN_PB
+Punjab,2020-04-06,19,1,19,76,1,6,IN,,punjab,IN_PB
+Punjab,2020-04-07,15,1,15,91,1,7,IN,,punjab,IN_PB
+Punjab,2020-04-09,10,1,10,101,1,8,IN,,punjab,IN_PB
+Punjab,2020-04-10,31,3,31,132,3,11,IN,,punjab,IN_PB
+Punjab,2020-04-12,19,,19,151,0,11,IN,,punjab,IN_PB
+Punjab,2020-04-13,16,,16,167,0,11,IN,,punjab,IN_PB
+Punjab,2020-04-14,9,1,9,176,1,12,IN,,punjab,IN_PB
+Punjab,2020-04-15,10,1,10,186,1,13,IN,,punjab,IN_PB
+Punjab,2020-04-18,16,,16,202,0,13,IN,,punjab,IN_PB
+Punjab,2020-04-19,17,3,17,219,3,16,IN,,punjab,IN_PB
+Punjab,2020-04-21,26,,26,245,0,16,IN,,punjab,IN_PB
+Punjab,2020-04-22,6,,6,251,0,16,IN,,punjab,IN_PB
+Punjab,2020-04-23,26,,26,277,0,16,IN,,punjab,IN_PB
+Punjab,2020-04-25,21,1,21,298,1,17,IN,,punjab,IN_PB
+Punjab,2020-04-27,15,1,15,313,1,18,IN,,punjab,IN_PB
+Punjab,2020-04-29,9,1,9,322,1,19,IN,,punjab,IN_PB
+Punjab,2020-04-30,35,,35,357,0,19,IN,,punjab,IN_PB
+Punjab,2020-05-02,415,1,415,772,1,20,IN,,punjab,IN_PB
+Punjab,2020-05-04,330,1,330,1102,1,21,IN,,punjab,IN_PB
+Punjab,2020-05-05,131,2,131,1233,2,23,IN,,punjab,IN_PB
+Punjab,2020-05-06,218,2,218,1451,2,25,IN,,punjab,IN_PB
+Punjab,2020-05-07,65,2,65,1516,2,27,IN,,punjab,IN_PB
+Punjab,2020-05-08,128,1,128,1644,1,28,IN,,punjab,IN_PB
+Punjab,2020-05-09,87,1,87,1731,1,29,IN,,punjab,IN_PB
+Punjab,2020-05-10,31,2,31,1762,2,31,IN,,punjab,IN_PB
+Punjab,2020-05-11,61,,61,1823,0,31,IN,,punjab,IN_PB
+Punjab,2020-05-12,54,,54,1877,0,31,IN,,punjab,IN_PB
+Punjab,2020-05-13,37,1,37,1914,1,32,IN,,punjab,IN_PB
+Punjab,2020-05-14,10,,10,1924,0,32,IN,,punjab,IN_PB
+Punjab,2020-05-15,11,,11,1935,0,32,IN,,punjab,IN_PB
+Punjab,2020-05-17,11,,11,1946,0,32,IN,,punjab,IN_PB
+Punjab,2020-05-18,18,3,18,1964,3,35,IN,,punjab,IN_PB
+Punjab,2020-05-19,16,2,16,1980,2,37,IN,,punjab,IN_PB
+Punjab,2020-05-20,22,1,22,2002,1,38,IN,,punjab,IN_PB
+Punjab,2020-05-21,3,,3,2005,0,38,IN,,punjab,IN_PB
+Punjab,2020-05-22,23,1,23,2028,1,39,IN,,punjab,IN_PB
+Punjab,2020-05-23,1,,1,2029,0,39,IN,,punjab,IN_PB
+Punjab,2020-05-24,16,,16,2045,0,39,IN,,punjab,IN_PB
+Punjab,2020-05-25,15,1,15,2060,1,40,IN,,punjab,IN_PB
+Punjab,2020-05-27,46,,46,2106,0,40,IN,,punjab,IN_PB
+Punjab,2020-05-28,33,,33,2139,0,40,IN,,punjab,IN_PB
+Punjab,2020-05-29,19,,19,2158,0,40,IN,,punjab,IN_PB
+Punjab,2020-05-30,39,2,39,2197,2,42,IN,,punjab,IN_PB
+Punjab,2020-05-31,36,2,36,2233,2,44,IN,,punjab,IN_PB
+Punjab,2020-06-01,30,1,30,2263,1,45,IN,,punjab,IN_PB
+Punjab,2020-06-02,38,,38,2301,0,45,IN,,punjab,IN_PB
+Punjab,2020-06-03,41,1,41,2342,1,46,IN,,punjab,IN_PB
+Punjab,2020-06-04,34,1,34,2376,1,47,IN,,punjab,IN_PB
+Punjab,2020-06-05,39,,39,2415,0,47,IN,,punjab,IN_PB
+Punjab,2020-06-06,46,1,46,2461,1,48,IN,,punjab,IN_PB
+Punjab,2020-06-07,54,2,54,2515,2,50,IN,,punjab,IN_PB
+Punjab,2020-06-08,93,1,93,2608,1,51,IN,,punjab,IN_PB
+Punjab,2020-06-09,55,2,55,2663,2,53,IN,,punjab,IN_PB
+Punjab,2020-06-10,56,2,56,2719,2,55,IN,,punjab,IN_PB
+Punjab,2020-06-11,86,,86,2805,0,55,IN,,punjab,IN_PB
+Punjab,2020-06-12,82,4,82,2887,4,59,IN,,punjab,IN_PB
+Punjab,2020-06-13,99,4,99,2986,4,63,IN,,punjab,IN_PB
+Punjab,2020-06-14,77,2,77,3063,2,65,IN,,punjab,IN_PB
+Karnataka,2020-03-10,4,,4,4,0,0,IN,,karnataka,IN_KA
+Karnataka,2020-03-12,0,1,0,4,1,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-13,2,,2,6,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-16,1,,1,7,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-17,3,,3,10,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-18,1,,1,11,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-19,3,,3,14,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-20,1,,1,15,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-22,11,,11,26,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-23,4,,4,30,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-24,7,,7,37,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-25,4,,4,41,0,1,IN,,karnataka,IN_KA
+Karnataka,2020-03-26,14,1,14,55,1,2,IN,,karnataka,IN_KA
+Karnataka,2020-03-28,9,,9,64,0,2,IN,,karnataka,IN_KA
+Karnataka,2020-03-29,12,1,12,76,1,3,IN,,karnataka,IN_KA
+Karnataka,2020-03-30,7,,7,83,0,3,IN,,karnataka,IN_KA
+Karnataka,2020-04-01,18,,18,101,0,3,IN,,karnataka,IN_KA
+Karnataka,2020-04-02,9,,9,110,0,3,IN,,karnataka,IN_KA
+Karnataka,2020-04-03,14,,14,124,0,3,IN,,karnataka,IN_KA
+Karnataka,2020-04-04,4,,4,128,0,3,IN,,karnataka,IN_KA
+Karnataka,2020-04-05,16,1,16,144,1,4,IN,,karnataka,IN_KA
+Karnataka,2020-04-06,7,,7,151,0,4,IN,,karnataka,IN_KA
+Karnataka,2020-04-07,24,,24,175,0,4,IN,,karnataka,IN_KA
+Karnataka,2020-04-09,6,1,6,181,1,5,IN,,karnataka,IN_KA
+Karnataka,2020-04-10,16,1,16,197,1,6,IN,,karnataka,IN_KA
+Karnataka,2020-04-11,17,,17,214,0,6,IN,,karnataka,IN_KA
+Karnataka,2020-04-12,12,,12,226,0,6,IN,,karnataka,IN_KA
+Karnataka,2020-04-13,21,,21,247,0,6,IN,,karnataka,IN_KA
+Karnataka,2020-04-14,11,3,11,258,3,9,IN,,karnataka,IN_KA
+Karnataka,2020-04-15,19,2,19,277,2,11,IN,,karnataka,IN_KA
+Karnataka,2020-04-16,38,2,38,315,2,13,IN,,karnataka,IN_KA
+Karnataka,2020-04-17,38,,38,353,0,13,IN,,karnataka,IN_KA
+Karnataka,2020-04-18,18,,18,371,0,13,IN,,karnataka,IN_KA
+Karnataka,2020-04-19,13,1,13,384,1,14,IN,,karnataka,IN_KA
+Karnataka,2020-04-20,11,2,11,395,2,16,IN,,karnataka,IN_KA
+Karnataka,2020-04-21,20,1,20,415,1,17,IN,,karnataka,IN_KA
+Karnataka,2020-04-22,10,,10,425,0,17,IN,,karnataka,IN_KA
+Karnataka,2020-04-23,18,,18,443,0,17,IN,,karnataka,IN_KA
+Karnataka,2020-04-24,20,1,20,463,1,18,IN,,karnataka,IN_KA
+Karnataka,2020-04-25,26,,26,489,0,18,IN,,karnataka,IN_KA
+Karnataka,2020-04-26,12,,12,501,0,18,IN,,karnataka,IN_KA
+Karnataka,2020-04-27,10,2,10,511,2,20,IN,,karnataka,IN_KA
+Karnataka,2020-04-28,9,,9,520,0,20,IN,,karnataka,IN_KA
+Karnataka,2020-04-29,12,,12,532,0,20,IN,,karnataka,IN_KA
+Karnataka,2020-04-30,25,1,25,557,1,21,IN,,karnataka,IN_KA
+Karnataka,2020-05-01,19,1,19,576,1,22,IN,,karnataka,IN_KA
+Karnataka,2020-05-02,22,3,22,598,3,25,IN,,karnataka,IN_KA
+Karnataka,2020-05-03,8,,8,606,0,25,IN,,karnataka,IN_KA
+Karnataka,2020-05-04,36,1,36,642,1,26,IN,,karnataka,IN_KA
+Karnataka,2020-05-05,17,2,17,659,2,28,IN,,karnataka,IN_KA
+Karnataka,2020-05-06,12,1,12,671,1,29,IN,,karnataka,IN_KA
+Karnataka,2020-05-07,22,,22,693,0,29,IN,,karnataka,IN_KA
+Karnataka,2020-05-08,12,1,12,705,1,30,IN,,karnataka,IN_KA
+Karnataka,2020-05-09,48,,48,753,0,30,IN,,karnataka,IN_KA
+Karnataka,2020-05-10,41,,41,794,0,30,IN,,karnataka,IN_KA
+Karnataka,2020-05-11,54,1,54,848,1,31,IN,,karnataka,IN_KA
+Karnataka,2020-05-12,14,,14,862,0,31,IN,,karnataka,IN_KA
+Karnataka,2020-05-13,63,,63,925,0,31,IN,,karnataka,IN_KA
+Karnataka,2020-05-14,34,2,34,959,2,33,IN,,karnataka,IN_KA
+Karnataka,2020-05-15,28,2,28,987,2,35,IN,,karnataka,IN_KA
+Karnataka,2020-05-16,69,1,69,1056,1,36,IN,,karnataka,IN_KA
+Karnataka,2020-05-17,36,,36,1092,0,36,IN,,karnataka,IN_KA
+Karnataka,2020-05-18,55,1,55,1147,1,37,IN,,karnataka,IN_KA
+Karnataka,2020-05-19,99,,99,1246,0,37,IN,,karnataka,IN_KA
+Karnataka,2020-05-20,151,3,151,1397,3,40,IN,,karnataka,IN_KA
+Karnataka,2020-05-21,65,1,65,1462,1,41,IN,,karnataka,IN_KA
+Karnataka,2020-05-22,143,,143,1605,0,41,IN,,karnataka,IN_KA
+Karnataka,2020-05-23,138,,138,1743,0,41,IN,,karnataka,IN_KA
+Karnataka,2020-05-24,216,1,216,1959,1,42,IN,,karnataka,IN_KA
+Karnataka,2020-05-25,130,,130,2089,0,42,IN,,karnataka,IN_KA
+Karnataka,2020-05-26,93,2,93,2182,2,44,IN,,karnataka,IN_KA
+Karnataka,2020-05-27,101,,101,2283,0,44,IN,,karnataka,IN_KA
+Karnataka,2020-05-28,135,3,135,2418,3,47,IN,,karnataka,IN_KA
+Karnataka,2020-05-29,115,,115,2533,0,47,IN,,karnataka,IN_KA
+Karnataka,2020-05-30,248,1,248,2781,1,48,IN,,karnataka,IN_KA
+Karnataka,2020-05-31,141,,141,2922,0,48,IN,,karnataka,IN_KA
+Karnataka,2020-06-01,299,3,299,3221,3,51,IN,,karnataka,IN_KA
+Karnataka,2020-06-02,187,1,187,3408,1,52,IN,,karnataka,IN_KA
+Karnataka,2020-06-03,388,,388,3796,0,52,IN,,karnataka,IN_KA
+Karnataka,2020-06-04,267,1,267,4063,1,53,IN,,karnataka,IN_KA
+Karnataka,2020-06-05,257,4,257,4320,4,57,IN,,karnataka,IN_KA
+Karnataka,2020-06-06,515,,515,4835,0,57,IN,,karnataka,IN_KA
+Karnataka,2020-06-07,378,2,378,5213,2,59,IN,,karnataka,IN_KA
+Karnataka,2020-06-08,239,2,239,5452,2,61,IN,,karnataka,IN_KA
+Karnataka,2020-06-09,308,3,308,5760,3,64,IN,,karnataka,IN_KA
+Karnataka,2020-06-10,161,2,161,5921,2,66,IN,,karnataka,IN_KA
+Karnataka,2020-06-11,120,3,120,6041,3,69,IN,,karnataka,IN_KA
+Karnataka,2020-06-12,204,3,204,6245,3,72,IN,,karnataka,IN_KA
+Karnataka,2020-06-13,271,7,271,6516,7,79,IN,,karnataka,IN_KA
+Karnataka,2020-06-14,308,2,308,6824,2,81,IN,,karnataka,IN_KA
+Maharashtra,2020-03-10,2,,2,2,0,0,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-12,6,,6,8,0,0,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-13,3,,3,11,0,0,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-14,12,,12,23,0,0,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-15,5,,5,28,0,0,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-16,6,,6,34,0,0,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-17,3,1,3,37,1,1,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-18,3,,3,40,0,1,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-19,3,,3,43,0,1,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-20,5,,5,48,0,1,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-21,11,,11,59,0,1,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-22,8,1,8,67,1,2,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-23,7,,7,74,0,2,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-24,15,,15,89,0,2,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-25,35,1,35,124,1,3,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-27,29,1,29,153,1,4,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-28,27,1,27,180,1,5,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-29,6,1,6,186,1,6,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-30,21,2,21,207,2,8,IN,,maharashtra,IN_MH
+Maharashtra,2020-03-31,47,1,47,254,1,9,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-01,48,,48,302,0,9,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-02,33,4,33,335,4,13,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-03,0,3,0,335,3,16,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-04,155,8,155,490,8,24,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-06,258,21,258,748,21,45,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-07,120,3,120,868,3,48,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-08,150,16,150,1018,16,64,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-09,117,8,117,1135,8,72,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-10,229,25,229,1364,25,97,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-11,210,13,210,1574,13,110,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-12,187,17,187,1761,17,127,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-13,224,22,224,1985,22,149,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-14,352,11,352,2337,11,160,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-15,350,18,350,2687,18,178,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-16,232,9,232,2919,9,187,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-17,286,7,286,3205,7,194,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-18,118,7,118,3323,7,201,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-19,328,10,328,3651,10,211,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-20,552,12,552,4203,12,223,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-21,466,9,466,4669,9,232,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-22,552,19,552,5221,19,251,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-23,431,18,431,5652,18,269,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-24,778,14,778,6430,14,283,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-25,387,18,387,6817,18,301,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-26,811,22,811,7628,22,323,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-27,440,19,440,8068,19,342,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-28,522,27,522,8590,27,369,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-29,728,31,728,9318,31,400,IN,,maharashtra,IN_MH
+Maharashtra,2020-04-30,597,32,597,9915,32,432,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-01,583,27,583,10498,27,459,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-02,1008,26,1008,11506,26,485,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-03,790,36,790,12296,36,521,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-04,678,27,678,12974,27,548,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-05,1567,35,1567,14541,35,583,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-06,984,34,984,15525,34,617,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-07,1233,34,1233,16758,34,651,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-08,1216,43,1216,17974,43,694,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-09,1089,37,1089,19063,37,731,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-10,1165,48,1165,20228,48,779,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-11,1943,53,1943,22171,53,832,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-12,1230,36,1230,23401,36,868,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-13,1026,53,1026,24427,53,921,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-14,1495,54,1495,25922,54,975,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-15,1602,44,1602,27524,44,1019,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-16,1576,49,1576,29100,49,1068,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-17,1606,67,1606,30706,67,1135,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-18,2347,63,2347,33053,63,1198,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-19,2005,51,2005,35058,51,1249,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-20,2078,76,2078,37136,76,1325,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-21,2161,65,2161,39297,65,1390,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-22,2345,64,2345,41642,64,1454,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-23,2940,63,2940,44582,63,1517,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-24,2608,60,2608,47190,60,1577,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-25,3041,58,3041,50231,58,1635,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-26,2436,60,2436,52667,60,1695,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-27,2091,97,2091,54758,97,1792,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-28,2190,105,2190,56948,105,1897,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-29,2598,85,2598,59546,85,1982,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-30,2682,116,2682,62228,116,2098,IN,,maharashtra,IN_MH
+Maharashtra,2020-05-31,2940,99,2940,65168,99,2197,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-01,2487,89,2487,67655,89,2286,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-02,2358,76,2358,70013,76,2362,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-03,2287,103,2287,72300,103,2465,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-04,2560,122,2560,74860,122,2587,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-05,2933,123,2933,77793,123,2710,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-06,2436,139,2436,80229,139,2849,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-07,2739,120,2739,82968,120,2969,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-08,3007,91,3007,85975,91,3060,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-09,2553,109,2553,88528,109,3169,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-10,2259,120,2259,90787,120,3289,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-11,3254,149,3254,94041,149,3438,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-12,3607,152,3607,97648,152,3590,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-13,3493,127,3493,101141,127,3717,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-14,3427,113,3427,104568,113,3830,IN,,maharashtra,IN_MH
+Andhra Pradesh,2020-03-12,1,,1,1,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-20,2,,2,3,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-22,2,,2,5,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-23,2,,2,7,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-24,1,,1,8,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-25,1,,1,9,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-26,2,,2,11,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-27,3,,3,14,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-29,5,,5,19,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-30,4,,4,23,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-03-31,17,,17,40,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-01,43,,43,83,0,0,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-02,3,1,3,86,1,1,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-03,46,,46,132,0,1,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-04,29,,29,161,0,1,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-05,29,,29,190,0,1,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-06,36,2,36,226,2,3,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-07,40,,40,266,0,3,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-08,39,1,39,305,1,4,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-09,43,,43,348,0,4,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-10,15,2,15,363,2,6,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-11,18,,18,381,0,6,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-13,51,1,51,432,1,7,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-14,41,2,41,473,2,9,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-15,30,,30,503,0,9,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-16,31,5,31,534,5,14,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-17,38,,38,572,0,14,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-18,31,1,31,603,1,15,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-20,119,5,119,722,5,20,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-21,35,2,35,757,2,22,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-22,56,2,56,813,2,24,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-23,82,3,82,895,3,27,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-24,60,2,60,955,2,29,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-25,106,2,106,1061,2,31,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-26,36,,36,1097,0,31,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-27,80,,80,1177,0,31,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-28,82,,82,1259,0,31,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-29,73,,73,1332,0,31,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-04-30,71,,71,1403,0,31,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-01,60,2,60,1463,2,33,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-02,62,,62,1525,0,33,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-03,58,,58,1583,0,33,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-04,67,3,67,1650,3,36,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-05,67,,67,1717,0,36,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-07,60,,60,1777,0,36,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-08,70,2,70,1847,2,38,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-09,40,3,40,1887,3,41,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-10,43,3,43,1930,3,44,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-11,50,1,50,1980,1,45,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-12,38,,38,2018,0,45,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-13,72,1,72,2090,1,46,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-14,47,1,47,2137,1,47,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-15,68,1,68,2205,1,48,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-16,102,,102,2307,0,48,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-17,48,1,48,2355,1,49,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-18,52,1,52,2407,1,50,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-19,67,,67,2474,0,50,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-20,58,2,58,2532,2,52,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-21,70,1,70,2602,1,53,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-22,45,,45,2647,0,53,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-23,62,2,62,2709,2,55,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-24,48,1,48,2757,1,56,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-25,66,,66,2823,0,56,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-26,287,,287,3110,0,56,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-27,61,1,61,3171,1,57,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-28,0,1,0,3171,1,58,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-29,80,1,80,3251,1,59,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-30,185,1,185,3436,1,60,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-05-31,133,,133,3569,0,60,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-01,110,2,110,3679,2,62,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-02,104,2,104,3783,2,64,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-03,115,,115,3898,0,64,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-04,182,4,182,4080,4,68,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-05,143,3,143,4223,3,71,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-06,80,2,80,4303,2,73,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-07,207,,207,4510,0,73,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-08,198,2,198,4708,2,75,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-09,143,,143,4851,0,75,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-10,219,2,219,5070,2,77,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-11,199,1,199,5269,1,78,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-12,160,2,160,5429,2,80,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-13,251,,251,5680,0,80,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-14,285,2,285,5965,2,82,IN,,andhra pradesh,IN_AP
+Odisha,2020-03-16,1,,1,1,0,0,IN,,odisha,IN_OR
+Odisha,2020-03-20,1,,1,2,0,0,IN,,odisha,IN_OR
+Odisha,2020-03-27,1,,1,3,0,0,IN,,odisha,IN_OR
+Odisha,2020-04-01,1,,1,4,0,0,IN,,odisha,IN_OR
+Odisha,2020-04-03,1,,1,5,0,0,IN,,odisha,IN_OR
+Odisha,2020-04-05,15,,15,20,0,0,IN,,odisha,IN_OR
+Odisha,2020-04-06,1,,1,21,0,0,IN,,odisha,IN_OR
+Odisha,2020-04-07,21,1,21,42,1,1,IN,,odisha,IN_OR
+Odisha,2020-04-10,2,,2,44,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-11,4,,4,48,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-12,6,,6,54,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-14,1,,1,55,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-15,5,,5,60,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-19,1,,1,61,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-20,7,,7,68,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-21,6,,6,74,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-22,8,,8,82,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-23,1,,1,83,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-24,7,,7,90,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-25,4,,4,94,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-26,9,,9,103,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-27,5,,5,108,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-28,10,,10,118,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-29,1,,1,119,0,1,IN,,odisha,IN_OR
+Odisha,2020-04-30,9,,9,128,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-01,15,,15,143,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-02,11,,11,154,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-03,6,,6,160,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-04,3,,3,163,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-05,7,,7,170,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-06,5,,5,175,0,1,IN,,odisha,IN_OR
+Odisha,2020-05-07,10,1,10,185,1,2,IN,,odisha,IN_OR
+Odisha,2020-05-08,34,,34,219,0,2,IN,,odisha,IN_OR
+Odisha,2020-05-09,52,,52,271,0,2,IN,,odisha,IN_OR
+Odisha,2020-05-10,23,,23,294,0,2,IN,,odisha,IN_OR
+Odisha,2020-05-11,83,1,83,377,1,3,IN,,odisha,IN_OR
+Odisha,2020-05-12,37,,37,414,0,3,IN,,odisha,IN_OR
+Odisha,2020-05-13,23,,23,437,0,3,IN,,odisha,IN_OR
+Odisha,2020-05-14,101,,101,538,0,3,IN,,odisha,IN_OR
+Odisha,2020-05-15,73,,73,611,0,3,IN,,odisha,IN_OR
+Odisha,2020-05-16,61,,61,672,0,3,IN,,odisha,IN_OR
+Odisha,2020-05-17,65,,65,737,0,3,IN,,odisha,IN_OR
+Odisha,2020-05-18,91,1,91,828,1,4,IN,,odisha,IN_OR
+Odisha,2020-05-19,48,,48,876,0,4,IN,,odisha,IN_OR
+Odisha,2020-05-20,102,1,102,978,1,5,IN,,odisha,IN_OR
+Odisha,2020-05-21,74,1,74,1052,1,6,IN,,odisha,IN_OR
+Odisha,2020-05-22,51,1,51,1103,1,7,IN,,odisha,IN_OR
+Odisha,2020-05-23,86,,86,1189,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-24,80,,80,1269,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-25,67,,67,1336,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-26,102,,102,1438,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-27,79,,79,1517,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-28,76,,76,1593,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-29,67,,67,1660,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-30,63,,63,1723,0,7,IN,,odisha,IN_OR
+Odisha,2020-05-31,96,,96,1819,0,7,IN,,odisha,IN_OR
+Odisha,2020-06-01,129,,129,1948,0,7,IN,,odisha,IN_OR
+Odisha,2020-06-02,156,,156,2104,0,7,IN,,odisha,IN_OR
+Odisha,2020-06-03,141,,141,2245,0,7,IN,,odisha,IN_OR
+Odisha,2020-06-04,143,,143,2388,0,7,IN,,odisha,IN_OR
+Odisha,2020-06-05,90,,90,2478,0,7,IN,,odisha,IN_OR
+Odisha,2020-06-06,130,1,130,2608,1,8,IN,,odisha,IN_OR
+Odisha,2020-06-07,173,,173,2781,0,8,IN,,odisha,IN_OR
+Odisha,2020-06-08,75,1,75,2856,1,9,IN,,odisha,IN_OR
+Odisha,2020-06-09,138,,138,2994,0,9,IN,,odisha,IN_OR
+Odisha,2020-06-10,146,,146,3140,0,9,IN,,odisha,IN_OR
+Odisha,2020-06-11,110,,110,3250,0,9,IN,,odisha,IN_OR
+Odisha,2020-06-12,136,,136,3386,0,9,IN,,odisha,IN_OR
+Odisha,2020-06-13,112,1,112,3498,1,10,IN,,odisha,IN_OR
+Odisha,2020-06-14,225,,225,3723,0,10,IN,,odisha,IN_OR
+Puducherry,2020-03-18,1,,1,1,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-04-01,2,,2,3,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-04-03,2,,2,5,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-04-11,2,,2,7,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-04-27,1,,1,8,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-05,1,,1,9,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-12,3,,3,12,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-13,1,,1,13,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-19,5,,5,18,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-22,2,,2,20,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-23,6,,6,26,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-25,15,,15,41,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-27,5,,5,46,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-05-29,5,,5,51,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-06-01,19,,19,70,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-06-02,4,,4,74,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-06-03,8,,8,82,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-06-06,17,,17,99,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-06-09,28,,28,127,0,0,IN,,puducherry,IN_PY
+Puducherry,2020-06-12,30,2,30,157,2,2,IN,,puducherry,IN_PY
+Puducherry,2020-06-14,19,,19,176,0,2,IN,,puducherry,IN_PY
+West Bengal,2020-03-18,1,,1,1,0,0,IN,,west bengal,IN_WB
+West Bengal,2020-03-20,1,,1,2,0,0,IN,,west bengal,IN_WB
+West Bengal,2020-03-21,1,,1,3,0,0,IN,,west bengal,IN_WB
+West Bengal,2020-03-22,1,,1,4,0,0,IN,,west bengal,IN_WB
+West Bengal,2020-03-23,3,1,3,7,1,1,IN,,west bengal,IN_WB
+West Bengal,2020-03-24,2,,2,9,0,1,IN,,west bengal,IN_WB
+West Bengal,2020-03-26,1,,1,10,0,1,IN,,west bengal,IN_WB
+West Bengal,2020-03-27,5,,5,15,0,1,IN,,west bengal,IN_WB
+West Bengal,2020-03-29,3,,3,18,0,1,IN,,west bengal,IN_WB
+West Bengal,2020-03-30,4,1,4,22,1,2,IN,,west bengal,IN_WB
+West Bengal,2020-03-31,4,,4,26,0,2,IN,,west bengal,IN_WB
+West Bengal,2020-04-01,11,1,11,37,1,3,IN,,west bengal,IN_WB
+West Bengal,2020-04-02,16,,16,53,0,3,IN,,west bengal,IN_WB
+West Bengal,2020-04-03,10,,10,63,0,3,IN,,west bengal,IN_WB
+West Bengal,2020-04-04,6,,6,69,0,3,IN,,west bengal,IN_WB
+West Bengal,2020-04-05,11,,11,80,0,3,IN,,west bengal,IN_WB
+West Bengal,2020-04-07,11,,11,91,0,3,IN,,west bengal,IN_WB
+West Bengal,2020-04-08,8,2,8,99,2,5,IN,,west bengal,IN_WB
+West Bengal,2020-04-09,4,,4,103,0,5,IN,,west bengal,IN_WB
+West Bengal,2020-04-10,13,,13,116,0,5,IN,,west bengal,IN_WB
+West Bengal,2020-04-11,10,,10,126,0,5,IN,,west bengal,IN_WB
+West Bengal,2020-04-12,8,,8,134,0,5,IN,,west bengal,IN_WB
+West Bengal,2020-04-13,18,2,18,152,2,7,IN,,west bengal,IN_WB
+West Bengal,2020-04-14,38,,38,190,0,7,IN,,west bengal,IN_WB
+West Bengal,2020-04-15,23,,23,213,0,7,IN,,west bengal,IN_WB
+West Bengal,2020-04-16,18,,18,231,0,7,IN,,west bengal,IN_WB
+West Bengal,2020-04-17,24,3,24,255,3,10,IN,,west bengal,IN_WB
+West Bengal,2020-04-18,32,,32,287,0,10,IN,,west bengal,IN_WB
+West Bengal,2020-04-19,23,2,23,310,2,12,IN,,west bengal,IN_WB
+West Bengal,2020-04-20,29,,29,339,0,12,IN,,west bengal,IN_WB
+West Bengal,2020-04-21,53,,53,392,0,12,IN,,west bengal,IN_WB
+West Bengal,2020-04-22,31,3,31,423,3,15,IN,,west bengal,IN_WB
+West Bengal,2020-04-23,33,,33,456,0,15,IN,,west bengal,IN_WB
+West Bengal,2020-04-24,58,,58,514,0,15,IN,,west bengal,IN_WB
+West Bengal,2020-04-25,57,3,57,571,3,18,IN,,west bengal,IN_WB
+West Bengal,2020-04-26,40,,40,611,0,18,IN,,west bengal,IN_WB
+West Bengal,2020-04-27,38,2,38,649,2,20,IN,,west bengal,IN_WB
+West Bengal,2020-04-28,48,,48,697,0,20,IN,,west bengal,IN_WB
+West Bengal,2020-04-29,28,2,28,725,2,22,IN,,west bengal,IN_WB
+West Bengal,2020-04-30,33,,33,758,0,22,IN,,west bengal,IN_WB
+West Bengal,2020-05-01,37,11,37,795,11,33,IN,,west bengal,IN_WB
+West Bengal,2020-05-03,127,,127,922,0,33,IN,,west bengal,IN_WB
+West Bengal,2020-05-04,41,2,41,963,2,35,IN,,west bengal,IN_WB
+West Bengal,2020-05-05,296,98,296,1259,98,133,IN,,west bengal,IN_WB
+West Bengal,2020-05-06,85,7,85,1344,7,140,IN,,west bengal,IN_WB
+West Bengal,2020-05-07,112,4,112,1456,4,144,IN,,west bengal,IN_WB
+West Bengal,2020-05-08,92,7,92,1548,7,151,IN,,west bengal,IN_WB
+West Bengal,2020-05-09,130,9,130,1678,9,160,IN,,west bengal,IN_WB
+West Bengal,2020-05-10,108,11,108,1786,11,171,IN,,west bengal,IN_WB
+West Bengal,2020-05-11,153,14,153,1939,14,185,IN,,west bengal,IN_WB
+West Bengal,2020-05-12,124,5,124,2063,5,190,IN,,west bengal,IN_WB
+West Bengal,2020-05-13,110,8,110,2173,8,198,IN,,west bengal,IN_WB
+West Bengal,2020-05-14,117,9,117,2290,9,207,IN,,west bengal,IN_WB
+West Bengal,2020-05-15,87,8,87,2377,8,215,IN,,west bengal,IN_WB
+West Bengal,2020-05-16,84,10,84,2461,10,225,IN,,west bengal,IN_WB
+West Bengal,2020-05-17,115,7,115,2576,7,232,IN,,west bengal,IN_WB
+West Bengal,2020-05-18,101,6,101,2677,6,238,IN,,west bengal,IN_WB
+West Bengal,2020-05-19,148,6,148,2825,6,244,IN,,west bengal,IN_WB
+West Bengal,2020-05-20,136,6,136,2961,6,250,IN,,west bengal,IN_WB
+West Bengal,2020-05-21,142,3,142,3103,3,253,IN,,west bengal,IN_WB
+West Bengal,2020-05-22,94,6,94,3197,6,259,IN,,west bengal,IN_WB
+West Bengal,2020-05-23,135,6,135,3332,6,265,IN,,west bengal,IN_WB
+West Bengal,2020-05-24,127,4,127,3459,4,269,IN,,west bengal,IN_WB
+West Bengal,2020-05-25,208,3,208,3667,3,272,IN,,west bengal,IN_WB
+West Bengal,2020-05-26,149,6,149,3816,6,278,IN,,west bengal,IN_WB
+West Bengal,2020-05-27,193,5,193,4009,5,283,IN,,west bengal,IN_WB
+West Bengal,2020-05-28,183,6,183,4192,6,289,IN,,west bengal,IN_WB
+West Bengal,2020-05-29,344,6,344,4536,6,295,IN,,west bengal,IN_WB
+West Bengal,2020-05-30,277,7,277,4813,7,302,IN,,west bengal,IN_WB
+West Bengal,2020-05-31,317,7,317,5130,7,309,IN,,west bengal,IN_WB
+West Bengal,2020-06-01,371,8,371,5501,8,317,IN,,west bengal,IN_WB
+West Bengal,2020-06-02,271,8,271,5772,8,325,IN,,west bengal,IN_WB
+West Bengal,2020-06-03,396,10,396,6168,10,335,IN,,west bengal,IN_WB
+West Bengal,2020-06-04,340,10,340,6508,10,345,IN,,west bengal,IN_WB
+West Bengal,2020-06-05,368,10,368,6876,10,355,IN,,west bengal,IN_WB
+West Bengal,2020-06-06,427,11,427,7303,11,366,IN,,west bengal,IN_WB
+West Bengal,2020-06-07,435,17,435,7738,17,383,IN,,west bengal,IN_WB
+West Bengal,2020-06-08,449,13,449,8187,13,396,IN,,west bengal,IN_WB
+West Bengal,2020-06-09,426,9,426,8613,9,405,IN,,west bengal,IN_WB
+West Bengal,2020-06-10,372,10,372,8985,10,415,IN,,west bengal,IN_WB
+West Bengal,2020-06-11,343,17,343,9328,17,432,IN,,west bengal,IN_WB
+West Bengal,2020-06-12,440,10,440,9768,10,442,IN,,west bengal,IN_WB
+West Bengal,2020-06-13,476,9,476,10244,9,451,IN,,west bengal,IN_WB
+West Bengal,2020-06-14,454,12,454,10698,12,463,IN,,west bengal,IN_WB
+Chandigarh,2020-03-19,1,,1,1,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-03-22,4,,4,5,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-03-23,1,,1,6,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-03-24,1,,1,7,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-03-28,1,,1,8,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-03-31,5,,5,13,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-01,3,,3,16,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-03,2,,2,18,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-12,1,,1,19,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-13,2,,2,21,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-19,2,,2,23,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-20,3,,3,26,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-22,1,,1,27,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-25,1,,1,28,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-26,2,,2,30,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-28,10,,10,40,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-04-29,16,,16,56,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-02,32,,32,88,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-03,6,,6,94,0,0,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-05,8,1,8,102,1,1,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-06,9,,9,111,0,1,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-07,9,,9,120,0,1,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-08,15,,15,135,0,1,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-09,15,,15,150,0,1,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-10,19,1,19,169,1,2,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-12,5,,5,174,0,2,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-13,13,1,13,187,1,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-15,4,,4,191,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-19,5,,5,196,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-20,4,,4,200,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-21,2,,2,202,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-22,15,,15,217,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-23,1,,1,218,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-24,7,,7,225,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-25,13,,13,238,0,3,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-27,28,1,28,266,1,4,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-28,13,,13,279,0,4,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-29,9,,9,288,0,4,IN,,chandigarh,IN_CH
+Chandigarh,2020-05-30,1,,1,289,0,4,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-01,4,,4,293,0,4,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-02,1,,1,294,0,4,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-03,7,1,7,301,1,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-06,3,,3,304,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-07,5,,5,309,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-08,5,,5,314,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-09,3,,3,317,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-10,6,,6,323,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-11,4,,4,327,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-12,5,,5,332,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-13,2,,2,334,0,5,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-14,11,,11,345,0,5,IN,,chandigarh,IN_CH
+Chhattisgarh,2020-03-19,1,,1,1,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-03-25,1,,1,2,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-03-26,4,,4,6,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-03-29,1,,1,7,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-03-31,1,,1,8,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-01,1,,1,9,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-06,1,,1,10,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-11,8,,8,18,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-12,7,,7,25,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-13,6,,6,31,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-15,2,,2,33,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-17,3,,3,36,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-26,1,,1,37,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-04-29,1,,1,38,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-01,2,,2,40,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-02,3,,3,43,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-04,14,,14,57,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-05,1,,1,58,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-06,1,,1,59,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-15,1,,1,60,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-16,6,,6,66,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-17,1,,1,67,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-18,19,,19,86,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-19,7,,7,93,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-20,8,,8,101,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-21,14,,14,115,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-22,13,,13,128,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-23,44,,44,172,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-24,42,,42,214,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-25,38,,38,252,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-26,39,,39,291,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-27,70,,70,361,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-28,8,,8,369,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-29,30,,30,399,0,0,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-30,16,1,16,415,1,1,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-05-31,32,,32,447,0,1,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-01,51,,51,498,0,1,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-02,49,,49,547,0,1,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-03,17,,17,564,0,1,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-04,104,1,104,668,1,2,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-05,88,,88,756,0,2,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-06,123,,123,879,0,2,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-07,44,2,44,923,2,4,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-08,150,,150,1073,0,4,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-09,87,,87,1160,0,4,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-10,80,2,80,1240,2,6,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-11,22,,22,1262,0,6,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-12,136,,136,1398,0,6,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-13,31,,31,1429,0,6,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-14,83,,83,1512,0,6,IN,,chhattisgarh,IN_CT
+Uttarakhand,2020-03-19,1,,1,1,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-03-21,2,,2,3,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-03-24,1,,1,4,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-03-26,1,,1,5,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-03-29,2,,2,7,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-03,3,,3,10,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-04,6,,6,16,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-05,6,,6,22,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-06,4,,4,26,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-07,5,,5,31,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-09,4,,4,35,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-15,2,,2,37,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-18,5,,5,42,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-20,2,,2,44,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-21,2,,2,46,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-24,1,,1,47,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-25,1,,1,48,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-26,2,,2,50,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-27,1,,1,51,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-29,3,,3,54,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-04-30,1,,1,55,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-01,2,,2,57,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-02,1,,1,58,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-03,1,,1,59,0,0,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-04,1,1,1,60,1,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-06,1,,1,61,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-09,2,,2,63,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-10,4,,4,67,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-11,1,,1,68,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-13,1,,1,69,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-14,3,,3,72,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-15,6,,6,78,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-16,4,,4,82,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-17,6,,6,88,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-18,4,,4,92,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-19,1,,1,93,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-20,18,,18,111,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-21,11,,11,122,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-22,24,,24,146,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-23,7,,7,153,0,1,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-24,91,1,91,244,1,2,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-25,73,1,73,317,1,3,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-26,32,,32,349,0,3,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-27,52,1,52,401,1,4,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-28,68,,68,469,0,4,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-29,31,,31,500,0,4,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-30,216,1,216,716,1,5,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-05-31,33,,33,749,0,5,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-01,158,,158,907,0,5,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-02,51,1,51,958,1,6,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-03,85,1,85,1043,1,7,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-04,42,1,42,1085,1,8,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-05,68,2,68,1153,2,10,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-06,62,1,62,1215,1,11,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-07,88,,88,1303,0,11,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-08,52,2,52,1355,2,13,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-09,56,,56,1411,0,13,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-10,126,,126,1537,0,13,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-11,25,2,25,1562,2,15,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-12,81,,81,1643,0,15,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-13,81,6,81,1724,6,21,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-14,61,2,61,1785,2,23,IN,,uttarakhand,IN_UT
+Gujarat,2020-03-20,5,,5,5,0,0,IN,,gujarat,IN_GJ
+Gujarat,2020-03-21,2,,2,7,0,0,IN,,gujarat,IN_GJ
+Gujarat,2020-03-22,11,1,11,18,1,1,IN,,gujarat,IN_GJ
+Gujarat,2020-03-23,11,,11,29,0,1,IN,,gujarat,IN_GJ
+Gujarat,2020-03-24,4,,4,33,0,1,IN,,gujarat,IN_GJ
+Gujarat,2020-03-25,5,,5,38,0,1,IN,,gujarat,IN_GJ
+Gujarat,2020-03-26,5,2,5,43,2,3,IN,,gujarat,IN_GJ
+Gujarat,2020-03-27,2,,2,45,0,3,IN,,gujarat,IN_GJ
+Gujarat,2020-03-29,13,2,13,58,2,5,IN,,gujarat,IN_GJ
+Gujarat,2020-03-30,11,1,11,69,1,6,IN,,gujarat,IN_GJ
+Gujarat,2020-03-31,4,,4,73,0,6,IN,,gujarat,IN_GJ
+Gujarat,2020-04-01,9,,9,82,0,6,IN,,gujarat,IN_GJ
+Gujarat,2020-04-02,5,1,5,87,1,7,IN,,gujarat,IN_GJ
+Gujarat,2020-04-03,8,1,8,95,1,8,IN,,gujarat,IN_GJ
+Gujarat,2020-04-04,10,2,10,105,2,10,IN,,gujarat,IN_GJ
+Gujarat,2020-04-05,17,1,17,122,1,11,IN,,gujarat,IN_GJ
+Gujarat,2020-04-06,22,1,22,144,1,12,IN,,gujarat,IN_GJ
+Gujarat,2020-04-07,21,1,21,165,1,13,IN,,gujarat,IN_GJ
+Gujarat,2020-04-09,14,3,14,179,3,16,IN,,gujarat,IN_GJ
+Gujarat,2020-04-10,62,1,62,241,1,17,IN,,gujarat,IN_GJ
+Gujarat,2020-04-11,67,2,67,308,2,19,IN,,gujarat,IN_GJ
+Gujarat,2020-04-12,124,3,124,432,3,22,IN,,gujarat,IN_GJ
+Gujarat,2020-04-13,107,4,107,539,4,26,IN,,gujarat,IN_GJ
+Gujarat,2020-04-14,78,,78,617,0,26,IN,,gujarat,IN_GJ
+Gujarat,2020-04-15,78,4,78,695,4,30,IN,,gujarat,IN_GJ
+Gujarat,2020-04-16,176,6,176,871,6,36,IN,,gujarat,IN_GJ
+Gujarat,2020-04-17,150,2,150,1021,2,38,IN,,gujarat,IN_GJ
+Gujarat,2020-04-18,251,10,251,1272,10,48,IN,,gujarat,IN_GJ
+Gujarat,2020-04-19,332,10,332,1604,10,58,IN,,gujarat,IN_GJ
+Gujarat,2020-04-20,247,9,247,1851,9,67,IN,,gujarat,IN_GJ
+Gujarat,2020-04-21,215,10,215,2066,10,77,IN,,gujarat,IN_GJ
+Gujarat,2020-04-22,206,18,206,2272,18,95,IN,,gujarat,IN_GJ
+Gujarat,2020-04-23,135,8,135,2407,8,103,IN,,gujarat,IN_GJ
+Gujarat,2020-04-24,217,9,217,2624,9,112,IN,,gujarat,IN_GJ
+Gujarat,2020-04-25,191,15,191,2815,15,127,IN,,gujarat,IN_GJ
+Gujarat,2020-04-26,256,6,256,3071,6,133,IN,,gujarat,IN_GJ
+Gujarat,2020-04-27,230,18,230,3301,18,151,IN,,gujarat,IN_GJ
+Gujarat,2020-04-28,247,11,247,3548,11,162,IN,,gujarat,IN_GJ
+Gujarat,2020-04-29,226,19,226,3774,19,181,IN,,gujarat,IN_GJ
+Gujarat,2020-04-30,308,16,308,4082,16,197,IN,,gujarat,IN_GJ
+Gujarat,2020-05-01,313,17,313,4395,17,214,IN,,gujarat,IN_GJ
+Gujarat,2020-05-02,326,22,326,4721,22,236,IN,,gujarat,IN_GJ
+Gujarat,2020-05-03,334,26,334,5055,26,262,IN,,gujarat,IN_GJ
+Gujarat,2020-05-04,373,28,373,5428,28,290,IN,,gujarat,IN_GJ
+Gujarat,2020-05-05,376,29,376,5804,29,319,IN,,gujarat,IN_GJ
+Gujarat,2020-05-06,441,49,441,6245,49,368,IN,,gujarat,IN_GJ
+Gujarat,2020-05-07,380,28,380,6625,28,396,IN,,gujarat,IN_GJ
+Gujarat,2020-05-08,387,29,387,7012,29,425,IN,,gujarat,IN_GJ
+Gujarat,2020-05-09,390,24,390,7402,24,449,IN,,gujarat,IN_GJ
+Gujarat,2020-05-10,394,23,394,7796,23,472,IN,,gujarat,IN_GJ
+Gujarat,2020-05-11,398,21,398,8194,21,493,IN,,gujarat,IN_GJ
+Gujarat,2020-05-12,347,20,347,8541,20,513,IN,,gujarat,IN_GJ
+Gujarat,2020-05-13,362,24,362,8903,24,537,IN,,gujarat,IN_GJ
+Gujarat,2020-05-14,364,29,364,9267,29,566,IN,,gujarat,IN_GJ
+Gujarat,2020-05-15,324,20,324,9591,20,586,IN,,gujarat,IN_GJ
+Gujarat,2020-05-16,340,20,340,9931,20,606,IN,,gujarat,IN_GJ
+Gujarat,2020-05-17,1057,19,1057,10988,19,625,IN,,gujarat,IN_GJ
+Gujarat,2020-05-18,391,34,391,11379,34,659,IN,,gujarat,IN_GJ
+Gujarat,2020-05-19,366,35,366,11745,35,694,IN,,gujarat,IN_GJ
+Gujarat,2020-05-20,395,25,395,12140,25,719,IN,,gujarat,IN_GJ
+Gujarat,2020-05-21,397,30,397,12537,30,749,IN,,gujarat,IN_GJ
+Gujarat,2020-05-22,368,24,368,12905,24,773,IN,,gujarat,IN_GJ
+Gujarat,2020-05-23,363,29,363,13268,29,802,IN,,gujarat,IN_GJ
+Gujarat,2020-05-24,396,27,396,13664,27,829,IN,,gujarat,IN_GJ
+Gujarat,2020-05-25,392,29,392,14056,29,858,IN,,gujarat,IN_GJ
+Gujarat,2020-05-26,404,30,404,14460,30,888,IN,,gujarat,IN_GJ
+Gujarat,2020-05-27,361,27,361,14821,27,915,IN,,gujarat,IN_GJ
+Gujarat,2020-05-28,374,23,374,15195,23,938,IN,,gujarat,IN_GJ
+Gujarat,2020-05-29,367,22,367,15562,22,960,IN,,gujarat,IN_GJ
+Gujarat,2020-05-30,372,20,372,15934,20,980,IN,,gujarat,IN_GJ
+Gujarat,2020-05-31,409,27,409,16343,27,1007,IN,,gujarat,IN_GJ
+Gujarat,2020-06-01,436,31,436,16779,31,1038,IN,,gujarat,IN_GJ
+Gujarat,2020-06-02,421,25,421,17200,25,1063,IN,,gujarat,IN_GJ
+Gujarat,2020-06-03,417,29,417,17617,29,1092,IN,,gujarat,IN_GJ
+Gujarat,2020-06-04,483,30,483,18100,30,1122,IN,,gujarat,IN_GJ
+Gujarat,2020-06-05,484,33,484,18584,33,1155,IN,,gujarat,IN_GJ
+Gujarat,2020-06-06,510,35,510,19094,35,1190,IN,,gujarat,IN_GJ
+Gujarat,2020-06-07,498,29,498,19592,29,1219,IN,,gujarat,IN_GJ
+Gujarat,2020-06-08,478,30,478,20070,30,1249,IN,,gujarat,IN_GJ
+Gujarat,2020-06-09,475,31,475,20545,31,1280,IN,,gujarat,IN_GJ
+Gujarat,2020-06-10,469,33,469,21014,33,1313,IN,,gujarat,IN_GJ
+Gujarat,2020-06-11,507,34,507,21521,34,1347,IN,,gujarat,IN_GJ
+Gujarat,2020-06-12,511,38,511,22032,38,1385,IN,,gujarat,IN_GJ
+Gujarat,2020-06-13,495,30,495,22527,30,1415,IN,,gujarat,IN_GJ
+Gujarat,2020-06-14,511,33,511,23038,33,1448,IN,,gujarat,IN_GJ
+Himachal Pradesh,2020-03-21,2,,2,2,0,0,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-03-23,1,1,1,3,1,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-03,3,,3,6,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-06,7,,7,13,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-08,5,,5,18,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-10,10,,10,28,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-12,4,,4,32,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-15,1,,1,33,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-16,2,,2,35,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-18,3,,3,38,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-19,1,,1,39,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-04-23,1,,1,40,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-05,1,,1,41,0,1,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-06,1,1,1,42,1,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-07,3,,3,45,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-08,1,,1,46,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-09,4,,4,50,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-11,5,,5,55,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-12,4,,4,59,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-13,6,,6,65,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-14,1,,1,66,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-15,8,,8,74,0,2,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-16,2,1,2,76,1,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-17,2,,2,78,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-18,2,,2,80,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-19,10,,10,90,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-20,2,,2,92,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-21,18,,18,110,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-22,42,,42,152,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-23,16,,16,168,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-24,17,,17,185,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-25,18,,18,203,0,3,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-26,20,2,20,223,2,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-27,24,,24,247,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-28,26,,26,273,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-29,3,,3,276,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-30,19,,19,295,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-05-31,18,,18,313,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-01,18,,18,331,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-02,9,,9,340,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-03,5,,5,345,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-04,14,,14,359,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-05,24,,24,383,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-06,10,,10,393,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-07,7,,7,400,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-08,13,,13,413,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-09,8,,8,421,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-10,24,,24,445,0,5,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-11,6,1,6,451,1,6,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-12,19,,19,470,0,6,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-13,16,,16,486,0,6,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-14,16,,16,502,0,6,IN,,himachal pradesh,IN_HP
+Madhya Pradesh,2020-03-21,4,,4,4,0,0,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-03-23,2,,2,6,0,0,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-03-24,1,,1,7,0,0,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-03-25,7,1,7,14,1,1,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-03-26,6,,6,20,0,1,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-03-27,10,1,10,30,1,2,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-03-30,17,1,17,47,1,3,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-01,19,,19,66,0,3,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-02,33,3,33,99,3,6,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-03,5,,5,104,0,6,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-05,61,3,61,165,3,9,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-07,64,4,64,229,4,13,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-09,30,3,30,259,3,16,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-11,184,17,184,443,17,33,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-12,121,3,121,564,3,36,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-13,40,7,40,604,7,43,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-14,126,7,126,730,7,50,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-15,257,3,257,987,3,53,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-16,133,,133,1120,0,53,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-17,188,4,188,1308,4,57,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-18,47,12,47,1355,12,69,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-19,52,1,52,1407,1,70,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-20,78,4,78,1485,4,74,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-21,55,2,55,1540,2,76,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-22,52,4,52,1592,4,80,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-23,103,1,103,1695,1,81,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-24,157,2,157,1852,2,83,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-25,100,9,100,1952,9,92,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-26,144,7,144,2096,7,99,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-27,72,7,72,2168,7,106,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-28,200,7,200,2368,7,113,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-29,193,6,193,2561,6,119,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-04-30,99,11,99,2660,11,130,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-01,59,7,59,2719,7,137,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-02,0,8,0,2719,8,145,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-03,127,11,127,2846,11,156,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-04,96,9,96,2942,9,165,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-05,107,11,107,3049,11,176,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-07,89,9,89,3138,9,185,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-08,114,8,114,3252,8,193,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-09,89,7,89,3341,7,200,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-10,273,15,273,3614,15,215,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-12,171,6,171,3785,6,221,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-13,201,4,201,3986,4,225,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-14,187,7,187,4173,7,232,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-15,253,5,253,4426,5,237,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-16,169,2,169,4595,2,239,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-17,194,4,194,4789,4,243,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-18,188,5,188,4977,5,248,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-19,259,4,259,5236,4,252,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-20,229,6,229,5465,6,258,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-21,270,9,270,5735,9,267,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-22,246,3,246,5981,3,270,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-23,189,2,189,6170,2,272,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-24,201,9,201,6371,9,281,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-25,294,9,294,6665,9,290,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-26,194,10,194,6859,10,300,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-27,165,5,165,7024,5,305,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-28,237,8,237,7261,8,313,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-29,192,8,192,7453,8,321,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-30,192,13,192,7645,13,334,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-05-31,246,9,246,7891,9,343,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-01,198,7,198,8089,7,350,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-02,194,8,194,8283,8,358,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-03,137,6,137,8420,6,364,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-04,168,7,168,8588,7,371,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-05,174,6,174,8762,6,377,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-06,234,7,234,8996,7,384,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-07,232,15,232,9228,15,399,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-08,173,13,173,9401,13,412,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-09,237,2,237,9638,2,414,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-10,211,6,211,9849,6,420,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-11,200,7,200,10049,7,427,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-12,192,4,192,10241,4,431,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-13,202,9,202,10443,9,440,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-14,198,7,198,10641,7,447,IN,,madhya pradesh,IN_MP
+Bihar,2020-03-22,2,1,2,2,1,1,IN,,bihar,IN_BR
+Bihar,2020-03-24,1,,1,3,0,1,IN,,bihar,IN_BR
+Bihar,2020-03-26,3,,3,6,0,1,IN,,bihar,IN_BR
+Bihar,2020-03-27,3,,3,9,0,1,IN,,bihar,IN_BR
+Bihar,2020-03-29,2,,2,11,0,1,IN,,bihar,IN_BR
+Bihar,2020-03-30,4,,4,15,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-01,8,,8,23,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-02,1,,1,24,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-03,5,,5,29,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-04,1,,1,30,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-06,2,,2,32,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-08,6,,6,38,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-09,1,,1,39,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-10,21,,21,60,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-12,4,,4,64,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-14,2,,2,66,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-15,4,,4,70,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-16,4,,4,74,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-17,9,,9,83,0,1,IN,,bihar,IN_BR
+Bihar,2020-04-18,2,1,2,85,1,2,IN,,bihar,IN_BR
+Bihar,2020-04-19,1,,1,86,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-20,10,,10,96,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-21,18,,18,114,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-22,12,,12,126,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-23,22,,22,148,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-24,28,,28,176,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-25,52,,52,228,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-26,23,,23,251,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-27,26,,26,277,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-28,69,,69,346,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-29,37,,37,383,0,2,IN,,bihar,IN_BR
+Bihar,2020-04-30,20,,20,403,0,2,IN,,bihar,IN_BR
+Bihar,2020-05-01,23,,23,426,0,2,IN,,bihar,IN_BR
+Bihar,2020-05-02,45,1,45,471,1,3,IN,,bihar,IN_BR
+Bihar,2020-05-03,11,1,11,482,1,4,IN,,bihar,IN_BR
+Bihar,2020-05-04,35,,35,517,0,4,IN,,bihar,IN_BR
+Bihar,2020-05-05,12,,12,529,0,4,IN,,bihar,IN_BR
+Bihar,2020-05-06,7,,7,536,0,4,IN,,bihar,IN_BR
+Bihar,2020-05-07,6,,6,542,0,4,IN,,bihar,IN_BR
+Bihar,2020-05-08,8,1,8,550,1,5,IN,,bihar,IN_BR
+Bihar,2020-05-09,21,,21,571,0,5,IN,,bihar,IN_BR
+Bihar,2020-05-10,20,,20,591,0,5,IN,,bihar,IN_BR
+Bihar,2020-05-11,105,1,105,696,1,6,IN,,bihar,IN_BR
+Bihar,2020-05-12,51,,51,747,0,6,IN,,bihar,IN_BR
+Bihar,2020-05-13,84,,84,831,0,6,IN,,bihar,IN_BR
+Bihar,2020-05-14,109,1,109,940,1,7,IN,,bihar,IN_BR
+Bihar,2020-05-15,54,,54,994,0,7,IN,,bihar,IN_BR
+Bihar,2020-05-16,24,,24,1018,0,7,IN,,bihar,IN_BR
+Bihar,2020-05-17,161,,161,1179,0,7,IN,,bihar,IN_BR
+Bihar,2020-05-18,83,1,83,1262,1,8,IN,,bihar,IN_BR
+Bihar,2020-05-19,129,1,129,1391,1,9,IN,,bihar,IN_BR
+Bihar,2020-05-20,107,,107,1498,0,9,IN,,bihar,IN_BR
+Bihar,2020-05-21,176,1,176,1674,1,10,IN,,bihar,IN_BR
+Bihar,2020-05-22,308,1,308,1982,1,11,IN,,bihar,IN_BR
+Bihar,2020-05-23,195,,195,2177,0,11,IN,,bihar,IN_BR
+Bihar,2020-05-24,203,,203,2380,0,11,IN,,bihar,IN_BR
+Bihar,2020-05-25,207,2,207,2587,2,13,IN,,bihar,IN_BR
+Bihar,2020-05-26,143,,143,2730,0,13,IN,,bihar,IN_BR
+Bihar,2020-05-27,253,,253,2983,0,13,IN,,bihar,IN_BR
+Bihar,2020-05-28,78,2,78,3061,2,15,IN,,bihar,IN_BR
+Bihar,2020-05-29,235,,235,3296,0,15,IN,,bihar,IN_BR
+Bihar,2020-05-30,80,,80,3376,0,15,IN,,bihar,IN_BR
+Bihar,2020-05-31,260,5,260,3636,5,20,IN,,bihar,IN_BR
+Bihar,2020-06-01,179,1,179,3815,1,21,IN,,bihar,IN_BR
+Bihar,2020-06-02,111,3,111,3926,3,24,IN,,bihar,IN_BR
+Bihar,2020-06-03,229,,229,4155,0,24,IN,,bihar,IN_BR
+Bihar,2020-06-04,235,1,235,4390,1,25,IN,,bihar,IN_BR
+Bihar,2020-06-05,103,4,103,4493,4,29,IN,,bihar,IN_BR
+Bihar,2020-06-06,103,,103,4596,0,29,IN,,bihar,IN_BR
+Bihar,2020-06-07,319,1,319,4915,1,30,IN,,bihar,IN_BR
+Bihar,2020-06-08,173,,173,5088,0,30,IN,,bihar,IN_BR
+Bihar,2020-06-09,114,1,114,5202,1,31,IN,,bihar,IN_BR
+Bihar,2020-06-10,257,1,257,5459,1,32,IN,,bihar,IN_BR
+Bihar,2020-06-11,251,1,251,5710,1,33,IN,,bihar,IN_BR
+Bihar,2020-06-12,273,3,273,5983,3,36,IN,,bihar,IN_BR
+Bihar,2020-06-13,120,,120,6103,0,36,IN,,bihar,IN_BR
+Bihar,2020-06-14,187,3,187,6290,3,39,IN,,bihar,IN_BR
+Manipur,2020-03-24,1,,1,1,,,IN,,manipur,IN_MN
+Manipur,2020-04-03,1,,1,2,,,IN,,manipur,IN_MN
+Manipur,2020-05-15,1,,1,3,,,IN,,manipur,IN_MN
+Manipur,2020-05-17,4,,4,7,,,IN,,manipur,IN_MN
+Manipur,2020-05-20,2,,2,9,,,IN,,manipur,IN_MN
+Manipur,2020-05-21,16,,16,25,,,IN,,manipur,IN_MN
+Manipur,2020-05-23,1,,1,26,,,IN,,manipur,IN_MN
+Manipur,2020-05-24,3,,3,29,,,IN,,manipur,IN_MN
+Manipur,2020-05-25,3,,3,32,,,IN,,manipur,IN_MN
+Manipur,2020-05-26,7,,7,39,,,IN,,manipur,IN_MN
+Manipur,2020-05-28,5,,5,44,,,IN,,manipur,IN_MN
+Manipur,2020-05-29,11,,11,55,,,IN,,manipur,IN_MN
+Manipur,2020-05-30,4,,4,59,,,IN,,manipur,IN_MN
+Manipur,2020-05-31,3,,3,62,,,IN,,manipur,IN_MN
+Manipur,2020-06-01,9,,9,71,,,IN,,manipur,IN_MN
+Manipur,2020-06-02,12,,12,83,,,IN,,manipur,IN_MN
+Manipur,2020-06-03,6,,6,89,,,IN,,manipur,IN_MN
+Manipur,2020-06-04,29,,29,118,,,IN,,manipur,IN_MN
+Manipur,2020-06-05,6,,6,124,,,IN,,manipur,IN_MN
+Manipur,2020-06-06,8,,8,132,,,IN,,manipur,IN_MN
+Manipur,2020-06-07,25,,25,157,,,IN,,manipur,IN_MN
+Manipur,2020-06-08,15,,15,172,,,IN,,manipur,IN_MN
+Manipur,2020-06-09,100,,100,272,,,IN,,manipur,IN_MN
+Manipur,2020-06-10,32,,32,304,,,IN,,manipur,IN_MN
+Manipur,2020-06-11,7,,7,311,,,IN,,manipur,IN_MN
+Manipur,2020-06-12,55,,55,366,,,IN,,manipur,IN_MN
+Manipur,2020-06-13,19,,19,385,,,IN,,manipur,IN_MN
+Manipur,2020-06-14,64,,64,449,,,IN,,manipur,IN_MN
+Mizoram,2020-03-25,1,,1,1,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-03,12,,12,13,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-04,1,,1,14,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-05,3,,3,17,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-06,5,,5,22,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-07,2,,2,24,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-08,10,,10,34,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-09,8,,8,42,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-10,46,,46,88,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-11,5,,5,93,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-12,9,,9,102,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-13,2,,2,104,,,IN,,mizoram,IN_MZ
+Mizoram,2020-06-14,3,,3,107,,,IN,,mizoram,IN_MZ
+Andaman and Nicobar Islands,2020-03-26,1,,1,1,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-03-27,1,,1,2,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-03-28,4,,4,6,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-03-29,3,,3,9,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-03-31,1,,1,10,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-09,1,,1,11,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-18,1,,1,12,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-19,2,,2,14,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-20,1,,1,15,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-21,1,,1,16,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-22,1,,1,17,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-23,1,,1,18,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-24,4,,4,22,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-25,5,,5,27,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-04-26,6,,6,33,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-06-11,1,,1,34,,,IN,,andaman and nicobar islands,IN_AN
+Andaman and Nicobar Islands,2020-06-12,4,,4,38,,,IN,,andaman and nicobar islands,IN_AN
+Goa,2020-03-26,3,,3,3,,,IN,,goa,IN_GA
+Goa,2020-03-29,2,,2,5,,,IN,,goa,IN_GA
+Goa,2020-04-03,1,,1,6,,,IN,,goa,IN_GA
+Goa,2020-04-04,1,,1,7,,,IN,,goa,IN_GA
+Goa,2020-05-15,7,,7,14,,,IN,,goa,IN_GA
+Goa,2020-05-16,1,,1,15,,,IN,,goa,IN_GA
+Goa,2020-05-17,2,,2,17,,,IN,,goa,IN_GA
+Goa,2020-05-18,12,,12,29,,,IN,,goa,IN_GA
+Goa,2020-05-19,9,,9,38,,,IN,,goa,IN_GA
+Goa,2020-05-20,8,,8,46,,,IN,,goa,IN_GA
+Goa,2020-05-21,4,,4,50,,,IN,,goa,IN_GA
+Goa,2020-05-22,2,,2,52,,,IN,,goa,IN_GA
+Goa,2020-05-23,2,,2,54,,,IN,,goa,IN_GA
+Goa,2020-05-24,1,,1,55,,,IN,,goa,IN_GA
+Goa,2020-05-25,11,,11,66,,,IN,,goa,IN_GA
+Goa,2020-05-26,1,,1,67,,,IN,,goa,IN_GA
+Goa,2020-05-28,1,,1,68,,,IN,,goa,IN_GA
+Goa,2020-05-29,1,,1,69,,,IN,,goa,IN_GA
+Goa,2020-05-31,1,,1,70,,,IN,,goa,IN_GA
+Goa,2020-06-02,1,,1,71,,,IN,,goa,IN_GA
+Goa,2020-06-03,8,,8,79,,,IN,,goa,IN_GA
+Goa,2020-06-05,87,,87,166,,,IN,,goa,IN_GA
+Goa,2020-06-06,30,,30,196,,,IN,,goa,IN_GA
+Goa,2020-06-07,71,,71,267,,,IN,,goa,IN_GA
+Goa,2020-06-08,33,,33,300,,,IN,,goa,IN_GA
+Goa,2020-06-09,30,,30,330,,,IN,,goa,IN_GA
+Goa,2020-06-10,29,,29,359,,,IN,,goa,IN_GA
+Goa,2020-06-11,28,,28,387,,,IN,,goa,IN_GA
+Goa,2020-06-12,30,,30,417,,,IN,,goa,IN_GA
+Goa,2020-06-13,46,,46,463,,,IN,,goa,IN_GA
+Goa,2020-06-14,60,,60,523,,,IN,,goa,IN_GA
+Assam,2020-04-01,1,,1,1,0,0,IN,,assam,IN_AS
+Assam,2020-04-02,4,,4,5,0,0,IN,,assam,IN_AS
+Assam,2020-04-03,11,,11,16,0,0,IN,,assam,IN_AS
+Assam,2020-04-04,8,,8,24,0,0,IN,,assam,IN_AS
+Assam,2020-04-05,2,,2,26,0,0,IN,,assam,IN_AS
+Assam,2020-04-08,1,,1,27,0,0,IN,,assam,IN_AS
+Assam,2020-04-09,1,,1,28,0,0,IN,,assam,IN_AS
+Assam,2020-04-10,1,,1,29,0,0,IN,,assam,IN_AS
+Assam,2020-04-11,0,1,0,29,1,1,IN,,assam,IN_AS
+Assam,2020-04-13,2,,2,31,0,1,IN,,assam,IN_AS
+Assam,2020-04-15,2,,2,33,0,1,IN,,assam,IN_AS
+Assam,2020-04-17,2,,2,35,0,1,IN,,assam,IN_AS
+Assam,2020-04-24,1,,1,36,0,1,IN,,assam,IN_AS
+Assam,2020-04-28,2,,2,38,0,1,IN,,assam,IN_AS
+Assam,2020-04-30,4,,4,42,0,1,IN,,assam,IN_AS
+Assam,2020-05-02,1,,1,43,0,1,IN,,assam,IN_AS
+Assam,2020-05-07,2,,2,45,0,1,IN,,assam,IN_AS
+Assam,2020-05-08,9,,9,54,0,1,IN,,assam,IN_AS
+Assam,2020-05-09,5,,5,59,0,1,IN,,assam,IN_AS
+Assam,2020-05-10,4,1,4,63,1,2,IN,,assam,IN_AS
+Assam,2020-05-12,2,,2,65,0,2,IN,,assam,IN_AS
+Assam,2020-05-14,15,,15,80,0,2,IN,,assam,IN_AS
+Assam,2020-05-15,7,,7,87,0,2,IN,,assam,IN_AS
+Assam,2020-05-16,3,,3,90,0,2,IN,,assam,IN_AS
+Assam,2020-05-17,2,,2,92,0,2,IN,,assam,IN_AS
+Assam,2020-05-18,9,,9,101,0,2,IN,,assam,IN_AS
+Assam,2020-05-19,6,,6,107,0,2,IN,,assam,IN_AS
+Assam,2020-05-20,35,2,35,142,2,4,IN,,assam,IN_AS
+Assam,2020-05-21,28,,28,170,0,4,IN,,assam,IN_AS
+Assam,2020-05-22,33,,33,203,0,4,IN,,assam,IN_AS
+Assam,2020-05-23,56,,56,259,0,4,IN,,assam,IN_AS
+Assam,2020-05-24,70,,70,329,0,4,IN,,assam,IN_AS
+Assam,2020-05-25,49,,49,378,0,4,IN,,assam,IN_AS
+Assam,2020-05-26,148,,148,526,0,4,IN,,assam,IN_AS
+Assam,2020-05-27,90,,90,616,0,4,IN,,assam,IN_AS
+Assam,2020-05-28,165,,165,781,0,4,IN,,assam,IN_AS
+Assam,2020-05-29,75,,75,856,0,4,IN,,assam,IN_AS
+Assam,2020-05-30,168,,168,1024,0,4,IN,,assam,IN_AS
+Assam,2020-05-31,161,,161,1185,0,4,IN,,assam,IN_AS
+Assam,2020-06-01,87,,87,1272,0,4,IN,,assam,IN_AS
+Assam,2020-06-02,118,,118,1390,0,4,IN,,assam,IN_AS
+Assam,2020-06-03,123,,123,1513,0,4,IN,,assam,IN_AS
+Assam,2020-06-04,159,,159,1672,0,4,IN,,assam,IN_AS
+Assam,2020-06-05,316,,316,1988,0,4,IN,,assam,IN_AS
+Assam,2020-06-06,165,,165,2153,0,4,IN,,assam,IN_AS
+Assam,2020-06-07,244,,244,2397,0,4,IN,,assam,IN_AS
+Assam,2020-06-08,168,,168,2565,0,4,IN,,assam,IN_AS
+Assam,2020-06-09,211,,211,2776,0,4,IN,,assam,IN_AS
+Assam,2020-06-10,161,,161,2937,0,4,IN,,assam,IN_AS
+Assam,2020-06-11,155,,155,3092,0,4,IN,,assam,IN_AS
+Assam,2020-06-12,227,2,227,3319,2,6,IN,,assam,IN_AS
+Assam,2020-06-13,179,2,179,3498,2,8,IN,,assam,IN_AS
+Assam,2020-06-14,220,,220,3718,0,8,IN,,assam,IN_AS
+Jharkhand,2020-04-01,1,,1,1,0,0,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-03,1,,1,2,0,0,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-05,1,,1,3,0,0,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-06,1,,1,4,0,0,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-09,9,,9,13,0,0,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-10,0,1,0,13,1,1,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-11,4,,4,17,0,1,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-13,2,1,2,19,1,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-14,5,,5,24,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-15,3,,3,27,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-16,1,,1,28,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-17,1,,1,29,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-18,4,,4,33,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-19,2,,2,35,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-20,7,,7,42,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-21,4,,4,46,0,2,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-22,-1,1,-1,45,1,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-23,4,,4,49,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-24,6,,6,55,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-25,4,,4,59,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-26,8,,8,67,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-27,15,,15,82,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-28,21,,21,103,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-29,2,,2,105,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-04-30,2,,2,107,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-01,4,,4,111,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-03,4,,4,115,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-06,10,,10,125,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-07,2,,2,127,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-08,5,,5,132,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-10,24,,24,156,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-11,1,,1,157,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-12,3,,3,160,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-13,12,,12,172,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-14,1,,1,173,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-15,24,,24,197,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-16,6,,6,203,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-17,14,,14,217,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-18,6,,6,223,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-20,8,,8,231,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-22,59,,59,290,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-23,18,,18,308,0,3,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-24,42,1,42,350,1,4,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-25,20,,20,370,0,4,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-26,7,,7,377,0,4,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-27,49,,49,426,0,4,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-28,22,,22,448,0,4,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-29,21,,21,469,0,4,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-30,42,1,42,511,1,5,IN,,jharkhand,IN_JH
+Jharkhand,2020-05-31,52,,52,563,0,5,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-01,47,,47,610,0,5,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-02,49,,49,659,0,5,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-03,53,,53,712,0,5,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-04,40,,40,752,0,5,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-05,41,1,41,793,1,6,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-06,88,1,88,881,1,7,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-07,119,,119,1000,0,7,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-08,99,,99,1099,0,7,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-09,157,,157,1256,0,7,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-10,155,1,155,1411,1,8,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-11,78,,78,1489,0,8,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-12,110,,110,1599,0,8,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-13,18,,18,1617,0,8,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-14,94,,94,1711,0,8,IN,,jharkhand,IN_JH
+Arunachal Pradesh,2020-04-03,1,,1,1,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-05-26,1,,1,2,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-05-29,1,,1,3,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-05-31,1,,1,4,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-02,18,,18,22,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-04,16,,16,38,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-05,4,,4,42,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-06,3,,3,45,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-07,2,,2,47,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-08,4,,4,51,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-10,6,,6,57,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-12,4,,4,61,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-13,6,,6,67,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-14,20,,20,87,,,IN,,arunachal pradesh,IN_AR
+Tripura,2020-04-07,1,,1,1,0,0,IN,,tripura,IN_TR
+Tripura,2020-04-11,1,,1,2,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-03,2,,2,4,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-04,12,,12,16,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-05,13,,13,29,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-06,14,,14,43,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-08,22,,22,65,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-09,53,,53,118,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-10,16,,16,134,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-11,16,,16,150,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-12,2,,2,152,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-13,2,,2,154,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-14,1,,1,155,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-15,1,,1,156,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-17,11,,11,167,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-20,6,,6,173,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-23,2,,2,175,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-24,14,,14,189,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-25,2,,2,191,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-26,3,,3,194,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-27,13,,13,207,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-28,23,,23,230,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-29,12,,12,242,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-30,9,,9,251,0,0,IN,,tripura,IN_TR
+Tripura,2020-05-31,17,,17,268,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-01,45,,45,313,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-02,107,,107,420,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-03,48,,48,468,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-05,176,,176,644,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-06,48,,48,692,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-07,55,,55,747,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-08,53,,53,800,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-09,38,,38,838,0,0,IN,,tripura,IN_TR
+Tripura,2020-06-10,26,1,26,864,1,1,IN,,tripura,IN_TR
+Tripura,2020-06-11,31,,31,895,0,1,IN,,tripura,IN_TR
+Tripura,2020-06-12,18,,18,913,0,1,IN,,tripura,IN_TR
+Tripura,2020-06-13,48,,48,961,0,1,IN,,tripura,IN_TR
+Tripura,2020-06-14,85,,85,1046,0,1,IN,,tripura,IN_TR
+Nagaland,2020-04-13,1,,1,1,,,IN,,nagaland,IN_NL
+Nagaland,2020-04-15,-1,,-1,0,,,IN,,nagaland,IN_NL
+Nagaland,2020-05-26,3,,3,3,,,IN,,nagaland,IN_NL
+Nagaland,2020-05-27,1,,1,4,,,IN,,nagaland,IN_NL
+Nagaland,2020-05-29,14,,14,18,,,IN,,nagaland,IN_NL
+Nagaland,2020-05-30,7,,7,25,,,IN,,nagaland,IN_NL
+Nagaland,2020-05-31,11,,11,36,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-01,7,,7,43,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-03,6,,6,49,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-04,9,,9,58,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-05,22,,22,80,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-06,14,,14,94,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-07,13,,13,107,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-08,11,,11,118,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-09,5,,5,123,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-10,4,,4,127,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-11,1,,1,128,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-13,28,,28,156,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-14,7,,7,163,,,IN,,nagaland,IN_NL
+Meghalaya,2020-04-14,1,,1,1,0,0,IN,,meghalaya,IN_ML
+Meghalaya,2020-04-15,6,1,6,7,1,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-04-17,2,,2,9,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-04-18,2,,2,11,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-04-22,1,,1,12,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-05-10,1,,1,13,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-05-21,1,,1,14,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-05-27,1,,1,15,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-05-28,5,,5,20,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-05-29,1,,1,21,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-05-30,6,,6,27,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-06-04,6,,6,33,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-06-08,3,,3,36,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-06-10,7,,7,43,0,1,IN,,meghalaya,IN_ML
+Meghalaya,2020-06-11,1,,1,44,0,1,IN,,meghalaya,IN_ML
+Dadra and Nagar Haveli and Daman and Diu,2020-05-06,1,,1,1,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-05-24,1,,1,2,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-02,1,,1,3,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-03,1,,1,4,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-04,4,,4,8,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-05,4,,4,12,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-06,2,,2,14,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-07,5,,5,19,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-08,1,,1,20,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-09,2,,2,22,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-11,6,,6,28,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-12,2,,2,30,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-14,5,,5,35,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Sikkim,2020-05-24,1,,1,1,,,IN,,sikkim,IN_SK
+Sikkim,2020-06-04,1,,1,2,,,IN,,sikkim,IN_SK
+Sikkim,2020-06-06,1,,1,3,,,IN,,sikkim,IN_SK
+Sikkim,2020-06-07,4,,4,7,,,IN,,sikkim,IN_SK
+Sikkim,2020-06-10,6,,6,13,,,IN,,sikkim,IN_SK
+Sikkim,2020-06-12,1,,1,14,,,IN,,sikkim,IN_SK
+Sikkim,2020-06-13,49,,49,63,,,IN,,sikkim,IN_SK
