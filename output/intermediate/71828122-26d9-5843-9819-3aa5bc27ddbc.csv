@@ -74,6 +74,7 @@ Incheon,2020-06-10,6,,6,299,,,KR,,incheon,KR_28
 Incheon,2020-06-11,1,,1,300,,,KR,,incheon,KR_28
 Incheon,2020-06-12,1,,1,301,,,KR,,incheon,KR_28
 Incheon,2020-06-13,8,,8,309,,,KR,,incheon,KR_28
+Incheon,2020-06-14,8,,8,317,,,KR,,incheon,KR_28
 Seoul,2020-01-24,1,,1,1,0,0,KR,,seoul,KR_11
 Seoul,2020-01-30,3,,3,4,0,0,KR,,seoul,KR_11
 Seoul,2020-01-31,3,,3,7,0,0,KR,,seoul,KR_11
@@ -184,6 +185,7 @@ Seoul,2020-06-10,21,,21,1042,0,4,KR,,seoul,KR_11
 Seoul,2020-06-11,25,,25,1067,0,4,KR,,seoul,KR_11
 Seoul,2020-06-12,29,,29,1096,0,4,KR,,seoul,KR_11
 Seoul,2020-06-13,12,,12,1108,0,4,KR,,seoul,KR_11
+Seoul,2020-06-14,7,,7,1115,0,4,KR,,seoul,KR_11
 Gyeonggi,2020-01-26,1,,1,1,0,0,KR,,gyeonggi,KR_41
 Gyeonggi,2020-01-27,1,,1,2,0,0,KR,,gyeonggi,KR_41
 Gyeonggi,2020-02-01,1,,1,3,0,0,KR,,gyeonggi,KR_41
@@ -299,6 +301,7 @@ Gyeonggi,2020-06-10,16,,16,991,0,22,KR,,gyeonggi,KR_41
 Gyeonggi,2020-06-11,19,,19,1010,0,22,KR,,gyeonggi,KR_41
 Gyeonggi,2020-06-12,14,,14,1024,0,22,KR,,gyeonggi,KR_41
 Gyeonggi,2020-06-13,10,,10,1034,0,22,KR,,gyeonggi,KR_41
+Gyeonggi,2020-06-14,10,,10,1044,0,22,KR,,gyeonggi,KR_41
 Jeonbuk,2020-01-31,1,,1,1,,,KR,,jeonbuk,KR_45
 Jeonbuk,2020-02-21,1,,1,2,,,KR,,jeonbuk,KR_45
 Jeonbuk,2020-02-22,1,,1,3,,,KR,,jeonbuk,KR_45
@@ -616,6 +619,7 @@ Chungnam,2020-06-04,1,,1,135,,,KR,,chungnam,KR_44
 Chungnam,2020-06-05,1,,1,136,,,KR,,chungnam,KR_44
 Chungnam,2020-06-08,2,,2,138,,,KR,,chungnam,KR_44
 Chungnam,2020-06-12,1,,1,139,,,KR,,chungnam,KR_44
+Chungnam,2020-06-14,2,,2,141,,,KR,,chungnam,KR_44
 Gyeongnam,2020-02-21,4,,4,4,,,KR,,gyeongnam,KR_48
 Gyeongnam,2020-02-23,10,,10,14,,,KR,,gyeongnam,KR_48
 Gyeongnam,2020-02-24,3,,3,17,,,KR,,gyeongnam,KR_48
@@ -660,6 +664,7 @@ Gyeongnam,2020-05-22,1,,1,120,,,KR,,gyeongnam,KR_48
 Gyeongnam,2020-06-05,1,,1,121,,,KR,,gyeongnam,KR_48
 Gyeongnam,2020-06-08,1,,1,122,,,KR,,gyeongnam,KR_48
 Gyeongnam,2020-06-09,2,,2,124,,,KR,,gyeongnam,KR_48
+Gyeongnam,2020-06-14,3,,3,127,,,KR,,gyeongnam,KR_48
 Jeju,2020-02-21,1,,1,1,,,KR,,jeju,KR_49
 Jeju,2020-02-22,1,,1,2,,,KR,,jeju,KR_49
 Jeju,2020-02-23,1,,1,3,,,KR,,jeju,KR_49
