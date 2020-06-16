@@ -56,10 +56,10 @@ class SudanHumdataDataSource(DataSource):
 
         data.date = data.date.apply(lambda x: datetime_isoformat(x, "%m/%d/%Y"))
 
-        # Sudan data includes empty cells where there are
-        # no confirmed cases.  These get read in as NaN.
-        # Replace them with zeroes so that the grouped_diff call to get new confirmed
-        #  cases works for a state's first day with a case.
+        # Sudan data includes empty cells where there are no confirmed cases.
+        # These get read in as NaN.  Replace them with zeroes so that the
+        # grouped_diff call to get new confirmed cases works for a state's first
+        # day with a case.
 
         data["total_confirmed"] = (
             data["total_confirmed"].fillna(0).astype({"total_confirmed": "int64"})
