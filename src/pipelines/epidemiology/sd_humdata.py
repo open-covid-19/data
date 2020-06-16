@@ -46,11 +46,13 @@ class SudanHumdataDataSource(DataSource):
             "date",
         ] = "5/11/2020"
 
-        print(data.to_string())
         data = data.drop(axis=1, columns=["As of Date", "Source"])
 
         # Remove Abyei PCA, a disputed region with no data shown.
         data = data[data["match_string"] != "Abyei PCA"]
+
+        # Data source uses different spelling from src/data/iso_3166_2_codes.csv
+        data["match_string"].replace({"Gedaref": "Al Qadarif"}, inplace=True)
 
         data.date = data.date.apply(lambda x: datetime_isoformat(x, "%m/%d/%Y"))
 
