@@ -2625,6 +2625,24 @@ SA,Saudi Arabia,,,,,,-1,nan,sa,saudiarabia,nan,nan,nan,nan,Q851,country/SAU,SA,S
 SB,Solomon Islands,,,,,,-1,nan,sb,solomonislands,nan,nan,nan,nan,Q685,country/SLB,SB,SLB,0,SB
 SC,Seychelles,,,,,,-1,nan,sc,seychelles,nan,nan,nan,nan,Q1042,country/SYC,SC,SYC,0,SC
 SD,Sudan,,,,,,-1,nan,sd,sudan,nan,nan,nan,nan,Q1049,country/SDN,SD,SDN,0,SD
+SD,Sudan,DC,Central Darfur,,,,,nan,sd,sudan,dc,centraldarfur,nan,nan,Q4116493,,SD,SDN,1,SD_DC
+SD,Sudan,DE,East Darfur,,,,,nan,sd,sudan,de,eastdarfur,nan,nan,Q3545641,,SD,SDN,1,SD_DE
+SD,Sudan,DN,North Darfur,,,,,nan,sd,sudan,dn,northdarfur,nan,nan,Q688306,,SD,SDN,1,SD_DN
+SD,Sudan,DS,South Darfur,,,,,nan,sd,sudan,ds,southdarfur,nan,nan,Q838778,,SD,SDN,1,SD_DS
+SD,Sudan,DW,West Darfur,,,,,nan,sd,sudan,dw,westdarfur,nan,nan,Q846331,,SD,SDN,1,SD_DW
+SD,Sudan,GD,Al Qadarif,,,,,nan,sd,sudan,gd,alqadarif,nan,nan,Q309478,,SD,SDN,1,SD_GD
+SD,Sudan,GK,West Kordofan,,,,,nan,sd,sudan,gk,westkordofan,nan,nan,Q536396,,SD,SDN,1,SD_GK
+SD,Sudan,GZ,Al Jazirah,,,,,nan,sd,sudan,gz,aljazirah,nan,nan,Q309469,,SD,SDN,1,SD_GZ
+SD,Sudan,KA,Kassala,,,,,nan,sd,sudan,ka,kassala,nan,nan,Q954963,,SD,SDN,1,SD_KA
+SD,Sudan,KH,Khartoum,,,,,nan,sd,sudan,kh,khartoum,nan,nan,Q310385,,SD,SDN,1,SD_KH
+SD,Sudan,KN,North Kordofan,,,,,nan,sd,sudan,kn,northkordofan,nan,nan,Q864093,,SD,SDN,1,SD_KN
+SD,Sudan,KS,South Kordofan,,,,,nan,sd,sudan,ks,southkordofan,nan,nan,Q465490,,SD,SDN,1,SD_KS
+SD,Sudan,NB,Blue Nile,,,,,nan,sd,sudan,nb,bluenile,nan,nan,Q309489,,SD,SDN,1,SD_NB
+SD,Sudan,NO,Northern,,,,,nan,sd,sudan,no,northern,nan,nan,Q310118,,SD,SDN,1,SD_NO
+SD,Sudan,NR,River Nile,,,,,nan,sd,sudan,nr,rivernile,nan,nan,Q849297,,SD,SDN,1,SD_NR
+SD,Sudan,NW,White Nile,,,,,nan,sd,sudan,nw,whitenile,nan,nan,Q311371,,SD,SDN,1,SD_NW
+SD,Sudan,RS,Red Sea,,,,,nan,sd,sudan,rs,redsea,nan,nan,Q310120,,SD,SDN,1,SD_RS
+SD,Sudan,SI,Sennar,,,,,nan,sd,sudan,si,sennar,nan,nan,Q865534,,SD,SDN,1,SD_SI
 SE,Sweden,,,,,,-1,nan,se,sweden,nan,nan,nan,nan,Q34,country/SWE,SE,SWE,0,SE
 SE,Sweden,110,Stockholm,,,,,nan,se,sweden,,stockholm,nan,nan,Q104231,nuts/SE110,SE,SWE,1,SE_110
 SE,Sweden,121,Uppsala,,,,,nan,se,sweden,,uppsala,nan,nan,Q104926,nuts/SE121,SE,SWE,1,SE_121
