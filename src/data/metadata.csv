@@ -2622,6 +2622,24 @@ SA,SA,Saudi Arabia,,,,,,-1
 SB,SB,Solomon Islands,,,,,,-1
 SC,SC,Seychelles,,,,,,-1
 SD,SD,Sudan,,,,,,-1
+SD_DC,SD,Sudan,DE,Central Darfur,,,,
+SD_DE,SD,Sudan,DE,East Darfur,,,,
+SD_DN,SD,Sudan,DN,North Darfur,,,,
+SD_DS,SD,Sudan,DS,South Darfur,,,,
+SD_DW,SD,Sudan,DW,West Darfur,,,,
+SD_GD,SD,Sudan,GD,Gedaref,,,,
+SD_GK,SD,Sudan,GK,West Kordofan,,,,
+SD_GZ,SD,Sudan,GZ,Al Jazirah,,,,
+SD_KA,SD,Sudan,KA,Kassala,,,,
+SD_KH,SD,Sudan,KH,Khartoum,,,,
+SD_KN,SD,Sudan,KN,North Kordofan,,,,
+SD_KS,SD,Sudan,KS,South Kordofan,,,,
+SD_NB,SD,Sudan,NB,Blue Nile,,,,
+SD_NO,SD,Sudan,NO,Northern,,,,
+SD_NR,SD,Sudan,NR,River Nile,,,,
+SD_NW,SD,Sudan,NW,White Nile,,,,
+SD_RS,SD,Sudan,RS,Red Sea,,,,
+SD_SI,SD,Sudan,SI,Sennar,,,,
 SE,SE,Sweden,,,,,,-1
 SE_110,SE,Sweden,110,Stockholm,,,,
 SE_121,SE,Sweden,121,Uppsala,,,,
