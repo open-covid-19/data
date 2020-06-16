@@ -2622,6 +2622,24 @@ SA,Q851,country/SAU,SA,Saudi Arabia,,,,,SA,SAU,0
 SB,Q685,country/SLB,SB,Solomon Islands,,,,,SB,SLB,0
 SC,Q1042,country/SYC,SC,Seychelles,,,,,SC,SYC,0
 SD,Q1049,country/SDN,SD,Sudan,,,,,SD,SDN,0
+SD_DC,Q4116493,,SD,Sudan,DC,Central Darfur,,,SD,SDN,1
+SD_DE,Q3545641,,SD,Sudan,DE,East Darfur,,,SD,SDN,1
+SD_DN,Q688306,,SD,Sudan,DN,North Darfur,,,SD,SDN,1
+SD_DS,Q838778,,SD,Sudan,DS,South Darfur,,,SD,SDN,1
+SD_DW,Q846331,,SD,Sudan,DW,West Darfur,,,SD,SDN,1
+SD_GD,Q309478,,SD,Sudan,GD,Al Qadarif,,,SD,SDN,1
+SD_GK,Q536396,,SD,Sudan,GK,West Kordofan,,,SD,SDN,1
+SD_GZ,Q309469,,SD,Sudan,GZ,Al Jazirah,,,SD,SDN,1
+SD_KA,Q954963,,SD,Sudan,KA,Kassala,,,SD,SDN,1
+SD_KH,Q310385,,SD,Sudan,KH,Khartoum,,,SD,SDN,1
+SD_KN,Q864093,,SD,Sudan,KN,North Kordofan,,,SD,SDN,1
+SD_KS,Q465490,,SD,Sudan,KS,South Kordofan,,,SD,SDN,1
+SD_NB,Q309489,,SD,Sudan,NB,Blue Nile,,,SD,SDN,1
+SD_NO,Q310118,,SD,Sudan,NO,Northern,,,SD,SDN,1
+SD_NR,Q849297,,SD,Sudan,NR,River Nile,,,SD,SDN,1
+SD_NW,Q311371,,SD,Sudan,NW,White Nile,,,SD,SDN,1
+SD_RS,Q310120,,SD,Sudan,RS,Red Sea,,,SD,SDN,1
+SD_SI,Q865534,,SD,Sudan,SI,Sennar,,,SD,SDN,1
 SE,Q34,country/SWE,SE,Sweden,,,,,SE,SWE,0
 SE_110,Q104231,nuts/SE110,SE,Sweden,110,Stockholm,,,SE,SWE,1
 SE_121,Q104926,nuts/SE121,SE,Sweden,121,Uppsala,,,SE,SWE,1
