@@ -62,6 +62,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Amazonas,15,1,VE,VE_Z
 2020-06-15,Amazonas,15,0,VE,VE_Z
 2020-06-16,Amazonas,15,0,VE,VE_Z
+2020-06-17,Amazonas,15,0,VE,VE_Z
 2020-04-16,Anzoátegui,2,,VE,VE_B
 2020-04-17,Anzoátegui,2,0,VE,VE_B
 2020-04-18,Anzoátegui,2,0,VE,VE_B
@@ -125,6 +126,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Anzoátegui,20,0,VE,VE_B
 2020-06-15,Anzoátegui,20,0,VE,VE_B
 2020-06-16,Anzoátegui,20,0,VE,VE_B
+2020-06-17,Anzoátegui,20,0,VE,VE_B
 2020-04-16,Apure,1,,VE,VE_C
 2020-04-17,Apure,1,0,VE,VE_C
 2020-04-18,Apure,1,0,VE,VE_C
@@ -188,6 +190,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Apure,775,0,VE,VE_C
 2020-06-15,Apure,812,37,VE,VE_C
 2020-06-16,Apure,825,13,VE,VE_C
+2020-06-17,Apure,842,17,VE,VE_C
 2020-04-16,Aragua,29,,VE,VE_D
 2020-04-17,Aragua,29,0,VE,VE_D
 2020-04-18,Aragua,29,0,VE,VE_D
@@ -251,6 +254,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Aragua,106,0,VE,VE_D
 2020-06-15,Aragua,107,1,VE,VE_D
 2020-06-16,Aragua,109,2,VE,VE_D
+2020-06-17,Aragua,110,1,VE,VE_D
 2020-04-16,Barinas,6,,VE,VE_E
 2020-04-17,Barinas,6,0,VE,VE_E
 2020-04-18,Barinas,7,1,VE,VE_E
@@ -314,6 +318,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Barinas,23,0,VE,VE_E
 2020-06-15,Barinas,23,0,VE,VE_E
 2020-06-16,Barinas,29,6,VE,VE_E
+2020-06-17,Barinas,29,0,VE,VE_E
 2020-04-16,Bolívar,2,,VE,VE_F
 2020-04-17,Bolívar,2,0,VE,VE_F
 2020-04-18,Bolívar,2,0,VE,VE_F
@@ -377,6 +382,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Bolívar,362,0,VE,VE_F
 2020-06-15,Bolívar,381,19,VE,VE_F
 2020-06-16,Bolívar,418,37,VE,VE_F
+2020-06-17,Bolívar,427,9,VE,VE_F
 2020-04-16,Carabobo,0,,VE,VE_G
 2020-04-17,Carabobo,0,0,VE,VE_G
 2020-04-18,Carabobo,0,0,VE,VE_G
@@ -440,6 +446,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Carabobo,7,0,VE,VE_G
 2020-06-15,Carabobo,7,0,VE,VE_G
 2020-06-16,Carabobo,7,0,VE,VE_G
+2020-06-17,Carabobo,7,0,VE,VE_G
 2020-04-16,Cojedes,1,,VE,VE_H
 2020-04-17,Cojedes,1,0,VE,VE_H
 2020-04-18,Cojedes,1,0,VE,VE_H
@@ -503,6 +510,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Cojedes,7,0,VE,VE_H
 2020-06-15,Cojedes,7,0,VE,VE_H
 2020-06-16,Cojedes,7,0,VE,VE_H
+2020-06-17,Cojedes,7,0,VE,VE_H
 2020-04-16,Delta Amacuro,0,,VE,VE_Y
 2020-04-17,Delta Amacuro,0,0,VE,VE_Y
 2020-04-18,Delta Amacuro,0,0,VE,VE_Y
@@ -566,6 +574,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Delta Amacuro,10,0,VE,VE_Y
 2020-06-15,Delta Amacuro,10,0,VE,VE_Y
 2020-06-16,Delta Amacuro,10,0,VE,VE_Y
+2020-06-17,Delta Amacuro,10,0,VE,VE_Y
 2020-04-16,Distrito Capital,30,,VE,VE_A
 2020-04-17,Distrito Capital,31,1,VE,VE_A
 2020-04-18,Distrito Capital,31,0,VE,VE_A
@@ -629,6 +638,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Distrito Capital,187,1,VE,VE_A
 2020-06-15,Distrito Capital,190,3,VE,VE_A
 2020-06-16,Distrito Capital,191,1,VE,VE_A
+2020-06-17,Distrito Capital,192,1,VE,VE_A
 2020-04-16,Falcón,2,,VE,VE_I
 2020-04-17,Falcón,2,0,VE,VE_I
 2020-04-18,Falcón,2,0,VE,VE_I
@@ -692,6 +702,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Falcón,35,1,VE,VE_I
 2020-06-15,Falcón,35,0,VE,VE_I
 2020-06-16,Falcón,35,0,VE,VE_I
+2020-06-17,Falcón,36,1,VE,VE_I
 2020-04-16,Guárico,2,,VE,VE_J
 2020-04-17,Guárico,2,0,VE,VE_J
 2020-04-18,Guárico,2,0,VE,VE_J
@@ -755,6 +766,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Guárico,6,0,VE,VE_J
 2020-06-15,Guárico,6,0,VE,VE_J
 2020-06-16,Guárico,6,0,VE,VE_J
+2020-06-17,Guárico,6,0,VE,VE_J
 2020-04-16,Lara,4,,VE,VE_K
 2020-04-17,Lara,5,1,VE,VE_K
 2020-04-18,Lara,5,0,VE,VE_K
@@ -818,6 +830,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Lara,46,4,VE,VE_K
 2020-06-15,Lara,46,0,VE,VE_K
 2020-06-16,Lara,46,0,VE,VE_K
+2020-06-17,Lara,48,2,VE,VE_K
 2020-04-16,Miranda,68,,VE,VE_M
 2020-04-17,Miranda,72,4,VE,VE_M
 2020-04-18,Miranda,73,1,VE,VE_M
@@ -881,6 +894,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Miranda,314,1,VE,VE_M
 2020-06-15,Miranda,315,1,VE,VE_M
 2020-06-16,Miranda,317,2,VE,VE_M
+2020-06-17,Miranda,317,0,VE,VE_M
 2020-04-16,Monagas,1,,VE,VE_N
 2020-04-17,Monagas,1,0,VE,VE_N
 2020-04-18,Monagas,1,0,VE,VE_N
@@ -944,6 +958,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Monagas,5,0,VE,VE_N
 2020-06-15,Monagas,5,0,VE,VE_N
 2020-06-16,Monagas,5,0,VE,VE_N
+2020-06-17,Monagas,5,0,VE,VE_N
 2020-04-16,Mérida,1,,VE,VE_L
 2020-04-17,Mérida,1,0,VE,VE_L
 2020-04-18,Mérida,1,0,VE,VE_L
@@ -1007,6 +1022,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Mérida,29,2,VE,VE_L
 2020-06-15,Mérida,29,0,VE,VE_L
 2020-06-16,Mérida,29,0,VE,VE_L
+2020-06-17,Mérida,29,0,VE,VE_L
 2020-04-16,Nueva Esparta,9,,VE,VE_O
 2020-04-17,Nueva Esparta,10,1,VE,VE_O
 2020-04-18,Nueva Esparta,30,20,VE,VE_O
@@ -1070,6 +1086,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Nueva Esparta,151,0,VE,VE_O
 2020-06-15,Nueva Esparta,151,0,VE,VE_O
 2020-06-16,Nueva Esparta,151,0,VE,VE_O
+2020-06-17,Nueva Esparta,152,1,VE,VE_O
 2020-04-16,Portuguesa,3,,VE,VE_P
 2020-04-17,Portuguesa,3,0,VE,VE_P
 2020-04-18,Portuguesa,3,0,VE,VE_P
@@ -1133,6 +1150,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Portuguesa,15,1,VE,VE_P
 2020-06-15,Portuguesa,15,0,VE,VE_P
 2020-06-16,Portuguesa,15,0,VE,VE_P
+2020-06-17,Portuguesa,15,0,VE,VE_P
 2020-04-16,Sucre,2,,VE,VE_R
 2020-04-17,Sucre,2,0,VE,VE_R
 2020-04-18,Sucre,2,0,VE,VE_R
@@ -1196,6 +1214,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Sucre,21,0,VE,VE_R
 2020-06-15,Sucre,21,0,VE,VE_R
 2020-06-16,Sucre,21,0,VE,VE_R
+2020-06-17,Sucre,21,0,VE,VE_R
 2020-04-16,Trujillo,7,,VE,VE_T
 2020-04-17,Trujillo,7,0,VE,VE_T
 2020-04-18,Trujillo,7,0,VE,VE_T
@@ -1259,6 +1278,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Trujillo,21,0,VE,VE_T
 2020-06-15,Trujillo,22,1,VE,VE_T
 2020-06-16,Trujillo,23,1,VE,VE_T
+2020-06-17,Trujillo,23,0,VE,VE_T
 2020-04-16,Táchira,4,,VE,VE_S
 2020-04-17,Táchira,4,0,VE,VE_S
 2020-04-18,Táchira,5,1,VE,VE_S
@@ -1322,6 +1342,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Táchira,426,14,VE,VE_S
 2020-06-15,Táchira,438,12,VE,VE_S
 2020-06-16,Táchira,445,7,VE,VE_S
+2020-06-17,Táchira,445,0,VE,VE_S
 2020-04-16,Yaracuy,1,,VE,VE_U
 2020-04-17,Yaracuy,1,0,VE,VE_U
 2020-04-18,Yaracuy,1,0,VE,VE_U
@@ -1385,6 +1406,7 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Yaracuy,9,0,VE,VE_U
 2020-06-15,Yaracuy,9,0,VE,VE_U
 2020-06-16,Yaracuy,9,0,VE,VE_U
+2020-06-17,Yaracuy,9,0,VE,VE_U
 2020-04-16,Zulia,4,,VE,VE_V
 2020-04-17,Zulia,4,0,VE,VE_V
 2020-04-18,Zulia,4,0,VE,VE_V
@@ -1448,3 +1470,4 @@ date,match_string,total_confirmed,new_confirmed,country_code,key
 2020-06-14,Zulia,228,0,VE,VE_V
 2020-06-15,Zulia,228,0,VE,VE_V
 2020-06-16,Zulia,243,15,VE,VE_V
+2020-06-17,Zulia,291,48,VE,VE_V
