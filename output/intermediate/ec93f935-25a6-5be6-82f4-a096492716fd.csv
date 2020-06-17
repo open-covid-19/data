@@ -150,7 +150,7 @@ NO,innlandet,2020-06-13,511,0,NO_34
 NO,innlandet,2020-06-14,511,0,NO_34
 NO,innlandet,2020-06-15,512,1,NO_34
 NO,innlandet,2020-06-16,512,0,NO_34
-NO,innlandet,2020-06-17,512,0,NO_34
+NO,innlandet,2020-06-17,513,1,NO_34
 NO,møre og romsdal,2020-03-20,29,,NO_15
 NO,møre og romsdal,2020-03-21,32,3,NO_15
 NO,møre og romsdal,2020-03-22,38,6,NO_15
@@ -378,7 +378,7 @@ NO,oslo,2020-06-13,2748,0,NO_03
 NO,oslo,2020-06-14,2748,0,NO_03
 NO,oslo,2020-06-15,2764,16,NO_03
 NO,oslo,2020-06-16,2764,0,NO_03
-NO,oslo,2020-06-17,2764,0,NO_03
+NO,oslo,2020-06-17,2779,15,NO_03
 NO,rogaland,2020-03-20,180,,NO_11
 NO,rogaland,2020-03-21,199,19,NO_11
 NO,rogaland,2020-03-22,219,20,NO_11
@@ -530,7 +530,7 @@ NO,troms og finnmark,2020-06-13,252,0,NO_54
 NO,troms og finnmark,2020-06-14,252,0,NO_54
 NO,troms og finnmark,2020-06-15,252,0,NO_54
 NO,troms og finnmark,2020-06-16,252,0,NO_54
-NO,troms og finnmark,2020-06-17,252,0,NO_54
+NO,troms og finnmark,2020-06-17,253,1,NO_54
 NO,trøndelag,2020-03-20,97,,NO_50
 NO,trøndelag,2020-03-21,122,25,NO_50
 NO,trøndelag,2020-03-22,131,9,NO_50
@@ -606,7 +606,7 @@ NO,trøndelag,2020-06-13,535,0,NO_50
 NO,trøndelag,2020-06-14,535,0,NO_50
 NO,trøndelag,2020-06-15,535,0,NO_50
 NO,trøndelag,2020-06-16,535,0,NO_50
-NO,trøndelag,2020-06-17,535,0,NO_50
+NO,trøndelag,2020-06-17,534,-1,NO_50
 NO,vestfold og telemark,2020-03-20,72,,NO_38
 NO,vestfold og telemark,2020-03-21,81,9,NO_38
 NO,vestfold og telemark,2020-03-22,85,4,NO_38
@@ -682,7 +682,7 @@ NO,vestfold og telemark,2020-06-13,291,0,NO_38
 NO,vestfold og telemark,2020-06-14,291,0,NO_38
 NO,vestfold og telemark,2020-06-15,291,0,NO_38
 NO,vestfold og telemark,2020-06-16,291,0,NO_38
-NO,vestfold og telemark,2020-06-17,291,0,NO_38
+NO,vestfold og telemark,2020-06-17,292,1,NO_38
 NO,vestland,2020-03-20,173,,NO_46
 NO,vestland,2020-03-21,200,27,NO_46
 NO,vestland,2020-03-22,214,14,NO_46
@@ -834,4 +834,4 @@ NO,viken,2020-06-13,2334,0,NO_30
 NO,viken,2020-06-14,2334,0,NO_30
 NO,viken,2020-06-15,2340,6,NO_30
 NO,viken,2020-06-16,2340,0,NO_30
-NO,viken,2020-06-17,2340,0,NO_30
+NO,viken,2020-06-17,2352,12,NO_30
