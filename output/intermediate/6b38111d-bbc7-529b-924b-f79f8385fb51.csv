@@ -43,8 +43,8 @@ date,new_intensive_care,key,total_intensive_care
 ,33,SE,1061
 ,40,SE,1101
 ,29,SE,1130
-,34,SE,1164
-,27,SE,1191
+,33,SE,1163
+,28,SE,1191
 ,34,SE,1225
 ,49,SE,1274
 ,27,SE,1301
@@ -90,9 +90,9 @@ date,new_intensive_care,key,total_intensive_care
 ,15,SE,2137
 ,17,SE,2154
 ,16,SE,2170
-,17,SE,2187
-,19,SE,2206
-,15,SE,2221
+,18,SE,2188
+,19,SE,2207
+,14,SE,2221
 ,16,SE,2237
 ,14,SE,2251
 ,10,SE,2261
@@ -100,6 +100,7 @@ date,new_intensive_care,key,total_intensive_care
 ,11,SE,2284
 ,14,SE,2298
 ,12,SE,2310
-,8,SE,2318
-,4,SE,2322
-,0,SE,2322
+,9,SE,2319
+,6,SE,2325
+,7,SE,2332
+,1,SE,2333
