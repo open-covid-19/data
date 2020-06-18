@@ -1,4 +1,10 @@
 date,YYYYMMDD,age_0-9,age_10-19,age_20-29,age_30-39,age_40-49,age_50-59,age_60-69,age_70-79,age_80-89,age_90-99,age_unknown,gender_male,gender_female,gender_unknown,source
+26-05-2020,20200526,2,1,4,31,57,130,140,100,49,10,0,281,243,0,https://sacoronavirus.co.za/2020/05/26/update-on-covid-19-26th-may-2020/
+27-05-2020,20200527,2,1,4,32,58,138,146,106,54,11,0,294,258,0,https://sacoronavirus.co.za/2020/05/27/update-on-covid-19-27th-may-2020/
+28-05-2020,20200528,2,1,4,33,61,144,153,113,55,11,0,308,269,0,https://sacoronavirus.co.za/2020/05/29/update-on-covid-19-28th-may-2020/
+29-05-2020,20200529,2,1,4,34,68,152,162,120,57,11,0,322,289,0,https://sacoronavirus.co.za/2020/05/29/update-on-covid-19-29th-may-2020/
+30-05-2020,20200530,2,2,4,39,70,160,169,124,59,14,0,338,305,0,https://sacoronavirus.co.za/2020/05/30/update-on-covid-19-30th-may-2020/
+31-05-2020,20200531,2,2,4,40,77,174,176,133,60,15,0,363,320,0,https://sacoronavirus.co.za/2020/05/31/update-on-covid-19-31st-may-2020/
 02-06-2020,20200602,2,3,4,42,83,197,197,143,66,18,0,400,355,0,https://sacoronavirus.co.za/2020/06/02/update-on-covid-19-02nd-june-2020/
 03-06-2020,20200603,2,3,5,43,86,206,210,149,69,19,0,417,375,0,https://sacoronavirus.co.za/2020/06/03/update-on-covid-19-03rd-june-2020/
 04-06-2020,20200604,2,3,5,44,93,219,227,161,74,20,0,450,398,0,https://sacoronavirus.co.za/2020/06/04/update-on-covid-19-04th-june-2020/
@@ -11,3 +17,6 @@ date,YYYYMMDD,age_0-9,age_10-19,age_20-29,age_30-39,age_40-49,age_50-59,age_60-6
 11-06-2020,20200611,3,3,17,78,159,311,352,229,100,28,4,653,630,1,https://sacoronavirus.co.za/2020/06/13/update-on-covid-19-13th-june-2020/
 12-06-2020,20200612,3,3,19,82,169,326,368,240,107,29,8,684,668,2,https://sacoronavirus.co.za/2020/06/13/update-on-covid-19-13th-june-2020/
 13-06-2020,20200613,3,4,21,85,179,346,387,249,111,30,8,728,693,2,https://sacoronavirus.co.za/2020/06/13/update-on-covid-19-13th-june-2020/
+14-06-2020,20200614,3,4,21,90,188,359,404,255,117,31,8,757,721,2,https://sacoronavirus.co.za/2020/06/14/update-on-covid-19-14th-june-2020/
+15-06-2020,20200615,3,5,21,94,200,386,422,272,122,35,8,809,721,2,https://sacoronavirus.co.za/2020/06/15/update-on-covid-19-15th-june-2020/
+17-06-2020,20200617,3,5,23,100,216,414,445,290,131,38,9,874,798,2,https://sacoronavirus.co.za/2020/06/17/update-on-covid-19-17th-june-2020/
