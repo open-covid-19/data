@@ -17,6 +17,7 @@
 import re
 import os
 import sys
+import json
 import shutil
 import datetime
 from pandas import DataFrame
@@ -59,15 +60,11 @@ def subset_latest(data: DataFrame) -> DataFrame:
         return data.sort_values("date").groupby("key").last().reset_index()
 
 
-def subset_last_days(data: DataFrame, days: int) -> DataFrame:
-    """ Used to get the last N days of data """
-    # Early exit: this data has no date
-    if not "date" in data.columns or len(data.date.dropna()) == 0:
-        return data
-    else:
-        last_date = datetime.date.fromisoformat(max(data.date))
-        first_date = last_date - datetime.timedelta(days=days)
-        return data[data.date > first_date.isoformat()]
+def export_json_without_index(data: DataFrame, output_path: str) -> None:
+    json_dict = json.loads(data.to_json(orient="split"))
+    del json_dict["index"]
+    with open(output_path, "w") as fd:
+        json.dump(json_dict, fd)
 
 
 # Wipe the public folder first
@@ -124,7 +121,7 @@ for csv_file in (v2_folder).glob("**/*.csv"):
     json_path = str(csv_file).replace("csv", "json")
     # The main master.json is too big for GitHub Pages...
     if json_path != str(v2_folder / "master.json"):
-        data.to_json(json_path, orient="values")
+        export_json_without_index(data, json_path)
 
 # Perform data transformations for backwards compatibility
 v1_folder = public_folder  # Same as root
