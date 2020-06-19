@@ -112,6 +112,7 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,acores,143,15,,0,0,0,PT,PT_20
 2020-06-16,acores,143,15,,0,0,0,PT,PT_20
 2020-06-17,acores,143,15,,0,0,0,PT,PT_20
+2020-06-18,acores,143,15,,0,0,0,PT,PT_20
 2020-02-26,alentejo,0,0,,,,,PT,PT_18
 2020-02-27,alentejo,0,0,,0,0,,PT,PT_18
 2020-02-28,alentejo,0,0,,0,0,,PT,PT_18
@@ -225,6 +226,7 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,alentejo,287,2,,5,0,0,PT,PT_18
 2020-06-16,alentejo,287,2,,0,0,0,PT,PT_18
 2020-06-17,alentejo,288,2,,1,0,0,PT,PT_18
+2020-06-18,alentejo,295,2,,7,0,0,PT,PT_18
 2020-02-26,algarve,0,0,,,,,PT,PT_15
 2020-02-27,algarve,0,0,,0,0,,PT,PT_15
 2020-02-28,algarve,0,0,,0,0,,PT,PT_15
@@ -338,6 +340,7 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,algarve,399,15,,4,0,0,PT,PT_15
 2020-06-16,algarve,407,15,,8,0,0,PT,PT_15
 2020-06-17,algarve,413,15,,6,0,0,PT,PT_15
+2020-06-18,algarve,448,15,,35,0,0,PT,PT_15
 2020-02-26,centro,0,0,,,,,PT,PT_16
 2020-02-27,centro,0,0,,0,0,,PT,PT_16
 2020-02-28,centro,0,0,,0,0,,PT,PT_16
@@ -451,6 +454,7 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,centro,3892,246,,18,0,0,PT,PT_16
 2020-06-16,centro,3904,246,,12,0,0,PT,PT_16
 2020-06-17,centro,3913,246,,9,0,0,PT,PT_16
+2020-06-18,centro,3934,246,,21,0,0,PT,PT_16
 2020-02-26,lvt,0,0,,,,,PT,PT_17
 2020-02-27,lvt,0,0,,0,0,,PT,PT_17
 2020-02-28,lvt,0,0,,0,0,,PT,PT_17
@@ -564,6 +568,7 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,lvt,15128,429,,300,2,0,PT,PT_17
 2020-06-16,lvt,15364,431,,236,2,0,PT,PT_17
 2020-06-17,lvt,15646,432,,282,1,0,PT,PT_17
+2020-06-18,lvt,15971,433,,325,1,0,PT,PT_17
 2020-02-26,madeira,0,0,,,,,PT,PT_30
 2020-02-27,madeira,0,0,,0,0,,PT,PT_30
 2020-02-28,madeira,0,0,,0,0,,PT,PT_30
@@ -677,6 +682,7 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,madeira,90,0,,0,0,0,PT,PT_30
 2020-06-16,madeira,90,0,,0,0,0,PT,PT_30
 2020-06-17,madeira,90,0,,0,0,0,PT,PT_30
+2020-06-18,madeira,90,0,,0,0,0,PT,PT_30
 2020-02-26,norte,0,0,,,,,PT,PT_11
 2020-02-27,norte,0,0,,0,0,,PT,PT_11
 2020-02-28,norte,0,0,,0,0,,PT,PT_11
@@ -790,3 +796,4 @@ date,match_string,total_confirmed,total_deceased,total_recovered,new_confirmed,n
 2020-06-15,norte,17097,813,,19,1,0,PT,PT_11
 2020-06-16,norte,17141,813,,44,0,0,PT,PT_11
 2020-06-17,norte,17179,813,,38,0,0,PT,PT_11
+2020-06-18,norte,17208,813,,29,0,0,PT,PT_11
