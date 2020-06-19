@@ -45,7 +45,7 @@ AO,Angola,,,,,,-1,nan,ao,angola,nan,nan,nan,nan,Q916,country/AGO,AO,AGO,0,AO
 AQ,Antarctica,,,,,,-1,nan,aq,antarctica,nan,nan,nan,nan,Q51,,AQ,ATA,0,AQ
 AR,Argentina,,,,,,-1,nan,ar,argentina,nan,nan,nan,nan,Q414,country/ARG,AR,ARG,0,AR
 AR,Argentina,A,Salta,,,SA,,sa,ar,argentina,a,salta,nan,nan,Q44803,,AR,ARG,1,AR_A
-AR,Argentina,B,Buenos Aires Province,,,BA-P,,bap,ar,argentina,b,buenosairesprovince,nan,nan,Q44754,,AR,ARG,1,AR_B
+AR,Argentina,B,Buenos Aires Province,,,BA-P,,bap,ar,argentina,b,buenosaires,nan,nan,Q44754,,AR,ARG,1,AR_B
 AR,Argentina,C,City of Buenos Aires,,,(BA-C)|(buenos aires),,bacbuenosaires,ar,argentina,c,citybuenosaires,nan,nan,Q1486,,AR,ARG,1,AR_C
 AR,Argentina,D,San Luis,,,SL,,sl,ar,argentina,d,sanluis,nan,nan,Q44818,,AR,ARG,1,AR_D
 AR,Argentina,E,Entre Ríos,,,ER,,er,ar,argentina,e,entrerios,nan,nan,Q44762,,AR,ARG,1,AR_E
@@ -2479,7 +2479,7 @@ PE,Peru,JUN,Junín,,,,,nan,pe,peru,jun,junin,nan,nan,Q207973,,PE,PER,1,PE_JUN
 PE,Peru,LAL,La Libertad,,,,,nan,pe,peru,lal,lalibertad,nan,nan,Q205126,,PE,PER,1,PE_LAL
 PE,Peru,LAM,Lambayeque,,,,,nan,pe,peru,lam,lambayeque,nan,nan,Q210061,,PE,PER,1,PE_LAM
 PE,Peru,LIM,Lima,,,Metropolitan Municipality of Lima,,metropolitanmunicipalitylima,pe,peru,lim,lima,nan,nan,Q211795,,PE,PER,1,PE_LIM
-PE,Peru,LMA,Lima Province,,,Lima Region,,lima,pe,peru,lma,limaprovince,nan,nan,Q579240,,PE,PER,1,PE_LMA
+PE,Peru,LMA,Lima Province,,,Lima Region,,lima,pe,peru,lma,lima,nan,nan,Q579240,,PE,PER,1,PE_LMA
 PE,Peru,LOR,Loreto,,,,,nan,pe,peru,lor,loreto,nan,nan,Q200938,,PE,PER,1,PE_LOR
 PE,Peru,MDD,Madre de Dios,,,,,nan,pe,peru,mdd,madrededios,nan,nan,Q210896,,PE,PER,1,PE_MDD
 PE,Peru,MOQ,Moquegua,,,,,nan,pe,peru,moq,moquegua,nan,nan,Q208182,,PE,PER,1,PE_MOQ
@@ -2493,6 +2493,104 @@ PE,Peru,UCA,Ucayali,,,,,nan,pe,peru,uca,ucayali,nan,nan,Q207424,,PE,PER,1,PE_UCA
 PF,French Polynesia,,,,,,-1,nan,pf,frenchpolynesia,nan,nan,nan,nan,Q30971,country/PYF,PF,PYF,0,PF
 PG,Papua New Guinea,,,,,,-1,nan,pg,papuanewguinea,nan,nan,nan,nan,Q691,country/PNG,PG,PNG,0,PG
 PH,Philippines,,,,,,-1,nan,ph,philippines,nan,nan,nan,nan,Q928,country/PHL,PH,PHL,0,PH
+PH,Philippines,00,Metro Manila,,,NCR,,ncr,ph,philippines,,metromanila,nan,nan,Q13580,,PH,PHL,1,PH_00
+PH,Philippines,01,Ilocos Region,,,,,nan,ph,philippines,,ilocos,nan,nan,Q12933,,PH,PHL,1,PH_01
+PH,Philippines,01,Ilocos Region,ILN,Ilocos Norte,,,nan,ph,philippines,,ilocos,iln,ilocosnorte,,,PH,PHL,2,PH_01_ILN
+PH,Philippines,01,Ilocos Region,ILS,Ilocos Sur,,,nan,ph,philippines,,ilocos,ils,ilocossur,,,PH,PHL,2,PH_01_ILS
+PH,Philippines,01,Ilocos Region,LUN,La Union,,,nan,ph,philippines,,ilocos,lun,launion,,,PH,PHL,2,PH_01_LUN
+PH,Philippines,01,Ilocos Region,PAN,Pangasinan,,,nan,ph,philippines,,ilocos,pan,pangasinan,,,PH,PHL,2,PH_01_PAN
+PH,Philippines,02,Cagayan Valley,,,,,nan,ph,philippines,,cagayanvalley,nan,nan,Q13615,,PH,PHL,1,PH_02
+PH,Philippines,02,Cagayan Valley,BTN,Batanes,,,nan,ph,philippines,,cagayanvalley,btn,batanes,,,PH,PHL,2,PH_02_BTN
+PH,Philippines,02,Cagayan Valley,CAG,Cagayan,,,nan,ph,philippines,,cagayanvalley,cag,cagayan,,,PH,PHL,2,PH_02_CAG
+PH,Philippines,02,Cagayan Valley,ISA,Isabela,,,nan,ph,philippines,,cagayanvalley,isa,isabela,,,PH,PHL,2,PH_02_ISA
+PH,Philippines,02,Cagayan Valley,NUV,Nueva Vizcaya,,,nan,ph,philippines,,cagayanvalley,nuv,nuevavizcaya,,,PH,PHL,2,PH_02_NUV
+PH,Philippines,02,Cagayan Valley,QUI,Quirino,,,nan,ph,philippines,,cagayanvalley,qui,quirino,,,PH,PHL,2,PH_02_QUI
+PH,Philippines,03,Central Luzon,,,,,nan,ph,philippines,,centralluzon,nan,nan,Q13617,,PH,PHL,1,PH_03
+PH,Philippines,03,Central Luzon,AUR,Aurora,,,nan,ph,philippines,,centralluzon,aur,aurora,,,PH,PHL,2,PH_03_AUR
+PH,Philippines,03,Central Luzon,BAN,Bataan,,,nan,ph,philippines,,centralluzon,ban,bataan,,,PH,PHL,2,PH_03_BAN
+PH,Philippines,03,Central Luzon,BUL,Bulacan,,,nan,ph,philippines,,centralluzon,bul,bulacan,,,PH,PHL,2,PH_03_BUL
+PH,Philippines,03,Central Luzon,NUE,Nueva Ecija,,,nan,ph,philippines,,centralluzon,nue,nuevaecija,,,PH,PHL,2,PH_03_NUE
+PH,Philippines,03,Central Luzon,PAM,Pampanga,,,nan,ph,philippines,,centralluzon,pam,pampanga,,,PH,PHL,2,PH_03_PAM
+PH,Philippines,03,Central Luzon,TAR,Tarlac,,,nan,ph,philippines,,centralluzon,tar,tarlac,,,PH,PHL,2,PH_03_TAR
+PH,Philippines,03,Central Luzon,ZMB,Zambales,,,nan,ph,philippines,,centralluzon,zmb,zambales,,,PH,PHL,2,PH_03_ZMB
+PH,Philippines,05,Bicol Region,,,,,nan,ph,philippines,,bicol,nan,nan,Q13662,,PH,PHL,1,PH_05
+PH,Philippines,05,Bicol Region,ALB,Albay,,,nan,ph,philippines,,bicol,alb,albay,,,PH,PHL,2,PH_05_ALB
+PH,Philippines,05,Bicol Region,CAN,Camarines Norte,,,nan,ph,philippines,,bicol,can,camarinesnorte,,,PH,PHL,2,PH_05_CAN
+PH,Philippines,05,Bicol Region,CAS,Camarines Sur,,,nan,ph,philippines,,bicol,cas,camarinessur,,,PH,PHL,2,PH_05_CAS
+PH,Philippines,05,Bicol Region,CAT,Catanduanes,,,nan,ph,philippines,,bicol,cat,catanduanes,,,PH,PHL,2,PH_05_CAT
+PH,Philippines,05,Bicol Region,MAS,Masbate,,,nan,ph,philippines,,bicol,mas,masbate,,,PH,PHL,2,PH_05_MAS
+PH,Philippines,05,Bicol Region,SOR,Sorsogon,,,nan,ph,philippines,,bicol,sor,sorsogon,,,PH,PHL,2,PH_05_SOR
+PH,Philippines,06,Western Visayas,,,,,nan,ph,philippines,,westernvisayas,nan,nan,Q13665,,PH,PHL,1,PH_06
+PH,Philippines,06,Western Visayas,AKL,Aklan,,,nan,ph,philippines,,westernvisayas,akl,aklan,,,PH,PHL,2,PH_06_AKL
+PH,Philippines,06,Western Visayas,ANT,Antique,,,nan,ph,philippines,,westernvisayas,ant,antique,,,PH,PHL,2,PH_06_ANT
+PH,Philippines,06,Western Visayas,CAP,Capiz,,,nan,ph,philippines,,westernvisayas,cap,capiz,,,PH,PHL,2,PH_06_CAP
+PH,Philippines,06,Western Visayas,GUI,Guimaras,,,nan,ph,philippines,,westernvisayas,gui,guimaras,,,PH,PHL,2,PH_06_GUI
+PH,Philippines,06,Western Visayas,ILI,Iloilo,,,nan,ph,philippines,,westernvisayas,ili,iloilo,,,PH,PHL,2,PH_06_ILI
+PH,Philippines,06,Western Visayas,NEC,Negros Occidental,,,nan,ph,philippines,,westernvisayas,nec,negrosoccidental,,,PH,PHL,2,PH_06_NEC
+PH,Philippines,07,Central Visayas,,,,,nan,ph,philippines,,centralvisayas,nan,nan,Q13669,,PH,PHL,1,PH_07
+PH,Philippines,07,Central Visayas,BOH,Bohol,,,nan,ph,philippines,,centralvisayas,boh,bohol,,,PH,PHL,2,PH_07_BOH
+PH,Philippines,07,Central Visayas,CEB,Cebu,,,nan,ph,philippines,,centralvisayas,ceb,cebu,,,PH,PHL,2,PH_07_CEB
+PH,Philippines,07,Central Visayas,NER,Negros Oriental,,,nan,ph,philippines,,centralvisayas,ner,negrosoriental,,,PH,PHL,2,PH_07_NER
+PH,Philippines,07,Central Visayas,SIG,Siquijor,,,nan,ph,philippines,,centralvisayas,sig,siquijor,,,PH,PHL,2,PH_07_SIG
+PH,Philippines,08,Eastern Visayas,,,,,nan,ph,philippines,,easternvisayas,nan,nan,Q13675,,PH,PHL,1,PH_08
+PH,Philippines,08,Eastern Visayas,BIL,Biliran,,,nan,ph,philippines,,easternvisayas,bil,biliran,,,PH,PHL,2,PH_08_BIL
+PH,Philippines,08,Eastern Visayas,EAS,Eastern Samar,,,nan,ph,philippines,,easternvisayas,eas,easternsamar,,,PH,PHL,2,PH_08_EAS
+PH,Philippines,08,Eastern Visayas,LEY,Leyte,,,nan,ph,philippines,,easternvisayas,ley,leyte,,,PH,PHL,2,PH_08_LEY
+PH,Philippines,08,Eastern Visayas,NSA,Northern Samar,,,nan,ph,philippines,,easternvisayas,nsa,northernsamar,,,PH,PHL,2,PH_08_NSA
+PH,Philippines,08,Eastern Visayas,WSA,Samar,,,nan,ph,philippines,,easternvisayas,wsa,samar,,,PH,PHL,2,PH_08_WSA
+PH,Philippines,08,Eastern Visayas,SLE,Southern Leyte,,,nan,ph,philippines,,easternvisayas,sle,southernleyte,,,PH,PHL,2,PH_08_SLE
+PH,Philippines,09,Zamboanga Peninsula,,,,,nan,ph,philippines,,zamboangapeninsula,nan,nan,Q13682,,PH,PHL,1,PH_09
+PH,Philippines,09,Zamboanga Peninsula,ZAN,Zamboanga del Norte,,,nan,ph,philippines,,zamboangapeninsula,zan,zamboangadelnorte,,,PH,PHL,2,PH_09_ZAN
+PH,Philippines,09,Zamboanga Peninsula,ZAS,Zamboanga del Sur,,,nan,ph,philippines,,zamboangapeninsula,zas,zamboangadelsur,,,PH,PHL,2,PH_09_ZAS
+PH,Philippines,09,Zamboanga Peninsula,ZSI,Zamboanga Sibugay,,,nan,ph,philippines,,zamboangapeninsula,zsi,zamboangasibugay,,,PH,PHL,2,PH_09_ZSI
+PH,Philippines,10,Northern Mindanao,,,,,nan,ph,philippines,,northernmindanao,nan,nan,Q13690,,PH,PHL,1,PH_10
+PH,Philippines,10,Northern Mindanao,BUK,Bukidnon,,,nan,ph,philippines,,northernmindanao,buk,bukidnon,,,PH,PHL,2,PH_10_BUK
+PH,Philippines,10,Northern Mindanao,CAM,Camiguin,,,nan,ph,philippines,,northernmindanao,cam,camiguin,,,PH,PHL,2,PH_10_CAM
+PH,Philippines,10,Northern Mindanao,LAN,Lanao del Norte,,,nan,ph,philippines,,northernmindanao,lan,lanaodelnorte,,,PH,PHL,2,PH_10_LAN
+PH,Philippines,10,Northern Mindanao,MSC,Misamis Occidental,,,nan,ph,philippines,,northernmindanao,msc,misamisoccidental,,,PH,PHL,2,PH_10_MSC
+PH,Philippines,10,Northern Mindanao,MSR,Misamis Oriental,,,nan,ph,philippines,,northernmindanao,msr,misamisoriental,,,PH,PHL,2,PH_10_MSR
+PH,Philippines,11,Davao Region,,,,,nan,ph,philippines,,davao,nan,nan,Q13694,,PH,PHL,1,PH_11
+PH,Philippines,11,Davao Region,COM,Davao de Oro,COMPOSTELA VALLEY,,compostelavalley,ph,philippines,,davao,com,davaodeoro,,,PH,PHL,2,PH_11_COM
+PH,Philippines,11,Davao Region,DAS,Davao del Sur,,,nan,ph,philippines,,davao,das,davaodelsur,,,PH,PHL,2,PH_11_DAS
+PH,Philippines,11,Davao Region,DAV,Davao del Norte,,,nan,ph,philippines,,davao,dav,davaodelnorte,,,PH,PHL,2,PH_11_DAV
+PH,Philippines,11,Davao Region,DAO,Davao Oriental,,,nan,ph,philippines,,davao,dao,davaooriental,,,PH,PHL,2,PH_11_DAO
+PH,Philippines,11,Davao Region,DVO,Davao Occidental,,,nan,ph,philippines,,davao,dvo,davaooccidental,,,PH,PHL,2,PH_11_DVO
+PH,Philippines,12,Soccsksargen,,,,,nan,ph,philippines,,soccsksargen,nan,nan,Q13701,,PH,PHL,1,PH_12
+PH,Philippines,12,Soccsksargen,NCO,Cotabato,,,nan,ph,philippines,,soccsksargen,nco,cotabato,,,PH,PHL,2,PH_12_NCO
+PH,Philippines,12,Soccsksargen,SAR,Sarangani,,,nan,ph,philippines,,soccsksargen,sar,sarangani,,,PH,PHL,2,PH_12_SAR
+PH,Philippines,12,Soccsksargen,SCO,South Cotabato,,,nan,ph,philippines,,soccsksargen,sco,southcotabato,,,PH,PHL,2,PH_12_SCO
+PH,Philippines,12,Soccsksargen,SUK,Sultan Kudarat,,,nan,ph,philippines,,soccsksargen,suk,sultankudarat,,,PH,PHL,2,PH_12_SUK
+PH,Philippines,13,Caraga,,,,,nan,ph,philippines,,caraga,nan,nan,Q13704,,PH,PHL,1,PH_13
+PH,Philippines,13,Caraga,AGN,Agusan del Norte,,,nan,ph,philippines,,caraga,agn,agusandelnorte,,,PH,PHL,2,PH_13_AGN
+PH,Philippines,13,Caraga,AGS,Agusan del Sur,,,nan,ph,philippines,,caraga,ags,agusandelsur,,,PH,PHL,2,PH_13_AGS
+PH,Philippines,13,Caraga,DIN,Dinagat Islands,,,nan,ph,philippines,,caraga,din,dinagatislands,,,PH,PHL,2,PH_13_DIN
+PH,Philippines,13,Caraga,SUN,Surigao del Norte,,,nan,ph,philippines,,caraga,sun,surigaodelnorte,,,PH,PHL,2,PH_13_SUN
+PH,Philippines,13,Caraga,SUR,Surigao del Sur,,,nan,ph,philippines,,caraga,sur,surigaodelsur,,,PH,PHL,2,PH_13_SUR
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,,BARMM,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,nan,barmm,Q13708,,PH,PHL,1,PH_14
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,BAS,Basilan,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,bas,basilan,,,PH,PHL,2,PH_14_BAS
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,LAS,Lanao del Sur,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,las,lanaodelsur,,,PH,PHL,2,PH_14_LAS
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,MAG,Maguindanao,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,mag,maguindanao,,,PH,PHL,2,PH_14_MAG
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,SLU,Sulu,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,slu,sulu,,,PH,PHL,2,PH_14_SLU
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,TAW,Tawi-Tawi,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,taw,tawitawi,,,PH,PHL,2,PH_14_TAW
+PH,Philippines,15,Cordillera Administrative Region,,CAR,,,nan,ph,philippines,,cordilleraadministrative,nan,car,Q13606,,PH,PHL,1,PH_15
+PH,Philippines,15,Cordillera Administrative Region,ABR,Abra,,,nan,ph,philippines,,cordilleraadministrative,abr,abra,,,PH,PHL,2,PH_15_ABR
+PH,Philippines,15,Cordillera Administrative Region,APA,Apayao,,,nan,ph,philippines,,cordilleraadministrative,apa,apayao,,,PH,PHL,2,PH_15_APA
+PH,Philippines,15,Cordillera Administrative Region,BEN,Benguet,,,nan,ph,philippines,,cordilleraadministrative,ben,benguet,,,PH,PHL,2,PH_15_BEN
+PH,Philippines,15,Cordillera Administrative Region,IFU,Ifugao,,,nan,ph,philippines,,cordilleraadministrative,ifu,ifugao,,,PH,PHL,2,PH_15_IFU
+PH,Philippines,15,Cordillera Administrative Region,KAL,Kalinga,,,nan,ph,philippines,,cordilleraadministrative,kal,kalinga,,,PH,PHL,2,PH_15_KAL
+PH,Philippines,15,Cordillera Administrative Region,MOU,Mountain Province,,,nan,ph,philippines,,cordilleraadministrative,mou,mountain,,,PH,PHL,2,PH_15_MOU
+PH,Philippines,40,Calabarzon,,,,,nan,ph,philippines,,calabarzon,nan,nan,Q13650,,PH,PHL,1,PH_40
+PH,Philippines,40,Calabarzon,BTG,Batangas,,,nan,ph,philippines,,calabarzon,btg,batangas,,,PH,PHL,2,PH_40_BTG
+PH,Philippines,40,Calabarzon,CAV,Cavite,,,nan,ph,philippines,,calabarzon,cav,cavite,,,PH,PHL,2,PH_40_CAV
+PH,Philippines,40,Calabarzon,LAG,Laguna,,,nan,ph,philippines,,calabarzon,lag,laguna,,,PH,PHL,2,PH_40_LAG
+PH,Philippines,40,Calabarzon,QUE,Quezon,,,nan,ph,philippines,,calabarzon,que,quezon,,,PH,PHL,2,PH_40_QUE
+PH,Philippines,40,Calabarzon,RIZ,Rizal,,,nan,ph,philippines,,calabarzon,riz,rizal,,,PH,PHL,2,PH_40_RIZ
+PH,Philippines,41,Mimaropa,,,,,nan,ph,philippines,,mimaropa,nan,nan,Q13658,,PH,PHL,1,PH_41
+PH,Philippines,41,Mimaropa,MAD,Marinduque,,,nan,ph,philippines,,mimaropa,mad,marinduque,,,PH,PHL,2,PH_41_MAD
+PH,Philippines,41,Mimaropa,MDC,Occidental Mindoro,,,nan,ph,philippines,,mimaropa,mdc,occidentalmindoro,,,PH,PHL,2,PH_41_MDC
+PH,Philippines,41,Mimaropa,MDR,Oriental Mindoro,,,nan,ph,philippines,,mimaropa,mdr,orientalmindoro,,,PH,PHL,2,PH_41_MDR
+PH,Philippines,41,Mimaropa,PLW,Palawan,,,nan,ph,philippines,,mimaropa,plw,palawan,,,PH,PHL,2,PH_41_PLW
+PH,Philippines,41,Mimaropa,ROM,Romblon,,,nan,ph,philippines,,mimaropa,rom,romblon,,,PH,PHL,2,PH_41_ROM
 PK,Pakistan,,,,,,-1,nan,pk,pakistan,nan,nan,nan,nan,Q843,country/PAK,PK,PAK,0,PK
 PK,Pakistan,BA,Balochistan,,,,,nan,pk,pakistan,ba,balochistan,nan,nan,Q163239,,PK,PAK,1,PK_BA
 PK,Pakistan,GB,Gilgit-Baltistan,,,,,nan,pk,pakistan,gb,gilgitbaltistan,nan,nan,Q200697,,PK,PAK,1,PK_GB
