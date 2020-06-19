@@ -34,7 +34,7 @@ class TexasDataSource(DataSource):
     @staticmethod
     def _parse_trends(data: DataFrame) -> DataFrame:
         return TexasDataSource._rename_columns(
-            data,
+            data.iloc[1:],
             {
                 "Date": "date",
                 "Cumulative Cases": "total_confirmed",

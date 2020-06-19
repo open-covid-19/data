@@ -1403,7 +1403,31 @@ CO_99_99524,CO,Colombia,99,Vichada,99524,La Primavera,,
 CO_99_99624,CO,Colombia,99,Vichada,99624,Santa Rosalía,,
 CO_99_99773,CO,Colombia,99,Vichada,99773,Cumaribo,,
 CR,CR,Costa Rica,,,,,,-1
+CR_A,CR,Costa Rica,A,Alajuela Province,,,,
+CR_C,CR,Costa Rica,C,Provincia de Cartago,,,,
+CR_G,CR,Costa Rica,G,Guanacaste Province,,,,
+CR_H,CR,Costa Rica,H,Heredia Province,,,,
+CR_L,CR,Costa Rica,L,Limón Province,,,,
+CR_P,CR,Costa Rica,P,Puntarenas Province,,,,
+CR_SJ,CR,Costa Rica,SJ,San José Province,,,,
 CU,CU,Cuba,,,,,,-1
+CU_01,CU,Cuba,01,Pinar del Río Province,,,,
+CU_02,CU,Cuba,02,Havana Province,,,,
+CU_03,CU,Cuba,03,Havana Province,,,,
+CU_04,CU,Cuba,04,Matanzas Province,,,,
+CU_05,CU,Cuba,05,Villa Clara Province,,,,
+CU_06,CU,Cuba,06,Cienfuegos Province,,,,
+CU_07,CU,Cuba,07,Sancti Spíritus Province,,,,
+CU_08,CU,Cuba,08,Ciego de Ávila Province,,,,
+CU_09,CU,Cuba,09,Camagüey Province,,,,
+CU_10,CU,Cuba,10,Las Tunas Province,,,,
+CU_11,CU,Cuba,11,Holguín Province,,,,
+CU_12,CU,Cuba,12,Granma Province,,,,
+CU_13,CU,Cuba,13,Santiago de Cuba Province,,,,
+CU_14,CU,Cuba,14,Guantánamo Province,,,,
+CU_15,CU,Cuba,15,Artemisa Province,,,,
+CU_16,CU,Cuba,16,Mayabeque Province,,,,
+CU_99,CU,Cuba,99,Isla de la Juventud,,,,
 CV,CV,Cape Verde,,,,,,-1
 CW,CW,Curaçao,,,,,,-1
 CX,CX,Christmas Island,,,,,,-1
@@ -1444,8 +1468,64 @@ DJ,DJ,Djibouti,,,,,,-1
 DK,DK,Denmark,,,,,,-1
 DM,DM,Dominica,,,,,,-1
 DO,DO,Dominican Republic,,,,,,-1
+DO_01,DO,Dominican Republic,01,Distrito Nacional,,,,
+DO_02,DO,Dominican Republic,02,Azua Province,,,,
+DO_03,DO,Dominican Republic,03,Baoruco Province,,,,
+DO_04,DO,Dominican Republic,04,Barahona Province,,,,
+DO_05,DO,Dominican Republic,05,Dajabón Province,,,,
+DO_06,DO,Dominican Republic,06,Duarte Province,,,,
+DO_07,DO,Dominican Republic,07,Elías Piña Province,,,,
+DO_08,DO,Dominican Republic,08,El Seibo Province,,,,
+DO_09,DO,Dominican Republic,09,Espaillat Province,,,,
+DO_10,DO,Dominican Republic,10,Independencia,,,,
+DO_11,DO,Dominican Republic,11,La Altagracia Province,,,,
+DO_12,DO,Dominican Republic,12,La Romana Province,,,,
+DO_13,DO,Dominican Republic,13,La Vega Province,,,,
+DO_14,DO,Dominican Republic,14,María Trinidad Sánchez Province,,,,
+DO_15,DO,Dominican Republic,15,Monte Cristi Province,,,,
+DO_16,DO,Dominican Republic,16,Pedernales Province,,,,
+DO_17,DO,Dominican Republic,17,Peravia Province,,,,
+DO_18,DO,Dominican Republic,18,Puerto Plata Province,,,,
+DO_19,DO,Dominican Republic,19,Hermanas Mirabal Province,,,,
+DO_20,DO,Dominican Republic,20,Samaná Province,,,,
+DO_21,DO,Dominican Republic,21,San Cristóbal Province,,,,
+DO_22,DO,Dominican Republic,22,San Juan Province,,,,
+DO_23,DO,Dominican Republic,23,San Pedro de Macorís,,,,
+DO_24,DO,Dominican Republic,24,Sánchez Ramírez Province,,,,
+DO_25,DO,Dominican Republic,25,Santiago Province,,,,
+DO_26,DO,Dominican Republic,26,Santiago Rodríguez Province,,,,
+DO_27,DO,Dominican Republic,27,Valverde Province,,,,
+DO_28,DO,Dominican Republic,28,Monseñor Nouel Province,,,,
+DO_29,DO,Dominican Republic,29,Monte Plata Province,,,,
+DO_30,DO,Dominican Republic,30,Hato Mayor Province,,,,
+DO_31,DO,Dominican Republic,31,San José de Ocoa Province,,,,
+DO_32,DO,Dominican Republic,32,Santo Domingo Province,,,,
 DZ,DZ,Algeria,,,,,,-1
 EC,EC,Ecuador,,,,,,-1
+EC_A,EC,Ecuador,A,Azuay Province,,,,
+EC_B,EC,Ecuador,B,Bolívar Province,,,,
+EC_C,EC,Ecuador,C,Carchi Province,,,,
+EC_D,EC,Ecuador,D,Orellana Province,,,,
+EC_E,EC,Ecuador,E,Esmeraldas,,,,
+EC_F,EC,Ecuador,F,Cañar Province,,,,
+EC_G,EC,Ecuador,G,Guayas Province,,,,
+EC_H,EC,Ecuador,H,Chimborazo Province,,,,
+EC_I,EC,Ecuador,I,Imbabura Province,,,,
+EC_L,EC,Ecuador,L,Loja Province,,,,
+EC_M,EC,Ecuador,M,Manabí Provin,,,,
+EC_N,EC,Ecuador,N,Napo Province,,,,
+EC_O,EC,Ecuador,O,El Oro Province,,,,
+EC_P,EC,Ecuador,P,Pichincha Province,,,,
+EC_R,EC,Ecuador,R,Los Ríos Province,,,,
+EC_S,EC,Ecuador,S,Morona-Santiago Province,,,,
+EC_SD,EC,Ecuador,SD,Santo Domingo de los Tsáchilas Province,,,,
+EC_SE,EC,Ecuador,SE,Santa Elena Province,,,,
+EC_T,EC,Ecuador,T,Tungurahua Province,,,,
+EC_U,EC,Ecuador,U,Sucumbíos Province,,,,
+EC_W,EC,Ecuador,W,Galápagos Province,,,,
+EC_X,EC,Ecuador,X,Cotopaxi Province,,,,
+EC_Y,EC,Ecuador,Y,Pastaza Province,,,,
+EC_Z,EC,Ecuador,Z,Zamora-Chinchipe Province,,,,
 EE,EE,Estonia,,,,,,-1
 EG,EG,Egypt,,,,,,-1
 EH,EH,Western Sahara,,,,,,-1
@@ -1593,6 +1673,7 @@ FR_PDL_49,FR,France,PDL,Pays de la Loire,49,Maine-et-Loire,,
 FR_PDL_53,FR,France,PDL,Pays de la Loire,53,Mayenne,,
 FR_PDL_72,FR,France,PDL,Pays de la Loire,72,Sarthe,,
 FR_PDL_85,FR,France,PDL,Pays de la Loire,85,Vendée,,
+FR_PM,FR,France,PM,Saint Pierre and Miquelon,,,,
 GA,GA,Gabon,,,,,,-1
 GB,GB,United Kingdom,,,,,,-1
 GB_ENG,GB,United Kingdom,ENG,England,,,,
@@ -1790,11 +1871,32 @@ GI,GI,Gibraltar,,,,,,-1
 GL,GL,Greenland,,,,,,-1
 GM,GM,Gambia,,,,,,-1
 GN,GN,Guinea,,,,,,-1
-GP,GP,Guadeloupe,,,,,,-1
 GQ,GQ,Equatorial Guinea,,,,,,-1
 GR,GR,Greece,,,,,,-1
 GS,GS,South Georgia and the South Sandwich Islands,,,,,,-1
 GT,GT,Guatemala,,,,,,-1
+GT_AV,GT,Guatemala,AV,Alta Verapaz Department,,,,
+GT_BV,GT,Guatemala,BV,Baja Verapaz Department,,,,
+GT_CM,GT,Guatemala,CM,Chimaltenango Department,,,,
+GT_CQ,GT,Guatemala,CQ,Chiquimula Department,,,,
+GT_ES,GT,Guatemala,ES,Escuintla Department,,,,
+GT_GU,GT,Guatemala,GU,Guatemala Department,,,,
+GT_HU,GT,Guatemala,HU,Huehuetenango Department,,,,
+GT_IZ,GT,Guatemala,IZ,Izabal Department,,,,
+GT_JA,GT,Guatemala,JA,Jalapa Department,,,,
+GT_JU,GT,Guatemala,JU,Jutiapa Department,,,,
+GT_PE,GT,Guatemala,PE,Petén Department,,,,
+GT_PR,GT,Guatemala,PR,El Progreso Department,,,,
+GT_QC,GT,Guatemala,QC,Quiché Department,,,,
+GT_QZ,GT,Guatemala,QZ,Quetzaltenango Department,,,,
+GT_RE,GT,Guatemala,RE,Retalhuleu Department,,,,
+GT_SA,GT,Guatemala,SA,Sacatepéquez Department,,,,
+GT_SM,GT,Guatemala,SM,San Marcos Department,,,,
+GT_SO,GT,Guatemala,SO,Sololá Department,,,,
+GT_SR,GT,Guatemala,SR,Santa Rosa Department,,,,
+GT_SU,GT,Guatemala,SU,Suchitepéquez Department,,,,
+GT_TO,GT,Guatemala,TO,Totonicapán Department,,,,
+GT_ZA,GT,Guatemala,ZA,Zacapa Department,,,,
 GU,GU,Guam,,,,,,-1
 GW,GW,Guinea-Bissau,,,,,,-1
 GY,GY,Guyana,,,,,,-1
@@ -1802,8 +1904,36 @@ GZ,GZ,Gaza Strip,,,,,,0
 HK,HK,Hong Kong,,,,,,-1
 HM,HM,Heard Island and McDonald Islands,,,,,,0
 HN,HN,Honduras,,,,,,-1
+HN_AT,HN,Honduras,AT,Atlántida Department,,,,
+HN_CH,HN,Honduras,CH,Choluteca Department,,,,
+HN_CL,HN,Honduras,CL,Colón Department,,,,
+HN_CM,HN,Honduras,CM,Comayagua Department,,,,
+HN_CP,HN,Honduras,CP,Copán Department,,,,
+HN_CR,HN,Honduras,CR,Cortés Department,,,,
+HN_EP,HN,Honduras,EP,El Paraíso Department,,,,
+HN_FM,HN,Honduras,FM,Francisco Morazán Department,,,,
+HN_GD,HN,Honduras,GD,Gracias a Dios Department,,,,
+HN_IB,HN,Honduras,IB,Bay Islands Department,,,,
+HN_IN,HN,Honduras,IN,Intibucá Department,,,,
+HN_LE,HN,Honduras,LE,Lempira Department,,,,
+HN_LP,HN,Honduras,LP,La Paz Department,,,,
+HN_OC,HN,Honduras,OC,Ocotepeque Department,,,,
+HN_OL,HN,Honduras,OL,Olancho Department,,,,
+HN_SB,HN,Honduras,SB,Santa Bárbara Department,,,,
+HN_VA,HN,Honduras,VA,Valle Department,,,,
+HN_YO,HN,Honduras,YO,Yoro Department,,,,
 HR,HR,Croatia,,,,,,-1
 HT,HT,Haiti,,,,,,-1
+HT_AR,HT,Haiti,AR,Artibonite,,,,
+HT_CE,HT,Haiti,CE,Centre,,,,
+HT_GA,HT,Haiti,GA,Grand'Anse,,,,
+HT_ND,HT,Haiti,ND,Nord,,,,
+HT_NE,HT,Haiti,NE,Nord-Est,,,,
+HT_NI,HT,Haiti,NI,Nippes,,,,
+HT_NO,HT,Haiti,NO,Nord-Ouest,,,,
+HT_OU,HT,Haiti,OU,Ouest,,,,
+HT_SD,HT,Haiti,SD,Sud,,,,
+HT_SE,HT,Haiti,SE,Sud-Est,,,,
 HU,HU,Hungary,,,,,,-1
 ID,ID,Indonesia,,,,,,-1
 ID_AC,ID,Indonesia,AC,Aceh,,,,0
@@ -2073,6 +2203,23 @@ NE,NE,Niger,,,,,,-1
 NF,NF,Norfolk Island,,,,,,-1
 NG,NG,Nigeria,,,,,,-1
 NI,NI,Nicaragua,,,,,,-1
+NI_AN,NI,Nicaragua,AN,North Caribbean Coast Autonomous Region,,,,
+NI_AS,NI,Nicaragua,AS,South Caribbean Coast Autonomous Region,,,,
+NI_BO,NI,Nicaragua,BO,Boaco Department,,,,
+NI_CA,NI,Nicaragua,CA,Carazo Department,,,,
+NI_CI,NI,Nicaragua,CI,Chinandega Department,,,,
+NI_CO,NI,Nicaragua,CO,Chontales Department,,,,
+NI_ES,NI,Nicaragua,ES,Estelí Department,,,,
+NI_GR,NI,Nicaragua,GR,Granada Department,,,,
+NI_JI,NI,Nicaragua,JI,Jinotega Department,,,,
+NI_LE,NI,Nicaragua,LE,León Department,,,,
+NI_MD,NI,Nicaragua,MD,Madriz Department,,,,
+NI_MN,NI,Nicaragua,MN,Managua Department,,,,
+NI_MS,NI,Nicaragua,MS,Masaya Department,,,,
+NI_MT,NI,Nicaragua,MT,Matagalpa Department,,,,
+NI_NS,NI,Nicaragua,NS,Nueva Segovia Department,,,,
+NI_RI,NI,Nicaragua,RI,Rivas Department,,,,
+NI_SJ,NI,Nicaragua,SJ,Río San Juan Department,,,,
 NL,NL,Netherlands,,,,,,-1
 NL_DR,NL,Netherlands,DR,Drenthe,,,,
 NL_DR_0106,NL,Netherlands,DR,Drenthe,0106,Assen,
@@ -2461,6 +2608,19 @@ NU,NU,Niue,,,,,,-1
 NZ,NZ,New Zealand,,,,,,0
 OM,OM,Oman,,,,,,-1
 PA,PA,Panama,,,,,,-1
+PA_1,PA,Panama,1,Bocas del Toro Province
+PA_10,PA,Panama,10,Panamá Oeste Province
+PA_2,PA,Panama,2,Coclé Province
+PA_3,PA,Panama,3,Colón Province
+PA_4,PA,Panama,4,Chiriquí Province
+PA_5,PA,Panama,5,Darién Province
+PA_6,PA,Panama,6,Herrera Province
+PA_7,PA,Panama,7,Los Santos Province
+PA_8,PA,Panama,8,Panamá Province
+PA_9,PA,Panama,9,Veraguas Province
+PA_EM,PA,Panama,EM,Emberá-Wounaan Comarca
+PA_KY,PA,Panama,KY,Guna Yala
+PA_NB,PA,Panama,NB,Ngöbe-Buglé Comarca
 PE,PE,Peru,,,,,,-1
 PE_AMA,PE,Peru,AMA,Amazonas,,,,
 PE_ANC,PE,Peru,ANC,Ancash,,,,
@@ -2614,7 +2774,6 @@ PL_26,PL,Poland,26,Swietokrzyskie,,,świętokrzyskie,
 PL_28,PL,Poland,28,Warmia-Masuria,,,(warmińsko-mazurskie)|(warmian-masurian),
 PL_30,PL,Poland,30,Greater Poland,,,wielkopolskie,
 PL_32,PL,Poland,32,West Pomeranian,,,zachodniopomorskie,
-PM,PM,Saint Pierre and Miquelon,,,,,,-1
 PN,PN,Pitcairn Islands,,,,,,-1
 PR,PR,Puerto Rico,,,,,,-1
 PS,PS,Palestine,,,,,,-1
@@ -2628,6 +2787,24 @@ PT_20,PT,Portugal,20,Azores,,,acores,
 PT_30,PT,Portugal,30,Madeira,,,,
 PW,PW,Palau,,,,,,-1
 PY,PY,Paraguay,,,,,,-1
+PY_1,PY,Paraguay,1,Concepción Department,,,,
+PY_10,PY,Paraguay,10,Alto Paraná Department,,,,
+PY_11,PY,Paraguay,11,Central Department,,,,
+PY_12,PY,Paraguay,12,Ñeembucú Department,,,,
+PY_13,PY,Paraguay,13,Amambay Department,,,,
+PY_14,PY,Paraguay,14,Canindeyú,,,,
+PY_15,PY,Paraguay,15,Presidente Hayes Department,,,,
+PY_16,PY,Paraguay,16,Alto Paraguay Department,,,,
+PY_19,PY,Paraguay,19,Boquerón Department,,,,
+PY_2,PY,Paraguay,2,San Pedro Department,,,,
+PY_3,PY,Paraguay,3,Cordillera Department,,,,
+PY_4,PY,Paraguay,4,Guairá Department,,,,
+PY_5,PY,Paraguay,5,Caaguazú,,,,
+PY_6,PY,Paraguay,6,Caazapá,,,,
+PY_7,PY,Paraguay,7,Itapúa,,,,
+PY_8,PY,Paraguay,8,Misiones Department,,,,
+PY_9,PY,Paraguay,9,Paraguarí Department,,,,
+PY_ASU,PY,Paraguay,ASU,Capital District,,,,
 QA,QA,Qatar,,,,,,-1
 RE,RE,Réunion,,,,,,-1
 RO,RO,Romania,,,,,,-1
@@ -2773,6 +2950,20 @@ SR,SR,Suriname,,,,,,-1
 SS,SS,South Sudan,,,,,,-1
 ST,ST,São Tomé and Príncipe,,,,,,-1
 SV,SV,El Salvador,,,,,,-1
+SV_AH,SV,El Salvador,AH,Ahuachapán Department,,,,
+SV_CA,SV,El Salvador,CA,Cabañas Department,,,,
+SV_CH,SV,El Salvador,CH,Chalatenango Department,,,,
+SV_CU,SV,El Salvador,CU,Cuscatlán Department,,,,
+SV_LI,SV,El Salvador,LI,La Libertad Department,,,,
+SV_MO,SV,El Salvador,MO,Morazán Department,,,,
+SV_PA,SV,El Salvador,PA,La Paz Department,,,,
+SV_SA,SV,El Salvador,SA,Santa Ana Department,,,,
+SV_SM,SV,El Salvador,SM,San Miguel Department,,,,
+SV_SO,SV,El Salvador,SO,Sonsonate Department,,,,
+SV_SS,SV,El Salvador,SS,San Salvador Department,,,,
+SV_SV,SV,El Salvador,SV,San Vicente Department,,,,
+SV_UN,SV,El Salvador,UN,La Unión Department,,,,
+SV_US,SV,El Salvador,US,Usulután Department,,,,
 SX,SX,Sint Maarten,,,,,,-1
 SY,SY,Syria,,,,,,-1
 SZ,SZ,Swaziland,,,,,,-1
@@ -6075,6 +6266,26 @@ US_WY_56041,US,United States of America,WY,Wyoming,56041,Uinta County,,
 US_WY_56043,US,United States of America,WY,Wyoming,56043,Washakie County,,
 US_WY_56045,US,United States of America,WY,Wyoming,56045,Weston County,,
 UY,UY,Uruguay,,,,,,-1
+UY_AR,UY,Uruguay,AR,Artigas Department,,,,
+UY_CA,UY,Uruguay,CA,Canelones Department,,,,
+UY_CL,UY,Uruguay,CL,Cerro Largo Department,,,,
+UY_CO,UY,Uruguay,CO,Colonia Department,,,,
+UY_DU,UY,Uruguay,DU,Durazno Department,,,,
+UY_FD,UY,Uruguay,FD,Florida Department,,,,
+UY_FS,UY,Uruguay,FS,Flores Department,,,,
+UY_LA,UY,Uruguay,LA,Lavalleja Department,,,,
+UY_MA,UY,Uruguay,MA,Maldonado Department,,,,
+UY_MO,UY,Uruguay,MO,Montevideo,,,,
+UY_MO,UY,Uruguay,MO,Montevideo Department,,,,
+UY_PA,UY,Uruguay,PA,Paysandú Department,,,,
+UY_RN,UY,Uruguay,RN,Río Negro Department,,,,
+UY_RO,UY,Uruguay,RO,Rocha Department,,,,
+UY_RV,UY,Uruguay,RV,Rivera Department,,,,
+UY_SA,UY,Uruguay,SA,Salto Department,,,,
+UY_SJ,UY,Uruguay,SJ,San José Department,,,,
+UY_SO,UY,Uruguay,SO,Soriano Department,,,,
+UY_TA,UY,Uruguay,TA,Tacuarembó Department,,,,
+UY_TT,UY,Uruguay,TT,Treinta y Tres Department,,,,
 UZ,UZ,Uzbekistan,,,,,,-1
 VA,VA,Vatican City,,,,,,-1
 VC,VC,Saint Vincent and the Grenadines,,,,,,-1

@@ -44,6 +44,13 @@ sources:
         opts:
           ext: csv
 
+  # Data sources for LATAM countries level 1 + 2
+  - name: pipelines.epidemiology.xx_covid19_latinoamerica.Covid19LatinoAmericaDataSource
+    fetch:
+      - url: "https://raw.github.com/DataScienceResearchPeru/covid-19_latinoamerica/master/latam_covid_19_data/time_series/time_series_confirmed.csv"
+      - url: "https://raw.github.com/DataScienceResearchPeru/covid-19_latinoamerica/master/latam_covid_19_data/time_series/time_series_deaths.csv"
+      - url: "https://raw.github.com/DataScienceResearchPeru/covid-19_latinoamerica/master/latam_covid_19_data/time_series/time_series_recovered.csv"
+
   # Data sources for AF level 2
   - name: pipelines.epidemiology.af_humdata.AfghanistanHumdataDataSource
     fetch:
@@ -85,18 +92,6 @@ sources:
       country: AU
       date_format: "%d %B"
       cumsum: true
-
-  # Data sources for BO level 2
-  - name: pipelines.epidemiology.xx_wikipedia.WikipediaDataSource
-    fetch:
-      - url: "https://en.wikipedia.org/wiki/Template:2019–20_coronavirus_pandemic_data/Bolivia_medical_cases"
-        opts:
-          ext: html
-    parse:
-      country: BO
-      date_format: "%b %d"
-      skiprows: 1
-      droprows: "Date(2020)"
 
   # Data sources for BR level 2
   - name: pipelines.epidemiology.br_covid19_brazil_timeseries.Covid19BrazilTimeseriesDataSource
