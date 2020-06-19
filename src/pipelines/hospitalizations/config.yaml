@@ -135,6 +135,13 @@ sources:
     parse:
       sep: ";"
 
+  # Data sources for PH levels 2 + 3
+  - name: pipelines.epidemiology.ph_authority.PhilippinesDataSource
+    fetch:
+      - url: "https://drive.google.com/uc?export=download&id=1moFBN_thU0e70frjnYjoV-UWYxVzsvCh"
+        opts:
+          ext: xlsx
+
   # Data sources for PT level 1
   - name: pipelines.epidemiology.pt_covid19.PtCovid19L1DataSource
     fetch:

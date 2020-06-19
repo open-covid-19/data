@@ -600,6 +600,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-16,,,3669,8,,0,,130,CH,CH,,,,,,,
 2020-06-17,,,3679,8,,0,,130,CH,CH,,,,,,,
 2020-06-18,,,3684,10,,0,,130,CH,CH,,,,,,,
+2020-06-19,,,3685,9,,0,,130,CH,CH,,,,,,,
 2020-02-27,BS,,1,,,,,,CH,CH_BS,,,,,,,
 2020-02-28,BS,,1,,,,,,CH,CH_BS,,0,,,,,
 2020-02-29,BS,,1,,,,,,CH,CH_BS,,0,,,,,
@@ -812,6 +813,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-16,BE,,1935,1,0,0,,97,CH,CH_BE,,1,0,0,0,,0
 2020-06-17,BE,,1935,3,0,0,,97,CH,CH_BE,,0,2,0,0,,0
 2020-06-18,BE,,1937,3,0,0,,97,CH,CH_BE,,2,0,0,0,,0
+2020-06-19,BE,,1939,3,0,0,,97,CH,CH_BE,,2,0,0,0,,0
 2020-02-28,BL,,1,,,,,,CH,CH_BL,,,,,,,
 2020-02-29,BL,,2,1,0,,,,CH,CH_BL,,1,,,,,
 2020-03-01,BL,,2,1,0,,,,CH,CH_BL,,0,0,0,,,
@@ -924,6 +926,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-16,BL,,847,0,0,0,809,35,CH,CH_BL,,1,0,0,0,0,0
 2020-06-17,BL,,847,0,0,0,809,35,CH,CH_BL,,0,0,0,0,0,0
 2020-06-18,BL,,847,0,0,0,809,35,CH,CH_BL,,0,0,0,0,0,0
+2020-06-19,BL,,847,0,0,0,810,35,CH,CH_BL,,0,0,0,0,1,0
 2020-02-28,VD,,,4,,,,,CH,CH_VD,,,,,,,
 2020-02-29,VD,,,4,,,,,CH,CH_VD,,,0,,,,
 2020-03-01,VD,,,4,,,,,CH,CH_VD,,,0,,,,
@@ -2378,6 +2381,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-16,OW,,82,0,,,,0,CH,CH_OW,0,0,0,,,0,0
 2020-06-17,OW,,82,0,,,,0,CH,CH_OW,0,0,0,,,0,0
 2020-06-18,OW,,82,0,,,,0,CH,CH_OW,0,0,0,,,0,0
+2020-06-19,OW,,82,0,,,,0,CH,CH_OW,0,0,0,,,0,0
 2020-03-14,AI,,2,,,,,0,CH,CH_AI,,,,,,,
 2020-03-16,AI,,4,,,,,0,CH,CH_AI,,2,,,,,0
 2020-03-17,AI,,5,,,,,0,CH,CH_AI,,1,,,,,0
