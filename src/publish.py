@@ -168,7 +168,6 @@ export_csv(weather.rename(columns=rename_columns), v1_folder / "weather.csv")
 # Create the v1 mobility.csv file
 mobility = read_file(v2_folder / "mobility.csv")
 mobility = mobility[mobility.key.apply(lambda x: len(x.split("_")) < 3)]
-mobility = mobility.drop(columns=["mobility_driving", "mobility_transit", "mobility_walking"])
 mobility = drop_na_records(mobility, ["date", "key"])
 rename_columns = {col: snake_to_camel_case(col).replace("Mobility", "") for col in mobility.columns}
 export_csv(mobility.rename(columns=rename_columns), v1_folder / "mobility.csv")

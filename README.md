@@ -276,17 +276,13 @@ potential missing data. All of that makes the total counts *drift* away from the
 counts over time, which is why the cumulative values, if reported, are kept in a separate column.
 
 ### Mobility
-[Google's][17] and [Apple's][22] Mobility Reports] are presented in CSV form as
-[mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) with the
-following columns:
+[Google's][17] Mobility Reports are presented in CSV form as
+[mobility.csv](https://open-covid-19.github.io/data/v2/mobility.csv) with the following columns:
 
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | US_CA |
-| **mobility_driving** | `double` `[%]` |  Percentage change in movement via driving compared to baseline | -15 |
-| **mobility_transit** | `double` `[%]` |  Percentage change in movement via public transit compared to baseline | -15 |
-| **mobility_walking** | `double` `[%]` |  Percentage change in movement via walking compared to baseline | -15 |
 | **mobility_transit_stations** | `double` `[%]` |  Percentage change in visits to transit station locations compared to baseline | -15 |
 | **mobility_retail_and_recreation** | `double` `[%]` |  Percentage change in visits to retail and recreation locations compared to baseline | -15 |
 | **mobility_grocery_and_pharmacy** | `double` `[%]` |  Percentage change in visits to grocery and pharmacy locations compared to baseline | -15 |
@@ -470,7 +466,6 @@ from the relevant authorities, like a country's ministry of health.
 | Health | [Wikidata](https://wikidata.org) | [CC0][23] |
 | Health | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |
 | Weather | [NOAA](https://www.ncei.noaa.gov) | [Attribution required, non-commercial use](https://www.wmo.int/pages/prog/www/ois/Operational_Information/Publications/Congress/Cg_XII/res40_en.html) |
-| Apple Mobility data | <https://www.apple.com/covid19/mobility> | [Attribution required](https://www.google.com/help/terms_maps/?hl=en) |
 | Google Mobility data | <https://www.google.com/covid19/mobility/> | [Attribution required](https://www.google.com/help/terms_maps/?hl=en) |
 | Government response data | [Oxford COVID-19 government response tracker][18] | [CC BY 4.0](https://github.com/OxCGRT/covid-policy-tracker/blob/master/LICENSE.txt) |
 | Country-level data | [ECDC](https://www.ecdc.europa.eu) | [Attribution required](https://www.ecdc.europa.eu/en/copyright) |

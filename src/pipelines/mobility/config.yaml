@@ -17,9 +17,9 @@
 schema:
   date: str
   key: str
-  mobility_driving: float
-  mobility_transit: float
-  mobility_walking: float
+  # mobility_driving: float
+  # mobility_transit: float
+  # mobility_walking: float
   mobility_retail_and_recreation: float
   mobility_grocery_and_pharmacy: float
   mobility_parks: float
@@ -38,6 +38,6 @@ sources:
     fetch:
       - url: "https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv"
 
-  - name: pipelines.mobility.apple_mobility.AppleMobilityDataSource
-    fetch:
-      - url: "https://covid19-static.cdn-apple.com/covid19-mobility-data/current/v3/index.json"
+  # - name: pipelines.mobility.apple_mobility.AppleMobilityDataSource
+  #   fetch:
+  #     - url: "https://covid19-static.cdn-apple.com/covid19-mobility-data/current/v3/index.json"
