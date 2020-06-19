@@ -96,6 +96,7 @@ Kerala,2020-06-14,85,,85,2406,0,19,IN,,kerala,IN_KL
 Kerala,2020-06-15,54,,54,2460,0,19,IN,,kerala,IN_KL
 Kerala,2020-06-16,82,1,82,2542,1,20,IN,,kerala,IN_KL
 Kerala,2020-06-17,79,,79,2621,0,20,IN,,kerala,IN_KL
+Kerala,2020-06-18,75,,75,2696,0,20,IN,,kerala,IN_KL
 Delhi,2020-03-02,1,,1,1,0,0,IN,,delhi,IN_DL
 Delhi,2020-03-04,1,,1,2,0,0,IN,,delhi,IN_DL
 Delhi,2020-03-05,1,,1,3,0,0,IN,,delhi,IN_DL
@@ -193,6 +194,7 @@ Delhi,2020-06-14,2134,57,2134,38958,57,1271,IN,,delhi,IN_DL
 Delhi,2020-06-15,2224,56,2224,41182,56,1327,IN,,delhi,IN_DL
 Delhi,2020-06-16,1647,73,1647,42829,73,1400,IN,,delhi,IN_DL
 Delhi,2020-06-17,1859,437,1859,44688,437,1837,IN,,delhi,IN_DL
+Delhi,2020-06-18,2414,67,2414,47102,67,1904,IN,,delhi,IN_DL
 Telangana,2020-03-02,1,,1,1,0,0,IN,,telangana,IN_TG
 Telangana,2020-03-15,2,,2,3,0,0,IN,,telangana,IN_TG
 Telangana,2020-03-17,2,,2,5,0,0,IN,,telangana,IN_TG
@@ -283,6 +285,7 @@ Telangana,2020-06-14,253,8,253,4737,8,182,IN,,telangana,IN_TG
 Telangana,2020-06-15,237,3,237,4974,3,185,IN,,telangana,IN_TG
 Telangana,2020-06-16,219,2,219,5193,2,187,IN,,telangana,IN_TG
 Telangana,2020-06-17,213,4,213,5406,4,191,IN,,telangana,IN_TG
+Telangana,2020-06-18,269,1,269,5675,1,192,IN,,telangana,IN_TG
 Rajasthan,2020-03-03,1,,1,1,0,0,IN,,rajasthan,IN_RJ
 Rajasthan,2020-03-04,1,,1,2,0,0,IN,,rajasthan,IN_RJ
 Rajasthan,2020-03-11,1,,1,3,0,0,IN,,rajasthan,IN_RJ
@@ -378,6 +381,7 @@ Rajasthan,2020-06-14,333,10,333,12401,10,282,IN,,rajasthan,IN_RJ
 Rajasthan,2020-06-15,293,10,293,12694,10,292,IN,,rajasthan,IN_RJ
 Rajasthan,2020-06-16,287,9,287,12981,9,301,IN,,rajasthan,IN_RJ
 Rajasthan,2020-06-17,235,7,235,13216,7,308,IN,,rajasthan,IN_RJ
+Rajasthan,2020-06-18,326,5,326,13542,5,313,IN,,rajasthan,IN_RJ
 Haryana,2020-03-04,14,,14,14,0,0,IN,,haryana,IN_HR
 Haryana,2020-03-17,1,,1,15,0,0,IN,,haryana,IN_HR
 Haryana,2020-03-18,2,,2,17,0,0,IN,,haryana,IN_HR
@@ -453,6 +457,7 @@ Haryana,2020-06-14,415,8,415,6749,8,78,IN,,haryana,IN_HR
 Haryana,2020-06-15,459,10,459,7208,10,88,IN,,haryana,IN_HR
 Haryana,2020-06-16,514,12,514,7722,12,100,IN,,haryana,IN_HR
 Haryana,2020-06-17,550,18,550,8272,18,118,IN,,haryana,IN_HR
+Haryana,2020-06-18,560,12,560,8832,12,130,IN,,haryana,IN_HR
 Uttar Pradesh,2020-03-04,6,,6,6,0,0,IN,,uttar pradesh,IN_UP
 Uttar Pradesh,2020-03-05,1,,1,7,0,0,IN,,uttar pradesh,IN_UP
 Uttar Pradesh,2020-03-09,1,,1,8,0,0,IN,,uttar pradesh,IN_UP
@@ -548,6 +553,7 @@ Uttar Pradesh,2020-06-13,528,20,528,12616,20,365,IN,,uttar pradesh,IN_UP
 Uttar Pradesh,2020-06-14,502,20,502,13118,20,385,IN,,uttar pradesh,IN_UP
 Uttar Pradesh,2020-06-15,497,14,497,13615,14,399,IN,,uttar pradesh,IN_UP
 Uttar Pradesh,2020-06-17,476,18,476,14091,18,417,IN,,uttar pradesh,IN_UP
+Uttar Pradesh,2020-06-18,507,18,507,14598,18,435,IN,,uttar pradesh,IN_UP
 Ladakh,2020-03-07,2,,2,2,0,0,IN,,ladakh,IN_LA
 Ladakh,2020-03-12,1,,1,3,0,0,IN,,ladakh,IN_LA
 Ladakh,2020-03-16,1,,1,4,0,0,IN,,ladakh,IN_LA
@@ -584,6 +590,7 @@ Ladakh,2020-06-14,198,,198,437,0,1,IN,,ladakh,IN_LA
 Ladakh,2020-06-15,112,,112,549,0,1,IN,,ladakh,IN_LA
 Ladakh,2020-06-16,6,,6,555,0,1,IN,,ladakh,IN_LA
 Ladakh,2020-06-17,94,,94,649,0,1,IN,,ladakh,IN_LA
+Ladakh,2020-06-18,38,,38,687,0,1,IN,,ladakh,IN_LA
 Tamil Nadu,2020-03-07,1,,1,1,0,0,IN,,tamil nadu,IN_TN
 Tamil Nadu,2020-03-19,1,,1,2,0,0,IN,,tamil nadu,IN_TN
 Tamil Nadu,2020-03-20,1,,1,3,0,0,IN,,tamil nadu,IN_TN
@@ -674,6 +681,7 @@ Tamil Nadu,2020-06-14,1989,30,1989,42687,30,397,IN,,tamil nadu,IN_TN
 Tamil Nadu,2020-06-15,1974,38,1974,44661,38,435,IN,,tamil nadu,IN_TN
 Tamil Nadu,2020-06-16,1843,44,1843,46504,44,479,IN,,tamil nadu,IN_TN
 Tamil Nadu,2020-06-17,1515,49,1515,48019,49,528,IN,,tamil nadu,IN_TN
+Tamil Nadu,2020-06-18,2174,48,2174,50193,48,576,IN,,tamil nadu,IN_TN
 Jammu and Kashmir,2020-03-09,1,,1,1,0,0,IN,,jammu and kashmir,IN_JK
 Jammu and Kashmir,2020-03-14,1,,1,2,0,0,IN,,jammu and kashmir,IN_JK
 Jammu and Kashmir,2020-03-16,1,,1,3,0,0,IN,,jammu and kashmir,IN_JK
@@ -760,6 +768,7 @@ Jammu and Kashmir,2020-06-14,148,2,148,4878,2,55,IN,,jammu and kashmir,IN_JK
 Jammu and Kashmir,2020-06-15,163,4,163,5041,4,59,IN,,jammu and kashmir,IN_JK
 Jammu and Kashmir,2020-06-16,179,3,179,5220,3,62,IN,,jammu and kashmir,IN_JK
 Jammu and Kashmir,2020-06-17,78,1,78,5298,1,63,IN,,jammu and kashmir,IN_JK
+Jammu and Kashmir,2020-06-18,108,2,108,5406,2,65,IN,,jammu and kashmir,IN_JK
 Punjab,2020-03-09,1,,1,1,0,0,IN,,punjab,IN_PB
 Punjab,2020-03-19,1,1,1,2,1,1,IN,,punjab,IN_PB
 Punjab,2020-03-20,1,,1,3,0,1,IN,,punjab,IN_PB
@@ -835,6 +844,7 @@ Punjab,2020-06-14,77,2,77,3063,2,65,IN,,punjab,IN_PB
 Punjab,2020-06-15,77,2,77,3140,2,67,IN,,punjab,IN_PB
 Punjab,2020-06-16,127,4,127,3267,4,71,IN,,punjab,IN_PB
 Punjab,2020-06-17,104,1,104,3371,1,72,IN,,punjab,IN_PB
+Punjab,2020-06-18,126,6,126,3497,6,78,IN,,punjab,IN_PB
 Karnataka,2020-03-10,4,,4,4,0,0,IN,,karnataka,IN_KA
 Karnataka,2020-03-12,0,1,0,4,1,1,IN,,karnataka,IN_KA
 Karnataka,2020-03-13,2,,2,6,0,1,IN,,karnataka,IN_KA
@@ -928,6 +938,7 @@ Karnataka,2020-06-14,308,2,308,6824,2,81,IN,,karnataka,IN_KA
 Karnataka,2020-06-15,176,5,176,7000,5,86,IN,,karnataka,IN_KA
 Karnataka,2020-06-16,213,3,213,7213,3,89,IN,,karnataka,IN_KA
 Karnataka,2020-06-17,317,5,317,7530,5,94,IN,,karnataka,IN_KA
+Karnataka,2020-06-18,204,8,204,7734,8,102,IN,,karnataka,IN_KA
 Maharashtra,2020-03-10,2,,2,2,0,0,IN,,maharashtra,IN_MH
 Maharashtra,2020-03-12,6,,6,8,0,0,IN,,maharashtra,IN_MH
 Maharashtra,2020-03-13,3,,3,11,0,0,IN,,maharashtra,IN_MH
@@ -1025,6 +1036,7 @@ Maharashtra,2020-06-14,3427,113,3427,104568,113,3830,IN,,maharashtra,IN_MH
 Maharashtra,2020-06-15,3390,120,3390,107958,120,3950,IN,,maharashtra,IN_MH
 Maharashtra,2020-06-16,2786,178,2786,110744,178,4128,IN,,maharashtra,IN_MH
 Maharashtra,2020-06-17,2701,1409,2701,113445,1409,5537,IN,,maharashtra,IN_MH
+Maharashtra,2020-06-18,3307,114,3307,116752,114,5651,IN,,maharashtra,IN_MH
 Andhra Pradesh,2020-03-12,1,,1,1,0,0,IN,,andhra pradesh,IN_AP
 Andhra Pradesh,2020-03-20,2,,2,3,0,0,IN,,andhra pradesh,IN_AP
 Andhra Pradesh,2020-03-22,2,,2,5,0,0,IN,,andhra pradesh,IN_AP
@@ -1111,6 +1123,7 @@ Andhra Pradesh,2020-06-14,285,2,285,5965,2,82,IN,,andhra pradesh,IN_AP
 Andhra Pradesh,2020-06-15,198,2,198,6163,2,84,IN,,andhra pradesh,IN_AP
 Andhra Pradesh,2020-06-16,293,4,293,6456,4,88,IN,,andhra pradesh,IN_AP
 Andhra Pradesh,2020-06-17,385,,385,6841,0,88,IN,,andhra pradesh,IN_AP
+Andhra Pradesh,2020-06-18,230,2,230,7071,2,90,IN,,andhra pradesh,IN_AP
 Odisha,2020-03-16,1,,1,1,0,0,IN,,odisha,IN_OR
 Odisha,2020-03-20,1,,1,2,0,0,IN,,odisha,IN_OR
 Odisha,2020-03-27,1,,1,3,0,0,IN,,odisha,IN_OR
@@ -1184,6 +1197,7 @@ Odisha,2020-06-14,225,,225,3723,0,10,IN,,odisha,IN_OR
 Odisha,2020-06-15,186,1,186,3909,1,11,IN,,odisha,IN_OR
 Odisha,2020-06-16,146,,146,4055,0,11,IN,,odisha,IN_OR
 Odisha,2020-06-17,108,,108,4163,0,11,IN,,odisha,IN_OR
+Odisha,2020-06-18,175,,175,4338,0,11,IN,,odisha,IN_OR
 Puducherry,2020-03-18,1,,1,1,0,0,IN,,puducherry,IN_PY
 Puducherry,2020-04-01,2,,2,3,0,0,IN,,puducherry,IN_PY
 Puducherry,2020-04-03,2,,2,5,0,0,IN,,puducherry,IN_PY
@@ -1208,6 +1222,7 @@ Puducherry,2020-06-14,19,,19,176,0,2,IN,,puducherry,IN_PY
 Puducherry,2020-06-15,18,3,18,194,3,5,IN,,puducherry,IN_PY
 Puducherry,2020-06-16,8,,8,202,0,5,IN,,puducherry,IN_PY
 Puducherry,2020-06-17,14,1,14,216,1,6,IN,,puducherry,IN_PY
+Puducherry,2020-06-18,29,1,29,245,1,7,IN,,puducherry,IN_PY
 West Bengal,2020-03-18,1,,1,1,0,0,IN,,west bengal,IN_WB
 West Bengal,2020-03-20,1,,1,2,0,0,IN,,west bengal,IN_WB
 West Bengal,2020-03-21,1,,1,3,0,0,IN,,west bengal,IN_WB
@@ -1295,6 +1310,7 @@ West Bengal,2020-06-14,454,12,454,10698,12,463,IN,,west bengal,IN_WB
 West Bengal,2020-06-15,389,12,389,11087,12,475,IN,,west bengal,IN_WB
 West Bengal,2020-06-16,407,10,407,11494,10,485,IN,,west bengal,IN_WB
 West Bengal,2020-06-17,415,10,415,11909,10,495,IN,,west bengal,IN_WB
+West Bengal,2020-06-18,391,11,391,12300,11,506,IN,,west bengal,IN_WB
 Chandigarh,2020-03-19,1,,1,1,0,0,IN,,chandigarh,IN_CH
 Chandigarh,2020-03-22,4,,4,5,0,0,IN,,chandigarh,IN_CH
 Chandigarh,2020-03-23,1,,1,6,0,0,IN,,chandigarh,IN_CH
@@ -1349,6 +1365,7 @@ Chandigarh,2020-06-14,11,,11,345,0,5,IN,,chandigarh,IN_CH
 Chandigarh,2020-06-15,7,,7,352,0,5,IN,,chandigarh,IN_CH
 Chandigarh,2020-06-16,2,1,2,354,1,6,IN,,chandigarh,IN_CH
 Chandigarh,2020-06-17,4,,4,358,0,6,IN,,chandigarh,IN_CH
+Chandigarh,2020-06-18,10,,10,368,0,6,IN,,chandigarh,IN_CH
 Chhattisgarh,2020-03-19,1,,1,1,0,0,IN,,chhattisgarh,IN_CT
 Chhattisgarh,2020-03-25,1,,1,2,0,0,IN,,chhattisgarh,IN_CT
 Chhattisgarh,2020-03-26,4,,4,6,0,0,IN,,chhattisgarh,IN_CT
@@ -1402,6 +1419,7 @@ Chhattisgarh,2020-06-14,83,,83,1512,0,6,IN,,chhattisgarh,IN_CT
 Chhattisgarh,2020-06-15,150,2,150,1662,2,8,IN,,chhattisgarh,IN_CT
 Chhattisgarh,2020-06-16,94,,94,1756,0,8,IN,,chhattisgarh,IN_CT
 Chhattisgarh,2020-06-17,25,1,25,1781,1,9,IN,,chhattisgarh,IN_CT
+Chhattisgarh,2020-06-18,83,1,83,1864,1,10,IN,,chhattisgarh,IN_CT
 Uttarakhand,2020-03-19,1,,1,1,0,0,IN,,uttarakhand,IN_UT
 Uttarakhand,2020-03-21,2,,2,3,0,0,IN,,uttarakhand,IN_UT
 Uttarakhand,2020-03-24,1,,1,4,0,0,IN,,uttarakhand,IN_UT
@@ -1467,6 +1485,7 @@ Uttarakhand,2020-06-14,61,2,61,1785,2,23,IN,,uttarakhand,IN_UT
 Uttarakhand,2020-06-15,34,1,34,1819,1,24,IN,,uttarakhand,IN_UT
 Uttarakhand,2020-06-16,26,,26,1845,0,24,IN,,uttarakhand,IN_UT
 Uttarakhand,2020-06-17,97,1,97,1942,1,25,IN,,uttarakhand,IN_UT
+Uttarakhand,2020-06-18,81,1,81,2023,1,26,IN,,uttarakhand,IN_UT
 Gujarat,2020-03-20,5,,5,5,0,0,IN,,gujarat,IN_GJ
 Gujarat,2020-03-21,2,,2,7,0,0,IN,,gujarat,IN_GJ
 Gujarat,2020-03-22,11,1,11,18,1,1,IN,,gujarat,IN_GJ
@@ -1555,6 +1574,7 @@ Gujarat,2020-06-14,511,33,511,23038,33,1448,IN,,gujarat,IN_GJ
 Gujarat,2020-06-15,506,29,506,23544,29,1477,IN,,gujarat,IN_GJ
 Gujarat,2020-06-16,511,28,511,24055,28,1505,IN,,gujarat,IN_GJ
 Gujarat,2020-06-17,522,28,522,24577,28,1533,IN,,gujarat,IN_GJ
+Gujarat,2020-06-18,516,27,516,25093,27,1560,IN,,gujarat,IN_GJ
 Himachal Pradesh,2020-03-21,2,,2,2,0,0,IN,,himachal pradesh,IN_HP
 Himachal Pradesh,2020-03-23,1,1,1,3,1,1,IN,,himachal pradesh,IN_HP
 Himachal Pradesh,2020-04-03,3,,3,6,0,1,IN,,himachal pradesh,IN_HP
@@ -1610,6 +1630,7 @@ Himachal Pradesh,2020-06-14,16,,16,502,0,6,IN,,himachal pradesh,IN_HP
 Himachal Pradesh,2020-06-15,16,1,16,518,1,7,IN,,himachal pradesh,IN_HP
 Himachal Pradesh,2020-06-16,38,1,38,556,1,8,IN,,himachal pradesh,IN_HP
 Himachal Pradesh,2020-06-17,4,,4,560,0,8,IN,,himachal pradesh,IN_HP
+Himachal Pradesh,2020-06-18,9,,9,569,0,8,IN,,himachal pradesh,IN_HP
 Madhya Pradesh,2020-03-21,4,,4,4,0,0,IN,,madhya pradesh,IN_MP
 Madhya Pradesh,2020-03-23,2,,2,6,0,0,IN,,madhya pradesh,IN_MP
 Madhya Pradesh,2020-03-24,1,,1,7,0,0,IN,,madhya pradesh,IN_MP
@@ -1689,6 +1710,7 @@ Madhya Pradesh,2020-06-14,198,7,198,10641,7,447,IN,,madhya pradesh,IN_MP
 Madhya Pradesh,2020-06-15,161,12,161,10802,12,459,IN,,madhya pradesh,IN_MP
 Madhya Pradesh,2020-06-16,133,6,133,10935,6,465,IN,,madhya pradesh,IN_MP
 Madhya Pradesh,2020-06-17,148,11,148,11083,11,476,IN,,madhya pradesh,IN_MP
+Madhya Pradesh,2020-06-18,161,6,161,11244,6,482,IN,,madhya pradesh,IN_MP
 Bihar,2020-03-22,2,1,2,2,1,1,IN,,bihar,IN_BR
 Bihar,2020-03-24,1,,1,3,0,1,IN,,bihar,IN_BR
 Bihar,2020-03-26,3,,3,6,0,1,IN,,bihar,IN_BR
@@ -1769,6 +1791,7 @@ Bihar,2020-06-14,187,3,187,6290,3,39,IN,,bihar,IN_BR
 Bihar,2020-06-15,180,,180,6470,0,39,IN,,bihar,IN_BR
 Bihar,2020-06-16,180,1,180,6650,1,40,IN,,bihar,IN_BR
 Bihar,2020-06-17,128,1,128,6778,1,41,IN,,bihar,IN_BR
+Bihar,2020-06-18,164,3,164,6942,3,44,IN,,bihar,IN_BR
 Manipur,2020-03-24,1,,1,1,,,IN,,manipur,IN_MN
 Manipur,2020-04-03,1,,1,2,,,IN,,manipur,IN_MN
 Manipur,2020-05-15,1,,1,3,,,IN,,manipur,IN_MN
@@ -1800,6 +1823,7 @@ Manipur,2020-06-14,64,,64,449,,,IN,,manipur,IN_MN
 Manipur,2020-06-15,9,,9,458,,,IN,,manipur,IN_MN
 Manipur,2020-06-16,32,,32,490,,,IN,,manipur,IN_MN
 Manipur,2020-06-17,10,,10,500,,,IN,,manipur,IN_MN
+Manipur,2020-06-18,52,,52,552,,,IN,,manipur,IN_MN
 Mizoram,2020-03-25,1,,1,1,,,IN,,mizoram,IN_MZ
 Mizoram,2020-06-03,12,,12,13,,,IN,,mizoram,IN_MZ
 Mizoram,2020-06-04,1,,1,14,,,IN,,mizoram,IN_MZ
@@ -1869,6 +1893,7 @@ Goa,2020-06-14,60,,60,523,,,IN,,goa,IN_GA
 Goa,2020-06-15,41,,41,564,,,IN,,goa,IN_GA
 Goa,2020-06-16,28,,28,592,,,IN,,goa,IN_GA
 Goa,2020-06-17,37,,37,629,,,IN,,goa,IN_GA
+Goa,2020-06-18,27,,27,656,,,IN,,goa,IN_GA
 Assam,2020-04-01,1,,1,1,0,0,IN,,assam,IN_AS
 Assam,2020-04-02,4,,4,5,0,0,IN,,assam,IN_AS
 Assam,2020-04-03,11,,11,16,0,0,IN,,assam,IN_AS
@@ -1925,6 +1950,7 @@ Assam,2020-06-14,220,,220,3718,0,8,IN,,assam,IN_AS
 Assam,2020-06-15,331,,331,4049,0,8,IN,,assam,IN_AS
 Assam,2020-06-16,109,,109,4158,0,8,IN,,assam,IN_AS
 Assam,2020-06-17,161,,161,4319,0,8,IN,,assam,IN_AS
+Assam,2020-06-18,286,,286,4605,0,8,IN,,assam,IN_AS
 Jharkhand,2020-04-01,1,,1,1,0,0,IN,,jharkhand,IN_JH
 Jharkhand,2020-04-03,1,,1,2,0,0,IN,,jharkhand,IN_JH
 Jharkhand,2020-04-05,1,,1,3,0,0,IN,,jharkhand,IN_JH
@@ -1992,6 +2018,7 @@ Jharkhand,2020-06-14,94,,94,1711,0,8,IN,,jharkhand,IN_JH
 Jharkhand,2020-06-15,34,,34,1745,0,8,IN,,jharkhand,IN_JH
 Jharkhand,2020-06-16,18,,18,1763,0,8,IN,,jharkhand,IN_JH
 Jharkhand,2020-06-17,76,1,76,1839,1,9,IN,,jharkhand,IN_JH
+Jharkhand,2020-06-18,56,1,56,1895,1,10,IN,,jharkhand,IN_JH
 Arunachal Pradesh,2020-04-03,1,,1,1,,,IN,,arunachal pradesh,IN_AR
 Arunachal Pradesh,2020-05-26,1,,1,2,,,IN,,arunachal pradesh,IN_AR
 Arunachal Pradesh,2020-05-29,1,,1,3,,,IN,,arunachal pradesh,IN_AR
@@ -2008,6 +2035,7 @@ Arunachal Pradesh,2020-06-13,6,,6,67,,,IN,,arunachal pradesh,IN_AR
 Arunachal Pradesh,2020-06-14,20,,20,87,,,IN,,arunachal pradesh,IN_AR
 Arunachal Pradesh,2020-06-15,4,,4,91,,,IN,,arunachal pradesh,IN_AR
 Arunachal Pradesh,2020-06-17,4,,4,95,,,IN,,arunachal pradesh,IN_AR
+Arunachal Pradesh,2020-06-18,4,,4,99,,,IN,,arunachal pradesh,IN_AR
 Tripura,2020-04-07,1,,1,1,0,0,IN,,tripura,IN_TR
 Tripura,2020-04-11,1,,1,2,0,0,IN,,tripura,IN_TR
 Tripura,2020-05-03,2,,2,4,0,0,IN,,tripura,IN_TR
@@ -2049,6 +2077,7 @@ Tripura,2020-06-14,85,,85,1046,0,1,IN,,tripura,IN_TR
 Tripura,2020-06-15,30,,30,1076,0,1,IN,,tripura,IN_TR
 Tripura,2020-06-16,10,,10,1086,0,1,IN,,tripura,IN_TR
 Tripura,2020-06-17,6,,6,1092,0,1,IN,,tripura,IN_TR
+Tripura,2020-06-18,43,,43,1135,0,1,IN,,tripura,IN_TR
 Nagaland,2020-04-13,1,,1,1,,,IN,,nagaland,IN_NL
 Nagaland,2020-04-15,-1,,-1,0,,,IN,,nagaland,IN_NL
 Nagaland,2020-05-26,3,,3,3,,,IN,,nagaland,IN_NL
@@ -2071,6 +2100,7 @@ Nagaland,2020-06-14,7,,7,163,,,IN,,nagaland,IN_NL
 Nagaland,2020-06-15,5,,5,168,,,IN,,nagaland,IN_NL
 Nagaland,2020-06-16,9,,9,177,,,IN,,nagaland,IN_NL
 Nagaland,2020-06-17,2,,2,179,,,IN,,nagaland,IN_NL
+Nagaland,2020-06-18,14,,14,193,,,IN,,nagaland,IN_NL
 Meghalaya,2020-04-14,1,,1,1,0,0,IN,,meghalaya,IN_ML
 Meghalaya,2020-04-15,6,1,6,7,1,1,IN,,meghalaya,IN_ML
 Meghalaya,2020-04-17,2,,2,9,0,1,IN,,meghalaya,IN_ML
@@ -2101,6 +2131,7 @@ Dadra and Nagar Haveli and Daman and Diu,2020-06-12,2,,2,30,,,IN,,dadra and naga
 Dadra and Nagar Haveli and Daman and Diu,2020-06-14,5,,5,35,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
 Dadra and Nagar Haveli and Daman and Diu,2020-06-15,1,,1,36,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
 Dadra and Nagar Haveli and Daman and Diu,2020-06-17,9,,9,45,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
+Dadra and Nagar Haveli and Daman and Diu,2020-06-18,12,,12,57,,,IN,,dadra and nagar haveli and daman and diu,IN_DN
 Sikkim,2020-05-24,1,,1,1,,,IN,,sikkim,IN_SK
 Sikkim,2020-06-04,1,,1,2,,,IN,,sikkim,IN_SK
 Sikkim,2020-06-06,1,,1,3,,,IN,,sikkim,IN_SK
