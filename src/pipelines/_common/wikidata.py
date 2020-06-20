@@ -30,7 +30,7 @@ class WikidataDataSource(DataSource):
         key, wikidata_id = key_wikidata
         return {"key": key, **wikidata_properties(props, wikidata_id)}
 
-    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts):
+    def parse(self, sources: List[str], aux: Dict[str, DataFrame], **parse_opts) -> DataFrame:
         data = aux["knowledge_graph"].merge(aux["metadata"])[["key", "wikidata"]].set_index("key")
 
         # Load wikidata using parallel processing

@@ -49,6 +49,11 @@ def _process_property(obj, name: str, prop: str):
     value = _obj_get(value_array, -1, "mainsnak", "datavalue", "value") if value_array else {}
     if "amount" in value:
         value = {name: _cast_property_amount(value.get("amount"))}
+
+    # Some values do not have an "amount" envelope
+    elif not isinstance(value, dict):
+        value = {name: value}
+
     return value
 
 
