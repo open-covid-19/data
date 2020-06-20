@@ -1403,7 +1403,31 @@ CO_99_99524,Q941906,,CO,Colombia,99,Vichada,99524,La Primavera,CO,COL,2
 CO_99_99624,Q1655146,,CO,Colombia,99,Vichada,99624,Santa Rosalía,CO,COL,2
 CO_99_99773,Q255288,,CO,Colombia,99,Vichada,99773,Cumaribo,CO,COL,2
 CR,Q800,country/CRI,CR,Costa Rica,,,,,CR,CRI,0
+CR_A,Q502188,,CR,Costa Rica,A,Alajuela Province,,,CR,CRI,1
+CR_C,Q502181,,CR,Costa Rica,C,Provincia de Cartago,,,CR,CRI,1
+CR_G,Q690026,,CR,Costa Rica,G,Guanacaste Province,,,CR,CRI,1
+CR_H,Q502192,,CR,Costa Rica,H,Heredia Province,,,CR,CRI,1
+CR_L,Q642644,,CR,Costa Rica,L,Limón Province,,,CR,CRI,1
+CR_P,Q502170,,CR,Costa Rica,P,Puntarenas Province,,,CR,CRI,1
+CR_SJ,Q647808,,CR,Costa Rica,SJ,San José Province,,,CR,CRI,1
 CU,Q241,country/CUB,CU,Cuba,,,,,CU,CUB,0
+CU_01,Q115497,,CU,Cuba,01,Pinar del Río Province,,,CU,CUB,1
+CU_02,Q274126,,CU,Cuba,02,Havana Province,,,CU,CUB,1
+CU_03,Q12588,,CU,Cuba,03,Havana Province,,,CU,CUB,1
+CU_04,Q115438,,CU,Cuba,04,Matanzas Province,,,CU,CUB,1
+CU_05,Q115434,,CU,Cuba,05,Villa Clara Province,,,CU,CUB,1
+CU_06,Q115444,,CU,Cuba,06,Cienfuegos Province,,,CU,CUB,1
+CU_07,Q115441,,CU,Cuba,07,Sancti Spíritus Province,,,CU,CUB,1
+CU_08,Q220692,,CU,Cuba,08,Ciego de Ávila Province,,,CU,CUB,1
+CU_09,Q215147,,CU,Cuba,09,Camagüey Province,,,CU,CUB,1
+CU_10,Q115334,,CU,Cuba,10,Las Tunas Province,,,CU,CUB,1
+CU_11,Q115302,,CU,Cuba,11,Holguín Province,,,CU,CUB,1
+CU_12,Q115046,,CU,Cuba,12,Granma Province,,,CU,CUB,1
+CU_13,Q234200,,CU,Cuba,13,Santiago de Cuba Province,,,CU,CUB,1
+CU_14,Q115319,,CU,Cuba,14,Guantánamo Province,,,CU,CUB,1
+CU_15,Q115325,,CU,Cuba,15,Artemisa Province,,,CU,CUB,1
+CU_16,Q115310,,CU,Cuba,16,Mayabeque Province,,,CU,CUB,1
+CU_99,Q115027,,CU,Cuba,99,Isla de la Juventud,,,CU,CUB,1
 CV,Q1011,country/CPV,CV,Cape Verde,,,,,CV,CPV,0
 CW,Q25279,country/CUW,CW,Curaçao,,,,,CW,CUW,0
 CX,Q31063,country/CXR,CX,Christmas Island,,,,,CX,CXR,0
@@ -1444,8 +1468,64 @@ DJ,Q977,country/DJI,DJ,Djibouti,,,,,DJ,DJI,0
 DK,Q35,country/DNK,DK,Denmark,,,,,DK,DNK,0
 DM,Q784,country/DMA,DM,Dominica,,,,,DM,DMA,0
 DO,Q786,country/DOM,DO,Dominican Republic,,,,,DO,DOM,0
+DO_01,Q2499228,,DO,Dominican Republic,01,Distrito Nacional,,,DO,DOM,1
+DO_02,Q794239,,DO,Dominican Republic,02,Azua Province,,,DO,DOM,1
+DO_03,Q807079,,DO,Dominican Republic,03,Baoruco Province,,,DO,DOM,1
+DO_04,Q1137551,,DO,Dominican Republic,04,Barahona Province,,,DO,DOM,1
+DO_05,Q1138575,,DO,Dominican Republic,05,Dajabón Province,,,DO,DOM,1
+DO_06,Q1262745,,DO,Dominican Republic,06,Duarte Province,,,DO,DOM,1
+DO_07,Q1137545,,DO,Dominican Republic,07,Elías Piña Province,,,DO,DOM,1
+DO_08,Q1774831,,DO,Dominican Republic,08,El Seibo Province,,,DO,DOM,1
+DO_09,Q530231,,DO,Dominican Republic,09,Espaillat Province,,,DO,DOM,1
+DO_10,Q1424401,,DO,Dominican Republic,10,Independencia,,,DO,DOM,1
+DO_11,Q1323353,,DO,Dominican Republic,11,La Altagracia Province,,,DO,DOM,1
+DO_12,Q1140742,,DO,Dominican Republic,12,La Romana Province,,,DO,DOM,1
+DO_13,Q594405,,DO,Dominican Republic,13,La Vega Province,,,DO,DOM,1
+DO_14,Q1949656,,DO,Dominican Republic,14,María Trinidad Sánchez Province,,,DO,DOM,1
+DO_15,Q592624,,DO,Dominican Republic,15,Monte Cristi Province,,,DO,DOM,1
+DO_16,Q1352533,,DO,Dominican Republic,16,Pedernales Province,,,DO,DOM,1
+DO_17,Q1331932,,DO,Dominican Republic,17,Peravia Province,,,DO,DOM,1
+DO_18,Q693487,,DO,Dominican Republic,18,Puerto Plata Province,,,DO,DOM,1
+DO_19,Q549386,,DO,Dominican Republic,19,Hermanas Mirabal Province,,,DO,DOM,1
+DO_20,Q1145487,,DO,Dominican Republic,20,Samaná Province,,,DO,DOM,1
+DO_21,Q1366107,,DO,Dominican Republic,21,San Cristóbal Province,,,DO,DOM,1
+DO_22,Q2001793,,DO,Dominican Republic,22,San Juan Province,,,DO,DOM,1
+DO_23,Q1366119,,DO,Dominican Republic,23,San Pedro de Macorís,,,DO,DOM,1
+DO_24,Q1836903,,DO,Dominican Republic,24,Sánchez Ramírez Province,,,DO,DOM,1
+DO_25,Q1772983,,DO,Dominican Republic,25,Santiago Province,,,DO,DOM,1
+DO_26,Q2021942,,DO,Dominican Republic,26,Santiago Rodríguez Province,,,DO,DOM,1
+DO_27,Q1774848,,DO,Dominican Republic,27,Valverde Province,,,DO,DOM,1
+DO_28,Q1295496,,DO,Dominican Republic,28,Monseñor Nouel Province,,,DO,DOM,1
+DO_29,Q1772745,,DO,Dominican Republic,29,Monte Plata Province,,,DO,DOM,1
+DO_30,Q937217,,DO,Dominican Republic,30,Hato Mayor Province,,,DO,DOM,1
+DO_31,Q1424391,,DO,Dominican Republic,31,San José de Ocoa Province,,,DO,DOM,1
+DO_32,Q1352536,,DO,Dominican Republic,32,Santo Domingo Province,,,DO,DOM,1
 DZ,Q262,country/DZA,DZ,Algeria,,,,,DZ,DZA,0
 EC,Q736,country/ECU,EC,Ecuador,,,,,EC,ECU,0
+EC_A,Q220451,,EC,Ecuador,A,Azuay Province,,,EC,ECU,1
+EC_B,Q261165,,EC,Ecuador,B,Bolívar Province,,,EC,ECU,1
+EC_C,Q321729,,EC,Ecuador,C,Carchi Province,,,EC,ECU,1
+EC_D,Q499475,,EC,Ecuador,D,Orellana Province,,,EC,ECU,1
+EC_E,Q335526,,EC,Ecuador,E,Esmeraldas,,,EC,ECU,1
+EC_F,Q335471,,EC,Ecuador,F,Cañar Province,,,EC,ECU,1
+EC_G,Q335464,,EC,Ecuador,G,Guayas Province,,,EC,ECU,1
+EC_H,Q238492,,EC,Ecuador,H,Chimborazo Province,,,EC,ECU,1
+EC_I,Q321863,,EC,Ecuador,I,Imbabura Province,,,EC,ECU,1
+EC_L,Q504238,,EC,Ecuador,L,Loja Province,,,EC,ECU,1
+EC_M,Q504666,,EC,Ecuador,M,Manabí Provin,,,EC,ECU,1
+EC_N,Q211900,,EC,Ecuador,N,Napo Province,,,EC,ECU,1
+EC_O,Q466019,,EC,Ecuador,O,El Oro Province,,,EC,ECU,1
+EC_P,Q272586,,EC,Ecuador,P,Pichincha Province,,,EC,ECU,1
+EC_R,Q504260,,EC,Ecuador,R,Los Ríos Province,,,EC,ECU,1
+EC_S,Q549522,,EC,Ecuador,S,Morona-Santiago Province,,,EC,ECU,1
+EC_SD,Q1123208,,EC,Ecuador,SD,Santo Domingo de los Tsáchilas Province,,,EC,ECU,1
+EC_SE,Q1124125,,EC,Ecuador,SE,Santa Elena Province,,,EC,ECU,1
+EC_T,Q504252,,EC,Ecuador,T,Tungurahua Province,,,EC,ECU,1
+EC_U,Q499456,,EC,Ecuador,U,Sucumbíos Province,,,EC,ECU,1
+EC_W,Q475038,,EC,Ecuador,W,Galápagos Province,,,EC,ECU,1
+EC_X,Q241140,,EC,Ecuador,X,Cotopaxi Province,,,EC,ECU,1
+EC_Y,Q214814,,EC,Ecuador,Y,Pastaza Province,,,EC,ECU,1
+EC_Z,Q744670,,EC,Ecuador,Z,Zamora-Chinchipe Province,,,EC,ECU,1
 EE,Q191,country/EST,EE,Estonia,,,,,EE,EST,0
 EG,Q79,country/EGY,EG,Egypt,,,,,EG,EGY,0
 EH,Q6250,country/ESH,EH,Western Sahara,,,,,EH,ESH,0
@@ -1593,6 +1673,7 @@ FR_PDL_49,Q12584,,FR,France,PDL,Pays de la Loire,49,Maine-et-Loire,FR,FRA,2
 FR_PDL_53,Q12620,,FR,France,PDL,Pays de la Loire,53,Mayenne,FR,FRA,2
 FR_PDL_72,Q12740,,FR,France,PDL,Pays de la Loire,72,Sarthe,FR,FRA,2
 FR_PDL_85,Q12798,,FR,France,PDL,Pays de la Loire,85,Vendée,FR,FRA,2
+FR_PM,Q34617,,FR,France,PM,Saint Pierre and Miquelon,,,FR,FRA,1
 GA,Q1000,country/GAB,GA,Gabon,,,,,GA,GAB,0
 GB,Q145,country/GBR,GB,United Kingdom,,,,,GB,GBR,0
 GB_ENG,Q21,,GB,United Kingdom,ENG,England,,,GB,GBR,1
@@ -1790,11 +1871,32 @@ GI,Q1410,country/GIB,GI,Gibraltar,,,,,GI,GIB,0
 GL,Q223,country/GRL,GL,Greenland,,,,,GL,GRL,0
 GM,Q1005,country/GMB,GM,Gambia,,,,,GM,GMB,0
 GN,Q1006,country/GIN,GN,Guinea,,,,,GN,GIN,0
-GP,Q17012,country/GLP,GP,Guadeloupe,,,,,GP,GLP,0
 GQ,Q983,country/GNQ,GQ,Equatorial Guinea,,,,,GQ,GNQ,0
 GR,Q41,country/GRC,GR,Greece,,,,,GR,GRC,0
 GS,Q35086,country/SGS,GS,South Georgia and the South Sandwich Islands,,,,,GS,SGS,0
 GT,Q774,country/GTM,GT,Guatemala,,,,,GT,GTM,0
+GT_AV,Q504637,,GT,Guatemala,AV,Alta Verapaz Department,,,GT,GTM,1
+GT_BV,Q504647,,GT,Guatemala,BV,Baja Verapaz Department,,,GT,GTM,1
+GT_CM,Q765975,,GT,Guatemala,CM,Chimaltenango Department,,,GT,GTM,1
+GT_CQ,Q753037,,GT,Guatemala,CQ,Chiquimula Department,,,GT,GTM,1
+GT_ES,Q795587,,GT,Guatemala,ES,Escuintla Department,,,GT,GTM,1
+GT_GU,Q695660,,GT,Guatemala,GU,Guatemala Department,,,GT,GTM,1
+GT_HU,Q842266,,GT,Guatemala,HU,Huehuetenango Department,,,GT,GTM,1
+GT_IZ,Q693658,,GT,Guatemala,IZ,Izabal Department,,,GT,GTM,1
+GT_JA,Q795441,,GT,Guatemala,JA,Jalapa Department,,,GT,GTM,1
+GT_JU,Q765984,,GT,Guatemala,JU,Jutiapa Department,,,GT,GTM,1
+GT_PE,Q466061,,GT,Guatemala,PE,Petén Department,,,GT,GTM,1
+GT_PR,Q795591,,GT,Guatemala,PR,El Progreso Department,,,GT,GTM,1
+GT_QC,Q669802,,GT,Guatemala,QC,Quiché Department,,,GT,GTM,1
+GT_QZ,Q844502,,GT,Guatemala,QZ,Quetzaltenango Department,,,GT,GTM,1
+GT_RE,Q888307,,GT,Guatemala,RE,Retalhuleu Department,,,GT,GTM,1
+GT_SA,Q508804,,GT,Guatemala,SA,Sacatepéquez Department,,,GT,GTM,1
+GT_SM,Q883907,,GT,Guatemala,SM,San Marcos Department,,,GT,GTM,1
+GT_SO,Q178136,,GT,Guatemala,SO,Sololá Department,,,GT,GTM,1
+GT_SR,Q885656,,GT,Guatemala,SR,Santa Rosa Department,,,GT,GTM,1
+GT_SU,Q883734,,GT,Guatemala,SU,Suchitepéquez Department,,,GT,GTM,1
+GT_TO,Q885644,,GT,Guatemala,TO,Totonicapán Department,,,GT,GTM,1
+GT_ZA,Q780784,,GT,Guatemala,ZA,Zacapa Department,,,GT,GTM,1
 GU,Q16635,country/GUM,GU,Guam,,,,,GU,GUM,0
 GW,Q1007,country/GNB,GW,Guinea-Bissau,,,,,GW,GNB,0
 GY,Q734,country/GUY,GY,Guyana,,,,,GY,GUY,0
@@ -1802,8 +1904,36 @@ GZ,Q39760,,GZ,Gaza Strip,,,,,,,0
 HK,Q8646,country/HKG,HK,Hong Kong,,,,,HK,HKG,0
 HM,Q131198,country/HMD,HM,Heard Island and McDonald Islands,,,,,HM,HMD,0
 HN,Q783,country/HND,HN,Honduras,,,,,HN,HND,0
+HN_AT,Q622619,,HN,Honduras,AT,Atlántida Department,,,HN,HND,1
+HN_CH,Q899272,,HN,Honduras,CH,Choluteca Department,,,HN,HND,1
+HN_CL,Q867117,,HN,Honduras,CL,Colón Department,,,HN,HND,1
+HN_CM,Q823443,,HN,Honduras,CM,Comayagua Department,,,HN,HND,1
+HN_CP,Q843984,,HN,Honduras,CP,Copán Department,,,HN,HND,1
+HN_CR,Q767244,,HN,Honduras,CR,Cortés Department,,,HN,HND,1
+HN_EP,Q867108,,HN,Honduras,EP,El Paraíso Department,,,HN,HND,1
+HN_FM,Q867126,,HN,Honduras,FM,Francisco Morazán Department,,,HN,HND,1
+HN_GD,Q867112,,HN,Honduras,GD,Gracias a Dios Department,,,HN,HND,1
+HN_IB,Q751725,,HN,Honduras,IB,Bay Islands Department,,,HN,HND,1
+HN_IN,Q262125,,HN,Honduras,IN,Intibucá Department,,,HN,HND,1
+HN_LE,Q744138,,HN,Honduras,LE,Lempira Department,,,HN,HND,1
+HN_LP,Q866886,,HN,Honduras,LP,La Paz Department,,,HN,HND,1
+HN_OC,Q867084,,HN,Honduras,OC,Ocotepeque Department,,,HN,HND,1
+HN_OL,Q867089,,HN,Honduras,OL,Olancho Department,,,HN,HND,1
+HN_SB,Q591139,,HN,Honduras,SB,Santa Bárbara Department,,,HN,HND,1
+HN_VA,Q867097,,HN,Honduras,VA,Valle Department,,,HN,HND,1
+HN_YO,Q1123380,,HN,Honduras,YO,Yoro Department,,,HN,HND,1
 HR,Q224,country/HRV,HR,Croatia,,,,,HR,HRV,0
 HT,Q790,country/HTI,HT,Haiti,,,,,HT,HTI,0
+HT_AR,Q844024,,HT,Haiti,AR,Artibonite,,,HT,HTI,1
+HT_CE,Q844528,,HT,Haiti,CE,Centre,,,HT,HTI,1
+HT_GA,Q913231,,HT,Haiti,GA,Grand'Anse,,,HT,HTI,1
+HT_ND,Q943932,,HT,Haiti,ND,Nord,,,HT,HTI,1
+HT_NE,Q928694,,HT,Haiti,NE,Nord-Est,,,HT,HTI,1
+HT_NI,Q125232,,HT,Haiti,NI,Nippes,,,HT,HTI,1
+HT_NO,Q608361,,HT,Haiti,NO,Nord-Ouest,,,HT,HTI,1
+HT_OU,Q1434621,,HT,Haiti,OU,Ouest,,,HT,HTI,1
+HT_SD,Q936704,,HT,Haiti,SD,Sud,,,HT,HTI,1
+HT_SE,Q936717,,HT,Haiti,SE,Sud-Est,,,HT,HTI,1
 HU,Q28,country/HUN,HU,Hungary,,,,,HU,HUN,0
 ID,Q252,country/IDN,ID,Indonesia,,,,,ID,IDN,0
 ID_AC,Q1823,,ID,Indonesia,AC,Aceh,,,ID,IDN,1
@@ -2073,6 +2203,23 @@ NE,Q1032,country/NER,NE,Niger,,,,,NE,NER,0
 NF,Q31057,country/NFK,NF,Norfolk Island,,,,,NF,NFK,0
 NG,Q1033,country/NGA,NG,Nigeria,,,,,NG,NGA,0
 NI,Q811,country/NIC,NI,Nicaragua,,,,,NI,NIC,0
+NI_AN,Q498452,,NI,Nicaragua,AN,North Caribbean Coast Autonomous Region,,,NI,NIC,1
+NI_AS,Q291279,,NI,Nicaragua,AS,South Caribbean Coast Autonomous Region,,,NI,NIC,1
+NI_BO,Q280973,,NI,Nicaragua,BO,Boaco Department,,,NI,NIC,1
+NI_CA,Q461133,,NI,Nicaragua,CA,Carazo Department,,,NI,NIC,1
+NI_CI,Q644024,,NI,Nicaragua,CI,Chinandega Department,,,NI,NIC,1
+NI_CO,Q498443,,NI,Nicaragua,CO,Chontales Department,,,NI,NIC,1
+NI_ES,Q728015,,NI,Nicaragua,ES,Estelí Department,,,NI,NIC,1
+NI_GR,Q258405,,NI,Nicaragua,GR,Granada Department,,,NI,NIC,1
+NI_JI,Q728120,,NI,Nicaragua,JI,Jinotega Department,,,NI,NIC,1
+NI_LE,Q586818,,NI,Nicaragua,LE,León Department,,,NI,NIC,1
+NI_MD,Q728056,,NI,Nicaragua,MD,Madriz Department,,,NI,NIC,1
+NI_MN,Q260009,,NI,Nicaragua,MN,Managua Department,,,NI,NIC,1
+NI_MS,Q570358,,NI,Nicaragua,MS,Masaya Department,,,NI,NIC,1
+NI_MT,Q728099,,NI,Nicaragua,MT,Matagalpa Department,,,NI,NIC,1
+NI_NS,Q728022,,NI,Nicaragua,NS,Nueva Segovia Department,,,NI,NIC,1
+NI_RI,Q728127,,NI,Nicaragua,RI,Rivas Department,,,NI,NIC,1
+NI_SJ,Q728155,,NI,Nicaragua,SJ,Río San Juan Department,,,NI,NIC,1
 NL,Q55,country/NLD,NL,Netherlands,,,,,NL,NLD,0
 NL_DR,Q772,nuts/NL13,NL,Netherlands,DR,Drenthe,,,NL,NLD,1
 NL_DR_0106,Q798,,NL,Netherlands,DR,Drenthe,0106,Assen,NL,NLD,2
@@ -2461,6 +2608,19 @@ NU,Q34020,country/NIU,NU,Niue,,,,,NU,NIU,0
 NZ,Q664,country/NZL,NZ,New Zealand,,,,,NZ,NZL,0
 OM,Q842,country/OMN,OM,Oman,,,,,OM,OMN,0
 PA,Q804,country/PAN,PA,Panama,,,,,PA,PAN,0
+PA_1,Q217138,,PA,Panama,1,Bocas del Toro Province,,,PA,PAN,1
+PA_10,Q16250688,,PA,Panama,10,Panamá Oeste Province,,,PA,PAN,1
+PA_2,Q825799,,PA,Panama,2,Coclé Province,,,PA,PAN,1
+PA_3,Q820514,,PA,Panama,3,Colón Province,,,PA,PAN,1
+PA_4,Q739651,,PA,Panama,4,Chiriquí Province,,,PA,PAN,1
+PA_5,Q688660,,PA,Panama,5,Darién Province,,,PA,PAN,1
+PA_6,Q842886,,PA,Panama,6,Herrera Province,,,PA,PAN,1
+PA_7,Q911278,,PA,Panama,7,Los Santos Province,,,PA,PAN,1
+PA_8,Q557506,,PA,Panama,8,Panamá Province,,,PA,PAN,1
+PA_9,Q593137,,PA,Panama,9,Veraguas Province,,,PA,PAN,1
+PA_EM,Q1141041,,PA,Panama,EM,Emberá-Wounaan Comarca,,,PA,PAN,1
+PA_KY,Q919017,,PA,Panama,KY,Guna Yala,,,PA,PAN,1
+PA_NB,Q1129783,,PA,Panama,NB,Ngöbe-Buglé Comarca,,,PA,PAN,1
 PE,Q419,country/PER,PE,Peru,,,,,PE,PER,0
 PE_AMA,Q201162,,PE,Peru,AMA,Amazonas,,,PE,PER,1
 PE_ANC,Q205089,,PE,Peru,ANC,Ancash,,,PE,PER,1
@@ -2564,13 +2724,13 @@ PH_13_AGS,,,PH,Philippines,13,Caraga,AGS,Agusan del Sur,PH,PHL,2
 PH_13_DIN,,,PH,Philippines,13,Caraga,DIN,Dinagat Islands,PH,PHL,2
 PH_13_SUN,,,PH,Philippines,13,Caraga,SUN,Surigao del Norte,PH,PHL,2
 PH_13_SUR,,,PH,Philippines,13,Caraga,SUR,Surigao del Sur,PH,PHL,2
-PH_14,Q13708,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,,BARMM,PH,PHL,1
+PH_14,Q13708,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,,,PH,PHL,1
 PH_14_BAS,,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,BAS,Basilan,PH,PHL,2
 PH_14_LAS,,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,LAS,Lanao del Sur,PH,PHL,2
 PH_14_MAG,,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,MAG,Maguindanao,PH,PHL,2
 PH_14_SLU,,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,SLU,Sulu,PH,PHL,2
 PH_14_TAW,,,PH,Philippines,14,Autonomous Region in Muslim Mindanao,TAW,Tawi-Tawi,PH,PHL,2
-PH_15,Q13606,,PH,Philippines,15,Cordillera Administrative Region,,CAR,PH,PHL,1
+PH_15,Q13606,,PH,Philippines,15,Cordillera Administrative Region,,,PH,PHL,1
 PH_15_ABR,,,PH,Philippines,15,Cordillera Administrative Region,ABR,Abra,PH,PHL,2
 PH_15_APA,,,PH,Philippines,15,Cordillera Administrative Region,APA,Apayao,PH,PHL,2
 PH_15_BEN,,,PH,Philippines,15,Cordillera Administrative Region,BEN,Benguet,PH,PHL,2
@@ -2614,7 +2774,6 @@ PL_26,Q54183,nuts/PL72,PL,Poland,26,Swietokrzyskie,,,PL,POL,1
 PL_28,Q54184,,PL,Poland,28,Warmia-Masuria,,,PL,POL,1
 PL_30,Q54187,,PL,Poland,30,Greater Poland,,,PL,POL,1
 PL_32,Q54188,,PL,Poland,32,West Pomeranian,,,PL,POL,1
-PM,Q34617,country/SPM,PM,Saint Pierre and Miquelon,,,,,PM,SPM,0
 PN,Q35672,country/PCN,PN,Pitcairn Islands,,,,,PN,PCN,0
 PR,Q1183,country/PRI,PR,Puerto Rico,,,,,PR,PRI,0
 PS,Q1176995,,PS,Palestine,,,,,PS,PSE,0
@@ -2628,6 +2787,24 @@ PT_20,Q25263,nuts/PT200,PT,Portugal,20,Azores,,,PT,PRT,1
 PT_30,Q26253,nuts/PT300,PT,Portugal,30,Madeira,,,PT,PRT,1
 PW,Q695,country/PLW,PW,Palau,,,,,PW,PLW,0
 PY,Q733,country/PRY,PY,Paraguay,,,,,PY,PRY,0
+PY_1,Q741009,,PY,Paraguay,1,Concepción Department,,,PY,PRY,1
+PY_10,Q682654,,PY,Paraguay,10,Alto Paraná Department,,,PY,PRY,1
+PY_11,Q372461,,PY,Paraguay,11,Central Department,,,PY,PRY,1
+PY_12,Q755115,,PY,Paraguay,12,Ñeembucú Department,,,PY,PRY,1
+PY_13,Q686586,,PY,Paraguay,13,Amambay Department,,,PY,PRY,1
+PY_14,Q279085,,PY,Paraguay,14,Canindeyú,,,PY,PRY,1
+PY_15,Q750551,,PY,Paraguay,15,Presidente Hayes Department,,,PY,PRY,1
+PY_16,Q682642,,PY,Paraguay,16,Alto Paraguay Department,,,PY,PRY,1
+PY_19,Q741017,,PY,Paraguay,19,Boquerón Department,,,PY,PRY,1
+PY_2,Q526176,,PY,Paraguay,2,San Pedro Department,,,PY,PRY,1
+PY_3,Q755121,,PY,Paraguay,3,Cordillera Department,,,PY,PRY,1
+PY_4,Q755116,,PY,Paraguay,4,Guairá Department,,,PY,PRY,1
+PY_5,Q880399,,PY,Paraguay,5,Caaguazú,,,PY,PRY,1
+PY_6,Q881839,,PY,Paraguay,6,Caazapá,,,PY,PRY,1
+PY_7,Q222564,,PY,Paraguay,7,Itapúa,,,PY,PRY,1
+PY_8,Q591194,,PY,Paraguay,8,Misiones Department,,,PY,PRY,1
+PY_9,Q240014,,PY,Paraguay,9,Paraguarí Department,,,PY,PRY,1
+PY_ASU,Q2723419,,PY,Paraguay,ASU,Capital District,,,PY,PRY,1
 QA,Q846,country/QAT,QA,Qatar,,,,,QA,QAT,0
 RE,Q17070,country/REU,RE,Réunion,,,,,RE,REU,0
 RO,Q218,country/ROU,RO,Romania,,,,,RO,ROU,0
@@ -2773,6 +2950,20 @@ SR,Q730,country/SUR,SR,Suriname,,,,,SR,SUR,0
 SS,Q958,country/SSD,SS,South Sudan,,,,,SS,SSD,0
 ST,Q1039,country/STP,ST,São Tomé and Príncipe,,,,,ST,STP,0
 SV,Q792,country/SLV,SV,El Salvador,,,,,SV,SLV,0
+SV_AH,Q572993,,SV,El Salvador,AH,Ahuachapán Department,,,SV,SLV,1
+SV_CA,Q914058,,SV,El Salvador,CA,Cabañas Department,,,SV,SLV,1
+SV_CH,Q522221,,SV,El Salvador,CH,Chalatenango Department,,,SV,SLV,1
+SV_CU,Q1130677,,SV,El Salvador,CU,Cuscatlán Department,,,SV,SLV,1
+SV_LI,Q930820,,SV,El Salvador,LI,La Libertad Department,,,SV,SLV,1
+SV_MO,Q1122836,,SV,El Salvador,MO,Morazán Department,,,SV,SLV,1
+SV_PA,Q1129788,,SV,El Salvador,PA,La Paz Department,,,SV,SLV,1
+SV_SA,Q671158,,SV,El Salvador,SA,Santa Ana Department,,,SV,SLV,1
+SV_SM,Q930804,,SV,El Salvador,SM,San Miguel Department,,,SV,SLV,1
+SV_SO,Q212540,,SV,El Salvador,SO,Sonsonate Department,,,SV,SLV,1
+SV_SS,Q1543219,,SV,El Salvador,SS,San Salvador Department,,,SV,SLV,1
+SV_SV,Q1130180,,SV,El Salvador,SV,San Vicente Department,,,SV,SLV,1
+SV_UN,Q1130688,,SV,El Salvador,UN,La Unión Department,,,SV,SLV,1
+SV_US,Q1122748,,SV,El Salvador,US,Usulután Department,,,SV,SLV,1
 SX,Q26273,country/SXM,SX,Sint Maarten,,,,,SX,SXM,0
 SY,Q858,country/SYR,SY,Syria,,,,,SY,SYR,0
 SZ,Q1050,country/SWZ,SZ,Swaziland,,,,,SZ,SWZ,0
@@ -6075,6 +6266,25 @@ US_WY_56041,Q483973,geoId/56041,US,United States of America,WY,Wyoming,56041,Uin
 US_WY_56043,Q112846,geoId/56043,US,United States of America,WY,Wyoming,56043,Washakie County,US,USA,2
 US_WY_56045,Q115413,geoId/56045,US,United States of America,WY,Wyoming,56045,Weston County,US,USA,2
 UY,Q77,country/URY,UY,Uruguay,,,,,UY,URY,0
+UY_AR,Q16603,,UY,Uruguay,AR,Artigas Department,,,UY,URY,1
+UY_CA,Q16577,,UY,Uruguay,CA,Canelones Department,,,UY,URY,1
+UY_CL,Q16575,,UY,Uruguay,CL,Cerro Largo Department,,,UY,URY,1
+UY_CO,Q16580,,UY,Uruguay,CO,Colonia Department,,,UY,URY,1
+UY_DU,Q16591,,UY,Uruguay,DU,Durazno Department,,,UY,URY,1
+UY_FD,Q16593,,UY,Uruguay,FD,Florida Department,,,UY,URY,1
+UY_FS,Q16578,,UY,Uruguay,FS,Flores Department,,,UY,URY,1
+UY_LA,Q460435,,UY,Uruguay,LA,Lavalleja Department,,,UY,URY,1
+UY_MA,Q331196,,UY,Uruguay,MA,Maldonado Department,,,UY,URY,1
+UY_MO,Q1335,,UY,Uruguay,MO,Montevideo Department,,,UY,URY,1
+UY_PA,Q16576,,UY,Uruguay,PA,Paysandú Department,,,UY,URY,1
+UY_RN,Q16596,,UY,Uruguay,RN,Río Negro Department,,,UY,URY,1
+UY_RO,Q16582,,UY,Uruguay,RO,Rocha Department,,,UY,URY,1
+UY_RV,Q16609,,UY,Uruguay,RV,Rivera Department,,,UY,URY,1
+UY_SA,Q16595,,UY,Uruguay,SA,Salto Department,,,UY,URY,1
+UY_SJ,Q16579,,UY,Uruguay,SJ,San José Department,,,UY,URY,1
+UY_SO,Q16584,,UY,Uruguay,SO,Soriano Department,,,UY,URY,1
+UY_TA,Q16587,,UY,Uruguay,TA,Tacuarembó Department,,,UY,URY,1
+UY_TT,Q16610,,UY,Uruguay,TT,Treinta y Tres Department,,,UY,URY,1
 UZ,Q265,country/UZB,UZ,Uzbekistan,,,,,UZ,UZB,0
 VA,Q237,country/VAT,VA,Vatican City,,,,,VA,VAT,0
 VC,Q757,country/VCT,VC,Saint Vincent and the Grenadines,,,,,VC,VCT,0
@@ -6113,14 +6323,14 @@ XK,Q1246,country/XKS,XK,Kosovo,,,,,XK,RKS,0
 YE,Q805,country/YEM,YE,Yemen,,,,,YE,YEM,0
 YT,Q17063,country/MYT,YT,Mayotte,,,,,YT,MYT,0
 ZA,Q258,country/ZAF,ZA,South Africa,,,,,ZA,ZAF,0
-ZA_EC,Q130840,,South Africa,EC,Eastern Cape,,,,,,1
-ZA_FS,Q160284,,South Africa,FS,Free State,,,,,,1
-ZA_GP,Q133083,,South Africa,GP,Gauteng,,,,,,1
-ZA_KZN,Q81725,,South Africa,KZN,KwaZulu-Natal,,,,,,1
-ZA_LP,Q134907,,South Africa,LP,Limpopo,,,,,,1
-ZA_MP,Q132410,,South Africa,MP,Mpumalanga,,,,,,1
-ZA_NC,Q132418,,South Africa,NC,Northern Cape,,,,,,1
-ZA_NW,Q165956,,South Africa,NW,North West,,,,,,1
-ZA_WC,Q127167,,South Africa,WC,Western Cape,,,,,,1
+ZA_EC,Q130840,,ZA,South Africa,EC,Eastern Cape,,,ZA,ZAF,1
+ZA_FS,Q160284,,ZA,South Africa,FS,Free State,,,ZA,ZAF,1
+ZA_GP,Q133083,,ZA,South Africa,GP,Gauteng,,,ZA,ZAF,1
+ZA_KZN,Q81725,,ZA,South Africa,KZN,KwaZulu-Natal,,,ZA,ZAF,1
+ZA_LP,Q134907,,ZA,South Africa,LP,Limpopo,,,ZA,ZAF,1
+ZA_MP,Q132410,,ZA,South Africa,MP,Mpumalanga,,,ZA,ZAF,1
+ZA_NC,Q132418,,ZA,South Africa,NC,Northern Cape,,,ZA,ZAF,1
+ZA_NW,Q165956,,ZA,South Africa,NW,North West,,,ZA,ZAF,1
+ZA_WC,Q127167,,ZA,South Africa,WC,Western Cape,,,ZA,ZAF,1
 ZM,Q953,country/ZMB,ZM,Zambia,,,,,ZM,ZMB,0
 ZW,Q954,country/ZWE,ZW,Zimbabwe,,,,,ZW,ZWE,0

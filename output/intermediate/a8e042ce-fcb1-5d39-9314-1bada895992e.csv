@@ -1404,7 +1404,31 @@ CO,Colombia,99,Vichada,99524,La Primavera,,,nan,co,colombia,,vichada,,laprimaver
 CO,Colombia,99,Vichada,99624,Santa Rosalía,,,nan,co,colombia,,vichada,,santarosalia,Q1655146,,CO,COL,2,CO_99_99624
 CO,Colombia,99,Vichada,99773,Cumaribo,,,nan,co,colombia,,vichada,,cumaribo,Q255288,,CO,COL,2,CO_99_99773
 CR,Costa Rica,,,,,,-1,nan,cr,costarica,nan,nan,nan,nan,Q800,country/CRI,CR,CRI,0,CR
+CR,Costa Rica,A,Alajuela Province,,,,,nan,cr,costarica,a,alajuela,nan,nan,Q502188,,CR,CRI,1,CR_A
+CR,Costa Rica,C,Provincia de Cartago,,,,,nan,cr,costarica,c,provinciadecartago,nan,nan,Q502181,,CR,CRI,1,CR_C
+CR,Costa Rica,G,Guanacaste Province,,,,,nan,cr,costarica,g,guanacaste,nan,nan,Q690026,,CR,CRI,1,CR_G
+CR,Costa Rica,H,Heredia Province,,,,,nan,cr,costarica,h,heredia,nan,nan,Q502192,,CR,CRI,1,CR_H
+CR,Costa Rica,L,Limón Province,,,,,nan,cr,costarica,l,limon,nan,nan,Q642644,,CR,CRI,1,CR_L
+CR,Costa Rica,P,Puntarenas Province,,,,,nan,cr,costarica,p,puntarenas,nan,nan,Q502170,,CR,CRI,1,CR_P
+CR,Costa Rica,SJ,San José Province,,,,,nan,cr,costarica,sj,sanjose,nan,nan,Q647808,,CR,CRI,1,CR_SJ
 CU,Cuba,,,,,,-1,nan,cu,cuba,nan,nan,nan,nan,Q241,country/CUB,CU,CUB,0,CU
+CU,Cuba,01,Pinar del Río Province,,,,,nan,cu,cuba,,pinardelrio,nan,nan,Q115497,,CU,CUB,1,CU_01
+CU,Cuba,02,Havana Province,,,,,nan,cu,cuba,,havana,nan,nan,Q274126,,CU,CUB,1,CU_02
+CU,Cuba,03,Havana Province,,,,,nan,cu,cuba,,havana,nan,nan,Q12588,,CU,CUB,1,CU_03
+CU,Cuba,04,Matanzas Province,,,,,nan,cu,cuba,,matanzas,nan,nan,Q115438,,CU,CUB,1,CU_04
+CU,Cuba,05,Villa Clara Province,,,,,nan,cu,cuba,,villaclara,nan,nan,Q115434,,CU,CUB,1,CU_05
+CU,Cuba,06,Cienfuegos Province,,,,,nan,cu,cuba,,cienfuegos,nan,nan,Q115444,,CU,CUB,1,CU_06
+CU,Cuba,07,Sancti Spíritus Province,,,,,nan,cu,cuba,,sanctispiritus,nan,nan,Q115441,,CU,CUB,1,CU_07
+CU,Cuba,08,Ciego de Ávila Province,,,,,nan,cu,cuba,,ciegodeavila,nan,nan,Q220692,,CU,CUB,1,CU_08
+CU,Cuba,09,Camagüey Province,,,,,nan,cu,cuba,,camaguey,nan,nan,Q215147,,CU,CUB,1,CU_09
+CU,Cuba,10,Las Tunas Province,,,,,nan,cu,cuba,,lastunas,nan,nan,Q115334,,CU,CUB,1,CU_10
+CU,Cuba,11,Holguín Province,,,,,nan,cu,cuba,,holguin,nan,nan,Q115302,,CU,CUB,1,CU_11
+CU,Cuba,12,Granma Province,,,,,nan,cu,cuba,,granma,nan,nan,Q115046,,CU,CUB,1,CU_12
+CU,Cuba,13,Santiago de Cuba Province,,,,,nan,cu,cuba,,santiagodecuba,nan,nan,Q234200,,CU,CUB,1,CU_13
+CU,Cuba,14,Guantánamo Province,,,,,nan,cu,cuba,,guantanamo,nan,nan,Q115319,,CU,CUB,1,CU_14
+CU,Cuba,15,Artemisa Province,,,,,nan,cu,cuba,,artemisa,nan,nan,Q115325,,CU,CUB,1,CU_15
+CU,Cuba,16,Mayabeque Province,,,,,nan,cu,cuba,,mayabeque,nan,nan,Q115310,,CU,CUB,1,CU_16
+CU,Cuba,99,Isla de la Juventud,,,,,nan,cu,cuba,,isladelajuventud,nan,nan,Q115027,,CU,CUB,1,CU_99
 CV,Cape Verde,,,,,,-1,nan,cv,capeverde,nan,nan,nan,nan,Q1011,country/CPV,CV,CPV,0,CV
 CW,Curaçao,,,,,,-1,nan,cw,curacao,nan,nan,nan,nan,Q25279,country/CUW,CW,CUW,0,CW
 CX,Christmas Island,,,,,,-1,nan,cx,christmasisland,nan,nan,nan,nan,Q31063,country/CXR,CX,CXR,0,CX
@@ -1446,8 +1470,64 @@ DJ,Djibouti,,,,,,-1,nan,dj,djibouti,nan,nan,nan,nan,Q977,country/DJI,DJ,DJI,0,DJ
 DK,Denmark,,,,,,-1,nan,dk,denmark,nan,nan,nan,nan,Q35,country/DNK,DK,DNK,0,DK
 DM,Dominica,,,,,,-1,nan,dm,dominica,nan,nan,nan,nan,Q784,country/DMA,DM,DMA,0,DM
 DO,Dominican Republic,,,,,,-1,nan,do,dominicanrepublic,nan,nan,nan,nan,Q786,country/DOM,DO,DOM,0,DO
+DO,Dominican Republic,01,Distrito Nacional,,,,,nan,do,dominicanrepublic,,distritonacional,nan,nan,Q2499228,,DO,DOM,1,DO_01
+DO,Dominican Republic,02,Azua Province,,,,,nan,do,dominicanrepublic,,azua,nan,nan,Q794239,,DO,DOM,1,DO_02
+DO,Dominican Republic,03,Baoruco Province,,,,,nan,do,dominicanrepublic,,baoruco,nan,nan,Q807079,,DO,DOM,1,DO_03
+DO,Dominican Republic,04,Barahona Province,,,,,nan,do,dominicanrepublic,,barahona,nan,nan,Q1137551,,DO,DOM,1,DO_04
+DO,Dominican Republic,05,Dajabón Province,,,,,nan,do,dominicanrepublic,,dajabon,nan,nan,Q1138575,,DO,DOM,1,DO_05
+DO,Dominican Republic,06,Duarte Province,,,,,nan,do,dominicanrepublic,,duarte,nan,nan,Q1262745,,DO,DOM,1,DO_06
+DO,Dominican Republic,07,Elías Piña Province,,,,,nan,do,dominicanrepublic,,eliaspina,nan,nan,Q1137545,,DO,DOM,1,DO_07
+DO,Dominican Republic,08,El Seibo Province,,,,,nan,do,dominicanrepublic,,elseibo,nan,nan,Q1774831,,DO,DOM,1,DO_08
+DO,Dominican Republic,09,Espaillat Province,,,,,nan,do,dominicanrepublic,,espaillat,nan,nan,Q530231,,DO,DOM,1,DO_09
+DO,Dominican Republic,10,Independencia,,,,,nan,do,dominicanrepublic,,independencia,nan,nan,Q1424401,,DO,DOM,1,DO_10
+DO,Dominican Republic,11,La Altagracia Province,,,,,nan,do,dominicanrepublic,,laaltagracia,nan,nan,Q1323353,,DO,DOM,1,DO_11
+DO,Dominican Republic,12,La Romana Province,,,,,nan,do,dominicanrepublic,,laromana,nan,nan,Q1140742,,DO,DOM,1,DO_12
+DO,Dominican Republic,13,La Vega Province,,,,,nan,do,dominicanrepublic,,lavega,nan,nan,Q594405,,DO,DOM,1,DO_13
+DO,Dominican Republic,14,María Trinidad Sánchez Province,,,,,nan,do,dominicanrepublic,,mariatrinidadsanchez,nan,nan,Q1949656,,DO,DOM,1,DO_14
+DO,Dominican Republic,15,Monte Cristi Province,,,,,nan,do,dominicanrepublic,,montecristi,nan,nan,Q592624,,DO,DOM,1,DO_15
+DO,Dominican Republic,16,Pedernales Province,,,,,nan,do,dominicanrepublic,,pedernales,nan,nan,Q1352533,,DO,DOM,1,DO_16
+DO,Dominican Republic,17,Peravia Province,,,,,nan,do,dominicanrepublic,,peravia,nan,nan,Q1331932,,DO,DOM,1,DO_17
+DO,Dominican Republic,18,Puerto Plata Province,,,,,nan,do,dominicanrepublic,,puertoplata,nan,nan,Q693487,,DO,DOM,1,DO_18
+DO,Dominican Republic,19,Hermanas Mirabal Province,,,,,nan,do,dominicanrepublic,,hermanasmirabal,nan,nan,Q549386,,DO,DOM,1,DO_19
+DO,Dominican Republic,20,Samaná Province,,,,,nan,do,dominicanrepublic,,samana,nan,nan,Q1145487,,DO,DOM,1,DO_20
+DO,Dominican Republic,21,San Cristóbal Province,,,,,nan,do,dominicanrepublic,,sancristobal,nan,nan,Q1366107,,DO,DOM,1,DO_21
+DO,Dominican Republic,22,San Juan Province,,,,,nan,do,dominicanrepublic,,sanjuan,nan,nan,Q2001793,,DO,DOM,1,DO_22
+DO,Dominican Republic,23,San Pedro de Macorís,,,,,nan,do,dominicanrepublic,,sanpedrodemacoris,nan,nan,Q1366119,,DO,DOM,1,DO_23
+DO,Dominican Republic,24,Sánchez Ramírez Province,,,,,nan,do,dominicanrepublic,,sanchezramirez,nan,nan,Q1836903,,DO,DOM,1,DO_24
+DO,Dominican Republic,25,Santiago Province,,,,,nan,do,dominicanrepublic,,santiago,nan,nan,Q1772983,,DO,DOM,1,DO_25
+DO,Dominican Republic,26,Santiago Rodríguez Province,,,,,nan,do,dominicanrepublic,,santiagorodriguez,nan,nan,Q2021942,,DO,DOM,1,DO_26
+DO,Dominican Republic,27,Valverde Province,,,,,nan,do,dominicanrepublic,,valverde,nan,nan,Q1774848,,DO,DOM,1,DO_27
+DO,Dominican Republic,28,Monseñor Nouel Province,,,,,nan,do,dominicanrepublic,,monsenornouel,nan,nan,Q1295496,,DO,DOM,1,DO_28
+DO,Dominican Republic,29,Monte Plata Province,,,,,nan,do,dominicanrepublic,,monteplata,nan,nan,Q1772745,,DO,DOM,1,DO_29
+DO,Dominican Republic,30,Hato Mayor Province,,,,,nan,do,dominicanrepublic,,hatomayor,nan,nan,Q937217,,DO,DOM,1,DO_30
+DO,Dominican Republic,31,San José de Ocoa Province,,,,,nan,do,dominicanrepublic,,sanjosedeocoa,nan,nan,Q1424391,,DO,DOM,1,DO_31
+DO,Dominican Republic,32,Santo Domingo Province,,,,,nan,do,dominicanrepublic,,santodomingo,nan,nan,Q1352536,,DO,DOM,1,DO_32
 DZ,Algeria,,,,,,-1,nan,dz,algeria,nan,nan,nan,nan,Q262,country/DZA,DZ,DZA,0,DZ
 EC,Ecuador,,,,,,-1,nan,ec,ecuador,nan,nan,nan,nan,Q736,country/ECU,EC,ECU,0,EC
+EC,Ecuador,A,Azuay Province,,,,,nan,ec,ecuador,a,azuay,nan,nan,Q220451,,EC,ECU,1,EC_A
+EC,Ecuador,B,Bolívar Province,,,,,nan,ec,ecuador,b,bolivar,nan,nan,Q261165,,EC,ECU,1,EC_B
+EC,Ecuador,C,Carchi Province,,,,,nan,ec,ecuador,c,carchi,nan,nan,Q321729,,EC,ECU,1,EC_C
+EC,Ecuador,D,Orellana Province,,,,,nan,ec,ecuador,d,orellana,nan,nan,Q499475,,EC,ECU,1,EC_D
+EC,Ecuador,E,Esmeraldas,,,,,nan,ec,ecuador,e,esmeraldas,nan,nan,Q335526,,EC,ECU,1,EC_E
+EC,Ecuador,F,Cañar Province,,,,,nan,ec,ecuador,f,canar,nan,nan,Q335471,,EC,ECU,1,EC_F
+EC,Ecuador,G,Guayas Province,,,,,nan,ec,ecuador,g,guayas,nan,nan,Q335464,,EC,ECU,1,EC_G
+EC,Ecuador,H,Chimborazo Province,,,,,nan,ec,ecuador,h,chimborazo,nan,nan,Q238492,,EC,ECU,1,EC_H
+EC,Ecuador,I,Imbabura Province,,,,,nan,ec,ecuador,i,imbabura,nan,nan,Q321863,,EC,ECU,1,EC_I
+EC,Ecuador,L,Loja Province,,,,,nan,ec,ecuador,l,loja,nan,nan,Q504238,,EC,ECU,1,EC_L
+EC,Ecuador,M,Manabí Provin,,,,,nan,ec,ecuador,m,manabiprovin,nan,nan,Q504666,,EC,ECU,1,EC_M
+EC,Ecuador,N,Napo Province,,,,,nan,ec,ecuador,n,napo,nan,nan,Q211900,,EC,ECU,1,EC_N
+EC,Ecuador,O,El Oro Province,,,,,nan,ec,ecuador,o,eloro,nan,nan,Q466019,,EC,ECU,1,EC_O
+EC,Ecuador,P,Pichincha Province,,,,,nan,ec,ecuador,p,pichincha,nan,nan,Q272586,,EC,ECU,1,EC_P
+EC,Ecuador,R,Los Ríos Province,,,,,nan,ec,ecuador,r,losrios,nan,nan,Q504260,,EC,ECU,1,EC_R
+EC,Ecuador,S,Morona-Santiago Province,,,,,nan,ec,ecuador,s,moronasantiago,nan,nan,Q549522,,EC,ECU,1,EC_S
+EC,Ecuador,SD,Santo Domingo de los Tsáchilas Province,,,,,nan,ec,ecuador,sd,santodomingodelostsachilas,nan,nan,Q1123208,,EC,ECU,1,EC_SD
+EC,Ecuador,SE,Santa Elena Province,,,,,nan,ec,ecuador,se,santaelena,nan,nan,Q1124125,,EC,ECU,1,EC_SE
+EC,Ecuador,T,Tungurahua Province,,,,,nan,ec,ecuador,t,tungurahua,nan,nan,Q504252,,EC,ECU,1,EC_T
+EC,Ecuador,U,Sucumbíos Province,,,,,nan,ec,ecuador,u,sucumbios,nan,nan,Q499456,,EC,ECU,1,EC_U
+EC,Ecuador,W,Galápagos Province,,,,,nan,ec,ecuador,w,galapagos,nan,nan,Q475038,,EC,ECU,1,EC_W
+EC,Ecuador,X,Cotopaxi Province,,,,,nan,ec,ecuador,x,cotopaxi,nan,nan,Q241140,,EC,ECU,1,EC_X
+EC,Ecuador,Y,Pastaza Province,,,,,nan,ec,ecuador,y,pastaza,nan,nan,Q214814,,EC,ECU,1,EC_Y
+EC,Ecuador,Z,Zamora-Chinchipe Province,,,,,nan,ec,ecuador,z,zamorachinchipe,nan,nan,Q744670,,EC,ECU,1,EC_Z
 EE,Estonia,,,,,,-1,nan,ee,estonia,nan,nan,nan,nan,Q191,country/EST,EE,EST,0,EE
 EG,Egypt,,,,,,-1,nan,eg,egypt,nan,nan,nan,nan,Q79,country/EGY,EG,EGY,0,EG
 EH,Western Sahara,,,,,,-1,nan,eh,westernsahara,nan,nan,nan,nan,Q6250,country/ESH,EH,ESH,0,EH
@@ -1595,6 +1675,7 @@ FR,France,PDL,Pays de la Loire,49,Maine-et-Loire,,,nan,fr,france,pdl,paysdelaloi
 FR,France,PDL,Pays de la Loire,53,Mayenne,,,nan,fr,france,pdl,paysdelaloire,,mayenne,Q12620,,FR,FRA,2,FR_PDL_53
 FR,France,PDL,Pays de la Loire,72,Sarthe,,,nan,fr,france,pdl,paysdelaloire,,sarthe,Q12740,,FR,FRA,2,FR_PDL_72
 FR,France,PDL,Pays de la Loire,85,Vendée,,,nan,fr,france,pdl,paysdelaloire,,vendee,Q12798,,FR,FRA,2,FR_PDL_85
+FR,France,PM,Saint Pierre and Miquelon,,,,,nan,fr,france,pm,saintpierremiquelon,nan,nan,Q34617,,FR,FRA,1,FR_PM
 GA,Gabon,,,,,,-1,nan,ga,gabon,nan,nan,nan,nan,Q1000,country/GAB,GA,GAB,0,GA
 GB,United Kingdom,,,,,,-1,nan,gb,unitedkingdom,nan,nan,nan,nan,Q145,country/GBR,GB,GBR,0,GB
 GB,United Kingdom,ENG,England,,,,,nan,gb,unitedkingdom,eng,england,nan,nan,Q21,,GB,GBR,1,GB_ENG
@@ -1792,11 +1873,32 @@ GI,Gibraltar,,,,,,-1,nan,gi,gibraltar,nan,nan,nan,nan,Q1410,country/GIB,GI,GIB,0
 GL,Greenland,,,,,,-1,nan,gl,greenland,nan,nan,nan,nan,Q223,country/GRL,GL,GRL,0,GL
 GM,Gambia,,,,,,-1,nan,gm,gambia,nan,nan,nan,nan,Q1005,country/GMB,GM,GMB,0,GM
 GN,Guinea,,,,,,-1,nan,gn,guinea,nan,nan,nan,nan,Q1006,country/GIN,GN,GIN,0,GN
-GP,Guadeloupe,,,,,,-1,nan,gp,guadeloupe,nan,nan,nan,nan,Q17012,country/GLP,GP,GLP,0,GP
 GQ,Equatorial Guinea,,,,,,-1,nan,gq,equatorialguinea,nan,nan,nan,nan,Q983,country/GNQ,GQ,GNQ,0,GQ
 GR,Greece,,,,,,-1,nan,gr,greece,nan,nan,nan,nan,Q41,country/GRC,GR,GRC,0,GR
 GS,South Georgia and the South Sandwich Islands,,,,,,-1,nan,gs,southgeorgiathesouthsandwichislands,nan,nan,nan,nan,Q35086,country/SGS,GS,SGS,0,GS
 GT,Guatemala,,,,,,-1,nan,gt,guatemala,nan,nan,nan,nan,Q774,country/GTM,GT,GTM,0,GT
+GT,Guatemala,AV,Alta Verapaz Department,,,,,nan,gt,guatemala,av,altaverapaz,nan,nan,Q504637,,GT,GTM,1,GT_AV
+GT,Guatemala,BV,Baja Verapaz Department,,,,,nan,gt,guatemala,bv,bajaverapaz,nan,nan,Q504647,,GT,GTM,1,GT_BV
+GT,Guatemala,CM,Chimaltenango Department,,,,,nan,gt,guatemala,cm,chimaltenango,nan,nan,Q765975,,GT,GTM,1,GT_CM
+GT,Guatemala,CQ,Chiquimula Department,,,,,nan,gt,guatemala,cq,chiquimula,nan,nan,Q753037,,GT,GTM,1,GT_CQ
+GT,Guatemala,ES,Escuintla Department,,,,,nan,gt,guatemala,es,escuintla,nan,nan,Q795587,,GT,GTM,1,GT_ES
+GT,Guatemala,GU,Guatemala Department,,,,,nan,gt,guatemala,gu,guatemala,nan,nan,Q695660,,GT,GTM,1,GT_GU
+GT,Guatemala,HU,Huehuetenango Department,,,,,nan,gt,guatemala,hu,huehuetenango,nan,nan,Q842266,,GT,GTM,1,GT_HU
+GT,Guatemala,IZ,Izabal Department,,,,,nan,gt,guatemala,iz,izabal,nan,nan,Q693658,,GT,GTM,1,GT_IZ
+GT,Guatemala,JA,Jalapa Department,,,,,nan,gt,guatemala,ja,jalapa,nan,nan,Q795441,,GT,GTM,1,GT_JA
+GT,Guatemala,JU,Jutiapa Department,,,,,nan,gt,guatemala,ju,jutiapa,nan,nan,Q765984,,GT,GTM,1,GT_JU
+GT,Guatemala,PE,Petén Department,,,,,nan,gt,guatemala,pe,peten,nan,nan,Q466061,,GT,GTM,1,GT_PE
+GT,Guatemala,PR,El Progreso Department,,,,,nan,gt,guatemala,pr,elprogreso,nan,nan,Q795591,,GT,GTM,1,GT_PR
+GT,Guatemala,QC,Quiché Department,,,,,nan,gt,guatemala,qc,quiche,nan,nan,Q669802,,GT,GTM,1,GT_QC
+GT,Guatemala,QZ,Quetzaltenango Department,,,,,nan,gt,guatemala,qz,quetzaltenango,nan,nan,Q844502,,GT,GTM,1,GT_QZ
+GT,Guatemala,RE,Retalhuleu Department,,,,,nan,gt,guatemala,re,retalhuleu,nan,nan,Q888307,,GT,GTM,1,GT_RE
+GT,Guatemala,SA,Sacatepéquez Department,,,,,nan,gt,guatemala,sa,sacatepequez,nan,nan,Q508804,,GT,GTM,1,GT_SA
+GT,Guatemala,SM,San Marcos Department,,,,,nan,gt,guatemala,sm,sanmarcos,nan,nan,Q883907,,GT,GTM,1,GT_SM
+GT,Guatemala,SO,Sololá Department,,,,,nan,gt,guatemala,so,solola,nan,nan,Q178136,,GT,GTM,1,GT_SO
+GT,Guatemala,SR,Santa Rosa Department,,,,,nan,gt,guatemala,sr,santarosa,nan,nan,Q885656,,GT,GTM,1,GT_SR
+GT,Guatemala,SU,Suchitepéquez Department,,,,,nan,gt,guatemala,su,suchitepequez,nan,nan,Q883734,,GT,GTM,1,GT_SU
+GT,Guatemala,TO,Totonicapán Department,,,,,nan,gt,guatemala,to,totonicapan,nan,nan,Q885644,,GT,GTM,1,GT_TO
+GT,Guatemala,ZA,Zacapa Department,,,,,nan,gt,guatemala,za,zacapa,nan,nan,Q780784,,GT,GTM,1,GT_ZA
 GU,Guam,,,,,,-1,nan,gu,guam,nan,nan,nan,nan,Q16635,country/GUM,GU,GUM,0,GU
 GW,Guinea-Bissau,,,,,,-1,nan,gw,guineabissau,nan,nan,nan,nan,Q1007,country/GNB,GW,GNB,0,GW
 GY,Guyana,,,,,,-1,nan,gy,guyana,nan,nan,nan,nan,Q734,country/GUY,GY,GUY,0,GY
@@ -1804,8 +1906,36 @@ GZ,Gaza Strip,,,,,,0,nan,gz,gazastrip,nan,nan,nan,nan,Q39760,,,,0,GZ
 HK,Hong Kong,,,,,,-1,nan,hk,hongkong,nan,nan,nan,nan,Q8646,country/HKG,HK,HKG,0,HK
 HM,Heard Island and McDonald Islands,,,,,,0,nan,hm,heardislandmcdonaldislands,nan,nan,nan,nan,Q131198,country/HMD,HM,HMD,0,HM
 HN,Honduras,,,,,,-1,nan,hn,honduras,nan,nan,nan,nan,Q783,country/HND,HN,HND,0,HN
+HN,Honduras,AT,Atlántida Department,,,,,nan,hn,honduras,at,atlantida,nan,nan,Q622619,,HN,HND,1,HN_AT
+HN,Honduras,CH,Choluteca Department,,,,,nan,hn,honduras,ch,choluteca,nan,nan,Q899272,,HN,HND,1,HN_CH
+HN,Honduras,CL,Colón Department,,,,,nan,hn,honduras,cl,colon,nan,nan,Q867117,,HN,HND,1,HN_CL
+HN,Honduras,CM,Comayagua Department,,,,,nan,hn,honduras,cm,comayagua,nan,nan,Q823443,,HN,HND,1,HN_CM
+HN,Honduras,CP,Copán Department,,,,,nan,hn,honduras,cp,copan,nan,nan,Q843984,,HN,HND,1,HN_CP
+HN,Honduras,CR,Cortés Department,,,,,nan,hn,honduras,cr,cortes,nan,nan,Q767244,,HN,HND,1,HN_CR
+HN,Honduras,EP,El Paraíso Department,,,,,nan,hn,honduras,ep,elparaiso,nan,nan,Q867108,,HN,HND,1,HN_EP
+HN,Honduras,FM,Francisco Morazán Department,,,,,nan,hn,honduras,fm,franciscomorazan,nan,nan,Q867126,,HN,HND,1,HN_FM
+HN,Honduras,GD,Gracias a Dios Department,,,,,nan,hn,honduras,gd,graciasadios,nan,nan,Q867112,,HN,HND,1,HN_GD
+HN,Honduras,IB,Bay Islands Department,,,,,nan,hn,honduras,ib,bayislands,nan,nan,Q751725,,HN,HND,1,HN_IB
+HN,Honduras,IN,Intibucá Department,,,,,nan,hn,honduras,in,intibuca,nan,nan,Q262125,,HN,HND,1,HN_IN
+HN,Honduras,LE,Lempira Department,,,,,nan,hn,honduras,le,lempira,nan,nan,Q744138,,HN,HND,1,HN_LE
+HN,Honduras,LP,La Paz Department,,,,,nan,hn,honduras,lp,lapaz,nan,nan,Q866886,,HN,HND,1,HN_LP
+HN,Honduras,OC,Ocotepeque Department,,,,,nan,hn,honduras,oc,ocotepeque,nan,nan,Q867084,,HN,HND,1,HN_OC
+HN,Honduras,OL,Olancho Department,,,,,nan,hn,honduras,ol,olancho,nan,nan,Q867089,,HN,HND,1,HN_OL
+HN,Honduras,SB,Santa Bárbara Department,,,,,nan,hn,honduras,sb,santabarbara,nan,nan,Q591139,,HN,HND,1,HN_SB
+HN,Honduras,VA,Valle Department,,,,,nan,hn,honduras,va,valle,nan,nan,Q867097,,HN,HND,1,HN_VA
+HN,Honduras,YO,Yoro Department,,,,,nan,hn,honduras,yo,yoro,nan,nan,Q1123380,,HN,HND,1,HN_YO
 HR,Croatia,,,,,,-1,nan,hr,croatia,nan,nan,nan,nan,Q224,country/HRV,HR,HRV,0,HR
 HT,Haiti,,,,,,-1,nan,ht,haiti,nan,nan,nan,nan,Q790,country/HTI,HT,HTI,0,HT
+HT,Haiti,AR,Artibonite,,,,,nan,ht,haiti,ar,artibonite,nan,nan,Q844024,,HT,HTI,1,HT_AR
+HT,Haiti,CE,Centre,,,,,nan,ht,haiti,ce,centre,nan,nan,Q844528,,HT,HTI,1,HT_CE
+HT,Haiti,GA,Grand'Anse,,,,,nan,ht,haiti,ga,grandanse,nan,nan,Q913231,,HT,HTI,1,HT_GA
+HT,Haiti,ND,Nord,,,,,nan,ht,haiti,nd,nord,nan,nan,Q943932,,HT,HTI,1,HT_ND
+HT,Haiti,NE,Nord-Est,,,,,nan,ht,haiti,ne,nordest,nan,nan,Q928694,,HT,HTI,1,HT_NE
+HT,Haiti,NI,Nippes,,,,,nan,ht,haiti,ni,nippes,nan,nan,Q125232,,HT,HTI,1,HT_NI
+HT,Haiti,NO,Nord-Ouest,,,,,nan,ht,haiti,no,nordouest,nan,nan,Q608361,,HT,HTI,1,HT_NO
+HT,Haiti,OU,Ouest,,,,,nan,ht,haiti,ou,ouest,nan,nan,Q1434621,,HT,HTI,1,HT_OU
+HT,Haiti,SD,Sud,,,,,nan,ht,haiti,sd,sud,nan,nan,Q936704,,HT,HTI,1,HT_SD
+HT,Haiti,SE,Sud-Est,,,,,nan,ht,haiti,se,sudest,nan,nan,Q936717,,HT,HTI,1,HT_SE
 HU,Hungary,,,,,,-1,nan,hu,hungary,nan,nan,nan,nan,Q28,country/HUN,HU,HUN,0,HU
 ID,Indonesia,,,,,,-1,nan,id,indonesia,nan,nan,nan,nan,Q252,country/IDN,ID,IDN,0,ID
 ID,Indonesia,AC,Aceh,,,,0,nan,id,indonesia,ac,aceh,nan,nan,Q1823,,ID,IDN,1,ID_AC
@@ -2075,6 +2205,23 @@ NE,Niger,,,,,,-1,nan,ne,niger,nan,nan,nan,nan,Q1032,country/NER,NE,NER,0,NE
 NF,Norfolk Island,,,,,,-1,nan,nf,norfolkisland,nan,nan,nan,nan,Q31057,country/NFK,NF,NFK,0,NF
 NG,Nigeria,,,,,,-1,nan,ng,nigeria,nan,nan,nan,nan,Q1033,country/NGA,NG,NGA,0,NG
 NI,Nicaragua,,,,,,-1,nan,ni,nicaragua,nan,nan,nan,nan,Q811,country/NIC,NI,NIC,0,NI
+NI,Nicaragua,AN,North Caribbean Coast Autonomous Region,,,,,nan,ni,nicaragua,an,northcaribbeancoastautonomous,nan,nan,Q498452,,NI,NIC,1,NI_AN
+NI,Nicaragua,AS,South Caribbean Coast Autonomous Region,,,,,nan,ni,nicaragua,as,southcaribbeancoastautonomous,nan,nan,Q291279,,NI,NIC,1,NI_AS
+NI,Nicaragua,BO,Boaco Department,,,,,nan,ni,nicaragua,bo,boaco,nan,nan,Q280973,,NI,NIC,1,NI_BO
+NI,Nicaragua,CA,Carazo Department,,,,,nan,ni,nicaragua,ca,carazo,nan,nan,Q461133,,NI,NIC,1,NI_CA
+NI,Nicaragua,CI,Chinandega Department,,,,,nan,ni,nicaragua,ci,chinandega,nan,nan,Q644024,,NI,NIC,1,NI_CI
+NI,Nicaragua,CO,Chontales Department,,,,,nan,ni,nicaragua,co,chontales,nan,nan,Q498443,,NI,NIC,1,NI_CO
+NI,Nicaragua,ES,Estelí Department,,,,,nan,ni,nicaragua,es,esteli,nan,nan,Q728015,,NI,NIC,1,NI_ES
+NI,Nicaragua,GR,Granada Department,,,,,nan,ni,nicaragua,gr,granada,nan,nan,Q258405,,NI,NIC,1,NI_GR
+NI,Nicaragua,JI,Jinotega Department,,,,,nan,ni,nicaragua,ji,jinotega,nan,nan,Q728120,,NI,NIC,1,NI_JI
+NI,Nicaragua,LE,León Department,,,,,nan,ni,nicaragua,le,leon,nan,nan,Q586818,,NI,NIC,1,NI_LE
+NI,Nicaragua,MD,Madriz Department,,,,,nan,ni,nicaragua,md,madriz,nan,nan,Q728056,,NI,NIC,1,NI_MD
+NI,Nicaragua,MN,Managua Department,,,,,nan,ni,nicaragua,mn,managua,nan,nan,Q260009,,NI,NIC,1,NI_MN
+NI,Nicaragua,MS,Masaya Department,,,,,nan,ni,nicaragua,ms,masaya,nan,nan,Q570358,,NI,NIC,1,NI_MS
+NI,Nicaragua,MT,Matagalpa Department,,,,,nan,ni,nicaragua,mt,matagalpa,nan,nan,Q728099,,NI,NIC,1,NI_MT
+NI,Nicaragua,NS,Nueva Segovia Department,,,,,nan,ni,nicaragua,ns,nuevasegovia,nan,nan,Q728022,,NI,NIC,1,NI_NS
+NI,Nicaragua,RI,Rivas Department,,,,,nan,ni,nicaragua,ri,rivas,nan,nan,Q728127,,NI,NIC,1,NI_RI
+NI,Nicaragua,SJ,Río San Juan Department,,,,,nan,ni,nicaragua,sj,riosanjuan,nan,nan,Q728155,,NI,NIC,1,NI_SJ
 NL,Netherlands,,,,,,-1,nan,nl,netherlands,nan,nan,nan,nan,Q55,country/NLD,NL,NLD,0,NL
 NL,Netherlands,DR,Drenthe,,,,,nan,nl,netherlands,dr,drenthe,nan,nan,Q772,nuts/NL13,NL,NLD,1,NL_DR
 NL,Netherlands,DR,Drenthe,0106,Assen,,,nan,nl,netherlands,dr,drenthe,,assen,Q798,,NL,NLD,2,NL_DR_0106
@@ -2463,6 +2610,19 @@ NU,Niue,,,,,,-1,nan,nu,niue,nan,nan,nan,nan,Q34020,country/NIU,NU,NIU,0,NU
 NZ,New Zealand,,,,,,0,nan,nz,newzealand,nan,nan,nan,nan,Q664,country/NZL,NZ,NZL,0,NZ
 OM,Oman,,,,,,-1,nan,om,oman,nan,nan,nan,nan,Q842,country/OMN,OM,OMN,0,OM
 PA,Panama,,,,,,-1,nan,pa,panama,nan,nan,nan,nan,Q804,country/PAN,PA,PAN,0,PA
+PA,Panama,1,Bocas del Toro Province,,,,,nan,pa,panama,,bocasdeltoro,nan,nan,Q217138,,PA,PAN,1,PA_1
+PA,Panama,10,Panamá Oeste Province,,,,,nan,pa,panama,,panamaoeste,nan,nan,Q16250688,,PA,PAN,1,PA_10
+PA,Panama,2,Coclé Province,,,,,nan,pa,panama,,cocle,nan,nan,Q825799,,PA,PAN,1,PA_2
+PA,Panama,3,Colón Province,,,,,nan,pa,panama,,colon,nan,nan,Q820514,,PA,PAN,1,PA_3
+PA,Panama,4,Chiriquí Province,,,,,nan,pa,panama,,chiriqui,nan,nan,Q739651,,PA,PAN,1,PA_4
+PA,Panama,5,Darién Province,,,,,nan,pa,panama,,darien,nan,nan,Q688660,,PA,PAN,1,PA_5
+PA,Panama,6,Herrera Province,,,,,nan,pa,panama,,herrera,nan,nan,Q842886,,PA,PAN,1,PA_6
+PA,Panama,7,Los Santos Province,,,,,nan,pa,panama,,lossantos,nan,nan,Q911278,,PA,PAN,1,PA_7
+PA,Panama,8,Panamá Province,,,,,nan,pa,panama,,panama,nan,nan,Q557506,,PA,PAN,1,PA_8
+PA,Panama,9,Veraguas Province,,,,,nan,pa,panama,,veraguas,nan,nan,Q593137,,PA,PAN,1,PA_9
+PA,Panama,EM,Emberá-Wounaan Comarca,,,,,nan,pa,panama,em,emberawounaancomarca,nan,nan,Q1141041,,PA,PAN,1,PA_EM
+PA,Panama,KY,Guna Yala,,,,,nan,pa,panama,ky,gunayala,nan,nan,Q919017,,PA,PAN,1,PA_KY
+PA,Panama,NB,Ngöbe-Buglé Comarca,,,,,nan,pa,panama,nb,ngobebuglecomarca,nan,nan,Q1129783,,PA,PAN,1,PA_NB
 PE,Peru,,,,,,-1,nan,pe,peru,nan,nan,nan,nan,Q419,country/PER,PE,PER,0,PE
 PE,Peru,AMA,Amazonas,,,,,nan,pe,peru,ama,amazonas,nan,nan,Q201162,,PE,PER,1,PE_AMA
 PE,Peru,ANC,Ancash,,,,,nan,pe,peru,anc,ancash,nan,nan,Q205089,,PE,PER,1,PE_ANC
@@ -2566,13 +2726,13 @@ PH,Philippines,13,Caraga,AGS,Agusan del Sur,,,nan,ph,philippines,,caraga,ags,agu
 PH,Philippines,13,Caraga,DIN,Dinagat Islands,,,nan,ph,philippines,,caraga,din,dinagatislands,,,PH,PHL,2,PH_13_DIN
 PH,Philippines,13,Caraga,SUN,Surigao del Norte,,,nan,ph,philippines,,caraga,sun,surigaodelnorte,,,PH,PHL,2,PH_13_SUN
 PH,Philippines,13,Caraga,SUR,Surigao del Sur,,,nan,ph,philippines,,caraga,sur,surigaodelsur,,,PH,PHL,2,PH_13_SUR
-PH,Philippines,14,Autonomous Region in Muslim Mindanao,,BARMM,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,nan,barmm,Q13708,,PH,PHL,1,PH_14
+PH,Philippines,14,Autonomous Region in Muslim Mindanao,,,BARMM,,barmm,ph,philippines,,autonomousregioninmuslimmindanao,nan,nan,Q13708,,PH,PHL,1,PH_14
 PH,Philippines,14,Autonomous Region in Muslim Mindanao,BAS,Basilan,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,bas,basilan,,,PH,PHL,2,PH_14_BAS
 PH,Philippines,14,Autonomous Region in Muslim Mindanao,LAS,Lanao del Sur,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,las,lanaodelsur,,,PH,PHL,2,PH_14_LAS
 PH,Philippines,14,Autonomous Region in Muslim Mindanao,MAG,Maguindanao,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,mag,maguindanao,,,PH,PHL,2,PH_14_MAG
 PH,Philippines,14,Autonomous Region in Muslim Mindanao,SLU,Sulu,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,slu,sulu,,,PH,PHL,2,PH_14_SLU
 PH,Philippines,14,Autonomous Region in Muslim Mindanao,TAW,Tawi-Tawi,,,nan,ph,philippines,,autonomousregioninmuslimmindanao,taw,tawitawi,,,PH,PHL,2,PH_14_TAW
-PH,Philippines,15,Cordillera Administrative Region,,CAR,,,nan,ph,philippines,,cordilleraadministrative,nan,car,Q13606,,PH,PHL,1,PH_15
+PH,Philippines,15,Cordillera Administrative Region,,,CAR,,car,ph,philippines,,cordilleraadministrative,nan,nan,Q13606,,PH,PHL,1,PH_15
 PH,Philippines,15,Cordillera Administrative Region,ABR,Abra,,,nan,ph,philippines,,cordilleraadministrative,abr,abra,,,PH,PHL,2,PH_15_ABR
 PH,Philippines,15,Cordillera Administrative Region,APA,Apayao,,,nan,ph,philippines,,cordilleraadministrative,apa,apayao,,,PH,PHL,2,PH_15_APA
 PH,Philippines,15,Cordillera Administrative Region,BEN,Benguet,,,nan,ph,philippines,,cordilleraadministrative,ben,benguet,,,PH,PHL,2,PH_15_BEN
@@ -2600,7 +2760,7 @@ PK,Pakistan,KP,Khyber Pakhtunkhwa,,,,,nan,pk,pakistan,kp,khyberpakhtunkhwa,nan,n
 PK,Pakistan,PB,Punjab,,,,,nan,pk,pakistan,pb,punjab,nan,nan,Q4478,,PK,PAK,1,PK_PB
 PK,Pakistan,SD,Sindh,,,,,nan,pk,pakistan,sd,sindh,nan,nan,Q37211,,PK,PAK,1,PK_SD
 PL,Poland,,,,,,-1,nan,pl,poland,nan,nan,nan,nan,Q36,country/POL,PL,POL,0,PL
-PL,Poland,02,Lower Silesia,,,dolnośląskie,,dolnoslaskie,pl,poland,,lowersilesia,nan,nan,Q54150,,PL,POL,1,PL_02
+PL,Poland,02,Lower Silesia,,,(dolnośląskie)|(lower silesian),,dolnoslaskielowersilesian,pl,poland,,lowersilesia,nan,nan,Q54150,,PL,POL,1,PL_02
 PL,Poland,04,Kuiavia-Pomerania,,,(kujawsko-pomorskie)|(kuyavian-pomeranian),,kujawskopomorskiekuyavianpomeranian,pl,poland,,kuiaviapomerania,nan,nan,Q54153,,PL,POL,1,PL_04
 PL,Poland,06,Lublin,,,lubelskie,,lubelskie,pl,poland,,lublin,nan,nan,Q54155,,PL,POL,1,PL_06
 PL,Poland,08,Lubusz,,,lubuskie,,lubuskie,pl,poland,,lubusz,nan,nan,Q54157,,PL,POL,1,PL_08
@@ -2616,7 +2776,6 @@ PL,Poland,26,Swietokrzyskie,,,świętokrzyskie,,swietokrzyskie,pl,poland,,swieto
 PL,Poland,28,Warmia-Masuria,,,(warmińsko-mazurskie)|(warmian-masurian),,warminskomazurskiewarmianmasurian,pl,poland,,warmiamasuria,nan,nan,Q54184,,PL,POL,1,PL_28
 PL,Poland,30,Greater Poland,,,wielkopolskie,,wielkopolskie,pl,poland,,greaterpoland,nan,nan,Q54187,,PL,POL,1,PL_30
 PL,Poland,32,West Pomeranian,,,zachodniopomorskie,,zachodniopomorskie,pl,poland,,westpomeranian,nan,nan,Q54188,,PL,POL,1,PL_32
-PM,Saint Pierre and Miquelon,,,,,,-1,nan,pm,saintpierremiquelon,nan,nan,nan,nan,Q34617,country/SPM,PM,SPM,0,PM
 PN,Pitcairn Islands,,,,,,-1,nan,pn,pitcairnislands,nan,nan,nan,nan,Q35672,country/PCN,PN,PCN,0,PN
 PR,Puerto Rico,,,,,,-1,nan,pr,puertorico,nan,nan,nan,nan,Q1183,country/PRI,PR,PRI,0,PR
 PS,Palestine,,,,,,-1,nan,ps,palestine,nan,nan,nan,nan,Q1176995,,PS,PSE,0,PS
@@ -2631,6 +2790,24 @@ PT,Portugal,20,Azores,,,acores,,acores,pt,portugal,,azores,nan,nan,Q25263,nuts/P
 PT,Portugal,30,Madeira,,,,,nan,pt,portugal,,madeira,nan,nan,Q26253,nuts/PT300,PT,PRT,1,PT_30
 PW,Palau,,,,,,-1,nan,pw,palau,nan,nan,nan,nan,Q695,country/PLW,PW,PLW,0,PW
 PY,Paraguay,,,,,,-1,nan,py,paraguay,nan,nan,nan,nan,Q733,country/PRY,PY,PRY,0,PY
+PY,Paraguay,1,Concepción Department,,,,,nan,py,paraguay,,concepcion,nan,nan,Q741009,,PY,PRY,1,PY_1
+PY,Paraguay,10,Alto Paraná Department,,,,,nan,py,paraguay,,altoparana,nan,nan,Q682654,,PY,PRY,1,PY_10
+PY,Paraguay,11,Central Department,,,,,nan,py,paraguay,,central,nan,nan,Q372461,,PY,PRY,1,PY_11
+PY,Paraguay,12,Ñeembucú Department,,,,,nan,py,paraguay,,neembucu,nan,nan,Q755115,,PY,PRY,1,PY_12
+PY,Paraguay,13,Amambay Department,,,,,nan,py,paraguay,,amambay,nan,nan,Q686586,,PY,PRY,1,PY_13
+PY,Paraguay,14,Canindeyú,,,,,nan,py,paraguay,,canindeyu,nan,nan,Q279085,,PY,PRY,1,PY_14
+PY,Paraguay,15,Presidente Hayes Department,,,,,nan,py,paraguay,,presidentehayes,nan,nan,Q750551,,PY,PRY,1,PY_15
+PY,Paraguay,16,Alto Paraguay Department,,,,,nan,py,paraguay,,altoparaguay,nan,nan,Q682642,,PY,PRY,1,PY_16
+PY,Paraguay,19,Boquerón Department,,,,,nan,py,paraguay,,boqueron,nan,nan,Q741017,,PY,PRY,1,PY_19
+PY,Paraguay,2,San Pedro Department,,,,,nan,py,paraguay,,sanpedro,nan,nan,Q526176,,PY,PRY,1,PY_2
+PY,Paraguay,3,Cordillera Department,,,,,nan,py,paraguay,,cordillera,nan,nan,Q755121,,PY,PRY,1,PY_3
+PY,Paraguay,4,Guairá Department,,,,,nan,py,paraguay,,guaira,nan,nan,Q755116,,PY,PRY,1,PY_4
+PY,Paraguay,5,Caaguazú,,,,,nan,py,paraguay,,caaguazu,nan,nan,Q880399,,PY,PRY,1,PY_5
+PY,Paraguay,6,Caazapá,,,,,nan,py,paraguay,,caazapa,nan,nan,Q881839,,PY,PRY,1,PY_6
+PY,Paraguay,7,Itapúa,,,,,nan,py,paraguay,,itapua,nan,nan,Q222564,,PY,PRY,1,PY_7
+PY,Paraguay,8,Misiones Department,,,,,nan,py,paraguay,,misiones,nan,nan,Q591194,,PY,PRY,1,PY_8
+PY,Paraguay,9,Paraguarí Department,,,,,nan,py,paraguay,,paraguari,nan,nan,Q240014,,PY,PRY,1,PY_9
+PY,Paraguay,ASU,Capital District,,,Asunción,,asuncion,py,paraguay,asu,capitaldistrict,nan,nan,Q2723419,,PY,PRY,1,PY_ASU
 QA,Qatar,,,,,,-1,nan,qa,qatar,nan,nan,nan,nan,Q846,country/QAT,QA,QAT,0,QA
 RE,Réunion,,,,,,-1,nan,re,reunion,nan,nan,nan,nan,Q17070,country/REU,RE,REU,0,RE
 RO,Romania,,,,,,-1,nan,ro,romania,nan,nan,nan,nan,Q218,country/ROU,RO,ROU,0,RO
@@ -2776,6 +2953,20 @@ SR,Suriname,,,,,,-1,nan,sr,suriname,nan,nan,nan,nan,Q730,country/SUR,SR,SUR,0,SR
 SS,South Sudan,,,,,,-1,nan,ss,southsudan,nan,nan,nan,nan,Q958,country/SSD,SS,SSD,0,SS
 ST,São Tomé and Príncipe,,,,,,-1,nan,st,saotomeprincipe,nan,nan,nan,nan,Q1039,country/STP,ST,STP,0,ST
 SV,El Salvador,,,,,,-1,nan,sv,elsalvador,nan,nan,nan,nan,Q792,country/SLV,SV,SLV,0,SV
+SV,El Salvador,AH,Ahuachapán Department,,,,,nan,sv,elsalvador,ah,ahuachapan,nan,nan,Q572993,,SV,SLV,1,SV_AH
+SV,El Salvador,CA,Cabañas Department,,,,,nan,sv,elsalvador,ca,cabanas,nan,nan,Q914058,,SV,SLV,1,SV_CA
+SV,El Salvador,CH,Chalatenango Department,,,,,nan,sv,elsalvador,ch,chalatenango,nan,nan,Q522221,,SV,SLV,1,SV_CH
+SV,El Salvador,CU,Cuscatlán Department,,,,,nan,sv,elsalvador,cu,cuscatlan,nan,nan,Q1130677,,SV,SLV,1,SV_CU
+SV,El Salvador,LI,La Libertad Department,,,,,nan,sv,elsalvador,li,lalibertad,nan,nan,Q930820,,SV,SLV,1,SV_LI
+SV,El Salvador,MO,Morazán Department,,,,,nan,sv,elsalvador,mo,morazan,nan,nan,Q1122836,,SV,SLV,1,SV_MO
+SV,El Salvador,PA,La Paz Department,,,,,nan,sv,elsalvador,pa,lapaz,nan,nan,Q1129788,,SV,SLV,1,SV_PA
+SV,El Salvador,SA,Santa Ana Department,,,,,nan,sv,elsalvador,sa,santaana,nan,nan,Q671158,,SV,SLV,1,SV_SA
+SV,El Salvador,SM,San Miguel Department,,,,,nan,sv,elsalvador,sm,sanmiguel,nan,nan,Q930804,,SV,SLV,1,SV_SM
+SV,El Salvador,SO,Sonsonate Department,,,,,nan,sv,elsalvador,so,sonsonate,nan,nan,Q212540,,SV,SLV,1,SV_SO
+SV,El Salvador,SS,San Salvador Department,,,,,nan,sv,elsalvador,ss,sansalvador,nan,nan,Q1543219,,SV,SLV,1,SV_SS
+SV,El Salvador,SV,San Vicente Department,,,,,nan,sv,elsalvador,sv,sanvicente,nan,nan,Q1130180,,SV,SLV,1,SV_SV
+SV,El Salvador,UN,La Unión Department,,,,,nan,sv,elsalvador,un,launion,nan,nan,Q1130688,,SV,SLV,1,SV_UN
+SV,El Salvador,US,Usulután Department,,,,,nan,sv,elsalvador,us,usulutan,nan,nan,Q1122748,,SV,SLV,1,SV_US
 SX,Sint Maarten,,,,,,-1,nan,sx,sintmaarten,nan,nan,nan,nan,Q26273,country/SXM,SX,SXM,0,SX
 SY,Syria,,,,,,-1,nan,sy,syria,nan,nan,nan,nan,Q858,country/SYR,SY,SYR,0,SY
 SZ,Swaziland,,,,,,-1,nan,sz,swaziland,nan,nan,nan,nan,Q1050,country/SWZ,SZ,SWZ,0,SZ
@@ -6078,6 +6269,25 @@ US,United States of America,WY,Wyoming,56041,Uinta County,,,nan,us,unitedstatesa
 US,United States of America,WY,Wyoming,56043,Washakie County,,,nan,us,unitedstatesamerica,wy,wyoming,,washakiecounty,Q112846,geoId/56043,US,USA,2,US_WY_56043
 US,United States of America,WY,Wyoming,56045,Weston County,,,nan,us,unitedstatesamerica,wy,wyoming,,westoncounty,Q115413,geoId/56045,US,USA,2,US_WY_56045
 UY,Uruguay,,,,,,-1,nan,uy,uruguay,nan,nan,nan,nan,Q77,country/URY,UY,URY,0,UY
+UY,Uruguay,AR,Artigas Department,,,,,nan,uy,uruguay,ar,artigas,nan,nan,Q16603,,UY,URY,1,UY_AR
+UY,Uruguay,CA,Canelones Department,,,,,nan,uy,uruguay,ca,canelones,nan,nan,Q16577,,UY,URY,1,UY_CA
+UY,Uruguay,CL,Cerro Largo Department,,,,,nan,uy,uruguay,cl,cerrolargo,nan,nan,Q16575,,UY,URY,1,UY_CL
+UY,Uruguay,CO,Colonia Department,,,,,nan,uy,uruguay,co,colonia,nan,nan,Q16580,,UY,URY,1,UY_CO
+UY,Uruguay,DU,Durazno Department,,,,,nan,uy,uruguay,du,durazno,nan,nan,Q16591,,UY,URY,1,UY_DU
+UY,Uruguay,FD,Florida Department,,,,,nan,uy,uruguay,fd,florida,nan,nan,Q16593,,UY,URY,1,UY_FD
+UY,Uruguay,FS,Flores Department,,,,,nan,uy,uruguay,fs,flores,nan,nan,Q16578,,UY,URY,1,UY_FS
+UY,Uruguay,LA,Lavalleja Department,,,,,nan,uy,uruguay,la,lavalleja,nan,nan,Q460435,,UY,URY,1,UY_LA
+UY,Uruguay,MA,Maldonado Department,,,,,nan,uy,uruguay,ma,maldonado,nan,nan,Q331196,,UY,URY,1,UY_MA
+UY,Uruguay,MO,Montevideo Department,,,,,nan,uy,uruguay,mo,montevideo,nan,nan,Q1335,,UY,URY,1,UY_MO
+UY,Uruguay,PA,Paysandú Department,,,,,nan,uy,uruguay,pa,paysandu,nan,nan,Q16576,,UY,URY,1,UY_PA
+UY,Uruguay,RN,Río Negro Department,,,,,nan,uy,uruguay,rn,rionegro,nan,nan,Q16596,,UY,URY,1,UY_RN
+UY,Uruguay,RO,Rocha Department,,,,,nan,uy,uruguay,ro,rocha,nan,nan,Q16582,,UY,URY,1,UY_RO
+UY,Uruguay,RV,Rivera Department,,,,,nan,uy,uruguay,rv,rivera,nan,nan,Q16609,,UY,URY,1,UY_RV
+UY,Uruguay,SA,Salto Department,,,,,nan,uy,uruguay,sa,salto,nan,nan,Q16595,,UY,URY,1,UY_SA
+UY,Uruguay,SJ,San José Department,,,,,nan,uy,uruguay,sj,sanjose,nan,nan,Q16579,,UY,URY,1,UY_SJ
+UY,Uruguay,SO,Soriano Department,,,,,nan,uy,uruguay,so,soriano,nan,nan,Q16584,,UY,URY,1,UY_SO
+UY,Uruguay,TA,Tacuarembó Department,,,,,nan,uy,uruguay,ta,tacuarembo,nan,nan,Q16587,,UY,URY,1,UY_TA
+UY,Uruguay,TT,Treinta y Tres Department,,,,,nan,uy,uruguay,tt,treintatres,nan,nan,Q16610,,UY,URY,1,UY_TT
 UZ,Uzbekistan,,,,,,-1,nan,uz,uzbekistan,nan,nan,nan,nan,Q265,country/UZB,UZ,UZB,0,UZ
 VA,Vatican City,,,,,,-1,nan,va,vaticancity,nan,nan,nan,nan,Q237,country/VAT,VA,VAT,0,VA
 VC,Saint Vincent and the Grenadines,,,,,,-1,nan,vc,saintvincentthegrenadines,nan,nan,nan,nan,Q757,country/VCT,VC,VCT,0,VC
@@ -6116,14 +6326,14 @@ XK,Kosovo,,,,,,0,nan,xk,kosovo,nan,nan,nan,nan,Q1246,country/XKS,XK,RKS,0,XK
 YE,Yemen,,,,,,-1,nan,ye,yemen,nan,nan,nan,nan,Q805,country/YEM,YE,YEM,0,YE
 YT,Mayotte,,,,,,-1,nan,yt,mayotte,nan,nan,nan,nan,Q17063,country/MYT,YT,MYT,0,YT
 ZA,South Africa,,,,,,-1,nan,za,southafrica,nan,nan,nan,nan,Q258,country/ZAF,ZA,ZAF,0,ZA
-South Africa,EC,Eastern Cape,,,,,,nan,southafrica,ec,easterncape,nan,nan,nan,Q130840,,,,1,ZA_EC
-South Africa,FS,Free State,,,,,,nan,southafrica,fs,freestate,nan,nan,nan,Q160284,,,,1,ZA_FS
-South Africa,GP,Gauteng,,,,,,nan,southafrica,gp,gauteng,nan,nan,nan,Q133083,,,,1,ZA_GP
-South Africa,KZN,KwaZulu-Natal,,,,,,nan,southafrica,kzn,kwazulunatal,nan,nan,nan,Q81725,,,,1,ZA_KZN
-South Africa,LP,Limpopo,,,,,,nan,southafrica,lp,limpopo,nan,nan,nan,Q134907,,,,1,ZA_LP
-South Africa,MP,Mpumalanga,,,,,,nan,southafrica,mp,mpumalanga,nan,nan,nan,Q132410,,,,1,ZA_MP
-South Africa,NC,Northern Cape,,,,,,nan,southafrica,nc,northerncape,nan,nan,nan,Q132418,,,,1,ZA_NC
-South Africa,NW,North West,,,,,,nan,southafrica,nw,northwest,nan,nan,nan,Q165956,,,,1,ZA_NW
-South Africa,WC,Western Cape,,,,,,nan,southafrica,wc,westerncape,nan,nan,nan,Q127167,,,,1,ZA_WC
+ZA,South Africa,EC,Eastern Cape,,,,,nan,za,southafrica,ec,easterncape,nan,nan,Q130840,,ZA,ZAF,1,ZA_EC
+ZA,South Africa,FS,Free State,,,,,nan,za,southafrica,fs,freestate,nan,nan,Q160284,,ZA,ZAF,1,ZA_FS
+ZA,South Africa,GP,Gauteng,,,,,nan,za,southafrica,gp,gauteng,nan,nan,Q133083,,ZA,ZAF,1,ZA_GP
+ZA,South Africa,KZN,KwaZulu-Natal,,,,,nan,za,southafrica,kzn,kwazulunatal,nan,nan,Q81725,,ZA,ZAF,1,ZA_KZN
+ZA,South Africa,LP,Limpopo,,,,,nan,za,southafrica,lp,limpopo,nan,nan,Q134907,,ZA,ZAF,1,ZA_LP
+ZA,South Africa,MP,Mpumalanga,,,,,nan,za,southafrica,mp,mpumalanga,nan,nan,Q132410,,ZA,ZAF,1,ZA_MP
+ZA,South Africa,NC,Northern Cape,,,,,nan,za,southafrica,nc,northerncape,nan,nan,Q132418,,ZA,ZAF,1,ZA_NC
+ZA,South Africa,NW,North West,,,,,nan,za,southafrica,nw,northwest,nan,nan,Q165956,,ZA,ZAF,1,ZA_NW
+ZA,South Africa,WC,Western Cape,,,,,nan,za,southafrica,wc,westerncape,nan,nan,Q127167,,ZA,ZAF,1,ZA_WC
 ZM,Zambia,,,,,,-1,nan,zm,zambia,nan,nan,nan,nan,Q953,country/ZMB,ZM,ZMB,0,ZM
 ZW,Zimbabwe,,,,,,-1,nan,zw,zimbabwe,nan,nan,nan,nan,Q954,country/ZWE,ZW,ZWE,0,ZW

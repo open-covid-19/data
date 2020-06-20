@@ -41,6 +41,8 @@ def fuzzy_text(text: str, remove_spaces: bool = True):
     text = re.sub(r"borough$", "", text)
     text = re.sub(r"^province", "", text)
     text = re.sub(r"province$", "", text)
+    text = re.sub(r"^department", "", text)
+    text = re.sub(r"department$", "", text)
     text = re.sub(r"\s+", "" if remove_spaces else " ", text)
     return text.strip()
 
