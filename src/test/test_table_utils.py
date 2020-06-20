@@ -70,7 +70,7 @@ NEW_AND_TOTAL_TEST_DATA = DataFrame.from_records(
 )
 
 
-class TestPipelineMerge(TestCase):
+class TestTableUtils(TestCase):
     @classmethod
     def setUpClass(cls):
         cls.profiler = cProfile.Profile()

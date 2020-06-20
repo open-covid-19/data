@@ -133,11 +133,7 @@ def export_csv(data: DataFrame, path: Union[Path, str]) -> None:
             values = data[column].dropna()
             if len(values) > 0 and max(values) > 1e8:
                 try:
-                    data[column] = (
-                        data[column]
-                        .astype("Int64")
-                        .apply(lambda x: "" if pandas.isnull(x) else str(x))
-                    )
+                    data[column] = data[column].apply(safe_int_cast).astype("Int64")
                 except:
                     data[column] = data[column].astype(str).fillna("")
 
