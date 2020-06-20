@@ -119,9 +119,7 @@ print("Converting V2 CSV to JSON...")
 for csv_file in (v2_folder).glob("**/*.csv"):
     data = read_file(csv_file, low_memory=False)
     json_path = str(csv_file).replace("csv", "json")
-    # The main master.json is too big for GitHub Pages...
-    if json_path != str(v2_folder / "master.json"):
-        export_json_without_index(data, json_path)
+    export_json_without_index(data, json_path)
 
 # Perform data transformations for backwards compatibility
 v1_folder = public_folder  # Same as root
@@ -151,7 +149,7 @@ export_csv(data, v1_folder / "data.csv")
 export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minimal.csv")
 
 # Create the v1 data_latest.csv file
-latest = read_file(latest_folder / "master.csv")
+latest = master.copy()
 latest = latest[latest.aggregation_level < 2]
 latest = latest[rename_columns.keys()].rename(columns=rename_columns)
 latest = latest.dropna(subset=["Confirmed", "Deaths"], how="all")
