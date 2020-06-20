@@ -473,14 +473,22 @@ from the relevant authorities, like a country's ministry of health.
 | Argentina | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Argentina_medical_cases) | [CC BY-SA][24] |
 | Australia | <https://covid-19-au.com/> | [Attribution required, educational and academic research purposes](https://covid-19-au.com/faq) |
 | Austria | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
-| Bolivia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Bolivia_medical_cases) | [CC BY-SA][24] |
+| Bolivia | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> | [Public Domain](https://github.com/elhenrico/covid19-Brazil-timeseries/blob/master/README.md#public-domain-and-open-data) |
 | Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) | [Attribution required](https://www.canada.ca/en/transparency/terms.html) |
 | Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) | [CC BY-SA][24] |
+| Chile | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) | [MIT](https://github.com/BlankerL/DXY-COVID-19-Data/blob/master/LICENSE) |
 | Colombia | [Government Authority](https://www.datos.gov.co) | [Attribution required](https://herramientas.datos.gov.co/es/terms-and-conditions-es) |
+| Costa Rica | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Cuba | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Ecuador | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| El Salvador | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | France | [data.gouv.fr](https://data.gouv.fr) | [Open License 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence) |
 | Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | [MIT](https://github.com/jgehrcke/covid-19-germany-gae/blob/master/LICENSE) |
+| Guatemala | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Haiti | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Honduras | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | [CC BY-SA][24] |
 | Indonesia | <https://catchmeup.id/covid-19> | [Permission required](https://catchmeup.id/ketentuan-pelayanan) |
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | [CC BY 4.0](https://github.com/pcm-dpc/COVID-19/blob/master/LICENSE) |
@@ -489,9 +497,14 @@ from the relevant authorities, like a country's ministry of health.
 | Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | [CC BY-SA][24] |
 | Mexico | <https://github.com/mexicovid19/Mexico-datos> | [MIT](https://github.com/mexicovid19/Mexico-datos/blob/master/LICENSE.md) |
 | Netherlands | [RIVM](https://data.rivm.nl/covid-19) | [Public Domain](https://databronnencovid19.nl/Disclaimer) |
+| Nicaragua | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
 | Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | [CC BY-SA][24] |
+| Panama | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Paraguay | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Peru | [Wikipedia](https://es.wikipedia.org/wiki/Pandemia_de_enfermedad_por_coronavirus_de_2020_en_Per%C3%BA) | [CC BY-SA][24] |
+| Peru | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Philippines | [Philippines Department of Health](http://www.doh.gov.ph/covid19tracker) | [Attribution required](https://drive.google.com/file/d/1LzY2eLzZQdLR9yuoNufGEBN5Ily8ZTdV) |
 | Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
 | Portugal | [COVID-19: Portugal](https://github.com/carlospramalheira/covid19) | [MIT](https://github.com/carlospramalheira/covid19/blob/master/LICENSE) |
 | Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) | [CC BY-SA][24] |
@@ -499,12 +512,16 @@ from the relevant authorities, like a country's ministry of health.
 | South Africa| [Data Science for Social Impact research group, the University of Pretoria](https://github.com/dsfsi/covid19za) | [CC BY-SA](https://github.com/dsfsi/covid19za/blob/master/data/LICENSE.md) |
 | South Korea | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/South_Korea_medical_cases) | [CC BY-SA][24] |
 | Spain | [Government Authority](https://covid19.isciii.es) | [Attribution required](https://www.mscbs.gob.es/avisoLegal/home.html) |
+| Sudan | [HDX](https://data.humdata.org/dataset/sudan-coronavirus-covid-19-subnational-cases) | [CC BY-SA][28] |
 | Sweden | [Public Health Agency of Sweden](https://www.folkhalsomyndigheten.se/the-public-health-agency-of-sweden/) |  |
 | Switzerland | [OpenZH data](https://open.zh.ch) | [CC 4.0](https://github.com/openZH/covid_19/blob/master/LICENSE) |
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | [The Unlicense](https://github.com/tomwhite/covid-19-uk-data/blob/master/LICENSE.txt) |
+| Uruguay | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | USA | [NYT COVID Dataset](https://github.com/nytimes) | [Attribution required, non-commercial use](https://github.com/nytimes/covid-19-data/blob/master/LICENSE) |
 | USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
 | USA (Texas) | [Texas Department of State Health Services](https://dshs.texas.gov) | [Attribution required, non-commercial use](https://dshs.texas.gov/policy/copyright.shtm) |
+| Venezuela | [HDX](https://data.humdata.org/dataset/corona-virus-covid-19-cases-and-deaths-in-venezuela) | [CC BY-SA][28] |
+| Venezuela | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 
 
 
@@ -568,3 +585,6 @@ Other contributors will be listed here in the future.
 [23]: https://www.wikidata.org/wiki/Wikidata:Licensing
 [24]: https://en.wikipedia.org/wiki/Wikipedia:Copyrights
 [25]: https://worldbank.org
+[26]: https://github.com/DataScienceResearchPeru/covid-19_latinoamerica
+[27]: https://github.com/DataScienceResearchPeru/covid-19_latinoamerica/blob/master/LICENSE.md
+[28]: https://data.humdata.org/about/license
