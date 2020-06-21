@@ -36699,3 +36699,370 @@ Date_of_report;Municipality_code;Municipality_name;Province;Total_reported;Hospi
 2020-06-20 10:00:00;;;Zeeland;4;2;1
 2020-06-20 10:00:00;;;Noord-Brabant;191;16;3
 2020-06-20 10:00:00;;;Limburg;25;6;3
+2020-06-21 10:00:00;GM0003;Appingedam;Groningen;5;3;0
+2020-06-21 10:00:00;GM0010;Delfzijl;Groningen;18;6;0
+2020-06-21 10:00:00;GM0014;Groningen;Groningen;172;18;3
+2020-06-21 10:00:00;GM0024;Loppersum;Groningen;2;0;0
+2020-06-21 10:00:00;GM0034;Almere;Flevoland;450;125;31
+2020-06-21 10:00:00;GM0037;Stadskanaal;Groningen;9;2;2
+2020-06-21 10:00:00;GM0047;Veendam;Groningen;8;2;0
+2020-06-21 10:00:00;GM0050;Zeewolde;Flevoland;47;12;5
+2020-06-21 10:00:00;GM0059;Achtkarspelen;Friesland;11;0;0
+2020-06-21 10:00:00;GM0060;Ameland;Friesland;0;0;0
+2020-06-21 10:00:00;GM0072;Harlingen;Friesland;17;4;1
+2020-06-21 10:00:00;GM0074;Heerenveen;Friesland;93;13;20
+2020-06-21 10:00:00;GM0080;Leeuwarden;Friesland;65;33;6
+2020-06-21 10:00:00;GM0085;Ooststellingwerf;Friesland;7;3;0
+2020-06-21 10:00:00;GM0086;Opsterland;Friesland;23;7;0
+2020-06-21 10:00:00;GM0088;Schiermonnikoog;Friesland;0;0;0
+2020-06-21 10:00:00;GM0090;Smallingerland;Friesland;56;9;5
+2020-06-21 10:00:00;GM0093;Terschelling;Friesland;2;0;0
+2020-06-21 10:00:00;GM0096;Vlieland;Friesland;0;0;0
+2020-06-21 10:00:00;GM0098;Weststellingwerf;Friesland;29;3;4
+2020-06-21 10:00:00;GM0106;Assen;Drenthe;46;12;2
+2020-06-21 10:00:00;GM0109;Coevorden;Drenthe;57;13;2
+2020-06-21 10:00:00;GM0114;Emmen;Drenthe;104;20;11
+2020-06-21 10:00:00;GM0118;Hoogeveen;Drenthe;93;19;8
+2020-06-21 10:00:00;GM0119;Meppel;Drenthe;46;8;5
+2020-06-21 10:00:00;GM0141;Almelo;Overijssel;92;23;9
+2020-06-21 10:00:00;GM0147;Borne;Overijssel;50;14;6
+2020-06-21 10:00:00;GM0148;Dalfsen;Overijssel;79;16;6
+2020-06-21 10:00:00;GM0150;Deventer;Overijssel;307;47;33
+2020-06-21 10:00:00;GM0153;Enschede;Overijssel;235;53;25
+2020-06-21 10:00:00;GM0158;Haaksbergen;Overijssel;55;14;7
+2020-06-21 10:00:00;GM0160;Hardenberg;Overijssel;170;23;8
+2020-06-21 10:00:00;GM0163;Hellendoorn;Overijssel;95;8;12
+2020-06-21 10:00:00;GM0164;Hengelo;Overijssel;128;21;19
+2020-06-21 10:00:00;GM0166;Kampen;Overijssel;342;59;26
+2020-06-21 10:00:00;GM0168;Losser;Overijssel;25;7;0
+2020-06-21 10:00:00;GM0171;Noordoostpolder;Flevoland;81;14;10
+2020-06-21 10:00:00;GM0173;Oldenzaal;Overijssel;50;14;7
+2020-06-21 10:00:00;GM0175;Ommen;Overijssel;53;9;2
+2020-06-21 10:00:00;GM0177;Raalte;Overijssel;153;24;17
+2020-06-21 10:00:00;GM0180;Staphorst;Overijssel;59;8;4
+2020-06-21 10:00:00;GM0183;Tubbergen;Overijssel;81;12;5
+2020-06-21 10:00:00;GM0184;Urk;Flevoland;84;22;4
+2020-06-21 10:00:00;GM0189;Wierden;Overijssel;49;5;6
+2020-06-21 10:00:00;GM0193;Zwolle;Overijssel;359;53;46
+2020-06-21 10:00:00;GM0197;Aalten;Gelderland;60;9;7
+2020-06-21 10:00:00;GM0200;Apeldoorn;Gelderland;449;92;50
+2020-06-21 10:00:00;GM0202;Arnhem;Gelderland;400;67;31
+2020-06-21 10:00:00;GM0203;Barneveld;Gelderland;133;18;6
+2020-06-21 10:00:00;GM0209;Beuningen;Gelderland;74;19;5
+2020-06-21 10:00:00;GM0213;Brummen;Gelderland;36;17;5
+2020-06-21 10:00:00;GM0214;Buren;Gelderland;64;17;8
+2020-06-21 10:00:00;GM0216;Culemborg;Gelderland;70;21;7
+2020-06-21 10:00:00;GM0221;Doesburg;Gelderland;32;9;6
+2020-06-21 10:00:00;GM0222;Doetinchem;Gelderland;103;26;15
+2020-06-21 10:00:00;GM0225;Druten;Gelderland;114;25;8
+2020-06-21 10:00:00;GM0226;Duiven;Gelderland;51;14;6
+2020-06-21 10:00:00;GM0228;Ede;Gelderland;220;54;20
+2020-06-21 10:00:00;GM0230;Elburg;Gelderland;149;28;8
+2020-06-21 10:00:00;GM0232;Epe;Gelderland;138;47;23
+2020-06-21 10:00:00;GM0233;Ermelo;Gelderland;148;33;22
+2020-06-21 10:00:00;GM0243;Harderwijk;Gelderland;179;43;21
+2020-06-21 10:00:00;GM0244;Hattem;Gelderland;42;16;5
+2020-06-21 10:00:00;GM0246;Heerde;Gelderland;192;54;28
+2020-06-21 10:00:00;GM0252;Heumen;Gelderland;74;17;9
+2020-06-21 10:00:00;GM0262;Lochem;Gelderland;95;14;15
+2020-06-21 10:00:00;GM0263;Maasdriel;Gelderland;52;15;7
+2020-06-21 10:00:00;GM0267;Nijkerk;Gelderland;62;22;3
+2020-06-21 10:00:00;GM0268;Nijmegen;Gelderland;653;128;70
+2020-06-21 10:00:00;GM0269;Oldebroek;Gelderland;171;40;19
+2020-06-21 10:00:00;GM0273;Putten;Gelderland;35;10;0
+2020-06-21 10:00:00;GM0274;Renkum;Gelderland;78;14;7
+2020-06-21 10:00:00;GM0275;Rheden;Gelderland;143;34;14
+2020-06-21 10:00:00;GM0277;Rozendaal;Gelderland;3;1;0
+2020-06-21 10:00:00;GM0279;Scherpenzeel;Gelderland;33;4;2
+2020-06-21 10:00:00;GM0281;Tiel;Gelderland;149;42;18
+2020-06-21 10:00:00;GM0285;Voorst;Gelderland;64;18;11
+2020-06-21 10:00:00;GM0289;Wageningen;Gelderland;52;20;9
+2020-06-21 10:00:00;GM0293;Westervoort;Gelderland;39;12;5
+2020-06-21 10:00:00;GM0294;Winterswijk;Gelderland;47;7;3
+2020-06-21 10:00:00;GM0296;Wijchen;Gelderland;145;43;13
+2020-06-21 10:00:00;GM0297;Zaltbommel;Gelderland;99;20;9
+2020-06-21 10:00:00;GM0299;Zevenaar;Gelderland;118;44;15
+2020-06-21 10:00:00;GM0301;Zutphen;Gelderland;103;31;13
+2020-06-21 10:00:00;GM0302;Nunspeet;Gelderland;224;56;21
+2020-06-21 10:00:00;GM0303;Dronten;Flevoland;122;30;12
+2020-06-21 10:00:00;GM0307;Amersfoort;Utrecht;226;59;23
+2020-06-21 10:00:00;GM0308;Baarn;Utrecht;62;11;9
+2020-06-21 10:00:00;GM0310;De Bilt;Utrecht;179;27;24
+2020-06-21 10:00:00;GM0312;Bunnik;Utrecht;45;9;1
+2020-06-21 10:00:00;GM0313;Bunschoten;Utrecht;65;9;7
+2020-06-21 10:00:00;GM0317;Eemnes;Utrecht;17;2;1
+2020-06-21 10:00:00;GM0321;Houten;Utrecht;139;24;14
+2020-06-21 10:00:00;GM0327;Leusden;Utrecht;53;9;5
+2020-06-21 10:00:00;GM0331;Lopik;Utrecht;64;19;8
+2020-06-21 10:00:00;GM0335;Montfoort;Utrecht;45;13;5
+2020-06-21 10:00:00;GM0339;Renswoude;Utrecht;19;5;5
+2020-06-21 10:00:00;GM0340;Rhenen;Utrecht;48;11;6
+2020-06-21 10:00:00;GM0342;Soest;Utrecht;94;23;12
+2020-06-21 10:00:00;GM0344;Utrecht;Utrecht;1246;264;115
+2020-06-21 10:00:00;GM0345;Veenendaal;Utrecht;196;48;10
+2020-06-21 10:00:00;GM0351;Woudenberg;Utrecht;32;9;2
+2020-06-21 10:00:00;GM0352;Wijk bij Duurstede;Utrecht;40;10;1
+2020-06-21 10:00:00;GM0353;IJsselstein;Utrecht;152;36;34
+2020-06-21 10:00:00;GM0355;Zeist;Utrecht;212;37;23
+2020-06-21 10:00:00;GM0356;Nieuwegein;Utrecht;154;44;14
+2020-06-21 10:00:00;GM0358;Aalsmeer;Noord-Holland;42;9;3
+2020-06-21 10:00:00;GM0361;Alkmaar;Noord-Holland;245;54;31
+2020-06-21 10:00:00;GM0362;Amstelveen;Noord-Holland;322;58;35
+2020-06-21 10:00:00;GM0363;Amsterdam;Noord-Holland;2608;619;283
+2020-06-21 10:00:00;GM0370;Beemster;Noord-Holland;14;4;1
+2020-06-21 10:00:00;GM0373;Bergen (NH.);Noord-Holland;86;16;4
+2020-06-21 10:00:00;GM0375;Beverwijk;Noord-Holland;82;15;10
+2020-06-21 10:00:00;GM0376;Blaricum;Noord-Holland;29;8;2
+2020-06-21 10:00:00;GM0377;Bloemendaal;Noord-Holland;52;7;5
+2020-06-21 10:00:00;GM0383;Castricum;Noord-Holland;80;15;9
+2020-06-21 10:00:00;GM0384;Diemen;Noord-Holland;105;17;14
+2020-06-21 10:00:00;GM0385;Edam-Volendam;Noord-Holland;125;25;3
+2020-06-21 10:00:00;GM0388;Enkhuizen;Noord-Holland;30;18;4
+2020-06-21 10:00:00;GM0392;Haarlem;Noord-Holland;291;61;57
+2020-06-21 10:00:00;GM0394;Haarlemmermeer;Noord-Holland;280;68;27
+2020-06-21 10:00:00;GM0396;Heemskerk;Noord-Holland;90;28;10
+2020-06-21 10:00:00;GM0397;Heemstede;Noord-Holland;93;11;32
+2020-06-21 10:00:00;GM0398;Heerhugowaard;Noord-Holland;147;27;9
+2020-06-21 10:00:00;GM0399;Heiloo;Noord-Holland;48;9;8
+2020-06-21 10:00:00;GM0400;Den Helder;Noord-Holland;39;12;2
+2020-06-21 10:00:00;GM0402;Hilversum;Noord-Holland;199;31;25
+2020-06-21 10:00:00;GM0405;Hoorn;Noord-Holland;95;35;12
+2020-06-21 10:00:00;GM0406;Huizen;Noord-Holland;137;22;10
+2020-06-21 10:00:00;GM0415;Landsmeer;Noord-Holland;23;3;3
+2020-06-21 10:00:00;GM0416;Langedijk;Noord-Holland;45;16;4
+2020-06-21 10:00:00;GM0417;Laren;Noord-Holland;26;8;2
+2020-06-21 10:00:00;GM0420;Medemblik;Noord-Holland;74;19;6
+2020-06-21 10:00:00;GM0431;Oostzaan;Noord-Holland;26;11;2
+2020-06-21 10:00:00;GM0432;Opmeer;Noord-Holland;8;1;1
+2020-06-21 10:00:00;GM0437;Ouder-Amstel;Noord-Holland;38;5;0
+2020-06-21 10:00:00;GM0439;Purmerend;Noord-Holland;227;66;35
+2020-06-21 10:00:00;GM0441;Schagen;Noord-Holland;74;19;10
+2020-06-21 10:00:00;GM0448;Texel;Noord-Holland;11;5;2
+2020-06-21 10:00:00;GM0450;Uitgeest;Noord-Holland;23;5;1
+2020-06-21 10:00:00;GM0451;Uithoorn;Noord-Holland;58;16;2
+2020-06-21 10:00:00;GM0453;Velsen;Noord-Holland;283;32;39
+2020-06-21 10:00:00;GM0457;Weesp;Noord-Holland;81;9;11
+2020-06-21 10:00:00;GM0473;Zandvoort;Noord-Holland;32;10;8
+2020-06-21 10:00:00;GM0479;Zaanstad;Noord-Holland;449;117;48
+2020-06-21 10:00:00;GM0482;Alblasserdam;Zuid-Holland;42;10;4
+2020-06-21 10:00:00;GM0484;Alphen aan den Rijn;Zuid-Holland;213;60;25
+2020-06-21 10:00:00;GM0489;Barendrecht;Zuid-Holland;140;40;12
+2020-06-21 10:00:00;GM0498;Drechterland;Noord-Holland;44;4;8
+2020-06-21 10:00:00;GM0501;Brielle;Zuid-Holland;33;11;0
+2020-06-21 10:00:00;GM0502;Capelle aan den IJssel;Zuid-Holland;302;53;53
+2020-06-21 10:00:00;GM0503;Delft;Zuid-Holland;148;38;12
+2020-06-21 10:00:00;GM0505;Dordrecht;Zuid-Holland;532;84;60
+2020-06-21 10:00:00;GM0512;Gorinchem;Zuid-Holland;151;18;15
+2020-06-21 10:00:00;GM0513;Gouda;Zuid-Holland;256;40;41
+2020-06-21 10:00:00;GM0518;'s-Gravenhage;Zuid-Holland;1729;336;235
+2020-06-21 10:00:00;GM0523;Hardinxveld-Giessendam;Zuid-Holland;33;2;2
+2020-06-21 10:00:00;GM0530;Hellevoetsluis;Zuid-Holland;72;16;3
+2020-06-21 10:00:00;GM0531;Hendrik-Ido-Ambacht;Zuid-Holland;70;10;6
+2020-06-21 10:00:00;GM0532;Stede Broec;Noord-Holland;49;19;5
+2020-06-21 10:00:00;GM0534;Hillegom;Zuid-Holland;33;8;2
+2020-06-21 10:00:00;GM0537;Katwijk;Zuid-Holland;269;31;15
+2020-06-21 10:00:00;GM0542;Krimpen aan den IJssel;Zuid-Holland;82;10;8
+2020-06-21 10:00:00;GM0546;Leiden;Zuid-Holland;173;39;18
+2020-06-21 10:00:00;GM0547;Leiderdorp;Zuid-Holland;37;13;6
+2020-06-21 10:00:00;GM0553;Lisse;Zuid-Holland;27;8;2
+2020-06-21 10:00:00;GM0556;Maassluis;Zuid-Holland;66;20;4
+2020-06-21 10:00:00;GM0569;Nieuwkoop;Zuid-Holland;50;9;5
+2020-06-21 10:00:00;GM0575;Noordwijk;Zuid-Holland;50;18;3
+2020-06-21 10:00:00;GM0579;Oegstgeest;Zuid-Holland;45;8;3
+2020-06-21 10:00:00;GM0589;Oudewater;Utrecht;58;26;8
+2020-06-21 10:00:00;GM0590;Papendrecht;Zuid-Holland;79;9;8
+2020-06-21 10:00:00;GM0597;Ridderkerk;Zuid-Holland;152;37;16
+2020-06-21 10:00:00;GM0599;Rotterdam;Zuid-Holland;2628;516;345
+2020-06-21 10:00:00;GM0603;Rijswijk;Zuid-Holland;140;36;22
+2020-06-21 10:00:00;GM0606;Schiedam;Zuid-Holland;248;57;23
+2020-06-21 10:00:00;GM0610;Sliedrecht;Zuid-Holland;67;9;5
+2020-06-21 10:00:00;GM0613;Albrandswaard;Zuid-Holland;103;14;8
+2020-06-21 10:00:00;GM0614;Westvoorne;Zuid-Holland;25;6;0
+2020-06-21 10:00:00;GM0622;Vlaardingen;Zuid-Holland;286;42;29
+2020-06-21 10:00:00;GM0626;Voorschoten;Zuid-Holland;65;9;11
+2020-06-21 10:00:00;GM0627;Waddinxveen;Zuid-Holland;77;16;7
+2020-06-21 10:00:00;GM0629;Wassenaar;Zuid-Holland;53;9;12
+2020-06-21 10:00:00;GM0632;Woerden;Utrecht;175;49;20
+2020-06-21 10:00:00;GM0637;Zoetermeer;Zuid-Holland;224;52;13
+2020-06-21 10:00:00;GM0638;Zoeterwoude;Zuid-Holland;13;3;1
+2020-06-21 10:00:00;GM0642;Zwijndrecht;Zuid-Holland;161;23;27
+2020-06-21 10:00:00;GM0654;Borsele;Zeeland;27;5;0
+2020-06-21 10:00:00;GM0664;Goes;Zeeland;71;11;11
+2020-06-21 10:00:00;GM0668;West Maas en Waal;Gelderland;83;19;9
+2020-06-21 10:00:00;GM0677;Hulst;Zeeland;31;9;5
+2020-06-21 10:00:00;GM0678;Kapelle;Zeeland;24;3;1
+2020-06-21 10:00:00;GM0687;Middelburg;Zeeland;59;18;10
+2020-06-21 10:00:00;GM0703;Reimerswaal;Zeeland;32;4;2
+2020-06-21 10:00:00;GM0715;Terneuzen;Zeeland;118;25;4
+2020-06-21 10:00:00;GM0716;Tholen;Zeeland;168;40;16
+2020-06-21 10:00:00;GM0717;Veere;Zeeland;27;6;2
+2020-06-21 10:00:00;GM0718;Vlissingen;Zeeland;51;9;5
+2020-06-21 10:00:00;GM0736;De Ronde Venen;Utrecht;103;39;13
+2020-06-21 10:00:00;GM0737;Tytsjerksteradiel;Friesland;16;4;1
+2020-06-21 10:00:00;GM0743;Asten;Noord-Brabant;77;18;12
+2020-06-21 10:00:00;GM0744;Baarle-Nassau;Noord-Brabant;25;9;2
+2020-06-21 10:00:00;GM0748;Bergen op Zoom;Noord-Brabant;172;24;12
+2020-06-21 10:00:00;GM0753;Best;Noord-Brabant;79;31;10
+2020-06-21 10:00:00;GM0755;Boekel;Noord-Brabant;89;35;21
+2020-06-21 10:00:00;GM0756;Boxmeer;Noord-Brabant;126;20;27
+2020-06-21 10:00:00;GM0757;Boxtel;Noord-Brabant;124;24;26
+2020-06-21 10:00:00;GM0758;Breda;Noord-Brabant;496;145;63
+2020-06-21 10:00:00;GM0762;Deurne;Noord-Brabant;190;55;24
+2020-06-21 10:00:00;GM0765;Pekela;Groningen;5;4;0
+2020-06-21 10:00:00;GM0766;Dongen;Noord-Brabant;83;20;13
+2020-06-21 10:00:00;GM0770;Eersel;Noord-Brabant;68;26;10
+2020-06-21 10:00:00;GM0772;Eindhoven;Noord-Brabant;533;182;84
+2020-06-21 10:00:00;GM0777;Etten-Leur;Noord-Brabant;203;40;30
+2020-06-21 10:00:00;GM0779;Geertruidenberg;Noord-Brabant;43;11;6
+2020-06-21 10:00:00;GM0784;Gilze en Rijen;Noord-Brabant;79;20;15
+2020-06-21 10:00:00;GM0785;Goirle;Noord-Brabant;78;32;17
+2020-06-21 10:00:00;GM0786;Grave;Noord-Brabant;72;21;11
+2020-06-21 10:00:00;GM0788;Haaren;Noord-Brabant;54;18;8
+2020-06-21 10:00:00;GM0794;Helmond;Noord-Brabant;412;115;42
+2020-06-21 10:00:00;GM0796;'s-Hertogenbosch;Noord-Brabant;509;126;77
+2020-06-21 10:00:00;GM0797;Heusden;Noord-Brabant;143;44;22
+2020-06-21 10:00:00;GM0798;Hilvarenbeek;Noord-Brabant;49;9;6
+2020-06-21 10:00:00;GM0809;Loon op Zand;Noord-Brabant;59;24;7
+2020-06-21 10:00:00;GM0815;Mill en Sint Hubert;Noord-Brabant;40;9;5
+2020-06-21 10:00:00;GM0820;Nuenen, Gerwen en Nederwetten;Noord-Brabant;55;18;9
+2020-06-21 10:00:00;GM0823;Oirschot;Noord-Brabant;64;13;9
+2020-06-21 10:00:00;GM0824;Oisterwijk;Noord-Brabant;74;23;11
+2020-06-21 10:00:00;GM0826;Oosterhout;Noord-Brabant;131;48;17
+2020-06-21 10:00:00;GM0828;Oss;Noord-Brabant;489;164;87
+2020-06-21 10:00:00;GM0840;Rucphen;Noord-Brabant;69;9;9
+2020-06-21 10:00:00;GM0845;Sint-Michielsgestel;Noord-Brabant;115;36;19
+2020-06-21 10:00:00;GM0847;Someren;Noord-Brabant;106;33;8
+2020-06-21 10:00:00;GM0848;Son en Breugel;Noord-Brabant;74;31;14
+2020-06-21 10:00:00;GM0851;Steenbergen;Noord-Brabant;86;13;13
+2020-06-21 10:00:00;GM0852;Waterland;Noord-Holland;32;16;4
+2020-06-21 10:00:00;GM0855;Tilburg;Noord-Brabant;810;249;162
+2020-06-21 10:00:00;GM0856;Uden;Noord-Brabant;263;115;63
+2020-06-21 10:00:00;GM0858;Valkenswaard;Noord-Brabant;179;19;37
+2020-06-21 10:00:00;GM0861;Veldhoven;Noord-Brabant;129;31;16
+2020-06-21 10:00:00;GM0865;Vught;Noord-Brabant;106;42;18
+2020-06-21 10:00:00;GM0866;Waalre;Noord-Brabant;30;7;5
+2020-06-21 10:00:00;GM0867;Waalwijk;Noord-Brabant;186;36;36
+2020-06-21 10:00:00;GM0873;Woensdrecht;Noord-Brabant;67;5;7
+2020-06-21 10:00:00;GM0879;Zundert;Noord-Brabant;103;24;10
+2020-06-21 10:00:00;GM0880;Wormerland;Noord-Holland;47;20;6
+2020-06-21 10:00:00;GM0882;Landgraaf;Limburg;144;52;13
+2020-06-21 10:00:00;GM0888;Beek;Limburg;44;16;6
+2020-06-21 10:00:00;GM0889;Beesel;Limburg;44;20;8
+2020-06-21 10:00:00;GM0893;Bergen (L.);Limburg;25;7;2
+2020-06-21 10:00:00;GM0899;Brunssum;Limburg;109;44;18
+2020-06-21 10:00:00;GM0907;Gennep;Limburg;58;16;10
+2020-06-21 10:00:00;GM0917;Heerlen;Limburg;385;125;54
+2020-06-21 10:00:00;GM0928;Kerkrade;Limburg;208;64;35
+2020-06-21 10:00:00;GM0935;Maastricht;Limburg;911;187;139
+2020-06-21 10:00:00;GM0938;Meerssen;Limburg;114;22;13
+2020-06-21 10:00:00;GM0944;Mook en Middelaar;Limburg;39;6;5
+2020-06-21 10:00:00;GM0946;Nederweert;Limburg;53;31;7
+2020-06-21 10:00:00;GM0957;Roermond;Limburg;135;59;23
+2020-06-21 10:00:00;GM0965;Simpelveld;Limburg;47;19;5
+2020-06-21 10:00:00;GM0971;Stein;Limburg;117;43;15
+2020-06-21 10:00:00;GM0981;Vaals;Limburg;30;10;1
+2020-06-21 10:00:00;GM0983;Venlo;Limburg;309;129;63
+2020-06-21 10:00:00;GM0984;Venray;Limburg;126;37;17
+2020-06-21 10:00:00;GM0986;Voerendaal;Limburg;47;17;8
+2020-06-21 10:00:00;GM0988;Weert;Limburg;140;67;14
+2020-06-21 10:00:00;GM0994;Valkenburg aan de Geul;Limburg;87;19;7
+2020-06-21 10:00:00;GM0995;Lelystad;Flevoland;190;64;29
+2020-06-21 10:00:00;GM1507;Horst aan de Maas;Limburg;132;41;24
+2020-06-21 10:00:00;GM1509;Oude IJsselstreek;Gelderland;78;21;9
+2020-06-21 10:00:00;GM1525;Teylingen;Zuid-Holland;63;13;2
+2020-06-21 10:00:00;GM1581;Utrechtse Heuvelrug;Utrecht;121;28;14
+2020-06-21 10:00:00;GM1586;Oost Gelre;Gelderland;70;17;6
+2020-06-21 10:00:00;GM1598;Koggenland;Noord-Holland;36;6;6
+2020-06-21 10:00:00;GM1621;Lansingerland;Zuid-Holland;189;42;25
+2020-06-21 10:00:00;GM1640;Leudal;Limburg;188;52;32
+2020-06-21 10:00:00;GM1641;Maasgouw;Limburg;105;27;14
+2020-06-21 10:00:00;GM1652;Gemert-Bakel;Noord-Brabant;203;79;31
+2020-06-21 10:00:00;GM1655;Halderberge;Noord-Brabant;58;14;7
+2020-06-21 10:00:00;GM1658;Heeze-Leende;Noord-Brabant;70;16;8
+2020-06-21 10:00:00;GM1659;Laarbeek;Noord-Brabant;125;41;26
+2020-06-21 10:00:00;GM1667;Reusel-De Mierden;Noord-Brabant;23;11;2
+2020-06-21 10:00:00;GM1669;Roerdalen;Limburg;49;28;8
+2020-06-21 10:00:00;GM1674;Roosendaal;Noord-Brabant;221;28;21
+2020-06-21 10:00:00;GM1676;Schouwen-Duiveland;Zeeland;92;11;8
+2020-06-21 10:00:00;GM1680;Aa en Hunze;Drenthe;14;1;0
+2020-06-21 10:00:00;GM1681;Borger-Odoorn;Drenthe;9;4;3
+2020-06-21 10:00:00;GM1684;Cuijk;Noord-Brabant;77;12;10
+2020-06-21 10:00:00;GM1685;Landerd;Noord-Brabant;147;39;21
+2020-06-21 10:00:00;GM1690;De Wolden;Drenthe;48;11;5
+2020-06-21 10:00:00;GM1695;Noord-Beveland;Zeeland;10;1;0
+2020-06-21 10:00:00;GM1696;Wijdemeren;Noord-Holland;32;8;0
+2020-06-21 10:00:00;GM1699;Noordenveld;Drenthe;21;4;1
+2020-06-21 10:00:00;GM1700;Twenterand;Overijssel;61;12;2
+2020-06-21 10:00:00;GM1701;Westerveld;Drenthe;33;9;4
+2020-06-21 10:00:00;GM1702;Sint Anthonis;Noord-Brabant;68;20;11
+2020-06-21 10:00:00;GM1705;Lingewaard;Gelderland;131;31;10
+2020-06-21 10:00:00;GM1706;Cranendonck;Noord-Brabant;173;63;36
+2020-06-21 10:00:00;GM1708;Steenwijkerland;Overijssel;87;14;5
+2020-06-21 10:00:00;GM1709;Moerdijk;Noord-Brabant;83;14;8
+2020-06-21 10:00:00;GM1711;Echt-Susteren;Limburg;93;39;16
+2020-06-21 10:00:00;GM1714;Sluis;Zeeland;17;8;4
+2020-06-21 10:00:00;GM1719;Drimmelen;Noord-Brabant;67;18;8
+2020-06-21 10:00:00;GM1721;Bernheze;Noord-Brabant;278;96;65
+2020-06-21 10:00:00;GM1723;Alphen-Chaam;Noord-Brabant;47;18;5
+2020-06-21 10:00:00;GM1724;Bergeijk;Noord-Brabant;58;19;5
+2020-06-21 10:00:00;GM1728;Bladel;Noord-Brabant;73;21;8
+2020-06-21 10:00:00;GM1729;Gulpen-Wittem;Limburg;78;21;14
+2020-06-21 10:00:00;GM1730;Tynaarlo;Drenthe;40;9;0
+2020-06-21 10:00:00;GM1731;Midden-Drenthe;Drenthe;22;6;0
+2020-06-21 10:00:00;GM1734;Overbetuwe;Gelderland;136;57;16
+2020-06-21 10:00:00;GM1735;Hof van Twente;Overijssel;63;15;4
+2020-06-21 10:00:00;GM1740;Neder-Betuwe;Gelderland;141;36;21
+2020-06-21 10:00:00;GM1742;Rijssen-Holten;Overijssel;205;30;22
+2020-06-21 10:00:00;GM1771;Geldrop-Mierlo;Noord-Brabant;110;33;16
+2020-06-21 10:00:00;GM1773;Olst-Wijhe;Overijssel;51;12;8
+2020-06-21 10:00:00;GM1774;Dinkelland;Overijssel;73;20;10
+2020-06-21 10:00:00;GM1783;Westland;Zuid-Holland;278;57;30
+2020-06-21 10:00:00;GM1842;Midden-Delfland;Zuid-Holland;21;4;0
+2020-06-21 10:00:00;GM1859;Berkelland;Gelderland;96;13;7
+2020-06-21 10:00:00;GM1876;Bronckhorst;Gelderland;74;17;7
+2020-06-21 10:00:00;GM1883;Sittard-Geleen;Limburg;411;115;63
+2020-06-21 10:00:00;GM1884;Kaag en Braassem;Zuid-Holland;29;6;2
+2020-06-21 10:00:00;GM1891;Dantumadiel;Friesland;6;2;0
+2020-06-21 10:00:00;GM1892;Zuidplas;Zuid-Holland;149;24;21
+2020-06-21 10:00:00;GM1894;Peel en Maas;Limburg;278;144;64
+2020-06-21 10:00:00;GM1895;Oldambt;Groningen;13;7;2
+2020-06-21 10:00:00;GM1896;Zwartewaterland;Overijssel;146;35;19
+2020-06-21 10:00:00;GM1900;Súdwest-Fryslân;Friesland;106;18;4
+2020-06-21 10:00:00;GM1901;Bodegraven-Reeuwijk;Zuid-Holland;58;7;1
+2020-06-21 10:00:00;GM1903;Eijsden-Margraten;Limburg;171;54;27
+2020-06-21 10:00:00;GM1904;Stichtse Vecht;Utrecht;123;34;13
+2020-06-21 10:00:00;GM1911;Hollands Kroon;Noord-Holland;62;26;6
+2020-06-21 10:00:00;GM1916;Leidschendam-Voorburg;Zuid-Holland;129;20;15
+2020-06-21 10:00:00;GM1924;Goeree-Overflakkee;Zuid-Holland;262;53;34
+2020-06-21 10:00:00;GM1926;Pijnacker-Nootdorp;Zuid-Holland;123;24;16
+2020-06-21 10:00:00;GM1930;Nissewaard;Zuid-Holland;184;55;17
+2020-06-21 10:00:00;GM1931;Krimpenerwaard;Zuid-Holland;190;45;33
+2020-06-21 10:00:00;GM1940;De Fryske Marren;Friesland;69;16;5
+2020-06-21 10:00:00;GM1942;Gooise Meren;Noord-Holland;113;23;9
+2020-06-21 10:00:00;GM1945;Berg en Dal;Gelderland;179;29;16
+2020-06-21 10:00:00;GM1948;Meierijstad;Noord-Brabant;550;211;131
+2020-06-21 10:00:00;GM1949;Waadhoeke;Friesland;102;12;15
+2020-06-21 10:00:00;GM1950;Westerwolde;Groningen;6;5;0
+2020-06-21 10:00:00;GM1952;Midden-Groningen;Groningen;32;6;3
+2020-06-21 10:00:00;GM1954;Beekdaelen;Limburg;172;52;23
+2020-06-21 10:00:00;GM1955;Montferland;Gelderland;104;21;9
+2020-06-21 10:00:00;GM1959;Altena;Noord-Brabant;130;32;11
+2020-06-21 10:00:00;GM1960;West Betuwe;Gelderland;212;43;27
+2020-06-21 10:00:00;GM1961;Vijfheerenlanden;Utrecht;274;34;37
+2020-06-21 10:00:00;GM1963;Hoeksche Waard;Zuid-Holland;309;76;20
+2020-06-21 10:00:00;GM1966;Het Hogeland;Groningen;31;7;3
+2020-06-21 10:00:00;GM1969;Westerkwartier;Groningen;58;14;4
+2020-06-21 10:00:00;GM1970;Noardeast-Fryslân;Friesland;27;6;4
+2020-06-21 10:00:00;GM1978;Molenlanden;Zuid-Holland;122;18;8
+2020-06-21 10:00:00;;;Groningen;1;1;0
+2020-06-21 10:00:00;;;Friesland;3;1;0
+2020-06-21 10:00:00;;;Drenthe;2;0;0
+2020-06-21 10:00:00;;;Overijssel;15;1;1
+2020-06-21 10:00:00;;;Flevoland;1;1;0
+2020-06-21 10:00:00;;;Gelderland;133;6;2
+2020-06-21 10:00:00;;;Utrecht;18;5;0
+2020-06-21 10:00:00;;;Noord-Holland;38;13;2
+2020-06-21 10:00:00;;;Zuid-Holland;72;9;6
+2020-06-21 10:00:00;;;Zeeland;4;2;1
+2020-06-21 10:00:00;;;Noord-Brabant;191;16;3
+2020-06-21 10:00:00;;;Limburg;25;6;3
