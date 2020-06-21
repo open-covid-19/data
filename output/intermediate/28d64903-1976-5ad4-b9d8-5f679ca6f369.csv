@@ -272,6 +272,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-19,China,China,84940,4645,79949,36,0,5,CN
 2020-06-20,China,China,84970,4645,79963,30,0,14,CN
 2020-06-21,China,China,84999,4646,79969,29,1,6,CN
+2020-06-22,China,China,85002,4646,79969,3,0,0,CN
 2020-01-22,China,Chongqing,5,0,0,,,,CN_CQ
 2020-01-23,China,Chongqing,9,0,0,4,0,0,CN_CQ
 2020-01-24,China,Chongqing,27,0,0,18,0,0,CN_CQ
@@ -1132,6 +1133,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-19,China,Hong Kong,1124,4,1072,4,0,1,CN_HK
 2020-06-20,China,Hong Kong,1127,4,1074,3,0,2,CN_HK
 2020-06-21,China,Hong Kong,1128,5,1077,1,1,3,CN_HK
+2020-06-22,China,Hong Kong,1131,5,1077,3,0,0,CN_HK
 2020-01-22,China,Hubei,375,9,25,,,,CN_HB
 2020-01-23,China,Hubei,444,17,28,69,8,3,CN_HB
 2020-01-24,China,Hubei,549,24,31,105,7,3,CN_HB
