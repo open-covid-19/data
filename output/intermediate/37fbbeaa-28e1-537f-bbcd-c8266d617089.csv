@@ -815,6 +815,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-18,BE,,1937,3,0,0,,97,CH,CH_BE,,2,0,0,0,,0
 2020-06-19,BE,,1939,3,0,0,,97,CH,CH_BE,,2,0,0,0,,0
 2020-06-20,BE,,1939,3,0,0,,97,CH,CH_BE,,0,0,0,0,,0
+2020-06-21,BE,,1939,3,0,0,,97,CH,CH_BE,,0,0,0,0,,0
 2020-02-28,BL,,1,,,,,,CH,CH_BL,,,,,,,
 2020-02-29,BL,,2,1,0,,,,CH,CH_BL,,1,,,,,
 2020-03-01,BL,,2,1,0,,,,CH,CH_BL,,0,0,0,,,
@@ -1823,6 +1824,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-18,LU,,740,13,2,,,20,CH,CH_LU,,0,0,0,,,0
 2020-06-19,LU,,741,9,2,,,20,CH,CH_LU,,1,-4,0,,,0
 2020-06-20,LU,,741,,,,,20,CH,CH_LU,,0,0,0,,,0
+2020-06-21,LU,,744,,,,,20,CH,CH_LU,,3,0,0,,,0
 2020-03-05,AR,,1,,,,,,CH,CH_AR,,,,,,,
 2020-03-06,AR,,1,,,,,,CH,CH_AR,,0,,,,,
 2020-03-07,AR,,1,,,,,,CH,CH_AR,,0,,,,,
