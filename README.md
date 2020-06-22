@@ -30,6 +30,7 @@ consistent geographic (and temporal) keys.
 | [Oxford Government Response](#oxford-government-response) | `[key][date]` | Government interventions and their relative stringency | [oxford-government-response.csv](https://open-covid-19.github.io/data/v2/oxford-government-response.csv), [oxford-government-response.json](https://open-covid-19.github.io/data/v2/oxford-government-response.json) | University of Oxford |
 | [Weather](#weather) | `[key][date]` | Dated meteorological information for each region | [weather.csv](https://open-covid-19.github.io/data/v2/weather.csv), [weather.json](https://open-covid-19.github.io/data/v2/weather.json) | NOAA |
 | [WorldBank](#worldbank) | `[key]` | Latest record for each indicator from WorldBank for all reporting countries | [worldbank.csv](https://open-covid-19.github.io/data/v2/worldbank.csv), [worldbank.json](https://open-covid-19.github.io/data/v2/worldbank.json) | WorldBank |
+| [WorldPop](#worldpop) | `[key]` | Demographics data extracted from WorldPop | [worldpop.csv](https://open-covid-19.github.io/data/v2/worldpop.csv), [worldpop.json](https://open-covid-19.github.io/data/v2/worldpop.json) | WorldPop |
 | [By Age](#by-age) | `[key][date]` | Epidemiology and hospitalizations data stratified by age | [by-age.csv](https://open-covid-19.github.io/data/v2/by-age.csv), [by-age.json](https://open-covid-19.github.io/data/v2/by-age.json) | Various<sup>2</sup> |
 | [By Sex](#by-sex) | `[key][date]` | Epidemiology and hospitalizations data stratified by sex | [by-sex.csv](https://open-covid-19.github.io/data/v2/by-sex.csv), [by-sex.json](https://open-covid-19.github.io/data/v2/by-sex.json) | Various<sup>2</sup> |
 
@@ -144,7 +145,15 @@ reported.
 
 ### Master
 Flat table with records from all other tables joined by `key` and `date`. See below for information
-about all the different tables and columns.
+about all the different tables and columns. Tables not included in the master table are:
+* [WorldBank](#worldbank): A subset of individual indicators are added as columns to other tables
+  instead; for example, the [health](#health) table.
+* [WorldPop](#worldpop): Age and sex demographics breakdowns are normalized and added to the
+  [demographics](#demographics) table instead.
+* [By Age](#by-age): Age breakdowns of epidemiology and hospitalization data are normalized and
+  added to the by-age-normalized table instead (TABLE TO BE ADDED).
+* [By Sex](#by-sex): Sex breakdowns of epidemiology and hospitalization data are normalized and
+  added to the by-sex-normalized table instead (TABLE TO BE ADDED).
 
 ### Index
 Non-temporal data related to countries and regions. It includes keys, codes and names for each
@@ -172,14 +181,15 @@ Information related to the population demographics for each region:
 | ---- | ---- | ----------- | ------- |
 | **key** | `string` | Unique string identifying the region | KR |
 | **population** | `integer` | Total count of humans | 51606633 |
-| **male_population** | `integer` | Total count of males | 25846211 |
-| **female_population** | `integer` | Total count of females | 25760422 |
+| **population_male** | `integer` | Total count of males | 25846211 |
+| **population_female** | `integer` | Total count of females | 25760422 |
 | **rural_population** | `integer` | Population in a rural area | 9568386 |
 | **urban_population** | `integer` | Population in an urban area | 42038247 |
 | **largest_city_population** | `integer` | Population in the largest city of the region | 9963497 |
 | **clustered_population** | `integer` | Population in urban agglomerations of more than 1 million | 25893097 |
 | **population_density** | `double` `[persons per squared kilometer]` | Population per squared kilometer of land area | 529.3585 |
 | **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.903 |
+| **population_age_`${lower}`_`${upper}`** | `integer` | Estimated population between the ages of `${lower}` and `${upper}`, both inclusive | 42038247 |
 
 ### Economy
 Information related to the economic development for each region:
@@ -227,6 +237,8 @@ Information related to the geography for each region:
 | **longitude** | `double` | Floating point representing the geographic coordinate | 112.2707 |
 | **elevation** | `integer` `[meters]` | Elevation above the sea level | 875 |
 | **area** | `integer` [squared kilometers] | Area encompassing this region | 3729 |
+| **rural_area** | `integer` [squared kilometers] | Area encompassing rural land in this region | 3729 |
+| **urban_area** | `integer` [squared kilometers] | Area encompassing urban land this region | 3729 |
 
 ### Health
 Health related indicators for each region:
@@ -345,7 +357,7 @@ Most recent value for each indicator of the [WorldBank Database][25].
 | Name | Type | Description | Example |
 | ---- | ---- | ----------- | ------- |
 | **key** | `string` | Unique string identifying the region | ES |
-| **`<indicator>`** | `double` | Value of the indicator corresponding to this column, column name is indicator code | 0 |
+| **`${indicator}`** | `double` | Value of the indicator corresponding to this column, column name is indicator code | 0 |
 
 Refer to the [WorldBank documentation][25] for more details, or refer to the
 [worldbank_indicators.csv](./src/data/worldbank_indicators.csv) file for a short description of each
@@ -356,6 +368,20 @@ Note that WorldBank data is only available at the country level and it's not inc
 table. If no values are reported by WorldBank for the country since 2015, the row value will be
 null.
 
+### WorldPop
+Demographics data extracted from WorldPop, estimating total number of people per region broken down
+by age and sex groupings.
+
+| Name | Type | Description | Example |
+| ---- | ---- | ----------- | ------- |
+| **key** | `string` | Unique string identifying the region | ES |
+| **`${sex}`_`${age_bin}`** | `double` | Total number of people categorized as `${sex}` (`m` or `f`) in age bin `${age_bin}` | 1334716 |
+
+Refer to the [WorldPop documentation](https://www.worldpop.org/geodata/summary?id=24798) for more
+details. This data is normalized into buckets that are consistent with other tables and added into
+the [demographics](#demographics) table; it is kept as a separate table to preserve access to the
+original data without any modification beyond aggregation by regional unit.
+
 ### By Age
 Epidemiology and hospitalizations data stratified by age:
 
@@ -363,8 +389,8 @@ Epidemiology and hospitalizations data stratified by age:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | FR |
-| **`${var}_age_${index}`** | `integer` | Instances of `${var}` for age bin `${index}` | 139 |
-| **`age_bin_${index}`** | `integer` | Range for the age values inside of bin `${index}`, both ends inclusive | 30-39 |
+| **`${var}`_age_`${index}`** | `integer` | Instances of `${var}` for age bin `${index}` | 139 |
+| **age_bin_`${index}`** | `integer` | Range for the age values inside of bin `${index}`, both ends inclusive | 30-39 |
 
 Values in this table are stratified versions of the columns available in the
 [epidemiology](#epidemiology) and [hospitalizatons](#hospitalizations) tables. Each row contains up
@@ -458,6 +484,7 @@ from the relevant authorities, like a country's ministry of health.
 | Demographics | [Wikidata](https://wikidata.org) | [CC0][23] |
 | Demographics | [DataCommons](https://datacommons.org) | [Attribution required](https://policies.google.com/terms) |
 | Demographics | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |
+| Demographics | [WorldPop](https://www.worldpop.org) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Economy | [Wikidata](https://wikidata.org) | [CC0][23] |
 | Economy | [DataCommons](https://datacommons.org) | [Attribution required](https://policies.google.com/terms) |
 | Economy | [WorldBank](https://worldbank.org) | [CC BY 4.0](https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets) |

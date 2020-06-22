@@ -16,6 +16,7 @@
 
 schema:
   key: str
+  open_street_maps: int
   latitude: float
   longitude: float
   elevation: int
@@ -33,6 +34,7 @@ sources:
 
   - name: pipelines._common.wikidata.WikidataDataSource
     parse:
+      open_street_maps: P402
       latitude: P625
       longitude: P625
       elevation: P2044

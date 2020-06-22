@@ -17,22 +17,36 @@
 schema:
   key: str
   population: int
-  male_population: int
-  female_population: int
+  population_male: int
+  population_female: int
   rural_population: int
   urban_population: int
   largest_city_population: int
   clustered_population: int
   population_density: float
   human_development_index: float
+  population_age_00_09: int
+  population_age_10_19: int
+  population_age_20_29: int
+  population_age_30_39: int
+  population_age_40_49: int
+  population_age_50_59: int
+  population_age_60_69: int
+  population_age_70_79: int
+  population_age_80_89: int
+  population_age_90_99: int
 
 auxiliary:
   metadata: ./src/data/metadata.csv
+  worldpop: ./src/data/worldpop_stratified.csv
   country_codes: ./src/data/country_codes.csv
   knowledge_graph: ./src/data/knowledge_graph.csv
   worldbank_indicators: ./src/data/worldbank_indicators.csv
 
 sources:
+
+  # WorldPop populations are estimates, so give them less priority
+  - name: pipelines.worldpop.worldpop_population.WorldPopPopulationDataSource
 
   - name: pipelines._common.wikidata.WikidataDataSource
     parse:
@@ -45,8 +59,8 @@ sources:
     parse:
       indicators:
         population: "SP.POP.TOTL"
-        male_population: "SP.POP.TOTL.MA.IN"
-        female_population: "SP.POP.TOTL.FE.IN"
+        population_male: "SP.POP.TOTL.MA.IN"
+        population_female: "SP.POP.TOTL.FE.IN"
         rural_population: "SP.RUR.TOTL"
         urban_population: "SP.URB.TOTL"
         largest_city_population: "EN.URB.LCTY"
