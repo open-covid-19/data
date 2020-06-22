@@ -134,7 +134,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Blekinge,3,SE,382,SE_221
 2020-06-16,Blekinge,7,SE,389,SE_221
 2020-06-17,Blekinge,13,SE,402,SE_221
-2020-06-18,Blekinge,0,SE,402,SE_221
+2020-06-18,Blekinge,6,SE,408,SE_221
+2020-06-19,Blekinge,5,SE,413,SE_221
+2020-06-20,Blekinge,1,SE,414,SE_221
+2020-06-21,Blekinge,0,SE,414,SE_221
+2020-06-22,Blekinge,0,SE,414,SE_221
 2020-02-04,Dalarna,0,SE,0,SE_312
 2020-02-05,Dalarna,0,SE,0,SE_312
 2020-02-06,Dalarna,0,SE,0,SE_312
@@ -270,7 +274,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Dalarna,3,SE,1397,SE_312
 2020-06-16,Dalarna,7,SE,1404,SE_312
 2020-06-17,Dalarna,6,SE,1410,SE_312
-2020-06-18,Dalarna,0,SE,1410,SE_312
+2020-06-18,Dalarna,16,SE,1426,SE_312
+2020-06-19,Dalarna,20,SE,1446,SE_312
+2020-06-20,Dalarna,5,SE,1451,SE_312
+2020-06-21,Dalarna,4,SE,1455,SE_312
+2020-06-22,Dalarna,2,SE,1457,SE_312
 2020-02-04,Gotland,0,SE,0,SE_214
 2020-02-05,Gotland,0,SE,0,SE_214
 2020-02-06,Gotland,0,SE,0,SE_214
@@ -405,8 +413,12 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-14,Gotland,0,SE,113,SE_214
 2020-06-15,Gotland,5,SE,118,SE_214
 2020-06-16,Gotland,0,SE,118,SE_214
-2020-06-17,Gotland,4,SE,122,SE_214
-2020-06-18,Gotland,0,SE,122,SE_214
+2020-06-17,Gotland,5,SE,123,SE_214
+2020-06-18,Gotland,2,SE,125,SE_214
+2020-06-19,Gotland,1,SE,126,SE_214
+2020-06-20,Gotland,1,SE,127,SE_214
+2020-06-21,Gotland,4,SE,131,SE_214
+2020-06-22,Gotland,0,SE,131,SE_214
 2020-02-04,Gävleborg,0,SE,0,SE_313
 2020-02-05,Gävleborg,0,SE,0,SE_313
 2020-02-06,Gävleborg,0,SE,0,SE_313
@@ -535,14 +547,18 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-08,Gävleborg,16,SE,1542,SE_313
 2020-06-09,Gävleborg,12,SE,1554,SE_313
 2020-06-10,Gävleborg,66,SE,1620,SE_313
-2020-06-11,Gävleborg,51,SE,1671,SE_313
-2020-06-12,Gävleborg,56,SE,1727,SE_313
-2020-06-13,Gävleborg,44,SE,1771,SE_313
-2020-06-14,Gävleborg,35,SE,1806,SE_313
-2020-06-15,Gävleborg,23,SE,1829,SE_313
-2020-06-16,Gävleborg,38,SE,1867,SE_313
-2020-06-17,Gävleborg,41,SE,1908,SE_313
-2020-06-18,Gävleborg,25,SE,1933,SE_313
+2020-06-11,Gävleborg,52,SE,1672,SE_313
+2020-06-12,Gävleborg,56,SE,1728,SE_313
+2020-06-13,Gävleborg,44,SE,1772,SE_313
+2020-06-14,Gävleborg,35,SE,1807,SE_313
+2020-06-15,Gävleborg,23,SE,1830,SE_313
+2020-06-16,Gävleborg,38,SE,1868,SE_313
+2020-06-17,Gävleborg,41,SE,1909,SE_313
+2020-06-18,Gävleborg,65,SE,1974,SE_313
+2020-06-19,Gävleborg,18,SE,1992,SE_313
+2020-06-20,Gävleborg,7,SE,1999,SE_313
+2020-06-21,Gävleborg,6,SE,2005,SE_313
+2020-06-22,Gävleborg,2,SE,2007,SE_313
 2020-02-04,Halland,0,SE,0,SE_231
 2020-02-05,Halland,0,SE,0,SE_231
 2020-02-06,Halland,0,SE,0,SE_231
@@ -675,10 +691,14 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-12,Halland,24,SE,1040,SE_231
 2020-06-13,Halland,24,SE,1064,SE_231
 2020-06-14,Halland,4,SE,1068,SE_231
-2020-06-15,Halland,9,SE,1077,SE_231
-2020-06-16,Halland,48,SE,1125,SE_231
-2020-06-17,Halland,25,SE,1150,SE_231
-2020-06-18,Halland,4,SE,1154,SE_231
+2020-06-15,Halland,8,SE,1076,SE_231
+2020-06-16,Halland,47,SE,1123,SE_231
+2020-06-17,Halland,25,SE,1148,SE_231
+2020-06-18,Halland,23,SE,1171,SE_231
+2020-06-19,Halland,9,SE,1180,SE_231
+2020-06-20,Halland,6,SE,1186,SE_231
+2020-06-21,Halland,3,SE,1189,SE_231
+2020-06-22,Halland,1,SE,1190,SE_231
 2020-02-04,Jämtland Härjedalen,0,SE,0,SE_322
 2020-02-05,Jämtland Härjedalen,0,SE,0,SE_322
 2020-02-06,Jämtland Härjedalen,0,SE,0,SE_322
@@ -814,7 +834,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Jämtland Härjedalen,20,SE,904,SE_322
 2020-06-16,Jämtland Härjedalen,21,SE,925,SE_322
 2020-06-17,Jämtland Härjedalen,23,SE,948,SE_322
-2020-06-18,Jämtland Härjedalen,3,SE,951,SE_322
+2020-06-18,Jämtland Härjedalen,12,SE,960,SE_322
+2020-06-19,Jämtland Härjedalen,10,SE,970,SE_322
+2020-06-20,Jämtland Härjedalen,1,SE,971,SE_322
+2020-06-21,Jämtland Härjedalen,1,SE,972,SE_322
+2020-06-22,Jämtland Härjedalen,5,SE,977,SE_322
 2020-02-04,Jönköping,1,SE,1,SE_211
 2020-02-05,Jönköping,0,SE,1,SE_211
 2020-02-06,Jönköping,0,SE,1,SE_211
@@ -949,8 +973,12 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-14,Jönköping,16,SE,2409,SE_211
 2020-06-15,Jönköping,11,SE,2420,SE_211
 2020-06-16,Jönköping,143,SE,2563,SE_211
-2020-06-17,Jönköping,205,SE,2768,SE_211
-2020-06-18,Jönköping,3,SE,2771,SE_211
+2020-06-17,Jönköping,206,SE,2769,SE_211
+2020-06-18,Jönköping,169,SE,2938,SE_211
+2020-06-19,Jönköping,224,SE,3162,SE_211
+2020-06-20,Jönköping,7,SE,3169,SE_211
+2020-06-21,Jönköping,7,SE,3176,SE_211
+2020-06-22,Jönköping,0,SE,3176,SE_211
 2020-02-04,Kalmar,0,SE,0,SE_213
 2020-02-05,Kalmar,0,SE,0,SE_213
 2020-02-06,Kalmar,0,SE,0,SE_213
@@ -1086,7 +1114,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Kalmar,11,SE,490,SE_213
 2020-06-16,Kalmar,9,SE,499,SE_213
 2020-06-17,Kalmar,14,SE,513,SE_213
-2020-06-18,Kalmar,1,SE,514,SE_213
+2020-06-18,Kalmar,23,SE,536,SE_213
+2020-06-19,Kalmar,4,SE,540,SE_213
+2020-06-20,Kalmar,1,SE,541,SE_213
+2020-06-21,Kalmar,1,SE,542,SE_213
+2020-06-22,Kalmar,0,SE,542,SE_213
 2020-02-04,Kronoberg,0,SE,0,SE_212
 2020-02-05,Kronoberg,0,SE,0,SE_212
 2020-02-06,Kronoberg,0,SE,0,SE_212
@@ -1222,7 +1254,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Kronoberg,1,SE,1005,SE_212
 2020-06-16,Kronoberg,12,SE,1017,SE_212
 2020-06-17,Kronoberg,4,SE,1021,SE_212
-2020-06-18,Kronoberg,0,SE,1021,SE_212
+2020-06-18,Kronoberg,8,SE,1029,SE_212
+2020-06-19,Kronoberg,2,SE,1031,SE_212
+2020-06-20,Kronoberg,1,SE,1032,SE_212
+2020-06-21,Kronoberg,1,SE,1033,SE_212
+2020-06-22,Kronoberg,0,SE,1033,SE_212
 2020-02-04,Norrbotten,0,SE,0,SE_332
 2020-02-05,Norrbotten,0,SE,0,SE_332
 2020-02-06,Norrbotten,0,SE,0,SE_332
@@ -1358,7 +1394,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Norrbotten,47,SE,731,SE_332
 2020-06-16,Norrbotten,56,SE,787,SE_332
 2020-06-17,Norrbotten,66,SE,853,SE_332
-2020-06-18,Norrbotten,0,SE,853,SE_332
+2020-06-18,Norrbotten,65,SE,918,SE_332
+2020-06-19,Norrbotten,1,SE,919,SE_332
+2020-06-20,Norrbotten,0,SE,919,SE_332
+2020-06-21,Norrbotten,0,SE,919,SE_332
+2020-06-22,Norrbotten,0,SE,919,SE_332
 2020-02-04,Skåne,0,SE,0,SE_224
 2020-02-05,Skåne,0,SE,0,SE_224
 2020-02-06,Skåne,0,SE,0,SE_224
@@ -1494,7 +1534,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Skåne,37,SE,2335,SE_224
 2020-06-16,Skåne,94,SE,2429,SE_224
 2020-06-17,Skåne,100,SE,2529,SE_224
-2020-06-18,Skåne,3,SE,2532,SE_224
+2020-06-18,Skåne,89,SE,2618,SE_224
+2020-06-19,Skåne,65,SE,2683,SE_224
+2020-06-20,Skåne,13,SE,2696,SE_224
+2020-06-21,Skåne,8,SE,2704,SE_224
+2020-06-22,Skåne,3,SE,2707,SE_224
 2020-02-04,Stockholm,0,SE,0,SE_110
 2020-02-05,Stockholm,0,SE,0,SE_110
 2020-02-06,Stockholm,0,SE,0,SE_110
@@ -1623,14 +1667,18 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-08,Stockholm,128,SE,14930,SE_110
 2020-06-09,Stockholm,226,SE,15156,SE_110
 2020-06-10,Stockholm,267,SE,15423,SE_110
-2020-06-11,Stockholm,223,SE,15646,SE_110
-2020-06-12,Stockholm,203,SE,15849,SE_110
-2020-06-13,Stockholm,183,SE,16032,SE_110
-2020-06-14,Stockholm,75,SE,16107,SE_110
-2020-06-15,Stockholm,141,SE,16248,SE_110
-2020-06-16,Stockholm,238,SE,16486,SE_110
-2020-06-17,Stockholm,290,SE,16776,SE_110
-2020-06-18,Stockholm,102,SE,16878,SE_110
+2020-06-11,Stockholm,222,SE,15645,SE_110
+2020-06-12,Stockholm,203,SE,15848,SE_110
+2020-06-13,Stockholm,183,SE,16031,SE_110
+2020-06-14,Stockholm,75,SE,16106,SE_110
+2020-06-15,Stockholm,141,SE,16247,SE_110
+2020-06-16,Stockholm,238,SE,16485,SE_110
+2020-06-17,Stockholm,380,SE,16865,SE_110
+2020-06-18,Stockholm,326,SE,17191,SE_110
+2020-06-19,Stockholm,3,SE,17194,SE_110
+2020-06-20,Stockholm,5,SE,17199,SE_110
+2020-06-21,Stockholm,53,SE,17252,SE_110
+2020-06-22,Stockholm,33,SE,17285,SE_110
 2020-02-04,Sörmland,0,SE,0,SE_122
 2020-02-05,Sörmland,0,SE,0,SE_122
 2020-02-06,Sörmland,0,SE,0,SE_122
@@ -1737,36 +1785,40 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-05-17,Sörmland,0,SE,1496,SE_122
 2020-05-18,Sörmland,6,SE,1502,SE_122
 2020-05-19,Sörmland,18,SE,1520,SE_122
-2020-05-20,Sörmland,22,SE,1542,SE_122
-2020-05-21,Sörmland,6,SE,1548,SE_122
-2020-05-22,Sörmland,10,SE,1558,SE_122
-2020-05-23,Sörmland,2,SE,1560,SE_122
-2020-05-24,Sörmland,1,SE,1561,SE_122
-2020-05-25,Sörmland,14,SE,1575,SE_122
-2020-05-26,Sörmland,12,SE,1587,SE_122
-2020-05-27,Sörmland,20,SE,1607,SE_122
-2020-05-28,Sörmland,12,SE,1619,SE_122
-2020-05-29,Sörmland,4,SE,1623,SE_122
-2020-05-30,Sörmland,2,SE,1625,SE_122
-2020-05-31,Sörmland,0,SE,1625,SE_122
-2020-06-01,Sörmland,9,SE,1634,SE_122
-2020-06-02,Sörmland,5,SE,1639,SE_122
-2020-06-03,Sörmland,3,SE,1642,SE_122
-2020-06-04,Sörmland,12,SE,1654,SE_122
-2020-06-05,Sörmland,3,SE,1657,SE_122
-2020-06-06,Sörmland,1,SE,1658,SE_122
-2020-06-07,Sörmland,3,SE,1661,SE_122
-2020-06-08,Sörmland,10,SE,1671,SE_122
-2020-06-09,Sörmland,3,SE,1674,SE_122
-2020-06-10,Sörmland,6,SE,1680,SE_122
-2020-06-11,Sörmland,8,SE,1688,SE_122
-2020-06-12,Sörmland,23,SE,1711,SE_122
-2020-06-13,Sörmland,53,SE,1764,SE_122
-2020-06-14,Sörmland,19,SE,1783,SE_122
-2020-06-15,Sörmland,6,SE,1789,SE_122
-2020-06-16,Sörmland,3,SE,1792,SE_122
-2020-06-17,Sörmland,17,SE,1809,SE_122
-2020-06-18,Sörmland,6,SE,1815,SE_122
+2020-05-20,Sörmland,23,SE,1543,SE_122
+2020-05-21,Sörmland,6,SE,1549,SE_122
+2020-05-22,Sörmland,10,SE,1559,SE_122
+2020-05-23,Sörmland,2,SE,1561,SE_122
+2020-05-24,Sörmland,1,SE,1562,SE_122
+2020-05-25,Sörmland,14,SE,1576,SE_122
+2020-05-26,Sörmland,12,SE,1588,SE_122
+2020-05-27,Sörmland,20,SE,1608,SE_122
+2020-05-28,Sörmland,12,SE,1620,SE_122
+2020-05-29,Sörmland,4,SE,1624,SE_122
+2020-05-30,Sörmland,2,SE,1626,SE_122
+2020-05-31,Sörmland,0,SE,1626,SE_122
+2020-06-01,Sörmland,9,SE,1635,SE_122
+2020-06-02,Sörmland,5,SE,1640,SE_122
+2020-06-03,Sörmland,3,SE,1643,SE_122
+2020-06-04,Sörmland,12,SE,1655,SE_122
+2020-06-05,Sörmland,3,SE,1658,SE_122
+2020-06-06,Sörmland,1,SE,1659,SE_122
+2020-06-07,Sörmland,3,SE,1662,SE_122
+2020-06-08,Sörmland,10,SE,1672,SE_122
+2020-06-09,Sörmland,3,SE,1675,SE_122
+2020-06-10,Sörmland,6,SE,1681,SE_122
+2020-06-11,Sörmland,8,SE,1689,SE_122
+2020-06-12,Sörmland,23,SE,1712,SE_122
+2020-06-13,Sörmland,53,SE,1765,SE_122
+2020-06-14,Sörmland,19,SE,1784,SE_122
+2020-06-15,Sörmland,6,SE,1790,SE_122
+2020-06-16,Sörmland,3,SE,1793,SE_122
+2020-06-17,Sörmland,26,SE,1819,SE_122
+2020-06-18,Sörmland,60,SE,1879,SE_122
+2020-06-19,Sörmland,0,SE,1879,SE_122
+2020-06-20,Sörmland,0,SE,1879,SE_122
+2020-06-21,Sörmland,0,SE,1879,SE_122
+2020-06-22,Sörmland,5,SE,1884,SE_122
 2020-02-04,Uppsala,0,SE,0,SE_121
 2020-02-05,Uppsala,0,SE,0,SE_121
 2020-02-06,Uppsala,0,SE,0,SE_121
@@ -1902,7 +1954,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Uppsala,13,SE,2499,SE_121
 2020-06-16,Uppsala,56,SE,2555,SE_121
 2020-06-17,Uppsala,62,SE,2617,SE_121
-2020-06-18,Uppsala,0,SE,2617,SE_121
+2020-06-18,Uppsala,84,SE,2701,SE_121
+2020-06-19,Uppsala,33,SE,2734,SE_121
+2020-06-20,Uppsala,60,SE,2794,SE_121
+2020-06-21,Uppsala,4,SE,2798,SE_121
+2020-06-22,Uppsala,0,SE,2798,SE_121
 2020-02-04,Värmland,0,SE,0,SE_311
 2020-02-05,Värmland,0,SE,0,SE_311
 2020-02-06,Värmland,0,SE,0,SE_311
@@ -2038,7 +2094,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Värmland,10,SE,766,SE_311
 2020-06-16,Värmland,22,SE,788,SE_311
 2020-06-17,Värmland,12,SE,800,SE_311
-2020-06-18,Värmland,0,SE,800,SE_311
+2020-06-18,Värmland,12,SE,812,SE_311
+2020-06-19,Värmland,16,SE,828,SE_311
+2020-06-20,Värmland,7,SE,835,SE_311
+2020-06-21,Värmland,5,SE,840,SE_311
+2020-06-22,Värmland,2,SE,842,SE_311
 2020-02-04,Västerbotten,0,SE,0,SE_331
 2020-02-05,Västerbotten,0,SE,0,SE_331
 2020-02-06,Västerbotten,0,SE,0,SE_331
@@ -2174,7 +2234,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Västerbotten,1,SE,576,SE_331
 2020-06-16,Västerbotten,9,SE,585,SE_331
 2020-06-17,Västerbotten,6,SE,591,SE_331
-2020-06-18,Västerbotten,8,SE,599,SE_331
+2020-06-18,Västerbotten,15,SE,606,SE_331
+2020-06-19,Västerbotten,10,SE,616,SE_331
+2020-06-20,Västerbotten,11,SE,627,SE_331
+2020-06-21,Västerbotten,0,SE,627,SE_331
+2020-06-22,Västerbotten,4,SE,631,SE_331
 2020-02-04,Västernorrland,0,SE,0,SE_321
 2020-02-05,Västernorrland,0,SE,0,SE_321
 2020-02-06,Västernorrland,0,SE,0,SE_321
@@ -2310,7 +2374,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Västernorrland,37,SE,1035,SE_321
 2020-06-16,Västernorrland,30,SE,1065,SE_321
 2020-06-17,Västernorrland,28,SE,1093,SE_321
-2020-06-18,Västernorrland,1,SE,1094,SE_321
+2020-06-18,Västernorrland,45,SE,1138,SE_321
+2020-06-19,Västernorrland,1,SE,1139,SE_321
+2020-06-20,Västernorrland,2,SE,1141,SE_321
+2020-06-21,Västernorrland,3,SE,1144,SE_321
+2020-06-22,Västernorrland,22,SE,1166,SE_321
 2020-02-04,Västmanland,0,SE,0,SE_125
 2020-02-05,Västmanland,0,SE,0,SE_125
 2020-02-06,Västmanland,0,SE,0,SE_125
@@ -2446,7 +2514,11 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-15,Västmanland,80,SE,1798,SE_125
 2020-06-16,Västmanland,35,SE,1833,SE_125
 2020-06-17,Västmanland,71,SE,1904,SE_125
-2020-06-18,Västmanland,0,SE,1904,SE_125
+2020-06-18,Västmanland,34,SE,1938,SE_125
+2020-06-19,Västmanland,17,SE,1955,SE_125
+2020-06-20,Västmanland,0,SE,1955,SE_125
+2020-06-21,Västmanland,0,SE,1955,SE_125
+2020-06-22,Västmanland,2,SE,1957,SE_125
 2020-02-04,Västra Götaland,0,SE,0,SE_232
 2020-02-05,Västra Götaland,0,SE,0,SE_232
 2020-02-06,Västra Götaland,0,SE,0,SE_232
@@ -2579,10 +2651,14 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-12,Västra Götaland,541,SE,10222,SE_232
 2020-06-13,Västra Götaland,448,SE,10670,SE_232
 2020-06-14,Västra Götaland,162,SE,10832,SE_232
-2020-06-15,Västra Götaland,222,SE,11054,SE_232
-2020-06-16,Västra Götaland,353,SE,11407,SE_232
-2020-06-17,Västra Götaland,316,SE,11723,SE_232
-2020-06-18,Västra Götaland,105,SE,11828,SE_232
+2020-06-15,Västra Götaland,223,SE,11055,SE_232
+2020-06-16,Västra Götaland,354,SE,11409,SE_232
+2020-06-17,Västra Götaland,335,SE,11744,SE_232
+2020-06-18,Västra Götaland,304,SE,12048,SE_232
+2020-06-19,Västra Götaland,278,SE,12326,SE_232
+2020-06-20,Västra Götaland,386,SE,12712,SE_232
+2020-06-21,Västra Götaland,139,SE,12851,SE_232
+2020-06-22,Västra Götaland,2,SE,12853,SE_232
 2020-02-04,Örebro,0,SE,0,SE_124
 2020-02-05,Örebro,0,SE,0,SE_124
 2020-02-06,Örebro,0,SE,0,SE_124
@@ -2717,8 +2793,12 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-06-14,Örebro,11,SE,2109,SE_124
 2020-06-15,Örebro,8,SE,2117,SE_124
 2020-06-16,Örebro,54,SE,2171,SE_124
-2020-06-17,Örebro,11,SE,2182,SE_124
-2020-06-18,Örebro,1,SE,2183,SE_124
+2020-06-17,Örebro,20,SE,2191,SE_124
+2020-06-18,Örebro,19,SE,2210,SE_124
+2020-06-19,Örebro,1,SE,2211,SE_124
+2020-06-20,Örebro,0,SE,2211,SE_124
+2020-06-21,Örebro,2,SE,2213,SE_124
+2020-06-22,Örebro,1,SE,2214,SE_124
 2020-02-04,Östergötland,0,SE,0,SE_123
 2020-02-05,Östergötland,0,SE,0,SE_123
 2020-02-06,Östergötland,0,SE,0,SE_123
@@ -2825,33 +2905,37 @@ date,match_string,new_confirmed,country_code,total_confirmed,key
 2020-05-17,Östergötland,12,SE,1754,SE_123
 2020-05-18,Östergötland,31,SE,1785,SE_123
 2020-05-19,Östergötland,17,SE,1802,SE_123
-2020-05-20,Östergötland,27,SE,1829,SE_123
-2020-05-21,Östergötland,41,SE,1870,SE_123
-2020-05-22,Östergötland,12,SE,1882,SE_123
-2020-05-23,Östergötland,23,SE,1905,SE_123
-2020-05-24,Östergötland,5,SE,1910,SE_123
-2020-05-25,Östergötland,9,SE,1919,SE_123
-2020-05-26,Östergötland,25,SE,1944,SE_123
-2020-05-27,Östergötland,30,SE,1974,SE_123
-2020-05-28,Östergötland,0,SE,1974,SE_123
-2020-05-29,Östergötland,1,SE,1975,SE_123
-2020-05-30,Östergötland,0,SE,1975,SE_123
-2020-05-31,Östergötland,0,SE,1975,SE_123
-2020-06-01,Östergötland,92,SE,2067,SE_123
-2020-06-02,Östergötland,32,SE,2099,SE_123
-2020-06-03,Östergötland,31,SE,2130,SE_123
-2020-06-04,Östergötland,37,SE,2167,SE_123
-2020-06-05,Östergötland,42,SE,2209,SE_123
-2020-06-06,Östergötland,45,SE,2254,SE_123
-2020-06-07,Östergötland,9,SE,2263,SE_123
-2020-06-08,Östergötland,4,SE,2267,SE_123
-2020-06-09,Östergötland,48,SE,2315,SE_123
-2020-06-10,Östergötland,52,SE,2367,SE_123
-2020-06-11,Östergötland,51,SE,2418,SE_123
-2020-06-12,Östergötland,69,SE,2487,SE_123
-2020-06-13,Östergötland,45,SE,2532,SE_123
-2020-06-14,Östergötland,10,SE,2542,SE_123
-2020-06-15,Östergötland,20,SE,2562,SE_123
-2020-06-16,Östergötland,49,SE,2611,SE_123
-2020-06-17,Östergötland,51,SE,2662,SE_123
-2020-06-18,Östergötland,0,SE,2662,SE_123
+2020-05-20,Östergötland,26,SE,1828,SE_123
+2020-05-21,Östergötland,41,SE,1869,SE_123
+2020-05-22,Östergötland,12,SE,1881,SE_123
+2020-05-23,Östergötland,23,SE,1904,SE_123
+2020-05-24,Östergötland,5,SE,1909,SE_123
+2020-05-25,Östergötland,9,SE,1918,SE_123
+2020-05-26,Östergötland,25,SE,1943,SE_123
+2020-05-27,Östergötland,30,SE,1973,SE_123
+2020-05-28,Östergötland,0,SE,1973,SE_123
+2020-05-29,Östergötland,1,SE,1974,SE_123
+2020-05-30,Östergötland,0,SE,1974,SE_123
+2020-05-31,Östergötland,0,SE,1974,SE_123
+2020-06-01,Östergötland,92,SE,2066,SE_123
+2020-06-02,Östergötland,32,SE,2098,SE_123
+2020-06-03,Östergötland,31,SE,2129,SE_123
+2020-06-04,Östergötland,37,SE,2166,SE_123
+2020-06-05,Östergötland,42,SE,2208,SE_123
+2020-06-06,Östergötland,45,SE,2253,SE_123
+2020-06-07,Östergötland,9,SE,2262,SE_123
+2020-06-08,Östergötland,4,SE,2266,SE_123
+2020-06-09,Östergötland,48,SE,2314,SE_123
+2020-06-10,Östergötland,52,SE,2366,SE_123
+2020-06-11,Östergötland,51,SE,2417,SE_123
+2020-06-12,Östergötland,69,SE,2486,SE_123
+2020-06-13,Östergötland,45,SE,2531,SE_123
+2020-06-14,Östergötland,10,SE,2541,SE_123
+2020-06-15,Östergötland,20,SE,2561,SE_123
+2020-06-16,Östergötland,49,SE,2610,SE_123
+2020-06-17,Östergötland,62,SE,2672,SE_123
+2020-06-18,Östergötland,60,SE,2732,SE_123
+2020-06-19,Östergötland,0,SE,2732,SE_123
+2020-06-20,Östergötland,1,SE,2733,SE_123
+2020-06-21,Östergötland,16,SE,2749,SE_123
+2020-06-22,Östergötland,0,SE,2749,SE_123

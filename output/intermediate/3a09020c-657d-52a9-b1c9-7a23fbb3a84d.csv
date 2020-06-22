@@ -319,6 +319,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-19,JP,北海道,3,1,1175,94,JP_01
 2020-06-20,JP,北海道,3,,1178,94,JP_01
 2020-06-21,JP,北海道,2,1,1180,95,JP_01
+2020-06-22,JP,北海道,2,,1182,95,JP_01
 2020-01-31,JP,千葉,1,,1,0,JP_12
 2020-02-04,JP,千葉,1,,2,0,JP_12
 2020-02-05,JP,千葉,1,,3,0,JP_12
@@ -415,6 +416,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-17,JP,千葉,1,,917,45,JP_12
 2020-06-18,JP,千葉,2,,919,45,JP_12
 2020-06-20,JP,千葉,2,,921,45,JP_12
+2020-06-22,JP,千葉,1,,922,45,JP_12
 2020-02-13,JP,和歌山,1,,1,0,JP_30
 2020-02-14,JP,和歌山,1,,2,0,JP_30
 2020-02-15,JP,和歌山,3,,5,0,JP_30
@@ -548,6 +550,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-19,JP,埼玉,2,12,1023,64,JP_11
 2020-06-20,JP,埼玉,4,,1027,64,JP_11
 2020-06-21,JP,埼玉,7,,1034,64,JP_11
+2020-06-22,JP,埼玉,4,,1038,64,JP_11
 2020-03-03,JP,大分,1,,1,0,JP_44
 2020-03-19,JP,大分,2,,3,0,JP_44
 2020-03-20,JP,大分,5,,8,0,JP_44
@@ -741,6 +744,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-04-28,JP,宮城,2,,88,0,JP_04
 2020-05-09,JP,宮城,,1,88,1,JP_04
 2020-06-18,JP,宮城,1,,89,1,JP_04
+2020-06-22,JP,宮城,1,,90,1,JP_04
 2020-03-04,JP,宮崎,1,,1,0,JP_45
 2020-03-17,JP,宮崎,2,,3,0,JP_45
 2020-04-03,JP,宮崎,4,,7,0,JP_45
@@ -1308,6 +1312,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-19,JP,東京,35,3,5709,320,JP_13
 2020-06-20,JP,東京,39,,5748,320,JP_13
 2020-06-21,JP,東京,35,,5783,320,JP_13
+2020-06-22,JP,東京,29,1,5812,321,JP_13
 2020-02-22,JP,栃木,1,,1,0,JP_09
 2020-03-05,JP,栃木,1,,2,0,JP_09
 2020-03-18,JP,栃木,1,,3,0,JP_09
@@ -1449,6 +1454,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-05-03,JP,熊本,,1,46,2,JP_43
 2020-05-08,JP,熊本,1,,47,2,JP_43
 2020-05-09,JP,熊本,,1,47,3,JP_43
+2020-06-22,JP,熊本,1,,48,3,JP_43
 2020-02-21,JP,石川,1,,1,0,JP_17
 2020-02-22,JP,石川,1,,2,0,JP_17
 2020-02-24,JP,石川,2,,4,0,JP_17
@@ -1516,6 +1522,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-05-30,JP,石川,,1,298,25,JP_17
 2020-06-03,JP,石川,,1,298,26,JP_17
 2020-06-05,JP,石川,1,1,299,27,JP_17
+2020-06-22,JP,石川,1,,300,27,JP_17
 2020-01-15,JP,神奈川,1,,1,0,JP_14
 2020-02-13,JP,神奈川,1,1,2,1,JP_14
 2020-02-17,JP,神奈川,2,,4,1,JP_14
