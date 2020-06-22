@@ -237,7 +237,7 @@ Information related to the geography for each region:
 | **longitude** | `double` | Floating point representing the geographic coordinate | 112.2707 |
 | **elevation** | `integer` `[meters]` | Elevation above the sea level | 875 |
 | **area** | `integer` [squared kilometers] | Area encompassing this region | 3729 |
-| **roral_area** | `integer` [squared kilometers] | Area encompassing rural land in this region | 3729 |
+| **rural_area** | `integer` [squared kilometers] | Area encompassing rural land in this region | 3729 |
 | **urban_area** | `integer` [squared kilometers] | Area encompassing urban land this region | 3729 |
 
 ### Health

@@ -1,4 +1,4 @@
-key,population,population_male,population_female,population_rural,population_urban,population_largest_city,population_clustered,population_density,human_development_index,population_age_00_09,population_age_10_19,population_age_20_29,population_age_30_39,population_age_40_49,population_age_50_59,population_age_60_69,population_age_70_79,population_age_80_89,population_age_90_99
+key,population,population_male,population_female,rural_population,urban_population,largest_city_population,clustered_population,population_density,human_development_index,population_age_00_09,population_age_10_19,population_age_20_29,population_age_30_39,population_age_40_49,population_age_50_59,population_age_60_69,population_age_70_79,population_age_80_89,population_age_90_99
 AD,77006,58614,55571,9193,67813,,,163.84255,0.858,9368,12020,10725,12392,20998,20717,14430,8655,3904,976
 AE,9630959,6680352,2950607,1298061,8332898,2785376,5775924,135.60911,0.863,870676,786873,1841977,2722993,1907273,889209,225624,58027,9914,2479
 AF,37172386,19093281,18079105,27695286,9477100,4011770,4011770,56.93776,0.498,8332296,7638757,5413678,3577939,2359134,1451549,826942,372336,65557,16389
