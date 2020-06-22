@@ -108,7 +108,7 @@ class WorldPopPopulationDataSource(DataSource):
         # In this script, we don't have any sources since the Worldpop data is precomputed using
         # Earth Engine: https://code.earthengine.google.com/f885dd559364ed8918324da355c1ee0e
 
-        # Compute the estimated total male population
+        # Compute the estimated aggregated population broken down by age and sex
         records = aux["worldpop"].apply(_aggregate_population, axis=1)
         data = DataFrame.from_records(records.values).merge(aux["worldpop"])
 
