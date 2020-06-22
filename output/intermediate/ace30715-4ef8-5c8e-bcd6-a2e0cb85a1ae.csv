@@ -106,6 +106,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,EC,13506,257,6331,,ZA_EC,867,0,0,0
 2020-06-20,EC,14721,268,7470,,ZA_EC,1215,11,1139,0
 2020-06-21,EC,15751,285,7738,,ZA_EC,1030,17,268,0
+2020-06-22,EC,16895,303,8035,,ZA_EC,1144,18,297,0
 2020-03-05,FS,0,,,,ZA_FS,,,,
 2020-03-07,FS,0,,,,ZA_FS,0,,,
 2020-03-08,FS,0,,,,ZA_FS,0,,,
@@ -213,6 +214,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,FS,658,9,235,,ZA_FS,9,0,0,0
 2020-06-20,FS,700,9,236,,ZA_FS,42,0,1,0
 2020-06-21,FS,733,9,264,,ZA_FS,33,0,28,0
+2020-06-22,FS,772,9,264,,ZA_FS,39,0,0,0
 2020-03-05,GP,0,,,,ZA_GP,,,,
 2020-03-07,GP,1,,,,ZA_GP,1,,,
 2020-03-08,GP,1,,,,ZA_GP,0,,,
@@ -320,6 +322,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,GP,17261,114,4001,,ZA_GP,1363,27,245,0
 2020-06-20,GP,18978,114,4273,,ZA_GP,1717,0,272,0
 2020-06-21,GP,20822,122,4673,,ZA_GP,1844,8,400,0
+2020-06-22,GP,22341,122,5620,,ZA_GP,1519,0,947,0
 2020-03-05,KZN,1,,,,ZA_KZN,,,,
 2020-03-07,KZN,1,,,,ZA_KZN,0,,,
 2020-03-08,KZN,2,,,,ZA_KZN,1,,,
@@ -427,6 +430,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,KZN,4548,80,2527,,ZA_KZN,188,7,394,0
 2020-06-20,KZN,4806,83,2527,,ZA_KZN,258,3,0,0
 2020-06-21,KZN,5030,84,2594,,ZA_KZN,224,1,67,0
+2020-06-22,KZN,5278,87,2769,,ZA_KZN,248,3,175,0
 2020-03-05,LP,0,,,,ZA_LP,,,,
 2020-03-07,LP,0,,,,ZA_LP,0,,,
 2020-03-08,LP,0,,,,ZA_LP,0,,,
@@ -534,6 +538,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,LP,503,4,236,,ZA_LP,14,0,7,0
 2020-06-20,LP,521,4,236,,ZA_LP,18,0,0,0
 2020-06-21,LP,564,4,246,,ZA_LP,43,0,10,0
+2020-06-22,LP,582,5,257,,ZA_LP,18,1,11,0
 2020-03-05,MP,0,,,,ZA_MP,,,,
 2020-03-07,MP,0,,,,ZA_MP,0,,,
 2020-03-08,MP,0,,,,ZA_MP,0,,,
@@ -641,6 +646,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,MP,505,1,156,,ZA_MP,44,0,0,0
 2020-06-20,MP,544,1,156,,ZA_MP,39,0,0,0
 2020-06-21,MP,573,1,176,,ZA_MP,29,0,20,0
+2020-06-22,MP,596,1,181,,ZA_MP,23,0,5,0
 2020-03-05,NC,0,,,,ZA_NC,,,,
 2020-03-07,NC,0,,,,ZA_NC,0,,,
 2020-03-08,NC,0,,,,ZA_NC,0,,,
@@ -748,6 +754,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,NC,218,1,97,,ZA_NC,4,0,16,0
 2020-06-20,NC,232,1,97,,ZA_NC,14,0,0,0
 2020-06-21,NC,237,1,110,,ZA_NC,5,0,13,0
+2020-06-22,NC,254,1,112,,ZA_NC,17,0,2,0
 2020-03-05,NW,0,,,,ZA_NW,,,,
 2020-03-07,NW,0,,,,ZA_NW,0,,,
 2020-03-08,NW,0,,,,ZA_NW,0,,,
@@ -855,6 +862,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,NW,1758,5,175,,ZA_NW,152,0,0,0
 2020-06-20,NW,1957,5,175,,ZA_NW,199,0,0,0
 2020-06-21,NW,2148,5,248,,ZA_NW,191,0,73,0
+2020-06-22,NW,2315,5,248,,ZA_NW,167,0,0,0
 2020-03-05,WC,0,,,,ZA_WC,,,,
 2020-03-07,WC,0,,,,ZA_WC,0,,,
 2020-03-08,WC,0,,,,ZA_WC,0,,,
@@ -962,6 +970,7 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,WC,48706,1360,34067,,ZA_WC,1184,60,2243,0
 2020-06-20,WC,50173,1392,35156,,ZA_WC,1467,32,1089,0
 2020-06-21,WC,51441,1419,35559,,ZA_WC,1268,27,403,0
+2020-06-22,WC,52554,1458,35958,,ZA_WC,1113,39,399,0
 2020-03-05,total,1,,,,ZA,,,,
 2020-03-07,total,2,,,,ZA,1,,,
 2020-03-08,total,3,,,,ZA,1,,,
@@ -1069,3 +1078,4 @@ date,subregion1_code,total_confirmed,total_deceased,total_recovered,total_tested
 2020-06-19,total,87715,1831,47825,,ZA,3825,94,2905,0
 2020-06-20,total,92681,1877,50326,,ZA,4966,46,2501,0
 2020-06-21,total,97302,1930,51608,,ZA,4621,53,1282,0
+2020-06-22,total,101590,1991,53444,,ZA,4288,61,1836,0
