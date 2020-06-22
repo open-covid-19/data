@@ -149,8 +149,7 @@ export_csv(data, v1_folder / "data.csv")
 export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], v1_folder / "data_minimal.csv")
 
 # Create the v1 data_latest.csv file
-latest = master.copy()
-latest = latest[latest.aggregation_level < 2]
+latest = subset_latest(master[master.aggregation_level < 2])
 latest = latest[rename_columns.keys()].rename(columns=rename_columns)
 latest = latest.dropna(subset=["Confirmed", "Deaths"], how="all")
 latest = latest.sort_values(["Key", "Date"])
