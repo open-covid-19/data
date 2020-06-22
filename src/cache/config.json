@@ -26,5 +26,25 @@
         "button-text": "reported deaths",
         "height": 4096,
         "output": "US_SC-mortality-stratified.png"
+    },
+    {
+        "url": "https://services1.arcgis.com/9H64STM3PyG3DqUs/arcgis/rest/services/Cases_by_state/FeatureServer/0/query?f=json&where=1%3D1&outFields=*&returnGeometry=false",
+        "cmd": "static_fetch",
+        "output": "SO_cases_by_state.json"
+    },
+    {
+        "url": "https://thl.fi/en/web/infectious-diseases-and-vaccinations/what-s-new/coronavirus-covid-19-latest-updates/situation-update-on-coronavirus",
+        "cmd": "static_fetch",
+        "output": "FI_hospitalizations.html"
+    },
+    {
+        "url": "https://sampo.thl.fi/pivot/prod/fi/epirapo/covid19case/fact_epirapo_covid19case.csv?column=hcdmunicipality2020-445268L",
+        "cmd": "static_fetch",
+        "output": "FI_municipalities.html"
+    },
+    {
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKB9-H7tQmfs_MwoITnT8Z0j6qxPXkEQAL4DpgZ2gLRjGzR_pr4Oew-9XjYOClHbqqWT69Rrg_Tp4h/pub?output=csv",
+        "cmd": "static_fetch",
+        "output": "travel_restrictions_pairs.csv"
     }
 ]
