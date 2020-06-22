@@ -21,8 +21,8 @@ schema:
   longitude: float
   elevation: int
   area: int
-  area_rural: int
-  area_urban: int
+  rural_area: int
+  urban_area: int
 
 auxiliary:
   metadata: ./src/data/metadata.csv
@@ -39,8 +39,6 @@ sources:
       longitude: P625
       elevation: P2044
       area: P2046
-      area_rural: int
-      area_urban: int
 
   - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
@@ -49,5 +47,5 @@ sources:
       min_year: 2000
       indicators:
         area: "AG.SRF.TOTL.K2"
-        area_rural: "AG.LND.TOTL.RU.K2"
-        area_urban: "AG.LND.TOTL.UR.K2"
+        rural_area: "AG.LND.TOTL.RU.K2"
+        urban_area: "AG.LND.TOTL.UR.K2"

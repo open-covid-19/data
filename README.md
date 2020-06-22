@@ -183,10 +183,10 @@ Information related to the population demographics for each region:
 | **population** | `integer` | Total count of humans | 51606633 |
 | **population_male** | `integer` | Total count of males | 25846211 |
 | **population_female** | `integer` | Total count of females | 25760422 |
-| **population_rural** | `integer` | Population in a rural area | 9568386 |
-| **population_urban** | `integer` | Population in an urban area | 42038247 |
-| **population_largest_city** | `integer` | Population in the largest city of the region | 9963497 |
-| **population_clustered** | `integer` | Population in urban agglomerations of more than 1 million | 25893097 |
+| **rural_population** | `integer` | Population in a rural area | 9568386 |
+| **urban_population** | `integer` | Population in an urban area | 42038247 |
+| **largest_city_population** | `integer` | Population in the largest city of the region | 9963497 |
+| **clustered_population** | `integer` | Population in urban agglomerations of more than 1 million | 25893097 |
 | **population_density** | `double` `[persons per squared kilometer]` | Population per squared kilometer of land area | 529.3585 |
 | **human_development_index** | `double` `[0-1]` | Composite index of life expectancy, education, and per capita income indicators | 0.903 |
 | **population_age_`${lower}`_`${upper}`** | `integer` | Estimated population between the ages of `${lower}` and `${upper}`, both inclusive | 42038247 |
@@ -237,8 +237,8 @@ Information related to the geography for each region:
 | **longitude** | `double` | Floating point representing the geographic coordinate | 112.2707 |
 | **elevation** | `integer` `[meters]` | Elevation above the sea level | 875 |
 | **area** | `integer` [squared kilometers] | Area encompassing this region | 3729 |
-| **area_rural** | `integer` [squared kilometers] | Area encompassing rural land in this region | 3729 |
-| **area_urban** | `integer` [squared kilometers] | Area encompassing urban land this region | 3729 |
+| **roral_area** | `integer` [squared kilometers] | Area encompassing rural land in this region | 3729 |
+| **urban_area** | `integer` [squared kilometers] | Area encompassing urban land this region | 3729 |
 
 ### Health
 Health related indicators for each region:

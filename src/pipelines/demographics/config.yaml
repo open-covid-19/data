@@ -17,8 +17,8 @@
 schema:
   key: str
   population: int
-  population_male: int
-  population_female: int
+  male_population: int
+  female_population: int
   population_rural: int
   population_urban: int
   population_largest_city: int
@@ -59,8 +59,8 @@ sources:
     parse:
       indicators:
         population: "SP.POP.TOTL"
-        population_male: "SP.POP.TOTL.MA.IN"
-        population_female: "SP.POP.TOTL.FE.IN"
+        male_population: "SP.POP.TOTL.MA.IN"
+        female_population: "SP.POP.TOTL.FE.IN"
         population_rural: "SP.RUR.TOTL"
         population_urban: "SP.URB.TOTL"
         population_largest_city: "EN.URB.LCTY"
