@@ -96,6 +96,7 @@ PL,dolnośląskie,2020-06-19,2838,135,13,2,PL_02
 PL,dolnośląskie,2020-06-20,2851,135,13,0,PL_02
 PL,dolnośląskie,2020-06-21,2853,135,2,0,PL_02
 PL,dolnośląskie,2020-06-22,2857,136,4,1,PL_02
+PL,dolnośląskie,2020-06-23,2867,137,10,1,PL_02
 PL,kujawsko-pomorskie,2020-03-18,8,0,,,PL_04
 PL,kujawsko-pomorskie,2020-03-19,11,0,3,0,PL_04
 PL,kujawsko-pomorskie,2020-03-20,14,0,3,0,PL_04
@@ -193,6 +194,7 @@ PL,kujawsko-pomorskie,2020-06-19,644,49,3,0,PL_04
 PL,kujawsko-pomorskie,2020-06-20,649,50,5,1,PL_04
 PL,kujawsko-pomorskie,2020-06-21,652,50,3,0,PL_04
 PL,kujawsko-pomorskie,2020-06-22,652,49,0,-1,PL_04
+PL,kujawsko-pomorskie,2020-06-23,652,49,0,0,PL_04
 PL,lubelskie,2020-03-18,22,1,,,PL_06
 PL,lubelskie,2020-03-19,25,1,3,0,PL_06
 PL,lubelskie,2020-03-20,28,1,3,0,PL_06
@@ -290,6 +292,7 @@ PL,lubelskie,2020-06-19,576,17,15,1,PL_06
 PL,lubelskie,2020-06-20,581,17,5,0,PL_06
 PL,lubelskie,2020-06-21,592,17,11,0,PL_06
 PL,lubelskie,2020-06-22,606,17,14,0,PL_06
+PL,lubelskie,2020-06-23,610,17,4,0,PL_06
 PL,lubuskie,2020-03-18,3,0,,,PL_08
 PL,lubuskie,2020-03-19,9,0,6,0,PL_08
 PL,lubuskie,2020-03-20,9,0,0,0,PL_08
@@ -387,6 +390,7 @@ PL,lubuskie,2020-06-19,149,0,0,0,PL_08
 PL,lubuskie,2020-06-20,152,0,3,0,PL_08
 PL,lubuskie,2020-06-21,153,0,1,0,PL_08
 PL,lubuskie,2020-06-22,145,0,-8,0,PL_08
+PL,lubuskie,2020-06-23,145,0,0,0,PL_08
 PL,mazowieckie,2020-03-18,66,0,,,PL_14
 PL,mazowieckie,2020-03-19,82,0,16,0,PL_14
 PL,mazowieckie,2020-03-20,107,0,25,0,PL_14
@@ -484,6 +488,7 @@ PL,mazowieckie,2020-06-19,4635,310,84,0,PL_14
 PL,mazowieckie,2020-06-20,4687,314,52,4,PL_14
 PL,mazowieckie,2020-06-21,4726,314,39,0,PL_14
 PL,mazowieckie,2020-06-22,4759,314,33,0,PL_14
+PL,mazowieckie,2020-06-23,4799,318,40,4,PL_14
 PL,małopolskie,2020-03-18,6,0,,,PL_12
 PL,małopolskie,2020-03-19,7,0,1,0,PL_12
 PL,małopolskie,2020-03-20,14,0,7,0,PL_12
@@ -581,6 +586,7 @@ PL,małopolskie,2020-06-19,1577,41,13,0,PL_12
 PL,małopolskie,2020-06-20,1600,43,23,2,PL_12
 PL,małopolskie,2020-06-21,1616,44,16,1,PL_12
 PL,małopolskie,2020-06-22,1622,44,6,0,PL_12
+PL,małopolskie,2020-06-23,1624,44,2,0,PL_12
 PL,opolskie,2020-03-18,9,0,,,PL_16
 PL,opolskie,2020-03-19,10,0,1,0,PL_16
 PL,opolskie,2020-03-20,10,0,0,0,PL_16
@@ -678,6 +684,7 @@ PL,opolskie,2020-06-19,834,50,10,0,PL_16
 PL,opolskie,2020-06-20,838,50,4,0,PL_16
 PL,opolskie,2020-06-21,852,50,14,0,PL_16
 PL,opolskie,2020-06-22,852,50,0,0,PL_16
+PL,opolskie,2020-06-23,857,50,5,0,PL_16
 PL,podkarpackie,2020-03-18,14,1,,,PL_18
 PL,podkarpackie,2020-03-19,17,1,3,0,PL_18
 PL,podkarpackie,2020-03-20,19,1,2,0,PL_18
@@ -775,6 +782,7 @@ PL,podkarpackie,2020-06-19,529,45,13,3,PL_18
 PL,podkarpackie,2020-06-20,536,46,7,1,PL_18
 PL,podkarpackie,2020-06-21,549,47,13,1,PL_18
 PL,podkarpackie,2020-06-22,557,47,8,0,PL_18
+PL,podkarpackie,2020-06-23,565,48,8,1,PL_18
 PL,podlaskie,2020-03-18,2,0,,,PL_20
 PL,podlaskie,2020-03-19,1,0,-1,0,PL_20
 PL,podlaskie,2020-03-20,3,0,2,0,PL_20
@@ -872,6 +880,7 @@ PL,podlaskie,2020-06-19,673,10,14,1,PL_20
 PL,podlaskie,2020-06-20,688,10,15,0,PL_20
 PL,podlaskie,2020-06-21,703,10,15,0,PL_20
 PL,podlaskie,2020-06-22,726,10,23,0,PL_20
+PL,podlaskie,2020-06-23,736,10,10,0,PL_20
 PL,pomorskie,2020-03-18,9,0,,,PL_22
 PL,pomorskie,2020-03-19,9,0,0,0,PL_22
 PL,pomorskie,2020-03-20,10,0,1,0,PL_22
@@ -969,6 +978,7 @@ PL,pomorskie,2020-06-19,601,38,2,0,PL_22
 PL,pomorskie,2020-06-20,603,38,2,0,PL_22
 PL,pomorskie,2020-06-21,615,38,12,0,PL_22
 PL,pomorskie,2020-06-22,617,38,2,0,PL_22
+PL,pomorskie,2020-06-23,636,38,19,0,PL_22
 PL,warmińsko-mazurskie,2020-03-18,11,0,,,PL_28
 PL,warmińsko-mazurskie,2020-03-19,12,0,1,0,PL_28
 PL,warmińsko-mazurskie,2020-03-20,17,0,5,0,PL_28
@@ -1066,6 +1076,7 @@ PL,warmińsko-mazurskie,2020-06-19,212,1,5,0,PL_28
 PL,warmińsko-mazurskie,2020-06-20,209,1,-3,0,PL_28
 PL,warmińsko-mazurskie,2020-06-21,209,1,0,0,PL_28
 PL,warmińsko-mazurskie,2020-06-22,211,1,2,0,PL_28
+PL,warmińsko-mazurskie,2020-06-23,213,1,2,0,PL_28
 PL,wielkopolskie,2020-03-18,13,1,,,PL_30
 PL,wielkopolskie,2020-03-19,15,1,2,0,PL_30
 PL,wielkopolskie,2020-03-20,18,1,3,0,PL_30
@@ -1163,6 +1174,7 @@ PL,wielkopolskie,2020-06-19,2440,167,11,1,PL_30
 PL,wielkopolskie,2020-06-20,2448,169,8,2,PL_30
 PL,wielkopolskie,2020-06-21,2455,170,7,1,PL_30
 PL,wielkopolskie,2020-06-22,2474,170,19,0,PL_30
+PL,wielkopolskie,2020-06-23,2501,170,27,0,PL_30
 PL,zachodniopomorskie,2020-03-18,8,0,,,PL_32
 PL,zachodniopomorskie,2020-03-19,9,0,1,0,PL_32
 PL,zachodniopomorskie,2020-03-20,9,0,0,0,PL_32
@@ -1260,6 +1272,7 @@ PL,zachodniopomorskie,2020-06-19,595,20,4,0,PL_32
 PL,zachodniopomorskie,2020-06-20,596,20,1,0,PL_32
 PL,zachodniopomorskie,2020-06-21,597,20,1,0,PL_32
 PL,zachodniopomorskie,2020-06-22,597,20,0,0,PL_32
+PL,zachodniopomorskie,2020-06-23,599,20,2,0,PL_32
 PL,łódzkie,2020-03-18,42,0,,,PL_10
 PL,łódzkie,2020-03-19,48,0,6,0,PL_10
 PL,łódzkie,2020-03-20,57,0,9,0,PL_10
@@ -1357,6 +1370,7 @@ PL,łódzkie,2020-06-19,2743,133,63,3,PL_10
 PL,łódzkie,2020-06-20,2787,133,44,0,PL_10
 PL,łódzkie,2020-06-21,2830,140,43,7,PL_10
 PL,łódzkie,2020-06-22,2878,140,48,0,PL_10
+PL,łódzkie,2020-06-23,2918,145,40,5,PL_10
 PL,śląskie,2020-03-18,30,0,,,PL_24
 PL,śląskie,2020-03-19,42,0,12,0,PL_24
 PL,śląskie,2020-03-20,46,0,4,0,PL_24
@@ -1454,6 +1468,7 @@ PL,śląskie,2020-06-19,11583,288,40,7,PL_24
 PL,śląskie,2020-06-20,11697,288,114,0,PL_24
 PL,śląskie,2020-06-21,11825,288,128,0,PL_24
 PL,śląskie,2020-06-22,11955,291,130,3,PL_24
+PL,śląskie,2020-06-23,12084,294,129,3,PL_24
 PL,świętokrzyskie,2020-03-18,4,0,,,PL_26
 PL,świętokrzyskie,2020-03-19,5,0,1,0,PL_26
 PL,świętokrzyskie,2020-03-20,6,0,1,0,PL_26
@@ -1551,3 +1566,4 @@ PL,świętokrzyskie,2020-06-19,687,30,11,0,PL_26
 PL,świętokrzyskie,2020-06-20,698,32,11,2,PL_26
 PL,świętokrzyskie,2020-06-21,704,32,6,0,PL_26
 PL,świętokrzyskie,2020-06-22,719,32,15,0,PL_26
+PL,świętokrzyskie,2020-06-23,721,34,2,2,PL_26

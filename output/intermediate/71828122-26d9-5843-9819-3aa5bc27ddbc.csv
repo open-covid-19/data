@@ -80,6 +80,7 @@ Incheon,2020-06-16,2,,2,321,0,1,KR,,incheon,KR_28
 Incheon,2020-06-17,1,,1,322,0,1,KR,,incheon,KR_28
 Incheon,2020-06-19,5,,5,327,0,1,KR,,incheon,KR_28
 Incheon,2020-06-21,1,,1,328,0,1,KR,,incheon,KR_28
+Incheon,2020-06-22,1,,1,329,0,1,KR,,incheon,KR_28
 Seoul,2020-01-24,1,,1,1,0,0,KR,,seoul,KR_11
 Seoul,2020-01-30,3,,3,4,0,0,KR,,seoul,KR_11
 Seoul,2020-01-31,3,,3,7,0,0,KR,,seoul,KR_11
@@ -198,6 +199,7 @@ Seoul,2020-06-18,18,,18,1183,0,6,KR,,seoul,KR_11
 Seoul,2020-06-19,14,,14,1197,0,6,KR,,seoul,KR_11
 Seoul,2020-06-20,17,,17,1214,0,6,KR,,seoul,KR_11
 Seoul,2020-06-21,5,,5,1219,0,6,KR,,seoul,KR_11
+Seoul,2020-06-22,6,,6,1225,0,6,KR,,seoul,KR_11
 Gyeonggi,2020-01-26,1,,1,1,0,0,KR,,gyeonggi,KR_41
 Gyeonggi,2020-01-27,1,,1,2,0,0,KR,,gyeonggi,KR_41
 Gyeonggi,2020-02-01,1,,1,3,0,0,KR,,gyeonggi,KR_41
@@ -321,6 +323,7 @@ Gyeonggi,2020-06-18,11,,11,1087,0,22,KR,,gyeonggi,KR_41
 Gyeonggi,2020-06-19,17,,17,1104,0,22,KR,,gyeonggi,KR_41
 Gyeonggi,2020-06-20,10,,10,1114,0,22,KR,,gyeonggi,KR_41
 Gyeonggi,2020-06-21,6,,6,1120,0,22,KR,,gyeonggi,KR_41
+Gyeonggi,2020-06-22,7,1,7,1127,1,23,KR,,gyeonggi,KR_41
 Jeonbuk,2020-01-31,1,,1,1,,,KR,,jeonbuk,KR_45
 Jeonbuk,2020-02-21,1,,1,2,,,KR,,jeonbuk,KR_45
 Jeonbuk,2020-02-22,1,,1,3,,,KR,,jeonbuk,KR_45
@@ -491,6 +494,7 @@ Daegu,2020-06-17,1,,1,6911,0,161,KR,,daegu,KR_27
 Daegu,2020-06-19,2,,2,6913,0,161,KR,,daegu,KR_27
 Daegu,2020-06-20,1,,1,6914,0,161,KR,,daegu,KR_27
 Daegu,2020-06-21,1,,1,6915,0,161,KR,,daegu,KR_27
+Daegu,2020-06-22,1,,1,6916,0,161,KR,,daegu,KR_27
 Gyeongbuk,2020-02-19,3,,3,3,0,0,KR,,gyeongbuk,KR_47
 Gyeongbuk,2020-02-20,21,1,21,24,1,1,KR,,gyeongbuk,KR_47
 Gyeongbuk,2020-02-21,3,1,3,27,1,2,KR,,gyeongbuk,KR_47
@@ -606,6 +610,7 @@ Chungbuk,2020-05-15,1,,1,57,,,KR,,chungbuk,KR_43
 Chungbuk,2020-05-17,3,,3,60,,,KR,,chungbuk,KR_43
 Chungbuk,2020-05-25,1,,1,61,,,KR,,chungbuk,KR_43
 Chungbuk,2020-06-06,1,,1,62,,,KR,,chungbuk,KR_43
+Chungbuk,2020-06-22,1,,1,63,,,KR,,chungbuk,KR_43
 Chungnam,2020-02-21,1,,1,1,,,KR,,chungnam,KR_44
 Chungnam,2020-02-25,1,,1,2,,,KR,,chungnam,KR_44
 Chungnam,2020-02-26,1,,1,3,,,KR,,chungnam,KR_44
@@ -806,6 +811,7 @@ Daejeon,2020-06-17,7,,7,67,0,1,KR,,daejeon,KR_30
 Daejeon,2020-06-18,6,,6,73,0,1,KR,,daejeon,KR_30
 Daejeon,2020-06-19,5,,5,78,0,1,KR,,daejeon,KR_30
 Daejeon,2020-06-20,10,,10,88,0,1,KR,,daejeon,KR_30
+Daejeon,2020-06-22,4,,4,92,0,1,KR,,daejeon,KR_30
 Gangwon,2020-02-22,5,,5,5,0,0,KR,,gangwon,KR_42
 Gangwon,2020-02-28,1,,1,6,0,0,KR,,gangwon,KR_42
 Gangwon,2020-03-01,12,,12,18,0,0,KR,,gangwon,KR_42
