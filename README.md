@@ -584,8 +584,10 @@ If you do something cool with the data (e.g., visualization or analysis), please
 
 ## Contributors
 
-The main creator of this project is Oscar Wahltinez.
-Other contributors will be listed here in the future.
+The following persons have made significant contributions to this project:
+* Oscar Wahltinez
+* Matt Lee
+* Anthony Erlinger
 
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu
