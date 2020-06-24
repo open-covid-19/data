@@ -110,6 +110,13 @@ class FranceDataSource(DataSource):
         l1 = l1.groupby(extra_indexing_columns + ["date"]).sum().reset_index()
         l1["key"] = "FR"
 
+        # Country-level data greatly differs from what's available from other sources, because only
+        # hospitalization records are available via France's authoritative source. For that reason,
+        # we remove the data types which can be obtained by other means at the country level.
+        drop_country_columns = ["new_confirmed", "new_tested"]
+        if any([col in l1.columns for col in drop_country_columns]):
+            l1 = DataFrame(data=[], columns=l1.columns)
+
         # Remove unnecessary columns (needed for concat to work properly)
         data = data.drop(
             columns=[col for col in aux["metadata"].columns if col in data and col != "key"]
