@@ -50,7 +50,7 @@ class AfghanistanHumdataDataSource(DataSource):
         data["country_code"] = "AF"
 
         # Remove redundant info from names
-        data.match_string = data.match_string.apply(lambda x: x.replace(" Province", ""))
+        data.match_string = data.match_string.str.replace("Province", "")
 
         # Output the results
         return data

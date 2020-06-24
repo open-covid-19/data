@@ -13,7 +13,7 @@
 # limitations under the License.
 
 from typing import Any, Dict, List
-from pandas import DataFrame, concat, merge
+from pandas import DataFrame, concat, merge, to_datetime
 from lib.cast import age_group, safe_datetime_parse
 from lib.io import read_file
 from lib.pipeline import DataSource
@@ -74,6 +74,7 @@ class PhilippinesDataSource(DataSource):
             subset = subset[~subset.date.isna() & (subset.date != "-   -")].dropna()
             subset[value_column] = 1
             subset = subset.groupby(index_columns).sum().reset_index()
+            subset.date = to_datetime(subset.date)
             if merged is None:
                 merged = subset
             else:
