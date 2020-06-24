@@ -30,6 +30,8 @@ auxiliary:
   metadata: ./src/data/metadata.csv
   country_codes: ./src/data/country_codes.csv
   knowledge_graph: ./src/data/knowledge_graph.csv
+  # TODO: replace with GCS URL after Cloud migration is complete
+  demographics: ./output/tables/demographics.csv
 
 sources:
 
