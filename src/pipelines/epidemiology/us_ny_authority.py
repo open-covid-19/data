@@ -44,7 +44,7 @@ class NYCHealthDataSource(DataSource):
     ) -> DataFrame:
         nyc_boros = {
             "BX": "36005",  # Bronx
-            "BN": "36047",  # Kings AKA Brooklyn
+            "BK": "36047",  # Kings AKA Brooklyn
             "MN": "36061",  # New York County AKA Manhattan
             "QN": "36081",  # Queens
             "SI": "36085",  # Richmond AKA Staten Island
