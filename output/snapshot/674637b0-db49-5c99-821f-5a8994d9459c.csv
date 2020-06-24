@@ -1,5 +1,39 @@
 Province,Cases,Deaths,Recoveries,Active Cases,Date
 #adm1+name,#affected+infected+cases,#affected+infected+deaths,#affected+infected+recoveries,#affected+infected+active,#date
+Badakhshan Province ,190,5,43,142,2020-06-23
+Badghis Province ,364,4,141,219,2020-06-23
+Baghlan Province ,539,17,170,352,2020-06-23
+Balkh Province ,"1,596",52,492,"1,052",2020-06-23
+Bamyan Province,366,7,70,289,2020-06-23
+Daykundi Province,105,1,21,83,2020-06-23
+Farah Province,242,2,22,218,2020-06-23
+Faryab Province,193,13,110,70,2020-06-23
+Ghazni Province ,408,27,138,243,2020-06-23
+Ghor Province,116,1,70,45,2020-06-23
+Helmand Province ,160,17,94,49,2020-06-23
+Herat Province,"4,572",113,"1,589","2,870",2020-06-23
+Jowzjan Province,196,6,83,107,2020-06-23
+Kabul Province ,"12,185",147,"3,883","8,155",2020-06-23
+Kandahar Province ,"1,231",20,195,"1,016",2020-06-23
+Kapisa Province,144,2,22,120,2020-06-23
+Khost Province,340,17,45,278,2020-06-23
+Kunar Province ,364,15,120,229,2020-06-23
+Kunduz Province ,404,7,65,332,2020-06-23
+Laghman Province ,324,4,101,219,2020-06-23
+Logar Province ,445,15,113,317,2020-06-23
+Nangarhar Province ,"1,307",45,284,978,2020-06-23
+Nimruz Province ,326,6,162,158,2020-06-23
+Nuristan Province,66,0,12,54,2020-06-23
+Paktia Province ,942,16,150,776,2020-06-23
+Paktika Province ,168,2,130,36,2020-06-23
+Panjshir Province ,245,10,104,131,2020-06-23
+Parwan Province ,329,10,86,233,2020-06-23
+Samangan Province ,304,9,222,73,2020-06-23
+Sar-e Pol Province,130,2,70,58,2020-06-23
+Takhar Province ,752,14,168,570,2020-06-23
+Urozgan Province ,38,5,9,24,2020-06-23
+Wardak Province,267,10,182,75,2020-06-23
+Zabul Province ,109,4,56,49,2020-06-23
 Badakhshan Province,139,0,3,,2020-06-16
 Badghis Province,331,3,50,,2020-06-16
 Baghlan Province,450,16,134,,2020-06-16

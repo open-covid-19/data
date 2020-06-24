@@ -375,6 +375,11 @@ sources:
     fetch:
       - url: "https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv"
 
+  # Data sources for US_NY level 3 (NYC only)
+  - name: pipelines.epidemiology.us_ny_authority.NYCHealthDataSource
+    fetch:
+      - url: "https://raw.githubusercontent.com/nychealth/coronavirus-data/master/boro/boroughs-case-hosp-death.csv"
+
   # Data sources for US_TX level 2
   - name: pipelines.epidemiology.us_tx_authority.TexasDataSource
     fetch:
