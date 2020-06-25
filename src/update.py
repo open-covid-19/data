@@ -58,7 +58,6 @@ def main(
     ), "--only and --exclude options cannot be used simultaneously"
 
     # Ensure that there is an output folder to put the data in
-    (output_folder / "snapshot").mkdir(parents=True, exist_ok=True)
     (output_folder / "intermediate").mkdir(parents=True, exist_ok=True)
     (output_folder / "tables").mkdir(parents=True, exist_ok=True)
 

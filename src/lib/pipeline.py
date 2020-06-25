@@ -182,24 +182,35 @@ class DataSource:
         return None
 
     def run(
-        self, output_folder: Path, cache: Dict[str, str], aux: Dict[str, DataFrame]
+        self,
+        output_folder: Path,
+        cache: Dict[str, str],
+        aux: Dict[str, DataFrame],
+        offline: bool = False,
     ) -> DataFrame:
         """
         Executes the fetch, parse and merge steps for this data source.
 
         Args:
-            output_folder: root folder where snapshot, intermediate and tables will be placed.
-            cache: map of data sources that are stored in the cache layer (used for daily-only).
-            aux: map of auxiliary DataFrames used as part of the processing of this DataSource.
+            output_folder: Root folder where snapshot, intermediate and tables will be placed.
+            cache: Map of data sources that are stored in the cache layer (used for daily-only).
+            aux: Map of auxiliary DataFrames used as part of the processing of this DataSource.
+            offline: Flag indicating whether to use the locally stored snapshots if possible.
 
         Returns:
-            DataFrame: processed data, with columns defined in config.yaml corresponding to the
+            DataFrame: Processed data, with columns defined in config.yaml corresponding to the
                 DataPipeline that this DataSource is part of.
         """
         data: DataFrame = None
 
+        # Insert offline flag to fetch options if requested
+        fetch_opts = self.config.get("fetch", [])
+        if offline:
+            for opt in fetch_opts:
+                opt["opts"] = {**opt.get("opts", {}), "offline": True}
+
         # Fetch the data, feeding the cached resources to the fetch step
-        data = self.fetch(output_folder, cache, self.config.get("fetch", []))
+        data = self.fetch(output_folder, cache, fetch_opts)
 
         # Make yet another copy of the auxiliary table to avoid affecting future steps in `parse`
         parse_opts = self.config.get("parse", {})
@@ -288,9 +299,7 @@ class DataPipeline:
     """ List of <data source, option> tuples executed in order """
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
-        "metadata": ROOT / "src" / "data" / "metadata.csv",
-        "country_codes": ROOT / "src" / "data" / "country_codes.csv",
-        "knowledge_graph": ROOT / "src" / "data" / "knowledge_graph.csv",
+        "metadata": ROOT / "src" / "data" / "metadata.csv"
     }
     """ Auxiliary datasets passed to the pipelines during processing """
 
@@ -302,7 +311,7 @@ class DataPipeline:
     ):
         super().__init__()
         self.schema = schema
-        self.auxiliary_tables = auxiliary
+        self.auxiliary_tables = {**self.auxiliary_tables, **auxiliary}
         self.data_sources = data_sources
 
     @staticmethod

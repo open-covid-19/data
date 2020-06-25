@@ -41,12 +41,17 @@ def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: b
         str: Absolute path where this file was downloaded. This is a deterministic output; the same
             URL will always produce the same output path.
     """
+
+    # Create the snapshots folder if it does not exist
+    (output_folder / "snapshot").mkdir(parents=True, exist_ok=True)
+
+    # Create a deterministic file name
     if ext is None:
         ext = url.split(".")[-1]
     file_path = output_folder / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
 
-    # Download the file if online
-    if not offline:
+    # Skip download of the file if offline flag is present or if the file does not exist
+    if not offline or not file_path.exists():
         with open(file_path, "wb") as file_handle:
             download(url, file_handle)
 
