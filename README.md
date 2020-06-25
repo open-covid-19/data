@@ -104,6 +104,16 @@ few snippets to get started.
 You can use Google Colab if you want to run your analysis without having to install anything in your
 computer, simply go to this URL: https://colab.research.google.com/github/open-covid-19/data.
 
+### Google Sheets
+You can import the data directly into Google Sheets, as long as you stay within the size limits.
+For instance, the following formula loads the latest epidemiology data into the current sheet:
+```python
+=IMPORTDATA("https://open-covid-19.github.io/data/v2/latest/epidemiology.csv")
+```
+Note that Google Sheets has a size limitation, so only data from the `latest` subfolder can be
+imported automatically. To work around that, simply download the file and import it via the File
+menu.
+
 ### R
 If you prefer R, then this is all you need to do to load the epidemiology data:
 ```R
@@ -119,9 +129,9 @@ data = pandas.read_csv("https://open-covid-19.github.io/data/v2/master.csv")
 
 ### jQuery
 Loading the JSON file using jQuery can be done directly from the output folder,
-this code snippet loads the master table into the `data` variable:
+this code snippet loads the epidemiology table into the `data` variable:
 ```javascript
-$.getJSON("https://open-covid-19.github.io/data/v2/master.json", data => { ... }
+$.getJSON("https://open-covid-19.github.io/data/v2/epidemiology.json", data => { ... }
 ```
 
 ### Powershell
