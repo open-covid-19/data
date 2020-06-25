@@ -82,6 +82,7 @@ NO,agder,2020-06-21,344,0,NO_42
 NO,agder,2020-06-22,346,2,NO_42
 NO,agder,2020-06-23,346,0,NO_42
 NO,agder,2020-06-24,346,0,NO_42
+NO,agder,2020-06-25,346,0,NO_42
 NO,innlandet,2020-03-20,115,,NO_34
 NO,innlandet,2020-03-21,125,10,NO_34
 NO,innlandet,2020-03-22,148,23,NO_34
@@ -165,6 +166,7 @@ NO,innlandet,2020-06-21,513,0,NO_34
 NO,innlandet,2020-06-22,514,1,NO_34
 NO,innlandet,2020-06-23,514,0,NO_34
 NO,innlandet,2020-06-24,514,0,NO_34
+NO,innlandet,2020-06-25,514,0,NO_34
 NO,møre og romsdal,2020-03-20,29,,NO_15
 NO,møre og romsdal,2020-03-21,32,3,NO_15
 NO,møre og romsdal,2020-03-22,38,6,NO_15
@@ -248,6 +250,7 @@ NO,møre og romsdal,2020-06-21,148,0,NO_15
 NO,møre og romsdal,2020-06-22,148,0,NO_15
 NO,møre og romsdal,2020-06-23,148,0,NO_15
 NO,møre og romsdal,2020-06-24,148,0,NO_15
+NO,møre og romsdal,2020-06-25,148,0,NO_15
 NO,nordland,2020-03-20,17,,NO_18
 NO,nordland,2020-03-21,17,0,NO_18
 NO,nordland,2020-03-22,19,2,NO_18
@@ -331,6 +334,7 @@ NO,nordland,2020-06-21,123,0,NO_18
 NO,nordland,2020-06-22,125,2,NO_18
 NO,nordland,2020-06-23,125,0,NO_18
 NO,nordland,2020-06-24,125,0,NO_18
+NO,nordland,2020-06-25,125,0,NO_18
 NO,oslo,2020-03-20,419,,NO_03
 NO,oslo,2020-03-21,448,29,NO_03
 NO,oslo,2020-03-22,523,75,NO_03
@@ -414,6 +418,7 @@ NO,oslo,2020-06-21,2802,0,NO_03
 NO,oslo,2020-06-22,2823,21,NO_03
 NO,oslo,2020-06-23,2827,4,NO_03
 NO,oslo,2020-06-24,2832,5,NO_03
+NO,oslo,2020-06-25,2832,0,NO_03
 NO,rogaland,2020-03-20,180,,NO_11
 NO,rogaland,2020-03-21,199,19,NO_11
 NO,rogaland,2020-03-22,219,20,NO_11
@@ -497,6 +502,7 @@ NO,rogaland,2020-06-21,442,0,NO_11
 NO,rogaland,2020-06-22,442,0,NO_11
 NO,rogaland,2020-06-23,442,0,NO_11
 NO,rogaland,2020-06-24,443,1,NO_11
+NO,rogaland,2020-06-25,443,0,NO_11
 NO,troms og finnmark,2020-03-20,32,,NO_54
 NO,troms og finnmark,2020-03-21,37,5,NO_54
 NO,troms og finnmark,2020-03-22,49,12,NO_54
@@ -580,6 +586,7 @@ NO,troms og finnmark,2020-06-21,253,0,NO_54
 NO,troms og finnmark,2020-06-22,253,0,NO_54
 NO,troms og finnmark,2020-06-23,253,0,NO_54
 NO,troms og finnmark,2020-06-24,253,0,NO_54
+NO,troms og finnmark,2020-06-25,253,0,NO_54
 NO,trøndelag,2020-03-20,97,,NO_50
 NO,trøndelag,2020-03-21,122,25,NO_50
 NO,trøndelag,2020-03-22,131,9,NO_50
@@ -663,6 +670,7 @@ NO,trøndelag,2020-06-21,535,0,NO_50
 NO,trøndelag,2020-06-22,536,1,NO_50
 NO,trøndelag,2020-06-23,536,0,NO_50
 NO,trøndelag,2020-06-24,538,2,NO_50
+NO,trøndelag,2020-06-25,538,0,NO_50
 NO,vestfold og telemark,2020-03-20,72,,NO_38
 NO,vestfold og telemark,2020-03-21,81,9,NO_38
 NO,vestfold og telemark,2020-03-22,85,4,NO_38
@@ -746,6 +754,7 @@ NO,vestfold og telemark,2020-06-21,293,0,NO_38
 NO,vestfold og telemark,2020-06-22,296,3,NO_38
 NO,vestfold og telemark,2020-06-23,296,0,NO_38
 NO,vestfold og telemark,2020-06-24,296,0,NO_38
+NO,vestfold og telemark,2020-06-25,296,0,NO_38
 NO,vestland,2020-03-20,173,,NO_46
 NO,vestland,2020-03-21,200,27,NO_46
 NO,vestland,2020-03-22,214,14,NO_46
@@ -829,6 +838,7 @@ NO,vestland,2020-06-21,885,0,NO_46
 NO,vestland,2020-06-22,886,1,NO_46
 NO,vestland,2020-06-23,886,0,NO_46
 NO,vestland,2020-06-24,888,2,NO_46
+NO,vestland,2020-06-25,888,0,NO_46
 NO,viken,2020-03-20,529,,NO_30
 NO,viken,2020-03-21,583,54,NO_30
 NO,viken,2020-03-22,615,32,NO_30
@@ -912,3 +922,4 @@ NO,viken,2020-06-21,2370,0,NO_30
 NO,viken,2020-06-22,2376,6,NO_30
 NO,viken,2020-06-23,2377,1,NO_30
 NO,viken,2020-06-24,2392,15,NO_30
+NO,viken,2020-06-25,2392,0,NO_30
