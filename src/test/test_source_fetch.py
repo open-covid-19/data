@@ -28,7 +28,10 @@ from .profiled_test_case import ProfiledTestCase
 DUMMY_DATA_SOURCE_AUX = {"metadata": DataFrame()}
 DUMMY_DATA_SOURCE_CONFIG = {
     "fetch": [
-        {"url": "http://samplecsvs.s3.amazonaws.com/SalesJan2009.csv", "opts": {"offline": False}}
+        {
+            "url": "http://samplecsvs.s3.amazonaws.com/SalesJan2009.csv",
+            "opts": {"skip_existing": False},
+        }
     ]
 }
 
@@ -50,20 +53,20 @@ class TestSourceFetch(ProfiledTestCase):
             snapshot_files = (output_folder / "snapshot").glob("*.csv")
             self.assertEqual(1, len(list(snapshot_files)))
 
-    def test_fetch_offline(self):
+    def test_fetch_skip_existing(self):
         src = DummyDataSouce()
         original_fetch_func = src.fetch
 
         def monkey_patch_fetch(
             output_folder: Path, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]
         ):
-            self.assertEqual(True, fetch_opts[0].get("opts", {}).get("offline"))
+            self.assertEqual(True, fetch_opts[0].get("opts", {}).get("skip_existing"))
             return original_fetch_func(output_folder, cache, fetch_opts)
 
         src.fetch = monkey_patch_fetch
         with TemporaryDirectory() as output_folder:
             output_folder = Path(output_folder)
-            src.run(output_folder, {}, DUMMY_DATA_SOURCE_AUX, offline=True)
+            src.run(output_folder, {}, DUMMY_DATA_SOURCE_AUX, skip_existing=True)
 
 
 if __name__ == "__main__":
