@@ -93,6 +93,78 @@ AZ,Azerbaijan,,,,,,-1,nan,az,azerbaijan,nan,nan,nan,nan,Q227,country/AZE,AZ,AZE,
 BA,Bosnia and Herzegovina,,,,,,-1,nan,ba,bosniaherzegovina,nan,nan,nan,nan,Q225,country/BIH,BA,BIH,0,BA
 BB,Barbados,,,,,,-1,nan,bb,barbados,nan,nan,nan,nan,Q244,country/BRB,BB,BRB,0,BB
 BD,Bangladesh,,,,,,-1,nan,bd,bangladesh,nan,nan,nan,nan,Q902,country/BGD,BD,BGD,0,BD
+BD,Bangladesh,01,Bandarban District,,,,,nan,bd,bangladesh,,bandarban,nan,nan,Q806273,,BD,BGD,1,BD_01
+BD,Bangladesh,02,Barguna District,,,,,nan,bd,bangladesh,,barguna,nan,nan,Q808172,,BD,BGD,1,BD_02
+BD,Bangladesh,03,Bogra District,,,,,nan,bd,bangladesh,,bogra,nan,nan,Q2039066,,BD,BGD,1,BD_03
+BD,Bangladesh,04,Brahmanbaria District,,,,,nan,bd,bangladesh,,brahmanbaria,nan,nan,Q897330,,BD,BGD,1,BD_04
+BD,Bangladesh,05,Bagerhat District,,,,,nan,bd,bangladesh,,bagerhat,nan,nan,Q2344861,,BD,BGD,1,BD_05
+BD,Bangladesh,06,Barisal District,,,,,nan,bd,bangladesh,,barisal,nan,nan,Q1763301,,BD,BGD,1,BD_06
+BD,Bangladesh,07,Bhola District,,,,,nan,bd,bangladesh,,bhola,nan,nan,Q855042,,BD,BGD,1,BD_07
+BD,Bangladesh,08,Comilla District,,,,,nan,bd,bangladesh,,comilla,nan,nan,Q1480778,,BD,BGD,1,BD_08
+BD,Bangladesh,09,Chandpur District,,,,,nan,bd,bangladesh,,chandpur,nan,nan,Q1429697,,BD,BGD,1,BD_09
+BD,Bangladesh,10,Chittagong District,,,,,nan,bd,bangladesh,,chittagong,nan,nan,Q1074991,,BD,BGD,1,BD_10
+BD,Bangladesh,11,Cox's Bazar District,,,,,nan,bd,bangladesh,,coxsbazar,nan,nan,Q1122278,,BD,BGD,1,BD_11
+BD,Bangladesh,12,Chuadanga District,,,,,nan,bd,bangladesh,,chuadanga,nan,nan,Q2094570,,BD,BGD,1,BD_12
+BD,Bangladesh,13,Dhaka District,,,,,nan,bd,bangladesh,,dhaka,nan,nan,Q1850485,,BD,BGD,1,BD_13
+BD,Bangladesh,14,Dinajpur District,,,,,nan,bd,bangladesh,,dinajpur,nan,nan,Q1985120,,BD,BGD,1,BD_14
+BD,Bangladesh,15,Faridpur District,,,,,nan,bd,bangladesh,,faridpur,nan,nan,Q2093552,,BD,BGD,1,BD_15
+BD,Bangladesh,16,Feni District,,,,,nan,bd,bangladesh,,feni,nan,nan,Q1404741,,BD,BGD,1,BD_16
+BD,Bangladesh,17,Gopalganj District,,,,,nan,bd,bangladesh,,gopalganj,nan,nan,Q1537813,,BD,BGD,1,BD_17
+BD,Bangladesh,18,Gazipur District,,,,,nan,bd,bangladesh,,gazipur,nan,nan,Q2094101,,BD,BGD,1,BD_18
+BD,Bangladesh,19,Gaibandha District,,,,,nan,bd,bangladesh,,gaibandha,nan,nan,Q2344595,,BD,BGD,1,BD_19
+BD,Bangladesh,20,Habiganj District,,,,,nan,bd,bangladesh,,habiganj,nan,nan,Q1438974,,BD,BGD,1,BD_20
+BD,Bangladesh,21,Jamalpur District,,,,,nan,bd,bangladesh,,jamalpur,nan,nan,Q2039306,,BD,BGD,1,BD_21
+BD,Bangladesh,22,Jessore District,,,,,nan,bd,bangladesh,,jessore,nan,nan,Q1862981,,BD,BGD,1,BD_22
+BD,Bangladesh,23,Jhenaidah District,,,,,nan,bd,bangladesh,,jhenaidah,nan,nan,Q2188750,,BD,BGD,1,BD_23
+BD,Bangladesh,24,Joypurhat District,,,,,nan,bd,bangladesh,,joypurhat,nan,nan,Q2348146,,BD,BGD,1,BD_24
+BD,Bangladesh,25,Jhalokati District,,,,,nan,bd,bangladesh,,jhalokati,nan,nan,Q2093327,,BD,BGD,1,BD_25
+BD,Bangladesh,26,Kishoreganj District,,,,,nan,bd,bangladesh,,kishoreganj,nan,nan,Q2344833,,BD,BGD,1,BD_26
+BD,Bangladesh,27,Khulna District,,,,,nan,bd,bangladesh,,khulna,nan,nan,Q2093344,,BD,BGD,1,BD_27
+BD,Bangladesh,28,Kurigram District,,,,,nan,bd,bangladesh,,kurigram,nan,nan,Q2348751,,BD,BGD,1,BD_28
+BD,Bangladesh,29,Khagrachari District,,,Khagrachhari,,khagrachhari,bd,bangladesh,,khagrachari,nan,nan,Q1429685,,BD,BGD,1,BD_29
+BD,Bangladesh,30,Kushtia District,,,,,nan,bd,bangladesh,,kushtia,nan,nan,Q956895,,BD,BGD,1,BD_30
+BD,Bangladesh,31,Lakshmipur District,,,,,nan,bd,bangladesh,,lakshmipur,nan,nan,Q1550252,,BD,BGD,1,BD_31
+BD,Bangladesh,32,Lalmonirhat District,,,,,nan,bd,bangladesh,,lalmonirhat,nan,nan,Q2373734,,BD,BGD,1,BD_32
+BD,Bangladesh,33,Manikganj District,,,,,nan,bd,bangladesh,,manikganj,nan,nan,Q2024719,,BD,BGD,1,BD_33
+BD,Bangladesh,34,Mymensingh District,,,,,nan,bd,bangladesh,,mymensingh,nan,nan,Q1429976,,BD,BGD,1,BD_34
+BD,Bangladesh,35,Munshiganj District,,,,,nan,bd,bangladesh,,munshiganj,nan,nan,Q1990519,,BD,BGD,1,BD_35
+BD,Bangladesh,36,Madaripur District,,,,,nan,bd,bangladesh,,madaripur,nan,nan,Q928836,,BD,BGD,1,BD_36
+BD,Bangladesh,37,Magura District,,,,,nan,bd,bangladesh,,magura,nan,nan,Q2039085,,BD,BGD,1,BD_37
+BD,Bangladesh,38,Moulvibazar District,,,Maulvibazar,,maulvibazar,bd,bangladesh,,moulvibazar,nan,nan,Q281435,,BD,BGD,1,BD_38
+BD,Bangladesh,39,Meherpur District,,,,,nan,bd,bangladesh,,meherpur,nan,nan,Q1474206,,BD,BGD,1,BD_39
+BD,Bangladesh,40,Narayanganj District,,,,,nan,bd,bangladesh,,narayanganj,nan,nan,Q2208354,,BD,BGD,1,BD_40
+BD,Bangladesh,41,Netrokona District,,,Netrakona,,netrakona,bd,bangladesh,,netrokona,nan,nan,Q2344966,,BD,BGD,1,BD_41
+BD,Bangladesh,42,Narsingdi District,,,,,nan,bd,bangladesh,,narsingdi,nan,nan,Q2042638,,BD,BGD,1,BD_42
+BD,Bangladesh,43,Narail District,,,,,nan,bd,bangladesh,,narail,nan,nan,Q1550260,,BD,BGD,1,BD_43
+BD,Bangladesh,44,Natore District,,,,,nan,bd,bangladesh,,natore,nan,nan,Q2093361,,BD,BGD,1,BD_44
+BD,Bangladesh,45,Chapai Nawabganj District,,,Nawabganj,,nawabganj,bd,bangladesh,,chapainawabganj,nan,nan,Q46043,,BD,BGD,1,BD_45
+BD,Bangladesh,46,Nilphamari District,,,,,nan,bd,bangladesh,,nilphamari,nan,nan,Q2188627,,BD,BGD,1,BD_46
+BD,Bangladesh,47,Noakhali District,,,,,nan,bd,bangladesh,,noakhali,nan,nan,Q68585,,BD,BGD,1,BD_47
+BD,Bangladesh,48,Naogaon District,,,,,nan,bd,bangladesh,,naogaon,nan,nan,Q2094277,,BD,BGD,1,BD_48
+BD,Bangladesh,49,Pabna District,,,,,nan,bd,bangladesh,,pabna,nan,nan,Q1083505,,BD,BGD,1,BD_49
+BD,Bangladesh,50,Pirojpur District,,,,,nan,bd,bangladesh,,pirojpur,nan,nan,Q609190,,BD,BGD,1,BD_50
+BD,Bangladesh,51,Patuakhali District,,,,,nan,bd,bangladesh,,patuakhali,nan,nan,Q1429761,,BD,BGD,1,BD_51
+BD,Bangladesh,52,Panchagarh District,,,,,nan,bd,bangladesh,,panchagarh,nan,nan,Q2367822,,BD,BGD,1,BD_52
+BD,Bangladesh,53,Rajbari District,,,,,nan,bd,bangladesh,,rajbari,nan,nan,Q2348762,,BD,BGD,1,BD_53
+BD,Bangladesh,54,Rajshahi District,,,,,nan,bd,bangladesh,,rajshahi,nan,nan,Q2344697,,BD,BGD,1,BD_54
+BD,Bangladesh,55,Rangpur District,,,,,nan,bd,bangladesh,,rangpur,nan,nan,Q2344570,,BD,BGD,1,BD_55
+BD,Bangladesh,56,Rangamati Hill District,,,Rangamati,,rangamati,bd,bangladesh,,rangamatihill,nan,nan,Q2121686,,BD,BGD,1,BD_56
+BD,Bangladesh,57,Sherpur District,,,,,nan,bd,bangladesh,,sherpur,nan,nan,Q2039314,,BD,BGD,1,BD_57
+BD,Bangladesh,58,Satkhira District,,,,,nan,bd,bangladesh,,satkhira,nan,nan,Q1233680,,BD,BGD,1,BD_58
+BD,Bangladesh,59,Sirajganj District,,,,,nan,bd,bangladesh,,sirajganj,nan,nan,Q2429432,,BD,BGD,1,BD_59
+BD,Bangladesh,60,Sylhet District,,,,,nan,bd,bangladesh,,sylhet,nan,nan,Q2093352,,BD,BGD,1,BD_60
+BD,Bangladesh,61,Sunamganj District,,,,,nan,bd,bangladesh,,sunamganj,nan,nan,Q2093388,,BD,BGD,1,BD_61
+BD,Bangladesh,62,Shariatpur District,,,,,nan,bd,bangladesh,,shariatpur,nan,nan,Q253007,,BD,BGD,1,BD_62
+BD,Bangladesh,63,Tangail District,,,,,nan,bd,bangladesh,,tangail,nan,nan,Q952184,,BD,BGD,1,BD_63
+BD,Bangladesh,64,Thakurgaon District,,,,,nan,bd,bangladesh,,thakurgaon,nan,nan,Q2367825,,BD,BGD,1,BD_64
+BD,Bangladesh,A,Barisal Division,,,,,nan,bd,bangladesh,a,barisaldivision,nan,nan,Q459723,,BD,BGD,1,BD_A
+BD,Bangladesh,B,Chittagong Division,,,,,nan,bd,bangladesh,b,chittagongdivision,nan,nan,Q158087,,BD,BGD,1,BD_B
+BD,Bangladesh,C,Dhaka Division,,,,,nan,bd,bangladesh,c,dhakadivision,nan,nan,Q330158,,BD,BGD,1,BD_C
+BD,Bangladesh,D,Khulna Division,,,,,nan,bd,bangladesh,d,khulnadivision,nan,nan,Q501696,,BD,BGD,1,BD_D
+BD,Bangladesh,E,Rajshahi Division,,,,,nan,bd,bangladesh,e,rajshahidivision,nan,nan,Q379382,,BD,BGD,1,BD_E
+BD,Bangladesh,F,Rangpur Division,,,,,nan,bd,bangladesh,f,rangpurdivision,nan,nan,Q876023,,BD,BGD,1,BD_F
+BD,Bangladesh,G,Sylhet Division,,,,,nan,bd,bangladesh,g,sylhetdivision,nan,nan,Q459732,,BD,BGD,1,BD_G
+BD,Bangladesh,H,Mymensingh Division,,,,,nan,bd,bangladesh,h,mymensinghdivision,nan,nan,Q19594930,,BD,BGD,1,BD_H
 BE,Belgium,,,,,,-1,nan,be,belgium,nan,nan,nan,nan,Q31,country/BEL,BE,BEL,0,BE
 BF,Burkina Faso,,,,,,-1,nan,bf,burkinafaso,nan,nan,nan,nan,Q965,country/BFA,BF,BFA,0,BF
 BG,Bulgaria,,,,,,-1,nan,bg,bulgaria,nan,nan,nan,nan,Q219,country/BGR,BG,BGR,0,BG
@@ -2807,7 +2879,7 @@ PY,Paraguay,6,Caazapá,,,,,nan,py,paraguay,,caazapa,nan,nan,Q881839,,PY,PRY,1,PY
 PY,Paraguay,7,Itapúa,,,,,nan,py,paraguay,,itapua,nan,nan,Q222564,,PY,PRY,1,PY_7
 PY,Paraguay,8,Misiones Department,,,,,nan,py,paraguay,,misiones,nan,nan,Q591194,,PY,PRY,1,PY_8
 PY,Paraguay,9,Paraguarí Department,,,,,nan,py,paraguay,,paraguari,nan,nan,Q240014,,PY,PRY,1,PY_9
-PY,Paraguay,ASU,Capital District,,,Asunción,,asuncion,py,paraguay,asu,capitaldistrict,nan,nan,Q2723419,,PY,PRY,1,PY_ASU
+PY,Paraguay,ASU,Capital District,,,Asunción,,asuncion,py,paraguay,asu,capital,nan,nan,Q2723419,,PY,PRY,1,PY_ASU
 QA,Qatar,,,,,,-1,nan,qa,qatar,nan,nan,nan,nan,Q846,country/QAT,QA,QAT,0,QA
 RE,Réunion,,,,,,-1,nan,re,reunion,nan,nan,nan,nan,Q17070,country/REU,RE,REU,0,RE
 RO,Romania,,,,,,-1,nan,ro,romania,nan,nan,nan,nan,Q218,country/ROU,RO,ROU,0,RO
@@ -3320,8 +3392,8 @@ US,United States of America,DE,Delaware,,,,,nan,us,unitedstatesamerica,de,delawa
 US,United States of America,DE,Delaware,10001,Kent County,,,nan,us,unitedstatesamerica,de,delaware,,kentcounty,Q128137,geoId/10001,US,USA,2,US_DE_10001
 US,United States of America,DE,Delaware,10003,New Castle County,,,nan,us,unitedstatesamerica,de,delaware,,newcastlecounty,Q156156,geoId/10003,US,USA,2,US_DE_10003
 US,United States of America,DE,Delaware,10005,Sussex County,,,nan,us,unitedstatesamerica,de,delaware,,sussexcounty,Q156213,geoId/10005,US,USA,2,US_DE_10005
-US,United States of America,DC,District of Columbia,,,,,nan,us,unitedstatesamerica,dc,districtcolumbia,nan,nan,Q61,geoId/11001,US,USA,1,US_DC
-US,United States of America,DC,District of Columbia,11001,District of Columbia,,,nan,us,unitedstatesamerica,dc,districtcolumbia,,districtcolumbia,Q61,geoId/11001,US,USA,2,US_DC_11001
+US,United States of America,DC,District of Columbia,,,,,nan,us,unitedstatesamerica,dc,columbia,nan,nan,Q61,geoId/11001,US,USA,1,US_DC
+US,United States of America,DC,District of Columbia,11001,District of Columbia,,,nan,us,unitedstatesamerica,dc,columbia,,columbia,Q61,geoId/11001,US,USA,2,US_DC_11001
 US,United States of America,FL,Florida,,,,,nan,us,unitedstatesamerica,fl,florida,nan,nan,Q812,geoId/12,US,USA,1,US_FL
 US,United States of America,FL,Florida,12001,Alachua County,,,nan,us,unitedstatesamerica,fl,florida,,alachuacounty,Q488826,geoId/12001,US,USA,2,US_FL_12001
 US,United States of America,FL,Florida,12003,Baker County,,,nan,us,unitedstatesamerica,fl,florida,,bakercounty,Q156568,geoId/12003,US,USA,2,US_FL_12003
@@ -6292,7 +6364,7 @@ UZ,Uzbekistan,,,,,,-1,nan,uz,uzbekistan,nan,nan,nan,nan,Q265,country/UZB,UZ,UZB,
 VA,Vatican City,,,,,,-1,nan,va,vaticancity,nan,nan,nan,nan,Q237,country/VAT,VA,VAT,0,VA
 VC,Saint Vincent and the Grenadines,,,,,,-1,nan,vc,saintvincentthegrenadines,nan,nan,nan,nan,Q757,country/VCT,VC,VCT,0,VC
 VE,Venezuela,,,,,,-1,nan,ve,venezuela,nan,nan,nan,nan,Q717,country/VEN,VE,VEN,0,VE
-VE,Venezuela,A,Capital District,,,Distrito Capital,,distritocapital,ve,venezuela,a,capitaldistrict,nan,nan,Q492791,,VE,VEN,1,VE_A
+VE,Venezuela,A,Capital District,,,Distrito Capital,,distritocapital,ve,venezuela,a,capital,nan,nan,Q492791,,VE,VEN,1,VE_A
 VE,Venezuela,B,Anzoátegui,,,,,nan,ve,venezuela,b,anzoategui,nan,nan,Q190922,,VE,VEN,1,VE_B
 VE,Venezuela,C,Apure,,,,,nan,ve,venezuela,c,apure,nan,nan,Q41146,,VE,VEN,1,VE_C
 VE,Venezuela,D,Aragua,,,,,nan,ve,venezuela,d,aragua,nan,nan,Q190687,,VE,VEN,1,VE_D

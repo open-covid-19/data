@@ -93,6 +93,78 @@ AZ,Q227,country/AZE,AZ,Azerbaijan,,,,,AZ,AZE,0
 BA,Q225,country/BIH,BA,Bosnia and Herzegovina,,,,,BA,BIH,0
 BB,Q244,country/BRB,BB,Barbados,,,,,BB,BRB,0
 BD,Q902,country/BGD,BD,Bangladesh,,,,,BD,BGD,0
+BD_01,Q806273,,BD,Bangladesh,01,Bandarban District,,,BD,BGD,1
+BD_02,Q808172,,BD,Bangladesh,02,Barguna District,,,BD,BGD,1
+BD_03,Q2039066,,BD,Bangladesh,03,Bogra District,,,BD,BGD,1
+BD_04,Q897330,,BD,Bangladesh,04,Brahmanbaria District,,,BD,BGD,1
+BD_05,Q2344861,,BD,Bangladesh,05,Bagerhat District,,,BD,BGD,1
+BD_06,Q1763301,,BD,Bangladesh,06,Barisal District,,,BD,BGD,1
+BD_07,Q855042,,BD,Bangladesh,07,Bhola District,,,BD,BGD,1
+BD_08,Q1480778,,BD,Bangladesh,08,Comilla District,,,BD,BGD,1
+BD_09,Q1429697,,BD,Bangladesh,09,Chandpur District,,,BD,BGD,1
+BD_10,Q1074991,,BD,Bangladesh,10,Chittagong District,,,BD,BGD,1
+BD_11,Q1122278,,BD,Bangladesh,11,Cox's Bazar District,,,BD,BGD,1
+BD_12,Q2094570,,BD,Bangladesh,12,Chuadanga District,,,BD,BGD,1
+BD_13,Q1850485,,BD,Bangladesh,13,Dhaka District,,,BD,BGD,1
+BD_14,Q1985120,,BD,Bangladesh,14,Dinajpur District,,,BD,BGD,1
+BD_15,Q2093552,,BD,Bangladesh,15,Faridpur District,,,BD,BGD,1
+BD_16,Q1404741,,BD,Bangladesh,16,Feni District,,,BD,BGD,1
+BD_17,Q1537813,,BD,Bangladesh,17,Gopalganj District,,,BD,BGD,1
+BD_18,Q2094101,,BD,Bangladesh,18,Gazipur District,,,BD,BGD,1
+BD_19,Q2344595,,BD,Bangladesh,19,Gaibandha District,,,BD,BGD,1
+BD_20,Q1438974,,BD,Bangladesh,20,Habiganj District,,,BD,BGD,1
+BD_21,Q2039306,,BD,Bangladesh,21,Jamalpur District,,,BD,BGD,1
+BD_22,Q1862981,,BD,Bangladesh,22,Jessore District,,,BD,BGD,1
+BD_23,Q2188750,,BD,Bangladesh,23,Jhenaidah District,,,BD,BGD,1
+BD_24,Q2348146,,BD,Bangladesh,24,Joypurhat District,,,BD,BGD,1
+BD_25,Q2093327,,BD,Bangladesh,25,Jhalokati District,,,BD,BGD,1
+BD_26,Q2344833,,BD,Bangladesh,26,Kishoreganj District,,,BD,BGD,1
+BD_27,Q2093344,,BD,Bangladesh,27,Khulna District,,,BD,BGD,1
+BD_28,Q2348751,,BD,Bangladesh,28,Kurigram District,,,BD,BGD,1
+BD_29,Q1429685,,BD,Bangladesh,29,Khagrachari District,,,BD,BGD,1
+BD_30,Q956895,,BD,Bangladesh,30,Kushtia District,,,BD,BGD,1
+BD_31,Q1550252,,BD,Bangladesh,31,Lakshmipur District,,,BD,BGD,1
+BD_32,Q2373734,,BD,Bangladesh,32,Lalmonirhat District,,,BD,BGD,1
+BD_33,Q2024719,,BD,Bangladesh,33,Manikganj District,,,BD,BGD,1
+BD_34,Q1429976,,BD,Bangladesh,34,Mymensingh District,,,BD,BGD,1
+BD_35,Q1990519,,BD,Bangladesh,35,Munshiganj District,,,BD,BGD,1
+BD_36,Q928836,,BD,Bangladesh,36,Madaripur District,,,BD,BGD,1
+BD_37,Q2039085,,BD,Bangladesh,37,Magura District,,,BD,BGD,1
+BD_38,Q281435,,BD,Bangladesh,38,Moulvibazar District,,,BD,BGD,1
+BD_39,Q1474206,,BD,Bangladesh,39,Meherpur District,,,BD,BGD,1
+BD_40,Q2208354,,BD,Bangladesh,40,Narayanganj District,,,BD,BGD,1
+BD_41,Q2344966,,BD,Bangladesh,41,Netrokona District,,,BD,BGD,1
+BD_42,Q2042638,,BD,Bangladesh,42,Narsingdi District,,,BD,BGD,1
+BD_43,Q1550260,,BD,Bangladesh,43,Narail District,,,BD,BGD,1
+BD_44,Q2093361,,BD,Bangladesh,44,Natore District,,,BD,BGD,1
+BD_45,Q46043,,BD,Bangladesh,45,Chapai Nawabganj District,,,BD,BGD,1
+BD_46,Q2188627,,BD,Bangladesh,46,Nilphamari District,,,BD,BGD,1
+BD_47,Q68585,,BD,Bangladesh,47,Noakhali District,,,BD,BGD,1
+BD_48,Q2094277,,BD,Bangladesh,48,Naogaon District,,,BD,BGD,1
+BD_49,Q1083505,,BD,Bangladesh,49,Pabna District,,,BD,BGD,1
+BD_50,Q609190,,BD,Bangladesh,50,Pirojpur District,,,BD,BGD,1
+BD_51,Q1429761,,BD,Bangladesh,51,Patuakhali District,,,BD,BGD,1
+BD_52,Q2367822,,BD,Bangladesh,52,Panchagarh District,,,BD,BGD,1
+BD_53,Q2348762,,BD,Bangladesh,53,Rajbari District,,,BD,BGD,1
+BD_54,Q2344697,,BD,Bangladesh,54,Rajshahi District,,,BD,BGD,1
+BD_55,Q2344570,,BD,Bangladesh,55,Rangpur District,,,BD,BGD,1
+BD_56,Q2121686,,BD,Bangladesh,56,Rangamati Hill District,,,BD,BGD,1
+BD_57,Q2039314,,BD,Bangladesh,57,Sherpur District,,,BD,BGD,1
+BD_58,Q1233680,,BD,Bangladesh,58,Satkhira District,,,BD,BGD,1
+BD_59,Q2429432,,BD,Bangladesh,59,Sirajganj District,,,BD,BGD,1
+BD_60,Q2093352,,BD,Bangladesh,60,Sylhet District,,,BD,BGD,1
+BD_61,Q2093388,,BD,Bangladesh,61,Sunamganj District,,,BD,BGD,1
+BD_62,Q253007,,BD,Bangladesh,62,Shariatpur District,,,BD,BGD,1
+BD_63,Q952184,,BD,Bangladesh,63,Tangail District,,,BD,BGD,1
+BD_64,Q2367825,,BD,Bangladesh,64,Thakurgaon District,,,BD,BGD,1
+BD_A,Q459723,,BD,Bangladesh,A,Barisal Division,,,BD,BGD,1
+BD_B,Q158087,,BD,Bangladesh,B,Chittagong Division,,,BD,BGD,1
+BD_C,Q330158,,BD,Bangladesh,C,Dhaka Division,,,BD,BGD,1
+BD_D,Q501696,,BD,Bangladesh,D,Khulna Division,,,BD,BGD,1
+BD_E,Q379382,,BD,Bangladesh,E,Rajshahi Division,,,BD,BGD,1
+BD_F,Q876023,,BD,Bangladesh,F,Rangpur Division,,,BD,BGD,1
+BD_G,Q459732,,BD,Bangladesh,G,Sylhet Division,,,BD,BGD,1
+BD_H,Q19594930,,BD,Bangladesh,H,Mymensingh Division,,,BD,BGD,1
 BE,Q31,country/BEL,BE,Belgium,,,,,BE,BEL,0
 BF,Q965,country/BFA,BF,Burkina Faso,,,,,BF,BFA,0
 BG,Q219,country/BGR,BG,Bulgaria,,,,,BG,BGR,0
