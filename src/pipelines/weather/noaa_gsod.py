@@ -13,7 +13,6 @@
 # limitations under the License.
 
 import re
-import sys
 import math
 import tarfile
 import datetime
@@ -21,19 +20,17 @@ from io import BytesIO
 from random import shuffle
 from pathlib import Path
 from functools import partial
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List
 
 import numpy
-import requests
 from tqdm import tqdm
 from tqdm.contrib import concurrent
-from pandas import DataFrame, Series, Int64Dtype, merge, read_csv, concat, isna
+from pandas import DataFrame, Series, read_csv, concat
 
-from lib.cast import safe_int_cast, safe_float_cast
+from lib.cast import safe_float_cast
 from lib.net import download
-from lib.pipeline import DataSource, DataSource, DataPipeline
-from lib.time import datetime_isoformat
-from lib.utils import ROOT, combine_tables
+from lib.pipeline import DataSource
+from lib.utils import ROOT
 
 
 _COLUMN_MAPPING = {
@@ -87,7 +84,7 @@ class NoaaGsodDataSource(DataSource):
 
     @staticmethod
     def noaa_number(value: int):
-        return None if value in (99.99, 999.9, 9999) else safe_float_cast(value)
+        return None if re.match(r"999+", str(value).replace(".", "")) else safe_float_cast(value)
 
     @staticmethod
     def conv_temp(value: int):
@@ -111,7 +108,7 @@ class NoaaGsodDataSource(DataSource):
             nearest, location.lat, location.lon
         )
 
-        # Filter out the 10 nearest stations
+        # Filter out all but the 10 nearest stations
         nearest = nearest[nearest.distance < _DISTANCE_THRESHOLD].sort_values("distance").iloc[:10]
 
         # Early exit: no stations found within distance threshold
@@ -122,13 +119,23 @@ class NoaaGsodDataSource(DataSource):
 
         # Get station records from the cache
         nearest = nearest.rename(columns={"id": "noaa_station", "distance": "noaa_distance"})
-        station_tables = [
-            station_cache.get(station_id) for station_id in nearest.noaa_station.values
+        data = [station_cache.get(station_id) for station_id in nearest.noaa_station.values]
+        data = concat(
+            [table.merge(nearest, on="noaa_station") for table in data if table is not None]
+        )
+
+        # Combine them by computing a simple average
+        value_columns = [
+            "average_temperature",
+            "minimum_temperature",
+            "maximum_temperature",
+            "rainfall",
+            "snowfall",
         ]
-        station_tables = [
-            table.merge(nearest, on="noaa_station") for table in station_tables if table is not None
-        ]
-        data = combine_tables(reversed(station_tables), ["date", "key"])
+        agg_functions = {col: "mean" for col in value_columns}
+        agg_functions["noaa_station"] = "first"
+        agg_functions["noaa_distance"] = "first"
+        data = data.groupby(["date", "key"]).agg(agg_functions).reset_index()
 
         # Return all the available data from the records
         return data[[col for col in _OUTPUT_COLUMNS if col in data.columns]]
