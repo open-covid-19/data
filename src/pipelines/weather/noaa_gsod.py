@@ -30,7 +30,7 @@ from pandas import DataFrame, Series, read_csv, concat
 from lib.cast import safe_float_cast
 from lib.net import download
 from lib.pipeline import DataSource
-from lib.utils import combine_tables
+from lib.utils import ROOT
 
 
 _COLUMN_MAPPING = {
