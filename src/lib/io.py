@@ -12,13 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
 import re
-import sys
 from io import StringIO
 from pathlib import Path
 from typing import Callable, List, Union
-from argparse import ArgumentParser
 
 import pandas
 from unidecode import unidecode
@@ -29,12 +26,12 @@ from bs4 import BeautifulSoup, Tag
 from .cast import safe_int_cast
 
 
-def fuzzy_text(text: str, remove_spaces: bool = True):
+def fuzzy_text(text: str, remove_regex: str = r"[^a-z\s]", remove_spaces: bool = True):
     # TODO: handle bad inputs (like empty text)
     text = unidecode(str(text)).lower()
     for token in ("y", "and", "of"):
         text = re.sub(f" {token} ", " ", text)
-    text = re.sub(r"[^a-z\s]", "", text)
+    text = re.sub(remove_regex, "", text)
     text = re.sub(r"^region", "", text)
     text = re.sub(r"region$", "", text)
     text = re.sub(r"^borough", "", text)
@@ -43,6 +40,8 @@ def fuzzy_text(text: str, remove_spaces: bool = True):
     text = re.sub(r"province$", "", text)
     text = re.sub(r"^department", "", text)
     text = re.sub(r"department$", "", text)
+    text = re.sub(r"^district", "", text)
+    text = re.sub(r"district$", "", text)
     text = re.sub(r"\s+", "" if remove_spaces else " ", text)
     return text.strip()
 

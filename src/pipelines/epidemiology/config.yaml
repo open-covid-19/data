@@ -93,6 +93,11 @@ sources:
       date_format: "%d %B"
       cumsum: true
 
+  # Data sources for BD level 2
+  - name: pipelines.epidemiology.bd_humdata.BangladeshHumdataDataSource
+    fetch:
+      - url: "https://data.humdata.org/dataset/4bc533e5-03d5-4e85-ae11-7345869bbfb4/resource/f8037c99-1a73-4ae1-8471-8d8ec4ff87d1/download/district-wise-confirmed-recovered-cases_08.06.2020.xlsx"
+
   # Data sources for BR level 2
   - name: pipelines.epidemiology.br_covid19_brazil_timeseries.Covid19BrazilTimeseriesDataSource
     fetch:

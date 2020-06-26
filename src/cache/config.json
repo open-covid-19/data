@@ -46,5 +46,10 @@
         "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKB9-H7tQmfs_MwoITnT8Z0j6qxPXkEQAL4DpgZ2gLRjGzR_pr4Oew-9XjYOClHbqqWT69Rrg_Tp4h/pub?output=csv",
         "cmd": "static_fetch",
         "output": "travel_restrictions_pairs.csv"
+    },
+    {
+        "url": "http://covid19tracker.gov.bd/api/district",
+        "cmd": "static_fetch",
+        "output": "BD_districts_confirmed.json"
     }
 ]

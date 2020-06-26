@@ -13,7 +13,6 @@
 # limitations under the License.
 
 import re
-import sys
 import uuid
 import warnings
 import importlib
@@ -39,7 +38,6 @@ from .io import read_file, fuzzy_text, export_csv
 from .utils import (
     ROOT,
     CACHE_URL,
-    column_convert,
     combine_tables,
     drop_na_records,
     filter_output_columns,

@@ -13,15 +13,12 @@
 # limitations under the License.
 
 import os
-import json
-import warnings
 from pathlib import Path
 from functools import partial, reduce
 from typing import Any, Callable, List, Dict, Tuple, Optional
 from tqdm import tqdm
 from numpy import unique
-from pandas import DataFrame, Series, concat, isna, isnull, merge
-from .cast import column_convert
+from pandas import DataFrame, Series, concat, isna, merge
 from .io import fuzzy_text
 
 ROOT = Path(os.path.dirname(__file__)) / ".." / ".."
@@ -30,7 +27,7 @@ CACHE_URL = "https://raw.githubusercontent.com/open-covid-19/data/cache"
 
 
 def get_or_default(dict_like: Dict, key: Any, default: Any):
-    return dict_like[key] if key in dict_like and not isnull(dict_like[key]) else default
+    return dict_like[key] if key in dict_like and not isna(dict_like[key]) else default
 
 
 def pivot_table(data: DataFrame, pivot_name: str = "pivot", value_name: str = "value") -> DataFrame:
@@ -40,6 +37,17 @@ def pivot_table(data: DataFrame, pivot_name: str = "pivot", value_name: str = "v
     values: List[Any] = sum([column.tolist() for name, column in data.iteritems()], [])
     records = zip(dates, pivots, values)
     return DataFrame.from_records(records, columns=[data.index.name, pivot_name, value_name])
+
+
+def pivot_table_date_columns(
+    data: DataFrame, pivot_name: str = "date", value_name: str = "value"
+) -> DataFrame:
+    """ Put a table in time series format when the dates are columns and keys are index """
+    records = []
+    for idx, row in data.iterrows():
+        for pivot in data.columns:
+            records.append({"index": idx, pivot_name: pivot, value_name: row[pivot]})
+    return DataFrame.from_records(records).set_index("index")
 
 
 def table_rename(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
@@ -64,7 +72,7 @@ def agg_last_not_null(series: Series, progress_bar: Optional[tqdm] = None) -> Se
     """ Aggregator function used to keep the last non-null value in a list of rows """
     if progress_bar:
         progress_bar.update()
-    return reduce(lambda x, y: y if not isnull(y) else x, series)
+    return reduce(lambda x, y: y if not isna(y) else x, series)
 
 
 def combine_tables(
