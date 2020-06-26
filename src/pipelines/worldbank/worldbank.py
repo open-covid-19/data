@@ -14,6 +14,7 @@
 
 import zipfile
 from io import BytesIO
+from pathlib import Path
 from functools import partial
 from typing import Any, Dict, List, Tuple
 
@@ -42,7 +43,9 @@ class WorldbankDataSource(DataSource):
             print(record)
         return None
 
-    def fetch(self, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]):
+    def fetch(
+        self, output_folder: Path, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]
+    ) -> List[str]:
         # Data file is too big to store in Git, so pass-through the URL to parse manually
         return [source["url"] for source in fetch_opts]
 

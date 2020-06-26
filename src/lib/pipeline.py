@@ -186,7 +186,7 @@ class DataSource:
         output_folder: Path,
         cache: Dict[str, str],
         aux: Dict[str, DataFrame],
-        offline: bool = False,
+        skip_existing: bool = False,
     ) -> DataFrame:
         """
         Executes the fetch, parse and merge steps for this data source.
@@ -195,7 +195,7 @@ class DataSource:
             output_folder: Root folder where snapshot, intermediate and tables will be placed.
             cache: Map of data sources that are stored in the cache layer (used for daily-only).
             aux: Map of auxiliary DataFrames used as part of the processing of this DataSource.
-            offline: Flag indicating whether to use the locally stored snapshots if possible.
+            skip_existing: Flag indicating whether to use the locally stored snapshots if possible.
 
         Returns:
             DataFrame: Processed data, with columns defined in config.yaml corresponding to the
@@ -203,11 +203,11 @@ class DataSource:
         """
         data: DataFrame = None
 
-        # Insert offline flag to fetch options if requested
+        # Insert skip_existing flag to fetch options if requested
         fetch_opts = self.config.get("fetch", [])
-        if offline:
+        if skip_existing:
             for opt in fetch_opts:
-                opt["opts"] = {**opt.get("opts", {}), "offline": True}
+                opt["opts"] = {**opt.get("opts", {}), "skip_existing": True}
 
         # Fetch the data, feeding the cached resources to the fetch step
         data = self.fetch(output_folder, cache, fetch_opts)
@@ -456,9 +456,12 @@ class DataPipeline:
         # Reload all intermediate results from disk
         # In-memory results are discarded, this ensures reproducibility and allows for data sources
         # to fail since the last successful intermediate result will be used in the combined output
-        pipeline_outputs = [
-            read_file(source_output) for source_output in intermediate_outputs_files
-        ]
+        pipeline_outputs = []
+        for source_output in intermediate_outputs_files:
+            try:
+                pipeline_outputs += [read_file(source_output)]
+            except Exception as exc:
+                warnings.warn(f"Failed to read intermediate file {source_output}. Error: {exc}")
 
         # Get rid of all columns which are not part of the output to speed up data combination
         pipeline_outputs = [

@@ -22,7 +22,9 @@ from tqdm import tqdm
 from .utils import ROOT
 
 
-def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: bool = False) -> str:
+def download_snapshot(
+    url: str, output_folder: Path, ext: str = None, skip_existing: bool = False
+) -> str:
     """
     This function downloads a file into the snapshots folder and outputs the
     hashed file name based on the input URL. This is used to ensure
@@ -33,8 +35,8 @@ def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: b
         url: URL to download a resource from
         output_folder: Root folder where snapshot, intermediate and tables will be placed.
         ext: Force extension when creating output file, handy when it cannot be guessed from URL.
-        offline: If true, skip download and simply return the deterministic path where this file
-            would have been downloaded.
+        skip_existing: If true, skip download and simply return the deterministic path where this
+            file would have been downloaded. If the file does not exist, this flag is ignored.
 
     Returns:
         str: Absolute path where this file was downloaded. This is a deterministic output; the same
@@ -49,9 +51,9 @@ def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: b
         ext = url.split(".")[-1]
     file_path = output_folder / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
 
-    # Only download the file if offline flag is not present
-    # The offline flag is ignored if the file does not already exist
-    if not offline or not file_path.exists():
+    # Only download the file if skip_existing flag is not present
+    # The skip_existing flag is ignored if the file does not already exist
+    if not skip_existing or not file_path.exists():
         with open(file_path, "wb") as file_handle:
             download(url, file_handle)
 
@@ -59,13 +61,16 @@ def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: b
     return str(file_path.absolute())
 
 
-def download(url: Union[Path, str], file_handle: Union[Path, str], progress: bool = False):
+def download(url: str, file_handle: BinaryIO, progress: bool = False) -> None:
     """ https://stackoverflow.com/a/37573701 """
     if not progress:
-        file_handle.write(requests.get(url).content)
+        req = requests.get(url)
+        req.raise_for_status()
+        file_handle.write(req.content)
     else:
         block_size = 1024
         req = requests.get(url, stream=True)
+        req.raise_for_status()
         total_size = int(req.headers.get("content-length", 0))
         progress_bar = tqdm(total=total_size, unit="iB", unit_scale=True)
         for data in req.iter_content(block_size):

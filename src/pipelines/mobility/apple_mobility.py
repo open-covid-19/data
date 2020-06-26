@@ -15,6 +15,7 @@
 import re
 import numpy
 import requests
+from pathlib import Path
 from typing import Any, Dict, List, Tuple
 from pandas import DataFrame, concat, isnull
 from lib.cast import safe_int_cast
@@ -27,7 +28,9 @@ _url_base = "https://covid19-static.cdn-apple.com"
 
 
 class AppleMobilityDataSource(DataSource):
-    def fetch(self, cache: Dict[str, List[str]], fetch_opts: List[Dict[str, Any]]):
+    def fetch(
+        self, output_folder: Path, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]
+    ) -> List[str]:
         api_res = requests.get(fetch_opts[0]["url"]).json()
         fetch_opts = [
             {"url": f"{_url_base}{api_res['basePath']}{api_res['regions']['en-us']['csvPath']}"}

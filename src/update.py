@@ -69,19 +69,21 @@ def main(
             all_pipeline_names.append(item.name)
 
     # Verify that all of the provided pipeline names exist as pipelines
-    only = only.split(",") if only is not None else []
-    exclude = exclude.split(",") if exclude is not None else []
-    for pipeline_name in only + exclude:
+    for pipeline_name in (only or []) + (exclude or []):
         assert pipeline_name in all_pipeline_names, f'"{pipeline_name}" pipeline does not exist'
 
     # Run all the pipelines and place their outputs into the output folder
     # The output name for each pipeline chain will be the name of the directory that the chain is in
     for pipeline_name in all_pipeline_names:
         table_name = pipeline_name.replace("_", "-")
-        if table_name in exclude or not table_name in only:
+        # Skip if `exclude` was provided and this table is in it
+        if exclude is not None and table_name in exclude:
             continue
-        pipeline_chain = DataPipeline.load(pipeline_name)
-        pipeline_output = pipeline_chain.run(
+        # Skip is `only` was provided and this table is not in it
+        if only is not None and not table_name in only:
+            continue
+        data_pipeline = DataPipeline.load(pipeline_name)
+        pipeline_output = data_pipeline.run(
             pipeline_name,
             output_folder,
             verify=verify,
@@ -92,6 +94,7 @@ def main(
 
 
 if __name__ == "__main__":
+
     # Process command-line arguments
     argparser = ArgumentParser()
     argparser.add_argument("--only", type=str, default=None)
@@ -107,11 +110,14 @@ if __name__ == "__main__":
         profiler = cProfile.Profile()
         profiler.enable()
 
+    only = args.only.split(",") if args.only is not None else None
+    exclude = args.exclude.split(",") if args.exclude is not None else None
+
     main(
         Path(args.output_folder),
         verify=args.verify,
-        only=args.only,
-        exclude=args.exclude,
+        only=only,
+        exclude=exclude,
         process_count=args.process_count,
         show_progress=not args.no_progress,
     )

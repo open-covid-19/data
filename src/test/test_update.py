@@ -26,7 +26,7 @@ class TestUpdate(ProfiledTestCase):
         with TemporaryDirectory() as output_folder:
             output_folder = Path(output_folder)
             quick_pipeline_name = "index"  # Pick a pipeline that is quick to run
-            update_data(output_folder, only=quick_pipeline_name)
+            update_data(output_folder, only=[quick_pipeline_name])
             self.assertSetEqual(
                 set(subfolder.name for subfolder in output_folder.iterdir()),
                 {"intermediate", "tables", "snapshot"},
@@ -37,9 +37,9 @@ class TestUpdate(ProfiledTestCase):
             output_folder = Path(output_folder)
             bad_pipeline_name = "does_not_exist"
             with self.assertRaises(AssertionError):
-                update_data(output_folder, only=bad_pipeline_name)
+                update_data(output_folder, only=[bad_pipeline_name])
             with self.assertRaises(AssertionError):
-                update_data(output_folder, exclude=bad_pipeline_name)
+                update_data(output_folder, exclude=[bad_pipeline_name])
 
 
 if __name__ == "__main__":
