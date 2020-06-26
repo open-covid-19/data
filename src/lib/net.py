@@ -26,7 +26,7 @@ def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: b
     """
     This function downloads a file into the snapshots folder and outputs the
     hashed file name based on the input URL. This is used to ensure
-    reproducibility in downstream processing, which will not require to network
+    reproducibility in downstream processing, which will not require network
     access.
 
     Args:
@@ -49,7 +49,8 @@ def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: b
         ext = url.split(".")[-1]
     file_path = output_folder / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
 
-    # Skip download of the file if offline flag is present or if the file does not exist
+    # Only download the file if offline flag is not present
+    # The offline flag is ignored if the file does not already exist
     if not offline or not file_path.exists():
         with open(file_path, "wb") as file_handle:
             download(url, file_handle)
