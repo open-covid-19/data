@@ -280,6 +280,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-23,China,China,85070,4646,79983,51,0,13,CN
 2020-06-24,China,China,85099,4647,79991,29,1,8,CN
 2020-06-25,China,China,85119,4647,79999,20,0,8,CN
+2020-06-26,China,China,85134,4648,80001,15,1,2,CN
 2020-01-22,China,Chongqing,5,0,0,,,,CN_CQ
 2020-01-23,China,Chongqing,9,0,0,4,0,0,CN_CQ
 2020-01-24,China,Chongqing,27,0,0,18,0,0,CN_CQ
@@ -1154,6 +1155,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-23,China,Hong Kong,1161,5,1078,30,0,0,CN_HK
 2020-06-24,China,Hong Kong,1177,6,1083,16,1,5,CN_HK
 2020-06-25,China,Hong Kong,1179,6,1086,2,0,3,CN_HK
+2020-06-26,China,Hong Kong,1193,7,1088,14,1,2,CN_HK
 2020-01-22,China,Hubei,375,9,25,,,,CN_HB
 2020-01-23,China,Hubei,444,17,28,69,8,3,CN_HB
 2020-01-24,China,Hubei,549,24,31,105,7,3,CN_HB
@@ -2464,6 +2466,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-16,China,Taiwan,445,7,433,0,0,2,CN_TW
 2020-06-18,China,Taiwan,446,7,434,1,0,1,CN_TW
 2020-06-23,China,Taiwan,446,7,435,0,0,1,CN_TW
+2020-06-26,China,Taiwan,447,7,435,1,0,0,CN_TW
 2020-01-22,China,Tianjin,4,0,0,,,,CN_TJ
 2020-01-24,China,Tianjin,7,0,0,3,0,0,CN_TJ
 2020-01-25,China,Tianjin,9,0,0,2,0,0,CN_TJ
