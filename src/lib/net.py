@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # Copyright 2020 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,22 +22,36 @@ from tqdm import tqdm
 from .utils import ROOT
 
 
-def download_snapshot(url: Union[Path, str], ext: str = None, offline: bool = False) -> str:
+def download_snapshot(url: str, output_folder: Path, ext: str = None, offline: bool = False) -> str:
     """
     This function downloads a file into the snapshots folder and outputs the
     hashed file name based on the input URL. This is used to ensure
-    reproducibility in downstream processing, which will not require to network
+    reproducibility in downstream processing, which will not require network
     access.
+
+    Args:
+        url: URL to download a resource from
+        output_folder: Root folder where snapshot, intermediate and tables will be placed.
+        ext: Force extension when creating output file, handy when it cannot be guessed from URL.
+        offline: If true, skip download and simply return the deterministic path where this file
+            would have been downloaded.
+
+    Returns:
+        str: Absolute path where this file was downloaded. This is a deterministic output; the same
+            URL will always produce the same output path.
     """
-    url = str(url)
+
+    # Create the snapshots folder if it does not exist
+    (output_folder / "snapshot").mkdir(parents=True, exist_ok=True)
+
+    # Create a deterministic file name
     if ext is None:
         ext = url.split(".")[-1]
-    file_path = (
-        ROOT / "output" / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
-    )
+    file_path = output_folder / "snapshot" / ("%s.%s" % (uuid.uuid5(uuid.NAMESPACE_DNS, url), ext))
 
-    # Download the file if online
-    if not offline:
+    # Only download the file if offline flag is not present
+    # The offline flag is ignored if the file does not already exist
+    if not offline or not file_path.exists():
         with open(file_path, "wb") as file_handle:
             download(url, file_handle)
 

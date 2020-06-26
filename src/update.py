@@ -27,56 +27,97 @@ from lib.io import export_csv
 from lib.pipeline import DataPipeline
 from lib.utils import ROOT
 
-# Step 1: Add your pipeline chain to this import block
-import pipelines.epidemiology
 
-# Process command-line arguments
-argarser = ArgumentParser()
-argarser.add_argument("--only", type=str, default=None)
-argarser.add_argument("--exclude", type=str, default=None)
-argarser.add_argument("--verify", type=str, default=None)
-argarser.add_argument("--profile", action="store_true")
-argarser.add_argument("--no-progress", action="store_true")
-argarser.add_argument("--process-count", type=int, default=cpu_count())
-args = argarser.parse_args()
+def main(
+    output_folder: Path,
+    verify: str = None,
+    only: List[str] = None,
+    exclude: List[str] = None,
+    process_count: int = cpu_count(),
+    show_progress: bool = True,
+) -> None:
+    """
+    Executes the data pipelines and places all outputs into `output_folder`. This is typically
+    followed by publishing of the contents of the output folder to a server.
 
-assert not (
-    args.only is not None and args.exclude is not None
-), "--only and --exclude options cannot be used simultaneously"
+    Args:
+        output_folder: Root folder where snapshot, intermediate and tables will be placed.
+        verify: Run anomaly detection on the outputs using this strategy. Value must be one of:
+            - None: (default) perform no anomaly detection
+            - "simple": perform only fast anomaly detection
+            - "full": perform exhaustive anomaly detection (can be very slow)
+        only: If provided, only pipelines with a name appearing in this list will be run.
+        exclude: If provided, pipelines with a name appearing in this list will not be run.
+        process_count: Maximum number of processes to use during the data pipeline execution.
+        show_progress: Display progress for the execution of individual DataSources within this
+            pipeline.
+    """
+
+    assert not (
+        only is not None and exclude is not None
+    ), "--only and --exclude options cannot be used simultaneously"
+
+    # Ensure that there is an output folder to put the data in
+    (output_folder / "snapshot").mkdir(parents=True, exist_ok=True)
+    (output_folder / "intermediate").mkdir(parents=True, exist_ok=True)
+    (output_folder / "tables").mkdir(parents=True, exist_ok=True)
+
+    # A pipeline chain is any subfolder not starting with "_" in the pipelines folder
+    all_pipeline_names = []
+    for item in (ROOT / "src" / "pipelines").iterdir():
+        if not item.name.startswith("_") and not item.is_file():
+            all_pipeline_names.append(item.name)
+
+    # Verify that all of the provided pipeline names exist as pipelines
+    only = only.split(",") if only is not None else []
+    exclude = exclude.split(",") if exclude is not None else []
+    for pipeline_name in only + exclude:
+        assert pipeline_name in all_pipeline_names, f'"{pipeline_name}" pipeline does not exist'
+
+    # Run all the pipelines and place their outputs into the output folder
+    # The output name for each pipeline chain will be the name of the directory that the chain is in
+    for pipeline_name in all_pipeline_names:
+        table_name = pipeline_name.replace("_", "-")
+        if table_name in exclude or not table_name in only:
+            continue
+        pipeline_chain = DataPipeline.load(pipeline_name)
+        pipeline_output = pipeline_chain.run(
+            pipeline_name,
+            output_folder,
+            verify=verify,
+            process_count=process_count,
+            progress=show_progress,
+        )
+        export_csv(pipeline_output, output_folder / "tables" / f"{table_name}.csv")
 
 
-# Ensure that there is an output folder to put the data in
-(ROOT / "output" / "snapshot").mkdir(parents=True, exist_ok=True)
-(ROOT / "output" / "intermediate").mkdir(parents=True, exist_ok=True)
-(ROOT / "output" / "tables").mkdir(parents=True, exist_ok=True)
+if __name__ == "__main__":
+    # Process command-line arguments
+    argparser = ArgumentParser()
+    argparser.add_argument("--only", type=str, default=None)
+    argparser.add_argument("--exclude", type=str, default=None)
+    argparser.add_argument("--verify", type=str, default=None)
+    argparser.add_argument("--profile", action="store_true")
+    argparser.add_argument("--no-progress", action="store_true")
+    argparser.add_argument("--process-count", type=int, default=cpu_count())
+    argparser.add_argument("--output-folder", type=str, default=str(ROOT / "output"))
+    args = argparser.parse_args()
 
-if args.profile:
-    profiler = cProfile.Profile()
-    profiler.enable()
+    if args.profile:
+        profiler = cProfile.Profile()
+        profiler.enable()
 
-# A pipeline chain is any subfolder not starting with "_" in the pipelines folder
-all_pipeline_chains = []
-for item in (ROOT / "src" / "pipelines").iterdir():
-    if not item.name.startswith("_") and not item.is_file():
-        all_pipeline_chains.append(item.name)
-
-# Run all the pipelines and place their outputs into the output folder
-# The output name for each pipeline chain will be the name of the directory that the chain is in
-for pipeline_name in all_pipeline_chains:
-    table_name = pipeline_name.replace("_", "-")
-    if args.only and not table_name in args.only.split(","):
-        continue
-    if args.exclude and table_name in args.exclude.split(","):
-        continue
-    pipeline_chain = DataPipeline.load(pipeline_name)
-    show_progress = not args.no_progress
-    pipeline_output = pipeline_chain.run(
-        pipeline_name, verify=args.verify, process_count=args.process_count, progress=show_progress
+    main(
+        Path(args.output_folder),
+        verify=args.verify,
+        only=args.only,
+        exclude=args.exclude,
+        process_count=args.process_count,
+        show_progress=not args.no_progress,
     )
-    export_csv(pipeline_output, ROOT / "output" / "tables" / f"{table_name}.csv")
 
-if args.profile:
-    stats = Stats(profiler)
-    stats.strip_dirs()
-    stats.sort_stats("cumtime")
-    stats.print_stats(20)
+    if args.profile:
+        stats = Stats(profiler)
+        stats.strip_dirs()
+        stats.sort_stats("cumtime")
+        stats.print_stats(20)

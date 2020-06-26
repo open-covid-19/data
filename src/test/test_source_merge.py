@@ -13,12 +13,11 @@
 # limitations under the License.
 
 import sys
-import cProfile
-from pstats import Stats
-from unittest import TestCase, main
+from unittest import main
 
 from pandas import DataFrame
 from lib.pipeline import DataSource
+from .profiled_test_case import ProfiledTestCase
 
 # Synthetic data used for testing
 TEST_AUX_DATA = DataFrame.from_records(
@@ -165,19 +164,7 @@ TEST_AUX_DATA = DataFrame.from_records(
 )
 
 
-class TestSourceMerge(TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.profiler = cProfile.Profile()
-        cls.profiler.enable()
-
-    @classmethod
-    def tearDownClass(cls):
-        stats = Stats(cls.profiler)
-        stats.strip_dirs()
-        stats.sort_stats("cumtime")
-        stats.print_stats(20)
-
+class TestSourceMerge(ProfiledTestCase):
     def test_merge_no_match(self):
         aux = TEST_AUX_DATA.copy()
         pipeline = DataSource()

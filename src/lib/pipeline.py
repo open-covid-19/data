@@ -71,10 +71,23 @@ class DataSource:
         super().__init__()
         self.config = config or {}
 
-    def fetch(self, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]) -> List[str]:
-        """ Downloads the required resources and returns a list of local paths. """
+    def fetch(
+        self, output_folder: Path, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]
+    ) -> List[str]:
+        """
+        Downloads the required resources and returns a list of local paths.
+
+        Args:
+            output_folder: Root folder where snapshot, intermediate and tables will be placed.
+            cache: Map of data sources that are stored in the cache layer (used for daily-only).
+            fetch_opts: Additional options defined in the DataPipeline config.yaml.
+
+        Returns:
+            List[str]: List of absolute paths where the fetched resources were stored, in the same
+                order as they are defined in `config`.
+        """
         return [
-            download_snapshot(source_config["url"], **source_config.get("opts", {}))
+            download_snapshot(source_config["url"], output_folder, **source_config.get("opts", {}))
             for source_config in fetch_opts
         ]
 
@@ -168,11 +181,36 @@ class DataSource:
         warnings.warn("No key match found for:\n{}".format(record))
         return None
 
-    def run(self, cache: Dict[str, str], aux: Dict[str, DataFrame]) -> DataFrame:
+    def run(
+        self,
+        output_folder: Path,
+        cache: Dict[str, str],
+        aux: Dict[str, DataFrame],
+        offline: bool = False,
+    ) -> DataFrame:
+        """
+        Executes the fetch, parse and merge steps for this data source.
+
+        Args:
+            output_folder: Root folder where snapshot, intermediate and tables will be placed.
+            cache: Map of data sources that are stored in the cache layer (used for daily-only).
+            aux: Map of auxiliary DataFrames used as part of the processing of this DataSource.
+            offline: Flag indicating whether to use the locally stored snapshots if possible.
+
+        Returns:
+            DataFrame: Processed data, with columns defined in config.yaml corresponding to the
+                DataPipeline that this DataSource is part of.
+        """
         data: DataFrame = None
 
+        # Insert offline flag to fetch options if requested
+        fetch_opts = self.config.get("fetch", [])
+        if offline:
+            for opt in fetch_opts:
+                opt["opts"] = {**opt.get("opts", {}), "offline": True}
+
         # Fetch the data, feeding the cached resources to the fetch step
-        data = self.fetch(cache, self.config.get("fetch", []))
+        data = self.fetch(output_folder, cache, fetch_opts)
 
         # Make yet another copy of the auxiliary table to avoid affecting future steps in `parse`
         parse_opts = self.config.get("parse", {})
@@ -261,9 +299,7 @@ class DataPipeline:
     """ List of <data source, option> tuples executed in order """
 
     auxiliary_tables: Dict[str, Union[Path, str]] = {
-        "metadata": ROOT / "src" / "data" / "metadata.csv",
-        "country_codes": ROOT / "src" / "data" / "country_codes.csv",
-        "knowledge_graph": ROOT / "src" / "data" / "knowledge_graph.csv",
+        "metadata": ROOT / "src" / "data" / "metadata.csv"
     }
     """ Auxiliary datasets passed to the pipelines during processing """
 
@@ -275,13 +311,14 @@ class DataPipeline:
     ):
         super().__init__()
         self.schema = schema
-        self.auxiliary_tables = auxiliary
+        self.auxiliary_tables = {**self.auxiliary_tables, **auxiliary}
         self.data_sources = data_sources
 
     @staticmethod
     def load(name: str):
         config_path = ROOT / "src" / "pipelines" / name / "config.yaml"
-        config_yaml = yaml.safe_load(open(config_path, "r"))
+        with open(config_path, "r") as fd:
+            config_yaml = yaml.safe_load(fd)
         schema = {
             name: DataPipeline._parse_dtype(dtype) for name, dtype in config_yaml["schema"].items()
         }
@@ -327,20 +364,26 @@ class DataPipeline:
 
     @staticmethod
     def _run_wrapper(
-        source_cache_aux: Tuple[DataSource, Dict[str, str], Dict[str, DataFrame]]
+        output_folder: Path,
+        cache: Dict[str, str],
+        aux: Dict[str, DataFrame],
+        data_source: DataSource,
     ) -> Optional[DataFrame]:
         """ Workaround necessary for multiprocess pool, which does not accept lambda functions """
-        data_source, cache, aux = source_cache_aux
         try:
-            return data_source.run(cache, aux)
-        except Exception as exc:
-            warnings.warn("Error running data source {}".format(data_source.__class__.__name__))
+            return data_source.run(output_folder, cache, aux)
+        except Exception:
+            data_source_name = data_source.__class__.__name__
+            warnings.warn(
+                f"Error running data source {data_source_name} with config {data_source.config}"
+            )
             traceback.print_exc()
         return None
 
     def run(
         self,
         pipeline_name: str,
+        output_folder: Path,
         process_count: int = cpu_count(),
         verify: str = "simple",
         progress: bool = True,
@@ -370,31 +413,35 @@ class DataPipeline:
 
         # Get all the pipeline outputs
         # This operation is parallelized but output order is preserved
-        map_iter = [
-            # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
-            # we allow for local modification (which might be wanted for optimization purposes)
-            (data_source, cache, {name: df.copy() for name, df in aux.items()})
-            for data_source in self.data_sources
-        ]
+
+        # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
+        # we allow for local modification (which might be wanted for optimization purposes)
+        aux_copy = {name: df.copy() for name, df in aux.items()}
+
+        # Create a function to be used during mapping. The nestedness is an unfortunate outcome of
+        # the multiprocessing module's limitations when dealing with lambda functions, coupled with
+        # the "sandboxing" we implement to ensure resiliency.
+        run_func = partial(DataPipeline._run_wrapper, output_folder, cache, aux_copy)
 
         # If the process count is less than one, run in series (useful to evaluate performance)
+        data_sources_count = len(self.data_sources)
         progress_label = f"Run {pipeline_name} pipeline"
-        if process_count <= 1 or len(map_iter) <= 1:
+        if process_count <= 1 or data_sources_count <= 1:
             map_func = tqdm(
-                map(DataPipeline._run_wrapper, map_iter),
-                total=len(map_iter),
+                map(run_func, self.data_sources),
+                total=data_sources_count,
                 desc=progress_label,
                 disable=not progress,
             )
         else:
             map_func = process_map(
-                DataPipeline._run_wrapper, map_iter, desc=progress_label, disable=not progress
+                run_func, self.data_sources, desc=progress_label, disable=not progress
             )
 
         # Save all intermediate results (to allow for reprocessing)
-        intermediate_outputs = ROOT / "output" / "intermediate"
+        intermediate_outputs = output_folder / "intermediate"
         intermediate_outputs_files = []
-        for (data_source, _, _), result in zip(map_iter, map_func):
+        for data_source, result in zip(self.data_sources, map_func):
             data_source_class = data_source.__class__
             data_source_config = str(data_source.config)
             source_full_name = f"{data_source_class.__module__}.{data_source_class.__name__}"
