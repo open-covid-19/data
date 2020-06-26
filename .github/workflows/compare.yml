@@ -36,12 +36,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-    - name: Run comparison
+    - name: Run Pipeline Outputs Comparison
       working-directory: src
       run: |
         # TODO: only run comparisons for tables if the corresponding subfolder under
         # ./src/pipelines/ was edited as part of this PR
         python compare.py ../output/summary.json --exclude weather
+        cat summary.json  # Output to stdout before uploading artifact
 
     - uses: actions/upload-artifact@v1
       with:
