@@ -1,4 +1,5 @@
 date,match_string,total_confirmed,country_code,key,new_confirmed
+2020-06-25,Al Jazirah,847,SD,SD_GZ,132
 2020-06-18,Al Jazirah,715,SD,SD_GZ,39
 2020-06-16,Al Jazirah,676,SD,SD_GZ,256
 2020-06-04,Al Jazirah,420,SD,SD_GZ,85
@@ -7,6 +8,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Al Jazirah,107,SD,SD_GZ,52
 2020-05-11,Al Jazirah,55,SD,SD_GZ,36
 2020-04-30,Al Jazirah,19,SD,SD_GZ,
+2020-06-25,Blue Nile,26,SD,SD_NB,6
 2020-06-18,Blue Nile,20,SD,SD_NB,3
 2020-06-16,Blue Nile,17,SD,SD_NB,6
 2020-06-04,Blue Nile,11,SD,SD_NB,3
@@ -15,6 +17,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Blue Nile,1,SD,SD_NB,0
 2020-05-11,Blue Nile,1,SD,SD_NB,1
 2020-04-30,Blue Nile,0,SD,SD_NB,
+2020-06-25,Central Darfur,5,SD,SD_DC,1
 2020-06-18,Central Darfur,4,SD,SD_DC,0
 2020-06-16,Central Darfur,4,SD,SD_DC,0
 2020-06-04,Central Darfur,4,SD,SD_DC,0
@@ -23,6 +26,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Central Darfur,2,SD,SD_DC,1
 2020-05-11,Central Darfur,1,SD,SD_DC,0
 2020-04-30,Central Darfur,1,SD,SD_DC,
+2020-06-25,East Darfur,20,SD,SD_DE,1
 2020-06-18,East Darfur,19,SD,SD_DE,0
 2020-06-16,East Darfur,19,SD,SD_DE,3
 2020-06-04,East Darfur,16,SD,SD_DE,2
@@ -31,6 +35,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,East Darfur,2,SD,SD_DE,0
 2020-05-11,East Darfur,2,SD,SD_DE,1
 2020-04-30,East Darfur,1,SD,SD_DE,
+2020-06-25,Al Qadarif,241,SD,SD_GD,26
 2020-06-18,Al Qadarif,215,SD,SD_GD,9
 2020-06-16,Al Qadarif,206,SD,SD_GD,37
 2020-06-04,Al Qadarif,169,SD,SD_GD,18
@@ -39,6 +44,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Al Qadarif,54,SD,SD_GD,22
 2020-05-11,Al Qadarif,32,SD,SD_GD,29
 2020-04-30,Al Qadarif,3,SD,SD_GD,
+2020-06-25,Kassala,87,SD,SD_KA,24
 2020-06-18,Kassala,63,SD,SD_KA,0
 2020-06-16,Kassala,63,SD,SD_KA,11
 2020-06-04,Kassala,52,SD,SD_KA,12
@@ -47,6 +53,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Kassala,6,SD,SD_KA,5
 2020-05-11,Kassala,1,SD,SD_KA,1
 2020-04-30,Kassala,0,SD,SD_KA,
+2020-06-25,Khartoum,6715,SD,SD_KH,577
 2020-06-18,Khartoum,6138,SD,SD_KH,472
 2020-06-16,Khartoum,5666,SD,SD_KH,1353
 2020-06-04,Khartoum,4313,SD,SD_KH,519
@@ -55,6 +62,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Khartoum,1474,SD,SD_KH,325
 2020-05-11,Khartoum,1149,SD,SD_KH,805
 2020-04-30,Khartoum,344,SD,SD_KH,
+2020-06-25,North Darfur,137,SD,SD_DN,13
 2020-06-18,North Darfur,124,SD,SD_DN,7
 2020-06-16,North Darfur,117,SD,SD_DN,49
 2020-06-04,North Darfur,68,SD,SD_DN,7
@@ -63,6 +71,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,North Darfur,5,SD,SD_DN,0
 2020-05-11,North Darfur,5,SD,SD_DN,5
 2020-04-30,North Darfur,0,SD,SD_DN,
+2020-06-25,North Kordofan,170,SD,SD_KN,15
 2020-06-18,North Kordofan,155,SD,SD_KN,10
 2020-06-16,North Kordofan,145,SD,SD_KN,8
 2020-06-04,North Kordofan,137,SD,SD_KN,13
@@ -71,6 +80,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,North Kordofan,67,SD,SD_KN,25
 2020-05-11,North Kordofan,42,SD,SD_KN,42
 2020-04-30,North Kordofan,0,SD,SD_KN,
+2020-06-25,Northern,50,SD,SD_NO,15
 2020-06-18,Northern,35,SD,SD_NO,5
 2020-06-16,Northern,30,SD,SD_NO,28
 2020-06-04,Northern,2,SD,SD_NO,-13
@@ -79,6 +89,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Northern,7,SD,SD_NO,0
 2020-05-11,Northern,7,SD,SD_NO,7
 2020-04-30,Northern,0,SD,SD_NO,
+2020-06-25,Red Sea,146,SD,SD_RS,48
 2020-06-18,Red Sea,98,SD,SD_RS,9
 2020-06-16,Red Sea,89,SD,SD_RS,76
 2020-06-04,Red Sea,13,SD,SD_RS,3
@@ -87,6 +98,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Red Sea,3,SD,SD_RS,2
 2020-05-11,Red Sea,1,SD,SD_RS,0
 2020-04-30,Red Sea,1,SD,SD_RS,
+2020-06-25,River Nile,113,SD,SD_NR,42
 2020-06-18,River Nile,71,SD,SD_NR,12
 2020-06-16,River Nile,59,SD,SD_NR,35
 2020-06-04,River Nile,24,SD,SD_NR,7
@@ -95,6 +107,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,River Nile,8,SD,SD_NR,0
 2020-05-11,River Nile,8,SD,SD_NR,5
 2020-04-30,River Nile,3,SD,SD_NR,
+2020-06-25,Sennar,181,SD,SD_SI,24
 2020-06-18,Sennar,157,SD,SD_SI,7
 2020-06-16,Sennar,150,SD,SD_SI,34
 2020-06-04,Sennar,116,SD,SD_SI,8
@@ -103,6 +116,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,Sennar,49,SD,SD_SI,14
 2020-05-11,Sennar,35,SD,SD_SI,34
 2020-04-30,Sennar,1,SD,SD_SI,
+2020-06-25,South Darfur,38,SD,SD_DS,0
 2020-06-18,South Darfur,38,SD,SD_DS,2
 2020-06-16,South Darfur,36,SD,SD_DS,1
 2020-06-04,South Darfur,35,SD,SD_DS,0
@@ -111,6 +125,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,South Darfur,19,SD,SD_DS,3
 2020-05-11,South Darfur,16,SD,SD_DS,16
 2020-04-30,South Darfur,0,SD,SD_DS,
+2020-06-25,South Kordofan,11,SD,SD_KS,3
 2020-06-18,South Kordofan,8,SD,SD_KS,1
 2020-06-16,South Kordofan,7,SD,SD_KS,1
 2020-06-04,South Kordofan,6,SD,SD_KS,0
@@ -119,6 +134,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,South Kordofan,1,SD,SD_KS,0
 2020-05-11,South Kordofan,1,SD,SD_KS,1
 2020-04-30,South Kordofan,0,SD,SD_KS,
+2020-06-25,West Darfur,30,SD,SD_DW,2
 2020-06-18,West Darfur,28,SD,SD_DW,0
 2020-06-16,West Darfur,28,SD,SD_DW,2
 2020-06-04,West Darfur,26,SD,SD_DW,2
@@ -127,6 +143,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,West Darfur,4,SD,SD_DW,2
 2020-05-11,West Darfur,2,SD,SD_DW,2
 2020-04-30,West Darfur,0,SD,SD_DW,
+2020-06-25,West Kordofan,34,SD,SD_GK,12
 2020-06-18,West Kordofan,22,SD,SD_GK,0
 2020-06-16,West Kordofan,22,SD,SD_GK,10
 2020-06-04,West Kordofan,12,SD,SD_GK,1
@@ -135,6 +152,7 @@ date,match_string,total_confirmed,country_code,key,new_confirmed
 2020-05-14,West Kordofan,5,SD,SD_GK,0
 2020-05-11,West Kordofan,5,SD,SD_GK,4
 2020-04-30,West Kordofan,1,SD,SD_GK,
+2020-06-25,White Nile,133,SD,SD_NW,23
 2020-06-18,White Nile,110,SD,SD_NW,9
 2020-06-16,White Nile,101,SD,SD_NW,44
 2020-06-04,White Nile,57,SD,SD_NW,14
