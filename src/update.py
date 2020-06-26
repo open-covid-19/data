@@ -116,8 +116,8 @@ if __name__ == "__main__":
     main(
         Path(args.output_folder),
         verify=args.verify,
-        only=args.only,
-        exclude=args.exclude,
+        only=only,
+        exclude=exclude,
         process_count=args.process_count,
         show_progress=not args.no_progress,
     )

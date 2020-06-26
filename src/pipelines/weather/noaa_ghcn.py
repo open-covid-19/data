@@ -16,6 +16,7 @@ import re
 import sys
 import math
 from random import shuffle
+from pathlib import Path
 from functools import partial
 from typing import Any, Dict, List, Tuple
 
@@ -59,7 +60,9 @@ _STATION_URL_TPL = "https://open-covid-19.github.io/weather/ghcn/{}.csv"
 class NoaaGhcnDataSource(DataSource):
 
     # A bit of a circular dependency but we need the latitude and longitude to compute weather
-    def fetch(self, cache: Dict[str, str], fetch_opts: Dict[str, Any]) -> List[str]:
+    def fetch(
+        self, output_folder: Path, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]
+    ) -> List[str]:
         return [ROOT / "output" / "tables" / "geography.csv"]
 
     @staticmethod
