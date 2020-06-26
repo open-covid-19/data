@@ -15,12 +15,11 @@
 # limitations under the License.
 
 
-import sys
 import json
 from pathlib import Path
 from argparse import ArgumentParser
 from tempfile import TemporaryDirectory
-from typing import Any, Set, List
+from typing import Set, List
 
 from pandas import DataFrame
 from lib.io import read_file
@@ -48,6 +47,7 @@ def compare_sets(curr: Set[str], prod: Set[str]) -> List[str]:
     return diff_list
 
 
+# pylint: disable=redefined-outer-name
 def main(output_folder: Path, only: List[str] = None, exclude: List[str] = None):
 
     # Perform a dry-run to update the data using the current configuration

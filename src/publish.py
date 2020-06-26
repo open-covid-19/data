@@ -15,8 +15,6 @@
 
 
 import re
-import os
-import sys
 import json
 import shutil
 import datetime
@@ -38,30 +36,30 @@ def camel_to_snake_case(txt: str) -> str:
     return re.sub(r"([A-Z])", lambda m: "_" + m.group(1).lower(), txt)
 
 
-def subset_last_days(data: DataFrame, days: int) -> DataFrame:
+def subset_last_days(table: DataFrame, days: int) -> DataFrame:
     """ Used to get the last N days of data """
-    # Early exit: this data has no date
-    if not "date" in data.columns or len(data.date.dropna()) == 0:
-        return data
+    # Early exit: this table has no date
+    if not "date" in table.columns or len(table.date.dropna()) == 0:
+        return table
     else:
-        last_date = datetime.date.fromisoformat(max(data.date))
+        last_date = datetime.date.fromisoformat(max(table.date))
         first_date = last_date - datetime.timedelta(days=days)
-        return data[data.date > first_date.isoformat()]
+        return table[table.date > first_date.isoformat()]
 
 
-def subset_latest(data: DataFrame) -> DataFrame:
+def subset_latest(table: DataFrame) -> DataFrame:
     """ Used to get the latest data for each key """
-    # Early exit: this data has no date
-    if not "date" in data.columns or len(data.date.dropna()) == 0:
-        return data
+    # Early exit: this table has no date
+    if not "date" in table.columns or len(table.date.dropna()) == 0:
+        return table
     else:
-        non_null_columns = [col for col in data.columns if not col in ("key", "date")]
-        data = data.dropna(subset=non_null_columns, how="all")
-        return data.sort_values("date").groupby("key").last().reset_index()
+        non_null_columns = [col for col in table.columns if not col in ("key", "date")]
+        table = table.dropna(subset=non_null_columns, how="all")
+        return table.sort_values("date").groupby("key").last().reset_index()
 
 
-def export_json_without_index(data: DataFrame, output_path: str) -> None:
-    json_dict = json.loads(data.to_json(orient="split"))
+def export_json_without_index(table: DataFrame, output_path: str) -> None:
+    json_dict = json.loads(table.to_json(orient="split"))
     del json_dict["index"]
     with open(output_path, "w") as fd:
         json.dump(json_dict, fd)
