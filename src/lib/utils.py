@@ -25,6 +25,7 @@ from .cast import column_convert
 from .io import fuzzy_text
 
 ROOT = Path(os.path.dirname(__file__)) / ".." / ".."
+PROD_URL = "https://open-covid-19.github.io/data/v2"
 CACHE_URL = "https://raw.githubusercontent.com/open-covid-19/data/cache"
 
 
