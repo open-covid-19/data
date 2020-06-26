@@ -74,7 +74,6 @@ class FinlandThlDataSource(DataSource):
     ) -> DataFrame:
 
         # Rename the appropriate columns
-        print(dataframes[0])
         data = table_rename(
             dataframes[0], {"Aika": "date", "Alue": "match_string", "val": "new_confirmed"}
         ).dropna(subset=["new_confirmed"])
