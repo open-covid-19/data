@@ -13,15 +13,14 @@
 # limitations under the License.
 
 import sys
-import cProfile
 from io import StringIO
-from pstats import Stats
-from unittest import TestCase, main
+from unittest import main
 
 import numpy
 from pandas import DataFrame, isnull
 from lib.cast import age_group
 from lib.utils import combine_tables, stack_table, infer_new_and_total
+from .profiled_test_case import ProfiledTestCase
 
 # Synthetic data used for testing
 COMBINE_TEST_DATA_1 = DataFrame.from_records(
@@ -70,19 +69,7 @@ NEW_AND_TOTAL_TEST_DATA = DataFrame.from_records(
 )
 
 
-class TestTableUtils(TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.profiler = cProfile.Profile()
-        cls.profiler.enable()
-
-    @classmethod
-    def tearDownClass(cls):
-        stats = Stats(cls.profiler)
-        stats.strip_dirs()
-        stats.sort_stats("cumtime")
-        stats.print_stats(20)
-
+class TestTableUtils(ProfiledTestCase):
     def test_combine_all_none(self):
         data1 = COMBINE_TEST_DATA_1.copy()
         data2 = COMBINE_TEST_DATA_2.copy()

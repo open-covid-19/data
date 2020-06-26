@@ -13,28 +13,15 @@
 # limitations under the License.
 
 import sys
-import cProfile
-from pstats import Stats
 from pathlib import Path
-from unittest import TestCase, main
+from unittest import main
 from tempfile import TemporaryDirectory
 
 from update import main as update_data
+from .profiled_test_case import ProfiledTestCase
 
 
-class TestUpdate(TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.profiler = cProfile.Profile()
-        cls.profiler.enable()
-
-    @classmethod
-    def tearDownClass(cls):
-        stats = Stats(cls.profiler)
-        stats.strip_dirs()
-        stats.sort_stats("cumtime")
-        stats.print_stats(20)
-
+class TestUpdate(ProfiledTestCase):
     def test_update_only_pipeline(self):
         with TemporaryDirectory() as output_folder:
             output_folder = Path(output_folder)
@@ -42,7 +29,7 @@ class TestUpdate(TestCase):
             update_data(output_folder, only=quick_pipeline_name)
             self.assertSetEqual(
                 set(subfolder.name for subfolder in output_folder.iterdir()),
-                set(["intermediate", "tables", "snapshot"]),
+                {"intermediate", "tables", "snapshot"},
             )
 
     def test_update_bad_pipeline_name(self):

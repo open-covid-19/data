@@ -63,24 +63,22 @@ def main(
     (output_folder / "tables").mkdir(parents=True, exist_ok=True)
 
     # A pipeline chain is any subfolder not starting with "_" in the pipelines folder
-    all_pipeline_chains = []
+    all_pipeline_names = []
     for item in (ROOT / "src" / "pipelines").iterdir():
         if not item.name.startswith("_") and not item.is_file():
-            all_pipeline_chains.append(item.name)
+            all_pipeline_names.append(item.name)
 
     # Verify that all of the provided pipeline names exist as pipelines
     only = only.split(",") if only is not None else []
     exclude = exclude.split(",") if exclude is not None else []
     for pipeline_name in only + exclude:
-        assert pipeline_name in all_pipeline_chains, f'"{pipeline_name}" pipeline does not exist'
+        assert pipeline_name in all_pipeline_names, f'"{pipeline_name}" pipeline does not exist'
 
     # Run all the pipelines and place their outputs into the output folder
     # The output name for each pipeline chain will be the name of the directory that the chain is in
-    for pipeline_name in all_pipeline_chains:
+    for pipeline_name in all_pipeline_names:
         table_name = pipeline_name.replace("_", "-")
-        if table_name in exclude:
-            continue
-        if not table_name in only:
+        if table_name in exclude or not table_name in only:
             continue
         pipeline_chain = DataPipeline.load(pipeline_name)
         pipeline_output = pipeline_chain.run(

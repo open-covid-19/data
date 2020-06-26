@@ -13,31 +13,19 @@
 # limitations under the License.
 
 import sys
-import cProfile
 from io import StringIO
-from pstats import Stats
 from pathlib import Path
-from unittest import TestCase, main
+from unittest import main
 
 import numpy
 from pandas import DataFrame, isnull
 from lib.io import export_csv, read_file
 from lib.utils import combine_tables, stack_table, infer_new_and_total
 
+from .profiled_test_case import ProfiledTestCase
 
-class TestIOFunctions(TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.profiler = cProfile.Profile()
-        cls.profiler.enable()
 
-    @classmethod
-    def tearDownClass(cls):
-        stats = Stats(cls.profiler)
-        stats.strip_dirs()
-        stats.sort_stats("cumtime")
-        stats.print_stats(20)
-
+class TestIOFunctions(ProfiledTestCase):
     def _test_reimport_csv_helper(self, data: numpy.ndarray, test_case: str):
         tmpfile = Path(f"{__file__}.csv")
         data1 = DataFrame(data)

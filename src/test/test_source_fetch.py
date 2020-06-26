@@ -13,9 +13,7 @@
 # limitations under the License.
 
 import sys
-import cProfile
-from pstats import Stats
-from unittest import TestCase, main
+from unittest import main
 
 from pathlib import Path
 from typing import Dict, List, Any, Union
@@ -24,6 +22,8 @@ from tempfile import TemporaryDirectory
 from pandas import DataFrame
 from lib.pipeline import DataSource
 from lib.utils import ROOT
+from .profiled_test_case import ProfiledTestCase
+
 
 DUMMY_DATA_SOURCE_AUX = {"metadata": DataFrame()}
 DUMMY_DATA_SOURCE_CONFIG = {
@@ -41,19 +41,7 @@ class DummyDataSouce(DataSource):
         return dataframes[0]
 
 
-class TestSourceFetch(TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.profiler = cProfile.Profile()
-        cls.profiler.enable()
-
-    @classmethod
-    def tearDownClass(cls):
-        stats = Stats(cls.profiler)
-        stats.strip_dirs()
-        stats.sort_stats("cumtime")
-        stats.print_stats(20)
-
+class TestSourceFetch(ProfiledTestCase):
     def test_fetch_download(self):
         src = DummyDataSouce()
         with TemporaryDirectory() as output_folder:

@@ -373,9 +373,9 @@ class DataPipeline:
         try:
             return data_source.run(output_folder, cache, aux)
         except Exception:
-            data_source_class = data_source.__class__.__name__
+            data_source_name = data_source.__class__.__name__
             warnings.warn(
-                f"Error running data source {data_source_class} with config {data_source.config}"
+                f"Error running data source {data_source_name} with config {data_source.config}"
             )
             traceback.print_exc()
         return None
