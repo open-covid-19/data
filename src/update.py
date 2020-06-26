@@ -82,8 +82,8 @@ def main(
         # Skip is `only` was provided and this table is not in it
         if only is not None and not table_name in only:
             continue
-        pipeline_chain = DataPipeline.load(pipeline_name)
-        pipeline_output = pipeline_chain.run(
+        data_pipeline = DataPipeline.load(pipeline_name)
+        pipeline_output = data_pipeline.run(
             pipeline_name,
             output_folder,
             verify=verify,
