@@ -41,8 +41,8 @@ jobs:
       run: |
         # TODO: only run comparisons for tables if the corresponding subfolder under
         # ./src/pipelines/ was edited as part of this PR
-        python compare.py ../output/summary.json --exclude weather
-        cat ./output/summary.json  # Output to stdout before uploading artifact
+        python compare.py ../output/summary.json --only epidemiology
+        cat ../output/summary.json  # Output to stdout before uploading artifact
 
     - uses: actions/upload-artifact@v1
       with:
