@@ -521,6 +521,7 @@ from the relevant authorities, like a country's ministry of health.
 | Cuba | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Ecuador | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | El Salvador | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Finland | [Finnish institute for health and welfare](https://thl.fi/en/web/thlfi-en) | [CC BY 4.0](https://thl.fi/en/web/thlfi-en/statistics/statistical-databases/open-data) |
 | France | [data.gouv.fr](https://data.gouv.fr) | [Open License 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence) |
 | Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | [MIT](https://github.com/jgehrcke/covid-19-germany-gae/blob/master/LICENSE) |
 | Guatemala | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
@@ -529,12 +530,14 @@ from the relevant authorities, like a country's ministry of health.
 | India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | [CC BY-SA][24] |
 | Indonesia | <https://catchmeup.id/covid-19> | [Permission required](https://catchmeup.id/ketentuan-pelayanan) |
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | [CC BY 4.0](https://github.com/pcm-dpc/COVID-19/blob/master/LICENSE) |
+| Iraq | [HDX](https://data.humdata.org/dataset/iraq-coronavirus-covid-19-subnational-cases) | [CC BY-SA][28] |
 | Japan | <https://github.com/swsoyee/2019-ncov-japan> | [MIT](https://github.com/swsoyee/2019-ncov-japan/blob/master/LICENSE) |
 | Luxembourg | [data.public.lu](https://data.public.lu/fr/datasets/donnees-covid19)| [CC0](https://data.public.lu/fr/datasets/?license=cc-zero) |
 | Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | [CC BY-SA][24] |
 | Mexico | <https://github.com/mexicovid19/Mexico-datos> | [MIT](https://github.com/mexicovid19/Mexico-datos/blob/master/LICENSE.md) |
 | Netherlands | [RIVM](https://data.rivm.nl/covid-19) | [Public Domain](https://databronnencovid19.nl/Disclaimer) |
 | Nicaragua | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
 | Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
 | Pakistan | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Pakistan_medical_cases) | [CC BY-SA][24] |
 | Panama | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
@@ -544,6 +547,8 @@ from the relevant authorities, like a country's ministry of health.
 | Philippines | [Philippines Department of Health](http://www.doh.gov.ph/covid19tracker) | [Attribution required](https://drive.google.com/file/d/1LzY2eLzZQdLR9yuoNufGEBN5Ily8ZTdV) |
 | Poland | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
 | Portugal | [COVID-19: Portugal](https://github.com/carlospramalheira/covid19) | [MIT](https://github.com/carlospramalheira/covid19/blob/master/LICENSE) |
+| Romania | <https://github.com/adrianp/covid19romania> | [CC0](https://github.com/adrianp/covid19romania/blob/master/LICENSE) |
+| Russia | <https://xn--80aesfpebagmfblc0a.xn--p1ai> | [CC BY-SA][29] |
 | Russia | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Russia_medical_cases) | [CC BY-SA][24] |
 | Slovenia | <https://www.gov.si> | [CC BY-SA][24] |
 | South Africa| [Data Science for Social Impact research group, the University of Pretoria](https://github.com/dsfsi/covid19za) | [CC BY-SA](https://github.com/dsfsi/covid19za/blob/master/data/LICENSE.md) |
@@ -627,3 +632,4 @@ The following persons have made significant contributions to this project:
 [26]: https://github.com/DataScienceResearchPeru/covid-19_latinoamerica
 [27]: https://github.com/DataScienceResearchPeru/covid-19_latinoamerica/blob/master/LICENSE.md
 [28]: https://data.humdata.org/about/license
+[29]: http://creativecommons.org/licenses/by/4.0/

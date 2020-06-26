@@ -15,11 +15,10 @@
 
 import uuid
 from pathlib import Path
-from typing import Union, BinaryIO
+from typing import BinaryIO
 
 import requests
 from tqdm import tqdm
-from .utils import ROOT
 
 
 def download_snapshot(
@@ -63,13 +62,14 @@ def download_snapshot(
 
 def download(url: str, file_handle: BinaryIO, progress: bool = False) -> None:
     """ https://stackoverflow.com/a/37573701 """
+    headers = {"User-Agent": "Mozilla"}
     if not progress:
-        req = requests.get(url)
+        req = requests.get(url, headers=headers)
         req.raise_for_status()
         file_handle.write(req.content)
     else:
         block_size = 1024
-        req = requests.get(url, stream=True)
+        req = requests.get(url, headers=headers, stream=True)
         req.raise_for_status()
         total_size = int(req.headers.get("content-length", 0))
         progress_bar = tqdm(total=total_size, unit="iB", unit_scale=True)

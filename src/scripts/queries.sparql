@@ -17,6 +17,15 @@ WHERE
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
 }
 
+# Get all instances of wd:Q856076 (municipalities of Finland)
+SELECT ?code ?place ?placeLabel
+WHERE
+{
+  ?place wdt:P31/wdt:P279* wd:Q856076.
+  ?place wdt:P1203 ?code.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+}
+
 # Get all departments of France, and what administrative region they belong to
 SELECT ?place ?subregion1_code ?subregion2_code ?placeLabel
 WHERE

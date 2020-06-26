@@ -157,6 +157,14 @@ sources:
       - url: "https://covid19.isciii.es/resources/serie_historica_acumulados.csv"
     query: "date < '2020-05-22'"
 
+  # Data sources for FI levels 1 + 2
+  - name: pipelines.epidemiology.fi_authority.FinlandArcGisDataSource
+    fetch:
+      - url: https://services7.arcgis.com/nuPvVz1HGGfa0Eh7/arcgis/rest/services/korona_tapauksia_jakauma/FeatureServer/0/query?f=json&where=1%3D1&outFields=OBJECTID,alue,date,tapauksia,miehia,naisia,Ika_0_9,ika_10_19,ika_20_29,ika_30_39,ika_40_49,ika_50_59,ika_60_69,ika_70_79,ika_80_,koodi&returnGeometry=false
+        opts:
+          ext: json
+    query: "date > '2020-02-01'"
+
   # Data sources for FR levels 1 + 2 + 3
   - name: pipelines.epidemiology.fr_authority.FranceDataSource
     fetch:
@@ -203,6 +211,13 @@ sources:
       country: IN
       date_format: "%b-%d"
       skiprows: 1
+
+  # Data sources for IQ level 2
+  - name: pipelines.epidemiology.iq_humdata.IraqHumdataDataSource
+    fetch:
+      - url: https://docs.google.com/spreadsheets/d/e/2PACX-1vQh_BwL222rdcpIH2rLPIbvdKLJu3fevAy2L82FHUcl-84w6byWRITQicetYzpqX707EUc3qgAJm7Hr/pub?gid=0&single=true&output=csv
+        opts:
+          ext: csv
 
   # Data sources for IT levels 1 + 2
   - name: pipelines.epidemiology.it_authority.PcmDpcL1DataSource
@@ -332,6 +347,12 @@ sources:
     fetch:
       - url: "https://raw.githubusercontent.com/carlospramalheira/covid19/master/datasets/PT_COVID_TimeSeries.csv"
 
+  # Data sources for RO level 1
+  - name: pipelines.epidemiology.ro_covid19romania.Covid19RomaniaDataSource
+    fetch:
+      - url: "https://raw.github.com/adrianp/covid19romania/master/total_recovered_ro.json"
+      - url: "https://raw.github.com/adrianp/covid19romania/master/icu_ro.json"
+
   # Data sources for RU level 2
   - name: pipelines.epidemiology.xx_wikipedia.WikipediaDataSource
     fetch:
@@ -342,6 +363,9 @@ sources:
       country: RU
       date_format: "%d %b"
       skiprows: 1
+
+  # This data source does not fetch any URL because it uses an API instead
+  - name: pipelines.epidemiology.ru_authority.RussiaDataSource
 
   # Data sources for SD level 1
   - name: pipelines.epidemiology.sd_humdata.SudanHumdataDataSource
