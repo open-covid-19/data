@@ -12,10 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import datetime
-from typing import Any, Dict, List
-from numpy import unique
-from pandas import DataFrame, concat, merge
+from typing import Dict, List
+from pandas import DataFrame, concat
 from lib.pipeline import DataSource
 from lib.cast import safe_int_cast
 from lib.utils import table_rename
@@ -55,7 +53,7 @@ class IraqHumdataDataSource(DataSource):
         # Some regions appear split in the data
         baghdad_mask = data.match_string.apply(lambda x: "baghdad" in str(x).lower())
         baghdad_subset = data.loc[baghdad_mask]
-        baghdad_subset.match_string = "baghdad"
+        baghdad_subset["match_string"] = "baghdad"
         baghdad_subset = baghdad_subset.groupby(["date", "match_string"]).sum().reset_index()
         data = concat([data.loc[~baghdad_mask], baghdad_subset])
 
