@@ -18,7 +18,7 @@ consistent geographic (and temporal) keys.
 
 | Table | Keys<sup>1</sup> | Content | URL | Source<sup>2</sup> |
 | ----- | ---------------- | ------- | --- | ------------------ |
-| [Master](#master) | `[key][date]` | Flat table with records from all other tables joined by `key` and `date` | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) | All tables below |
+| [Master](#master) | `[key][date]` | Flat table with records from all other tables joined by `key` and `date` | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) **NOT UP TO DATE DUE TO GITHUB PAGES LIMITS, MIGRATING TO EXTERNAL CLOUD PROVIDER IN PROGRESS** | All tables below |
 | [Index](#index) | `[key]` | Various names and codes, useful for joining with other datasets | [index.csv](https://open-covid-19.github.io/data/v2/index.csv), [index.json](https://open-covid-19.github.io/data/v2/index.json) | Wikidata, DataCommons |
 | [Demographics](#demographics) | `[key]` | Various (current<sup>3</sup>) population statistics | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv), [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) | Wikidata, DataCommons |
 | [Economy](#economy) | `[key]` | Various (current<sup>3</sup>) economic indicators | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv), [economy.json](https://open-covid-19.github.io/data/v2/economy.json) | Wikidata, DataCommons |
@@ -78,18 +78,24 @@ For the purpose of making the data as easy to use as possible, there is a [maste
 which contains the columns of all other tables joined by `key` and `date`. However,
 performance-wise, it may be better to download the data separately and join the tables locally.
 
+Each region has its own version of the master table, so you can pull all the data for a specific
+region using a single endpoint, the URL for each region is:
+* Data for `key` in CSV format: `https://open-covid-19.github.io/data/v2/${key}/master.csv`
+* Data for `key` in JSON format: `https://open-covid-19.github.io/data/v2/${key}/master.json`
+
 Each table has a full version as well as subsets with only the last 30, 14, 7 and 1 days of data.
 The full version is accessible at the URL described [in the table above](#open-covid-19-dataset).
 The subsets can be found by appending the number of days to the path. For example, the subsets of
 the master table are available at the following locations:
 * Full version: https://open-covid-19.github.io/data/v2/master.csv
-* Last 30 days: https://open-covid-19.github.io/data/v2/30/master.csv
-* Last 14 days: https://open-covid-19.github.io/data/v2/14/master.csv
-* Last 7 days: https://open-covid-19.github.io/data/v2/7/master.csv
 * Latest: https://open-covid-19.github.io/data/v2/latest/master.csv
+* Last 7 days: https://open-covid-19.github.io/data/v2/7/master.csv
+* Last 14 days: https://open-covid-19.github.io/data/v2/14/master.csv
+* Last 30 days: https://open-covid-19.github.io/data/v2/30/master.csv
 
 Note that the `latest` version contains the last non-null record for each key, whereas all others
-contain the last `N` days of data (all of which could be null for some keys).
+contain the last `N` days of data (all of which could be null for some keys). All of the above
+listed tabled have a corresponding JSON version, simply replace `csv` with `json` in the link.
 
 If you are trying to use this data alongside your own datasets, then you can use the [Index](#index)
 table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions are
@@ -136,10 +142,10 @@ $.getJSON("https://open-covid-19.github.io/data/v2/epidemiology.json", data => {
 
 ### Powershell
 You can also use Powershell to get the latest data for a country directly from
-the command line, for example to query the latest data for Australia:
+the command line, for example to query the latest epidemiology data for Australia:
 ```powershell
-Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/latest/master.csv' | ConvertFrom-Csv | `
-    where Key -eq 'AU' | select country_name,date,total_confirmed,total_deceased,total_recovered
+Invoke-WebRequest 'https://open-covid-19.github.io/data/v2/latest/epidemiology.csv' | ConvertFrom-Csv | `
+    where key -eq 'AU' | select date,total_confirmed,total_deceased,total_recovered
 ```
 
 

@@ -14,20 +14,13 @@
 # limitations under the License.
 
 
-import os
-import sys
 import datetime
-from pathlib import Path
 from functools import partial
 
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from scipy import optimize
-from tqdm.contrib import concurrent
-
-from lib.io import read_file
-from lib.utils import ROOT
 
 
 def _get_outbreak_mask(data: pd.DataFrame, threshold: int = 10):
@@ -138,11 +131,10 @@ def main(df):
             for idx in forecast_data.index
         ]
 
-    # Perform the processing in parallel
     records = []
     map_func = partial(map_func, df)
-    # for result in concurrent.thread_map(map_func, df.Key.unique()):
-    for result in tqdm(map(map_func, df.Key.unique()), total=len(df.Key.unique())):
+    iter_len = len(df.Key.unique())
+    for result in tqdm(map(map_func, df.Key.unique()), total=iter_len, desc="Computing forecast"):
         records += result
 
     # Do data cleanup here
