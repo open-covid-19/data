@@ -35,7 +35,7 @@ auxiliary:
 sources:
 
   # Data sources for AU level 1
-  - name: pipelines.hospitalizations.xx_scraped.ScrapedDataSource
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
     fetch:
       - url: "https://raw.github.com/google-research/open-covid-19-data/7a3dded1090d32950d0dff4819856a0db6bfa79b/data/inputs/scraped/australia/2020-05-21/australia_hospitalizations.csv"
     parse:
@@ -47,14 +47,14 @@ sources:
       - url: "https://raw.github.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total.csv"
 
   # Data sources for CZ level 1
-  - name: pipelines.hospitalizations.xx_scraped.ScrapedDataSource
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
     fetch:
       - url: "https://raw.github.com/google-research/open-covid-19-data/7a3dded1090d32950d0dff4819856a0db6bfa79b/data/inputs/scraped/czech_republic/2020-05-21/czech_republic_hospitalizations.csv"
     parse:
       key: CZ
 
   # Data sources for DK level 1
-  - name: pipelines.hospitalizations.xx_scraped.ScrapedDataSource
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
     fetch:
       - url: "https://raw.github.com/google-research/open-covid-19-data/7a3dded1090d32950d0dff4819856a0db6bfa79b/data/inputs/scraped/denmark/2020-05-21/denmark_hospitalizations.csv"
     parse:
@@ -89,11 +89,19 @@ sources:
       - url: "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/04/coronavirus-covid-19-trends-in-daily-data/documents/covid-19-data-by-nhs-board/covid-19-data-by-nhs-board/govscot%3Adocument/COVID-19%2Bdata%2Bby%2BNHS%2BBoard.xlsx"
 
   # Data sources for IE level 1
-  - name: pipelines.hospitalizations.xx_scraped.ScrapedDataSource
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
     fetch:
       - url: "https://raw.github.com/google-research/open-covid-19-data/7a3dded1090d32950d0dff4819856a0db6bfa79b/data/inputs/scraped/ireland/2020-05-21/ireland_hospitalizations.csv"
     parse:
       key: IE
+
+  # Data sources for IS level 1
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
+    fetch:
+      - url: "https://raw.githubusercontent.com/google-research/open-covid-19-data/master/data/inputs/downloaded/iceland_hospitalizations/2020-06-18/Sheet%201.csv"
+    parse:
+      key: IS
+      date_column: unnamed
 
   # Data sources for IT levels 1 + 2
   - name: pipelines.epidemiology.it_authority.PcmDpcL1DataSource
@@ -135,6 +143,20 @@ sources:
     parse:
       sep: ";"
 
+  # Data sources for NO level 1
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
+    fetch:
+      - url: "https://raw.githubusercontent.com/google-research/open-covid-19-data/0d73628842d86a535d5bdd57746a963c7f74662d/data/inputs/downloaded/norway_fhi/2020-06-15/number-of-new-patients-a.csv"
+    parse:
+      key: "NO"
+      date_format: "%d.%m.%Y"
+  - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
+    fetch:
+      - url: "https://raw.githubusercontent.com/google-research/open-covid-19-data/0d73628842d86a535d5bdd57746a963c7f74662d/data/inputs/downloaded/norway_fhi/2020-06-15/number-of-new-patients-w.csv"
+    parse:
+      key: "NO"
+      date_format: "%d.%m.%Y"
+
   # Data sources for PH levels 2 + 3
   - name: pipelines.epidemiology.ph_authority.PhilippinesDataSource
     fetch:
@@ -146,6 +168,12 @@ sources:
   - name: pipelines.epidemiology.pt_covid19.PtCovid19L1DataSource
     fetch:
       - url: "https://raw.githubusercontent.com/carlospramalheira/covid19/master/datasets/PT_COVID_TimeSeries.csv"
+
+  # Data sources for RO level 1
+  - name: pipelines.epidemiology.ro_covid19romania.Covid19RomaniaDataSource
+    fetch:
+      - url: "https://raw.github.com/adrianp/covid19romania/master/total_recovered_ro.json"
+      - url: "https://raw.github.com/adrianp/covid19romania/master/icu_ro.json"
 
   # Data sources for SE level 1
   - name: pipelines.hospitalizations.se_authority.SwedenDataSource
