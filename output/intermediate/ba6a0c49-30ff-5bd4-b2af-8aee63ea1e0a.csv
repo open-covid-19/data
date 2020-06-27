@@ -56,6 +56,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,BB,3358,175,21,1,DE,DE_BB
 2020-06-19,BB,3388,175,30,0,DE,DE_BB
 2020-06-25,BB,3454,175,66,0,DE,DE_BB
+2020-06-27,BB,3472,175,18,0,DE,DE_BB
 2020-03-10,BE,48,0,,,DE,DE_BE
 2020-03-11,BE,90,0,42,0,DE,DE_BE
 2020-03-12,BE,137,0,47,0,DE,DE_BE
@@ -113,6 +114,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,BE,7368,208,233,0,DE,DE_BE
 2020-06-19,BE,7602,211,234,3,DE,DE_BE
 2020-06-25,BE,8020,212,418,1,DE,DE_BE
+2020-06-27,BE,8144,213,124,1,DE,DE_BE
 2020-03-10,BW,237,0,,,DE,DE_BW
 2020-03-11,BW,277,0,40,0,DE,DE_BW
 2020-03-12,BW,454,0,177,0,DE,DE_BW
@@ -170,6 +172,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,BW,36007,1864,114,9,DE,DE_BW
 2020-06-19,BW,36090,1875,83,11,DE,DE_BW
 2020-06-25,BW,35873,1880,-217,5,DE,DE_BW
+2020-06-27,BW,35974,1884,101,4,DE,DE_BW
 2020-03-10,BY,314,0,,,DE,DE_BY
 2020-03-11,BY,366,0,52,0,DE,DE_BY
 2020-03-12,BY,500,0,134,0,DE,DE_BY
@@ -227,6 +230,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,BY,48090,2590,-241,3,DE,DE_BY
 2020-06-19,BY,48196,2602,106,12,DE,DE_BY
 2020-06-25,BY,48442,2624,246,22,DE,DE_BY
+2020-06-27,BY,48562,2633,120,9,DE,DE_BY
 2020-03-10,HB,4,0,,,DE,DE_HB
 2020-03-11,HB,21,0,17,0,DE,DE_HB
 2020-03-12,HB,38,0,17,0,DE,DE_HB
@@ -284,6 +288,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,HB,1597,47,23,5,DE,DE_HB
 2020-06-19,HB,1631,48,34,1,DE,DE_HB
 2020-06-25,HB,1660,48,29,0,DE,DE_HB
+2020-06-27,HB,1664,49,4,1,DE,DE_HB
 2020-03-10,HE,35,0,,,DE,DE_HE
 2020-03-11,HE,48,0,13,0,DE,DE_HE
 2020-03-12,HE,99,0,51,0,DE,DE_HE
@@ -341,6 +346,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,HE,10386,500,52,3,DE,DE_HE
 2020-06-19,HE,10500,504,114,4,DE,DE_HE
 2020-06-25,HE,10703,511,203,7,DE,DE_HE
+2020-06-27,HE,10763,512,60,1,DE,DE_HE
 2020-03-10,HH,29,0,,,DE,DE_HH
 2020-03-11,HH,48,0,19,0,DE,DE_HH
 2020-03-12,HH,88,0,40,0,DE,DE_HH
@@ -398,6 +404,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,HH,5146,255,13,1,DE,DE_HH
 2020-06-19,HH,5155,259,9,4,DE,DE_HH
 2020-06-25,HH,5175,259,20,0,DE,DE_HH
+2020-06-27,HH,5177,259,2,0,DE,DE_HH
 2020-03-10,MV,13,0,,,DE,DE_MV
 2020-03-11,MV,17,0,4,0,DE,DE_MV
 2020-03-12,MV,23,0,6,0,DE,DE_MV
@@ -455,6 +462,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,MV,789,21,6,0,DE,DE_MV
 2020-06-19,MV,796,21,7,0,DE,DE_MV
 2020-06-25,MV,800,21,4,0,DE,DE_MV
+2020-06-27,MV,803,21,3,0,DE,DE_MV
 2020-03-10,NI,49,0,,,DE,DE_NI
 2020-03-11,NI,75,0,26,0,DE,DE_NI
 2020-03-12,NI,129,0,54,0,DE,DE_NI
@@ -512,6 +520,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,NI,13130,635,184,4,DE,DE_NI
 2020-06-19,NI,13363,640,233,5,DE,DE_NI
 2020-06-25,NI,13621,645,258,5,DE,DE_NI
+2020-06-27,NI,13701,650,80,5,DE,DE_NI
 2020-03-10,NW,484,0,,,DE,DE_NW
 2020-03-11,NW,484,0,0,0,DE,DE_NW
 2020-03-12,NW,688,0,204,0,DE,DE_NW
@@ -569,6 +578,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,NW,39465,1658,372,3,DE,DE_NW
 2020-06-19,NW,40176,1674,711,16,DE,DE_NW
 2020-06-25,NW,42068,1679,1892,5,DE,DE_NW
+2020-06-27,NW,42557,1685,489,6,DE,DE_NW
 2020-03-10,RP,25,0,,,DE,DE_RP
 2020-03-11,RP,25,0,0,0,DE,DE_RP
 2020-03-12,RP,52,0,27,0,DE,DE_RP
@@ -626,6 +636,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,RP,7040,238,23,1,DE,DE_RP
 2020-06-19,RP,7077,239,37,1,DE,DE_RP
 2020-06-25,RP,7135,241,58,2,DE,DE_RP
+2020-06-27,RP,7157,241,22,0,DE,DE_RP
 2020-03-10,SH,9,0,,,DE,DE_SH
 2020-03-11,SH,27,0,18,0,DE,DE_SH
 2020-03-12,SH,31,0,4,0,DE,DE_SH
@@ -683,6 +694,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,SH,3131,156,5,3,DE,DE_SH
 2020-06-19,SH,3142,157,11,1,DE,DE_SH
 2020-06-25,SH,3147,157,5,0,DE,DE_SH
+2020-06-27,SH,3156,157,9,0,DE,DE_SH
 2020-03-10,SL,7,0,,,DE,DE_SL
 2020-03-11,SL,14,0,7,0,DE,DE_SL
 2020-03-12,SL,14,0,0,0,DE,DE_SL
@@ -740,6 +752,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,SL,2805,174,2,0,DE,DE_SL
 2020-06-19,SL,2817,175,12,1,DE,DE_SL
 2020-06-25,SL,2822,175,5,0,DE,DE_SL
+2020-06-27,SL,2824,176,2,1,DE,DE_SL
 2020-03-10,SN,22,0,,,DE,DE_SN
 2020-03-11,SN,26,0,4,0,DE,DE_SN
 2020-03-12,SN,45,0,19,0,DE,DE_SN
@@ -797,6 +810,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,SN,5348,221,4,0,DE,DE_SN
 2020-06-19,SN,5386,222,38,1,DE,DE_SN
 2020-06-25,SN,5437,224,51,2,DE,DE_SN
+2020-06-27,SN,5443,224,6,0,DE,DE_SN
 2020-03-10,ST,7,0,,,DE,DE_ST
 2020-03-11,ST,15,0,8,0,DE,DE_ST
 2020-03-12,ST,27,0,12,0,DE,DE_ST
@@ -854,6 +868,7 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,ST,1780,57,41,1,DE,DE_ST
 2020-06-19,ST,1824,58,44,1,DE,DE_ST
 2020-06-25,ST,1866,59,42,1,DE,DE_ST
+2020-06-27,ST,1874,59,8,0,DE,DE_ST
 2020-03-10,TH,4,0,,,DE,DE_TH
 2020-03-11,TH,10,0,6,0,DE,DE_TH
 2020-03-12,TH,14,0,4,0,DE,DE_TH
@@ -911,3 +926,4 @@ date,subregion1_code,total_confirmed,total_deceased,new_confirmed,new_deceased,c
 2020-06-16,TH,3199,179,50,1,DE,DE_TH
 2020-06-19,TH,3222,183,23,4,DE,DE_TH
 2020-06-25,TH,3245,184,23,1,DE,DE_TH
+2020-06-27,TH,3252,186,7,2,DE,DE_TH
