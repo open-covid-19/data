@@ -44,7 +44,7 @@ def subset_last_days(table: DataFrame, days: int) -> DataFrame:
     else:
         last_date = datetime.date.fromisoformat(max(table.date))
         first_date = last_date - datetime.timedelta(days=days)
-        return table[table.date > first_date.isoformat()]
+        return table[table.date >= first_date.isoformat()]
 
 
 def subset_latest(table: DataFrame) -> DataFrame:

@@ -99,7 +99,7 @@ CZ,hlavní město praha,2020-06-23,2437,21,CZ_10
 CZ,hlavní město praha,2020-06-24,2449,12,CZ_10
 CZ,hlavní město praha,2020-06-25,2465,16,CZ_10
 CZ,hlavní město praha,2020-06-26,2477,12,CZ_10
-CZ,hlavní město praha,2020-06-27,2485,8,CZ_10
+CZ,hlavní město praha,2020-06-27,2491,14,CZ_10
 CZ,jihomoravský kraj,2020-03-13,29,,CZ_64
 CZ,jihomoravský kraj,2020-03-20,59,30,CZ_64
 CZ,jihomoravský kraj,2020-03-21,66,7,CZ_64
@@ -200,7 +200,7 @@ CZ,jihomoravský kraj,2020-06-23,636,3,CZ_64
 CZ,jihomoravský kraj,2020-06-24,653,17,CZ_64
 CZ,jihomoravský kraj,2020-06-25,656,3,CZ_64
 CZ,jihomoravský kraj,2020-06-26,658,2,CZ_64
-CZ,jihomoravský kraj,2020-06-27,659,1,CZ_64
+CZ,jihomoravský kraj,2020-06-27,661,3,CZ_64
 CZ,jihočeský kraj,2020-03-13,298,,CZ_31
 CZ,jihočeský kraj,2020-03-20,22,-276,CZ_31
 CZ,jihočeský kraj,2020-03-21,30,8,CZ_31
@@ -806,7 +806,7 @@ CZ,moravskoslezský kraj,2020-06-23,2093,39,CZ_80
 CZ,moravskoslezský kraj,2020-06-24,2143,50,CZ_80
 CZ,moravskoslezský kraj,2020-06-25,2194,51,CZ_80
 CZ,moravskoslezský kraj,2020-06-26,2240,46,CZ_80
-CZ,moravskoslezský kraj,2020-06-27,2319,79,CZ_80
+CZ,moravskoslezský kraj,2020-06-27,2396,156,CZ_80
 CZ,olomoucký kraj,2020-03-13,37,,CZ_71
 CZ,olomoucký kraj,2020-03-20,60,23,CZ_71
 CZ,olomoucký kraj,2020-03-21,68,8,CZ_71
@@ -907,7 +907,7 @@ CZ,olomoucký kraj,2020-06-23,874,10,CZ_71
 CZ,olomoucký kraj,2020-06-24,883,9,CZ_71
 CZ,olomoucký kraj,2020-06-25,886,3,CZ_71
 CZ,olomoucký kraj,2020-06-26,894,8,CZ_71
-CZ,olomoucký kraj,2020-06-27,898,4,CZ_71
+CZ,olomoucký kraj,2020-06-27,897,3,CZ_71
 CZ,pardubický kraj,2020-03-13,66,,CZ_53
 CZ,pardubický kraj,2020-03-20,19,-47,CZ_53
 CZ,pardubický kraj,2020-03-21,22,3,CZ_53
@@ -1109,7 +1109,7 @@ CZ,plzeňský kraj,2020-06-23,674,0,CZ_32
 CZ,plzeňský kraj,2020-06-24,675,1,CZ_32
 CZ,plzeňský kraj,2020-06-25,675,0,CZ_32
 CZ,plzeňský kraj,2020-06-26,675,0,CZ_32
-CZ,plzeňský kraj,2020-06-27,675,0,CZ_32
+CZ,plzeňský kraj,2020-06-27,676,1,CZ_32
 CZ,středočeský kraj,2020-03-13,112,,CZ_20
 CZ,středočeský kraj,2020-03-20,108,-4,CZ_20
 CZ,středočeský kraj,2020-03-21,118,10,CZ_20
@@ -1210,7 +1210,7 @@ CZ,středočeský kraj,2020-06-23,1175,8,CZ_20
 CZ,středočeský kraj,2020-06-24,1184,9,CZ_20
 CZ,středočeský kraj,2020-06-25,1189,5,CZ_20
 CZ,středočeský kraj,2020-06-26,1195,6,CZ_20
-CZ,středočeský kraj,2020-06-27,1195,0,CZ_20
+CZ,středočeský kraj,2020-06-27,1202,7,CZ_20
 CZ,zlínský kraj,2020-03-13,18,,CZ_72
 CZ,zlínský kraj,2020-03-20,47,29,CZ_72
 CZ,zlínský kraj,2020-03-21,51,4,CZ_72
@@ -1412,4 +1412,4 @@ CZ,ústecký kraj,2020-06-23,576,0,CZ_42
 CZ,ústecký kraj,2020-06-24,578,2,CZ_42
 CZ,ústecký kraj,2020-06-25,578,0,CZ_42
 CZ,ústecký kraj,2020-06-26,580,2,CZ_42
-CZ,ústecký kraj,2020-06-27,580,0,CZ_42
+CZ,ústecký kraj,2020-06-27,581,1,CZ_42

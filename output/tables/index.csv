@@ -2085,6 +2085,25 @@ IN_UT,Q1499,,IN,India,UT,Uttarakhand,,,IN,IND,1
 IN_WB,Q1356,,IN,India,WB,West Bengal,,,IN,IND,1
 IO,Q43448,country/IOT,IO,British Indian Ocean Territory,,,,,IO,IOT,0
 IQ,Q796,country/IRQ,IQ,Iraq,,,,,IQ,IRQ,0
+IQ_AN,Q187334,,IQ,Iraq,AN,Al Anbar,,,IQ,IRQ,1
+IQ_AR,Q213189,,IQ,Iraq,AR,Erbil,,,IQ,IRQ,1
+IQ_BA,Q193551,,IQ,Iraq,BA,Basra,,,IQ,IRQ,1
+IQ_BB,Q59202,,IQ,Iraq,BB,Babylon,,,IQ,IRQ,1
+IQ_BG,Q191075,,IQ,Iraq,BG,Baghdad,,,IQ,IRQ,1
+IQ_DA,Q189541,,IQ,Iraq,DA,Dohuk,,,IQ,IRQ,1
+IQ_DI,Q217075,,IQ,Iraq,DI,Diyala,,,IQ,IRQ,1
+IQ_DQ,Q215649,,IQ,Iraq,DQ,Dhi Qar,,,IQ,IRQ,1
+IQ_HA,Q15631321,,IQ,Iraq,HA,Halabja,,,IQ,IRQ,1
+IQ_KA,Q214104,,IQ,Iraq,KA,Karbala,,,IQ,IRQ,1
+IQ_KI,Q193268,,IQ,Iraq,KI,Kirkuk,,,IQ,IRQ,1
+IQ_MA,Q213170,,IQ,Iraq,MA,Maysan,,,IQ,IRQ,1
+IQ_MU,Q212761,,IQ,Iraq,MU,Al Muthanna,,,IQ,IRQ,1
+IQ_NA,Q192882,,IQ,Iraq,"NA",Najaf,,,IQ,IRQ,1
+IQ_NI,Q189352,,IQ,Iraq,NI,Nineveh,,,IQ,IRQ,1
+IQ_QA,Q62987,,IQ,Iraq,QA,Al-Qādisiyyah,,,IQ,IRQ,1
+IQ_SD,Q190131,,IQ,Iraq,SD,Saladin,,,IQ,IRQ,1
+IQ_SU,Q213182,,IQ,Iraq,SU,Sulaymaniyah,,,IQ,IRQ,1
+IQ_WA,Q189747,,IQ,Iraq,WA,Wasit,,,IQ,IRQ,1
 IR,Q794,country/IRN,IR,Iran,,,,,IR,IRN,0
 IS,Q189,country/ISL,IS,Iceland,,,,,IS,ISL,0
 IT,Q38,country/ITA,IT,Italy,,,,,IT,ITA,0
@@ -2883,6 +2902,7 @@ RO,Q218,country/ROU,RO,Romania,,,,,RO,ROU,0
 RS,Q403,country/SRB,RS,Serbia,,,,,RS,SRB,0
 RU,Q159,country/RUS,RU,Russia,,,,,RU,RUS,0
 RU_AD,Q3734,,RU,Russia,AD,Adygea,,,RU,RUS,1
+RU_AL,Q5971,,RU,Russia,AL,Altai Republic,,,RU,RUS,1
 RU_ALT,Q5942,,RU,Russia,ALT,Altai Krai,,,RU,RUS,1
 RU_AMU,Q6886,,RU,Russia,AMU,Amur Oblast,,,RU,RUS,1
 RU_ARK,Q1875,,RU,Russia,ARK,Arkhangelsk Oblast,,,RU,RUS,1

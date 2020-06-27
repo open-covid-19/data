@@ -1492,7 +1492,6 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-05-08,JP,熊本,1,,47,2,JP_43
 2020-05-09,JP,熊本,,1,47,3,JP_43
 2020-06-22,JP,熊本,1,,48,3,JP_43
-2020-06-27,JP,熊本,1,,49,3,JP_43
 2020-02-21,JP,石川,1,,1,0,JP_17
 2020-02-22,JP,石川,1,,2,0,JP_17
 2020-02-24,JP,石川,2,,4,0,JP_17

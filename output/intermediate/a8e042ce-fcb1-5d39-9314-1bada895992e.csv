@@ -2087,6 +2087,25 @@ IN,India,UT,Uttarakhand,,,,,nan,in,india,ut,uttarakhand,nan,nan,Q1499,,IN,IND,1,
 IN,India,WB,West Bengal,,,,,nan,in,india,wb,westbengal,nan,nan,Q1356,,IN,IND,1,IN_WB
 IO,British Indian Ocean Territory,,,,,,-1,nan,io,britishindianoceanterritory,nan,nan,nan,nan,Q43448,country/IOT,IO,IOT,0,IO
 IQ,Iraq,,,,,,-1,nan,iq,iraq,nan,nan,nan,nan,Q796,country/IRQ,IQ,IRQ,0,IQ
+IQ,Iraq,AN,Al Anbar,,,ANBAR,,anbar,iq,iraq,an,alanbar,nan,nan,Q187334,,IQ,IRQ,1,IQ_AN
+IQ,Iraq,AR,Erbil,,,,,nan,iq,iraq,ar,erbil,nan,nan,Q213189,,IQ,IRQ,1,IQ_AR
+IQ,Iraq,BA,Basra,,,BASRAH,,basrah,iq,iraq,ba,basra,nan,nan,Q193551,,IQ,IRQ,1,IQ_BA
+IQ,Iraq,BB,Babylon,,,,,nan,iq,iraq,bb,babylon,nan,nan,Q59202,,IQ,IRQ,1,IQ_BB
+IQ,Iraq,BG,Baghdad,,,,,nan,iq,iraq,bg,baghdad,nan,nan,Q191075,,IQ,IRQ,1,IQ_BG
+IQ,Iraq,DA,Dohuk,,,DAHUK,,dahuk,iq,iraq,da,dohuk,nan,nan,Q189541,,IQ,IRQ,1,IQ_DA
+IQ,Iraq,DI,Diyala,,,,,nan,iq,iraq,di,diyala,nan,nan,Q217075,,IQ,IRQ,1,IQ_DI
+IQ,Iraq,DQ,Dhi Qar,,,THI-QAR,,thiqar,iq,iraq,dq,dhiqar,nan,nan,Q215649,,IQ,IRQ,1,IQ_DQ
+IQ,Iraq,HA,Halabja,,,,,nan,iq,iraq,ha,halabja,nan,nan,Q15631321,,IQ,IRQ,1,IQ_HA
+IQ,Iraq,KA,Karbala,,,KERBALA,,kerbala,iq,iraq,ka,karbala,nan,nan,Q214104,,IQ,IRQ,1,IQ_KA
+IQ,Iraq,KI,Kirkuk,,,,,nan,iq,iraq,ki,kirkuk,nan,nan,Q193268,,IQ,IRQ,1,IQ_KI
+IQ,Iraq,MA,Maysan,,,MISSAN,,missan,iq,iraq,ma,maysan,nan,nan,Q213170,,IQ,IRQ,1,IQ_MA
+IQ,Iraq,MU,Al Muthanna,,,MUTHANNA,,muthanna,iq,iraq,mu,almuthanna,nan,nan,Q212761,,IQ,IRQ,1,IQ_MU
+IQ,Iraq,"NA",Najaf,,,,,nan,iq,iraq,na,najaf,nan,nan,Q192882,,IQ,IRQ,1,IQ_NA
+IQ,Iraq,NI,Nineveh,,,NINEWA,,ninewa,iq,iraq,ni,nineveh,nan,nan,Q189352,,IQ,IRQ,1,IQ_NI
+IQ,Iraq,QA,Al-Qādisiyyah,,,DIWANIYA,,diwaniya,iq,iraq,qa,alqadisiyyah,nan,nan,Q62987,,IQ,IRQ,1,IQ_QA
+IQ,Iraq,SD,Saladin,,,SALAH AL-DIN,,salahaldin,iq,iraq,sd,saladin,nan,nan,Q190131,,IQ,IRQ,1,IQ_SD
+IQ,Iraq,SU,Sulaymaniyah,,,,,nan,iq,iraq,su,sulaymaniyah,nan,nan,Q213182,,IQ,IRQ,1,IQ_SU
+IQ,Iraq,WA,Wasit,,,WASSIT,,wassit,iq,iraq,wa,wasit,nan,nan,Q189747,,IQ,IRQ,1,IQ_WA
 IR,Iran,,,,,,-1,nan,ir,iran,nan,nan,nan,nan,Q794,country/IRN,IR,IRN,0,IR
 IS,Iceland,,,,,,-1,nan,is,iceland,nan,nan,nan,nan,Q189,country/ISL,IS,ISL,0,IS
 IT,Italy,,,,,,0,nan,it,italy,nan,nan,nan,nan,Q38,country/ITA,IT,ITA,0,IT
@@ -2885,88 +2904,89 @@ RE,Réunion,,,,,,-1,nan,re,reunion,nan,nan,nan,nan,Q17070,country/REU,RE,REU,0,R
 RO,Romania,,,,,,-1,nan,ro,romania,nan,nan,nan,nan,Q218,country/ROU,RO,ROU,0,RO
 RS,Serbia,,,,,,-1,nan,rs,serbia,nan,nan,nan,nan,Q403,country/SRB,RS,SRB,0,RS
 RU,Russia,,,,,,0,nan,ru,russia,nan,nan,nan,nan,Q159,country/RUS,RU,RUS,0,RU
-RU,Russia,AD,Adygea,,,,,nan,ru,russia,ad,adygea,nan,nan,Q3734,,RU,RUS,1,RU_AD
-RU,Russia,ALT,Altai Krai,,,Altai Republic,,altairepublic,ru,russia,alt,altaikrai,nan,nan,Q5942,,RU,RUS,1,RU_ALT
-RU,Russia,AMU,Amur Oblast,,,,,nan,ru,russia,amu,amuroblast,nan,nan,Q6886,,RU,RUS,1,RU_AMU
-RU,Russia,ARK,Arkhangelsk Oblast,,,,,nan,ru,russia,ark,arkhangelskoblast,nan,nan,Q1875,,RU,RUS,1,RU_ARK
-RU,Russia,AST,Astrakhan Oblast,,,,,nan,ru,russia,ast,astrakhanoblast,nan,nan,Q3941,,RU,RUS,1,RU_AST
-RU,Russia,BA,Bashkortostan,,,,,nan,ru,russia,ba,bashkortostan,nan,nan,Q5710,,RU,RUS,1,RU_BA
-RU,Russia,BEL,Belgorod Oblast,,,,,nan,ru,russia,bel,belgorodoblast,nan,nan,Q3329,,RU,RUS,1,RU_BEL
-RU,Russia,BRY,Bryansk Oblast,,,,,nan,ru,russia,bry,bryanskoblast,nan,nan,Q2810,,RU,RUS,1,RU_BRY
-RU,Russia,BU,Buryatia,,,,,nan,ru,russia,bu,buryatia,nan,nan,Q6809,,RU,RUS,1,RU_BU
-RU,Russia,CE,Chechnya,,,,,nan,ru,russia,ce,chechnya,nan,nan,Q5187,,RU,RUS,1,RU_CE
-RU,Russia,CHE,Chelyabinsk Oblast,,,,,nan,ru,russia,che,chelyabinskoblast,nan,nan,Q5714,,RU,RUS,1,RU_CHE
-RU,Russia,CHU,Chukotka Avtonomnyy Okrug,,,Chukotka AO,,chukotkaao,ru,russia,chu,chukotkaavtonomnyyokrug,nan,nan,Q7984,,RU,RUS,1,RU_CHU
-RU,Russia,CU,Chuvashia,,,,,nan,ru,russia,cu,chuvashia,nan,nan,Q5466,,RU,RUS,1,RU_CU
-RU,Russia,DA,Dagestan,,,,,nan,ru,russia,da,dagestan,nan,nan,Q5118,,RU,RUS,1,RU_DA
-RU,Russia,IN,Ingushetia,,,,,nan,ru,russia,in,ingushetia,nan,nan,Q5219,,RU,RUS,1,RU_IN
-RU,Russia,IRK,Irkutsk Oblast,,,,,nan,ru,russia,irk,irkutskoblast,nan,nan,Q6585,,RU,RUS,1,RU_IRK
-RU,Russia,IVA,Ivanovo Oblast,,,,,nan,ru,russia,iva,ivanovooblast,nan,nan,Q2654,,RU,RUS,1,RU_IVA
-RU,Russia,KAM,Kamchatka Krai,,,,,nan,ru,russia,kam,kamchatkakrai,nan,nan,Q7948,,RU,RUS,1,RU_KAM
-RU,Russia,KB,Kabardino-Balkaria,,,,,nan,ru,russia,kb,kabardinobalkaria,nan,nan,Q5267,,RU,RUS,1,RU_KB
-RU,Russia,KC,Karachay-Cherkessia,,,,,nan,ru,russia,kc,karachaycherkessia,nan,nan,Q5328,,RU,RUS,1,RU_KC
-RU,Russia,KDA,Krasnodar Krai,,,,,nan,ru,russia,kda,krasnodarkrai,nan,nan,Q3680,,RU,RUS,1,RU_KDA
-RU,Russia,KEM,Kemerovo Oblast,,,,,nan,ru,russia,kem,kemerovooblast,nan,nan,Q6076,,RU,RUS,1,RU_KEM
-RU,Russia,KGD,Kaliningrad Oblast,,,,,nan,ru,russia,kgd,kaliningradoblast,nan,nan,Q1749,,RU,RUS,1,RU_KGD
-RU,Russia,KGN,Kurgan Oblast,,,,,nan,ru,russia,kgn,kurganoblast,nan,nan,Q5741,,RU,RUS,1,RU_KGN
-RU,Russia,KHA,Khabarovsk Krai,,,,,nan,ru,russia,kha,khabarovskkrai,nan,nan,Q7788,,RU,RUS,1,RU_KHA
-RU,Russia,KHM,Khanty-Mansi Avtonomnyy Okrug,,,Khanty-Mansi AO,,khantymansiao,ru,russia,khm,khantymansiavtonomnyyokrug,nan,nan,Q6320,,RU,RUS,1,RU_KHM
-RU,Russia,KIR,Kirov Oblast,,,,,nan,ru,russia,kir,kirovoblast,nan,nan,Q5387,,RU,RUS,1,RU_KIR
-RU,Russia,KK,Khakassia,,,,,nan,ru,russia,kk,khakassia,nan,nan,Q6543,,RU,RUS,1,RU_KK
-RU,Russia,KL,Kalmykia,,,,,nan,ru,russia,kl,kalmykia,nan,nan,Q3953,,RU,RUS,1,RU_KL
-RU,Russia,KLU,Kaluga Oblast,,,,,nan,ru,russia,klu,kalugaoblast,nan,nan,Q2842,,RU,RUS,1,RU_KLU
-RU,Russia,KO,Komi Republic,,,,,nan,ru,russia,ko,komirepublic,nan,nan,Q2073,,RU,RUS,1,RU_KO
-RU,Russia,KOS,Kostroma Oblast,,,,,nan,ru,russia,kos,kostromaoblast,nan,nan,Q2596,,RU,RUS,1,RU_KOS
-RU,Russia,KR,Republic of Karelia,,,,,nan,ru,russia,kr,republickarelia,nan,nan,Q1914,,RU,RUS,1,RU_KR
-RU,Russia,KRS,Kursk Oblast,,,,,nan,ru,russia,krs,kurskoblast,nan,nan,Q3178,,RU,RUS,1,RU_KRS
-RU,Russia,KYA,Krasnoyarsk Krai,,,,,nan,ru,russia,kya,krasnoyarskkrai,nan,nan,Q6563,,RU,RUS,1,RU_KYA
-RU,Russia,LEN,Leningrad Oblast,,,,,nan,ru,russia,len,leningradoblast,nan,nan,Q2191,,RU,RUS,1,RU_LEN
-RU,Russia,LIP,Lipetsk Oblast,,,,,nan,ru,russia,lip,lipetskoblast,nan,nan,Q3510,,RU,RUS,1,RU_LIP
-RU,Russia,MAG,Magadan Oblast,,,,,nan,ru,russia,mag,magadanoblast,nan,nan,Q7971,,RU,RUS,1,RU_MAG
-RU,Russia,ME,Mari El,,,,,nan,ru,russia,me,mariel,nan,nan,Q5446,,RU,RUS,1,RU_ME
-RU,Russia,MO,Mordovia,,,,,nan,ru,russia,mo,mordovia,nan,nan,Q5340,,RU,RUS,1,RU_MO
-RU,Russia,MOS,Moscow Oblast,,,,,nan,ru,russia,mos,moscowoblast,nan,nan,Q1697,,RU,RUS,1,RU_MOS
-RU,Russia,MOW,Moscow,,,,,nan,ru,russia,mow,moscow,nan,nan,Q649,,RU,RUS,1,RU_MOW
-RU,Russia,MUR,Murmansk Oblast,,,,,nan,ru,russia,mur,murmanskoblast,nan,nan,Q1759,,RU,RUS,1,RU_MUR
-RU,Russia,NEN,Nenets Avtonomnyy Okrug,,,Nenets AO,,nenetsao,ru,russia,nen,nenetsavtonomnyyokrug,nan,nan,Q2164,,RU,RUS,1,RU_NEN
-RU,Russia,NGR,Novgorod Oblast,,,,,nan,ru,russia,ngr,novgorodoblast,nan,nan,Q2240,,RU,RUS,1,RU_NGR
-RU,Russia,NIZ,Nizhny Novgorod Oblast,,,,,nan,ru,russia,niz,nizhnynovgorodoblast,nan,nan,Q2246,,RU,RUS,1,RU_NIZ
-RU,Russia,NVS,Novosibirsk Oblast,,,,,nan,ru,russia,nvs,novosibirskoblast,nan,nan,Q5851,,RU,RUS,1,RU_NVS
-RU,Russia,OMS,Omsk Oblast,,,,,nan,ru,russia,oms,omskoblast,nan,nan,Q5835,,RU,RUS,1,RU_OMS
-RU,Russia,ORE,Orenburg Oblast,,,,,nan,ru,russia,ore,orenburgoblast,nan,nan,Q5338,,RU,RUS,1,RU_ORE
-RU,Russia,ORL,Oryol Oblast,,,,,nan,ru,russia,orl,oryoloblast,nan,nan,Q3129,,RU,RUS,1,RU_ORL
-RU,Russia,PER,Perm Krai,,,,,nan,ru,russia,per,permkrai,nan,nan,Q5400,,RU,RUS,1,RU_PER
-RU,Russia,PNZ,Penza Oblast,,,,,nan,ru,russia,pnz,penzaoblast,nan,nan,Q5545,,RU,RUS,1,RU_PNZ
-RU,Russia,PRI,Primorsky Krai,,,,,nan,ru,russia,pri,primorskykrai,nan,nan,Q4341,,RU,RUS,1,RU_PRI
-RU,Russia,PSK,Pskov Oblast,,,,,nan,ru,russia,psk,pskovoblast,nan,nan,Q2218,,RU,RUS,1,RU_PSK
-RU,Russia,ROS,Rostov Oblast,,,,,nan,ru,russia,ros,rostovoblast,nan,nan,Q3573,,RU,RUS,1,RU_ROS
-RU,Russia,RYA,Ryazan Oblast,,,,,nan,ru,russia,rya,ryazanoblast,nan,nan,Q2753,,RU,RUS,1,RU_RYA
-RU,Russia,SA,Yakutia,,,,,nan,ru,russia,sa,yakutia,nan,nan,Q6605,,RU,RUS,1,RU_SA
-RU,Russia,SAK,Sakhalin Oblast,,,,,nan,ru,russia,sak,sakhalinoblast,nan,nan,Q7797,,RU,RUS,1,RU_SAK
-RU,Russia,SAM,Samara Oblast,,,,,nan,ru,russia,sam,samaraoblast,nan,nan,Q1727,,RU,RUS,1,RU_SAM
-RU,Russia,SAR,Saratov Oblast,,,,,nan,ru,russia,sar,saratovoblast,nan,nan,Q5334,,RU,RUS,1,RU_SAR
-RU,Russia,SE,North Ossetia-Alania,,,,,nan,ru,russia,se,northossetiaalania,nan,nan,Q5237,,RU,RUS,1,RU_SE
-RU,Russia,SMO,Smolensk Oblast,,,,,nan,ru,russia,smo,smolenskoblast,nan,nan,Q2347,,RU,RUS,1,RU_SMO
-RU,Russia,SPE,Saint Petersburg,,,,,nan,ru,russia,spe,saintpetersburg,nan,nan,Q656,,RU,RUS,1,RU_SPE
-RU,Russia,STA,Stavropol Krai,,,,,nan,ru,russia,sta,stavropolkrai,nan,nan,Q5207,,RU,RUS,1,RU_STA
-RU,Russia,SVE,Sverdlovsk Oblast,,,,,nan,ru,russia,sve,sverdlovskoblast,nan,nan,Q5462,,RU,RUS,1,RU_SVE
-RU,Russia,TA,Tatarstan,,,,,nan,ru,russia,ta,tatarstan,nan,nan,Q5481,,RU,RUS,1,RU_TA
-RU,Russia,TAM,Tambov Oblast,,,,,nan,ru,russia,tam,tambovoblast,nan,nan,Q3550,,RU,RUS,1,RU_TAM
-RU,Russia,TOM,Tomsk Oblast,,,,,nan,ru,russia,tom,tomskoblast,nan,nan,Q5884,,RU,RUS,1,RU_TOM
-RU,Russia,TUL,Tula Oblast,,,,,nan,ru,russia,tul,tulaoblast,nan,nan,Q2792,,RU,RUS,1,RU_TUL
-RU,Russia,TVE,Tver Oblast,,,,,nan,ru,russia,tve,tveroblast,nan,nan,Q2292,,RU,RUS,1,RU_TVE
-RU,Russia,TY,Tuva,,,,,nan,ru,russia,ty,tuva,nan,nan,Q960,,RU,RUS,1,RU_TY
-RU,Russia,TYU,Tyumen Oblast,,,,,nan,ru,russia,tyu,tyumenoblast,nan,nan,Q5824,,RU,RUS,1,RU_TYU
-RU,Russia,UD,Udmurtia,,,,,nan,ru,russia,ud,udmurtia,nan,nan,Q5422,,RU,RUS,1,RU_UD
-RU,Russia,ULY,Ulyanovsk Oblast,,,,,nan,ru,russia,uly,ulyanovskoblast,nan,nan,Q5634,,RU,RUS,1,RU_ULY
-RU,Russia,VGG,Volgograd Oblast,,,,,nan,ru,russia,vgg,volgogradoblast,nan,nan,Q3819,,RU,RUS,1,RU_VGG
-RU,Russia,VLA,Vladimir Oblast,,,,,nan,ru,russia,vla,vladimiroblast,nan,nan,Q2702,,RU,RUS,1,RU_VLA
-RU,Russia,VLG,Vologda Oblast,,,,,nan,ru,russia,vlg,vologdaoblast,nan,nan,Q2015,,RU,RUS,1,RU_VLG
-RU,Russia,VOR,Voronezh Oblast,,,,,nan,ru,russia,vor,voronezhoblast,nan,nan,Q3447,,RU,RUS,1,RU_VOR
-RU,Russia,YAN,Yamalo-Nenets Avtonomnyy Okrug,,,yamalo-nenets ao,,yamalonenetsao,ru,russia,yan,yamalonenetsavtonomnyyokrug,nan,nan,Q6407,,RU,RUS,1,RU_YAN
-RU,Russia,YAR,Yaroslavl Oblast,,,,,nan,ru,russia,yar,yaroslavloblast,nan,nan,Q2448,,RU,RUS,1,RU_YAR
-RU,Russia,YEV,Jewish Avtonomnyy Okrug,,,Jewish AO,,jewishao,ru,russia,yev,jewishavtonomnyyokrug,nan,nan,Q7730,,RU,RUS,1,RU_YEV
-RU,Russia,ZAB,Zabaykalsky Krai,,,,,nan,ru,russia,zab,zabaykalskykrai,nan,nan,Q6838,,RU,RUS,1,RU_ZAB
+RU,Russia,AD,Adygea,,,республика адыгея,,respublikaadygeia,ru,russia,ad,adygea,nan,nan,Q3734,,RU,RUS,1,RU_AD
+RU,Russia,AL,Altai Republic,,,Республика Алтай,,respublikaaltai,ru,russia,al,altairepublic,nan,nan,Q5971,,RU,RUS,1,RU_AL
+RU,Russia,ALT,Altai Krai,,,Алтайский Край,,altaiskiikrai,ru,russia,alt,altaikrai,nan,nan,Q5942,,RU,RUS,1,RU_ALT
+RU,Russia,AMU,Amur Oblast,,,амурская область,,amurskaiaoblast,ru,russia,amu,amuroblast,nan,nan,Q6886,,RU,RUS,1,RU_AMU
+RU,Russia,ARK,Arkhangelsk Oblast,,,архангельская область,,arkhangelskaiaoblast,ru,russia,ark,arkhangelskoblast,nan,nan,Q1875,,RU,RUS,1,RU_ARK
+RU,Russia,AST,Astrakhan Oblast,,,астраханская область,,astrakhanskaiaoblast,ru,russia,ast,astrakhanoblast,nan,nan,Q3941,,RU,RUS,1,RU_AST
+RU,Russia,BA,Bashkortostan,,,республика башкортостан,,respublikabashkortostan,ru,russia,ba,bashkortostan,nan,nan,Q5710,,RU,RUS,1,RU_BA
+RU,Russia,BEL,Belgorod Oblast,,,белгородская область,,belgorodskaiaoblast,ru,russia,bel,belgorodoblast,nan,nan,Q3329,,RU,RUS,1,RU_BEL
+RU,Russia,BRY,Bryansk Oblast,,,брянская область,,brianskaiaoblast,ru,russia,bry,bryanskoblast,nan,nan,Q2810,,RU,RUS,1,RU_BRY
+RU,Russia,BU,Buryatia,,,республика бурятия,,respublikaburiatiia,ru,russia,bu,buryatia,nan,nan,Q6809,,RU,RUS,1,RU_BU
+RU,Russia,CE,Chechnya,,,Чеченская Республика,,chechenskaiarespublika,ru,russia,ce,chechnya,nan,nan,Q5187,,RU,RUS,1,RU_CE
+RU,Russia,CHE,Chelyabinsk Oblast,,,челябинская область,,cheliabinskaiaoblast,ru,russia,che,chelyabinskoblast,nan,nan,Q5714,,RU,RUS,1,RU_CHE
+RU,Russia,CHU,Chukotka Avtonomnyy Okrug,,,(Chukotka AO)|(чукотский ао),,chukotkaaochukotskiiao,ru,russia,chu,chukotkaavtonomnyyokrug,nan,nan,Q7984,,RU,RUS,1,RU_CHU
+RU,Russia,CU,Chuvashia,,,чувашская республика,,chuvashskaiarespublika,ru,russia,cu,chuvashia,nan,nan,Q5466,,RU,RUS,1,RU_CU
+RU,Russia,DA,Dagestan,,,республика дагестан,,respublikadagestan,ru,russia,da,dagestan,nan,nan,Q5118,,RU,RUS,1,RU_DA
+RU,Russia,IN,Ingushetia,,,республика ингушетия,,respublikaingushetiia,ru,russia,in,ingushetia,nan,nan,Q5219,,RU,RUS,1,RU_IN
+RU,Russia,IRK,Irkutsk Oblast,,,иркутская область,,irkutskaiaoblast,ru,russia,irk,irkutskoblast,nan,nan,Q6585,,RU,RUS,1,RU_IRK
+RU,Russia,IVA,Ivanovo Oblast,,,ивановская область,,ivanovskaiaoblast,ru,russia,iva,ivanovooblast,nan,nan,Q2654,,RU,RUS,1,RU_IVA
+RU,Russia,KAM,Kamchatka Krai,,,камчатский край,,kamchatskiikrai,ru,russia,kam,kamchatkakrai,nan,nan,Q7948,,RU,RUS,1,RU_KAM
+RU,Russia,KB,Kabardino-Balkaria,,,кабардино-балкарская республика,,kabardinobalkarskaiarespublika,ru,russia,kb,kabardinobalkaria,nan,nan,Q5267,,RU,RUS,1,RU_KB
+RU,Russia,KC,Karachay-Cherkessia,,,карачаево-черкесская республика,,karachaevocherkesskaiarespublika,ru,russia,kc,karachaycherkessia,nan,nan,Q5328,,RU,RUS,1,RU_KC
+RU,Russia,KDA,Krasnodar Krai,,,краснодарский край,,krasnodarskiikrai,ru,russia,kda,krasnodarkrai,nan,nan,Q3680,,RU,RUS,1,RU_KDA
+RU,Russia,KEM,Kemerovo Oblast,,,кемеровская область,,kemerovskaiaoblast,ru,russia,kem,kemerovooblast,nan,nan,Q6076,,RU,RUS,1,RU_KEM
+RU,Russia,KGD,Kaliningrad Oblast,,,калининградская область,,kaliningradskaiaoblast,ru,russia,kgd,kaliningradoblast,nan,nan,Q1749,,RU,RUS,1,RU_KGD
+RU,Russia,KGN,Kurgan Oblast,,,курганская область,,kurganskaiaoblast,ru,russia,kgn,kurganoblast,nan,nan,Q5741,,RU,RUS,1,RU_KGN
+RU,Russia,KHA,Khabarovsk Krai,,,хабаровский край,,khabarovskiikrai,ru,russia,kha,khabarovskkrai,nan,nan,Q7788,,RU,RUS,1,RU_KHA
+RU,Russia,KHM,Khanty-Mansi Avtonomnyy Okrug,,,(Khanty-Mansi AO)|(ханты-мансийский ао),,khantymansiaokhantymansiiskiiao,ru,russia,khm,khantymansiavtonomnyyokrug,nan,nan,Q6320,,RU,RUS,1,RU_KHM
+RU,Russia,KIR,Kirov Oblast,,,кировская область,,kirovskaiaoblast,ru,russia,kir,kirovoblast,nan,nan,Q5387,,RU,RUS,1,RU_KIR
+RU,Russia,KK,Khakassia,,,республика хакасия,,respublikakhakasiia,ru,russia,kk,khakassia,nan,nan,Q6543,,RU,RUS,1,RU_KK
+RU,Russia,KL,Kalmykia,,,республика калмыкия,,respublikakalmykiia,ru,russia,kl,kalmykia,nan,nan,Q3953,,RU,RUS,1,RU_KL
+RU,Russia,KLU,Kaluga Oblast,,,калужская область,,kaluzhskaiaoblast,ru,russia,klu,kalugaoblast,nan,nan,Q2842,,RU,RUS,1,RU_KLU
+RU,Russia,KO,Komi Republic,,,республика коми,,respublikakomi,ru,russia,ko,komirepublic,nan,nan,Q2073,,RU,RUS,1,RU_KO
+RU,Russia,KOS,Kostroma Oblast,,,костромская область,,kostromskaiaoblast,ru,russia,kos,kostromaoblast,nan,nan,Q2596,,RU,RUS,1,RU_KOS
+RU,Russia,KR,Republic of Karelia,,,республика карелия,,respublikakareliia,ru,russia,kr,republickarelia,nan,nan,Q1914,,RU,RUS,1,RU_KR
+RU,Russia,KRS,Kursk Oblast,,,курская область,,kurskaiaoblast,ru,russia,krs,kurskoblast,nan,nan,Q3178,,RU,RUS,1,RU_KRS
+RU,Russia,KYA,Krasnoyarsk Krai,,,Красноярский Край,,krasnoiarskiikrai,ru,russia,kya,krasnoyarskkrai,nan,nan,Q6563,,RU,RUS,1,RU_KYA
+RU,Russia,LEN,Leningrad Oblast,,,ленинградская область,,leningradskaiaoblast,ru,russia,len,leningradoblast,nan,nan,Q2191,,RU,RUS,1,RU_LEN
+RU,Russia,LIP,Lipetsk Oblast,,,липецкая область,,lipetskaiaoblast,ru,russia,lip,lipetskoblast,nan,nan,Q3510,,RU,RUS,1,RU_LIP
+RU,Russia,MAG,Magadan Oblast,,,магаданская область,,magadanskaiaoblast,ru,russia,mag,magadanoblast,nan,nan,Q7971,,RU,RUS,1,RU_MAG
+RU,Russia,ME,Mari El,,,республика марий эл,,respublikamariiel,ru,russia,me,mariel,nan,nan,Q5446,,RU,RUS,1,RU_ME
+RU,Russia,MO,Mordovia,,,республика мордовия,,respublikamordoviia,ru,russia,mo,mordovia,nan,nan,Q5340,,RU,RUS,1,RU_MO
+RU,Russia,MOS,Moscow Oblast,,,московская область,,moskovskaiaoblast,ru,russia,mos,moscowoblast,nan,nan,Q1697,,RU,RUS,1,RU_MOS
+RU,Russia,MOW,Moscow,,,москва,,moskva,ru,russia,mow,moscow,nan,nan,Q649,,RU,RUS,1,RU_MOW
+RU,Russia,MUR,Murmansk Oblast,,,мурманская область,,murmanskaiaoblast,ru,russia,mur,murmanskoblast,nan,nan,Q1759,,RU,RUS,1,RU_MUR
+RU,Russia,NEN,Nenets Avtonomnyy Okrug,,,(Nenets AO)|(Ненецкий АО),,nenetsaonenetskiiao,ru,russia,nen,nenetsavtonomnyyokrug,nan,nan,Q2164,,RU,RUS,1,RU_NEN
+RU,Russia,NGR,Novgorod Oblast,,,новгородская область,,novgorodskaiaoblast,ru,russia,ngr,novgorodoblast,nan,nan,Q2240,,RU,RUS,1,RU_NGR
+RU,Russia,NIZ,Nizhny Novgorod Oblast,,,нижегородская область,,nizhegorodskaiaoblast,ru,russia,niz,nizhnynovgorodoblast,nan,nan,Q2246,,RU,RUS,1,RU_NIZ
+RU,Russia,NVS,Novosibirsk Oblast,,,новосибирская область,,novosibirskaiaoblast,ru,russia,nvs,novosibirskoblast,nan,nan,Q5851,,RU,RUS,1,RU_NVS
+RU,Russia,OMS,Omsk Oblast,,,омская область,,omskaiaoblast,ru,russia,oms,omskoblast,nan,nan,Q5835,,RU,RUS,1,RU_OMS
+RU,Russia,ORE,Orenburg Oblast,,,оренбургская область,,orenburgskaiaoblast,ru,russia,ore,orenburgoblast,nan,nan,Q5338,,RU,RUS,1,RU_ORE
+RU,Russia,ORL,Oryol Oblast,,,орловская область,,orlovskaiaoblast,ru,russia,orl,oryoloblast,nan,nan,Q3129,,RU,RUS,1,RU_ORL
+RU,Russia,PER,Perm Krai,,,пермский край,,permskiikrai,ru,russia,per,permkrai,nan,nan,Q5400,,RU,RUS,1,RU_PER
+RU,Russia,PNZ,Penza Oblast,,,пензенская область,,penzenskaiaoblast,ru,russia,pnz,penzaoblast,nan,nan,Q5545,,RU,RUS,1,RU_PNZ
+RU,Russia,PRI,Primorsky Krai,,,приморский край,,primorskiikrai,ru,russia,pri,primorskykrai,nan,nan,Q4341,,RU,RUS,1,RU_PRI
+RU,Russia,PSK,Pskov Oblast,,,псковская область,,pskovskaiaoblast,ru,russia,psk,pskovoblast,nan,nan,Q2218,,RU,RUS,1,RU_PSK
+RU,Russia,ROS,Rostov Oblast,,,ростовская область,,rostovskaiaoblast,ru,russia,ros,rostovoblast,nan,nan,Q3573,,RU,RUS,1,RU_ROS
+RU,Russia,RYA,Ryazan Oblast,,,рязанская область,,riazanskaiaoblast,ru,russia,rya,ryazanoblast,nan,nan,Q2753,,RU,RUS,1,RU_RYA
+RU,Russia,SA,Yakutia,,,Республика Саха (Якутия),,respublikasakhaiakutiia,ru,russia,sa,yakutia,nan,nan,Q6605,,RU,RUS,1,RU_SA
+RU,Russia,SAK,Sakhalin Oblast,,,сахалинская область,,sakhalinskaiaoblast,ru,russia,sak,sakhalinoblast,nan,nan,Q7797,,RU,RUS,1,RU_SAK
+RU,Russia,SAM,Samara Oblast,,,самарская область,,samarskaiaoblast,ru,russia,sam,samaraoblast,nan,nan,Q1727,,RU,RUS,1,RU_SAM
+RU,Russia,SAR,Saratov Oblast,,,саратовская область,,saratovskaiaoblast,ru,russia,sar,saratovoblast,nan,nan,Q5334,,RU,RUS,1,RU_SAR
+RU,Russia,SE,North Ossetia-Alania,,,республика северная осетия — алания,,respublikasevernaiaosetiiaalaniia,ru,russia,se,northossetiaalania,nan,nan,Q5237,,RU,RUS,1,RU_SE
+RU,Russia,SMO,Smolensk Oblast,,,смоленская область,,smolenskaiaoblast,ru,russia,smo,smolenskoblast,nan,nan,Q2347,,RU,RUS,1,RU_SMO
+RU,Russia,SPE,Saint Petersburg,,,санкт-петербург,,sanktpeterburg,ru,russia,spe,saintpetersburg,nan,nan,Q656,,RU,RUS,1,RU_SPE
+RU,Russia,STA,Stavropol Krai,,,ставропольский край,,stavropolskiikrai,ru,russia,sta,stavropolkrai,nan,nan,Q5207,,RU,RUS,1,RU_STA
+RU,Russia,SVE,Sverdlovsk Oblast,,,свердловская область,,sverdlovskaiaoblast,ru,russia,sve,sverdlovskoblast,nan,nan,Q5462,,RU,RUS,1,RU_SVE
+RU,Russia,TA,Tatarstan,,,республика татарстан,,respublikatatarstan,ru,russia,ta,tatarstan,nan,nan,Q5481,,RU,RUS,1,RU_TA
+RU,Russia,TAM,Tambov Oblast,,,тамбовская область,,tambovskaiaoblast,ru,russia,tam,tambovoblast,nan,nan,Q3550,,RU,RUS,1,RU_TAM
+RU,Russia,TOM,Tomsk Oblast,,,томская область,,tomskaiaoblast,ru,russia,tom,tomskoblast,nan,nan,Q5884,,RU,RUS,1,RU_TOM
+RU,Russia,TUL,Tula Oblast,,,тульская область,,tulskaiaoblast,ru,russia,tul,tulaoblast,nan,nan,Q2792,,RU,RUS,1,RU_TUL
+RU,Russia,TVE,Tver Oblast,,,тверская область,,tverskaiaoblast,ru,russia,tve,tveroblast,nan,nan,Q2292,,RU,RUS,1,RU_TVE
+RU,Russia,TY,Tuva,,,республика тыва,,respublikatyva,ru,russia,ty,tuva,nan,nan,Q960,,RU,RUS,1,RU_TY
+RU,Russia,TYU,Tyumen Oblast,,,тюменская область,,tiumenskaiaoblast,ru,russia,tyu,tyumenoblast,nan,nan,Q5824,,RU,RUS,1,RU_TYU
+RU,Russia,UD,Udmurtia,,,удмуртская республика,,udmurtskaiarespublika,ru,russia,ud,udmurtia,nan,nan,Q5422,,RU,RUS,1,RU_UD
+RU,Russia,ULY,Ulyanovsk Oblast,,,ульяновская область,,ulianovskaiaoblast,ru,russia,uly,ulyanovskoblast,nan,nan,Q5634,,RU,RUS,1,RU_ULY
+RU,Russia,VGG,Volgograd Oblast,,,волгоградская область,,volgogradskaiaoblast,ru,russia,vgg,volgogradoblast,nan,nan,Q3819,,RU,RUS,1,RU_VGG
+RU,Russia,VLA,Vladimir Oblast,,,владимирская область,,vladimirskaiaoblast,ru,russia,vla,vladimiroblast,nan,nan,Q2702,,RU,RUS,1,RU_VLA
+RU,Russia,VLG,Vologda Oblast,,,вологодская область,,vologodskaiaoblast,ru,russia,vlg,vologdaoblast,nan,nan,Q2015,,RU,RUS,1,RU_VLG
+RU,Russia,VOR,Voronezh Oblast,,,воронежская область,,voronezhskaiaoblast,ru,russia,vor,voronezhoblast,nan,nan,Q3447,,RU,RUS,1,RU_VOR
+RU,Russia,YAN,Yamalo-Nenets Avtonomnyy Okrug,,,(yamalo-nenets ao)|(ямало-ненецкий ао),,yamalonenetsaoiamalonenetskiiao,ru,russia,yan,yamalonenetsavtonomnyyokrug,nan,nan,Q6407,,RU,RUS,1,RU_YAN
+RU,Russia,YAR,Yaroslavl Oblast,,,ярославская область,,iaroslavskaiaoblast,ru,russia,yar,yaroslavloblast,nan,nan,Q2448,,RU,RUS,1,RU_YAR
+RU,Russia,YEV,Jewish Avtonomnyy Okrug,,,(Jewish AO)|(еврейская),,jewishaoevreiskaia,ru,russia,yev,jewishavtonomnyyokrug,nan,nan,Q7730,,RU,RUS,1,RU_YEV
+RU,Russia,ZAB,Zabaykalsky Krai,,,забайкальский край,,zabaikalskiikrai,ru,russia,zab,zabaykalskykrai,nan,nan,Q6838,,RU,RUS,1,RU_ZAB
 RW,Rwanda,,,,,,-1,nan,rw,rwanda,nan,nan,nan,nan,Q1037,country/RWA,RW,RWA,0,RW
 SA,Saudi Arabia,,,,,,-1,nan,sa,saudiarabia,nan,nan,nan,nan,Q851,country/SAU,SA,SAU,0,SA
 SB,Solomon Islands,,,,,,-1,nan,sb,solomonislands,nan,nan,nan,nan,Q685,country/SLB,SB,SLB,0,SB
@@ -3060,7 +3080,7 @@ TW,Taiwan,,,,,,-1,nan,tw,taiwan,nan,nan,nan,nan,Q865,country/TWN,TW,TWN,0,TW
 TZ,Tanzania,,,,,,-1,nan,tz,tanzania,nan,nan,nan,nan,Q924,country/TZA,TZ,TZA,0,TZ
 UA,Ukraine,,,,,,-1,nan,ua,ukraine,nan,nan,nan,nan,Q212,country/UKR,UA,UKR,0,UA
 RU,Russia,40,Sevastopol,,,,0,nan,ru,russia,,sevastopol,nan,nan,Q7525,,RU,RUS,1,UA_40
-RU,Russia,43,Republic of Crimea,,,,0,nan,ru,russia,,republiccrimea,nan,nan,Q756294,,RU,RUS,1,UA_43
+RU,Russia,43,Republic of Crimea,,,Республика Крым,0,respublikakrym,ru,russia,,republiccrimea,nan,nan,Q756294,,RU,RUS,1,UA_43
 UG,Uganda,,,,,,-1,nan,ug,uganda,nan,nan,nan,nan,Q1036,country/UGA,UG,UGA,0,UG
 UM,United States Minor Outlying Islands,,,,,,-1,nan,um,unitedstatesminoroutlyingislands,nan,nan,nan,nan,Q16645,country/UMI,UM,UMI,0,UM
 US,United States of America,,,,,,-1,nan,us,unitedstatesamerica,nan,nan,nan,nan,Q30,country/USA,US,USA,0,US
