@@ -2569,7 +2569,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,52.0739,5.5406,,0.001,http://www.wikidata.org/entity/Q2,18.52,8,NL_UT_0339
 ,51.9597,5.5689,,0.001,http://www.wikidata.org/entity/Q2,43.74,43,NL_UT_0340
 ,52.183333,5.2833333,,0.016666667,http://www.wikidata.org/entity/Q2,46.45,13,NL_UT_0342
-,52.088889,5.1155556,,0.00027777778,http://www.wikidata.org/entity/Q2,99.32,5,NL_UT_0344
+,52.09083,5.12222,,1E-05,http://www.wikidata.org/entity/Q2,99.32,5,NL_UT_0344
 ,52.016667,5.55,,0.0166667,http://www.wikidata.org/entity/Q2,19.72,6,NL_UT_0345
 ,52.0806,5.4164,,0.001,http://www.wikidata.org/entity/Q2,36.72,3,NL_UT_0351
 334749,51.9761,5.3369,,0.001,http://www.wikidata.org/entity/Q2,50.3,5,NL_UT_0352
@@ -3098,7 +3098,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,33.272222,-85.861111,,,http://www.wikidata.org/entity/Q2,1570,324,US_AL_01027
 1848857,33.677222,-85.5025,,,http://www.wikidata.org/entity/Q2,1453,293,US_AL_01029
 1850801,31.403333,-85.986667,,,http://www.wikidata.org/entity/Q2,1762,124,US_AL_01031
-1848766,34.70043,-87.80498,,1E-05,http://www.wikidata.org/entity/Q2,1615,172,US_AL_01033
+1848766,34.676667,-87.817222,,,http://www.wikidata.org/entity/Q2,1615,172,US_AL_01033
 ,31.425556,-86.993889,,,http://www.wikidata.org/entity/Q2,2208,76,US_AL_01035
 ,32.936389,-86.246389,,,http://www.wikidata.org/entity/Q2,1726,130,US_AL_01037
 1848768,31.241944,-86.4525,,,http://www.wikidata.org/entity/Q2,2704,,US_AL_01039
@@ -3135,7 +3135,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,32.219167,-86.209444,,,http://www.wikidata.org/entity/Q2,2071,,US_AL_01101
 ,34.451667,-86.857222,,,http://www.wikidata.org/entity/Q2,1552,,US_AL_01103
 ,32.635833,-87.291944,,,http://www.wikidata.org/entity/Q2,1875,84,US_AL_01105
-,33.28088,-88.08869,,1E-05,http://www.wikidata.org/entity/Q2,2305,78,US_AL_01107
+,33.278611,-88.093056,,,http://www.wikidata.org/entity/Q2,2305,78,US_AL_01107
 1850807,31.799167,-85.938611,,,http://www.wikidata.org/entity/Q2,1741,119,US_AL_01109
 ,33.289167,-85.460278,,,http://www.wikidata.org/entity/Q2,1513,283,US_AL_01111
 1850809,32.286667,-85.193889,,,http://www.wikidata.org/entity/Q2,1677,98,US_AL_01113
@@ -3224,7 +3224,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,36.0025,-94.227222,,,http://www.wikidata.org/entity/Q2,2476,,US_AR_05143
 ,35.255833,-91.734722,,,http://www.wikidata.org/entity/Q2,2700,,US_AR_05145
 ,35.195,-91.221389,,,http://www.wikidata.org/entity/Q2,594,,US_AR_05147
-,35.0026,-93.41125,,0.010966753,http://www.wikidata.org/entity/Q2,949,,US_AR_05149
+,34.998333,-93.4525,,,http://www.wikidata.org/entity/Q2,949,,US_AR_05149
 ,-14.295833,-170.7075,,1E-05,http://www.wikidata.org/entity/Q2,199,765,US_AS
 162018,34.286667,-111.65694,,1E-05,http://www.wikidata.org/entity/Q2,295234,1250,US_AZ
 ,35.423889,-109.4425,,,http://www.wikidata.org/entity/Q2,29056,,US_AZ_04001
@@ -4220,7 +4220,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,32.37,-91.24,,,http://www.wikidata.org/entity/Q2,1685,,US_LA_22065
 ,32.82,-91.8,,,http://www.wikidata.org/entity/Q2,2085,,US_LA_22067
 ,31.73,-93.1,,,http://www.wikidata.org/entity/Q2,3365,,US_LA_22069
-,30.06864,-89.92813,,0.010380038,http://www.wikidata.org/entity/Q2,907,,US_LA_22071
+,29.966667,-90.05,,0.016666667,http://www.wikidata.org/entity/Q2,907,,US_LA_22071
 ,32.48,-92.16,,,http://www.wikidata.org/entity/Q2,1639,,US_LA_22073
 ,29.39,-89.48,,,http://www.wikidata.org/entity/Q2,6290,,US_LA_22075
 ,30.71,-91.6,,,http://www.wikidata.org/entity/Q2,1530,,US_LA_22077
@@ -5545,7 +5545,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,45.6,-98.35,,0.0166667,http://www.wikidata.org/entity/Q2,4484,,US_SD_46013
 ,43.72,-99.06,,,http://www.wikidata.org/entity/Q2,2192,,US_SD_46015
 ,44.08,-99.2,,,http://www.wikidata.org/entity/Q2,1262,,US_SD_46017
-,44.90583,-103.50802,,0.012683268,http://www.wikidata.org/entity/Q2,5870,,US_SD_46019
+,44.91,-103.49,,,http://www.wikidata.org/entity/Q2,5870,,US_SD_46019
 ,45.76,-100.05,,,http://www.wikidata.org/entity/Q2,1998,,US_SD_46021
 ,43.21,-98.59,,,http://www.wikidata.org/entity/Q2,2979,,US_SD_46023
 ,44.86,-97.73,,,http://www.wikidata.org/entity/Q2,2507,,US_SD_46025
@@ -6033,7 +6033,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,36.91,-76.71,,,http://www.wikidata.org/entity/Q2,940,,US_VA_51093
 ,37.31,-76.77,,,http://www.wikidata.org/entity/Q2,465,,US_VA_51095
 ,37.72,-76.9,,,http://www.wikidata.org/entity/Q2,845,,US_VA_51097
-,38.27374,-77.15651,,0.011442627,http://www.wikidata.org/entity/Q2,486,,US_VA_51099
+,38.26,-77.15,,,http://www.wikidata.org/entity/Q2,486,,US_VA_51099
 ,37.7066,-77.08839,,0.011354506,http://www.wikidata.org/entity/Q2,740,,US_VA_51101
 ,37.71,-76.41,,,http://www.wikidata.org/entity/Q2,599,,US_VA_51103
 ,36.71,-83.13,,,http://www.wikidata.org/entity/Q2,1133,,US_VA_51105
@@ -6230,7 +6230,7 @@ open_street_maps,latitude,longitude,altitude,precision,globe,area,elevation,key
 ,43.38,-90.43,,,http://www.wikidata.org/entity/Q2,1526,,US_WI_55103
 ,42.67,-89.07,,,http://www.wikidata.org/entity/Q2,1881,,US_WI_55105
 ,45.48,-91.14,,,http://www.wikidata.org/entity/Q2,2411,,US_WI_55107
-,45.03407,-92.45278,,0.012711658,http://www.wikidata.org/entity/Q2,1906,,US_WI_55109
+,45.04,-92.45,,,http://www.wikidata.org/entity/Q2,1906,,US_WI_55109
 ,43.43,-89.94,,,http://www.wikidata.org/entity/Q2,2197,,US_WI_55111
 ,45.9,-91.14,,,http://www.wikidata.org/entity/Q2,3497,,US_WI_55113
 ,44.79,-88.76,,,http://www.wikidata.org/entity/Q2,2355,,US_WI_55115
