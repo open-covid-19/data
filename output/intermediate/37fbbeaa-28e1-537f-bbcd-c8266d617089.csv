@@ -750,6 +750,7 @@ date,subregion1_code,total_tested,total_confirmed,total_hospitalized,total_inten
 2020-06-25,BS,,985,2,1,,934,50,CH,CH_BS,0,0,0,0,,0,0
 2020-06-26,BS,,985,,,,934,50,CH,CH_BS,0,0,0,0,,0,0
 2020-06-27,BS,,985,,,,934,50,CH,CH_BS,0,0,0,0,,0,0
+2020-06-28,BS,,985,,,,934,50,CH,CH_BS,0,0,0,0,,0,0
 2020-02-28,BE,,1,,,,,,CH,CH_BE,,,,,,,
 2020-03-01,BE,,2,,,,,,CH,CH_BE,,1,,,,,
 2020-03-02,BE,,4,,,,,,CH,CH_BE,,2,,,,,
