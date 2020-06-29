@@ -53,6 +53,12 @@ sources:
     parse:
       key: CZ
 
+  - name: pipelines.epidemiology.cz_authority.CzechRepublicL1HospitalizedDataSource
+    fetch:
+      - url: "https://onemocneni-aktualne.mzcr.cz/covid-19/prehled-hospitalizaci"
+        opts:
+          ext: html
+
   # Data sources for DK level 1
   - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
     fetch:

@@ -44,7 +44,10 @@ class FinlandArcGisDataSource(DataSource):
 
         data = json.load(open(sources[0]))["features"]
         data = table_rename(
-            DataFrame.from_records([row["attributes"] for row in data]), _column_adapter
+            DataFrame.from_records([row["attributes"] for row in data]),
+            _column_adapter,
+            remove_regex=r"[^a-z\s\d]",
+            drop=True,
         )
 
         # Add the age bins

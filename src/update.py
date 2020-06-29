@@ -70,7 +70,8 @@ def main(
 
     # Verify that all of the provided pipeline names exist as pipelines
     for pipeline_name in (only or []) + (exclude or []):
-        assert pipeline_name in all_pipeline_names, f'"{pipeline_name}" pipeline does not exist'
+        module_name = pipeline_name.replace("-", "_")
+        assert module_name in all_pipeline_names, f'"{pipeline_name}" pipeline does not exist'
 
     # Run all the pipelines and place their outputs into the output folder
     # The output name for each pipeline chain will be the name of the directory that the chain is in
