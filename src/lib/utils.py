@@ -50,14 +50,33 @@ def pivot_table_date_columns(
     return DataFrame.from_records(records).set_index("index")
 
 
-def table_rename(data: DataFrame, column_adapter: Dict[str, str]) -> DataFrame:
-    """ Renames the table columns after converting all names to ASCII """
+def table_rename(
+    data: DataFrame,
+    column_adapter: Dict[str, str],
+    remove_regex: str = r"[^a-z\s]",
+    drop: bool = False,
+) -> DataFrame:
+    """
+    Renames the table columns after converting all names to ASCII
+
+    Args:
+        data: The DataFrame containing columns to be renamed
+        column_adapter: Dictionary of old -> new column name replacements
+        remove_regex: Characters to ignore (and delete) during column renaming
+        drop: Drop all columns not in the adapter in the output DataFrame
+
+    Returns:
+        DataFrame: A copy of the input DataFrame with new column names
+    """
     data = data.copy()
-    ascii_name = partial(fuzzy_text, remove_spaces=False)
+    ascii_name = partial(fuzzy_text, remove_regex=remove_regex, remove_spaces=False)
     data.columns = [ascii_name(col) for col in data.columns]
-    return data.rename(
+    data = data.rename(
         columns={ascii_name(name_old): name_new for name_old, name_new in column_adapter.items()}
     )
+    if drop:
+        data = data[[col for col in column_adapter.values() if col in data.columns]]
+    return data
 
 
 def table_multimerge(dataframes: List[DataFrame], **merge_opts) -> DataFrame:
@@ -307,6 +326,7 @@ def stratify_age_and_sex(data: DataFrame, index_schema: Dict[str, str]) -> DataF
     age_columns = {col: col.split(age_prefix, 2) for col in data.columns if age_prefix in col}
     age_buckets = unique([bucket for _, bucket in age_columns.values()])
     age_buckets_map = {bucket: f"{idx:02d}" for idx, bucket in enumerate(sorted(age_buckets))}
+    # print(data)
     data = data.rename(
         columns={
             col_name_old: f"{prefix}{age_prefix}{age_buckets_map[bucket]}"

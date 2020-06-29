@@ -19,7 +19,7 @@ from typing import Callable, List, Union
 
 import pandas
 from unidecode import unidecode
-from pandas import DataFrame, read_csv
+from pandas import DataFrame
 from pandas.api.types import is_numeric_dtype
 from bs4 import BeautifulSoup, Tag
 

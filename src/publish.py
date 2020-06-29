@@ -78,7 +78,7 @@ def subset_grouped_key(table_indexed: DataFrame, output_folder: Path, key: str) 
     """ Outputs a subset of the table with only records with the given key """
     key_folder = output_folder / key
     key_folder.mkdir(exist_ok=True)
-    export_csv(table_indexed.loc[key:key], key_folder / "master.csv")
+    export_csv(table_indexed.loc[key:key].reset_index(), key_folder / "master.csv")
 
 
 def export_json_without_index(csv_file: Path) -> None:

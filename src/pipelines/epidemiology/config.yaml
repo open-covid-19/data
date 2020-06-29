@@ -139,12 +139,38 @@ sources:
     fetch:
       - url: "https://www.datos.gov.co/api/views/gt2j-8ykr/rows.csv"
 
-  # Data sources for CZ level 2
+  # Data sources for CZ levels 1 + 2 + 3
   - name: pipelines.epidemiology.xx_covid19_eu_data.Covid19EuDataSource
     fetch:
       - url: "https://raw.github.com/covid19-eu-zh/covid19-eu-data/master/dataset/covid-19-cz.csv"
     parse:
       country: CZ
+
+  - name: pipelines.epidemiology.cz_authority.CzechRepublicAgeSexDataSource
+    fetch:
+      - url: "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/osoby.csv"
+    parse:
+      column_name: 'new_confirmed'
+
+  - name: pipelines.epidemiology.cz_authority.CzechRepublicAgeSexDataSource
+    fetch:
+      - url: "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/umrti.csv"
+    parse:
+      column_name: 'new_deceased'
+
+  - name: pipelines.epidemiology.cz_authority.CzechRepublicAgeSexDataSource
+    fetch:
+      - url: "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/vyleceni.csv"
+    parse:
+      column_name: 'new_recovered'
+
+  - name: pipelines.epidemiology.cz_authority.CzechRepublicL3DataSource
+    fetch:
+      - url: "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/kraj-okres-nakazeni-vyleceni-umrti.csv"
+
+  - name: pipelines.epidemiology.cz_authority.CzechRepublicL1TestedDataSource
+    fetch:
+      - url: "https://onemocneni-aktualne.mzcr.cz/api/v2/covid-19/testy.csv"
 
   # Data sources for DE level 2
   - name: pipelines.epidemiology.de_covid_19_germany_gae.Covid19GermanyDataSource
