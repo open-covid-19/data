@@ -99,6 +99,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,京都,4,,370,18,JP_26
 2020-06-27,JP,京都,4,,374,18,JP_26
 2020-06-28,JP,京都,1,,375,18,JP_26
+2020-06-29,JP,京都,4,,379,18,JP_26
 2020-03-13,JP,佐賀,1,,1,0,JP_41
 2020-03-31,JP,佐賀,1,,2,0,JP_41
 2020-04-01,JP,佐賀,1,,3,0,JP_41
@@ -333,6 +334,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,北海道,5,,1204,98,JP_01
 2020-06-27,JP,北海道,1,1,1205,99,JP_01
 2020-06-28,JP,北海道,17,,1222,99,JP_01
+2020-06-29,JP,北海道,11,,1233,99,JP_01
 2020-01-31,JP,千葉,1,,1,0,JP_12
 2020-02-04,JP,千葉,1,,2,0,JP_12
 2020-02-05,JP,千葉,1,,3,0,JP_12
@@ -436,6 +438,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,千葉,4,,938,45,JP_12
 2020-06-27,JP,千葉,5,,943,45,JP_12
 2020-06-28,JP,千葉,3,,946,45,JP_12
+2020-06-29,JP,千葉,4,,950,45,JP_12
 2020-02-13,JP,和歌山,1,,1,0,JP_30
 2020-02-14,JP,和歌山,1,,2,0,JP_30
 2020-02-15,JP,和歌山,3,,5,0,JP_30
@@ -577,6 +580,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,埼玉,16,,1086,64,JP_11
 2020-06-27,JP,埼玉,11,,1097,64,JP_11
 2020-06-28,JP,埼玉,8,,1105,64,JP_11
+2020-06-29,JP,埼玉,13,,1118,64,JP_11
 2020-03-03,JP,大分,1,,1,0,JP_44
 2020-03-19,JP,大分,2,,3,0,JP_44
 2020-03-20,JP,大分,5,,8,0,JP_44
@@ -707,6 +711,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,大阪,2,,1814,86,JP_27
 2020-06-27,JP,大阪,2,,1816,86,JP_27
 2020-06-28,JP,大阪,5,,1821,86,JP_27
+2020-06-29,JP,大阪,7,,1828,86,JP_27
 2020-01-28,JP,奈良,1,,1,0,JP_29
 2020-03-06,JP,奈良,3,,4,0,JP_29
 2020-03-09,JP,奈良,3,,7,0,JP_29
@@ -1184,6 +1189,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-17,JP,愛知,3,,517,34,JP_23
 2020-06-19,JP,愛知,1,,518,34,JP_23
 2020-06-20,JP,愛知,1,,519,34,JP_23
+2020-06-29,JP,愛知,1,,520,34,JP_23
 2020-02-29,JP,新潟,1,,1,0,JP_15
 2020-03-02,JP,新潟,4,,5,0,JP_15
 2020-03-05,JP,新潟,1,,6,0,JP_15
@@ -1356,6 +1362,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,東京,54,,5997,325,JP_13
 2020-06-27,JP,東京,57,,6054,325,JP_13
 2020-06-28,JP,東京,60,,6114,325,JP_13
+2020-06-29,JP,東京,58,,6172,325,JP_13
 2020-02-22,JP,栃木,1,,1,0,JP_09
 2020-03-05,JP,栃木,1,,2,0,JP_09
 2020-03-18,JP,栃木,1,,3,0,JP_09
@@ -1393,6 +1400,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-02,JP,栃木,1,,66,0,JP_09
 2020-06-27,JP,栃木,3,,69,0,JP_09
 2020-06-28,JP,栃木,5,,74,0,JP_09
+2020-06-29,JP,栃木,2,,76,0,JP_09
 2020-02-14,JP,沖縄,1,,1,0,JP_47
 2020-02-19,JP,沖縄,1,,2,0,JP_47
 2020-02-20,JP,沖縄,1,,3,0,JP_47
@@ -1691,6 +1699,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-26,JP,神奈川,7,,1447,96,JP_14
 2020-06-27,JP,神奈川,4,,1451,96,JP_14
 2020-06-28,JP,神奈川,10,,1461,96,JP_14
+2020-06-29,JP,神奈川,6,,1467,96,JP_14
 2020-03-18,JP,福井,1,,1,0,JP_18
 2020-03-25,JP,福井,2,,3,0,JP_18
 2020-03-26,JP,福井,3,,6,0,JP_18
@@ -1813,6 +1822,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-24,JP,福岡,1,,836,33,JP_40
 2020-06-25,JP,福岡,1,,837,33,JP_40
 2020-06-27,JP,福岡,1,,838,33,JP_40
+2020-06-29,JP,福岡,1,,839,33,JP_40
 2020-03-07,JP,福島,1,,1,0,JP_07
 2020-03-14,JP,福島,1,,2,0,JP_07
 2020-03-31,JP,福島,2,,4,0,JP_07
@@ -1943,6 +1953,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-20,JP,茨城,2,,170,10,JP_08
 2020-06-26,JP,茨城,2,,172,10,JP_08
 2020-06-28,JP,茨城,1,,173,10,JP_08
+2020-06-29,JP,茨城,1,,174,10,JP_08
 2020-03-14,JP,長崎,1,,1,0,JP_42
 2020-03-25,JP,長崎,1,,2,0,JP_42
 2020-04-01,JP,長崎,3,,5,0,JP_42
@@ -2045,6 +2056,7 @@ date,country_code,match_string,new_confirmed,new_deceased,total_confirmed,total_
 2020-06-16,JP,静岡,1,,77,1,JP_22
 2020-06-17,JP,静岡,1,,78,1,JP_22
 2020-06-19,JP,静岡,1,,79,1,JP_22
+2020-06-29,JP,静岡,1,,80,1,JP_22
 2020-03-17,JP,香川,1,,1,0,JP_37
 2020-03-30,JP,香川,1,,2,0,JP_37
 2020-04-08,JP,香川,1,,3,0,JP_37

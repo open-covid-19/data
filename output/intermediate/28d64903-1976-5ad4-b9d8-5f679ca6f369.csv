@@ -182,6 +182,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-26,China,Beijing,874,9,585,11,0,1,CN_BJ
 2020-06-27,China,Beijing,891,9,585,17,0,0,CN_BJ
 2020-06-28,China,Beijing,905,9,585,14,0,0,CN_BJ
+2020-06-29,China,Beijing,912,9,586,7,0,1,CN_BJ
 2020-03-16,China,China,81085,3218,67876,,,,CN
 2020-03-17,China,China,81130,3231,68799,45,13,923,CN
 2020-03-18,China,China,81201,3242,69740,71,11,941,CN
@@ -286,7 +287,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-26,China,China,85148,4648,80009,29,1,10,CN
 2020-06-27,China,China,85172,4648,80015,24,0,6,CN
 2020-06-28,China,China,85190,4648,80026,18,0,11,CN
-2020-06-29,China,China,85192,4648,80036,2,0,10,CN
+2020-06-29,China,China,85204,4648,80045,14,0,19,CN
 2020-01-22,China,Chongqing,5,0,0,,,,CN_CQ
 2020-01-23,China,Chongqing,9,0,0,4,0,0,CN_CQ
 2020-01-24,China,Chongqing,27,0,0,18,0,0,CN_CQ
@@ -656,6 +657,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-24,China,Guangdong,1634,8,1620,0,0,1,CN_GD
 2020-06-25,China,Guangdong,1635,8,1621,1,0,1,CN_GD
 2020-06-27,China,Guangdong,1637,8,1622,2,0,1,CN_GD
+2020-06-29,China,Guangdong,1637,8,1625,0,0,3,CN_GD
 2020-01-22,China,Guangxi,0,0,0,,,,CN_GX
 2020-01-23,China,Guangxi,5,0,0,5,0,0,CN_GX
 2020-01-24,China,Guangxi,13,0,0,8,0,0,CN_GX
@@ -891,6 +893,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-26,China,Hebei,349,6,324,0,0,1,CN_HE
 2020-06-27,China,Hebei,349,6,326,0,0,2,CN_HE
 2020-06-28,China,Hebei,349,6,331,0,0,5,CN_HE
+2020-06-29,China,Hebei,349,6,333,0,0,2,CN_HE
 2020-01-22,China,Heilongjiang,0,0,0,,,,CN_HL
 2020-01-23,China,Heilongjiang,1,0,0,1,0,0,CN_HL
 2020-01-24,China,Heilongjiang,4,1,0,3,1,0,CN_HL
@@ -1644,6 +1647,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-19,China,Liaoning,153,2,147,1,0,0,CN_LN
 2020-06-21,China,Liaoning,153,2,147,0,0,0,CN_LN
 2020-06-22,China,Liaoning,154,2,147,1,0,0,CN_LN
+2020-06-29,China,Liaoning,155,2,147,1,0,0,CN_LN
 2020-02-17,China,Macau,10,0,5,,,,CN_MO
 2020-02-20,China,Macau,10,0,6,0,0,1,CN_MO
 2020-02-24,China,Macau,10,0,6,0,0,0,CN_MO
@@ -2197,6 +2201,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-26,China,Shanghai,705,7,674,2,0,2,CN_SH
 2020-06-27,China,Shanghai,706,7,674,1,0,0,CN_SH
 2020-06-28,China,Shanghai,707,7,675,1,0,1,CN_SH
+2020-06-29,China,Shanghai,708,7,675,1,0,0,CN_SH
 2020-01-22,China,Shanxi,0,0,0,,,,CN_SX
 2020-01-23,China,Shanxi,1,0,0,1,0,0,CN_SX
 2020-01-24,China,Shanxi,1,0,0,0,0,0,CN_SX
@@ -2377,6 +2382,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-23,China,Sichuan,589,3,572,0,0,2,CN_SC
 2020-06-24,China,Sichuan,589,3,573,0,0,1,CN_SC
 2020-06-25,China,Sichuan,589,3,575,0,0,2,CN_SC
+2020-06-29,China,Sichuan,592,3,577,3,0,2,CN_SC
 2020-01-22,China,Taiwan,1,0,0,,,,CN_TW
 2020-01-24,China,Taiwan,1,0,0,0,0,0,CN_TW
 2020-01-25,China,Taiwan,3,0,0,2,0,0,CN_TW
@@ -2586,6 +2592,7 @@ date,country_name,match_string,total_confirmed,total_deceased,total_recovered,ne
 2020-06-22,China,Tianjin,198,3,191,1,0,0,CN_TJ
 2020-06-23,China,Tianjin,198,3,192,0,0,1,CN_TJ
 2020-06-26,China,Tianjin,198,3,193,0,0,1,CN_TJ
+2020-06-29,China,Tianjin,198,3,194,0,0,1,CN_TJ
 2020-01-24,China,Xinjiang,2,0,0,,,,CN_XJ
 2020-01-25,China,Xinjiang,3,0,0,1,0,0,CN_XJ
 2020-01-26,China,Xinjiang,4,0,0,1,0,0,CN_XJ
