@@ -12,12 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from typing import Any, Dict, List
+from typing import Dict, List
 from pandas import DataFrame, concat, merge, to_datetime
 from lib.cast import age_group, safe_datetime_parse
 from lib.io import read_file
 from lib.pipeline import DataSource
-from lib.time import datetime_isoformat
 from lib.utils import table_rename
 
 

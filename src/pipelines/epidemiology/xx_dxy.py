@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from typing import Any, Dict, List
+from typing import Dict, List
 from pandas import DataFrame, concat, merge
 from lib.pipeline import DataSource
-from lib.time import datetime_isoformat, timezone_adjust
+from lib.time import timezone_adjust
 from lib.utils import grouped_diff
 
 

@@ -12,12 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import datetime
-from typing import Any, Dict, List
-from pandas import DataFrame, concat, merge
+from typing import Dict, List
+from pandas import DataFrame, concat, to_datetime
 from lib.pipeline import DataSource
 from lib.cast import age_group
-from lib.time import datetime_isoformat
 
 
 class FranceDataSource(DataSource):
@@ -63,7 +61,7 @@ class FranceDataSource(DataSource):
             data.loc[mask, "subregion1_code"] = subregion1_code
 
         # Get date in ISO format
-        data.date = data.date.astype(str)
+        data.date = to_datetime(data.date).apply(lambda x: x.date().isoformat())
 
         # Get keys from metadata auxiliary table
         data["country_code"] = "FR"

@@ -13,12 +13,10 @@
 # limitations under the License.
 
 import re
-from datetime import datetime
-from typing import Any, Dict, List, Tuple
-from pandas import DataFrame, concat, merge
+from typing import Dict, List
+from pandas import DataFrame
 from lib.cast import safe_int_cast
 from lib.pipeline import DataSource
-from lib.time import datetime_isoformat
 
 
 class Covid19LatinoAmericaDataSource(DataSource):

@@ -13,10 +13,9 @@
 # limitations under the License.
 
 from datetime import datetime
-from typing import Any, Dict, List, Tuple
-from pandas import DataFrame, concat, merge
+from typing import Dict, List, Tuple
+from pandas import DataFrame
 from lib.pipeline import DataSource
-from lib.time import datetime_isoformat
 
 
 class Covid19BrazilTimeseriesDataSource(DataSource):
