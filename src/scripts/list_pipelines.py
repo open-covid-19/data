@@ -75,11 +75,12 @@ def get_cache_configs() -> Iterator[Dict]:
             }
 
 
-source_configs_df = DataFrame(get_source_configs(get_pipeline_names()))
-cache_configs_df = DataFrame(get_cache_configs())
+if __name__ == "__main__":
+    source_configs_df = DataFrame(get_source_configs(get_pipeline_names()))
+    cache_configs_df = DataFrame(get_cache_configs())
 
-print(source_configs_df)
-print(cache_configs_df)
+    print(source_configs_df)
+    print(cache_configs_df)
 
-source_configs_df.to_csv(ROOT / "tmp" / "source_configs.csv")
-cache_configs_df.to_csv(ROOT / "tmp" / "cache_configs.csv")
+    source_configs_df.to_csv(ROOT / "tmp" / "source_configs.csv")
+    cache_configs_df.to_csv(ROOT / "tmp" / "cache_configs.csv")
