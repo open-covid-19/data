@@ -2294,7 +2294,14 @@ LS,LS,Lesotho,,,,,,-1
 LT,LT,Lithuania,,,,,,-1
 LU,LU,Luxembourg,,,,,,-1
 LV,LV,Latvia,,,,,,-1
-LY,LY,Libya,,,,,,-1
+LY_BA,LY,Libya,BA,Benghazi,,,Benghazi,
+LY_JI,LY,Libya,JI,Jafara,,,Al-Jafara,
+LY_MS,LY,Libya,MS,Misrata District,,,Misrata,
+LY_SB,LY,Libya,SB,Sabha District,,,Sabha,
+LY_ST,LY,Libya,ST,Sabratha District,,,Sabratha,
+LY_TB,LY,Libya,TB,Tripoli District,,,Tripoli,
+LY_WS,LY,Libya,WS,Wadi al Shatii District,,,Wadi al Shati,
+LY_ZL,LY,Libya,ZL,Zliten District,,,Zliten,
 MA,MA,Morocco,,,,,,-1
 MC,MC,Monaco,,,,,,-1
 MD,MD,Moldova,,,,,,-1
@@ -6490,6 +6497,7 @@ WF,WF,Wallis and Futuna,,,,,,0
 WS,WS,Samoa,,,,,,0
 XK,XK,Kosovo,,,,,,0
 YE,YE,Yemen,,,,,,-1
+YE_BA,LY,Libya,BA,Al Bayda' Governorate,,,Al Bayda,
 YT,YT,Mayotte,,,,,,-1
 ZA,ZA,South Africa,,,,,,-1
 ZA_EC,ZA,South Africa,EC,Eastern Cape,,,,
