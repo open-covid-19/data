@@ -95,7 +95,7 @@ the master table are available at the following locations:
 
 Note that the `latest` version contains the last non-null record for each key, whereas all others
 contain the last `N` days of data (all of which could be null for some keys). All of the above
-listed tabled have a corresponding JSON version, simply replace `csv` with `json` in the link.
+listed tables have a corresponding JSON version; simply replace `csv` with `json` in the link.
 
 If you are trying to use this data alongside your own datasets, then you can use the [Index](#index)
 table to get access to the ISO 3166 / NUTS / FIPS code, although administrative subdivisions are
