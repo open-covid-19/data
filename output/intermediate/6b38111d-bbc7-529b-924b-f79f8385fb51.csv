@@ -83,8 +83,8 @@ date,new_intensive_care,key,total_intensive_care
 ,14,SE,2020
 ,15,SE,2035
 ,19,SE,2054
-,12,SE,2066
-,19,SE,2085
+,13,SE,2067
+,18,SE,2085
 ,14,SE,2099
 ,21,SE,2120
 ,15,SE,2135
@@ -109,9 +109,10 @@ date,new_intensive_care,key,total_intensive_care
 ,11,SE,2382
 ,12,SE,2394
 ,7,SE,2401
-,5,SE,2406
-,7,SE,2413
-,4,SE,2417
-,3,SE,2420
-,3,SE,2423
-,0,SE,2423
+,6,SE,2407
+,7,SE,2414
+,5,SE,2419
+,4,SE,2423
+,3,SE,2426
+,1,SE,2427
+,2,SE,2429
