@@ -16,12 +16,15 @@
 # A script to detect all pipelines declared in pipelines/ and cache/ and
 # dump a summary of their configurations within a `tmp/` folder in the
 # project root.
+#
+# Example usage: `python src/scripts/list_pipelines.py`
 
 import sys
 import os
 import json
 
-sys.path.append(os.getcwd())
+path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.append(path)
 
 from pandas import DataFrame
 from lib.pipeline import DataPipeline
@@ -29,7 +32,7 @@ from lib.utils import ROOT
 from typing import List, Iterator, Dict
 
 
-def get_pipeline_names() -> List[str]:
+def get_pipeline_names() -> Iterator[str]:
     for item in (ROOT / "src" / "pipelines").iterdir():
         if not item.name.startswith("_") and not item.is_file():
             yield item.name
