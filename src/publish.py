@@ -14,7 +14,6 @@
 # limitations under the License.
 
 
-import re
 import json
 import shutil
 import datetime
@@ -58,7 +57,7 @@ def subset_latest(output_folder: Path, csv_file: Path) -> DataFrame:
     else:
         non_null_columns = [col for col in table.columns if not col in ("key", "date")]
         table = table.dropna(subset=non_null_columns, how="all")
-        table = table.sort_values("date").groupby("key").last().reset_index()
+        table = table.sort_values("date").groupby(["date", "key"]).tail(1).reset_index()
         export_csv(table, latest_folder / csv_file.name)
 
 

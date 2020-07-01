@@ -11,10 +11,11 @@ There are multiple types of data:
 * Dynamic covariate data `X(i,t)`, such as mobility, weather
 * Dynamic interventional data `A(i,t)`, such as government lockdowns
 
-The data is drawn from multiple sources, as listed [below](#sources-of-data).
+The data is drawn from multiple sources, as listed [below](#sources-of-data), and stored in separate
+csv / json files, which can be easily merged due to the use of consistent geographic (and temporal)
+keys.
 
-The data is stored in separate csv/ json files, which can be easily merged due to the use of
-consistent geographic (and temporal) keys.
+**NOTE: The URL endpoint for the data has changed, please see the updated links below**
 
 | Table | Keys<sup>1</sup> | Content | URL | Source<sup>2</sup> |
 | ----- | ---------------- | ------- | --- | ------------------ |
