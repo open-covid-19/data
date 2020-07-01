@@ -29,17 +29,6 @@ from lib.io import read_file, export_csv
 from lib.utils import ROOT, drop_na_records
 
 
-def snake_to_camel_case(txt: str) -> str:
-    """ Used to convert V2 column names to V1 column names for backwards compatibility """
-    return re.sub(r"_(\w)", lambda m: m.group(1).upper(), txt.capitalize())
-
-
-def camel_to_snake_case(txt: str) -> str:
-    """ Used to convert V1 column names to V2 column names for backwards compatibility """
-    txt = txt[0].lower() + txt[1:]
-    return re.sub(r"([A-Z])", lambda m: "_" + m.group(1).lower(), txt)
-
-
 def subset_last_days(output_folder: Path, days: int) -> None:
     """ Outputs last N days of data """
     n_days_folder = output_folder / str(days)

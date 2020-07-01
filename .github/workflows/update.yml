@@ -13,18 +13,19 @@
 # limitations under the License.
 
 name: Run Data Pipeline
-# Run the data pipeline twice a day, at 12:00 and 20:00 UTC
+# Synchronize the new endpoint with the old files every 4 hours
 
 on:
   schedule:
-    - cron: "0 12,20 * * *"
+    - cron: "0 */4 * * *"
 
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+      with:
+        ref: main
 
     - name: Set up Python 3.x
       uses: actions/setup-python@v1
@@ -37,23 +38,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-    - name: Install locales
+    - name: Clone previous cache data
       run: |
-        sudo apt-get install -yq tzdata locales
-        sudo locale-gen en_US.UTF-8
-        sudo locale-gen es_ES.UTF-8
-        locale -a
+        git clone https://github.com/open-covid-19/data --single-branch -b gh-pages ./output/public
 
-    - name: Update datasets
+    - name: Synchronize datasets
       working-directory: src
       run: |
-        echo ::set-env name=TIMESTAMP::"$(date +'%Y-%m-%d %H:%M')"
-        python ./update.py --verify simple --exclude weather,worldbank
+        python ./scripts/backcompat.py
 
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v2
+    - name: Deploy data to server
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        title: Automatic data update (all)
-        body: Data updated by GitHub Bot (${{ env.TIMESTAMP }})
-        commit-message: Data updated by GitHub Bot (${{ env.TIMESTAMP }})
-        branch-suffix: timestamp
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./output/public
