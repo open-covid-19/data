@@ -35,4 +35,3 @@ logistic function. It compares the accuracy of two sigmoid models:
 and [Gompertz function](https://en.wikipedia.org/wiki/Gompertz_function), and
 finds the Gompertz function to be a fairly accurate short-term predictor of
 future confirmed cases.
-
