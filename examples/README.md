@@ -14,7 +14,7 @@ from the Open COVID-19 dataset using `pandas`.
 
 #### [Data Loading HTML Page](data_loading.html)
 This HTML file contains the bare minimum needed to load the data from the
-Open COVID-19 datasetand display it in a table using `jquery`.
+Open COVID-19 dataset and display it in a table using `jquery`.
 
 #### [Category Estimation Jupyter Notebook](category_estimation.ipynb)
 This notebook showcases a methodology for estimating current mild, severe and
