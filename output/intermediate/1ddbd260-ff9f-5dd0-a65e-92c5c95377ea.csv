@@ -2263,7 +2263,14 @@ life_expectancy,key
 74.32195,LT
 82.29268,LU
 74.52927,LV
-71.934,LY
+,LY_BA
+,LY_JI
+,LY_MS
+,LY_SB
+,LY_ST
+,LY_TB
+,LY_WS
+,LY_ZL
 75.821,MA
 ,MC
 71.61,MD
@@ -6459,6 +6466,7 @@ life_expectancy,key
 75.013,WS
 ,XK
 64.953,YE
+,YE_BA
 ,YT
 62.774,ZA
 ,ZA_EC
