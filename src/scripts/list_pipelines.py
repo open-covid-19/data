@@ -51,7 +51,7 @@ def get_source_configs(pipeline_names: List[str]) -> Iterator[Dict]:
             data_source_fetch_params = data_source_config.get("fetch", [])
 
             for fetch_param in data_source_fetch_params:
-                file_ext = fetch_param.get('opts', {}).get('ext', '')
+                file_ext = fetch_param.get("opts", {}).get("ext", "")
                 data_source_url = fetch_param.get("url")
 
                 yield {
@@ -69,10 +69,7 @@ def get_cache_configs() -> Iterator[Dict]:
     with open(config_json, "r") as fd:
         cache_pipelines_config = json.load(fd)
         for pipeline_config in cache_pipelines_config:
-            yield {
-                "url": pipeline_config.get('url'),
-                "cmd": pipeline_config.get('cmd'),
-            }
+            yield {"url": pipeline_config.get("url"), "cmd": pipeline_config.get("cmd")}
 
 
 if __name__ == "__main__":
