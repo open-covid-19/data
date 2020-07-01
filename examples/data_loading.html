@@ -15,9 +15,11 @@
 -->
 
 <html>
+
 <head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
+
 <body>
     <!-- This will be updated once data loads -->
     <p>The dataset currently contains <span id="count"></span> records, here are the last few:</p>
@@ -26,8 +28,8 @@
     <table id="table" border="1"></table>
 
     <script>
-        // Load the last 30 days of data (the full dataset is only available in CSV format)
-        $.getJSON(`https://open-covid-19.github.io/data/v2/30/master.json`, data => {
+        // Load the latest data for each region
+        $.getJSON(`https://storage.googleapis.com/covid19-open-data/v2/latest/main.json`, data => {
 
             // Update the count of records
             $('#count').text = data.length;
@@ -55,4 +57,5 @@
         });
     </script>
 </body>
+
 </html>
