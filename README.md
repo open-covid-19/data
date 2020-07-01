@@ -405,8 +405,8 @@ Epidemiology and hospitalizations data stratified by age:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | FR |
-| **`${var}`_age_`${index}`** | `integer` | Instances of `${var}` for age bin `${index}` | 139 |
-| **age_bin_`${index}`** | `integer` | Range for the age values inside of bin `${index}`, both ends inclusive | 30-39 |
+| **`${statistic}`\_age\_bin\_`${index}`** | `integer` | Value of `${statistic}` for age bin `${index}` | 139 |
+| **age\_bin\_`${index}`** | `integer` | Range for the age values inside of bin `${index}`, both ends inclusive | 30-39 |
 
 Values in this table are stratified versions of the columns available in the
 [epidemiology](#epidemiology) and [hospitalizatons](#hospitalizations) tables. Each row contains up
@@ -435,8 +435,8 @@ Epidemiology and hospitalizations data stratified by sex:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | FR |
-| **`${var}_sex_male`** | `integer` | Instances of `${var}` for male individuals | 87 |
-| **`${var}_sex_female`** | `integer` | Instances of `${var}` for female individuals | 68 |
+| **`${statistic}_sex_male`** | `integer` | `${statistic}` for male individuals | 87 |
+| **`${statistic}_sex_female`** | `integer` | `${statistic}` for female individuals | 68 |
 
 Values in this table are stratified versions of the columns available in the
 [epidemiology](#epidemiology) and [hospitalizatons](#hospitalizations) tables. Each row contains
