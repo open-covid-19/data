@@ -435,8 +435,8 @@ Epidemiology and hospitalizations data stratified by sex:
 | ---- | ---- | ----------- | ------- |
 | **date** | `string` | ISO 8601 date (YYYY-MM-DD) of the datapoint | 2020-03-30 |
 | **key** | `string` | Unique string identifying the region | FR |
-| **`${statistic}_sex_male`** | `integer` | `${statistic}` for male individuals | 87 |
-| **`${statistic}_sex_female`** | `integer` | `${statistic}` for female individuals | 68 |
+| **`${statistic}_sex_male`** | `integer` | Value of `${statistic}` for male individuals | 87 |
+| **`${statistic}_sex_female`** | `integer` | Value of `${statistic}` for female individuals | 68 |
 
 Values in this table are stratified versions of the columns available in the
 [epidemiology](#epidemiology) and [hospitalizatons](#hospitalizations) tables. Each row contains
