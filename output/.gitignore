@@ -1,3 +1,2 @@
-cache/
-public/
-_*.{csv,json}
+*
+!.gitignore

@@ -18,7 +18,7 @@ consistent geographic (and temporal) keys.
 
 | Table | Keys<sup>1</sup> | Content | URL | Source<sup>2</sup> |
 | ----- | ---------------- | ------- | --- | ------------------ |
-| [Master](#master) | `[key][date]` | Flat table with records from all other tables joined by `key` and `date` | [master.csv](https://open-covid-19.github.io/data/v2/master.csv) **NOT UP TO DATE DUE TO GITHUB PAGES LIMITS, MIGRATING TO EXTERNAL CLOUD PROVIDER IN PROGRESS** | All tables below |
+| [Main](#main) | `[key][date]` | Flat table with records from all other tables joined by `key` and `date` | [main.csv](https://open-covid-19.github.io/data/v2/main.csv) **NOT UP TO DATE DUE TO GITHUB PAGES LIMITS, MIGRATING TO EXTERNAL CLOUD PROVIDER IN PROGRESS** | All tables below |
 | [Index](#index) | `[key]` | Various names and codes, useful for joining with other datasets | [index.csv](https://open-covid-19.github.io/data/v2/index.csv), [index.json](https://open-covid-19.github.io/data/v2/index.json) | Wikidata, DataCommons |
 | [Demographics](#demographics) | `[key]` | Various (current<sup>3</sup>) population statistics | [demographics.csv](https://open-covid-19.github.io/data/v2/demographics.csv), [demographics.json](https://open-covid-19.github.io/data/v2/demographics.json) | Wikidata, DataCommons |
 | [Economy](#economy) | `[key]` | Various (current<sup>3</sup>) economic indicators | [economy.csv](https://open-covid-19.github.io/data/v2/economy.csv), [economy.json](https://open-covid-19.github.io/data/v2/economy.json) | Wikidata, DataCommons |
@@ -74,24 +74,24 @@ served directly to Javascript applications without the need of a proxy to set th
 for CORS and content type. Even if you only want the CSV files, using the URL served by Github Pages
 is preferred in order to avoid caching issues and potential, future breaking changes.
 
-For the purpose of making the data as easy to use as possible, there is a [master](#master) table
+For the purpose of making the data as easy to use as possible, there is a [main](#main) table
 which contains the columns of all other tables joined by `key` and `date`. However,
 performance-wise, it may be better to download the data separately and join the tables locally.
 
-Each region has its own version of the master table, so you can pull all the data for a specific
+Each region has its own version of the main table, so you can pull all the data for a specific
 region using a single endpoint, the URL for each region is:
-* Data for `key` in CSV format: `https://open-covid-19.github.io/data/v2/${key}/master.csv`
-* Data for `key` in JSON format: `https://open-covid-19.github.io/data/v2/${key}/master.json`
+* Data for `key` in CSV format: `https://open-covid-19.github.io/data/v2/${key}/main.csv`
+* Data for `key` in JSON format: `https://open-covid-19.github.io/data/v2/${key}/main.json`
 
 Each table has a full version as well as subsets with only the last 30, 14, 7 and 1 days of data.
 The full version is accessible at the URL described [in the table above](#open-covid-19-dataset).
 The subsets can be found by appending the number of days to the path. For example, the subsets of
-the master table are available at the following locations:
-* Full version: https://open-covid-19.github.io/data/v2/master.csv
-* Latest: https://open-covid-19.github.io/data/v2/latest/master.csv
-* Last 7 days: https://open-covid-19.github.io/data/v2/7/master.csv
-* Last 14 days: https://open-covid-19.github.io/data/v2/14/master.csv
-* Last 30 days: https://open-covid-19.github.io/data/v2/30/master.csv
+the main table are available at the following locations:
+* Full version: https://open-covid-19.github.io/data/v2/main.csv
+* Latest: https://open-covid-19.github.io/data/v2/latest/main.csv
+* Last 7 days: https://open-covid-19.github.io/data/v2/7/main.csv
+* Last 14 days: https://open-covid-19.github.io/data/v2/14/main.csv
+* Last 30 days: https://open-covid-19.github.io/data/v2/30/main.csv
 
 Note that the `latest` version contains the last non-null record for each key, whereas all others
 contain the last `N` days of data (all of which could be null for some keys). All of the above
@@ -123,14 +123,14 @@ menu.
 ### R
 If you prefer R, then this is all you need to do to load the epidemiology data:
 ```R
-data <- read.csv("https://open-covid-19.github.io/data/v2/master.csv")
+data <- read.csv("https://open-covid-19.github.io/data/v2/main.csv")
 ```
 
 ### Python
 In Python, you need to have the package `pandas` installed to get started:
 ```python
 import pandas
-data = pandas.read_csv("https://open-covid-19.github.io/data/v2/master.csv")
+data = pandas.read_csv("https://open-covid-19.github.io/data/v2/main.csv")
 ```
 
 ### jQuery
@@ -159,9 +159,9 @@ the configuration of GitHub's raw file server you may run into potential caching
 Missing values will be represented as nulls, whereas zeroes are used when a true value of zero is
 reported.
 
-### Master
+### Main
 Flat table with records from all other tables joined by `key` and `date`. See below for information
-about all the different tables and columns. Tables not included in the master table are:
+about all the different tables and columns. Tables not included in the main table are:
 * [WorldBank](#worldbank): A subset of individual indicators are added as columns to other tables
   instead; for example, the [health](#health) table.
 * [WorldPop](#worldpop): Age and sex demographics breakdowns are normalized and added to the
@@ -380,7 +380,7 @@ Refer to the [WorldBank documentation][25] for more details, or refer to the
 indicator. Each column uses the indicator code as its name, and the rows are filled with the values
 for the corresponding `key`.
 
-Note that WorldBank data is only available at the country level and it's not included in the master
+Note that WorldBank data is only available at the country level and it's not included in the main
 table. If no values are reported by WorldBank for the country since 2015, the row value will be
 null.
 
@@ -467,16 +467,6 @@ value. See the [data loading tutorial][7] for more information.
 There is also a [notices.csv](src/data/notices.csv) file which is manually updated with quirks about
 the data. The goal is to be able to query by key and date, to get a list of applicable notices to
 the requested subset.
-
-### Backwards compatibility
-Please note that the following datasets are maintained only to preserve backwards compatibility, but
-shouldn't be used in any new projects:
-* [Data](https://open-covid-19.github.io/data/data.csv)
-* [Latest](https://open-covid-19.github.io/data/data_latest.csv)
-* [Minimal](https://open-covid-19.github.io/data/data_minimal.csv)
-* [Forecast](https://open-covid-19.github.io/data/data_forecast.csv)
-* [Mobility](https://open-covid-19.github.io/data/mobility.csv)
-* [Weather](https://open-covid-19.github.io/data/weather.csv)
 
 
 
@@ -621,7 +611,6 @@ The following persons have made significant contributions to this project:
 [8]: https://web.archive.org/web/20200320122944/https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov-China/situacionActual.htm
 [9]: https://covidtracking.com
 [10]: https://github.com/pcm-dpc/COVID-19
-[11]: https://github.com/datadista/datasets/tree/master/COVID%2019
 [12]: https://open-covid-19.github.io/explorer
 [13]: https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/cofdctuogawgaru/COVID-19_Dataset.json
 [14]: https://www.starlords3k.com/covid19.php

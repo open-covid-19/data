@@ -22,7 +22,7 @@ from tqdm import tqdm
 
 
 def download_snapshot(
-    url: str, output_folder: Path, ext: str = None, skip_existing: bool = False
+    url: str, output_folder: Path, ext: str = None, skip_existing: bool = False, **download_opts
 ) -> str:
     """
     This function downloads a file into the snapshots folder and outputs the
@@ -54,15 +54,17 @@ def download_snapshot(
     # The skip_existing flag is ignored if the file does not already exist
     if not skip_existing or not file_path.exists():
         with open(file_path, "wb") as file_handle:
-            download(url, file_handle)
+            download(url, file_handle, **download_opts)
 
     # Output the downloaded file path
     return str(file_path.absolute())
 
 
-def download(url: str, file_handle: BinaryIO, progress: bool = False) -> None:
+def download(
+    url: str, file_handle: BinaryIO, progress: bool = False, spoof_browser: bool = True
+) -> None:
     """ https://stackoverflow.com/a/37573701 """
-    headers = {"User-Agent": "Mozilla"}
+    headers = {"User-Agent": "Safari"} if spoof_browser else {}
     if not progress:
         req = requests.get(url, headers=headers)
         req.raise_for_status()
