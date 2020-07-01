@@ -25,7 +25,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from lib.forecast import main as build_forecast
 from lib.io import read_file, export_csv
-from lib.utils import ROOT, PROD_URL, drop_na_records
+from lib.utils import ROOT, URL_OUTPUTS_PROD, drop_na_records
 
 
 def snake_to_camel_case(txt: str) -> str:
@@ -38,7 +38,7 @@ public_folder = ROOT / "output" / "public"
 public_folder.mkdir(exist_ok=True, parents=True)
 
 # Create the v1 data.csv file
-main_table = read_file(f"{PROD_URL}/main.csv")
+main_table = read_file(f"{URL_OUTPUTS_PROD}/main.csv")
 data = main_table[main_table.aggregation_level < 2]
 rename_columns = {
     "date": "Date",
@@ -70,14 +70,14 @@ latest = latest.sort_values(["Key", "Date"])
 export_csv(latest, public_folder / "data_latest.csv")
 
 # Create the v1 weather.csv file
-weather = read_file(f"{PROD_URL}/weather.csv")
+weather = read_file(f"{URL_OUTPUTS_PROD}/weather.csv")
 weather = weather[weather.key.apply(lambda x: len(x.split("_")) < 3)]
 weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station"})
 rename_columns = {col: snake_to_camel_case(col) for col in weather.columns}
 export_csv(weather.rename(columns=rename_columns), public_folder / "weather.csv")
 
 # Create the v1 mobility.csv file
-mobility = read_file(f"{PROD_URL}/mobility.csv")
+mobility = read_file(f"{URL_OUTPUTS_PROD}/mobility.csv")
 mobility = mobility[mobility.key.apply(lambda x: len(x.split("_")) < 3)]
 mobility = drop_na_records(mobility, ["date", "key"])
 rename_columns = {col: snake_to_camel_case(col).replace("Mobility", "") for col in mobility.columns}
@@ -86,7 +86,7 @@ export_csv(mobility.rename(columns=rename_columns), public_folder / "mobility.cs
 # Create the v1 CSV files which only require simple column mapping
 v1_v2_name_map = {"response": "oxford-government-response"}
 for v1_name, v2_name in v1_v2_name_map.items():
-    data = read_file(f"{PROD_URL}/{v2_name}.csv")
+    data = read_file(f"{URL_OUTPUTS_PROD}/{v2_name}.csv")
     rename_columns = {col: snake_to_camel_case(col) for col in data.columns}
     export_csv(data.rename(columns=rename_columns), public_folder / f"{v1_name}.csv")
 

@@ -36,6 +36,7 @@ def download_snapshot(
         ext: Force extension when creating output file, handy when it cannot be guessed from URL.
         skip_existing: If true, skip download and simply return the deterministic path where this
             file would have been downloaded. If the file does not exist, this flag is ignored.
+        download_opts: Keyword arguments passed to the `download` function.
 
     Returns:
         str: Absolute path where this file was downloaded. This is a deterministic output; the same
@@ -63,7 +64,16 @@ def download_snapshot(
 def download(
     url: str, file_handle: BinaryIO, progress: bool = False, spoof_browser: bool = True
 ) -> None:
-    """ https://stackoverflow.com/a/37573701 """
+    """
+    Based on https://stackoverflow.com/a/37573701. It downloads the contents from the provided URL
+    and writes them into a writeable binary stream.
+
+    Args:
+        url: The endpoint where contents are to be downloaded from
+        file_handle: Writeable stream to write contents to
+        progress: Display progress during the download using the tqdm library
+        spoof_browser: Pretend to be a web browser by adding user agent string to headers
+    """
     headers = {"User-Agent": "Safari"} if spoof_browser else {}
     if not progress:
         req = requests.get(url, headers=headers)
