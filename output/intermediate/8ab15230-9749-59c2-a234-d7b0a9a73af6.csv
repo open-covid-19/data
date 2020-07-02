@@ -101,9 +101,16 @@ Maule,2020-06-18,207,,207,3519,,,CL,,maule,CL_ML
 Maule,2020-06-19,217,,217,3736,,,CL,,maule,CL_ML
 Maule,2020-06-20,156,,156,3892,,,CL,,maule,CL_ML
 Maule,2020-06-21,253,,253,4145,,,CL,,maule,CL_ML
-Maule,2020-06-23,149,,149,4294,,,CL,,maule,CL_ML
-Maule,2020-06-24,156,,156,4450,,,CL,,maule,CL_ML
-Maule,2020-06-25,175,,175,4625,,,CL,,maule,CL_ML
+Maule,2020-06-22,145,,145,4290,,,CL,,maule,CL_ML
+Maule,2020-06-23,149,,149,4439,,,CL,,maule,CL_ML
+Maule,2020-06-24,156,,156,4595,,,CL,,maule,CL_ML
+Maule,2020-06-25,175,,175,4770,,,CL,,maule,CL_ML
+Maule,2020-06-26,184,,184,4954,,,CL,,maule,CL_ML
+Maule,2020-06-27,171,,171,5125,,,CL,,maule,CL_ML
+Maule,2020-06-28,147,,147,5272,,,CL,,maule,CL_ML
+Maule,2020-06-29,141,,141,5413,,,CL,,maule,CL_ML
+Maule,2020-06-30,86,,86,5499,,,CL,,maule,CL_ML
+Maule,2020-07-01,168,,168,5667,,,CL,,maule,CL_ML
 Santiago Metropolitan,2020-03-04,1,,1,1,,,CL,,santiago metropolitan,CL_RM
 Santiago Metropolitan,2020-03-05,1,,1,2,,,CL,,santiago metropolitan,CL_RM
 Santiago Metropolitan,2020-03-06,1,,1,3,,,CL,,santiago metropolitan,CL_RM
@@ -214,9 +221,16 @@ Santiago Metropolitan,2020-06-18,3226,,3226,157570,,,CL,,santiago metropolitan,C
 Santiago Metropolitan,2020-06-19,4647,,4647,162217,,,CL,,santiago metropolitan,CL_RM
 Santiago Metropolitan,2020-06-20,3773,,3773,165990,,,CL,,santiago metropolitan,CL_RM
 Santiago Metropolitan,2020-06-21,3944,,3944,169934,,,CL,,santiago metropolitan,CL_RM
-Santiago Metropolitan,2020-06-23,2472,,2472,172406,,,CL,,santiago metropolitan,CL_RM
-Santiago Metropolitan,2020-06-24,2520,,2520,174926,,,CL,,santiago metropolitan,CL_RM
-Santiago Metropolitan,2020-06-25,3176,,3176,178102,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-22,3048,,3048,172982,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-23,2472,,2472,175454,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-24,2520,,2520,177974,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-25,3176,,3176,181150,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-26,2752,,2752,183902,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-27,3199,,3199,187101,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-28,2696,,2696,189797,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-29,2574,,2574,192371,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-06-30,2367,,2367,194738,,,CL,,santiago metropolitan,CL_RM
+Santiago Metropolitan,2020-07-01,1381,,1381,196119,,,CL,,santiago metropolitan,CL_RM
 Los Lagos,2020-03-07,1,,1,1,,,CL,,los lagos,CL_LL
 Los Lagos,2020-03-18,7,,7,8,,,CL,,los lagos,CL_LL
 Los Lagos,2020-03-19,8,,8,16,,,CL,,los lagos,CL_LL
@@ -313,9 +327,16 @@ Los Lagos,2020-06-18,14,,14,1246,,,CL,,los lagos,CL_LL
 Los Lagos,2020-06-19,35,,35,1281,,,CL,,los lagos,CL_LL
 Los Lagos,2020-06-20,38,,38,1319,,,CL,,los lagos,CL_LL
 Los Lagos,2020-06-21,52,,52,1371,,,CL,,los lagos,CL_LL
-Los Lagos,2020-06-23,29,,29,1400,,,CL,,los lagos,CL_LL
-Los Lagos,2020-06-24,18,,18,1418,,,CL,,los lagos,CL_LL
-Los Lagos,2020-06-25,23,,23,1441,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-22,52,,52,1423,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-23,29,,29,1452,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-24,18,,18,1470,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-25,23,,23,1493,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-26,37,,37,1530,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-27,32,,32,1562,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-28,37,,37,1599,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-29,33,,33,1632,,,CL,,los lagos,CL_LL
+Los Lagos,2020-06-30,14,,14,1646,,,CL,,los lagos,CL_LL
+Los Lagos,2020-07-01,28,,28,1674,,,CL,,los lagos,CL_LL
 Biobío,2020-03-09,1,,1,1,,,CL,,biobío,CL_BI
 Biobío,2020-03-13,2,,2,3,,,CL,,biobío,CL_BI
 Biobío,2020-03-16,1,,1,4,,,CL,,biobío,CL_BI
@@ -415,9 +436,16 @@ Biobío,2020-06-18,171,,171,3884,,,CL,,biobío,CL_BI
 Biobío,2020-06-19,221,,221,4105,,,CL,,biobío,CL_BI
 Biobío,2020-06-20,258,,258,4363,,,CL,,biobío,CL_BI
 Biobío,2020-06-21,255,,255,4618,,,CL,,biobío,CL_BI
-Biobío,2020-06-23,170,,170,4788,,,CL,,biobío,CL_BI
-Biobío,2020-06-24,141,,141,4929,,,CL,,biobío,CL_BI
-Biobío,2020-06-25,240,,240,5169,,,CL,,biobío,CL_BI
+Biobío,2020-06-22,248,,248,4866,,,CL,,biobío,CL_BI
+Biobío,2020-06-23,170,,170,5036,,,CL,,biobío,CL_BI
+Biobío,2020-06-24,141,,141,5177,,,CL,,biobío,CL_BI
+Biobío,2020-06-25,240,,240,5417,,,CL,,biobío,CL_BI
+Biobío,2020-06-26,259,,259,5676,,,CL,,biobío,CL_BI
+Biobío,2020-06-27,182,,182,5858,,,CL,,biobío,CL_BI
+Biobío,2020-06-28,263,,263,6121,,,CL,,biobío,CL_BI
+Biobío,2020-06-29,197,,197,6318,,,CL,,biobío,CL_BI
+Biobío,2020-06-30,102,,102,6420,,,CL,,biobío,CL_BI
+Biobío,2020-07-01,148,,148,6568,,,CL,,biobío,CL_BI
 Ñuble,2020-03-12,1,,1,1,,,CL,,ñuble,CL_NB
 Ñuble,2020-03-13,1,,1,2,,,CL,,ñuble,CL_NB
 Ñuble,2020-03-14,2,,2,4,,,CL,,ñuble,CL_NB
@@ -516,9 +544,16 @@ Biobío,2020-06-25,240,,240,5169,,,CL,,biobío,CL_BI
 Ñuble,2020-06-19,130,,130,2111,,,CL,,ñuble,CL_NB
 Ñuble,2020-06-20,34,,34,2145,,,CL,,ñuble,CL_NB
 Ñuble,2020-06-21,25,,25,2170,,,CL,,ñuble,CL_NB
-Ñuble,2020-06-23,14,,14,2184,,,CL,,ñuble,CL_NB
-Ñuble,2020-06-24,25,,25,2209,,,CL,,ñuble,CL_NB
-Ñuble,2020-06-25,15,,15,2224,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-22,22,,22,2192,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-23,14,,14,2206,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-24,25,,25,2231,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-25,15,,15,2246,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-26,42,,42,2288,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-27,43,,43,2331,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-28,47,,47,2378,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-29,21,,21,2399,,,CL,,ñuble,CL_NB
+Ñuble,2020-06-30,13,,13,2412,,,CL,,ñuble,CL_NB
+Ñuble,2020-07-01,17,,17,2429,,,CL,,ñuble,CL_NB
 Antofagasta,2020-03-14,2,,2,2,,,CL,,antofagasta,CL_AN
 Antofagasta,2020-03-20,4,,4,6,,,CL,,antofagasta,CL_AN
 Antofagasta,2020-03-21,4,,4,10,,,CL,,antofagasta,CL_AN
@@ -612,9 +647,16 @@ Antofagasta,2020-06-18,293,,293,5146,,,CL,,antofagasta,CL_AN
 Antofagasta,2020-06-19,306,,306,5452,,,CL,,antofagasta,CL_AN
 Antofagasta,2020-06-20,388,,388,5840,,,CL,,antofagasta,CL_AN
 Antofagasta,2020-06-21,252,,252,6092,,,CL,,antofagasta,CL_AN
-Antofagasta,2020-06-23,283,,283,6375,,,CL,,antofagasta,CL_AN
-Antofagasta,2020-06-24,249,,249,6624,,,CL,,antofagasta,CL_AN
-Antofagasta,2020-06-25,297,,297,6921,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-22,247,,247,6339,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-23,283,,283,6622,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-24,249,,249,6871,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-25,297,,297,7168,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-26,233,,233,7401,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-27,299,,299,7700,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-28,286,,286,7986,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-29,317,,317,8303,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-06-30,204,,204,8507,,,CL,,antofagasta,CL_AN
+Antofagasta,2020-07-01,254,,254,8761,,,CL,,antofagasta,CL_AN
 Atacama,2020-03-14,1,,1,1,,,CL,,atacama,CL_AT
 Atacama,2020-03-29,1,,1,2,,,CL,,atacama,CL_AT
 Atacama,2020-04-01,1,,1,3,,,CL,,atacama,CL_AT
@@ -680,9 +722,16 @@ Atacama,2020-06-18,25,,25,576,,,CL,,atacama,CL_AT
 Atacama,2020-06-19,37,,37,613,,,CL,,atacama,CL_AT
 Atacama,2020-06-20,28,,28,641,,,CL,,atacama,CL_AT
 Atacama,2020-06-21,34,,34,675,,,CL,,atacama,CL_AT
-Atacama,2020-06-23,29,,29,704,,,CL,,atacama,CL_AT
-Atacama,2020-06-24,38,,38,742,,,CL,,atacama,CL_AT
-Atacama,2020-06-25,52,,52,794,,,CL,,atacama,CL_AT
+Atacama,2020-06-22,35,,35,710,,,CL,,atacama,CL_AT
+Atacama,2020-06-23,29,,29,739,,,CL,,atacama,CL_AT
+Atacama,2020-06-24,38,,38,777,,,CL,,atacama,CL_AT
+Atacama,2020-06-25,52,,52,829,,,CL,,atacama,CL_AT
+Atacama,2020-06-26,50,,50,879,,,CL,,atacama,CL_AT
+Atacama,2020-06-27,38,,38,917,,,CL,,atacama,CL_AT
+Atacama,2020-06-28,31,,31,948,,,CL,,atacama,CL_AT
+Atacama,2020-06-29,50,,50,998,,,CL,,atacama,CL_AT
+Atacama,2020-06-30,37,,37,1035,,,CL,,atacama,CL_AT
+Atacama,2020-07-01,71,,71,1106,,,CL,,atacama,CL_AT
 Aysén,2020-03-14,1,,1,1,,,CL,,aysén,CL_AI
 Aysén,2020-03-26,1,,1,2,,,CL,,aysén,CL_AI
 Aysén,2020-04-01,1,,1,3,,,CL,,aysén,CL_AI
@@ -705,6 +754,10 @@ Aysén,2020-06-15,2,,2,26,,,CL,,aysén,CL_AI
 Aysén,2020-06-19,1,,1,27,,,CL,,aysén,CL_AI
 Aysén,2020-06-20,1,,1,28,,,CL,,aysén,CL_AI
 Aysén,2020-06-25,1,,1,29,,,CL,,aysén,CL_AI
+Aysén,2020-06-26,1,,1,30,,,CL,,aysén,CL_AI
+Aysén,2020-06-27,5,,5,35,,,CL,,aysén,CL_AI
+Aysén,2020-06-28,6,,6,41,,,CL,,aysén,CL_AI
+Aysén,2020-06-29,1,,1,42,,,CL,,aysén,CL_AI
 Araucanía,2020-03-16,1,,1,1,,,CL,,araucanía,CL_AR
 Araucanía,2020-03-18,3,,3,4,,,CL,,araucanía,CL_AR
 Araucanía,2020-03-19,3,,3,7,,,CL,,araucanía,CL_AR
@@ -802,9 +855,16 @@ Araucanía,2020-06-18,50,,50,2899,,,CL,,araucanía,CL_AR
 Araucanía,2020-06-19,34,,34,2933,,,CL,,araucanía,CL_AR
 Araucanía,2020-06-20,24,,24,2957,,,CL,,araucanía,CL_AR
 Araucanía,2020-06-21,49,,49,3006,,,CL,,araucanía,CL_AR
-Araucanía,2020-06-23,18,,18,3024,,,CL,,araucanía,CL_AR
-Araucanía,2020-06-24,11,,11,3035,,,CL,,araucanía,CL_AR
-Araucanía,2020-06-25,27,,27,3062,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-22,40,,40,3046,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-23,18,,18,3064,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-24,11,,11,3075,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-25,27,,27,3102,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-26,41,,41,3143,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-27,23,,23,3166,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-28,45,,45,3211,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-29,40,,40,3251,,,CL,,araucanía,CL_AR
+Araucanía,2020-06-30,19,,19,3270,,,CL,,araucanía,CL_AR
+Araucanía,2020-07-01,15,,15,3285,,,CL,,araucanía,CL_AR
 Los Ríos,2020-03-16,1,,1,1,,,CL,,los ríos,CL_LR
 Los Ríos,2020-03-23,3,,3,4,,,CL,,los ríos,CL_LR
 Los Ríos,2020-03-24,2,,2,6,,,CL,,los ríos,CL_LR
@@ -893,9 +953,16 @@ Los Ríos,2020-06-18,12,,12,563,,,CL,,los ríos,CL_LR
 Los Ríos,2020-06-19,12,,12,575,,,CL,,los ríos,CL_LR
 Los Ríos,2020-06-20,10,,10,585,,,CL,,los ríos,CL_LR
 Los Ríos,2020-06-21,21,,21,606,,,CL,,los ríos,CL_LR
-Los Ríos,2020-06-23,4,,4,610,,,CL,,los ríos,CL_LR
-Los Ríos,2020-06-24,4,,4,614,,,CL,,los ríos,CL_LR
-Los Ríos,2020-06-25,12,,12,626,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-22,11,,11,617,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-23,4,,4,621,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-24,4,,4,625,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-25,12,,12,637,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-26,11,,11,648,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-27,7,,7,655,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-28,19,,19,674,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-29,11,,11,685,,,CL,,los ríos,CL_LR
+Los Ríos,2020-06-30,12,,12,697,,,CL,,los ríos,CL_LR
+Los Ríos,2020-07-01,5,,5,702,,,CL,,los ríos,CL_LR
 Valparaíso,2020-03-16,1,,1,1,,,CL,,valparaíso,CL_VS
 Valparaíso,2020-03-19,3,,3,4,,,CL,,valparaíso,CL_VS
 Valparaíso,2020-03-20,1,,1,5,,,CL,,valparaíso,CL_VS
@@ -992,9 +1059,16 @@ Valparaíso,2020-06-18,222,,222,7841,,,CL,,valparaíso,CL_VS
 Valparaíso,2020-06-19,292,,292,8133,,,CL,,valparaíso,CL_VS
 Valparaíso,2020-06-20,264,,264,8397,,,CL,,valparaíso,CL_VS
 Valparaíso,2020-06-21,296,,296,8693,,,CL,,valparaíso,CL_VS
-Valparaíso,2020-06-23,286,,286,8979,,,CL,,valparaíso,CL_VS
-Valparaíso,2020-06-24,303,,303,9282,,,CL,,valparaíso,CL_VS
-Valparaíso,2020-06-25,303,,303,9585,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-22,317,,317,9010,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-23,286,,286,9296,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-24,303,,303,9599,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-25,303,,303,9902,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-26,324,,324,10226,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-27,270,,270,10496,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-28,265,,265,10761,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-29,234,,234,10995,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-06-30,212,,212,11207,,,CL,,valparaíso,CL_VS
+Valparaíso,2020-07-01,256,,256,11463,,,CL,,valparaíso,CL_VS
 Magallanes,2020-03-17,2,,2,2,,,CL,,magallanes,CL_MA
 Magallanes,2020-03-21,1,,1,3,,,CL,,magallanes,CL_MA
 Magallanes,2020-03-22,1,,1,4,,,CL,,magallanes,CL_MA
@@ -1086,8 +1160,15 @@ Magallanes,2020-06-18,9,,9,1239,,,CL,,magallanes,CL_MA
 Magallanes,2020-06-19,9,,9,1248,,,CL,,magallanes,CL_MA
 Magallanes,2020-06-20,13,,13,1261,,,CL,,magallanes,CL_MA
 Magallanes,2020-06-21,20,,20,1281,,,CL,,magallanes,CL_MA
-Magallanes,2020-06-23,11,,11,1292,,,CL,,magallanes,CL_MA
-Magallanes,2020-06-25,22,,22,1314,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-22,17,,17,1298,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-23,11,,11,1309,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-25,22,,22,1331,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-26,12,,12,1343,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-27,26,,26,1369,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-28,12,,12,1381,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-29,5,,5,1386,,,CL,,magallanes,CL_MA
+Magallanes,2020-06-30,12,,12,1398,,,CL,,magallanes,CL_MA
+Magallanes,2020-07-01,9,,9,1407,,,CL,,magallanes,CL_MA
 Arica y Parinacota,2020-03-19,1,,1,1,,,CL,,arica y parinacota,CL_AP
 Arica y Parinacota,2020-03-22,1,,1,2,,,CL,,arica y parinacota,CL_AP
 Arica y Parinacota,2020-03-26,1,,1,3,,,CL,,arica y parinacota,CL_AP
@@ -1170,9 +1251,16 @@ Arica y Parinacota,2020-06-18,22,,22,1247,,,CL,,arica y parinacota,CL_AP
 Arica y Parinacota,2020-06-19,56,,56,1303,,,CL,,arica y parinacota,CL_AP
 Arica y Parinacota,2020-06-20,30,,30,1333,,,CL,,arica y parinacota,CL_AP
 Arica y Parinacota,2020-06-21,46,,46,1379,,,CL,,arica y parinacota,CL_AP
-Arica y Parinacota,2020-06-23,23,,23,1402,,,CL,,arica y parinacota,CL_AP
-Arica y Parinacota,2020-06-24,33,,33,1435,,,CL,,arica y parinacota,CL_AP
-Arica y Parinacota,2020-06-25,39,,39,1474,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-22,49,,49,1428,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-23,23,,23,1451,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-24,33,,33,1484,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-25,39,,39,1523,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-26,40,,40,1563,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-27,64,,64,1627,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-28,38,,38,1665,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-29,36,,36,1701,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-06-30,28,,28,1729,,,CL,,arica y parinacota,CL_AP
+Arica y Parinacota,2020-07-01,63,,63,1792,,,CL,,arica y parinacota,CL_AP
 Coquimbo,2020-03-19,2,,2,2,,,CL,,coquimbo,CL_CO
 Coquimbo,2020-03-20,1,,1,3,,,CL,,coquimbo,CL_CO
 Coquimbo,2020-03-22,2,,2,5,,,CL,,coquimbo,CL_CO
@@ -1254,9 +1342,16 @@ Coquimbo,2020-06-18,99,,99,1919,,,CL,,coquimbo,CL_CO
 Coquimbo,2020-06-19,120,,120,2039,,,CL,,coquimbo,CL_CO
 Coquimbo,2020-06-20,78,,78,2117,,,CL,,coquimbo,CL_CO
 Coquimbo,2020-06-21,87,,87,2204,,,CL,,coquimbo,CL_CO
-Coquimbo,2020-06-23,57,,57,2261,,,CL,,coquimbo,CL_CO
-Coquimbo,2020-06-24,55,,55,2316,,,CL,,coquimbo,CL_CO
-Coquimbo,2020-06-25,102,,102,2418,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-22,69,,69,2273,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-23,57,,57,2330,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-24,55,,55,2385,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-25,102,,102,2487,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-26,70,,70,2557,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-27,75,,75,2632,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-28,76,,76,2708,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-29,104,,104,2812,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-06-30,89,,89,2901,,,CL,,coquimbo,CL_CO
+Coquimbo,2020-07-01,69,,69,2970,,,CL,,coquimbo,CL_CO
 O'Higgins,2020-03-19,2,,2,2,,,CL,,o'higgins,CL_LI
 O'Higgins,2020-03-20,4,,4,6,,,CL,,o'higgins,CL_LI
 O'Higgins,2020-03-21,1,,1,7,,,CL,,o'higgins,CL_LI
@@ -1345,9 +1440,16 @@ O'Higgins,2020-06-18,223,,223,2687,,,CL,,o'higgins,CL_LI
 O'Higgins,2020-06-19,296,,296,2983,,,CL,,o'higgins,CL_LI
 O'Higgins,2020-06-20,306,,306,3289,,,CL,,o'higgins,CL_LI
 O'Higgins,2020-06-21,341,,341,3630,,,CL,,o'higgins,CL_LI
-O'Higgins,2020-06-23,175,,175,3805,,,CL,,o'higgins,CL_LI
-O'Higgins,2020-06-24,256,,256,4061,,,CL,,o'higgins,CL_LI
-O'Higgins,2020-06-25,262,,262,4323,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-22,234,,234,3864,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-23,175,,175,4039,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-24,256,,256,4295,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-25,262,,262,4557,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-26,270,,270,4827,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-27,189,,189,5016,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-28,285,,285,5301,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-29,238,,238,5539,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-06-30,237,,237,5776,,,CL,,o'higgins,CL_LI
+O'Higgins,2020-07-01,164,,164,5940,,,CL,,o'higgins,CL_LI
 Tarapacá,2020-03-23,1,,1,1,,,CL,,tarapacá,CL_TA
 Tarapacá,2020-03-24,3,,3,4,,,CL,,tarapacá,CL_TA
 Tarapacá,2020-03-26,1,,1,5,,,CL,,tarapacá,CL_TA
@@ -1434,6 +1536,13 @@ Tarapacá,2020-06-18,83,,83,4626,,,CL,,tarapacá,CL_TA
 Tarapacá,2020-06-19,129,,129,4755,,,CL,,tarapacá,CL_TA
 Tarapacá,2020-06-20,156,,156,4911,,,CL,,tarapacá,CL_TA
 Tarapacá,2020-06-21,116,,116,5027,,,CL,,tarapacá,CL_TA
-Tarapacá,2020-06-23,87,,87,5114,,,CL,,tarapacá,CL_TA
-Tarapacá,2020-06-24,66,,66,5180,,,CL,,tarapacá,CL_TA
-Tarapacá,2020-06-25,74,,74,5254,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-22,97,,97,5124,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-23,87,,87,5211,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-24,66,,66,5277,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-25,74,,74,5351,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-26,135,,135,5486,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-27,62,,62,5548,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-28,125,,125,5673,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-29,81,,81,5754,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-06-30,75,,75,5829,,,CL,,tarapacá,CL_TA
+Tarapacá,2020-07-01,67,,67,5896,,,CL,,tarapacá,CL_TA
