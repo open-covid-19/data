@@ -17,8 +17,11 @@
 import json
 import shutil
 import datetime
+import cProfile
+from pstats import Stats
 from pathlib import Path
 from functools import partial
+from argparse import ArgumentParser
 
 from tqdm import tqdm
 from pandas import DataFrame, date_range
@@ -84,11 +87,22 @@ def table_cross_product(table1: DataFrame, table2: DataFrame) -> DataFrame:
     return table1.merge(table2, on=[tmp_col_name]).drop(columns=[tmp_col_name])
 
 
-if __name__ == "__main__":
+def main(output_folder: Path, tables_folder: Path, show_progress: bool = True) -> None:
+    """
+    This script takes the processed outputs located in `tables_folder` and publishes them into the
+    output folder by performing the following operations:
 
-    # Wipe the public folder first
-    public_folder = ROOT / "output" / "public"
-    for item in public_folder.glob("*"):
+        1. Copy all the tables as-is from `tables_folder` to `output_folder`
+        2. Produce a main table, created by iteratively performing left outer joins on all other
+           tables (with a few exceptions)
+        3. Create different slices of data, such as the latest known record for each region, files
+           for the last N days of data, files for each individual region
+    """
+    # TODO: respect disable progress flag
+    disable_progress = not show_progress
+
+    # Wipe the output folder first
+    for item in output_folder.glob("*"):
         if item.name.startswith("."):
             continue
         if item.is_file():
@@ -96,12 +110,12 @@ if __name__ == "__main__":
         else:
             shutil.rmtree(item)
 
-    # Create the folder which will be published
-    v2_folder = public_folder / "v2"
+    # Create the folder which will be published using a stable schema
+    v2_folder = output_folder / "v2"
     v2_folder.mkdir(exist_ok=True, parents=True)
 
     # Copy all output files to the V2 folder
-    for output_file in tqdm([*(ROOT / "output" / "tables").glob("*.csv")], desc="Copy tables"):
+    for output_file in tqdm([*tables_folder.glob("*.csv")], desc="Copy tables"):
         shutil.copy(output_file, v2_folder / output_file.name)
 
     # Merge all output files into a single table
@@ -160,3 +174,26 @@ if __name__ == "__main__":
     map_func = export_json_without_index
     for _ in thread_map(map_func, [*(v2_folder).glob("**/*.csv")], desc="JSON conversion"):
         pass
+
+
+if __name__ == "__main__":
+
+    # Process command-line arguments
+    argparser = ArgumentParser()
+    argparser.add_argument("--profile", action="store_true")
+    argparser.add_argument("--no-progress", action="store_true")
+    argparser.add_argument("--tables-folder", type=str, default=str(ROOT / "output" / "tables"))
+    argparser.add_argument("--output-folder", type=str, default=str(ROOT / "output" / "public"))
+    args = argparser.parse_args()
+
+    if args.profile:
+        profiler = cProfile.Profile()
+        profiler.enable()
+
+    main(Path(args.output_folder), Path(args.tables_folder), show_progress=not args.no_progress)
+
+    if args.profile:
+        stats = Stats(profiler)
+        stats.strip_dirs()
+        stats.sort_stats("cumtime")
+        stats.print_stats(20)
