@@ -37,16 +37,16 @@ python -m unittest
 ## Contributing
 ### Existing Tables
 To add new sources to be ingested into an existing table, please take a look to the epidemiology
-table's [README](pipelines/epidemiology/README.md) for step-by-step instructions. Even though it's
+table's [README](./pipelines/epidemiology/README.md) for step-by-step instructions. Even though it's
 written in the context of adding new sources to the epidemiology table, the same advice applies
 for any other table.
 
 ### New Tables
 To create a new table output, it is recommended to start by making a copy of the
-[_template](pipelines/_template) folder. The name of the folder will determine the file name of the
+[_template](./pipelines/_template) folder. The name of the folder will determine the file name of the
 output table, which will be placed under the output folder. For the data pipeline to be
 automatically run, add an import statement to the
-[pipelines module init file](pipelines/__init__.py).
+[pipelines module init file](./pipelines/__init__.py).
 
 ## Architecture
 ### Data Source
@@ -60,13 +60,13 @@ steps, executed in order:
 The majority of the processing in a data source will likely take place in the `parse` step. All
 individual records output by the data source have to follow the following guidelines:
 * Each record **must** be matched with a known `key` present in the auxiliary
-  [metadata table](data/metadata.csv). Otherwise, it will be dropped from the output.
+  [metadata table](./data/metadata.csv). Otherwise, it will be dropped from the output.
 * Each record **may** include a `date` column, which must be ISO 8601 format (i.e. `YYYY-MM-DD`).
 
-To make writing pipelines easier, a default implementation [`DataSource`](lib/pipeline.py)
+To make writing pipelines easier, a default implementation [`DataSource`](./lib/pipeline.py)
 already includes a lot of the functionality that is likely to be used by a standard data parsing
 routine, including downloading and conversion of raw resources into a pandas `DataFrame`. See the
-[template source](pipelines/_template/srcname_pipeline.py) for a trivial example which subclasses
+[template source](./pipelines/_template/srcname_pipeline.py) for a trivial example which subclasses
 the `DataSource` implementation.
 
 ### Data Pipeline
@@ -85,13 +85,13 @@ the schema will be filtered out in the final output.
 
 ### Overview
 The following diagram summarizes the architecture:
-![](data/architecture.png)
+![](./data/architecture.png)
 
 ## Publish
 Data tables are made available for use via the `publish.py` script which uploads the files to a file
-server and creates the different versions of the datasets (like date subsets, the master table, JSON
+server and creates the different versions of the datasets (like date subsets, the main table, JSON
 formatted files, etc.). Data is published automatically by the CI server with every change to the
-master branch; to run the publish step locally, simply execute this script from the `src` directory:
+main branch; to run the publish step locally, simply execute this script from the `src` directory:
 ```sh
 python publish.py
 ```

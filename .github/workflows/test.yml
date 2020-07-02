@@ -13,27 +13,27 @@
 # limitations under the License.
 
 name: Test Data Pipeline
-# Test the data pipeline with every update to master or development branches
+# Test the data pipeline with every update to main or development branches
 
 on:
   push:
     branches:
-      - master
+      - main
       - development
   pull_request:
     branches:
-      - master
+      - main
       - development
 
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+      with:
+        ref: main
 
-    - name: Set up Python 3.x
-      uses: actions/setup-python@v1
+    - uses: actions/setup-python@v1
       with:
         python-version: '3.x'
 

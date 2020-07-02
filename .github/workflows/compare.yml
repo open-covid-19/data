@@ -13,12 +13,12 @@
 # limitations under the License.
 
 name: Compare Pipeline Outputs
-# Test the data pipeline with every update to master or development branches
+# Test the data pipeline with every update to main or development branches
 
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   main:

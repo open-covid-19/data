@@ -24,7 +24,7 @@ from typing import Set, List
 from pandas import DataFrame
 from lib.io import read_file
 from lib.net import download
-from lib.utils import PROD_URL
+from lib.utils import URL_OUTPUTS_PROD
 from update import main as update_data
 
 
@@ -63,7 +63,7 @@ def main(output_folder: Path, only: List[str] = None, exclude: List[str] = None)
         local_prod = Path(table_path_str.replace(".csv", ".prod.csv"))
         with local_prod.open(mode="wb") as fd:
             try:
-                download(f"{PROD_URL}/{table_path.name}", fd)
+                download(f"{URL_OUTPUTS_PROD}/{table_path.name}", fd)
                 tables_summary[table_name]["local_prod"] = str(local_prod)
             except:
                 tables_summary[table_name]["local_prod"] = None

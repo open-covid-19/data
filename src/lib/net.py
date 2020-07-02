@@ -22,7 +22,7 @@ from tqdm import tqdm
 
 
 def download_snapshot(
-    url: str, output_folder: Path, ext: str = None, skip_existing: bool = False
+    url: str, output_folder: Path, ext: str = None, skip_existing: bool = False, **download_opts
 ) -> str:
     """
     This function downloads a file into the snapshots folder and outputs the
@@ -36,6 +36,7 @@ def download_snapshot(
         ext: Force extension when creating output file, handy when it cannot be guessed from URL.
         skip_existing: If true, skip download and simply return the deterministic path where this
             file would have been downloaded. If the file does not exist, this flag is ignored.
+        download_opts: Keyword arguments passed to the `download` function.
 
     Returns:
         str: Absolute path where this file was downloaded. This is a deterministic output; the same
@@ -54,15 +55,26 @@ def download_snapshot(
     # The skip_existing flag is ignored if the file does not already exist
     if not skip_existing or not file_path.exists():
         with open(file_path, "wb") as file_handle:
-            download(url, file_handle)
+            download(url, file_handle, **download_opts)
 
     # Output the downloaded file path
     return str(file_path.absolute())
 
 
-def download(url: str, file_handle: BinaryIO, progress: bool = False) -> None:
-    """ https://stackoverflow.com/a/37573701 """
-    headers = {"User-Agent": "Mozilla"}
+def download(
+    url: str, file_handle: BinaryIO, progress: bool = False, spoof_browser: bool = True
+) -> None:
+    """
+    Based on https://stackoverflow.com/a/37573701. It downloads the contents from the provided URL
+    and writes them into a writeable binary stream.
+
+    Args:
+        url: The endpoint where contents are to be downloaded from
+        file_handle: Writeable stream to write contents to
+        progress: Display progress during the download using the tqdm library
+        spoof_browser: Pretend to be a web browser by adding user agent string to headers
+    """
+    headers = {"User-Agent": "Safari"} if spoof_browser else {}
     if not progress:
         req = requests.get(url, headers=headers)
         req.raise_for_status()

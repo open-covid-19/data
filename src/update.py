@@ -14,8 +14,6 @@
 # limitations under the License.
 
 
-import sys
-import inspect
 import cProfile
 from pstats import Stats
 from pathlib import Path
