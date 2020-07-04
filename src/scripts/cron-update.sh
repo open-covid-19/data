@@ -40,10 +40,11 @@ docker build "$TMPDIR/opencovid/src" -t opencovid
 # We always use the production's intermediate files to ensure reproducibility
 # This system seems brittle, but it lets us pick up the last successful output of any data source
 # as long as it is declared in a pipeline's configuration in case the data source breaks.
+readonly GCS_PROD_BUCKET="covid19-open-data"
 mkdir -p "$TMPDIR/opencovid/output/snapshot"
 mkdir -p "$TMPDIR/opencovid/output/intermediate"
-gsutil -m cp -r gs://covid19-open-data/snapshot "$TMPDIR/opencovid/output/"
-gsutil -m cp -r gs://covid19-open-data/intermediate "$TMPDIR/opencovid/output/"
+gsutil -m cp -r "gs://$GCS_PROD_BUCKET/snapshot" "$TMPDIR/opencovid/output/"
+gsutil -m cp -r "gs://$GCS_PROD_BUCKET/intermediate" "$TMPDIR/opencovid/output/"
 
 # Run the update command in a Docker instance using our Docker image
 docker run -v "$TMPDIR/opencovid":/opencovid -w /opencovid -i opencovid:latest /bin/bash -s <<EOF
@@ -52,7 +53,7 @@ cd src
 # Necessary if the deps changed since the Docker image was built
 python3 -m pip install -r requirements.txt
 # Update all the data pipelines
-python3 update.py
+python3 update.py --no-progress
 # Get the files ready for publishing
 python3 publish.py
 EOF
@@ -66,16 +67,22 @@ then
     echo "GCS output bucket not set"
     echo "Output files located in $OUTPUT_FOLDER"
 else
-    # Only update the intermediate files if this is for the main branch
     if [ $BRANCH == "main" ]
     then
+        # Outputs from the main branch go into the root folder
+        readonly GCS_OUTPUT_PATH="gs://$GCS_OUTPUT_BUCKET/"
+
+        # Only update the intermediate files if this is for the main branch
         echo "Uploading intermediate files to GCS bucket $GCS_OUTPUT_BUCKET"
-        gsutil -m cp -r "$TMPDIR/opencovid/output/snapshot" "$GCS_OUTPUT_BUCKET"
-        gsutil -m cp -r "$TMPDIR/opencovid/output/intermediate" "$GCS_OUTPUT_BUCKET"
+        gsutil -m cp -r "$TMPDIR/opencovid/output/snapshot" "$GCS_OUTPUT_BUCKET/"
+        gsutil -m cp -r "$TMPDIR/opencovid/output/intermediate" "$GCS_OUTPUT_BUCKET/"
+    else
+        # Outputs from any other branch go into the staging folder
+        readonly GCS_OUTPUT_PATH="gs://$GCS_OUTPUT_BUCKET/staging/$BRANCH/"
     fi
 
-    echo "Uploading outputs to GCS bucket $GCS_OUTPUT_BUCKET"
-    gsutil -m cp -r "$OUTPUT_FOLDER" "$GCS_OUTPUT_BUCKET"
+    echo "Uploading outputs to GCS path $GCS_OUTPUT_PATH"
+    gsutil -m cp -r "$OUTPUT_FOLDER" "$GCS_OUTPUT_PATH"
 
     # Cleanup needs sudo because Docker creates files using its uid
     sudo rm -rf $TMPDIR
