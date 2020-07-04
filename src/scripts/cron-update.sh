@@ -14,16 +14,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This is brittle but prevents from continuing in case of failure since we don't want to overwrite
-# files in the server if anything went wrong
-set -xe
-
 #######################################
 # Run data pipelines and upload outputs to GCS
 # Arguments:
 #   Branch to use for the data pipeline execution. Default: "main".
 #   GCS bucket name to upload results to; empty means do not upload. Default: "".
 #######################################
+
+# This is brittle but prevents from continuing in case of failure since we don't want to overwrite
+# files in the server if anything went wrong
+set -xe
 
 # Parse the arguments
 readonly BRANCH="${1:-main}"
@@ -32,6 +32,9 @@ readonly GCS_OUTPUT_BUCKET=$2
 # Clone the repo into a temporary directory
 readonly TMPDIR=$(mktemp -d -t opencovid-$(date +%Y-%m-%d-%H-%M-%S)-XXXX)
 git clone https://github.com/open-covid-19/data.git --single-branch -b $BRANCH "$TMPDIR/opencovid"
+
+# Build the Docker image which contains all of our dependencies
+docker build "$TMPDIR/opencovid/src" -t opencovid
 
 # Download the intermediate files into the working directory
 # We always use the production's intermediate files to ensure reproducibility
@@ -42,9 +45,6 @@ mkdir -p "$TMPDIR/opencovid/output/intermediate"
 gsutil -m cp -r gs://covid19-open-data/snapshot "$TMPDIR/opencovid/output/"
 gsutil -m cp -r gs://covid19-open-data/intermediate "$TMPDIR/opencovid/output/"
 
-# Build the Docker image which contains all of our dependencies
-docker build "$TMPDIR/opencovid" -t opencovid
-
 # Run the update command in a Docker instance using our Docker image
 docker run -v "$TMPDIR/opencovid":/opencovid -w /opencovid -i opencovid:latest /bin/bash -s <<EOF
 cd src
@@ -52,7 +52,7 @@ cd src
 # Necessary if the deps changed since the Docker image was built
 python3 -m pip install -r requirements.txt
 # Update all the data pipelines
-python3 update.py --only index,hospitalizations
+python3 update.py
 # Get the files ready for publishing
 python3 publish.py
 EOF
