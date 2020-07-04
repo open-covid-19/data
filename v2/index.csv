@@ -1506,19 +1506,96 @@ CX,Q31063,country/CXR,CX,Christmas Island,,,,,CX,CXR,0
 CY,Q229,country/CYP,CY,Cyprus,,,,,CY,CYP,0
 CZ,Q213,country/CZE,CZ,Czech Republic,,,,,CZ,CZE,0
 CZ_10,Q1085,nuts/CZ010,CZ,Czech Republic,10,Prague,,,CZ,CZE,1
+CZ_10_100,,,CZ,Czech Republic,20,Prague,100,Prague,CZ,CZE,2
 CZ_20,Q188399,nuts/CZ020,CZ,Czech Republic,20,Central Bohemian Region,,,CZ,CZE,1
+CZ_20_201,Q792883,,CZ,Czech Republic,20,Central Bohemian Region,201,Benešov District,CZ,CZE,2
+CZ_20_202,Q480085,,CZ,Czech Republic,20,Central Bohemian Region,202,Beroun District,CZ,CZE,2
+CZ_20_203,Q837635,,CZ,Czech Republic,20,Central Bohemian Region,203,Kladno District,CZ,CZE,2
+CZ_20_204,Q847318,,CZ,Czech Republic,20,Central Bohemian Region,204,Kolín District,CZ,CZE,2
+CZ_20_205,Q268426,,CZ,Czech Republic,20,Central Bohemian Region,205,Kutná Hora District,CZ,CZE,2
+CZ_20_206,Q852463,,CZ,Czech Republic,20,Central Bohemian Region,206,Mělník District,CZ,CZE,2
+CZ_20_207,Q852468,,CZ,Czech Republic,20,Central Bohemian Region,207,Mladá Boleslav District,CZ,CZE,2
+CZ_20_208,Q852491,,CZ,Czech Republic,20,Central Bohemian Region,208,Nymburk District,CZ,CZE,2
+CZ_20_209,Q645376,,CZ,Czech Republic,20,Central Bohemian Region,209,Prague-East District,CZ,CZE,2
+CZ_20_20A,Q302778,,CZ,Czech Republic,20,Central Bohemian Region,20A,Prague-West District,CZ,CZE,2
+CZ_20_20B,Q852457,,CZ,Czech Republic,20,Central Bohemian Region,20B,Příbram District,CZ,CZE,2
+CZ_20_20C,Q338296,,CZ,Czech Republic,20,Central Bohemian Region,20C,Rakovník District,CZ,CZE,2
 CZ_31,Q188373,nuts/CZ031,CZ,Czech Republic,31,South Bohemian Region,,,CZ,CZE,1
+CZ_31_311,Q753120,,CZ,Czech Republic,31,South Bohemian Region,311,České Budějovice District,CZ,CZE,2
+CZ_31_312,Q605208,,CZ,Czech Republic,31,South Bohemian Region,312,Český Krumlov District,CZ,CZE,2
+CZ_31_313,Q1160841,,CZ,Czech Republic,31,South Bohemian Region,313,Jindřichův Hradec District,CZ,CZE,2
+CZ_31_314,Q594929,,CZ,Czech Republic,31,South Bohemian Region,314,Písek District,CZ,CZE,2
+CZ_31_315,Q385016,,CZ,Czech Republic,31,South Bohemian Region,315,Prachatice District,CZ,CZE,2
+CZ_31_316,Q837633,,CZ,Czech Republic,31,South Bohemian Region,316,Strakonice District,CZ,CZE,2
+CZ_31_317,Q117503,,CZ,Czech Republic,31,South Bohemian Region,317,Tábor District,CZ,CZE,2
 CZ_32,Q46070,nuts/CZ032,CZ,Czech Republic,32,Plzeň Region,,,CZ,CZE,1
+CZ_32_321,Q784736,,CZ,Czech Republic,32,Plzeň Region,321,Domažlice District,CZ,CZE,2
+CZ_32_322,Q838341,,CZ,Czech Republic,32,Plzeň Region,322,Klatovy District,CZ,CZE,2
+CZ_32_323,Q1080673,,CZ,Czech Republic,32,Plzeň Region,323,Plzeň-City District,CZ,CZE,2
+CZ_32_324,Q909754,,CZ,Czech Republic,32,Plzeň Region,324,Plzeň-South District,CZ,CZE,2
+CZ_32_325,Q266036,,CZ,Czech Republic,32,Plzeň Region,325,Plzeň-North District,CZ,CZE,2
+CZ_32_326,Q643400,,CZ,Czech Republic,32,Plzeň Region,326,Rokycany District,CZ,CZE,2
+CZ_32_327,Q838338,,CZ,Czech Republic,32,Plzeň Region,327,Tachov District,CZ,CZE,2
 CZ_41,Q191091,nuts/CZ041,CZ,Czech Republic,41,Karlovy Vary Region,,,CZ,CZE,1
+CZ_41_411,Q628280,,CZ,Czech Republic,41,Karlovy Vary Region,411,Cheb District,CZ,CZE,2
+CZ_41_412,Q757240,,CZ,Czech Republic,41,Karlovy Vary Region,412,Karlovy Vary District,CZ,CZE,2
+CZ_41_413,Q833856,,CZ,Czech Republic,41,Karlovy Vary Region,413,Sokolov District,CZ,CZE,2
 CZ_42,Q192702,nuts/CZ042,CZ,Czech Republic,42,Ústí nad Labem Region,,,CZ,CZE,1
+CZ_42_421,Q852525,,CZ,Czech Republic,42,Ústí nad Labem Region,421,Děčín District,CZ,CZE,2
+CZ_42_422,Q161094,,CZ,Czech Republic,42,Ústí nad Labem Region,422,Chomutov District,CZ,CZE,2
+CZ_42_423,Q383415,,CZ,Czech Republic,42,Ústí nad Labem Region,423,Litoměřice District,CZ,CZE,2
+CZ_42_424,Q838292,,CZ,Czech Republic,42,Ústí nad Labem Region,424,Louny District,CZ,CZE,2
+CZ_42_425,Q852511,,CZ,Czech Republic,42,Ústí nad Labem Region,425,Most District,CZ,CZE,2
+CZ_42_426,Q852518,,CZ,Czech Republic,42,Ústí nad Labem Region,426,Teplice District,CZ,CZE,2
+CZ_42_427,Q852480,,CZ,Czech Republic,42,Ústí nad Labem Region,427,Ústí nad Labem District,CZ,CZE,2
 CZ_51,Q193266,nuts/CZ051,CZ,Czech Republic,51,Liberec Region,,,CZ,CZE,1
+CZ_51_511,Q538500,,CZ,Czech Republic,51,Liberec Region,511,Česká Lípa District,CZ,CZE,2
+CZ_51_512,Q837639,,CZ,Czech Republic,51,Liberec Region,512,Jablonec nad Nisou District,CZ,CZE,2
+CZ_51_513,Q739824,,CZ,Czech Republic,51,Liberec Region,513,Liberec District,CZ,CZE,2
+CZ_51_514,Q663532,,CZ,Czech Republic,51,Liberec Region,514,Semily District,CZ,CZE,2
 CZ_52,Q193295,nuts/CZ052,CZ,Czech Republic,52,Hradec Králové Region,,,CZ,CZE,1
+CZ_52_521,Q176082,,CZ,Czech Republic,52,Hradec Králové Region,521,Hradec Králové District,CZ,CZE,2
+CZ_52_522,Q838333,,CZ,Czech Republic,52,Hradec Králové Region,522,Jičín District,CZ,CZE,2
+CZ_52_523,Q838308,,CZ,Czech Republic,52,Hradec Králové Region,523,Náchod District,CZ,CZE,2
+CZ_52_524,Q240419,,CZ,Czech Republic,52,Hradec Králové Region,524,Rychnov nad Kněžnou District,CZ,CZE,2
+CZ_52_525,Q517734,,CZ,Czech Republic,52,Hradec Králové Region,525,Trutnov District,CZ,CZE,2
 CZ_53,Q193317,nuts/CZ053,CZ,Czech Republic,53,Pardubice Region,,,CZ,CZE,1
+CZ_53_531,Q838329,,CZ,Czech Republic,53,Pardubice Region,531,Chrudim District,CZ,CZE,2
+CZ_53_532,Q838301,,CZ,Czech Republic,53,Pardubice Region,532,Pardubice District,CZ,CZE,2
+CZ_53_533,Q852438,,CZ,Czech Republic,53,Pardubice Region,533,Svitavy District,CZ,CZE,2
+CZ_53_534,Q856824,,CZ,Czech Republic,53,Pardubice Region,534,Ústí nad Orlicí District,CZ,CZE,2
 CZ_63,Q190930,nuts/CZ063,CZ,Czech Republic,63,Vysocina Region,,,CZ,CZE,1
+CZ_63_631,Q368105,,CZ,Czech Republic,63,Vysocina Region,631,Havlíčkův Brod District,CZ,CZE,2
+CZ_63_632,Q852472,,CZ,Czech Republic,63,Vysocina Region,632,Jihlava District,CZ,CZE,2
+CZ_63_633,Q852505,,CZ,Czech Republic,63,Vysocina Region,633,Pelhřimov District,CZ,CZE,2
+CZ_63_634,Q856857,,CZ,Czech Republic,63,Vysocina Region,634,Třebíč District,CZ,CZE,2
+CZ_63_635,Q579648,,CZ,Czech Republic,63,Vysocina Region,635,Žďár nad Sázavou District,CZ,CZE,2
 CZ_64,Q192697,nuts/CZ064,CZ,Czech Republic,64,South Moravian Region,,,CZ,CZE,1
+CZ_64_641,Q804356,,CZ,Czech Republic,64,South Moravian Region,641,Blansko District,CZ,CZE,2
+CZ_64_642,Q850531,,CZ,Czech Republic,64,South Moravian Region,642,Brno-City District,CZ,CZE,2
+CZ_64_643,Q286787,,CZ,Czech Republic,64,South Moravian Region,643,Brno-Country District,CZ,CZE,2
+CZ_64_644,Q582488,,CZ,Czech Republic,64,South Moravian Region,644,Břeclav District,CZ,CZE,2
+CZ_64_645,Q637425,,CZ,Czech Republic,64,South Moravian Region,645,Hodonín District,CZ,CZE,2
+CZ_64_646,Q570682,,CZ,Czech Republic,64,South Moravian Region,646,Vyškov District,CZ,CZE,2
+CZ_64_647,Q853969,,CZ,Czech Republic,64,South Moravian Region,647,Znojmo District,CZ,CZE,2
 CZ_71,Q193307,nuts/CZ071,CZ,Czech Republic,71,Olomouc Region,,,CZ,CZE,1
+CZ_71_711,Q838288,,CZ,Czech Republic,71,Olomouc Region,711,Jeseník District,CZ,CZE,2
+CZ_71_712,Q375466,,CZ,Czech Republic,71,Olomouc Region,712,Olomouc District,CZ,CZE,2
+CZ_71_713,Q837629,,CZ,Czech Republic,71,Olomouc Region,713,Prostějov District,CZ,CZE,2
+CZ_71_714,Q838324,,CZ,Czech Republic,71,Olomouc Region,714,Přerov District,CZ,CZE,2
+CZ_71_715,Q838335,,CZ,Czech Republic,71,Olomouc Region,715,Šumperk District,CZ,CZE,2
 CZ_72,Q192536,nuts/CZ072,CZ,Czech Republic,72,Zlin Region,,,CZ,CZE,1
+CZ_72_721,Q852532,,CZ,Czech Republic,72,Zlin Region,721,Kroměříž District,CZ,CZE,2
+CZ_72_722,Q277873,,CZ,Czech Republic,72,Zlin Region,722,Uherské Hradiště District,CZ,CZE,2
+CZ_72_723,Q852541,,CZ,Czech Republic,72,Zlin Region,723,Vsetín District,CZ,CZE,2
+CZ_72_724,Q262111,,CZ,Czech Republic,72,Zlin Region,724,Zlín District,CZ,CZE,2
 CZ_80,Q190550,nuts/CZ080,CZ,Czech Republic,80,Moravian-Silesian Region,,,CZ,CZE,1
+CZ_80_801,Q850323,,CZ,Czech Republic,80,Moravian-Silesian Region,801,Bruntál District,CZ,CZE,2
+CZ_80_802,Q175781,,CZ,Czech Republic,80,Moravian-Silesian Region,802,Frýdek-Místek District,CZ,CZE,2
+CZ_80_803,Q852496,,CZ,Czech Republic,80,Moravian-Silesian Region,803,Karviná District,CZ,CZE,2
+CZ_80_804,Q517427,,CZ,Czech Republic,80,Moravian-Silesian Region,804,Nový Jičín District,CZ,CZE,2
+CZ_80_805,Q838320,,CZ,Czech Republic,80,Moravian-Silesian Region,805,Opava District,CZ,CZE,2
+CZ_80_806,Q918108,,CZ,Czech Republic,80,Moravian-Silesian Region,806,Ostrava-City District,CZ,CZE,2
 DE,Q183,country/DEU,DE,Germany,,,,,DE,DEU,0
 DE_BB,Q61437729,nuts/DE4,DE,Germany,BB,Brandenburg,,,DE,DEU,1
 DE_BE,Q64,nuts/DE3,DE,Germany,BE,Berlin,,,DE,DEU,1
@@ -2218,6 +2295,14 @@ LT,Q37,country/LTU,LT,Lithuania,,,,,LT,LTU,0
 LU,Q32,country/LUX,LU,Luxembourg,,,,,LU,LUX,0
 LV,Q211,country/LVA,LV,Latvia,,,,,LV,LVA,0
 LY,Q1016,country/LBY,LY,Libya,,,,,LY,LBY,0
+LY_BA,Q40816,,LY,Libya,BA,Benghazi,,,LY,LBY,1
+LY_JI,Q329060,,LY,Libya,JI,Jafara,,,LY,LBY,1
+LY_MS,Q131323,,LY,Libya,MS,Misrata District,,,LY,LBY,1
+LY_SB,Q26132,,LY,Libya,SB,Sabha District,,,LY,LBY,1
+LY_ST,Q192918,,LY,Libya,ST,Sabratha District,,,LY,LBY,1
+LY_TB,Q32837,,LY,Libya,TB,Tripoli District,,,LY,LBY,1
+LY_WS,Q48232,,LY,Libya,WS,Wadi al Shatii District,,,LY,LBY,1
+LY_ZL,Q207259,,LY,Libya,ZL,Zliten District,,,LY,LBY,1
 MA,Q1028,country/MAR,MA,Morocco,,,,,MA,MAR,0
 MC,Q235,country/MCO,MC,Monaco,,,,,MC,MCO,0
 MD,Q217,country/MDA,MD,Moldova,,,,,MD,MDA,0
@@ -6413,6 +6498,7 @@ WF,Q35555,country/WLF,WF,Wallis and Futuna,,,,,WF,WLF,0
 WS,Q683,country/WSM,WS,Samoa,,,,,WS,WSM,0
 XK,Q1246,country/XKS,XK,Kosovo,,,,,XK,RKS,0
 YE,Q805,country/YEM,YE,Yemen,,,,,YE,YEM,0
+YE_BA,Q221212,,LY,Libya,BA,Al Bayda' Governorate,,,LY,LBY,1
 YT,Q17063,country/MYT,YT,Mayotte,,,,,YT,MYT,0
 ZA,Q258,country/ZAF,ZA,South Africa,,,,,ZA,ZAF,0
 ZA_EC,Q130840,,ZA,South Africa,EC,Eastern Cape,,,ZA,ZAF,1
