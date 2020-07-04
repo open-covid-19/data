@@ -64,7 +64,7 @@ readonly OUTPUT_FOLDER="$TMPDIR/opencovid/output/public/v2"
 # Upload the outputs to Google Cloud Storage
 if [ -z "$GCS_OUTPUT_BUCKET" ]
 then
-    echo "GCS output bucket not set"
+    echo "GCS output bucket not set, skipping upload"
     echo "Output files located in $OUTPUT_FOLDER"
 else
     if [ $BRANCH == "main" ]
