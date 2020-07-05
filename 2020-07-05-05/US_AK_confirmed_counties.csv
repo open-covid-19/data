@@ -1,0 +1,78 @@
+﻿Region,Borough_Census_Area,Community,All_Cases,Community_Cases,Secondary_Cases,Travel_Cases,UI_Cases,Hospitalizations,Deaths,Recovered,Active,ObjectId,Residency,All_Cases__New_
+Anchorage,Anchorage Municipality,Anchorage,471,102,156,67,146,30,8,212,251,1,Alaska Resident,32
+Anchorage,Anchorage Municipality,Chugiak,10,4,2,2,2,3,0,7,3,2,Alaska Resident,0
+Anchorage,Anchorage Municipality,Eagle River,38,5,14,8,11,2,0,16,22,3,Alaska Resident,0
+Anchorage,Anchorage Municipality,Girdwood,6,3,0,2,1,0,0,4,2,4,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Anchor Point,8,3,4,1,0,1,2,5,1,5,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Fritz Creek,3,1,2,0,0,0,0,2,1,6,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Homer,42,10,21,2,9,4,0,23,19,7,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Kenai,17,4,6,4,3,1,0,14,3,8,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Nikiski,5,2,3,0,0,1,0,4,1,9,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Other North,3,0,1,0,2,0,0,1,2,10,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Other South,28,4,22,0,2,0,0,18,10,11,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Seward,29,0,3,2,24,0,0,4,25,12,Alaska Resident,0
+Gulf Coast,Kenai Peninsula Borough,Soldotna,22,8,7,1,6,0,0,13,9,13,Alaska Resident,1
+Gulf Coast,Kenai Peninsula Borough,Sterling,3,1,1,1,0,0,0,3,0,14,Alaska Resident,0
+Gulf Coast,Kodiak Island Borough,Kodiak,4,2,0,0,2,0,0,1,3,15,Alaska Resident,0
+Gulf Coast,Valdez-Cordova Census Area,Other,2,0,0,0,2,0,0,0,2,16,Alaska Resident,0
+Gulf Coast,Valdez-Cordova Census Area,Valdez,2,0,0,0,2,0,0,0,2,17,Alaska Resident,0
+Interior,Fairbanks North Star Borough,Fairbanks,124,21,57,9,37,10,1,70,53,18,Alaska Resident,4
+Interior,Fairbanks North Star Borough,North Pole,39,5,14,7,13,2,1,17,21,19,Alaska Resident,0
+Interior,Fairbanks North Star Borough,Other,1,0,0,1,0,0,0,1,0,20,Alaska Resident,0
+Interior,Southeast Fairbanks Census Area,Delta Junction,3,0,1,1,1,0,0,2,1,21,Alaska Resident,0
+Interior,Southeast Fairbanks Census Area,Tok,7,0,1,1,5,1,0,2,5,22,Alaska Resident,0
+Interior,Yukon-Koyukuk Census Area,Other,4,1,1,0,2,0,0,1,3,23,Alaska Resident,1
+Matanuska-Susitna,Matanuska-Susitna Borough,Big Lake,6,2,2,0,2,0,0,2,4,24,Alaska Resident,0
+Matanuska-Susitna,Matanuska-Susitna Borough,Houston,2,0,1,0,1,0,0,1,1,25,Alaska Resident,0
+Matanuska-Susitna,Matanuska-Susitna Borough,Other,2,0,0,1,1,0,0,1,1,26,Alaska Resident,0
+Matanuska-Susitna,Matanuska-Susitna Borough,Palmer,34,12,4,3,15,1,0,12,22,27,Alaska Resident,1
+Matanuska-Susitna,Matanuska-Susitna Borough,Wasilla,61,13,15,3,30,2,1,25,35,28,Alaska Resident,4
+Matanuska-Susitna,Matanuska-Susitna Borough,Willow,9,1,0,0,8,0,0,1,8,29,Alaska Resident,2
+Northern,Nome Census Area,Nome,7,3,0,1,3,0,0,4,3,30,Alaska Resident,0
+Northern,Nome Census Area,Other,2,1,0,0,1,0,0,0,2,31,Alaska Resident,0
+Northern,North Slope Borough,Other,4,2,0,0,2,1,0,1,3,32,Alaska Resident,0
+Northern,Northwest Arctic Borough,Kotzebue,1,1,0,0,0,0,0,1,0,33,Alaska Resident,0
+Northern,Northwest Arctic Borough,Other,4,2,0,1,1,0,0,3,1,34,Alaska Resident,0
+Southeast,Haines Borough,Haines,2,2,0,0,0,0,0,1,1,35,Alaska Resident,0
+Southeast,Juneau City and Borough,Douglas,2,2,0,0,0,0,0,2,0,36,Alaska Resident,0
+Southeast,Juneau City and Borough,Juneau,43,7,26,4,6,8,2,35,6,37,Alaska Resident,0
+Southeast,Ketchikan Gateway Borough,Ketchikan,21,0,14,6,1,2,0,17,4,38,Alaska Resident,0
+Southeast,Ketchikan Gateway Borough,Other,1,0,0,0,1,0,0,1,0,39,Alaska Resident,0
+Southeast,Petersburg Borough,Petersburg,5,2,0,2,1,1,1,3,1,40,Alaska Resident,1
+Southeast,Prince of Wales-Hyder Census Area,Craig,2,1,0,1,0,0,0,2,0,41,Alaska Resident,0
+Southeast,Sitka City and Borough,Sitka,13,4,3,1,5,0,0,7,6,42,Alaska Resident,0
+Southeast,Wrangell City and Borough,Wrangell,3,1,1,1,0,0,0,1,2,43,Alaska Resident,0
+Southwest,Bethel Census Area,Bethel,5,1,1,1,2,0,0,1,4,44,Alaska Resident,0
+Southwest,Bethel Census Area,Other,6,3,0,0,3,1,0,2,4,45,Alaska Resident,1
+Southwest,Bristol Bay plus Lake and Peninsula,Other,4,1,1,0,2,1,0,1,3,46,Alaska Resident,1
+Southwest,Kusilvak Census Area,Other,1,0,0,0,1,0,0,0,1,47,Alaska Resident,0
+Anchorage,Anchorage Municipality,Anchorage,51,0,3,34,14,0,0,14,37,48,Non-Resident,2
+Anchorage,Anchorage Municipality,Eagle River,1,0,0,0,1,0,0,0,1,49,Non-Resident,0
+Gulf Coast,Kenai Peninsula Borough,Homer,2,1,0,1,0,0,0,2,0,50,Non-Resident,0
+Gulf Coast,Kenai Peninsula Borough,Kenai,4,0,2,2,0,0,0,4,0,51,Non-Resident,0
+Gulf Coast,Kenai Peninsula Borough,Nikiski,2,0,2,0,0,0,0,2,0,52,Non-Resident,0
+Gulf Coast,Kenai Peninsula Borough,Seward,11,1,0,1,9,0,0,0,11,53,Non-Resident,0
+Gulf Coast,Kodiak Island Borough,Kodiak,5,1,0,3,1,0,0,0,5,54,Non-Resident,0
+Gulf Coast,Valdez-Cordova Census Area,Cordova,4,0,0,2,2,0,0,1,3,55,Non-Resident,0
+Gulf Coast,Valdez-Cordova Census Area,Other,12,0,0,1,11,0,0,0,12,56,Non-Resident,0
+Gulf Coast,Valdez-Cordova Census Area,Valdez,4,1,0,0,3,0,0,1,3,57,Non-Resident,2
+Interior,Denali Borough,Healy,1,0,0,0,1,0,0,0,1,58,Non-Resident,0
+Interior,Fairbanks North Star Borough,Fairbanks,16,0,5,2,9,0,0,2,14,59,Non-Resident,2
+Interior,Southeast Fairbanks Census Area,Delta Junction,6,0,3,0,3,0,0,1,5,60,Non-Resident,0
+Matanuska-Susitna,Matanuska-Susitna Borough,Other,1,0,0,0,1,0,0,0,1,61,Non-Resident,0
+Matanuska-Susitna,Matanuska-Susitna Borough,Wasilla,2,0,0,1,1,0,0,1,1,62,Non-Resident,0
+Northern,Nome Census Area,Nome,2,0,0,1,1,0,0,1,1,63,Non-Resident,0
+Southeast,Haines Borough,Haines,1,0,0,1,0,0,0,0,1,64,Non-Resident,0
+Southeast,Haines Borough,Other,3,0,0,0,3,0,0,0,3,65,Non-Resident,0
+Southeast,Juneau City and Borough,Juneau,5,2,0,2,1,0,0,3,2,66,Non-Resident,1
+Southeast,Ketchikan Gateway Borough,Ketchikan,8,1,0,6,1,0,0,6,2,67,Non-Resident,0
+Southeast,Petersburg Borough,Petersburg,2,0,0,1,1,0,0,1,1,68,Non-Resident,0
+Southeast,Prince of Wales-Hyder Census Area,Craig,1,1,0,0,0,0,0,1,0,69,Non-Resident,0
+Southeast,Sitka City and Borough,Sitka,5,0,1,1,3,0,0,2,3,70,Non-Resident,0
+Southeast,Wrangell City and Borough,Wrangell,5,0,0,2,3,0,0,1,4,71,Non-Resident,0
+Southeast,Yakutat plus Hoonah-Angoon,Other,1,0,0,1,0,0,0,1,0,72,Non-Resident,0
+Southwest,Aleutians East Borough,Other,2,0,0,1,1,0,0,1,1,73,Non-Resident,0
+Southwest,Aleutians West Census Area,Unalaska,5,0,0,2,3,0,0,3,2,74,Non-Resident,0
+Southwest,Bethel Census Area,Bethel,2,0,0,1,1,0,0,0,2,75,Non-Resident,0
+Southwest,Bristol Bay plus Lake and Peninsula,Other,45,1,4,14,26,0,0,6,39,76,Non-Resident,0
+Southwest,Dillingham Census Area,Dillingham,21,0,0,1,20,0,0,2,19,77,Non-Resident,0
