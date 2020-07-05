@@ -43,8 +43,8 @@ docker build "$TMPDIR/opencovid/src" -t opencovid
 readonly GCS_PROD_BUCKET="covid19-open-data"
 mkdir -p "$TMPDIR/opencovid/output/snapshot"
 mkdir -p "$TMPDIR/opencovid/output/intermediate"
-gsutil -m cp -r "gs://$GCS_PROD_BUCKET/snapshot" "$TMPDIR/opencovid/output/"
-gsutil -m cp -r "gs://$GCS_PROD_BUCKET/intermediate" "$TMPDIR/opencovid/output/"
+gsutil -m cp -r "gs://$GCS_PROD_BUCKET/snapshot" "$TMPDIR/opencovid/output/" || true
+gsutil -m cp -r "gs://$GCS_PROD_BUCKET/intermediate" "$TMPDIR/opencovid/output/" || true
 
 # Run the update command in a Docker instance using our Docker image
 docker run -v "$TMPDIR/opencovid":/opencovid -w /opencovid -i opencovid:latest /bin/bash -s <<EOF

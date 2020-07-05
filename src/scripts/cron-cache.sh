@@ -29,8 +29,7 @@ set -xe
 readonly GCS_OUTPUT_BUCKET=$1
 
 # Clone the repo into a temporary directory
-# readonly TMPDIR=$(mktemp -d -t opencovid-$(date +%Y-%m-%d-%H-%M-%S)-XXXX)
-readonly TMPDIR="/tmp/opencovid-$(date +%Y-%m-%d-%H-%M-%S)"
+readonly TMPDIR=$(mktemp -d -t opencovid-$(date +%Y-%m-%d-%H-%M-%S)-XXXX)
 git clone https://github.com/open-covid-19/data.git --single-branch -b main "$TMPDIR/opencovid"
 
 # Build the Docker image which contains all of our dependencies
@@ -42,7 +41,7 @@ if [ -z "$GCS_OUTPUT_BUCKET" ]
 then
     echo "GCS output bucket not set, no previous cache files downloaded"
 else
-    gsutil -m cp -r "gs://$GCS_OUTPUT_BUCKET/cache" "$TMPDIR/opencovid/output/"
+    gsutil -m cp -r "gs://$GCS_OUTPUT_BUCKET/cache" "$TMPDIR/opencovid/output/" || true
 fi
 
 
@@ -57,7 +56,7 @@ python3 cache.py
 EOF
 
 # Known location where the output files are created
-readonly OUTPUT_FOLDER="$TMPDIR/opencovid/output/public/cache"
+readonly OUTPUT_FOLDER="$TMPDIR/opencovid/output/cache"
 
 # Upload the outputs to Google Cloud Storage
 if [ -z "$GCS_OUTPUT_BUCKET" ]
@@ -65,9 +64,11 @@ then
     echo "GCS output bucket not set, skipping upload"
     echo "Output files located in $OUTPUT_FOLDER"
 else
+    readonly GCS_OUTPUT_PATH="gs://$GCS_OUTPUT_BUCKET/"
+
     # Only update the cached files if there is a GCS bucket
     echo "Uploading cache files to GCS bucket $GCS_OUTPUT_BUCKET"
-    gsutil -m cp -r "$TMPDIR/opencovid/output/cache" "$GCS_OUTPUT_BUCKET/"
+    gsutil -m cp -r "$OUTPUT_FOLDER" "$GCS_OUTPUT_PATH"
 
     # Cleanup needs sudo because Docker creates files using its uid
     sudo rm -rf $TMPDIR
