@@ -54,7 +54,7 @@ jobs:
         python compare.py --table by-age | tee ../output/by-age.json
         python compare.py --table by-sex | tee ../output/by-sex.json
 
-    - uses: actions/upload-artifact@v1
+    - uses: actions/upload-artifact@v2
       with:
         name: pipeline-output-comparisons
         path: './output/*.json'
