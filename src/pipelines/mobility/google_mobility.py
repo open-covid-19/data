@@ -101,7 +101,7 @@ class GoogleMobilityDataSource(DataSource):
         usa_mask = data_match.country_code == "US"
         data_match.loc[usa_mask, "subregion2_code"] = data_match.loc[
             usa_mask, "census_fips_code"
-        ].apply(lambda x: f"{safe_int_cast(x):05d}")
+        ].apply(lambda x: f"{safe_int_cast(x) or 0:05d}")
 
         # Non-USA subregions should simply use the match_string column
         data_match.loc[~usa_mask & ~data_match.subregion1_name.isna(), "subregion1_name"] = ""
