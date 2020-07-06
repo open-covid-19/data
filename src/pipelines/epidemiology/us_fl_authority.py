@@ -14,7 +14,6 @@
 
 import uuid
 import datetime
-from time import sleep
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -89,8 +88,6 @@ class FloridaDataSource(DataSource):
             if len(rows) == 0:
                 return rows
             else:
-                # Wait between queries to avoid API limits
-                sleep(5)
                 return rows + _r_get_county_cases(offset + len(rows))
 
         cases = DataFrame.from_records(_r_get_county_cases())
