@@ -132,7 +132,7 @@ class FloridaDataSource(DataSource):
         # Avoid download if the file exists and flag is set
         skip_existing = (fetch_opts or [{}])[0].get("opts", {}).get("skip_existing")
         if not skip_existing or not file_path.exists():
-            _get_county_cases().to_csv(file_path, index=False)
+            self._get_county_cases().to_csv(file_path, index=False)
 
         return {0: str(file_path.absolute())}
 
