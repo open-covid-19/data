@@ -33,7 +33,6 @@ from lib.concurrent import thread_map
 from lib.utils import SRC
 from update import main as update_main
 
-TOKEN = None
 BLOB_OP_MAX_RETRIES = 3
 
 
@@ -42,10 +41,11 @@ def get_storage_client():
     Creates an instance of google.cloud.storage.Client using a token if provided, otherwise
     the default credentials are used.
     """
-    if TOKEN is None:
+    token_env_key = "GCP_TOKEN"
+    if os.getenv(token_env_key) is None:
         return storage.Client()
     else:
-        credentials = Credentials(TOKEN)
+        credentials = Credentials(os.getenv(token_env_key))
         return storage.Client(credentials=credentials)
 
 
