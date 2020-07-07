@@ -51,7 +51,5 @@ class CongoDRCHumdataDataSource(DataSource):
         # Make sure all records have the country code
         data["country_code"] = "CD"
 
-        print (data)
-
         # Output the results
         return data
