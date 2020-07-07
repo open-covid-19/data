@@ -234,6 +234,36 @@ CA_SK,Q1989,,CA,Canada,SK,Saskatchewan,,,CA,CAN,1
 CA_YT,Q2009,,CA,Canada,YT,Yukon,,,CA,CAN,1
 CC,Q36004,country/CCK,CC,Cocos Islands,,,,,CC,CCK,0
 CD,Q974,country/COD,CD,Democratic Republic of the Congo,,,,,CD,COD,0
+CD_BC,Q1043494,,CD,Democratic Republic of the Congo,BC,Kongo Central,,,CD,COD,1
+CD_BN,Q671442,,CD,Democratic Republic of the Congo,BN,Bandundu Province,,,CD,COD,1
+CD_BU,Q652056,,CD,Democratic Republic of the Congo,BU,Bas-Uele,,,CD,COD,1
+CD_EQ,Q988104,,CD,Democratic Republic of the Congo,EQ,Équateur,,,CD,COD,1
+CD_HK,Q130268,,CD,Democratic Republic of the Congo,HK,Haut-Katanga Province,,,CD,COD,1
+CD_HL,Q605672,,CD,Democratic Republic of the Congo,HL,Haut-Lomami District,,,CD,COD,1
+CD_HU,Q751632,,CD,Democratic Republic of the Congo,HU,Haut-Uele,,,CD,COD,1
+CD_IT,Q750659,,CD,Democratic Republic of the Congo,IT,Ituri Interim Administration,,,CD,COD,1
+CD_KA,Q217242,,CD,Democratic Republic of the Congo,KA,Katanga Province,,,CD,COD,1
+CD_KC,Q6702952,,CD,Democratic Republic of the Congo,KC,Kasaï-Central,,,CD,COD,1
+CD_KE,Q917992,,CD,Democratic Republic of the Congo,KE,Kasai-Oriental,,,CD,COD,1
+CD_KG,Q24205498,,CD,Democratic Republic of the Congo,KG,Kwango Province,,,CD,COD,1
+CD_KL,Q559537,,CD,Democratic Republic of the Congo,KL,Kwilu,,,CD,COD,1
+CD_KN,Q3838,,CD,Democratic Republic of the Congo,KN,Kinshasa,,,CD,COD,1
+CD_KS,Q6373961,,CD,Democratic Republic of the Congo,KS,Kasaï District,,,CD,COD,1
+CD_KW,Q130576,,CD,Democratic Republic of the Congo,KW,Kasaï-Occidental,,,CD,COD,1
+CD_LO,Q241886,,CD,Democratic Republic of the Congo,LO,Lomami Province,,,CD,COD,1
+CD_LU,Q1159531,,CD,Democratic Republic of the Congo,LU,Lualaba Province,,,CD,COD,1
+CD_MA,Q130566,,CD,Democratic Republic of the Congo,MA,Maniema,,,CD,COD,1
+CD_MN,Q1163429,,CD,Democratic Republic of the Congo,MN,Mai-Ndombe Province,,,CD,COD,1
+CD_MO,Q847527,,CD,Democratic Republic of the Congo,MO,Mongala District,,,CD,COD,1
+CD_NK,Q130625,,CD,Democratic Republic of the Congo,NK,North Kivu,,,CD,COD,1
+CD_NU,Q843312,,CD,Democratic Republic of the Congo,NU,Nord-Ubangi District,,,CD,COD,1
+CD_OR,Q831370,,CD,Democratic Republic of the Congo,OR,Orientale Province,,,CD,COD,1
+CD_SA,Q209829,,CD,Democratic Republic of the Congo,SA,Sankuru District,,,CD,COD,1
+CD_SK,Q488326,,CD,Democratic Republic of the Congo,SK,South Kivu,,,CD,COD,1
+CD_SU,Q834551,,CD,Democratic Republic of the Congo,SU,Sud-Ubangi,,,CD,COD,1
+CD_TA,Q826585,,CD,Democratic Republic of the Congo,TA,Tanganyika Province,,,CD,COD,1
+CD_TO,Q630900,,CD,Democratic Republic of the Congo,TO,Tshopo,,,CD,COD,1
+CD_TU,Q427246,,CD,Democratic Republic of the Congo,TU,Tshuapa District,,,CD,COD,1
 CF,Q929,country/CAF,CF,Central African Republic,,,,,CF,CAF,0
 CG,Q971,country/COG,CG,Republic of the Congo,,,,,CG,COG,0
 CH,Q39,country/CHE,CH,Switzerland,,,,,CH,CHE,0
