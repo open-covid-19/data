@@ -298,6 +298,9 @@ sources:
       - url: "https://dshs.texas.gov/coronavirus/TexasCOVID19CaseCountData.xlsx"
     test:
       metadata_query: "key == 'US_TX'"
+      # Skip Texas because the data source is very flaky and keeps changing schema
+      # TODO: fix this data source and make it more resilient
+      skip: true
 
   # Data sources for ZA levels 1 + 2
   - name: pipelines.epidemiology.za_dsfsi.Covid19ZaCumulativeDataSource
