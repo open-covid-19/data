@@ -43,7 +43,7 @@ function install_python {
 }
 
 # Delete ourselves after a one hour timeout
-$(sleep 3600s && self_destruct)&
+$(sleep 3600 && self_destruct)&
 
 # Declare the branch to use to run code
 readonly BRANCH=appengine
