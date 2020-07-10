@@ -19,8 +19,8 @@ schema:
   related_locality: str
 
 auxiliary:
-  metadata: ./src/data/metadata.csv
-  localities: ./src/data/localities.csv
+  metadata: ./data/metadata.csv
+  localities: ./data/localities.csv
 
 sources:
   - name: pipelines.locality.locality.LocalityDataSource
