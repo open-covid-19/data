@@ -2403,6 +2403,17 @@ MY_14,Q1865,,MY,Malaysia,14,Kuala Lumpur,,,MY,MYS,1
 MY_15,Q214504,,MY,Malaysia,15,Labuan,,,MY,MYS,1
 MY_16,Q182378,,MY,Malaysia,16,Putrajaya,,,MY,MYS,1
 MZ,Q1029,country/MOZ,MZ,Mozambique,,,,,MZ,MOZ,0
+MZ_A,Q622799,,MZ,Mozambique,A,Niassa Province,,,MZ,MOZ,1
+MZ_B,Q622792,,MZ,Mozambique,B,Manica Province,,,MZ,MOZ,1
+MZ_G,Q466526,,MZ,Mozambique,G,Gaza Province,,,MZ,MOZ,1
+MZ_I,Q466547,,MZ,Mozambique,I,Inhambane Province,,,MZ,MOZ,1
+MZ_L,Q379658,,MZ,Mozambique,L,Maputo Province,,,MZ,MOZ,1
+MZ_MPM,Q3889,,MZ,Mozambique,MPM,Maputo,,,MZ,MOZ,1
+MZ_N,Q622794,,MZ,Mozambique,N,Nampula Province,,,MZ,MOZ,1
+MZ_P,Q466538,,MZ,Mozambique,P,Cabo Delgado Province,,,MZ,MOZ,1
+MZ_Q,Q622803,,MZ,Mozambique,Q,Zambezia Province,,,MZ,MOZ,1
+MZ_S,Q622801,,MZ,Mozambique,S,Sofala,,,MZ,MOZ,1
+MZ_T,Q605787,,MZ,Mozambique,T,Tete Province,,,MZ,MOZ,1
 "NA",Q1030,country/NAM,"NA",Namibia,,,,,"NA",NAM,0
 NC,Q33788,country/NCL,NC,New Caledonia,,,,,NC,NCL,0
 NE,Q1032,country/NER,NE,Niger,,,,,NE,NER,0
