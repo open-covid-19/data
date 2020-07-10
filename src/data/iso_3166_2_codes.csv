@@ -2869,31 +2869,54 @@ LV_REZ,Q180379,LV,REZ,Rēzekne
 LV_RIX,Q1773,LV,RIX,Riga
 LV_VEN,Q104036,LV,VEN,Ventspils
 LV_VMR,Q108037,LV,VMR,Valmiera
+LY_AB,Q1050731,LY,AB,Abyar
+LY_AJ,Q202991,LY,AJ,Ajdabiya
+LY_AM,Q1050731,LY,AB,Abyar
 LY_BA,Q40816,LY,BA,Benghazi
+LY_BJ,Q117564,LY,BJ,Bin Jawad
+LY_BR,Q36219,LY,BR,Brega
 LY_BU,Q25931,LY,BU,Butnan District
+LY_BW,Q244230,LY,BY,Bani Walid
+LY_BY,Q35784,LY,BY,Bayda District
 LY_DR,Q26124,LY,DR,Derna District
+LY_GD,Q192237,LY,GD,Ghadames
+LY_GH,Q867102,LY,GH,Gharyan
 LY_GT,Q48236,LY,GT,Ghat District
+LY_HA,Q3849569,LY,HA,Harawa
 LY_JA,Q32841,LY,JA,Jabal al Akhdar
 LY_JG,Q25632,LY,JG,Jabal al Gharbi District
 LY_JI,Q329060,LY,JI,Jafara
+LY_JN,Q1995276,LY,JN,Janzur
 LY_JU,Q48247,LY,JU,Jufra
+LY_KA,Q647345,LY,KA,Kabaw District
+LY_KH,Q15237933,LY,KH,Khoms District
 LY_KF,Q48200,LY,KF,Kufra District
+LY_KK,Q986766,LY,KK,Kikla District
+LY_MA,Q2719867,LY,MA,Msallata
 LY_MB,Q209778,LY,MB,Murqub
-LY_MI,Q32845,LY,MI,Misrata District
 LY_MJ,Q26023,LY,MJ,Marj District
 LY_MQ,Q48239,LY,MQ,Murzuq District
 LY_MS,Q131323,LY,MS,Misrata District
 LY_NL,Q27659,LY,NL,Nalut District
 LY_NQ,Q26161,LY,NQ,Nuqat al Khams
+LY_QA,Q7267039,LY,QA,Qasr Al-Akhyar
+LY_QS,Q84168,LY,QS,Qasr Ben Ghashir
 LY_SB,Q26132,LY,SB,Sabha District
+LY_SO,Q2075535,LY,SO,Sorman
+LY_SK,Q2487060,LY,SK,Sokna
 LY_SR,Q26417,LY,SR,Sirte District
 LY_ST,Q192918,LY,ST,Sabratha District
+LY_TA,Q2271093,LY,TA,Tajura
 LY_TB,Q32837,LY,TB,Tripoli District
+LY_TR,Q1642670,LY,TR,Tarhuna
 LY_WA,Q26000,LY,WA,Al Wahat District
 LY_WD,Q48233,LY,WD,Wadi al Hayaa District
 LY_WS,Q48232,LY,WS,Wadi al Shatii District
+LY_YA,Q1018215,LY,YA,Yafran
 LY_ZA,Q26153,LY,ZA,Zawiya District
+LY_ZI,Q61102,LY,ZI,Zintan
 LY_ZL,Q207259,LY,ZL,Zliten District
+LY_ZU,Q231167,LY,ZU,Zuwarah
 MA_01,Q19951300,MA,01,Tanger-Tétouan-Al Hoceïma
 MA_02,Q23048167,MA,02,Oriental
 MA_02,Q477968,MA,02,Gharb-Chrarda-Béni Hssen
