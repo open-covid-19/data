@@ -87139,6 +87139,7 @@ date,key,new_hospitalized,total_hospitalized,current_hospitalized,new_intensive_
 2020-07-13,CH_BS,1,5,,0,,,,,
 2020-07-13,CH_FR,0,1,,0,1,,,,
 2020-07-13,CH_GL,0,0,,,,,,,
+2020-07-13,CH_GR,0,2,,0,0,,0,0,
 2020-07-13,CH_JU,0,0,,0,0,,,,
 2020-07-13,CH_LU,0,5,,0,2,,,,
 2020-07-13,CH_NE,2,2,,0,0,,0,0,

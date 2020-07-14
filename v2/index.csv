@@ -185,33 +185,34 @@ BO_S,Q235106,,BO,Bolivia,S,Santa Cruz,,,,,BO,BOL,1
 BO_T,Q233933,,BO,Bolivia,T,Tarija,,,,,BO,BOL,1
 BQ,Q27561,country/BES,BQ,Caribbean Netherlands,,,,,,,BQ,BES,0
 BR,Q155,country/BRA,BR,Brazil,,,,,,,BR,BRA,0
-BR_AC,Q40780,,BR,Brazil,AC,Acre,,,,,BR,BRA,1
-BR_AL,Q40885,,BR,Brazil,AL,Alagoas,,,,,BR,BRA,1
-BR_AM,Q40040,,BR,Brazil,AM,Amazonas,,,,,BR,BRA,1
-BR_AP,Q40130,,BR,Brazil,AP,Amapá,,,,,BR,BRA,1
-BR_BA,Q40430,,BR,Brazil,BA,Bahia,,,,,BR,BRA,1
-BR_CE,Q40123,,BR,Brazil,CE,Ceará,,,,,BR,BRA,1
-BR_DF,Q119158,,BR,Brazil,DF,Distrito Federal,,,,,BR,BRA,1
-BR_ES,Q43233,,BR,Brazil,ES,Espirito Santo,,,,,BR,BRA,1
-BR_GO,Q41587,,BR,Brazil,GO,Goiás,,,,,BR,BRA,1
-BR_MA,Q42362,,BR,Brazil,MA,Maranhão,,,,,BR,BRA,1
-BR_MG,Q39109,,BR,Brazil,MG,Minas Gerais,,,,,BR,BRA,1
-BR_MS,Q43319,,BR,Brazil,MS,Mato Grosso do Sul,,,,,BR,BRA,1
-BR_MT,Q42824,,BR,Brazil,MT,Mato Grosso,,,,,BR,BRA,1
-BR_PA,Q39517,,BR,Brazil,PA,Pará,,,,,BR,BRA,1
-BR_PB,Q38088,,BR,Brazil,PB,Paraíba,,,,,BR,BRA,1
-BR_PE,Q40942,,BR,Brazil,PE,Pernambuco,,,,,BR,BRA,1
-BR_PI,Q42722,,BR,Brazil,PI,Piauí,,,,,BR,BRA,1
-BR_PR,Q15499,,BR,Brazil,PR,Paraná,,,,,BR,BRA,1
-BR_RJ,Q41428,,BR,Brazil,RJ,Rio de Janeiro,,,,,BR,BRA,1
-BR_RN,Q43255,,BR,Brazil,RN,Rio Grande do Norte,,,,,BR,BRA,1
-BR_RO,Q43235,,BR,Brazil,RO,Rondônia,,,,,BR,BRA,1
-BR_RR,Q42508,,BR,Brazil,RR,Roraima,,,,,BR,BRA,1
-BR_RS,Q40030,,BR,Brazil,RS,Rio Grande do Sul,,,,,BR,BRA,1
-BR_SC,Q41115,,BR,Brazil,SC,Santa Catarina,,,,,BR,BRA,1
-BR_SE,Q43783,,BR,Brazil,SE,Sergipe,,,,,BR,BRA,1
-BR_SP,Q175,,BR,Brazil,SP,São Paulo,,,,,BR,BRA,1
-BR_TO,Q43695,,BR,Brazil,TO,Tocantins,,,,,BR,BRA,1
+BR_AC,Q40780,iso/BR-AC,BR,Brazil,AC,Acre,,,,,BR,BRA,1
+BR_AL,Q40885,iso/BR-AL,BR,Brazil,AL,Alagoas,,,,,BR,BRA,1
+BR_AM,Q40040,iso/BR-AM,BR,Brazil,AM,Amazonas,,,,,BR,BRA,1
+BR_AP,Q40130,iso/BR-AP,BR,Brazil,AP,Amapá,,,,,BR,BRA,1
+BR_BA,Q40430,iso/BR-BA,BR,Brazil,BA,Bahia,,,,,BR,BRA,1
+BR_CE,Q40123,iso/BR-CE,BR,Brazil,CE,Ceará,,,,,BR,BRA,1
+BR_DF,Q119158,iso/BR-DF,BR,Brazil,DF,Distrito Federal,,,,,BR,BRA,1
+BR_ES,Q43233,iso/BR-ES,BR,Brazil,ES,Espirito Santo,,,,,BR,BRA,1
+BR_GO,Q41587,iso/BR-GO,BR,Brazil,GO,Goiás,,,,,BR,BRA,1
+BR_MA,Q42362,iso/BR-MA,BR,Brazil,MA,Maranhão,,,,,BR,BRA,1
+BR_MG,Q39109,iso/BR-MG,BR,Brazil,MG,Minas Gerais,,,,,BR,BRA,1
+BR_MS,Q43319,iso/BR-MS,BR,Brazil,MS,Mato Grosso do Sul,,,,,BR,BRA,1
+BR_MT,Q42824,iso/BR-MT,BR,Brazil,MT,Mato Grosso,,,,,BR,BRA,1
+BR_PA,Q39517,iso/BR-PA,BR,Brazil,PA,Pará,,,,,BR,BRA,1
+BR_PB,Q38088,iso/BR-PB,BR,Brazil,PB,Paraíba,,,,,BR,BRA,1
+BR_PE,Q40942,iso/BR-PE,BR,Brazil,PE,Pernambuco,,,,,BR,BRA,1
+BR_PI,Q42722,iso/BR-PI,BR,Brazil,PI,Piauí,,,,,BR,BRA,1
+BR_PR,Q15499,iso/BR-PR,BR,Brazil,PR,Paraná,,,,,BR,BRA,1
+BR_RJ,Q41428,iso/BR-RJ,BR,Brazil,RJ,Rio de Janeiro,,,,,BR,BRA,1
+BR_RJ_GIG,Q8678,,BR,Brazil,RJ,,,Rio de Janeiro,GIG,Rio de Janeiro,BR,BRA,3
+BR_RN,Q43255,iso/BR-RN,BR,Brazil,RN,Rio Grande do Norte,,,,,BR,BRA,1
+BR_RO,Q43235,iso/BR-RO,BR,Brazil,RO,Rondônia,,,,,BR,BRA,1
+BR_RR,Q42508,iso/BR-RR,BR,Brazil,RR,Roraima,,,,,BR,BRA,1
+BR_RS,Q40030,iso/BR-RS,BR,Brazil,RS,Rio Grande do Sul,,,,,BR,BRA,1
+BR_SC,Q41115,iso/BR-SC,BR,Brazil,SC,Santa Catarina,,,,,BR,BRA,1
+BR_SE,Q43783,iso/BR-SE,BR,Brazil,SE,Sergipe,,,,,BR,BRA,1
+BR_SP,Q175,iso/BR-SP,BR,Brazil,SP,São Paulo,,,,,BR,BRA,1
+BR_TO,Q43695,iso/BR-TO,BR,Brazil,TO,Tocantins,,,,,BR,BRA,1
 BS,Q778,country/BHS,BS,Bahamas,,,,,,,BS,BHS,0
 BT,Q917,country/BTN,BT,Bhutan,,,,,,,BT,BTN,0
 BV,Q23408,country/BVT,BV,Bouvet Island,,,,,,,BV,BVT,0
@@ -3765,6 +3766,7 @@ US_GA_13315,Q486791,geoId/13315,US,United States of America,GA,Georgia,13315,Wil
 US_GA_13317,Q491759,geoId/13317,US,United States of America,GA,Georgia,13317,Wilkes County,,,US,USA,2
 US_GA_13319,Q486317,geoId/13319,US,United States of America,GA,Georgia,13319,Wilkinson County,,,US,USA,2
 US_GA_13321,Q486154,geoId/13321,US,United States of America,GA,Georgia,13321,Worth County,,,US,USA,2
+US_GA_ATL,Q23556,geoId/1304000,US,United States of America,GA,Georgia,,,ATL,Atlanta,US,USA,3
 US_GU,Q16635,country/GUM,US,United States of America,GU,Guam,,,,,US,USA,1
 US_HI,Q782,geoId/15,US,United States of America,HI,Hawaii,,,,,US,USA,1
 US_HI_15001,Q487334,geoId/15001,US,United States of America,HI,Hawaii,15001,Hawaii County,,,US,USA,2
