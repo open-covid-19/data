@@ -2206,7 +2206,7 @@ IQ_KA,Q214104,,IQ,Iraq,KA,Karbala,,,,,IQ,IRQ,1
 IQ_KI,Q193268,,IQ,Iraq,KI,Kirkuk,,,,,IQ,IRQ,1
 IQ_MA,Q213170,,IQ,Iraq,MA,Maysan,,,,,IQ,IRQ,1
 IQ_MU,Q212761,,IQ,Iraq,MU,Al Muthanna,,,,,IQ,IRQ,1
-IQ_NA,Q192882,,IQ,Iraq,"NA",Najaf,,,,,IQ,IRQ,1
+IQ_NA,Q192882,,IQ,Iraq,NA,Najaf,,,,,IQ,IRQ,1
 IQ_NI,Q189352,,IQ,Iraq,NI,Nineveh,,,,,IQ,IRQ,1
 IQ_QA,Q62987,,IQ,Iraq,QA,Al-Qādisiyyah,,,,,IQ,IRQ,1
 IQ_SD,Q190131,,IQ,Iraq,SD,Saladin,,,,,IQ,IRQ,1
@@ -2415,7 +2415,7 @@ MZ_P,Q466538,,MZ,Mozambique,P,Cabo Delgado Province,,,,,MZ,MOZ,1
 MZ_Q,Q622803,,MZ,Mozambique,Q,Zambezia Province,,,,,MZ,MOZ,1
 MZ_S,Q622801,,MZ,Mozambique,S,Sofala,,,,,MZ,MOZ,1
 MZ_T,Q605787,,MZ,Mozambique,T,Tete Province,,,,,MZ,MOZ,1
-"NA",Q1030,country/NAM,"NA",Namibia,,,,,,,"NA",NAM,0
+NA,Q1030,country/NAM,NA,Namibia,,,,,,,NA,NAM,0
 NC,Q33788,country/NCL,NC,New Caledonia,,,,,,,NC,NCL,0
 NE,Q1032,country/NER,NE,Niger,,,,,,,NE,NER,0
 NF,Q31057,country/NFK,NF,Norfolk Island,,,,,,,NF,NFK,0
