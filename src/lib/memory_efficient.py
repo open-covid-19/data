@@ -22,7 +22,7 @@ from .io import read_lines, read_table
 # Any CSV file under 50 MB can use the fast JSON converter
 JSON_FAST_CONVERTER_SIZE_BYTES = 50 * 1000 * 1000
 
-# Any CSV file above 100 MB shuold not be converted to JSON
+# Any CSV file above 100 MB should not be converted to JSON
 JSON_MAX_SIZE_BYTES = 100 * 1000 * 1000
 
 
