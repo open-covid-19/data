@@ -24,8 +24,9 @@ from pandas import DataFrame
 from lib.constants import SRC
 from lib.io import read_lines, read_table, export_csv
 from lib.memory_efficient import (
-    table_join,
     table_cross_product,
+    table_join,
+    table_group_tail,
     _convert_csv_to_json_records_fast,
     _convert_csv_to_json_records_slow,
 )
@@ -35,15 +36,15 @@ from .profiled_test_case import ProfiledTestCase
 
 
 class TestTableJoins(ProfiledTestCase):
-    def _test_join_pair(self, read_table: Callable, left: Path, right: Path, on: str, how: str):
+    def _test_join_pair(self, read_table_: Callable, left: Path, right: Path, on: str, how: str):
         with TemporaryDirectory() as workdir:
             workdir = Path(workdir)
             tmpfile = workdir / "tmpfile.csv"
 
             table_join(left, right, on, tmpfile, how=how)
-            test_result = export_csv(read_table(tmpfile))
+            test_result = export_csv(read_table_(tmpfile))
             pandas_how = how.replace("outer", "left")
-            pandas_result = export_csv(read_table(left).merge(read_table(right), how=pandas_how))
+            pandas_result = export_csv(read_table_(left).merge(read_table_(right), how=pandas_how))
 
             for line1, line2 in zip(test_result.split("\n"), pandas_result.split("\n")):
                 self.assertEqual(line1, line2)
@@ -153,6 +154,30 @@ class TestTableJoins(ProfiledTestCase):
 
                     for line1, line2 in zip(read_lines(csv_file), read_lines(csv_test_file)):
                         self.assertEqual(line1, line2)
+
+    def test_table_group_tail(self):
+        with TemporaryDirectory() as workdir:
+            workdir = Path(workdir)
+            schema = get_schema()
+
+            for table_path in (SRC / "test" / "data").glob("*.csv"):
+                table = read_table(table_path, schema=schema)
+                output_path = workdir / f"latest_{table_path.name}"
+
+                # Create the latest slice of the given table
+                table_group_tail(table_path, output_path)
+
+                # Read the created latest slice
+                latest_ours = read_table(output_path, schema=schema)
+
+                # Create a latest slice using pandas grouping
+                if "total_confirmed" in table.columns:
+                    table = table.dropna(subset=["total_confirmed"])
+                latest_pandas = table.groupby(["key"]).tail(1)
+
+                self.assertEqual(
+                    export_csv(latest_ours, schema=schema), export_csv(latest_pandas, schema=schema)
+                )
 
 
 if __name__ == "__main__":

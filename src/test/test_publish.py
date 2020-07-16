@@ -86,28 +86,6 @@ class TestPublish(ProfiledTestCase):
             # Spot check: Alachua County
             self._spot_check_subset(main_table, "US_FL_12001", epi_basic, "2020-03-10")
 
-    def test_make_latest_slice(self):
-        with TemporaryDirectory() as workdir:
-            workdir = Path(workdir)
-
-            for table_path in (SRC / "test" / "data").glob("*.csv"):
-                table = read_table(table_path, schema=SCHEMA)
-
-                # Create the latest slice of the given table
-                _subset_latest(workdir, table_path)
-
-                # Read the created latest slice
-                latest_ours = read_table(workdir / "latest" / table_path.name, schema=SCHEMA)
-
-                # Create a latest slice using pandas grouping
-                if "total_confirmed" in table.columns:
-                    table = table.dropna(subset=["total_confirmed"])
-                latest_pandas = table.groupby(["key"]).tail(1)
-
-                self.assertEqual(
-                    export_csv(latest_ours, schema=SCHEMA), export_csv(latest_pandas, schema=SCHEMA)
-                )
-
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -13,7 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import csv
 import sys
 import shutil
 import datetime
@@ -24,7 +23,7 @@ from pathlib import Path
 from functools import partial
 from argparse import ArgumentParser
 from tempfile import TemporaryDirectory
-from typing import Dict, Iterable, List, TextIO
+from typing import Dict, Iterable, TextIO
 
 from pandas import DataFrame, date_range
 
@@ -36,6 +35,7 @@ from lib.memory_efficient import (
     table_join,
     table_sort,
     table_cross_product,
+    table_group_tail,
     convert_csv_to_json_records,
 )
 from lib.pipeline_tools import get_schema
@@ -75,46 +75,9 @@ def _subset_last_days(output_folder: Path, days: int) -> None:
             export_csv(table[table.date >= first_date.isoformat()], n_days_folder / csv_file.name)
 
 
-def _subset_latest(output_folder: Path, csv_file: Path) -> None:
-    """ Outputs latest data for each key """
-    latest_folder = output_folder / "latest"
-    latest_folder.mkdir(exist_ok=True)
-    output_file = latest_folder / csv_file.name
-
-    reader = csv.reader(read_lines(csv_file, skip_empty=True))
-    columns = {name: idx for idx, name in enumerate(next(reader))}
-
-    if not "date" in columns.keys():
-        # Degenerate case: this table has no date
-        shutil.copyfile(csv_file, output_file)
-    else:
-        has_epi = "total_confirmed" in columns
-
-        # To stay memory-efficient, do the latest subset "by hand" instead of using pandas grouping
-        # This assumes that the CSV file is sorted in ascending order, which should always be true
-        latest_date: Dict[str, str] = {}
-        records: Dict[str, List[str]] = {}
-        for record in reader:
-            try:
-                key = record[columns["key"]]
-                date = record[columns["date"]]
-                total_confirmed = record[columns["total_confirmed"]] if has_epi else True
-                latest_seen = latest_date.get(key, date) < date and total_confirmed is not None
-                if key not in records or latest_seen:
-                    latest_date[key] = date
-                    records[key] = record
-            except Exception as exc:
-                print(f"Error parsing record {record}: {exc}", file=sys.stderr)
-                traceback.print_exc()
-
-        with open(output_file, "w") as fd_out:
-            writer = csv.writer(fd_out)
-            writer.writerow(columns.keys())
-            for key, record in records.items():
-                writer.writerow(record)
-
-
-def _subset_grouped_key(main_table_path: Path, output_folder: Path, desc: str = None) -> None:
+def _subset_grouped_key(
+    main_table_path: Path, output_folder: Path, desc: str = None
+) -> Iterable[Path]:
     """ Outputs a subsets of the table with only records with a particular key """
 
     # Read the header of the main file to get the columns
@@ -128,6 +91,7 @@ def _subset_grouped_key(main_table_path: Path, output_folder: Path, desc: str = 
 
     # We make use of the main table being sorted by <key, date> and do a linear sweep of the file
     # assuming that once the key changes we won't see it again in future lines
+    key_folder: Path = None
     current_key: str = None
     file_handle: TextIO = None
     progress_bar = pbar(total=len(key_set), desc=desc)
@@ -142,6 +106,8 @@ def _subset_grouped_key(main_table_path: Path, output_folder: Path, desc: str = 
         if current_key != key:
             if file_handle:
                 file_handle.close()
+            if key_folder:
+                yield key_folder / "main.csv"
             current_key = key
             key_folder = output_folder / key
             key_folder.mkdir(exist_ok=True)
@@ -232,7 +198,7 @@ def make_main_table(tables_folder: Path, output_path: Path) -> None:
         print("Sorted main table")
 
 
-def create_table_subsets(main_table_path: Path, output_path: Path) -> None:
+def create_table_subsets(main_table_path: Path, output_path: Path) -> Iterable[Path]:
 
     # Create subsets with the last 30, 14 and 7 days of data
     # TODO(owahltinez): figure out a memory-efficient way to do this
@@ -241,17 +207,24 @@ def create_table_subsets(main_table_path: Path, output_path: Path) -> None:
     # for _ in thread_map(map_func, (30, 14, 7), desc="Last N days subsets"):
     #     pass
 
+    latest_path = output_path / "latest"
+    latest_path.mkdir(parents=True, exist_ok=True)
+
+    def subset_latest(csv_file: Path) -> Path:
+        output_file = latest_path / csv_file.name
+        table_group_tail(csv_file, output_file)
+        return output_file
+
     # Create a subset with the latest known day of data for each key
-    map_func = partial(_subset_latest, output_path)
-    for _ in thread_map(map_func, [*output_path.glob("*.csv")], desc="Latest subset"):
-        pass
+    map_func = subset_latest
+    yield from thread_map(map_func, [*output_path.glob("*.csv")], desc="Latest subset")
 
     # Create subsets with each known key
-    _subset_grouped_key(main_table_path, output_path, desc="Grouped key subsets")
+    yield from _subset_grouped_key(main_table_path, output_path, desc="Grouped key subsets")
 
 
-def convert_tables_to_json(csv_files: Iterable[Path], output_folder: Path):
-    def try_json_covert(schema: Dict[str, str], csv_file: Path):
+def convert_tables_to_json(csv_files: Iterable[Path], output_folder: Path) -> Iterable[Path]:
+    def try_json_covert(schema: Dict[str, str], csv_file: Path) -> Path:
         # JSON output defaults to same as the CSV file but with extension swapped
         json_output = output_folder / f"{csv_file.stem}.json"
 
@@ -266,8 +239,8 @@ def convert_tables_to_json(csv_files: Iterable[Path], output_folder: Path):
 
     # Convert all CSV files to JSON using values format
     map_func = partial(try_json_covert, get_schema())
-    for _ in thread_map(map_func, csv_files, max_workers=4, desc="JSON conversion"):
-        pass
+    for json_output in thread_map(map_func, csv_files, max_workers=2, desc="JSON conversion"):
+        yield json_output
 
 
 def main(output_folder: Path, tables_folder: Path, show_progress: bool = True) -> None:

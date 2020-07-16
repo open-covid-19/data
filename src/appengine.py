@@ -15,6 +15,7 @@
 
 import sys
 import json
+import time
 import os.path
 import datetime
 import traceback
@@ -43,7 +44,7 @@ from lib.pipeline_tools import get_table_names
 from publish import copy_tables, convert_tables_to_json, create_table_subsets, make_main_table
 
 app = Flask(__name__)
-BLOB_OP_MAX_RETRIES = 3
+BLOB_OP_MAX_RETRIES = 10
 
 
 def get_storage_client():
@@ -88,11 +89,14 @@ def download_folder(
             print(f"Downloading {rel_path} to {local_folder}/")
             file_path = local_folder / rel_path
             file_path.parent.mkdir(parents=True, exist_ok=True)
-            for _ in range(BLOB_OP_MAX_RETRIES):
+            for i in range(BLOB_OP_MAX_RETRIES):
                 try:
                     return blob.download_to_filename(file_path)
                 except Exception as exc:
                     print(exc, file=sys.stderr)
+                    # Exponential back-off
+                    time.sleep(2 ** i)
+            raise IOError(f"Error downloading {rel_path}")
 
     map_func = partial(_download_blob, local_folder)
     _ = thread_map(map_func, bucket.list_blobs(prefix=remote_path), total=None, disable=True)
@@ -112,11 +116,14 @@ def upload_folder(
         if filter_func is None or filter_func(target_path):
             print(f"Uploading {target_path} to {remote_path}/")
             blob = bucket.blob(os.path.join(remote_path, target_path))
-            for _ in range(BLOB_OP_MAX_RETRIES):
+            for i in range(BLOB_OP_MAX_RETRIES):
                 try:
                     return blob.upload_from_filename(file_path)
                 except Exception as exc:
                     print(exc, file=sys.stderr)
+                    # Exponential back-off
+                    time.sleep(2 ** i)
+            raise IOError(f"Error uploading {target_path}")
 
     map_func = partial(_upload_file, remote_path)
     _ = thread_map(map_func, local_folder.glob("**/*.*"), total=None, disable=True)
@@ -269,7 +276,7 @@ def publish() -> None:
         print("Main table created")
 
         # Create subsets for easy API-like access to slices of data
-        create_table_subsets(main_table_path, public_folder)
+        list(create_table_subsets(main_table_path, public_folder))
         print("Table subsets created")
 
         # Upload the results to the prod bucket
@@ -297,7 +304,7 @@ def convert_json() -> None:
         )
 
         # Convert all files to JSON
-        convert_tables_to_json([*public_folder.glob("**/*.csv")], json_folder)
+        list(convert_tables_to_json([*public_folder.glob("**/*.csv")], json_folder))
         print("CSV files converted to JSON")
 
         # Upload the results to the prod bucket

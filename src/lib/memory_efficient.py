@@ -13,9 +13,12 @@
 # limitations under the License.
 
 import csv
+import sys
 import json
+import shutil
+import traceback
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, Iterable, List
 from .io import read_lines, read_table
 
 
@@ -41,7 +44,7 @@ def get_table_columns(table_path: Path) -> List[str]:
         return next(reader)
 
 
-def table_sort(table_path: Path, output_path: Path) -> List[str]:
+def table_sort(table_path: Path, output_path: Path) -> None:
     """
     Memory-efficient method used to perform a lexical sort of all the rows of this table, excluding
     the table header.
@@ -125,14 +128,14 @@ def table_join(left: Path, right: Path, on: List[str], output: Path, how: str = 
                 writer.writerow(data_left + data_right)
 
 
-def skip_head_reader(path: Path, n: int = 1, **read_opts):
+def skip_head_reader(path: Path, n: int = 1, **read_opts) -> Iterable[str]:
     fd = read_lines(path, **read_opts)
     for _ in range(n):
         next(fd)
     yield from fd
 
 
-def table_cross_product(left: Path, right: Path, output: Path):
+def table_cross_product(left: Path, right: Path, output: Path) -> None:
     """
     Memory efficient method to perform the cross product of all columns in two tables. Columns
     which are present in both tables will be duplicated in the output.
@@ -153,6 +156,42 @@ def table_cross_product(left: Path, right: Path, output: Path):
             reader_right = csv.reader(skip_head_reader(right))
             for record_right in reader_right:
                 writer.writerow(record_left + record_right)
+
+
+def table_group_tail(table: Path, output: Path) -> None:
+    """ Outputs latest data for each key, assumes records are indexed by <key, date> """
+
+    reader = csv.reader(read_lines(table))
+    columns = {name: idx for idx, name in enumerate(next(reader))}
+
+    if not "date" in columns.keys():
+        # Degenerate case: this table has no date
+        shutil.copyfile(table, output)
+    else:
+        has_epi = "total_confirmed" in columns
+
+        # To stay memory-efficient, do the latest subset "by hand" instead of using pandas grouping
+        # This assumes that the CSV file is sorted in ascending order, which should always be true
+        latest_date: Dict[str, str] = {}
+        records: Dict[str, List[str]] = {}
+        for record in reader:
+            try:
+                key = record[columns["key"]]
+                date = record[columns["date"]]
+                total_confirmed = record[columns["total_confirmed"]] if has_epi else True
+                latest_seen = latest_date.get(key, date) < date and total_confirmed is not None
+                if key not in records or latest_seen:
+                    latest_date[key] = date
+                    records[key] = record
+            except Exception as exc:
+                print(f"Error parsing record {record} in table {table}: {exc}", file=sys.stderr)
+                traceback.print_exc()
+
+        with open(output, "w") as fd_out:
+            writer = csv.writer(fd_out)
+            writer.writerow(columns.keys())
+            for key, record in records.items():
+                writer.writerow(record)
 
 
 def convert_csv_to_json_records(
