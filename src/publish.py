@@ -239,7 +239,7 @@ def convert_tables_to_json(csv_files: Iterable[Path], output_folder: Path) -> It
 
     # Convert all CSV files to JSON using values format
     map_func = partial(try_json_covert, get_schema())
-    for json_output in thread_map(map_func, csv_files, max_workers=2, desc="JSON conversion"):
+    for json_output in thread_map(map_func, csv_files, desc="JSON conversion"):
         yield json_output
 
 
