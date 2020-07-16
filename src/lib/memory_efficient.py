@@ -14,7 +14,6 @@
 
 import csv
 import json
-import traceback
 from pathlib import Path
 from typing import Dict, List
 from .io import read_lines, read_table
