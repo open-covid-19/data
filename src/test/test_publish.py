@@ -20,10 +20,10 @@ from typing import List
 
 from pandas import DataFrame
 from lib.constants import SRC, EXCLUDE_FROM_MAIN_TABLE
-from lib.io import read_table, read_lines, export_csv
+from lib.io import read_table, read_lines
 from lib.pipeline_tools import get_pipelines, get_schema
 from .profiled_test_case import ProfiledTestCase
-from publish import make_main_table, _subset_latest, copy_tables
+from publish import make_main_table, copy_tables
 
 # Make the main schema a global variable so we don't have to reload it in every test
 SCHEMA = get_schema()
