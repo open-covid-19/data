@@ -1628,7 +1628,7 @@ CZ_80_804,Q517427,,CZ,Czech Republic,80,Moravian-Silesian Region,804,Nový Jič�
 CZ_80_805,Q838320,,CZ,Czech Republic,80,Moravian-Silesian Region,805,Opava District,,,CZ,CZE,2
 CZ_80_806,Q918108,,CZ,Czech Republic,80,Moravian-Silesian Region,806,Ostrava-City District,,,CZ,CZE,2
 DE,Q183,country/DEU,DE,Germany,,,,,,,DE,DEU,0
-DE_BB,Q61437729,nuts/DE4,DE,Germany,BB,Brandenburg,,,,,DE,DEU,1
+DE_BB,Q61437729,,DE,Germany,BB,Brandenburg,,,,,DE,DEU,1
 DE_BE,Q64,nuts/DE3,DE,Germany,BE,Berlin,,,,,DE,DEU,1
 DE_BW,Q985,nuts/DE1,DE,Germany,BW,Baden-Württemberg,,,,,DE,DEU,1
 DE_BY,Q980,nuts/DE2,DE,Germany,BY,Bavaria,,,,,DE,DEU,1
