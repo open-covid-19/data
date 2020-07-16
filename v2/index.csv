@@ -204,7 +204,7 @@ BR_PE,Q40942,iso/BR-PE,BR,Brazil,PE,Pernambuco,,,,,BR,BRA,1
 BR_PI,Q42722,iso/BR-PI,BR,Brazil,PI,Piauí,,,,,BR,BRA,1
 BR_PR,Q15499,iso/BR-PR,BR,Brazil,PR,Paraná,,,,,BR,BRA,1
 BR_RJ,Q41428,iso/BR-RJ,BR,Brazil,RJ,Rio de Janeiro,,,,,BR,BRA,1
-BR_RJ_GIG,Q8678,,BR,Brazil,RJ,,,Rio de Janeiro,GIG,Rio de Janeiro,BR,BRA,3
+BR_RJ_GIG,Q8678,,BR,Brazil,RJ,Rio de Janeiro,,,GIG,Rio de Janeiro,BR,BRA,3
 BR_RN,Q43255,iso/BR-RN,BR,Brazil,RN,Rio Grande do Norte,,,,,BR,BRA,1
 BR_RO,Q43235,iso/BR-RO,BR,Brazil,RO,Rondônia,,,,,BR,BRA,1
 BR_RR,Q42508,iso/BR-RR,BR,Brazil,RR,Roraima,,,,,BR,BRA,1
@@ -1719,11 +1719,11 @@ ES_CE,Q5823,nuts/ES63,ES,Spain,CE,Ceuta,,,,,ES,ESP,1
 ES_CL,Q5739,nuts/ES41,ES,Spain,CL,Castilla y León,,,,,ES,ESP,1
 ES_CM,Q5748,nuts/ES42,ES,Spain,CM,Castilla-La Mancha,,,,,ES,ESP,1
 ES_CN,Q5813,nuts/ES70,ES,Spain,CN,Islas Canarias,,,,,ES,ESP,1
-ES_CT,Q5705,nuts/ES51,ES,Spain,CT,Catalonia,,,,,ES,ESP,1
+ES_CT,Q5705,nuts/ES51,ES,Spain,CT,Cataluña,,,,,ES,ESP,1
 ES_EX,Q5777,nuts/ES43,ES,Spain,EX,Extremadura,,,,,ES,ESP,1
 ES_GA,Q3908,nuts/ES11,ES,Spain,GA,Galicia,,,,,ES,ESP,1
 ES_IB,Q5765,nuts/ES53,ES,Spain,IB,Islas Baleares,,,,,ES,ESP,1
-ES_MC,Q5772,nuts/ES62,ES,Spain,MC,Murcia,,,,,ES,ESP,1
+ES_MC,Q5772,nuts/ES62,ES,Spain,MC,Region de Murcia,,,,,ES,ESP,1
 ES_MD,Q5756,nuts/ES30,ES,Spain,MD,Comunidad de Madrid,,,,,ES,ESP,1
 ES_ML,Q5831,nuts/ES64,ES,Spain,ML,Melilla,,,,,ES,ESP,1
 ES_NC,Q4018,nuts/ES22,ES,Spain,NC,Navarra,,,,,ES,ESP,1
