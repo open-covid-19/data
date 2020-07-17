@@ -31,7 +31,7 @@ class LibyaHumdataDataSource(DataSource):
             dataframes[0]
             .rename(
                 columns={
-                    "Location": "match_string",
+                    "Location": "subregion2_name",
                     "Confirmed Cases": "total_confirmed",
                     "Deaths": "total_deceased",
                     "Recoveries": "total_recovered",
