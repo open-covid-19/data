@@ -247,7 +247,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-07-17,CH_FR,CH,Switzerland,FR,Fribourg,1282,85,46.71666666667,7.083333333333,318714
 2020-07-17,CH_GE,CH,Switzerland,GE,Geneva,5442,295,46.218,6.166,499480
 2020-07-17,CH_GL,CH,Switzerland,GL,Glarus,135,13,46.98333333333,9.066666666667,40403
-2020-07-17,CH_GR,CH,Switzerland,GR,Grisons,850,50,46.75,9.5,198379
+2020-07-17,CH_GR,CH,Switzerland,GR,Grisons,852,50,46.75,9.5,198379
 2020-07-17,CH_JU,CH,Switzerland,JU,Jura,259,7,47.36666666667,7.15,73419
 2020-07-17,CH_LU,CH,Switzerland,LU,Lucerne,807,20,47.08333333333,8.116666666667,409557
 2020-07-17,CH_NE,CH,Switzerland,NE,Neuchâtel,759,83,46.98333333333,6.783333333333,176850
@@ -1077,7 +1077,7 @@ Date,Key,CountryCode,CountryName,RegionCode,RegionName,Confirmed,Deaths,Latitude
 2020-07-17,UA_43,RU,Russia,43,Republic of Crimea,900,,44.9333,34.1,1957801
 2020-07-17,UG,UG,Uganda,,,1043,0,1.28,32.39,44269594
 2020-07-17,US,US,United States of America,,,3499291,137419,39.828175,-98.5795,328239523
-2020-07-17,US_AK,US,United States of America,AK,Alaska,1954,15,64,-150,738432
+2020-07-17,US_AK,US,United States of America,AK,Alaska,1693,17,64,-150,738432
 2020-07-17,US_AL,US,United States of America,AL,Alabama,59067,1211,32.7,-86.7,4858979
 2020-07-17,US_AR,US,United States of America,AR,Arkansas,30297,335,34.8,-92.2,2978204
 2020-07-17,US_AS,US,United States of America,AS,American Samoa,0,0,-14.295833,-170.7075,55689
