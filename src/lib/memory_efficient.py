@@ -251,6 +251,7 @@ def _convert_csv_to_json_records_fast(
     Fast but memory intensive method to convert the provided CSV file to a record-like JSON format
     """
     table = read_table(csv_file, schema=schema)
-    json_dict = {"columns": list(table.columns), "data": table.values.tolist()}
+    json_dict = json.loads(table.to_json(orient="split"))
+    del json_dict["index"]
     with open(output_file, "w") as fd:
         json.dump(json_dict, fd)
