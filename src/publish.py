@@ -81,7 +81,8 @@ def _subset_grouped_key(
     """ Outputs a subsets of the table with only records with a particular key """
 
     # Read the header of the main file to get the columns
-    header = get_table_columns(main_table_path)
+    with open(main_table_path, "r") as fd:
+        header = next(fd)
 
     # Do a first sweep to get the number of keys so we can accurately report progress
     key_set = set()
@@ -112,7 +113,7 @@ def _subset_grouped_key(
             key_folder = output_folder / key
             key_folder.mkdir(exist_ok=True)
             file_handle = (key_folder / "main.csv").open("w")
-            file_handle.write(f"{header}\n")
+            file_handle.write(f"{header}")
             progress_bar.update(1)
 
         file_handle.write(f"{key},{data}")

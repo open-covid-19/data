@@ -57,7 +57,7 @@ def table_sort(table_path: Path, output_path: Path) -> None:
     with open(table_path, "r") as fd_in:
         header = next(fd_in)
         with open(output_path, "w") as fd_out:
-            fd_out.write(f"{header}\n")
+            fd_out.write(f"{header}")
 
             records = []
             for record in fd_in:
