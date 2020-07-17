@@ -16,6 +16,7 @@ import csv
 import sys
 import json
 import shutil
+import warnings
 import traceback
 from pathlib import Path
 from typing import Dict, Iterable, List
@@ -25,8 +26,8 @@ from .io import read_lines, read_table
 # Any CSV file under 50 MB can use the fast JSON converter
 JSON_FAST_CONVERTER_SIZE_BYTES = 50 * 1000 * 1000
 
-# Any CSV file above 100 MB should not be converted to JSON
-JSON_MAX_SIZE_BYTES = 100 * 1000 * 1000
+# Any CSV file above 150 MB should not be converted to JSON
+JSON_MAX_SIZE_BYTES = 150 * 1000 * 1000
 
 
 def get_table_columns(table_path: Path) -> List[str]:
@@ -198,22 +199,23 @@ def convert_csv_to_json_records(
     schema: Dict[str, type],
     csv_file: Path,
     output_file: Path,
-    fast_size_threshold: int = None,
     skip_size_threshold: int = None,
+    fast_size_threshold: int = None,
 ) -> None:
 
-    if fast_size_threshold is None:
-        fast_size_threshold = JSON_FAST_CONVERTER_SIZE_BYTES
     if skip_size_threshold is None:
         skip_size_threshold = JSON_MAX_SIZE_BYTES
+    if fast_size_threshold is None:
+        fast_size_threshold = JSON_FAST_CONVERTER_SIZE_BYTES
 
     file_size = csv_file.stat().st_size
     json_coverter_method = _convert_csv_to_json_records_fast
 
     if skip_size_threshold > 0 and file_size > skip_size_threshold:
-        raise ValueError(f"Size of {csv_file} too large: {skip_size_threshold // 1000} MB")
+        raise ValueError(f"Size of {csv_file} too large for conversion: {file_size // 1E6} MB")
 
     if fast_size_threshold > 0 and file_size > fast_size_threshold:
+        warnings.warn(f"Size of {csv_file} too large for fast method: {file_size // 1E6} MB")
         json_coverter_method = _convert_csv_to_json_records_slow
 
     json_coverter_method(schema, csv_file, output_file)
@@ -227,7 +229,8 @@ def _convert_csv_to_json_records_slow(schema: Dict[str, type], csv_file: Path, o
     with output_file.open("w") as fd_out:
         # Write the header first
         columns = get_table_columns(csv_file)
-        fd_out.write(f'{{"columns":{json.dumps(columns)},"data":[')
+        columns_str = ",".join([f'"{col}"' for col in columns])
+        fd_out.write(f'{{"columns":[{columns_str}],"data":[')
 
         # Read the CSV file in chunks but keep only the values
         first_record = True
@@ -248,7 +251,6 @@ def _convert_csv_to_json_records_fast(
     Fast but memory intensive method to convert the provided CSV file to a record-like JSON format
     """
     table = read_table(csv_file, schema=schema)
-    json_dict = json.loads(table.to_json(orient="split"))
-    del json_dict["index"]
+    json_dict = {"columns": list(table.columns), "data": table.values.tolist()}
     with open(output_file, "w") as fd:
         json.dump(json_dict, fd)

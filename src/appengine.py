@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import re
 import sys
 import json
 import time
@@ -285,8 +286,7 @@ def publish() -> None:
     return "OK"
 
 
-@app.route("/convert_json")
-def convert_json() -> None:
+def convert_json(expr: str) -> None:
     with TemporaryDirectory() as workdir:
         workdir = Path(workdir)
         json_folder = workdir / "json"
@@ -300,17 +300,27 @@ def convert_json() -> None:
             "v2",
             public_folder,
             # Only download the CSV files but avoid the big main.csv table
-            lambda x: x.suffix == ".csv" and str(x) not in ("main.csv",),
+            lambda x: re.match(expr, str(x)),
         )
 
         # Convert all files to JSON
-        list(convert_tables_to_json([*public_folder.glob("**/*.csv")], json_folder))
+        list(convert_tables_to_json(public_folder, json_folder))
         print("CSV files converted to JSON")
 
         # Upload the results to the prod bucket
         upload_folder(GCS_BUCKET_PROD, "v2", json_folder)
 
     return "OK"
+
+
+@app.route("/convert_json_1")
+def convert_json_1() -> None:
+    return convert_json(r"(\d+/)?\w+.csv")
+
+
+@app.route("/convert_json_2")
+def convert_json_2() -> None:
+    return convert_json(r"[A-Z]{2}(_\w+)?\/\w+.csv")
 
 
 if __name__ == "__main__":

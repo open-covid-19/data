@@ -223,24 +223,29 @@ def create_table_subsets(main_table_path: Path, output_path: Path) -> Iterable[P
     yield from _subset_grouped_key(main_table_path, output_path, desc="Grouped key subsets")
 
 
-def convert_tables_to_json(csv_files: Iterable[Path], output_folder: Path) -> Iterable[Path]:
+def convert_tables_to_json(csv_folder: Path, output_folder: Path) -> Iterable[Path]:
     def try_json_covert(schema: Dict[str, str], csv_file: Path) -> Path:
         # JSON output defaults to same as the CSV file but with extension swapped
-        json_output = output_folder / f"{csv_file.stem}.json"
+        json_output = output_folder / str(csv_file.relative_to(csv_folder)).replace(".csv", ".json")
+        json_output.parent.mkdir(parents=True, exist_ok=True)
 
         # Converting to JSON is not critical and it may fail in some corner cases
         # As long as the "important" JSON files are created, this should be OK
         try:
             print(f"Converting {csv_file} to JSON")
             convert_csv_to_json_records(schema, csv_file, json_output)
+            return json_output
         except Exception as exc:
             print(f"Unable to convert CSV file {csv_file} to JSON: ${exc}", file=sys.stderr)
             traceback.print_exc()
+            return None
 
     # Convert all CSV files to JSON using values format
+    map_iter = list(csv_folder.glob("**/*.csv"))
     map_func = partial(try_json_covert, get_schema())
-    for json_output in thread_map(map_func, csv_files, desc="JSON conversion"):
-        yield json_output
+    for json_output in thread_map(map_func, map_iter, max_workers=2, desc="JSON conversion"):
+        if json_output is not None:
+            yield json_output
 
 
 def main(output_folder: Path, tables_folder: Path, show_progress: bool = True) -> None:

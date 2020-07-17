@@ -1,8 +1,5 @@
 runtime: python38
-instance_class: F4_1G
+instance_class: B8
 entrypoint: gunicorn -b :$PORT appengine:app --timeout 3600
-automatic_scaling:
-    min_instances: 1
-    max_instances: 1000
-    max_concurrent_requests: 1
-    target_cpu_utilization: 0.65
+basic_scaling:
+    max_instances: 25

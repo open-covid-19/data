@@ -23,7 +23,7 @@ from lib.constants import SRC, EXCLUDE_FROM_MAIN_TABLE
 from lib.io import read_table, read_lines
 from lib.pipeline_tools import get_pipelines, get_schema
 from .profiled_test_case import ProfiledTestCase
-from publish import make_main_table, copy_tables
+from publish import make_main_table, copy_tables, convert_tables_to_json
 
 # Make the main schema a global variable so we don't have to reload it in every test
 SCHEMA = get_schema()
@@ -85,6 +85,28 @@ class TestPublish(ProfiledTestCase):
 
             # Spot check: Alachua County
             self._spot_check_subset(main_table, "US_FL_12001", epi_basic, "2020-03-10")
+
+    def test_convert_to_json(self):
+        with TemporaryDirectory() as workdir:
+            workdir = Path(workdir)
+
+            # Copy all test tables into the temporary directory
+            copy_tables(SRC / "test" / "data", workdir)
+
+            # Copy test tables again but under a subpath
+            subpath = workdir / "latest"
+            subpath.mkdir()
+            copy_tables(workdir, subpath)
+
+            # Convert all the tables to JSON under a new path
+            jsonpath = workdir / "json"
+            jsonpath.mkdir()
+            list(convert_tables_to_json(workdir, jsonpath))
+
+            # The JSON files should maintain the same relative path
+            for csv_file in workdir.glob("**/*.csv"):
+                self.assertTrue((workdir / "json" / f"{csv_file.stem}.json").exists())
+                self.assertTrue((workdir / "json" / "latest" / f"{csv_file.stem}.json").exists())
 
 
 if __name__ == "__main__":

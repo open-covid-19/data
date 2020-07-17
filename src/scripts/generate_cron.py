@@ -58,7 +58,15 @@ def get_cron_jobs() -> Iterator[Dict]:
 
     # Converting the outputs to JSON is less critical but also slow so it's run separately
     yield {
-        "url": f"/convert_json",
+        "url": f"/convert_json_1",
+        # Offset by 30 minutes to run after publishing
+        "schedule": "every 4 hours from 01:00 to 21:00",
+        **copy.deepcopy(retry_params),
+    }
+
+    # The convert to JSON task is split in two because otherwise it takes too long
+    yield {
+        "url": f"/convert_json_2",
         # Offset by 30 minutes to run after publishing
         "schedule": "every 4 hours from 01:00 to 21:00",
         **copy.deepcopy(retry_params),
