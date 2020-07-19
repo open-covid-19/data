@@ -124,7 +124,7 @@ sources:
     fetch:
       - url: "https://covid.lais.ufrn.br/dados_abertos/evolucao_brasil.json"
     test:
-      metadata_query: "key.str.match('BR_.+')"
+      metadata_query: "key.str.match('BR_[^_]+$')"
 
   # Data sources for BR_AC level 3
   - name: pipelines.epidemiology.br_authority.BrazilMunicipalitiesDataSource
