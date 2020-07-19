@@ -108,7 +108,8 @@ class DataSource(ErrorLogger):
                 return None
 
         # Localities should only be matched using a key directly
-        metadata = metadata[metadata["locality_code"].isna()]
+        if "locality_code" in metadata.columns:
+            metadata = metadata[metadata["locality_code"].isna()]
 
         # Start by filtering the auxiliary dataset as much as possible
         for column_prefix in ("country", "subregion1", "subregion2"):
