@@ -37,6 +37,6 @@ class IndianaDataSource(DataSource):
 
         data.sex = data.sex.apply(lambda x: x.replace("M", "male").replace("F", "female"))
         data.date = data.date.apply(lambda x: datetime_isoformat(x, "%Y-%m-%d %H:%M:%S"))
-        data.age = data.age.apply(lambda x: x.replace("+", "-").replace("Unknown", ""))
+        data.age = data.age.apply(lambda x: None if x == "Unknown" else x.replace("+", "-"))
 
         return data
