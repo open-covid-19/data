@@ -31,10 +31,10 @@ schema:
   out_of_pocket_health_expenditure: float
 
 auxiliary:
-  metadata: ./src/data/metadata.csv
-  country_codes: ./src/data/country_codes.csv
-  knowledge_graph: ./src/data/knowledge_graph.csv
-  worldbank_indicators: ./src/data/worldbank_indicators.csv
+  metadata: ./data/metadata.csv
+  country_codes: ./data/country_codes.csv
+  knowledge_graph: ./data/knowledge_graph.csv
+  worldbank_indicators: ./data/worldbank_indicators.csv
 
 sources:
 
@@ -44,6 +44,7 @@ sources:
 
   - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
+      # TODO: Use output from worldbank pipeline
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
     parse:
       indicators:
@@ -60,3 +61,7 @@ sources:
         physicians: "SH.MED.PHYS.ZS"
         health_expenditure: "SH.XPD.CHEX.PC.CD"
         out_of_pocket_health_expenditure: "SH.XPD.OOPC.PC.CD"
+    test:
+      metadata_query: "key.str.match('^..$')"
+      # Skip because it's too slow
+      skip: true

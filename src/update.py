@@ -20,9 +20,9 @@ from argparse import ArgumentParser
 from multiprocessing import cpu_count
 from typing import List
 
+from lib.constants import SRC
 from lib.io import export_csv, display_progress
 from lib.pipeline import DataPipeline
-from lib.utils import ROOT
 
 
 def main(
@@ -64,7 +64,7 @@ def main(
 
         # A pipeline chain is any subfolder not starting with "_" in the pipelines folder
         all_pipeline_names = []
-        for item in (ROOT / "src" / "pipelines").iterdir():
+        for item in (SRC / "pipelines").iterdir():
             if not item.name.startswith("_") and not item.is_file():
                 all_pipeline_names.append(item.name)
 
@@ -85,9 +85,13 @@ def main(
                 continue
             data_pipeline = DataPipeline.load(pipeline_name)
             pipeline_output = data_pipeline.run(
-                pipeline_name, output_folder, verify=verify, process_count=process_count
+                output_folder, process_count=process_count, verify_level=verify
             )
-            export_csv(pipeline_output, output_folder / "tables" / f"{table_name}.csv")
+            export_csv(
+                pipeline_output,
+                output_folder / "tables" / f"{table_name}.csv",
+                schema=data_pipeline.schema,
+            )
 
 
 if __name__ == "__main__":
@@ -100,7 +104,7 @@ if __name__ == "__main__":
     argparser.add_argument("--profile", action="store_true")
     argparser.add_argument("--no-progress", action="store_true")
     argparser.add_argument("--process-count", type=int, default=cpu_count())
-    argparser.add_argument("--output-folder", type=str, default=str(ROOT / "output"))
+    argparser.add_argument("--output-folder", type=str, default=str(SRC / ".." / "output"))
     args = argparser.parse_args()
 
     if args.profile:

@@ -14,19 +14,19 @@
 
 import os
 import re
-from io import StringIO
 from pathlib import Path
+from zipfile import ZipFile
 from contextlib import contextmanager
-from typing import Callable, List, Union
+from tempfile import TemporaryDirectory
+from typing import Any, Callable, Dict, Iterator, List, Optional, Union
 
 import pandas
 from tqdm import tqdm
-from pandas import DataFrame
-from pandas.api.types import is_numeric_dtype
+from pandas import DataFrame, Int64Dtype
 from unidecode import unidecode
 from bs4 import BeautifulSoup, Tag
 
-from .cast import safe_int_cast
+from .cast import safe_int_cast, column_converters
 
 # Progress is a global flag, because progress is all done using the tqdm library and can be
 # used within any number of functions but passing a flag around everywhere is cumbersome. Further,
@@ -57,23 +57,95 @@ def fuzzy_text(text: str, remove_regex: str = r"[^a-z\s]", remove_spaces: bool =
     return text.strip()
 
 
-def read_file(path: Union[Path, str], **read_opts):
+def parse_dtype(dtype_name: str) -> Any:
+    """
+    Parse a dtype name into its pandas name. Only the following dtypes are supported in
+    our table schemas:
+
+    | column type label | pandas dtype |
+    | ----------------- | ------------ |
+    | str               | str          |
+    | int               | Int64        |
+    | float             | float        |
+
+    Arguments:
+        dtype_name: label of the dtype object
+    Returns:
+        type: dtype object
+    """
+    if dtype_name == "str":
+        return "str"
+    if dtype_name == "int":
+        return Int64Dtype()
+    if dtype_name == "float":
+        return "float"
+    raise TypeError(f"Unsupported dtype: {dtype_name}")
+
+
+def read_file(path: Union[Path, str], **read_opts) -> DataFrame:
     ext = str(path).split(".")[-1]
+
+    # Keep a list of known extensions here so we don't forget to update it
+    known_extensions = ("csv", "json", "html", "xls", "xlsx", "zip")
 
     if ext == "csv":
         return pandas.read_csv(
             path, **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
         )
-    elif ext == "json":
+    if ext == "json":
         return pandas.read_json(path, **read_opts)
-    elif ext == "html":
-        return read_html(open(path).read(), **read_opts)
-    elif ext == "xls" or ext == "xlsx":
+    if ext == "html":
+        with open(path, "r") as fd:
+            return read_html(fd.read(), **read_opts)
+    if ext == "xls" or ext == "xlsx":
         return pandas.read_excel(
             path, **{**{"keep_default_na": False, "na_values": ["", "N/A"]}, **read_opts}
         )
-    else:
-        raise ValueError("Unrecognized extension: %s" % ext)
+    if ext == "zip":
+        with TemporaryDirectory() as tmpdir:
+            tmpdir = Path(tmpdir)
+            with ZipFile(path, "r") as archive:
+                if "file_name" in read_opts:
+                    file_name = read_opts.pop("file_name")
+                else:
+                    file_name = next(
+                        name
+                        for name in archive.namelist()
+                        if name.rsplit(".", 1)[-1] in known_extensions
+                    )
+                archive.extract(file_name, tmpdir)
+                return read_file(tmpdir / file_name, **read_opts)
+
+    raise ValueError("Unrecognized extension: %s" % ext)
+
+
+def read_lines(path: Path, mode: str = "r", skip_empty: bool = False) -> Iterator[str]:
+    """
+    Efficiently reads a line by line and closes it using a context manager.
+
+    Arguments:
+        path: Path of the file to read
+    Returns:
+        Iterator[str]: Each line of the file
+    """
+    with path.open(mode) as fd:
+        for line in fd:
+            if skip_empty and (not line or line.isspace()):
+                continue
+            yield line
+
+
+def read_table(path: Union[Path, str], schema: Dict[str, Any] = None, **read_opts) -> DataFrame:
+    """
+    Schema-aware version of `read_file` which converts the columns to the appropriate type
+    according to the given schema.
+
+    Arguments:
+        schema: Dictionary of <column, type>
+    Returns:
+        Callable[[Union[Path, str]], DataFrame]: Function like `read_file`
+    """
+    return read_file(path, converters=column_converters(schema or {}), **read_opts)
 
 
 def _get_html_columns(row: Tag) -> List[Tag]:
@@ -134,36 +206,29 @@ def read_html(
     return data
 
 
-def export_csv(data: DataFrame, path: Union[Path, str]) -> None:
-    """ Exports a DataFrame to CSV using consistent options """
-    # Make a copy of the data to avoid overwriting
-    data = data.copy()
+def export_csv(
+    data: DataFrame, path: Union[Path, str] = None, schema: Dict[str, Any] = None, **csv_opts
+) -> Optional[str]:
+    """
+    Exports a DataFrame to CSV using consistent options. This function will modify fields of the
+    input DataFrame in place to format them for output, consider making a copy prior to passing the
+    data into this function.
+    Arguments:
+        data: DataFrame to be output as CSV
+        path: Location on disk to write the CSV to
+    """
+    # If a schema is provided, convert all the columns prior to dumping the CSV file
+    for column, converter in column_converters(schema or {}).items():
+        if column in data.columns:
+            data[column] = data[column].apply(converter)
 
-    # Convert Int64 to string representation to avoid scientific notation of big numbers
-    for column in data.columns:
-        if is_numeric_dtype(data[column]):
-            values = data[column].dropna()
-            if len(values) > 0 and max(values) > 1e8:
-                try:
-                    data[column] = data[column].apply(safe_int_cast).astype("Int64")
-                except:
-                    data[column] = data[column].astype(str).fillna("")
+    # Path may be None which means output CSV gets returned as a string
+    if path is not None:
+        path = str(path)
 
-    # Output to a buffer first
-    buffer = StringIO()
-    # Since all large quantities use Int64, we can assume floats will not be represented using the
-    # exponential notation that %G formatting uses for large numbers
-    data.to_csv(buffer, index=False, float_format="%.8G")
-    output = buffer.getvalue()
-
-    # Workaround for Namibia's code, which is interpreted as NaN when read back
-    output = re.sub(r"^NA,", '"NA",', output)
-    output = re.sub(r",NA,", ',"NA",', output)
-    output = re.sub(r"\nNA,", '\n"NA",', output)
-
-    # Write the output to the provided file
-    with open(path, "w") as fd:
-        fd.write(output)
+    # The format used for numbers has the potential of storing a very large number of digits for
+    # floating point type but it's necessary for consistent representation of large integers
+    return data.to_csv(path_or_buf=path, index=False, float_format="%.13G", **csv_opts)
 
 
 def pbar(*args, **kwargs) -> tqdm:

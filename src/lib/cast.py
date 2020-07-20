@@ -16,7 +16,7 @@ import re
 import datetime
 import warnings
 import pandas
-from typing import Any, Callable, Optional
+from typing import Any, Dict, Callable, Optional
 
 
 def safe_float_cast(value: Any) -> Optional[float]:
@@ -50,6 +50,16 @@ def safe_int_cast(value: Any, round_function: Callable[[float], int] = round) ->
         return None
 
 
+def safe_str_cast(value: Any) -> Optional[str]:
+    if pandas.isna(value):
+        return None
+    try:
+        value = str(value)
+        return value
+    except:
+        return None
+
+
 def safe_datetime_parse(
     value: str, date_format: str = None, warn: bool = False
 ) -> Optional[datetime.datetime]:
@@ -65,28 +75,52 @@ def safe_datetime_parse(
         return None
 
 
-def column_convert(series: pandas.Series, dtype: type) -> pandas.Series:
-    if dtype == pandas.Int64Dtype():
-        return series.apply(safe_int_cast).astype(dtype)
-    if dtype == float:
-        return series.apply(safe_float_cast).astype(dtype)
-    if dtype == str:
-        return series.fillna("").astype(str)
+def column_converters(schema: Dict[str, Any]) -> Dict[str, Callable]:
+    converters: Dict[str, Callable] = {}
+    for column, dtype in schema.items():
+        if dtype == "int" or dtype == pandas.Int64Dtype():
+            converters[column] = safe_int_cast
+        elif dtype == "float":
+            converters[column] = safe_float_cast
+        elif dtype == "str":
+            converters[column] = safe_str_cast
+        else:
+            raise ValueError(f"Unsupported dtype {dtype} for column {column}")
+    return converters
 
-    raise ValueError("Unsupported dtype %r" % dtype)
 
-
-def age_group(age: int, bin_count: int = 10, max_age: int = 100) -> str:
+def age_group(age: int, bin_count: int = 10, age_cutoff: int = 90) -> str:
     """
     Categorical age group given a specific age, codified into a function to enforce consistency.
     """
-    bin_size = max_age // bin_count
-    if age >= max_age - bin_size:
-        return f"{max_age - bin_size}-"
+    if pandas.isna(age) or age < 0:
+        return None
 
-    boundaries = [(i * bin_size, (i + 1) * bin_size - 1) for i in range(bin_count - 1)]
-    for a, b in boundaries:
-        if age >= a and age <= b:
-            return f"{a}-{b}"
+    bin_size = age_cutoff // bin_count + 1
+    if age >= age_cutoff:
+        return f"{age_cutoff}-"
 
-    return None
+    bin_idx = age // bin_size
+    lo = int(bin_idx * bin_size)
+    hi = lo + bin_size - 1
+    return f"{lo}-{hi}"
+
+
+def numeric_code_as_string(code: Any, digits: int = 0) -> str:
+    """
+    Converts a code, which is typically a (potentially null) number, into its integer string
+    representation. This is very convenient to parse things like FIPS codes.
+
+    Arguments:
+        code: The input to cast into a string.
+        digits: The number of digits to force on the output, left-padding with zeroes. If this
+            argument is <= 0 then the output is unpadded.
+    Returns:
+        str: The input cast as a string, or None if it could not be converted into an integer.
+    """
+    code = safe_int_cast(code)
+    if code is None:
+        return code
+    else:
+        fmt = f"%0{digits}d" if digits > 0 else "%d"
+        return fmt % code

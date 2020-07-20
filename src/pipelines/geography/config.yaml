@@ -25,10 +25,10 @@ schema:
   urban_area: int
 
 auxiliary:
-  metadata: ./src/data/metadata.csv
-  country_codes: ./src/data/country_codes.csv
-  knowledge_graph: ./src/data/knowledge_graph.csv
-  worldbank_indicators: ./src/data/worldbank_indicators.csv
+  metadata: ./data/metadata.csv
+  country_codes: ./data/country_codes.csv
+  knowledge_graph: ./data/knowledge_graph.csv
+  worldbank_indicators: ./data/worldbank_indicators.csv
 
 sources:
 
@@ -42,6 +42,7 @@ sources:
 
   - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
+      # TODO: Use output from worldbank pipeline
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
     parse:
       min_year: 2000
@@ -49,3 +50,7 @@ sources:
         area: "AG.SRF.TOTL.K2"
         rural_area: "AG.LND.TOTL.RU.K2"
         urban_area: "AG.LND.TOTL.UR.K2"
+    test:
+      metadata_query: "key.str.match('^..$')"
+      # Skip because it's too slow
+      skip: true

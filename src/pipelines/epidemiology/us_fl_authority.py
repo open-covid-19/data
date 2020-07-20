@@ -34,39 +34,6 @@ _url_tpl = (
 )
 
 
-def _get_county_cases() -> DataFrame:
-    def _r_get_county_cases(offset: int = 0) -> List[Dict[str, str]]:
-        res = requests.get(_url_tpl.format(offset=offset)).json()["features"]
-        rows = [row["attributes"] for row in res]
-        if len(rows) == 0:
-            return rows
-        else:
-            return rows + _r_get_county_cases(offset + len(rows))
-
-    cases = DataFrame.from_records(_r_get_county_cases())
-    cases["date_new_confirmed"] = cases.ChartDate.apply(
-        lambda x: fromtimestamp(x // 1000).date().isoformat()
-    )
-
-    # FL does not provide date for deceased or hospitalized, so we just copy it from confirmed
-    deceased_mask = cases.Died == "Yes"
-    hospitalized_mask = cases.Hospitalized == "YES"
-    cases["date_new_deceased"] = None
-    cases["date_new_hospitalized"] = None
-    cases.loc[deceased_mask, "date_new_deceased"] = cases.loc[deceased_mask, "date_new_confirmed"]
-    cases.loc[hospitalized_mask, "date_new_hospitalized"] = cases.loc[
-        hospitalized_mask, "date_new_confirmed"
-    ]
-
-    # Rename the sex labels
-    cases["sex"] = cases.Gender.str.lower()
-
-    # Rename columns and return
-    return table_rename(
-        cases, {"County": "match_string", "Age": "age", "Sex": "sex"}, remove_regex=r"[^a-z\s_]"
-    )
-
-
 def _convert_cases_to_time_series(cases: DataFrame, index_columns: List[str] = None):
     """
     Converts a DataFrame of line (individual case) data into time-series data. The input format
@@ -110,6 +77,44 @@ def _convert_cases_to_time_series(cases: DataFrame, index_columns: List[str] = N
 
 
 class FloridaDataSource(DataSource):
+    def _get_county_cases(self) -> DataFrame:
+        def _r_get_county_cases(offset: int = 0) -> List[Dict[str, str]]:
+            try:
+                res = requests.get(_url_tpl.format(offset=offset)).json()["features"]
+            except Exception as exc:
+                self.errlog(requests.get(_url_tpl.format(offset=offset)).text)
+                raise exc
+            rows = [row["attributes"] for row in res]
+            if len(rows) == 0:
+                return rows
+            else:
+                return rows + _r_get_county_cases(offset + len(rows))
+
+        cases = DataFrame.from_records(_r_get_county_cases())
+        cases["date_new_confirmed"] = cases.ChartDate.apply(
+            lambda x: fromtimestamp(x // 1000).date().isoformat()
+        )
+
+        # FL does not provide date for deceased or hospitalized, so we just copy it from confirmed
+        deceased_mask = cases.Died == "Yes"
+        hospitalized_mask = cases.Hospitalized == "YES"
+        cases["date_new_deceased"] = None
+        cases["date_new_hospitalized"] = None
+        cases.loc[deceased_mask, "date_new_deceased"] = cases.loc[
+            deceased_mask, "date_new_confirmed"
+        ]
+        cases.loc[hospitalized_mask, "date_new_hospitalized"] = cases.loc[
+            hospitalized_mask, "date_new_confirmed"
+        ]
+
+        # Rename the sex labels
+        cases["sex"] = cases.Gender.str.lower()
+
+        # Rename columns and return
+        return table_rename(
+            cases, {"County": "match_string", "Age": "age", "Sex": "sex"}, remove_regex=r"[^a-z\s_]"
+        )
+
     def fetch(
         self, output_folder: Path, cache: Dict[str, str], fetch_opts: List[Dict[str, Any]]
     ) -> Dict[str, str]:
@@ -124,7 +129,7 @@ class FloridaDataSource(DataSource):
         # Avoid download if the file exists and flag is set
         skip_existing = (fetch_opts or [{}])[0].get("opts", {}).get("skip_existing")
         if not skip_existing or not file_path.exists():
-            _get_county_cases().to_csv(file_path, index=False)
+            self._get_county_cases().to_csv(file_path, index=False)
 
         return {0: str(file_path.absolute())}
 

@@ -1,9 +1,10 @@
 # Open COVID-19 Dataset
 
-This repository contains datasets of daily time-series data related to COVID-19 for 30+ countries
-around the world. For most countries, the data is at the spatial resolution of states/provinces,
-although for US, UK, NL and CO, it is at the finer resolution of county/municipality. All regions
-are assigned a unique key, which resolves discrepancies between ISO / NUTS / FIPS codes, etc.
+This repository contains datasets of daily time-series data related to COVID-19 for 50+ countries
+around the world. For most countries, the data is at the spatial resolution of states/provinces for
+most regions and at county/municipality resolution for Brazil, Chile, Colombia, United Kingdom, and
+USA. All regions are assigned a unique key, which resolves discrepancies between ISO / NUTS / FIPS
+codes, etc.
 
 There are multiple types of data:
 * Outcome data `Y(i,t)`, such as cases, deaths, tests, for regions i and time t
@@ -66,6 +67,7 @@ the data is easy to understand and modify.
 | You can also check out the great work of [@quixote79](https://github.com/quixote79), [a MapBox-powered interactive map site][13]: [![](https://i.imgur.com/nFwxJId.png)][13] | Experience [clean, clear graphs with smooth animations][15] thanks to the work of [@jmullo](https://github.com/jmullo): [![](https://i.imgur.com/xdCzsUO.png)][15] |
 | Become an armchair epidemiologist with the [COVID-19 timeline simulation tool][19] built by [@LeviticusMB](https://github.com/LeviticusMB): [![](https://i.imgur.com/4iWaP7E.png)][19] | Whether you want an interactive map, compare stats or look at charts, [@saadmas](https://github.com/saadmas) has you covered with a [COVID-19 Daily Tracking site][20]: [![](https://i.imgur.com/rAJvLSI.png)][20] |
 | Compare per-million data at [Omnimodel][21] thanks to [@OmarJay1](https://github.com/OmarJay1): [![](https://i.imgur.com/RG7ZKXp.png)][21] | Look at responsive, comprehensive charts thanks to the work of [@davidjohnstone](https://github.com/davidjohnstone): [![](https://i.imgur.com/ZbfMKvu.png)](https://www.cyclinganalytics.com/covid19) |
+| [Reproduction Live][30] lets you track COVID-19 outbreaks in your region and visualise the spread of the virus over time: [![](https://reproduction.live/open-covid-19.png)][30] |
 
 
 
@@ -509,24 +511,27 @@ from the relevant authorities, like a country's ministry of health.
 | Australia | <https://covid-19-au.com/> | [Attribution required, educational and academic research purposes](https://covid-19-au.com/faq) |
 | Austria | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
 | Bolivia | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
-| Brazil | <https://github.com/elhenrico/covid19-Brazil-timeseries> | [Public Domain](https://github.com/elhenrico/covid19-Brazil-timeseries/blob/master/README.md#public-domain-and-open-data) |
+| Brazil | [Brazil Ministério da Saúde](https://coronavirus.saude.gov.br/) | [Creative Commons Atribuição](http://www.opendefinition.org/licenses/cc-by) |
+| Brazil (Rio de Janeiro) | <http://www.data.rio/> | [Dados abertos](https://www.data.rio/datasets/f314453b3a55434ea8c8e8caaa2d8db5) |
+| Brazil (Ceará) | <https://saude.ce.gov.br> | [Dados abertos](https://cearatransparente.ce.gov.br/portal-da-transparencia) |
 | Canada | [Department of Health Canada](https://www.canada.ca/en/public-health) | [Attribution required](https://www.canada.ca/en/transparency/terms.html) |
-| Chile | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/Chile_medical_cases) | [CC BY-SA][24] |
-| Chile | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Chile | [Ministerio de Ciencia de Chile](http://www.minciencia.gob.cl/COVID19) | [Terms of use](http://www.minciencia.gob.cl/sites/default/files/1771596.pdf) |
 | China | [DXY COVID-19 dataset](https://github.com/BlankerL/DXY-COVID-19-Data) | [MIT](https://github.com/BlankerL/DXY-COVID-19-Data/blob/master/LICENSE) |
-| Colombia | [Government Authority](https://www.datos.gov.co) | [Attribution required](https://herramientas.datos.gov.co/es/terms-and-conditions-es) |
+| Colombia | [Datos Abiertos Colombia](https://www.datos.gov.co) | [Attribution required](https://herramientas.datos.gov.co/es/terms-and-conditions-es) || Costa Rica | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Costa Rica | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Cuba | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Czech Republic | [Ministry of Health of the Czech Republic](https://onemocneni-aktualne.mzcr.cz/covid-19) | [Open Data](https://www.jmir.org/2020/5/e19367) |
+| Democratic Republic of Congo | [HDX](https://data.humdata.org/dataset/democratic-republic-of-the-congo-coronavirus-covid-19-subnational-cases) | [CC BY-SA][28] |
 | Ecuador | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | El Salvador | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Finland | [Finnish institute for health and welfare](https://thl.fi/en/web/thlfi-en) | [CC BY 4.0](https://thl.fi/en/web/thlfi-en/statistics/statistical-databases/open-data) |
 | France | [data.gouv.fr](https://data.gouv.fr) | [Open License 2.0](https://www.etalab.gouv.fr/licence-ouverte-open-licence) |
 | Germany | <https://github.com/jgehrcke/covid-19-germany-gae> | [MIT](https://github.com/jgehrcke/covid-19-germany-gae/blob/master/LICENSE) |
 | Guatemala | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
-| Haiti | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
+| Haiti | [HDX](https://data.humdata.org/dataset/haiti-covid-19-subnational-cases) | [CC BY-SA][28] |
 | Honduras | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | India | [Wikipedia](https://en.wikipedia.org/wiki/Template:2019-20_coronavirus_pandemic_data/India_medical_cases) | [CC BY-SA][24] |
+| India | [Covid 19 India Organisation](https://github.com/covid19india/api) | [CC BY-SA][29] |
 | Indonesia | <https://catchmeup.id/covid-19> | [Permission required](https://catchmeup.id/ketentuan-pelayanan) |
 | Italy | [Italy's Department of Civil Protection](https://github.com/pcm-dpc/COVID-19) | [CC BY 4.0](https://github.com/pcm-dpc/COVID-19/blob/master/LICENSE) |
 | Iraq | [HDX](https://data.humdata.org/dataset/iraq-coronavirus-covid-19-subnational-cases) | [CC BY-SA][28] |
@@ -534,6 +539,7 @@ from the relevant authorities, like a country's ministry of health.
 | Luxembourg | [data.public.lu](https://data.public.lu/fr/datasets/donnees-covid19)| [CC0](https://data.public.lu/fr/datasets/?license=cc-zero) |
 | Malaysia | [Wikipedia](https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Malaysia) | [CC BY-SA][24] |
 | Mexico | <https://github.com/mexicovid19/Mexico-datos> | [MIT](https://github.com/mexicovid19/Mexico-datos/blob/master/LICENSE.md) |
+| Mexico | [Secretaría de Salud Mexico](https://coronavirus.gob.mx/) | [Attribution Required](https://datos.gob.mx/libreusomx) |
 | Netherlands | [RIVM](https://data.rivm.nl/covid-19) | [Public Domain](https://databronnencovid19.nl/Disclaimer) |
 | Nicaragua | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | Norway | [COVID19 EU Data](https://github.com/covid19-eu-zh/covid19-eu-data) | [MIT](https://github.com/covid19-eu-zh/covid19-eu-data/issues/57) |
@@ -559,7 +565,8 @@ from the relevant authorities, like a country's ministry of health.
 | United Kingdom | <https://github.com/tomwhite/covid-19-uk-data> | [The Unlicense](https://github.com/tomwhite/covid-19-uk-data/blob/master/LICENSE.txt) |
 | Uruguay | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
 | USA | [NYT COVID Dataset](https://github.com/nytimes) | [Attribution required, non-commercial use](https://github.com/nytimes/covid-19-data/blob/master/LICENSE) |
-| USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY 4.0](https://covidtracking.com/license) |
+| USA | [COVID Tracking Project](https://covidtracking.com) | [CC BY-NC 4.0](https://covidtracking.com/license) |
+| USA (New York) | [New York City Health Department](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) | [Public Domain](https://www1.nyc.gov/home/terms-of-use.page) |
 | USA (Texas) | [Texas Department of State Health Services](https://dshs.texas.gov) | [Attribution required, non-commercial use](https://dshs.texas.gov/policy/copyright.shtm) |
 | Venezuela | [HDX](https://data.humdata.org/dataset/corona-virus-covid-19-cases-and-deaths-in-venezuela) | [CC BY-SA][28] |
 | Venezuela | [Latin America Covid-19 Data Repository][26] | [CC BY-SA][27] |
@@ -596,12 +603,34 @@ If you do something cool with the data (e.g., visualization or analysis), please
 
 
 
-## Contributors
+## Acknowledgments
 
 The following persons have made significant contributions to this project:
+
 * Oscar Wahltinez
+* Kevin Murphy
+* Michael Brenner
 * Matt Lee
 * Anthony Erlinger
+* Mayank Daswani
+
+
+
+# Recommended citation
+
+Please use the following when citing this project as a source of data:
+
+```
+@article{Wahltinez2020,
+  author = "Oscar Wahltinez and Kevin Murphy and Michael Brenner and Matt Lee and Anthony Erlinger and Mayank Daswani",
+  year = 2020,
+  title = "COVID-Open-Data: curating a fine-grained, global-scale COVID-19 data repository",
+  note = "Work in progress",
+  url = {https://github.com/open-covid-19/data/blob/main/README.md}
+}
+```
+
+
 
 [1]: https://github.com/CSSEGISandData/COVID-19
 [2]: https://www.ecdc.europa.eu
@@ -631,3 +660,4 @@ The following persons have made significant contributions to this project:
 [27]: https://github.com/DataScienceResearchPeru/covid-19_latinoamerica/blob/master/LICENSE.md
 [28]: https://data.humdata.org/about/license
 [29]: http://creativecommons.org/licenses/by/4.0/
+[30]: https://reproduction.live/

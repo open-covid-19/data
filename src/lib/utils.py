@@ -12,18 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import os
-from pathlib import Path
 from functools import partial, reduce
 from typing import Any, Callable, List, Dict, Tuple, Optional
 from numpy import unique
 from pandas import DataFrame, Series, concat, isna, merge
 from pandas.api.types import is_numeric_dtype
+from .cast import safe_int_cast
 from .io import fuzzy_text, pbar, tqdm
-
-ROOT = Path(os.path.dirname(__file__)) / ".." / ".."
-URL_OUTPUTS_PROD = "https://storage.googleapis.com/covid19-open-data/v2"
-CACHE_URL = "https://raw.githubusercontent.com/open-covid-19/data/cache"
 
 
 def get_or_default(dict_like: Dict, key: Any, default: Any):
@@ -113,10 +108,10 @@ def combine_tables(
         return combined
 
 
-def drop_na_records(table: DataFrame, keys: List[str]) -> DataFrame:
+def drop_na_records(table: DataFrame, keys: List[str], inplace: bool = False) -> DataFrame:
     """ Drops all records which have no data outside of the provided keys """
     value_columns = [col for col in table.columns if not col in keys]
-    return table.dropna(subset=value_columns, how="all")
+    return table.dropna(subset=value_columns, how="all", inplace=inplace)
 
 
 def grouped_transform(
@@ -298,7 +293,7 @@ def infer_new_and_total(data: DataFrame) -> DataFrame:
     return data
 
 
-def stratify_age_and_sex(data: DataFrame) -> DataFrame:
+def stratify_age_sex_ethnicity(data: DataFrame) -> DataFrame:
     """
     Some data sources contain age and sex information. The output tables enforce that each record
     must have a unique <key, date> pair (or `key` if no `date` field is present). To solve this
@@ -313,41 +308,55 @@ def stratify_age_and_sex(data: DataFrame) -> DataFrame:
     index_columns = ["key"] + (["date"] if "date" in data.columns else [])
 
     # Stratifying only makes sense for numeric columns, ignore the rest
+    candidate_columns = ["age", "sex", "ethnicity"]
     value_columns = [
-        col for col in data.columns if col not in ("age", "sex") and is_numeric_dtype(data[col])
+        col for col in data.columns if col not in candidate_columns and is_numeric_dtype(data[col])
     ]
 
-    # Stratified age uses a prefix since it's less obvious from the value names
     age_prefix = "age_"
-    if "age" in data.columns:
-        data.age = age_prefix + data.age
+    has_age = "age" in data.columns
+    if has_age:
+
+        # If a data source reports too many age buckets, compress all those > 90
+        data.loc[
+            data["age"].apply(lambda x: (safe_int_cast(str(x).split("-")[-1]) or 0) > 90), "age"
+        ] = "90-"
+
+        # Stratified age uses a prefix since it's less obvious from the value names
+        data["age"] = age_prefix + data["age"]
 
     # Determine the columns to stack depending on what's available
-    stack_columns = []
-    if "age" in data.columns:
-        stack_columns += ["age"]
-    if "sex" in data.columns:
-        stack_columns += ["sex"]
+    stack_columns = [col for col in candidate_columns if col in data.columns]
 
     # Stack the columns which give us a stratified view of the data
     data = stack_table(
         data, index_columns=index_columns, value_columns=value_columns, stack_columns=stack_columns
     )
 
-    # Age ranges are not uniform, so we add a helper variable which indicates the actual range and
-    # make sure that the columns which contain the counts are uniform across all sources
-    age_columns = {col: col.split(age_prefix, 2) for col in data.columns if age_prefix in col}
-    age_buckets = unique([bucket for _, bucket in age_columns.values()])
-    age_buckets_map = {bucket: f"{idx:02d}" for idx, bucket in enumerate(sorted(age_buckets))}
-    data = data.rename(
-        columns={
-            col_name_old: f"{prefix}{age_prefix}{age_buckets_map[bucket]}"
-            for col_name_old, (prefix, bucket) in age_columns.items()
-        }
-    )
+    if has_age:
+        # Age ranges are not uniform, so we add a helper variable which indicates the actual range
+        # and make sure that the columns which contain the counts are uniform across all sources
+        age_columns = {col: col.split(age_prefix, 2) for col in data.columns if age_prefix in col}
 
-    # Add helper columns to indicate range, assuming all variables have the same buckets
-    for bucket_range, bucket_name in age_buckets_map.items():
-        data[f"age_bin_{bucket_name}"] = bucket_range
+        # Remove unknown ages from the buckets
+        age_columns = {
+            col: bucket for col, bucket in age_columns.items() if bucket[-1] != "unknown"
+        }
+        age_buckets = unique([bucket[-1] for bucket in age_columns.values()])
+
+        sort_func = lambda x: safe_int_cast(str(x).split("-")[0].split("_")[0]) or 0
+        age_buckets_map = {
+            bucket: f"{idx:02d}" for idx, bucket in enumerate(sorted(age_buckets, key=sort_func))
+        }
+        data = data.rename(
+            columns={
+                col_name_old: f"{prefix}{age_prefix}{age_buckets_map[bucket]}"
+                for col_name_old, (prefix, bucket) in age_columns.items()
+            }
+        )
+
+        # Add helper columns to indicate range, assuming all variables have the same buckets
+        for bucket_range, bucket_name in age_buckets_map.items():
+            data[f"age_bin_{bucket_name}"] = bucket_range
 
     return data

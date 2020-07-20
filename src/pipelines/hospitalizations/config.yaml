@@ -28,9 +28,9 @@ schema:
   current_ventilator: int
 
 auxiliary:
-  metadata: ./src/data/metadata.csv
-  country_codes: ./src/data/country_codes.csv
-  knowledge_graph: ./src/data/knowledge_graph.csv
+  metadata: ./data/metadata.csv
+  country_codes: ./data/country_codes.csv
+  knowledge_graph: ./data/knowledge_graph.csv
 
 sources:
 
@@ -49,6 +49,14 @@ sources:
       - url: "https://raw.github.com/openZH/covid_19/master/COVID19_Fallzahlen_CH_total.csv"
     test:
       metadata_query: "key.str.match('CH_.+')"
+
+  # Data sources for CL level 2
+  - name: pipelines.hospitalizations.cl_authority.ChileRegionsDataSource
+    fetch:
+      - name: intensive_care
+        url: "https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto8/UCI_std.csv"
+    test:
+      metadata_query: "key.str.match('CL_[^_]+$')"
 
   # Data sources for CZ level 1
   - name: pipelines.hospitalizations.xx_opencovid.OpenCovidDataSource
@@ -77,7 +85,7 @@ sources:
       metadata_query: "key == 'DK'"
 
   # Data sources for ES levels 1 + 2
-  - name: pipelines.epidemiology.es_authority.ISCIIIDataSource
+  - name: pipelines.hospitalizations.es_authority.ISCIIIHospitalizedDataSource
     fetch:
       - url: "https://covid19.isciii.es/resources/serie_historica_acumulados.csv"
     query: "date < '2020-05-22'"
@@ -86,24 +94,10 @@ sources:
 
   # Data sources for FR levels 1 + 2 + 3
   - name: pipelines.epidemiology.fr_authority.FranceDataSource
-    fetch:
-      - url: "https://www.data.gouv.fr/fr/datasets/r/6fadff46-9efd-4c53-942a-54aca783c30c"
-        opts:
-          ext: csv
-    parse:
-      sep: ";"
+    # No URL is defined because data is queried via API
+    # TODO(owahltinez): Parse stratified information as well
     test:
-      metadata_query: "key.str.match('FR.*')"
-
-  - name: pipelines.epidemiology.fr_authority.FranceDataSource
-    fetch:
-      - url: "https://www.data.gouv.fr/fr/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7"
-        opts:
-          ext: csv
-    parse:
-      sep: ";"
-    test:
-      metadata_query: "key.str.match('FR.*')"
+      metadata_query: "key.str.match('FR_.+')"
 
   # Data sources for GB levels 1 + 2 + 3
   - name: pipelines.hospitalizations.gb_authority.ScotlandDataSource
@@ -164,6 +158,7 @@ sources:
       encoding: ISO-8859-1
     test:
       metadata_query: "key == 'LU'"
+      skip: true
 
   # Data sources for MX levels 1 + 2
   - name: pipelines.epidemiology.mx_mexicovid19.Mexicovid19DataSource
@@ -246,7 +241,7 @@ sources:
   # Data sources for US level 2
   - name: pipelines.epidemiology.us_covidtracking.CovidTrackingDataSource
     fetch:
-      - url: "https://raw.github.com/COVID19Tracking/covid-tracking-data/master/data/states_daily_4pm_et.csv"
+      - url: "https://covidtracking.com/api/v1/states/daily.csv"
     test:
       metadata_query: "key.str.match('US_[^_]+$')"
 
@@ -285,13 +280,12 @@ sources:
       metadata_query: "key == 'US_DC'"
 
   # Data sources US_FL levels 2 + 3
-  # No URL is provided because an API is used instead
   - name: pipelines.epidemiology.us_fl_authority.FloridaDataSource
-    fetch:
-      - opts:
-          skip_existing: true
+    # No URL is provided because an API is used instead
     test:
       metadata_query: "key.str.match('US_FL.*')"
+      # Skip Florida because download takes a long time
+      skip: true
 
   # Data sources for US_TX level 2
   - name: pipelines.epidemiology.us_tx_authority.TexasDataSource
@@ -299,6 +293,9 @@ sources:
       - url: "https://dshs.texas.gov/coronavirus/TexasCOVID19CaseCountData.xlsx"
     test:
       metadata_query: "key == 'US_TX'"
+      # Skip Texas because the data source is very flaky and keeps changing schema
+      # TODO: fix this data source and make it more resilient
+      skip: true
 
   # Data sources for ZA levels 1 + 2
   - name: pipelines.epidemiology.za_dsfsi.Covid19ZaCumulativeDataSource

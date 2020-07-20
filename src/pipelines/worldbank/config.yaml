@@ -1422,14 +1422,19 @@ schema:
   VC.PKP.TOTL.UN: float
 
 auxiliary:
-  metadata: ./src/data/metadata.csv
-  country_codes: ./src/data/country_codes.csv
-  worldbank_indicators: ./src/data/worldbank_indicators.csv
+  metadata: ./data/metadata.csv
+  country_codes: ./data/country_codes.csv
+  worldbank_indicators: ./data/worldbank_indicators.csv
 
 sources:
 
   - name: pipelines.worldbank.worldbank.WorldbankDataSource
     fetch:
       - url: "http://databank.worldbank.org/data/download/WDI_csv.zip"
+        opts:
+          # No need to re-download since this is yearly data
+          skip_existing: true
     test:
       metadata_query: "key.str.match('^..$')"
+      # Skip because it's too slow
+      skip: true

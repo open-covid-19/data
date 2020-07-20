@@ -18,35 +18,44 @@ import traceback
 from pathlib import Path
 from functools import partial
 from multiprocessing import cpu_count
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, Iterable, List, Optional, Tuple, Union
 
 import yaml
 import requests
-from pandas import DataFrame, Int64Dtype
+from pandas import DataFrame
 
 from .anomaly import detect_anomaly_all, detect_stale_columns
-from .cast import column_convert
+from .cast import column_converters
+from .constants import SRC, CACHE_URL
 from .concurrent import process_map
 from .data_source import DataSource
 from .error_logger import ErrorLogger
-from .io import read_file, fuzzy_text, export_csv, pbar
-from .utils import ROOT, CACHE_URL, combine_tables, drop_na_records, filter_output_columns
+from .io import read_file, read_table, fuzzy_text, export_csv, parse_dtype, pbar
+from .utils import combine_tables, drop_na_records, filter_output_columns
+
+
+def _gen_intermediate_name(data_source: DataSource) -> str:
+    data_source_class = data_source.__class__
+    data_source_config = str({k: v for k, v in data_source.config.items() if k not in ("test",)})
+    source_full_name = f"{data_source_class.__module__}.{data_source_class.__name__}"
+    return uuid.uuid5(uuid.NAMESPACE_DNS, f"{source_full_name}.{data_source_config}")
 
 
 class DataPipeline(ErrorLogger):
     """
-    A pipeline chain is a collection of individual [DataSource]s which produce a full table
-    ready for output. This is a very thin wrapper that runs the data pipelines and combines their
-    outputs.
+    A data pipeline is a collection of individual [DataSource]s which produce a full table ready
+    for output. This is a very thin wrapper that pulls the data sources and combines their outputs.
 
-    One of the reasons for a dedicated class is to allow for discovery of [DataPipeline] objects
-    via reflection, users of this class are encouraged to override its methods if custom processing
-    is required.
-
-    A pipeline chain is responsible for loading the auxiliary datasets that are passed to the
-    individual pipelines. Pipelines can load data themselves, but if the same auxiliary dataset
-    is used by many of them it is more efficient to load it here.
+    A data pipeline is responsible for loading the auxiliary datasets that are passed to the
+    individual data sources. DataSource objects can load data themselves, but if the same auxiliary
+    dataset is used by many of them, then it is more efficient to load it here.
     """
+
+    name: str
+    """ The name of this module """
+
+    table: str
+    """ The name of the table corresponding to this pipeline """
 
     schema: Dict[str, Any]
     """ Names and corresponding dtypes of output columns """
@@ -54,24 +63,27 @@ class DataPipeline(ErrorLogger):
     data_sources: List[DataSource]
     """ List of data sources (initialized with the appropriate config) executed in order """
 
-    auxiliary_tables: Dict[str, DataFrame] = {"metadata": ROOT / "src" / "data" / "metadata.csv"}
+    auxiliary_tables: Dict[str, DataFrame]
     """ Auxiliary datasets passed to the pipelines during processing """
 
     def __init__(
         self,
+        name: str,
         schema: Dict[str, type],
         auxiliary: Dict[str, Union[Path, str]],
         data_sources: List[DataSource],
     ):
         super().__init__()
+        self.name = name
         self.schema = schema
         self.data_sources = data_sources
+        self.table = name.replace("_", "-")
+
+        # Metadata table can be overridden but must always be present
+        auxiliary = {"metadata": SRC / "data" / "metadata.csv", **auxiliary}
 
         # Load the auxiliary tables into memory
-        aux = {
-            **self.auxiliary_tables,
-            **{name: read_file(table) for name, table in auxiliary.items()},
-        }
+        aux = {name: read_file(table) for name, table in auxiliary.items()}
 
         # Precompute some useful transformations in the auxiliary input files
         aux["metadata"]["match_string_fuzzy"] = aux["metadata"].match_string.apply(fuzzy_text)
@@ -86,14 +98,21 @@ class DataPipeline(ErrorLogger):
         self.auxiliary_tables = aux
 
     @staticmethod
-    def load(name: str):
-        config_path = ROOT / "src" / "pipelines" / name / "config.yaml"
+    def load(name: str) -> "DataPipeline":
+        """
+        Load a data pipeline by reading its configuration at the expected path from the given name.
+
+        Arguments:
+            name: Name of the data pipeline, which is the same as the name of the output table but
+                replacing underscores (`_`) with dashes (`-`).
+        Returns:
+            DataPipeline: The DataPipeline object corresponding to the input name.
+        """
+        config_path = SRC / "pipelines" / name / "config.yaml"
         with open(config_path, "r") as fd:
             config_yaml = yaml.safe_load(fd)
-        schema = {
-            name: DataPipeline._parse_dtype(dtype) for name, dtype in config_yaml["schema"].items()
-        }
-        auxiliary = {name: ROOT / path for name, path in config_yaml.get("auxiliary", {}).items()}
+        schema = {name: parse_dtype(dtype) for name, dtype in config_yaml["schema"].items()}
+        auxiliary = {name: SRC / path for name, path in config_yaml.get("auxiliary", {}).items()}
         data_sources = []
         for pipeline_config in config_yaml["sources"]:
             module_tokens = pipeline_config["name"].split(".")
@@ -102,17 +121,7 @@ class DataPipeline(ErrorLogger):
             module = importlib.import_module(module_name)
             data_sources.append(getattr(module, class_name)(pipeline_config))
 
-        return DataPipeline(schema, auxiliary, data_sources)
-
-    @staticmethod
-    def _parse_dtype(dtype_name: str) -> type:
-        if dtype_name == "str":
-            return str
-        if dtype_name == "int":
-            return Int64Dtype()
-        if dtype_name == "float":
-            return float
-        raise TypeError(f"Unsupported dtype: {dtype_name}")
+        return DataPipeline(name, schema, auxiliary, data_sources)
 
     def output_table(self, data: DataFrame) -> DataFrame:
         """
@@ -125,10 +134,10 @@ class DataPipeline(ErrorLogger):
         output_columns = list(self.schema.keys())
 
         # Make sure all columns are present and have the appropriate type
-        for column, dtype in self.schema.items():
+        for column, converter in column_converters(self.schema).items():
             if column not in data:
                 data[column] = None
-            data[column] = column_convert(data[column], dtype)
+            data[column] = data[column].apply(converter)
 
         # Filter only output columns and output the sorted data
         return drop_na_records(data[output_columns], ["date", "key"]).sort_values(output_columns)
@@ -151,37 +160,27 @@ class DataPipeline(ErrorLogger):
             traceback.print_exc()
         return None
 
-    def run(
-        self,
-        pipeline_name: str,
-        output_folder: Path,
-        process_count: int = cpu_count(),
-        verify: str = "simple",
-    ) -> DataFrame:
+    def parse(
+        self, output_folder: Path, process_count: int = cpu_count()
+    ) -> Iterable[Tuple[DataSource, DataFrame]]:
         """
-        Main method which executes all the associated [DataSource] objects and combines their
-        outputs.
+        Performs the fetch and parse steps for each of the data sources in this pipeline.
 
         Arguments:
-            pipeline_name: Name of the folder under ./src/pipelines which contains a config.yaml.
             output_folder: Root path of the outputs where "snapshot", "intermediate" and "tables"
                 will be created and populated with CSV files.
-            progress_count: Maximum number of processes to run in parallel.
-            verify: Level of anomaly detection to perform on outputs. Possible values are:
-                None, "simple" and "full".
+            process_count: Maximum number of processes to run in parallel.
         Returns:
-            DataFrame: Processed and combined outputs from all the individual data sources into a
-                single table.
+            Iterable[Tuple[DataSource, DataFrame]]: Pairs of <data source, results> for each data
+                source, where the results are the output of `DataSource.parse()`.
         """
+
         # Read the cache directory from our cloud storage
         try:
             cache = requests.get("{}/sitemap.json".format(CACHE_URL)).json()
         except:
             cache = {}
             self.errlog("Cache unavailable")
-
-        # Get all the pipeline outputs
-        # This operation is parallelized but output order is preserved
 
         # Make a copy of the auxiliary table to prevent modifying it for everyone, but this way
         # we allow for local modification (which might be wanted for optimization purposes)
@@ -190,77 +189,80 @@ class DataPipeline(ErrorLogger):
         # Create a function to be used during mapping. The nestedness is an unfortunate outcome of
         # the multiprocessing module's limitations when dealing with lambda functions, coupled with
         # the "sandboxing" we implement to ensure resiliency.
-        run_func = partial(DataPipeline._run_wrapper, output_folder, cache, aux_copy)
+        map_func = partial(DataPipeline._run_wrapper, output_folder, cache, aux_copy)
 
         # If the process count is less than one, run in series (useful to evaluate performance)
         data_sources_count = len(self.data_sources)
-        progress_label = f"Run {pipeline_name} pipeline"
+        progress_label = f"Run {self.name} pipeline"
         if process_count <= 1 or data_sources_count <= 1:
-            map_func = pbar(
-                map(run_func, self.data_sources), total=data_sources_count, desc=progress_label
+            map_result = pbar(
+                map(map_func, self.data_sources), total=data_sources_count, desc=progress_label
             )
         else:
-            map_func = process_map(run_func, self.data_sources, desc=progress_label)
+            map_result = process_map(map_func, self.data_sources, desc=progress_label)
 
-        # Save all intermediate results (to allow for reprocessing)
-        intermediate_outputs = output_folder / "intermediate"
-        intermediate_outputs_results: List[Tuple[DataSource, Path]] = []
-        for data_source, result in zip(self.data_sources, map_func):
-            data_source_class = data_source.__class__
-            data_source_config = str(data_source.config)
-            source_full_name = f"{data_source_class.__module__}.{data_source_class.__name__}"
-            intermediate_name = uuid.uuid5(
-                uuid.NAMESPACE_DNS, f"{source_full_name}.{data_source_config}"
-            )
-            intermediate_file = intermediate_outputs / f"{intermediate_name}.csv"
-            intermediate_outputs_results += [(data_source, intermediate_file)]
-            if result is not None:
-                export_csv(result, intermediate_file)
+        # Get all the pipeline outputs
+        # This operation is parallelized but output order is preserved
+        return zip(self.data_sources, map_result)
 
-        # Reload all intermediate results from disk
-        # In-memory results are discarded, this ensures reproducibility and allows for data sources
-        # to fail since the last successful intermediate result will be used in the combined output
-        pipeline_outputs = []
-        for data_source, source_output in intermediate_outputs_results:
-            try:
-                pipeline_outputs += [read_file(source_output, low_memory=False)]
-            except Exception as exc:
-                data_source_name = data_source.__class__.__name__
-                self.errlog(
-                    f"Failed to read output for {data_source_name} with config "
-                    f"{data_source.config}. Error: {exc}"
-                )
+    def combine(self, intermediate_results: Iterable[Tuple[DataSource, DataFrame]]) -> DataFrame:
+        """
+        Combine all the provided intermediate results into a single DataFrame, giving preference to
+        values coming from the latter results.
+
+        Arguments:
+            intermediate_results: collection of results from individual data sources.
+        """
 
         # Get rid of all columns which are not part of the output to speed up data combination
-        pipeline_outputs = [
-            source_output[filter_output_columns(source_output.columns, self.schema)]
-            for source_output in pipeline_outputs
+        intermediate_tables = [
+            result[filter_output_columns(result.columns, self.schema)]
+            for data_source, result in intermediate_results
         ]
 
-        # Combine all pipeline outputs into a single DataFrame
-        if not pipeline_outputs:
-            self.errlog("Empty result for pipeline chain {}".format(pipeline_name))
-            data = DataFrame(columns=self.schema.keys())
+        # Combine all intermediate outputs into a single DataFrame
+        if not intermediate_tables:
+            self.errlog("Empty result for data pipeline {}".format(self.name))
+            pipeline_output = DataFrame(columns=self.schema.keys())
         else:
-            data = combine_tables(pipeline_outputs, ["date", "key"], progress_label=pipeline_name)
+            pipeline_output = combine_tables(
+                intermediate_tables, ["date", "key"], progress_label=self.name
+            )
 
         # Return data using the pipeline's output parameters
-        data = self.output_table(data)
+        return self.output_table(pipeline_output)
+
+    def verify(
+        self, pipeline_output: DataFrame, level: str = "simple", process_count: int = cpu_count()
+    ) -> DataFrame:
+        """
+        Perform verification tasks on the data pipeline combined outputs.
+
+        Arguments:
+            pipeline_output: Output of `DataPipeline.combine()`.
+            process_count: Maximum number of processes to run in parallel.
+            verify_level: Level of anomaly detection to perform on outputs. Possible values are:
+                None, "simple" and "full".
+        Returns:
+            DataFrame: same as `pipeline_output`.
+
+        """
 
         # Skip anomaly detection unless requested
-        if verify == "simple":
+        if level == "simple":
 
             # Validate that the table looks good
-            detect_anomaly_all(self.schema, data, [pipeline_name])
+            detect_anomaly_all(self.schema, pipeline_output, [self.name])
 
-        if verify == "full":
+        if level == "full":
 
             # Perform stale column detection for each known key
-            map_iter = data.key.unique()
+            map_iter = pipeline_output.key.unique()
+            # TODO: convert into a regular function since lambdas cannot be pickled
             map_func = lambda key: detect_stale_columns(
-                self.schema, data[data.key == key], (pipeline_name, key)
+                self.schema, pipeline_output[pipeline_output.key == key], (self.name, key)
             )
-            progress_label = f"Verify {pipeline_name} pipeline"
+            progress_label = f"Verify {self.name} pipeline"
             if process_count <= 1 or len(map_iter) <= 1:
                 map_func = pbar(map(map_func, map_iter), total=len(map_iter), desc=progress_label)
             else:
@@ -269,4 +271,71 @@ class DataPipeline(ErrorLogger):
             # Consume the results
             _ = list(map_func)
 
-        return data
+        return pipeline_output
+
+    def _save_intermediate_results(
+        self,
+        intermediate_folder: Path,
+        intermediate_results: Iterable[Tuple[DataSource, DataFrame]],
+    ) -> None:
+        for data_source, result in intermediate_results:
+            if result is not None:
+                file_name = f"{_gen_intermediate_name(data_source)}.csv"
+                export_csv(result, intermediate_folder / file_name, schema=self.schema)
+            else:
+                data_source_name = data_source.__class__.__name__
+                self.errlog(f"No output for {data_source_name} with config {data_source.config}")
+
+    def _load_intermediate_results(
+        self, intermediate_folder: Path, data_sources: Iterable[DataSource]
+    ) -> Iterable[Tuple[DataSource, DataFrame]]:
+
+        for data_source in data_sources:
+            intermediate_path = intermediate_folder / f"{_gen_intermediate_name(data_source)}.csv"
+            try:
+                yield (data_source, read_table(intermediate_path, self.schema))
+            except Exception as exc:
+                data_source_name = data_source.__class__.__name__
+                self.errlog(
+                    f"Failed to read intermediate output for {data_source_name} with config "
+                    f"{data_source.config}\nError: {exc}"
+                )
+
+    def run(
+        self, output_folder: Path, process_count: int = cpu_count(), verify_level: str = "simple"
+    ) -> DataFrame:
+        """
+        Main method which executes all the associated [DataSource] objects and combines their
+        outputs.
+
+        Arguments:
+            output_folder: Root path of the outputs where "snapshot", "intermediate" and "tables"
+                will be created and populated with CSV files.
+            process_count: Maximum number of processes to run in parallel.
+            verify_level: Level of anomaly detection to perform on outputs. Possible values are:
+                None, "simple" and "full".
+        Returns:
+            DataFrame: Processed and combined outputs from all the individual data sources into a
+                single table.
+        """
+        # TODO: break out fetch & parse steps
+        intermediate_results = self.parse(output_folder, process_count=process_count)
+
+        # Save all intermediate results (to allow for reprocessing)
+        intermediate_folder = output_folder / "intermediate"
+        self._save_intermediate_results(intermediate_folder, intermediate_results)
+
+        # Re-load all intermediate results
+        intermediate_results = self._load_intermediate_results(
+            intermediate_folder, self.data_sources
+        )
+
+        # Combine all intermediate results into a single dataframe
+        pipeline_output = self.combine(intermediate_results)
+
+        # Perform anomaly detection on the combined outputs
+        pipeline_output = self.verify(
+            pipeline_output, level=verify_level, process_count=process_count
+        )
+
+        return pipeline_output
