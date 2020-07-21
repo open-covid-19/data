@@ -11266,31 +11266,1905 @@ PA_KY,Q919017,,PA,Panama,KY,Guna Yala,,,,,PA,PAN,1
 PA_NB,Q1129783,,PA,Panama,NB,Ngöbe-Buglé Comarca,,,,,PA,PAN,1
 PE,Q419,country/PER,PE,Peru,,,,,,,PE,PER,0
 PE_AMA,Q201162,,PE,Peru,AMA,Amazonas,,,,,PE,PER,1
-PE_ANC,Q205089,,PE,Peru,ANC,Ancash,,,,,PE,PER,1
+PE_AMA_0101,,,PE,Peru,AMA,Amazonas,0101,Chachapoyas,,,PE,PER,2
+PE_AMA_0102,,,PE,Peru,AMA,Amazonas,0102,Asunción,,,PE,PER,2
+PE_AMA_0103,,,PE,Peru,AMA,Amazonas,0103,Balsas,,,PE,PER,2
+PE_AMA_0104,,,PE,Peru,AMA,Amazonas,0104,Cheto,,,PE,PER,2
+PE_AMA_0105,,,PE,Peru,AMA,Amazonas,0105,Chiliquin,,,PE,PER,2
+PE_AMA_0106,,,PE,Peru,AMA,Amazonas,0106,Chuquibamba,,,PE,PER,2
+PE_AMA_0107,,,PE,Peru,AMA,Amazonas,0107,Granada,,,PE,PER,2
+PE_AMA_0108,,,PE,Peru,AMA,Amazonas,0108,Huancas,,,PE,PER,2
+PE_AMA_0109,,,PE,Peru,AMA,Amazonas,0109,La Jalca,,,PE,PER,2
+PE_AMA_0110,,,PE,Peru,AMA,Amazonas,0110,Leimebamba,,,PE,PER,2
+PE_AMA_0111,,,PE,Peru,AMA,Amazonas,0111,Levanto,,,PE,PER,2
+PE_AMA_0112,,,PE,Peru,AMA,Amazonas,0112,Magdalena,,,PE,PER,2
+PE_AMA_0113,,,PE,Peru,AMA,Amazonas,0113,Mariscal Castilla,,,PE,PER,2
+PE_AMA_0114,,,PE,Peru,AMA,Amazonas,0114,Molinopampa,,,PE,PER,2
+PE_AMA_0115,,,PE,Peru,AMA,Amazonas,0115,Montevideo,,,PE,PER,2
+PE_AMA_0116,,,PE,Peru,AMA,Amazonas,0116,Olleros,,,PE,PER,2
+PE_AMA_0117,,,PE,Peru,AMA,Amazonas,0117,Quinjalca,,,PE,PER,2
+PE_AMA_0118,,,PE,Peru,AMA,Amazonas,0118,San Francisco de Daguas,,,PE,PER,2
+PE_AMA_0119,,,PE,Peru,AMA,Amazonas,0119,San Isidro de Maino,,,PE,PER,2
+PE_AMA_0120,,,PE,Peru,AMA,Amazonas,0120,Soloco,,,PE,PER,2
+PE_AMA_0121,,,PE,Peru,AMA,Amazonas,0121,Sonche,,,PE,PER,2
+PE_AMA_0201,,,PE,Peru,AMA,Amazonas,0201,Bagua,,,PE,PER,2
+PE_AMA_0202,,,PE,Peru,AMA,Amazonas,0202,Aramango,,,PE,PER,2
+PE_AMA_0203,,,PE,Peru,AMA,Amazonas,0203,Copallin,,,PE,PER,2
+PE_AMA_0204,,,PE,Peru,AMA,Amazonas,0204,El Parco,,,PE,PER,2
+PE_AMA_0205,,,PE,Peru,AMA,Amazonas,0205,Imaza,,,PE,PER,2
+PE_AMA_0206,,,PE,Peru,AMA,Amazonas,0206,La Peca,,,PE,PER,2
+PE_AMA_0301,,,PE,Peru,AMA,Amazonas,0301,Jumbilla,,,PE,PER,2
+PE_AMA_0302,,,PE,Peru,AMA,Amazonas,0302,Chisquilla,,,PE,PER,2
+PE_AMA_0303,,,PE,Peru,AMA,Amazonas,0303,Churuja,,,PE,PER,2
+PE_AMA_0304,,,PE,Peru,AMA,Amazonas,0304,Corosha,,,PE,PER,2
+PE_AMA_0305,,,PE,Peru,AMA,Amazonas,0305,Cuispes,,,PE,PER,2
+PE_AMA_0306,,,PE,Peru,AMA,Amazonas,0306,Florida,,,PE,PER,2
+PE_AMA_0307,,,PE,Peru,AMA,Amazonas,0307,Jazan,,,PE,PER,2
+PE_AMA_0308,,,PE,Peru,AMA,Amazonas,0308,Recta,,,PE,PER,2
+PE_AMA_0309,,,PE,Peru,AMA,Amazonas,0309,San Carlos,,,PE,PER,2
+PE_AMA_0310,,,PE,Peru,AMA,Amazonas,0310,Shipasbamba,,,PE,PER,2
+PE_AMA_0311,,,PE,Peru,AMA,Amazonas,0311,Valera,,,PE,PER,2
+PE_AMA_0312,,,PE,Peru,AMA,Amazonas,0312,Yambrasbamba,,,PE,PER,2
+PE_AMA_0401,,,PE,Peru,AMA,Amazonas,0401,Nieva,,,PE,PER,2
+PE_AMA_0402,,,PE,Peru,AMA,Amazonas,0402,El Cenepa,,,PE,PER,2
+PE_AMA_0403,,,PE,Peru,AMA,Amazonas,0403,Río Santiago,,,PE,PER,2
+PE_AMA_0501,,,PE,Peru,AMA,Amazonas,0501,Lamud,,,PE,PER,2
+PE_AMA_0502,,,PE,Peru,AMA,Amazonas,0502,Camporredondo,,,PE,PER,2
+PE_AMA_0503,,,PE,Peru,AMA,Amazonas,0503,Cocabamba,,,PE,PER,2
+PE_AMA_0504,,,PE,Peru,AMA,Amazonas,0504,Colcamar,,,PE,PER,2
+PE_AMA_0505,,,PE,Peru,AMA,Amazonas,0505,Conila,,,PE,PER,2
+PE_AMA_0506,,,PE,Peru,AMA,Amazonas,0506,Inguilpata,,,PE,PER,2
+PE_AMA_0507,,,PE,Peru,AMA,Amazonas,0507,Longuita,,,PE,PER,2
+PE_AMA_0508,,,PE,Peru,AMA,Amazonas,0508,Lonya Chico,,,PE,PER,2
+PE_AMA_0509,,,PE,Peru,AMA,Amazonas,0509,Luya,,,PE,PER,2
+PE_AMA_0510,,,PE,Peru,AMA,Amazonas,0510,Luya Viejo,,,PE,PER,2
+PE_AMA_0511,,,PE,Peru,AMA,Amazonas,0511,María,,,PE,PER,2
+PE_AMA_0512,,,PE,Peru,AMA,Amazonas,0512,Ocalli,,,PE,PER,2
+PE_AMA_0513,,,PE,Peru,AMA,Amazonas,0513,Ocumal,,,PE,PER,2
+PE_AMA_0514,,,PE,Peru,AMA,Amazonas,0514,Pisuquia,,,PE,PER,2
+PE_AMA_0515,,,PE,Peru,AMA,Amazonas,0515,Providencia,,,PE,PER,2
+PE_AMA_0516,,,PE,Peru,AMA,Amazonas,0516,San Cristóbal,,,PE,PER,2
+PE_AMA_0517,,,PE,Peru,AMA,Amazonas,0517,San Francisco de Yeso,,,PE,PER,2
+PE_AMA_0518,,,PE,Peru,AMA,Amazonas,0518,San Jerónimo,,,PE,PER,2
+PE_AMA_0519,,,PE,Peru,AMA,Amazonas,0519,San Juan de Lopecancha,,,PE,PER,2
+PE_AMA_0520,,,PE,Peru,AMA,Amazonas,0520,Santa Catalina,,,PE,PER,2
+PE_AMA_0521,,,PE,Peru,AMA,Amazonas,0521,Santo Tomas,,,PE,PER,2
+PE_AMA_0522,,,PE,Peru,AMA,Amazonas,0522,Tingo,,,PE,PER,2
+PE_AMA_0523,,,PE,Peru,AMA,Amazonas,0523,Trita,,,PE,PER,2
+PE_AMA_0601,,,PE,Peru,AMA,Amazonas,0601,San Nicolás,,,PE,PER,2
+PE_AMA_0602,,,PE,Peru,AMA,Amazonas,0602,Chirimoto,,,PE,PER,2
+PE_AMA_0603,,,PE,Peru,AMA,Amazonas,0603,Cochamal,,,PE,PER,2
+PE_AMA_0604,,,PE,Peru,AMA,Amazonas,0604,Huambo,,,PE,PER,2
+PE_AMA_0605,,,PE,Peru,AMA,Amazonas,0605,Limabamba,,,PE,PER,2
+PE_AMA_0606,,,PE,Peru,AMA,Amazonas,0606,Longar,,,PE,PER,2
+PE_AMA_0607,,,PE,Peru,AMA,Amazonas,0607,Mariscal Benavides,,,PE,PER,2
+PE_AMA_0608,,,PE,Peru,AMA,Amazonas,0608,Milpuc,,,PE,PER,2
+PE_AMA_0609,,,PE,Peru,AMA,Amazonas,0609,Omia,,,PE,PER,2
+PE_AMA_0610,,,PE,Peru,AMA,Amazonas,0610,Santa Rosa,,,PE,PER,2
+PE_AMA_0611,,,PE,Peru,AMA,Amazonas,0611,Totora,,,PE,PER,2
+PE_AMA_0612,,,PE,Peru,AMA,Amazonas,0612,Vista Alegre,,,PE,PER,2
+PE_AMA_0701,,,PE,Peru,AMA,Amazonas,0701,Bagua Grande,,,PE,PER,2
+PE_AMA_0702,,,PE,Peru,AMA,Amazonas,0702,Cajaruro,,,PE,PER,2
+PE_AMA_0703,,,PE,Peru,AMA,Amazonas,0703,Cumba,,,PE,PER,2
+PE_AMA_0704,,,PE,Peru,AMA,Amazonas,0704,El Milagro,,,PE,PER,2
+PE_AMA_0705,,,PE,Peru,AMA,Amazonas,0705,Jamalca,,,PE,PER,2
+PE_AMA_0706,,,PE,Peru,AMA,Amazonas,0706,Lonya Grande,,,PE,PER,2
+PE_AMA_0707,,,PE,Peru,AMA,Amazonas,0707,Yamon,,,PE,PER,2
+PE_ANC,Q205089,,PE,Peru,ANC,Áncash,,,,,PE,PER,1
+PE_ANC_0101,,,PE,Peru,ANC,Áncash,0101,Huaraz,,,PE,PER,2
+PE_ANC_0102,,,PE,Peru,ANC,Áncash,0102,Cochabamba,,,PE,PER,2
+PE_ANC_0103,,,PE,Peru,ANC,Áncash,0103,Colcabamba,,,PE,PER,2
+PE_ANC_0104,,,PE,Peru,ANC,Áncash,0104,Huanchay,,,PE,PER,2
+PE_ANC_0105,,,PE,Peru,ANC,Áncash,0105,Independencia,,,PE,PER,2
+PE_ANC_0106,,,PE,Peru,ANC,Áncash,0106,Jangas,,,PE,PER,2
+PE_ANC_0107,,,PE,Peru,ANC,Áncash,0107,La Libertad,,,PE,PER,2
+PE_ANC_0108,,,PE,Peru,ANC,Áncash,0108,Olleros,,,PE,PER,2
+PE_ANC_0109,,,PE,Peru,ANC,Áncash,0109,Pampas Grande,,,PE,PER,2
+PE_ANC_0110,,,PE,Peru,ANC,Áncash,0110,Pariacoto,,,PE,PER,2
+PE_ANC_0111,,,PE,Peru,ANC,Áncash,0111,Pira,,,PE,PER,2
+PE_ANC_0112,,,PE,Peru,ANC,Áncash,0112,Tarica,,,PE,PER,2
+PE_ANC_0201,,,PE,Peru,ANC,Áncash,0201,Aija,,,PE,PER,2
+PE_ANC_0202,,,PE,Peru,ANC,Áncash,0202,Coris,,,PE,PER,2
+PE_ANC_0203,,,PE,Peru,ANC,Áncash,0203,Huacllan,,,PE,PER,2
+PE_ANC_0204,,,PE,Peru,ANC,Áncash,0204,La Merced,,,PE,PER,2
+PE_ANC_0205,,,PE,Peru,ANC,Áncash,0205,Succha,,,PE,PER,2
+PE_ANC_0301,,,PE,Peru,ANC,Áncash,0301,Llamellin,,,PE,PER,2
+PE_ANC_0302,,,PE,Peru,ANC,Áncash,0302,Aczo,,,PE,PER,2
+PE_ANC_0303,,,PE,Peru,ANC,Áncash,0303,Chaccho,,,PE,PER,2
+PE_ANC_0304,,,PE,Peru,ANC,Áncash,0304,Chingas,,,PE,PER,2
+PE_ANC_0305,,,PE,Peru,ANC,Áncash,0305,Mirgas,,,PE,PER,2
+PE_ANC_0306,,,PE,Peru,ANC,Áncash,0306,San Juan de Rontoy,,,PE,PER,2
+PE_ANC_0401,,,PE,Peru,ANC,Áncash,0401,Chacas,,,PE,PER,2
+PE_ANC_0402,,,PE,Peru,ANC,Áncash,0402,Acochaca,,,PE,PER,2
+PE_ANC_0501,,,PE,Peru,ANC,Áncash,0501,Chiquian,,,PE,PER,2
+PE_ANC_0502,,,PE,Peru,ANC,Áncash,0502,Abelardo Pardo Lezameta,,,PE,PER,2
+PE_ANC_0503,,,PE,Peru,ANC,Áncash,0503,Antonio Raymondi,,,PE,PER,2
+PE_ANC_0504,,,PE,Peru,ANC,Áncash,0504,Aquia,,,PE,PER,2
+PE_ANC_0505,,,PE,Peru,ANC,Áncash,0505,Cajacay,,,PE,PER,2
+PE_ANC_0506,,,PE,Peru,ANC,Áncash,0506,Canis,,,PE,PER,2
+PE_ANC_0507,,,PE,Peru,ANC,Áncash,0507,Colquioc,,,PE,PER,2
+PE_ANC_0508,,,PE,Peru,ANC,Áncash,0508,"Huallanca, Bolognesi",,,PE,PER,2
+PE_ANC_0509,,,PE,Peru,ANC,Áncash,0509,Huasta,,,PE,PER,2
+PE_ANC_0510,,,PE,Peru,ANC,Áncash,0510,Huayllacayan,,,PE,PER,2
+PE_ANC_0511,,,PE,Peru,ANC,Áncash,0511,La Primavera,,,PE,PER,2
+PE_ANC_0512,,,PE,Peru,ANC,Áncash,0512,Mangas,,,PE,PER,2
+PE_ANC_0513,,,PE,Peru,ANC,Áncash,0513,Pacllon,,,PE,PER,2
+PE_ANC_0514,,,PE,Peru,ANC,Áncash,0514,San Miguel de Corpanqui,,,PE,PER,2
+PE_ANC_0515,,,PE,Peru,ANC,Áncash,0515,Ticllos,,,PE,PER,2
+PE_ANC_0601,,,PE,Peru,ANC,Áncash,0601,Carhuaz,,,PE,PER,2
+PE_ANC_0602,,,PE,Peru,ANC,Áncash,0602,Acopampa,,,PE,PER,2
+PE_ANC_0603,,,PE,Peru,ANC,Áncash,0603,Amashca,,,PE,PER,2
+PE_ANC_0604,,,PE,Peru,ANC,Áncash,0604,Anta,,,PE,PER,2
+PE_ANC_0605,,,PE,Peru,ANC,Áncash,0605,Ataquero,,,PE,PER,2
+PE_ANC_0606,,,PE,Peru,ANC,Áncash,0606,Marcara,,,PE,PER,2
+PE_ANC_0607,,,PE,Peru,ANC,Áncash,0607,Pariahuanca,,,PE,PER,2
+PE_ANC_0608,,,PE,Peru,ANC,Áncash,0608,San Miguel de Aco,,,PE,PER,2
+PE_ANC_0609,,,PE,Peru,ANC,Áncash,0609,Shilla,,,PE,PER,2
+PE_ANC_0610,,,PE,Peru,ANC,Áncash,0610,Tinco,,,PE,PER,2
+PE_ANC_0611,,,PE,Peru,ANC,Áncash,0611,Yungar,,,PE,PER,2
+PE_ANC_0701,,,PE,Peru,ANC,Áncash,0701,San Luis,,,PE,PER,2
+PE_ANC_0702,,,PE,Peru,ANC,Áncash,0702,San Nicolás,,,PE,PER,2
+PE_ANC_0703,,,PE,Peru,ANC,Áncash,0703,Yauya,,,PE,PER,2
+PE_ANC_0801,,,PE,Peru,ANC,Áncash,0801,Casma,,,PE,PER,2
+PE_ANC_0802,,,PE,Peru,ANC,Áncash,0802,Buena Vista Alta,,,PE,PER,2
+PE_ANC_0803,,,PE,Peru,ANC,Áncash,0803,Comandante Noel,,,PE,PER,2
+PE_ANC_0804,,,PE,Peru,ANC,Áncash,0804,Yautan,,,PE,PER,2
+PE_ANC_0901,,,PE,Peru,ANC,Áncash,0901,Corongo,,,PE,PER,2
+PE_ANC_0902,,,PE,Peru,ANC,Áncash,0902,Aco,,,PE,PER,2
+PE_ANC_0903,,,PE,Peru,ANC,Áncash,0903,Bambas,,,PE,PER,2
+PE_ANC_0904,,,PE,Peru,ANC,Áncash,0904,Cusca,,,PE,PER,2
+PE_ANC_0905,,,PE,Peru,ANC,Áncash,0905,La Pampa,,,PE,PER,2
+PE_ANC_0906,,,PE,Peru,ANC,Áncash,0906,Yanac,,,PE,PER,2
+PE_ANC_0907,,,PE,Peru,ANC,Áncash,0907,Yupan,,,PE,PER,2
+PE_ANC_1001,,,PE,Peru,ANC,Áncash,1001,Huari,,,PE,PER,2
+PE_ANC_1002,,,PE,Peru,ANC,Áncash,1002,Anra,,,PE,PER,2
+PE_ANC_1003,,,PE,Peru,ANC,Áncash,1003,Cajay,,,PE,PER,2
+PE_ANC_1004,,,PE,Peru,ANC,Áncash,1004,Chavin de Huantar,,,PE,PER,2
+PE_ANC_1005,,,PE,Peru,ANC,Áncash,1005,Huacachi,,,PE,PER,2
+PE_ANC_1006,,,PE,Peru,ANC,Áncash,1006,Huacchis,,,PE,PER,2
+PE_ANC_1007,,,PE,Peru,ANC,Áncash,1007,Huachis,,,PE,PER,2
+PE_ANC_1008,,,PE,Peru,ANC,Áncash,1008,Huantar,,,PE,PER,2
+PE_ANC_1009,,,PE,Peru,ANC,Áncash,1009,Masin,,,PE,PER,2
+PE_ANC_1010,,,PE,Peru,ANC,Áncash,1010,Paucas,,,PE,PER,2
+PE_ANC_1011,,,PE,Peru,ANC,Áncash,1011,Ponto,,,PE,PER,2
+PE_ANC_1012,,,PE,Peru,ANC,Áncash,1012,Rahuapampa,,,PE,PER,2
+PE_ANC_1013,,,PE,Peru,ANC,Áncash,1013,Rapayan,,,PE,PER,2
+PE_ANC_1014,,,PE,Peru,ANC,Áncash,1014,San Marcos,,,PE,PER,2
+PE_ANC_1015,,,PE,Peru,ANC,Áncash,1015,San Pedro de Chana,,,PE,PER,2
+PE_ANC_1016,,,PE,Peru,ANC,Áncash,1016,Uco,,,PE,PER,2
+PE_ANC_1101,,,PE,Peru,ANC,Áncash,1101,Huarmey,,,PE,PER,2
+PE_ANC_1102,,,PE,Peru,ANC,Áncash,1102,Cochapeti,,,PE,PER,2
+PE_ANC_1103,,,PE,Peru,ANC,Áncash,1103,Culebras,,,PE,PER,2
+PE_ANC_1104,,,PE,Peru,ANC,Áncash,1104,Huayan,,,PE,PER,2
+PE_ANC_1105,,,PE,Peru,ANC,Áncash,1105,Malvas,,,PE,PER,2
+PE_ANC_1201,,,PE,Peru,ANC,Áncash,1201,Caraz,,,PE,PER,2
+PE_ANC_1202,,,PE,Peru,ANC,Áncash,1202,"Huallanca, Huaylas",,,PE,PER,2
+PE_ANC_1203,,,PE,Peru,ANC,Áncash,1203,Huata,,,PE,PER,2
+PE_ANC_1204,,,PE,Peru,ANC,Áncash,1204,Huaylas,,,PE,PER,2
+PE_ANC_1205,,,PE,Peru,ANC,Áncash,1205,Mato,,,PE,PER,2
+PE_ANC_1206,,,PE,Peru,ANC,Áncash,1206,Pamparomas,,,PE,PER,2
+PE_ANC_1207,,,PE,Peru,ANC,Áncash,1207,Pueblo Libre,,,PE,PER,2
+PE_ANC_1208,,,PE,Peru,ANC,Áncash,1208,Santa Cruz,,,PE,PER,2
+PE_ANC_1209,,,PE,Peru,ANC,Áncash,1209,Santo Toribio,,,PE,PER,2
+PE_ANC_1210,,,PE,Peru,ANC,Áncash,1210,Yuracmarca,,,PE,PER,2
+PE_ANC_1301,,,PE,Peru,ANC,Áncash,1301,Piscobamba,,,PE,PER,2
+PE_ANC_1302,,,PE,Peru,ANC,Áncash,1302,Casca,,,PE,PER,2
+PE_ANC_1303,,,PE,Peru,ANC,Áncash,1303,Eleazar Guzmán Barron,,,PE,PER,2
+PE_ANC_1304,,,PE,Peru,ANC,Áncash,1304,Fidel Olivas Escudero,,,PE,PER,2
+PE_ANC_1305,,,PE,Peru,ANC,Áncash,1305,Llama,,,PE,PER,2
+PE_ANC_1306,,,PE,Peru,ANC,Áncash,1306,Llumpa,,,PE,PER,2
+PE_ANC_1307,,,PE,Peru,ANC,Áncash,1307,Lucma,,,PE,PER,2
+PE_ANC_1308,,,PE,Peru,ANC,Áncash,1308,Musga,,,PE,PER,2
+PE_ANC_1401,,,PE,Peru,ANC,Áncash,1401,Ocros,,,PE,PER,2
+PE_ANC_1402,,,PE,Peru,ANC,Áncash,1402,Acas,,,PE,PER,2
+PE_ANC_1403,,,PE,Peru,ANC,Áncash,1403,Cajamarquilla,,,PE,PER,2
+PE_ANC_1404,,,PE,Peru,ANC,Áncash,1404,Carhuapampa,,,PE,PER,2
+PE_ANC_1405,,,PE,Peru,ANC,Áncash,1405,Cochas,,,PE,PER,2
+PE_ANC_1406,,,PE,Peru,ANC,Áncash,1406,Congas,,,PE,PER,2
+PE_ANC_1407,,,PE,Peru,ANC,Áncash,1407,Llipa,,,PE,PER,2
+PE_ANC_1408,,,PE,Peru,ANC,Áncash,1408,San Cristóbal de Rajan,,,PE,PER,2
+PE_ANC_1409,,,PE,Peru,ANC,Áncash,1409,San Pedro,,,PE,PER,2
+PE_ANC_1410,,,PE,Peru,ANC,Áncash,1410,Santiago de Chilcas,,,PE,PER,2
+PE_ANC_1501,,,PE,Peru,ANC,Áncash,1501,Cabana,,,PE,PER,2
+PE_ANC_1502,,,PE,Peru,ANC,Áncash,1502,Bolognesi,,,PE,PER,2
+PE_ANC_1503,,,PE,Peru,ANC,Áncash,1503,Conchucos,,,PE,PER,2
+PE_ANC_1504,,,PE,Peru,ANC,Áncash,1504,Huacaschuque,,,PE,PER,2
+PE_ANC_1505,,,PE,Peru,ANC,Áncash,1505,Huandoval,,,PE,PER,2
+PE_ANC_1506,,,PE,Peru,ANC,Áncash,1506,Lacabamba,,,PE,PER,2
+PE_ANC_1507,,,PE,Peru,ANC,Áncash,1507,Llapo,,,PE,PER,2
+PE_ANC_1508,,,PE,Peru,ANC,Áncash,1508,Pallasca,,,PE,PER,2
+PE_ANC_1509,,,PE,Peru,ANC,Áncash,1509,Pampas,,,PE,PER,2
+PE_ANC_1510,,,PE,Peru,ANC,Áncash,1510,Santa Rosa,,,PE,PER,2
+PE_ANC_1511,,,PE,Peru,ANC,Áncash,1511,Tauca,,,PE,PER,2
+PE_ANC_1601,,,PE,Peru,ANC,Áncash,1601,Pomabamba,,,PE,PER,2
+PE_ANC_1602,,,PE,Peru,ANC,Áncash,1602,Huayllan,,,PE,PER,2
+PE_ANC_1603,,,PE,Peru,ANC,Áncash,1603,Parobamba,,,PE,PER,2
+PE_ANC_1604,,,PE,Peru,ANC,Áncash,1604,Quinuabamba,,,PE,PER,2
+PE_ANC_1701,,,PE,Peru,ANC,Áncash,1701,Recuay,,,PE,PER,2
+PE_ANC_1702,,,PE,Peru,ANC,Áncash,1702,Catac,,,PE,PER,2
+PE_ANC_1703,,,PE,Peru,ANC,Áncash,1703,Cotaparaco,,,PE,PER,2
+PE_ANC_1704,,,PE,Peru,ANC,Áncash,1704,Huayllapampa,,,PE,PER,2
+PE_ANC_1705,,,PE,Peru,ANC,Áncash,1705,Llacllin,,,PE,PER,2
+PE_ANC_1706,,,PE,Peru,ANC,Áncash,1706,Marca,,,PE,PER,2
+PE_ANC_1707,,,PE,Peru,ANC,Áncash,1707,Pampas Chico,,,PE,PER,2
+PE_ANC_1708,,,PE,Peru,ANC,Áncash,1708,Pararin,,,PE,PER,2
+PE_ANC_1709,,,PE,Peru,ANC,Áncash,1709,Tapacocha,,,PE,PER,2
+PE_ANC_1710,,,PE,Peru,ANC,Áncash,1710,Ticapampa,,,PE,PER,2
+PE_ANC_1801,,,PE,Peru,ANC,Áncash,1801,Chimbote,,,PE,PER,2
+PE_ANC_1802,,,PE,Peru,ANC,Áncash,1802,Cáceres del Perú,,,PE,PER,2
+PE_ANC_1803,,,PE,Peru,ANC,Áncash,1803,Coishco,,,PE,PER,2
+PE_ANC_1804,,,PE,Peru,ANC,Áncash,1804,Macate,,,PE,PER,2
+PE_ANC_1805,,,PE,Peru,ANC,Áncash,1805,Moro,,,PE,PER,2
+PE_ANC_1806,,,PE,Peru,ANC,Áncash,1806,Nepeña,,,PE,PER,2
+PE_ANC_1807,,,PE,Peru,ANC,Áncash,1807,Samanco,,,PE,PER,2
+PE_ANC_1808,,,PE,Peru,ANC,Áncash,1808,Santa,,,PE,PER,2
+PE_ANC_1809,,,PE,Peru,ANC,Áncash,1809,Nuevo Chimbote,,,PE,PER,2
+PE_ANC_1901,,,PE,Peru,ANC,Áncash,1901,Sihuas,,,PE,PER,2
+PE_ANC_1902,,,PE,Peru,ANC,Áncash,1902,Acobamba,,,PE,PER,2
+PE_ANC_1903,,,PE,Peru,ANC,Áncash,1903,Alfonso Ugarte,,,PE,PER,2
+PE_ANC_1904,,,PE,Peru,ANC,Áncash,1904,Cashapampa,,,PE,PER,2
+PE_ANC_1905,,,PE,Peru,ANC,Áncash,1905,Chingalpo,,,PE,PER,2
+PE_ANC_1906,,,PE,Peru,ANC,Áncash,1906,Huayllabamba,,,PE,PER,2
+PE_ANC_1907,,,PE,Peru,ANC,Áncash,1907,Quiches,,,PE,PER,2
+PE_ANC_1908,,,PE,Peru,ANC,Áncash,1908,Ragash,,,PE,PER,2
+PE_ANC_1909,,,PE,Peru,ANC,Áncash,1909,San Juan,,,PE,PER,2
+PE_ANC_1910,,,PE,Peru,ANC,Áncash,1910,Sicsibamba,,,PE,PER,2
+PE_ANC_2001,,,PE,Peru,ANC,Áncash,2001,Yungay,,,PE,PER,2
+PE_ANC_2002,,,PE,Peru,ANC,Áncash,2002,Cascapara,,,PE,PER,2
+PE_ANC_2003,,,PE,Peru,ANC,Áncash,2003,Mancos,,,PE,PER,2
+PE_ANC_2004,,,PE,Peru,ANC,Áncash,2004,Matacoto,,,PE,PER,2
+PE_ANC_2005,,,PE,Peru,ANC,Áncash,2005,Quillo,,,PE,PER,2
+PE_ANC_2006,,,PE,Peru,ANC,Áncash,2006,Ranrahirca,,,PE,PER,2
+PE_ANC_2007,,,PE,Peru,ANC,Áncash,2007,Shupluy,,,PE,PER,2
+PE_ANC_2008,,,PE,Peru,ANC,Áncash,2008,Yanama,,,PE,PER,2
 PE_APU,Q208185,,PE,Peru,APU,Apurímac,,,,,PE,PER,1
+PE_APU_0101,,,PE,Peru,APU,Apurímac,0101,Abancay,,,PE,PER,2
+PE_APU_0102,,,PE,Peru,APU,Apurímac,0102,Chacoche,,,PE,PER,2
+PE_APU_0103,,,PE,Peru,APU,Apurímac,0103,Circa,,,PE,PER,2
+PE_APU_0104,,,PE,Peru,APU,Apurímac,0104,Curahuasi,,,PE,PER,2
+PE_APU_0105,,,PE,Peru,APU,Apurímac,0105,Huanipaca,,,PE,PER,2
+PE_APU_0106,,,PE,Peru,APU,Apurímac,0106,Lambrama,,,PE,PER,2
+PE_APU_0107,,,PE,Peru,APU,Apurímac,0107,Pichirhua,,,PE,PER,2
+PE_APU_0108,,,PE,Peru,APU,Apurímac,0108,San Pedro de Cachora,,,PE,PER,2
+PE_APU_0109,,,PE,Peru,APU,Apurímac,0109,Tamburco,,,PE,PER,2
+PE_APU_0201,,,PE,Peru,APU,Apurímac,0201,Andahuaylas,,,PE,PER,2
+PE_APU_0202,,,PE,Peru,APU,Apurímac,0202,Andarapa,,,PE,PER,2
+PE_APU_0203,,,PE,Peru,APU,Apurímac,0203,Chiara,,,PE,PER,2
+PE_APU_0204,,,PE,Peru,APU,Apurímac,0204,Huancarama,,,PE,PER,2
+PE_APU_0205,,,PE,Peru,APU,Apurímac,0205,Huancaray,,,PE,PER,2
+PE_APU_0206,,,PE,Peru,APU,Apurímac,0206,Huayana,,,PE,PER,2
+PE_APU_0207,,,PE,Peru,APU,Apurímac,0207,Kishuara,,,PE,PER,2
+PE_APU_0208,,,PE,Peru,APU,Apurímac,0208,Pacobamba,,,PE,PER,2
+PE_APU_0209,,,PE,Peru,APU,Apurímac,0209,Pacucha,,,PE,PER,2
+PE_APU_0210,,,PE,Peru,APU,Apurímac,0210,Pampachiri,,,PE,PER,2
+PE_APU_0211,,,PE,Peru,APU,Apurímac,0211,Pomacocha,,,PE,PER,2
+PE_APU_0212,,,PE,Peru,APU,Apurímac,0212,San Antonio de Cachi,,,PE,PER,2
+PE_APU_0213,,,PE,Peru,APU,Apurímac,0213,San Jerónimo,,,PE,PER,2
+PE_APU_0214,,,PE,Peru,APU,Apurímac,0214,San Miguel de Chaccrampa,,,PE,PER,2
+PE_APU_0215,,,PE,Peru,APU,Apurímac,0215,Santa María de Chicmo,,,PE,PER,2
+PE_APU_0216,,,PE,Peru,APU,Apurímac,0216,Talavera,,,PE,PER,2
+PE_APU_0217,,,PE,Peru,APU,Apurímac,0217,Tumay Huaraca,,,PE,PER,2
+PE_APU_0218,,,PE,Peru,APU,Apurímac,0218,Turpo,,,PE,PER,2
+PE_APU_0219,,,PE,Peru,APU,Apurímac,0219,Kaquiabamba,,,PE,PER,2
+PE_APU_0220,,,PE,Peru,APU,Apurímac,0220,José María Arguedas,,,PE,PER,2
+PE_APU_0301,,,PE,Peru,APU,Apurímac,0301,Antabamba,,,PE,PER,2
+PE_APU_0302,,,PE,Peru,APU,Apurímac,0302,El Oro,,,PE,PER,2
+PE_APU_0303,,,PE,Peru,APU,Apurímac,0303,Huaquirca,,,PE,PER,2
+PE_APU_0304,,,PE,Peru,APU,Apurímac,0304,Juan Espinoza Medrano,,,PE,PER,2
+PE_APU_0305,,,PE,Peru,APU,Apurímac,0305,Oropesa,,,PE,PER,2
+PE_APU_0306,,,PE,Peru,APU,Apurímac,0306,Pachaconas,,,PE,PER,2
+PE_APU_0307,,,PE,Peru,APU,Apurímac,0307,Sabaino,,,PE,PER,2
+PE_APU_0401,,,PE,Peru,APU,Apurímac,0401,Chalhuanca,,,PE,PER,2
+PE_APU_0402,,,PE,Peru,APU,Apurímac,0402,Capaya,,,PE,PER,2
+PE_APU_0403,,,PE,Peru,APU,Apurímac,0403,Caraybamba,,,PE,PER,2
+PE_APU_0404,,,PE,Peru,APU,Apurímac,0404,Chapimarca,,,PE,PER,2
+PE_APU_0405,,,PE,Peru,APU,Apurímac,0405,Colcabamba,,,PE,PER,2
+PE_APU_0406,,,PE,Peru,APU,Apurímac,0406,Cotaruse,,,PE,PER,2
+PE_APU_0407,,,PE,Peru,APU,Apurímac,0407,Ihuayllo,,,PE,PER,2
+PE_APU_0408,,,PE,Peru,APU,Apurímac,0408,Justo Apu Sahuaraura,,,PE,PER,2
+PE_APU_0409,,,PE,Peru,APU,Apurímac,0409,Lucre,,,PE,PER,2
+PE_APU_0410,,,PE,Peru,APU,Apurímac,0410,Pocohuanca,,,PE,PER,2
+PE_APU_0411,,,PE,Peru,APU,Apurímac,0411,San Juan de Chacña,,,PE,PER,2
+PE_APU_0412,,,PE,Peru,APU,Apurímac,0412,Sañayca,,,PE,PER,2
+PE_APU_0413,,,PE,Peru,APU,Apurímac,0413,Soraya,,,PE,PER,2
+PE_APU_0414,,,PE,Peru,APU,Apurímac,0414,Tapairihua,,,PE,PER,2
+PE_APU_0415,,,PE,Peru,APU,Apurímac,0415,Tintay,,,PE,PER,2
+PE_APU_0416,,,PE,Peru,APU,Apurímac,0416,Toraya,,,PE,PER,2
+PE_APU_0417,,,PE,Peru,APU,Apurímac,0417,Yanaca,,,PE,PER,2
+PE_APU_0501,,,PE,Peru,APU,Apurímac,0501,Tambobamba,,,PE,PER,2
+PE_APU_0502,,,PE,Peru,APU,Apurímac,0502,Cotabambas,,,PE,PER,2
+PE_APU_0503,,,PE,Peru,APU,Apurímac,0503,Coyllurqui,,,PE,PER,2
+PE_APU_0504,,,PE,Peru,APU,Apurímac,0504,Haquira,,,PE,PER,2
+PE_APU_0505,,,PE,Peru,APU,Apurímac,0505,Mara,,,PE,PER,2
+PE_APU_0506,,,PE,Peru,APU,Apurímac,0506,Challhuahuacho,,,PE,PER,2
+PE_APU_0601,,,PE,Peru,APU,Apurímac,0601,Chincheros,,,PE,PER,2
+PE_APU_0602,,,PE,Peru,APU,Apurímac,0602,Anco_Huallo,,,PE,PER,2
+PE_APU_0603,,,PE,Peru,APU,Apurímac,0603,Cocharcas,,,PE,PER,2
+PE_APU_0604,,,PE,Peru,APU,Apurímac,0604,Huaccana,,,PE,PER,2
+PE_APU_0605,,,PE,Peru,APU,Apurímac,0605,Ocobamba,,,PE,PER,2
+PE_APU_0606,,,PE,Peru,APU,Apurímac,0606,Ongoy,,,PE,PER,2
+PE_APU_0607,,,PE,Peru,APU,Apurímac,0607,Uranmarca,,,PE,PER,2
+PE_APU_0608,,,PE,Peru,APU,Apurímac,0608,Ranracancha,,,PE,PER,2
+PE_APU_0609,,,PE,Peru,APU,Apurímac,0609,Rocchacc,,,PE,PER,2
+PE_APU_0610,,,PE,Peru,APU,Apurímac,0610,El Porvenir,,,PE,PER,2
+PE_APU_0611,,,PE,Peru,APU,Apurímac,0611,Los Chankas,,,PE,PER,2
+PE_APU_0701,,,PE,Peru,APU,Apurímac,0701,Chuquibambilla,,,PE,PER,2
+PE_APU_0702,,,PE,Peru,APU,Apurímac,0702,Curpahuasi,,,PE,PER,2
+PE_APU_0703,,,PE,Peru,APU,Apurímac,0703,Gamarra,,,PE,PER,2
+PE_APU_0704,,,PE,Peru,APU,Apurímac,0704,Huayllati,,,PE,PER,2
+PE_APU_0705,,,PE,Peru,APU,Apurímac,0705,Mamara,,,PE,PER,2
+PE_APU_0706,,,PE,Peru,APU,Apurímac,0706,Micaela Bastidas,,,PE,PER,2
+PE_APU_0707,,,PE,Peru,APU,Apurímac,0707,Pataypampa,,,PE,PER,2
+PE_APU_0708,,,PE,Peru,APU,Apurímac,0708,Progreso,,,PE,PER,2
+PE_APU_0709,,,PE,Peru,APU,Apurímac,0709,San Antonio,,,PE,PER,2
+PE_APU_0710,,,PE,Peru,APU,Apurímac,0710,Santa Rosa,,,PE,PER,2
+PE_APU_0711,,,PE,Peru,APU,Apurímac,0711,Turpay,,,PE,PER,2
+PE_APU_0712,,,PE,Peru,APU,Apurímac,0712,Vilcabamba,,,PE,PER,2
+PE_APU_0713,,,PE,Peru,APU,Apurímac,0713,Virundo,,,PE,PER,2
+PE_APU_0714,,,PE,Peru,APU,Apurímac,0714,Curasco,,,PE,PER,2
 PE_ARE,Q205068,,PE,Peru,ARE,Arequipa,,,,,PE,PER,1
+PE_ARE_0101,,,PE,Peru,ARE,Arequipa,0101,Arequipa,,,PE,PER,2
+PE_ARE_0102,,,PE,Peru,ARE,Arequipa,0102,Alto Selva Alegre,,,PE,PER,2
+PE_ARE_0103,,,PE,Peru,ARE,Arequipa,0103,Cayma,,,PE,PER,2
+PE_ARE_0104,,,PE,Peru,ARE,Arequipa,0104,Cerro Colorado,,,PE,PER,2
+PE_ARE_0105,,,PE,Peru,ARE,Arequipa,0105,Characato,,,PE,PER,2
+PE_ARE_0106,,,PE,Peru,ARE,Arequipa,0106,Chiguata,,,PE,PER,2
+PE_ARE_0107,,,PE,Peru,ARE,Arequipa,0107,Jacobo Hunter,,,PE,PER,2
+PE_ARE_0108,,,PE,Peru,ARE,Arequipa,0108,La Joya,,,PE,PER,2
+PE_ARE_0109,,,PE,Peru,ARE,Arequipa,0109,Mariano Melgar,,,PE,PER,2
+PE_ARE_0110,,,PE,Peru,ARE,Arequipa,0110,Miraflores,,,PE,PER,2
+PE_ARE_0111,,,PE,Peru,ARE,Arequipa,0111,Mollebaya,,,PE,PER,2
+PE_ARE_0112,,,PE,Peru,ARE,Arequipa,0112,Paucarpata,,,PE,PER,2
+PE_ARE_0113,,,PE,Peru,ARE,Arequipa,0113,Pocsi,,,PE,PER,2
+PE_ARE_0114,,,PE,Peru,ARE,Arequipa,0114,Polobaya,,,PE,PER,2
+PE_ARE_0115,,,PE,Peru,ARE,Arequipa,0115,Quequeña,,,PE,PER,2
+PE_ARE_0116,,,PE,Peru,ARE,Arequipa,0116,Sabandia,,,PE,PER,2
+PE_ARE_0117,,,PE,Peru,ARE,Arequipa,0117,Sachaca,,,PE,PER,2
+PE_ARE_0118,,,PE,Peru,ARE,Arequipa,0118,San Juan de Siguas,,,PE,PER,2
+PE_ARE_0119,,,PE,Peru,ARE,Arequipa,0119,San Juan de Tarucani,,,PE,PER,2
+PE_ARE_0120,,,PE,Peru,ARE,Arequipa,0120,Santa Isabel de Siguas,,,PE,PER,2
+PE_ARE_0121,,,PE,Peru,ARE,Arequipa,0121,Santa Rita de Siguas,,,PE,PER,2
+PE_ARE_0122,,,PE,Peru,ARE,Arequipa,0122,Socabaya,,,PE,PER,2
+PE_ARE_0123,,,PE,Peru,ARE,Arequipa,0123,Tiabaya,,,PE,PER,2
+PE_ARE_0124,,,PE,Peru,ARE,Arequipa,0124,Uchumayo,,,PE,PER,2
+PE_ARE_0125,,,PE,Peru,ARE,Arequipa,0125,Vitor,,,PE,PER,2
+PE_ARE_0126,,,PE,Peru,ARE,Arequipa,0126,Yanahuara,,,PE,PER,2
+PE_ARE_0127,,,PE,Peru,ARE,Arequipa,0127,Yarabamba,,,PE,PER,2
+PE_ARE_0128,,,PE,Peru,ARE,Arequipa,0128,Yura,,,PE,PER,2
+PE_ARE_0129,,,PE,Peru,ARE,Arequipa,0129,José Luis Bustamante Y Rivero,,,PE,PER,2
+PE_ARE_0201,,,PE,Peru,ARE,Arequipa,0201,Camaná,,,PE,PER,2
+PE_ARE_0202,,,PE,Peru,ARE,Arequipa,0202,José María Quimper,,,PE,PER,2
+PE_ARE_0203,,,PE,Peru,ARE,Arequipa,0203,Mariano Nicolás Valcárcel,,,PE,PER,2
+PE_ARE_0204,,,PE,Peru,ARE,Arequipa,0204,Mariscal Cáceres,,,PE,PER,2
+PE_ARE_0205,,,PE,Peru,ARE,Arequipa,0205,Nicolás de Pierola,,,PE,PER,2
+PE_ARE_0206,,,PE,Peru,ARE,Arequipa,0206,Ocoña,,,PE,PER,2
+PE_ARE_0207,,,PE,Peru,ARE,Arequipa,0207,Quilca,,,PE,PER,2
+PE_ARE_0208,,,PE,Peru,ARE,Arequipa,0208,Samuel Pastor,,,PE,PER,2
+PE_ARE_0301,,,PE,Peru,ARE,Arequipa,0301,Caravelí,,,PE,PER,2
+PE_ARE_0302,,,PE,Peru,ARE,Arequipa,0302,Acarí,,,PE,PER,2
+PE_ARE_0303,,,PE,Peru,ARE,Arequipa,0303,Atico,,,PE,PER,2
+PE_ARE_0304,,,PE,Peru,ARE,Arequipa,0304,Atiquipa,,,PE,PER,2
+PE_ARE_0305,,,PE,Peru,ARE,Arequipa,0305,Bella Unión,,,PE,PER,2
+PE_ARE_0306,,,PE,Peru,ARE,Arequipa,0306,Cahuacho,,,PE,PER,2
+PE_ARE_0307,,,PE,Peru,ARE,Arequipa,0307,Chala,,,PE,PER,2
+PE_ARE_0308,,,PE,Peru,ARE,Arequipa,0308,Chaparra,,,PE,PER,2
+PE_ARE_0309,,,PE,Peru,ARE,Arequipa,0309,Huanuhuanu,,,PE,PER,2
+PE_ARE_0310,,,PE,Peru,ARE,Arequipa,0310,Jaqui,,,PE,PER,2
+PE_ARE_0311,,,PE,Peru,ARE,Arequipa,0311,Lomas,,,PE,PER,2
+PE_ARE_0312,,,PE,Peru,ARE,Arequipa,0312,Quicacha,,,PE,PER,2
+PE_ARE_0313,,,PE,Peru,ARE,Arequipa,0313,Yauca,,,PE,PER,2
+PE_ARE_0401,,,PE,Peru,ARE,Arequipa,0401,Aplao,,,PE,PER,2
+PE_ARE_0402,,,PE,Peru,ARE,Arequipa,0402,Andagua,,,PE,PER,2
+PE_ARE_0403,,,PE,Peru,ARE,Arequipa,0403,Ayo,,,PE,PER,2
+PE_ARE_0404,,,PE,Peru,ARE,Arequipa,0404,Chachas,,,PE,PER,2
+PE_ARE_0405,,,PE,Peru,ARE,Arequipa,0405,Chilcaymarca,,,PE,PER,2
+PE_ARE_0406,,,PE,Peru,ARE,Arequipa,0406,Choco,,,PE,PER,2
+PE_ARE_0407,,,PE,Peru,ARE,Arequipa,0407,Huancarqui,,,PE,PER,2
+PE_ARE_0408,,,PE,Peru,ARE,Arequipa,0408,Machaguay,,,PE,PER,2
+PE_ARE_0409,,,PE,Peru,ARE,Arequipa,0409,Orcopampa,,,PE,PER,2
+PE_ARE_0410,,,PE,Peru,ARE,Arequipa,0410,Pampacolca,,,PE,PER,2
+PE_ARE_0411,,,PE,Peru,ARE,Arequipa,0411,Tipan,,,PE,PER,2
+PE_ARE_0412,,,PE,Peru,ARE,Arequipa,0412,Uñon,,,PE,PER,2
+PE_ARE_0413,,,PE,Peru,ARE,Arequipa,0413,Uraca,,,PE,PER,2
+PE_ARE_0414,,,PE,Peru,ARE,Arequipa,0414,Viraco,,,PE,PER,2
+PE_ARE_0501,,,PE,Peru,ARE,Arequipa,0501,Chivay,,,PE,PER,2
+PE_ARE_0502,,,PE,Peru,ARE,Arequipa,0502,Achoma,,,PE,PER,2
+PE_ARE_0503,,,PE,Peru,ARE,Arequipa,0503,Cabanaconde,,,PE,PER,2
+PE_ARE_0504,,,PE,Peru,ARE,Arequipa,0504,Callalli,,,PE,PER,2
+PE_ARE_0505,,,PE,Peru,ARE,Arequipa,0505,Caylloma,,,PE,PER,2
+PE_ARE_0506,,,PE,Peru,ARE,Arequipa,0506,Coporaque,,,PE,PER,2
+PE_ARE_0507,,,PE,Peru,ARE,Arequipa,0507,Huambo,,,PE,PER,2
+PE_ARE_0508,,,PE,Peru,ARE,Arequipa,0508,Huanca,,,PE,PER,2
+PE_ARE_0509,,,PE,Peru,ARE,Arequipa,0509,Ichupampa,,,PE,PER,2
+PE_ARE_0510,,,PE,Peru,ARE,Arequipa,0510,Lari,,,PE,PER,2
+PE_ARE_0511,,,PE,Peru,ARE,Arequipa,0511,Lluta,,,PE,PER,2
+PE_ARE_0512,,,PE,Peru,ARE,Arequipa,0512,Maca,,,PE,PER,2
+PE_ARE_0513,,,PE,Peru,ARE,Arequipa,0513,Madrigal,,,PE,PER,2
+PE_ARE_0514,,,PE,Peru,ARE,Arequipa,0514,San Antonio de Chuca,,,PE,PER,2
+PE_ARE_0515,,,PE,Peru,ARE,Arequipa,0515,Sibayo,,,PE,PER,2
+PE_ARE_0516,,,PE,Peru,ARE,Arequipa,0516,Tapay,,,PE,PER,2
+PE_ARE_0517,,,PE,Peru,ARE,Arequipa,0517,Tisco,,,PE,PER,2
+PE_ARE_0518,,,PE,Peru,ARE,Arequipa,0518,Tuti,,,PE,PER,2
+PE_ARE_0519,,,PE,Peru,ARE,Arequipa,0519,Yanque,,,PE,PER,2
+PE_ARE_0520,,,PE,Peru,ARE,Arequipa,0520,Majes,,,PE,PER,2
+PE_ARE_0601,,,PE,Peru,ARE,Arequipa,0601,Chuquibamba,,,PE,PER,2
+PE_ARE_0602,,,PE,Peru,ARE,Arequipa,0602,Andaray,,,PE,PER,2
+PE_ARE_0603,,,PE,Peru,ARE,Arequipa,0603,Cayarani,,,PE,PER,2
+PE_ARE_0604,,,PE,Peru,ARE,Arequipa,0604,Chichas,,,PE,PER,2
+PE_ARE_0605,,,PE,Peru,ARE,Arequipa,0605,Iray,,,PE,PER,2
+PE_ARE_0606,,,PE,Peru,ARE,Arequipa,0606,Río Grande,,,PE,PER,2
+PE_ARE_0607,,,PE,Peru,ARE,Arequipa,0607,Salamanca,,,PE,PER,2
+PE_ARE_0608,,,PE,Peru,ARE,Arequipa,0608,Yanaquihua,,,PE,PER,2
+PE_ARE_0701,,,PE,Peru,ARE,Arequipa,0701,Mollendo,,,PE,PER,2
+PE_ARE_0702,,,PE,Peru,ARE,Arequipa,0702,Cocachacra,,,PE,PER,2
+PE_ARE_0703,,,PE,Peru,ARE,Arequipa,0703,Dean Valdivia,,,PE,PER,2
+PE_ARE_0704,,,PE,Peru,ARE,Arequipa,0704,Islay,,,PE,PER,2
+PE_ARE_0705,,,PE,Peru,ARE,Arequipa,0705,Mejia,,,PE,PER,2
+PE_ARE_0706,,,PE,Peru,ARE,Arequipa,0706,Punta de Bombón,,,PE,PER,2
+PE_ARE_0801,,,PE,Peru,ARE,Arequipa,0801,Cotahuasi,,,PE,PER,2
+PE_ARE_0802,,,PE,Peru,ARE,Arequipa,0802,Alca,,,PE,PER,2
+PE_ARE_0803,,,PE,Peru,ARE,Arequipa,0803,Charcana,,,PE,PER,2
+PE_ARE_0804,,,PE,Peru,ARE,Arequipa,0804,Huaynacotas,,,PE,PER,2
+PE_ARE_0805,,,PE,Peru,ARE,Arequipa,0805,Pampamarca,,,PE,PER,2
+PE_ARE_0806,,,PE,Peru,ARE,Arequipa,0806,Puyca,,,PE,PER,2
+PE_ARE_0807,,,PE,Peru,ARE,Arequipa,0807,Quechualla,,,PE,PER,2
+PE_ARE_0808,,,PE,Peru,ARE,Arequipa,0808,Sayla,,,PE,PER,2
+PE_ARE_0809,,,PE,Peru,ARE,Arequipa,0809,Tauria,,,PE,PER,2
+PE_ARE_0810,,,PE,Peru,ARE,Arequipa,0810,Tomepampa,,,PE,PER,2
+PE_ARE_0811,,,PE,Peru,ARE,Arequipa,0811,Toro,,,PE,PER,2
 PE_AYA,Q205112,,PE,Peru,AYA,Ayacucho,,,,,PE,PER,1
+PE_AYA_0101,,,PE,Peru,AYA,Ayacucho,0101,Ayacucho,,,PE,PER,2
+PE_AYA_0102,,,PE,Peru,AYA,Ayacucho,0102,Acocro,,,PE,PER,2
+PE_AYA_0103,,,PE,Peru,AYA,Ayacucho,0103,Acos Vinchos,,,PE,PER,2
+PE_AYA_0104,,,PE,Peru,AYA,Ayacucho,0104,Carmen Alto,,,PE,PER,2
+PE_AYA_0105,,,PE,Peru,AYA,Ayacucho,0105,Chiara,,,PE,PER,2
+PE_AYA_0106,,,PE,Peru,AYA,Ayacucho,0106,Ocros,,,PE,PER,2
+PE_AYA_0107,,,PE,Peru,AYA,Ayacucho,0107,Pacaycasa,,,PE,PER,2
+PE_AYA_0108,,,PE,Peru,AYA,Ayacucho,0108,Quinua,,,PE,PER,2
+PE_AYA_0109,,,PE,Peru,AYA,Ayacucho,0109,San José de Ticllas,,,PE,PER,2
+PE_AYA_0110,,,PE,Peru,AYA,Ayacucho,0110,San Juan Bautista,,,PE,PER,2
+PE_AYA_0111,,,PE,Peru,AYA,Ayacucho,0111,Santiago de Pischa,,,PE,PER,2
+PE_AYA_0112,,,PE,Peru,AYA,Ayacucho,0112,Socos,,,PE,PER,2
+PE_AYA_0113,,,PE,Peru,AYA,Ayacucho,0113,Tambillo,,,PE,PER,2
+PE_AYA_0114,,,PE,Peru,AYA,Ayacucho,0114,Vinchos,,,PE,PER,2
+PE_AYA_0115,,,PE,Peru,AYA,Ayacucho,0115,Jesús Nazareno,,,PE,PER,2
+PE_AYA_0116,,,PE,Peru,AYA,Ayacucho,0116,Andrés Avelino Cáceres Dorregaray,,,PE,PER,2
+PE_AYA_0201,,,PE,Peru,AYA,Ayacucho,0201,Cangallo,,,PE,PER,2
+PE_AYA_0202,,,PE,Peru,AYA,Ayacucho,0202,Chuschi,,,PE,PER,2
+PE_AYA_0203,,,PE,Peru,AYA,Ayacucho,0203,Los Morochucos,,,PE,PER,2
+PE_AYA_0204,,,PE,Peru,AYA,Ayacucho,0204,María Parado de Bellido,,,PE,PER,2
+PE_AYA_0205,,,PE,Peru,AYA,Ayacucho,0205,Paras,,,PE,PER,2
+PE_AYA_0206,,,PE,Peru,AYA,Ayacucho,0206,Totos,,,PE,PER,2
+PE_AYA_0301,,,PE,Peru,AYA,Ayacucho,0301,Sancos,,,PE,PER,2
+PE_AYA_0302,,,PE,Peru,AYA,Ayacucho,0302,Carapo,,,PE,PER,2
+PE_AYA_0303,,,PE,Peru,AYA,Ayacucho,0303,Sacsamarca,,,PE,PER,2
+PE_AYA_0304,,,PE,Peru,AYA,Ayacucho,0304,Santiago de Lucanamarca,,,PE,PER,2
+PE_AYA_0401,,,PE,Peru,AYA,Ayacucho,0401,Huanta,,,PE,PER,2
+PE_AYA_0402,,,PE,Peru,AYA,Ayacucho,0402,Ayahuanco,,,PE,PER,2
+PE_AYA_0403,,,PE,Peru,AYA,Ayacucho,0403,Huamanguilla,,,PE,PER,2
+PE_AYA_0404,,,PE,Peru,AYA,Ayacucho,0404,Iguain,,,PE,PER,2
+PE_AYA_0405,,,PE,Peru,AYA,Ayacucho,0405,Luricocha,,,PE,PER,2
+PE_AYA_0406,,,PE,Peru,AYA,Ayacucho,0406,Santillana,,,PE,PER,2
+PE_AYA_0407,,,PE,Peru,AYA,Ayacucho,0407,Sivia,,,PE,PER,2
+PE_AYA_0408,,,PE,Peru,AYA,Ayacucho,0408,Llochegua,,,PE,PER,2
+PE_AYA_0409,,,PE,Peru,AYA,Ayacucho,0409,Canayre,,,PE,PER,2
+PE_AYA_0410,,,PE,Peru,AYA,Ayacucho,0410,Uchuraccay,,,PE,PER,2
+PE_AYA_0411,,,PE,Peru,AYA,Ayacucho,0411,Pucacolpa,,,PE,PER,2
+PE_AYA_0412,,,PE,Peru,AYA,Ayacucho,0412,Chaca,,,PE,PER,2
+PE_AYA_0501,,,PE,Peru,AYA,Ayacucho,0501,San Miguel,,,PE,PER,2
+PE_AYA_0502,,,PE,Peru,AYA,Ayacucho,0502,Anco,,,PE,PER,2
+PE_AYA_0503,,,PE,Peru,AYA,Ayacucho,0503,Ayna,,,PE,PER,2
+PE_AYA_0504,,,PE,Peru,AYA,Ayacucho,0504,Chilcas,,,PE,PER,2
+PE_AYA_0505,,,PE,Peru,AYA,Ayacucho,0505,Chungui,,,PE,PER,2
+PE_AYA_0506,,,PE,Peru,AYA,Ayacucho,0506,Luis Carranza,,,PE,PER,2
+PE_AYA_0507,,,PE,Peru,AYA,Ayacucho,0507,Santa Rosa,,,PE,PER,2
+PE_AYA_0508,,,PE,Peru,AYA,Ayacucho,0508,Tambo,,,PE,PER,2
+PE_AYA_0509,,,PE,Peru,AYA,Ayacucho,0509,Samugari,,,PE,PER,2
+PE_AYA_0510,,,PE,Peru,AYA,Ayacucho,0510,Anchihuay,,,PE,PER,2
+PE_AYA_0511,,,PE,Peru,AYA,Ayacucho,0511,Oronccoy,,,PE,PER,2
+PE_AYA_0601,,,PE,Peru,AYA,Ayacucho,0601,Puquio,,,PE,PER,2
+PE_AYA_0602,,,PE,Peru,AYA,Ayacucho,0602,Aucara,,,PE,PER,2
+PE_AYA_0603,,,PE,Peru,AYA,Ayacucho,0603,Cabana,,,PE,PER,2
+PE_AYA_0604,,,PE,Peru,AYA,Ayacucho,0604,Carmen Salcedo,,,PE,PER,2
+PE_AYA_0605,,,PE,Peru,AYA,Ayacucho,0605,Chaviña,,,PE,PER,2
+PE_AYA_0606,,,PE,Peru,AYA,Ayacucho,0606,Chipao,,,PE,PER,2
+PE_AYA_0607,,,PE,Peru,AYA,Ayacucho,0607,Huac-Huas,,,PE,PER,2
+PE_AYA_0608,,,PE,Peru,AYA,Ayacucho,0608,Laramate,,,PE,PER,2
+PE_AYA_0609,,,PE,Peru,AYA,Ayacucho,0609,Leoncio Prado,,,PE,PER,2
+PE_AYA_0610,,,PE,Peru,AYA,Ayacucho,0610,Llauta,,,PE,PER,2
+PE_AYA_0611,,,PE,Peru,AYA,Ayacucho,0611,Lucanas,,,PE,PER,2
+PE_AYA_0612,,,PE,Peru,AYA,Ayacucho,0612,Ocaña,,,PE,PER,2
+PE_AYA_0613,,,PE,Peru,AYA,Ayacucho,0613,Otoca,,,PE,PER,2
+PE_AYA_0614,,,PE,Peru,AYA,Ayacucho,0614,Saisa,,,PE,PER,2
+PE_AYA_0615,,,PE,Peru,AYA,Ayacucho,0615,San Cristóbal,,,PE,PER,2
+PE_AYA_0616,,,PE,Peru,AYA,Ayacucho,0616,San Juan,,,PE,PER,2
+PE_AYA_0617,,,PE,Peru,AYA,Ayacucho,0617,San Pedro,,,PE,PER,2
+PE_AYA_0618,,,PE,Peru,AYA,Ayacucho,0618,San Pedro de Palco,,,PE,PER,2
+PE_AYA_0619,,,PE,Peru,AYA,Ayacucho,0619,Sancos,,,PE,PER,2
+PE_AYA_0620,,,PE,Peru,AYA,Ayacucho,0620,Santa Ana de Huaycahuacho,,,PE,PER,2
+PE_AYA_0621,,,PE,Peru,AYA,Ayacucho,0621,Santa Lucia,,,PE,PER,2
+PE_AYA_0701,,,PE,Peru,AYA,Ayacucho,0701,Coracora,,,PE,PER,2
+PE_AYA_0702,,,PE,Peru,AYA,Ayacucho,0702,Chumpi,,,PE,PER,2
+PE_AYA_0703,,,PE,Peru,AYA,Ayacucho,0703,Coronel Castañeda,,,PE,PER,2
+PE_AYA_0704,,,PE,Peru,AYA,Ayacucho,0704,Pacapausa,,,PE,PER,2
+PE_AYA_0705,,,PE,Peru,AYA,Ayacucho,0705,Pullo,,,PE,PER,2
+PE_AYA_0706,,,PE,Peru,AYA,Ayacucho,0706,Puyusca,,,PE,PER,2
+PE_AYA_0707,,,PE,Peru,AYA,Ayacucho,0707,San Francisco de Ravacayco,,,PE,PER,2
+PE_AYA_0708,,,PE,Peru,AYA,Ayacucho,0708,Upahuacho,,,PE,PER,2
+PE_AYA_0801,,,PE,Peru,AYA,Ayacucho,0801,Pausa,,,PE,PER,2
+PE_AYA_0802,,,PE,Peru,AYA,Ayacucho,0802,Colta,,,PE,PER,2
+PE_AYA_0803,,,PE,Peru,AYA,Ayacucho,0803,Corculla,,,PE,PER,2
+PE_AYA_0804,,,PE,Peru,AYA,Ayacucho,0804,Lampa,,,PE,PER,2
+PE_AYA_0805,,,PE,Peru,AYA,Ayacucho,0805,Marcabamba,,,PE,PER,2
+PE_AYA_0806,,,PE,Peru,AYA,Ayacucho,0806,Oyolo,,,PE,PER,2
+PE_AYA_0807,,,PE,Peru,AYA,Ayacucho,0807,Pararca,,,PE,PER,2
+PE_AYA_0808,,,PE,Peru,AYA,Ayacucho,0808,San Javier de Alpabamba,,,PE,PER,2
+PE_AYA_0809,,,PE,Peru,AYA,Ayacucho,0809,San José de Ushua,,,PE,PER,2
+PE_AYA_0810,,,PE,Peru,AYA,Ayacucho,0810,Sara Sara,,,PE,PER,2
+PE_AYA_0901,,,PE,Peru,AYA,Ayacucho,0901,Querobamba,,,PE,PER,2
+PE_AYA_0902,,,PE,Peru,AYA,Ayacucho,0902,Belén,,,PE,PER,2
+PE_AYA_0903,,,PE,Peru,AYA,Ayacucho,0903,Chalcos,,,PE,PER,2
+PE_AYA_0904,,,PE,Peru,AYA,Ayacucho,0904,Chilcayoc,,,PE,PER,2
+PE_AYA_0905,,,PE,Peru,AYA,Ayacucho,0905,Huacaña,,,PE,PER,2
+PE_AYA_0906,,,PE,Peru,AYA,Ayacucho,0906,Morcolla,,,PE,PER,2
+PE_AYA_0907,,,PE,Peru,AYA,Ayacucho,0907,Paico,,,PE,PER,2
+PE_AYA_0908,,,PE,Peru,AYA,Ayacucho,0908,San Pedro de Larcay,,,PE,PER,2
+PE_AYA_0909,,,PE,Peru,AYA,Ayacucho,0909,San Salvador de Quije,,,PE,PER,2
+PE_AYA_0910,,,PE,Peru,AYA,Ayacucho,0910,Santiago de Paucaray,,,PE,PER,2
+PE_AYA_0911,,,PE,Peru,AYA,Ayacucho,0911,Soras,,,PE,PER,2
+PE_AYA_1001,,,PE,Peru,AYA,Ayacucho,1001,Huancapi,,,PE,PER,2
+PE_AYA_1002,,,PE,Peru,AYA,Ayacucho,1002,Alcamenca,,,PE,PER,2
+PE_AYA_1003,,,PE,Peru,AYA,Ayacucho,1003,Apongo,,,PE,PER,2
+PE_AYA_1004,,,PE,Peru,AYA,Ayacucho,1004,Asquipata,,,PE,PER,2
+PE_AYA_1005,,,PE,Peru,AYA,Ayacucho,1005,Canaria,,,PE,PER,2
+PE_AYA_1006,,,PE,Peru,AYA,Ayacucho,1006,Cayara,,,PE,PER,2
+PE_AYA_1007,,,PE,Peru,AYA,Ayacucho,1007,Colca,,,PE,PER,2
+PE_AYA_1008,,,PE,Peru,AYA,Ayacucho,1008,Huamanquiquia,,,PE,PER,2
+PE_AYA_1009,,,PE,Peru,AYA,Ayacucho,1009,Huancaraylla,,,PE,PER,2
+PE_AYA_1010,,,PE,Peru,AYA,Ayacucho,1010,Hualla,,,PE,PER,2
+PE_AYA_1011,,,PE,Peru,AYA,Ayacucho,1011,Sarhua,,,PE,PER,2
+PE_AYA_1012,,,PE,Peru,AYA,Ayacucho,1012,Vilcanchos,,,PE,PER,2
+PE_AYA_1101,,,PE,Peru,AYA,Ayacucho,1101,Vilcas Huaman,,,PE,PER,2
+PE_AYA_1102,,,PE,Peru,AYA,Ayacucho,1102,Accomarca,,,PE,PER,2
+PE_AYA_1103,,,PE,Peru,AYA,Ayacucho,1103,Carhuanca,,,PE,PER,2
+PE_AYA_1104,,,PE,Peru,AYA,Ayacucho,1104,Concepción,,,PE,PER,2
+PE_AYA_1105,,,PE,Peru,AYA,Ayacucho,1105,Huambalpa,,,PE,PER,2
+PE_AYA_1106,,,PE,Peru,AYA,Ayacucho,1106,Independencia,,,PE,PER,2
+PE_AYA_1107,,,PE,Peru,AYA,Ayacucho,1107,Saurama,,,PE,PER,2
+PE_AYA_1108,,,PE,Peru,AYA,Ayacucho,1108,Vischongo,,,PE,PER,2
 PE_CAJ,Q205078,,PE,Peru,CAJ,Cajamarca,,,,,PE,PER,1
+PE_CAJ_0101,,,PE,Peru,CAJ,Cajamarca,0101,Cajamarca,,,PE,PER,2
+PE_CAJ_0102,,,PE,Peru,CAJ,Cajamarca,0102,Asunción,,,PE,PER,2
+PE_CAJ_0103,,,PE,Peru,CAJ,Cajamarca,0103,Chetilla,,,PE,PER,2
+PE_CAJ_0104,,,PE,Peru,CAJ,Cajamarca,0104,Cospan,,,PE,PER,2
+PE_CAJ_0105,,,PE,Peru,CAJ,Cajamarca,0105,Encañada,,,PE,PER,2
+PE_CAJ_0106,,,PE,Peru,CAJ,Cajamarca,0106,Jesús,,,PE,PER,2
+PE_CAJ_0107,,,PE,Peru,CAJ,Cajamarca,0107,Llacanora,,,PE,PER,2
+PE_CAJ_0108,,,PE,Peru,CAJ,Cajamarca,0108,Los Baños del Inca,,,PE,PER,2
+PE_CAJ_0109,,,PE,Peru,CAJ,Cajamarca,0109,Magdalena,,,PE,PER,2
+PE_CAJ_0110,,,PE,Peru,CAJ,Cajamarca,0110,Matara,,,PE,PER,2
+PE_CAJ_0111,,,PE,Peru,CAJ,Cajamarca,0111,Namora,,,PE,PER,2
+PE_CAJ_0112,,,PE,Peru,CAJ,Cajamarca,0112,San Juan,,,PE,PER,2
+PE_CAJ_0201,,,PE,Peru,CAJ,Cajamarca,0201,Cajabamba,,,PE,PER,2
+PE_CAJ_0202,,,PE,Peru,CAJ,Cajamarca,0202,Cachachi,,,PE,PER,2
+PE_CAJ_0203,,,PE,Peru,CAJ,Cajamarca,0203,Condebamba,,,PE,PER,2
+PE_CAJ_0204,,,PE,Peru,CAJ,Cajamarca,0204,Sitacocha,,,PE,PER,2
+PE_CAJ_0301,,,PE,Peru,CAJ,Cajamarca,0301,Celendín,,,PE,PER,2
+PE_CAJ_0302,,,PE,Peru,CAJ,Cajamarca,0302,Chumuch,,,PE,PER,2
+PE_CAJ_0303,,,PE,Peru,CAJ,Cajamarca,0303,Cortegana,,,PE,PER,2
+PE_CAJ_0304,,,PE,Peru,CAJ,Cajamarca,0304,Huasmin,,,PE,PER,2
+PE_CAJ_0305,,,PE,Peru,CAJ,Cajamarca,0305,Jorge Chávez,,,PE,PER,2
+PE_CAJ_0306,,,PE,Peru,CAJ,Cajamarca,0306,José Gálvez,,,PE,PER,2
+PE_CAJ_0307,,,PE,Peru,CAJ,Cajamarca,0307,Miguel Iglesias,,,PE,PER,2
+PE_CAJ_0308,,,PE,Peru,CAJ,Cajamarca,0308,Oxamarca,,,PE,PER,2
+PE_CAJ_0309,,,PE,Peru,CAJ,Cajamarca,0309,Sorochuco,,,PE,PER,2
+PE_CAJ_0310,,,PE,Peru,CAJ,Cajamarca,0310,Sucre,,,PE,PER,2
+PE_CAJ_0311,,,PE,Peru,CAJ,Cajamarca,0311,Utco,,,PE,PER,2
+PE_CAJ_0312,,,PE,Peru,CAJ,Cajamarca,0312,La Libertad de Pallan,,,PE,PER,2
+PE_CAJ_0401,,,PE,Peru,CAJ,Cajamarca,0401,Chota,,,PE,PER,2
+PE_CAJ_0402,,,PE,Peru,CAJ,Cajamarca,0402,Anguia,,,PE,PER,2
+PE_CAJ_0403,,,PE,Peru,CAJ,Cajamarca,0403,Chadin,,,PE,PER,2
+PE_CAJ_0404,,,PE,Peru,CAJ,Cajamarca,0404,Chiguirip,,,PE,PER,2
+PE_CAJ_0405,,,PE,Peru,CAJ,Cajamarca,0405,Chimban,,,PE,PER,2
+PE_CAJ_0406,,,PE,Peru,CAJ,Cajamarca,0406,Choropampa,,,PE,PER,2
+PE_CAJ_0407,,,PE,Peru,CAJ,Cajamarca,0407,Cochabamba,,,PE,PER,2
+PE_CAJ_0408,,,PE,Peru,CAJ,Cajamarca,0408,Conchan,,,PE,PER,2
+PE_CAJ_0409,,,PE,Peru,CAJ,Cajamarca,0409,Huambos,,,PE,PER,2
+PE_CAJ_0410,,,PE,Peru,CAJ,Cajamarca,0410,Lajas,,,PE,PER,2
+PE_CAJ_0411,,,PE,Peru,CAJ,Cajamarca,0411,Llama,,,PE,PER,2
+PE_CAJ_0412,,,PE,Peru,CAJ,Cajamarca,0412,Miracosta,,,PE,PER,2
+PE_CAJ_0413,,,PE,Peru,CAJ,Cajamarca,0413,Paccha,,,PE,PER,2
+PE_CAJ_0414,,,PE,Peru,CAJ,Cajamarca,0414,Pion,,,PE,PER,2
+PE_CAJ_0415,,,PE,Peru,CAJ,Cajamarca,0415,Querocoto,,,PE,PER,2
+PE_CAJ_0416,,,PE,Peru,CAJ,Cajamarca,0416,San Juan de Licupis,,,PE,PER,2
+PE_CAJ_0417,,,PE,Peru,CAJ,Cajamarca,0417,Tacabamba,,,PE,PER,2
+PE_CAJ_0418,,,PE,Peru,CAJ,Cajamarca,0418,Tocmoche,,,PE,PER,2
+PE_CAJ_0419,,,PE,Peru,CAJ,Cajamarca,0419,Chalamarca,,,PE,PER,2
+PE_CAJ_0501,,,PE,Peru,CAJ,Cajamarca,0501,Contumaza,,,PE,PER,2
+PE_CAJ_0502,,,PE,Peru,CAJ,Cajamarca,0502,Chilete,,,PE,PER,2
+PE_CAJ_0503,,,PE,Peru,CAJ,Cajamarca,0503,Cupisnique,,,PE,PER,2
+PE_CAJ_0504,,,PE,Peru,CAJ,Cajamarca,0504,Guzmango,,,PE,PER,2
+PE_CAJ_0505,,,PE,Peru,CAJ,Cajamarca,0505,San Benito,,,PE,PER,2
+PE_CAJ_0506,,,PE,Peru,CAJ,Cajamarca,0506,Santa Cruz de Toledo,,,PE,PER,2
+PE_CAJ_0507,,,PE,Peru,CAJ,Cajamarca,0507,Tantarica,,,PE,PER,2
+PE_CAJ_0508,,,PE,Peru,CAJ,Cajamarca,0508,Yonan,,,PE,PER,2
+PE_CAJ_0601,,,PE,Peru,CAJ,Cajamarca,0601,Cutervo,,,PE,PER,2
+PE_CAJ_0602,,,PE,Peru,CAJ,Cajamarca,0602,Callayuc,,,PE,PER,2
+PE_CAJ_0603,,,PE,Peru,CAJ,Cajamarca,0603,Choros,,,PE,PER,2
+PE_CAJ_0604,,,PE,Peru,CAJ,Cajamarca,0604,Cujillo,,,PE,PER,2
+PE_CAJ_0605,,,PE,Peru,CAJ,Cajamarca,0605,La Ramada,,,PE,PER,2
+PE_CAJ_0606,,,PE,Peru,CAJ,Cajamarca,0606,Pimpingos,,,PE,PER,2
+PE_CAJ_0607,,,PE,Peru,CAJ,Cajamarca,0607,Querocotillo,,,PE,PER,2
+PE_CAJ_0608,,,PE,Peru,CAJ,Cajamarca,0608,San Andrés de Cutervo,,,PE,PER,2
+PE_CAJ_0609,,,PE,Peru,CAJ,Cajamarca,0609,San Juan de Cutervo,,,PE,PER,2
+PE_CAJ_0610,,,PE,Peru,CAJ,Cajamarca,0610,San Luis de Lucma,,,PE,PER,2
+PE_CAJ_0611,,,PE,Peru,CAJ,Cajamarca,0611,Santa Cruz,,,PE,PER,2
+PE_CAJ_0612,,,PE,Peru,CAJ,Cajamarca,0612,Santo Domingo de la Capilla,,,PE,PER,2
+PE_CAJ_0613,,,PE,Peru,CAJ,Cajamarca,0613,Santo Tomas,,,PE,PER,2
+PE_CAJ_0614,,,PE,Peru,CAJ,Cajamarca,0614,Socota,,,PE,PER,2
+PE_CAJ_0615,,,PE,Peru,CAJ,Cajamarca,0615,Toribio Casanova,,,PE,PER,2
+PE_CAJ_0701,,,PE,Peru,CAJ,Cajamarca,0701,Bambamarca,,,PE,PER,2
+PE_CAJ_0702,,,PE,Peru,CAJ,Cajamarca,0702,Chugur,,,PE,PER,2
+PE_CAJ_0703,,,PE,Peru,CAJ,Cajamarca,0703,Hualgayoc,,,PE,PER,2
+PE_CAJ_0801,,,PE,Peru,CAJ,Cajamarca,0801,Jaén,,,PE,PER,2
+PE_CAJ_0802,,,PE,Peru,CAJ,Cajamarca,0802,Bellavista,,,PE,PER,2
+PE_CAJ_0803,,,PE,Peru,CAJ,Cajamarca,0803,Chontali,,,PE,PER,2
+PE_CAJ_0804,,,PE,Peru,CAJ,Cajamarca,0804,Colasay,,,PE,PER,2
+PE_CAJ_0805,,,PE,Peru,CAJ,Cajamarca,0805,Huabal,,,PE,PER,2
+PE_CAJ_0806,,,PE,Peru,CAJ,Cajamarca,0806,Las Pirias,,,PE,PER,2
+PE_CAJ_0807,,,PE,Peru,CAJ,Cajamarca,0807,Pomahuaca,,,PE,PER,2
+PE_CAJ_0808,,,PE,Peru,CAJ,Cajamarca,0808,Pucara,,,PE,PER,2
+PE_CAJ_0809,,,PE,Peru,CAJ,Cajamarca,0809,Sallique,,,PE,PER,2
+PE_CAJ_0810,,,PE,Peru,CAJ,Cajamarca,0810,San Felipe,,,PE,PER,2
+PE_CAJ_0811,,,PE,Peru,CAJ,Cajamarca,0811,San José del Alto,,,PE,PER,2
+PE_CAJ_0812,,,PE,Peru,CAJ,Cajamarca,0812,Santa Rosa,,,PE,PER,2
+PE_CAJ_0901,,,PE,Peru,CAJ,Cajamarca,0901,San Ignacio,,,PE,PER,2
+PE_CAJ_0902,,,PE,Peru,CAJ,Cajamarca,0902,Chirinos,,,PE,PER,2
+PE_CAJ_0903,,,PE,Peru,CAJ,Cajamarca,0903,Huarango,,,PE,PER,2
+PE_CAJ_0904,,,PE,Peru,CAJ,Cajamarca,0904,La Coipa,,,PE,PER,2
+PE_CAJ_0905,,,PE,Peru,CAJ,Cajamarca,0905,Namballe,,,PE,PER,2
+PE_CAJ_0906,,,PE,Peru,CAJ,Cajamarca,0906,San José de Lourdes,,,PE,PER,2
+PE_CAJ_0907,,,PE,Peru,CAJ,Cajamarca,0907,Tabaconas,,,PE,PER,2
+PE_CAJ_1001,,,PE,Peru,CAJ,Cajamarca,1001,Pedro Gálvez,,,PE,PER,2
+PE_CAJ_1002,,,PE,Peru,CAJ,Cajamarca,1002,Chancay,,,PE,PER,2
+PE_CAJ_1003,,,PE,Peru,CAJ,Cajamarca,1003,Eduardo Villanueva,,,PE,PER,2
+PE_CAJ_1004,,,PE,Peru,CAJ,Cajamarca,1004,Gregorio Pita,,,PE,PER,2
+PE_CAJ_1005,,,PE,Peru,CAJ,Cajamarca,1005,Ichocan,,,PE,PER,2
+PE_CAJ_1006,,,PE,Peru,CAJ,Cajamarca,1006,José Manuel Quiroz,,,PE,PER,2
+PE_CAJ_1007,,,PE,Peru,CAJ,Cajamarca,1007,José Sabogal,,,PE,PER,2
+PE_CAJ_1101,,,PE,Peru,CAJ,Cajamarca,1101,San Miguel,,,PE,PER,2
+PE_CAJ_1102,,,PE,Peru,CAJ,Cajamarca,1102,Bolívar,,,PE,PER,2
+PE_CAJ_1103,,,PE,Peru,CAJ,Cajamarca,1103,Calquis,,,PE,PER,2
+PE_CAJ_1104,,,PE,Peru,CAJ,Cajamarca,1104,Catilluc,,,PE,PER,2
+PE_CAJ_1105,,,PE,Peru,CAJ,Cajamarca,1105,El Prado,,,PE,PER,2
+PE_CAJ_1106,,,PE,Peru,CAJ,Cajamarca,1106,La Florida,,,PE,PER,2
+PE_CAJ_1107,,,PE,Peru,CAJ,Cajamarca,1107,Llapa,,,PE,PER,2
+PE_CAJ_1108,,,PE,Peru,CAJ,Cajamarca,1108,Nanchoc,,,PE,PER,2
+PE_CAJ_1109,,,PE,Peru,CAJ,Cajamarca,1109,Niepos,,,PE,PER,2
+PE_CAJ_1110,,,PE,Peru,CAJ,Cajamarca,1110,San Gregorio,,,PE,PER,2
+PE_CAJ_1111,,,PE,Peru,CAJ,Cajamarca,1111,San Silvestre de Cochan,,,PE,PER,2
+PE_CAJ_1112,,,PE,Peru,CAJ,Cajamarca,1112,Tongod,,,PE,PER,2
+PE_CAJ_1113,,,PE,Peru,CAJ,Cajamarca,1113,Unión Agua Blanca,,,PE,PER,2
+PE_CAJ_1201,,,PE,Peru,CAJ,Cajamarca,1201,San Pablo,,,PE,PER,2
+PE_CAJ_1202,,,PE,Peru,CAJ,Cajamarca,1202,San Bernardino,,,PE,PER,2
+PE_CAJ_1203,,,PE,Peru,CAJ,Cajamarca,1203,San Luis,,,PE,PER,2
+PE_CAJ_1204,,,PE,Peru,CAJ,Cajamarca,1204,Tumbaden,,,PE,PER,2
+PE_CAJ_1301,,,PE,Peru,CAJ,Cajamarca,1301,Santa Cruz,,,PE,PER,2
+PE_CAJ_1302,,,PE,Peru,CAJ,Cajamarca,1302,Andabamba,,,PE,PER,2
+PE_CAJ_1303,,,PE,Peru,CAJ,Cajamarca,1303,Catache,,,PE,PER,2
+PE_CAJ_1304,,,PE,Peru,CAJ,Cajamarca,1304,Chancaybaños,,,PE,PER,2
+PE_CAJ_1305,,,PE,Peru,CAJ,Cajamarca,1305,La Esperanza,,,PE,PER,2
+PE_CAJ_1306,,,PE,Peru,CAJ,Cajamarca,1306,Ninabamba,,,PE,PER,2
+PE_CAJ_1307,,,PE,Peru,CAJ,Cajamarca,1307,Pulan,,,PE,PER,2
+PE_CAJ_1308,,,PE,Peru,CAJ,Cajamarca,1308,Saucepampa,,,PE,PER,2
+PE_CAJ_1309,,,PE,Peru,CAJ,Cajamarca,1309,Sexi,,,PE,PER,2
+PE_CAJ_1310,,,PE,Peru,CAJ,Cajamarca,1310,Uticyacu,,,PE,PER,2
+PE_CAJ_1311,,,PE,Peru,CAJ,Cajamarca,1311,Yauyucan,,,PE,PER,2
 PE_CAL,Q105037,,PE,Peru,CAL,Callao,,,,,PE,PER,1
-PE_CUS,Q205057,,PE,Peru,CUS,Cuzco,,,,,PE,PER,1
+PE_CAL_0101,,,PE,Peru,CAL,Callao,0101,Callao,,,PE,PER,2
+PE_CAL_0102,,,PE,Peru,CAL,Callao,0102,Bellavista,,,PE,PER,2
+PE_CAL_0103,,,PE,Peru,CAL,Callao,0103,Carmen de la Legua Reynoso,,,PE,PER,2
+PE_CAL_0104,,,PE,Peru,CAL,Callao,0104,La Perla,,,PE,PER,2
+PE_CAL_0105,,,PE,Peru,CAL,Callao,0105,La Punta,,,PE,PER,2
+PE_CAL_0106,,,PE,Peru,CAL,Callao,0106,Ventanilla,,,PE,PER,2
+PE_CAL_0107,,,PE,Peru,CAL,Callao,0107,Mi Perú,,,PE,PER,2
+PE_CUS,Q205057,,PE,Peru,CUS,Cusco,,,,,PE,PER,1
+PE_CUS_0101,,,PE,Peru,CUS,Cusco,0101,Cusco,,,PE,PER,2
+PE_CUS_0102,,,PE,Peru,CUS,Cusco,0102,Ccorca,,,PE,PER,2
+PE_CUS_0103,,,PE,Peru,CUS,Cusco,0103,Poroy,,,PE,PER,2
+PE_CUS_0104,,,PE,Peru,CUS,Cusco,0104,San Jerónimo,,,PE,PER,2
+PE_CUS_0105,,,PE,Peru,CUS,Cusco,0105,San Sebastian,,,PE,PER,2
+PE_CUS_0106,,,PE,Peru,CUS,Cusco,0106,Santiago,,,PE,PER,2
+PE_CUS_0107,,,PE,Peru,CUS,Cusco,0107,Saylla,,,PE,PER,2
+PE_CUS_0108,,,PE,Peru,CUS,Cusco,0108,Wanchaq,,,PE,PER,2
+PE_CUS_0201,,,PE,Peru,CUS,Cusco,0201,Acomayo,,,PE,PER,2
+PE_CUS_0202,,,PE,Peru,CUS,Cusco,0202,Acopia,,,PE,PER,2
+PE_CUS_0203,,,PE,Peru,CUS,Cusco,0203,Acos,,,PE,PER,2
+PE_CUS_0204,,,PE,Peru,CUS,Cusco,0204,Mosoc Llacta,,,PE,PER,2
+PE_CUS_0205,,,PE,Peru,CUS,Cusco,0205,Pomacanchi,,,PE,PER,2
+PE_CUS_0206,,,PE,Peru,CUS,Cusco,0206,Rondocan,,,PE,PER,2
+PE_CUS_0207,,,PE,Peru,CUS,Cusco,0207,Sangarara,,,PE,PER,2
+PE_CUS_0301,,,PE,Peru,CUS,Cusco,0301,Anta,,,PE,PER,2
+PE_CUS_0302,,,PE,Peru,CUS,Cusco,0302,Ancahuasi,,,PE,PER,2
+PE_CUS_0303,,,PE,Peru,CUS,Cusco,0303,Cachimayo,,,PE,PER,2
+PE_CUS_0304,,,PE,Peru,CUS,Cusco,0304,Chinchaypujio,,,PE,PER,2
+PE_CUS_0305,,,PE,Peru,CUS,Cusco,0305,Huarocondo,,,PE,PER,2
+PE_CUS_0306,,,PE,Peru,CUS,Cusco,0306,Limatambo,,,PE,PER,2
+PE_CUS_0307,,,PE,Peru,CUS,Cusco,0307,Mollepata,,,PE,PER,2
+PE_CUS_0308,,,PE,Peru,CUS,Cusco,0308,Pucyura,,,PE,PER,2
+PE_CUS_0309,,,PE,Peru,CUS,Cusco,0309,Zurite,,,PE,PER,2
+PE_CUS_0401,,,PE,Peru,CUS,Cusco,0401,Calca,,,PE,PER,2
+PE_CUS_0402,,,PE,Peru,CUS,Cusco,0402,Coya,,,PE,PER,2
+PE_CUS_0403,,,PE,Peru,CUS,Cusco,0403,Lamay,,,PE,PER,2
+PE_CUS_0404,,,PE,Peru,CUS,Cusco,0404,Lares,,,PE,PER,2
+PE_CUS_0405,,,PE,Peru,CUS,Cusco,0405,Pisac,,,PE,PER,2
+PE_CUS_0406,,,PE,Peru,CUS,Cusco,0406,San Salvador,,,PE,PER,2
+PE_CUS_0407,,,PE,Peru,CUS,Cusco,0407,Taray,,,PE,PER,2
+PE_CUS_0408,,,PE,Peru,CUS,Cusco,0408,Yanatile,,,PE,PER,2
+PE_CUS_0501,,,PE,Peru,CUS,Cusco,0501,Yanaoca,,,PE,PER,2
+PE_CUS_0502,,,PE,Peru,CUS,Cusco,0502,Checca,,,PE,PER,2
+PE_CUS_0503,,,PE,Peru,CUS,Cusco,0503,Kunturkanki,,,PE,PER,2
+PE_CUS_0504,,,PE,Peru,CUS,Cusco,0504,Langui,,,PE,PER,2
+PE_CUS_0505,,,PE,Peru,CUS,Cusco,0505,Layo,,,PE,PER,2
+PE_CUS_0506,,,PE,Peru,CUS,Cusco,0506,Pampamarca,,,PE,PER,2
+PE_CUS_0507,,,PE,Peru,CUS,Cusco,0507,Quehue,,,PE,PER,2
+PE_CUS_0508,,,PE,Peru,CUS,Cusco,0508,Tupac Amaru,,,PE,PER,2
+PE_CUS_0601,,,PE,Peru,CUS,Cusco,0601,Sicuani,,,PE,PER,2
+PE_CUS_0602,,,PE,Peru,CUS,Cusco,0602,Checacupe,,,PE,PER,2
+PE_CUS_0603,,,PE,Peru,CUS,Cusco,0603,Combapata,,,PE,PER,2
+PE_CUS_0604,,,PE,Peru,CUS,Cusco,0604,Marangani,,,PE,PER,2
+PE_CUS_0605,,,PE,Peru,CUS,Cusco,0605,Pitumarca,,,PE,PER,2
+PE_CUS_0606,,,PE,Peru,CUS,Cusco,0606,San Pablo,,,PE,PER,2
+PE_CUS_0607,,,PE,Peru,CUS,Cusco,0607,San Pedro,,,PE,PER,2
+PE_CUS_0608,,,PE,Peru,CUS,Cusco,0608,Tinta,,,PE,PER,2
+PE_CUS_0701,,,PE,Peru,CUS,Cusco,0701,Santo Tomas,,,PE,PER,2
+PE_CUS_0702,,,PE,Peru,CUS,Cusco,0702,Capacmarca,,,PE,PER,2
+PE_CUS_0703,,,PE,Peru,CUS,Cusco,0703,Chamaca,,,PE,PER,2
+PE_CUS_0704,,,PE,Peru,CUS,Cusco,0704,Colquemarca,,,PE,PER,2
+PE_CUS_0705,,,PE,Peru,CUS,Cusco,0705,Livitaca,,,PE,PER,2
+PE_CUS_0706,,,PE,Peru,CUS,Cusco,0706,Llusco,,,PE,PER,2
+PE_CUS_0707,,,PE,Peru,CUS,Cusco,0707,Quiñota,,,PE,PER,2
+PE_CUS_0708,,,PE,Peru,CUS,Cusco,0708,Velille,,,PE,PER,2
+PE_CUS_0801,,,PE,Peru,CUS,Cusco,0801,Espinar,,,PE,PER,2
+PE_CUS_0802,,,PE,Peru,CUS,Cusco,0802,Condoroma,,,PE,PER,2
+PE_CUS_0803,,,PE,Peru,CUS,Cusco,0803,Coporaque,,,PE,PER,2
+PE_CUS_0804,,,PE,Peru,CUS,Cusco,0804,Ocoruro,,,PE,PER,2
+PE_CUS_0805,,,PE,Peru,CUS,Cusco,0805,Pallpata,,,PE,PER,2
+PE_CUS_0806,,,PE,Peru,CUS,Cusco,0806,Pichigua,,,PE,PER,2
+PE_CUS_0807,,,PE,Peru,CUS,Cusco,0807,Suyckutambo,,,PE,PER,2
+PE_CUS_0808,,,PE,Peru,CUS,Cusco,0808,Alto Pichigua,,,PE,PER,2
+PE_CUS_0901,,,PE,Peru,CUS,Cusco,0901,Santa Ana,,,PE,PER,2
+PE_CUS_0902,,,PE,Peru,CUS,Cusco,0902,Echarate,,,PE,PER,2
+PE_CUS_0903,,,PE,Peru,CUS,Cusco,0903,Huayopata,,,PE,PER,2
+PE_CUS_0904,,,PE,Peru,CUS,Cusco,0904,Maranura,,,PE,PER,2
+PE_CUS_0905,,,PE,Peru,CUS,Cusco,0905,Ocobamba,,,PE,PER,2
+PE_CUS_0906,,,PE,Peru,CUS,Cusco,0906,Quellouno,,,PE,PER,2
+PE_CUS_0907,,,PE,Peru,CUS,Cusco,0907,Kimbiri,,,PE,PER,2
+PE_CUS_0908,,,PE,Peru,CUS,Cusco,0908,Santa Teresa,,,PE,PER,2
+PE_CUS_0909,,,PE,Peru,CUS,Cusco,0909,Vilcabamba,,,PE,PER,2
+PE_CUS_0910,,,PE,Peru,CUS,Cusco,0910,Pichari,,,PE,PER,2
+PE_CUS_0911,,,PE,Peru,CUS,Cusco,0911,Inkawasi,,,PE,PER,2
+PE_CUS_0912,,,PE,Peru,CUS,Cusco,0912,Villa Virgen,,,PE,PER,2
+PE_CUS_0913,,,PE,Peru,CUS,Cusco,0913,Villa Kintiarina,,,PE,PER,2
+PE_CUS_0914,,,PE,Peru,CUS,Cusco,0914,Megantoni,,,PE,PER,2
+PE_CUS_1001,,,PE,Peru,CUS,Cusco,1001,Paruro,,,PE,PER,2
+PE_CUS_1002,,,PE,Peru,CUS,Cusco,1002,Accha,,,PE,PER,2
+PE_CUS_1003,,,PE,Peru,CUS,Cusco,1003,Ccapi,,,PE,PER,2
+PE_CUS_1004,,,PE,Peru,CUS,Cusco,1004,Colcha,,,PE,PER,2
+PE_CUS_1005,,,PE,Peru,CUS,Cusco,1005,Huanoquite,,,PE,PER,2
+PE_CUS_1006,,,PE,Peru,CUS,Cusco,1006,Omacha,,,PE,PER,2
+PE_CUS_1007,,,PE,Peru,CUS,Cusco,1007,Paccaritambo,,,PE,PER,2
+PE_CUS_1008,,,PE,Peru,CUS,Cusco,1008,Pillpinto,,,PE,PER,2
+PE_CUS_1009,,,PE,Peru,CUS,Cusco,1009,Yaurisque,,,PE,PER,2
+PE_CUS_1101,,,PE,Peru,CUS,Cusco,1101,Paucartambo,,,PE,PER,2
+PE_CUS_1102,,,PE,Peru,CUS,Cusco,1102,Caicay,,,PE,PER,2
+PE_CUS_1103,,,PE,Peru,CUS,Cusco,1103,Challabamba,,,PE,PER,2
+PE_CUS_1104,,,PE,Peru,CUS,Cusco,1104,Colquepata,,,PE,PER,2
+PE_CUS_1105,,,PE,Peru,CUS,Cusco,1105,Huancarani,,,PE,PER,2
+PE_CUS_1106,,,PE,Peru,CUS,Cusco,1106,Kosñipata,,,PE,PER,2
+PE_CUS_1201,,,PE,Peru,CUS,Cusco,1201,Urcos,,,PE,PER,2
+PE_CUS_1202,,,PE,Peru,CUS,Cusco,1202,Andahuaylillas,,,PE,PER,2
+PE_CUS_1203,,,PE,Peru,CUS,Cusco,1203,Camanti,,,PE,PER,2
+PE_CUS_1204,,,PE,Peru,CUS,Cusco,1204,Ccarhuayo,,,PE,PER,2
+PE_CUS_1205,,,PE,Peru,CUS,Cusco,1205,Ccatca,,,PE,PER,2
+PE_CUS_1206,,,PE,Peru,CUS,Cusco,1206,Cusipata,,,PE,PER,2
+PE_CUS_1207,,,PE,Peru,CUS,Cusco,1207,Huaro,,,PE,PER,2
+PE_CUS_1208,,,PE,Peru,CUS,Cusco,1208,Lucre,,,PE,PER,2
+PE_CUS_1209,,,PE,Peru,CUS,Cusco,1209,Marcapata,,,PE,PER,2
+PE_CUS_1210,,,PE,Peru,CUS,Cusco,1210,Ocongate,,,PE,PER,2
+PE_CUS_1211,,,PE,Peru,CUS,Cusco,1211,Oropesa,,,PE,PER,2
+PE_CUS_1212,,,PE,Peru,CUS,Cusco,1212,Quiquijana,,,PE,PER,2
+PE_CUS_1301,,,PE,Peru,CUS,Cusco,1301,Urubamba,,,PE,PER,2
+PE_CUS_1302,,,PE,Peru,CUS,Cusco,1302,Chinchero,,,PE,PER,2
+PE_CUS_1303,,,PE,Peru,CUS,Cusco,1303,Huayllabamba,,,PE,PER,2
+PE_CUS_1304,,,PE,Peru,CUS,Cusco,1304,Machupicchu,,,PE,PER,2
+PE_CUS_1305,,,PE,Peru,CUS,Cusco,1305,Maras,,,PE,PER,2
+PE_CUS_1306,,,PE,Peru,CUS,Cusco,1306,Ollantaytambo,,,PE,PER,2
+PE_CUS_1307,,,PE,Peru,CUS,Cusco,1307,Yucay,,,PE,PER,2
 PE_HUC,Q215221,,PE,Peru,HUC,Huánuco,,,,,PE,PER,1
+PE_HUC_0101,,,PE,Peru,HUC,Huancavelica,0101,Huancavelica,,,PE,PER,2
+PE_HUC_0102,,,PE,Peru,HUC,Huancavelica,0102,Acobambilla,,,PE,PER,2
+PE_HUC_0103,,,PE,Peru,HUC,Huancavelica,0103,Acoria,,,PE,PER,2
+PE_HUC_0104,,,PE,Peru,HUC,Huancavelica,0104,Conayca,,,PE,PER,2
+PE_HUC_0105,,,PE,Peru,HUC,Huancavelica,0105,Cuenca,,,PE,PER,2
+PE_HUC_0106,,,PE,Peru,HUC,Huancavelica,0106,Huachocolpa,,,PE,PER,2
+PE_HUC_0107,,,PE,Peru,HUC,Huancavelica,0107,Huayllahuara,,,PE,PER,2
+PE_HUC_0108,,,PE,Peru,HUC,Huancavelica,0108,Izcuchaca,,,PE,PER,2
+PE_HUC_0109,,,PE,Peru,HUC,Huancavelica,0109,Laria,,,PE,PER,2
+PE_HUC_0110,,,PE,Peru,HUC,Huancavelica,0110,Manta,,,PE,PER,2
+PE_HUC_0111,,,PE,Peru,HUC,Huancavelica,0111,Mariscal Cáceres,,,PE,PER,2
+PE_HUC_0112,,,PE,Peru,HUC,Huancavelica,0112,Moya,,,PE,PER,2
+PE_HUC_0113,,,PE,Peru,HUC,Huancavelica,0113,Nuevo Occoro,,,PE,PER,2
+PE_HUC_0114,,,PE,Peru,HUC,Huancavelica,0114,Palca,,,PE,PER,2
+PE_HUC_0115,,,PE,Peru,HUC,Huancavelica,0115,Pilchaca,,,PE,PER,2
+PE_HUC_0116,,,PE,Peru,HUC,Huancavelica,0116,Vilca,,,PE,PER,2
+PE_HUC_0117,,,PE,Peru,HUC,Huancavelica,0117,Yauli,,,PE,PER,2
+PE_HUC_0118,,,PE,Peru,HUC,Huancavelica,0118,Ascensión,,,PE,PER,2
+PE_HUC_0119,,,PE,Peru,HUC,Huancavelica,0119,Huando,,,PE,PER,2
+PE_HUC_0201,,,PE,Peru,HUC,Huancavelica,0201,Acobamba,,,PE,PER,2
+PE_HUC_0202,,,PE,Peru,HUC,Huancavelica,0202,Andabamba,,,PE,PER,2
+PE_HUC_0203,,,PE,Peru,HUC,Huancavelica,0203,Anta,,,PE,PER,2
+PE_HUC_0204,,,PE,Peru,HUC,Huancavelica,0204,Caja,,,PE,PER,2
+PE_HUC_0205,,,PE,Peru,HUC,Huancavelica,0205,Marcas,,,PE,PER,2
+PE_HUC_0206,,,PE,Peru,HUC,Huancavelica,0206,Paucara,,,PE,PER,2
+PE_HUC_0207,,,PE,Peru,HUC,Huancavelica,0207,Pomacocha,,,PE,PER,2
+PE_HUC_0208,,,PE,Peru,HUC,Huancavelica,0208,Rosario,,,PE,PER,2
+PE_HUC_0301,,,PE,Peru,HUC,Huancavelica,0301,Lircay,,,PE,PER,2
+PE_HUC_0302,,,PE,Peru,HUC,Huancavelica,0302,Anchonga,,,PE,PER,2
+PE_HUC_0303,,,PE,Peru,HUC,Huancavelica,0303,Callanmarca,,,PE,PER,2
+PE_HUC_0304,,,PE,Peru,HUC,Huancavelica,0304,Ccochaccasa,,,PE,PER,2
+PE_HUC_0305,,,PE,Peru,HUC,Huancavelica,0305,Chincho,,,PE,PER,2
+PE_HUC_0306,,,PE,Peru,HUC,Huancavelica,0306,Congalla,,,PE,PER,2
+PE_HUC_0307,,,PE,Peru,HUC,Huancavelica,0307,Huanca-Huanca,,,PE,PER,2
+PE_HUC_0308,,,PE,Peru,HUC,Huancavelica,0308,Huayllay Grande,,,PE,PER,2
+PE_HUC_0309,,,PE,Peru,HUC,Huancavelica,0309,Julcamarca,,,PE,PER,2
+PE_HUC_0310,,,PE,Peru,HUC,Huancavelica,0310,San Antonio de Antaparco,,,PE,PER,2
+PE_HUC_0311,,,PE,Peru,HUC,Huancavelica,0311,Santo Tomas de Pata,,,PE,PER,2
+PE_HUC_0312,,,PE,Peru,HUC,Huancavelica,0312,Secclla,,,PE,PER,2
+PE_HUC_0401,,,PE,Peru,HUC,Huancavelica,0401,Castrovirreyna,,,PE,PER,2
+PE_HUC_0402,,,PE,Peru,HUC,Huancavelica,0402,Arma,,,PE,PER,2
+PE_HUC_0403,,,PE,Peru,HUC,Huancavelica,0403,Aurahua,,,PE,PER,2
+PE_HUC_0404,,,PE,Peru,HUC,Huancavelica,0404,Capillas,,,PE,PER,2
+PE_HUC_0405,,,PE,Peru,HUC,Huancavelica,0405,Chupamarca,,,PE,PER,2
+PE_HUC_0406,,,PE,Peru,HUC,Huancavelica,0406,Cocas,,,PE,PER,2
+PE_HUC_0407,,,PE,Peru,HUC,Huancavelica,0407,Huachos,,,PE,PER,2
+PE_HUC_0408,,,PE,Peru,HUC,Huancavelica,0408,Huamatambo,,,PE,PER,2
+PE_HUC_0409,,,PE,Peru,HUC,Huancavelica,0409,Mollepampa,,,PE,PER,2
+PE_HUC_0410,,,PE,Peru,HUC,Huancavelica,0410,San Juan,,,PE,PER,2
+PE_HUC_0411,,,PE,Peru,HUC,Huancavelica,0411,Santa Ana,,,PE,PER,2
+PE_HUC_0412,,,PE,Peru,HUC,Huancavelica,0412,Tantara,,,PE,PER,2
+PE_HUC_0413,,,PE,Peru,HUC,Huancavelica,0413,Ticrapo,,,PE,PER,2
+PE_HUC_0501,,,PE,Peru,HUC,Huancavelica,0501,Churcampa,,,PE,PER,2
+PE_HUC_0502,,,PE,Peru,HUC,Huancavelica,0502,Anco,,,PE,PER,2
+PE_HUC_0503,,,PE,Peru,HUC,Huancavelica,0503,Chinchihuasi,,,PE,PER,2
+PE_HUC_0504,,,PE,Peru,HUC,Huancavelica,0504,El Carmen,,,PE,PER,2
+PE_HUC_0505,,,PE,Peru,HUC,Huancavelica,0505,La Merced,,,PE,PER,2
+PE_HUC_0506,,,PE,Peru,HUC,Huancavelica,0506,Locroja,,,PE,PER,2
+PE_HUC_0507,,,PE,Peru,HUC,Huancavelica,0507,Paucarbamba,,,PE,PER,2
+PE_HUC_0508,,,PE,Peru,HUC,Huancavelica,0508,San Miguel de Mayocc,,,PE,PER,2
+PE_HUC_0509,,,PE,Peru,HUC,Huancavelica,0509,San Pedro de Coris,,,PE,PER,2
+PE_HUC_0510,,,PE,Peru,HUC,Huancavelica,0510,Pachamarca,,,PE,PER,2
+PE_HUC_0511,,,PE,Peru,HUC,Huancavelica,0511,Cosme,,,PE,PER,2
+PE_HUC_0601,,,PE,Peru,HUC,Huancavelica,0601,Huaytara,,,PE,PER,2
+PE_HUC_0602,,,PE,Peru,HUC,Huancavelica,0602,Ayavi,,,PE,PER,2
+PE_HUC_0603,,,PE,Peru,HUC,Huancavelica,0603,Córdova,,,PE,PER,2
+PE_HUC_0604,,,PE,Peru,HUC,Huancavelica,0604,Huayacundo Arma,,,PE,PER,2
+PE_HUC_0605,,,PE,Peru,HUC,Huancavelica,0605,Laramarca,,,PE,PER,2
+PE_HUC_0606,,,PE,Peru,HUC,Huancavelica,0606,Ocoyo,,,PE,PER,2
+PE_HUC_0607,,,PE,Peru,HUC,Huancavelica,0607,Pilpichaca,,,PE,PER,2
+PE_HUC_0608,,,PE,Peru,HUC,Huancavelica,0608,Querco,,,PE,PER,2
+PE_HUC_0609,,,PE,Peru,HUC,Huancavelica,0609,Quito-Arma,,,PE,PER,2
+PE_HUC_0610,,,PE,Peru,HUC,Huancavelica,0610,San Antonio de Cusicancha,,,PE,PER,2
+PE_HUC_0611,,,PE,Peru,HUC,Huancavelica,0611,San Francisco de Sangayaico,,,PE,PER,2
+PE_HUC_0612,,,PE,Peru,HUC,Huancavelica,0612,San Isidro,,,PE,PER,2
+PE_HUC_0613,,,PE,Peru,HUC,Huancavelica,0613,Santiago de Chocorvos,,,PE,PER,2
+PE_HUC_0614,,,PE,Peru,HUC,Huancavelica,0614,Santiago de Quirahuara,,,PE,PER,2
+PE_HUC_0615,,,PE,Peru,HUC,Huancavelica,0615,Santo Domingo de Capillas,,,PE,PER,2
+PE_HUC_0616,,,PE,Peru,HUC,Huancavelica,0616,Tambo,,,PE,PER,2
+PE_HUC_0701,,,PE,Peru,HUC,Huancavelica,0701,Pampas,,,PE,PER,2
+PE_HUC_0702,,,PE,Peru,HUC,Huancavelica,0702,Acostambo,,,PE,PER,2
+PE_HUC_0703,,,PE,Peru,HUC,Huancavelica,0703,Acraquia,,,PE,PER,2
+PE_HUC_0704,,,PE,Peru,HUC,Huancavelica,0704,Ahuaycha,,,PE,PER,2
+PE_HUC_0705,,,PE,Peru,HUC,Huancavelica,0705,Colcabamba,,,PE,PER,2
+PE_HUC_0706,,,PE,Peru,HUC,Huancavelica,0706,Daniel Hernández,,,PE,PER,2
+PE_HUC_0707,,,PE,Peru,HUC,Huancavelica,0707,Huachocolpa,,,PE,PER,2
+PE_HUC_0709,,,PE,Peru,HUC,Huancavelica,0709,Huaribamba,,,PE,PER,2
+PE_HUC_0710,,,PE,Peru,HUC,Huancavelica,0710,Ñahuimpuquio,,,PE,PER,2
+PE_HUC_0711,,,PE,Peru,HUC,Huancavelica,0711,Pazos,,,PE,PER,2
+PE_HUC_0713,,,PE,Peru,HUC,Huancavelica,0713,Quishuar,,,PE,PER,2
+PE_HUC_0714,,,PE,Peru,HUC,Huancavelica,0714,Salcabamba,,,PE,PER,2
+PE_HUC_0715,,,PE,Peru,HUC,Huancavelica,0715,Salcahuasi,,,PE,PER,2
+PE_HUC_0716,,,PE,Peru,HUC,Huancavelica,0716,San Marcos de Rocchac,,,PE,PER,2
+PE_HUC_0717,,,PE,Peru,HUC,Huancavelica,0717,Surcubamba,,,PE,PER,2
+PE_HUC_0718,,,PE,Peru,HUC,Huancavelica,0718,Tintay Puncu,,,PE,PER,2
+PE_HUC_0719,,,PE,Peru,HUC,Huancavelica,0719,Quichuas,,,PE,PER,2
+PE_HUC_0720,,,PE,Peru,HUC,Huancavelica,0720,Andaymarca,,,PE,PER,2
+PE_HUC_0721,,,PE,Peru,HUC,Huancavelica,0721,Roble,,,PE,PER,2
+PE_HUC_0722,,,PE,Peru,HUC,Huancavelica,0722,Pichos,,,PE,PER,2
+PE_HUC_0723,,,PE,Peru,HUC,Huancavelica,0723,Santiago de Tucuma,,,PE,PER,2
 PE_HUV,Q505220,,PE,Peru,HUV,Huancavelica,,,,,PE,PER,1
+PE_HUV_0101,,,PE,Peru,HUV,Huánuco,0101,Huanuco,,,PE,PER,2
+PE_HUV_0102,,,PE,Peru,HUV,Huánuco,0102,Amarilis,,,PE,PER,2
+PE_HUV_0103,,,PE,Peru,HUV,Huánuco,0103,Chinchao,,,PE,PER,2
+PE_HUV_0104,,,PE,Peru,HUV,Huánuco,0104,Churubamba,,,PE,PER,2
+PE_HUV_0105,,,PE,Peru,HUV,Huánuco,0105,Margos,,,PE,PER,2
+PE_HUV_0106,,,PE,Peru,HUV,Huánuco,0106,Quisqui (Kichki),,,PE,PER,2
+PE_HUV_0107,,,PE,Peru,HUV,Huánuco,0107,San Francisco de Cayran,,,PE,PER,2
+PE_HUV_0108,,,PE,Peru,HUV,Huánuco,0108,San Pedro de Chaulan,,,PE,PER,2
+PE_HUV_0109,,,PE,Peru,HUV,Huánuco,0109,Santa María del Valle,,,PE,PER,2
+PE_HUV_0110,,,PE,Peru,HUV,Huánuco,0110,Yarumayo,,,PE,PER,2
+PE_HUV_0111,,,PE,Peru,HUV,Huánuco,0111,Pillco Marca,,,PE,PER,2
+PE_HUV_0112,,,PE,Peru,HUV,Huánuco,0112,Yacus,,,PE,PER,2
+PE_HUV_0113,,,PE,Peru,HUV,Huánuco,0113,San Pablo de Pillao,,,PE,PER,2
+PE_HUV_0201,,,PE,Peru,HUV,Huánuco,0201,Ambo,,,PE,PER,2
+PE_HUV_0202,,,PE,Peru,HUV,Huánuco,0202,Cayna,,,PE,PER,2
+PE_HUV_0203,,,PE,Peru,HUV,Huánuco,0203,Colpas,,,PE,PER,2
+PE_HUV_0204,,,PE,Peru,HUV,Huánuco,0204,Conchamarca,,,PE,PER,2
+PE_HUV_0205,,,PE,Peru,HUV,Huánuco,0205,Huacar,,,PE,PER,2
+PE_HUV_0206,,,PE,Peru,HUV,Huánuco,0206,San Francisco,,,PE,PER,2
+PE_HUV_0207,,,PE,Peru,HUV,Huánuco,0207,San Rafael,,,PE,PER,2
+PE_HUV_0208,,,PE,Peru,HUV,Huánuco,0208,Tomay Kichwa,,,PE,PER,2
+PE_HUV_0301,,,PE,Peru,HUV,Huánuco,0301,La Unión,,,PE,PER,2
+PE_HUV_0307,,,PE,Peru,HUV,Huánuco,0307,Chuquis,,,PE,PER,2
+PE_HUV_0311,,,PE,Peru,HUV,Huánuco,0311,Marías,,,PE,PER,2
+PE_HUV_0313,,,PE,Peru,HUV,Huánuco,0313,Pachas,,,PE,PER,2
+PE_HUV_0316,,,PE,Peru,HUV,Huánuco,0316,Quivilla,,,PE,PER,2
+PE_HUV_0317,,,PE,Peru,HUV,Huánuco,0317,Ripan,,,PE,PER,2
+PE_HUV_0321,,,PE,Peru,HUV,Huánuco,0321,Shunqui,,,PE,PER,2
+PE_HUV_0322,,,PE,Peru,HUV,Huánuco,0322,Sillapata,,,PE,PER,2
+PE_HUV_0323,,,PE,Peru,HUV,Huánuco,0323,Yanas,,,PE,PER,2
+PE_HUV_0401,,,PE,Peru,HUV,Huánuco,0401,Huacaybamba,,,PE,PER,2
+PE_HUV_0402,,,PE,Peru,HUV,Huánuco,0402,Canchabamba,,,PE,PER,2
+PE_HUV_0403,,,PE,Peru,HUV,Huánuco,0403,Cochabamba,,,PE,PER,2
+PE_HUV_0404,,,PE,Peru,HUV,Huánuco,0404,Pinra,,,PE,PER,2
+PE_HUV_0501,,,PE,Peru,HUV,Huánuco,0501,Llata,,,PE,PER,2
+PE_HUV_0502,,,PE,Peru,HUV,Huánuco,0502,Arancay,,,PE,PER,2
+PE_HUV_0503,,,PE,Peru,HUV,Huánuco,0503,Chavín de Pariarca,,,PE,PER,2
+PE_HUV_0504,,,PE,Peru,HUV,Huánuco,0504,Jacas Grande,,,PE,PER,2
+PE_HUV_0505,,,PE,Peru,HUV,Huánuco,0505,Jircan,,,PE,PER,2
+PE_HUV_0506,,,PE,Peru,HUV,Huánuco,0506,Miraflores,,,PE,PER,2
+PE_HUV_0507,,,PE,Peru,HUV,Huánuco,0507,Monzón,,,PE,PER,2
+PE_HUV_0508,,,PE,Peru,HUV,Huánuco,0508,Punchao,,,PE,PER,2
+PE_HUV_0509,,,PE,Peru,HUV,Huánuco,0509,Puños,,,PE,PER,2
+PE_HUV_0510,,,PE,Peru,HUV,Huánuco,0510,Singa,,,PE,PER,2
+PE_HUV_0511,,,PE,Peru,HUV,Huánuco,0511,Tantamayo,,,PE,PER,2
+PE_HUV_0601,,,PE,Peru,HUV,Huánuco,0601,Rupa-Rupa,,,PE,PER,2
+PE_HUV_0602,,,PE,Peru,HUV,Huánuco,0602,Daniel Alomía Robles,,,PE,PER,2
+PE_HUV_0603,,,PE,Peru,HUV,Huánuco,0603,Hermílio Valdizan,,,PE,PER,2
+PE_HUV_0604,,,PE,Peru,HUV,Huánuco,0604,José Crespo y Castillo,,,PE,PER,2
+PE_HUV_0605,,,PE,Peru,HUV,Huánuco,0605,Luyando,,,PE,PER,2
+PE_HUV_0606,,,PE,Peru,HUV,Huánuco,0606,Mariano Damaso Beraun,,,PE,PER,2
+PE_HUV_0607,,,PE,Peru,HUV,Huánuco,0607,Pucayacu,,,PE,PER,2
+PE_HUV_0608,,,PE,Peru,HUV,Huánuco,0608,Castillo Grande,,,PE,PER,2
+PE_HUV_0609,,,PE,Peru,HUV,Huánuco,0609,Pueblo Nuevo,,,PE,PER,2
+PE_HUV_0610,,,PE,Peru,HUV,Huánuco,0610,Santo Domingo de Anda,,,PE,PER,2
+PE_HUV_0701,,,PE,Peru,HUV,Huánuco,0701,Huacrachuco,,,PE,PER,2
+PE_HUV_0702,,,PE,Peru,HUV,Huánuco,0702,Cholon,,,PE,PER,2
+PE_HUV_0703,,,PE,Peru,HUV,Huánuco,0703,San Buenaventura,,,PE,PER,2
+PE_HUV_0704,,,PE,Peru,HUV,Huánuco,0704,La Morada,,,PE,PER,2
+PE_HUV_0705,,,PE,Peru,HUV,Huánuco,0705,Santa Rosa de Alto Yanajanca,,,PE,PER,2
+PE_HUV_0801,,,PE,Peru,HUV,Huánuco,0801,Panao,,,PE,PER,2
+PE_HUV_0802,,,PE,Peru,HUV,Huánuco,0802,Chaglla,,,PE,PER,2
+PE_HUV_0803,,,PE,Peru,HUV,Huánuco,0803,Molino,,,PE,PER,2
+PE_HUV_0804,,,PE,Peru,HUV,Huánuco,0804,Umari,,,PE,PER,2
+PE_HUV_0901,,,PE,Peru,HUV,Huánuco,0901,Puerto Inca,,,PE,PER,2
+PE_HUV_0902,,,PE,Peru,HUV,Huánuco,0902,Codo del Pozuzo,,,PE,PER,2
+PE_HUV_0903,,,PE,Peru,HUV,Huánuco,0903,Honoria,,,PE,PER,2
+PE_HUV_0904,,,PE,Peru,HUV,Huánuco,0904,Tournavista,,,PE,PER,2
+PE_HUV_0905,,,PE,Peru,HUV,Huánuco,0905,Yuyapichis,,,PE,PER,2
+PE_HUV_1001,,,PE,Peru,HUV,Huánuco,1001,Jesús,,,PE,PER,2
+PE_HUV_1002,,,PE,Peru,HUV,Huánuco,1002,Baños,,,PE,PER,2
+PE_HUV_1003,,,PE,Peru,HUV,Huánuco,1003,Jivia,,,PE,PER,2
+PE_HUV_1004,,,PE,Peru,HUV,Huánuco,1004,Queropalca,,,PE,PER,2
+PE_HUV_1005,,,PE,Peru,HUV,Huánuco,1005,Rondos,,,PE,PER,2
+PE_HUV_1006,,,PE,Peru,HUV,Huánuco,1006,San Francisco de Asís,,,PE,PER,2
+PE_HUV_1007,,,PE,Peru,HUV,Huánuco,1007,San Miguel de Cauri,,,PE,PER,2
+PE_HUV_1101,,,PE,Peru,HUV,Huánuco,1101,Chavinillo,,,PE,PER,2
+PE_HUV_1102,,,PE,Peru,HUV,Huánuco,1102,Cahuac,,,PE,PER,2
+PE_HUV_1103,,,PE,Peru,HUV,Huánuco,1103,Chacabamba,,,PE,PER,2
+PE_HUV_1104,,,PE,Peru,HUV,Huánuco,1104,Aparicio Pomares,,,PE,PER,2
+PE_HUV_1105,,,PE,Peru,HUV,Huánuco,1105,Jacas Chico,,,PE,PER,2
+PE_HUV_1106,,,PE,Peru,HUV,Huánuco,1106,Obas,,,PE,PER,2
+PE_HUV_1107,,,PE,Peru,HUV,Huánuco,1107,Pampamarca,,,PE,PER,2
+PE_HUV_1108,,,PE,Peru,HUV,Huánuco,1108,Choras,,,PE,PER,2
 PE_ICA,Q208186,,PE,Peru,ICA,Ica,,,,,PE,PER,1
+PE_ICA_0101,,,PE,Peru,ICA,Ica,0101,Ica,,,PE,PER,2
+PE_ICA_0102,,,PE,Peru,ICA,Ica,0102,La Tinguiña,,,PE,PER,2
+PE_ICA_0103,,,PE,Peru,ICA,Ica,0103,Los Aquijes,,,PE,PER,2
+PE_ICA_0104,,,PE,Peru,ICA,Ica,0104,Ocucaje,,,PE,PER,2
+PE_ICA_0105,,,PE,Peru,ICA,Ica,0105,Pachacutec,,,PE,PER,2
+PE_ICA_0106,,,PE,Peru,ICA,Ica,0106,Parcona,,,PE,PER,2
+PE_ICA_0107,,,PE,Peru,ICA,Ica,0107,"Pueblo Nuevo, Ica",,,PE,PER,2
+PE_ICA_0108,,,PE,Peru,ICA,Ica,0108,Salas,,,PE,PER,2
+PE_ICA_0109,,,PE,Peru,ICA,Ica,0109,San José de Los Molinos,,,PE,PER,2
+PE_ICA_0110,,,PE,Peru,ICA,Ica,0110,San Juan Bautista,,,PE,PER,2
+PE_ICA_0111,,,PE,Peru,ICA,Ica,0111,Santiago,,,PE,PER,2
+PE_ICA_0112,,,PE,Peru,ICA,Ica,0112,Subtanjalla,,,PE,PER,2
+PE_ICA_0113,,,PE,Peru,ICA,Ica,0113,Tate,,,PE,PER,2
+PE_ICA_0114,,,PE,Peru,ICA,Ica,0114,Yauca del Rosario,,,PE,PER,2
+PE_ICA_0201,,,PE,Peru,ICA,Ica,0201,Chincha Alta,,,PE,PER,2
+PE_ICA_0202,,,PE,Peru,ICA,Ica,0202,Alto Laran,,,PE,PER,2
+PE_ICA_0203,,,PE,Peru,ICA,Ica,0203,Chavin,,,PE,PER,2
+PE_ICA_0204,,,PE,Peru,ICA,Ica,0204,Chincha Baja,,,PE,PER,2
+PE_ICA_0205,,,PE,Peru,ICA,Ica,0205,El Carmen,,,PE,PER,2
+PE_ICA_0206,,,PE,Peru,ICA,Ica,0206,Grocio Prado,,,PE,PER,2
+PE_ICA_0207,,,PE,Peru,ICA,Ica,0207,"Pueblo Nuevo, Chincha",,,PE,PER,2
+PE_ICA_0208,,,PE,Peru,ICA,Ica,0208,San Juan de Yanac,,,PE,PER,2
+PE_ICA_0209,,,PE,Peru,ICA,Ica,0209,San Pedro de Huacarpana,,,PE,PER,2
+PE_ICA_0210,,,PE,Peru,ICA,Ica,0210,Sunampe,,,PE,PER,2
+PE_ICA_0211,,,PE,Peru,ICA,Ica,0211,Tambo de Mora,,,PE,PER,2
+PE_ICA_0301,,,PE,Peru,ICA,Ica,0301,Nasca,,,PE,PER,2
+PE_ICA_0302,,,PE,Peru,ICA,Ica,0302,Changuillo,,,PE,PER,2
+PE_ICA_0303,,,PE,Peru,ICA,Ica,0303,El Ingenio,,,PE,PER,2
+PE_ICA_0304,,,PE,Peru,ICA,Ica,0304,Marcona,,,PE,PER,2
+PE_ICA_0305,,,PE,Peru,ICA,Ica,0305,Vista Alegre,,,PE,PER,2
+PE_ICA_0401,,,PE,Peru,ICA,Ica,0401,Palpa,,,PE,PER,2
+PE_ICA_0402,,,PE,Peru,ICA,Ica,0402,Llipata,,,PE,PER,2
+PE_ICA_0403,,,PE,Peru,ICA,Ica,0403,Río Grande,,,PE,PER,2
+PE_ICA_0404,,,PE,Peru,ICA,Ica,0404,Santa Cruz,,,PE,PER,2
+PE_ICA_0405,,,PE,Peru,ICA,Ica,0405,Tibillo,,,PE,PER,2
+PE_ICA_0501,,,PE,Peru,ICA,Ica,0501,Pisco,,,PE,PER,2
+PE_ICA_0502,,,PE,Peru,ICA,Ica,0502,Huancano,,,PE,PER,2
+PE_ICA_0503,,,PE,Peru,ICA,Ica,0503,Humay,,,PE,PER,2
+PE_ICA_0504,,,PE,Peru,ICA,Ica,0504,Independencia,,,PE,PER,2
+PE_ICA_0505,,,PE,Peru,ICA,Ica,0505,Paracas,,,PE,PER,2
+PE_ICA_0506,,,PE,Peru,ICA,Ica,0506,San Andrés,,,PE,PER,2
+PE_ICA_0507,,,PE,Peru,ICA,Ica,0507,San Clemente,,,PE,PER,2
+PE_ICA_0508,,,PE,Peru,ICA,Ica,0508,Tupac Amaru Inca,,,PE,PER,2
 PE_JUN,Q207973,,PE,Peru,JUN,Junín,,,,,PE,PER,1
+PE_JUN_0101,,,PE,Peru,JUN,Junín,0101,Huancayo,,,PE,PER,2
+PE_JUN_0104,,,PE,Peru,JUN,Junín,0104,Carhuacallanga,,,PE,PER,2
+PE_JUN_0105,,,PE,Peru,JUN,Junín,0105,Chacapampa,,,PE,PER,2
+PE_JUN_0106,,,PE,Peru,JUN,Junín,0106,Chicche,,,PE,PER,2
+PE_JUN_0107,,,PE,Peru,JUN,Junín,0107,Chilca,,,PE,PER,2
+PE_JUN_0108,,,PE,Peru,JUN,Junín,0108,Chongos Alto,,,PE,PER,2
+PE_JUN_0111,,,PE,Peru,JUN,Junín,0111,Chupuro,,,PE,PER,2
+PE_JUN_0112,,,PE,Peru,JUN,Junín,0112,Colca,,,PE,PER,2
+PE_JUN_0113,,,PE,Peru,JUN,Junín,0113,Cullhuas,,,PE,PER,2
+PE_JUN_0114,,,PE,Peru,JUN,Junín,0114,El Tambo,,,PE,PER,2
+PE_JUN_0116,,,PE,Peru,JUN,Junín,0116,Huacrapuquio,,,PE,PER,2
+PE_JUN_0117,,,PE,Peru,JUN,Junín,0117,Hualhuas,,,PE,PER,2
+PE_JUN_0119,,,PE,Peru,JUN,Junín,0119,Huancan,,,PE,PER,2
+PE_JUN_0120,,,PE,Peru,JUN,Junín,0120,Huasicancha,,,PE,PER,2
+PE_JUN_0121,,,PE,Peru,JUN,Junín,0121,Huayucachi,,,PE,PER,2
+PE_JUN_0122,,,PE,Peru,JUN,Junín,0122,Ingenio,,,PE,PER,2
+PE_JUN_0124,,,PE,Peru,JUN,Junín,0124,Pariahuanca,,,PE,PER,2
+PE_JUN_0125,,,PE,Peru,JUN,Junín,0125,Pilcomayo,,,PE,PER,2
+PE_JUN_0126,,,PE,Peru,JUN,Junín,0126,Pucara,,,PE,PER,2
+PE_JUN_0127,,,PE,Peru,JUN,Junín,0127,Quichuay,,,PE,PER,2
+PE_JUN_0128,,,PE,Peru,JUN,Junín,0128,Quilcas,,,PE,PER,2
+PE_JUN_0129,,,PE,Peru,JUN,Junín,0129,San Agustín,,,PE,PER,2
+PE_JUN_0130,,,PE,Peru,JUN,Junín,0130,San Jerónimo de Tunan,,,PE,PER,2
+PE_JUN_0132,,,PE,Peru,JUN,Junín,0132,Saño,,,PE,PER,2
+PE_JUN_0133,,,PE,Peru,JUN,Junín,0133,Sapallanga,,,PE,PER,2
+PE_JUN_0134,,,PE,Peru,JUN,Junín,0134,Sicaya,,,PE,PER,2
+PE_JUN_0135,,,PE,Peru,JUN,Junín,0135,Santo Domingo de Acobamba,,,PE,PER,2
+PE_JUN_0136,,,PE,Peru,JUN,Junín,0136,Viques,,,PE,PER,2
+PE_JUN_0201,,,PE,Peru,JUN,Junín,0201,Concepción,,,PE,PER,2
+PE_JUN_0202,,,PE,Peru,JUN,Junín,0202,Aco,,,PE,PER,2
+PE_JUN_0203,,,PE,Peru,JUN,Junín,0203,Andamarca,,,PE,PER,2
+PE_JUN_0204,,,PE,Peru,JUN,Junín,0204,Chambara,,,PE,PER,2
+PE_JUN_0205,,,PE,Peru,JUN,Junín,0205,Cochas,,,PE,PER,2
+PE_JUN_0206,,,PE,Peru,JUN,Junín,0206,Comas,,,PE,PER,2
+PE_JUN_0207,,,PE,Peru,JUN,Junín,0207,Heroínas Toledo,,,PE,PER,2
+PE_JUN_0208,,,PE,Peru,JUN,Junín,0208,Manzanares,,,PE,PER,2
+PE_JUN_0209,,,PE,Peru,JUN,Junín,0209,Mariscal Castilla,,,PE,PER,2
+PE_JUN_0210,,,PE,Peru,JUN,Junín,0210,Matahuasi,,,PE,PER,2
+PE_JUN_0211,,,PE,Peru,JUN,Junín,0211,Mito,,,PE,PER,2
+PE_JUN_0212,,,PE,Peru,JUN,Junín,0212,Nueve de Julio,,,PE,PER,2
+PE_JUN_0213,,,PE,Peru,JUN,Junín,0213,Orcotuna,,,PE,PER,2
+PE_JUN_0214,,,PE,Peru,JUN,Junín,0214,San José de Quero,,,PE,PER,2
+PE_JUN_0215,,,PE,Peru,JUN,Junín,0215,Santa Rosa de Ocopa,,,PE,PER,2
+PE_JUN_0301,,,PE,Peru,JUN,Junín,0301,Chanchamayo,,,PE,PER,2
+PE_JUN_0302,,,PE,Peru,JUN,Junín,0302,Perene,,,PE,PER,2
+PE_JUN_0303,,,PE,Peru,JUN,Junín,0303,Pichanaqui,,,PE,PER,2
+PE_JUN_0304,,,PE,Peru,JUN,Junín,0304,San Luis de Shuaro,,,PE,PER,2
+PE_JUN_0305,,,PE,Peru,JUN,Junín,0305,San Ramón,,,PE,PER,2
+PE_JUN_0306,,,PE,Peru,JUN,Junín,0306,Vitoc,,,PE,PER,2
+PE_JUN_0401,,,PE,Peru,JUN,Junín,0401,Jauja,,,PE,PER,2
+PE_JUN_0402,,,PE,Peru,JUN,Junín,0402,Acolla,,,PE,PER,2
+PE_JUN_0403,,,PE,Peru,JUN,Junín,0403,Apata,,,PE,PER,2
+PE_JUN_0404,,,PE,Peru,JUN,Junín,0404,Ataura,,,PE,PER,2
+PE_JUN_0405,,,PE,Peru,JUN,Junín,0405,Canchayllo,,,PE,PER,2
+PE_JUN_0406,,,PE,Peru,JUN,Junín,0406,Curicaca,,,PE,PER,2
+PE_JUN_0407,,,PE,Peru,JUN,Junín,0407,El Mantaro,,,PE,PER,2
+PE_JUN_0408,,,PE,Peru,JUN,Junín,0408,Huamali,,,PE,PER,2
+PE_JUN_0409,,,PE,Peru,JUN,Junín,0409,Huaripampa,,,PE,PER,2
+PE_JUN_0410,,,PE,Peru,JUN,Junín,0410,Huertas,,,PE,PER,2
+PE_JUN_0411,,,PE,Peru,JUN,Junín,0411,Janjaillo,,,PE,PER,2
+PE_JUN_0412,,,PE,Peru,JUN,Junín,0412,Julcán,,,PE,PER,2
+PE_JUN_0413,,,PE,Peru,JUN,Junín,0413,Leonor Ordóñez,,,PE,PER,2
+PE_JUN_0414,,,PE,Peru,JUN,Junín,0414,Llocllapampa,,,PE,PER,2
+PE_JUN_0415,,,PE,Peru,JUN,Junín,0415,Marco,,,PE,PER,2
+PE_JUN_0416,,,PE,Peru,JUN,Junín,0416,Masma,,,PE,PER,2
+PE_JUN_0417,,,PE,Peru,JUN,Junín,0417,Masma Chicche,,,PE,PER,2
+PE_JUN_0418,,,PE,Peru,JUN,Junín,0418,Molinos,,,PE,PER,2
+PE_JUN_0419,,,PE,Peru,JUN,Junín,0419,Monobamba,,,PE,PER,2
+PE_JUN_0420,,,PE,Peru,JUN,Junín,0420,Muqui,,,PE,PER,2
+PE_JUN_0421,,,PE,Peru,JUN,Junín,0421,Muquiyauyo,,,PE,PER,2
+PE_JUN_0422,,,PE,Peru,JUN,Junín,0422,Paca,,,PE,PER,2
+PE_JUN_0423,,,PE,Peru,JUN,Junín,0423,Paccha,,,PE,PER,2
+PE_JUN_0424,,,PE,Peru,JUN,Junín,0424,Pancan,,,PE,PER,2
+PE_JUN_0425,,,PE,Peru,JUN,Junín,0425,Parco,,,PE,PER,2
+PE_JUN_0426,,,PE,Peru,JUN,Junín,0426,Pomacancha,,,PE,PER,2
+PE_JUN_0427,,,PE,Peru,JUN,Junín,0427,Ricran,,,PE,PER,2
+PE_JUN_0428,,,PE,Peru,JUN,Junín,0428,San Lorenzo,,,PE,PER,2
+PE_JUN_0429,,,PE,Peru,JUN,Junín,0429,San Pedro de Chunan,,,PE,PER,2
+PE_JUN_0430,,,PE,Peru,JUN,Junín,0430,Sausa,,,PE,PER,2
+PE_JUN_0431,,,PE,Peru,JUN,Junín,0431,Sincos,,,PE,PER,2
+PE_JUN_0432,,,PE,Peru,JUN,Junín,0432,Tunan Marca,,,PE,PER,2
+PE_JUN_0433,,,PE,Peru,JUN,Junín,0433,Yauli,,,PE,PER,2
+PE_JUN_0434,,,PE,Peru,JUN,Junín,0434,Yauyos,,,PE,PER,2
+PE_JUN_0501,,,PE,Peru,JUN,Junín,0501,Junin,,,PE,PER,2
+PE_JUN_0502,,,PE,Peru,JUN,Junín,0502,Carhuamayo,,,PE,PER,2
+PE_JUN_0503,,,PE,Peru,JUN,Junín,0503,Ondores,,,PE,PER,2
+PE_JUN_0504,,,PE,Peru,JUN,Junín,0504,Ulcumayo,,,PE,PER,2
+PE_JUN_0601,,,PE,Peru,JUN,Junín,0601,Satipo,,,PE,PER,2
+PE_JUN_0602,,,PE,Peru,JUN,Junín,0602,Coviriali,,,PE,PER,2
+PE_JUN_0603,,,PE,Peru,JUN,Junín,0603,Llaylla,,,PE,PER,2
+PE_JUN_0604,,,PE,Peru,JUN,Junín,0604,Mazamari,,,PE,PER,2
+PE_JUN_0605,,,PE,Peru,JUN,Junín,0605,Pampa Hermosa,,,PE,PER,2
+PE_JUN_0606,,,PE,Peru,JUN,Junín,0606,Pangoa,,,PE,PER,2
+PE_JUN_0607,,,PE,Peru,JUN,Junín,0607,Río Negro,,,PE,PER,2
+PE_JUN_0608,,,PE,Peru,JUN,Junín,0608,Río Tambo,,,PE,PER,2
+PE_JUN_0609,,,PE,Peru,JUN,Junín,0609,Vizcatan del Ene,,,PE,PER,2
+PE_JUN_0701,,,PE,Peru,JUN,Junín,0701,Tarma,,,PE,PER,2
+PE_JUN_0702,,,PE,Peru,JUN,Junín,0702,Acobamba,,,PE,PER,2
+PE_JUN_0703,,,PE,Peru,JUN,Junín,0703,Huaricolca,,,PE,PER,2
+PE_JUN_0704,,,PE,Peru,JUN,Junín,0704,Huasahuasi,,,PE,PER,2
+PE_JUN_0705,,,PE,Peru,JUN,Junín,0705,La Unión,,,PE,PER,2
+PE_JUN_0706,,,PE,Peru,JUN,Junín,0706,Palca,,,PE,PER,2
+PE_JUN_0707,,,PE,Peru,JUN,Junín,0707,Palcamayo,,,PE,PER,2
+PE_JUN_0708,,,PE,Peru,JUN,Junín,0708,San Pedro de Cajas,,,PE,PER,2
+PE_JUN_0709,,,PE,Peru,JUN,Junín,0709,Tapo,,,PE,PER,2
+PE_JUN_0801,,,PE,Peru,JUN,Junín,0801,La Oroya,,,PE,PER,2
+PE_JUN_0802,,,PE,Peru,JUN,Junín,0802,Chacapalpa,,,PE,PER,2
+PE_JUN_0803,,,PE,Peru,JUN,Junín,0803,Huay-Huay,,,PE,PER,2
+PE_JUN_0804,,,PE,Peru,JUN,Junín,0804,Marcapomacocha,,,PE,PER,2
+PE_JUN_0805,,,PE,Peru,JUN,Junín,0805,Morococha,,,PE,PER,2
+PE_JUN_0806,,,PE,Peru,JUN,Junín,0806,Paccha,,,PE,PER,2
+PE_JUN_0807,,,PE,Peru,JUN,Junín,0807,Santa Bárbara de Carhuacayan,,,PE,PER,2
+PE_JUN_0808,,,PE,Peru,JUN,Junín,0808,Santa Rosa de Sacco,,,PE,PER,2
+PE_JUN_0809,,,PE,Peru,JUN,Junín,0809,Suitucancha,,,PE,PER,2
+PE_JUN_0810,,,PE,Peru,JUN,Junín,0810,Yauli,,,PE,PER,2
+PE_JUN_0901,,,PE,Peru,JUN,Junín,0901,Chupaca,,,PE,PER,2
+PE_JUN_0902,,,PE,Peru,JUN,Junín,0902,Ahuac,,,PE,PER,2
+PE_JUN_0903,,,PE,Peru,JUN,Junín,0903,Chongos Bajo,,,PE,PER,2
+PE_JUN_0904,,,PE,Peru,JUN,Junín,0904,Huachac,,,PE,PER,2
+PE_JUN_0905,,,PE,Peru,JUN,Junín,0905,Huamancaca Chico,,,PE,PER,2
+PE_JUN_0906,,,PE,Peru,JUN,Junín,0906,San Juan de Iscos,,,PE,PER,2
+PE_JUN_0907,,,PE,Peru,JUN,Junín,0907,San Juan de Jarpa,,,PE,PER,2
+PE_JUN_0908,,,PE,Peru,JUN,Junín,0908,Tres de Diciembre,,,PE,PER,2
+PE_JUN_0909,,,PE,Peru,JUN,Junín,0909,Yanacancha,,,PE,PER,2
 PE_LAL,Q205126,,PE,Peru,LAL,La Libertad,,,,,PE,PER,1
+PE_LAL_0101,,,PE,Peru,LAL,La Libertad,0101,Trujillo,,,PE,PER,2
+PE_LAL_0102,,,PE,Peru,LAL,La Libertad,0102,El Porvenir,,,PE,PER,2
+PE_LAL_0103,,,PE,Peru,LAL,La Libertad,0103,Florencia de Mora,,,PE,PER,2
+PE_LAL_0104,,,PE,Peru,LAL,La Libertad,0104,Huanchaco,,,PE,PER,2
+PE_LAL_0105,,,PE,Peru,LAL,La Libertad,0105,La Esperanza,,,PE,PER,2
+PE_LAL_0106,,,PE,Peru,LAL,La Libertad,0106,Laredo,,,PE,PER,2
+PE_LAL_0107,,,PE,Peru,LAL,La Libertad,0107,Moche,,,PE,PER,2
+PE_LAL_0108,,,PE,Peru,LAL,La Libertad,0108,Poroto,,,PE,PER,2
+PE_LAL_0109,,,PE,Peru,LAL,La Libertad,0109,Salaverry,,,PE,PER,2
+PE_LAL_0110,,,PE,Peru,LAL,La Libertad,0110,Simbal,,,PE,PER,2
+PE_LAL_0111,,,PE,Peru,LAL,La Libertad,0111,Victor Larco Herrera,,,PE,PER,2
+PE_LAL_0201,,,PE,Peru,LAL,La Libertad,0201,Ascope,,,PE,PER,2
+PE_LAL_0202,,,PE,Peru,LAL,La Libertad,0202,Chicama,,,PE,PER,2
+PE_LAL_0203,,,PE,Peru,LAL,La Libertad,0203,Chocope,,,PE,PER,2
+PE_LAL_0204,,,PE,Peru,LAL,La Libertad,0204,Magdalena de Cao,,,PE,PER,2
+PE_LAL_0205,,,PE,Peru,LAL,La Libertad,0205,Paijan,,,PE,PER,2
+PE_LAL_0206,,,PE,Peru,LAL,La Libertad,0206,Rázuri,,,PE,PER,2
+PE_LAL_0207,,,PE,Peru,LAL,La Libertad,0207,Santiago de Cao,,,PE,PER,2
+PE_LAL_0208,,,PE,Peru,LAL,La Libertad,0208,Casa Grande,,,PE,PER,2
+PE_LAL_0301,,,PE,Peru,LAL,La Libertad,0301,Bolívar,,,PE,PER,2
+PE_LAL_0302,,,PE,Peru,LAL,La Libertad,0302,Bambamarca,,,PE,PER,2
+PE_LAL_0303,,,PE,Peru,LAL,La Libertad,0303,Condormarca,,,PE,PER,2
+PE_LAL_0304,,,PE,Peru,LAL,La Libertad,0304,Longotea,,,PE,PER,2
+PE_LAL_0305,,,PE,Peru,LAL,La Libertad,0305,Uchumarca,,,PE,PER,2
+PE_LAL_0306,,,PE,Peru,LAL,La Libertad,0306,Ucuncha,,,PE,PER,2
+PE_LAL_0401,,,PE,Peru,LAL,La Libertad,0401,Chepen,,,PE,PER,2
+PE_LAL_0402,,,PE,Peru,LAL,La Libertad,0402,Pacanga,,,PE,PER,2
+PE_LAL_0403,,,PE,Peru,LAL,La Libertad,0403,Pueblo Nuevo,,,PE,PER,2
+PE_LAL_0501,,,PE,Peru,LAL,La Libertad,0501,Julcan,,,PE,PER,2
+PE_LAL_0502,,,PE,Peru,LAL,La Libertad,0502,Calamarca,,,PE,PER,2
+PE_LAL_0503,,,PE,Peru,LAL,La Libertad,0503,Carabamba,,,PE,PER,2
+PE_LAL_0504,,,PE,Peru,LAL,La Libertad,0504,Huaso,,,PE,PER,2
+PE_LAL_0601,,,PE,Peru,LAL,La Libertad,0601,Otuzco,,,PE,PER,2
+PE_LAL_0602,,,PE,Peru,LAL,La Libertad,0602,Agallpampa,,,PE,PER,2
+PE_LAL_0604,,,PE,Peru,LAL,La Libertad,0604,Charat,,,PE,PER,2
+PE_LAL_0605,,,PE,Peru,LAL,La Libertad,0605,Huaranchal,,,PE,PER,2
+PE_LAL_0606,,,PE,Peru,LAL,La Libertad,0606,La Cuesta,,,PE,PER,2
+PE_LAL_0608,,,PE,Peru,LAL,La Libertad,0608,Mache,,,PE,PER,2
+PE_LAL_0610,,,PE,Peru,LAL,La Libertad,0610,Paranday,,,PE,PER,2
+PE_LAL_0611,,,PE,Peru,LAL,La Libertad,0611,Salpo,,,PE,PER,2
+PE_LAL_0613,,,PE,Peru,LAL,La Libertad,0613,Sinsicap,,,PE,PER,2
+PE_LAL_0614,,,PE,Peru,LAL,La Libertad,0614,Usquil,,,PE,PER,2
+PE_LAL_0701,,,PE,Peru,LAL,La Libertad,0701,San Pedro de Lloc,,,PE,PER,2
+PE_LAL_0702,,,PE,Peru,LAL,La Libertad,0702,Guadalupe,,,PE,PER,2
+PE_LAL_0703,,,PE,Peru,LAL,La Libertad,0703,Jequetepeque,,,PE,PER,2
+PE_LAL_0704,,,PE,Peru,LAL,La Libertad,0704,Pacasmayo,,,PE,PER,2
+PE_LAL_0705,,,PE,Peru,LAL,La Libertad,0705,San José,,,PE,PER,2
+PE_LAL_0801,,,PE,Peru,LAL,La Libertad,0801,Tayabamba,,,PE,PER,2
+PE_LAL_0802,,,PE,Peru,LAL,La Libertad,0802,Buldibuyo,,,PE,PER,2
+PE_LAL_0803,,,PE,Peru,LAL,La Libertad,0803,Chillia,,,PE,PER,2
+PE_LAL_0804,,,PE,Peru,LAL,La Libertad,0804,Huancaspata,,,PE,PER,2
+PE_LAL_0805,,,PE,Peru,LAL,La Libertad,0805,Huaylillas,,,PE,PER,2
+PE_LAL_0806,,,PE,Peru,LAL,La Libertad,0806,Huayo,,,PE,PER,2
+PE_LAL_0807,,,PE,Peru,LAL,La Libertad,0807,Ongon,,,PE,PER,2
+PE_LAL_0808,,,PE,Peru,LAL,La Libertad,0808,Parcoy,,,PE,PER,2
+PE_LAL_0809,,,PE,Peru,LAL,La Libertad,0809,Pataz,,,PE,PER,2
+PE_LAL_0810,,,PE,Peru,LAL,La Libertad,0810,Pias,,,PE,PER,2
+PE_LAL_0811,,,PE,Peru,LAL,La Libertad,0811,Santiago de Challas,,,PE,PER,2
+PE_LAL_0812,,,PE,Peru,LAL,La Libertad,0812,Taurija,,,PE,PER,2
+PE_LAL_0813,,,PE,Peru,LAL,La Libertad,0813,Urpay,,,PE,PER,2
+PE_LAL_0901,,,PE,Peru,LAL,La Libertad,0901,Huamachuco,,,PE,PER,2
+PE_LAL_0902,,,PE,Peru,LAL,La Libertad,0902,Chugay,,,PE,PER,2
+PE_LAL_0903,,,PE,Peru,LAL,La Libertad,0903,Cochorco,,,PE,PER,2
+PE_LAL_0904,,,PE,Peru,LAL,La Libertad,0904,Curgos,,,PE,PER,2
+PE_LAL_0905,,,PE,Peru,LAL,La Libertad,0905,Marcabal,,,PE,PER,2
+PE_LAL_0906,,,PE,Peru,LAL,La Libertad,0906,Sanagoran,,,PE,PER,2
+PE_LAL_0907,,,PE,Peru,LAL,La Libertad,0907,Sarin,,,PE,PER,2
+PE_LAL_0908,,,PE,Peru,LAL,La Libertad,0908,Sartimbamba,,,PE,PER,2
+PE_LAL_1001,,,PE,Peru,LAL,La Libertad,1001,Santiago de Chuco,,,PE,PER,2
+PE_LAL_1002,,,PE,Peru,LAL,La Libertad,1002,Angasmarca,,,PE,PER,2
+PE_LAL_1003,,,PE,Peru,LAL,La Libertad,1003,Cachicadan,,,PE,PER,2
+PE_LAL_1004,,,PE,Peru,LAL,La Libertad,1004,Mollebamba,,,PE,PER,2
+PE_LAL_1005,,,PE,Peru,LAL,La Libertad,1005,Mollepata,,,PE,PER,2
+PE_LAL_1006,,,PE,Peru,LAL,La Libertad,1006,Quiruvilca,,,PE,PER,2
+PE_LAL_1007,,,PE,Peru,LAL,La Libertad,1007,Santa Cruz de Chuca,,,PE,PER,2
+PE_LAL_1008,,,PE,Peru,LAL,La Libertad,1008,Sitabamba,,,PE,PER,2
+PE_LAL_1101,,,PE,Peru,LAL,La Libertad,1101,Cascas,,,PE,PER,2
+PE_LAL_1102,,,PE,Peru,LAL,La Libertad,1102,Lucma,,,PE,PER,2
+PE_LAL_1103,,,PE,Peru,LAL,La Libertad,1103,Marmot,,,PE,PER,2
+PE_LAL_1104,,,PE,Peru,LAL,La Libertad,1104,Sayapullo,,,PE,PER,2
+PE_LAL_1201,,,PE,Peru,LAL,La Libertad,1201,Viru,,,PE,PER,2
+PE_LAL_1202,,,PE,Peru,LAL,La Libertad,1202,Chao,,,PE,PER,2
+PE_LAL_1203,,,PE,Peru,LAL,La Libertad,1203,Guadalupito,,,PE,PER,2
 PE_LAM,Q210061,,PE,Peru,LAM,Lambayeque,,,,,PE,PER,1
+PE_LAM_0101,,,PE,Peru,LAM,Lambayeque,0101,Chiclayo,,,PE,PER,2
+PE_LAM_0102,,,PE,Peru,LAM,Lambayeque,0102,Chongoyape,,,PE,PER,2
+PE_LAM_0103,,,PE,Peru,LAM,Lambayeque,0103,Eten,,,PE,PER,2
+PE_LAM_0104,,,PE,Peru,LAM,Lambayeque,0104,Eten Puerto,,,PE,PER,2
+PE_LAM_0105,,,PE,Peru,LAM,Lambayeque,0105,José Leonardo Ortiz,,,PE,PER,2
+PE_LAM_0106,,,PE,Peru,LAM,Lambayeque,0106,La Victoria,,,PE,PER,2
+PE_LAM_0107,,,PE,Peru,LAM,Lambayeque,0107,Lagunas,,,PE,PER,2
+PE_LAM_0108,,,PE,Peru,LAM,Lambayeque,0108,Monsefu,,,PE,PER,2
+PE_LAM_0109,,,PE,Peru,LAM,Lambayeque,0109,Nueva Arica,,,PE,PER,2
+PE_LAM_0110,,,PE,Peru,LAM,Lambayeque,0110,Oyotun,,,PE,PER,2
+PE_LAM_0111,,,PE,Peru,LAM,Lambayeque,0111,Picsi,,,PE,PER,2
+PE_LAM_0112,,,PE,Peru,LAM,Lambayeque,0112,Pimentel,,,PE,PER,2
+PE_LAM_0113,,,PE,Peru,LAM,Lambayeque,0113,Reque,,,PE,PER,2
+PE_LAM_0114,,,PE,Peru,LAM,Lambayeque,0114,Santa Rosa,,,PE,PER,2
+PE_LAM_0115,,,PE,Peru,LAM,Lambayeque,0115,Saña,,,PE,PER,2
+PE_LAM_0116,,,PE,Peru,LAM,Lambayeque,0116,Cayalti,,,PE,PER,2
+PE_LAM_0117,,,PE,Peru,LAM,Lambayeque,0117,Patapo,,,PE,PER,2
+PE_LAM_0118,,,PE,Peru,LAM,Lambayeque,0118,Pomalca,,,PE,PER,2
+PE_LAM_0119,,,PE,Peru,LAM,Lambayeque,0119,Pucala,,,PE,PER,2
+PE_LAM_0120,,,PE,Peru,LAM,Lambayeque,0120,Tuman,,,PE,PER,2
+PE_LAM_0201,,,PE,Peru,LAM,Lambayeque,0201,Ferreñafe,,,PE,PER,2
+PE_LAM_0202,,,PE,Peru,LAM,Lambayeque,0202,Cañaris,,,PE,PER,2
+PE_LAM_0203,,,PE,Peru,LAM,Lambayeque,0203,Incahuasi,,,PE,PER,2
+PE_LAM_0204,,,PE,Peru,LAM,Lambayeque,0204,Manuel Antonio Mesones Muro,,,PE,PER,2
+PE_LAM_0205,,,PE,Peru,LAM,Lambayeque,0205,Pitipo,,,PE,PER,2
+PE_LAM_0206,,,PE,Peru,LAM,Lambayeque,0206,Pueblo Nuevo,,,PE,PER,2
+PE_LAM_0301,,,PE,Peru,LAM,Lambayeque,0301,Lambayeque,,,PE,PER,2
+PE_LAM_0302,,,PE,Peru,LAM,Lambayeque,0302,Chochope,,,PE,PER,2
+PE_LAM_0303,,,PE,Peru,LAM,Lambayeque,0303,Illimo,,,PE,PER,2
+PE_LAM_0304,,,PE,Peru,LAM,Lambayeque,0304,Jayanca,,,PE,PER,2
+PE_LAM_0305,,,PE,Peru,LAM,Lambayeque,0305,Mochumi,,,PE,PER,2
+PE_LAM_0306,,,PE,Peru,LAM,Lambayeque,0306,Morrope,,,PE,PER,2
+PE_LAM_0307,,,PE,Peru,LAM,Lambayeque,0307,Motupe,,,PE,PER,2
+PE_LAM_0308,,,PE,Peru,LAM,Lambayeque,0308,Olmos,,,PE,PER,2
+PE_LAM_0309,,,PE,Peru,LAM,Lambayeque,0309,Pacora,,,PE,PER,2
+PE_LAM_0310,,,PE,Peru,LAM,Lambayeque,0310,Salas,,,PE,PER,2
+PE_LAM_0311,,,PE,Peru,LAM,Lambayeque,0311,San José,,,PE,PER,2
+PE_LAM_0312,,,PE,Peru,LAM,Lambayeque,0312,Tucume,,,PE,PER,2
 PE_LIM,Q211795,,PE,Peru,LIM,Lima,,,,,PE,PER,1
 PE_LMA,Q579240,,PE,Peru,LMA,Lima Province,,,,,PE,PER,1
+PE_LMA_0101,,,PE,Peru,LMA,Lima,0101,Lima,,,PE,PER,2
+PE_LMA_0102,,,PE,Peru,LMA,Lima,0102,Ancón,,,PE,PER,2
+PE_LMA_0103,,,PE,Peru,LMA,Lima,0103,Ate,,,PE,PER,2
+PE_LMA_0104,,,PE,Peru,LMA,Lima,0104,Barranco,,,PE,PER,2
+PE_LMA_0105,,,PE,Peru,LMA,Lima,0105,Breña,,,PE,PER,2
+PE_LMA_0106,,,PE,Peru,LMA,Lima,0106,Carabayllo,,,PE,PER,2
+PE_LMA_0107,,,PE,Peru,LMA,Lima,0107,Chaclacayo,,,PE,PER,2
+PE_LMA_0108,,,PE,Peru,LMA,Lima,0108,Chorrillos,,,PE,PER,2
+PE_LMA_0109,,,PE,Peru,LMA,Lima,0109,Cieneguilla,,,PE,PER,2
+PE_LMA_0110,,,PE,Peru,LMA,Lima,0110,Comas,,,PE,PER,2
+PE_LMA_0111,,,PE,Peru,LMA,Lima,0111,El Agustino,,,PE,PER,2
+PE_LMA_0112,,,PE,Peru,LMA,Lima,0112,Independencia,,,PE,PER,2
+PE_LMA_0113,,,PE,Peru,LMA,Lima,0113,Jesús María,,,PE,PER,2
+PE_LMA_0114,,,PE,Peru,LMA,Lima,0114,La Molina,,,PE,PER,2
+PE_LMA_0115,,,PE,Peru,LMA,Lima,0115,La Victoria,,,PE,PER,2
+PE_LMA_0116,,,PE,Peru,LMA,Lima,0116,Lince,,,PE,PER,2
+PE_LMA_0117,,,PE,Peru,LMA,Lima,0117,Los Olivos,,,PE,PER,2
+PE_LMA_0118,,,PE,Peru,LMA,Lima,0118,Lurigancho,,,PE,PER,2
+PE_LMA_0119,,,PE,Peru,LMA,Lima,0119,Lurin,,,PE,PER,2
+PE_LMA_0120,,,PE,Peru,LMA,Lima,0120,Magdalena del Mar,,,PE,PER,2
+PE_LMA_0121,,,PE,Peru,LMA,Lima,0121,Pueblo Libre,,,PE,PER,2
+PE_LMA_0122,,,PE,Peru,LMA,Lima,0122,"Miraflores, Lima",,,PE,PER,2
+PE_LMA_0123,,,PE,Peru,LMA,Lima,0123,Pachacamac,,,PE,PER,2
+PE_LMA_0124,,,PE,Peru,LMA,Lima,0124,Pucusana,,,PE,PER,2
+PE_LMA_0125,,,PE,Peru,LMA,Lima,0125,Puente Piedra,,,PE,PER,2
+PE_LMA_0126,,,PE,Peru,LMA,Lima,0126,Punta Hermosa,,,PE,PER,2
+PE_LMA_0127,,,PE,Peru,LMA,Lima,0127,Punta Negra,,,PE,PER,2
+PE_LMA_0128,,,PE,Peru,LMA,Lima,0128,Rímac,,,PE,PER,2
+PE_LMA_0129,,,PE,Peru,LMA,Lima,0129,San Bartolo,,,PE,PER,2
+PE_LMA_0130,,,PE,Peru,LMA,Lima,0130,San Borja,,,PE,PER,2
+PE_LMA_0131,,,PE,Peru,LMA,Lima,0131,San Isidro,,,PE,PER,2
+PE_LMA_0132,,,PE,Peru,LMA,Lima,0132,San Juan de Lurigancho,,,PE,PER,2
+PE_LMA_0133,,,PE,Peru,LMA,Lima,0133,San Juan de Miraflores,,,PE,PER,2
+PE_LMA_0134,,,PE,Peru,LMA,Lima,0134,"San Luis, Lima",,,PE,PER,2
+PE_LMA_0135,,,PE,Peru,LMA,Lima,0135,San Martín de Porres,,,PE,PER,2
+PE_LMA_0136,,,PE,Peru,LMA,Lima,0136,San Miguel,,,PE,PER,2
+PE_LMA_0137,,,PE,Peru,LMA,Lima,0137,Santa Anita,,,PE,PER,2
+PE_LMA_0138,,,PE,Peru,LMA,Lima,0138,Santa María del Mar,,,PE,PER,2
+PE_LMA_0139,,,PE,Peru,LMA,Lima,0139,Santa Rosa,,,PE,PER,2
+PE_LMA_0140,,,PE,Peru,LMA,Lima,0140,Santiago de Surco,,,PE,PER,2
+PE_LMA_0141,,,PE,Peru,LMA,Lima,0141,Surquillo,,,PE,PER,2
+PE_LMA_0142,,,PE,Peru,LMA,Lima,0142,Villa El Salvador,,,PE,PER,2
+PE_LMA_0143,,,PE,Peru,LMA,Lima,0143,Villa María del Triunfo,,,PE,PER,2
+PE_LMA_0201,,,PE,Peru,LMA,Lima,0201,Barranca,,,PE,PER,2
+PE_LMA_0202,,,PE,Peru,LMA,Lima,0202,Paramonga,,,PE,PER,2
+PE_LMA_0203,,,PE,Peru,LMA,Lima,0203,Pativilca,,,PE,PER,2
+PE_LMA_0204,,,PE,Peru,LMA,Lima,0204,Supe,,,PE,PER,2
+PE_LMA_0205,,,PE,Peru,LMA,Lima,0205,Supe Puerto,,,PE,PER,2
+PE_LMA_0301,,,PE,Peru,LMA,Lima,0301,Cajatambo,,,PE,PER,2
+PE_LMA_0302,,,PE,Peru,LMA,Lima,0302,Copa,,,PE,PER,2
+PE_LMA_0303,,,PE,Peru,LMA,Lima,0303,Gorgor,,,PE,PER,2
+PE_LMA_0304,,,PE,Peru,LMA,Lima,0304,Huancapon,,,PE,PER,2
+PE_LMA_0305,,,PE,Peru,LMA,Lima,0305,Manas,,,PE,PER,2
+PE_LMA_0401,,,PE,Peru,LMA,Lima,0401,Canta,,,PE,PER,2
+PE_LMA_0402,,,PE,Peru,LMA,Lima,0402,Arahuay,,,PE,PER,2
+PE_LMA_0403,,,PE,Peru,LMA,Lima,0403,Huamantanga,,,PE,PER,2
+PE_LMA_0404,,,PE,Peru,LMA,Lima,0404,Huaros,,,PE,PER,2
+PE_LMA_0405,,,PE,Peru,LMA,Lima,0405,Lachaqui,,,PE,PER,2
+PE_LMA_0406,,,PE,Peru,LMA,Lima,0406,San Buenaventura,,,PE,PER,2
+PE_LMA_0407,,,PE,Peru,LMA,Lima,0407,Santa Rosa de Quives,,,PE,PER,2
+PE_LMA_0501,,,PE,Peru,LMA,Lima,0501,San Vicente de Cañete,,,PE,PER,2
+PE_LMA_0502,,,PE,Peru,LMA,Lima,0502,Asia,,,PE,PER,2
+PE_LMA_0503,,,PE,Peru,LMA,Lima,0503,Calango,,,PE,PER,2
+PE_LMA_0504,,,PE,Peru,LMA,Lima,0504,Cerro Azul,,,PE,PER,2
+PE_LMA_0505,,,PE,Peru,LMA,Lima,0505,Chilca,,,PE,PER,2
+PE_LMA_0506,,,PE,Peru,LMA,Lima,0506,Coayllo,,,PE,PER,2
+PE_LMA_0507,,,PE,Peru,LMA,Lima,0507,Imperial,,,PE,PER,2
+PE_LMA_0508,,,PE,Peru,LMA,Lima,0508,Lunahuana,,,PE,PER,2
+PE_LMA_0509,,,PE,Peru,LMA,Lima,0509,Mala,,,PE,PER,2
+PE_LMA_0510,,,PE,Peru,LMA,Lima,0510,Nuevo Imperial,,,PE,PER,2
+PE_LMA_0511,,,PE,Peru,LMA,Lima,0511,Pacaran,,,PE,PER,2
+PE_LMA_0512,,,PE,Peru,LMA,Lima,0512,Quilmana,,,PE,PER,2
+PE_LMA_0513,,,PE,Peru,LMA,Lima,0513,"San Antonio, Cañete",,,PE,PER,2
+PE_LMA_0514,,,PE,Peru,LMA,Lima,0514,"San Luis, Cañete",,,PE,PER,2
+PE_LMA_0515,,,PE,Peru,LMA,Lima,0515,Santa Cruz de Flores,,,PE,PER,2
+PE_LMA_0516,,,PE,Peru,LMA,Lima,0516,Zúñiga,,,PE,PER,2
+PE_LMA_0601,,,PE,Peru,LMA,Lima,0601,Huaral,,,PE,PER,2
+PE_LMA_0602,,,PE,Peru,LMA,Lima,0602,Atavillos Alto,,,PE,PER,2
+PE_LMA_0603,,,PE,Peru,LMA,Lima,0603,Atavillos Bajo,,,PE,PER,2
+PE_LMA_0604,,,PE,Peru,LMA,Lima,0604,Aucallama,,,PE,PER,2
+PE_LMA_0605,,,PE,Peru,LMA,Lima,0605,Chancay,,,PE,PER,2
+PE_LMA_0606,,,PE,Peru,LMA,Lima,0606,Ihuari,,,PE,PER,2
+PE_LMA_0607,,,PE,Peru,LMA,Lima,0607,Lampian,,,PE,PER,2
+PE_LMA_0608,,,PE,Peru,LMA,Lima,0608,Pacaraos,,,PE,PER,2
+PE_LMA_0609,,,PE,Peru,LMA,Lima,0609,San Miguel de Acos,,,PE,PER,2
+PE_LMA_0610,,,PE,Peru,LMA,Lima,0610,Santa Cruz de Andamarca,,,PE,PER,2
+PE_LMA_0611,,,PE,Peru,LMA,Lima,0611,Sumbilca,,,PE,PER,2
+PE_LMA_0612,,,PE,Peru,LMA,Lima,0612,Veintisiete de Noviembre,,,PE,PER,2
+PE_LMA_0701,,,PE,Peru,LMA,Lima,0701,Matucana,,,PE,PER,2
+PE_LMA_0702,,,PE,Peru,LMA,Lima,0702,Antioquia,,,PE,PER,2
+PE_LMA_0703,,,PE,Peru,LMA,Lima,0703,Callahuanca,,,PE,PER,2
+PE_LMA_0704,,,PE,Peru,LMA,Lima,0704,Carampoma,,,PE,PER,2
+PE_LMA_0705,,,PE,Peru,LMA,Lima,0705,Chicla,,,PE,PER,2
+PE_LMA_0706,,,PE,Peru,LMA,Lima,0706,Cuenca,,,PE,PER,2
+PE_LMA_0707,,,PE,Peru,LMA,Lima,0707,Huachupampa,,,PE,PER,2
+PE_LMA_0708,,,PE,Peru,LMA,Lima,0708,Huanza,,,PE,PER,2
+PE_LMA_0709,,,PE,Peru,LMA,Lima,0709,Huarochiri,,,PE,PER,2
+PE_LMA_0710,,,PE,Peru,LMA,Lima,0710,Lahuaytambo,,,PE,PER,2
+PE_LMA_0711,,,PE,Peru,LMA,Lima,0711,Langa,,,PE,PER,2
+PE_LMA_0712,,,PE,Peru,LMA,Lima,0712,Laraos,,,PE,PER,2
+PE_LMA_0713,,,PE,Peru,LMA,Lima,0713,Mariatana,,,PE,PER,2
+PE_LMA_0714,,,PE,Peru,LMA,Lima,0714,Ricardo Palma,,,PE,PER,2
+PE_LMA_0715,,,PE,Peru,LMA,Lima,0715,San Andrés de Tupicocha,,,PE,PER,2
+PE_LMA_0716,,,PE,Peru,LMA,Lima,0716,"San Antonio, Huarochirí",,,PE,PER,2
+PE_LMA_0717,,,PE,Peru,LMA,Lima,0717,San Bartolomé,,,PE,PER,2
+PE_LMA_0718,,,PE,Peru,LMA,Lima,0718,San Damian,,,PE,PER,2
+PE_LMA_0719,,,PE,Peru,LMA,Lima,0719,San Juan de Iris,,,PE,PER,2
+PE_LMA_0720,,,PE,Peru,LMA,Lima,0720,San Juan de Tantaranche,,,PE,PER,2
+PE_LMA_0721,,,PE,Peru,LMA,Lima,0721,San Lorenzo de Quinti,,,PE,PER,2
+PE_LMA_0722,,,PE,Peru,LMA,Lima,0722,San Mateo,,,PE,PER,2
+PE_LMA_0723,,,PE,Peru,LMA,Lima,0723,San Mateo de Otao,,,PE,PER,2
+PE_LMA_0724,,,PE,Peru,LMA,Lima,0724,San Pedro de Casta,,,PE,PER,2
+PE_LMA_0725,,,PE,Peru,LMA,Lima,0725,San Pedro de Huancayre,,,PE,PER,2
+PE_LMA_0726,,,PE,Peru,LMA,Lima,0726,Sangallaya,,,PE,PER,2
+PE_LMA_0727,,,PE,Peru,LMA,Lima,0727,Santa Cruz de Cocachacra,,,PE,PER,2
+PE_LMA_0728,,,PE,Peru,LMA,Lima,0728,Santa Eulalia,,,PE,PER,2
+PE_LMA_0729,,,PE,Peru,LMA,Lima,0729,Santiago de Anchucaya,,,PE,PER,2
+PE_LMA_0730,,,PE,Peru,LMA,Lima,0730,Santiago de Tuna,,,PE,PER,2
+PE_LMA_0731,,,PE,Peru,LMA,Lima,0731,Santo Domingo de Los Olleros,,,PE,PER,2
+PE_LMA_0732,,,PE,Peru,LMA,Lima,0732,Surco,,,PE,PER,2
+PE_LMA_0801,,,PE,Peru,LMA,Lima,0801,Huacho,,,PE,PER,2
+PE_LMA_0802,,,PE,Peru,LMA,Lima,0802,Ambar,,,PE,PER,2
+PE_LMA_0803,,,PE,Peru,LMA,Lima,0803,Caleta de Carquin,,,PE,PER,2
+PE_LMA_0804,,,PE,Peru,LMA,Lima,0804,Checras,,,PE,PER,2
+PE_LMA_0805,,,PE,Peru,LMA,Lima,0805,Hualmay,,,PE,PER,2
+PE_LMA_0806,,,PE,Peru,LMA,Lima,0806,Huaura,,,PE,PER,2
+PE_LMA_0807,,,PE,Peru,LMA,Lima,0807,Leoncio Prado,,,PE,PER,2
+PE_LMA_0808,,,PE,Peru,LMA,Lima,0808,Paccho,,,PE,PER,2
+PE_LMA_0809,,,PE,Peru,LMA,Lima,0809,Santa Leonor,,,PE,PER,2
+PE_LMA_0810,,,PE,Peru,LMA,Lima,0810,Santa María,,,PE,PER,2
+PE_LMA_0811,,,PE,Peru,LMA,Lima,0811,Sayan,,,PE,PER,2
+PE_LMA_0812,,,PE,Peru,LMA,Lima,0812,Vegueta,,,PE,PER,2
+PE_LMA_0901,,,PE,Peru,LMA,Lima,0901,Oyon,,,PE,PER,2
+PE_LMA_0902,,,PE,Peru,LMA,Lima,0902,Andajes,,,PE,PER,2
+PE_LMA_0903,,,PE,Peru,LMA,Lima,0903,Caujul,,,PE,PER,2
+PE_LMA_0904,,,PE,Peru,LMA,Lima,0904,Cochamarca,,,PE,PER,2
+PE_LMA_0905,,,PE,Peru,LMA,Lima,0905,Navan,,,PE,PER,2
+PE_LMA_0906,,,PE,Peru,LMA,Lima,0906,Pachangara,,,PE,PER,2
+PE_LMA_1001,,,PE,Peru,LMA,Lima,1001,Yauyos,,,PE,PER,2
+PE_LMA_1002,,,PE,Peru,LMA,Lima,1002,Alis,,,PE,PER,2
+PE_LMA_1003,,,PE,Peru,LMA,Lima,1003,Allauca,,,PE,PER,2
+PE_LMA_1004,,,PE,Peru,LMA,Lima,1004,Ayaviri,,,PE,PER,2
+PE_LMA_1005,,,PE,Peru,LMA,Lima,1005,Azángaro,,,PE,PER,2
+PE_LMA_1006,,,PE,Peru,LMA,Lima,1006,Cacra,,,PE,PER,2
+PE_LMA_1007,,,PE,Peru,LMA,Lima,1007,Carania,,,PE,PER,2
+PE_LMA_1008,,,PE,Peru,LMA,Lima,1008,Catahuasi,,,PE,PER,2
+PE_LMA_1009,,,PE,Peru,LMA,Lima,1009,Chocos,,,PE,PER,2
+PE_LMA_1010,,,PE,Peru,LMA,Lima,1010,Cochas,,,PE,PER,2
+PE_LMA_1011,,,PE,Peru,LMA,Lima,1011,Colonia,,,PE,PER,2
+PE_LMA_1012,,,PE,Peru,LMA,Lima,1012,Hongos,,,PE,PER,2
+PE_LMA_1013,,,PE,Peru,LMA,Lima,1013,Huampara,,,PE,PER,2
+PE_LMA_1014,,,PE,Peru,LMA,Lima,1014,Huancaya,,,PE,PER,2
+PE_LMA_1015,,,PE,Peru,LMA,Lima,1015,Huangascar,,,PE,PER,2
+PE_LMA_1016,,,PE,Peru,LMA,Lima,1016,Huantan,,,PE,PER,2
+PE_LMA_1017,,,PE,Peru,LMA,Lima,1017,Huañec,,,PE,PER,2
+PE_LMA_1018,,,PE,Peru,LMA,Lima,1018,Laraos,,,PE,PER,2
+PE_LMA_1019,,,PE,Peru,LMA,Lima,1019,Lincha,,,PE,PER,2
+PE_LMA_1020,,,PE,Peru,LMA,Lima,1020,Madean,,,PE,PER,2
+PE_LMA_1021,,,PE,Peru,LMA,Lima,1021,"Miraflores, Yauyos",,,PE,PER,2
+PE_LMA_1022,,,PE,Peru,LMA,Lima,1022,Omas,,,PE,PER,2
+PE_LMA_1023,,,PE,Peru,LMA,Lima,1023,Putinza,,,PE,PER,2
+PE_LMA_1024,,,PE,Peru,LMA,Lima,1024,Quinches,,,PE,PER,2
+PE_LMA_1025,,,PE,Peru,LMA,Lima,1025,Quinocay,,,PE,PER,2
+PE_LMA_1026,,,PE,Peru,LMA,Lima,1026,San Joaquín,,,PE,PER,2
+PE_LMA_1027,,,PE,Peru,LMA,Lima,1027,San Pedro de Pilas,,,PE,PER,2
+PE_LMA_1028,,,PE,Peru,LMA,Lima,1028,Tanta,,,PE,PER,2
+PE_LMA_1029,,,PE,Peru,LMA,Lima,1029,Tauripampa,,,PE,PER,2
+PE_LMA_1030,,,PE,Peru,LMA,Lima,1030,Tomas,,,PE,PER,2
+PE_LMA_1031,,,PE,Peru,LMA,Lima,1031,Tupe,,,PE,PER,2
+PE_LMA_1032,,,PE,Peru,LMA,Lima,1032,Viñac,,,PE,PER,2
+PE_LMA_1033,,,PE,Peru,LMA,Lima,1033,Vitis,,,PE,PER,2
 PE_LOR,Q200938,,PE,Peru,LOR,Loreto,,,,,PE,PER,1
+PE_LOR_0101,,,PE,Peru,LOR,Loreto,0101,Iquitos,,,PE,PER,2
+PE_LOR_0102,,,PE,Peru,LOR,Loreto,0102,Alto Nanay,,,PE,PER,2
+PE_LOR_0103,,,PE,Peru,LOR,Loreto,0103,Fernando Lores,,,PE,PER,2
+PE_LOR_0104,,,PE,Peru,LOR,Loreto,0104,Indiana,,,PE,PER,2
+PE_LOR_0105,,,PE,Peru,LOR,Loreto,0105,Las Amazonas,,,PE,PER,2
+PE_LOR_0106,,,PE,Peru,LOR,Loreto,0106,Mazan,,,PE,PER,2
+PE_LOR_0107,,,PE,Peru,LOR,Loreto,0107,Napo,,,PE,PER,2
+PE_LOR_0108,,,PE,Peru,LOR,Loreto,0108,Punchana,,,PE,PER,2
+PE_LOR_0110,,,PE,Peru,LOR,Loreto,0110,Torres Causana,,,PE,PER,2
+PE_LOR_0112,,,PE,Peru,LOR,Loreto,0112,Belén,,,PE,PER,2
+PE_LOR_0113,,,PE,Peru,LOR,Loreto,0113,San Juan Bautista,,,PE,PER,2
+PE_LOR_0201,,,PE,Peru,LOR,Loreto,0201,Yurimaguas,,,PE,PER,2
+PE_LOR_0202,,,PE,Peru,LOR,Loreto,0202,Balsapuerto,,,PE,PER,2
+PE_LOR_0205,,,PE,Peru,LOR,Loreto,0205,Jeberos,,,PE,PER,2
+PE_LOR_0206,,,PE,Peru,LOR,Loreto,0206,Lagunas,,,PE,PER,2
+PE_LOR_0210,,,PE,Peru,LOR,Loreto,0210,Santa Cruz,,,PE,PER,2
+PE_LOR_0211,,,PE,Peru,LOR,Loreto,0211,Teniente Cesar López Rojas,,,PE,PER,2
+PE_LOR_0301,,,PE,Peru,LOR,Loreto,0301,Nauta,,,PE,PER,2
+PE_LOR_0302,,,PE,Peru,LOR,Loreto,0302,Parinari,,,PE,PER,2
+PE_LOR_0303,,,PE,Peru,LOR,Loreto,0303,Tigre,,,PE,PER,2
+PE_LOR_0304,,,PE,Peru,LOR,Loreto,0304,Trompeteros,,,PE,PER,2
+PE_LOR_0305,,,PE,Peru,LOR,Loreto,0305,Urarinas,,,PE,PER,2
+PE_LOR_0401,,,PE,Peru,LOR,Loreto,0401,Ramón Castilla,,,PE,PER,2
+PE_LOR_0402,,,PE,Peru,LOR,Loreto,0402,Pebas,,,PE,PER,2
+PE_LOR_0403,,,PE,Peru,LOR,Loreto,0403,Yavari,,,PE,PER,2
+PE_LOR_0404,,,PE,Peru,LOR,Loreto,0404,San Pablo,,,PE,PER,2
+PE_LOR_0501,,,PE,Peru,LOR,Loreto,0501,Requena,,,PE,PER,2
+PE_LOR_0502,,,PE,Peru,LOR,Loreto,0502,Alto Tapiche,,,PE,PER,2
+PE_LOR_0503,,,PE,Peru,LOR,Loreto,0503,Capelo,,,PE,PER,2
+PE_LOR_0504,,,PE,Peru,LOR,Loreto,0504,Emilio San Martín,,,PE,PER,2
+PE_LOR_0505,,,PE,Peru,LOR,Loreto,0505,Maquia,,,PE,PER,2
+PE_LOR_0506,,,PE,Peru,LOR,Loreto,0506,Puinahua,,,PE,PER,2
+PE_LOR_0507,,,PE,Peru,LOR,Loreto,0507,Saquena,,,PE,PER,2
+PE_LOR_0508,,,PE,Peru,LOR,Loreto,0508,Soplin,,,PE,PER,2
+PE_LOR_0509,,,PE,Peru,LOR,Loreto,0509,Tapiche,,,PE,PER,2
+PE_LOR_0510,,,PE,Peru,LOR,Loreto,0510,Jenaro Herrera,,,PE,PER,2
+PE_LOR_0511,,,PE,Peru,LOR,Loreto,0511,Yaquerana,,,PE,PER,2
+PE_LOR_0601,,,PE,Peru,LOR,Loreto,0601,Contamana,,,PE,PER,2
+PE_LOR_0602,,,PE,Peru,LOR,Loreto,0602,Inahuaya,,,PE,PER,2
+PE_LOR_0603,,,PE,Peru,LOR,Loreto,0603,Padre Márquez,,,PE,PER,2
+PE_LOR_0604,,,PE,Peru,LOR,Loreto,0604,Pampa Hermosa,,,PE,PER,2
+PE_LOR_0605,,,PE,Peru,LOR,Loreto,0605,Sarayacu,,,PE,PER,2
+PE_LOR_0606,,,PE,Peru,LOR,Loreto,0606,Vargas Guerra,,,PE,PER,2
+PE_LOR_0701,,,PE,Peru,LOR,Loreto,0701,Barranca,,,PE,PER,2
+PE_LOR_0702,,,PE,Peru,LOR,Loreto,0702,Cahuapanas,,,PE,PER,2
+PE_LOR_0703,,,PE,Peru,LOR,Loreto,0703,Manseriche,,,PE,PER,2
+PE_LOR_0704,,,PE,Peru,LOR,Loreto,0704,Morona,,,PE,PER,2
+PE_LOR_0705,,,PE,Peru,LOR,Loreto,0705,Pastaza,,,PE,PER,2
+PE_LOR_0706,,,PE,Peru,LOR,Loreto,0706,Andoas,,,PE,PER,2
+PE_LOR_0801,,,PE,Peru,LOR,Loreto,0801,Putumayo,,,PE,PER,2
+PE_LOR_0802,,,PE,Peru,LOR,Loreto,0802,Rosa Panduro,,,PE,PER,2
+PE_LOR_0803,,,PE,Peru,LOR,Loreto,0803,Teniente Manuel Clavero,,,PE,PER,2
+PE_LOR_0804,,,PE,Peru,LOR,Loreto,0804,Yaguas,,,PE,PER,2
 PE_MDD,Q210896,,PE,Peru,MDD,Madre de Dios,,,,,PE,PER,1
+PE_MDD_0101,,,PE,Peru,MDD,Madre de Dios,0101,Tambopata,,,PE,PER,2
+PE_MDD_0102,,,PE,Peru,MDD,Madre de Dios,0102,Inambari,,,PE,PER,2
+PE_MDD_0103,,,PE,Peru,MDD,Madre de Dios,0103,Las Piedras,,,PE,PER,2
+PE_MDD_0104,,,PE,Peru,MDD,Madre de Dios,0104,Laberinto,,,PE,PER,2
+PE_MDD_0201,,,PE,Peru,MDD,Madre de Dios,0201,Manu,,,PE,PER,2
+PE_MDD_0202,,,PE,Peru,MDD,Madre de Dios,0202,Fitzcarrald,,,PE,PER,2
+PE_MDD_0203,,,PE,Peru,MDD,Madre de Dios,0203,Madre de Dios,,,PE,PER,2
+PE_MDD_0204,,,PE,Peru,MDD,Madre de Dios,0204,Huepetuhe,,,PE,PER,2
+PE_MDD_0301,,,PE,Peru,MDD,Madre de Dios,0301,Iñapari,,,PE,PER,2
+PE_MDD_0302,,,PE,Peru,MDD,Madre de Dios,0302,Iberia,,,PE,PER,2
+PE_MDD_0303,,,PE,Peru,MDD,Madre de Dios,0303,Tahuamanu,,,PE,PER,2
 PE_MOQ,Q208182,,PE,Peru,MOQ,Moquegua,,,,,PE,PER,1
+PE_MOQ_0101,,,PE,Peru,MOQ,Moquegua,0101,Moquegua,,,PE,PER,2
+PE_MOQ_0102,,,PE,Peru,MOQ,Moquegua,0102,Carumas,,,PE,PER,2
+PE_MOQ_0103,,,PE,Peru,MOQ,Moquegua,0103,Cuchumbaya,,,PE,PER,2
+PE_MOQ_0104,,,PE,Peru,MOQ,Moquegua,0104,Samegua,,,PE,PER,2
+PE_MOQ_0105,,,PE,Peru,MOQ,Moquegua,0105,San Cristóbal,,,PE,PER,2
+PE_MOQ_0106,,,PE,Peru,MOQ,Moquegua,0106,Torata,,,PE,PER,2
+PE_MOQ_0201,,,PE,Peru,MOQ,Moquegua,0201,Omate,,,PE,PER,2
+PE_MOQ_0202,,,PE,Peru,MOQ,Moquegua,0202,Chojata,,,PE,PER,2
+PE_MOQ_0203,,,PE,Peru,MOQ,Moquegua,0203,Coalaque,,,PE,PER,2
+PE_MOQ_0204,,,PE,Peru,MOQ,Moquegua,0204,Ichuña,,,PE,PER,2
+PE_MOQ_0205,,,PE,Peru,MOQ,Moquegua,0205,La Capilla,,,PE,PER,2
+PE_MOQ_0206,,,PE,Peru,MOQ,Moquegua,0206,Lloque,,,PE,PER,2
+PE_MOQ_0207,,,PE,Peru,MOQ,Moquegua,0207,Matalaque,,,PE,PER,2
+PE_MOQ_0208,,,PE,Peru,MOQ,Moquegua,0208,Puquina,,,PE,PER,2
+PE_MOQ_0209,,,PE,Peru,MOQ,Moquegua,0209,Quinistaquillas,,,PE,PER,2
+PE_MOQ_0210,,,PE,Peru,MOQ,Moquegua,0210,Ubinas,,,PE,PER,2
+PE_MOQ_0211,,,PE,Peru,MOQ,Moquegua,0211,Yunga,,,PE,PER,2
+PE_MOQ_0301,,,PE,Peru,MOQ,Moquegua,0301,Ilo,,,PE,PER,2
+PE_MOQ_0302,,,PE,Peru,MOQ,Moquegua,0302,El Algarrobal,,,PE,PER,2
+PE_MOQ_0303,,,PE,Peru,MOQ,Moquegua,0303,Pacocha,,,PE,PER,2
 PE_PAS,Q211208,,PE,Peru,PAS,Pasco,,,,,PE,PER,1
+PE_PAS_0101,,,PE,Peru,PAS,Pasco,0101,Chaupimarca,,,PE,PER,2
+PE_PAS_0102,,,PE,Peru,PAS,Pasco,0102,Huachon,,,PE,PER,2
+PE_PAS_0103,,,PE,Peru,PAS,Pasco,0103,Huariaca,,,PE,PER,2
+PE_PAS_0104,,,PE,Peru,PAS,Pasco,0104,Huayllay,,,PE,PER,2
+PE_PAS_0105,,,PE,Peru,PAS,Pasco,0105,Ninacaca,,,PE,PER,2
+PE_PAS_0106,,,PE,Peru,PAS,Pasco,0106,Pallanchacra,,,PE,PER,2
+PE_PAS_0107,,,PE,Peru,PAS,Pasco,0107,Paucartambo,,,PE,PER,2
+PE_PAS_0108,,,PE,Peru,PAS,Pasco,0108,San Francisco de Asís de Yarusyacan,,,PE,PER,2
+PE_PAS_0109,,,PE,Peru,PAS,Pasco,0109,Simon Bolívar,,,PE,PER,2
+PE_PAS_0110,,,PE,Peru,PAS,Pasco,0110,Ticlacayan,,,PE,PER,2
+PE_PAS_0111,,,PE,Peru,PAS,Pasco,0111,Tinyahuarco,,,PE,PER,2
+PE_PAS_0112,,,PE,Peru,PAS,Pasco,0112,Vicco,,,PE,PER,2
+PE_PAS_0113,,,PE,Peru,PAS,Pasco,0113,Yanacancha,,,PE,PER,2
+PE_PAS_0201,,,PE,Peru,PAS,Pasco,0201,Yanahuanca,,,PE,PER,2
+PE_PAS_0202,,,PE,Peru,PAS,Pasco,0202,Chacayan,,,PE,PER,2
+PE_PAS_0203,,,PE,Peru,PAS,Pasco,0203,Goyllarisquizga,,,PE,PER,2
+PE_PAS_0204,,,PE,Peru,PAS,Pasco,0204,Paucar,,,PE,PER,2
+PE_PAS_0205,,,PE,Peru,PAS,Pasco,0205,San Pedro de Pillao,,,PE,PER,2
+PE_PAS_0206,,,PE,Peru,PAS,Pasco,0206,Santa Ana de Tusi,,,PE,PER,2
+PE_PAS_0207,,,PE,Peru,PAS,Pasco,0207,Tapuc,,,PE,PER,2
+PE_PAS_0208,,,PE,Peru,PAS,Pasco,0208,Vilcabamba,,,PE,PER,2
+PE_PAS_0301,,,PE,Peru,PAS,Pasco,0301,Oxapampa,,,PE,PER,2
+PE_PAS_0302,,,PE,Peru,PAS,Pasco,0302,Chontabamba,,,PE,PER,2
+PE_PAS_0303,,,PE,Peru,PAS,Pasco,0303,Huancabamba,,,PE,PER,2
+PE_PAS_0304,,,PE,Peru,PAS,Pasco,0304,Palcazu,,,PE,PER,2
+PE_PAS_0305,,,PE,Peru,PAS,Pasco,0305,Pozuzo,,,PE,PER,2
+PE_PAS_0306,,,PE,Peru,PAS,Pasco,0306,Puerto Bermúdez,,,PE,PER,2
+PE_PAS_0307,,,PE,Peru,PAS,Pasco,0307,Villa Rica,,,PE,PER,2
+PE_PAS_0308,,,PE,Peru,PAS,Pasco,0308,Constitución,,,PE,PER,2
 PE_PIU,Q208183,,PE,Peru,PIU,Piura,,,,,PE,PER,1
+PE_PIU_0101,,,PE,Peru,PIU,Piura,0101,Piura,,,PE,PER,2
+PE_PIU_0104,,,PE,Peru,PIU,Piura,0104,Castilla,,,PE,PER,2
+PE_PIU_0105,,,PE,Peru,PIU,Piura,0105,Catacaos,,,PE,PER,2
+PE_PIU_0107,,,PE,Peru,PIU,Piura,0107,Cura Mori,,,PE,PER,2
+PE_PIU_0108,,,PE,Peru,PIU,Piura,0108,El Tallan,,,PE,PER,2
+PE_PIU_0109,,,PE,Peru,PIU,Piura,0109,La Arena,,,PE,PER,2
+PE_PIU_0110,,,PE,Peru,PIU,Piura,0110,La Unión,,,PE,PER,2
+PE_PIU_0111,,,PE,Peru,PIU,Piura,0111,Las Lomas,,,PE,PER,2
+PE_PIU_0114,,,PE,Peru,PIU,Piura,0114,Tambo Grande,,,PE,PER,2
+PE_PIU_0115,,,PE,Peru,PIU,Piura,0115,Veintiseis de Octubre,,,PE,PER,2
+PE_PIU_0201,,,PE,Peru,PIU,Piura,0201,Ayabaca,,,PE,PER,2
+PE_PIU_0202,,,PE,Peru,PIU,Piura,0202,Frias,,,PE,PER,2
+PE_PIU_0203,,,PE,Peru,PIU,Piura,0203,Jilili,,,PE,PER,2
+PE_PIU_0204,,,PE,Peru,PIU,Piura,0204,Lagunas,,,PE,PER,2
+PE_PIU_0205,,,PE,Peru,PIU,Piura,0205,Montero,,,PE,PER,2
+PE_PIU_0206,,,PE,Peru,PIU,Piura,0206,Pacaipampa,,,PE,PER,2
+PE_PIU_0207,,,PE,Peru,PIU,Piura,0207,Paimas,,,PE,PER,2
+PE_PIU_0208,,,PE,Peru,PIU,Piura,0208,Sapillica,,,PE,PER,2
+PE_PIU_0209,,,PE,Peru,PIU,Piura,0209,Sicchez,,,PE,PER,2
+PE_PIU_0210,,,PE,Peru,PIU,Piura,0210,Suyo,,,PE,PER,2
+PE_PIU_0301,,,PE,Peru,PIU,Piura,0301,Huancabamba,,,PE,PER,2
+PE_PIU_0302,,,PE,Peru,PIU,Piura,0302,Canchaque,,,PE,PER,2
+PE_PIU_0303,,,PE,Peru,PIU,Piura,0303,El Carmen de la Frontera,,,PE,PER,2
+PE_PIU_0304,,,PE,Peru,PIU,Piura,0304,Huarmaca,,,PE,PER,2
+PE_PIU_0305,,,PE,Peru,PIU,Piura,0305,Lalaquiz,,,PE,PER,2
+PE_PIU_0306,,,PE,Peru,PIU,Piura,0306,San Miguel de El Faique,,,PE,PER,2
+PE_PIU_0307,,,PE,Peru,PIU,Piura,0307,Sondor,,,PE,PER,2
+PE_PIU_0308,,,PE,Peru,PIU,Piura,0308,Sondorillo,,,PE,PER,2
+PE_PIU_0401,,,PE,Peru,PIU,Piura,0401,Chulucanas,,,PE,PER,2
+PE_PIU_0402,,,PE,Peru,PIU,Piura,0402,Buenos Aires,,,PE,PER,2
+PE_PIU_0403,,,PE,Peru,PIU,Piura,0403,Chalaco,,,PE,PER,2
+PE_PIU_0404,,,PE,Peru,PIU,Piura,0404,La Matanza,,,PE,PER,2
+PE_PIU_0405,,,PE,Peru,PIU,Piura,0405,Morropon,,,PE,PER,2
+PE_PIU_0406,,,PE,Peru,PIU,Piura,0406,Salitral,,,PE,PER,2
+PE_PIU_0407,,,PE,Peru,PIU,Piura,0407,San Juan de Bigote,,,PE,PER,2
+PE_PIU_0408,,,PE,Peru,PIU,Piura,0408,Santa Catalina de Mossa,,,PE,PER,2
+PE_PIU_0409,,,PE,Peru,PIU,Piura,0409,Santo Domingo,,,PE,PER,2
+PE_PIU_0410,,,PE,Peru,PIU,Piura,0410,Yamango,,,PE,PER,2
+PE_PIU_0501,,,PE,Peru,PIU,Piura,0501,Paita,,,PE,PER,2
+PE_PIU_0502,,,PE,Peru,PIU,Piura,0502,Amotape,,,PE,PER,2
+PE_PIU_0503,,,PE,Peru,PIU,Piura,0503,Arenal,,,PE,PER,2
+PE_PIU_0504,,,PE,Peru,PIU,Piura,0504,Colan,,,PE,PER,2
+PE_PIU_0505,,,PE,Peru,PIU,Piura,0505,La Huaca,,,PE,PER,2
+PE_PIU_0506,,,PE,Peru,PIU,Piura,0506,Tamarindo,,,PE,PER,2
+PE_PIU_0507,,,PE,Peru,PIU,Piura,0507,Vichayal,,,PE,PER,2
+PE_PIU_0601,,,PE,Peru,PIU,Piura,0601,Sullana,,,PE,PER,2
+PE_PIU_0602,,,PE,Peru,PIU,Piura,0602,Bellavista,,,PE,PER,2
+PE_PIU_0603,,,PE,Peru,PIU,Piura,0603,Ignacio Escudero,,,PE,PER,2
+PE_PIU_0604,,,PE,Peru,PIU,Piura,0604,Lancones,,,PE,PER,2
+PE_PIU_0605,,,PE,Peru,PIU,Piura,0605,Marcavelica,,,PE,PER,2
+PE_PIU_0606,,,PE,Peru,PIU,Piura,0606,Miguel Checa,,,PE,PER,2
+PE_PIU_0607,,,PE,Peru,PIU,Piura,0607,Querecotillo,,,PE,PER,2
+PE_PIU_0608,,,PE,Peru,PIU,Piura,0608,Salitral,,,PE,PER,2
+PE_PIU_0701,,,PE,Peru,PIU,Piura,0701,Pariñas,,,PE,PER,2
+PE_PIU_0702,,,PE,Peru,PIU,Piura,0702,El Alto,,,PE,PER,2
+PE_PIU_0703,,,PE,Peru,PIU,Piura,0703,La Brea,,,PE,PER,2
+PE_PIU_0704,,,PE,Peru,PIU,Piura,0704,Lobitos,,,PE,PER,2
+PE_PIU_0705,,,PE,Peru,PIU,Piura,0705,Los Organos,,,PE,PER,2
+PE_PIU_0706,,,PE,Peru,PIU,Piura,0706,Mancora,,,PE,PER,2
+PE_PIU_0801,,,PE,Peru,PIU,Piura,0801,Sechura,,,PE,PER,2
+PE_PIU_0802,,,PE,Peru,PIU,Piura,0802,Bellavista de la Unión,,,PE,PER,2
+PE_PIU_0803,,,PE,Peru,PIU,Piura,0803,Bernal,,,PE,PER,2
+PE_PIU_0804,,,PE,Peru,PIU,Piura,0804,Cristo Nos Valga,,,PE,PER,2
+PE_PIU_0805,,,PE,Peru,PIU,Piura,0805,Vice,,,PE,PER,2
+PE_PIU_0806,,,PE,Peru,PIU,Piura,0806,Rinconada Llicuar,,,PE,PER,2
 PE_PUN,Q205104,,PE,Peru,PUN,Puno,,,,,PE,PER,1
+PE_PUN_0101,,,PE,Peru,PUN,Puno,0101,Puno,,,PE,PER,2
+PE_PUN_0102,,,PE,Peru,PUN,Puno,0102,Acora,,,PE,PER,2
+PE_PUN_0103,,,PE,Peru,PUN,Puno,0103,Amantani,,,PE,PER,2
+PE_PUN_0104,,,PE,Peru,PUN,Puno,0104,Atuncolla,,,PE,PER,2
+PE_PUN_0105,,,PE,Peru,PUN,Puno,0105,Capachica,,,PE,PER,2
+PE_PUN_0106,,,PE,Peru,PUN,Puno,0106,Chucuito,,,PE,PER,2
+PE_PUN_0107,,,PE,Peru,PUN,Puno,0107,Coata,,,PE,PER,2
+PE_PUN_0108,,,PE,Peru,PUN,Puno,0108,Huata,,,PE,PER,2
+PE_PUN_0109,,,PE,Peru,PUN,Puno,0109,Mañazo,,,PE,PER,2
+PE_PUN_0110,,,PE,Peru,PUN,Puno,0110,Paucarcolla,,,PE,PER,2
+PE_PUN_0111,,,PE,Peru,PUN,Puno,0111,Pichacani,,,PE,PER,2
+PE_PUN_0112,,,PE,Peru,PUN,Puno,0112,Plateria,,,PE,PER,2
+PE_PUN_0113,,,PE,Peru,PUN,Puno,0113,San Antonio,,,PE,PER,2
+PE_PUN_0114,,,PE,Peru,PUN,Puno,0114,Tiquillaca,,,PE,PER,2
+PE_PUN_0115,,,PE,Peru,PUN,Puno,0115,Vilque,,,PE,PER,2
+PE_PUN_0201,,,PE,Peru,PUN,Puno,0201,Azángaro,,,PE,PER,2
+PE_PUN_0202,,,PE,Peru,PUN,Puno,0202,Achaya,,,PE,PER,2
+PE_PUN_0203,,,PE,Peru,PUN,Puno,0203,Arapa,,,PE,PER,2
+PE_PUN_0204,,,PE,Peru,PUN,Puno,0204,Asillo,,,PE,PER,2
+PE_PUN_0205,,,PE,Peru,PUN,Puno,0205,Caminaca,,,PE,PER,2
+PE_PUN_0206,,,PE,Peru,PUN,Puno,0206,Chupa,,,PE,PER,2
+PE_PUN_0207,,,PE,Peru,PUN,Puno,0207,José Domingo Choquehuanca,,,PE,PER,2
+PE_PUN_0208,,,PE,Peru,PUN,Puno,0208,Muñani,,,PE,PER,2
+PE_PUN_0209,,,PE,Peru,PUN,Puno,0209,Potoni,,,PE,PER,2
+PE_PUN_0210,,,PE,Peru,PUN,Puno,0210,Saman,,,PE,PER,2
+PE_PUN_0211,,,PE,Peru,PUN,Puno,0211,San Anton,,,PE,PER,2
+PE_PUN_0212,,,PE,Peru,PUN,Puno,0212,San José,,,PE,PER,2
+PE_PUN_0213,,,PE,Peru,PUN,Puno,0213,San Juan de Salinas,,,PE,PER,2
+PE_PUN_0214,,,PE,Peru,PUN,Puno,0214,Santiago de Pupuja,,,PE,PER,2
+PE_PUN_0215,,,PE,Peru,PUN,Puno,0215,Tirapata,,,PE,PER,2
+PE_PUN_0301,,,PE,Peru,PUN,Puno,0301,Macusani,,,PE,PER,2
+PE_PUN_0302,,,PE,Peru,PUN,Puno,0302,Ajoyani,,,PE,PER,2
+PE_PUN_0303,,,PE,Peru,PUN,Puno,0303,Ayapata,,,PE,PER,2
+PE_PUN_0304,,,PE,Peru,PUN,Puno,0304,Coasa,,,PE,PER,2
+PE_PUN_0305,,,PE,Peru,PUN,Puno,0305,Corani,,,PE,PER,2
+PE_PUN_0306,,,PE,Peru,PUN,Puno,0306,Crucero,,,PE,PER,2
+PE_PUN_0307,,,PE,Peru,PUN,Puno,0307,Ituata,,,PE,PER,2
+PE_PUN_0308,,,PE,Peru,PUN,Puno,0308,Ollachea,,,PE,PER,2
+PE_PUN_0309,,,PE,Peru,PUN,Puno,0309,San Gaban,,,PE,PER,2
+PE_PUN_0310,,,PE,Peru,PUN,Puno,0310,Usicayos,,,PE,PER,2
+PE_PUN_0401,,,PE,Peru,PUN,Puno,0401,Juli,,,PE,PER,2
+PE_PUN_0402,,,PE,Peru,PUN,Puno,0402,Desaguadero,,,PE,PER,2
+PE_PUN_0403,,,PE,Peru,PUN,Puno,0403,Huacullani,,,PE,PER,2
+PE_PUN_0404,,,PE,Peru,PUN,Puno,0404,Kelluyo,,,PE,PER,2
+PE_PUN_0405,,,PE,Peru,PUN,Puno,0405,Pisacoma,,,PE,PER,2
+PE_PUN_0406,,,PE,Peru,PUN,Puno,0406,Pomata,,,PE,PER,2
+PE_PUN_0407,,,PE,Peru,PUN,Puno,0407,Zepita,,,PE,PER,2
+PE_PUN_0501,,,PE,Peru,PUN,Puno,0501,Ilave,,,PE,PER,2
+PE_PUN_0502,,,PE,Peru,PUN,Puno,0502,Capazo,,,PE,PER,2
+PE_PUN_0503,,,PE,Peru,PUN,Puno,0503,Pilcuyo,,,PE,PER,2
+PE_PUN_0504,,,PE,Peru,PUN,Puno,0504,Santa Rosa,,,PE,PER,2
+PE_PUN_0505,,,PE,Peru,PUN,Puno,0505,Conduriri,,,PE,PER,2
+PE_PUN_0601,,,PE,Peru,PUN,Puno,0601,Huancane,,,PE,PER,2
+PE_PUN_0602,,,PE,Peru,PUN,Puno,0602,Cojata,,,PE,PER,2
+PE_PUN_0603,,,PE,Peru,PUN,Puno,0603,Huatasani,,,PE,PER,2
+PE_PUN_0604,,,PE,Peru,PUN,Puno,0604,Inchupalla,,,PE,PER,2
+PE_PUN_0605,,,PE,Peru,PUN,Puno,0605,Pusi,,,PE,PER,2
+PE_PUN_0606,,,PE,Peru,PUN,Puno,0606,Rosaspata,,,PE,PER,2
+PE_PUN_0607,,,PE,Peru,PUN,Puno,0607,Taraco,,,PE,PER,2
+PE_PUN_0608,,,PE,Peru,PUN,Puno,0608,Vilque Chico,,,PE,PER,2
+PE_PUN_0701,,,PE,Peru,PUN,Puno,0701,Lampa,,,PE,PER,2
+PE_PUN_0702,,,PE,Peru,PUN,Puno,0702,Cabanilla,,,PE,PER,2
+PE_PUN_0703,,,PE,Peru,PUN,Puno,0703,Calapuja,,,PE,PER,2
+PE_PUN_0704,,,PE,Peru,PUN,Puno,0704,Nicasio,,,PE,PER,2
+PE_PUN_0705,,,PE,Peru,PUN,Puno,0705,Ocuviri,,,PE,PER,2
+PE_PUN_0706,,,PE,Peru,PUN,Puno,0706,Palca,,,PE,PER,2
+PE_PUN_0707,,,PE,Peru,PUN,Puno,0707,Paratia,,,PE,PER,2
+PE_PUN_0708,,,PE,Peru,PUN,Puno,0708,Pucara,,,PE,PER,2
+PE_PUN_0709,,,PE,Peru,PUN,Puno,0709,Santa Lucia,,,PE,PER,2
+PE_PUN_0710,,,PE,Peru,PUN,Puno,0710,Vilavila,,,PE,PER,2
+PE_PUN_0801,,,PE,Peru,PUN,Puno,0801,Ayaviri,,,PE,PER,2
+PE_PUN_0802,,,PE,Peru,PUN,Puno,0802,Antauta,,,PE,PER,2
+PE_PUN_0803,,,PE,Peru,PUN,Puno,0803,Cupi,,,PE,PER,2
+PE_PUN_0804,,,PE,Peru,PUN,Puno,0804,Llalli,,,PE,PER,2
+PE_PUN_0805,,,PE,Peru,PUN,Puno,0805,Macari,,,PE,PER,2
+PE_PUN_0806,,,PE,Peru,PUN,Puno,0806,Nuñoa,,,PE,PER,2
+PE_PUN_0807,,,PE,Peru,PUN,Puno,0807,Orurillo,,,PE,PER,2
+PE_PUN_0808,,,PE,Peru,PUN,Puno,0808,Santa Rosa,,,PE,PER,2
+PE_PUN_0809,,,PE,Peru,PUN,Puno,0809,Umachiri,,,PE,PER,2
+PE_PUN_0901,,,PE,Peru,PUN,Puno,0901,Moho,,,PE,PER,2
+PE_PUN_0902,,,PE,Peru,PUN,Puno,0902,Conima,,,PE,PER,2
+PE_PUN_0903,,,PE,Peru,PUN,Puno,0903,Huayrapata,,,PE,PER,2
+PE_PUN_0904,,,PE,Peru,PUN,Puno,0904,Tilali,,,PE,PER,2
+PE_PUN_1001,,,PE,Peru,PUN,Puno,1001,Putina,,,PE,PER,2
+PE_PUN_1002,,,PE,Peru,PUN,Puno,1002,Ananea,,,PE,PER,2
+PE_PUN_1003,,,PE,Peru,PUN,Puno,1003,Pedro Vilca Apaza,,,PE,PER,2
+PE_PUN_1004,,,PE,Peru,PUN,Puno,1004,Quilcapuncu,,,PE,PER,2
+PE_PUN_1005,,,PE,Peru,PUN,Puno,1005,Sina,,,PE,PER,2
+PE_PUN_1101,,,PE,Peru,PUN,Puno,1101,Juliaca,,,PE,PER,2
+PE_PUN_1102,,,PE,Peru,PUN,Puno,1102,Cabana,,,PE,PER,2
+PE_PUN_1103,,,PE,Peru,PUN,Puno,1103,Cabanillas,,,PE,PER,2
+PE_PUN_1104,,,PE,Peru,PUN,Puno,1104,Caracoto,,,PE,PER,2
+PE_PUN_1105,,,PE,Peru,PUN,Puno,1105,San Miguel,,,PE,PER,2
+PE_PUN_1201,,,PE,Peru,PUN,Puno,1201,Sandia,,,PE,PER,2
+PE_PUN_1202,,,PE,Peru,PUN,Puno,1202,Cuyocuyo,,,PE,PER,2
+PE_PUN_1203,,,PE,Peru,PUN,Puno,1203,Limbani,,,PE,PER,2
+PE_PUN_1204,,,PE,Peru,PUN,Puno,1204,Patambuco,,,PE,PER,2
+PE_PUN_1205,,,PE,Peru,PUN,Puno,1205,Phara,,,PE,PER,2
+PE_PUN_1206,,,PE,Peru,PUN,Puno,1206,Quiaca,,,PE,PER,2
+PE_PUN_1207,,,PE,Peru,PUN,Puno,1207,San Juan del Oro,,,PE,PER,2
+PE_PUN_1208,,,PE,Peru,PUN,Puno,1208,Yanahuaya,,,PE,PER,2
+PE_PUN_1209,,,PE,Peru,PUN,Puno,1209,Alto Inambari,,,PE,PER,2
+PE_PUN_1210,,,PE,Peru,PUN,Puno,1210,San Pedro de Putina Punco,,,PE,PER,2
+PE_PUN_1301,,,PE,Peru,PUN,Puno,1301,Yunguyo,,,PE,PER,2
+PE_PUN_1302,,,PE,Peru,PUN,Puno,1302,Anapia,,,PE,PER,2
+PE_PUN_1303,,,PE,Peru,PUN,Puno,1303,Copani,,,PE,PER,2
+PE_PUN_1304,,,PE,Peru,PUN,Puno,1304,Cuturapi,,,PE,PER,2
+PE_PUN_1305,,,PE,Peru,PUN,Puno,1305,Ollaraya,,,PE,PER,2
+PE_PUN_1306,,,PE,Peru,PUN,Puno,1306,Tinicachi,,,PE,PER,2
+PE_PUN_1307,,,PE,Peru,PUN,Puno,1307,Unicachi,,,PE,PER,2
 PE_SAM,Q211793,,PE,Peru,SAM,San Martín,,,,,PE,PER,1
+PE_SAM_0101,,,PE,Peru,SAM,San Martín,0101,Moyobamba,,,PE,PER,2
+PE_SAM_0102,,,PE,Peru,SAM,San Martín,0102,Calzada,,,PE,PER,2
+PE_SAM_0103,,,PE,Peru,SAM,San Martín,0103,Habana,,,PE,PER,2
+PE_SAM_0104,,,PE,Peru,SAM,San Martín,0104,Jepelacio,,,PE,PER,2
+PE_SAM_0105,,,PE,Peru,SAM,San Martín,0105,Soritor,,,PE,PER,2
+PE_SAM_0106,,,PE,Peru,SAM,San Martín,0106,Yantalo,,,PE,PER,2
+PE_SAM_0201,,,PE,Peru,SAM,San Martín,0201,Bellavista,,,PE,PER,2
+PE_SAM_0202,,,PE,Peru,SAM,San Martín,0202,Alto Biavo,,,PE,PER,2
+PE_SAM_0203,,,PE,Peru,SAM,San Martín,0203,Bajo Biavo,,,PE,PER,2
+PE_SAM_0204,,,PE,Peru,SAM,San Martín,0204,Huallaga,,,PE,PER,2
+PE_SAM_0205,,,PE,Peru,SAM,San Martín,0205,San Pablo,,,PE,PER,2
+PE_SAM_0206,,,PE,Peru,SAM,San Martín,0206,San Rafael,,,PE,PER,2
+PE_SAM_0301,,,PE,Peru,SAM,San Martín,0301,San José de Sisa,,,PE,PER,2
+PE_SAM_0302,,,PE,Peru,SAM,San Martín,0302,Agua Blanca,,,PE,PER,2
+PE_SAM_0303,,,PE,Peru,SAM,San Martín,0303,San Martín,,,PE,PER,2
+PE_SAM_0304,,,PE,Peru,SAM,San Martín,0304,Santa Rosa,,,PE,PER,2
+PE_SAM_0305,,,PE,Peru,SAM,San Martín,0305,Shatoja,,,PE,PER,2
+PE_SAM_0401,,,PE,Peru,SAM,San Martín,0401,Saposoa,,,PE,PER,2
+PE_SAM_0402,,,PE,Peru,SAM,San Martín,0402,Alto Saposoa,,,PE,PER,2
+PE_SAM_0403,,,PE,Peru,SAM,San Martín,0403,El Eslabón,,,PE,PER,2
+PE_SAM_0404,,,PE,Peru,SAM,San Martín,0404,Piscoyacu,,,PE,PER,2
+PE_SAM_0405,,,PE,Peru,SAM,San Martín,0405,Sacanche,,,PE,PER,2
+PE_SAM_0406,,,PE,Peru,SAM,San Martín,0406,Tingo de Saposoa,,,PE,PER,2
+PE_SAM_0501,,,PE,Peru,SAM,San Martín,0501,Lamas,,,PE,PER,2
+PE_SAM_0502,,,PE,Peru,SAM,San Martín,0502,Alonso de Alvarado,,,PE,PER,2
+PE_SAM_0503,,,PE,Peru,SAM,San Martín,0503,Barranquita,,,PE,PER,2
+PE_SAM_0504,,,PE,Peru,SAM,San Martín,0504,Caynarachi,,,PE,PER,2
+PE_SAM_0505,,,PE,Peru,SAM,San Martín,0505,Cuñumbuqui,,,PE,PER,2
+PE_SAM_0506,,,PE,Peru,SAM,San Martín,0506,Pinto Recodo,,,PE,PER,2
+PE_SAM_0507,,,PE,Peru,SAM,San Martín,0507,Rumisapa,,,PE,PER,2
+PE_SAM_0508,,,PE,Peru,SAM,San Martín,0508,San Roque de Cumbaza,,,PE,PER,2
+PE_SAM_0509,,,PE,Peru,SAM,San Martín,0509,Shanao,,,PE,PER,2
+PE_SAM_0510,,,PE,Peru,SAM,San Martín,0510,Tabalosos,,,PE,PER,2
+PE_SAM_0511,,,PE,Peru,SAM,San Martín,0511,Zapatero,,,PE,PER,2
+PE_SAM_0601,,,PE,Peru,SAM,San Martín,0601,Juanjuí,,,PE,PER,2
+PE_SAM_0602,,,PE,Peru,SAM,San Martín,0602,Campanilla,,,PE,PER,2
+PE_SAM_0603,,,PE,Peru,SAM,San Martín,0603,Huicungo,,,PE,PER,2
+PE_SAM_0604,,,PE,Peru,SAM,San Martín,0604,Pachiza,,,PE,PER,2
+PE_SAM_0605,,,PE,Peru,SAM,San Martín,0605,Pajarillo,,,PE,PER,2
+PE_SAM_0701,,,PE,Peru,SAM,San Martín,0701,Picota,,,PE,PER,2
+PE_SAM_0702,,,PE,Peru,SAM,San Martín,0702,Buenos Aires,,,PE,PER,2
+PE_SAM_0703,,,PE,Peru,SAM,San Martín,0703,Caspisapa,,,PE,PER,2
+PE_SAM_0704,,,PE,Peru,SAM,San Martín,0704,Pilluana,,,PE,PER,2
+PE_SAM_0705,,,PE,Peru,SAM,San Martín,0705,Pucacaca,,,PE,PER,2
+PE_SAM_0706,,,PE,Peru,SAM,San Martín,0706,San Cristóbal,,,PE,PER,2
+PE_SAM_0707,,,PE,Peru,SAM,San Martín,0707,San Hilarión,,,PE,PER,2
+PE_SAM_0708,,,PE,Peru,SAM,San Martín,0708,Shamboyacu,,,PE,PER,2
+PE_SAM_0709,,,PE,Peru,SAM,San Martín,0709,Tingo de Ponasa,,,PE,PER,2
+PE_SAM_0710,,,PE,Peru,SAM,San Martín,0710,Tres Unidos,,,PE,PER,2
+PE_SAM_0801,,,PE,Peru,SAM,San Martín,0801,Rioja,,,PE,PER,2
+PE_SAM_0802,,,PE,Peru,SAM,San Martín,0802,Awajun,,,PE,PER,2
+PE_SAM_0803,,,PE,Peru,SAM,San Martín,0803,Elías Soplin Vargas,,,PE,PER,2
+PE_SAM_0804,,,PE,Peru,SAM,San Martín,0804,Nueva Cajamarca,,,PE,PER,2
+PE_SAM_0805,,,PE,Peru,SAM,San Martín,0805,Pardo Miguel,,,PE,PER,2
+PE_SAM_0806,,,PE,Peru,SAM,San Martín,0806,Posic,,,PE,PER,2
+PE_SAM_0807,,,PE,Peru,SAM,San Martín,0807,San Fernando,,,PE,PER,2
+PE_SAM_0808,,,PE,Peru,SAM,San Martín,0808,Yorongos,,,PE,PER,2
+PE_SAM_0809,,,PE,Peru,SAM,San Martín,0809,Yuracyacu,,,PE,PER,2
+PE_SAM_0901,,,PE,Peru,SAM,San Martín,0901,Tarapoto,,,PE,PER,2
+PE_SAM_0902,,,PE,Peru,SAM,San Martín,0902,Alberto Leveau,,,PE,PER,2
+PE_SAM_0903,,,PE,Peru,SAM,San Martín,0903,Cacatachi,,,PE,PER,2
+PE_SAM_0904,,,PE,Peru,SAM,San Martín,0904,Chazuta,,,PE,PER,2
+PE_SAM_0905,,,PE,Peru,SAM,San Martín,0905,Chipurana,,,PE,PER,2
+PE_SAM_0906,,,PE,Peru,SAM,San Martín,0906,El Porvenir,,,PE,PER,2
+PE_SAM_0907,,,PE,Peru,SAM,San Martín,0907,Huimbayoc,,,PE,PER,2
+PE_SAM_0908,,,PE,Peru,SAM,San Martín,0908,Juan Guerra,,,PE,PER,2
+PE_SAM_0909,,,PE,Peru,SAM,San Martín,0909,La Banda de Shilcayo,,,PE,PER,2
+PE_SAM_0910,,,PE,Peru,SAM,San Martín,0910,Morales,,,PE,PER,2
+PE_SAM_0911,,,PE,Peru,SAM,San Martín,0911,Papaplaya,,,PE,PER,2
+PE_SAM_0912,,,PE,Peru,SAM,San Martín,0912,San Antonio,,,PE,PER,2
+PE_SAM_0913,,,PE,Peru,SAM,San Martín,0913,Sauce,,,PE,PER,2
+PE_SAM_0914,,,PE,Peru,SAM,San Martín,0914,Shapaja,,,PE,PER,2
+PE_SAM_1001,,,PE,Peru,SAM,San Martín,1001,Tocache,,,PE,PER,2
+PE_SAM_1002,,,PE,Peru,SAM,San Martín,1002,Nuevo Progreso,,,PE,PER,2
+PE_SAM_1003,,,PE,Peru,SAM,San Martín,1003,Polvora,,,PE,PER,2
+PE_SAM_1004,,,PE,Peru,SAM,San Martín,1004,Shunte,,,PE,PER,2
+PE_SAM_1005,,,PE,Peru,SAM,San Martín,1005,Uchiza,,,PE,PER,2
 PE_TAC,Q207413,,PE,Peru,TAC,Tacna,,,,,PE,PER,1
+PE_TAC_0101,,,PE,Peru,TAC,Tacna,0101,Tacna,,,PE,PER,2
+PE_TAC_0102,,,PE,Peru,TAC,Tacna,0102,Alto de la Alianza,,,PE,PER,2
+PE_TAC_0103,,,PE,Peru,TAC,Tacna,0103,Calana,,,PE,PER,2
+PE_TAC_0104,,,PE,Peru,TAC,Tacna,0104,Ciudad Nueva,,,PE,PER,2
+PE_TAC_0105,,,PE,Peru,TAC,Tacna,0105,Inclan,,,PE,PER,2
+PE_TAC_0106,,,PE,Peru,TAC,Tacna,0106,Pachia,,,PE,PER,2
+PE_TAC_0107,,,PE,Peru,TAC,Tacna,0107,Palca,,,PE,PER,2
+PE_TAC_0108,,,PE,Peru,TAC,Tacna,0108,Pocollay,,,PE,PER,2
+PE_TAC_0109,,,PE,Peru,TAC,Tacna,0109,Sama,,,PE,PER,2
+PE_TAC_0110,,,PE,Peru,TAC,Tacna,0110,Coronel Gregorio Albarracín Lanchipa,,,PE,PER,2
+PE_TAC_0111,,,PE,Peru,TAC,Tacna,0111,La Yarada los Palos,,,PE,PER,2
+PE_TAC_0201,,,PE,Peru,TAC,Tacna,0201,Candarave,,,PE,PER,2
+PE_TAC_0202,,,PE,Peru,TAC,Tacna,0202,Cairani,,,PE,PER,2
+PE_TAC_0203,,,PE,Peru,TAC,Tacna,0203,Camilaca,,,PE,PER,2
+PE_TAC_0204,,,PE,Peru,TAC,Tacna,0204,Curibaya,,,PE,PER,2
+PE_TAC_0205,,,PE,Peru,TAC,Tacna,0205,Huanuara,,,PE,PER,2
+PE_TAC_0206,,,PE,Peru,TAC,Tacna,0206,Quilahuani,,,PE,PER,2
+PE_TAC_0301,,,PE,Peru,TAC,Tacna,0301,Locumba,,,PE,PER,2
+PE_TAC_0302,,,PE,Peru,TAC,Tacna,0302,Ilabaya,,,PE,PER,2
+PE_TAC_0303,,,PE,Peru,TAC,Tacna,0303,Ite,,,PE,PER,2
+PE_TAC_0401,,,PE,Peru,TAC,Tacna,0401,Tarata,,,PE,PER,2
+PE_TAC_0402,,,PE,Peru,TAC,Tacna,0402,Héroes Albarracín,,,PE,PER,2
+PE_TAC_0403,,,PE,Peru,TAC,Tacna,0403,Estique,,,PE,PER,2
+PE_TAC_0404,,,PE,Peru,TAC,Tacna,0404,Estique-Pampa,,,PE,PER,2
+PE_TAC_0405,,,PE,Peru,TAC,Tacna,0405,Sitajara,,,PE,PER,2
+PE_TAC_0406,,,PE,Peru,TAC,Tacna,0406,Susapaya,,,PE,PER,2
+PE_TAC_0407,,,PE,Peru,TAC,Tacna,0407,Tarucachi,,,PE,PER,2
+PE_TAC_0408,,,PE,Peru,TAC,Tacna,0408,Ticaco,,,PE,PER,2
 PE_TUM,Q209597,,PE,Peru,TUM,Tumbes,,,,,PE,PER,1
+PE_TUM_0101,,,PE,Peru,TUM,Tumbes,0101,Tumbes,,,PE,PER,2
+PE_TUM_0102,,,PE,Peru,TUM,Tumbes,0102,Corrales,,,PE,PER,2
+PE_TUM_0103,,,PE,Peru,TUM,Tumbes,0103,La Cruz,,,PE,PER,2
+PE_TUM_0104,,,PE,Peru,TUM,Tumbes,0104,Pampas de Hospital,,,PE,PER,2
+PE_TUM_0105,,,PE,Peru,TUM,Tumbes,0105,San Jacinto,,,PE,PER,2
+PE_TUM_0106,,,PE,Peru,TUM,Tumbes,0106,San Juan de la Virgen,,,PE,PER,2
+PE_TUM_0201,,,PE,Peru,TUM,Tumbes,0201,Zorritos,,,PE,PER,2
+PE_TUM_0202,,,PE,Peru,TUM,Tumbes,0202,Casitas,,,PE,PER,2
+PE_TUM_0203,,,PE,Peru,TUM,Tumbes,0203,Canoas de Punta Sal,,,PE,PER,2
+PE_TUM_0301,,,PE,Peru,TUM,Tumbes,0301,Zarumilla,,,PE,PER,2
+PE_TUM_0302,,,PE,Peru,TUM,Tumbes,0302,Aguas Verdes,,,PE,PER,2
+PE_TUM_0303,,,PE,Peru,TUM,Tumbes,0303,Matapalo,,,PE,PER,2
+PE_TUM_0304,,,PE,Peru,TUM,Tumbes,0304,Papayal,,,PE,PER,2
 PE_UCA,Q207424,,PE,Peru,UCA,Ucayali,,,,,PE,PER,1
+PE_UCA_0101,,,PE,Peru,UCA,Ucayali,0101,Calleria,,,PE,PER,2
+PE_UCA_0102,,,PE,Peru,UCA,Ucayali,0102,Campoverde,,,PE,PER,2
+PE_UCA_0103,,,PE,Peru,UCA,Ucayali,0103,Iparia,,,PE,PER,2
+PE_UCA_0104,,,PE,Peru,UCA,Ucayali,0104,Masisea,,,PE,PER,2
+PE_UCA_0105,,,PE,Peru,UCA,Ucayali,0105,Yarinacocha,,,PE,PER,2
+PE_UCA_0106,,,PE,Peru,UCA,Ucayali,0106,Nueva Requena,,,PE,PER,2
+PE_UCA_0107,,,PE,Peru,UCA,Ucayali,0107,Manantay,,,PE,PER,2
+PE_UCA_0201,,,PE,Peru,UCA,Ucayali,0201,Raymondi,,,PE,PER,2
+PE_UCA_0202,,,PE,Peru,UCA,Ucayali,0202,Sepahua,,,PE,PER,2
+PE_UCA_0203,,,PE,Peru,UCA,Ucayali,0203,Tahuania,,,PE,PER,2
+PE_UCA_0204,,,PE,Peru,UCA,Ucayali,0204,Yurua,,,PE,PER,2
+PE_UCA_0301,,,PE,Peru,UCA,Ucayali,0301,Padre Abad,,,PE,PER,2
+PE_UCA_0302,,,PE,Peru,UCA,Ucayali,0302,Irazola,,,PE,PER,2
+PE_UCA_0303,,,PE,Peru,UCA,Ucayali,0303,Curimana,,,PE,PER,2
+PE_UCA_0304,,,PE,Peru,UCA,Ucayali,0304,Neshuya,,,PE,PER,2
+PE_UCA_0305,,,PE,Peru,UCA,Ucayali,0305,Alexander Von Humboldt,,,PE,PER,2
+PE_UCA_0401,,,PE,Peru,UCA,Ucayali,0401,Purus,,,PE,PER,2
 PF,Q30971,country/PYF,PF,French Polynesia,,,,,,,PF,PYF,0
 PG,Q691,country/PNG,PG,Papua New Guinea,,,,,,,PG,PNG,0
 PH,Q928,country/PHL,PH,Philippines,,,,,,,PH,PHL,0
