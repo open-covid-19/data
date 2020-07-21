@@ -866,7 +866,7 @@ sources:
       - name: new_tested
         url: "https://raw.github.com/mexicovid19/Mexico-datos/master/datos_abiertos/series_de_tiempo/nuevos/covid19_mex_pruebas-totales.csv"
     test:
-      metadata_query: "key.str.match('MX.*')"
+      metadata_query: "key.str.match('MX_...$')"
 
   # Data sources for MX levels 1, 2 and 3
   - name: pipelines.epidemiology.mx_authority.MexicoDataSource
