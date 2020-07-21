@@ -631,6 +631,8 @@ sources:
     parse:
       encoding: "ISO-8859-1"
     test:
+      # Skip this data source because it's too slow
+      skip: true
       metadata_query: "key.str.match('MX_.+')"
 
   # Data sources for PH levels 2 + 3
