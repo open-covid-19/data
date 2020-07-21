@@ -651,6 +651,8 @@ sources:
     parse:
       sheet_name: "Lives Lost by Age"
     test:
+      # Skip because it's too flakey
+      skip: true
       metadata_query: "key == 'US_DC'"
 
   # Data sources for US_DE level 2
