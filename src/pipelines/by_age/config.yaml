@@ -208,10 +208,10 @@ sources:
   # Data sources for AR levels 2 + 3
   - name: pipelines.epidemiology.ar_authority.ArgentinaDataSource
     fetch:
-      - url: "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv/"
-        opts:
-          ext: csv
+      - url: "https://sisa.msal.gov.ar/datos/descargas/covid-19/files/Covid19Casos.csv"
     test:
+      # Skip because it's too slow
+      skip: true
       metadata_query: "key.str.match('AR_.*')"
 
   # Data sources for BR_AC level 3
