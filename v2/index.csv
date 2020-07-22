@@ -13757,6 +13757,7 @@ US_CA_06109,Q156346,geoId/06109,US,United States of America,CA,California,06109,
 US_CA_06111,Q108127,geoId/06111,US,United States of America,CA,California,06111,Ventura County,,,US,USA,2
 US_CA_06113,Q109709,geoId/06113,US,United States of America,CA,California,06113,Yolo County,,,US,USA,2
 US_CA_06115,Q196014,geoId/06115,US,United States of America,CA,California,06115,Yuba County,,,US,USA,2
+US_CA_SFO,Q62,,US,United States of America,CA,California,,,SFO,San Francisco,US,USA,3
 US_CO,Q1261,geoId/08,US,United States of America,CO,Colorado,,,,,US,USA,1
 US_CO_08001,Q112807,geoId/08001,US,United States of America,CO,Colorado,08001,Adams County,,,US,USA,2
 US_CO_08003,Q311901,geoId/08003,US,United States of America,CO,Colorado,08003,Alamosa County,,,US,USA,2
