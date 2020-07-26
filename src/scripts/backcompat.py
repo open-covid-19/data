@@ -43,8 +43,7 @@ if __name__ == "__main__":
     public_folder.mkdir(exist_ok=True, parents=True)
 
     # Create the v1 data.csv file
-    main_table = read_file(f"{URL_OUTPUTS_PROD}/main.csv", low_memory=False)
-    data = main_table[main_table.aggregation_level < 2]
+    print("Downloading main table")
     rename_columns = {
         "date": "Date",
         "key": "Key",
@@ -58,23 +57,28 @@ if __name__ == "__main__":
         "longitude": "Longitude",
         "population": "Population",
     }
-    data = data[rename_columns.keys()].rename(columns=rename_columns)
+    download_columns = list(rename_columns.keys()) + ["aggregation_level"]
+    main_table = read_file(f"{URL_OUTPUTS_PROD}/main.csv", usecols=download_columns)
+    main_table = main_table[main_table.aggregation_level < 2]
+
+    print("Creating data.csv file")
+    data = main_table.rename(columns=rename_columns)
     data = data.dropna(subset=["Confirmed", "Deaths"], how="all")
     data = data.sort_values(["Date", "Key"])
     export_csv(data, public_folder / "data.csv")
 
     # Create the v1 data_minimal.csv file
+    print("Creating data_minimal.csv file")
     export_csv(data[["Date", "Key", "Confirmed", "Deaths"]], public_folder / "data_minimal.csv")
 
     # Create the v1 data_latest.csv file
-    latest = main_table[main_table.aggregation_level < 2]
-    latest = latest.sort_values("date").groupby("key").last().reset_index()
-    latest = latest[rename_columns.keys()].rename(columns=rename_columns)
+    print("Creating latest.csv file")
+    latest = data.groupby("Key").last().reset_index()
     latest = latest.dropna(subset=["Confirmed", "Deaths"], how="all")
-    latest = latest.sort_values(["Key", "Date"])
-    export_csv(latest, public_folder / "data_latest.csv")
+    export_csv(latest.sort_values("Key"), public_folder / "data_latest.csv")
 
     # Create the v1 weather.csv file
+    print("Creating weather.csv file")
     weather = read_file(f"{URL_OUTPUTS_PROD}/weather.csv")
     weather = weather[weather.key.apply(lambda x: len(x.split("_")) < 3)]
     weather = weather.rename(columns={"noaa_distance": "distance", "noaa_station": "station"})
@@ -82,6 +86,7 @@ if __name__ == "__main__":
     export_csv(weather.rename(columns=rename_columns), public_folder / "weather.csv")
 
     # Create the v1 mobility.csv file
+    print("Creating mobility.csv file")
     mobility = read_file(f"{URL_OUTPUTS_PROD}/mobility.csv")
     mobility = mobility[mobility.key.apply(lambda x: len(x.split("_")) < 3)]
     mobility = drop_na_records(mobility, ["date", "key"])
@@ -98,10 +103,8 @@ if __name__ == "__main__":
         export_csv(data.rename(columns=rename_columns), public_folder / f"{v1_name}.csv")
 
     # Create the v1 forecast.csv file
-    export_csv(
-        build_forecast(read_file(public_folder / "data_minimal.csv")),
-        public_folder / "data_forecast.csv",
-    )
+    forecast = build_forecast(read_file(public_folder / "data_minimal.csv"))
+    export_csv(forecast, public_folder / "data_forecast.csv")
 
     # Convert all v1 CSV files to JSON using record format
     for csv_file in pbar([*(public_folder).glob("*.csv")], desc="V1 JSON conversion"):
