@@ -17406,13 +17406,65 @@ YE_BA,Q221212,,LY,Libya,BA,Al Bayda' Governorate,,,,,LY,LBY,1
 YT,Q17063,country/MYT,YT,Mayotte,,,,,,,YT,MYT,0
 ZA,Q258,country/ZAF,ZA,South Africa,,,,,,,ZA,ZAF,0
 ZA_EC,Q130840,,ZA,South Africa,EC,Eastern Cape,,,,,ZA,ZAF,1
+ZA_EC_BUF,Q1002006,,ZA,South Africa,EC,Eastern Cape,BUF,Buffalo City Metropolitan Municipality,,,ZA,ZAF,2
+ZA_EC_DC10,Q1024985,,ZA,South Africa,EC,Eastern Cape,DC10,Sarah Baartman,,,ZA,ZAF,2
+ZA_EC_DC12,Q455705,,ZA,South Africa,EC,Eastern Cape,DC12,Amathole,,,ZA,ZAF,2
+ZA_EC_DC13,Q1077283,,ZA,South Africa,EC,Eastern Cape,DC13,Chris Hani,,,ZA,ZAF,2
+ZA_EC_DC14,Q654849,,ZA,South Africa,EC,Eastern Cape,DC14,Joe Gqabi,,,ZA,ZAF,2
+ZA_EC_DC15,Q2007299,,ZA,South Africa,EC,Eastern Cape,DC15,OR Tambo,,,ZA,ZAF,2
+ZA_EC_DC44,Q1664120,,ZA,South Africa,EC,Eastern Cape,DC44,Alfred Nzo,,,ZA,ZAF,2
+ZA_EC_NMA,Q1856565,,ZA,South Africa,EC,Eastern Cape,NMA,Nelson Mandela Bay Metropolitan Municipality,,,ZA,ZAF,2
 ZA_FS,Q160284,,ZA,South Africa,FS,Free State,,,,,ZA,ZAF,1
+ZA_FS_DC16,Q2006764,,ZA,South Africa,FS,Free State,DC16,Xhariep,,,ZA,ZAF,2
+ZA_FS_DC18,Q1816477,,ZA,South Africa,FS,Free State,DC18,Lejweleputswa,,,ZA,ZAF,2
+ZA_FS_DC19,Q1437719,,ZA,South Africa,FS,Free State,DC19,Thabo Mofutsanyana,,,ZA,ZAF,2
+ZA_FS_DC20,Q1410315,,ZA,South Africa,FS,Free State,DC20,Fezile Dabi,,,ZA,ZAF,2
+ZA_FS_MAN,Q1159185,,ZA,South Africa,FS,Free State,MAN,Mangaung,,,ZA,ZAF,2
 ZA_GP,Q133083,,ZA,South Africa,GP,Gauteng,,,,,ZA,ZAF,1
+ZA_GP_DC42,Q2038939,,ZA,South Africa,GP,Gauteng,DC42,Sedibeng,,,ZA,ZAF,2
+ZA_GP_DC48,Q1789890,,ZA,South Africa,GP,Gauteng,DC48,West Rand,,,ZA,ZAF,2
+ZA_GP_EKU,Q326891,,ZA,South Africa,GP,Gauteng,EKU,Ekurhuleni Metropolitan Municipality,,,ZA,ZAF,2
+ZA_GP_JHB,Q2346838,,ZA,South Africa,GP,Gauteng,JHB,City of Johannesburg Metropolitan Municipality,,,ZA,ZAF,2
+ZA_GP_TSH,Q1094207,,ZA,South Africa,GP,Gauteng,TSH,City of Tshwane Metropolitan Municipality,,,ZA,ZAF,2
 ZA_KZN,Q81725,,ZA,South Africa,KZN,KwaZulu-Natal,,,,,ZA,ZAF,1
+ZA_KZN_DC21,Q2091235,,ZA,South Africa,KZN,KwaZulu-Natal,DC21,Ugu,,,ZA,ZAF,2
+ZA_KZN_DC22,Q311803,,ZA,South Africa,KZN,KwaZulu-Natal,DC22,Umgungundlovu,,,ZA,ZAF,2
+ZA_KZN_DC23,Q1324549,,ZA,South Africa,KZN,KwaZulu-Natal,DC23,Uthukela,,,ZA,ZAF,2
+ZA_KZN_DC24,Q2226837,,ZA,South Africa,KZN,KwaZulu-Natal,DC24,Umzinyathi,,,ZA,ZAF,2
+ZA_KZN_DC25,Q452565,,ZA,South Africa,KZN,KwaZulu-Natal,DC25,Amajuba,,,ZA,ZAF,2
+ZA_KZN_DC26,Q2309262,,ZA,South Africa,KZN,KwaZulu-Natal,DC26,Zululand,,,ZA,ZAF,2
+ZA_KZN_DC27,Q1654018,,ZA,South Africa,KZN,KwaZulu-Natal,DC27,Umkhanyakude,,,ZA,ZAF,2
+ZA_KZN_DC28,Q311668,,ZA,South Africa,KZN,KwaZulu-Natal,DC28,King Cetshwayo,,,ZA,ZAF,2
+ZA_KZN_DC29,Q311794,,ZA,South Africa,KZN,KwaZulu-Natal,DC29,iLembe,,,ZA,ZAF,2
+ZA_KZN_DC43,Q549746,,ZA,South Africa,KZN,KwaZulu-Natal,DC43,Sisonke,,,ZA,ZAF,2
+ZA_KZN_ETH,Q311544,,ZA,South Africa,KZN,KwaZulu-Natal,ETH,eThekwini Metropolitan Municipality,,,ZA,ZAF,2
 ZA_LP,Q134907,,ZA,South Africa,LP,Limpopo,,,,,ZA,ZAF,1
+ZA_LP_DC33,Q611074,,ZA,South Africa,LP,Limpopo,DC33,Mopani,,,ZA,ZAF,2
+ZA_LP_DC34,Q2305610,,ZA,South Africa,LP,Limpopo,DC34,Vhembe,,,ZA,ZAF,2
+ZA_LP_DC35,Q692290,,ZA,South Africa,LP,Limpopo,DC35,Capricorn,,,ZA,ZAF,2
+ZA_LP_DC36,Q2096830,,ZA,South Africa,LP,Limpopo,DC36,Waterberg,,,ZA,ZAF,2
+ZA_LP_DC47,Q1544445,,ZA,South Africa,LP,Limpopo,DC47,Sekhukhune,,,ZA,ZAF,2
 ZA_MP,Q132410,,ZA,South Africa,MP,Mpumalanga,,,,,ZA,ZAF,1
+ZA_MP_DC30,Q1515346,,ZA,South Africa,MP,Mpumalanga,DC30,Gert Sibande,,,ZA,ZAF,2
+ZA_MP_DC31,Q1856181,,ZA,South Africa,MP,Mpumalanga,DC31,Nkangala,,,ZA,ZAF,2
+ZA_MP_DC32,Q1244497,,ZA,South Africa,MP,Mpumalanga,DC32,Ehlanzeni,,,ZA,ZAF,2
 ZA_NC,Q132418,,ZA,South Africa,NC,Northern Cape,,,,,ZA,ZAF,1
+ZA_NC_DC45,Q384731,,ZA,South Africa,NC,Northern Cape,DC45,John Taolo Gaetsewe,,,ZA,ZAF,2
+ZA_NC_DC6,Q617646,,ZA,South Africa,NC,Northern Cape,DC6,Namakwa,,,ZA,ZAF,2
+ZA_NC_DC7,Q1886098,,ZA,South Africa,NC,Northern Cape,DC7,Pixley ka Seme,,,ZA,ZAF,2
+ZA_NC_DC8,Q1773268,,ZA,South Africa,NC,Northern Cape,DC8,ZF Mgcawu,,,ZA,ZAF,2
+ZA_NC_DC9,Q1263830,,ZA,South Africa,NC,Northern Cape,DC9,Frances Baard,,,ZA,ZAF,2
 ZA_NW,Q165956,,ZA,South Africa,NW,North West,,,,,ZA,ZAF,1
+ZA_NW_DC37,Q891165,,ZA,South Africa,NW,North West,DC37,Bojanala Platinum,,,ZA,ZAF,2
+ZA_NW_DC38,Q1984191,,ZA,South Africa,NW,North West,DC38,Ngaka Modiri Molema,,,ZA,ZAF,2
+ZA_NW_DC39,Q1254171,,ZA,South Africa,NW,North West,DC39,Dr Ruth Segomotsi Mompati,,,ZA,ZAF,2
+ZA_NW_DC40,Q1150452,,ZA,South Africa,NW,North West,DC40,Dr Kenneth Kaunda,,,ZA,ZAF,2
 ZA_WC,Q127167,,ZA,South Africa,WC,Western Cape,,,,,ZA,ZAF,1
+ZA_WC_CPT,Q1185115,,ZA,South Africa,WC,Western Cape,CPT,City of Cape Town Metropolitan Municipality,,,ZA,ZAF,2
+ZA_WC_DC1,Q2562901,,ZA,South Africa,WC,Western Cape,DC1,West Coast,,,ZA,ZAF,2
+ZA_WC_DC2,Q1974486,,ZA,South Africa,WC,Western Cape,DC2,Cape Winelands,,,ZA,ZAF,2
+ZA_WC_DC3,Q1899307,,ZA,South Africa,WC,Western Cape,DC3,Overberg,,,ZA,ZAF,2
+ZA_WC_DC4,Q220249,,ZA,South Africa,WC,Western Cape,DC4,Garden Route,,,ZA,ZAF,2
+ZA_WC_DC5,Q1053888,,ZA,South Africa,WC,Western Cape,DC5,Central Karoo,,,ZA,ZAF,2
 ZM,Q953,country/ZMB,ZM,Zambia,,,,,,,ZM,ZMB,0
 ZW,Q954,country/ZWE,ZW,Zimbabwe,,,,,,,ZW,ZWE,0
