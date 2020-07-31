@@ -1,6 +1,0 @@
-output/
-node_modules/
-yarn.lock
-
-# Generated automatically
-cron.yaml
