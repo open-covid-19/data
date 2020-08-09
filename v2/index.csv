@@ -6313,18 +6313,110 @@ BY,Q184,country/BLR,BY,Belarus,,,,,,,BY,BLR,0
 BZ,Q242,country/BLZ,BZ,Belize,,,,,,,BZ,BLZ,0
 CA,Q16,country/CAN,CA,Canada,,,,,,,CA,CAN,0
 CA_AB,Q1951,,CA,Canada,AB,Alberta,,,,,CA,CAN,1
+CA_AB_4831,,,CA,Canada,AB,Alberta,4831,South,,,CA,CAN,2
+CA_AB_4832,,,CA,Canada,AB,Alberta,4832,Calgary,,,CA,CAN,2
+CA_AB_4833,,,CA,Canada,AB,Alberta,4833,Central,,,CA,CAN,2
+CA_AB_4834,,,CA,Canada,AB,Alberta,4834,Edmonton,,,CA,CAN,2
+CA_AB_4835,,,CA,Canada,AB,Alberta,4835,North,,,CA,CAN,2
 CA_BC,Q1974,,CA,Canada,BC,British Columbia,,,,,CA,CAN,1
+CA_BC_5910,,,CA,Canada,BC,British Columbia,5910,Interior,,,CA,CAN,2
+CA_BC_5920,,,CA,Canada,BC,British Columbia,5920,Fraser,,,CA,CAN,2
+CA_BC_5930,,,CA,Canada,BC,British Columbia,5930,Vancouver Coastal,,,CA,CAN,2
+CA_BC_5940,,,CA,Canada,BC,British Columbia,5940,Vancouver Island,,,CA,CAN,2
+CA_BC_5950,,,CA,Canada,BC,British Columbia,5950,Northern,,,CA,CAN,2
 CA_MB,Q1948,,CA,Canada,MB,Manitoba,,,,,CA,CAN,1
+CA_MB_4601,,,CA,Canada,MB,Manitoba,4601,Winnipeg,,,CA,CAN,2
+CA_MB_4602,,,CA,Canada,MB,Manitoba,4602,Prairie Mountain,,,CA,CAN,2
+CA_MB_4603,,,CA,Canada,MB,Manitoba,4603,Interlake-Eastern,,,CA,CAN,2
+CA_MB_4604,,,CA,Canada,MB,Manitoba,4604,Northern,,,CA,CAN,2
+CA_MB_4605,,,CA,Canada,MB,Manitoba,4605,Southern Health,,,CA,CAN,2
 CA_NB,Q1965,,CA,Canada,NB,New Brunswick,,,,,CA,CAN,1
+CA_NB_1301,,,CA,Canada,NB,New Brunswick,1301,Moncton,,,CA,CAN,2
+CA_NB_1302,,,CA,Canada,NB,New Brunswick,1302,Saint John,,,CA,CAN,2
+CA_NB_1303,,,CA,Canada,NB,New Brunswick,1303,Fredericton,,,CA,CAN,2
+CA_NB_1304,,,CA,Canada,NB,New Brunswick,1304,Edmundston,,,CA,CAN,2
+CA_NB_1305,,,CA,Canada,NB,New Brunswick,1305,Campbellton,,,CA,CAN,2
+CA_NB_1306,,,CA,Canada,NB,New Brunswick,1306,Bathurst,,,CA,CAN,2
+CA_NB_1307,,,CA,Canada,NB,New Brunswick,1307,Miramichi,,,CA,CAN,2
 CA_NL,Q2003,,CA,Canada,NL,Newfoundland and Labrador,,,,,CA,CAN,1
+CA_NL_1011,,,CA,Canada,NL,Newfoundland and Labrador,1011,Eastern,,,CA,CAN,2
+CA_NL_1012,,,CA,Canada,NL,Newfoundland and Labrador,1012,Central,,,CA,CAN,2
+CA_NL_1013,,,CA,Canada,NL,Newfoundland and Labrador,1013,Western,,,CA,CAN,2
+CA_NL_1014,,,CA,Canada,NL,Newfoundland and Labrador,1014,Labrador-Grenfell,,,CA,CAN,2
 CA_NS,Q1952,,CA,Canada,NS,Nova Scotia,,,,,CA,CAN,1
+CA_NS_1201,,,CA,Canada,NS,Nova Scotia,1201,Western,,,CA,CAN,2
+CA_NS_1202,,,CA,Canada,NS,Nova Scotia,1202,Northern,,,CA,CAN,2
+CA_NS_1203,,,CA,Canada,NS,Nova Scotia,1203,Eastern,,,CA,CAN,2
+CA_NS_1204,,,CA,Canada,NS,Nova Scotia,1204,Central,,,CA,CAN,2
 CA_NT,Q2007,,CA,Canada,NT,Northwest Territories,,,,,CA,CAN,1
+CA_NT_6101,,,CA,Canada,NT,Northwest Territories,6101,NWT,,,CA,CAN,2
 CA_NU,Q2023,,CA,Canada,NU,Nunavut,,,,,CA,CAN,1
 CA_ON,Q1904,,CA,Canada,ON,Ontario,,,,,CA,CAN,1
+CA_ON_3526,,,CA,Canada,ON,Ontario,3526,Algoma,,,CA,CAN,2
+CA_ON_3527,,,CA,Canada,ON,Ontario,3527,Brant,,,CA,CAN,2
+CA_ON_3530,,,CA,Canada,ON,Ontario,3530,Durham,,,CA,CAN,2
+CA_ON_3533,,,CA,Canada,ON,Ontario,3533,Grey Bruce,,,CA,CAN,2
+CA_ON_3534,,,CA,Canada,ON,Ontario,3534,Haldimand-Norfolk,,,CA,CAN,2
+CA_ON_3535,,,CA,Canada,ON,Ontario,3535,Haliburton Kawartha Pineridge,,,CA,CAN,2
+CA_ON_3536,,,CA,Canada,ON,Ontario,3536,Halton,,,CA,CAN,2
+CA_ON_3537,,,CA,Canada,ON,Ontario,3537,Hamilton,,,CA,CAN,2
+CA_ON_3538,,,CA,Canada,ON,Ontario,3538,Hastings Prince Edward,,,CA,CAN,2
+CA_ON_3539,,,CA,Canada,ON,Ontario,3539,Huron Perth,,,CA,CAN,2
+CA_ON_3540,,,CA,Canada,ON,Ontario,3540,Chatham-Kent,,,CA,CAN,2
+CA_ON_3541,,,CA,Canada,ON,Ontario,3541,Kingston Frontenac Lennox & Addington,,,CA,CAN,2
+CA_ON_3542,,,CA,Canada,ON,Ontario,3542,Lambton,,,CA,CAN,2
+CA_ON_3543,,,CA,Canada,ON,Ontario,3543,Leeds Grenville and Lanark,,,CA,CAN,2
+CA_ON_3544,,,CA,Canada,ON,Ontario,3544,Middlesex-London,,,CA,CAN,2
+CA_ON_3546,,,CA,Canada,ON,Ontario,3546,Niagara,,,CA,CAN,2
+CA_ON_3547,,,CA,Canada,ON,Ontario,3547,North Bay Parry Sound,,,CA,CAN,2
+CA_ON_3549,,,CA,Canada,ON,Ontario,3549,Northwestern,,,CA,CAN,2
+CA_ON_3551,,,CA,Canada,ON,Ontario,3551,Ottawa,,,CA,CAN,2
+CA_ON_3553,,,CA,Canada,ON,Ontario,3553,Peel,,,CA,CAN,2
+CA_ON_3554,,,CA,Canada,ON,Ontario,3554,Perth,,,CA,CAN,2
+CA_ON_3555,,,CA,Canada,ON,Ontario,3555,Peterborough,,,CA,CAN,2
+CA_ON_3556,,,CA,Canada,ON,Ontario,3556,Porcupine,,,CA,CAN,2
+CA_ON_3557,,,CA,Canada,ON,Ontario,3557,Renfrew,,,CA,CAN,2
+CA_ON_3558,,,CA,Canada,ON,Ontario,3558,Eastern,,,CA,CAN,2
+CA_ON_3560,,,CA,Canada,ON,Ontario,3560,Simcoe Muskoka,,,CA,CAN,2
+CA_ON_3561,,,CA,Canada,ON,Ontario,3561,Sudbury,,,CA,CAN,2
+CA_ON_3562,,,CA,Canada,ON,Ontario,3562,Thunder Bay,,,CA,CAN,2
+CA_ON_3563,,,CA,Canada,ON,Ontario,3563,Timiskaming,,,CA,CAN,2
+CA_ON_3565,,,CA,Canada,ON,Ontario,3565,Waterloo,,,CA,CAN,2
+CA_ON_3566,,,CA,Canada,ON,Ontario,3566,Wellington Dufferin Guelph,,,CA,CAN,2
+CA_ON_3568,,,CA,Canada,ON,Ontario,3568,Windsor-Essex,,,CA,CAN,2
+CA_ON_3570,,,CA,Canada,ON,Ontario,3570,York,,,CA,CAN,2
+CA_ON_3575,,,CA,Canada,ON,Ontario,3575,Southwestern,,,CA,CAN,2
+CA_ON_3595,,,CA,Canada,ON,Ontario,3595,Toronto,,,CA,CAN,2
 CA_PE,Q1979,,CA,Canada,PE,Prince Edward Island,,,,,CA,CAN,1
+CA_PE_1100,,,CA,Canada,PE,Prince Edward Island,1100,Prince Edward Island,,,CA,CAN,2
 CA_QC,Q176,,CA,Canada,QC,Quebec,,,,,CA,CAN,1
+CA_QC_2401,,,CA,Canada,QC,Quebec,2401,Bas-Saint-Laurent,,,CA,CAN,2
+CA_QC_2402,,,CA,Canada,QC,Quebec,2402,Saguenay,,,CA,CAN,2
+CA_QC_2403,,,CA,Canada,QC,Quebec,2403,Capitale-Nationale,,,CA,CAN,2
+CA_QC_2404,,,CA,Canada,QC,Quebec,2404,Mauricie,,,CA,CAN,2
+CA_QC_2405,,,CA,Canada,QC,Quebec,2405,Estrie,,,CA,CAN,2
+CA_QC_2406,,,CA,Canada,QC,Quebec,2406,Montréal,,,CA,CAN,2
+CA_QC_2407,,,CA,Canada,QC,Quebec,2407,Outaouais,,,CA,CAN,2
+CA_QC_2408,,,CA,Canada,QC,Quebec,2408,Abitibi-Témiscamingue,,,CA,CAN,2
+CA_QC_2409,,,CA,Canada,QC,Quebec,2409,Côte-Nord,,,CA,CAN,2
+CA_QC_2410,,,CA,Canada,QC,Quebec,2410,Nord-du-Québec,,,CA,CAN,2
+CA_QC_2411,,,CA,Canada,QC,Quebec,2411,Gaspésie-Îles-de-la-Madeleine,,,CA,CAN,2
+CA_QC_2412,,,CA,Canada,QC,Quebec,2412,Chaudière-Appalaches,,,CA,CAN,2
+CA_QC_2413,,,CA,Canada,QC,Quebec,2413,Laval,,,CA,CAN,2
+CA_QC_2414,,,CA,Canada,QC,Quebec,2414,Lanaudière,,,CA,CAN,2
+CA_QC_2415,,,CA,Canada,QC,Quebec,2415,Laurentides,,,CA,CAN,2
+CA_QC_2416,,,CA,Canada,QC,Quebec,2416,Montérégie,,,CA,CAN,2
+CA_QC_2417,,,CA,Canada,QC,Quebec,2417,Nunavik,,,CA,CAN,2
+CA_QC_2418,,,CA,Canada,QC,Quebec,2418,Terres-Cries-de-la-Baie-James,,,CA,CAN,2
 CA_SK,Q1989,,CA,Canada,SK,Saskatchewan,,,,,CA,CAN,1
+CA_SK_4704,,,CA,Canada,SK,Saskatchewan,4704,Regina,,,CA,CAN,2
+CA_SK_4706,,,CA,Canada,SK,Saskatchewan,4706,Saskatoon,,,CA,CAN,2
+CA_SK_4721,,,CA,Canada,SK,Saskatchewan,4701,Far North,,,CA,CAN,2
+CA_SK_4722,,,CA,Canada,SK,Saskatchewan,4702,North,,,CA,CAN,2
+CA_SK_4723,,,CA,Canada,SK,Saskatchewan,4703,Central,,,CA,CAN,2
+CA_SK_4724,,,CA,Canada,SK,Saskatchewan,4705,South,,,CA,CAN,2
 CA_YT,Q2009,,CA,Canada,YT,Yukon,,,,,CA,CAN,1
+CA_YT_6001,,,CA,Canada,YT,Yukon,6001,Yukon,,,CA,CAN,2
 CC,Q36004,country/CCK,CC,Cocos Islands,,,,,,,CC,CCK,0
 CD,Q974,country/COD,CD,Democratic Republic of the Congo,,,,,,,CD,COD,0
 CD_BC,Q1043494,,CD,Democratic Republic of the Congo,BC,Kongo Central,,,,,CD,COD,1
