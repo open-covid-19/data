@@ -8249,6 +8249,101 @@ ES_CE,Q5823,nuts/ES63,ES,Spain,CE,Ceuta,,,,,ES,ESP,1
 ES_CL,Q5739,nuts/ES41,ES,Spain,CL,Castilla y León,,,,,ES,ESP,1
 ES_CM,Q5748,nuts/ES42,ES,Spain,CM,Castilla-La Mancha,,,,,ES,ESP,1
 ES_CN,Q5813,nuts/ES70,ES,Spain,CN,Islas Canarias,,,,,ES,ESP,1
+ES_CN_35001,Q390069,,ES,Spain,CN,Islas Canarias,35001,Agaete,,,ES,ESP,2
+ES_CN_35002,Q399702,,ES,Spain,CN,Islas Canarias,35002,Agüimes,,,ES,ESP,2
+ES_CN_35003,Q575670,,ES,Spain,CN,Islas Canarias,35003,Antigua,,,ES,ESP,2
+ES_CN_35004,Q647543,,ES,Spain,CN,Islas Canarias,35004,Arrecife,,,ES,ESP,2
+ES_CN_35005,Q706892,,ES,Spain,CN,Islas Canarias,35005,Artenara,,,ES,ESP,2
+ES_CN_35006,Q716384,,ES,Spain,CN,Islas Canarias,35006,Arucas,,,ES,ESP,2
+ES_CN_35007,Q830969,,ES,Spain,CN,Islas Canarias,35007,Betancuria,,,ES,ESP,2
+ES_CN_35008,Q606753,,ES,Spain,CN,Islas Canarias,35008,Firgas,,,ES,ESP,2
+ES_CN_35009,Q956757,,ES,Spain,CN,Islas Canarias,35009,Gáldar,,,ES,ESP,2
+ES_CN_35010,Q1588135,,ES,Spain,CN,Islas Canarias,35010,Haría,,,ES,ESP,2
+ES_CN_35011,Q985599,,ES,Spain,CN,Islas Canarias,35011,Ingenio,,,ES,ESP,2
+ES_CN_35012,Q628446,,ES,Spain,CN,Islas Canarias,35012,Mogán,,,ES,ESP,2
+ES_CN_35013,Q985598,,ES,Spain,CN,Islas Canarias,35013,Moya,,,ES,ESP,2
+ES_CN_35014,Q594892,,ES,Spain,CN,Islas Canarias,35014,La Oliva,,,ES,ESP,2
+ES_CN_35015,Q661198,,ES,Spain,CN,Islas Canarias,35015,Pájara,,,ES,ESP,2
+ES_CN_35016,Q11974,,ES,Spain,CN,Islas Canarias,35016,Las Palmas de Gran Canaria,,,ES,ESP,2
+ES_CN_35017,Q540185,,ES,Spain,CN,Islas Canarias,35017,Puerto del Rosario,,,ES,ESP,2
+ES_CN_35018,Q962773,,ES,Spain,CN,Islas Canarias,35018,San Bartolomé,,,ES,ESP,2
+ES_CN_35019,Q693258,,ES,Spain,CN,Islas Canarias,35019,San Bartolomé de Tirajana,,,ES,ESP,2
+ES_CN_35020,Q986727,,ES,Spain,CN,Islas Canarias,35020,La Aldea de San Nicolás,,,ES,ESP,2
+ES_CN_35021,Q984488,,ES,Spain,CN,Islas Canarias,35021,Santa Brígida,,,ES,ESP,2
+ES_CN_35022,Q738674,,ES,Spain,CN,Islas Canarias,35022,Santa Lucía de Tirajana,,,ES,ESP,2
+ES_CN_35023,Q986359,,ES,Spain,CN,Islas Canarias,35023,Santa María de Guía de Gran Canaria,,,ES,ESP,2
+ES_CN_35024,Q737440,,ES,Spain,CN,Islas Canarias,35024,Teguise,,,ES,ESP,2
+ES_CN_35025,Q986361,,ES,Spain,CN,Islas Canarias,35025,Tejeda,,,ES,ESP,2
+ES_CN_35026,Q55845,,ES,Spain,CN,Islas Canarias,35026,Telde,,,ES,ESP,2
+ES_CN_35027,Q430147,,ES,Spain,CN,Islas Canarias,35027,Teror,,,ES,ESP,2
+ES_CN_35028,Q2244278,,ES,Spain,CN,Islas Canarias,35028,Tías,,,ES,ESP,2
+ES_CN_35029,Q638013,,ES,Spain,CN,Islas Canarias,35029,Tinajo,,,ES,ESP,2
+ES_CN_35030,Q985586,,ES,Spain,CN,Islas Canarias,35030,Tuineje,,,ES,ESP,2
+ES_CN_35031,Q914195,,ES,Spain,CN,Islas Canarias,35031,Valsequillo de Gran Canaria,,,ES,ESP,2
+ES_CN_35032,Q986357,,ES,Spain,CN,Islas Canarias,35032,Valleseco,,,ES,ESP,2
+ES_CN_35033,Q986353,,ES,Spain,CN,Islas Canarias,35033,Vega de San Mateo,,,ES,ESP,2
+ES_CN_35034,Q2323549,,ES,Spain,CN,Islas Canarias,35034,Yaiza,,,ES,ESP,2
+ES_CN_38001,Q353618,,ES,Spain,CN,Islas Canarias,38001,Adeje,,,ES,ESP,2
+ES_CN_38002,Q398588,,ES,Spain,CN,Islas Canarias,38002,Agulo,,,ES,ESP,2
+ES_CN_38003,Q932914,,ES,Spain,CN,Islas Canarias,38003,Alajeró,,,ES,ESP,2
+ES_CN_38004,Q624967,,ES,Spain,CN,Islas Canarias,38004,Arafo,,,ES,ESP,2
+ES_CN_38005,Q657738,,ES,Spain,CN,Islas Canarias,38005,Arico,,,ES,ESP,2
+ES_CN_38006,Q698246,,ES,Spain,CN,Islas Canarias,38006,Arona,,,ES,ESP,2
+ES_CN_38007,Q433918,,ES,Spain,CN,Islas Canarias,38007,Barlovento,,,ES,ESP,2
+ES_CN_38008,Q433958,,ES,Spain,CN,Islas Canarias,38008,Breña Alta,,,ES,ESP,2
+ES_CN_38009,Q433986,,ES,Spain,CN,Islas Canarias,38009,Breña Baja,,,ES,ESP,2
+ES_CN_38010,Q594961,,ES,Spain,CN,Islas Canarias,38010,Buenavista del Norte,,,ES,ESP,2
+ES_CN_38011,Q487268,,ES,Spain,CN,Islas Canarias,38011,Candelaria,,,ES,ESP,2
+ES_CN_38012,Q524431,,ES,Spain,CN,Islas Canarias,38012,Fasnia,,,ES,ESP,2
+ES_CN_38013,Q1798827,,ES,Spain,CN,Islas Canarias,38013,La Frontera,,,ES,ESP,2
+ES_CN_38014,Q434019,,ES,Spain,CN,Islas Canarias,38014,Fuencaliente de La Palma,,,ES,ESP,2
+ES_CN_38015,Q612815,,ES,Spain,CN,Islas Canarias,38015,Garachico,,,ES,ESP,2
+ES_CN_38016,Q434053,,ES,Spain,CN,Islas Canarias,38016,Garafía,,,ES,ESP,2
+ES_CN_38017,Q943431,,ES,Spain,CN,Islas Canarias,38017,Granadilla de Abona,,,ES,ESP,2
+ES_CN_38018,Q983556,,ES,Spain,CN,Islas Canarias,38018,La Guancha,,,ES,ESP,2
+ES_CN_38019,Q765879,,ES,Spain,CN,Islas Canarias,38019,Guía de Isora,,,ES,ESP,2
+ES_CN_38020,Q983433,,ES,Spain,CN,Islas Canarias,38020,Güímar,,,ES,ESP,2
+ES_CN_38021,Q1260011,,ES,Spain,CN,Islas Canarias,38021,Hermigua,,,ES,ESP,2
+ES_CN_38022,Q572542,,ES,Spain,CN,Islas Canarias,38022,Icod de los Vinos,,,ES,ESP,2
+ES_CN_38023,Q54898,,ES,Spain,CN,Islas Canarias,38023,San Cristóbal de La Laguna,,,ES,ESP,2
+ES_CN_38024,Q366948,,ES,Spain,CN,Islas Canarias,38024,Los Llanos de Aridane,,,ES,ESP,2
+ES_CN_38025,Q983577,,ES,Spain,CN,Islas Canarias,38025,La Matanza de Acentejo,,,ES,ESP,2
+ES_CN_38026,Q920391,,ES,Spain,CN,Islas Canarias,38026,La Orotava,,,ES,ESP,2
+ES_CN_38027,Q434123,,ES,Spain,CN,Islas Canarias,38027,El Paso,,,ES,ESP,2
+ES_CN_38028,Q623549,,ES,Spain,CN,Islas Canarias,38028,Puerto de la Cruz,,,ES,ESP,2
+ES_CN_38029,Q434150,,ES,Spain,CN,Islas Canarias,38029,Puntagorda,,,ES,ESP,2
+ES_CN_38030,Q434173,,ES,Spain,CN,Islas Canarias,38030,Puntallana,,,ES,ESP,2
+ES_CN_38031,Q953876,,ES,Spain,CN,Islas Canarias,38031,Los Realejos,,,ES,ESP,2
+ES_CN_38032,Q176624,,ES,Spain,CN,Islas Canarias,38032,El Rosario,,,ES,ESP,2
+ES_CN_38033,Q434192,,ES,Spain,CN,Islas Canarias,38033,San Andrés y Sauces,,,ES,ESP,2
+ES_CN_38034,Q986364,,ES,Spain,CN,Islas Canarias,38034,San Juan de la Rambla,,,ES,ESP,2
+ES_CN_38035,Q677038,,ES,Spain,CN,Islas Canarias,38035,San Miguel de Abona,,,ES,ESP,2
+ES_CN_38036,Q512009,,ES,Spain,CN,Islas Canarias,38036,San Sebastián de La Gomera,,,ES,ESP,2
+ES_CN_38037,Q433632,,ES,Spain,CN,Islas Canarias,38037,Santa Cruz de La Palma,,,ES,ESP,2
+ES_CN_38038,Q14328,,ES,Spain,CN,Islas Canarias,38038,Santa Cruz de Tenerife,,,ES,ESP,2
+ES_CN_38039,Q657800,,ES,Spain,CN,Islas Canarias,38039,Santa Úrsula,,,ES,ESP,2
+ES_CN_38040,Q915283,,ES,Spain,CN,Islas Canarias,38040,Santiago del Teide,,,ES,ESP,2
+ES_CN_38041,Q782910,,ES,Spain,CN,Islas Canarias,38041,El Sauzal,,,ES,ESP,2
+ES_CN_38042,Q682964,,ES,Spain,CN,Islas Canarias,38042,Los Silos,,,ES,ESP,2
+ES_CN_38043,Q944264,,ES,Spain,CN,Islas Canarias,38043,Tacoronte,,,ES,ESP,2
+ES_CN_38044,Q770882,,ES,Spain,CN,Islas Canarias,38044,El Tanque,,,ES,ESP,2
+ES_CN_38045,Q426350,,ES,Spain,CN,Islas Canarias,38045,Tazacorte,,,ES,ESP,2
+ES_CN_38046,Q985603,,ES,Spain,CN,Islas Canarias,38046,Tegueste,,,ES,ESP,2
+ES_CN_38047,Q434286,,ES,Spain,CN,Islas Canarias,38047,Tijarafe,,,ES,ESP,2
+ES_CN_38048,Q1853429,,ES,Spain,CN,Islas Canarias,38048,Valverde,,,ES,ESP,2
+ES_CN_38049,Q584446,,ES,Spain,CN,Islas Canarias,38049,Valle Gran Rey,,,ES,ESP,2
+ES_CN_38050,Q635308,,ES,Spain,CN,Islas Canarias,38050,Vallehermoso,,,ES,ESP,2
+ES_CN_38051,Q985601,,ES,Spain,CN,Islas Canarias,38051,La Victoria de Acentejo,,,ES,ESP,2
+ES_CN_38052,Q985693,,ES,Spain,CN,Islas Canarias,38052,Vilaflor,,,ES,ESP,2
+ES_CN_38053,Q434321,,ES,Spain,CN,Islas Canarias,38053,Villa de Mazo,,,ES,ESP,2
+ES_CN_38901,Q1324548,,ES,Spain,CN,Islas Canarias,38901,El Pinar,,,ES,ESP,2
+ES_CN_ACE,Q182432,,ES,Spain,CN,Islas Canarias,,,ACE,Lanzarote,ES,ESP,3
+ES_CN_FUE,Q192534,,ES,Spain,CN,Islas Canarias,,,FUE,Fuerteventura,ES,ESP,3
+ES_CN_GMZ,Q105967,,ES,Spain,CN,Islas Canarias,,,GMZ,La Gomera,ES,ESP,3
+ES_CN_LPA,Q178925,,ES,Spain,CN,Islas Canarias,,,LPA,Gran Canaria,ES,ESP,3
+ES_CN_SPC,Q201689,,ES,Spain,CN,Islas Canarias,,,SPC,La Palma,ES,ESP,3
+ES_CN_TFN,Q40846,,ES,Spain,CN,Islas Canarias,,,TFN,Tenerife,ES,ESP,3
+ES_CN_VDE,Q1036287,,ES,Spain,CN,Islas Canarias,,,VDE,El Hierro,ES,ESP,3
 ES_CT,Q5705,nuts/ES51,ES,Spain,CT,Cataluña,,,,,ES,ESP,1
 ES_EX,Q5777,nuts/ES43,ES,Spain,EX,Extremadura,,,,,ES,ESP,1
 ES_GA,Q3908,nuts/ES11,ES,Spain,GA,Galicia,,,,,ES,ESP,1
