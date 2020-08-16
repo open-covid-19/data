@@ -14275,8 +14275,32 @@ TV,Q672,country/TUV,TV,Tuvalu,,,,,,,TV,TUV,0
 TW,Q865,country/TWN,TW,Taiwan,,,,,,,TW,TWN,0
 TZ,Q924,country/TZA,TZ,Tanzania,,,,,,,TZ,TZA,0
 UA,Q212,country/UKR,UA,Ukraine,,,,,,,UA,UKR,0
+UA_05,Q166709,,UA,Ukraine,05,Vinnytsia,,,,,UA,UKR,1
+UA_07,Q167859,,UA,Ukraine,07,Volyn,,,,,UA,UKR,1
+UA_09,Q171965,,UA,Ukraine,09,Luhansk,,,,,UA,UKR,1
+UA_12,Q170672,,UA,Ukraine,12,Dnipropetrovsk,,,,,UA,UKR,1
+UA_14,Q2012050,,UA,Ukraine,14,Donetsk,,,,,UA,UKR,1
+UA_18,Q40637,,UA,Ukraine,18,Zhytomyr,,,,,UA,UKR,1
+UA_21,Q170213,,UA,Ukraine,21,Zakarpattia,,,,,UA,UKR,1
+UA_23,Q171334,,UA,Ukraine,23,Zaporizhzhya,,,,,UA,UKR,1
+UA_26,Q178269,,UA,Ukraine,26,Ivano-Frankivsk,,,,,UA,UKR,1
+UA_32,Q170036,,UA,Ukraine,32,Kyiv,,,,,UA,UKR,1
+UA_35,Q180981,,UA,Ukraine,35,Kirovohrad,,,,,UA,UKR,1
 UA_40,Q7525,,RU,Russia,40,Sevastopol,,,,,RU,RUS,1
 UA_43,Q756294,,RU,Russia,43,Republic of Crimea,,,,,RU,RUS,1
+UA_46,Q164193,,UA,Ukraine,46,Lviv,,,,,UA,UKR,1
+UA_48,Q181633,,UA,Ukraine,48,Mykolaiv,,,,,UA,UKR,1
+UA_51,Q171852,,UA,Ukraine,51,Odessa,,,,,UA,UKR,1
+UA_53,Q169501,,UA,Ukraine,53,Poltava,,,,,UA,UKR,1
+UA_56,Q174187,,UA,Ukraine,56,Rivne,,,,,UA,UKR,1
+UA_59,Q170446,,UA,Ukraine,59,Sumy,,,,,UA,UKR,1
+UA_61,Q173407,,UA,Ukraine,61,Ternopil,,,,,UA,UKR,1
+UA_63,Q170666,,UA,Ukraine,63,Kharkiv,,,,,UA,UKR,1
+UA_65,Q163271,,UA,Ukraine,65,Kherson,,,,,UA,UKR,1
+UA_68,Q171331,,UA,Ukraine,68,Khmelnytskyi,,,,,UA,UKR,1
+UA_71,Q161808,,UA,Ukraine,71,Cherkasy,,,,,UA,UKR,1
+UA_74,Q167874,,UA,Ukraine,74,Chernihiv,,,,,UA,UKR,1
+UA_77,Q168856,,UA,Ukraine,77,Chernivtsi,,,,,UA,UKR,1
 UG,Q1036,country/UGA,UG,Uganda,,,,,,,UG,UGA,0
 UM,Q16645,country/UMI,UM,United States Minor Outlying Islands,,,,,,,UM,UMI,0
 US,Q30,country/USA,US,United States of America,,,,,,,US,USA,0
