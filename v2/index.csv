@@ -687,6 +687,16 @@ BD_G,Q459732,,BD,Bangladesh,G,Sylhet Division,,,,,BD,BGD,1
 BD_H,Q19594930,,BD,Bangladesh,H,Mymensingh Division,,,,,BD,BGD,1
 BE,Q31,country/BEL,BE,Belgium,,,,,,,BE,BEL,0
 BE_BRU,Q240,nuts/BE1,BE,Belgium,BRU,Brussels,,,,,BE,BEL,1
+BE_VAN,Q1116,nuts/BE21,BE,Belgium,VAN,Antwerp,,,,,BE,BEL,1
+BE_VLG,Q1118,nuts/BE24,BE,Belgium,VLG,Flemish Brabant,,,,,BE,BEL,1
+BE_VLI,Q1095,nuts/BE22,BE,Belgium,VLI,Limburg,,,,,BE,BEL,1
+BE_VOV,Q1114,nuts/BE23,BE,Belgium,VOV,East Flanders,,,,,BE,BEL,1
+BE_VWV,Q1113,nuts/BE25,BE,Belgium,VWV,West Flanders,,,,,BE,BEL,1
+BE_WBR,Q1122,nuts/BE31,BE,Belgium,WBR,Walloon Brabant,,,,,BE,BEL,1
+BE_WHT,Q1129,nuts/BE32,BE,Belgium,WHT,Hainaut,,,,,BE,BEL,1
+BE_WLG,Q1127,nuts/BE33,BE,Belgium,WLG,Liège,,,,,BE,BEL,1
+BE_WLX,Q1126,nuts/BE34,BE,Belgium,WLX,Luxembourg,,,,,BE,BEL,1
+BE_WNA,Q1125,nuts/BE35,BE,Belgium,WNA,Namur,,,,,BE,BEL,1
 BF,Q965,country/BFA,BF,Burkina Faso,,,,,,,BF,BFA,0
 BG,Q219,country/BGR,BG,Bulgaria,,,,,,,BG,BGR,0
 BH,Q398,country/BHR,BH,Bahrain,,,,,,,BH,BHR,0
@@ -6321,16 +6331,6 @@ BR_TO_172125,Q1801526,,BR,Brazil,TO,Tocantins,172125,Tupirama,,,BR,BRA,2
 BR_TO_172130,Q1801621,,BR,Brazil,TO,Tocantins,172130,Tupiratins,,,BR,BRA,2
 BR_TO_172208,Q1798710,,BR,Brazil,TO,Tocantins,172208,Wanderlândia,,,BR,BRA,2
 BR_TO_172210,Q635920,,BR,Brazil,TO,Tocantins,172210,Xambioá,,,BR,BRA,2
-BR_VAN,,,BE,Belgium,VAN,Antwerp,,,,,BE,BEL,1
-BR_VLG,,,BE,Belgium,VLG,Flemish Brabant,,,,,BE,BEL,1
-BR_VLI,,,BE,Belgium,VLI,Limburg,,,,,BE,BEL,1
-BR_VOV,,,BE,Belgium,VOV,East Flanders,,,,,BE,BEL,1
-BR_VWV,,,BE,Belgium,VWV,West Flanders,,,,,BE,BEL,1
-BR_WBR,,,BE,Belgium,WBR,Walloon Brabant,,,,,BE,BEL,1
-BR_WHT,,,BE,Belgium,WHT,Hainaut,,,,,BE,BEL,1
-BR_WLG,,,BE,Belgium,WLG,Liège,,,,,BE,BEL,1
-BR_WLX,,,BE,Belgium,WLX,Luxembourg,,,,,BE,BEL,1
-BR_WNA,,,BE,Belgium,WNA,Namur,,,,,BE,BEL,1
 BS,Q778,country/BHS,BS,Bahamas,,,,,,,BS,BHS,0
 BT,Q917,country/BTN,BT,Bhutan,,,,,,,BT,BTN,0
 BV,Q23408,country/BVT,BV,Bouvet Island,,,,,,,BV,BVT,0
@@ -14284,7 +14284,8 @@ UA_18,Q40637,,UA,Ukraine,18,Zhytomyr,,,,,UA,UKR,1
 UA_21,Q170213,,UA,Ukraine,21,Zakarpattia,,,,,UA,UKR,1
 UA_23,Q171334,,UA,Ukraine,23,Zaporizhzhya,,,,,UA,UKR,1
 UA_26,Q178269,,UA,Ukraine,26,Ivano-Frankivsk,,,,,UA,UKR,1
-UA_32,Q170036,,UA,Ukraine,32,Kyiv,,,,,UA,UKR,1
+UA_30,Q1899,,UA,Ukraine,30,Kiev,,,,,UA,UKR,1
+UA_32,Q170036,,UA,Ukraine,32,Kiev Oblast,,,,,UA,UKR,1
 UA_35,Q180981,,UA,Ukraine,35,Kirovohrad,,,,,UA,UKR,1
 UA_40,Q7525,,RU,Russia,40,Sevastopol,,,,,RU,RUS,1
 UA_43,Q756294,,RU,Russia,43,Republic of Crimea,,,,,RU,RUS,1
@@ -14301,6 +14302,7 @@ UA_68,Q171331,,UA,Ukraine,68,Khmelnytskyi,,,,,UA,UKR,1
 UA_71,Q161808,,UA,Ukraine,71,Cherkasy,,,,,UA,UKR,1
 UA_74,Q167874,,UA,Ukraine,74,Chernihiv,,,,,UA,UKR,1
 UA_77,Q168856,,UA,Ukraine,77,Chernivtsi,,,,,UA,UKR,1
+UA_KBP,Q1899,,UA,Ukraine,,,,,KBP,Kiev,UA,UKR,3
 UG,Q1036,country/UGA,UG,Uganda,,,,,,,UG,UGA,0
 UM,Q16645,country/UMI,UM,United States Minor Outlying Islands,,,,,,,UM,UMI,0
 US,Q30,country/USA,US,United States of America,,,,,,,US,USA,0
