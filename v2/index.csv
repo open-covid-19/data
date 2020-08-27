@@ -8885,6 +8885,15 @@ GB_SCT_S08000029,,,GB,United Kingdom,SCT,Scotland,S08000029,Fife,,,GB,GBR,2
 GB_SCT_S08000030,,,GB,United Kingdom,SCT,Scotland,S08000030,Tayside,,,GB,GBR,2
 GB_SCT_S08000031,,,GB,United Kingdom,SCT,Scotland,S08000031,Greater Glasgow and Clyde,,,GB,GBR,2
 GB_SCT_S08000032,,,GB,United Kingdom,SCT,Scotland,S08000032,Lanarkshire,,,GB,GBR,2
+GB_UKC,,,GB,United Kingdom,UKC,North East,,,,,GB,GBR,1
+GB_UKD,,,GB,United Kingdom,UKD,North West,,,,,GB,GBR,1
+GB_UKE,,,GB,United Kingdom,UKE,Yorkshire and the Humber,,,,,GB,GBR,1
+GB_UKF,,,GB,United Kingdom,UKF,East Midlands,,,,,GB,GBR,1
+GB_UKG,,,GB,United Kingdom,UKG,West Midlands,,,,,GB,GBR,1
+GB_UKH,,,GB,United Kingdom,UKH,East of England,,,,,GB,GBR,1
+GB_UKI,,,GB,United Kingdom,UKI,Greater London,,,,,GB,GBR,1
+GB_UKJ,,,GB,United Kingdom,UKJ,South East,,,,,GB,GBR,1
+GB_UKK,,,GB,United Kingdom,UKK,South West,,,,,GB,GBR,1
 GB_WLS,Q25,nuts/UKL,GB,United Kingdom,WLS,Wales,,,,,GB,GBR,1
 GB_WLS_W11000023,,,GB,United Kingdom,WLS,Wales,W11000023,Betsi Cadwaladr,,,GB,GBR,2
 GB_WLS_W11000024,,,GB,United Kingdom,WLS,Wales,W11000024,Powys,,,GB,GBR,2
