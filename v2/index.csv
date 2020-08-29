@@ -8885,15 +8885,15 @@ GB_SCT_S08000029,,,GB,United Kingdom,SCT,Scotland,S08000029,Fife,,,GB,GBR,2
 GB_SCT_S08000030,,,GB,United Kingdom,SCT,Scotland,S08000030,Tayside,,,GB,GBR,2
 GB_SCT_S08000031,,,GB,United Kingdom,SCT,Scotland,S08000031,Greater Glasgow and Clyde,,,GB,GBR,2
 GB_SCT_S08000032,,,GB,United Kingdom,SCT,Scotland,S08000032,Lanarkshire,,,GB,GBR,2
-GB_UKC,,,GB,United Kingdom,UKC,North East,,,,,GB,GBR,1
-GB_UKD,,,GB,United Kingdom,UKD,North West,,,,,GB,GBR,1
-GB_UKE,,,GB,United Kingdom,UKE,Yorkshire and the Humber,,,,,GB,GBR,1
-GB_UKF,,,GB,United Kingdom,UKF,East Midlands,,,,,GB,GBR,1
-GB_UKG,,,GB,United Kingdom,UKG,West Midlands,,,,,GB,GBR,1
-GB_UKH,,,GB,United Kingdom,UKH,East of England,,,,,GB,GBR,1
-GB_UKI,,,GB,United Kingdom,UKI,Greater London,,,,,GB,GBR,1
-GB_UKJ,,,GB,United Kingdom,UKJ,South East,,,,,GB,GBR,1
-GB_UKK,,,GB,United Kingdom,UKK,South West,,,,,GB,GBR,1
+GB_UKC,Q47983,nuts/UKC,GB,United Kingdom,UKC,North East,,,,,GB,GBR,1
+GB_UKD,Q47967,nuts/UKD,GB,United Kingdom,UKD,North West,,,,,GB,GBR,1
+GB_UKE,Q48063,nuts/UKE,GB,United Kingdom,UKE,Yorkshire and the Humber,,,,,GB,GBR,1
+GB_UKF,Q47994,nuts/UKF,GB,United Kingdom,UKF,East Midlands,,,,,GB,GBR,1
+GB_UKG,Q48038,nuts/UKG,GB,United Kingdom,UKG,West Midlands,,,,,GB,GBR,1
+GB_UKH,Q48006,nuts/UKH,GB,United Kingdom,UKH,East of England,,,,,GB,GBR,1
+GB_UKI,Q23306,nuts/UKI,GB,United Kingdom,UKI,Greater London,,,,,GB,GBR,1
+GB_UKJ,Q48015,nuts/UKJ,GB,United Kingdom,UKJ,South East,,,,,GB,GBR,1
+GB_UKK,Q48026,nuts/UKK,GB,United Kingdom,UKK,South West,,,,,GB,GBR,1
 GB_WLS,Q25,nuts/UKL,GB,United Kingdom,WLS,Wales,,,,,GB,GBR,1
 GB_WLS_W11000023,,,GB,United Kingdom,WLS,Wales,W11000023,Betsi Cadwaladr,,,GB,GBR,2
 GB_WLS_W11000024,,,GB,United Kingdom,WLS,Wales,W11000024,Powys,,,GB,GBR,2
@@ -9015,42 +9015,777 @@ IL,Q801,country/ISR,IL,Israel,,,,,,,IL,ISR,0
 IM,Q9676,country/IMN,IM,Isle of Man,,,,,,,IM,IMN,0
 IN,Q668,country/IND,IN,India,,,,,,,IN,IND,0
 IN_AN,Q40888,,IN,India,AN,Andaman and Nicobar Islands,,,,,IN,IND,1
+IN_AN_NIC,,,IN,India,AN,Andaman and Nicobar Islands,NIC,Nicobars,,,IN,IND,2
+IN_AN_NMA,,,IN,India,AN,Andaman and Nicobar Islands,NMA,North and Middle Andaman,,,IN,IND,2
+IN_AN_SAS,,,IN,India,AN,Andaman and Nicobar Islands,SAS,South Andamans,,,IN,IND,2
 IN_AP,Q1159,,IN,India,AP,Andhra Pradesh,,,,,IN,IND,1
+IN_AP_ANT,,,IN,India,AP,Andhra Pradesh,ANT,Anantapur,,,IN,IND,2
+IN_AP_CHI,,,IN,India,AP,Andhra Pradesh,CHI,Chittoor,,,IN,IND,2
+IN_AP_CUD,,,IN,India,AP,Andhra Pradesh,CUD,Y.S.R. Kadapa,,,IN,IND,2
+IN_AP_EGI,,,IN,India,AP,Andhra Pradesh,EGI,East Godavari,,,IN,IND,2
+IN_AP_GNT,,,IN,India,AP,Andhra Pradesh,GNT,Guntur,,,IN,IND,2
+IN_AP_KRS,,,IN,India,AP,Andhra Pradesh,KRS,Krishna,,,IN,IND,2
+IN_AP_KUR,,,IN,India,AP,Andhra Pradesh,KUR,Kurnool,,,IN,IND,2
+IN_AP_NEL,,,IN,India,AP,Andhra Pradesh,NEL,S.P.S. Nellore,,,IN,IND,2
+IN_AP_PRA,,,IN,India,AP,Andhra Pradesh,PRA,Prakasam,,,IN,IND,2
+IN_AP_SRK,,,IN,India,AP,Andhra Pradesh,SRK,Srikakulam,,,IN,IND,2
+IN_AP_VNG,,,IN,India,AP,Andhra Pradesh,VNG,Vizianagaram,,,IN,IND,2
+IN_AP_VSK,,,IN,India,AP,Andhra Pradesh,VSK,Visakhapatnam,,,IN,IND,2
+IN_AP_WGI,,,IN,India,AP,Andhra Pradesh,WGI,West Godavari,,,IN,IND,2
 IN_AR,Q1162,,IN,India,AR,Arunachal Pradesh,,,,,IN,IND,1
+IN_AR_ANJ,,,IN,India,AR,Arunachal Pradesh,ANJ,Anjaw,,,IN,IND,2
+IN_AR_CHG,,,IN,India,AR,Arunachal Pradesh,CHG,Changlang,,,IN,IND,2
+IN_AR_DBN,,,IN,India,AR,Arunachal Pradesh,DBN,Dibang,,,IN,IND,2
+IN_AR_EKG,,,IN,India,AR,Arunachal Pradesh,EKG,East Kameng,,,IN,IND,2
+IN_AR_ESG,,,IN,India,AR,Arunachal Pradesh,ESG,East Siang,,,IN,IND,2
+IN_AR_KKY,,,IN,India,AR,Arunachal Pradesh,KKY,Kurung Kumey,,,IN,IND,2
+IN_AR_KML,,,IN,India,AR,Arunachal Pradesh,KML,Kamle,,,IN,IND,2
+IN_AR_KRD,,,IN,India,AR,Arunachal Pradesh,KRD,Kra Daadi,,,IN,IND,2
+IN_AR_LDG,,,IN,India,AR,Arunachal Pradesh,LDG,Longding,,,IN,IND,2
+IN_AR_LDV,,,IN,India,AR,Arunachal Pradesh,LDV,Lower Dibang Valley,,,IN,IND,2
+IN_AR_LHT,,,IN,India,AR,Arunachal Pradesh,LHT,Lohit,,,IN,IND,2
+IN_AR_LPR,,,IN,India,AR,Arunachal Pradesh,LPR,Lepa Rada,,,IN,IND,2
+IN_AR_LSI,,,IN,India,AR,Arunachal Pradesh,LSI,Lower Subansiri,,,IN,IND,2
+IN_AR_LWR,,,IN,India,AR,Arunachal Pradesh,LWR,Lower Siang,,,IN,IND,2
+IN_AR_NMS,,,IN,India,AR,Arunachal Pradesh,NMS,Namsai,,,IN,IND,2
+IN_AR_PKS,,,IN,India,AR,Arunachal Pradesh,PKS,Pakke Kessang,,,IN,IND,2
+IN_AR_PPM,,,IN,India,AR,Arunachal Pradesh,PPM,Papum Pare,,,IN,IND,2
+IN_AR_SAN,,,IN,India,AR,Arunachal Pradesh,SAN,Siang,,,IN,IND,2
+IN_AR_SHY,,,IN,India,AR,Arunachal Pradesh,SHY,Shi Yomi,,,IN,IND,2
+IN_AR_TRP,,,IN,India,AR,Arunachal Pradesh,TRP,Tirap,,,IN,IND,2
+IN_AR_TWN,,,IN,India,AR,Arunachal Pradesh,TWN,Tawang,,,IN,IND,2
+IN_AR_USG,,,IN,India,AR,Arunachal Pradesh,USG,Upper Siang,,,IN,IND,2
+IN_AR_USI,,,IN,India,AR,Arunachal Pradesh,USI,Upper Subansiri,,,IN,IND,2
+IN_AR_WKG,,,IN,India,AR,Arunachal Pradesh,WKG,West Kameng,,,IN,IND,2
+IN_AR_WSG,,,IN,India,AR,Arunachal Pradesh,WSG,West Siang,,,IN,IND,2
 IN_AS,Q1164,,IN,India,AS,Assam,,,,,IN,IND,1
+IN_AS_BAK,,,IN,India,AS,Assam,BAK,Baksa,,,IN,IND,2
+IN_AS_BAR,,,IN,India,AS,Assam,BAR,Barpeta,,,IN,IND,2
+IN_AS_BNG,,,IN,India,AS,Assam,BNG,Bongaigaon,,,IN,IND,2
+IN_AS_BSW,,,IN,India,AS,Assam,BSW,Biswanath,,,IN,IND,2
+IN_AS_CCH,,,IN,India,AS,Assam,CCH,Cachar,,,IN,IND,2
+IN_AS_CID,,,IN,India,AS,Assam,CID,Charaideo,,,IN,IND,2
+IN_AS_CRG,,,IN,India,AS,Assam,CRG,Chirang,,,IN,IND,2
+IN_AS_DBR,,,IN,India,AS,Assam,DBR,Dibrugarh,,,IN,IND,2
+IN_AS_DHB,,,IN,India,AS,Assam,DHB,Dhubri,,,IN,IND,2
+IN_AS_DHM,,,IN,India,AS,Assam,DHM,Dhemaji,,,IN,IND,2
+IN_AS_DHO,,,IN,India,AS,Assam,DHO,Dima Hasao,,,IN,IND,2
+IN_AS_DRR,,,IN,India,AS,Assam,DRR,Darrang,,,IN,IND,2
+IN_AS_GLG,,,IN,India,AS,Assam,GLG,Golaghat,,,IN,IND,2
+IN_AS_GLP,,,IN,India,AS,Assam,GLP,Goalpara,,,IN,IND,2
+IN_AS_HJ,,,IN,India,AS,Assam,HJ,Hojai,,,IN,IND,2
+IN_AS_HLK,,,IN,India,AS,Assam,HLK,Hailakandi,,,IN,IND,2
+IN_AS_JRH,,,IN,India,AS,Assam,JRH,Jorhat,,,IN,IND,2
+IN_AS_KAG,,,IN,India,AS,Assam,KAG,Karbi Anglong,,,IN,IND,2
+IN_AS_KGJ,,,IN,India,AS,Assam,KGJ,Karimganj,,,IN,IND,2
+IN_AS_KKR,,,IN,India,AS,Assam,KKR,Kokrajhar,,,IN,IND,2
+IN_AS_KMP,,,IN,India,AS,Assam,KMP,Kamrup,,,IN,IND,2
+IN_AS_KMT,,,IN,India,AS,Assam,KMT,Kamrup Metro,,,IN,IND,2
+IN_AS_LKP,,,IN,India,AS,Assam,LKP,Lakhimpur,,,IN,IND,2
+IN_AS_MGN,,,IN,India,AS,Assam,MGN,Morigaon,,,IN,IND,2
+IN_AS_MJL,,,IN,India,AS,Assam,MJL,Majuli,,,IN,IND,2
+IN_AS_NGN,,,IN,India,AS,Assam,NGN,Nagaon,,,IN,IND,2
+IN_AS_NLB,,,IN,India,AS,Assam,NLB,Nalbari,,,IN,IND,2
+IN_AS_SON,,,IN,India,AS,Assam,SON,Sonitpur,,,IN,IND,2
+IN_AS_STH,,,IN,India,AS,Assam,STH,South Salmara Mankachar,,,IN,IND,2
+IN_AS_SVS,,,IN,India,AS,Assam,SVS,Sivasagar,,,IN,IND,2
+IN_AS_TIN,,,IN,India,AS,Assam,TIN,Tinsukia,,,IN,IND,2
+IN_AS_UDA,,,IN,India,AS,Assam,UDA,Udalguri,,,IN,IND,2
+IN_AS_WST,,,IN,India,AS,Assam,WST,West Karbi Anglong,,,IN,IND,2
 IN_BR,Q1165,,IN,India,BR,Bihar,,,,,IN,IND,1
+IN_BR_AGB,,,IN,India,BR,Bihar,AGB,Aurangabad,,,IN,IND,2
+IN_BR_ARA,,,IN,India,BR,Bihar,ARA,Araria,,,IN,IND,2
+IN_BR_ARW,,,IN,India,BR,Bihar,ARW,Arwal,,,IN,IND,2
+IN_BR_BGO,,,IN,India,BR,Bihar,BGO,Bhagalpur,,,IN,IND,2
+IN_BR_BJP,,,IN,India,BR,Bihar,BJP,Bhojpur,,,IN,IND,2
+IN_BR_BNK,,,IN,India,BR,Bihar,BNK,Banka,,,IN,IND,2
+IN_BR_BSR,,,IN,India,BR,Bihar,BSR,Begusarai,,,IN,IND,2
+IN_BR_BUX,,,IN,India,BR,Bihar,BUX,Buxar,,,IN,IND,2
+IN_BR_DBG,,,IN,India,BR,Bihar,DBG,Darbhanga,,,IN,IND,2
+IN_BR_GAY,,,IN,India,BR,Bihar,GAY,Gaya,,,IN,IND,2
+IN_BR_GPG,,,IN,India,BR,Bihar,GPG,Gopalganj,,,IN,IND,2
+IN_BR_JAM,,,IN,India,BR,Bihar,JAM,Jamui,,,IN,IND,2
+IN_BR_JHB,,,IN,India,BR,Bihar,JHB,Jehanabad,,,IN,IND,2
+IN_BR_KGR,,,IN,India,BR,Bihar,KGR,Khagaria,,,IN,IND,2
+IN_BR_KMR,,,IN,India,BR,Bihar,KMR,Kaimur,,,IN,IND,2
+IN_BR_KSG,,,IN,India,BR,Bihar,KSG,Kishanganj,,,IN,IND,2
+IN_BR_KTR,,,IN,India,BR,Bihar,KTR,Katihar,,,IN,IND,2
+IN_BR_LSR,,,IN,India,BR,Bihar,LSR,Lakhisarai,,,IN,IND,2
+IN_BR_MDB,,,IN,India,BR,Bihar,MDB,Madhubani,,,IN,IND,2
+IN_BR_MDP,,,IN,India,BR,Bihar,MDP,Madhepura,,,IN,IND,2
+IN_BR_MNG,,,IN,India,BR,Bihar,MNG,Munger,,,IN,IND,2
+IN_BR_MUZ,,,IN,India,BR,Bihar,MUZ,Muzaffarpur,,,IN,IND,2
+IN_BR_NAW,,,IN,India,BR,Bihar,NAW,Nawada,,,IN,IND,2
+IN_BR_NLD,,,IN,India,BR,Bihar,NLD,Nalanda,,,IN,IND,2
+IN_BR_PRC,,,IN,India,BR,Bihar,PRC,East Champaran,,,IN,IND,2
+IN_BR_PRN,,,IN,India,BR,Bihar,PRN,Purnia,,,IN,IND,2
+IN_BR_PSC,,,IN,India,BR,Bihar,PSC,West Champaran,,,IN,IND,2
+IN_BR_PTN,,,IN,India,BR,Bihar,PTN,Patna,,,IN,IND,2
+IN_BR_RTS,,,IN,India,BR,Bihar,RTS,Rohtas,,,IN,IND,2
+IN_BR_SAR,,,IN,India,BR,Bihar,SAR,Saran,,,IN,IND,2
+IN_BR_SHH,,,IN,India,BR,Bihar,SHH,Sheohar,,,IN,IND,2
+IN_BR_SHK,,,IN,India,BR,Bihar,SHK,Sheikhpura,,,IN,IND,2
+IN_BR_SHS,,,IN,India,BR,Bihar,SHS,Saharsa,,,IN,IND,2
+IN_BR_SMS,,,IN,India,BR,Bihar,SMS,Samastipur,,,IN,IND,2
+IN_BR_SPL,,,IN,India,BR,Bihar,SPL,Supaul,,,IN,IND,2
+IN_BR_STM,,,IN,India,BR,Bihar,STM,Sitamarhi,,,IN,IND,2
+IN_BR_SWN,,,IN,India,BR,Bihar,SWN,Siwan,,,IN,IND,2
+IN_BR_VSH,,,IN,India,BR,Bihar,VSH,Vaishali,,,IN,IND,2
 IN_CH,Q43433,,IN,India,CH,Chandigarh,,,,,IN,IND,1
+IN_CH_CHD,,,IN,India,CH,Chandigarh,CHD,Chandigarh,,,IN,IND,2
 IN_CT,Q1168,,IN,India,CT,Chhattisgarh,,,,,IN,IND,1
+IN_CT_BAS,,,IN,India,CT,Chhattisgarh,BAS,Bastar,,,IN,IND,2
+IN_CT_BEM,,,IN,India,CT,Chhattisgarh,BEM,Bemetara,,,IN,IND,2
+IN_CT_BIJ,,,IN,India,CT,Chhattisgarh,BIJ,Bijapur,,,IN,IND,2
+IN_CT_BLB,,,IN,India,CT,Chhattisgarh,BLB,Baloda Bazar,,,IN,IND,2
+IN_CT_BLD,,,IN,India,CT,Chhattisgarh,BLD,Balod,,,IN,IND,2
+IN_CT_BLM,,,IN,India,CT,Chhattisgarh,BLM,Balrampur,,,IN,IND,2
+IN_CT_BLP,,,IN,India,CT,Chhattisgarh,BLP,Bilaspur,,,IN,IND,2
+IN_CT_DMT,,,IN,India,CT,Chhattisgarh,DMT,Dhamtari,,,IN,IND,2
+IN_CT_DNT,,,IN,India,CT,Chhattisgarh,DNT,Dantewada,,,IN,IND,2
+IN_CT_DRG,,,IN,India,CT,Chhattisgarh,DRG,Durg,,,IN,IND,2
+IN_CT_GPM,,,IN,India,CT,Chhattisgarh,GPM,Gaurella Pendra Marwahi,,,IN,IND,2
+IN_CT_GRY,,,IN,India,CT,Chhattisgarh,GRY,Gariyaband,,,IN,IND,2
+IN_CT_JCH,,,IN,India,CT,Chhattisgarh,JCH,Janjgir-Champa,,,IN,IND,2
+IN_CT_JSH,,,IN,India,CT,Chhattisgarh,JSH,Jashpur,,,IN,IND,2
+IN_CT_KDM,,,IN,India,CT,Chhattisgarh,KDM,Kabirdham,,,IN,IND,2
+IN_CT_KNK,,,IN,India,CT,Chhattisgarh,KNK,Kanker,,,IN,IND,2
+IN_CT_KON,,,IN,India,CT,Chhattisgarh,KON,Kondagaon,,,IN,IND,2
+IN_CT_KOR,,,IN,India,CT,Chhattisgarh,KOR,Korea,,,IN,IND,2
+IN_CT_KRB,,,IN,India,CT,Chhattisgarh,KRB,Korba,,,IN,IND,2
+IN_CT_MHS,,,IN,India,CT,Chhattisgarh,MHS,Mahasamund,,,IN,IND,2
+IN_CT_MUN,,,IN,India,CT,Chhattisgarh,MUN,Mungeli,,,IN,IND,2
+IN_CT_NRY,,,IN,India,CT,Chhattisgarh,NRY,Narayanpur,,,IN,IND,2
+IN_CT_RGR,,,IN,India,CT,Chhattisgarh,RGR,Raigarh,,,IN,IND,2
+IN_CT_RJN,,,IN,India,CT,Chhattisgarh,RJN,Rajnandgaon,,,IN,IND,2
+IN_CT_RPR,,,IN,India,CT,Chhattisgarh,RPR,Raipur,,,IN,IND,2
+IN_CT_SKM,,,IN,India,CT,Chhattisgarh,SKM,Sukma,,,IN,IND,2
+IN_CT_SRG,,,IN,India,CT,Chhattisgarh,SRG,Surguja,,,IN,IND,2
+IN_CT_SRJ,,,IN,India,CT,Chhattisgarh,SRJ,Surajpur,,,IN,IND,2
 IN_DD,Q66710,,IN,India,DD,Daman and Diu,,,,,IN,IND,1
 IN_DL,Q1353,,IN,India,DL,Delhi,,,,,IN,IND,1
-IN_DN,Q46107,,IN,India,DN,Dadra and Nagar Haveli,,,,,IN,IND,1
+IN_DL_CNT,,,IN,India,DL,Delhi,CNT,Central,,,IN,IND,2
+IN_DL_EST,,,IN,India,DL,Delhi,EST,East,,,IN,IND,2
+IN_DL_HHD,,,IN,India,DL,Delhi,HHD,Shahdara,,,IN,IND,2
+IN_DL_NDL,,,IN,India,DL,Delhi,NDL,New Delhi,,,IN,IND,2
+IN_DL_NED,,,IN,India,DL,Delhi,NED,North East,,,IN,IND,2
+IN_DL_NRD,,,IN,India,DL,Delhi,NRD,North,,,IN,IND,2
+IN_DL_NWD,,,IN,India,DL,Delhi,NWD,North West,,,IN,IND,2
+IN_DL_SDL,,,IN,India,DL,Delhi,SDL,South,,,IN,IND,2
+IN_DL_STS,,,IN,India,DL,Delhi,STS,South East,,,IN,IND,2
+IN_DL_SWD,,,IN,India,DL,Delhi,SWD,South West,,,IN,IND,2
+IN_DL_WSD,,,IN,India,DL,Delhi,WSD,West,,,IN,IND,2
+IN_DN,Q46107,,IN,India,DN,Dadra and Nagar Haveli and Daman and Diu,,,,,IN,IND,1
+IN_DN_DIU,,,IN,India,DN,Dadra and Nagar Haveli and Daman and Diu,DIU,Diu,,,IN,IND,2
+IN_DN_DMN,,,IN,India,DN,Dadra and Nagar Haveli and Daman and Diu,DMN,Daman,,,IN,IND,2
+IN_DN_DNH,,,IN,India,DN,Dadra and Nagar Haveli and Daman and Diu,DNH,Dadra and Nagar Haveli,,,IN,IND,2
 IN_GA,Q1171,,IN,India,GA,Goa,,,,,IN,IND,1
+IN_GA_NGO,,,IN,India,GA,Goa,NGO,North Goa,,,IN,IND,2
+IN_GA_SGO,,,IN,India,GA,Goa,SGO,South Goa,,,IN,IND,2
 IN_GJ,Q1061,,IN,India,GJ,Gujarat,,,,,IN,IND,1
+IN_GJ_AHM,,,IN,India,GJ,Gujarat,AHM,Ahmedabad,,,IN,IND,2
+IN_GJ_ANA,,,IN,India,GJ,Gujarat,ANA,Anand,,,IN,IND,2
+IN_GJ_ARL,,,IN,India,GJ,Gujarat,ARL,Amreli,,,IN,IND,2
+IN_GJ_BHV,,,IN,India,GJ,Gujarat,BHV,Bhavnagar,,,IN,IND,2
+IN_GJ_BKT,,,IN,India,GJ,Gujarat,BKT,Banas Kantha,,,IN,IND,2
+IN_GJ_BRC,,,IN,India,GJ,Gujarat,BRC,Bharuch,,,IN,IND,2
+IN_GJ_BTD,,,IN,India,GJ,Gujarat,BTD,Botad,,,IN,IND,2
+IN_GJ_CUP,,,IN,India,GJ,Gujarat,CUP,Chhotaudepur,,,IN,IND,2
+IN_GJ_DAN,,,IN,India,GJ,Gujarat,DAN,Dang,,,IN,IND,2
+IN_GJ_DHD,,,IN,India,GJ,Gujarat,DHD,Dohad,,,IN,IND,2
+IN_GJ_DVB,,,IN,India,GJ,Gujarat,DVB,Devbhumi Dwarka,,,IN,IND,2
+IN_GJ_GNR,,,IN,India,GJ,Gujarat,GNR,Gandhinagar,,,IN,IND,2
+IN_GJ_GRS,,,IN,India,GJ,Gujarat,GRS,Gir Somnath,,,IN,IND,2
+IN_GJ_JMN,,,IN,India,GJ,Gujarat,JMN,Jamnagar,,,IN,IND,2
+IN_GJ_JNG,,,IN,India,GJ,Gujarat,JNG,Junagadh,,,IN,IND,2
+IN_GJ_KCH,,,IN,India,GJ,Gujarat,KCH,Kachchh,,,IN,IND,2
+IN_GJ_KHE,,,IN,India,GJ,Gujarat,KHE,Kheda,,,IN,IND,2
+IN_GJ_MHN,,,IN,India,GJ,Gujarat,MHN,Mahesana,,,IN,IND,2
+IN_GJ_MRI,,,IN,India,GJ,Gujarat,MRI,Morbi,,,IN,IND,2
+IN_GJ_MSG,,,IN,India,GJ,Gujarat,MSG,Mahisagar,,,IN,IND,2
+IN_GJ_NRM,,,IN,India,GJ,Gujarat,NRM,Narmada,,,IN,IND,2
+IN_GJ_NVS,,,IN,India,GJ,Gujarat,NVS,Navsari,,,IN,IND,2
+IN_GJ_PAT,,,IN,India,GJ,Gujarat,PAT,Patan,,,IN,IND,2
+IN_GJ_PMS,,,IN,India,GJ,Gujarat,PMS,Panch Mahals,,,IN,IND,2
+IN_GJ_PRB,,,IN,India,GJ,Gujarat,PRB,Porbandar,,,IN,IND,2
+IN_GJ_RJK,,,IN,India,GJ,Gujarat,RJK,Rajkot,,,IN,IND,2
+IN_GJ_RVL,,,IN,India,GJ,Gujarat,RVL,Aravalli,,,IN,IND,2
+IN_GJ_SKA,,,IN,India,GJ,Gujarat,SKA,Sabar Kantha,,,IN,IND,2
+IN_GJ_SRT,,,IN,India,GJ,Gujarat,SRT,Surat,,,IN,IND,2
+IN_GJ_SUR,,,IN,India,GJ,Gujarat,SUR,Surendranagar,,,IN,IND,2
+IN_GJ_TAP,,,IN,India,GJ,Gujarat,TAP,Tapi,,,IN,IND,2
+IN_GJ_VDR,,,IN,India,GJ,Gujarat,VDR,Vadodara,,,IN,IND,2
+IN_GJ_VLS,,,IN,India,GJ,Gujarat,VLS,Valsad,,,IN,IND,2
 IN_HP,Q1177,,IN,India,HP,Himachal Pradesh,,,,,IN,IND,1
+IN_HP_BLS,,,IN,India,HP,Himachal Pradesh,BLS,Bilaspur,,,IN,IND,2
+IN_HP_CHM,,,IN,India,HP,Himachal Pradesh,CHM,Chamba,,,IN,IND,2
+IN_HP_HMP,,,IN,India,HP,Himachal Pradesh,HMP,Hamirpur,,,IN,IND,2
+IN_HP_KIN,,,IN,India,HP,Himachal Pradesh,KIN,Kinnaur,,,IN,IND,2
+IN_HP_KNG,,,IN,India,HP,Himachal Pradesh,KNG,Kangra,,,IN,IND,2
+IN_HP_KUL,,,IN,India,HP,Himachal Pradesh,KUL,Kullu,,,IN,IND,2
+IN_HP_LAS,,,IN,India,HP,Himachal Pradesh,LAS,Lahul and Spiti,,,IN,IND,2
+IN_HP_MND,,,IN,India,HP,Himachal Pradesh,MND,Mandi,,,IN,IND,2
+IN_HP_SHM,,,IN,India,HP,Himachal Pradesh,SHM,Shimla,,,IN,IND,2
+IN_HP_SLN,,,IN,India,HP,Himachal Pradesh,SLN,Solan,,,IN,IND,2
+IN_HP_SRM,,,IN,India,HP,Himachal Pradesh,SRM,Sirmaur,,,IN,IND,2
+IN_HP_UNA,,,IN,India,HP,Himachal Pradesh,UNA,Una,,,IN,IND,2
 IN_HR,Q1174,,IN,India,HR,Haryana,,,,,IN,IND,1
+IN_HR_AMB,,,IN,India,HR,Haryana,AMB,Ambala,,,IN,IND,2
+IN_HR_BHW,,,IN,India,HR,Haryana,BHW,Bhiwani,,,IN,IND,2
+IN_HR_FRB,,,IN,India,HR,Haryana,FRB,Faridabad,,,IN,IND,2
+IN_HR_FTB,,,IN,India,HR,Haryana,FTB,Fatehabad,,,IN,IND,2
+IN_HR_GRG,,,IN,India,HR,Haryana,GRG,Gurugram,,,IN,IND,2
+IN_HR_HRK,,,IN,India,HR,Haryana,HRK,Charki Dadri,,,IN,IND,2
+IN_HR_HSR,,,IN,India,HR,Haryana,HSR,Hisar,,,IN,IND,2
+IN_HR_JHJ,,,IN,India,HR,Haryana,JHJ,Jhajjar,,,IN,IND,2
+IN_HR_JND,,,IN,India,HR,Haryana,JND,Jind,,,IN,IND,2
+IN_HR_KRK,,,IN,India,HR,Haryana,KRK,Kurukshetra,,,IN,IND,2
+IN_HR_KRL,,,IN,India,HR,Haryana,KRL,Karnal,,,IN,IND,2
+IN_HR_KTL,,,IN,India,HR,Haryana,KTL,Kaithal,,,IN,IND,2
+IN_HR_MGH,,,IN,India,HR,Haryana,MGH,Mahendragarh,,,IN,IND,2
+IN_HR_MWT,,,IN,India,HR,Haryana,MWT,Nuh,,,IN,IND,2
+IN_HR_PNK,,,IN,India,HR,Haryana,PNK,Panchkula,,,IN,IND,2
+IN_HR_PNP,,,IN,India,HR,Haryana,PNP,Panipat,,,IN,IND,2
+IN_HR_PWL,,,IN,India,HR,Haryana,PWL,Palwal,,,IN,IND,2
+IN_HR_RHT,,,IN,India,HR,Haryana,RHT,Rohtak,,,IN,IND,2
+IN_HR_RWR,,,IN,India,HR,Haryana,RWR,Rewari,,,IN,IND,2
+IN_HR_SNP,,,IN,India,HR,Haryana,SNP,Sonipat,,,IN,IND,2
+IN_HR_SRS,,,IN,India,HR,Haryana,SRS,Sirsa,,,IN,IND,2
+IN_HR_YMN,,,IN,India,HR,Haryana,YMN,Yamunanagar,,,IN,IND,2
 IN_JH,Q1184,,IN,India,JH,Jharkhand,,,,,IN,IND,1
+IN_JH_BKR,,,IN,India,JH,Jharkhand,BKR,Bokaro,,,IN,IND,2
+IN_JH_CHT,,,IN,India,JH,Jharkhand,CHT,Chatra,,,IN,IND,2
+IN_JH_DGH,,,IN,India,JH,Jharkhand,DGH,Deoghar,,,IN,IND,2
+IN_JH_DHN,,,IN,India,JH,Jharkhand,DHN,Dhanbad,,,IN,IND,2
+IN_JH_DMK,,,IN,India,JH,Jharkhand,DMK,Dumka,,,IN,IND,2
+IN_JH_ESM,,,IN,India,JH,Jharkhand,ESM,East Singhbum,,,IN,IND,2
+IN_JH_GDD,,,IN,India,JH,Jharkhand,GDD,Godda,,,IN,IND,2
+IN_JH_GIR,,,IN,India,JH,Jharkhand,GIR,Giridih,,,IN,IND,2
+IN_JH_GML,,,IN,India,JH,Jharkhand,GML,Gumla,,,IN,IND,2
+IN_JH_GRH,,,IN,India,JH,Jharkhand,GRH,Garhwa,,,IN,IND,2
+IN_JH_HZR,,,IN,India,JH,Jharkhand,HZR,Hazaribagh,,,IN,IND,2
+IN_JH_JMT,,,IN,India,JH,Jharkhand,JMT,Jamtara,,,IN,IND,2
+IN_JH_KDR,,,IN,India,JH,Jharkhand,KDR,Koderma,,,IN,IND,2
+IN_JH_KNT,,,IN,India,JH,Jharkhand,KNT,Khunti,,,IN,IND,2
+IN_JH_LHR,,,IN,India,JH,Jharkhand,LHR,Lohardaga,,,IN,IND,2
+IN_JH_LTH,,,IN,India,JH,Jharkhand,LTH,Latehar,,,IN,IND,2
+IN_JH_PKR,,,IN,India,JH,Jharkhand,PKR,Pakur,,,IN,IND,2
+IN_JH_PLM,,,IN,India,JH,Jharkhand,PLM,Palamu,,,IN,IND,2
+IN_JH_RMG,,,IN,India,JH,Jharkhand,RMG,Ramgarh,,,IN,IND,2
+IN_JH_RNC,,,IN,India,JH,Jharkhand,RNC,Ranchi,,,IN,IND,2
+IN_JH_SGJ,,,IN,India,JH,Jharkhand,SGJ,Sahebganj,,,IN,IND,2
+IN_JH_SKH,,,IN,India,JH,Jharkhand,SKH,Saraikela Kharsawan,,,IN,IND,2
+IN_JH_SMG,,,IN,India,JH,Jharkhand,SMG,Simdega,,,IN,IND,2
+IN_JH_WSM,,,IN,India,JH,Jharkhand,WSM,West Singhbhum,,,IN,IND,2
 IN_JK,Q66278313,,IN,India,JK,Jammu and Kashmir,,,,,IN,IND,1
+IN_JK_ATG,,,IN,India,JK,Jammu and Kashmir,ATG,Anantnag,,,IN,IND,2
+IN_JK_BDG,,,IN,India,JK,Jammu and Kashmir,BDG,Budgam,,,IN,IND,2
+IN_JK_BDP,,,IN,India,JK,Jammu and Kashmir,BDP,Bandipora,,,IN,IND,2
+IN_JK_BRM,,,IN,India,JK,Jammu and Kashmir,BRM,Baramulla,,,IN,IND,2
+IN_JK_DOD,,,IN,India,JK,Jammu and Kashmir,DOD,Doda,,,IN,IND,2
+IN_JK_GDR,,,IN,India,JK,Jammu and Kashmir,GDR,Ganderbal,,,IN,IND,2
+IN_JK_JMU,,,IN,India,JK,Jammu and Kashmir,JMU,Jammu,,,IN,IND,2
+IN_JK_KHT,,,IN,India,JK,Jammu and Kashmir,KHT,Kishtwar,,,IN,IND,2
+IN_JK_KLG,,,IN,India,JK,Jammu and Kashmir,KLG,Kulgam,,,IN,IND,2
+IN_JK_KPW,,,IN,India,JK,Jammu and Kashmir,KPW,Kupwara,,,IN,IND,2
+IN_JK_KTH,,,IN,India,JK,Jammu and Kashmir,KTH,Kathua,,,IN,IND,2
+IN_JK_PLW,,,IN,India,JK,Jammu and Kashmir,PLW,Pulwama,,,IN,IND,2
+IN_JK_PNC,,,IN,India,JK,Jammu and Kashmir,PNC,Poonch,,,IN,IND,2
+IN_JK_REA,,,IN,India,JK,Jammu and Kashmir,REA,Reasi,,,IN,IND,2
+IN_JK_RJR,,,IN,India,JK,Jammu and Kashmir,RJR,Rajouri,,,IN,IND,2
+IN_JK_RMB,,,IN,India,JK,Jammu and Kashmir,RMB,Ramban,,,IN,IND,2
+IN_JK_SAM,,,IN,India,JK,Jammu and Kashmir,SAM,Samba,,,IN,IND,2
+IN_JK_SPN,,,IN,India,JK,Jammu and Kashmir,SPN,Shopian,,,IN,IND,2
+IN_JK_SRN,,,IN,India,JK,Jammu and Kashmir,SRN,Srinagar,,,IN,IND,2
+IN_JK_UDM,,,IN,India,JK,Jammu and Kashmir,UDM,Udhampur,,,IN,IND,2
 IN_KA,Q1185,,IN,India,KA,Karnataka,,,,,IN,IND,1
+IN_KA_BAG,,,IN,India,KA,Karnataka,BAG,Bagalkote,,,IN,IND,2
+IN_KA_BDR,,,IN,India,KA,Karnataka,BDR,Bidar,,,IN,IND,2
+IN_KA_BLG,,,IN,India,KA,Karnataka,BLG,Belagavi,,,IN,IND,2
+IN_KA_BLL,,,IN,India,KA,Karnataka,BLL,Ballari,,,IN,IND,2
+IN_KA_BRR,,,IN,India,KA,Karnataka,BRR,Bengaluru Rural,,,IN,IND,2
+IN_KA_BUR,,,IN,India,KA,Karnataka,BUR,Bengaluru Urban,,,IN,IND,2
+IN_KA_CHB,,,IN,India,KA,Karnataka,CHB,Chikkaballapura,,,IN,IND,2
+IN_KA_CHJ,,,IN,India,KA,Karnataka,CHJ,Chamarajanagara,,,IN,IND,2
+IN_KA_CKM,,,IN,India,KA,Karnataka,CKM,Chikkamagaluru,,,IN,IND,2
+IN_KA_CTR,,,IN,India,KA,Karnataka,CTR,Chitradurga,,,IN,IND,2
+IN_KA_DAV,,,IN,India,KA,Karnataka,DAV,Davangere,,,IN,IND,2
+IN_KA_DKD,,,IN,India,KA,Karnataka,DKD,Dakshina Kannada,,,IN,IND,2
+IN_KA_DRW,,,IN,India,KA,Karnataka,DRW,Dharwad,,,IN,IND,2
+IN_KA_GDG,,,IN,India,KA,Karnataka,GDG,Gadag,,,IN,IND,2
+IN_KA_HAS,,,IN,India,KA,Karnataka,HAS,Hassan,,,IN,IND,2
+IN_KA_HAV,,,IN,India,KA,Karnataka,HAV,Haveri,,,IN,IND,2
+IN_KA_KDG,,,IN,India,KA,Karnataka,KDG,Kodagu,,,IN,IND,2
+IN_KA_KLB,,,IN,India,KA,Karnataka,KLB,Kalaburagi,,,IN,IND,2
+IN_KA_KLR,,,IN,India,KA,Karnataka,KLR,Kolar,,,IN,IND,2
+IN_KA_KPL,,,IN,India,KA,Karnataka,KPL,Koppal,,,IN,IND,2
+IN_KA_MDY,,,IN,India,KA,Karnataka,MDY,Mandya,,,IN,IND,2
+IN_KA_MYS,,,IN,India,KA,Karnataka,MYS,Mysuru,,,IN,IND,2
+IN_KA_RAM,,,IN,India,KA,Karnataka,RAM,Ramanagara,,,IN,IND,2
+IN_KA_RCH,,,IN,India,KA,Karnataka,RCH,Raichur,,,IN,IND,2
+IN_KA_SVM,,,IN,India,KA,Karnataka,SVM,Shivamogga,,,IN,IND,2
+IN_KA_TMK,,,IN,India,KA,Karnataka,TMK,Tumakuru,,,IN,IND,2
+IN_KA_UDU,,,IN,India,KA,Karnataka,UDU,Udupi,,,IN,IND,2
+IN_KA_UKD,,,IN,India,KA,Karnataka,UKD,Uttara Kannada,,,IN,IND,2
+IN_KA_VJP,,,IN,India,KA,Karnataka,VJP,Vijayapura,,,IN,IND,2
+IN_KA_YDG,,,IN,India,KA,Karnataka,YDG,Yadgir,,,IN,IND,2
 IN_KL,Q1186,,IN,India,KL,Kerala,,,,,IN,IND,1
+IN_KL_ALZ,,,IN,India,KL,Kerala,ALZ,Alappuzha,,,IN,IND,2
+IN_KL_ERN,,,IN,India,KL,Kerala,ERN,Ernakulam,,,IN,IND,2
+IN_KL_IDK,,,IN,India,KL,Kerala,IDK,Idukki,,,IN,IND,2
+IN_KL_KLM,,,IN,India,KL,Kerala,KLM,Kollam,,,IN,IND,2
+IN_KL_KNU,,,IN,India,KL,Kerala,KNU,Kannur,,,IN,IND,2
+IN_KL_KOZ,,,IN,India,KL,Kerala,KOZ,Kozhikode,,,IN,IND,2
+IN_KL_KSR,,,IN,India,KL,Kerala,KSR,Kasaragod,,,IN,IND,2
+IN_KL_KTM,,,IN,India,KL,Kerala,KTM,Kottayam,,,IN,IND,2
+IN_KL_MLP,,,IN,India,KL,Kerala,MLP,Malappuram,,,IN,IND,2
+IN_KL_PLK,,,IN,India,KL,Kerala,PLK,Palakkad,,,IN,IND,2
+IN_KL_PTT,,,IN,India,KL,Kerala,PTT,Pathanamthitta,,,IN,IND,2
+IN_KL_TSR,,,IN,India,KL,Kerala,TSR,Thrissur,,,IN,IND,2
+IN_KL_TVP,,,IN,India,KL,Kerala,TVP,Thiruvananthapuram,,,IN,IND,2
+IN_KL_WAY,,,IN,India,KL,Kerala,WAY,Wayanad,,,IN,IND,2
 IN_LA,Q200667,,IN,India,LA,Ladakh,,,,,IN,IND,1
+IN_LA_KRG,,,IN,India,LA,Ladakh,KRG,Kargil,,,IN,IND,2
+IN_LA_LLD,,,IN,India,LA,Ladakh,LLD,Leh Ladakh,,,IN,IND,2
 IN_LD,Q26927,,IN,India,LD,Lakshadweep,,,,,IN,IND,1
+IN_LD_LKS,,,IN,India,LD,Lakshadweep,LKS,Lakshadweep District,,,IN,IND,2
 IN_MH,Q1191,,IN,India,MH,Maharashtra,,,,,IN,IND,1
+IN_MH_AHN,,,IN,India,MH,Maharashtra,AHN,Ahmednagar,,,IN,IND,2
+IN_MH_AKO,,,IN,India,MH,Maharashtra,AKO,Akola,,,IN,IND,2
+IN_MH_AMV,,,IN,India,MH,Maharashtra,AMV,Amravati,,,IN,IND,2
+IN_MH_AUR,,,IN,India,MH,Maharashtra,AUR,Aurangabad,,,IN,IND,2
+IN_MH_BEE,,,IN,India,MH,Maharashtra,BEE,Beed,,,IN,IND,2
+IN_MH_BHA,,,IN,India,MH,Maharashtra,BHA,Bhandara,,,IN,IND,2
+IN_MH_BUL,,,IN,India,MH,Maharashtra,BUL,Buldhana,,,IN,IND,2
+IN_MH_CPR,,,IN,India,MH,Maharashtra,CPR,Chandrapur,,,IN,IND,2
+IN_MH_DHU,,,IN,India,MH,Maharashtra,DHU,Dhule,,,IN,IND,2
+IN_MH_GDC,,,IN,India,MH,Maharashtra,GDC,Gadchiroli,,,IN,IND,2
+IN_MH_GON,,,IN,India,MH,Maharashtra,GON,Gondia,,,IN,IND,2
+IN_MH_HIN,,,IN,India,MH,Maharashtra,HIN,Hingoli,,,IN,IND,2
+IN_MH_JAL,,,IN,India,MH,Maharashtra,JAL,Jalna,,,IN,IND,2
+IN_MH_JLG,,,IN,India,MH,Maharashtra,JLG,Jalgaon,,,IN,IND,2
+IN_MH_KLP,,,IN,India,MH,Maharashtra,KLP,Kolhapur,,,IN,IND,2
+IN_MH_LTR,,,IN,India,MH,Maharashtra,LTR,Latur,,,IN,IND,2
+IN_MH_MMB,,,IN,India,MH,Maharashtra,MMB,Mumbai,,,IN,IND,2
+IN_MH_MMS,,,IN,India,MH,Maharashtra,MMS,Mumbai Suburban,,,IN,IND,2
+IN_MH_NAN,,,IN,India,MH,Maharashtra,NAN,Nanded,,,IN,IND,2
+IN_MH_NGP,,,IN,India,MH,Maharashtra,NGP,Nagpur,,,IN,IND,2
+IN_MH_NNR,,,IN,India,MH,Maharashtra,NNR,Nandurbar,,,IN,IND,2
+IN_MH_NSH,,,IN,India,MH,Maharashtra,NSH,Nashik,,,IN,IND,2
+IN_MH_OSM,,,IN,India,MH,Maharashtra,OSM,Osmanabad,,,IN,IND,2
+IN_MH_PBN,,,IN,India,MH,Maharashtra,PBN,Parbhani,,,IN,IND,2
+IN_MH_PLG,,,IN,India,MH,Maharashtra,PLG,Palghar,,,IN,IND,2
+IN_MH_PUN,,,IN,India,MH,Maharashtra,PUN,Pune,,,IN,IND,2
+IN_MH_RGD,,,IN,India,MH,Maharashtra,RGD,Raigad,,,IN,IND,2
+IN_MH_RTN,,,IN,India,MH,Maharashtra,RTN,Ratnagiri,,,IN,IND,2
+IN_MH_SAT,,,IN,India,MH,Maharashtra,SAT,Satara,,,IN,IND,2
+IN_MH_SIN,,,IN,India,MH,Maharashtra,SIN,Sindhudurg,,,IN,IND,2
+IN_MH_SNG,,,IN,India,MH,Maharashtra,SNG,Sangli,,,IN,IND,2
+IN_MH_SOL,,,IN,India,MH,Maharashtra,SOL,Solapur,,,IN,IND,2
+IN_MH_THN,,,IN,India,MH,Maharashtra,THN,Thane,,,IN,IND,2
+IN_MH_WRD,,,IN,India,MH,Maharashtra,WRD,Wardha,,,IN,IND,2
+IN_MH_WSH,,,IN,India,MH,Maharashtra,WSH,Washim,,,IN,IND,2
+IN_MH_YVT,,,IN,India,MH,Maharashtra,YVT,Yavatmal,,,IN,IND,2
 IN_ML,Q1195,,IN,India,ML,Meghalaya,,,,,IN,IND,1
+IN_ML_EGH,,,IN,India,ML,Meghalaya,EGH,East Garo Hills,,,IN,IND,2
+IN_ML_EJH,,,IN,India,ML,Meghalaya,EJH,East Jaintia Hills,,,IN,IND,2
+IN_ML_EKH,,,IN,India,ML,Meghalaya,EKH,East Khasi Hills,,,IN,IND,2
+IN_ML_NGH,,,IN,India,ML,Meghalaya,NGH,North Garo Hills,,,IN,IND,2
+IN_ML_RGH,,,IN,India,ML,Meghalaya,RGH,Ri Bhoi,,,IN,IND,2
+IN_ML_SGH,,,IN,India,ML,Meghalaya,SGH,South Garo Hills,,,IN,IND,2
+IN_ML_SWG,,,IN,India,ML,Meghalaya,SWG,South West Garo Hills,,,IN,IND,2
+IN_ML_SWK,,,IN,India,ML,Meghalaya,SWK,South West Khasi Hills,,,IN,IND,2
+IN_ML_WGH,,,IN,India,ML,Meghalaya,WGH,West Garo Hills,,,IN,IND,2
+IN_ML_WJH,,,IN,India,ML,Meghalaya,WJH,West Jaintia Hills,,,IN,IND,2
+IN_ML_WKA,,,IN,India,ML,Meghalaya,WKA,West Khasi Hills,,,IN,IND,2
 IN_MN,Q1193,,IN,India,MN,Manipur,,,,,IN,IND,1
+IN_MN_BSH,,,IN,India,MN,Manipur,BSH,Bishnupur,,,IN,IND,2
+IN_MN_CHA,,,IN,India,MN,Manipur,CHA,Chandel,,,IN,IND,2
+IN_MN_CHC,,,IN,India,MN,Manipur,CHC,Churachandpur,,,IN,IND,2
+IN_MN_IME,,,IN,India,MN,Manipur,IME,Imphal East,,,IN,IND,2
+IN_MN_IMW,,,IN,India,MN,Manipur,IMW,Imphal West,,,IN,IND,2
+IN_MN_JRB,,,IN,India,MN,Manipur,JRB,Jiribam,,,IN,IND,2
+IN_MN_KKC,,,IN,India,MN,Manipur,KKC,Kakching,,,IN,IND,2
+IN_MN_KMJ,,,IN,India,MN,Manipur,KMJ,Kamjong,,,IN,IND,2
+IN_MN_KNP,,,IN,India,MN,Manipur,KNP,Kangpokpi,,,IN,IND,2
+IN_MN_NNY,,,IN,India,MN,Manipur,NNY,Noney,,,IN,IND,2
+IN_MN_PHR,,,IN,India,MN,Manipur,PHR,Pherzawl,,,IN,IND,2
+IN_MN_SNT,,,IN,India,MN,Manipur,SNT,Senapati,,,IN,IND,2
+IN_MN_THB,,,IN,India,MN,Manipur,THB,Thoubal,,,IN,IND,2
+IN_MN_TMN,,,IN,India,MN,Manipur,TMN,Tamenglong,,,IN,IND,2
+IN_MN_TNG,,,IN,India,MN,Manipur,TNG,Tengnoupal,,,IN,IND,2
+IN_MN_UKH,,,IN,India,MN,Manipur,UKH,Ukhrul,,,IN,IND,2
 IN_MP,Q1188,,IN,India,MP,Madhya Pradesh,,,,,IN,IND,1
+IN_MP_AGM,,,IN,India,MP,Madhya Pradesh,AGM,Agar Malwa,,,IN,IND,2
+IN_MP_ALI,,,IN,India,MP,Madhya Pradesh,ALI,Alirajpur,,,IN,IND,2
+IN_MP_ANP,,,IN,India,MP,Madhya Pradesh,ANP,Anuppur,,,IN,IND,2
+IN_MP_ANR,,,IN,India,MP,Madhya Pradesh,ANR,Ashoknagar,,,IN,IND,2
+IN_MP_BGT,,,IN,India,MP,Madhya Pradesh,BGT,Balaghat,,,IN,IND,2
+IN_MP_BHN,,,IN,India,MP,Madhya Pradesh,BHN,Bhind,,,IN,IND,2
+IN_MP_BHP,,,IN,India,MP,Madhya Pradesh,BHP,Bhopal,,,IN,IND,2
+IN_MP_BRH,,,IN,India,MP,Madhya Pradesh,BRH,Burhanpur,,,IN,IND,2
+IN_MP_BRW,,,IN,India,MP,Madhya Pradesh,BRW,Barwani,,,IN,IND,2
+IN_MP_BTL,,,IN,India,MP,Madhya Pradesh,BTL,Betul,,,IN,IND,2
+IN_MP_CDW,,,IN,India,MP,Madhya Pradesh,CDW,Chhindwara,,,IN,IND,2
+IN_MP_CRP,,,IN,India,MP,Madhya Pradesh,CRP,Chhatarpur,,,IN,IND,2
+IN_MP_DAT,,,IN,India,MP,Madhya Pradesh,DAT,Datia,,,IN,IND,2
+IN_MP_DHA,,,IN,India,MP,Madhya Pradesh,DHA,Dhar,,,IN,IND,2
+IN_MP_DMH,,,IN,India,MP,Madhya Pradesh,DMH,Damoh,,,IN,IND,2
+IN_MP_DND,,,IN,India,MP,Madhya Pradesh,DND,Dindori,,,IN,IND,2
+IN_MP_DWS,,,IN,India,MP,Madhya Pradesh,DWS,Dewas,,,IN,IND,2
+IN_MP_ENR,,,IN,India,MP,Madhya Pradesh,ENR,Khandwa,,,IN,IND,2
+IN_MP_GUN,,,IN,India,MP,Madhya Pradesh,GUN,Guna,,,IN,IND,2
+IN_MP_GWL,,,IN,India,MP,Madhya Pradesh,GWL,Gwalior,,,IN,IND,2
+IN_MP_HDA,,,IN,India,MP,Madhya Pradesh,HDA,Harda,,,IN,IND,2
+IN_MP_HSH,,,IN,India,MP,Madhya Pradesh,HSH,Hoshangabad,,,IN,IND,2
+IN_MP_IND,,,IN,India,MP,Madhya Pradesh,IND,Indore,,,IN,IND,2
+IN_MP_JBL,,,IN,India,MP,Madhya Pradesh,JBL,Jabalpur,,,IN,IND,2
+IN_MP_JHA,,,IN,India,MP,Madhya Pradesh,JHA,Jhabua,,,IN,IND,2
+IN_MP_KHA,,,IN,India,MP,Madhya Pradesh,KHA,Khargone,,,IN,IND,2
+IN_MP_KTN,,,IN,India,MP,Madhya Pradesh,KTN,Katni,,,IN,IND,2
+IN_MP_MAN,,,IN,India,MP,Madhya Pradesh,MAN,Mandsaur,,,IN,IND,2
+IN_MP_MDL,,,IN,India,MP,Madhya Pradesh,MDL,Mandla,,,IN,IND,2
+IN_MP_MRN,,,IN,India,MP,Madhya Pradesh,MRN,Morena,,,IN,IND,2
+IN_MP_NMC,,,IN,India,MP,Madhya Pradesh,NMC,Neemuch,,,IN,IND,2
+IN_MP_NRS,,,IN,India,MP,Madhya Pradesh,NRS,Narsinghpur,,,IN,IND,2
+IN_MP_NWR,,,IN,India,MP,Madhya Pradesh,NWR,Niwari,,,IN,IND,2
+IN_MP_PNN,,,IN,India,MP,Madhya Pradesh,PNN,Panna,,,IN,IND,2
+IN_MP_REW,,,IN,India,MP,Madhya Pradesh,REW,Rewa,,,IN,IND,2
+IN_MP_RJG,,,IN,India,MP,Madhya Pradesh,RJG,Rajgarh,,,IN,IND,2
+IN_MP_RSN,,,IN,India,MP,Madhya Pradesh,RSN,Raisen,,,IN,IND,2
+IN_MP_RTL,,,IN,India,MP,Madhya Pradesh,RTL,Ratlam,,,IN,IND,2
+IN_MP_SDH,,,IN,India,MP,Madhya Pradesh,SDH,Sidhi,,,IN,IND,2
+IN_MP_SEH,,,IN,India,MP,Madhya Pradesh,SEH,Sehore,,,IN,IND,2
+IN_MP_SEO,,,IN,India,MP,Madhya Pradesh,SEO,Seoni,,,IN,IND,2
+IN_MP_SGL,,,IN,India,MP,Madhya Pradesh,SGL,Singrauli,,,IN,IND,2
+IN_MP_SGR,,,IN,India,MP,Madhya Pradesh,SGR,Sagar,,,IN,IND,2
+IN_MP_SHD,,,IN,India,MP,Madhya Pradesh,SHD,Shahdol,,,IN,IND,2
+IN_MP_SHP,,,IN,India,MP,Madhya Pradesh,SHP,Sheopur,,,IN,IND,2
+IN_MP_SJR,,,IN,India,MP,Madhya Pradesh,SJR,Shajapur,,,IN,IND,2
+IN_MP_STN,,,IN,India,MP,Madhya Pradesh,STN,Satna,,,IN,IND,2
+IN_MP_SVP,,,IN,India,MP,Madhya Pradesh,SVP,Shivpuri,,,IN,IND,2
+IN_MP_TKM,,,IN,India,MP,Madhya Pradesh,TKM,Tikamgarh,,,IN,IND,2
+IN_MP_UJJ,,,IN,India,MP,Madhya Pradesh,UJJ,Ujjain,,,IN,IND,2
+IN_MP_UMA,,,IN,India,MP,Madhya Pradesh,UMA,Umaria,,,IN,IND,2
+IN_MP_VID,,,IN,India,MP,Madhya Pradesh,VID,Vidisha,,,IN,IND,2
 IN_MZ,Q1502,,IN,India,MZ,Mizoram,,,,,IN,IND,1
+IN_MZ_AIZ,,,IN,India,MZ,Mizoram,AIZ,Aizawl,,,IN,IND,2
+IN_MZ_CPH,,,IN,India,MZ,Mizoram,CPH,Champhai,,,IN,IND,2
+IN_MZ_HNT,,,IN,India,MZ,Mizoram,HNT,Hnahthial,,,IN,IND,2
+IN_MZ_KHW,,,IN,India,MZ,Mizoram,KHW,Khawzawl,,,IN,IND,2
+IN_MZ_KLS,,,IN,India,MZ,Mizoram,KLS,Kolasib,,,IN,IND,2
+IN_MZ_LNG,,,IN,India,MZ,Mizoram,LNG,Lunglei,,,IN,IND,2
+IN_MZ_LWN,,,IN,India,MZ,Mizoram,LWN,Lawngtlai,,,IN,IND,2
+IN_MZ_MMT,,,IN,India,MZ,Mizoram,MMT,Mamit,,,IN,IND,2
+IN_MZ_SAI,,,IN,India,MZ,Mizoram,SAI,Saiha,,,IN,IND,2
+IN_MZ_SER,,,IN,India,MZ,Mizoram,SER,Serchhip,,,IN,IND,2
+IN_MZ_STL,,,IN,India,MZ,Mizoram,STL,Saitual,,,IN,IND,2
 IN_NL,Q1599,,IN,India,NL,Nagaland,,,,,IN,IND,1
+IN_NL_DMP,,,IN,India,NL,Nagaland,DMP,Dimapur,,,IN,IND,2
+IN_NL_KHM,,,IN,India,NL,Nagaland,KHM,Kohima,,,IN,IND,2
+IN_NL_KIP,,,IN,India,NL,Nagaland,KIP,Kiphire,,,IN,IND,2
+IN_NL_LLG,,,IN,India,NL,Nagaland,LLG,Longleng,,,IN,IND,2
+IN_NL_MKK,,,IN,India,NL,Nagaland,MKK,Mokokchung,,,IN,IND,2
+IN_NL_MON,,,IN,India,NL,Nagaland,MON,Mon,,,IN,IND,2
+IN_NL_PER,,,IN,India,NL,Nagaland,PER,Peren,,,IN,IND,2
+IN_NL_PHK,,,IN,India,NL,Nagaland,PHK,Phek,,,IN,IND,2
+IN_NL_TNS,,,IN,India,NL,Nagaland,TNS,Tuensang,,,IN,IND,2
+IN_NL_WKH,,,IN,India,NL,Nagaland,WKH,Wokha,,,IN,IND,2
+IN_NL_ZNH,,,IN,India,NL,Nagaland,ZNH,Zunheboto,,,IN,IND,2
 IN_OR,Q22048,,IN,India,OR,Odisha,,,,,IN,IND,1
+IN_OR_ANU,,,IN,India,OR,Odisha,ANU,Anugul,,,IN,IND,2
+IN_OR_BDH,,,IN,India,OR,Odisha,BDH,Boudh,,,IN,IND,2
+IN_OR_BDK,,,IN,India,OR,Odisha,BDK,Bhadrak,,,IN,IND,2
+IN_OR_BLN,,,IN,India,OR,Odisha,BLN,Balangir,,,IN,IND,2
+IN_OR_BLW,,,IN,India,OR,Odisha,BLW,Baleshwar,,,IN,IND,2
+IN_OR_BRG,,,IN,India,OR,Odisha,BRG,Bargarh,,,IN,IND,2
+IN_OR_CTT,,,IN,India,OR,Odisha,CTT,Cuttack,,,IN,IND,2
+IN_OR_DGR,,,IN,India,OR,Odisha,DGR,Deogarh,,,IN,IND,2
+IN_OR_DHK,,,IN,India,OR,Odisha,DHK,Dhenkanal,,,IN,IND,2
+IN_OR_GJP,,,IN,India,OR,Odisha,GJP,Gajapati,,,IN,IND,2
+IN_OR_GNJ,,,IN,India,OR,Odisha,GNJ,Ganjam,,,IN,IND,2
+IN_OR_JGT,,,IN,India,OR,Odisha,JGT,Jagatsinghapur,,,IN,IND,2
+IN_OR_JHR,,,IN,India,OR,Odisha,JHR,Jharsuguda,,,IN,IND,2
+IN_OR_JJP,,,IN,India,OR,Odisha,JJP,Jajapur,,,IN,IND,2
+IN_OR_KHD,,,IN,India,OR,Odisha,KHD,Khordha,,,IN,IND,2
+IN_OR_KLH,,,IN,India,OR,Odisha,KLH,Kalahandi,,,IN,IND,2
+IN_OR_KND,,,IN,India,OR,Odisha,KND,Kendrapara,,,IN,IND,2
+IN_OR_KNH,,,IN,India,OR,Odisha,KNH,Kendujhar,,,IN,IND,2
+IN_OR_KNM,,,IN,India,OR,Odisha,KNM,Kandhamal,,,IN,IND,2
+IN_OR_KRP,,,IN,India,OR,Odisha,KRP,Koraput,,,IN,IND,2
+IN_OR_MLK,,,IN,India,OR,Odisha,MLK,Malkangiri,,,IN,IND,2
+IN_OR_MYR,,,IN,India,OR,Odisha,MYR,Mayurbhanj,,,IN,IND,2
+IN_OR_NBR,,,IN,India,OR,Odisha,NBR,Nabarangpur,,,IN,IND,2
+IN_OR_NPD,,,IN,India,OR,Odisha,NPD,Nuapada,,,IN,IND,2
+IN_OR_NYG,,,IN,India,OR,Odisha,NYG,Nayagarh,,,IN,IND,2
+IN_OR_PUR,,,IN,India,OR,Odisha,PUR,Puri,,,IN,IND,2
+IN_OR_RYG,,,IN,India,OR,Odisha,RYG,Rayagada,,,IN,IND,2
+IN_OR_SDG,,,IN,India,OR,Odisha,SDG,Sundargarh,,,IN,IND,2
+IN_OR_SMB,,,IN,India,OR,Odisha,SMB,Sambalpur,,,IN,IND,2
+IN_OR_SNE,,,IN,India,OR,Odisha,SNE,Subarnapur,,,IN,IND,2
 IN_PB,Q22424,,IN,India,PB,Punjab,,,,,IN,IND,1
+IN_PB_AMT,,,IN,India,PB,Punjab,AMT,Amritsar,,,IN,IND,2
+IN_PB_BNL,,,IN,India,PB,Punjab,BNL,Barnala,,,IN,IND,2
+IN_PB_BTH,,,IN,India,PB,Punjab,BTH,Bathinda,,,IN,IND,2
+IN_PB_FAZ,,,IN,India,PB,Punjab,FAZ,Fazilka,,,IN,IND,2
+IN_PB_FRD,,,IN,India,PB,Punjab,FRD,Faridkot,,,IN,IND,2
+IN_PB_FRZ,,,IN,India,PB,Punjab,FRZ,Firozepur,,,IN,IND,2
+IN_PB_FTG,,,IN,India,PB,Punjab,FTG,Fatehgarh Sahib,,,IN,IND,2
+IN_PB_GRD,,,IN,India,PB,Punjab,GRD,Gurdaspur,,,IN,IND,2
+IN_PB_HSP,,,IN,India,PB,Punjab,HSP,Hoshiarpur,,,IN,IND,2
+IN_PB_JLN,,,IN,India,PB,Punjab,JLN,Jalandhar,,,IN,IND,2
+IN_PB_KPR,,,IN,India,PB,Punjab,KPR,Kapurthala,,,IN,IND,2
+IN_PB_LDH,,,IN,India,PB,Punjab,LDH,Ludhiana,,,IN,IND,2
+IN_PB_MNS,,,IN,India,PB,Punjab,MNS,Mansa,,,IN,IND,2
+IN_PB_MOG,,,IN,India,PB,Punjab,MOG,Moga,,,IN,IND,2
+IN_PB_NWN,,,IN,India,PB,Punjab,NWN,Shahid Bhagat Singh Nagar,,,IN,IND,2
+IN_PB_PTK,,,IN,India,PB,Punjab,PTK,Pathankot,,,IN,IND,2
+IN_PB_PTL,,,IN,India,PB,Punjab,PTL,Patiala,,,IN,IND,2
+IN_PB_RPN,,,IN,India,PB,Punjab,RPN,Rupnagar,,,IN,IND,2
+IN_PB_SMT,,,IN,India,PB,Punjab,SMT,Sri Muktsar Sahib,,,IN,IND,2
+IN_PB_SNR,,,IN,India,PB,Punjab,SNR,Sangrur,,,IN,IND,2
+IN_PB_SSR,,,IN,India,PB,Punjab,SSR,S.A.S. Nagar,,,IN,IND,2
+IN_PB_TAR,,,IN,India,PB,Punjab,TAR,Tarn Taran,,,IN,IND,2
 IN_PY,Q66743,,IN,India,PY,Puducherry,,,,,IN,IND,1
+IN_PY_KKL,,,IN,India,PY,Puducherry,KKL,Karaikal,,,IN,IND,2
+IN_PY_MHE,,,IN,India,PY,Puducherry,MHE,Mahe,,,IN,IND,2
+IN_PY_PON,,,IN,India,PY,Puducherry,PON,Puducherry,,,IN,IND,2
+IN_PY_YAN,,,IN,India,PY,Puducherry,YAN,Yanam,,,IN,IND,2
 IN_RJ,Q1437,,IN,India,RJ,Rajasthan,,,,,IN,IND,1
+IN_RJ_AJM,,,IN,India,RJ,Rajasthan,AJM,Ajmer,,,IN,IND,2
+IN_RJ_ALW,,,IN,India,RJ,Rajasthan,ALW,Alwar,,,IN,IND,2
+IN_RJ_BHL,,,IN,India,RJ,Rajasthan,BHL,Bhilwara,,,IN,IND,2
+IN_RJ_BIK,,,IN,India,RJ,Rajasthan,BIK,Bikaner,,,IN,IND,2
+IN_RJ_BMR,,,IN,India,RJ,Rajasthan,BMR,Barmer,,,IN,IND,2
+IN_RJ_BND,,,IN,India,RJ,Rajasthan,BND,Bundi,,,IN,IND,2
+IN_RJ_BNS,,,IN,India,RJ,Rajasthan,BNS,Banswara,,,IN,IND,2
+IN_RJ_BRN,,,IN,India,RJ,Rajasthan,BRN,Baran,,,IN,IND,2
+IN_RJ_BTR,,,IN,India,RJ,Rajasthan,BTR,Bharatpur,,,IN,IND,2
+IN_RJ_CGH,,,IN,India,RJ,Rajasthan,CGH,Chittorgarh,,,IN,IND,2
+IN_RJ_CHR,,,IN,India,RJ,Rajasthan,CHR,Churu,,,IN,IND,2
+IN_RJ_DAS,,,IN,India,RJ,Rajasthan,DAS,Dausa,,,IN,IND,2
+IN_RJ_DLP,,,IN,India,RJ,Rajasthan,DLP,Dholpur,,,IN,IND,2
+IN_RJ_DNG,,,IN,India,RJ,Rajasthan,DNG,Dungarpur,,,IN,IND,2
+IN_RJ_GNG,,,IN,India,RJ,Rajasthan,GNG,Ganganagar,,,IN,IND,2
+IN_RJ_HGH,,,IN,India,RJ,Rajasthan,HGH,Hanumangarh,,,IN,IND,2
+IN_RJ_JDH,,,IN,India,RJ,Rajasthan,JDH,Jodhpur,,,IN,IND,2
+IN_RJ_JHL,,,IN,India,RJ,Rajasthan,JHL,Jhalawar,,,IN,IND,2
+IN_RJ_JHN,,,IN,India,RJ,Rajasthan,JHN,Jhunjhunu,,,IN,IND,2
+IN_RJ_JLR,,,IN,India,RJ,Rajasthan,JLR,Jalore,,,IN,IND,2
+IN_RJ_JPR,,,IN,India,RJ,Rajasthan,JPR,Jaipur,,,IN,IND,2
+IN_RJ_JSL,,,IN,India,RJ,Rajasthan,JSL,Jaisalmer,,,IN,IND,2
+IN_RJ_KAR,,,IN,India,RJ,Rajasthan,KAR,Karauli,,,IN,IND,2
+IN_RJ_KOT,,,IN,India,RJ,Rajasthan,KOT,Kota,,,IN,IND,2
+IN_RJ_NGR,,,IN,India,RJ,Rajasthan,NGR,Nagaur,,,IN,IND,2
+IN_RJ_PAL,,,IN,India,RJ,Rajasthan,PAL,Pali,,,IN,IND,2
+IN_RJ_PPG,,,IN,India,RJ,Rajasthan,PPG,Pratapgarh,,,IN,IND,2
+IN_RJ_RJS,,,IN,India,RJ,Rajasthan,RJS,Rajsamand,,,IN,IND,2
+IN_RJ_SKR,,,IN,India,RJ,Rajasthan,SKR,Sikar,,,IN,IND,2
+IN_RJ_SMP,,,IN,India,RJ,Rajasthan,SMP,Sawai Madhopur,,,IN,IND,2
+IN_RJ_SRH,,,IN,India,RJ,Rajasthan,SRH,Sirohi,,,IN,IND,2
+IN_RJ_TNK,,,IN,India,RJ,Rajasthan,TNK,Tonk,,,IN,IND,2
+IN_RJ_UDP,,,IN,India,RJ,Rajasthan,UDP,Udaipur,,,IN,IND,2
 IN_SK,Q1505,,IN,India,SK,Sikkim,,,,,IN,IND,1
+IN_SK_EDT,,,IN,India,SK,Sikkim,EDT,East Sikkim,,,IN,IND,2
+IN_SK_NDT,,,IN,India,SK,Sikkim,NDT,North Sikkim,,,IN,IND,2
+IN_SK_SDT,,,IN,India,SK,Sikkim,SDT,South Sikkim,,,IN,IND,2
+IN_SK_WDT,,,IN,India,SK,Sikkim,WDT,West Sikkim,,,IN,IND,2
 IN_TG,Q677037,,IN,India,TG,Telangana,,,,,IN,IND,1
+IN_TG_ADI,,,IN,India,TG,Telangana,ADI,Adilabad,,,IN,IND,2
+IN_TG_BHD,,,IN,India,TG,Telangana,BHD,Bhadradri Kothagudem,,,IN,IND,2
+IN_TG_HYD,,,IN,India,TG,Telangana,HYD,Hyderabad,,,IN,IND,2
+IN_TG_JGI,,,IN,India,TG,Telangana,JGI,Jagitial,,,IN,IND,2
+IN_TG_JGL,,,IN,India,TG,Telangana,JGL,Jogulamba Gadwal,,,IN,IND,2
+IN_TG_JNN,,,IN,India,TG,Telangana,JNN,Jangoan,,,IN,IND,2
+IN_TG_JYS,,,IN,India,TG,Telangana,JYS,Jayashankar Bhupalapally,,,IN,IND,2
+IN_TG_KMB,,,IN,India,TG,Telangana,KMB,Kumuram Bheem Asifabad,,,IN,IND,2
+IN_TG_KMD,,,IN,India,TG,Telangana,KMD,Kamareddy,,,IN,IND,2
+IN_TG_KMM,,,IN,India,TG,Telangana,KMM,Khammam,,,IN,IND,2
+IN_TG_KRM,,,IN,India,TG,Telangana,KRM,Karimnagar,,,IN,IND,2
+IN_TG_MAH,,,IN,India,TG,Telangana,MAH,Mahabubnagar,,,IN,IND,2
+IN_TG_MDC,,,IN,India,TG,Telangana,MDC,Medchal Malkajgiri,,,IN,IND,2
+IN_TG_MDK,,,IN,India,TG,Telangana,MDK,Medak,,,IN,IND,2
+IN_TG_MHD,,,IN,India,TG,Telangana,MHD,Mahabubabad,,,IN,IND,2
+IN_TG_MLG,,,IN,India,TG,Telangana,MLG,Mulugu,,,IN,IND,2
+IN_TG_MNC,,,IN,India,TG,Telangana,MNC,Mancherial,,,IN,IND,2
+IN_TG_NGK,,,IN,India,TG,Telangana,NGK,Nagarkurnool,,,IN,IND,2
+IN_TG_NIZ,,,IN,India,TG,Telangana,NIZ,Nizamabad,,,IN,IND,2
+IN_TG_NLG,,,IN,India,TG,Telangana,NLG,Nalgonda,,,IN,IND,2
+IN_TG_NRL,,,IN,India,TG,Telangana,NRL,Nirmal,,,IN,IND,2
+IN_TG_NRN,,,IN,India,TG,Telangana,NRN,Narayanpet,,,IN,IND,2
+IN_TG_PDD,,,IN,India,TG,Telangana,PDD,Peddapalli,,,IN,IND,2
+IN_TG_RJC,,,IN,India,TG,Telangana,RJC,Rajanna Sircilla,,,IN,IND,2
+IN_TG_RNG,,,IN,India,TG,Telangana,RNG,Ranga Reddy,,,IN,IND,2
+IN_TG_SDD,,,IN,India,TG,Telangana,SDD,Siddipet,,,IN,IND,2
+IN_TG_SND,,,IN,India,TG,Telangana,SND,Sangareddy,,,IN,IND,2
+IN_TG_SRY,,,IN,India,TG,Telangana,SRY,Suryapet,,,IN,IND,2
+IN_TG_VKR,,,IN,India,TG,Telangana,VKR,Vikarabad,,,IN,IND,2
+IN_TG_WAR,,,IN,India,TG,Telangana,WAR,Warangal Rural,,,IN,IND,2
+IN_TG_WNP,,,IN,India,TG,Telangana,WNP,Wanaparthy,,,IN,IND,2
+IN_TG_WRN,,,IN,India,TG,Telangana,WRN,Warangal Urban,,,IN,IND,2
+IN_TG_YDD,,,IN,India,TG,Telangana,YDD,Yadadri Bhuvanagiri,,,IN,IND,2
 IN_TN,Q1445,,IN,India,TN,Tamil Nadu,,,,,IN,IND,1
+IN_TN_ARI,,,IN,India,TN,Tamil Nadu,ARI,Ariyalur,,,IN,IND,2
+IN_TN_CDL,,,IN,India,TN,Tamil Nadu,CDL,Cuddalore,,,IN,IND,2
+IN_TN_CHE,,,IN,India,TN,Tamil Nadu,CHE,Chennai,,,IN,IND,2
+IN_TN_CMT,,,IN,India,TN,Tamil Nadu,CMT,Coimbatore,,,IN,IND,2
+IN_TN_CNG,,,IN,India,TN,Tamil Nadu,CNG,Chengalpattu,,,IN,IND,2
+IN_TN_DIN,,,IN,India,TN,Tamil Nadu,DIN,Dindigul,,,IN,IND,2
+IN_TN_DRM,,,IN,India,TN,Tamil Nadu,DRM,Dharmapuri,,,IN,IND,2
+IN_TN_ERO,,,IN,India,TN,Tamil Nadu,ERO,Erode,,,IN,IND,2
+IN_TN_KCP,,,IN,India,TN,Tamil Nadu,KCP,Kanchipuram,,,IN,IND,2
+IN_TN_KHN,,,IN,India,TN,Tamil Nadu,KHN,Krishnagiri,,,IN,IND,2
+IN_TN_KLL,,,IN,India,TN,Tamil Nadu,KLL,Kallakurichi,,,IN,IND,2
+IN_TN_KNY,,,IN,India,TN,Tamil Nadu,KNY,Kanniyakumari,,,IN,IND,2
+IN_TN_KRR,,,IN,India,TN,Tamil Nadu,KRR,Karur,,,IN,IND,2
+IN_TN_MDR,,,IN,India,TN,Tamil Nadu,MDR,Madurai,,,IN,IND,2
+IN_TN_NIL,,,IN,India,TN,Tamil Nadu,NIL,Nilgiris,,,IN,IND,2
+IN_TN_NMK,,,IN,India,TN,Tamil Nadu,NMK,Namakkal,,,IN,IND,2
+IN_TN_NPM,,,IN,India,TN,Tamil Nadu,NPM,Nagapattinam,,,IN,IND,2
+IN_TN_PDK,,,IN,India,TN,Tamil Nadu,PDK,Pudukkottai,,,IN,IND,2
+IN_TN_PRM,,,IN,India,TN,Tamil Nadu,PRM,Perambalur,,,IN,IND,2
+IN_TN_RMN,,,IN,India,TN,Tamil Nadu,RMN,Ramanathapuram,,,IN,IND,2
+IN_TN_RNP,,,IN,India,TN,Tamil Nadu,RNP,Ranipet,,,IN,IND,2
+IN_TN_SGG,,,IN,India,TN,Tamil Nadu,SGG,Sivaganga,,,IN,IND,2
+IN_TN_SLM,,,IN,India,TN,Tamil Nadu,SLM,Salem,,,IN,IND,2
+IN_TN_TDK,,,IN,India,TN,Tamil Nadu,TDK,Thoothukkudi,,,IN,IND,2
+IN_TN_THE,,,IN,India,TN,Tamil Nadu,THE,Theni,,,IN,IND,2
+IN_TN_TJV,,,IN,India,TN,Tamil Nadu,TJV,Thanjavur,,,IN,IND,2
+IN_TN_TKS,,,IN,India,TN,Tamil Nadu,TKS,Tenkasi,,,IN,IND,2
+IN_TN_TRC,,,IN,India,TN,Tamil Nadu,TRC,Tiruchirappalli,,,IN,IND,2
+IN_TN_TRN,,,IN,India,TN,Tamil Nadu,TRN,Tirunelveli,,,IN,IND,2
+IN_TN_TRR,,,IN,India,TN,Tamil Nadu,TRR,Tiruppur,,,IN,IND,2
+IN_TN_TRU,,,IN,India,TN,Tamil Nadu,TRU,Tirupathur,,,IN,IND,2
+IN_TN_TRV,,,IN,India,TN,Tamil Nadu,TRV,Thiruvallur,,,IN,IND,2
+IN_TN_TUT,,,IN,India,TN,Tamil Nadu,TUT,Tuticorin,,,IN,IND,2
+IN_TN_TVN,,,IN,India,TN,Tamil Nadu,TVN,Tiruvannamalai,,,IN,IND,2
+IN_TN_TVV,,,IN,India,TN,Tamil Nadu,TVV,Thiruvarur,,,IN,IND,2
+IN_TN_VEL,,,IN,India,TN,Tamil Nadu,VEL,Vellore,,,IN,IND,2
+IN_TN_VIL,,,IN,India,TN,Tamil Nadu,VIL,Villupuram,,,IN,IND,2
+IN_TN_VIR,,,IN,India,TN,Tamil Nadu,VIR,Virudhunagar,,,IN,IND,2
 IN_TR,Q1363,,IN,India,TR,Tripura,,,,,IN,IND,1
+IN_TR_DHL,,,IN,India,TR,Tripura,DHL,Dhalai,,,IN,IND,2
+IN_TR_GOM,,,IN,India,TR,Tripura,GOM,Gomati,,,IN,IND,2
+IN_TR_KHO,,,IN,India,TR,Tripura,KHO,Khowai,,,IN,IND,2
+IN_TR_NTR,,,IN,India,TR,Tripura,NTR,North Tripura,,,IN,IND,2
+IN_TR_SEP,,,IN,India,TR,Tripura,SEP,Sepahijala,,,IN,IND,2
+IN_TR_STR,,,IN,India,TR,Tripura,STR,South Tripura,,,IN,IND,2
+IN_TR_UNK,,,IN,India,TR,Tripura,UNK,Unakoti,,,IN,IND,2
+IN_TR_WTR,,,IN,India,TR,Tripura,WTR,West Tripura,,,IN,IND,2
 IN_UP,Q1498,,IN,India,UP,Uttar Pradesh,,,,,IN,IND,1
+IN_UP_AGR,,,IN,India,UP,Uttar Pradesh,AGR,Agra,,,IN,IND,2
+IN_UP_ALB,,,IN,India,UP,Uttar Pradesh,ALB,Prayagraj,,,IN,IND,2
+IN_UP_ALG,,,IN,India,UP,Uttar Pradesh,ALG,Aligarh,,,IN,IND,2
+IN_UP_AME,,,IN,India,UP,Uttar Pradesh,AME,Amethi,,,IN,IND,2
+IN_UP_AMN,,,IN,India,UP,Uttar Pradesh,AMN,Ambedkar Nagar,,,IN,IND,2
+IN_UP_AMR,,,IN,India,UP,Uttar Pradesh,AMR,Amroha,,,IN,IND,2
+IN_UP_ARY,,,IN,India,UP,Uttar Pradesh,ARY,Auraiya,,,IN,IND,2
+IN_UP_AZM,,,IN,India,UP,Uttar Pradesh,AZM,Azamgarh,,,IN,IND,2
+IN_UP_BAL,,,IN,India,UP,Uttar Pradesh,BAL,Ballia,,,IN,IND,2
+IN_UP_BAN,,,IN,India,UP,Uttar Pradesh,BAN,Banda,,,IN,IND,2
+IN_UP_BDN,,,IN,India,UP,Uttar Pradesh,BDN,Budaun,,,IN,IND,2
+IN_UP_BGP,,,IN,India,UP,Uttar Pradesh,BGP,Baghpat,,,IN,IND,2
+IN_UP_BHR,,,IN,India,UP,Uttar Pradesh,BHR,Bahraich,,,IN,IND,2
+IN_UP_BJN,,,IN,India,UP,Uttar Pradesh,BJN,Bijnor,,,IN,IND,2
+IN_UP_BLR,,,IN,India,UP,Uttar Pradesh,BLR,Bulandshahr,,,IN,IND,2
+IN_UP_BRB,,,IN,India,UP,Uttar Pradesh,BRB,Barabanki,,,IN,IND,2
+IN_UP_BRL,,,IN,India,UP,Uttar Pradesh,BRL,Bareilly,,,IN,IND,2
+IN_UP_BRP,,,IN,India,UP,Uttar Pradesh,BRP,Balrampur,,,IN,IND,2
+IN_UP_BST,,,IN,India,UP,Uttar Pradesh,BST,Basti,,,IN,IND,2
+IN_UP_CHK,,,IN,India,UP,Uttar Pradesh,CHK,Chitrakoot,,,IN,IND,2
+IN_UP_CHN,,,IN,India,UP,Uttar Pradesh,CHN,Chandauli,,,IN,IND,2
+IN_UP_DER,,,IN,India,UP,Uttar Pradesh,DER,Deoria,,,IN,IND,2
+IN_UP_ETA,,,IN,India,UP,Uttar Pradesh,ETA,Etah,,,IN,IND,2
+IN_UP_ETW,,,IN,India,UP,Uttar Pradesh,ETW,Etawah,,,IN,IND,2
+IN_UP_FIR,,,IN,India,UP,Uttar Pradesh,FIR,Firozabad,,,IN,IND,2
+IN_UP_FKB,,,IN,India,UP,Uttar Pradesh,FKB,Farrukhabad,,,IN,IND,2
+IN_UP_FTP,,,IN,India,UP,Uttar Pradesh,FTP,Fatehpur,,,IN,IND,2
+IN_UP_FZB,,,IN,India,UP,Uttar Pradesh,FZB,Ayodhya,,,IN,IND,2
+IN_UP_GBN,,,IN,India,UP,Uttar Pradesh,GBN,Gautam Buddha Nagar,,,IN,IND,2
+IN_UP_GKP,,,IN,India,UP,Uttar Pradesh,GKP,Gorakhpur,,,IN,IND,2
+IN_UP_GND,,,IN,India,UP,Uttar Pradesh,GND,Gonda,,,IN,IND,2
+IN_UP_GZB,,,IN,India,UP,Uttar Pradesh,GZB,Ghaziabad,,,IN,IND,2
+IN_UP_GZP,,,IN,India,UP,Uttar Pradesh,GZP,Ghazipur,,,IN,IND,2
+IN_UP_HAP,,,IN,India,UP,Uttar Pradesh,HAP,Hapur,,,IN,IND,2
+IN_UP_HAR,,,IN,India,UP,Uttar Pradesh,HAR,Hardoi,,,IN,IND,2
+IN_UP_HRP,,,IN,India,UP,Uttar Pradesh,HRP,Hamirpur,,,IN,IND,2
+IN_UP_HTR,,,IN,India,UP,Uttar Pradesh,HTR,Hathras,,,IN,IND,2
+IN_UP_JHS,,,IN,India,UP,Uttar Pradesh,JHS,Jhansi,,,IN,IND,2
+IN_UP_JLU,,,IN,India,UP,Uttar Pradesh,JLU,Jalaun,,,IN,IND,2
+IN_UP_JNP,,,IN,India,UP,Uttar Pradesh,JNP,Jaunpur,,,IN,IND,2
+IN_UP_KAS,,,IN,India,UP,Uttar Pradesh,KAS,Kasganj,,,IN,IND,2
+IN_UP_KHR,,,IN,India,UP,Uttar Pradesh,KHR,Kheri,,,IN,IND,2
+IN_UP_KNJ,,,IN,India,UP,Uttar Pradesh,KNJ,Kannauj,,,IN,IND,2
+IN_UP_KPD,,,IN,India,UP,Uttar Pradesh,KPD,Kanpur Dehat,,,IN,IND,2
+IN_UP_KPN,,,IN,India,UP,Uttar Pradesh,KPN,Kanpur Nagar,,,IN,IND,2
+IN_UP_KSB,,,IN,India,UP,Uttar Pradesh,KSB,Kaushambi,,,IN,IND,2
+IN_UP_KSN,,,IN,India,UP,Uttar Pradesh,KSN,Kushi Nagar,,,IN,IND,2
+IN_UP_LCK,,,IN,India,UP,Uttar Pradesh,LCK,Lucknow,,,IN,IND,2
+IN_UP_LLP,,,IN,India,UP,Uttar Pradesh,LLP,Lalitpur,,,IN,IND,2
+IN_UP_MAU,,,IN,India,UP,Uttar Pradesh,MAU,Mau,,,IN,IND,2
+IN_UP_MHB,,,IN,India,UP,Uttar Pradesh,MHB,Mahoba,,,IN,IND,2
+IN_UP_MPR,,,IN,India,UP,Uttar Pradesh,MPR,Mainpuri,,,IN,IND,2
+IN_UP_MRB,,,IN,India,UP,Uttar Pradesh,MRB,Moradabad,,,IN,IND,2
+IN_UP_MRG,,,IN,India,UP,Uttar Pradesh,MRG,Maharajganj,,,IN,IND,2
+IN_UP_MRT,,,IN,India,UP,Uttar Pradesh,MRT,Meerut,,,IN,IND,2
+IN_UP_MTH,,,IN,India,UP,Uttar Pradesh,MTH,Mathura,,,IN,IND,2
+IN_UP_MZN,,,IN,India,UP,Uttar Pradesh,MZN,Muzaffarnagar,,,IN,IND,2
+IN_UP_MZP,,,IN,India,UP,Uttar Pradesh,MZP,Mirzapur,,,IN,IND,2
+IN_UP_PLB,,,IN,India,UP,Uttar Pradesh,PLB,Pilibhit,,,IN,IND,2
+IN_UP_PRG,,,IN,India,UP,Uttar Pradesh,PRG,Pratapgarh,,,IN,IND,2
+IN_UP_RBL,,,IN,India,UP,Uttar Pradesh,RBL,Rae Bareli,,,IN,IND,2
+IN_UP_RMP,,,IN,India,UP,Uttar Pradesh,RMP,Rampur,,,IN,IND,2
+IN_UP_SBD,,,IN,India,UP,Uttar Pradesh,SBD,Sonbhadra,,,IN,IND,2
+IN_UP_SBL,,,IN,India,UP,Uttar Pradesh,SBL,Sambhal,,,IN,IND,2
+IN_UP_SDN,,,IN,India,UP,Uttar Pradesh,SDN,Siddharth Nagar,,,IN,IND,2
+IN_UP_SHR,,,IN,India,UP,Uttar Pradesh,SHR,Saharanpur,,,IN,IND,2
+IN_UP_SHV,,,IN,India,UP,Uttar Pradesh,SHV,Shravasti,,,IN,IND,2
+IN_UP_SJN,,,IN,India,UP,Uttar Pradesh,SJN,Shahjahanpur,,,IN,IND,2
+IN_UP_SKN,,,IN,India,UP,Uttar Pradesh,SKN,Sant Kabeer Nagar,,,IN,IND,2
+IN_UP_SLP,,,IN,India,UP,Uttar Pradesh,SLP,Sultanpur,,,IN,IND,2
+IN_UP_SML,,,IN,India,UP,Uttar Pradesh,SML,Shamli,,,IN,IND,2
+IN_UP_SRD,,,IN,India,UP,Uttar Pradesh,SRD,Bhadohi,,,IN,IND,2
+IN_UP_STP,,,IN,India,UP,Uttar Pradesh,STP,Sitapur,,,IN,IND,2
+IN_UP_UNO,,,IN,India,UP,Uttar Pradesh,UNO,Unnao,,,IN,IND,2
+IN_UP_VRN,,,IN,India,UP,Uttar Pradesh,VRN,Varanasi,,,IN,IND,2
 IN_UT,Q1499,,IN,India,UT,Uttarakhand,,,,,IN,IND,1
+IN_UT_ALM,,,IN,India,UT,Uttarakhand,ALM,Almora,,,IN,IND,2
+IN_UT_BGS,,,IN,India,UT,Uttarakhand,BGS,Bageshwar,,,IN,IND,2
+IN_UT_CHL,,,IN,India,UT,Uttarakhand,CHL,Chamoli,,,IN,IND,2
+IN_UT_CHP,,,IN,India,UT,Uttarakhand,CHP,Champawat,,,IN,IND,2
+IN_UT_DHR,,,IN,India,UT,Uttarakhand,DHR,Dehradun,,,IN,IND,2
+IN_UT_HRD,,,IN,India,UT,Uttarakhand,HRD,Haridwar,,,IN,IND,2
+IN_UT_NNT,,,IN,India,UT,Uttarakhand,NNT,Nainital,,,IN,IND,2
+IN_UT_PGR,,,IN,India,UT,Uttarakhand,PGR,Pauri Garhwal,,,IN,IND,2
+IN_UT_PTH,,,IN,India,UT,Uttarakhand,PTH,Pithoragarh,,,IN,IND,2
+IN_UT_RPY,,,IN,India,UT,Uttarakhand,RPY,Rudra Prayag,,,IN,IND,2
+IN_UT_TGR,,,IN,India,UT,Uttarakhand,TGR,Tehri Garhwal,,,IN,IND,2
+IN_UT_UKS,,,IN,India,UT,Uttarakhand,UKS,Uttar Kashi,,,IN,IND,2
+IN_UT_USN,,,IN,India,UT,Uttarakhand,USN,Udam Singh Nagar,,,IN,IND,2
 IN_WB,Q1356,,IN,India,WB,West Bengal,,,,,IN,IND,1
+IN_WB_APD,,,IN,India,WB,West Bengal,APD,Alipurduar,,,IN,IND,2
+IN_WB_BIR,,,IN,India,WB,West Bengal,BIR,Birbhum,,,IN,IND,2
+IN_WB_BNR,,,IN,India,WB,West Bengal,BNR,Bankura,,,IN,IND,2
+IN_WB_BRD,,,IN,India,WB,West Bengal,BRD,Purba Bardhaman,,,IN,IND,2
+IN_WB_CBH,,,IN,India,WB,West Bengal,CBH,Coochbehar,,,IN,IND,2
+IN_WB_DPD,,,IN,India,WB,West Bengal,DPD,Dinajpur Dakshin,,,IN,IND,2
+IN_WB_DPU,,,IN,India,WB,West Bengal,DPU,Dinajpur Uttar,,,IN,IND,2
+IN_WB_DRJ,,,IN,India,WB,West Bengal,DRJ,Darjeeling,,,IN,IND,2
+IN_WB_GRM,,,IN,India,WB,West Bengal,GRM,Jhargram,,,IN,IND,2
+IN_WB_HOO,,,IN,India,WB,West Bengal,HOO,Hooghly,,,IN,IND,2
+IN_WB_HWR,,,IN,India,WB,West Bengal,HWR,Howrah,,,IN,IND,2
+IN_WB_JLP,,,IN,India,WB,West Bengal,JLP,Jalpaiguri,,,IN,IND,2
+IN_WB_KLK,,,IN,India,WB,West Bengal,KLK,Kolkata,,,IN,IND,2
+IN_WB_MBR,,,IN,India,WB,West Bengal,MBR,Paschim Bardhaman,,,IN,IND,2
+IN_WB_MLD,,,IN,India,WB,West Bengal,MLD,Maldah,,,IN,IND,2
+IN_WB_MPE,,,IN,India,WB,West Bengal,MPE,Medinipur East,,,IN,IND,2
+IN_WB_MPN,,,IN,India,WB,West Bengal,MPN,Kalimpong,,,IN,IND,2
+IN_WB_MPW,,,IN,India,WB,West Bengal,MPW,Medinipur West,,,IN,IND,2
+IN_WB_MRS,,,IN,India,WB,West Bengal,MRS,Murshidabad,,,IN,IND,2
+IN_WB_N24,,,IN,India,WB,West Bengal,N24,24 Paraganas South,,,IN,IND,2
+IN_WB_NAD,,,IN,India,WB,West Bengal,NAD,Nadia,,,IN,IND,2
+IN_WB_PRL,,,IN,India,WB,West Bengal,PRL,Purulia,,,IN,IND,2
+IN_WB_S24,,,IN,India,WB,West Bengal,S24,24 Paraganas North,,,IN,IND,2
 IO,Q43448,country/IOT,IO,British Indian Ocean Territory,,,,,,,IO,IOT,0
 IQ,Q796,country/IRQ,IQ,Iraq,,,,,,,IQ,IRQ,0
 IQ_AN,Q187334,,IQ,Iraq,AN,Al Anbar,,,,,IQ,IRQ,1
