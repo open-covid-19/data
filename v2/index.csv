@@ -2280,7 +2280,7 @@ BR_MG_311790,Q1791942,,BR,Brazil,MG,Minas Gerais,311790,Congonhal,,,BR,BRA,2
 BR_MG_311800,Q275654,,BR,Brazil,MG,Minas Gerais,311800,Congonhas,,,BR,BRA,2
 BR_MG_311810,Q1792271,,BR,Brazil,MG,Minas Gerais,311810,Congonhas do Norte,,,BR,BRA,2
 BR_MG_311820,Q22062637,,BR,Brazil,MG,Minas Gerais,311820,Conquista,,,BR,BRA,2
-BR_MG_311830,Q570312,,BR,Brazil,MG,Minas Gerais,311830,Conselheiro Lafaiete,,,BR,BRA,2
+BR_MG_311830,Q570312,,BR,Brazil,MG,Minas Gerais,311830,Cataguases,,,BR,BRA,2
 BR_MG_311840,Q1792851,,BR,Brazil,MG,Minas Gerais,311840,Conselheiro Pena,,,BR,BRA,2
 BR_MG_311850,Q1805751,,BR,Brazil,MG,Minas Gerais,311850,Consolação,,,BR,BRA,2
 BR_MG_311860,Q271333,,BR,Brazil,MG,Minas Gerais,311860,Contagem,,,BR,BRA,2
@@ -9988,7 +9988,7 @@ MU,Q1027,country/MUS,MU,Mauritius,,,,,,,MU,MUS,0
 MV,Q826,country/MDV,MV,Maldives,,,,,,,MV,MDV,0
 MW,Q1020,country/MWI,MW,Malawi,,,,,,,MW,MWI,0
 MX,Q96,country/MEX,MX,Mexico,,,,,,,MX,MEX,0
-MX_AGU,Q79952,,MX,Mexico,AGU,Aguascalientes,,,,,MX,MEX,1
+MX_AGU,Q79952,iso/MX-AGU,MX,Mexico,AGU,Aguascalientes,,,,,MX,MEX,1
 MX_AGU_01001,Q391149,,MX,Mexico,AGU,Aguascalientes,01001,Aguascalientes,,,MX,MEX,2
 MX_AGU_01002,Q8206694,,MX,Mexico,AGU,Aguascalientes,01002,Asientos,,,MX,MEX,2
 MX_AGU_01003,Q2656541,,MX,Mexico,AGU,Aguascalientes,01003,Calvillo,,,MX,MEX,2
@@ -10000,19 +10000,19 @@ MX_AGU_01008,Q3850526,,MX,Mexico,AGU,Aguascalientes,01008,San José de Gracia,,,
 MX_AGU_01009,Q3850537,,MX,Mexico,AGU,Aguascalientes,01009,Tepezalá,,,MX,MEX,2
 MX_AGU_01010,Q2474668,,MX,Mexico,AGU,Aguascalientes,01010,El Llano,,,MX,MEX,2
 MX_AGU_01011,Q2652349,,MX,Mexico,AGU,Aguascalientes,01011,San Francisco de los Romo,,,MX,MEX,2
-MX_BCN,Q58731,,MX,Mexico,BCN,Baja California,,,,,MX,MEX,1
+MX_BCN,Q58731,iso/MX-BCN,MX,Mexico,BCN,Baja California,,,,,MX,MEX,1
 MX_BCN_02001,Q1548691,,MX,Mexico,BCN,Baja California,02001,Ensenada,,,MX,MEX,2
 MX_BCN_02002,Q1477270,,MX,Mexico,BCN,Baja California,02002,Mexicali,,,MX,MEX,2
 MX_BCN_02003,Q2320825,,MX,Mexico,BCN,Baja California,02003,Tecate,,,MX,MEX,2
 MX_BCN_02004,Q2360428,,MX,Mexico,BCN,Baja California,02004,Tijuana,,,MX,MEX,2
 MX_BCN_02005,Q2088119,,MX,Mexico,BCN,Baja California,02005,Playas de Rosarito,,,MX,MEX,2
-MX_BCS,Q46508,,MX,Mexico,BCS,Baja California Sur,,,,,MX,MEX,1
+MX_BCS,Q46508,iso/MX-BCS,MX,Mexico,BCS,Baja California Sur,,,,,MX,MEX,1
 MX_BCS_03001,Q162422,,MX,Mexico,BCS,Baja California Sur,03001,Comondú,,,MX,MEX,2
 MX_BCS_03002,Q1548701,,MX,Mexico,BCS,Baja California Sur,03002,Mulegé,,,MX,MEX,2
 MX_BCS_03003,Q1861497,,MX,Mexico,BCS,Baja California Sur,03003,La Paz,,,MX,MEX,2
 MX_BCS_03008,Q659516,,MX,Mexico,BCS,Baja California Sur,03008,Los Cabos,,,MX,MEX,2
 MX_BCS_03009,Q1861506,,MX,Mexico,BCS,Baja California Sur,03009,Loreto,,,MX,MEX,2
-MX_CAM,Q80908,,MX,Mexico,CAM,Campeche,,,,,MX,MEX,1
+MX_CAM,Q80908,iso/MX-CAM,MX,Mexico,CAM,Campeche,,,,,MX,MEX,1
 MX_CAM_04001,Q2605401,,MX,Mexico,CAM,Campeche,04001,Calkiní,,,MX,MEX,2
 MX_CAM_04002,Q2541946,,MX,Mexico,CAM,Campeche,04002,Campeche,,,MX,MEX,2
 MX_CAM_04003,Q2720137,,MX,Mexico,CAM,Campeche,04003,Carmen,,,MX,MEX,2
@@ -10024,7 +10024,7 @@ MX_CAM_04008,Q2476938,,MX,Mexico,CAM,Campeche,04008,Tenabo,,,MX,MEX,2
 MX_CAM_04009,Q2541910,,MX,Mexico,CAM,Campeche,04009,Escárcega,,,MX,MEX,2
 MX_CAM_04010,Q2605348,,MX,Mexico,CAM,Campeche,04010,Calakmul,,,MX,MEX,2
 MX_CAM_04011,Q2312662,,MX,Mexico,CAM,Campeche,04011,Candelaria,,,MX,MEX,2
-MX_CHH,Q655,,MX,Mexico,CHH,Chihuahua,,,,,MX,MEX,1
+MX_CHH,Q655,iso/MX-CHH,MX,Mexico,CHH,Chihuahua,,,,,MX,MEX,1
 MX_CHH_08001,Q2990979,,MX,Mexico,CHH,Chihuahua,08001,Ahumada,,,MX,MEX,2
 MX_CHH_08002,Q2997114,,MX,Mexico,CHH,Chihuahua,08002,Aldama,,,MX,MEX,2
 MX_CHH_08003,Q2606327,,MX,Mexico,CHH,Chihuahua,08003,Allende,,,MX,MEX,2
@@ -10092,7 +10092,7 @@ MX_CHH_08064,Q2990973,,MX,Mexico,CHH,Chihuahua,08064,El Tule,,,MX,MEX,2
 MX_CHH_08065,Q2489896,,MX,Mexico,CHH,Chihuahua,08065,Urique,,,MX,MEX,2
 MX_CHH_08066,Q3317714,,MX,Mexico,CHH,Chihuahua,08066,Uruachi,,,MX,MEX,2
 MX_CHH_08067,Q2466150,,MX,Mexico,CHH,Chihuahua,08067,Valle de Zaragoza,,,MX,MEX,2
-MX_CHP,Q60123,,MX,Mexico,CHP,Chiapas,,,,,MX,MEX,1
+MX_CHP,Q60123,iso/MX-CHP,MX,Mexico,CHP,Chiapas,,,,,MX,MEX,1
 MX_CHP_07001,Q1267557,,MX,Mexico,CHP,Chiapas,07001,Acacoyagua,,,MX,MEX,2
 MX_CHP_07002,Q1577295,,MX,Mexico,CHP,Chiapas,07002,Acala,,,MX,MEX,2
 MX_CHP_07003,Q1952856,,MX,Mexico,CHP,Chiapas,07003,Acapetahua,,,MX,MEX,2
@@ -10216,7 +10216,7 @@ MX_CHP_07121,,,MX,Mexico,CHP,Chiapas,07121,Rincón Chamula San Pedro,,,MX,MEX,2
 MX_CHP_07122,Q14630098,,MX,Mexico,CHP,Chiapas,07122,El Parral,,,MX,MEX,2
 MX_CHP_07123,Q14630115,,MX,Mexico,CHP,Chiapas,07123,Emiliano Zapata,,,MX,MEX,2
 MX_CHP_07124,Q14902858,,MX,Mexico,CHP,Chiapas,07124,Mezcalapa,,,MX,MEX,2
-MX_CMX,Q1489,,MX,Mexico,CMX,Mexico City,,,,,MX,MEX,1
+MX_CMX,Q1489,iso/MX-CMX,MX,Mexico,CMX,Mexico City,,,,,MX,MEX,1
 MX_CMX_09002,Q994867,,MX,Mexico,CMX,Mexico City,09002,Azcapotzalco,,,MX,MEX,2
 MX_CMX_09003,Q661315,,MX,Mexico,CMX,Mexico City,09003,Coyoacán,,,MX,MEX,2
 MX_CMX_09004,Q762749,,MX,Mexico,CMX,Mexico City,09004,Cuajimalpa De Morelos,,,MX,MEX,2
@@ -10233,7 +10233,7 @@ MX_CMX_09014,Q2356998,,MX,Mexico,CMX,Mexico City,09014,Benito Juárez,,,MX,MEX,2
 MX_CMX_09015,Q645293,,MX,Mexico,CMX,Mexico City,09015,Cuauhtémoc,,,MX,MEX,2
 MX_CMX_09016,Q1832732,,MX,Mexico,CMX,Mexico City,09016,Miguel Hidalgo,,,MX,MEX,2
 MX_CMX_09017,Q10832464,,MX,Mexico,CMX,Mexico City,09017,Venustiano Carranza,,,MX,MEX,2
-MX_COA,Q53079,,MX,Mexico,COA,Coahuila,,,,,MX,MEX,1
+MX_COA,Q53079,iso/MX-COA,MX,Mexico,COA,Coahuila,,,,,MX,MEX,1
 MX_COA_05001,Q3846431,,MX,Mexico,COA,Coahuila,05001,Abasolo,,,MX,MEX,2
 MX_COA_05002,Q3844637,,MX,Mexico,COA,Coahuila,05002,Acuña,,,MX,MEX,2
 MX_COA_05003,Q3850565,,MX,Mexico,COA,Coahuila,05003,Allende,,,MX,MEX,2
@@ -10272,7 +10272,7 @@ MX_COA_05035,Q3238418,,MX,Mexico,COA,Coahuila,05035,Torreón,,,MX,MEX,2
 MX_COA_05036,Q3846423,,MX,Mexico,COA,Coahuila,05036,Viesca,,,MX,MEX,2
 MX_COA_05037,Q3846478,,MX,Mexico,COA,Coahuila,05037,Villa Unión,,,MX,MEX,2
 MX_COA_05038,Q3844606,,MX,Mexico,COA,Coahuila,05038,Zaragoza,,,MX,MEX,2
-MX_COL,Q61309,,MX,Mexico,COL,Colima,,,,,MX,MEX,1
+MX_COL,Q61309,iso/MX-COL,MX,Mexico,COL,Colima,,,,,MX,MEX,1
 MX_COL_06001,Q686374,,MX,Mexico,COL,Colima,06001,Armería,,,MX,MEX,2
 MX_COL_06002,Q1998847,,MX,Mexico,COL,Colima,06002,Colima,,,MX,MEX,2
 MX_COL_06003,Q2598172,,MX,Mexico,COL,Colima,06003,Comala,,,MX,MEX,2
@@ -10283,7 +10283,7 @@ MX_COL_06007,Q2991108,,MX,Mexico,COL,Colima,06007,Manzanillo,,,MX,MEX,2
 MX_COL_06008,Q1013819,,MX,Mexico,COL,Colima,06008,Minatitlán,,,MX,MEX,2
 MX_COL_06009,Q3850513,,MX,Mexico,COL,Colima,06009,Tecomán,,,MX,MEX,2
 MX_COL_06010,Q12221222,,MX,Mexico,COL,Colima,06010,Villa de Álvarez,,,MX,MEX,2
-MX_DUR,Q79918,,MX,Mexico,DUR,Durango,,,,,MX,MEX,1
+MX_DUR,Q79918,iso/MX-DUR,MX,Mexico,DUR,Durango,,,,,MX,MEX,1
 MX_DUR_10001,Q2990948,,MX,Mexico,DUR,Durango,10001,Canatlán,,,MX,MEX,2
 MX_DUR_10002,Q10998272,,MX,Mexico,DUR,Durango,10002,Canelas,,,MX,MEX,2
 MX_DUR_10003,Q2682724,,MX,Mexico,DUR,Durango,10003,Coneto de Comonfort,,,MX,MEX,2
@@ -10323,7 +10323,7 @@ MX_DUR_10036,Q2352084,,MX,Mexico,DUR,Durango,10036,Tlahualilo,,,MX,MEX,2
 MX_DUR_10037,Q2784782,,MX,Mexico,DUR,Durango,10037,Topia,,,MX,MEX,2
 MX_DUR_10038,Q7925160,,MX,Mexico,DUR,Durango,10038,Vicente Guerrero,,,MX,MEX,2
 MX_DUR_10039,Q3017725,,MX,Mexico,DUR,Durango,10039,Nuevo Ideal,,,MX,MEX,2
-MX_GRO,Q60158,,MX,Mexico,GRO,Guerrero,,,,,MX,MEX,1
+MX_GRO,Q60158,iso/MX-GRO,MX,Mexico,GRO,Guerrero,,,,,MX,MEX,1
 MX_GRO_12001,Q2378103,,MX,Mexico,GRO,Guerrero,12001,Acapulco de Juárez,,,MX,MEX,2
 MX_GRO_12002,Q2359444,,MX,Mexico,GRO,Guerrero,12002,Ahuacuotzingo,,,MX,MEX,2
 MX_GRO_12003,Q2651910,,MX,Mexico,GRO,Guerrero,12003,Ajuchitlán del Progreso,,,MX,MEX,2
@@ -10405,7 +10405,7 @@ MX_GRO_12078,Q4236860,,MX,Mexico,GRO,Guerrero,12078,Cochoapa el Grande,,,MX,MEX,
 MX_GRO_12079,Q6292609,,MX,Mexico,GRO,Guerrero,12079,José Joaquín de Herrera,,,MX,MEX,2
 MX_GRO_12080,Q4502632,,MX,Mexico,GRO,Guerrero,12080,Juchitán,,,MX,MEX,2
 MX_GRO_12081,Q4200040,,MX,Mexico,GRO,Guerrero,12081,Iliatenco,,,MX,MEX,2
-MX_GUA,Q46475,,MX,Mexico,GUA,Guanajuato,,,,,MX,MEX,1
+MX_GUA,Q46475,iso/MX-GUA,MX,Mexico,GUA,Guanajuato,,,,,MX,MEX,1
 MX_GUA_11001,Q20209171,,MX,Mexico,GUA,Guanajuato,11001,Abasolo,,,MX,MEX,2
 MX_GUA_11002,Q16488140,,MX,Mexico,GUA,Guanajuato,11002,Acámbaro,,,MX,MEX,2
 MX_GUA_11003,Q4063467,,MX,Mexico,GUA,Guanajuato,11003,San Miguel de Allende,,,MX,MEX,2
@@ -10452,7 +10452,7 @@ MX_GUA_11043,Q20209211,,MX,Mexico,GUA,Guanajuato,11043,Victoria,,,MX,MEX,2
 MX_GUA_11044,Q20209212,,MX,Mexico,GUA,Guanajuato,11044,Villagrán,,,MX,MEX,2
 MX_GUA_11045,Q20209213,,MX,Mexico,GUA,Guanajuato,11045,Xichú,,,MX,MEX,2
 MX_GUA_11046,Q2598895,,MX,Mexico,GUA,Guanajuato,11046,Yuriria,,,MX,MEX,2
-MX_HID,Q80903,,MX,Mexico,HID,Hidalgo,,,,,MX,MEX,1
+MX_HID,Q80903,iso/MX-HID,MX,Mexico,HID,Hidalgo,,,,,MX,MEX,1
 MX_HID_13001,Q3887952,,MX,Mexico,HID,Hidalgo,13001,Acatlán,,,MX,MEX,2
 MX_HID_13002,Q2990957,,MX,Mexico,HID,Hidalgo,13002,Acaxochitlán (municipality),,,MX,MEX,2
 MX_HID_13003,Q3827542,,MX,Mexico,HID,Hidalgo,13003,Actopan,,,MX,MEX,2
@@ -10538,7 +10538,7 @@ MX_HID_13082,Q3300386,,MX,Mexico,HID,Hidalgo,13082,Zapotlán de Juárez,,,MX,MEX
 MX_HID_13083,Q3845508,,MX,Mexico,HID,Hidalgo,13083,Zempoala,,,MX,MEX,2
 MX_HID_13084,Q2606314,,MX,Mexico,HID,Hidalgo,13084,Zimapan,,,MX,MEX,2
 MX_HID_14052,Q3311263,,MX,Mexico,HID,Hidalgo,14052,Xochitlán,,,MX,MEX,2
-MX_JAL,Q13160,,MX,Mexico,JAL,Jalisco,,,,,MX,MEX,1
+MX_JAL,Q13160,iso/MX-JAL,MX,Mexico,JAL,Jalisco,,,,,MX,MEX,1
 MX_JAL_14001,Q2739431,,MX,Mexico,JAL,Jalisco,14001,Acatic,,,MX,MEX,2
 MX_JAL_14002,Q1658581,,MX,Mexico,JAL,Jalisco,14002,Acatlán de Juárez,,,MX,MEX,2
 MX_JAL_14003,Q1658614,,MX,Mexico,JAL,Jalisco,14003,Ahualulco de Mercado,,,MX,MEX,2
@@ -10577,7 +10577,7 @@ MX_JAL_14035,Q3311368,,MX,Mexico,JAL,Jalisco,14035,Encarnación de Díaz,,,MX,ME
 MX_JAL_14036,Q2060173,,MX,Mexico,JAL,Jalisco,14036,Etzatlán,,,MX,MEX,2
 MX_JAL_14037,Q512102,,MX,Mexico,JAL,Jalisco,14037,El Grullo,,,MX,MEX,2
 MX_JAL_14038,Q3098815,,MX,Mexico,JAL,Jalisco,14038,Guachinango,,,MX,MEX,2
-MX_JAL_14039,Q9022,,MX,Mexico,JAL,Jalisco,14039,Guadalajara,,,MX,MEX,2
+MX_JAL_14039,Q12348369,,MX,Mexico,JAL,Jalisco,14039,Guadalajara,,,MX,MEX,2
 MX_JAL_14040,Q3141042,,MX,Mexico,JAL,Jalisco,14040,Hostotipaquillo,,,MX,MEX,2
 MX_JAL_14041,Q3142198,,MX,Mexico,JAL,Jalisco,14041,Huejúcar,,,MX,MEX,2
 MX_JAL_14042,Q2179164,,MX,Mexico,JAL,Jalisco,14042,Huejuquilla El Alto,,,MX,MEX,2
@@ -10629,9 +10629,9 @@ MX_JAL_14087,Q2200016,,MX,Mexico,JAL,Jalisco,14087,Tecalitlán,,,MX,MEX,2
 MX_JAL_14088,Q3311923,,MX,Mexico,JAL,Jalisco,14088,Tecolotlán,,,MX,MEX,2
 MX_JAL_14089,Q3175330,,MX,Mexico,JAL,Jalisco,14089,Techaluta de Montenegro,,,MX,MEX,2
 MX_JAL_14090,Q3311607,,MX,Mexico,JAL,Jalisco,14090,Tenamaxtlán,,,MX,MEX,2
-MX_JAL_14091,,,MX,Mexico,JAL,Jalisco,14091,Teocaltiche,,,MX,MEX,2
+MX_JAL_14091,Q2445115,,MX,Mexico,JAL,Jalisco,14091,Teocaltiche,,,MX,MEX,2
 MX_JAL_14092,Q3311895,,MX,Mexico,JAL,Jalisco,14092,Teocuitatlán de Corona,,,MX,MEX,2
-MX_JAL_14093,,,MX,Mexico,JAL,Jalisco,14093,Tepatitlán De Morelos,,,MX,MEX,2
+MX_JAL_14093,Q971699,,MX,Mexico,JAL,Jalisco,14093,Tepatitlán De Morelos,,,MX,MEX,2
 MX_JAL_14094,Q2330431,,MX,Mexico,JAL,Jalisco,14094,Tequila,,,MX,MEX,2
 MX_JAL_14095,Q3175264,,MX,Mexico,JAL,Jalisco,14095,Teuchitlán,,,MX,MEX,2
 MX_JAL_14096,Q3846780,,MX,Mexico,JAL,Jalisco,14096,Tizapán el Alto,,,MX,MEX,2
@@ -10656,7 +10656,7 @@ MX_JAL_14114,Q3175359,,MX,Mexico,JAL,Jalisco,14114,Villa Corona,,,MX,MEX,2
 MX_JAL_14115,Q3051419,,MX,Mexico,JAL,Jalisco,14115,Villa Guerrero,,,MX,MEX,2
 MX_JAL_14116,Q3844956,,MX,Mexico,JAL,Jalisco,14116,Villa Hidalgo,,,MX,MEX,2
 MX_JAL_14117,Q2943527,,MX,Mexico,JAL,Jalisco,14117,Cañadas de Obregón,,,MX,MEX,2
-MX_JAL_14118,Q2445115,,MX,Mexico,JAL,Jalisco,14118,Teocaltiche,,,MX,MEX,2
+MX_JAL_14118,Q2445115,,MX,Mexico,JAL,Jalisco,14118,Yahualica de González Gallo,,,MX,MEX,2
 MX_JAL_14119,Q1656294,,MX,Mexico,JAL,Jalisco,14119,Zacoalco de Torres,,,MX,MEX,2
 MX_JAL_14120,Q2143868,,MX,Mexico,JAL,Jalisco,14120,Zapopan,,,MX,MEX,2
 MX_JAL_14121,Q3505248,,MX,Mexico,JAL,Jalisco,14121,Zapotiltic,,,MX,MEX,2
@@ -10664,7 +10664,7 @@ MX_JAL_14122,Q3311317,,MX,Mexico,JAL,Jalisco,14122,Zapotitlán de Vadillo,,,MX,M
 MX_JAL_14123,Q3311619,,MX,Mexico,JAL,Jalisco,14123,Zapotlán del Rey,,,MX,MEX,2
 MX_JAL_14124,Q3052268,,MX,Mexico,JAL,Jalisco,14124,Zapotlanejo,,,MX,MEX,2
 MX_JAL_14125,Q7414301,,MX,Mexico,JAL,Jalisco,14125,"San Ignacio, Jalisco",,,MX,MEX,2
-MX_MEX,Q82112,,MX,Mexico,MEX,State of Mexico,,,,,MX,MEX,1
+MX_MEX,Q82112,iso/MX-MEX,MX,Mexico,MEX,State of Mexico,,,,,MX,MEX,1
 MX_MEX_15001,Q759233,,MX,Mexico,MEX,State of Mexico,15001,Acambay De Ruíz Castañeda,,,MX,MEX,2
 MX_MEX_15002,Q1862947,,MX,Mexico,MEX,State of Mexico,15002,Acolman,,,MX,MEX,2
 MX_MEX_15003,Q2278207,,MX,Mexico,MEX,State of Mexico,15003,Aculco,,,MX,MEX,2
@@ -10676,7 +10676,7 @@ MX_MEX_15008,Q10973803,,MX,Mexico,MEX,State of Mexico,15008,Amatepec,,,MX,MEX,2
 MX_MEX_15009,Q93867,,MX,Mexico,MEX,State of Mexico,15009,Amecameca,,,MX,MEX,2
 MX_MEX_15010,Q228854,,MX,Mexico,MEX,State of Mexico,15010,Apaxco,,,MX,MEX,2
 MX_MEX_15011,Q1784882,,MX,Mexico,MEX,State of Mexico,15011,Atenco,,,MX,MEX,2
-MX_MEX_15012,Q4196176,,MX,Mexico,MEX,State of Mexico,15012,Atizapán,,,MX,MEX,2
+MX_MEX_15012,Q3409383,,MX,Mexico,MEX,State of Mexico,15012,Atizapán,,,MX,MEX,2
 MX_MEX_15013,Q749761,,MX,Mexico,MEX,State of Mexico,15013,Atizapán De Zaragoza,,,MX,MEX,2
 MX_MEX_15014,Q1323910,,MX,Mexico,MEX,State of Mexico,15014,Atlacomulco,,,MX,MEX,2
 MX_MEX_15015,Q2606760,,MX,Mexico,MEX,State of Mexico,15015,Atlautla,,,MX,MEX,2
@@ -10705,7 +10705,7 @@ MX_MEX_15037,Q2271761,,MX,Mexico,MEX,State of Mexico,15037,Huixquilucan,,,MX,MEX
 MX_MEX_15038,Q3317367,,MX,Mexico,MEX,State of Mexico,15038,Isidro Fabela,,,MX,MEX,2
 MX_MEX_15039,Q1130484,,MX,Mexico,MEX,State of Mexico,15039,Ixtapaluca,,,MX,MEX,2
 MX_MEX_15040,Q2018330,,MX,Mexico,MEX,State of Mexico,15040,Ixtapan De La Sal,,,MX,MEX,2
-MX_MEX_15041,,,MX,Mexico,MEX,State of Mexico,15041,Ixtapan Del Oro,,,MX,MEX,2
+MX_MEX_15041,Q3308590,,MX,Mexico,MEX,State of Mexico,15041,Ixtapan Del Oro,,,MX,MEX,2
 MX_MEX_15042,Q1962187,,MX,Mexico,MEX,State of Mexico,15042,Ixtlahuaca,,,MX,MEX,2
 MX_MEX_15043,Q3019415,,MX,Mexico,MEX,State of Mexico,15043,Xalatlaco,,,MX,MEX,2
 MX_MEX_15044,Q114090,,MX,Mexico,MEX,State of Mexico,15044,Jaltenco,,,MX,MEX,2
@@ -10790,7 +10790,7 @@ MX_MEX_15122,Q1962387,,MX,Mexico,MEX,State of Mexico,15122,Valle De Chalco Solid
 MX_MEX_15123,Q3017880,,MX,Mexico,MEX,State of Mexico,15123,Luvianos,,,MX,MEX,2
 MX_MEX_15124,,,MX,Mexico,MEX,State of Mexico,15124,San José Del Rincón,,,MX,MEX,2
 MX_MEX_15125,Q1457985,,MX,Mexico,MEX,State of Mexico,15125,Tonanitla,,,MX,MEX,2
-MX_MIC,Q79861,,MX,Mexico,MIC,Michoacán,,,,,MX,MEX,1
+MX_MIC,Q79861,iso/MX-MIC,MX,Mexico,MIC,Michoacán,,,,,MX,MEX,1
 MX_MIC_16001,Q3846405,,MX,Mexico,MIC,Michoacán,16001,Acuitzio,,,MX,MEX,2
 MX_MIC_16002,Q3846395,,MX,Mexico,MIC,Michoacán,16002,Aguililla,,,MX,MEX,2
 MX_MIC_16003,Q9098219,,MX,Mexico,MIC,Michoacán,16003,Álvaro Obregón,,,MX,MEX,2
@@ -10902,9 +10902,9 @@ MX_MIC_16108,Q6032738,,MX,Mexico,MIC,Michoacán,16108,Zamora,,,MX,MEX,2
 MX_MIC_16109,Q10838521,,MX,Mexico,MIC,Michoacán,16109,Zináparo,,,MX,MEX,2
 MX_MIC_16110,,,MX,Mexico,MIC,Michoacán,16110,Zinapécuaro,,,MX,MEX,2
 MX_MIC_16111,Q10838523,,MX,Mexico,MIC,Michoacán,16111,Ziracuaretiro,,,MX,MEX,2
-MX_MIC_16112,Q26731200,,MX,Mexico,MIC,Michoacán,16112,Zitacuaro,,,MX,MEX,2
+MX_MIC_16112,Q1962272,,MX,Mexico,MIC,Michoacán,16112,Zitacuaro,,,MX,MEX,2
 MX_MIC_16113,Q9064894,,MX,Mexico,MIC,Michoacán,16113,José Sixto Verduzco,,,MX,MEX,2
-MX_MOR,Q66117,,MX,Mexico,MOR,Morelos,,,,,MX,MEX,1
+MX_MOR,Q66117,iso/MX-MOR,MX,Mexico,MOR,Morelos,,,,,MX,MEX,1
 MX_MOR_17001,Q17377049,,MX,Mexico,MOR,Morelos,17001,Amacuzac,,,MX,MEX,2
 MX_MOR_17002,Q17374320,,MX,Mexico,MOR,Morelos,17002,Atlatlahucan,,,MX,MEX,2
 MX_MOR_17003,Q27796781,,MX,Mexico,MOR,Morelos,17003,Axochiapan,,,MX,MEX,2
@@ -10940,7 +10940,7 @@ MX_MOR_17032,,,MX,Mexico,MOR,Morelos,17032,Zacualpan De Amilpas,,,MX,MEX,2
 MX_MOR_17033,,,MX,Mexico,MOR,Morelos,17033,Temoac,,,MX,MEX,2
 MX_MOR_17034,,,MX,Mexico,MOR,Morelos,17034,Coatetelco,,,MX,MEX,2
 MX_MOR_17035,,,MX,Mexico,MOR,Morelos,17035,Xoxocotla,,,MX,MEX,2
-MX_NAY,Q79920,,MX,Mexico,NAY,Nayarit,,,,,MX,MEX,1
+MX_NAY,Q79920,iso/MX-NAY,MX,Mexico,NAY,Nayarit,,,,,MX,MEX,1
 MX_NAY_18001,,,MX,Mexico,NAY,Nayarit,18001,Acaponeta,,,MX,MEX,2
 MX_NAY_18002,Q2651609,,MX,Mexico,NAY,Nayarit,18002,Ahuacatlán,,,MX,MEX,2
 MX_NAY_18003,Q2651624,,MX,Mexico,NAY,Nayarit,18003,Amatlán de Cañas,,,MX,MEX,2
@@ -10961,7 +10961,7 @@ MX_NAY_18017,,,MX,Mexico,NAY,Nayarit,18017,Tepic,,,MX,MEX,2
 MX_NAY_18018,Q2652089,,MX,Mexico,NAY,Nayarit,18018,Tuxpan,,,MX,MEX,2
 MX_NAY_18019,Q2652057,,MX,Mexico,NAY,Nayarit,18019,La Yesca,,,MX,MEX,2
 MX_NAY_18020,Q2651943,,MX,Mexico,NAY,Nayarit,18020,Bahía de Banderas,,,MX,MEX,2
-MX_NLE,Q15282,,MX,Mexico,NLE,Nuevo León,,,,,MX,MEX,1
+MX_NLE,Q15282,iso/MX-NLE,MX,Mexico,NLE,Nuevo León,,,,,MX,MEX,1
 MX_NLE_19001,Q396830,,MX,Mexico,NLE,Nuevo León,19001,Abasolo,,,MX,MEX,2
 MX_NLE_19002,Q33226675,,MX,Mexico,NLE,Nuevo León,19002,Agualeguas,,,MX,MEX,2
 MX_NLE_19003,,,MX,Mexico,NLE,Nuevo León,19003,Los Aldamas,,,MX,MEX,2
@@ -11014,7 +11014,7 @@ MX_NLE_19049,Q9044350,,MX,Mexico,NLE,Nuevo León,19049,Santiago,,,MX,MEX,2
 MX_NLE_19050,Q2000762,,MX,Mexico,NLE,Nuevo León,19050,Vallecillo,,,MX,MEX,2
 MX_NLE_19051,Q10832632,,MX,Mexico,NLE,Nuevo León,19051,Villaldama,,,MX,MEX,2
 MX_NLE_León,,,MX,Mexico,NLE,Nuevo León,19024,General Zaragoza,,,MX,MEX,2
-MX_OAX,Q34110,,MX,Mexico,OAX,Oaxaca,,,,,MX,MEX,1
+MX_OAX,Q34110,iso/MX-OAX,MX,Mexico,OAX,Oaxaca,,,,,MX,MEX,1
 MX_OAX_20001,,,MX,Mexico,OAX,Oaxaca,20001,Abejones,,,MX,MEX,2
 MX_OAX_20002,Q405809,,MX,Mexico,OAX,Oaxaca,20002,Acatlán de Pérez Figueroa,,,MX,MEX,2
 MX_OAX_20003,Q3172045,,MX,Mexico,OAX,Oaxaca,20003,Asunción Cacalotepec,,,MX,MEX,2
@@ -11025,7 +11025,7 @@ MX_OAX_20007,Q3845852,,MX,Mexico,OAX,Oaxaca,20007,Asunción Ocotlán,,,MX,MEX,2
 MX_OAX_20008,Q3846570,,MX,Mexico,OAX,Oaxaca,20008,Asunción Tlacolulita,,,MX,MEX,2
 MX_OAX_20009,Q556236,,MX,Mexico,OAX,Oaxaca,20009,Ayotzintepec,,,MX,MEX,2
 MX_OAX_20010,,,MX,Mexico,OAX,Oaxaca,20010,El Barrio De La Soledad,,,MX,MEX,2
-MX_OAX_20011,Q5740191,,MX,Mexico,OAX,Oaxaca,20011,Q5740191,,,MX,MEX,2
+MX_OAX_20011,Q4576809,,MX,Mexico,OAX,Oaxaca,20011,Calihualá,,,MX,MEX,2
 MX_OAX_20012,Q5747319,,MX,Mexico,OAX,Oaxaca,20012,Candelaria Loxicha,,,MX,MEX,2
 MX_OAX_20013,,,MX,Mexico,OAX,Oaxaca,20013,Ciénega De Zimatlán,,,MX,MEX,2
 MX_OAX_20014,Q5770638,,MX,Mexico,OAX,Oaxaca,20014,Q5770638,,,MX,MEX,2
@@ -11148,7 +11148,7 @@ MX_OAX_20130,,,MX,Mexico,OAX,Oaxaca,20130,San Dionisio Del Mar,,,MX,MEX,2
 MX_OAX_20131,,,MX,Mexico,OAX,Oaxaca,20131,San Dionisio Ocotepec,,,MX,MEX,2
 MX_OAX_20132,Q7413781,,MX,Mexico,OAX,Oaxaca,20132,San Dionisio Ocotlán,,,MX,MEX,2
 MX_OAX_20133,Q76461130,,MX,Mexico,OAX,Oaxaca,20133,San Esteban Atatlahuca,,,MX,MEX,2
-MX_OAX_20134,Q9073432,,MX,Mexico,OAX,Oaxaca,20134,San Felipe Jalapa de Díaz,,,MX,MEX,2
+MX_OAX_20134,Q3846784,,MX,Mexico,OAX,Oaxaca,20134,San Felipe Jalapa de Díaz,,,MX,MEX,2
 MX_OAX_20135,,,MX,Mexico,OAX,Oaxaca,20135,San Felipe Tejalápam,,,MX,MEX,2
 MX_OAX_20136,,,MX,Mexico,OAX,Oaxaca,20136,San Felipe Usila,,,MX,MEX,2
 MX_OAX_20137,Q10812415,,MX,Mexico,OAX,Oaxaca,20137,San Francisco Cahuacúa,,,MX,MEX,2
@@ -11157,7 +11157,7 @@ MX_OAX_20139,Q4967249,,MX,Mexico,OAX,Oaxaca,20139,San Francisco Chapulapa,,,MX,M
 MX_OAX_20140,Q7413969,,MX,Mexico,OAX,Oaxaca,20140,San Francisco Chindúa,,,MX,MEX,2
 MX_OAX_20141,Q12354866,,MX,Mexico,OAX,Oaxaca,20141,San Francisco Del Mar,,,MX,MEX,2
 MX_OAX_20142,Q3887640,,MX,Mexico,OAX,Oaxaca,20142,San Francisco Huehuetlán,,,MX,MEX,2
-MX_OAX_20143,Q40252101,,MX,Mexico,OAX,Oaxaca,20143,San Francisco Ixhuatán,,,MX,MEX,2
+MX_OAX_20143,Q3846913,,MX,Mexico,OAX,Oaxaca,20143,San Francisco Ixhuatán,,,MX,MEX,2
 MX_OAX_20144,Q3888158,,MX,Mexico,OAX,Oaxaca,20144,San Francisco Jaltepetongo,,,MX,MEX,2
 MX_OAX_20145,Q12354868,,MX,Mexico,OAX,Oaxaca,20145,San Francisco Lachigoló,,,MX,MEX,2
 MX_OAX_20146,Q3888123,,MX,Mexico,OAX,Oaxaca,20146,San Francisco Logueche,,,MX,MEX,2
@@ -11174,12 +11174,12 @@ MX_OAX_20156,,,MX,Mexico,OAX,Oaxaca,20156,San Ildefonso Villa Alta,,,MX,MEX,2
 MX_OAX_20157,Q1193686,,MX,Mexico,OAX,Oaxaca,20157,San Jacinto Amilpas,,,MX,MEX,2
 MX_OAX_20158,Q3889489,,MX,Mexico,OAX,Oaxaca,20158,San Jacinto Tlacotepec,,,MX,MEX,2
 MX_OAX_20159,Q3889079,,MX,Mexico,OAX,Oaxaca,20159,San Jerónimo Coatlán,,,MX,MEX,2
-MX_OAX_20160,Q44452101,,MX,Mexico,OAX,Oaxaca,20160,San Jerónimo Silacayoapilla,,,MX,MEX,2
+MX_OAX_20160,Q3890475,,MX,Mexico,OAX,Oaxaca,20160,San Jerónimo Silacayoapilla,,,MX,MEX,2
 MX_OAX_20161,Q1656588,,MX,Mexico,OAX,Oaxaca,20161,San Jerónimo Sosola,,,MX,MEX,2
 MX_OAX_20162,Q3890508,,MX,Mexico,OAX,Oaxaca,20162,San Jerónimo Taviche,,,MX,MEX,2
 MX_OAX_20163,Q3890941,,MX,Mexico,OAX,Oaxaca,20163,San Jerónimo Tecoatl,,,MX,MEX,2
 MX_OAX_20164,Q3891029,,MX,Mexico,OAX,Oaxaca,20164,San Jorge Nuchita,,,MX,MEX,2
-MX_OAX_20165,Q42781771,,MX,Mexico,OAX,Oaxaca,20165,San José Ayuquila,,,MX,MEX,2
+MX_OAX_20165,Q1968621,,MX,Mexico,OAX,Oaxaca,20165,San José Ayuquila,,,MX,MEX,2
 MX_OAX_20166,Q2448372,,MX,Mexico,OAX,Oaxaca,20166,San José Chiltepec,,,MX,MEX,2
 MX_OAX_20167,Q7414544,,MX,Mexico,OAX,Oaxaca,20167,San José del Peñasco,,,MX,MEX,2
 MX_OAX_20168,Q3891452,,MX,Mexico,OAX,Oaxaca,20168,San José Estancia Grande,,,MX,MEX,2
@@ -11399,7 +11399,7 @@ MX_OAX_20381,Q38165273,,MX,Mexico,OAX,Oaxaca,20381,Santa Cruz Tacache de Mina,,,
 MX_OAX_20382,,,MX,Mexico,OAX,Oaxaca,20382,Santa Cruz Tacahua,,,MX,MEX,2
 MX_OAX_20383,,,MX,Mexico,OAX,Oaxaca,20383,Santa Cruz Tayata,,,MX,MEX,2
 MX_OAX_20384,Q3845807,,MX,Mexico,OAX,Oaxaca,20384,Santa Cruz Xitla,,,MX,MEX,2
-MX_OAX_20385,Q27767957,,MX,Mexico,OAX,Oaxaca,20385,Santa Cruz Xoxocotlán,,,MX,MEX,2
+MX_OAX_20385,Q2498642,,MX,Mexico,OAX,Oaxaca,20385,Santa Cruz Xoxocotlán,,,MX,MEX,2
 MX_OAX_20386,,,MX,Mexico,OAX,Oaxaca,20386,Santa Cruz Zenzontepec,,,MX,MEX,2
 MX_OAX_20387,Q7419600,,MX,Mexico,OAX,Oaxaca,20387,Santa Gertrudis,,,MX,MEX,2
 MX_OAX_20388,Q6645089,,MX,Mexico,OAX,Oaxaca,20388,Santa Inés del Monte,,,MX,MEX,2
@@ -11440,14 +11440,14 @@ MX_OAX_20422,Q6120554,,MX,Mexico,OAX,Oaxaca,20422,Santa María Natívitas,,,MX,M
 MX_OAX_20423,Q3891503,,MX,Mexico,OAX,Oaxaca,20423,Santa María Nduayaco,,,MX,MEX,2
 MX_OAX_20424,Q3891741,,MX,Mexico,OAX,Oaxaca,20424,Santa María Ozolotepec,,,MX,MEX,2
 MX_OAX_20425,,,MX,Mexico,OAX,Oaxaca,20425,Santa María Pápalo,,,MX,MEX,2
-MX_OAX_20426,Q54351089,,MX,Mexico,OAX,Oaxaca,20426,Santa María Peñoles,,,MX,MEX,2
+MX_OAX_20426,Q3892209,,MX,Mexico,OAX,Oaxaca,20426,Santa María Peñoles,,,MX,MEX,2
 MX_OAX_20427,Q3892475,,MX,Mexico,OAX,Oaxaca,20427,Santa María Petapa,,,MX,MEX,2
 MX_OAX_20428,Q2656501,,MX,Mexico,OAX,Oaxaca,20428,Santa María Quiegolani,,,MX,MEX,2
 MX_OAX_20429,Q7419761,,MX,Mexico,OAX,Oaxaca,20429,Santa María Sola,,,MX,MEX,2
 MX_OAX_20430,,,MX,Mexico,OAX,Oaxaca,20430,Santa María Tataltepec,,,MX,MEX,2
 MX_OAX_20431,,,MX,Mexico,OAX,Oaxaca,20431,Santa María Tecomavaca,,,MX,MEX,2
 MX_OAX_20432,,,MX,Mexico,OAX,Oaxaca,20432,Santa María Temaxcalapa,,,MX,MEX,2
-MX_OAX_20433,Q65115367,,MX,Mexico,OAX,Oaxaca,20433,Santa María Temaxcaltepec,,,MX,MEX,2
+MX_OAX_20433,Q2890358,,MX,Mexico,OAX,Oaxaca,20433,Santa María Temaxcaltepec,,,MX,MEX,2
 MX_OAX_20434,,,MX,Mexico,OAX,Oaxaca,20434,Santa María Teopoxco,,,MX,MEX,2
 MX_OAX_20435,,,MX,Mexico,OAX,Oaxaca,20435,Santa María Tepantlali,,,MX,MEX,2
 MX_OAX_20436,,,MX,Mexico,OAX,Oaxaca,20436,Santa María Texcatitlán,,,MX,MEX,2
@@ -11481,7 +11481,7 @@ MX_OAX_20463,Q3890929,,MX,Mexico,OAX,Oaxaca,20463,Santiago Huauclilla,,,MX,MEX,2
 MX_OAX_20464,Q3891463,,MX,Mexico,OAX,Oaxaca,20464,Santiago Ihuitlán Plumas,,,MX,MEX,2
 MX_OAX_20465,Q3891524,,MX,Mexico,OAX,Oaxaca,20465,Santiago Ixcuintepec,,,MX,MEX,2
 MX_OAX_20466,,,MX,Mexico,OAX,Oaxaca,20466,Santiago Ixtayutla,,,MX,MEX,2
-MX_OAX_20467,Q27797721,,MX,Mexico,OAX,Oaxaca,20467,Santiago Jamiltepec,,,MX,MEX,2
+MX_OAX_20467,Q2448285,,MX,Mexico,OAX,Oaxaca,20467,Santiago Jamiltepec,,,MX,MEX,2
 MX_OAX_20468,Q4407950,,MX,Mexico,OAX,Oaxaca,20468,Santiago Jocotepec,,,MX,MEX,2
 MX_OAX_20469,Q3846846,,MX,Mexico,OAX,Oaxaca,20469,Santiago Juxtlahuaca,,,MX,MEX,2
 MX_OAX_20470,Q3891725,,MX,Mexico,OAX,Oaxaca,20470,Santiago Lachiguiri,,,MX,MEX,2
@@ -11555,7 +11555,7 @@ MX_OAX_20537,Q3890442,,MX,Mexico,OAX,Oaxaca,20537,Silacayoapan,,,MX,MEX,2
 MX_OAX_20538,Q3889520,,MX,Mexico,OAX,Oaxaca,20538,Sitio de Xitlapehua,,,MX,MEX,2
 MX_OAX_20539,Q3889941,,MX,Mexico,OAX,Oaxaca,20539,Soledad Etla,,,MX,MEX,2
 MX_OAX_20540,Q6162471,,MX,Mexico,OAX,Oaxaca,20540,Tamazulapam del Progreso,,,MX,MEX,2
-MX_OAX_20541,Q60852426,,MX,Mexico,OAX,Oaxaca,20541,Tanetze de Zaragoza,,,MX,MEX,2
+MX_OAX_20541,Q3889969,,MX,Mexico,OAX,Oaxaca,20541,Tanetze de Zaragoza,,,MX,MEX,2
 MX_OAX_20542,Q20208810,,MX,Mexico,OAX,Oaxaca,20542,Q20208810,,,MX,MEX,2
 MX_OAX_20543,Q3890430,,MX,Mexico,OAX,Oaxaca,20543,Tataltepec de Valdés,,,MX,MEX,2
 MX_OAX_20544,Q985841,,MX,Mexico,OAX,Oaxaca,20544,Teococuilco de Marcos Pérez,,,MX,MEX,2
@@ -11586,7 +11586,7 @@ MX_OAX_20568,Q42837842,,MX,Mexico,OAX,Oaxaca,20568,Zapotitlán Palmas,,,MX,MEX,2
 MX_OAX_20569,Q3893018,,MX,Mexico,OAX,Oaxaca,20569,Santa Inés de Zaragoza,,,MX,MEX,2
 MX_OAX_20570,Q3845920,,MX,Mexico,OAX,Oaxaca,20570,Zimatlán de Álvarez,,,MX,MEX,2
 MX_OAX_30117,Q3846876,,MX,Mexico,OAX,Oaxaca,30117,Cosolapa,,,MX,MEX,2
-MX_PUE,Q79923,,MX,Mexico,PUE,Puebla,,,,,MX,MEX,1
+MX_PUE,Q79923,iso/MX-PUE,MX,Mexico,PUE,Puebla,,,,,MX,MEX,1
 MX_PUE_21001,Q2984107,,MX,Mexico,PUE,Puebla,21001,Acajete,,,MX,MEX,2
 MX_PUE_21002,Q1998759,,MX,Mexico,PUE,Puebla,21002,Acateno,,,MX,MEX,2
 MX_PUE_21003,Q9035926,,MX,Mexico,PUE,Puebla,21003,Acatlán,,,MX,MEX,2
@@ -11804,7 +11804,7 @@ MX_PUE_21214,Q3892181,,MX,Mexico,PUE,Puebla,21214,Zinacatepec,,,MX,MEX,2
 MX_PUE_21215,Q3892831,,MX,Mexico,PUE,Puebla,21215,Zongozotla,,,MX,MEX,2
 MX_PUE_21216,Q10838571,,MX,Mexico,PUE,Puebla,21216,Zoquiapan,,,MX,MEX,2
 MX_PUE_21217,Q2001126,,MX,Mexico,PUE,Puebla,21217,Zoquitlán,,,MX,MEX,2
-MX_QUE,Q79754,,MX,Mexico,QUE,Querétaro,,,,,MX,MEX,1
+MX_QUE,Q79754,iso/MX-QUE,MX,Mexico,QUE,Querétaro,,,,,MX,MEX,1
 MX_QUE_22001,Q16250988,,MX,Mexico,QUE,Querétaro,22001,Amealco de Bonfil,,,MX,MEX,2
 MX_QUE_22002,Q3844949,,MX,Mexico,QUE,Querétaro,22002,Pinal de Amoles,,,MX,MEX,2
 MX_QUE_22003,Q3848908,,MX,Mexico,QUE,Querétaro,22003,Arroyo Seco,,,MX,MEX,2
@@ -11823,7 +11823,7 @@ MX_QUE_22015,Q3849478,,MX,Mexico,QUE,Querétaro,22015,San Joaquín,,,MX,MEX,2
 MX_QUE_22016,Q3849473,,MX,Mexico,QUE,Querétaro,22016,San Juan del Río,,,MX,MEX,2
 MX_QUE_22017,Q5265151,,MX,Mexico,QUE,Querétaro,22017,Tequisquiapan,,,MX,MEX,2
 MX_QUE_22018,Q3849710,,MX,Mexico,QUE,Querétaro,22018,Tolimán,,,MX,MEX,2
-MX_ROO,Q80245,,MX,Mexico,ROO,Quintana Roo,,,,,MX,MEX,1
+MX_ROO,Q80245,iso/MX-ROO,MX,Mexico,ROO,Quintana Roo,,,,,MX,MEX,1
 MX_ROO_23001,Q26810461,,MX,Mexico,ROO,Quintana Roo,23001,Cozumel,,,MX,MEX,2
 MX_ROO_23002,Q1660454,,MX,Mexico,ROO,Quintana Roo,23002,Felipe Carrillo Puerto,,,MX,MEX,2
 MX_ROO_23003,Q927815,,MX,Mexico,ROO,Quintana Roo,23003,Isla Mujeres,,,MX,MEX,2
@@ -11835,7 +11835,7 @@ MX_ROO_23008,Q677463,,MX,Mexico,ROO,Quintana Roo,23008,Solidaridad,,,MX,MEX,2
 MX_ROO_23009,Q1709171,,MX,Mexico,ROO,Quintana Roo,23009,Tulum,,,MX,MEX,2
 MX_ROO_23010,Q1709178,,MX,Mexico,ROO,Quintana Roo,23010,Bacalar,,,MX,MEX,2
 MX_ROO_23011,Q21451666,,MX,Mexico,ROO,Quintana Roo,23011,Puerto Morelos,,,MX,MEX,2
-MX_SIN,Q80252,,MX,Mexico,SIN,Sinaloa,,,,,MX,MEX,1
+MX_SIN,Q80252,iso/MX-SIN,MX,Mexico,SIN,Sinaloa,,,,,MX,MEX,1
 MX_SIN_25001,Q2015779,,MX,Mexico,SIN,Sinaloa,25001,Ahome,,,MX,MEX,2
 MX_SIN_25002,Q2038545,,MX,Mexico,SIN,Sinaloa,25002,Angostura,,,MX,MEX,2
 MX_SIN_25003,Q13583603,,MX,Mexico,SIN,Sinaloa,25003,Badiraguato,,,MX,MEX,2
@@ -11854,7 +11854,7 @@ MX_SIN_25015,Q2302635,,MX,Mexico,SIN,Sinaloa,25015,Salvador Alvarado,,,MX,MEX,2
 MX_SIN_25016,Q2592307,,MX,Mexico,SIN,Sinaloa,25016,San Ignacio,,,MX,MEX,2
 MX_SIN_25017,Q3501179,,MX,Mexico,SIN,Sinaloa,25017,Sinaloa,,,MX,MEX,2
 MX_SIN_25018,Q2652478,,MX,Mexico,SIN,Sinaloa,25018,Navolato,,,MX,MEX,2
-MX_SLP,Q78980,,MX,Mexico,SLP,San Luis Potosí,,,,,MX,MEX,1
+MX_SLP,Q78980,iso/MX-SLP,MX,Mexico,SLP,San Luis Potosí,,,,,MX,MEX,1
 MX_SLP_24001,,,MX,Mexico,SLP,San Luis Potosí,24001,Ahualulco,,,MX,MEX,2
 MX_SLP_24002,Q5662309,,MX,Mexico,SLP,San Luis Potosí,24002,Alaquines,,,MX,MEX,2
 MX_SLP_24003,Q3311830,,MX,Mexico,SLP,San Luis Potosí,24003,Aquismón,,,MX,MEX,2
@@ -11913,7 +11913,7 @@ MX_SLP_24055,Q10394922,,MX,Mexico,SLP,San Luis Potosí,24055,Zaragoza,,,MX,MEX,2
 MX_SLP_24056,Q7930541,,MX,Mexico,SLP,San Luis Potosí,24056,Villa De Arista,,,MX,MEX,2
 MX_SLP_24057,Q1192820,,MX,Mexico,SLP,San Luis Potosí,24057,Matlapa,,,MX,MEX,2
 MX_SLP_24058,Q3849143,,MX,Mexico,SLP,San Luis Potosí,24058,El Naranjo,,,MX,MEX,2
-MX_SON,Q46422,,MX,Mexico,SON,Sonora,,,,,MX,MEX,1
+MX_SON,Q46422,iso/MX-SON,MX,Mexico,SON,Sonora,,,,,MX,MEX,1
 MX_SON_26001,,,MX,Mexico,SON,Sonora,26001,Aconchi,,,MX,MEX,2
 MX_SON_26002,,,MX,Mexico,SON,Sonora,26002,Agua Prieta,,,MX,MEX,2
 MX_SON_26003,,,MX,Mexico,SON,Sonora,26003,Alamos,,,MX,MEX,2
@@ -11986,7 +11986,7 @@ MX_SON_26069,,,MX,Mexico,SON,Sonora,26069,Yécora,,,MX,MEX,2
 MX_SON_26070,,,MX,Mexico,SON,Sonora,26070,General Plutarco Elías Calles,,,MX,MEX,2
 MX_SON_26071,Q1760111,,MX,Mexico,SON,Sonora,26071,Benito Juárez,,,MX,MEX,2
 MX_SON_26072,,,MX,Mexico,SON,Sonora,26072,San Ignacio Río Muerto,,,MX,MEX,2
-MX_TAB,Q80914,,MX,Mexico,TAB,Tabasco,,,,,MX,MEX,1
+MX_TAB,Q80914,iso/MX-TAB,MX,Mexico,TAB,Tabasco,,,,,MX,MEX,1
 MX_TAB_27001,Q2669506,,MX,Mexico,TAB,Tabasco,27001,Balancán,,,MX,MEX,2
 MX_TAB_27002,Q2977873,,MX,Mexico,TAB,Tabasco,27002,Cárdenas,,,MX,MEX,2
 MX_TAB_27003,Q2991336,,MX,Mexico,TAB,Tabasco,27003,Centla,,,MX,MEX,2
@@ -12004,7 +12004,7 @@ MX_TAB_27014,Q2670203,,MX,Mexico,TAB,Tabasco,27014,Paraíso,,,MX,MEX,2
 MX_TAB_27015,Q2669523,,MX,Mexico,TAB,Tabasco,27015,Tacotalpa,,,MX,MEX,2
 MX_TAB_27016,Q2977908,,MX,Mexico,TAB,Tabasco,27016,Teapa,,,MX,MEX,2
 MX_TAB_27017,Q3850309,,MX,Mexico,TAB,Tabasco,27017,Tenosique,,,MX,MEX,2
-MX_TAM,Q80007,,MX,Mexico,TAM,Tamaulipas,,,,,MX,MEX,1
+MX_TAM,Q80007,iso/MX-TAM,MX,Mexico,TAM,Tamaulipas,,,,,MX,MEX,1
 MX_TAM_28001,Q4663551,,MX,Mexico,TAM,Tamaulipas,28001,Abasolo,,,MX,MEX,2
 MX_TAM_28002,Q1999574,,MX,Mexico,TAM,Tamaulipas,28002,Aldama,,,MX,MEX,2
 MX_TAM_28003,Q2475148,,MX,Mexico,TAM,Tamaulipas,28003,Altamira,,,MX,MEX,2
@@ -12048,7 +12048,7 @@ MX_TAM_28040,Q17075269,,MX,Mexico,TAM,Tamaulipas,28040,Valle Hermoso,,,MX,MEX,2
 MX_TAM_28041,Q7926884,,MX,Mexico,TAM,Tamaulipas,28041,Victoria,,,MX,MEX,2
 MX_TAM_28042,Q3845936,,MX,Mexico,TAM,Tamaulipas,28042,Villagrán,,,MX,MEX,2
 MX_TAM_28043,Q3848895,,MX,Mexico,TAM,Tamaulipas,28043,Xicoténcatl,,,MX,MEX,2
-MX_TLA,Q82681,,MX,Mexico,TLA,Tlaxcala,,,,,MX,MEX,1
+MX_TLA,Q82681,iso/MX-TLA,MX,Mexico,TLA,Tlaxcala,,,,,MX,MEX,1
 MX_TLA_29001,Q4740701,,MX,Mexico,TLA,Tlaxcala,29001,Amaxac de Guerrero,,,MX,MEX,2
 MX_TLA_29002,Q3846695,,MX,Mexico,TLA,Tlaxcala,29002,Apetatitlán de Antonio Carvajal,,,MX,MEX,2
 MX_TLA_29003,Q4815955,,MX,Mexico,TLA,Tlaxcala,29003,Atlangatepec,,,MX,MEX,2
@@ -12109,7 +12109,7 @@ MX_TLA_29057,Q7419202,,MX,Mexico,TLA,Tlaxcala,29057,Santa Apolonia Teacalco,,,MX
 MX_TLA_29058,Q7419280,,MX,Mexico,TLA,Tlaxcala,29058,Santa Catarina Ayometla,,,MX,MEX,2
 MX_TLA_29059,Q7419426,,MX,Mexico,TLA,Tlaxcala,29059,Santa Cruz Quilehtla,,,MX,MEX,2
 MX_TLA_29060,Q7419630,,MX,Mexico,TLA,Tlaxcala,29060,Santa Isabel Xiloxoxtla,,,MX,MEX,2
-MX_VER,Q60130,,MX,Mexico,VER,Veracruz,,,,,MX,MEX,1
+MX_VER,Q60130,iso/MX-VER,MX,Mexico,VER,Veracruz,,,,,MX,MEX,1
 MX_VER_30001,Q4671655,,MX,Mexico,VER,Veracruz,30001,Acajete,,,MX,MEX,2
 MX_VER_30002,Q8186764,,MX,Mexico,VER,Veracruz,30002,Acatlán,,,MX,MEX,2
 MX_VER_30003,Q11150581,,MX,Mexico,VER,Veracruz,30003,Acayucan,,,MX,MEX,2
@@ -12233,7 +12233,7 @@ MX_VER_30120,Q3846674,,MX,Mexico,VER,Veracruz,30120,Oteapan,,,MX,MEX,2
 MX_VER_30121,Q7116693,,MX,Mexico,VER,Veracruz,30121,Ozuluama de Mascareñas,,,MX,MEX,2
 MX_VER_30122,Q3846775,,MX,Mexico,VER,Veracruz,30122,Pajapan,,,MX,MEX,2
 MX_VER_30123,Q7339941,,MX,Mexico,VER,Veracruz,30123,Pánuco,,,MX,MEX,2
-MX_VER_30124,Q23677498,,MX,Mexico,VER,Veracruz,30124,Q20270904,,,MX,MEX,2
+MX_VER_30124,Q20270904,,MX,Mexico,VER,Veracruz,30124,Q20270904,,,MX,MEX,2
 MX_VER_30125,Q2448381,,MX,Mexico,VER,Veracruz,30125,Paso del Macho,,,MX,MEX,2
 MX_VER_30126,Q20270905,,MX,Mexico,VER,Veracruz,30126,Paso de Ovejas,,,MX,MEX,2
 MX_VER_30127,Q6464363,,MX,Mexico,VER,Veracruz,30127,La Perla,,,MX,MEX,2
@@ -12322,7 +12322,7 @@ MX_VER_30209,Q5665948,,MX,Mexico,VER,Veracruz,30209,Tatahuicapan,,,MX,MEX,2
 MX_VER_30210,Q3847011,,MX,Mexico,VER,Veracruz,30210,Uxpanapa,,,MX,MEX,2
 MX_VER_30211,Q18555530,,MX,Mexico,VER,Veracruz,30211,San Rafael,,,MX,MEX,2
 MX_VER_30212,Q6954041,,MX,Mexico,VER,Veracruz,30212,Santiago Sochiapan,,,MX,MEX,2
-MX_YUC,Q60176,,MX,Mexico,YUC,Yucatán,,,,,MX,MEX,1
+MX_YUC,Q60176,iso/MX-YUC,MX,Mexico,YUC,Yucatán,,,,,MX,MEX,1
 MX_YUC_31001,Q2991303,,MX,Mexico,YUC,Yucatán,31001,Abalá,,,MX,MEX,2
 MX_YUC_31002,Q2672565,,MX,Mexico,YUC,Yucatán,31002,Acanceh,,,MX,MEX,2
 MX_YUC_31003,Q2575611,,MX,Mexico,YUC,Yucatán,31003,Akil,,,MX,MEX,2
@@ -12429,7 +12429,7 @@ MX_YUC_31103,Q2588160,,MX,Mexico,YUC,Yucatán,31103,Xocchel,,,MX,MEX,2
 MX_YUC_31104,Q2576158,,MX,Mexico,YUC,Yucatán,31104,Yaxcabá,,,MX,MEX,2
 MX_YUC_31105,Q2588068,,MX,Mexico,YUC,Yucatán,31105,Yaxkukul,,,MX,MEX,2
 MX_YUC_31106,Q2588184,,MX,Mexico,YUC,Yucatán,31106,Yobaín,,,MX,MEX,2
-MX_ZAC,Q80269,,MX,Mexico,ZAC,Zacatecas,,,,,MX,MEX,1
+MX_ZAC,Q80269,iso/MX-ZAC,MX,Mexico,ZAC,Zacatecas,,,,,MX,MEX,1
 MX_ZAC_32001,Q2651802,,MX,Mexico,ZAC,Zacatecas,32001,Apozol,,,MX,MEX,2
 MX_ZAC_32002,Q2651744,,MX,Mexico,ZAC,Zacatecas,32002,Apulco,,,MX,MEX,2
 MX_ZAC_32003,Q4817184,,MX,Mexico,ZAC,Zacatecas,32003,Atolinga,,,MX,MEX,2
@@ -16756,6 +16756,8 @@ US_MO_29227,Q497971,geoId/29227,US,United States of America,MO,Missouri,29227,Wo
 US_MO_29229,Q284806,geoId/29229,US,United States of America,MO,Missouri,29229,Wright County,,,US,USA,2
 US_MO_29510,Q38022,geoId/29510,US,United States of America,MO,Missouri,29510,St. Louis,,,US,USA,2
 US_MP,Q16644,country/MNP,US,United States of America,MP,Northern Mariana Islands,,,,,US,USA,1
+US_MP_69110,Q51679,geoId/69110,US,United States of America,MP,Northern Mariana Islands,69110,Saipan,,,US,USA,2
+US_MP_69120,Q325652,geoId/69120,US,United States of America,MP,Northern Mariana Islands,69120,Tinian,,,US,USA,2
 US_MS,Q1494,geoId/28,US,United States of America,MS,Mississippi,,,,,US,USA,1
 US_MS_28001,Q108788,geoId/28001,US,United States of America,MS,Mississippi,28001,Adams County,,,US,USA,2
 US_MS_28003,Q111286,geoId/28003,US,United States of America,MS,Mississippi,28003,Alcorn County,,,US,USA,2
@@ -18281,6 +18283,9 @@ US_VA_51820,Q501779,geoId/51820,US,United States of America,VA,Virginia,51820,Wa
 US_VA_51830,Q492346,geoId/51830,US,United States of America,VA,Virginia,51830,Williamsburg,,,US,USA,2
 US_VA_51840,Q492355,geoId/51840,US,United States of America,VA,Virginia,51840,Winchester,,,US,USA,2
 US_VI,Q11703,country/VIR,US,United States of America,VI,Virgin Islands,,,,,US,USA,1
+US_VI_78010,Q642481,geoid/78010,US,United States of America,VI,Virgin Islands,78010,Saint Croix,,,US,USA,2
+US_VI_78020,Q849441,geoid/78020,US,United States of America,VI,Virgin Islands,78020,Saint John,,,US,USA,2
+US_VI_78030,Q463937,geoid/78030,US,United States of America,VI,Virgin Islands,78030,Saint Thomas,,,US,USA,2
 US_VT,Q16551,geoId/50,US,United States of America,VT,Vermont,,,,,US,USA,1
 US_VT_50001,Q353108,geoId/50001,US,United States of America,VT,Vermont,50001,Addison County,,,US,USA,2
 US_VT_50003,Q511647,geoId/50003,US,United States of America,VT,Vermont,50003,Bennington County,,,US,USA,2
