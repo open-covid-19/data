@@ -6507,368 +6507,368 @@ CH_ZH,Q11943,nuts/CH040,CH,Switzerland,ZH,Zürich,,,,,CH,CHE,1
 CI,Q1008,country/CIV,CI,Ivory Coast,,,,,,,CI,CIV,0
 CK,Q26988,country/COK,CK,Cook Islands,,,,,,,CK,COK,0
 CL,Q298,country/CHL,CL,Chile,,,,,,,CL,CHL,0
-CL_AI,Q2181,,CL,Chile,AI,Aysén,,,,,CL,CHL,1
-CL_AI_11101,,,CL,Chile,AI,Aysén,11101,Coyhaique,,,CL,CHL,2
-CL_AI_11102,,,CL,Chile,AI,Aysén,11102,Lago Verde,,,CL,CHL,2
-CL_AI_11201,,,CL,Chile,AI,Aysén,11201,Aysén,,,CL,CHL,2
-CL_AI_11202,,,CL,Chile,AI,Aysén,11202,Cisnes,,,CL,CHL,2
-CL_AI_11203,,,CL,Chile,AI,Aysén,11203,Guaitecas,,,CL,CHL,2
-CL_AI_11301,,,CL,Chile,AI,Aysén,11301,Cochrane,,,CL,CHL,2
-CL_AI_11302,,,CL,Chile,AI,Aysén,11302,O'Higgins,,,CL,CHL,2
-CL_AI_11303,,,CL,Chile,AI,Aysén,11303,Tortel,,,CL,CHL,2
-CL_AI_11401,,,CL,Chile,AI,Aysén,11401,Chile Chico,,,CL,CHL,2
-CL_AI_11402,,,CL,Chile,AI,Aysén,11402,Río Ibáñez,,,CL,CHL,2
-CL_AN,Q2118,,CL,Chile,AN,Antofagasta,,,,,CL,CHL,1
-CL_AN_02101,,,CL,Chile,AN,Antofagasta,02101,Antofagasta,,,CL,CHL,2
-CL_AN_02102,,,CL,Chile,AN,Antofagasta,02102,Mejillones,,,CL,CHL,2
-CL_AN_02103,,,CL,Chile,AN,Antofagasta,02103,Sierra Gorda,,,CL,CHL,2
-CL_AN_02104,,,CL,Chile,AN,Antofagasta,02104,Taltal,,,CL,CHL,2
-CL_AN_02201,,,CL,Chile,AN,Antofagasta,02201,Calama,,,CL,CHL,2
-CL_AN_02202,,,CL,Chile,AN,Antofagasta,02202,Ollagüe,,,CL,CHL,2
-CL_AN_02203,,,CL,Chile,AN,Antofagasta,02203,San Pedro de Atacama,,,CL,CHL,2
-CL_AN_02301,,,CL,Chile,AN,Antofagasta,02301,Tocopilla,,,CL,CHL,2
-CL_AN_02302,,,CL,Chile,AN,Antofagasta,02302,María Elena,,,CL,CHL,2
-CL_AP,Q2109,,CL,Chile,AP,Arica y Parinacota,,,,,CL,CHL,1
-CL_AP_15101,,,CL,Chile,AP,Arica y Parinacota,15101,Arica,,,CL,CHL,2
-CL_AP_15102,,,CL,Chile,AP,Arica y Parinacota,15102,Camarones,,,CL,CHL,2
-CL_AP_15201,,,CL,Chile,AP,Arica y Parinacota,15201,Putre,,,CL,CHL,2
-CL_AP_15202,,,CL,Chile,AP,Arica y Parinacota,15202,General Lagos,,,CL,CHL,2
-CL_AR,Q2176,,CL,Chile,AR,Araucanía,,,,,CL,CHL,1
-CL_AR_09101,,,CL,Chile,AR,Araucanía,09101,Temuco,,,CL,CHL,2
-CL_AR_09102,,,CL,Chile,AR,Araucanía,09102,Carahue,,,CL,CHL,2
-CL_AR_09103,,,CL,Chile,AR,Araucanía,09103,Cunco,,,CL,CHL,2
-CL_AR_09104,,,CL,Chile,AR,Araucanía,09104,Curarrehue,,,CL,CHL,2
-CL_AR_09105,,,CL,Chile,AR,Araucanía,09105,Freire,,,CL,CHL,2
-CL_AR_09106,,,CL,Chile,AR,Araucanía,09106,Galvarino,,,CL,CHL,2
-CL_AR_09107,,,CL,Chile,AR,Araucanía,09107,Gorbea,,,CL,CHL,2
-CL_AR_09108,,,CL,Chile,AR,Araucanía,09108,Lautaro,,,CL,CHL,2
-CL_AR_09109,,,CL,Chile,AR,Araucanía,09109,Loncoche,,,CL,CHL,2
-CL_AR_09110,,,CL,Chile,AR,Araucanía,09110,Melipeuco,,,CL,CHL,2
-CL_AR_09111,,,CL,Chile,AR,Araucanía,09111,Nueva Imperial,,,CL,CHL,2
-CL_AR_09112,,,CL,Chile,AR,Araucanía,09112,Padre Las Casas,,,CL,CHL,2
-CL_AR_09113,,,CL,Chile,AR,Araucanía,09113,Perquenco,,,CL,CHL,2
-CL_AR_09114,,,CL,Chile,AR,Araucanía,09114,Pitrufquén,,,CL,CHL,2
-CL_AR_09115,,,CL,Chile,AR,Araucanía,09115,Pucón,,,CL,CHL,2
-CL_AR_09116,,,CL,Chile,AR,Araucanía,09116,Saavedra,,,CL,CHL,2
-CL_AR_09117,,,CL,Chile,AR,Araucanía,09117,Teodoro Schmidt,,,CL,CHL,2
-CL_AR_09118,,,CL,Chile,AR,Araucanía,09118,Toltén,,,CL,CHL,2
-CL_AR_09119,,,CL,Chile,AR,Araucanía,09119,Vilcún,,,CL,CHL,2
-CL_AR_09120,,,CL,Chile,AR,Araucanía,09120,Villarrica,,,CL,CHL,2
-CL_AR_09121,,,CL,Chile,AR,Araucanía,09121,Cholchol,,,CL,CHL,2
-CL_AR_09201,,,CL,Chile,AR,Araucanía,09201,Angol,,,CL,CHL,2
-CL_AR_09202,,,CL,Chile,AR,Araucanía,09202,Collipulli,,,CL,CHL,2
-CL_AR_09203,,,CL,Chile,AR,Araucanía,09203,Curacautín,,,CL,CHL,2
-CL_AR_09204,,,CL,Chile,AR,Araucanía,09204,Ercilla,,,CL,CHL,2
-CL_AR_09205,,,CL,Chile,AR,Araucanía,09205,Lonquimay,,,CL,CHL,2
-CL_AR_09206,,,CL,Chile,AR,Araucanía,09206,Los Sauces,,,CL,CHL,2
-CL_AR_09207,,,CL,Chile,AR,Araucanía,09207,Lumaco,,,CL,CHL,2
-CL_AR_09208,,,CL,Chile,AR,Araucanía,09208,Purén,,,CL,CHL,2
-CL_AR_09209,,,CL,Chile,AR,Araucanía,09209,Renaico,,,CL,CHL,2
-CL_AR_09210,,,CL,Chile,AR,Araucanía,09210,Traiguén,,,CL,CHL,2
-CL_AR_09211,,,CL,Chile,AR,Araucanía,09211,Victoria,,,CL,CHL,2
-CL_AT,Q2120,,CL,Chile,AT,Atacama,,,,,CL,CHL,1
-CL_AT_03101,,,CL,Chile,AT,Atacama,03101,Copiapó,,,CL,CHL,2
-CL_AT_03102,,,CL,Chile,AT,Atacama,03102,Caldera,,,CL,CHL,2
-CL_AT_03103,,,CL,Chile,AT,Atacama,03103,Tierra Amarilla,,,CL,CHL,2
-CL_AT_03201,,,CL,Chile,AT,Atacama,03201,Chañaral,,,CL,CHL,2
-CL_AT_03202,,,CL,Chile,AT,Atacama,03202,Diego de Almagro,,,CL,CHL,2
-CL_AT_03301,,,CL,Chile,AT,Atacama,03301,Vallenar,,,CL,CHL,2
-CL_AT_03302,,,CL,Chile,AT,Atacama,03302,Alto del Carmen,,,CL,CHL,2
-CL_AT_03303,,,CL,Chile,AT,Atacama,03303,Freirina,,,CL,CHL,2
-CL_AT_03304,,,CL,Chile,AT,Atacama,03304,Huasco,,,CL,CHL,2
-CL_BI,Q2170,,CL,Chile,BI,Biobío,,,,,CL,CHL,1
-CL_BI_08101,,,CL,Chile,BI,Biobío,08101,Concepción,,,CL,CHL,2
-CL_BI_08102,,,CL,Chile,BI,Biobío,08102,Coronel,,,CL,CHL,2
-CL_BI_08103,,,CL,Chile,BI,Biobío,08103,Chiguayante,,,CL,CHL,2
-CL_BI_08104,,,CL,Chile,BI,Biobío,08104,Florida,,,CL,CHL,2
-CL_BI_08105,,,CL,Chile,BI,Biobío,08105,Hualqui,,,CL,CHL,2
-CL_BI_08106,,,CL,Chile,BI,Biobío,08106,Lota,,,CL,CHL,2
-CL_BI_08107,,,CL,Chile,BI,Biobío,08107,Penco,,,CL,CHL,2
-CL_BI_08108,,,CL,Chile,BI,Biobío,08108,San Pedro de La Paz,,,CL,CHL,2
-CL_BI_08109,,,CL,Chile,BI,Biobío,08109,Santa Juana,,,CL,CHL,2
-CL_BI_08110,,,CL,Chile,BI,Biobío,08110,Talcahuano,,,CL,CHL,2
-CL_BI_08111,,,CL,Chile,BI,Biobío,08111,Tomé,,,CL,CHL,2
-CL_BI_08112,,,CL,Chile,BI,Biobío,08112,Hualpén,,,CL,CHL,2
-CL_BI_08201,,,CL,Chile,BI,Biobío,08201,Lebu,,,CL,CHL,2
-CL_BI_08202,,,CL,Chile,BI,Biobío,08202,Arauco,,,CL,CHL,2
-CL_BI_08203,,,CL,Chile,BI,Biobío,08203,Cañete,,,CL,CHL,2
-CL_BI_08204,,,CL,Chile,BI,Biobío,08204,Contulmo,,,CL,CHL,2
-CL_BI_08205,,,CL,Chile,BI,Biobío,08205,Curanilahue,,,CL,CHL,2
-CL_BI_08206,,,CL,Chile,BI,Biobío,08206,Los Álamos,,,CL,CHL,2
-CL_BI_08207,,,CL,Chile,BI,Biobío,08207,Tirúa,,,CL,CHL,2
-CL_BI_08301,,,CL,Chile,BI,Biobío,08301,Los Ángeles,,,CL,CHL,2
-CL_BI_08302,,,CL,Chile,BI,Biobío,08302,Antuco,,,CL,CHL,2
-CL_BI_08303,,,CL,Chile,BI,Biobío,08303,Cabrero,,,CL,CHL,2
-CL_BI_08304,,,CL,Chile,BI,Biobío,08304,Laja,,,CL,CHL,2
-CL_BI_08305,,,CL,Chile,BI,Biobío,08305,Mulchén,,,CL,CHL,2
-CL_BI_08306,,,CL,Chile,BI,Biobío,08306,Nacimiento,,,CL,CHL,2
-CL_BI_08307,,,CL,Chile,BI,Biobío,08307,Negrete,,,CL,CHL,2
-CL_BI_08308,,,CL,Chile,BI,Biobío,08308,Quilaco,,,CL,CHL,2
-CL_BI_08309,,,CL,Chile,BI,Biobío,08309,Quilleco,,,CL,CHL,2
-CL_BI_08310,,,CL,Chile,BI,Biobío,08310,San Rosendo,,,CL,CHL,2
-CL_BI_08311,,,CL,Chile,BI,Biobío,08311,Santa Bárbara,,,CL,CHL,2
-CL_BI_08312,,,CL,Chile,BI,Biobío,08312,Tucapel,,,CL,CHL,2
-CL_BI_08313,,,CL,Chile,BI,Biobío,08313,Yumbel,,,CL,CHL,2
-CL_BI_08314,,,CL,Chile,BI,Biobío,08314,Alto Biobío,,,CL,CHL,2
-CL_CO,Q2121,,CL,Chile,CO,Coquimbo,,,,,CL,CHL,1
-CL_CO_04101,,,CL,Chile,CO,Coquimbo,04101,La Serena,,,CL,CHL,2
-CL_CO_04102,,,CL,Chile,CO,Coquimbo,04102,Coquimbo,,,CL,CHL,2
-CL_CO_04103,,,CL,Chile,CO,Coquimbo,04103,Andacollo,,,CL,CHL,2
-CL_CO_04104,,,CL,Chile,CO,Coquimbo,04104,La Higuera,,,CL,CHL,2
-CL_CO_04105,,,CL,Chile,CO,Coquimbo,04105,Paihuano,,,CL,CHL,2
-CL_CO_04106,,,CL,Chile,CO,Coquimbo,04106,Vicuña,,,CL,CHL,2
-CL_CO_04201,,,CL,Chile,CO,Coquimbo,04201,Illapel,,,CL,CHL,2
-CL_CO_04202,,,CL,Chile,CO,Coquimbo,04202,Canela,,,CL,CHL,2
-CL_CO_04203,,,CL,Chile,CO,Coquimbo,04203,Los Vilos,,,CL,CHL,2
-CL_CO_04204,,,CL,Chile,CO,Coquimbo,04204,Salamanca,,,CL,CHL,2
-CL_CO_04301,,,CL,Chile,CO,Coquimbo,04301,Ovalle,,,CL,CHL,2
-CL_CO_04302,,,CL,Chile,CO,Coquimbo,04302,Combarbalá,,,CL,CHL,2
-CL_CO_04303,,,CL,Chile,CO,Coquimbo,04303,Monte Patria,,,CL,CHL,2
-CL_CO_04304,,,CL,Chile,CO,Coquimbo,04304,Punitaqui,,,CL,CHL,2
-CL_CO_04305,,,CL,Chile,CO,Coquimbo,04305,Río Hurtado,,,CL,CHL,2
-CL_LI,Q2133,,CL,Chile,LI,O'Higgins,,,,,CL,CHL,1
-CL_LI_06101,,,CL,Chile,LI,O'Higgins,06101,Rancagua,,,CL,CHL,2
-CL_LI_06102,,,CL,Chile,LI,O'Higgins,06102,Codegua,,,CL,CHL,2
-CL_LI_06103,,,CL,Chile,LI,O'Higgins,06103,Coinco,,,CL,CHL,2
-CL_LI_06104,,,CL,Chile,LI,O'Higgins,06104,Coltauco,,,CL,CHL,2
-CL_LI_06105,,,CL,Chile,LI,O'Higgins,06105,Doñihue,,,CL,CHL,2
-CL_LI_06106,,,CL,Chile,LI,O'Higgins,06106,Graneros,,,CL,CHL,2
-CL_LI_06107,,,CL,Chile,LI,O'Higgins,06107,Las Cabras,,,CL,CHL,2
-CL_LI_06108,,,CL,Chile,LI,O'Higgins,06108,Machalí,,,CL,CHL,2
-CL_LI_06109,,,CL,Chile,LI,O'Higgins,06109,Malloa,,,CL,CHL,2
-CL_LI_06110,,,CL,Chile,LI,O'Higgins,06110,Mostazal,,,CL,CHL,2
-CL_LI_06111,,,CL,Chile,LI,O'Higgins,06111,Olivar,,,CL,CHL,2
-CL_LI_06112,,,CL,Chile,LI,O'Higgins,06112,Peumo,,,CL,CHL,2
-CL_LI_06113,,,CL,Chile,LI,O'Higgins,06113,Pichidegua,,,CL,CHL,2
-CL_LI_06114,,,CL,Chile,LI,O'Higgins,06114,Quinta de Tilcoco,,,CL,CHL,2
-CL_LI_06115,,,CL,Chile,LI,O'Higgins,06115,Rengo,,,CL,CHL,2
-CL_LI_06116,,,CL,Chile,LI,O'Higgins,06116,Requínoa,,,CL,CHL,2
-CL_LI_06117,,,CL,Chile,LI,O'Higgins,06117,San Vicente,,,CL,CHL,2
-CL_LI_06201,,,CL,Chile,LI,O'Higgins,06201,Pichilemu,,,CL,CHL,2
-CL_LI_06202,,,CL,Chile,LI,O'Higgins,06202,La Estrella,,,CL,CHL,2
-CL_LI_06203,,,CL,Chile,LI,O'Higgins,06203,Litueche,,,CL,CHL,2
-CL_LI_06204,,,CL,Chile,LI,O'Higgins,06204,Marchihue,,,CL,CHL,2
-CL_LI_06205,,,CL,Chile,LI,O'Higgins,06205,Navidad,,,CL,CHL,2
-CL_LI_06206,,,CL,Chile,LI,O'Higgins,06206,Paredones,,,CL,CHL,2
-CL_LI_06301,,,CL,Chile,LI,O'Higgins,06301,San Fernando,,,CL,CHL,2
-CL_LI_06302,,,CL,Chile,LI,O'Higgins,06302,Chépica,,,CL,CHL,2
-CL_LI_06303,,,CL,Chile,LI,O'Higgins,06303,Chimbarongo,,,CL,CHL,2
-CL_LI_06304,,,CL,Chile,LI,O'Higgins,06304,Lolol,,,CL,CHL,2
-CL_LI_06305,,,CL,Chile,LI,O'Higgins,06305,Nancagua,,,CL,CHL,2
-CL_LI_06306,,,CL,Chile,LI,O'Higgins,06306,Palmilla,,,CL,CHL,2
-CL_LI_06307,,,CL,Chile,LI,O'Higgins,06307,Peralillo,,,CL,CHL,2
-CL_LI_06308,,,CL,Chile,LI,O'Higgins,06308,Placilla,,,CL,CHL,2
-CL_LI_06309,,,CL,Chile,LI,O'Higgins,06309,Pumanque,,,CL,CHL,2
-CL_LI_06310,,,CL,Chile,LI,O'Higgins,06310,Santa Cruz,,,CL,CHL,2
-CL_LL,Q2178,,CL,Chile,LL,Los Lagos,,,,,CL,CHL,1
-CL_LL_10101,,,CL,Chile,LL,Los Lagos,10101,Puerto Montt,,,CL,CHL,2
-CL_LL_10102,,,CL,Chile,LL,Los Lagos,10102,Calbuco,,,CL,CHL,2
-CL_LL_10103,,,CL,Chile,LL,Los Lagos,10103,Cochamó,,,CL,CHL,2
-CL_LL_10104,,,CL,Chile,LL,Los Lagos,10104,Fresia,,,CL,CHL,2
-CL_LL_10105,,,CL,Chile,LL,Los Lagos,10105,Frutillar,,,CL,CHL,2
-CL_LL_10106,,,CL,Chile,LL,Los Lagos,10106,Los Muermos,,,CL,CHL,2
-CL_LL_10107,,,CL,Chile,LL,Los Lagos,10107,Llanquihue,,,CL,CHL,2
-CL_LL_10108,,,CL,Chile,LL,Los Lagos,10108,Maullín,,,CL,CHL,2
-CL_LL_10109,,,CL,Chile,LL,Los Lagos,10109,Puerto Varas,,,CL,CHL,2
-CL_LL_10201,,,CL,Chile,LL,Los Lagos,10201,Castro,,,CL,CHL,2
-CL_LL_10202,,,CL,Chile,LL,Los Lagos,10202,Ancud,,,CL,CHL,2
-CL_LL_10203,,,CL,Chile,LL,Los Lagos,10203,Chonchi,,,CL,CHL,2
-CL_LL_10204,,,CL,Chile,LL,Los Lagos,10204,Curaco de Vélez,,,CL,CHL,2
-CL_LL_10205,,,CL,Chile,LL,Los Lagos,10205,Dalcahue,,,CL,CHL,2
-CL_LL_10206,,,CL,Chile,LL,Los Lagos,10206,Puqueldón,,,CL,CHL,2
-CL_LL_10207,,,CL,Chile,LL,Los Lagos,10207,Queilén,,,CL,CHL,2
-CL_LL_10208,,,CL,Chile,LL,Los Lagos,10208,Quellón,,,CL,CHL,2
-CL_LL_10209,,,CL,Chile,LL,Los Lagos,10209,Quemchi,,,CL,CHL,2
-CL_LL_10210,,,CL,Chile,LL,Los Lagos,10210,Quinchao,,,CL,CHL,2
-CL_LL_10301,,,CL,Chile,LL,Los Lagos,10301,Osorno,,,CL,CHL,2
-CL_LL_10302,,,CL,Chile,LL,Los Lagos,10302,Puerto Octay,,,CL,CHL,2
-CL_LL_10303,,,CL,Chile,LL,Los Lagos,10303,Purranque,,,CL,CHL,2
-CL_LL_10304,,,CL,Chile,LL,Los Lagos,10304,Puyehue,,,CL,CHL,2
-CL_LL_10305,,,CL,Chile,LL,Los Lagos,10305,Río Negro,,,CL,CHL,2
-CL_LL_10306,,,CL,Chile,LL,Los Lagos,10306,San Juan de la Costa,,,CL,CHL,2
-CL_LL_10307,,,CL,Chile,LL,Los Lagos,10307,San Pablo,,,CL,CHL,2
-CL_LL_10401,,,CL,Chile,LL,Los Lagos,10401,Chaitén,,,CL,CHL,2
-CL_LL_10402,,,CL,Chile,LL,Los Lagos,10402,Futaleufú,,,CL,CHL,2
-CL_LL_10403,,,CL,Chile,LL,Los Lagos,10403,Hualaihué,,,CL,CHL,2
-CL_LL_10404,,,CL,Chile,LL,Los Lagos,10404,Palena,,,CL,CHL,2
-CL_LR,Q2177,,CL,Chile,LR,Los Ríos,,,,,CL,CHL,1
-CL_LR_14101,,,CL,Chile,LR,Los Ríos,14101,Valdivia,,,CL,CHL,2
-CL_LR_14102,,,CL,Chile,LR,Los Ríos,14102,Corral,,,CL,CHL,2
-CL_LR_14103,,,CL,Chile,LR,Los Ríos,14103,Lanco,,,CL,CHL,2
-CL_LR_14104,,,CL,Chile,LR,Los Ríos,14104,Los Lagos,,,CL,CHL,2
-CL_LR_14105,,,CL,Chile,LR,Los Ríos,14105,Máfil,,,CL,CHL,2
-CL_LR_14106,,,CL,Chile,LR,Los Ríos,14106,Mariquina,,,CL,CHL,2
-CL_LR_14107,,,CL,Chile,LR,Los Ríos,14107,Paillaco,,,CL,CHL,2
-CL_LR_14108,,,CL,Chile,LR,Los Ríos,14108,Panguipulli,,,CL,CHL,2
-CL_LR_14201,,,CL,Chile,LR,Los Ríos,14201,La Unión,,,CL,CHL,2
-CL_LR_14202,,,CL,Chile,LR,Los Ríos,14202,Futrono,,,CL,CHL,2
-CL_LR_14203,,,CL,Chile,LR,Los Ríos,14203,Lago Ranco,,,CL,CHL,2
-CL_LR_14204,,,CL,Chile,LR,Los Ríos,14204,Río Bueno,,,CL,CHL,2
-CL_MA,Q684369,,CL,Chile,MA,Magallanes,,,,,CL,CHL,1
-CL_MA_12101,,,CL,Chile,MA,Magallanes,12101,Punta Arenas,,,CL,CHL,2
-CL_MA_12102,,,CL,Chile,MA,Magallanes,12102,Laguna Blanca,,,CL,CHL,2
-CL_MA_12103,,,CL,Chile,MA,Magallanes,12103,Río Verde,,,CL,CHL,2
-CL_MA_12104,,,CL,Chile,MA,Magallanes,12104,San Gregorio,,,CL,CHL,2
-CL_MA_12201,,,CL,Chile,MA,Magallanes,12201,Cabo de Hornos,,,CL,CHL,2
-CL_MA_12202,,,CL,Chile,MA,Magallanes,12202,Antártica,,,CL,CHL,2
-CL_MA_12301,,,CL,Chile,MA,Magallanes,12301,Porvenir,,,CL,CHL,2
-CL_MA_12302,,,CL,Chile,MA,Magallanes,12302,Primavera,,,CL,CHL,2
-CL_MA_12303,,,CL,Chile,MA,Magallanes,12303,Timaukel,,,CL,CHL,2
-CL_MA_12401,,,CL,Chile,MA,Magallanes,12401,Natales,,,CL,CHL,2
-CL_MA_12402,,,CL,Chile,MA,Magallanes,12402,Torres del Paine,,,CL,CHL,2
-CL_ML,Q2166,,CL,Chile,ML,Maule,,,,,CL,CHL,1
-CL_ML_07101,,,CL,Chile,ML,Maule,07101,Talca,,,CL,CHL,2
-CL_ML_07102,,,CL,Chile,ML,Maule,07102,Constitución,,,CL,CHL,2
-CL_ML_07103,,,CL,Chile,ML,Maule,07103,Curepto,,,CL,CHL,2
-CL_ML_07104,,,CL,Chile,ML,Maule,07104,Empedrado,,,CL,CHL,2
-CL_ML_07105,,,CL,Chile,ML,Maule,07105,Maule,,,CL,CHL,2
-CL_ML_07106,,,CL,Chile,ML,Maule,07106,Pelarco,,,CL,CHL,2
-CL_ML_07107,,,CL,Chile,ML,Maule,07107,Pencahue,,,CL,CHL,2
-CL_ML_07108,,,CL,Chile,ML,Maule,07108,Río Claro,,,CL,CHL,2
-CL_ML_07109,,,CL,Chile,ML,Maule,07109,San Clemente,,,CL,CHL,2
-CL_ML_07110,,,CL,Chile,ML,Maule,07110,San Rafael,,,CL,CHL,2
-CL_ML_07201,,,CL,Chile,ML,Maule,07201,Cauquenes,,,CL,CHL,2
-CL_ML_07202,,,CL,Chile,ML,Maule,07202,Chanco,,,CL,CHL,2
-CL_ML_07203,,,CL,Chile,ML,Maule,07203,Pelluhue,,,CL,CHL,2
-CL_ML_07301,,,CL,Chile,ML,Maule,07301,Curicó,,,CL,CHL,2
-CL_ML_07302,,,CL,Chile,ML,Maule,07302,Hualañé,,,CL,CHL,2
-CL_ML_07303,,,CL,Chile,ML,Maule,07303,Licantén,,,CL,CHL,2
-CL_ML_07304,,,CL,Chile,ML,Maule,07304,Molina,,,CL,CHL,2
-CL_ML_07305,,,CL,Chile,ML,Maule,07305,Rauco,,,CL,CHL,2
-CL_ML_07306,,,CL,Chile,ML,Maule,07306,Romeral,,,CL,CHL,2
-CL_ML_07307,,,CL,Chile,ML,Maule,07307,Sagrada Familia,,,CL,CHL,2
-CL_ML_07308,,,CL,Chile,ML,Maule,07308,Teno,,,CL,CHL,2
-CL_ML_07309,,,CL,Chile,ML,Maule,07309,Vichuquén,,,CL,CHL,2
-CL_ML_07401,,,CL,Chile,ML,Maule,07401,Linares,,,CL,CHL,2
-CL_ML_07402,,,CL,Chile,ML,Maule,07402,Colbún,,,CL,CHL,2
-CL_ML_07403,,,CL,Chile,ML,Maule,07403,Longaví,,,CL,CHL,2
-CL_ML_07404,,,CL,Chile,ML,Maule,07404,Parral,,,CL,CHL,2
-CL_ML_07405,,,CL,Chile,ML,Maule,07405,Retiro,,,CL,CHL,2
-CL_ML_07406,,,CL,Chile,ML,Maule,07406,San Javier,,,CL,CHL,2
-CL_ML_07407,,,CL,Chile,ML,Maule,07407,Villa Alegre,,,CL,CHL,2
-CL_ML_07408,,,CL,Chile,ML,Maule,07408,Yerbas Buenas,,,CL,CHL,2
-CL_NB,Q24076693,,CL,Chile,NB,Ñuble,,,,,CL,CHL,1
-CL_NB_16101,,,CL,Chile,NB,Ñuble,16101,Chillán,,,CL,CHL,2
-CL_NB_16102,,,CL,Chile,NB,Ñuble,16102,Bulnes,,,CL,CHL,2
-CL_NB_16103,,,CL,Chile,NB,Ñuble,16103,Chillán Viejo,,,CL,CHL,2
-CL_NB_16104,,,CL,Chile,NB,Ñuble,16104,El Carmen,,,CL,CHL,2
-CL_NB_16105,,,CL,Chile,NB,Ñuble,16105,Pemuco,,,CL,CHL,2
-CL_NB_16106,,,CL,Chile,NB,Ñuble,16106,Pinto,,,CL,CHL,2
-CL_NB_16107,,,CL,Chile,NB,Ñuble,16107,Quillón,,,CL,CHL,2
-CL_NB_16108,,,CL,Chile,NB,Ñuble,16108,San Ignacio,,,CL,CHL,2
-CL_NB_16109,,,CL,Chile,NB,Ñuble,16109,Yungay,,,CL,CHL,2
-CL_NB_16201,,,CL,Chile,NB,Ñuble,16201,Quirihue,,,CL,CHL,2
-CL_NB_16202,,,CL,Chile,NB,Ñuble,16202,Cobquecura,,,CL,CHL,2
-CL_NB_16203,,,CL,Chile,NB,Ñuble,16203,Coelemu,,,CL,CHL,2
-CL_NB_16204,,,CL,Chile,NB,Ñuble,16204,Ninhue,,,CL,CHL,2
-CL_NB_16205,,,CL,Chile,NB,Ñuble,16205,Portezuelo,,,CL,CHL,2
-CL_NB_16206,,,CL,Chile,NB,Ñuble,16206,Ránquil,,,CL,CHL,2
-CL_NB_16207,,,CL,Chile,NB,Ñuble,16207,Treguaco,,,CL,CHL,2
-CL_NB_16301,,,CL,Chile,NB,Ñuble,16301,San Carlos,,,CL,CHL,2
-CL_NB_16302,,,CL,Chile,NB,Ñuble,16302,Coihueco,,,CL,CHL,2
-CL_NB_16303,,,CL,Chile,NB,Ñuble,16303,Ñiquén,,,CL,CHL,2
-CL_NB_16304,,,CL,Chile,NB,Ñuble,16304,San Fabián,,,CL,CHL,2
-CL_NB_16305,,,CL,Chile,NB,Ñuble,16305,San Nicolás,,,CL,CHL,2
-CL_RM,Q2131,,CL,Chile,RM,Santiago Metropolitan Region,,,,,CL,CHL,1
-CL_RM_13101,,,CL,Chile,RM,Santiago Metropolitan Region,13101,Santiago,,,CL,CHL,2
-CL_RM_13102,,,CL,Chile,RM,Santiago Metropolitan Region,13102,Cerrillos,,,CL,CHL,2
-CL_RM_13103,,,CL,Chile,RM,Santiago Metropolitan Region,13103,Cerro Navia,,,CL,CHL,2
-CL_RM_13104,,,CL,Chile,RM,Santiago Metropolitan Region,13104,Conchalí,,,CL,CHL,2
-CL_RM_13105,,,CL,Chile,RM,Santiago Metropolitan Region,13105,El Bosque,,,CL,CHL,2
-CL_RM_13106,,,CL,Chile,RM,Santiago Metropolitan Region,13106,Estación Central,,,CL,CHL,2
-CL_RM_13107,,,CL,Chile,RM,Santiago Metropolitan Region,13107,Huechuraba,,,CL,CHL,2
-CL_RM_13108,,,CL,Chile,RM,Santiago Metropolitan Region,13108,Independencia,,,CL,CHL,2
-CL_RM_13109,,,CL,Chile,RM,Santiago Metropolitan Region,13109,La Cisterna,,,CL,CHL,2
-CL_RM_13110,,,CL,Chile,RM,Santiago Metropolitan Region,13110,La Florida,,,CL,CHL,2
-CL_RM_13111,,,CL,Chile,RM,Santiago Metropolitan Region,13111,La Granja,,,CL,CHL,2
-CL_RM_13112,,,CL,Chile,RM,Santiago Metropolitan Region,13112,La Pintana,,,CL,CHL,2
-CL_RM_13113,,,CL,Chile,RM,Santiago Metropolitan Region,13113,La Reina,,,CL,CHL,2
-CL_RM_13114,,,CL,Chile,RM,Santiago Metropolitan Region,13114,Las Condes,,,CL,CHL,2
-CL_RM_13115,,,CL,Chile,RM,Santiago Metropolitan Region,13115,Lo Barnechea,,,CL,CHL,2
-CL_RM_13116,,,CL,Chile,RM,Santiago Metropolitan Region,13116,Lo Espejo,,,CL,CHL,2
-CL_RM_13117,,,CL,Chile,RM,Santiago Metropolitan Region,13117,Lo Prado,,,CL,CHL,2
-CL_RM_13118,,,CL,Chile,RM,Santiago Metropolitan Region,13118,Macul,,,CL,CHL,2
-CL_RM_13119,,,CL,Chile,RM,Santiago Metropolitan Region,13119,Maipú,,,CL,CHL,2
-CL_RM_13120,,,CL,Chile,RM,Santiago Metropolitan Region,13120,Ñuñoa,,,CL,CHL,2
-CL_RM_13121,,,CL,Chile,RM,Santiago Metropolitan Region,13121,Pedro Aguirre Cerda,,,CL,CHL,2
-CL_RM_13122,,,CL,Chile,RM,Santiago Metropolitan Region,13122,Peñalolén,,,CL,CHL,2
-CL_RM_13123,,,CL,Chile,RM,Santiago Metropolitan Region,13123,Providencia,,,CL,CHL,2
-CL_RM_13124,,,CL,Chile,RM,Santiago Metropolitan Region,13124,Pudahuel,,,CL,CHL,2
-CL_RM_13125,,,CL,Chile,RM,Santiago Metropolitan Region,13125,Quilicura,,,CL,CHL,2
-CL_RM_13126,,,CL,Chile,RM,Santiago Metropolitan Region,13126,Quinta Normal,,,CL,CHL,2
-CL_RM_13127,,,CL,Chile,RM,Santiago Metropolitan Region,13127,Recoleta,,,CL,CHL,2
-CL_RM_13128,,,CL,Chile,RM,Santiago Metropolitan Region,13128,Renca,,,CL,CHL,2
-CL_RM_13129,,,CL,Chile,RM,Santiago Metropolitan Region,13129,San Joaquín,,,CL,CHL,2
-CL_RM_13130,,,CL,Chile,RM,Santiago Metropolitan Region,13130,San Miguel,,,CL,CHL,2
-CL_RM_13131,,,CL,Chile,RM,Santiago Metropolitan Region,13131,San Ramón,,,CL,CHL,2
-CL_RM_13132,,,CL,Chile,RM,Santiago Metropolitan Region,13132,Vitacura,,,CL,CHL,2
-CL_RM_13201,,,CL,Chile,RM,Santiago Metropolitan Region,13201,Puente Alto,,,CL,CHL,2
-CL_RM_13202,,,CL,Chile,RM,Santiago Metropolitan Region,13202,Pirque,,,CL,CHL,2
-CL_RM_13203,,,CL,Chile,RM,Santiago Metropolitan Region,13203,San José de Maipo,,,CL,CHL,2
-CL_RM_13301,,,CL,Chile,RM,Santiago Metropolitan Region,13301,Colina,,,CL,CHL,2
-CL_RM_13302,,,CL,Chile,RM,Santiago Metropolitan Region,13302,Lampa,,,CL,CHL,2
-CL_RM_13303,,,CL,Chile,RM,Santiago Metropolitan Region,13303,Til Til,,,CL,CHL,2
-CL_RM_13401,,,CL,Chile,RM,Santiago Metropolitan Region,13401,San Bernardo,,,CL,CHL,2
-CL_RM_13402,,,CL,Chile,RM,Santiago Metropolitan Region,13402,Buin,,,CL,CHL,2
-CL_RM_13403,,,CL,Chile,RM,Santiago Metropolitan Region,13403,Calera de Tango,,,CL,CHL,2
-CL_RM_13404,,,CL,Chile,RM,Santiago Metropolitan Region,13404,Paine,,,CL,CHL,2
-CL_RM_13501,,,CL,Chile,RM,Santiago Metropolitan Region,13501,Melipilla,,,CL,CHL,2
-CL_RM_13502,,,CL,Chile,RM,Santiago Metropolitan Region,13502,Alhué,,,CL,CHL,2
-CL_RM_13503,,,CL,Chile,RM,Santiago Metropolitan Region,13503,Curacaví,,,CL,CHL,2
-CL_RM_13504,,,CL,Chile,RM,Santiago Metropolitan Region,13504,María Pinto,,,CL,CHL,2
-CL_RM_13505,,,CL,Chile,RM,Santiago Metropolitan Region,13505,San Pedro,,,CL,CHL,2
-CL_RM_13601,,,CL,Chile,RM,Santiago Metropolitan Region,13601,Talagante,,,CL,CHL,2
-CL_RM_13602,,,CL,Chile,RM,Santiago Metropolitan Region,13602,El Monte,,,CL,CHL,2
-CL_RM_13603,,,CL,Chile,RM,Santiago Metropolitan Region,13603,Isla de Maipo,,,CL,CHL,2
-CL_RM_13604,,,CL,Chile,RM,Santiago Metropolitan Region,13604,Padre Hurtado,,,CL,CHL,2
-CL_RM_13605,,,CL,Chile,RM,Santiago Metropolitan Region,13605,Peñaflor,,,CL,CHL,2
-CL_TA,Q2114,,CL,Chile,TA,Tarapacá,,,,,CL,CHL,1
-CL_TA_01101,,,CL,Chile,TA,Tarapacá,01101,Iquique,,,CL,CHL,2
-CL_TA_01107,,,CL,Chile,TA,Tarapacá,01107,Alto Hospicio,,,CL,CHL,2
-CL_TA_01401,,,CL,Chile,TA,Tarapacá,01401,Pozo Almonte,,,CL,CHL,2
-CL_TA_01402,,,CL,Chile,TA,Tarapacá,01402,Camiña,,,CL,CHL,2
-CL_TA_01403,,,CL,Chile,TA,Tarapacá,01403,Colchane,,,CL,CHL,2
-CL_TA_01404,,,CL,Chile,TA,Tarapacá,01404,Huara,,,CL,CHL,2
-CL_TA_01405,,,CL,Chile,TA,Tarapacá,01405,Pica,,,CL,CHL,2
-CL_VS,Q219458,,CL,Chile,VS,Valparaíso,,,,,CL,CHL,1
-CL_VS_05101,,,CL,Chile,VS,Valparaíso,05101,Valparaíso,,,CL,CHL,2
-CL_VS_05102,,,CL,Chile,VS,Valparaíso,05102,Casablanca,,,CL,CHL,2
-CL_VS_05103,,,CL,Chile,VS,Valparaíso,05103,Concón,,,CL,CHL,2
-CL_VS_05104,,,CL,Chile,VS,Valparaíso,05104,Juan Fernández,,,CL,CHL,2
-CL_VS_05105,,,CL,Chile,VS,Valparaíso,05105,Puchuncaví,,,CL,CHL,2
-CL_VS_05107,,,CL,Chile,VS,Valparaíso,05107,Quintero,,,CL,CHL,2
-CL_VS_05109,,,CL,Chile,VS,Valparaíso,05109,Viña del Mar,,,CL,CHL,2
-CL_VS_05201,,,CL,Chile,VS,Valparaíso,05201,Isla de Pascua,,,CL,CHL,2
-CL_VS_05301,,,CL,Chile,VS,Valparaíso,05301,Los Andes,,,CL,CHL,2
-CL_VS_05302,,,CL,Chile,VS,Valparaíso,05302,Calle Larga,,,CL,CHL,2
-CL_VS_05303,,,CL,Chile,VS,Valparaíso,05303,Rinconada,,,CL,CHL,2
-CL_VS_05304,,,CL,Chile,VS,Valparaíso,05304,San Esteban,,,CL,CHL,2
-CL_VS_05401,,,CL,Chile,VS,Valparaíso,05401,La Ligua,,,CL,CHL,2
-CL_VS_05402,,,CL,Chile,VS,Valparaíso,05402,Cabildo,,,CL,CHL,2
-CL_VS_05403,,,CL,Chile,VS,Valparaíso,05403,Papudo,,,CL,CHL,2
-CL_VS_05404,,,CL,Chile,VS,Valparaíso,05404,Petorca,,,CL,CHL,2
-CL_VS_05405,,,CL,Chile,VS,Valparaíso,05405,Zapallar,,,CL,CHL,2
-CL_VS_05501,,,CL,Chile,VS,Valparaíso,05501,Quillota,,,CL,CHL,2
-CL_VS_05502,,,CL,Chile,VS,Valparaíso,05502,La Calera,,,CL,CHL,2
-CL_VS_05503,,,CL,Chile,VS,Valparaíso,05503,Hijuelas,,,CL,CHL,2
-CL_VS_05504,,,CL,Chile,VS,Valparaíso,05504,La Cruz,,,CL,CHL,2
-CL_VS_05506,,,CL,Chile,VS,Valparaíso,05506,Nogales,,,CL,CHL,2
-CL_VS_05601,,,CL,Chile,VS,Valparaíso,05601,San Antonio,,,CL,CHL,2
-CL_VS_05602,,,CL,Chile,VS,Valparaíso,05602,Algarrobo,,,CL,CHL,2
-CL_VS_05603,,,CL,Chile,VS,Valparaíso,05603,Cartagena,,,CL,CHL,2
-CL_VS_05604,,,CL,Chile,VS,Valparaíso,05604,El Quisco,,,CL,CHL,2
-CL_VS_05605,,,CL,Chile,VS,Valparaíso,05605,El Tabo,,,CL,CHL,2
-CL_VS_05606,,,CL,Chile,VS,Valparaíso,05606,Santo Domingo,,,CL,CHL,2
-CL_VS_05701,,,CL,Chile,VS,Valparaíso,05701,San Felipe,,,CL,CHL,2
-CL_VS_05702,,,CL,Chile,VS,Valparaíso,05702,Catemu,,,CL,CHL,2
-CL_VS_05703,,,CL,Chile,VS,Valparaíso,05703,Llay-Llay,,,CL,CHL,2
-CL_VS_05704,,,CL,Chile,VS,Valparaíso,05704,Panquehue,,,CL,CHL,2
-CL_VS_05705,,,CL,Chile,VS,Valparaíso,05705,Putaendo,,,CL,CHL,2
-CL_VS_05706,,,CL,Chile,VS,Valparaíso,05706,Santa María,,,CL,CHL,2
-CL_VS_05801,,,CL,Chile,VS,Valparaíso,05801,Quilpué,,,CL,CHL,2
-CL_VS_05802,,,CL,Chile,VS,Valparaíso,05802,Limache,,,CL,CHL,2
-CL_VS_05803,,,CL,Chile,VS,Valparaíso,05803,Olmué,,,CL,CHL,2
-CL_VS_05804,,,CL,Chile,VS,Valparaíso,05804,Villa Alemana,,,CL,CHL,2
+CL_AI,Q2181,iso/CL-AI,CL,Chile,AI,Aysén,,,,,CL,CHL,1
+CL_AI_11101,Q3810,,CL,Chile,AI,Aysén,11101,Coyhaique,,,CL,CHL,2
+CL_AI_11102,Q14471,,CL,Chile,AI,Aysén,11102,Lago Verde,,,CL,CHL,2
+CL_AI_11201,Q3651,,CL,Chile,AI,Aysén,11201,Aysén,,,CL,CHL,2
+CL_AI_11202,Q3793,,CL,Chile,AI,Aysén,11202,Cisnes,,,CL,CHL,2
+CL_AI_11203,Q13069,,CL,Chile,AI,Aysén,11203,Guaitecas,,,CL,CHL,2
+CL_AI_11301,Q3800,,CL,Chile,AI,Aysén,11301,Cochrane,,,CL,CHL,2
+CL_AI_11302,Q51051,,CL,Chile,AI,Aysén,11302,O'Higgins,,,CL,CHL,2
+CL_AI_11303,Q2390232,,CL,Chile,AI,Aysén,11303,Tortel,,,CL,CHL,2
+CL_AI_11401,Q3770,,CL,Chile,AI,Aysén,11401,Chile Chico,,,CL,CHL,2
+CL_AI_11402,Q56129,,CL,Chile,AI,Aysén,11402,Río Ibáñez,,,CL,CHL,2
+CL_AN,Q2118,iso/CL-AN,CL,Chile,AN,Antofagasta,,,,,CL,CHL,1
+CL_AN_02101,Q3612,,CL,Chile,AN,Antofagasta,02101,Antofagasta,,,CL,CHL,2
+CL_AN_02102,Q16928,,CL,Chile,AN,Antofagasta,02102,Mejillones,,,CL,CHL,2
+CL_AN_02103,Q188027,,CL,Chile,AN,Antofagasta,02103,Sierra Gorda,,,CL,CHL,2
+CL_AN_02104,Q188049,,CL,Chile,AN,Antofagasta,02104,Taltal,,,CL,CHL,2
+CL_AN_02201,Q3685,,CL,Chile,AN,Antofagasta,02201,Calama,,,CL,CHL,2
+CL_AN_02202,Q51055,,CL,Chile,AN,Antofagasta,02202,Ollagüe,,,CL,CHL,2
+CL_AN_02203,Q23660231,,CL,Chile,AN,Antofagasta,02203,San Pedro de Atacama,,,CL,CHL,2
+CL_AN_02301,Q188192,,CL,Chile,AN,Antofagasta,02301,Tocopilla,,,CL,CHL,2
+CL_AN_02302,Q16923,,CL,Chile,AN,Antofagasta,02302,María Elena,,,CL,CHL,2
+CL_AP,Q2109,iso/CL-AP,CL,Chile,AP,Arica y Parinacota,,,,,CL,CHL,1
+CL_AP_15101,Q2203,,CL,Chile,AP,Arica y Parinacota,15101,Arica,,,CL,CHL,2
+CL_AP_15102,Q3729,,CL,Chile,AP,Arica y Parinacota,15102,Camarones,,,CL,CHL,2
+CL_AP_15201,Q51605,,CL,Chile,AP,Arica y Parinacota,15201,Putre,,,CL,CHL,2
+CL_AP_15202,Q13065,,CL,Chile,AP,Arica y Parinacota,15202,General Lagos,,,CL,CHL,2
+CL_AR,Q2176,iso/CL-AR,CL,Chile,AR,Araucanía,,,,,CL,CHL,1
+CL_AR_09101,Q82128,,CL,Chile,AR,Araucanía,09101,Temuco,,,CL,CHL,2
+CL_AR_09102,Q3736,,CL,Chile,AR,Araucanía,09102,Carahue,,,CL,CHL,2
+CL_AR_09103,Q3878,,CL,Chile,AR,Araucanía,09103,Cunco,,,CL,CHL,2
+CL_AR_09104,Q13025,,CL,Chile,AR,Araucanía,09104,Curarrehue,,,CL,CHL,2
+CL_AR_09105,Q13049,,CL,Chile,AR,Araucanía,09105,Freire,,,CL,CHL,2
+CL_AR_09106,Q13063,,CL,Chile,AR,Araucanía,09106,Galvarino,,,CL,CHL,2
+CL_AR_09107,Q13067,,CL,Chile,AR,Araucanía,09107,Gorbea,,,CL,CHL,2
+CL_AR_09108,Q14486,,CL,Chile,AR,Araucanía,09108,Lautaro,,,CL,CHL,2
+CL_AR_09109,Q16900,,CL,Chile,AR,Araucanía,09109,Loncoche,,,CL,CHL,2
+CL_AR_09110,Q49076,,CL,Chile,AR,Araucanía,09110,Melipeuco,,,CL,CHL,2
+CL_AR_09111,Q51050,,CL,Chile,AR,Araucanía,09111,Nueva Imperial,,,CL,CHL,2
+CL_AR_09112,Q51063,,CL,Chile,AR,Araucanía,09112,Padre Las Casas,,,CL,CHL,2
+CL_AR_09113,Q15076,,CL,Chile,AR,Araucanía,09113,Perquenco,,,CL,CHL,2
+CL_AR_09114,Q51115,,CL,Chile,AR,Araucanía,09114,Pitrufquén,,,CL,CHL,2
+CL_AR_09115,Q51590,,CL,Chile,AR,Araucanía,09115,Pucón,,,CL,CHL,2
+CL_AR_09116,Q56132,,CL,Chile,AR,Araucanía,09116,Saavedra,,,CL,CHL,2
+CL_AR_09117,Q188135,,CL,Chile,AR,Araucanía,09117,Teodoro Schmidt,,,CL,CHL,2
+CL_AR_09118,Q200926,,CL,Chile,AR,Araucanía,09118,Toltén,,,CL,CHL,2
+CL_AR_09119,Q1643896,,CL,Chile,AR,Araucanía,09119,Vilcún,,,CL,CHL,2
+CL_AR_09120,Q201019,,CL,Chile,AR,Araucanía,09120,Villarrica,,,CL,CHL,2
+CL_AR_09121,Q3785,,CL,Chile,AR,Araucanía,09121,Cholchol,,,CL,CHL,2
+CL_AR_09201,Q3608,,CL,Chile,AR,Araucanía,09201,Angol,,,CL,CHL,2
+CL_AR_09202,Q3843,,CL,Chile,AR,Araucanía,09202,Collipulli,,,CL,CHL,2
+CL_AR_09203,Q3880,,CL,Chile,AR,Araucanía,09203,Curacautín,,,CL,CHL,2
+CL_AR_09204,Q13044,,CL,Chile,AR,Araucanía,09204,Ercilla,,,CL,CHL,2
+CL_AR_09205,Q16902,,CL,Chile,AR,Araucanía,09205,Lonquimay,,,CL,CHL,2
+CL_AR_09206,Q16907,,CL,Chile,AR,Araucanía,09206,Los Sauces,,,CL,CHL,2
+CL_AR_09207,Q16914,,CL,Chile,AR,Araucanía,09207,Lumaco,,,CL,CHL,2
+CL_AR_09208,Q51602,,CL,Chile,AR,Araucanía,09208,Purén,,,CL,CHL,2
+CL_AR_09209,Q56118,,CL,Chile,AR,Araucanía,09209,Renaico,,,CL,CHL,2
+CL_AR_09210,Q200961,,CL,Chile,AR,Araucanía,09210,Traiguén,,,CL,CHL,2
+CL_AR_09211,Q200999,,CL,Chile,AR,Araucanía,09211,Victoria,,,CL,CHL,2
+CL_AT,Q2120,iso/CL-AT,CL,Chile,AT,Atacama,,,,,CL,CHL,1
+CL_AT_03101,Q3868,,CL,Chile,AT,Atacama,03101,Copiapó,,,CL,CHL,2
+CL_AT_03102,Q3708,,CL,Chile,AT,Atacama,03102,Caldera,,,CL,CHL,2
+CL_AT_03103,Q188142,,CL,Chile,AT,Atacama,03103,Tierra Amarilla,,,CL,CHL,2
+CL_AT_03201,Q3763,,CL,Chile,AT,Atacama,03201,Chañaral,,,CL,CHL,2
+CL_AT_03202,Q13033,,CL,Chile,AT,Atacama,03202,Diego de Almagro,,,CL,CHL,2
+CL_AT_03301,Q200978,,CL,Chile,AT,Atacama,03301,Vallenar,,,CL,CHL,2
+CL_AT_03302,Q2215,,CL,Chile,AT,Atacama,03302,Alto del Carmen,,,CL,CHL,2
+CL_AT_03303,Q13051,,CL,Chile,AT,Atacama,03303,Freirina,,,CL,CHL,2
+CL_AT_03304,Q14422,,CL,Chile,AT,Atacama,03304,Huasco,,,CL,CHL,2
+CL_BI,Q2170,iso/CL-BI,CL,Chile,BI,Biobío,,,,,CL,CHL,1
+CL_BI_08101,Q1880,,CL,Chile,BI,Biobío,08101,Concepción,,,CL,CHL,2
+CL_BI_08102,Q3873,,CL,Chile,BI,Biobío,08102,Coronel,,,CL,CHL,2
+CL_BI_08103,Q3765,,CL,Chile,BI,Biobío,08103,Chiguayante,,,CL,CHL,2
+CL_BI_08104,Q13048,,CL,Chile,BI,Biobío,08104,Florida,,,CL,CHL,2
+CL_BI_08105,Q13079,,CL,Chile,BI,Biobío,08105,Hualqui,,,CL,CHL,2
+CL_BI_08106,Q16911,,CL,Chile,BI,Biobío,08106,Lota,,,CL,CHL,2
+CL_BI_08107,Q51093,,CL,Chile,BI,Biobío,08107,Penco,,,CL,CHL,2
+CL_BI_08108,Q19344,,CL,Chile,BI,Biobío,08108,San Pedro de La Paz,,,CL,CHL,2
+CL_BI_08109,Q187974,,CL,Chile,BI,Biobío,08109,Santa Juana,,,CL,CHL,2
+CL_BI_08110,Q41997,,CL,Chile,BI,Biobío,08110,Talcahuano,,,CL,CHL,2
+CL_BI_08111,Q200934,,CL,Chile,BI,Biobío,08111,Tomé,,,CL,CHL,2
+CL_BI_08112,Q13077,,CL,Chile,BI,Biobío,08112,Hualpén,,,CL,CHL,2
+CL_BI_08201,Q14488,,CL,Chile,BI,Biobío,08201,Lebu,,,CL,CHL,2
+CL_BI_08202,Q3632,,CL,Chile,BI,Biobío,08202,Arauco,,,CL,CHL,2
+CL_BI_08203,Q3753,,CL,Chile,BI,Biobío,08203,Cañete,,,CL,CHL,2
+CL_BI_08204,Q3864,,CL,Chile,BI,Biobío,08204,Contulmo,,,CL,CHL,2
+CL_BI_08205,Q3892,,CL,Chile,BI,Biobío,08205,Curanilahue,,,CL,CHL,2
+CL_BI_08206,Q16909,,CL,Chile,BI,Biobío,08206,Los Álamos,,,CL,CHL,2
+CL_BI_08207,Q188183,,CL,Chile,BI,Biobío,08207,Tirúa,,,CL,CHL,2
+CL_BI_08301,Q16910,,CL,Chile,BI,Biobío,08301,Los Ángeles,,,CL,CHL,2
+CL_BI_08302,Q3619,,CL,Chile,BI,Biobío,08302,Antuco,,,CL,CHL,2
+CL_BI_08303,Q3678,,CL,Chile,BI,Biobío,08303,Cabrero,,,CL,CHL,2
+CL_BI_08304,Q14475,,CL,Chile,BI,Biobío,08304,Laja,,,CL,CHL,2
+CL_BI_08305,Q51036,,CL,Chile,BI,Biobío,08305,Mulchén,,,CL,CHL,2
+CL_BI_08306,Q51039,,CL,Chile,BI,Biobío,08306,Nacimiento,,,CL,CHL,2
+CL_BI_08307,Q51046,,CL,Chile,BI,Biobío,08307,Negrete,,,CL,CHL,2
+CL_BI_08308,Q51610,,CL,Chile,BI,Biobío,08308,Quilaco,,,CL,CHL,2
+CL_BI_08309,Q56107,,CL,Chile,BI,Biobío,08309,Quilleco,,,CL,CHL,2
+CL_BI_08310,Q22137,,CL,Chile,BI,Biobío,08310,San Rosendo,,,CL,CHL,2
+CL_BI_08311,Q187961,,CL,Chile,BI,Biobío,08311,Santa Bárbara,,,CL,CHL,2
+CL_BI_08312,Q200965,,CL,Chile,BI,Biobío,08312,Tucapel,,,CL,CHL,2
+CL_BI_08313,Q201050,,CL,Chile,BI,Biobío,08313,Yumbel,,,CL,CHL,2
+CL_BI_08314,Q2213,,CL,Chile,BI,Biobío,08314,Alto Biobío,,,CL,CHL,2
+CL_CO,Q2121,iso/CL-CO,CL,Chile,CO,Coquimbo,,,,,CL,CHL,1
+CL_CO_04101,Q14467,,CL,Chile,CO,Coquimbo,04101,La Serena,,,CL,CHL,2
+CL_CO_04102,Q3871,,CL,Chile,CO,Coquimbo,04102,Coquimbo,,,CL,CHL,2
+CL_CO_04103,Q3602,,CL,Chile,CO,Coquimbo,04103,Andacollo,,,CL,CHL,2
+CL_CO_04104,Q14462,,CL,Chile,CO,Coquimbo,04104,La Higuera,,,CL,CHL,2
+CL_CO_04105,Q51064,,CL,Chile,CO,Coquimbo,04105,Paihuano,,,CL,CHL,2
+CL_CO_04106,Q201007,,CL,Chile,CO,Coquimbo,04106,Vicuña,,,CL,CHL,2
+CL_CO_04201,Q14434,,CL,Chile,CO,Coquimbo,04201,Illapel,,,CL,CHL,2
+CL_CO_04202,Q3735,,CL,Chile,CO,Coquimbo,04202,Canela,,,CL,CHL,2
+CL_CO_04203,Q16908,,CL,Chile,CO,Coquimbo,04203,Los Vilos,,,CL,CHL,2
+CL_CO_04204,Q56134,,CL,Chile,CO,Coquimbo,04204,Salamanca,,,CL,CHL,2
+CL_CO_04301,Q51060,,CL,Chile,CO,Coquimbo,04301,Ovalle,,,CL,CHL,2
+CL_CO_04302,Q3850,,CL,Chile,CO,Coquimbo,04302,Combarbalá,,,CL,CHL,2
+CL_CO_04303,Q51034,,CL,Chile,CO,Coquimbo,04303,Monte Patria,,,CL,CHL,2
+CL_CO_04304,Q51598,,CL,Chile,CO,Coquimbo,04304,Punitaqui,,,CL,CHL,2
+CL_CO_04305,Q56128,,CL,Chile,CO,Coquimbo,04305,Río Hurtado,,,CL,CHL,2
+CL_LI,Q2133,iso/CL-LI,CL,Chile,LI,O'Higgins,,,,,CL,CHL,1
+CL_LI_06101,Q4582,,CL,Chile,LI,O'Higgins,06101,Rancagua,,,CL,CHL,2
+CL_LI_06102,Q3804,,CL,Chile,LI,O'Higgins,06102,Codegua,,,CL,CHL,2
+CL_LI_06103,Q3833,,CL,Chile,LI,O'Higgins,06103,Coinco,,,CL,CHL,2
+CL_LI_06104,Q3847,,CL,Chile,LI,O'Higgins,06104,Coltauco,,,CL,CHL,2
+CL_LI_06105,Q13035,,CL,Chile,LI,O'Higgins,06105,Doñihue,,,CL,CHL,2
+CL_LI_06106,Q13068,,CL,Chile,LI,O'Higgins,06106,Graneros,,,CL,CHL,2
+CL_LI_06107,Q14480,,CL,Chile,LI,O'Higgins,06107,Las Cabras,,,CL,CHL,2
+CL_LI_06108,Q16915,,CL,Chile,LI,O'Higgins,06108,Machalí,,,CL,CHL,2
+CL_LI_06109,Q16919,,CL,Chile,LI,O'Higgins,06109,Malloa,,,CL,CHL,2
+CL_LI_06110,Q51035,,CL,Chile,LI,O'Higgins,06110,Mostazal,,,CL,CHL,2
+CL_LI_06111,Q51053,,CL,Chile,LI,O'Higgins,06111,Olivar,,,CL,CHL,2
+CL_LI_06112,Q51097,,CL,Chile,LI,O'Higgins,06112,Peumo,,,CL,CHL,2
+CL_LI_06113,Q51104,,CL,Chile,LI,O'Higgins,06113,Pichidegua,,,CL,CHL,2
+CL_LI_06114,Q56112,,CL,Chile,LI,O'Higgins,06114,Quinta de Tilcoco,,,CL,CHL,2
+CL_LI_06115,Q56120,,CL,Chile,LI,O'Higgins,06115,Rengo,,,CL,CHL,2
+CL_LI_06116,Q56121,,CL,Chile,LI,O'Higgins,06116,Requínoa,,,CL,CHL,2
+CL_LI_06117,Q187936,,CL,Chile,LI,O'Higgins,06117,San Vicente,,,CL,CHL,2
+CL_LI_06201,Q25304,,CL,Chile,LI,O'Higgins,06201,Pichilemu,,,CL,CHL,2
+CL_LI_06202,Q14458,,CL,Chile,LI,O'Higgins,06202,La Estrella,,,CL,CHL,2
+CL_LI_06203,Q14496,,CL,Chile,LI,O'Higgins,06203,Litueche,,,CL,CHL,2
+CL_LI_06204,Q88818970,,CL,Chile,LI,O'Higgins,06204,Marchihue,,,CL,CHL,2
+CL_LI_06205,Q51045,,CL,Chile,LI,O'Higgins,06205,Navidad,,,CL,CHL,2
+CL_LI_06206,Q51082,,CL,Chile,LI,O'Higgins,06206,Paredones,,,CL,CHL,2
+CL_LI_06301,Q187807,,CL,Chile,LI,O'Higgins,06301,San Fernando,,,CL,CHL,2
+CL_LI_06302,Q3790,,CL,Chile,LI,O'Higgins,06302,Chépica,,,CL,CHL,2
+CL_LI_06303,Q3782,,CL,Chile,LI,O'Higgins,06303,Chimbarongo,,,CL,CHL,2
+CL_LI_06304,Q16899,,CL,Chile,LI,O'Higgins,06304,Lolol,,,CL,CHL,2
+CL_LI_06305,Q51042,,CL,Chile,LI,O'Higgins,06305,Nancagua,,,CL,CHL,2
+CL_LI_06306,Q51074,,CL,Chile,LI,O'Higgins,06306,Palmilla,,,CL,CHL,2
+CL_LI_06307,Q51095,,CL,Chile,LI,O'Higgins,06307,Peralillo,,,CL,CHL,2
+CL_LI_06308,Q51117,,CL,Chile,LI,O'Higgins,06308,Placilla,,,CL,CHL,2
+CL_LI_06309,Q2098355,,CL,Chile,LI,O'Higgins,06309,Pumanque,,,CL,CHL,2
+CL_LI_06310,Q187969,,CL,Chile,LI,O'Higgins,06310,Santa Cruz,,,CL,CHL,2
+CL_LL,Q2178,iso/CL-LL,CL,Chile,LL,Los Lagos,,,,,CL,CHL,1
+CL_LL_10101,Q36214,,CL,Chile,LL,Los Lagos,10101,Puerto Montt,,,CL,CHL,2
+CL_LL_10102,Q3691,,CL,Chile,LL,Los Lagos,10102,Calbuco,,,CL,CHL,2
+CL_LL_10103,Q3797,,CL,Chile,LL,Los Lagos,10103,Cochamó,,,CL,CHL,2
+CL_LL_10104,Q13052,,CL,Chile,LL,Los Lagos,10104,Fresia,,,CL,CHL,2
+CL_LL_10105,Q13058,,CL,Chile,LL,Los Lagos,10105,Frutillar,,,CL,CHL,2
+CL_LL_10106,Q16906,,CL,Chile,LL,Los Lagos,10106,Los Muermos,,,CL,CHL,2
+CL_LL_10107,Q14500,,CL,Chile,LL,Los Lagos,10107,Llanquihue,,,CL,CHL,2
+CL_LL_10108,Q16927,,CL,Chile,LL,Los Lagos,10108,Maullín,,,CL,CHL,2
+CL_LL_10109,Q51596,,CL,Chile,LL,Los Lagos,10109,Puerto Varas,,,CL,CHL,2
+CL_LL_10201,Q3744,,CL,Chile,LL,Los Lagos,10201,Castro,,,CL,CHL,2
+CL_LL_10202,Q3597,,CL,Chile,LL,Los Lagos,10202,Ancud,,,CL,CHL,2
+CL_LL_10203,Q3788,,CL,Chile,LL,Los Lagos,10203,Chonchi,,,CL,CHL,2
+CL_LL_10204,Q3888,,CL,Chile,LL,Los Lagos,10204,Curaco de Vélez,,,CL,CHL,2
+CL_LL_10205,Q13031,,CL,Chile,LL,Los Lagos,10205,Dalcahue,,,CL,CHL,2
+CL_LL_10206,Q2118779,,CL,Chile,LL,Los Lagos,10206,Puqueldón,,,CL,CHL,2
+CL_LL_10207,Q51607,,CL,Chile,LL,Los Lagos,10207,Queilén,,,CL,CHL,2
+CL_LL_10208,Q22618759,,CL,Chile,LL,Los Lagos,10208,Quellón,,,CL,CHL,2
+CL_LL_10209,Q51609,,CL,Chile,LL,Los Lagos,10209,Quemchi,,,CL,CHL,2
+CL_LL_10210,Q56111,,CL,Chile,LL,Los Lagos,10210,Quinchao,,,CL,CHL,2
+CL_LL_10301,Q51059,,CL,Chile,LL,Los Lagos,10301,Osorno,,,CL,CHL,2
+CL_LL_10302,Q51595,,CL,Chile,LL,Los Lagos,10302,Puerto Octay,,,CL,CHL,2
+CL_LL_10303,Q51601,,CL,Chile,LL,Los Lagos,10303,Purranque,,,CL,CHL,2
+CL_LL_10304,Q15084,,CL,Chile,LL,Los Lagos,10304,Puyehue,,,CL,CHL,2
+CL_LL_10305,Q56130,,CL,Chile,LL,Los Lagos,10305,Río Negro,,,CL,CHL,2
+CL_LL_10306,Q187856,,CL,Chile,LL,Los Lagos,10306,San Juan de la Costa,,,CL,CHL,2
+CL_LL_10307,Q187873,,CL,Chile,LL,Los Lagos,10307,San Pablo,,,CL,CHL,2
+CL_LL_10401,Q3759,,CL,Chile,LL,Los Lagos,10401,Chaitén,,,CL,CHL,2
+CL_LL_10402,Q13060,,CL,Chile,LL,Los Lagos,10402,Futaleufú,,,CL,CHL,2
+CL_LL_10403,Q13072,,CL,Chile,LL,Los Lagos,10403,Hualaihué,,,CL,CHL,2
+CL_LL_10404,Q51073,,CL,Chile,LL,Los Lagos,10404,Palena,,,CL,CHL,2
+CL_LR,Q2177,iso/CL-LR,CL,Chile,LR,Los Ríos,,,,,CL,CHL,1
+CL_LR_14101,Q160687,,CL,Chile,LR,Los Ríos,14101,Valdivia,,,CL,CHL,2
+CL_LR_14102,Q3875,,CL,Chile,LR,Los Ríos,14102,Corral,,,CL,CHL,2
+CL_LR_14103,Q14478,,CL,Chile,LR,Los Ríos,14103,Lanco,,,CL,CHL,2
+CL_LR_14104,Q16905,,CL,Chile,LR,Los Ríos,14104,Los Lagos,,,CL,CHL,2
+CL_LR_14105,Q51038,,CL,Chile,LR,Los Ríos,14105,Máfil,,,CL,CHL,2
+CL_LR_14106,Q16922,,CL,Chile,LR,Los Ríos,14106,Mariquina,,,CL,CHL,2
+CL_LR_14107,Q51069,,CL,Chile,LR,Los Ríos,14107,Paillaco,,,CL,CHL,2
+CL_LR_14108,Q51076,,CL,Chile,LR,Los Ríos,14108,Panguipulli,,,CL,CHL,2
+CL_LR_14201,Q14469,,CL,Chile,LR,Los Ríos,14201,La Unión,,,CL,CHL,2
+CL_LR_14202,Q13062,,CL,Chile,LR,Los Ríos,14202,Futrono,,,CL,CHL,2
+CL_LR_14203,Q14470,,CL,Chile,LR,Los Ríos,14203,Lago Ranco,,,CL,CHL,2
+CL_LR_14204,Q56126,,CL,Chile,LR,Los Ríos,14204,Río Bueno,,,CL,CHL,2
+CL_MA,Q2189,iso/CL-MA,CL,Chile,MA,Magallanes,,,,,CL,CHL,1
+CL_MA_12101,Q23660255,,CL,Chile,MA,Magallanes,12101,Punta Arenas,,,CL,CHL,2
+CL_MA_12102,Q14474,,CL,Chile,MA,Magallanes,12102,Laguna Blanca,,,CL,CHL,2
+CL_MA_12103,Q56131,,CL,Chile,MA,Magallanes,12103,Río Verde,,,CL,CHL,2
+CL_MA_12104,Q187816,,CL,Chile,MA,Magallanes,12104,San Gregorio,,,CL,CHL,2
+CL_MA_12201,Q3673,,CL,Chile,MA,Magallanes,12201,Cabo de Hornos,,,CL,CHL,2
+CL_MA_12202,Q15050531,,CL,Chile,MA,Magallanes,12202,Antártica,,,CL,CHL,2
+CL_MA_12301,Q51120,,CL,Chile,MA,Magallanes,12301,Porvenir,,,CL,CHL,2
+CL_MA_12302,Q51586,,CL,Chile,MA,Magallanes,12302,Primavera,,,CL,CHL,2
+CL_MA_12303,Q188177,,CL,Chile,MA,Magallanes,12303,Timaukel,,,CL,CHL,2
+CL_MA_12401,Q51043,,CL,Chile,MA,Magallanes,12401,Natales,,,CL,CHL,2
+CL_MA_12402,Q200948,,CL,Chile,MA,Magallanes,12402,Torres del Paine,,,CL,CHL,2
+CL_ML,Q2166,iso/CL-ML,CL,Chile,ML,Maule,,,,,CL,CHL,1
+CL_ML_07101,Q4469,,CL,Chile,ML,Maule,07101,Talca,,,CL,CHL,2
+CL_ML_07102,Q3862,,CL,Chile,ML,Maule,07102,Constitución,,,CL,CHL,2
+CL_ML_07103,Q13026,,CL,Chile,ML,Maule,07103,Curepto,,,CL,CHL,2
+CL_ML_07104,Q13042,,CL,Chile,ML,Maule,07104,Empedrado,,,CL,CHL,2
+CL_ML_07105,Q16926,,CL,Chile,ML,Maule,07105,Maule,,,CL,CHL,2
+CL_ML_07106,Q51085,,CL,Chile,ML,Maule,07106,Pelarco,,,CL,CHL,2
+CL_ML_07107,Q51091,,CL,Chile,ML,Maule,07107,Pencahue,,,CL,CHL,2
+CL_ML_07108,Q56127,,CL,Chile,ML,Maule,07108,Río Claro,,,CL,CHL,2
+CL_ML_07109,Q56138,,CL,Chile,ML,Maule,07109,San Clemente,,,CL,CHL,2
+CL_ML_07110,Q187898,,CL,Chile,ML,Maule,07110,San Rafael,,,CL,CHL,2
+CL_ML_07201,Q3749,,CL,Chile,ML,Maule,07201,Cauquenes,,,CL,CHL,2
+CL_ML_07202,Q3762,,CL,Chile,ML,Maule,07202,Chanco,,,CL,CHL,2
+CL_ML_07203,Q51086,,CL,Chile,ML,Maule,07203,Pelluhue,,,CL,CHL,2
+CL_ML_07301,Q13030,,CL,Chile,ML,Maule,07301,Curicó,,,CL,CHL,2
+CL_ML_07302,Q13074,,CL,Chile,ML,Maule,07302,Hualañé,,,CL,CHL,2
+CL_ML_07303,Q14490,,CL,Chile,ML,Maule,07303,Licantén,,,CL,CHL,2
+CL_ML_07304,Q51033,,CL,Chile,ML,Maule,07304,Molina,,,CL,CHL,2
+CL_ML_07305,Q56116,,CL,Chile,ML,Maule,07305,Rauco,,,CL,CHL,2
+CL_ML_07306,Q56124,,CL,Chile,ML,Maule,07306,Romeral,,,CL,CHL,2
+CL_ML_07307,Q56133,,CL,Chile,ML,Maule,07307,Sagrada Familia,,,CL,CHL,2
+CL_ML_07308,Q2383688,,CL,Chile,ML,Maule,07308,Teno,,,CL,CHL,2
+CL_ML_07309,Q200992,,CL,Chile,ML,Maule,07309,Vichuquén,,,CL,CHL,2
+CL_ML_07401,Q14494,,CL,Chile,ML,Maule,07401,Linares,,,CL,CHL,2
+CL_ML_07402,Q3836,,CL,Chile,ML,Maule,07402,Colbún,,,CL,CHL,2
+CL_ML_07403,Q16901,,CL,Chile,ML,Maule,07403,Longaví,,,CL,CHL,2
+CL_ML_07404,Q51083,,CL,Chile,ML,Maule,07404,Parral,,,CL,CHL,2
+CL_ML_07405,Q56122,,CL,Chile,ML,Maule,07405,Retiro,,,CL,CHL,2
+CL_ML_07406,Q187831,,CL,Chile,ML,Maule,07406,San Javier,,,CL,CHL,2
+CL_ML_07407,Q201015,,CL,Chile,ML,Maule,07407,Villa Alegre,,,CL,CHL,2
+CL_ML_07408,Q201046,,CL,Chile,ML,Maule,07408,Yerbas Buenas,,,CL,CHL,2
+CL_NB,Q24076693,iso/CL-NB,CL,Chile,NB,Ñuble,,,,,CL,CHL,1
+CL_NB_16101,Q3774,,CL,Chile,NB,Ñuble,16101,Chillán,,,CL,CHL,2
+CL_NB_16102,Q23652210,,CL,Chile,NB,Ñuble,16102,Bulnes,,,CL,CHL,2
+CL_NB_16103,Q3779,,CL,Chile,NB,Ñuble,16103,Chillán Viejo,,,CL,CHL,2
+CL_NB_16104,Q17629903,,CL,Chile,NB,Ñuble,16104,El Carmen,,,CL,CHL,2
+CL_NB_16105,Q51090,,CL,Chile,NB,Ñuble,16105,Pemuco,,,CL,CHL,2
+CL_NB_16106,Q51106,,CL,Chile,NB,Ñuble,16106,Pinto,,,CL,CHL,2
+CL_NB_16107,Q56109,,CL,Chile,NB,Ñuble,16107,Quillón,,,CL,CHL,2
+CL_NB_16108,Q187824,,CL,Chile,NB,Ñuble,16108,San Ignacio,,,CL,CHL,2
+CL_NB_16109,Q201056,,CL,Chile,NB,Ñuble,16109,Yungay,,,CL,CHL,2
+CL_NB_16201,Q56115,,CL,Chile,NB,Ñuble,16201,Quirihue,,,CL,CHL,2
+CL_NB_16202,Q3796,,CL,Chile,NB,Ñuble,16202,Cobquecura,,,CL,CHL,2
+CL_NB_16203,Q3807,,CL,Chile,NB,Ñuble,16203,Coelemu,,,CL,CHL,2
+CL_NB_16204,Q51048,,CL,Chile,NB,Ñuble,16204,Ninhue,,,CL,CHL,2
+CL_NB_16205,Q51119,,CL,Chile,NB,Ñuble,16205,Portezuelo,,,CL,CHL,2
+CL_NB_16206,Q56125,,CL,Chile,NB,Ñuble,16206,Ránquil,,,CL,CHL,2
+CL_NB_16207,Q200963,,CL,Chile,NB,Ñuble,16207,Treguaco,,,CL,CHL,2
+CL_NB_16301,Q6118518,,CL,Chile,NB,Ñuble,16301,San Carlos,,,CL,CHL,2
+CL_NB_16302,Q3814,,CL,Chile,NB,Ñuble,16302,Coihueco,,,CL,CHL,2
+CL_NB_16303,Q201070,,CL,Chile,NB,Ñuble,16303,Ñiquén,,,CL,CHL,2
+CL_NB_16304,Q187795,,CL,Chile,NB,Ñuble,16304,San Fabián,,,CL,CHL,2
+CL_NB_16305,Q187866,,CL,Chile,NB,Ñuble,16305,San Nicolás,,,CL,CHL,2
+CL_RM,Q2131,iso/CL-RM,CL,Chile,RM,Santiago Metropolitan Region,,,,,CL,CHL,1
+CL_RM_13101,Q188002,,CL,Chile,RM,Santiago Metropolitan Region,13101,Santiago,,,CL,CHL,2
+CL_RM_13102,Q3755,,CL,Chile,RM,Santiago Metropolitan Region,13102,Cerrillos,,,CL,CHL,2
+CL_RM_13103,Q3756,,CL,Chile,RM,Santiago Metropolitan Region,13103,Cerro Navia,,,CL,CHL,2
+CL_RM_13104,Q3851,,CL,Chile,RM,Santiago Metropolitan Region,13104,Conchalí,,,CL,CHL,2
+CL_RM_13105,Q13036,,CL,Chile,RM,Santiago Metropolitan Region,13105,El Bosque,,,CL,CHL,2
+CL_RM_13106,Q13045,,CL,Chile,RM,Santiago Metropolitan Region,13106,Estación Central,,,CL,CHL,2
+CL_RM_13107,Q14433,,CL,Chile,RM,Santiago Metropolitan Region,13107,Huechuraba,,,CL,CHL,2
+CL_RM_13108,Q14437,,CL,Chile,RM,Santiago Metropolitan Region,13108,Independencia,,,CL,CHL,2
+CL_RM_13109,Q14456,,CL,Chile,RM,Santiago Metropolitan Region,13109,La Cisterna,,,CL,CHL,2
+CL_RM_13110,Q14460,,CL,Chile,RM,Santiago Metropolitan Region,13110,La Florida,,,CL,CHL,2
+CL_RM_13111,Q14461,,CL,Chile,RM,Santiago Metropolitan Region,13111,La Granja,,,CL,CHL,2
+CL_RM_13112,Q14464,,CL,Chile,RM,Santiago Metropolitan Region,13112,La Pintana,,,CL,CHL,2
+CL_RM_13113,Q14466,,CL,Chile,RM,Santiago Metropolitan Region,13113,La Reina,,,CL,CHL,2
+CL_RM_13114,Q14484,,CL,Chile,RM,Santiago Metropolitan Region,13114,Las Condes,,,CL,CHL,2
+CL_RM_13115,Q14502,,CL,Chile,RM,Santiago Metropolitan Region,13115,Lo Barnechea,,,CL,CHL,2
+CL_RM_13116,Q14503,,CL,Chile,RM,Santiago Metropolitan Region,13116,Lo Espejo,,,CL,CHL,2
+CL_RM_13117,Q14504,,CL,Chile,RM,Santiago Metropolitan Region,13117,Lo Prado,,,CL,CHL,2
+CL_RM_13118,Q16916,,CL,Chile,RM,Santiago Metropolitan Region,13118,Macul,,,CL,CHL,2
+CL_RM_13119,Q16918,,CL,Chile,RM,Santiago Metropolitan Region,13119,Maipú,,,CL,CHL,2
+CL_RM_13120,Q201076,,CL,Chile,RM,Santiago Metropolitan Region,13120,Ñuñoa,,,CL,CHL,2
+CL_RM_13121,Q51084,,CL,Chile,RM,Santiago Metropolitan Region,13121,Pedro Aguirre Cerda,,,CL,CHL,2
+CL_RM_13122,Q51100,,CL,Chile,RM,Santiago Metropolitan Region,13122,Peñalolén,,,CL,CHL,2
+CL_RM_13123,Q51587,,CL,Chile,RM,Santiago Metropolitan Region,13123,Providencia,,,CL,CHL,2
+CL_RM_13124,Q51591,,CL,Chile,RM,Santiago Metropolitan Region,13124,Pudahuel,,,CL,CHL,2
+CL_RM_13125,Q51612,,CL,Chile,RM,Santiago Metropolitan Region,13125,Quilicura,,,CL,CHL,2
+CL_RM_13126,Q56113,,CL,Chile,RM,Santiago Metropolitan Region,13126,Quinta Normal,,,CL,CHL,2
+CL_RM_13127,Q56117,,CL,Chile,RM,Santiago Metropolitan Region,13127,Recoleta,,,CL,CHL,2
+CL_RM_13128,Q56119,,CL,Chile,RM,Santiago Metropolitan Region,13128,Renca,,,CL,CHL,2
+CL_RM_13129,Q187838,,CL,Chile,RM,Santiago Metropolitan Region,13129,San Joaquín,,,CL,CHL,2
+CL_RM_13130,Q187862,,CL,Chile,RM,Santiago Metropolitan Region,13130,San Miguel,,,CL,CHL,2
+CL_RM_13131,Q187919,,CL,Chile,RM,Santiago Metropolitan Region,13131,San Ramón,,,CL,CHL,2
+CL_RM_13132,Q201036,,CL,Chile,RM,Santiago Metropolitan Region,13132,Vitacura,,,CL,CHL,2
+CL_RM_13201,Q51594,,CL,Chile,RM,Santiago Metropolitan Region,13201,Puente Alto,,,CL,CHL,2
+CL_RM_13202,Q51113,,CL,Chile,RM,Santiago Metropolitan Region,13202,Pirque,,,CL,CHL,2
+CL_RM_13203,Q187847,,CL,Chile,RM,Santiago Metropolitan Region,13203,San José de Maipo,,,CL,CHL,2
+CL_RM_13301,Q3841,,CL,Chile,RM,Santiago Metropolitan Region,13301,Colina,,,CL,CHL,2
+CL_RM_13302,Q14477,,CL,Chile,RM,Santiago Metropolitan Region,13302,Lampa,,,CL,CHL,2
+CL_RM_13303,Q188170,,CL,Chile,RM,Santiago Metropolitan Region,13303,Til Til,,,CL,CHL,2
+CL_RM_13401,Q56136,,CL,Chile,RM,Santiago Metropolitan Region,13401,San Bernardo,,,CL,CHL,2
+CL_RM_13402,Q3656,,CL,Chile,RM,Santiago Metropolitan Region,13402,Buin,,,CL,CHL,2
+CL_RM_13403,Q3725,,CL,Chile,RM,Santiago Metropolitan Region,13403,Calera de Tango,,,CL,CHL,2
+CL_RM_13404,Q51070,,CL,Chile,RM,Santiago Metropolitan Region,13404,Paine,,,CL,CHL,2
+CL_RM_13501,Q51032,,CL,Chile,RM,Santiago Metropolitan Region,13501,Melipilla,,,CL,CHL,2
+CL_RM_13502,Q2208,,CL,Chile,RM,Santiago Metropolitan Region,13502,Alhué,,,CL,CHL,2
+CL_RM_13503,Q3885,,CL,Chile,RM,Santiago Metropolitan Region,13503,Curacaví,,,CL,CHL,2
+CL_RM_13504,Q16925,,CL,Chile,RM,Santiago Metropolitan Region,13504,María Pinto,,,CL,CHL,2
+CL_RM_13505,Q187885,,CL,Chile,RM,Santiago Metropolitan Region,13505,San Pedro,,,CL,CHL,2
+CL_RM_13601,Q188038,,CL,Chile,RM,Santiago Metropolitan Region,13601,Talagante,,,CL,CHL,2
+CL_RM_13602,Q13038,,CL,Chile,RM,Santiago Metropolitan Region,13602,El Monte,,,CL,CHL,2
+CL_RM_13603,Q14445,,CL,Chile,RM,Santiago Metropolitan Region,13603,Isla de Maipo,,,CL,CHL,2
+CL_RM_13604,Q51062,,CL,Chile,RM,Santiago Metropolitan Region,13604,Padre Hurtado,,,CL,CHL,2
+CL_RM_13605,Q51098,,CL,Chile,RM,Santiago Metropolitan Region,13605,Peñaflor,,,CL,CHL,2
+CL_TA,Q2114,iso/CL-TA,CL,Chile,TA,Tarapacá,,,,,CL,CHL,1
+CL_TA_01101,Q14440,,CL,Chile,TA,Tarapacá,01101,Iquique,,,CL,CHL,2
+CL_TA_01107,Q2217,,CL,Chile,TA,Tarapacá,01107,Alto Hospicio,,,CL,CHL,2
+CL_TA_01401,Q51585,,CL,Chile,TA,Tarapacá,01401,Pozo Almonte,,,CL,CHL,2
+CL_TA_01402,Q3731,,CL,Chile,TA,Tarapacá,01402,Camiña,,,CL,CHL,2
+CL_TA_01403,Q3839,,CL,Chile,TA,Tarapacá,01403,Colchane,,,CL,CHL,2
+CL_TA_01404,Q13081,,CL,Chile,TA,Tarapacá,01404,Huara,,,CL,CHL,2
+CL_TA_01405,Q51102,,CL,Chile,TA,Tarapacá,01405,Pica,,,CL,CHL,2
+CL_VS,Q219458,iso/CL-VS,CL,Chile,VS,Valparaíso,,,,,CL,CHL,1
+CL_VS_05101,Q33986,,CL,Chile,VS,Valparaíso,05101,Valparaíso,,,CL,CHL,2
+CL_VS_05102,Q3742,,CL,Chile,VS,Valparaíso,05102,Casablanca,,,CL,CHL,2
+CL_VS_05103,Q3860,,CL,Chile,VS,Valparaíso,05103,Concón,,,CL,CHL,2
+CL_VS_05104,Q14454,,CL,Chile,VS,Valparaíso,05104,Juan Fernández,,,CL,CHL,2
+CL_VS_05105,Q51588,,CL,Chile,VS,Valparaíso,05105,Puchuncaví,,,CL,CHL,2
+CL_VS_05107,Q56114,,CL,Chile,VS,Valparaíso,05107,Quintero,,,CL,CHL,2
+CL_VS_05109,Q184345,,CL,Chile,VS,Valparaíso,05109,Viña del Mar,,,CL,CHL,2
+CL_VS_05201,Q9009773,,CL,Chile,VS,Valparaíso,05201,Isla de Pascua,,,CL,CHL,2
+CL_VS_05301,Q16903,,CL,Chile,VS,Valparaíso,05301,Los Andes,,,CL,CHL,2
+CL_VS_05302,Q3728,,CL,Chile,VS,Valparaíso,05302,Calle Larga,,,CL,CHL,2
+CL_VS_05303,Q56123,,CL,Chile,VS,Valparaíso,05303,Rinconada,,,CL,CHL,2
+CL_VS_05304,Q187784,,CL,Chile,VS,Valparaíso,05304,San Esteban,,,CL,CHL,2
+CL_VS_05401,Q14463,,CL,Chile,VS,Valparaíso,05401,La Ligua,,,CL,CHL,2
+CL_VS_05402,Q3668,,CL,Chile,VS,Valparaíso,05402,Cabildo,,,CL,CHL,2
+CL_VS_05403,Q51079,,CL,Chile,VS,Valparaíso,05403,Papudo,,,CL,CHL,2
+CL_VS_05404,Q51096,,CL,Chile,VS,Valparaíso,05404,Petorca,,,CL,CHL,2
+CL_VS_05405,Q201064,,CL,Chile,VS,Valparaíso,05405,Zapallar,,,CL,CHL,2
+CL_VS_05501,Q56108,,CL,Chile,VS,Valparaíso,05501,Quillota,,,CL,CHL,2
+CL_VS_05502,Q3713,,CL,Chile,VS,Valparaíso,05502,La Calera,,,CL,CHL,2
+CL_VS_05503,Q13071,,CL,Chile,VS,Valparaíso,05503,Hijuelas,,,CL,CHL,2
+CL_VS_05504,Q14457,,CL,Chile,VS,Valparaíso,05504,La Cruz,,,CL,CHL,2
+CL_VS_05506,Q51049,,CL,Chile,VS,Valparaíso,05506,Nogales,,,CL,CHL,2
+CL_VS_05601,Q56135,,CL,Chile,VS,Valparaíso,05601,San Antonio,,,CL,CHL,2
+CL_VS_05602,Q2206,,CL,Chile,VS,Valparaíso,05602,Algarrobo,,,CL,CHL,2
+CL_VS_05603,Q3738,,CL,Chile,VS,Valparaíso,05603,Cartagena,,,CL,CHL,2
+CL_VS_05604,Q13040,,CL,Chile,VS,Valparaíso,05604,El Quisco,,,CL,CHL,2
+CL_VS_05605,Q13041,,CL,Chile,VS,Valparaíso,05605,El Tabo,,,CL,CHL,2
+CL_VS_05606,Q188011,,CL,Chile,VS,Valparaíso,05606,Santo Domingo,,,CL,CHL,2
+CL_VS_05701,Q187802,,CL,Chile,VS,Valparaíso,05701,San Felipe,,,CL,CHL,2
+CL_VS_05702,Q3747,,CL,Chile,VS,Valparaíso,05702,Catemu,,,CL,CHL,2
+CL_VS_05703,Q14498,,CL,Chile,VS,Valparaíso,05703,Llay-Llay,,,CL,CHL,2
+CL_VS_05704,Q51078,,CL,Chile,VS,Valparaíso,05704,Panquehue,,,CL,CHL,2
+CL_VS_05705,Q51604,,CL,Chile,VS,Valparaíso,05705,Putaendo,,,CL,CHL,2
+CL_VS_05706,Q187991,,CL,Chile,VS,Valparaíso,05706,Santa María,,,CL,CHL,2
+CL_VS_05801,Q56110,,CL,Chile,VS,Valparaíso,05801,Quilpué,,,CL,CHL,2
+CL_VS_05802,Q14493,,CL,Chile,VS,Valparaíso,05802,Limache,,,CL,CHL,2
+CL_VS_05803,Q51058,,CL,Chile,VS,Valparaíso,05803,Olmué,,,CL,CHL,2
+CL_VS_05804,Q174744,,CL,Chile,VS,Valparaíso,05804,Villa Alemana,,,CL,CHL,2
 CM,Q1009,country/CMR,CM,Cameroon,,,,,,,CM,CMR,0
 CN,Q148,country/CHN,CN,China,,,,,,,CN,CHN,0
 CN_AH,Q40956,,CN,China,AH,Anhui,,,,,CN,CHN,1
@@ -9811,24 +9811,127 @@ IR,Q794,country/IRN,IR,Iran,,,,,,,IR,IRN,0
 IS,Q189,country/ISL,IS,Iceland,,,,,,,IS,ISL,0
 IT,Q38,country/ITA,IT,Italy,,,,,,,IT,ITA,0
 IT_21,Q1216,nuts/ITC1,IT,Italy,21,Piedmont,,,,,IT,ITA,1
+IT_21_AL,Q15097,iso/IT-AL,IT,Italy,21,Piemont,AL,Alessandria,,,IT,ITA,2
+IT_21_AT,Q15099,iso/IT-AT,IT,Italy,21,Piemont,AT,Asti,,,IT,ITA,2
+IT_21_BI,Q15094,iso/IT-BI,IT,Italy,21,Piemont,BI,Biella,,,IT,ITA,2
+IT_21_CN,Q15091,iso/IT-CN,IT,Italy,21,Piemont,CN,Cuneo,,,IT,ITA,2
+IT_21_NO,Q16216,iso/IT-NO,IT,Italy,21,Piemont,NO,Novara,,,IT,ITA,2
+IT_21_TO,Q18288162,iso/IT-TO,IT,Italy,21,Piemont,TO,Torino,,,IT,ITA,2
+IT_21_VB,Q16312,iso/IT-VB,IT,Italy,21,Piemont,VB,Verbano-Cusio-Ossola,,,IT,ITA,2
+IT_21_VC,Q15096,iso/IT-VC,IT,Italy,21,Piemont,VC,Vercelli,,,IT,ITA,2
 IT_23,Q1222,nuts/ITC2,IT,Italy,23,Aosta Valley,,,,,IT,ITA,1
 IT_25,Q1210,nuts/ITC4,IT,Italy,25,Lombardy,,,,,IT,ITA,1
+IT_25_BG,Q16137,iso/IT-BG,IT,Italy,25,Lombardy,BG,Bergamo,,,IT,ITA,2
+IT_25_BS,Q16144,iso/IT-BS,IT,Italy,25,Lombardy,BS,Brescia,,,IT,ITA,2
+IT_25_CO,Q16161,iso/IT-CO,IT,Italy,25,Lombardy,CO,Como,,,IT,ITA,2
+IT_25_CR,Q16163,iso/IT-CR,IT,Italy,25,Lombardy,CR,Cremona,,,IT,ITA,2
+IT_25_LC,Q16199,iso/IT-LC,IT,Italy,25,Lombardy,LC,Lecco,,,IT,ITA,2
+IT_25_LO,Q16201,iso/IT-LO,IT,Italy,25,Lombardy,LO,Lodi,,,IT,ITA,2
+IT_25_MB,Q16210,iso/IT-MB,IT,Italy,25,Lombardy,MB,Monza e della Brianza,,,IT,ITA,2
+IT_25_MI,Q18288155,iso/IT-MI,IT,Italy,25,Lombardy,MI,Milano,,,IT,ITA,2
+IT_25_MN,Q16204,iso/IT-MN,IT,Italy,25,Lombardy,MN,Mantova,,,IT,ITA,2
+IT_25_PV,Q16231,iso/IT-PV,IT,Italy,25,Lombardy,PV,Pavia,,,IT,ITA,2
+IT_25_SO,Q16282,iso/IT-SO,IT,Italy,25,Lombardy,SO,Sondrio,,,IT,ITA,2
+IT_25_VA,Q16299,iso/IT-VA,IT,Italy,25,Lombardy,VA,Varese,,,IT,ITA,2
 IT_34,Q1243,nuts/ITH3,IT,Italy,34,Veneto,,,,,IT,ITA,1
+IT_34_BL,Q16126,iso/IT-BL,IT,Italy,34,Veneto,BL,Belluno,,,IT,ITA,2
+IT_34_PD,Q16226,iso/IT-PD,IT,Italy,34,Veneto,PD,Padova,,,IT,ITA,2
+IT_34_RO,Q16270,iso/IT-RO,IT,Italy,34,Veneto,RO,Rovigo,,,IT,ITA,2
+IT_34_TV,Q16292,iso/IT-TV,IT,Italy,34,Veneto,TV,Treviso,,,IT,ITA,2
+IT_34_VE,Q3678587,iso/IT-VE,IT,Italy,34,Veneto,VE,Venezia,,,IT,ITA,2
+IT_34_VI,Q16316,iso/IT-VI,IT,Italy,34,Veneto,VI,Vicenza,,,IT,ITA,2
+IT_34_VR,Q16314,iso/IT-VR,IT,Italy,34,Veneto,VR,Verona,,,IT,ITA,2
 IT_36,Q1250,nuts/ITH4,IT,Italy,36,Friuli Venezia Giulia,,,,,IT,ITA,1
+IT_36_GO,Q16184,iso/IT-GO,IT,Italy,36,Friuli Venezia Giulia,GO,Gorizia,,,IT,ITA,2
+IT_36_PN,Q16247,iso/IT-PN,IT,Italy,36,Friuli Venezia Giulia,PN,Pordenone,,,IT,ITA,2
+IT_36_TS,Q16293,iso/IT-TS,IT,Italy,36,Friuli Venezia Giulia,TS,Trieste,,,IT,ITA,2
+IT_36_UD,Q16294,iso/IT-UD,IT,Italy,36,Friuli Venezia Giulia,UD,Udine,,,IT,ITA,2
 IT_42,Q1256,nuts/ITC3,IT,Italy,42,Liguria,,,,,IT,ITA,1
+IT_42_GE,Q18288152,iso/IT-GE,IT,Italy,42,Liguria,GE,Genova,,,IT,ITA,2
+IT_42_IM,Q16186,iso/IT-IM,IT,Italy,42,Liguria,IM,Imperia,,,IT,ITA,2
+IT_42_SP,Q16188,iso/IT-SP,IT,Italy,42,Liguria,SP,La Spezia,,,IT,ITA,2
+IT_42_SV,Q16274,iso/IT-SV,IT,Italy,42,Liguria,SV,Savona,,,IT,ITA,2
 IT_45,Q1263,nuts/ITH5,IT,Italy,45,Emilia-Romagna,,,,,IT,ITA,1
+IT_45_BO,Q18288145,iso/IT-BO,IT,Italy,45,Emilia-Romagna,BO,Bologna,,,IT,ITA,2
+IT_45_FC,Q16180,iso/IT-FC,IT,Italy,45,Emilia-Romagna,FC,Forlì-Cesena,,,IT,ITA,2
+IT_45_FE,Q16168,iso/IT-FE,IT,Italy,45,Emilia-Romagna,FE,Ferrara,,,IT,ITA,2
+IT_45_MO,Q16209,iso/IT-MO,IT,Italy,45,Emilia-Romagna,MO,Modena,,,IT,ITA,2
+IT_45_PC,Q16243,iso/IT-PC,IT,Italy,45,Emilia-Romagna,PC,Piacenza,,,IT,ITA,2
+IT_45_PR,Q16228,iso/IT-PR,IT,Italy,45,Emilia-Romagna,PR,Parma,,,IT,ITA,2
+IT_45_RA,Q16252,iso/IT-RA,IT,Italy,45,Emilia-Romagna,RA,Ravenna,,,IT,ITA,2
+IT_45_RE,Q16254,iso/IT-RE,IT,Italy,45,Emilia-Romagna,RE,Reggio nell'Emilia,,,IT,ITA,2
+IT_45_RN,Q16268,iso/IT-RN,IT,Italy,45,Emilia-Romagna,RN,Rimini,,,IT,ITA,2
 IT_52,Q1273,nuts/ITI1,IT,Italy,52,Tuscany,,,,,IT,ITA,1
+IT_52_AR,Q16115,iso/IT-AR,IT,Italy,52,Tuscany,AR,Arezzo,,,IT,ITA,2
+IT_52_FI,Q18288148,iso/IT-FI,IT,Italy,52,Tuscany,FI,Firenze,,,IT,ITA,2
+IT_52_GR,Q16185,iso/IT-GR,IT,Italy,52,Tuscany,GR,Grosseto,,,IT,ITA,2
+IT_52_LI,Q16200,iso/IT-LI,IT,Italy,52,Tuscany,LI,Livorno,,,IT,ITA,2
+IT_52_LU,Q16202,iso/IT-LU,IT,Italy,52,Tuscany,LU,Lucca,,,IT,ITA,2
+IT_52_MS,Q16205,iso/IT-MS,IT,Italy,52,Tuscany,MS,Massa Carrara,,,IT,ITA,2
+IT_52_PI,Q16244,iso/IT-PI,IT,Italy,52,Tuscany,PI,Pisa,,,IT,ITA,2
+IT_52_PO,Q16250,iso/IT-PO,IT,Italy,52,Tuscany,PO,Prato,,,IT,ITA,2
+IT_52_PT,Q16245,iso/IT-PT,IT,Italy,52,Tuscany,PT,Pistoia,,,IT,ITA,2
+IT_52_SI,Q16275,iso/IT-SI,IT,Italy,52,Tuscany,SI,Siena,,,IT,ITA,2
 IT_55,Q1280,nuts/ITI2,IT,Italy,55,Umbria,,,,,IT,ITA,1
+IT_55_PG,Q16240,iso/IT-PG,IT,Italy,55,Umbria,PG,Perugia,,,IT,ITA,2
+IT_55_TR,Q16286,iso/IT-TR,IT,Italy,55,Umbria,TR,Terni,,,IT,ITA,2
 IT_57,Q1279,nuts/ITI3,IT,Italy,57,Marche,,,,,IT,ITA,1
+IT_57_AN,Q16114,iso/IT-AN,IT,Italy,57,Marche,AN,Ancona,,,IT,ITA,2
+IT_57_AP,Q16117,iso/IT-AP,IT,Italy,57,Marche,AP,Ascoli Piceno,,,IT,ITA,2
+IT_57_FM,Q16167,iso/IT-FM,IT,Italy,57,Marche,FM,Fermo,,,IT,ITA,2
+IT_57_MC,Q16203,iso/IT-MC,IT,Italy,57,Marche,MC,Macerata,,,IT,ITA,2
+IT_57_PU,Q16241,iso/IT-PU,IT,Italy,57,Marche,PU,Pesaro e Urbino,,,IT,ITA,2
 IT_62,Q1282,nuts/ITI4,IT,Italy,62,Lazio,,,,,IT,ITA,1
+IT_62_FR,Q16181,iso/IT-FR,IT,Italy,62,Lazio,FR,Frosinone,,,IT,ITA,2
+IT_62_LT,Q16196,iso/IT-LT,IT,Italy,62,Lazio,LT,Latina,,,IT,ITA,2
+IT_62_RI,Q16267,iso/IT-RI,IT,Italy,62,Lazio,RI,Rieti,,,IT,ITA,2
+IT_62_RM,Q18288160,iso/IT-RM,IT,Italy,62,Lazio,RM,Roma,,,IT,ITA,2
+IT_62_VT,Q16318,iso/IT-VT,IT,Italy,62,Lazio,VT,Viterbo,,,IT,ITA,2
 IT_65,Q1284,nuts/ITF1,IT,Italy,65,Abruzzo,,,,,IT,ITA,1
+IT_65_AQ,Q16189,iso/IT-AQ,IT,Italy,65,Abruzzo,AQ,L'Aquila,,,IT,ITA,2
+IT_65_CH,Q16160,iso/IT-CH,IT,Italy,65,Abruzzo,CH,Chieti,,,IT,ITA,2
+IT_65_PE,Q16242,iso/IT-PE,IT,Italy,65,Abruzzo,PE,Pescara,,,IT,ITA,2
+IT_65_TE,Q16284,iso/IT-TE,IT,Italy,65,Abruzzo,TE,Teramo,,,IT,ITA,2
 IT_67,Q1443,nuts/ITF2,IT,Italy,67,Molise,,,,,IT,ITA,1
+IT_67_CB,Q16151,iso/IT-CB,IT,Italy,67,Molise,CB,Campobasso,,,IT,ITA,2
+IT_67_IS,Q16187,iso/IT-IS,IT,Italy,67,Molise,IS,Isernia,,,IT,ITA,2
 IT_72,Q1438,nuts/ITF3,IT,Italy,72,Campania,,,,,IT,ITA,1
+IT_72_AV,Q16120,iso/IT-AV,IT,Italy,72,Campania,AV,Avellino,,,IT,ITA,2
+IT_72_BN,Q16134,iso/IT-BN,IT,Italy,72,Campania,BN,Benevento,,,IT,ITA,2
+IT_72_CE,Q16153,iso/IT-CE,IT,Italy,72,Campania,CE,Caserta,,,IT,ITA,2
+IT_72_SA,Q16271,iso/IT-SA,IT,Italy,72,Campania,SA,Salerno,,,IT,ITA,2
 IT_75,Q1447,nuts/ITF4,IT,Italy,75,Apulia,,,,,IT,ITA,1
+IT_75_BA,Q18241854,iso/IT-BA,IT,Italy,75,Apulia,BA,Bari,,,IT,ITA,2
+IT_75_BR,Q16148,iso/IT-BR,IT,Italy,75,Apulia,BR,Brindisi,,,IT,ITA,2
+IT_75_BT,Q16124,iso/IT-BT,IT,Italy,75,Apulia,BT,Barletta-Andria-Trani,,,IT,ITA,2
+IT_75_FG,Q15129,iso/IT-FG,IT,Italy,75,Apulia,FG,Foggia,,,IT,ITA,2
+IT_75_LE,Q16197,iso/IT-LE,IT,Italy,75,Apulia,LE,Lecce,,,IT,ITA,2
+IT_75_TA,Q16283,iso/IT-TA,IT,Italy,75,Apulia,TA,Taranto,,,IT,ITA,2
 IT_77,Q1452,nuts/ITF5,IT,Italy,77,Basilicata,,,,,IT,ITA,1
+IT_77_MT,Q16206,iso/IT-MT,IT,Italy,77,Basilicata,MT,Matera,,,IT,ITA,2
+IT_77_PZ,Q16249,iso/IT-PZ,IT,Italy,77,Basilicata,PZ,Potenza,,,IT,ITA,2
 IT_78,Q1458,nuts/ITF6,IT,Italy,78,Calabria,,,,,IT,ITA,1
+IT_78_CS,Q16162,iso/IT-CS,IT,Italy,78,Calabria,CS,Cosenza,,,IT,ITA,2
+IT_78_CZ,Q16159,iso/IT-CZ,IT,Italy,78,Calabria,CZ,Catanzaro,,,IT,ITA,2
+IT_78_KR,Q16165,iso/IT-KR,IT,Italy,78,Calabria,KR,Crotone,,,IT,ITA,2
+IT_78_RC,Q3678586,iso/IT-RC,IT,Italy,78,Calabria,RC,Reggio di Calabria,,,IT,ITA,2
+IT_78_VV,Q16315,iso/IT-VV,IT,Italy,78,Calabria,VV,Vibo Valentia,,,IT,ITA,2
 IT_82,Q1460,nuts/ITG1,IT,Italy,82,Sicily,,,,,IT,ITA,1
+IT_82_AG,Q26160406,iso/IT-AG,IT,Italy,82,Sicily,AG,Agrigento,,,IT,ITA,2
+IT_82_CL,Q26160410,iso/IT-CL,IT,Italy,82,Sicily,CL,Caltanissetta,,,IT,ITA,2
+IT_82_CT,Q20991246,iso/IT-CT,IT,Italy,82,Sicily,CT,Catania,,,IT,ITA,2
+IT_82_EN,Q26160408,iso/IT-EN,IT,Italy,82,Sicily,EN,Enna,,,IT,ITA,2
+IT_82_ME,Q20991250,iso/IT-ME,IT,Italy,82,Sicily,ME,Messina,,,IT,ITA,2
+IT_82_PA,Q20795016,iso/IT-PA,IT,Italy,82,Sicily,PA,Palermo,,,IT,ITA,2
+IT_82_RG,Q26160405,iso/IT-RG,IT,Italy,82,Sicily,RG,Ragusa,,,IT,ITA,2
+IT_82_SR,Q25510290,iso/IT-SR,IT,Italy,82,Sicily,SR,Siracusa,,,IT,ITA,2
+IT_82_TP,Q26160403,iso/IT-TP,IT,Italy,82,Sicily,TP,Trapani,,,IT,ITA,2
 IT_88,Q1462,nuts/ITG2,IT,Italy,88,Sardinia,,,,,IT,ITA,1
+IT_88_CA,Q3622022,iso/IT-CA,IT,Italy,88,Sardinia,CA,Cagliari,,,IT,ITA,2
+IT_88_NU,Q16220,iso/IT-NU,IT,Italy,88,Sardinia,NU,Nuoro,,,IT,ITA,2
+IT_88_OR,Q16225,iso/IT-OR,IT,Italy,88,Sardinia,OR,Oristano,,,IT,ITA,2
+IT_88_SS,Q16272,iso/IT-SS,IT,Italy,88,Sardinia,SS,Sassari,,,IT,ITA,2
+IT_88_SU,,iso/IT-SU,IT,Italy,88,Sardinia,SU,Sud Sardegna,,,IT,ITA,2
 IT_BZ,Q15124,nuts/ITD1,IT,Italy,BZ,South Tyrol,,,,,IT,ITA,1
 IT_TN,Q16289,nuts/ITH2,IT,Italy,TN,Trentino-Alto Adige,,,,,IT,ITA,1
 JE,Q785,country/JEY,JE,Jersey,,,,,,,JE,JEY,0
