@@ -10051,13 +10051,13 @@ LY_MQ,Q48239,,LY,Libya,MQ,Murzuq,,,,,LY,LBY,1
 LY_MS,Q131323,,LY,Libya,MS,Misurata,,,,,LY,LBY,1
 LY_NL,Q27659,,LY,Libya,NL,Nalut,,,,,LY,LBY,1
 LY_NL_KA,Q647345,,LY,Libya,NL,Nalut,KA,Kabaw,,,LY,LBY,2
-LY_NQ,Q26161,,LY,Libya,NQ,Nuqat al Khams,Nuqat al Khams,,,,LY,LBY,2
+LY_NQ,Q26161,,LY,Libya,NQ,Nuqat al Khams,,,,,LY,LBY,1
 LY_NQ_ZU,Q231167,,LY,Libya,NQ,Nuqat al Khams,ZU,Zuwarah,,,LY,LBY,2
 LY_SB,Q26132,,LY,Libya,SB,Sabha,,,,,LY,LBY,1
 LY_SR,Q26417,,LY,SR,Sirte,,,,,,LY,LBY,1
 LY_SR_BJ,Q117564,,LY,Libya,SR,Sirte,BJ,Bin Jawad,,,LY,LBY,2
 LY_SR_HA,Q3849569,,LY,Libya,SR,Sirte,HA,Harawa,,,LY,LBY,2
-LY_ST,Q192918,,LY,Libya,ST,Sabratha,,,صبراتة,,LY,LBY,3
+LY_ST,Q192918,,LY,Libya,ST,Sabratha,,,,,LY,LBY,1
 LY_TB,Q32837,,LY,Libya,TB,Tripoli,,,,,LY,LBY,1
 LY_TB_JN,Q1995276,,LY,Libya,TB,Tripoli,JN,Janzur,,,LY,LBY,2
 LY_TB_QS,Q84168,,LY,Libya,TB,Tripoli,QS,Qasr Ben Ghashir,,,LY,LBY,2
