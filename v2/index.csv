@@ -15055,33 +15055,33 @@ PK_KP,Q183314,,PK,Pakistan,KP,Khyber Pakhtunkhwa,,,,,PK,PAK,1
 PK_PB,Q4478,,PK,Pakistan,PB,Punjab,,,,,PK,PAK,1
 PK_SD,Q37211,,PK,Pakistan,SD,Sindh,,,,,PK,PAK,1
 PL,Q36,country/POL,PL,Poland,,,,,,,PL,POL,0
-PL_02,Q54150,,PL,Poland,02,Lower Silesia,,,,,PL,POL,1
-PL_04,Q54153,,PL,Poland,04,Kuiavia-Pomerania,,,,,PL,POL,1
-PL_06,Q54155,,PL,Poland,06,Lublin,,,,,PL,POL,1
-PL_08,Q54157,,PL,Poland,08,Lubusz,,,,,PL,POL,1
+PL_02,Q54150,nuts/PL51,PL,Poland,02,Lower Silesia,,,,,PL,POL,1
+PL_04,Q54153,nuts/PL61,PL,Poland,04,Kuiavia-Pomerania,,,,,PL,POL,1
+PL_06,Q54155,nuts/PL81,PL,Poland,06,Lublin,,,,,PL,POL,1
+PL_08,Q54157,nuts/PL43,PL,Poland,08,Lubusz,,,,,PL,POL,1
 PL_10,Q54158,nuts/PL71,PL,Poland,10,Łódź,,,,,PL,POL,1
-PL_12,Q54159,,PL,Poland,12,Lesser Poland,,,,,PL,POL,1
+PL_12,Q54159,nuts/PL21,PL,Poland,12,Lesser Poland,,,,,PL,POL,1
 PL_14,Q54169,,PL,Poland,14,Mazovia,,,,,PL,POL,1
-PL_16,Q54171,,PL,Poland,16,Opole,,,,,PL,POL,1
-PL_18,Q54175,,PL,Poland,18,Subcarpathia,,,,,PL,POL,1
-PL_20,Q54177,,PL,Poland,20,Podlaskie,,,,,PL,POL,1
-PL_22,Q54180,,PL,Poland,22,Pomerania,,,,,PL,POL,1
-PL_24,Q54181,,PL,Poland,24,Silesia,,,,,PL,POL,1
+PL_16,Q54171,nuts/PL52,PL,Poland,16,Opole,,,,,PL,POL,1
+PL_18,Q54175,nuts/PL82,PL,Poland,18,Subcarpathia,,,,,PL,POL,1
+PL_20,Q54177,nuts/PL84,PL,Poland,20,Podlaskie,,,,,PL,POL,1
+PL_22,Q54180,nuts/PL63,PL,Poland,22,Pomerania,,,,,PL,POL,1
+PL_24,Q54181,nuts/PL22,PL,Poland,24,Silesia,,,,,PL,POL,1
 PL_26,Q54183,nuts/PL72,PL,Poland,26,Swietokrzyskie,,,,,PL,POL,1
-PL_28,Q54184,,PL,Poland,28,Warmia-Masuria,,,,,PL,POL,1
-PL_30,Q54187,,PL,Poland,30,Greater Poland,,,,,PL,POL,1
-PL_32,Q54188,,PL,Poland,32,West Pomeranian,,,,,PL,POL,1
+PL_28,Q54184,nuts/PL62,PL,Poland,28,Warmia-Masuria,,,,,PL,POL,1
+PL_30,Q54187,nuts/PL41,PL,Poland,30,Greater Poland,,,,,PL,POL,1
+PL_32,Q54188,nuts/PL42,PL,Poland,32,West Pomeranian,,,,,PL,POL,1
 PN,Q35672,country/PCN,PN,Pitcairn Islands,,,,,,,PN,PCN,0
 PR,Q1183,country/PRI,PR,Puerto Rico,,,,,,,PR,PRI,0
 PS,Q1176995,,PS,Palestine,,,,,,,PS,PSE,0
 PT,Q45,country/PRT,PT,Portugal,,,,,,,PT,PRT,0
 PT_11,Q27662,nuts/PT11,PT,Portugal,11,Norte,,,,,PT,PRT,1
-PT_15,Q26831,nuts/PT150,PT,Portugal,15,Algarve,,,,,PT,PRT,1
+PT_15,Q26831,nuts/PT15,PT,Portugal,15,Algarve,,,,,PT,PRT,1
 PT_16,Q27569,nuts/PT16,PT,Portugal,16,Centro,,,,,PT,PRT,1
-PT_17,Q2392329,nuts/PT170,PT,Portugal,17,Lisbon Metropolitan Area,,,,,PT,PRT,1
-PT_18,Q4716163,,PT,Portugal,18,Alentejo,,,,,PT,PRT,1
-PT_20,Q25263,nuts/PT200,PT,Portugal,20,Azores,,,,,PT,PRT,1
-PT_30,Q26253,nuts/PT300,PT,Portugal,30,Madeira,,,,,PT,PRT,1
+PT_17,Q2392329,nuts/PT17,PT,Portugal,17,Lisbon Metropolitan Area,,,,,PT,PRT,1
+PT_18,Q4716163,nuts/PT18,PT,Portugal,18,Alentejo,,,,,PT,PRT,1
+PT_20,Q25263,nuts/PT20,PT,Portugal,20,Azores,,,,,PT,PRT,1
+PT_30,Q26253,nuts/PT30,PT,Portugal,30,Madeira,,,,,PT,PRT,1
 PW,Q695,country/PLW,PW,Palau,,,,,,,PW,PLW,0
 PY,Q733,country/PRY,PY,Paraguay,,,,,,,PY,PRY,0
 PY_1,Q741009,,PY,Paraguay,1,Concepción Department,,,,,PY,PRY,1
