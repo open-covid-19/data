@@ -8858,6 +8858,7 @@ GB_ENG_E10000030,Q23276,nuts/UKJ23,GB,United Kingdom,ENG,England,E10000030,Surre
 GB_ENG_E10000031,Q23140,nuts/UKG13,GB,United Kingdom,ENG,England,E10000031,Warwickshire,,,GB,GBR,2
 GB_ENG_E10000032,Q23287,nuts/UKJ24,GB,United Kingdom,ENG,England,E10000032,West Sussex,,,GB,GBR,2
 GB_ENG_E10000034,Q23135,nuts/UKG12,GB,United Kingdom,ENG,England,E10000034,Worcestershire,,,GB,GBR,2
+GB_ENG_LON,Q84,,GB,United Kingdom,ENG,England,,LON,London,,GB,GBR,3
 GB_NIR,Q26,nuts/UKN,GB,United Kingdom,NIR,Northern Ireland,,,,,GB,GBR,1
 GB_NIR_N09000001,Q4777347,,GB,United Kingdom,NIR,Northern Ireland,N09000001,Antrim and Newtownabbey,,,GB,GBR,2
 GB_NIR_N09000002,Q4792580,,GB,United Kingdom,NIR,Northern Ireland,N09000002,"Armagh City, Banbridge and Craigavon",,,GB,GBR,2
@@ -8885,15 +8886,15 @@ GB_SCT_S08000029,,,GB,United Kingdom,SCT,Scotland,S08000029,Fife,,,GB,GBR,2
 GB_SCT_S08000030,,,GB,United Kingdom,SCT,Scotland,S08000030,Tayside,,,GB,GBR,2
 GB_SCT_S08000031,,,GB,United Kingdom,SCT,Scotland,S08000031,Greater Glasgow and Clyde,,,GB,GBR,2
 GB_SCT_S08000032,,,GB,United Kingdom,SCT,Scotland,S08000032,Lanarkshire,,,GB,GBR,2
-GB_UKC,Q47983,nuts/UKC,GB,United Kingdom,UKC,North East,,,,,GB,GBR,1
-GB_UKD,Q47967,nuts/UKD,GB,United Kingdom,UKD,North West,,,,,GB,GBR,1
-GB_UKE,Q48063,nuts/UKE,GB,United Kingdom,UKE,Yorkshire and the Humber,,,,,GB,GBR,1
-GB_UKF,Q47994,nuts/UKF,GB,United Kingdom,UKF,East Midlands,,,,,GB,GBR,1
-GB_UKG,Q48038,nuts/UKG,GB,United Kingdom,UKG,West Midlands,,,,,GB,GBR,1
+GB_UKC,Q47983,nuts/UKC,GB,United Kingdom,UKC,North East England,,,,,GB,GBR,1
+GB_UKD,Q47967,nuts/UKD,GB,United Kingdom,UKD,North West England,,,,,GB,GBR,1
+GB_UKE,Q48063,nuts/UKE,GB,United Kingdom,UKE,"Yorkshire and the Humber, England",,,,,GB,GBR,1
+GB_UKF,Q47994,nuts/UKF,GB,United Kingdom,UKF,"East Midlands, England",,,,,GB,GBR,1
+GB_UKG,Q48038,nuts/UKG,GB,United Kingdom,UKG,"West Midlands, England",,,,,GB,GBR,1
 GB_UKH,Q48006,nuts/UKH,GB,United Kingdom,UKH,East of England,,,,,GB,GBR,1
-GB_UKI,Q23306,nuts/UKI,GB,United Kingdom,UKI,Greater London,,,,,GB,GBR,1
-GB_UKJ,Q48015,nuts/UKJ,GB,United Kingdom,UKJ,South East,,,,,GB,GBR,1
-GB_UKK,Q48026,nuts/UKK,GB,United Kingdom,UKK,South West,,,,,GB,GBR,1
+GB_UKI,Q23306,nuts/UKI,GB,United Kingdom,UKI,London Region,,,,,GB,GBR,1
+GB_UKJ,Q48015,nuts/UKJ,GB,United Kingdom,UKJ,South East England,,,,,GB,GBR,1
+GB_UKK,Q48026,nuts/UKK,GB,United Kingdom,UKK,South West England,,,,,GB,GBR,1
 GB_WLS,Q25,nuts/UKL,GB,United Kingdom,WLS,Wales,,,,,GB,GBR,1
 GB_WLS_W11000023,,,GB,United Kingdom,WLS,Wales,W11000023,Betsi Cadwaladr,,,GB,GBR,2
 GB_WLS_W11000024,,,GB,United Kingdom,WLS,Wales,W11000024,Powys,,,GB,GBR,2
