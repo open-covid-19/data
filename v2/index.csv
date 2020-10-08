@@ -9013,6 +9013,1496 @@ ID_SU,Q2140,,ID,Indonesia,SU,North Sumatra,,,,,ID,IDN,1
 ID_YO,Q3741,,ID,Indonesia,YO,Yogyakarta,,,,,ID,IDN,1
 IE,Q22890,,IE,Ireland,,,,,,,IE,IRL,0
 IL,Q801,country/ISR,IL,Israel,,,,,,,IL,ISR,0
+IL_D,Q188781,iso/IL-D,IL,Israel,D,Southern District,,,,,IL,ISR,1
+IL_D_0007,Q2888794,,IL,Israel,D,Southern District,0007,Shahar,,,IL,ISR,2
+IL_D_0011,Q2888891,,IL,Israel,D,Southern District,0011,Nir Hen,,,IL,ISR,2
+IL_D_0013,Q747107,,IL,Israel,D,Southern District,0013,Hatzeva,,,IL,ISR,2
+IL_D_0015,Q2919797,,IL,Israel,D,Southern District,0015,No'am,,,IL,ISR,2
+IL_D_0016,Q2890353,,IL,Israel,D,Southern District,0016,Beit Nir,,,IL,ISR,2
+IL_D_0018,Q2888798,,IL,Israel,D,Southern District,0018,Sde Moshe,,,IL,ISR,2
+IL_D_0021,Q2776835,,IL,Israel,D,Southern District,0021,Be'er Ora,,,IL,ISR,2
+IL_D_0023,Q548627,,IL,Israel,D,Southern District,0023,Amatzia,,,IL,ISR,2
+IL_D_0024,Q2777385,,IL,Israel,D,Southern District,0024,Lakhish,,,IL,ISR,2
+IL_D_0031,Q167632,,IL,Israel,D,Southern District,0031,Ofakim,,,IL,ISR,2
+IL_D_0032,Q2889057,,IL,Israel,D,Southern District,0032,Otzem,,,IL,ISR,2
+IL_D_0036,Q2405498,,IL,Israel,D,Southern District,0036,Sde David,,,IL,ISR,2
+IL_D_0037,Q2776804,,IL,Israel,D,Southern District,0037,Eitan,,,IL,ISR,2
+IL_D_0044,Q2888662,,IL,Israel,D,Southern District,0044,Zohar,,,IL,ISR,2
+IL_D_0055,Q2888712,,IL,Israel,D,Southern District,0055,Noga,,,IL,ISR,2
+IL_D_0067,Q1026824,,IL,Israel,D,Southern District,0067,Or HaNer,,,IL,ISR,2
+IL_D_0069,Q1011560,,IL,Israel,D,Southern District,0069,Nir Oz,,,IL,ISR,2
+IL_D_0070,Q171639,,IL,Israel,D,Southern District,0070,Ashdod,,,IL,ISR,2
+IL_D_0071,Q2888882,,IL,Israel,D,Southern District,0071,Eshbol,,,IL,ISR,2
+IL_D_0099,Q741793,,IL,Israel,D,Southern District,0099,Mitzpe Ramon,,,IL,ISR,2
+IL_D_0107,Q2777948,,IL,Israel,D,Southern District,0107,Kfar Silver,,,IL,ISR,2
+IL_D_0155,Q2916272,,IL,Israel,D,Southern District,0155,Be'er Tuvia,,,IL,ISR,2
+IL_D_0163,Q2063881,,IL,Israel,D,Southern District,0163,Timorim,,,IL,ISR,2
+IL_D_0234,Q2916760,,IL,Israel,D,Southern District,0234,Bitzaron,,,IL,ISR,2
+IL_D_0246,Q167649,,IL,Israel,D,Southern District,0246,Netivot,,,IL,ISR,2
+IL_D_0274,Q2392212,,IL,Israel,D,Southern District,0274,Kfar Menahem,,,IL,ISR,2
+IL_D_0293,Q2916676,,IL,Israel,D,Southern District,0293,Sde Yoav,,,IL,ISR,2
+IL_D_0309,Q280635,,IL,Israel,D,Southern District,0309,Nehora,,,IL,ISR,2
+IL_D_0315,Q1019154,,IL,Israel,D,Southern District,0315,Negba,,,IL,ISR,2
+IL_D_0318,Q2888841,,IL,Israel,D,Southern District,0318,Ami'oz,,,IL,ISR,2
+IL_D_0320,Q1308175,,IL,Israel,D,Southern District,0320,Kfar Warburg,,,IL,ISR,2
+IL_D_0328,Q2889580,,IL,Israel,D,Southern District,0328,Ezuz,,,IL,ISR,2
+IL_D_0336,Q2888967,,IL,Israel,D,Southern District,0336,Dorot,,,IL,ISR,2
+IL_D_0338,Q2909447,,IL,Israel,D,Southern District,0338,Ibim,,,IL,ISR,2
+IL_D_0340,Q2890586,,IL,Israel,D,Southern District,0340,Gat,,,IL,ISR,2
+IL_D_0342,Q2889488,,IL,Israel,D,Southern District,0342,Gvar'am,,,IL,ISR,2
+IL_D_0348,Q2891278,,IL,Israel,D,Southern District,0348,Nir Am,,,IL,ISR,2
+IL_D_0351,Q2920298,,IL,Israel,D,Southern District,0351,Nitzan,,,IL,ISR,2
+IL_D_0352,Q2890725,,IL,Israel,D,Southern District,0352,Gvulot,,,IL,ISR,2
+IL_D_0354,Q745981,,IL,Israel,D,Southern District,0354,Revivim,,,IL,ISR,2
+IL_D_0358,Q1678182,,IL,Israel,D,Southern District,0358,Yad Mordechai,,,IL,ISR,2
+IL_D_0359,Q2918816,,IL,Israel,D,Southern District,0359,Nitzanim,,,IL,ISR,2
+IL_D_0362,Q748670,,IL,Israel,D,Southern District,0362,Ruhama,,,IL,ISR,2
+IL_D_0392,Q2468072,,IL,Israel,D,Southern District,0392,Kedma,,,IL,ISR,2
+IL_D_0393,Q2468110,,IL,Israel,D,Southern District,0393,Gal On,,,IL,ISR,2
+IL_D_0394,Q174275,,IL,Israel,D,Southern District,0394,Shoval,,,IL,ISR,2
+IL_D_0395,Q1026818,,IL,Israel,D,Southern District,0395,Mishmar HaNegev,,,IL,ISR,2
+IL_D_0396,Q2467017,,IL,Israel,D,Southern District,0396,Nevatim,,,IL,ISR,2
+IL_D_0397,Q1018902,,IL,Israel,D,Southern District,0397,Hatzerim,,,IL,ISR,2
+IL_D_0398,Q2890565,,IL,Israel,D,Southern District,0398,Sharsheret,,,IL,ISR,2
+IL_D_0399,Q2467005,,IL,Israel,D,Southern District,0399,Be'eri,,,IL,ISR,2
+IL_D_0400,Q2889278,,IL,Israel,D,Southern District,0400,Even Shmuel,,,IL,ISR,2
+IL_D_0402,Q2890264,,IL,Israel,D,Southern District,0402,Nir Yitzhak,,,IL,ISR,2
+IL_D_0403,Q1018892,,IL,Israel,D,Southern District,0403,Urim,,,IL,ISR,2
+IL_D_0406,Q1018879,,IL,Israel,D,Southern District,0406,Hatzor,,,IL,ISR,2
+IL_D_0413,Q2916631,,IL,Israel,D,Southern District,0413,Tze'elim,,,IL,ISR,2
+IL_D_0414,Q2889820,,IL,Israel,D,Southern District,0414,Klahim,,,IL,ISR,2
+IL_D_0415,Q2889549,,IL,Israel,D,Southern District,0415,Shokeda,,,IL,ISR,2
+IL_D_0419,Q2889421,,IL,Israel,D,Southern District,0419,Sa'ad,,,IL,ISR,2
+IL_D_0421,Q690804,,IL,Israel,D,Southern District,0421,Mashabei Sadeh,,,IL,ISR,2
+IL_D_0424,Q2888861,,IL,Israel,D,Southern District,0424,Gevim,,,IL,ISR,2
+IL_D_0428,Q990653,,IL,Israel,D,Southern District,0428,Bror Hayil,,,IL,ISR,2
+IL_D_0553,Q1845488,,IL,Israel,D,Southern District,0553,Nir Banim,,,IL,ISR,2
+IL_D_0564,Q1011518,,IL,Israel,D,Southern District,0564,Revadim,,,IL,ISR,2
+IL_D_0573,Q2777930,,IL,Israel,D,Southern District,0573,Mavki'im,,,IL,ISR,2
+IL_D_0584,Q202898,,IL,Israel,D,Southern District,0584,Zikim,,,IL,ISR,2
+IL_D_0593,Q2449546,,IL,Israel,D,Southern District,0593,Arugot,,,IL,ISR,2
+IL_D_0598,Q405280,,IL,Israel,D,Southern District,0598,Beit Kama,,,IL,ISR,2
+IL_D_0602,Q257555,,IL,Israel,D,Southern District,0602,Nirim,,,IL,ISR,2
+IL_D_0619,Q830798,,IL,Israel,D,Southern District,0619,Beit Guvrin,,,IL,ISR,2
+IL_D_0620,Q2890735,,IL,Israel,D,Southern District,0620,Masu'ot Yitzhak,,,IL,ISR,2
+IL_D_0622,Q2889500,,IL,Israel,D,Southern District,0622,Ein Tzurim,,,IL,ISR,2
+IL_D_0665,Q2477475,,IL,Israel,D,Southern District,0665,Tkuma,,,IL,ISR,2
+IL_D_0666,Q1968636,,IL,Israel,D,Southern District,0666,Omer,,,IL,ISR,2
+IL_D_0668,Q2890190,,IL,Israel,D,Southern District,0668,Mefalsim,,,IL,ISR,2
+IL_D_0676,Q2915464,,IL,Israel,D,Southern District,0676,Ein HaShlosha,,,IL,ISR,2
+IL_D_0690,Q2111856,,IL,Israel,D,Southern District,0690,Kfar Ahim,,,IL,ISR,2
+IL_D_0692,Q2777322,,IL,Israel,D,Southern District,0692,Shafir,,,IL,ISR,2
+IL_D_0695,Q2889599,,IL,Israel,D,Southern District,0695,Magen,,,IL,ISR,2
+IL_D_0699,Q2778071,,IL,Israel,D,Southern District,0699,Nir Yisrael,,,IL,ISR,2
+IL_D_0700,Q301427,,IL,Israel,D,Southern District,0700,Hatzav,,,IL,ISR,2
+IL_D_0706,Q2888554,,IL,Israel,D,Southern District,0706,Ge'a,,,IL,ISR,2
+IL_D_0709,Q2889874,,IL,Israel,D,Southern District,0709,Tifrah,,,IL,ISR,2
+IL_D_0713,Q2916652,,IL,Israel,D,Southern District,0713,Re'im,,,IL,ISR,2
+IL_D_0714,Q1350054,,IL,Israel,D,Southern District,0714,Erez,,,IL,ISR,2
+IL_D_0723,Q2889299,,IL,Israel,D,Southern District,0723,Beit HaGadi,,,IL,ISR,2
+IL_D_0726,Q2777988,,IL,Israel,D,Southern District,0726,Hodaya,,,IL,ISR,2
+IL_D_0727,Q1933606,,IL,Israel,D,Southern District,0727,Talmei Yehiel,,,IL,ISR,2
+IL_D_0736,Q2701184,,IL,Israel,D,Southern District,0736,Gilat,,,IL,ISR,2
+IL_D_0739,Q2316326,,IL,Israel,D,Southern District,0739,Sde Uziyahu,,,IL,ISR,2
+IL_D_0744,Q2777939,,IL,Israel,D,Southern District,0744,Talmei Yaffe,,,IL,ISR,2
+IL_D_0746,Q2890063,,IL,Israel,D,Southern District,0746,Berekhya,,,IL,ISR,2
+IL_D_0747,Q2919995,,IL,Israel,D,Southern District,0747,Beit Shikma,,,IL,ISR,2
+IL_D_0748,Q2889703,,IL,Israel,D,Southern District,0748,Maslul,,,IL,ISR,2
+IL_D_0749,Q936197,,IL,Israel,D,Southern District,0749,Patish,,,IL,ISR,2
+IL_D_0750,Q2889047,,IL,Israel,D,Southern District,0750,Peduim,,,IL,ISR,2
+IL_D_0756,Q2917263,,IL,Israel,D,Southern District,0756,Beit Ezra,,,IL,ISR,2
+IL_D_0761,Q2889666,,IL,Israel,D,Southern District,0761,Shuva,,,IL,ISR,2
+IL_D_0762,Q2889005,,IL,Israel,D,Southern District,0762,Bitha,,,IL,ISR,2
+IL_D_0763,Q2031207,,IL,Israel,D,Southern District,0763,Shtulim,,,IL,ISR,2
+IL_D_0766,Q2916625,,IL,Israel,D,Southern District,0766,Komemiyut,,,IL,ISR,2
+IL_D_0768,Q2777935,,IL,Israel,D,Southern District,0768,Karmia,,,IL,ISR,2
+IL_D_0772,Q2168131,,IL,Israel,D,Southern District,0772,Emunim,,,IL,ISR,2
+IL_D_0775,Q2888743,,IL,Israel,D,Southern District,0775,Yad Natan,,,IL,ISR,2
+IL_D_0789,Q2889917,,IL,Israel,D,Southern District,0789,Ranen,,,IL,ISR,2
+IL_D_0791,Q2777680,,IL,Israel,D,Southern District,0791,Mash'en,,,IL,ISR,2
+IL_D_0793,Q2009152,,IL,Israel,D,Southern District,0793,Giv'ati,,,IL,ISR,2
+IL_D_0803,Q2777352,,IL,Israel,D,Southern District,0803,Yoshivia,,,IL,ISR,2
+IL_D_0806,Q279745,,IL,Israel,D,Southern District,0806,Ein Yahav,,,IL,ISR,2
+IL_D_0811,Q2888897,,IL,Israel,D,Southern District,0811,Yakhini,,,IL,ISR,2
+IL_D_0814,Q2888579,,IL,Israel,D,Southern District,0814,Tlamim,,,IL,ISR,2
+IL_D_0815,Q2777341,,IL,Israel,D,Southern District,0815,Zavdiel,,,IL,ISR,2
+IL_D_0817,Q2627229,,IL,Israel,D,Southern District,0817,Azrikam,,,IL,ISR,2
+IL_D_0818,Q2776855,,IL,Israel,D,Southern District,0818,Zrahia,,,IL,ISR,2
+IL_D_0819,Q2570427,,IL,Israel,D,Southern District,0819,Avigdor,,,IL,ISR,2
+IL_D_0820,Q2778360,,IL,Israel,D,Southern District,0820,Heletz,,,IL,ISR,2
+IL_D_0821,Q2889211,,IL,Israel,D,Southern District,0821,Ahuzam,,,IL,ISR,2
+IL_D_0824,Q2777722,,IL,Israel,D,Southern District,0824,Kokhav Michael,,,IL,ISR,2
+IL_D_0826,Q2776328,,IL,Israel,D,Southern District,0826,Uza,,,IL,ISR,2
+IL_D_0827,Q2742996,,IL,Israel,D,Southern District,0827,Neve Mivtah,,,IL,ISR,2
+IL_D_0829,Q2889647,,IL,Israel,D,Southern District,0829,Mivtahim,,,IL,ISR,2
+IL_D_0831,Q1687708,,IL,Israel,D,Southern District,0831,Yeruham,,,IL,ISR,2
+IL_D_0840,Q249491,,IL,Israel,D,Southern District,0840,Kissufim,,,IL,ISR,2
+IL_D_0844,Q2369693,,IL,Israel,D,Southern District,0844,Nahal Oz,,,IL,ISR,2
+IL_D_0845,Q2890180,,IL,Israel,D,Southern District,0845,Kfar Aza,,,IL,ISR,2
+IL_D_0849,Q1011482,,IL,Israel,D,Southern District,0849,Dvir,,,IL,ISR,2
+IL_D_0865,Q2890130,,IL,Israel,D,Southern District,0865,Shibolim,,,IL,ISR,2
+IL_D_0866,Q634253,,IL,Israel,D,Southern District,0866,Yotvata,,,IL,ISR,2
+IL_D_0873,Q2776748,,IL,Israel,D,Southern District,0873,Shalva,,,IL,ISR,2
+IL_D_0885,Q1026531,,IL,Israel,D,Southern District,0885,Sde Boker,,,IL,ISR,2
+IL_D_0888,Q2920005,,IL,Israel,D,Southern District,0888,Kfar HaRif,,,IL,ISR,2
+IL_D_0916,Q2889656,,IL,Israel,D,Southern District,0916,Yesha,,,IL,ISR,2
+IL_D_0932,Q6544570,,IL,Israel,D,Southern District,0932,Abu Amra,,,IL,ISR,2
+IL_D_0935,,,IL,Israel,D,Southern District,0935,ABU SUREIHAN,,,IL,ISR,2
+IL_D_0939,Q6578327,,IL,Israel,D,Southern District,0939,Masoudin al-Azzazma,,,IL,ISR,2
+IL_D_0956,,,IL,Israel,D,Southern District,0956,HUZAYYEL,,,IL,ISR,2
+IL_D_0957,,,IL,Israel,D,Southern District,0957,UQBI (BANU UQBA),,,IL,ISR,2
+IL_D_0958,,,IL,Israel,D,Southern District,0958,ABU  ABDUN,,,IL,ISR,2
+IL_D_0959,Q6493949,,IL,Israel,D,Southern District,0959,Afeinish,,,IL,ISR,2
+IL_D_0960,,,IL,Israel,D,Southern District,0960,ASAD,,,IL,ISR,2
+IL_D_0961,,,IL,Israel,D,Southern District,0961,ABU RUQAYYEQ,,,IL,ISR,2
+IL_D_0963,,,IL,Israel,D,Southern District,0963,A'SAM,,,IL,ISR,2
+IL_D_0964,Q6517661,,IL,Israel,D,Southern District,0964,Koudiirat a-Sana'a,,,IL,ISR,2
+IL_D_0965,Q16130757,,IL,Israel,D,Southern District,0965,Atrash,,,IL,ISR,2
+IL_D_0966,,,IL,Israel,D,Southern District,0966,ABU RUBEI'A,,,IL,ISR,2
+IL_D_0967,,,IL,Israel,D,Southern District,0967,ABU JUWEI'ID,,,IL,ISR,2
+IL_D_0968,,,IL,Israel,D,Southern District,0968,Abu Qrenat,,,IL,ISR,2
+IL_D_0969,,,IL,Israel,D,Southern District,0969,ATAWNE,,,IL,ISR,2
+IL_D_0970,,,IL,Israel,D,Southern District,0970,TARABIN AS-SANI,,,IL,ISR,2
+IL_D_0972,,,IL,Israel,D,Southern District,0972,QAWA'IN,,,IL,ISR,2
+IL_D_0976,Q6537750,,IL,Israel,D,Southern District,0976,Geneva,,,IL,ISR,2
+IL_D_1031,Q123196,,IL,Israel,D,Southern District,1031,Sderot,,,IL,ISR,2
+IL_D_1034,Q501543,,IL,Israel,D,Southern District,1034,Kiryat Malakhi,,,IL,ISR,2
+IL_D_1041,,,IL,Israel,D,Southern District,1041,נצאצרה (שבט),,,IL,ISR,2
+IL_D_1042,,,IL,Israel,D,Southern District,1042,ABU  AMMAR,,,IL,ISR,2
+IL_D_1046,Q2915832,,IL,Israel,D,Southern District,1046,Ohad,,,IL,ISR,2
+IL_D_1051,Q2889688,,IL,Israel,D,Southern District,1051,Talmei Eliyahu,,,IL,ISR,2
+IL_D_1052,Q2606770,,IL,Israel,D,Southern District,1052,Ketura,,,IL,ISR,2
+IL_D_1053,Q2920037,,IL,Israel,D,Southern District,1053,Ein Hatzeva,,,IL,ISR,2
+IL_D_1054,Q2298534,,IL,Israel,D,Southern District,1054,Tel as-Sabi,,,IL,ISR,2
+IL_D_1057,Q2975481,,IL,Israel,D,Southern District,1057,Neve Zohar,,,IL,ISR,2
+IL_D_1058,Q2890113,,IL,Israel,D,Southern District,1058,Sde Nitzan,,,IL,ISR,2
+IL_D_1059,Q2652222,,IL,Israel,D,Southern District,1059,Kuseife,,,IL,ISR,2
+IL_D_1060,Q925908,,IL,Israel,D,Southern District,1060,Lakiya,,,IL,ISR,2
+IL_D_1065,Q2889758,,IL,Israel,D,Southern District,1065,Zimrat,,,IL,ISR,2
+IL_D_1080,Q2888811,,IL,Israel,D,Southern District,1080,Mabu'im,,,IL,ISR,2
+IL_D_1082,Q2890000,,IL,Israel,D,Southern District,1082,Ma'agalim,,,IL,ISR,2
+IL_D_1083,Q2890099,,IL,Israel,D,Southern District,1083,Tushia,,,IL,ISR,2
+IL_D_1085,Q1026806,,IL,Israel,D,Southern District,1085,Kerem Shalom,,,IL,ISR,2
+IL_D_1095,Q2889608,,IL,Israel,D,Southern District,1095,Kfar Maimon,,,IL,ISR,2
+IL_D_1098,Q2776772,,IL,Israel,D,Southern District,1098,Merkaz Shapira,,,IL,ISR,2
+IL_D_1124,Q2975326,,IL,Israel,D,Southern District,1124,Neot HaKikar,,,IL,ISR,2
+IL_D_1126,Q2916860,,IL,Israel,D,Southern District,1126,Eilot,,,IL,ISR,2
+IL_D_1129,Q2916536,,IL,Israel,D,Southern District,1129,Grofit,,,IL,ISR,2
+IL_D_1133,Q2777893,,IL,Israel,D,Southern District,1133,Vardon,,,IL,ISR,2
+IL_D_1136,Q2888974,,IL,Israel,D,Southern District,1136,Tzohar,,,IL,ISR,2
+IL_D_1140,Q2776759,,IL,Israel,D,Southern District,1140,Midreshet Ben-Gurion,,,IL,ISR,2
+IL_D_1145,Q2776697,,IL,Israel,D,Southern District,1145,Aluma,,,IL,ISR,2
+IL_D_1146,Q2890889,,IL,Israel,D,Southern District,1146,Alumim,,,IL,ISR,2
+IL_D_1149,Q2471186,,IL,Israel,D,Southern District,1149,Ezer,,,IL,ISR,2
+IL_D_1150,Q2889097,,IL,Israel,D,Southern District,1150,Tzofar,,,IL,ISR,2
+IL_D_1151,Q2916000,,IL,Israel,D,Southern District,1151,Paran,,,IL,ISR,2
+IL_D_1152,Q656253,,IL,Israel,D,Southern District,1152,Ashalim,,,IL,ISR,2
+IL_D_1156,Q2889466,,IL,Israel,D,Southern District,1156,Samar,,,IL,ISR,2
+IL_D_1157,Q2458216,,IL,Israel,D,Southern District,1157,Ahva,,,IL,ISR,2
+IL_D_1158,Q2889257,,IL,Israel,D,Southern District,1158,Yahel,,,IL,ISR,2
+IL_D_1161,Q167617,,IL,Israel,D,Southern District,1161,Rahat,,,IL,ISR,2
+IL_D_1169,,,IL,Israel,D,Southern District,1169,HAWASHLA,,,IL,ISR,2
+IL_D_1170,,,IL,Israel,D,Southern District,1170,SAYYID,,,IL,ISR,2
+IL_D_1175,Q2889032,,IL,Israel,D,Southern District,1175,Idan,,,IL,ISR,2
+IL_D_1176,Q2888933,,IL,Israel,D,Southern District,1176,Sapir,,,IL,ISR,2
+IL_D_1177,Q2890019,,IL,Israel,D,Southern District,1177,Tlalim,,,IL,ISR,2
+IL_D_1187,Q117418,,IL,Israel,D,Southern District,1187,Ir Ovot,,,IL,ISR,2
+IL_D_1192,Q2915541,,IL,Israel,D,Southern District,1192,Ar'arat an-Naqab,,,IL,ISR,2
+IL_D_1195,Q2890221,,IL,Israel,D,Southern District,1195,Nitzana,,,IL,ISR,2
+IL_D_1196,Q21198015,,IL,Israel,D,Southern District,1196,Mahane Yatir,,,IL,ISR,2
+IL_D_1197,Q1011470,,IL,Israel,D,Southern District,1197,Neot Semadar,,,IL,ISR,2
+IL_D_1198,Q261686,,IL,Israel,D,Southern District,1198,Kramim,,,IL,ISR,2
+IL_D_1223,Q2889558,,IL,Israel,D,Southern District,1223,Sdei Avraham,,,IL,ISR,2
+IL_D_1227,Q2889627,,IL,Israel,D,Southern District,1227,Yated,,,IL,ISR,2
+IL_D_1231,Q2890191,,IL,Israel,D,Southern District,1231,Pri Gan,,,IL,ISR,2
+IL_D_1232,Q2890814,,IL,Israel,D,Southern District,1232,Yevul,,,IL,ISR,2
+IL_D_1233,Q2890389,,IL,Israel,D,Southern District,1233,Shekef,,,IL,ISR,2
+IL_D_1234,Q12410928,,IL,Israel,D,Southern District,1234,Permanent,,,IL,ISR,2
+IL_D_1237,Q2890428,,IL,Israel,D,Southern District,1237,Talmei Yosef,,,IL,ISR,2
+IL_D_1238,Q2890314,,IL,Israel,D,Southern District,1238,Sufa,,,IL,ISR,2
+IL_D_1239,Q2889781,,IL,Israel,D,Southern District,1239,Holit,,,IL,ISR,2
+IL_D_1240,Q2890894,,IL,Israel,D,Southern District,1240,Ein HaBesor,,,IL,ISR,2
+IL_D_1241,Q2890136,,IL,Israel,D,Southern District,1241,Dekel,,,IL,ISR,2
+IL_D_1242,Q2890445,,IL,Israel,D,Southern District,1242,Netiv HaAsara,,,IL,ISR,2
+IL_D_1248,Q2564675,,IL,Israel,D,Southern District,1248,Elifaz,,,IL,ISR,2
+IL_D_1251,Q2975331,,IL,Israel,D,Southern District,1251,Ein Tamar,,,IL,ISR,2
+IL_D_1255,Q2776367,,IL,Israel,D,Southern District,1255,Lotan,,,IL,ISR,2
+IL_D_1260,Q2889527,,IL,Israel,D,Southern District,1260,Retamim,,,IL,ISR,2
+IL_D_1261,Q2916521,,IL,Israel,D,Southern District,1261,Har Amasa,,,IL,ISR,2
+IL_D_1262,Q2916563,,IL,Israel,D,Southern District,1262,Tzukim,,,IL,ISR,2
+IL_D_1265,Q2888878,,IL,Israel,D,Southern District,1265,Shomria,,,IL,ISR,2
+IL_D_1266,Q2889363,,IL,Israel,D,Southern District,1266,Shaharut,,,IL,ISR,2
+IL_D_1267,Q6586491,,IL,Israel,D,Southern District,1267,Shitim,,,IL,ISR,2
+IL_D_1268,Q1246119,,IL,Israel,D,Southern District,1268,Meitar,,,IL,ISR,2
+IL_D_1271,Q1589806,,IL,Israel,D,Southern District,1271,Lehavim,,,IL,ISR,2
+IL_D_1278,Q2919777,,IL,Israel,D,Southern District,1278,Be'er Milka,,,IL,ISR,2
+IL_D_1279,Q2889431,,IL,Israel,D,Southern District,1279,Neve Harif,,,IL,ISR,2
+IL_D_1280,Q2777586,,IL,Israel,D,Southern District,1280,Nitzanei Sinai,,,IL,ISR,2
+IL_D_1286,Q2633019,,IL,Israel,D,Southern District,1286,Shaqib al-Salam,,,IL,ISR,2
+IL_D_1287,Q224721,,IL,Israel,D,Southern District,1287,Livna,,,IL,ISR,2
+IL_D_1291,Q613379,,IL,Israel,D,Southern District,1291,Kmehin,,,IL,ISR,2
+IL_D_1303,Q1638374,,IL,Israel,D,Southern District,1303,Hura,,,IL,ISR,2
+IL_D_1311,Q2889958,,IL,Israel,D,Southern District,1311,Avshalom,,,IL,ISR,2
+IL_D_1323,Q2778363,,IL,Israel,D,Southern District,1323,Bat Hadar,,,IL,ISR,2
+IL_D_1339,Q2919999,,IL,Israel,D,Southern District,1339,Al-'Azi,,,IL,ISR,2
+IL_D_1340,Q2777042,,IL,Israel,D,Southern District,1340,Merhav Am,,,IL,ISR,2
+IL_D_1341,Q20502849,,IL,Israel,D,Southern District,1341,Ruah Midbar,,,IL,ISR,2
+IL_D_1342,Q2747921,,IL,Israel,D,Southern District,1342,Abu Qrenat,,,IL,ISR,2
+IL_D_1343,Q2916277,,IL,Israel,D,Southern District,1343,Makhul,,,IL,ISR,2
+IL_D_1344,Q2888988,,IL,Israel,D,Southern District,1344,Giv'ot Bar,,,IL,ISR,2
+IL_D_1346,Q2619870,,IL,Israel,D,Southern District,1346,Tirabin al-Sana,,,IL,ISR,2
+IL_D_1347,Q2633179,,IL,Israel,D,Southern District,1347,Qasr al-Sir,,,IL,ISR,2
+IL_D_1348,Q2623238,,IL,Israel,D,Southern District,1348,Bir Hadaj,,,IL,ISR,2
+IL_D_1349,Q2473572,,IL,Israel,D,Southern District,1349,Drijat,,,IL,ISR,2
+IL_D_1358,Q2672180,,IL,Israel,D,Southern District,1358,Umm Batin,,,IL,ISR,2
+IL_D_1359,Q246995,,IL,Israel,D,Southern District,1359,Al-Sayyid,,,IL,ISR,2
+IL_D_1360,Q2431762,,IL,Israel,D,Southern District,1360,Mulada,,,IL,ISR,2
+IL_D_1363,Q6574409,,IL,Israel,D,Southern District,1363,Bnei Netzarim,,,IL,ISR,2
+IL_D_1364,Q1516028,,IL,Israel,D,Southern District,1364,Shlomit,,,IL,ISR,2
+IL_D_1365,Q2888573,,IL,Israel,D,Southern District,1365,Haruv,,,IL,ISR,2
+IL_D_1366,Q6666185,,IL,Israel,D,Southern District,1366,Naveh,,,IL,ISR,2
+IL_D_1367,Q7214177,,IL,Israel,D,Southern District,1367,Kukhleh,,,IL,ISR,2
+IL_D_1368,Q6640244,,IL,Israel,D,Southern District,1368,Bnei Dekalim,,,IL,ISR,2
+IL_D_1369,Q16341074,,IL,Israel,D,Southern District,1369,Neta,,,IL,ISR,2
+IL_D_1373,Q20502904,,IL,Israel,D,Southern District,1373,Shalva BaMidbar,,,IL,ISR,2
+IL_D_1374,,,IL,Israel,D,Southern District,1374,KARME QATIF,,,IL,ISR,2
+IL_D_1375,Q16207439,,IL,Israel,D,Southern District,1375,Abu Talul,,,IL,ISR,2
+IL_D_1376,Q6480370,,IL,Israel,D,Southern District,1376,Be'er Ganim,,,IL,ISR,2
+IL_D_1377,,,IL,Israel,D,Southern District,1377,SHAVE DAROM,,,IL,ISR,2
+IL_D_1414,Q2629807,,IL,Israel,D,Southern District,1414,Hatzor Airbase,,,IL,ISR,2
+IL_D_1415,Q1283490,,IL,Israel,D,Southern District,1415,Hatzerim Airbase,,,IL,ISR,2
+IL_D_1416,Q573524,,IL,Israel,D,Southern District,1416,Ovda Airport,,,IL,ISR,2
+IL_D_1418,Q2361539,,IL,Israel,D,Southern District,1418,Ramon Airbase,,,IL,ISR,2
+IL_D_1419,Q2900252,,IL,Israel,D,Southern District,1419,Nitzan Bet,,,IL,ISR,2
+IL_D_1753,,,IL,Israel,D,Southern District,1753,מפעלי כנות,,,IL,ISR,2
+IL_D_1754,,,IL,Israel,D,Southern District,1754,תעשיון מבצע*,,,IL,ISR,2
+IL_D_1755,,,IL,Israel,D,Southern District,1755,תעשיון ראם*,,,IL,ISR,2
+IL_D_1761,,,IL,Israel,D,Southern District,1761,מפעלי צומת מלאכי,,,IL,ISR,2
+IL_D_1762,,,IL,Israel,D,Southern District,1762,עד הלום,,,IL,ISR,2
+IL_D_1763,,,IL,Israel,D,Southern District,1763,פארק תעשיות ספירים,,,IL,ISR,2
+IL_D_1765,Q263384,,IL,Israel,D,Southern District,1765,Idan haNegev,,,IL,ISR,2
+IL_D_1766,,,IL,Israel,D,Southern District,1766,קרית חינוך עזתה,,,IL,ISR,2
+IL_D_1767,,,IL,Israel,D,Southern District,1767,"מפעלי אבשלו""ם",,,IL,ISR,2
+IL_D_1768,,,IL,Israel,D,Southern District,1768,קריית חינוך מרחבים*,,,IL,ISR,2
+IL_D_1769,,,IL,Israel,D,Southern District,1769,מפעלי מעון,,,IL,ISR,2
+IL_D_1770,Q1000978,,IL,Israel,D,Southern District,1770,Ramat Hovav,,,IL,ISR,2
+IL_D_1771,,,IL,Israel,D,Southern District,1771,אורון,,,IL,ISR,2
+IL_D_1772,,,IL,Israel,D,Southern District,1772,ים המלח - בתי מלון,,,IL,ISR,2
+IL_D_1773,,,IL,Israel,D,Southern District,1773,מפעלי מישור רותם,,,IL,ISR,2
+IL_D_1775,,,IL,Israel,D,Southern District,1775,מפעלי ים המלח(סדום),,,IL,ISR,2
+IL_D_1776,,,IL,Israel,D,Southern District,1776,מפעלי צין - ערבה,,,IL,ISR,2
+IL_D_1911,,,IL,Israel,D,Southern District,1911,"אזור מלאכי מ""א 33",,,IL,ISR,2
+IL_D_1913,,,IL,Israel,D,Southern District,1913,"אזור מלאכי מ""א 35",,,IL,ISR,2
+IL_D_1914,,,IL,Israel,D,Southern District,1914,"אזור מלאכי מ""א 50",,,IL,ISR,2
+IL_D_1915,,,IL,Israel,D,Southern District,1915,"אזור מלאכי מ""א 34",,,IL,ISR,2
+IL_D_1917,,,IL,Israel,D,Southern District,1917,"אזור לכיש מ""א 35",,,IL,ISR,2
+IL_D_1918,,,IL,Israel,D,Southern District,1918,"אזור לכיש מ""א 50",,,IL,ISR,2
+IL_D_1919,,,IL,Israel,D,Southern District,1919,"אזור לכיש מ""א 34",,,IL,ISR,2
+IL_D_1920,,,IL,Israel,D,Southern District,1920,"אזור לכיש מ""א 41",,,IL,ISR,2
+IL_D_1921,,,IL,Israel,D,Southern District,1921,"אזור אשדוד מ""א 33",,,IL,ISR,2
+IL_D_1922,,,IL,Israel,D,Southern District,1922,"אזור אשדוד מ""א 29",,,IL,ISR,2
+IL_D_1923,,,IL,Israel,D,Southern District,1923,"אזור אשדוד של""ש",,,IL,ISR,2
+IL_D_1924,,,IL,Israel,D,Southern District,1924,"אזור אשקלון מ""א 36",,,IL,ISR,2
+IL_D_1926,,,IL,Israel,D,Southern District,1926,"אזור אשקלון מ""א 37",,,IL,ISR,2
+IL_D_1929,,,IL,Israel,D,Southern District,1929,"אזור גרר מ""א 41",,,IL,ISR,2
+IL_D_1930,,,IL,Israel,D,Southern District,1930,"אזור גרר מ""א 42",,,IL,ISR,2
+IL_D_1931,,,IL,Israel,D,Southern District,1931,"אזור גרר מ""א 39",,,IL,ISR,2
+IL_D_1933,,,IL,Israel,D,Southern District,1933,"אזור בשור מ""א 38",,,IL,ISR,2
+IL_D_1934,,,IL,Israel,D,Southern District,1934,"אזור בשור מ""א 42",,,IL,ISR,2
+IL_D_1935,,,IL,Israel,D,Southern District,1935,"אזור בשור מ""א 39",,,IL,ISR,2
+IL_D_1937,,,IL,Israel,D,Southern District,1937,"אזור באר שבע מ""א 41",,,IL,ISR,2
+IL_D_1938,,,IL,Israel,D,Southern District,1938,"אזור באר שבע מ""א 51",,,IL,ISR,2
+IL_D_1939,,,IL,Israel,D,Southern District,1939,"אזור באר שבע של""ש",,,IL,ISR,2
+IL_D_1942,,,IL,Israel,D,Southern District,1942,"אזור ים המלח מ""א 51",,,IL,ISR,2
+IL_D_1944,,,IL,Israel,D,Southern District,1944,"הערבה מ""א 51",,,IL,ISR,2
+IL_D_1945,,,IL,Israel,D,Southern District,1945,"הערבה מ""א 53",,,IL,ISR,2
+IL_D_1946,,,IL,Israel,D,Southern District,1946,"הערבה מ""א 54",,,IL,ISR,2
+IL_D_1947,,,IL,Israel,D,Southern District,1947,"הר הנגב הצפוני מ""א 53",,,IL,ISR,2
+IL_D_1948,,,IL,Israel,D,Southern District,1948,"הר הנגב הצפוני מ""א 48",,,IL,ISR,2
+IL_D_1949,,,IL,Israel,D,Southern District,1949,"הר הנגב הצפוני מ""א 51",,,IL,ISR,2
+IL_D_1950,,,IL,Israel,D,Southern District,1950,"הר הנגב הצפוני מ""א 54",,,IL,ISR,2
+IL_D_1951,,,IL,Israel,D,Southern District,1951,"הר הנגב הדרומי מ""א 53",,,IL,ISR,2
+IL_D_1952,,,IL,Israel,D,Southern District,1952,"הר הנגב הדרומי מ""א 54",,,IL,ISR,2
+IL_D_1953,,,IL,Israel,D,Southern District,1953,"הר הנגב הדרומי מ""א 48",,,IL,ISR,2
+IL_D_1997,,,IL,Israel,D,Southern District,1997,"גמ""ל מחוז דרום",,,IL,ISR,2
+IL_D_2006,Q2246327,,IL,Israel,D,Southern District,2006,Kannot,,,IL,ISR,2
+IL_D_2011,Q2113253,,IL,Israel,D,Southern District,2011,Yinon,,,IL,ISR,2
+IL_D_2012,Q1915220,,IL,Israel,D,Southern District,2012,Orot,,,IL,ISR,2
+IL_D_2014,Q2889539,,IL,Israel,D,Southern District,2014,Givolim,,,IL,ISR,2
+IL_D_2021,Q2889072,,IL,Israel,D,Southern District,2021,Eshel HaNasi,,,IL,ISR,2
+IL_D_2023,Q1011492,,IL,Israel,D,Southern District,2023,Lahav,,,IL,ISR,2
+IL_D_2030,Q2888772,,IL,Israel,D,Southern District,2030,Menuha,,,IL,ISR,2
+IL_D_2042,Q2469471,,IL,Israel,D,Southern District,2042,Ein Gedi,,,IL,ISR,2
+IL_D_2044,Q2890294,,IL,Israel,D,Southern District,2044,Mlilot,,,IL,ISR,2
+IL_D_2045,Q7218758,,IL,Israel,D,Southern District,2045,Nahala,,,IL,ISR,2
+IL_D_2046,Q2778083,,IL,Israel,D,Southern District,2046,Sgula,,,IL,ISR,2
+IL_D_2047,Q2890685,,IL,Israel,D,Southern District,2047,Nir Moshe,,,IL,ISR,2
+IL_D_2048,Q2890501,,IL,Israel,D,Southern District,2048,Nir Akiva,,,IL,ISR,2
+IL_D_2049,Q927921,,IL,Israel,D,Southern District,2049,Sde Tzvi,,,IL,ISR,2
+IL_D_2050,Q2889016,,IL,Israel,D,Southern District,2050,Talmei Bilu,,,IL,ISR,2
+IL_D_2051,Q2776775,,IL,Israel,D,Southern District,2051,Revaha,,,IL,ISR,2
+IL_D_2059,Q2889122,,IL,Israel,D,Southern District,2059,Pa'amei Tashaz,,,IL,ISR,2
+IL_D_2060,Q2889062,,IL,Israel,D,Southern District,2060,Brosh,,,IL,ISR,2
+IL_D_2061,Q2889736,,IL,Israel,D,Southern District,2061,Tidhar,,,IL,ISR,2
+IL_D_2062,Q2890443,,IL,Israel,D,Southern District,2062,Ta'ashur,,,IL,ISR,2
+IL_D_2064,Q2889441,,IL,Israel,D,Southern District,2064,Zru'a,,,IL,ISR,2
+IL_D_2200,Q152396,,IL,Israel,D,Southern District,2200,Dimona,,,IL,ISR,2
+IL_D_2560,Q152473,,IL,Israel,D,Southern District,2560,Arad,,,IL,ISR,2
+IL_D_2600,Q134762,,IL,Israel,D,Southern District,2600,Eilat,,,IL,ISR,2
+IL_D_2630,Q152406,,IL,Israel,D,Southern District,2630,Kiryat Gat,,,IL,ISR,2
+IL_D_2742,Q6510808,,IL,Israel,D,Southern District,2742,Zbarga,,,IL,ISR,2
+IL_D_7100,Q60956,,IL,Israel,D,Southern District,7100,Ashkelon,,,IL,ISR,2
+IL_D_9000,Q41843,,IL,Israel,D,Southern District,9000,Beersheba,,,IL,ISR,2
+IL_HA,Q185845,iso/IL-HA,IL,Israel,HA,Haifa District,,,,,IL,ISR,1
+IL_HA_0033,Q2889218,,IL,Israel,HA,Haifa District,0033,Bat Shlomo,,,IL,ISR,2
+IL_HA_0053,Q757398,,IL,Israel,HA,Haifa District,0053,Atlit,,,IL,ISR,2
+IL_HA_0072,Q166857,,IL,Israel,HA,Haifa District,0072,Gan Shmuel,,,IL,ISR,2
+IL_HA_0074,Q991378,,IL,Israel,HA,Haifa District,0074,Ein Hod,,,IL,ISR,2
+IL_HA_0096,Q586687,,IL,Israel,HA,Haifa District,0096,Yagur,,,IL,ISR,2
+IL_HA_0102,Q2777355,,IL,Israel,HA,Haifa District,0102,Meir Shfeya,,,IL,ISR,2
+IL_HA_0112,Q135425,,IL,Israel,HA,Haifa District,0112,Kfar Hasidim,,,IL,ISR,2
+IL_HA_0139,Q166865,,IL,Israel,HA,Haifa District,0139,Ein Shemer,,,IL,ISR,2
+IL_HA_0178,Q2667322,,IL,Israel,HA,Haifa District,0178,Ramat Yohanan,,,IL,ISR,2
+IL_HA_0189,Q2889590,,IL,Israel,HA,Haifa District,0189,Kfar Pines,,,IL,ISR,2
+IL_HA_0212,Q2920023,,IL,Israel,HA,Haifa District,0212,Kfar Tzvi Sitrin,,,IL,ISR,2
+IL_HA_0213,Q2889247,,IL,Israel,HA,Haifa District,0213,Mishmarot,,,IL,ISR,2
+IL_HA_0220,Q2777225,,IL,Israel,HA,Haifa District,0220,Kfar Bialik,,,IL,ISR,2
+IL_HA_0223,Q2777437,,IL,Israel,HA,Haifa District,0223,Ein Iron,,,IL,ISR,2
+IL_HA_0225,Q166874,,IL,Israel,HA,Haifa District,0225,Gan HaShomron,,,IL,ISR,2
+IL_HA_0237,Q135484,,IL,Israel,HA,Haifa District,0237,Sha'ar HaAmakim,,,IL,ISR,2
+IL_HA_0254,Q2777328,,IL,Israel,HA,Haifa District,0254,Kfar HaMaccabi,,,IL,ISR,2
+IL_HA_0278,Q2889548,,IL,Israel,HA,Haifa District,0278,Usha,,,IL,ISR,2
+IL_HA_0290,Q2888639,,IL,Israel,HA,Haifa District,0290,Ma'ayan Tzvi,,,IL,ISR,2
+IL_HA_0310,Q2418411,,IL,Israel,HA,Haifa District,0310,Kfar Glikson,,,IL,ISR,2
+IL_HA_0312,Q2889950,,IL,Israel,HA,Haifa District,0312,Neve Yam,,,IL,ISR,2
+IL_HA_0317,Q2888904,,IL,Israel,HA,Haifa District,0317,Beit Oren,,,IL,ISR,2
+IL_HA_0327,Q1325255,,IL,Israel,HA,Haifa District,0327,Sdot Yam,,,IL,ISR,2
+IL_HA_0344,Q2777452,,IL,Israel,HA,Haifa District,0344,Ma'anit,,,IL,ISR,2
+IL_HA_0360,Q1941126,,IL,Israel,HA,Haifa District,0360,Givat Nili,,,IL,ISR,2
+IL_HA_0375,Q2920089,,IL,Israel,HA,Haifa District,0375,Magal,,,IL,ISR,2
+IL_HA_0426,Q1000987,,IL,Israel,HA,Haifa District,0426,Ein Carmel,,,IL,ISR,2
+IL_HA_0427,Q2919235,,IL,Israel,HA,Haifa District,0427,Kfar Galim,,,IL,ISR,2
+IL_HA_0433,Q1012741,,IL,Israel,HA,Haifa District,0433,Nahsholim,,,IL,ISR,2
+IL_HA_0434,Q269858,,IL,Israel,HA,Haifa District,0434,Hahotrim,,,IL,ISR,2
+IL_HA_0444,Q934250,,IL,Israel,HA,Haifa District,0444,Regavim,,,IL,ISR,2
+IL_HA_0494,Q1026821,,IL,Israel,HA,Haifa District,0494,Daliyat al-Karmel,,,IL,ISR,2
+IL_HA_0534,Q2890836,,IL,Israel,HA,Haifa District,0534,Isfiya,,,IL,ISR,2
+IL_HA_0537,Q1011538,,IL,Israel,HA,Haifa District,0537,Fureidis,,,IL,ISR,2
+IL_HA_0541,Q764601,,IL,Israel,HA,Haifa District,0541,Jisr az-Zarqa,,,IL,ISR,2
+IL_HA_0580,Q2777147,,IL,Israel,HA,Haifa District,0580,Kerem Maharal,,,IL,ISR,2
+IL_HA_0612,Q277749,,IL,Israel,HA,Haifa District,0612,tzrufa,,,IL,ISR,2
+IL_HA_0617,Q2890277,,IL,Israel,HA,Haifa District,0617,Barkai,,,IL,ISR,2
+IL_HA_0628,Q2911762,,IL,Israel,HA,Haifa District,0628,Jatt,,,IL,ISR,2
+IL_HA_0637,Q2915935,,IL,Israel,HA,Haifa District,0637,Ar'ara,,,IL,ISR,2
+IL_HA_0648,Q2890510,,IL,Israel,HA,Haifa District,0648,Metzer,,,IL,ISR,2
+IL_HA_0649,Q2916830,,IL,Israel,HA,Haifa District,0649,Meiser,,,IL,ISR,2
+IL_HA_0652,Q2889270,,IL,Israel,HA,Haifa District,0652,Ibtin,,,IL,ISR,2
+IL_HA_0654,Q1721086,,IL,Israel,HA,Haifa District,0654,Kafr Qara,,,IL,ISR,2
+IL_HA_0675,Q952872,,IL,Israel,HA,Haifa District,0675,HaBonim,,,IL,ISR,2
+IL_HA_0679,Q2523691,,IL,Israel,HA,Haifa District,0679,Aviel,,,IL,ISR,2
+IL_HA_0683,Q2776856,,IL,Israel,HA,Haifa District,0683,Geva Carmel,,,IL,ISR,2
+IL_HA_0687,Q2889931,,IL,Israel,HA,Haifa District,0687,Ein Ayala,,,IL,ISR,2
+IL_HA_0689,Q2918393,,IL,Israel,HA,Haifa District,0689,Megadim,,,IL,ISR,2
+IL_HA_0694,Q1882183,,IL,Israel,HA,Haifa District,0694,Ma'agan Michael,,,IL,ISR,2
+IL_HA_0715,Q2889963,,IL,Israel,HA,Haifa District,0715,Lehavot Haviva,,,IL,ISR,2
+IL_HA_0738,Q2777560,,IL,Israel,HA,Haifa District,0738,Dor,,,IL,ISR,2
+IL_HA_0769,Q2777481,,IL,Israel,HA,Haifa District,0769,Nir Etzion,,,IL,ISR,2
+IL_HA_0773,Q2340747,,IL,Israel,HA,Haifa District,0773,Amikam,,,IL,ISR,2
+IL_HA_0800,Q2777396,,IL,Israel,HA,Haifa District,0800,Beit Hanania,,,IL,ISR,2
+IL_HA_0810,Q2777769,,IL,Israel,HA,Haifa District,0810,Ofer,,,IL,ISR,2
+IL_HA_0868,Q2777357,,IL,Israel,HA,Haifa District,0868,Alonei Yitzhak,,,IL,ISR,2
+IL_HA_0882,Q601885,,IL,Israel,HA,Haifa District,0882,Oranim Academic College,,,IL,ISR,2
+IL_HA_0889,Q135423,,IL,Israel,HA,Haifa District,0889,Kfar Hasidim Bet,,,IL,ISR,2
+IL_HA_0890,Q2909337,,IL,Israel,HA,Haifa District,0890,Kfar HaNoar HaDati,,,IL,ISR,2
+IL_HA_0921,Q166862,,IL,Israel,HA,Haifa District,0921,Sha'ar Menashe,,,IL,ISR,2
+IL_HA_0922,Q135485,,IL,Israel,HA,Haifa District,0922,Rekhasim,,,IL,ISR,2
+IL_HA_0926,Q4526315,,IL,Israel,HA,Haifa District,0926,Neve Avot,,,IL,ISR,2
+IL_HA_0990,Q7221699,,IL,Israel,HA,Haifa District,0990,Ras Ali,,,IL,ISR,2
+IL_HA_1020,Q1814658,,IL,Israel,HA,Haifa District,1020,Or Akiva,,,IL,ISR,2
+IL_HA_1128,Q2777505,,IL,Israel,HA,Haifa District,1128,Mei Ami,,,IL,ISR,2
+IL_HA_1167,Q1615560,,IL,Israel,HA,Haifa District,1167,Caesarea,,,IL,ISR,2
+IL_HA_1243,Q7003034,,IL,Israel,HA,Haifa District,1243,Katzir,,,IL,ISR,2
+IL_HA_1247,Q2891177,,IL,Israel,HA,Haifa District,1247,Harish,,,IL,ISR,2
+IL_HA_1284,Q2890467,,IL,Israel,HA,Haifa District,1284,Nofit,,,IL,ISR,2
+IL_HA_1316,Q2829205,,IL,Israel,HA,Haifa District,1316,Al-Arian,,,IL,ISR,2
+IL_HA_1320,Q579940,,IL,Israel,HA,Haifa District,1320,Ein Hawd,,,IL,ISR,2
+IL_HA_1321,Q2776781,,IL,Israel,HA,Haifa District,1321,Khawaled,,,IL,ISR,2
+IL_HA_1326,Q2890539,,IL,Israel,HA,Haifa District,1326,Basma,,,IL,ISR,2
+IL_HA_1327,Q2917278,,IL,Israel,HA,Haifa District,1327,Ma'ale Iron,,,IL,ISR,2
+IL_HA_1370,Q12036867,,IL,Israel,HA,Haifa District,1370,Mitzpe Ilan,,,IL,ISR,2
+IL_HA_1715,,,IL,Israel,HA,Haifa District,1715,"מרכז מיר""ב*",,,IL,ISR,2
+IL_HA_1736,,,IL,Israel,HA,Haifa District,1736,בתי זיקוק - קישון,,,IL,ISR,2
+IL_HA_1739,,,IL,Israel,HA,Haifa District,1739,מפעלי גרנות,,,IL,ISR,2
+IL_HA_1740,Q1528780,,IL,Israel,HA,Haifa District,1740,Givat Haviva,,,IL,ISR,2
+IL_HA_1860,,,IL,Israel,HA,Haifa District,1860,"אזור חיפה מ""א 12",,,IL,ISR,2
+IL_HA_1862,,,IL,Israel,HA,Haifa District,1862,"אזור חיפה של""ש",,,IL,ISR,2
+IL_HA_1864,,,IL,Israel,HA,Haifa District,1864,"חוף הכרמל מ""א 15",,,IL,ISR,2
+IL_HA_1866,,,IL,Israel,HA,Haifa District,1866,"אזור זכרון יעקב מ""א 15",,,IL,ISR,2
+IL_HA_1867,,,IL,Israel,HA,Haifa District,1867,"אזור זכרון יעקב של""ש",,,IL,ISR,2
+IL_HA_1868,,,IL,Israel,HA,Haifa District,1868,"הר אלכסנדר מ""א 45",,,IL,ISR,2
+IL_HA_1869,,,IL,Israel,HA,Haifa District,1869,"הר אלכסנדר מ""א 14",,,IL,ISR,2
+IL_HA_1870,,,IL,Israel,HA,Haifa District,1870,"הר אלכסנדר של""ש",,,IL,ISR,2
+IL_HA_1871,,,IL,Israel,HA,Haifa District,1871,"אזור חדרה מ""א 45",,,IL,ISR,2
+IL_HA_1872,,,IL,Israel,HA,Haifa District,1872,"אזור חדרה מ""א 15",,,IL,ISR,2
+IL_HA_1873,,,IL,Israel,HA,Haifa District,1873,"אזור חדרה מ""א 14",,,IL,ISR,2
+IL_HA_1874,,,IL,Israel,HA,Haifa District,1874,"אזור חדרה של""ש",,,IL,ISR,2
+IL_HA_2003,Q2777311,,IL,Israel,HA,Haifa District,2003,Talmei Elazar,,,IL,ISR,2
+IL_HA_2008,Q2888633,,IL,Israel,HA,Haifa District,2008,Sde Yitzhak,,,IL,ISR,2
+IL_HA_2024,Q2777414,,IL,Israel,HA,Haifa District,2024,Umm al-Qutuf,,,IL,ISR,2
+IL_HA_2055,Q2777088,,IL,Israel,HA,Haifa District,2055,Maor,,,IL,ISR,2
+IL_HA_2100,Q168215,,IL,Israel,HA,Haifa District,2100,Tirat Carmel,,,IL,ISR,2
+IL_HA_2300,Q1743479,,IL,Israel,HA,Haifa District,2300,Kiryat Tiv'on,,,IL,ISR,2
+IL_HA_2500,Q135432,,IL,Israel,HA,Haifa District,2500,Nesher,,,IL,ISR,2
+IL_HA_2710,Q168245,,IL,Israel,HA,Haifa District,2710,Umm al-Fahm,,,IL,ISR,2
+IL_HA_4000,Q41621,,IL,Israel,HA,Haifa District,4000,Haifa,,,IL,ISR,2
+IL_HA_6000,Q2916599,,IL,Israel,HA,Haifa District,6000,Baqa-Jatt,,,IL,ISR,2
+IL_HA_6500,Q471886,,IL,Israel,HA,Haifa District,6500,Hadera,,,IL,ISR,2
+IL_HA_6800,Q152602,,IL,Israel,HA,Haifa District,6800,Kiryat Ata,,,IL,ISR,2
+IL_HA_7800,Q2475182,,IL,Israel,HA,Haifa District,7800,Pardes Hanna-Karkur,,,IL,ISR,2
+IL_HA_8200,Q152567,,IL,Israel,HA,Haifa District,8200,Kiryat Motzkin,,,IL,ISR,2
+IL_HA_9300,Q198399,,IL,Israel,HA,Haifa District,9300,Zikhron Ya'akov,,,IL,ISR,2
+IL_HA_9500,Q152374,,IL,Israel,HA,Haifa District,9500,Kiryat Bialik,,,IL,ISR,2
+IL_HA_9600,Q152387,,IL,Israel,HA,Haifa District,9600,Kiryat Yam,,,IL,ISR,2
+IL_HA_9800,Q863890,,IL,Israel,HA,Haifa District,9800,Binyamina-Giv'at Ada,,,IL,ISR,2
+IL_JM,Q192232,iso/IL-JM,IL,Israel,JM,Jerusalem District,,,,,IL,ISR,1
+IL_JM_0010,Q2920058,,IL,Israel,JM,Jerusalem District,0010,Tirosh,,,IL,ISR,2
+IL_JM_0027,Q2919851,,IL,Israel,JM,Jerusalem District,0027,Sdot Micha,,,IL,ISR,2
+IL_JM_0039,Q2920048,,IL,Israel,JM,Jerusalem District,0039,Gefen,,,IL,ISR,2
+IL_JM_0052,Q2778051,,IL,Israel,JM,Jerusalem District,0052,Luzit,,,IL,ISR,2
+IL_JM_0059,Q2890254,,IL,Israel,JM,Jerusalem District,0059,Nehusha,,,IL,ISR,2
+IL_JM_0078,Q2916378,,IL,Israel,JM,Jerusalem District,0078,Kiryat Anavim,,,IL,ISR,2
+IL_JM_0127,Q2130036,,IL,Israel,JM,Jerusalem District,0127,Ramat Rachel,,,IL,ISR,2
+IL_JM_0208,Q2920567,,IL,Israel,JM,Jerusalem District,0208,Motza Illit,,,IL,ISR,2
+IL_JM_0286,Q2891264,,IL,Israel,JM,Jerusalem District,0286,Ma'ale HaHamisha,,,IL,ISR,2
+IL_JM_0364,Q659949,,IL,Israel,JM,Jerusalem District,0364,Kfar Uria,,,IL,ISR,2
+IL_JM_0405,Q2916719,,IL,Israel,JM,Jerusalem District,0405,Neve Ilan,,,IL,ISR,2
+IL_JM_0456,Q2890648,,IL,Israel,JM,Jerusalem District,0456,Shoresh,,,IL,ISR,2
+IL_JM_0460,Q2889518,,IL,Israel,JM,Jerusalem District,0460,Ramat Raziel,,,IL,ISR,2
+IL_JM_0462,Q2916701,,IL,Israel,JM,Jerusalem District,0462,Tal Shahar,,,IL,ISR,2
+IL_JM_0464,Q2890202,,IL,Israel,JM,Jerusalem District,0464,Harel,,,IL,ISR,2
+IL_JM_0465,Q2889772,,IL,Israel,JM,Jerusalem District,0465,Tzova,,,IL,ISR,2
+IL_JM_0472,Q335023,,IL,Israel,JM,Jerusalem District,0472,Abu Ghosh,,,IL,ISR,2
+IL_JM_0493,Q2778348,,IL,Israel,JM,Jerusalem District,0493,Deir Rafat,,,IL,ISR,2
+IL_JM_0514,Q2920028,,IL,Israel,JM,Jerusalem District,0514,Ein Rafa,,,IL,ISR,2
+IL_JM_0521,Q2916873,,IL,Israel,JM,Jerusalem District,0521,Ein Naqquba,,,IL,ISR,2
+IL_JM_0566,Q2919832,,IL,Israel,JM,Jerusalem District,0566,Givat Shemesh,,,IL,ISR,2
+IL_JM_0567,Q2916922,,IL,Israel,JM,Jerusalem District,0567,Tzora,,,IL,ISR,2
+IL_JM_0672,Q2778064,,IL,Israel,JM,Jerusalem District,0672,Beit Nekofa,,,IL,ISR,2
+IL_JM_0693,Q942371,,IL,Israel,JM,Jerusalem District,0693,Netiv HaLamed-Heh,,,IL,ISR,2
+IL_JM_0710,Q2776340,,IL,Israel,JM,Jerusalem District,0710,Beit Zayit,,,IL,ISR,2
+IL_JM_0740,Q3593,,IL,Israel,JM,Jerusalem District,0740,Eshtaol,,,IL,ISR,2
+IL_JM_0741,Q2777886,,IL,Israel,JM,Jerusalem District,0741,Sho'eva,,,IL,ISR,2
+IL_JM_0742,Q2778355,,IL,Israel,JM,Jerusalem District,0742,Mesilat Zion,,,IL,ISR,2
+IL_JM_0751,Q2778236,,IL,Israel,JM,Jerusalem District,0751,Beit Meir,,,IL,ISR,2
+IL_JM_0752,Q2778057,,IL,Israel,JM,Jerusalem District,0752,Ta'oz,,,IL,ISR,2
+IL_JM_0771,Q2919983,,IL,Israel,JM,Jerusalem District,0771,Mevo Beitar,,,IL,ISR,2
+IL_JM_0776,Q2778113,,IL,Israel,JM,Jerusalem District,0776,Mahseya,,,IL,ISR,2
+IL_JM_0777,Q2920050,,IL,Israel,JM,Jerusalem District,0777,Nahshon,,,IL,ISR,2
+IL_JM_0778,Q2920041,,IL,Israel,JM,Jerusalem District,0778,Tarum,,,IL,ISR,2
+IL_JM_0779,Q2843398,,IL,Israel,JM,Jerusalem District,0779,Aminadav,,,IL,ISR,2
+IL_JM_0780,Q219200,,IL,Israel,JM,Jerusalem District,0780,Ora,,,IL,ISR,2
+IL_JM_0783,Q1026815,,IL,Israel,JM,Jerusalem District,0783,Even Sapir,,,IL,ISR,2
+IL_JM_0787,Q2889845,,IL,Israel,JM,Jerusalem District,0787,Giv'at Ye'arim,,,IL,ISR,2
+IL_JM_0794,Q2778368,,IL,Israel,JM,Jerusalem District,0794,Agur,,,IL,ISR,2
+IL_JM_0796,Q2778037,,IL,Israel,JM,Jerusalem District,0796,Tzelafon,,,IL,ISR,2
+IL_JM_0799,Q187252,,IL,Israel,JM,Jerusalem District,0799,Zekharia,,,IL,ISR,2
+IL_JM_0805,Q2889854,,IL,Israel,JM,Jerusalem District,0805,Yish'i,,,IL,ISR,2
+IL_JM_0809,Q2889442,,IL,Israel,JM,Jerusalem District,0809,Naham,,,IL,ISR,2
+IL_JM_0816,Q2920129,,IL,Israel,JM,Jerusalem District,0816,Zanoah,,,IL,ISR,2
+IL_JM_0822,Q2920127,,IL,Israel,JM,Jerusalem District,0822,Mata,,,IL,ISR,2
+IL_JM_0823,Q2920092,,IL,Israel,JM,Jerusalem District,0823,Bar Giora,,,IL,ISR,2
+IL_JM_0825,Q2920026,,IL,Israel,JM,Jerusalem District,0825,Nes Harim,,,IL,ISR,2
+IL_JM_0859,Q607414,,IL,Israel,JM,Jerusalem District,0859,Ksalon,,,IL,ISR,2
+IL_JM_0864,Q2778085,,IL,Israel,JM,Jerusalem District,0864,Beko'a,,,IL,ISR,2
+IL_JM_0886,Q2778092,,IL,Israel,JM,Jerusalem District,0886,Eitanim,,,IL,ISR,2
+IL_JM_0919,Q2890506,,IL,Israel,JM,Jerusalem District,0919,Givat Yeshayahu,,,IL,ISR,2
+IL_JM_1015,Q1025294,,IL,Israel,JM,Jerusalem District,1015,Mevaseret Zion,,,IL,ISR,2
+IL_JM_1043,Q2778097,,IL,Israel,JM,Jerusalem District,1043,Gizo,,,IL,ISR,2
+IL_JM_1056,Q2777416,,IL,Israel,JM,Jerusalem District,1056,Ein Kerem Agricultural School,,,IL,ISR,2
+IL_JM_1070,Q2889308,,IL,Israel,JM,Jerusalem District,1070,Aviezer,,,IL,ISR,2
+IL_JM_1071,Q2920008,,IL,Israel,JM,Jerusalem District,1071,Neve Michael,,,IL,ISR,2
+IL_JM_1079,Q2919827,,IL,Israel,JM,Jerusalem District,1079,Tzafririm,,,IL,ISR,2
+IL_JM_1113,Q2890554,,IL,Israel,JM,Jerusalem District,1113,Tzur Hadassah,,,IL,ISR,2
+IL_JM_1114,Q2920039,,IL,Israel,JM,Jerusalem District,1114,Srigim,,,IL,ISR,2
+IL_JM_1123,Q2920094,,IL,Israel,JM,Jerusalem District,1123,Aderet,,,IL,ISR,2
+IL_JM_1134,Q2915704,,IL,Israel,JM,Jerusalem District,1134,Yad HaShmona,,,IL,ISR,2
+IL_JM_1137,Q2366487,,IL,Israel,JM,Jerusalem District,1137,Kiryat Ye'arim,,,IL,ISR,2
+IL_JM_1144,Q2919377,,IL,Israel,JM,Jerusalem District,1144,Yedida,,,IL,ISR,2
+IL_JM_1254,Q2750784,,IL,Israel,JM,Jerusalem District,1254,Nataf,,,IL,ISR,2
+IL_JM_1259,Q652631,,IL,Israel,JM,Jerusalem District,1259,Neve Shalom,,,IL,ISR,2
+IL_JM_1325,Q2919992,,IL,Israel,JM,Jerusalem District,1325,Kfar Zoharim,,,IL,ISR,2
+IL_JM_1701,,,IL,Israel,JM,Jerusalem District,1701,מפעלי נחם הרטוב,,,IL,ISR,2
+IL_JM_1702,Q2916719,,IL,Israel,JM,Jerusalem District,1702,Neve Ilan,,,IL,ISR,2
+IL_JM_1801,,,IL,Israel,JM,Jerusalem District,1801,"הרי יהודה מ""א 26",,,IL,ISR,2
+IL_JM_1802,,,IL,Israel,JM,Jerusalem District,1802,"הרי יהודה של""ש",,,IL,ISR,2
+IL_JM_1803,,,IL,Israel,JM,Jerusalem District,1803,"שפלת יהודה מ""א 26",,,IL,ISR,2
+IL_JM_1804,,,IL,Israel,JM,Jerusalem District,1804,"שפלת יהודה של""ש",,,IL,ISR,2
+IL_JM_2039,Q2777200,,IL,Israel,JM,Jerusalem District,2039,Kiryat Ye'arim Youth Village,,,IL,ISR,2
+IL_JM_2610,Q152449,,IL,Israel,JM,Jerusalem District,2610,Beit Shemesh,,,IL,ISR,2
+IL_JM_3000,Q1218,,IL,Israel,JM,Jerusalem District,3000,Jerusalem,,,IL,ISR,2
+IL_M,Q188785,iso/IL-M,IL,Israel,IL,Central District,,,,,IL,ISR,1
+IL_M_0028,Q1914736,,IL,Israel,M,Central District,0028,Mazkeret Batya,,,IL,ISR,2
+IL_M_0041,Q2920239,,IL,Israel,M,Central District,0041,Elyakhin,,,IL,ISR,2
+IL_M_0064,Q2889514,,IL,Israel,M,Central District,0064,Yad Rambam,,,IL,ISR,2
+IL_M_0088,Q2614199,,IL,Israel,M,Central District,0088,Kerem Ben Shemen,,,IL,ISR,2
+IL_M_0098,Q1026838,,IL,Israel,M,Central District,0098,Kfar Malal,,,IL,ISR,2
+IL_M_0115,Q2920001,,IL,Israel,M,Central District,0115,Hofit,,,IL,ISR,2
+IL_M_0128,Q2920196,,IL,Israel,M,Central District,0128,Gat Rimon,,,IL,ISR,2
+IL_M_0144,Q2777371,,IL,Israel,M,Central District,0144,Kvutzat Shiller,,,IL,ISR,2
+IL_M_0147,Q476835,,IL,Israel,M,Central District,0147,Givat Brenner,,,IL,ISR,2
+IL_M_0154,Q2304754,,IL,Israel,M,Central District,0154,Tel Mond,,,IL,ISR,2
+IL_M_0156,Q2916727,,IL,Israel,M,Central District,0156,Ayanot,,,IL,ISR,2
+IL_M_0157,Q2920293,,IL,Israel,M,Central District,0157,Ein Vered,,,IL,ISR,2
+IL_M_0158,Q1026840,,IL,Israel,M,Central District,0158,Na'an,,,IL,ISR,2
+IL_M_0159,Q2889916,,IL,Israel,M,Central District,0159,Beit Hanan,,,IL,ISR,2
+IL_M_0160,Q2916639,,IL,Israel,M,Central District,0160,Hulda,,,IL,ISR,2
+IL_M_0162,Q2920470,,IL,Israel,M,Central District,0162,Herut,,,IL,ISR,2
+IL_M_0166,Q924849,,IL,Israel,M,Central District,0166,Gan Yavne,,,IL,ISR,2
+IL_M_0167,Q2889969,,IL,Israel,M,Central District,0167,Ein HaHoresh,,,IL,ISR,2
+IL_M_0168,Q2640074,,IL,Israel,M,Central District,0168,Kfar Yona,,,IL,ISR,2
+IL_M_0170,Q2920174,,IL,Israel,M,Central District,0170,Kfar Yavetz,,,IL,ISR,2
+IL_M_0171,Q1018875,,IL,Israel,M,Central District,0171,Pardesiya,,,IL,ISR,2
+IL_M_0173,Q2889893,,IL,Israel,M,Central District,0173,Givat Haim,,,IL,ISR,2
+IL_M_0174,Q2890382,,IL,Israel,M,Central District,0174,Neta'im,,,IL,ISR,2
+IL_M_0175,Q2889938,,IL,Israel,M,Central District,0175,Avihayil,,,IL,ISR,2
+IL_M_0177,Q2778044,,IL,Israel,M,Central District,0177,Kfar Bilu,,,IL,ISR,2
+IL_M_0182,Q2915760,,IL,Israel,M,Central District,0182,Even Yehuda,,,IL,ISR,2
+IL_M_0183,Q2920086,,IL,Israel,M,Central District,0183,Yarkona,,,IL,ISR,2
+IL_M_0184,Q932073,,IL,Israel,M,Central District,0184,Ramat HaKovesh,,,IL,ISR,2
+IL_M_0186,Q6586079,,IL,Israel,M,Central District,0186,Hadassah Neurim,,,IL,ISR,2
+IL_M_0187,Q2920307,,IL,Israel,M,Central District,0187,Kfar Hess,,,IL,ISR,2
+IL_M_0190,Q2495402,,IL,Israel,M,Central District,0190,Kfar Vitkin,,,IL,ISR,2
+IL_M_0191,Q2920105,,IL,Israel,M,Central District,0191,Hadar Am,,,IL,ISR,2
+IL_M_0193,Q2916669,,IL,Israel,M,Central District,0193,Kfar Haim,,,IL,ISR,2
+IL_M_0194,Q595509,,IL,Israel,M,Central District,0194,Mishmar HaSharon,,,IL,ISR,2
+IL_M_0195,Q2670398,,IL,Israel,M,Central District,0195,Tzoran-Kadima,,,IL,ISR,2
+IL_M_0196,Q2777464,,IL,Israel,M,Central District,0196,Gibton,,,IL,ISR,2
+IL_M_0197,Q2890412,,IL,Israel,M,Central District,0197,Ma'abarot,,,IL,ISR,2
+IL_M_0198,Q2908691,,IL,Israel,M,Central District,0198,Tsofit,,,IL,ISR,2
+IL_M_0200,Q2920020,,IL,Israel,M,Central District,0200,Beit Yanai,,,IL,ISR,2
+IL_M_0202,Q2776830,,IL,Israel,M,Central District,0202,Beit Oved,,,IL,ISR,2
+IL_M_0204,Q2889400,,IL,Israel,M,Central District,0204,Elyashiv,,,IL,ISR,2
+IL_M_0205,Q2920141,,IL,Israel,M,Central District,0205,Hogla,,,IL,ISR,2
+IL_M_0206,Q732538,,IL,Israel,M,Central District,0206,Ramot HaShavim,,,IL,ISR,2
+IL_M_0207,Q2920459,,IL,Israel,M,Central District,0207,Givat Hen,,,IL,ISR,2
+IL_M_0217,Q2919897,,IL,Israel,M,Central District,0217,Kfar Haroeh,,,IL,ISR,2
+IL_M_0218,Q2890461,,IL,Israel,M,Central District,0218,Ganei Am,,,IL,ISR,2
+IL_M_0219,Q2920098,,IL,Israel,M,Central District,0219,Hibat Tzion,,,IL,ISR,2
+IL_M_0224,Q2920100,,IL,Israel,M,Central District,0224,Shoshanat HaAmakim,,,IL,ISR,2
+IL_M_0229,Q2920123,,IL,Israel,M,Central District,0229,Ganei Tikva,,,IL,ISR,2
+IL_M_0230,Q606427,,IL,Israel,M,Central District,0230,Kfar Ma'as,,,IL,ISR,2
+IL_M_0232,Q2915514,,IL,Israel,M,Central District,0232,Shefayim,,,IL,ISR,2
+IL_M_0233,Q2920134,,IL,Israel,M,Central District,0233,Kfar Yedidia,,,IL,ISR,2
+IL_M_0235,Q2920189,,IL,Israel,M,Central District,0235,Havatzelet HaSharon,,,IL,ISR,2
+IL_M_0239,Q2920454,,IL,Israel,M,Central District,0239,Gan Haim,,,IL,ISR,2
+IL_M_0247,Q2916585,,IL,Israel,M,Central District,0247,Rishpon,,,IL,ISR,2
+IL_M_0249,Q2920122,,IL,Israel,M,Central District,0249,Kfar Sirkin,,,IL,ISR,2
+IL_M_0252,Q2920029,,IL,Israel,M,Central District,0252,Bitan Aharon,,,IL,ISR,2
+IL_M_0257,Q2613046,,IL,Israel,M,Central District,0257,Nofekh,,,IL,ISR,2
+IL_M_0276,Q2888680,,IL,Israel,M,Central District,0276,Tzur Moshe,,,IL,ISR,2
+IL_M_0284,Q263306,,IL,Israel,M,Central District,0284,Sde Warburg,,,IL,ISR,2
+IL_M_0287,Q2916529,,IL,Israel,M,Central District,0287,Tel Yitzhak,,,IL,ISR,2
+IL_M_0288,Q2900566,,IL,Israel,M,Central District,0288,Beit Yehoshua,,,IL,ISR,2
+IL_M_0301,Q2919844,,IL,Israel,M,Central District,0301,Beit Uziel,,,IL,ISR,2
+IL_M_0311,Q2890477,,IL,Israel,M,Central District,0311,Gan Sorek,,,IL,ISR,2
+IL_M_0316,Q2915737,,IL,Israel,M,Central District,0316,Kfar Netter,,,IL,ISR,2
+IL_M_0326,Q2920289,,IL,Israel,M,Central District,0326,Beit Yitzhak-Sha'ar Hefer,,,IL,ISR,2
+IL_M_0331,Q2778107,,IL,Israel,M,Central District,0331,Nir Tzvi,,,IL,ISR,2
+IL_M_0334,Q2920219,,IL,Israel,M,Central District,0334,Kvutzat Yavne,,,IL,ISR,2
+IL_M_0355,Q2889953,,IL,Israel,M,Central District,0355,Horshim,,,IL,ISR,2
+IL_M_0363,Q2890392,,IL,Israel,M,Central District,0363,Hafetz Haim,,,IL,ISR,2
+IL_M_0370,Q975999,,IL,Israel,M,Central District,0370,Gezer,,,IL,ISR,2
+IL_M_0373,Q2920110,,IL,Israel,M,Central District,0373,Beit HaLevi,,,IL,ISR,2
+IL_M_0377,Q2890609,,IL,Israel,M,Central District,0377,HaMa'apil,,,IL,ISR,2
+IL_M_0379,Q2888538,,IL,Israel,M,Central District,0379,Geulim,,,IL,ISR,2
+IL_M_0382,Q2920036,,IL,Israel,M,Central District,0382,Mikhmoret,,,IL,ISR,2
+IL_M_0386,Q2920461,,IL,Israel,M,Central District,0386,Bnei Dror,,,IL,ISR,2
+IL_M_0387,Q2890756,,IL,Israel,M,Central District,0387,Kfar Monash,,,IL,ISR,2
+IL_M_0389,Q2916680,,IL,Israel,M,Central District,0389,Basra,,,IL,ISR,2
+IL_M_0412,Q20851173,,IL,Israel,M,Central District,0412,Kiryat Shlomo,,,IL,ISR,2
+IL_M_0417,Q2916641,,IL,Israel,M,Central District,0417,Yakum,,,IL,ISR,2
+IL_M_0418,Q938477,,IL,Israel,M,Central District,0418,Bnei Zion,,,IL,ISR,2
+IL_M_0422,Q2890341,,IL,Israel,M,Central District,0422,Herev Le'et,,,IL,ISR,2
+IL_M_0423,Q2889794,,IL,Israel,M,Central District,0423,HaOgen,,,IL,ISR,2
+IL_M_0425,Q2920449,,IL,Israel,M,Central District,0425,Mishmeret,,,IL,ISR,2
+IL_M_0435,Q1011505,,IL,Israel,M,Central District,0435,Netzer Sereni,,,IL,ISR,2
+IL_M_0440,Q2920138,,IL,Israel,M,Central District,0440,Yesodot,,,IL,ISR,2
+IL_M_0446,Q2920013,,IL,Israel,M,Central District,0446,Udim,,,IL,ISR,2
+IL_M_0447,Q2920311,,IL,Israel,M,Central District,0447,Nordia,,,IL,ISR,2
+IL_M_0448,Q2907472,,IL,Israel,M,Central District,0448,Bnei Atarot,,,IL,ISR,2
+IL_M_0449,Q2614192,,IL,Israel,M,Central District,0449,Nehalim,,,IL,ISR,2
+IL_M_0450,Q2614813,,IL,Israel,M,Central District,0450,Be'erot Yitzhak,,,IL,ISR,2
+IL_M_0466,Q2920214,,IL,Israel,M,Central District,0466,Beit Dagan,,,IL,ISR,2
+IL_M_0469,Q2640159,,IL,Israel,M,Central District,0469,Kiryat Ekron,,,IL,ISR,2
+IL_M_0549,Q2920466,,IL,Israel,M,Central District,0549,Ganot Hadar,,,IL,ISR,2
+IL_M_0555,Q2778352,,IL,Israel,M,Central District,0555,Shdema,,,IL,ISR,2
+IL_M_0562,Q2776841,,IL,Israel,M,Central District,0562,Beit Elazari,,,IL,ISR,2
+IL_M_0563,Q2920043,,IL,Israel,M,Central District,0563,Mishmar David,,,IL,ISR,2
+IL_M_0571,Q2890084,,IL,Israel,M,Central District,0571,Beit Gamliel,,,IL,ISR,2
+IL_M_0577,Q2888655,,IL,Israel,M,Central District,0577,Yad Binyamin,,,IL,ISR,2
+IL_M_0582,Q2890199,,IL,Israel,M,Central District,0582,Kfar HaNagid,,,IL,ISR,2
+IL_M_0587,Q592526,,IL,Israel,M,Central District,0587,Savyon,,,IL,ISR,2
+IL_M_0588,Q2776346,,IL,Israel,M,Central District,0588,Bnei Re'em,,,IL,ISR,2
+IL_M_0591,Q2920046,,IL,Israel,M,Central District,0591,Aseret,,,IL,ISR,2
+IL_M_0592,Q2889802,,IL,Israel,M,Central District,0592,Bnei Darom,,,IL,ISR,2
+IL_M_0594,Q2919894,,IL,Israel,M,Central District,0594,Tzafria,,,IL,ISR,2
+IL_M_0597,Q1759981,,IL,Israel,M,Central District,0597,Palmachim,,,IL,ISR,2
+IL_M_0604,Q2612861,,IL,Israel,M,Central District,0604,Beit Arif,,,IL,ISR,2
+IL_M_0606,Q2614185,,IL,Israel,M,Central District,0606,Mazor,,,IL,ISR,2
+IL_M_0610,Q2919886,,IL,Israel,M,Central District,0610,Sitria,,,IL,ISR,2
+IL_M_0615,Q588697,,IL,Israel,M,Central District,0615,Kidron,,,IL,ISR,2
+IL_M_0616,Q2614210,,IL,Israel,M,Central District,0616,Rinatya,,,IL,ISR,2
+IL_M_0618,Q2614824,,IL,Israel,M,Central District,0618,Hadid,,,IL,ISR,2
+IL_M_0627,Q2915655,,IL,Israel,M,Central District,0627,Jaljulia,,,IL,ISR,2
+IL_M_0633,Q2915658,,IL,Israel,M,Central District,0633,Kafr Bara,,,IL,ISR,2
+IL_M_0634,Q152659,,IL,Israel,M,Central District,0634,Kafr Qasim,,,IL,ISR,2
+IL_M_0638,Q168152,,IL,Israel,M,Central District,0638,Qalansawe,,,IL,ISR,2
+IL_M_0661,Q2920107,,IL,Israel,M,Central District,0661,Sha'ar Efraim,,,IL,ISR,2
+IL_M_0663,Q2614842,,IL,Israel,M,Central District,0663,Tirat Yehuda,,,IL,ISR,2
+IL_M_0670,Q2890675,,IL,Israel,M,Central District,0670,Mishmar Ayalon,,,IL,ISR,2
+IL_M_0673,Q2614203,,IL,Israel,M,Central District,0673,Kfar Truman,,,IL,ISR,2
+IL_M_0680,Q2920106,,IL,Israel,M,Central District,0680,Ometz,,,IL,ISR,2
+IL_M_0681,Q152641,,IL,Israel,M,Central District,0681,Giv'at Shmuel,,,IL,ISR,2
+IL_M_0685,Q2889721,,IL,Israel,M,Central District,0685,Bnaya,,,IL,ISR,2
+IL_M_0686,Q2916635,,IL,Israel,M,Central District,0686,Neve Yamin,,,IL,ISR,2
+IL_M_0696,Q2570492,,IL,Israel,M,Central District,0696,Kfar Chabad,,,IL,ISR,2
+IL_M_0697,Q2888719,,IL,Israel,M,Central District,0697,Be'erotayim,,,IL,ISR,2
+IL_M_0698,Q2916645,,IL,Israel,M,Central District,0698,Burgata,,,IL,ISR,2
+IL_M_0705,Q647488,,IL,Israel,M,Central District,0705,Nahshonim,,,IL,ISR,2
+IL_M_0707,Q2613167,,IL,Israel,M,Central District,0707,Kfar Daniel,,,IL,ISR,2
+IL_M_0711,Q2889725,,IL,Israel,M,Central District,0711,Azaria,,,IL,ISR,2
+IL_M_0716,Q2920290,,IL,Israel,M,Central District,0716,Eyal,,,IL,ISR,2
+IL_M_0717,Q2916763,,IL,Israel,M,Central District,0717,Hagor,,,IL,ISR,2
+IL_M_0718,Q2920181,,IL,Israel,M,Central District,0718,Yarhiv,,,IL,ISR,2
+IL_M_0720,Q2890394,,IL,Israel,M,Central District,0720,Nir Galim,,,IL,ISR,2
+IL_M_0722,Q2920119,,IL,Israel,M,Central District,0722,Magshimim,,,IL,ISR,2
+IL_M_0729,Q2920057,,IL,Israel,M,Central District,0729,Mishmar HaShiv'a,,,IL,ISR,2
+IL_M_0731,Q2920034,,IL,Israel,M,Central District,0731,Meishar,,,IL,ISR,2
+IL_M_0734,Q2919998,,IL,Israel,M,Central District,0734,Gan Yoshiya,,,IL,ISR,2
+IL_M_0735,Q2889697,,IL,Israel,M,Central District,0735,Ramot Meir,,,IL,ISR,2
+IL_M_0737,Q2920178,,IL,Israel,M,Central District,0737,Olesh,,,IL,ISR,2
+IL_M_0743,Q2890154,,IL,Israel,M,Central District,0743,Kfar Shmuel,,,IL,ISR,2
+IL_M_0745,Q2613825,,IL,Israel,M,Central District,0745,Gimzo,,,IL,ISR,2
+IL_M_0753,Q2920193,,IL,Israel,M,Central District,0753,Yanuv,,,IL,ISR,2
+IL_M_0757,Q2917270,,IL,Israel,M,Central District,0757,Matzliah,,,IL,ISR,2
+IL_M_0758,Q2575555,,IL,Israel,M,Central District,0758,Yad Hana,,,IL,ISR,2
+IL_M_0759,Q2889577,,IL,Israel,M,Central District,0759,Yatzitz,,,IL,ISR,2
+IL_M_0760,Q587948,,IL,Israel,M,Central District,0760,Ben Zakai,,,IL,ISR,2
+IL_M_0764,Q2920053,,IL,Israel,M,Central District,0764,Kfar Mordechai,,,IL,ISR,2
+IL_M_0765,Q2919868,,IL,Israel,M,Central District,0765,Misgav Dov,,,IL,ISR,2
+IL_M_0767,Q2776285,,IL,Israel,M,Central District,0767,Porat,,,IL,ISR,2
+IL_M_0784,Q2612736,,IL,Israel,M,Central District,0784,Beit Nehemia,,,IL,ISR,2
+IL_M_0788,Q2889834,,IL,Israel,M,Central District,0788,Zeitan,,,IL,ISR,2
+IL_M_0797,Q2920035,,IL,Israel,M,Central District,0797,Ahi'ezer,,,IL,ISR,2
+IL_M_0798,Q2778126,,IL,Israel,M,Central District,0798,Yagel,,,IL,ISR,2
+IL_M_0801,Q734966,,IL,Israel,M,Central District,0801,Hemed,,,IL,ISR,2
+IL_M_0802,Q2613353,,IL,Israel,M,Central District,0802,Giv'at Ko'ah,,,IL,ISR,2
+IL_M_0804,Q2613039,,IL,Israel,M,Central District,0804,Ahisamakh,,,IL,ISR,2
+IL_M_0807,Q2920131,,IL,Israel,M,Central District,0807,Haniel,,,IL,ISR,2
+IL_M_0808,Q2889513,,IL,Israel,M,Central District,0808,Nir Eliyahu,,,IL,ISR,2
+IL_M_0828,Q2889864,,IL,Israel,M,Central District,0828,Yashresh,,,IL,ISR,2
+IL_M_0836,Q2778240,,IL,Israel,M,Central District,0836,Ganot,,,IL,ISR,2
+IL_M_0837,Q2920475,,IL,Israel,M,Central District,0837,Azri'el,,,IL,ISR,2
+IL_M_0838,Q2778078,,IL,Israel,M,Central District,0838,Pedaya,,,IL,ISR,2
+IL_M_0839,Q2919858,,IL,Israel,M,Central District,0839,Petahya,,,IL,ISR,2
+IL_M_0841,Q2920304,,IL,Israel,M,Central District,0841,Elishama,,,IL,ISR,2
+IL_M_0842,Q2889806,,IL,Israel,M,Central District,0842,Ga'ash,,,IL,ISR,2
+IL_M_0848,Q2920231,,IL,Israel,M,Central District,0848,Givat Washington,,,IL,ISR,2
+IL_M_0850,Q2920033,,IL,Israel,M,Central District,0850,Ahituv,,,IL,ISR,2
+IL_M_0851,Q2920295,,IL,Israel,M,Central District,0851,Nitzanei Oz,,,IL,ISR,2
+IL_M_0853,Q2776793,,IL,Israel,M,Central District,0853,Ge'alya,,,IL,ISR,2
+IL_M_0856,Q960557,,IL,Israel,M,Central District,0856,Sha'alvim,,,IL,ISR,2
+IL_M_0857,Q2890322,,IL,Israel,M,Central District,0857,Kfar Aviv,,,IL,ISR,2
+IL_M_0858,Q2919986,,IL,Israel,M,Central District,0858,Neve Yarak,,,IL,ISR,2
+IL_M_0862,Q2890485,,IL,Israel,M,Central District,0862,Ganei Yohanan,,,IL,ISR,2
+IL_M_0863,Q2613063,,IL,Israel,M,Central District,0863,Ginaton,,,IL,ISR,2
+IL_M_0870,Q2497285,,IL,Israel,M,Central District,0870,Givat HaShlosha,,,IL,ISR,2
+IL_M_0871,Q2920136,,IL,Israel,M,Central District,0871,Einat,,,IL,ISR,2
+IL_M_0872,Q2920104,,IL,Israel,M,Central District,0872,Geulei Teiman,,,IL,ISR,2
+IL_M_0875,Q31197213,,IL,Israel,M,Central District,0875,"Kfar Avoda, Tel Mond",,,IL,ISR,2
+IL_M_0877,Q2919994,,IL,Israel,M,Central District,0877,Beit Herut,,,IL,ISR,2
+IL_M_0880,Q2920301,,IL,Israel,M,Central District,0880,Ein Sarid,,,IL,ISR,2
+IL_M_0897,Q7067243,,IL,Israel,M,Central District,0897,Ruppin Academic Center,,,IL,ISR,2
+IL_M_1024,Q2916531,,IL,Israel,M,Central District,1024,Harutzim,,,IL,ISR,2
+IL_M_1044,Q2920202,,IL,Israel,M,Central District,1044,Ye'af,,,IL,ISR,2
+IL_M_1050,Q2776813,,IL,Israel,M,Central District,1050,Beit Hashmonay,,,IL,ISR,2
+IL_M_1066,Q2915758,,IL,Israel,M,Central District,1066,Bnei Ayish,,,IL,ISR,2
+IL_M_1072,Q2920113,,IL,Israel,M,Central District,1072,Gan HaDarom,,,IL,ISR,2
+IL_M_1076,Q25488222,,IL,Israel,M,Central District,1076,Beit Berl,,,IL,ISR,2
+IL_M_1077,Q2916530,,IL,Israel,M,Central District,1077,Givat Shapira,,,IL,ISR,2
+IL_M_1084,Q2777009,,IL,Israel,M,Central District,1084,Ben Shemen Youth Village,,,IL,ISR,2
+IL_M_1094,Q2890305,,IL,Israel,M,Central District,1094,Yeshivat Kerem B'Yavneh,,,IL,ISR,2
+IL_M_1102,Q2920116,,IL,Israel,M,Central District,1102,Tzukei Yam,,,IL,ISR,2
+IL_M_1103,Q2919874,,IL,Israel,M,Central District,1103,Ganei Hadar,,,IL,ISR,2
+IL_M_1111,,,IL,Israel,M,Central District,1111,ZOFIYYA,,,IL,ISR,2
+IL_M_1141,Q2614828,,IL,Israel,M,Central District,1141,Mevo Modi'im,,,IL,ISR,2
+IL_M_1148,Q2920082,,IL,Israel,M,Central District,1148,Tzur Natan,,,IL,ISR,2
+IL_M_1165,Q2614818,,IL,Israel,M,Central District,1165,Shilat,,,IL,ISR,2
+IL_M_1166,Q2614214,,IL,Israel,M,Central District,1166,Kfar Ruth,,,IL,ISR,2
+IL_M_1200,Q165867,,IL,Israel,M,Central District,1200,Modi'in-Maccabim-Re'ut,,,IL,ISR,2
+IL_M_1224,Q2594036,,IL,Israel,M,Central District,1224,Kokhav Ya'ir,,,IL,ISR,2
+IL_M_1236,Q2889321,,IL,Israel,M,Central District,1236,Nirit,,,IL,ISR,2
+IL_M_1264,Q2919879,,IL,Israel,M,Central District,1264,Karmei Yosef,,,IL,ISR,2
+IL_M_1290,Q2920220,,IL,Israel,M,Central District,1290,Zemer,,,IL,ISR,2
+IL_M_1304,Q304448,,IL,Israel,M,Central District,1304,Shoham,,,IL,ISR,2
+IL_M_1309,Q152399,,IL,Israel,M,Central District,1309,El'ad,,,IL,ISR,2
+IL_M_1310,Q2509463,,IL,Israel,M,Central District,1310,Lapid,,,IL,ISR,2
+IL_M_1315,Q2918645,,IL,Israel,M,Central District,1315,Matan,,,IL,ISR,2
+IL_M_1318,Q2777334,,IL,Israel,M,Central District,1318,Mevo'ot Yam,,,IL,ISR,2
+IL_M_1319,Q2890367,,IL,Israel,M,Central District,1319,Bat Hefer,,,IL,ISR,2
+IL_M_1324,Q2890227,,IL,Israel,M,Central District,1324,"Arsuf, Hof Ha",,,IL,ISR,2
+IL_M_1333,Q2889461,,IL,Israel,M,Central District,1333,Nof Ayalon,,,IL,ISR,2
+IL_M_1336,Q6775615,,IL,Israel,M,Central District,1336,Irus,,,IL,ISR,2
+IL_M_1345,Q2776779,,IL,Israel,M,Central District,1345,Tzur Yitzhak,,,IL,ISR,2
+IL_M_1361,Q2920108,,IL,Israel,M,Central District,1361,Bat Hen,,,IL,ISR,2
+IL_M_1371,Q16132344,,IL,Israel,M,Central District,1371,Ganei Tal,,,IL,ISR,2
+IL_M_1372,Q19330806,,IL,Israel,M,Central District,1372,Netzer Hazani,,,IL,ISR,2
+IL_M_1411,Q590092,,IL,Israel,M,Central District,1411,Palmachim Airbase,,,IL,ISR,2
+IL_M_1412,Q1229630,,IL,Israel,M,Central District,1412,Tel Nof Airbase,,,IL,ISR,2
+IL_M_1729,,,IL,Israel,M,Central District,1729,מפעלי חבל מודיעים,,,IL,ISR,2
+IL_M_1741,,,IL,Israel,M,Central District,1741,תעשיון השרון,,,IL,ISR,2
+IL_M_1742,,,IL,Israel,M,Central District,1742,תעשיון חצב*,,,IL,ISR,2
+IL_M_1744,,,IL,Israel,M,Central District,1744,תעשיון בינימין*,,,IL,ISR,2
+IL_M_1745,,,IL,Israel,M,Central District,1745,מפעלי חפר,,,IL,ISR,2
+IL_M_1746,,,IL,Israel,M,Central District,1746,קרית תעופה,,,IL,ISR,2
+IL_M_1747,,,IL,Israel,M,Central District,1747,מרכז אזורי שוהם,,,IL,ISR,2
+IL_M_1748,Q181479,,IL,Israel,M,Central District,1748,Ben Gurion Airport,,,IL,ISR,2
+IL_M_1749,,,IL,Israel,M,Central District,1749,תעשיון צריפין,,,IL,ISR,2
+IL_M_1750,,,IL,Israel,M,Central District,1750,תעשיון חבל יבנה,,,IL,ISR,2
+IL_M_1751,,,IL,Israel,M,Central District,1751,המרכז למחקר-נחל שורק,,,IL,ISR,2
+IL_M_1875,,,IL,Israel,M,Central District,1875,"עמק חפר מזרח מ""א 16",,,IL,ISR,2
+IL_M_1876,,,IL,Israel,M,Central District,1876,"מערב השרון מ""א 16",,,IL,ISR,2
+IL_M_1877,,,IL,Israel,M,Central District,1877,"מערב השרון מ""א 18",,,IL,ISR,2
+IL_M_1878,,,IL,Israel,M,Central District,1878,"מערב השרון מ""א 19",,,IL,ISR,2
+IL_M_1879,,,IL,Israel,M,Central District,1879,"מזרח השרון מ""א 16",,,IL,ISR,2
+IL_M_1880,,,IL,Israel,M,Central District,1880,"מזרח השרון מ""א 18",,,IL,ISR,2
+IL_M_1881,,,IL,Israel,M,Central District,1881,"דרום השרון מ""א 18",,,IL,ISR,2
+IL_M_1882,,,IL,Israel,M,Central District,1882,"דרום השרון מ""א 20",,,IL,ISR,2
+IL_M_1885,,,IL,Israel,M,Central District,1885,"דרום השרון של""ש",,,IL,ISR,2
+IL_M_1886,,,IL,Israel,M,Central District,1886,"אזור פתח תקווה מ""א 25",,,IL,ISR,2
+IL_M_1887,,,IL,Israel,M,Central District,1887,"אזור מודיעין מ""א 25",,,IL,ISR,2
+IL_M_1888,,,IL,Israel,M,Central District,1888,"אזור פתח תקווה מ""א 20",,,IL,ISR,2
+IL_M_1889,,,IL,Israel,M,Central District,1889,"אזור פתח תקווה של""ש",,,IL,ISR,2
+IL_M_1890,,,IL,Israel,M,Central District,1890,"אזור מודיעין מ""א 30",,,IL,ISR,2
+IL_M_1891,,,IL,Israel,M,Central District,1891,"אזור רמלה מ""א 30",,,IL,ISR,2
+IL_M_1892,,,IL,Israel,M,Central District,1892,"אזור רמלה מ""א 25",,,IL,ISR,2
+IL_M_1893,,,IL,Israel,M,Central District,1893,"אזור רמלה מ""א 40",,,IL,ISR,2
+IL_M_1894,,,IL,Israel,M,Central District,1894,"אזור רמלה של""ש",,,IL,ISR,2
+IL_M_1895,,,IL,Israel,M,Central District,1895,"אזור מודיעין של""ש",,,IL,ISR,2
+IL_M_1896,,,IL,Israel,M,Central District,1896,"אזור רחובות מ""א 28",,,IL,ISR,2
+IL_M_1897,,,IL,Israel,M,Central District,1897,"אזור רחובות מ""א 32",,,IL,ISR,2
+IL_M_1898,,,IL,Israel,M,Central District,1898,"אזור רחובות מ""א 30",,,IL,ISR,2
+IL_M_1899,,,IL,Israel,M,Central District,1899,"אזור רחובות מ""א 29",,,IL,ISR,2
+IL_M_1901,,,IL,Israel,M,Central District,1901,"אזור רחובות מ""א 31",,,IL,ISR,2
+IL_M_1902,,,IL,Israel,M,Central District,1902,"אזור רחובות של""ש",,,IL,ISR,2
+IL_M_1903,,,IL,Israel,M,Central District,1903,"אזור ראשל""צ מ""א 27",,,IL,ISR,2
+IL_M_1904,,,IL,Israel,M,Central District,1904,"אזור ראשל""צ של""ש",,,IL,ISR,2
+IL_M_2002,Q2920184,,IL,Israel,M,Central District,2002,Tnuvot,,,IL,ISR,2
+IL_M_2010,Q2889448,,IL,Israel,M,Central District,2010,Kfar Bin Nun,,,IL,ISR,2
+IL_M_2013,Q2895304,,IL,Israel,M,Central District,2013,Ben Shemen,,,IL,ISR,2
+IL_M_2015,Q2917993,,IL,Israel,M,Central District,2015,Sdei Hemed,,,IL,ISR,2
+IL_M_2018,Q2916651,,IL,Israel,M,Central District,2018,Givat Haim,,,IL,ISR,2
+IL_M_2033,Q2920112,,IL,Israel,M,Central District,2033,Beit Hilkia,,,IL,ISR,2
+IL_M_2035,Q2919990,,IL,Israel,M,Central District,2035,Adanim,,,IL,ISR,2
+IL_M_2038,Q2612745,,IL,Israel,M,Central District,2038,Bareket,,,IL,ISR,2
+IL_M_2043,Q2890692,,IL,Israel,M,Central District,2043,Bahan,,,IL,ISR,2
+IL_M_2530,Q2640170,,IL,Israel,M,Central District,2530,Be'er Ya'akov,,,IL,ISR,2
+IL_M_2550,Q921505,,IL,Israel,M,Central District,2550,Gedera,,,IL,ISR,2
+IL_M_2640,Q168202,,IL,Israel,M,Central District,2640,Rosh HaAyin,,,IL,ISR,2
+IL_M_2660,Q167677,,IL,Israel,M,Central District,2660,Yavne,,,IL,ISR,2
+IL_M_2720,Q167594,,IL,Israel,M,Central District,2720,Tira,,,IL,ISR,2
+IL_M_2730,Q2916840,,IL,Israel,M,Central District,2730,Taibe,,,IL,ISR,2
+IL_M_6900,Q152436,,IL,Israel,M,Central District,6900,Kfar Saba,,,IL,ISR,2
+IL_M_7000,Q207540,,IL,Israel,M,Central District,7000,Lod,,,IL,ISR,2
+IL_M_7200,Q168162,,IL,Israel,M,Central District,7200,Ness Ziona,,,IL,ISR,2
+IL_M_7400,Q192225,,IL,Israel,M,Central District,7400,Netanya,,,IL,ISR,2
+IL_M_7900,Q190828,,IL,Israel,M,Central District,7900,Petah Tikva,,,IL,ISR,2
+IL_M_8300,Q201051,,IL,Israel,M,Central District,8300,Rishon LeZion,,,IL,ISR,2
+IL_M_8400,Q207350,,IL,Israel,M,Central District,8400,Rehovot,,,IL,ISR,2
+IL_M_8500,Q221447,,IL,Israel,M,Central District,8500,Ramla,,,IL,ISR,2
+IL_M_8700,Q309164,,IL,Israel,M,Central District,8700,Ra'anana,,,IL,ISR,2
+IL_M_9400,Q1948533,,IL,Israel,M,Central District,9400,Yehud,,,IL,ISR,2
+IL_M_9700,Q152379,,IL,Israel,M,Central District,9700,Hod HaSharon,,,IL,ISR,2
+IL_TA,Q192811,iso/IL-TA,IL,Israel,TA,Tel Aviv District,,,,,IL,ISR,1
+IL_TA_0022,Q181856,,IL,Israel,TA,Tel Aviv District,0022,Mikveh Israel,,,IL,ISR,2
+IL_TA_0267,Q2389508,,IL,Israel,TA,Tel Aviv District,0267,Kfar Shmaryahu,,,IL,ISR,2
+IL_TA_0346,Q2920031,,IL,Israel,TA,Tel Aviv District,0346,Glil Yam,,,IL,ISR,2
+IL_TA_0565,Q952186,,IL,Israel,TA,Tel Aviv District,0565,Azor,,,IL,ISR,2
+IL_TA_1905,,,IL,Israel,TA,Tel Aviv District,1905,"אזור תל אביב של""ש",,,IL,ISR,2
+IL_TA_1907,,,IL,Israel,TA,Tel Aviv District,1907,"אזור גלילות מ""א 19",,,IL,ISR,2
+IL_TA_1908,,,IL,Israel,TA,Tel Aviv District,1908,"אזור רמת גן של""ש",,,IL,ISR,2
+IL_TA_1909,,,IL,Israel,TA,Tel Aviv District,1909,"אזור חולון של""ש",,,IL,ISR,2
+IL_TA_2400,Q950347,,IL,Israel,TA,Tel Aviv District,2400,Or Yehuda,,,IL,ISR,2
+IL_TA_2620,Q152501,,IL,Israel,TA,Tel Aviv District,2620,Kiryat Ono,,,IL,ISR,2
+IL_TA_2650,Q845866,,IL,Israel,TA,Tel Aviv District,2650,Ramat HaSharon,,,IL,ISR,2
+IL_TA_5000,Q33935,,IL,Israel,TA,Tel Aviv District,5000,Tel Aviv,,,IL,ISR,2
+IL_TA_6100,Q152467,,IL,Israel,TA,Tel Aviv District,6100,Bnei Brak,,,IL,ISR,2
+IL_TA_6200,Q208725,,IL,Israel,TA,Tel Aviv District,6200,Bat Yam,,,IL,ISR,2
+IL_TA_6300,Q152413,,IL,Israel,TA,Tel Aviv District,6300,Givatayim,,,IL,ISR,2
+IL_TA_6400,Q152491,,IL,Israel,TA,Tel Aviv District,6400,Herzliya,,,IL,ISR,2
+IL_TA_6600,Q192213,,IL,Israel,TA,Tel Aviv District,6600,Holon,,,IL,ISR,2
+IL_TA_8600,Q192807,,IL,Israel,TA,Tel Aviv District,8600,Ramat Gan,,,IL,ISR,2
+IL_WE,Q513200,,IL,Israel,WE,Judea and Samaria Area,,,,,IL,ISR,1
+IL_WE_1791,,,IL,Israel,WE,Judea and Samaria Area,1791,מפעלי ברקן,,,IL,ISR,2
+IL_WE_1792,,,IL,Israel,WE,Judea and Samaria Area,1792,"תעשיון שח""ק",,,IL,ISR,2
+IL_WE_1793,,,IL,Israel,WE,Judea and Samaria Area,1793,שלומציון,,,IL,ISR,2
+IL_WE_1794,,,IL,Israel,WE,Judea and Samaria Area,1794,תעשיון מיתרים,,,IL,ISR,2
+IL_WE_1970,,,IL,Israel,WE,Judea and Samaria Area,1970,"נפת ג'נין  מ""א 72",,,IL,ISR,2
+IL_WE_1971,,,IL,Israel,WE,Judea and Samaria Area,1971,נפת ג'נין,,,IL,ISR,2
+IL_WE_1972,,,IL,Israel,WE,Judea and Samaria Area,1972,"נפת שכם מ""א 72",,,IL,ISR,2
+IL_WE_1973,,,IL,Israel,WE,Judea and Samaria Area,1973,נפת שכם,,,IL,ISR,2
+IL_WE_1974,,,IL,Israel,WE,Judea and Samaria Area,1974,"נפת טול כרם  מ""א 72",,,IL,ISR,2
+IL_WE_1975,,,IL,Israel,WE,Judea and Samaria Area,1975,נפת טול כרם,,,IL,ISR,2
+IL_WE_1976,,,IL,Israel,WE,Judea and Samaria Area,1976,"נפת ראמאללה מ""א  73",,,IL,ISR,2
+IL_WE_1977,,,IL,Israel,WE,Judea and Samaria Area,1977,נפת ראמאללה,,,IL,ISR,2
+IL_WE_1978,,,IL,Israel,WE,Judea and Samaria Area,1978,"נפת ירדן מ""א 74",,,IL,ISR,2
+IL_WE_1979,,,IL,Israel,WE,Judea and Samaria Area,1979,"נפת ירדן מ""א 75",,,IL,ISR,2
+IL_WE_1980,,,IL,Israel,WE,Judea and Samaria Area,1980,נפת ירדן,,,IL,ISR,2
+IL_WE_1981,,,IL,Israel,WE,Judea and Samaria Area,1981,"נפת בית לחם מ""א 76",,,IL,ISR,2
+IL_WE_1982,Q247037,,IL,Israel,WE,Judea and Samaria Area,1982,Bethlehem Governorate,,,IL,ISR,2
+IL_WE_1983,,,IL,Israel,WE,Judea and Samaria Area,1983,"נפת חברון מ""א 78",,,IL,ISR,2
+IL_WE_1984,,,IL,Israel,WE,Judea and Samaria Area,1984,נפת חברון,,,IL,ISR,2
+IL_WE_1998,,,IL,Israel,WE,Judea and Samaria Area,1998,דרום יהודה,,,IL,ISR,2
+IL_WE_1999,,,IL,Israel,WE,Judea and Samaria Area,1999,השומרון,,,IL,ISR,2
+IL_WE_3488,Q2291811,,IL,Israel,WE,Judea and Samaria Area,3488,Kfar Etzion,,,IL,ISR,2
+IL_WE_3555,Q2890336,,IL,Israel,WE,Judea and Samaria Area,3555,Netiv HaGdud,,,IL,ISR,2
+IL_WE_3556,Q2777759,,IL,Israel,WE,Judea and Samaria Area,3556,Almog,,,IL,ISR,2
+IL_WE_3557,Q2160189,,IL,Israel,WE,Judea and Samaria Area,3557,Kedumim,,,IL,ISR,2
+IL_WE_3558,Q2919662,,IL,Israel,WE,Judea and Samaria Area,3558,Tomer,,,IL,ISR,2
+IL_WE_3560,Q2326109,,IL,Israel,WE,Judea and Samaria Area,3560,Elkana,,,IL,ISR,2
+IL_WE_3561,Q1777470,,IL,Israel,WE,Judea and Samaria Area,3561,Migdal Oz,,,IL,ISR,2
+IL_WE_3563,Q1018921,,IL,Israel,WE,Judea and Samaria Area,3563,Tekoa,,,IL,ISR,2
+IL_WE_3564,Q2916541,,IL,Israel,WE,Judea and Samaria Area,3564,Kokhav HaShahar,,,IL,ISR,2
+IL_WE_3565,Q2777026,,IL,Israel,WE,Judea and Samaria Area,3565,Rimonim,,,IL,ISR,2
+IL_WE_3566,Q2888924,,IL,Israel,WE,Judea and Samaria Area,3566,Yafit,,,IL,ISR,2
+IL_WE_3567,Q2890345,,IL,Israel,WE,Judea and Samaria Area,3567,Sal'it,,,IL,ISR,2
+IL_WE_3568,Q2777888,,IL,Israel,WE,Judea and Samaria Area,3568,Reihan,,,IL,ISR,2
+IL_WE_3569,Q2777960,,IL,Israel,WE,Judea and Samaria Area,3569,Mevo Dotan,,,IL,ISR,2
+IL_WE_3570,Q169310,,IL,Israel,WE,Judea and Samaria Area,3570,Ariel,,,IL,ISR,2
+IL_WE_3571,Q325876,,IL,Israel,WE,Judea and Samaria Area,3571,Shavei Shomron,,,IL,ISR,2
+IL_WE_3572,Q325919,,IL,Israel,WE,Judea and Samaria Area,3572,Kfar Tapuach,,,IL,ISR,2
+IL_WE_3573,Q2890400,,IL,Israel,WE,Judea and Samaria Area,3573,Halamish,,,IL,ISR,2
+IL_WE_3574,Q430939,,IL,Israel,WE,Judea and Samaria Area,3574,Beit El,,,IL,ISR,2
+IL_WE_3575,Q2777556,,IL,Israel,WE,Judea and Samaria Area,3575,Beit Horon,,,IL,ISR,2
+IL_WE_3576,Q2776900,,IL,Israel,WE,Judea and Samaria Area,3576,Mitzpe Yeriho,,,IL,ISR,2
+IL_WE_3578,Q2889103,,IL,Israel,WE,Judea and Samaria Area,3578,Shadmot Mehola,,,IL,ISR,2
+IL_WE_3579,Q2890437,,IL,Israel,WE,Judea and Samaria Area,3579,Elon Moreh,,,IL,ISR,2
+IL_WE_3598,Q2889523,,IL,Israel,WE,Judea and Samaria Area,3598,Argaman,,,IL,ISR,2
+IL_WE_3599,Q2888960,,IL,Israel,WE,Judea and Samaria Area,3599,Mehola,,,IL,ISR,2
+IL_WE_3601,Q2777789,,IL,Israel,WE,Judea and Samaria Area,3601,Kalya,,,IL,ISR,2
+IL_WE_3602,Q2916614,,IL,Israel,WE,Judea and Samaria Area,3602,Rosh Tzurim,,,IL,ISR,2
+IL_WE_3603,Q1120621,,IL,Israel,WE,Judea and Samaria Area,3603,Har Gilo,,,IL,ISR,2
+IL_WE_3604,Q2117476,,IL,Israel,WE,Judea and Samaria Area,3604,Alon Shvut,,,IL,ISR,2
+IL_WE_3605,Q2889038,,IL,Israel,WE,Judea and Samaria Area,3605,Masua,,,IL,ISR,2
+IL_WE_3606,Q2888816,,IL,Israel,WE,Judea and Samaria Area,3606,Gilgal,,,IL,ISR,2
+IL_WE_3607,Q2888917,,IL,Israel,WE,Judea and Samaria Area,3607,Yitav,,,IL,ISR,2
+IL_WE_3608,Q2918216,,IL,Israel,WE,Judea and Samaria Area,3608,Ma'ale Efrayim,,,IL,ISR,2
+IL_WE_3609,Q2916663,,IL,Israel,WE,Judea and Samaria Area,3609,"Hamra, Bik'at HaYarden",,,IL,ISR,2
+IL_WE_3610,Q2890805,,IL,Israel,WE,Judea and Samaria Area,3610,Mitzpe Shalem,,,IL,ISR,2
+IL_WE_3611,Q247003,,IL,Israel,WE,Judea and Samaria Area,3611,Kiryat Arba,,,IL,ISR,2
+IL_WE_3612,Q2888940,,IL,Israel,WE,Judea and Samaria Area,3612,Beka'ot,,,IL,ISR,2
+IL_WE_3613,Q2708346,,IL,Israel,WE,Judea and Samaria Area,3613,Gitit,,,IL,ISR,2
+IL_WE_3614,Q2888911,,IL,Israel,WE,Judea and Samaria Area,3614,Mekhora,,,IL,ISR,2
+IL_WE_3615,Q2888647,,IL,Israel,WE,Judea and Samaria Area,3615,Petza'el,,,IL,ISR,2
+IL_WE_3616,Q502272,,IL,Israel,WE,Judea and Samaria Area,3616,Ma'ale Adumim,,,IL,ISR,2
+IL_WE_3617,Q2597135,,IL,Israel,WE,Judea and Samaria Area,3617,Ofra,,,IL,ISR,2
+IL_WE_3618,Q1325037,,IL,Israel,WE,Judea and Samaria Area,3618,Elazar,,,IL,ISR,2
+IL_WE_3619,Q2888807,,IL,Israel,WE,Judea and Samaria Area,3619,Ro'i,,,IL,ISR,2
+IL_WE_3620,Q2889475,,IL,Israel,WE,Judea and Samaria Area,3620,Niran,,,IL,ISR,2
+IL_WE_3637,Q2777955,,IL,Israel,WE,Judea and Samaria Area,3637,Ma'ale Shomron,,,IL,ISR,2
+IL_WE_3638,Q1629873,,IL,Israel,WE,Judea and Samaria Area,3638,Kfar Adumim,,,IL,ISR,2
+IL_WE_3639,Q2890872,,IL,Israel,WE,Judea and Samaria Area,3639,Vered Yeriho,,,IL,ISR,2
+IL_WE_3640,Q2916342,,IL,Israel,WE,Judea and Samaria Area,3640,Karnei Shomron,,,IL,ISR,2
+IL_WE_3641,Q325510,,IL,Israel,WE,Judea and Samaria Area,3641,Shilo,,,IL,ISR,2
+IL_WE_3643,Q2777981,,IL,Israel,WE,Judea and Samaria Area,3643,Hinanit,,,IL,ISR,2
+IL_WE_3644,Q2777945,,IL,Israel,WE,Judea and Samaria Area,3644,Giv'on HaHadasha,,,IL,ISR,2
+IL_WE_3645,Q2777198,,IL,Israel,WE,Judea and Samaria Area,3645,Beit HaArava,,,IL,ISR,2
+IL_WE_3646,Q2888849,,IL,Israel,WE,Judea and Samaria Area,3646,Hemdat,,,IL,ISR,2
+IL_WE_3647,Q2777666,,IL,Israel,WE,Judea and Samaria Area,3647,Yakir,,,IL,ISR,2
+IL_WE_3648,Q2776800,,IL,Israel,WE,Judea and Samaria Area,3648,"Matityahu, Mateh Binyamin",,,IL,ISR,2
+IL_WE_3649,Q2889286,,IL,Israel,WE,Judea and Samaria Area,3649,Shaked,,,IL,ISR,2
+IL_WE_3650,Q64053,,IL,Israel,WE,Judea and Samaria Area,3650,Efrat,,,IL,ISR,2
+IL_WE_3651,Q325924,,IL,Israel,WE,Judea and Samaria Area,3651,Ma'ale Mikhmas,,,IL,ISR,2
+IL_WE_3652,Q368883,,IL,Israel,WE,Judea and Samaria Area,3652,Beit Aryeh-Ofarim,,,IL,ISR,2
+IL_WE_3653,Q1882276,,IL,Israel,WE,Judea and Samaria Area,3653,Ma'ale Amos,,,IL,ISR,2
+IL_WE_3654,Q2558902,,IL,Israel,WE,Judea and Samaria Area,3654,Barkan,,,IL,ISR,2
+IL_WE_3655,Q2777446,,IL,Israel,WE,Judea and Samaria Area,3655,"Nili, Mateh Binyamin",,,IL,ISR,2
+IL_WE_3656,Q1434029,,IL,Israel,WE,Judea and Samaria Area,3656,"Carmel, Har Hebron",,,IL,ISR,2
+IL_WE_3657,Q2888952,,IL,Israel,WE,Judea and Samaria Area,3657,"Ma'on, Har Hebron",,,IL,ISR,2
+IL_WE_3658,Q2504200,,IL,Israel,WE,Judea and Samaria Area,3658,Ateret,,,IL,ISR,2
+IL_WE_3659,Q325708,,IL,Israel,WE,Judea and Samaria Area,3659,Psagot,,,IL,ISR,2
+IL_WE_3660,Q2915143,,IL,Israel,WE,Judea and Samaria Area,3660,Immanuel,,,IL,ISR,2
+IL_WE_3709,Q2708817,,IL,Israel,WE,Judea and Samaria Area,3709,Mevo Horon,,,IL,ISR,2
+IL_WE_3710,Q2889503,,IL,Israel,WE,Judea and Samaria Area,3710,Har Brakha,,,IL,ISR,2
+IL_WE_3712,Q325928,,IL,Israel,WE,Judea and Samaria Area,3712,Einav,,,IL,ISR,2
+IL_WE_3713,Q2888768,,IL,Israel,WE,Judea and Samaria Area,3713,Na'amah,,,IL,ISR,2
+IL_WE_3715,Q2845667,,IL,Israel,WE,Judea and Samaria Area,3715,Almon,,,IL,ISR,2
+IL_WE_3717,Q2777691,,IL,Israel,WE,Judea and Samaria Area,3717,Hermesh,,,IL,ISR,2
+IL_WE_3719,Q2888871,,IL,Israel,WE,Judea and Samaria Area,3719,"Telem, Har Hebron",,,IL,ISR,2
+IL_WE_3720,Q2777977,,IL,Israel,WE,Judea and Samaria Area,3720,Sha'arei Tikva,,,IL,ISR,2
+IL_WE_3722,Q2889238,,IL,Israel,WE,Judea and Samaria Area,3722,Eshkolot,,,IL,ISR,2
+IL_WE_3723,Q2889082,,IL,Israel,WE,Judea and Samaria Area,3723,Ma'ale Hever,,,IL,ISR,2
+IL_WE_3724,Q2888605,,IL,Israel,WE,Judea and Samaria Area,3724,Negohot,,,IL,ISR,2
+IL_WE_3725,Q2915548,,IL,Israel,WE,Judea and Samaria Area,3725,Neve Daniel,,,IL,ISR,2
+IL_WE_3726,Q1661181,,IL,Israel,WE,Judea and Samaria Area,3726,Nokdim,,,IL,ISR,2
+IL_WE_3727,Q2777705,,IL,Israel,WE,Judea and Samaria Area,3727,Alei Zahav,,,IL,ISR,2
+IL_WE_3730,Q2369607,,IL,Israel,WE,Judea and Samaria Area,3730,Giv'at Ze'ev,,,IL,ISR,2
+IL_WE_3743,Q246979,,IL,Israel,WE,Judea and Samaria Area,3743,Teneh Omarim,,,IL,ISR,2
+IL_WE_3744,Q2889484,,IL,Israel,WE,Judea and Samaria Area,3744,Brukhin,,,IL,ISR,2
+IL_WE_3745,Q2889474,,IL,Israel,WE,Judea and Samaria Area,3745,Beit Yatir,,,IL,ISR,2
+IL_WE_3746,Q2777925,,IL,Israel,WE,Judea and Samaria Area,3746,Kiryat Netafim,,,IL,ISR,2
+IL_WE_3747,Q2890625,,IL,Israel,WE,Judea and Samaria Area,3747,Dolev,,,IL,ISR,2
+IL_WE_3748,Q2889568,,IL,Israel,WE,Judea and Samaria Area,3748,Otniel,,,IL,ISR,2
+IL_WE_3749,Q325455,,IL,Israel,WE,Judea and Samaria Area,3749,Yitzhar,,,IL,ISR,2
+IL_WE_3750,Q1808579,,IL,Israel,WE,Judea and Samaria Area,3750,Alfei Menashe,,,IL,ISR,2
+IL_WE_3751,Q2777883,,IL,Israel,WE,Judea and Samaria Area,3751,Migdalim,,,IL,ISR,2
+IL_WE_3752,Q2777920,,IL,Israel,WE,Judea and Samaria Area,3752,Ma'ale Levona,,,IL,ISR,2
+IL_WE_3754,Q2916610,,IL,Israel,WE,Judea and Samaria Area,3754,Metzad,,,IL,ISR,2
+IL_WE_3756,Q20728762,,IL,Israel,WE,Judea and Samaria Area,3756,"Susya, Har Hebron",,,IL,ISR,2
+IL_WE_3759,Q2889094,,IL,Israel,WE,Judea and Samaria Area,3759,"Adora, Har Hebron",,,IL,ISR,2
+IL_WE_3760,Q2028267,,IL,Israel,WE,Judea and Samaria Area,3760,Oranit,,,IL,ISR,2
+IL_WE_3762,Q1675212,,IL,Israel,WE,Judea and Samaria Area,3762,Itamar,,,IL,ISR,2
+IL_WE_3763,Q2890575,,IL,Israel,WE,Judea and Samaria Area,3763,Geva Binyamin,,,IL,ISR,2
+IL_WE_3764,Q246986,,IL,Israel,WE,Judea and Samaria Area,3764,Beit Hagai,,,IL,ISR,2
+IL_WE_3765,Q1956376,,IL,Israel,WE,Judea and Samaria Area,3765,Eli,,,IL,ISR,2
+IL_WE_3766,Q370034,,IL,Israel,WE,Judea and Samaria Area,3766,Karmei Tzur,,,IL,ISR,2
+IL_WE_3767,Q20502294,,IL,Israel,WE,Judea and Samaria Area,3767,Nahliel,,,IL,ISR,2
+IL_WE_3768,Q2890011,,IL,Israel,WE,Judea and Samaria Area,3768,Peduel,,,IL,ISR,2
+IL_WE_3769,Q668897,,IL,Israel,WE,Judea and Samaria Area,3769,Har Adar,,,IL,ISR,2
+IL_WE_3770,Q2777697,,IL,Israel,WE,Judea and Samaria Area,3770,Hashmonaim,,,IL,ISR,2
+IL_WE_3777,Q2889134,,IL,Israel,WE,Judea and Samaria Area,3777,Sansana,,,IL,ISR,2
+IL_WE_3778,Q2777543,,IL,Israel,WE,Judea and Samaria Area,3778,Etz Efraim,,,IL,ISR,2
+IL_WE_3779,Q325882,,IL,Israel,WE,Judea and Samaria Area,3779,Kokhav Ya'akov,,,IL,ISR,2
+IL_WE_3780,Q152578,,IL,Israel,WE,Judea and Samaria Area,3780,Beitar Illit,,,IL,ISR,2
+IL_WE_3781,Q2915463,,IL,Israel,WE,Judea and Samaria Area,3781,"Kedar, Gush Etzion",,,IL,ISR,2
+IL_WE_3782,Q2888855,,IL,Israel,WE,Judea and Samaria Area,3782,"Rotem, Bik'at HaYarden",,,IL,ISR,2
+IL_WE_3784,Q246963,,IL,Israel,WE,Judea and Samaria Area,3784,Shim'a,,,IL,ISR,2
+IL_WE_3785,Q2917202,,IL,Israel,WE,Judea and Samaria Area,3785,Maskiot,,,IL,ISR,2
+IL_WE_3786,Q2776370,,IL,Israel,WE,Judea and Samaria Area,3786,Ovnat,,,IL,ISR,2
+IL_WE_3787,Q2776849,,IL,Israel,WE,Judea and Samaria Area,3787,Na'ale,,,IL,ISR,2
+IL_WE_3788,Q2612754,,IL,Israel,WE,Judea and Samaria Area,3788,Talmon,,,IL,ISR,2
+IL_WE_3790,Q2568520,,IL,Israel,WE,Judea and Samaria Area,3790,Nofim,,,IL,ISR,2
+IL_WE_3791,Q2776787,,IL,Israel,WE,Judea and Samaria Area,3791,Tzofim,,,IL,ISR,2
+IL_WE_3793,Q2889373,,IL,Israel,WE,Judea and Samaria Area,3793,Avnei Hefetz,,,IL,ISR,2
+IL_WE_3794,Q810683,,IL,Israel,WE,Judea and Samaria Area,3794,Bat Ayin,,,IL,ISR,2
+IL_WE_3795,Q2777973,,IL,Israel,WE,Judea and Samaria Area,3795,Revava,,,IL,ISR,2
+IL_WE_3796,Q2777753,,IL,Israel,WE,Judea and Samaria Area,3796,Kfar HaOranim,,,IL,ISR,2
+IL_WE_3797,Q168140,,IL,Israel,WE,Judea and Samaria Area,3797,Modi'in Illit,,,IL,ISR,2
+IL_WE_3822,Q2777712,,IL,Israel,WE,Judea and Samaria Area,3822,Rechelim,,,IL,ISR,2
+IL_WE_3823,Q28220814,,IL,Israel,WE,Judea and Samaria Area,3823,Ganei Modi'in,,,IL,ISR,2
+IL_WE_3824,,,IL,Israel,WE,Judea and Samaria Area,3824,עמיחי,,,IL,ISR,2
+IL_WE_3825,,,IL,Israel,WE,Judea and Samaria Area,3825,מבואות יריחו,,,IL,ISR,2
+IL_Z,Q189942,iso/IL-Z,IL,Israel,Z,Northern District,,,,,IL,ISR,1
+IL_Z_0026,Q525649,,IL,Israel,Z,Northern District,0026,Rosh Pinna,,,IL,ISR,2
+IL_Z_0029,Q2639602,,IL,Israel,Z,Northern District,0029,Yesud HaMa'ala,,,IL,ISR,2
+IL_Z_0035,Q2889745,,IL,Israel,Z,Northern District,0035,Gadot,,,IL,ISR,2
+IL_Z_0043,Q1011497,,IL,Israel,Z,Northern District,0043,Metula,,,IL,ISR,2
+IL_Z_0046,Q1676894,,IL,Israel,Z,Northern District,0046,Yavne'el,,,IL,ISR,2
+IL_Z_0047,Q1186956,,IL,Israel,Z,Northern District,0047,Kfar Tavor,,,IL,ISR,2
+IL_Z_0048,Q2917281,,IL,Israel,Z,Northern District,0048,Menahemia,,,IL,ISR,2
+IL_Z_0049,Q2916589,,IL,Israel,Z,Northern District,0049,Ilaniya,,,IL,ISR,2
+IL_Z_0057,Q2296107,,IL,Israel,Z,Northern District,0057,Kvutzat Kinneret,,,IL,ISR,2
+IL_Z_0058,Q2776808,,IL,Israel,Z,Northern District,0058,Mitzpa,,,IL,ISR,2
+IL_Z_0062,Q2371396,,IL,Israel,Z,Northern District,0062,Degania Alef,,,IL,ISR,2
+IL_Z_0063,Q2891213,,IL,Israel,Z,Northern District,0063,Kinneret,,,IL,ISR,2
+IL_Z_0065,Q2916182,,IL,Israel,Z,Northern District,0065,Migdal,,,IL,ISR,2
+IL_Z_0066,Q2920170,,IL,Israel,Z,Northern District,0066,Merhavia,,,IL,ISR,2
+IL_Z_0076,Q1487392,,IL,Israel,Z,Northern District,0076,Kfar Giladi,,,IL,ISR,2
+IL_Z_0077,Q567912,,IL,Israel,Z,Northern District,0077,Ayelet HaShahar,,,IL,ISR,2
+IL_Z_0079,Q1022506,,IL,Israel,Z,Northern District,0079,Degania Bet,,,IL,ISR,2
+IL_Z_0080,Q1724338,,IL,Israel,Z,Northern District,0080,Nahalal,,,IL,ISR,2
+IL_Z_0082,Q2889233,,IL,Israel,Z,Northern District,0082,Ein Harod,,,IL,ISR,2
+IL_Z_0084,Q2917286,,IL,Israel,Z,Northern District,0084,Tel Yosef,,,IL,ISR,2
+IL_Z_0085,Q2890846,,IL,Israel,Z,Northern District,0085,Kfar Yehezkel,,,IL,ISR,2
+IL_Z_0086,Q1000908,,IL,Israel,Z,Northern District,0086,Geva,,,IL,ISR,2
+IL_Z_0089,Q2777524,,IL,Israel,Z,Northern District,0089,Ein Harod,,,IL,ISR,2
+IL_Z_0090,Q546343,,IL,Israel,Z,Northern District,0090,Heftziba,,,IL,ISR,2
+IL_Z_0092,Q2776845,,IL,Israel,Z,Northern District,0092,Ginegar,,,IL,ISR,2
+IL_Z_0094,Q2479614,,IL,Israel,Z,Northern District,0094,Balfouria,,,IL,ISR,2
+IL_Z_0095,Q2900562,,IL,Israel,Z,Northern District,0095,Beit Alfa,,,IL,ISR,2
+IL_Z_0097,Q2920170,,IL,Israel,Z,Northern District,0097,Merhavia,,,IL,ISR,2
+IL_Z_0103,Q2916649,,IL,Israel,Z,Northern District,0103,Tel Adashim,,,IL,ISR,2
+IL_Z_0104,Q2889536,,IL,Israel,Z,Northern District,0104,Mizra,,,IL,ISR,2
+IL_Z_0106,Q2776886,,IL,Israel,Z,Northern District,0106,Kfar Gidon,,,IL,ISR,2
+IL_Z_0113,Q2777144,,IL,Israel,Z,Northern District,0113,Adirim,,,IL,ISR,2
+IL_Z_0122,Q2615322,,IL,Israel,Z,Northern District,0122,Ramat Yishai,,,IL,ISR,2
+IL_Z_0126,Q2776946,,IL,Israel,Z,Northern District,0126,Sarid,,,IL,ISR,2
+IL_Z_0130,Q1938721,,IL,Israel,Z,Northern District,0130,Mishmar HaEmek,,,IL,ISR,2
+IL_Z_0132,Q2777518,,IL,Israel,Z,Northern District,0132,Kfar Baruch,,,IL,ISR,2
+IL_Z_0133,Q941089,,IL,Israel,Z,Northern District,0133,Gvat,,,IL,ISR,2
+IL_Z_0134,Q1000900,,IL,Israel,Z,Northern District,0134,Yifat,,,IL,ISR,2
+IL_Z_0135,Q924984,,IL,Israel,Z,Northern District,0135,Ramat David,,,IL,ISR,2
+IL_Z_0140,Q2889616,,IL,Israel,Z,Northern District,0140,Kfar Yehoshua,,,IL,ISR,2
+IL_Z_0141,Q2777135,,IL,Israel,Z,Northern District,0141,Barak,,,IL,ISR,2
+IL_Z_0142,Q2917084,,IL,Israel,Z,Northern District,0142,Sde Ya'akov,,,IL,ISR,2
+IL_Z_0143,Q2573500,,IL,Israel,Z,Northern District,0143,Beit Zera,,,IL,ISR,2
+IL_Z_0145,Q2777346,,IL,Israel,Z,Northern District,0145,Gadish,,,IL,ISR,2
+IL_Z_0146,Q2776986,,IL,Israel,Z,Northern District,0146,Dvora,,,IL,ISR,2
+IL_Z_0164,Q2776892,,IL,Israel,Z,Northern District,0164,Mle'a,,,IL,ISR,2
+IL_Z_0165,Q2777339,,IL,Israel,Z,Northern District,0165,Nir Yafeh,,,IL,ISR,2
+IL_Z_0176,Q383280,,IL,Israel,Z,Northern District,0176,Afikim,,,IL,ISR,2
+IL_Z_0188,Q2888752,,IL,Israel,Z,Northern District,0188,Ashdot Ya'akov Meuhad,,,IL,ISR,2
+IL_Z_0192,Q2777455,,IL,Israel,Z,Northern District,0192,Kfar HaHoresh,,,IL,ISR,2
+IL_Z_0199,Q1853103,,IL,Israel,Z,Northern District,0199,Ashdot Ya'akov Ihud,,,IL,ISR,2
+IL_Z_0240,Q167582,,IL,Israel,Z,Northern District,0240,Yokneam Illit,,,IL,ISR,2
+IL_Z_0241,Q2890709,,IL,Israel,Z,Northern District,0241,Yokneam Moshava,,,IL,ISR,2
+IL_Z_0242,Q2890244,,IL,Israel,Z,Northern District,0242,Beit HaShita,,,IL,ISR,2
+IL_Z_0248,Q1269256,,IL,Israel,Z,Northern District,0248,Beit She'arim,,,IL,ISR,2
+IL_Z_0250,Q1000893,,IL,Israel,Z,Northern District,0250,HaZore'a,,,IL,ISR,2
+IL_Z_0253,Q2777781,,IL,Israel,Z,Northern District,0253,Hulata,,,IL,ISR,2
+IL_Z_0255,Q2916642,,IL,Israel,Z,Northern District,0255,Kfar Hittim,,,IL,ISR,2
+IL_Z_0256,Q943058,,IL,Israel,Z,Northern District,0256,Nir David,,,IL,ISR,2
+IL_Z_0259,Q2916809,,IL,Israel,Z,Northern District,0259,Sde Nahum,,,IL,ISR,2
+IL_Z_0262,Q1525069,,IL,Israel,Z,Northern District,0262,Ginosar,,,IL,ISR,2
+IL_Z_0263,Q2888546,,IL,Israel,Z,Northern District,0263,Masada,,,IL,ISR,2
+IL_Z_0264,Q731831,,IL,Israel,Z,Northern District,0264,Sha'ar HaGolan,,,IL,ISR,2
+IL_Z_0265,Q2888667,,IL,Israel,Z,Northern District,0265,Beit Yosef,,,IL,ISR,2
+IL_Z_0268,Q550025,,IL,Israel,Z,Northern District,0268,Tirat Zvi,,,IL,ISR,2
+IL_Z_0269,Q2776974,,IL,Israel,Z,Northern District,0269,Moledet,,,IL,ISR,2
+IL_Z_0270,Q2890213,,IL,Israel,Z,Northern District,0270,Ein HaShofet,,,IL,ISR,2
+IL_Z_0272,Q2916606,,IL,Israel,Z,Northern District,0272,Maoz Haim,,,IL,ISR,2
+IL_Z_0273,Q1339896,,IL,Israel,Z,Northern District,0273,Ein Gev,,,IL,ISR,2
+IL_Z_0280,Q2890402,,IL,Israel,Z,Northern District,0280,Hanita,,,IL,ISR,2
+IL_Z_0281,Q2916627,,IL,Israel,Z,Northern District,0281,Peki'in HaHadasha,,,IL,ISR,2
+IL_Z_0282,Q571191,,IL,Israel,Z,Northern District,0282,Shavei Tzion,,,IL,ISR,2
+IL_Z_0285,Q2670809,,IL,Israel,Z,Northern District,0285,Alonim,,,IL,ISR,2
+IL_Z_0289,Q2888729,,IL,Israel,Z,Northern District,0289,Ein HaMifratz,,,IL,ISR,2
+IL_Z_0292,Q2888623,,IL,Israel,Z,Northern District,0292,Sharona,,,IL,ISR,2
+IL_Z_0294,Q2890527,,IL,Israel,Z,Northern District,0294,Eilon,,,IL,ISR,2
+IL_Z_0295,Q591269,,IL,Israel,Z,Northern District,0295,Kfar Ruppin,,,IL,ISR,2
+IL_Z_0296,Q2888564,,IL,Israel,Z,Northern District,0296,Neve Eitan,,,IL,ISR,2
+IL_Z_0297,Q2890547,,IL,Israel,Z,Northern District,0297,Kfar Masaryk,,,IL,ISR,2
+IL_Z_0298,Q1399050,,IL,Israel,Z,Northern District,0298,Mesilot,,,IL,ISR,2
+IL_Z_0300,Q1000997,,IL,Israel,Z,Northern District,0300,Dalia,,,IL,ISR,2
+IL_Z_0302,Q545232,,IL,Israel,Z,Northern District,0302,Dafna,,,IL,ISR,2
+IL_Z_0303,Q991372,,IL,Israel,Z,Northern District,0303,Dan,,,IL,ISR,2
+IL_Z_0304,Q2889873,,IL,Israel,Z,Northern District,0304,Sde Eliyahu,,,IL,ISR,2
+IL_Z_0305,Q955960,,IL,Israel,Z,Northern District,0305,Gesher,,,IL,ISR,2
+IL_Z_0306,Q2888594,,IL,Israel,Z,Northern District,0306,Shadmot Dvora,,,IL,ISR,2
+IL_Z_0307,Q2889380,,IL,Israel,Z,Northern District,0307,HaZor'im,,,IL,ISR,2
+IL_Z_0308,Q2410542,,IL,Israel,Z,Northern District,0308,Mahanayim,,,IL,ISR,2
+IL_Z_0313,Q2916648,,IL,Israel,Z,Northern District,0313,Afek,,,IL,ISR,2
+IL_Z_0319,Q471949,,IL,Israel,Z,Northern District,0319,Amir,,,IL,ISR,2
+IL_Z_0322,Q2890411,,IL,Israel,Z,Northern District,0322,Beit Hillel,,,IL,ISR,2
+IL_Z_0324,Q2890054,,IL,Israel,Z,Northern District,0324,She'ar Yashuv,,,IL,ISR,2
+IL_Z_0325,Q2888757,,IL,Israel,Z,Northern District,0325,Matzuva,,,IL,ISR,2
+IL_Z_0329,Q2777785,,IL,Israel,Z,Northern District,0329,Sde Nehemia,,,IL,ISR,2
+IL_Z_0330,Q2839359,,IL,Israel,Z,Northern District,0330,Alumot,,,IL,ISR,2
+IL_Z_0335,Q1254405,,IL,Israel,Z,Northern District,0335,Ramat HaShofet,,,IL,ISR,2
+IL_Z_0339,Q2777775,,IL,Israel,Z,Northern District,0339,Ramat Tzvi,,,IL,ISR,2
+IL_Z_0343,Q510685,,IL,Israel,Z,Northern District,0343,Hamadia,,,IL,ISR,2
+IL_Z_0345,Q1001622,,IL,Israel,Z,Northern District,0345,Kfar Szold,,,IL,ISR,2
+IL_Z_0347,Q2890256,,IL,Israel,Z,Northern District,0347,Manara,,,IL,ISR,2
+IL_Z_0353,Q2777190,,IL,Israel,Z,Northern District,0353,Beit Zaid,,,IL,ISR,2
+IL_Z_0356,Q2890599,,IL,Israel,Z,Northern District,0356,HaGoshrim,,,IL,ISR,2
+IL_Z_0357,Q1019478,,IL,Israel,Z,Northern District,0357,Kfar Blum,,,IL,ISR,2
+IL_Z_0365,Q937128,,IL,Israel,Z,Northern District,0365,Beit Keshet,,,IL,ISR,2
+IL_Z_0366,Q2889024,,IL,Israel,Z,Northern District,0366,Shamir,,,IL,ISR,2
+IL_Z_0367,Q2777474,,IL,Israel,Z,Northern District,0367,Ein HaEmek,,,IL,ISR,2
+IL_Z_0368,Q2776820,,IL,Israel,Z,Northern District,0368,Birya,,,IL,ISR,2
+IL_Z_0369,Q1011531,,IL,Israel,Z,Northern District,0369,Gal'ed,,,IL,ISR,2
+IL_Z_0371,Q2890926,,IL,Israel,Z,Northern District,0371,Kadoorie Agricultural High School,,,IL,ISR,2
+IL_Z_0372,Q2888997,,IL,Israel,Z,Northern District,0372,Ramot Naftali,,,IL,ISR,2
+IL_Z_0374,Q135274,,IL,Israel,Z,Northern District,0374,Hukok,,,IL,ISR,2
+IL_Z_0376,Q2889411,,IL,Israel,Z,Northern District,0376,Evron,,,IL,ISR,2
+IL_Z_0378,Q2776880,,IL,Israel,Z,Northern District,0378,Misgav Am,,,IL,ISR,2
+IL_Z_0380,Q2776798,,IL,Israel,Z,Northern District,0380,Lahavot HaBashan,,,IL,ISR,2
+IL_Z_0383,Q2095906,,IL,Israel,Z,Northern District,0383,Ein HaNatziv,,,IL,ISR,2
+IL_Z_0385,Q2910412,,IL,Israel,Z,Northern District,0385,Ami'ad,,,IL,ISR,2
+IL_Z_0388,Q2776935,,IL,Israel,Z,Northern District,0388,Kfar Kisch,,,IL,ISR,2
+IL_Z_0390,Q2890435,,IL,Israel,Z,Northern District,0390,Regba,,,IL,ISR,2
+IL_Z_0407,Q2916751,,IL,Israel,Z,Northern District,0407,Dovrat,,,IL,ISR,2
+IL_Z_0408,Q2916678,,IL,Israel,Z,Northern District,0408,Neot Mordechai,,,IL,ISR,2
+IL_Z_0409,Q2889861,,IL,Israel,Z,Northern District,0409,Yehiam,,,IL,ISR,2
+IL_Z_0416,Q2889835,,IL,Israel,Z,Northern District,0416,Ma'ayan Baruch,,,IL,ISR,2
+IL_Z_0429,Q2839248,,IL,Israel,Z,Northern District,0429,Alonei Abba,,,IL,ISR,2
+IL_Z_0430,Q604557,,IL,Israel,Z,Northern District,0430,Bethlehem of Galilee,,,IL,ISR,2
+IL_Z_0431,Q2916525,,IL,Israel,Z,Northern District,0431,Dalton,,,IL,ISR,2
+IL_Z_0432,Q2888762,,IL,Israel,Z,Northern District,0432,Shomrat,,,IL,ISR,2
+IL_Z_0436,Q2916646,,IL,Israel,Z,Northern District,0436,Ein Dor,,,IL,ISR,2
+IL_Z_0437,Q1399102,,IL,Israel,Z,Northern District,0437,Reshafim,,,IL,ISR,2
+IL_Z_0439,Q1399108,,IL,Israel,Z,Northern District,0439,Shluhot,,,IL,ISR,2
+IL_Z_0442,Q2777170,,IL,Israel,Z,Northern District,0442,Gidona,,,IL,ISR,2
+IL_Z_0443,Q2115397,,IL,Israel,Z,Northern District,0443,Kfar HaNassi,,,IL,ISR,2
+IL_Z_0445,Q2152764,,IL,Israel,Z,Northern District,0445,Ramot Menashe,,,IL,ISR,2
+IL_Z_0452,Q2917058,,IL,Israel,Z,Northern District,0452,Yizre'el,,,IL,ISR,2
+IL_Z_0453,Q2777748,,IL,Israel,Z,Northern District,0453,Yiftah,,,IL,ISR,2
+IL_Z_0454,Q2888787,,IL,Israel,Z,Northern District,0454,Sa'ar,,,IL,ISR,2
+IL_Z_0457,Q2890799,,IL,Israel,Z,Northern District,0457,Gazit,,,IL,ISR,2
+IL_Z_0463,Q2890864,,IL,Israel,Z,Northern District,0463,Ga'aton,,,IL,ISR,2
+IL_Z_0473,Q2572624,,IL,Israel,Z,Northern District,0473,Abu Snan,,,IL,ISR,2
+IL_Z_0475,Q2917207,,IL,Israel,Z,Northern District,0475,Ed Dahi,,,IL,ISR,2
+IL_Z_0478,Q2915526,,IL,Israel,Z,Northern District,0478,Iksal,,,IL,ISR,2
+IL_Z_0480,Q814900,,IL,Israel,Z,Northern District,0480,Beit Jann,,,IL,ISR,2
+IL_Z_0481,Q930847,,IL,Israel,Z,Northern District,0481,Maghar,,,IL,ISR,2
+IL_Z_0482,Q2655774,,IL,Israel,Z,Northern District,0482,Bu'eine Nujeidat,,,IL,ISR,2
+IL_Z_0483,Q2890909,,IL,Israel,Z,Northern District,0483,Bi'ina,,,IL,ISR,2
+IL_Z_0485,Q2601777,,IL,Israel,Z,Northern District,0485,Julis,,,IL,ISR,2
+IL_Z_0487,Q1527236,,IL,Israel,Z,Northern District,0487,Jish,,,IL,ISR,2
+IL_Z_0489,Q2915531,,IL,Israel,Z,Northern District,0489,Daburiyya,,,IL,ISR,2
+IL_Z_0490,Q612599,,IL,Israel,Z,Northern District,0490,Deir al-Asad,,,IL,ISR,2
+IL_Z_0492,Q612483,,IL,Israel,Z,Northern District,0492,Deir Hanna,,,IL,ISR,2
+IL_Z_0496,Q2655024,,IL,Israel,Z,Northern District,0496,Hurfeish,,,IL,ISR,2
+IL_Z_0497,Q2916840,,IL,Israel,Z,Northern District,0497,Taibe,,,IL,ISR,2
+IL_Z_0498,Q2915766,,IL,Israel,Z,Northern District,0498,Tur'an,,,IL,ISR,2
+IL_Z_0499,Q2468131,,IL,Israel,Z,Northern District,0499,Yafa an-Naseriyye,,,IL,ISR,2
+IL_Z_0502,Q2640151,,IL,Israel,Z,Northern District,0502,Yarka,,,IL,ISR,2
+IL_Z_0504,Q1018884,,IL,Israel,Z,Northern District,0504,Kabul,,,IL,ISR,2
+IL_Z_0505,Q2604424,,IL,Israel,Z,Northern District,0505,"Kawkab Abu-Al-Hij, Hazafon",,,IL,ISR,2
+IL_Z_0507,Q2632879,,IL,Israel,Z,Northern District,0507,Kafr Yasif,,,IL,ISR,2
+IL_Z_0508,Q2576600,,IL,Israel,Z,Northern District,0508,Kfar Kama,,,IL,ISR,2
+IL_Z_0509,Q2633158,,IL,Israel,Z,Northern District,0509,Kafr Kanna,,,IL,ISR,2
+IL_Z_0510,Q2915534,,IL,Israel,Z,Northern District,0510,Kafr Manda,,,IL,ISR,2
+IL_Z_0511,Q2915756,,IL,Israel,Z,Northern District,0511,Ilut,,,IL,ISR,2
+IL_Z_0512,Q667103,,IL,Israel,Z,Northern District,0512,Kafr Misr,,,IL,ISR,2
+IL_Z_0516,Q2777868,,IL,Israel,Z,Northern District,0516,Shaghur,,,IL,ISR,2
+IL_Z_0517,Q2890424,,IL,Israel,Z,Northern District,0517,Mazra'a,,,IL,ISR,2
+IL_Z_0518,Q2917297,,IL,Israel,Z,Northern District,0518,Mi'ilya,,,IL,ISR,2
+IL_Z_0520,Q2915771,,IL,Israel,Z,Northern District,0520,Mashhad,,,IL,ISR,2
+IL_Z_0522,Q2390257,,IL,Israel,Z,Northern District,0522,Nahf,,,IL,ISR,2
+IL_Z_0523,Q934904,,IL,Israel,Z,Northern District,0523,Nein,,,IL,ISR,2
+IL_Z_0524,Q2916872,,IL,Israel,Z,Northern District,0524,Na'ura,,,IL,ISR,2
+IL_Z_0525,Q732433,,IL,Israel,Z,Northern District,0525,Sajur,,,IL,ISR,2
+IL_Z_0526,Q2777713,,IL,Israel,Z,Northern District,0526,Sulam,,,IL,ISR,2
+IL_Z_0527,Q2776816,,IL,Israel,Z,Northern District,0527,Shezor,,,IL,ISR,2
+IL_Z_0528,Q2095241,,IL,Israel,Z,Northern District,0528,Uzeir,,,IL,ISR,2
+IL_Z_0529,Q2915647,,IL,Israel,Z,Northern District,0529,I'billin,,,IL,ISR,2
+IL_Z_0530,Q377111,,IL,Israel,Z,Northern District,0530,Eilabun,,,IL,ISR,2
+IL_Z_0531,Q2568887,,IL,Israel,Z,Northern District,0531,Arraba,,,IL,ISR,2
+IL_Z_0532,Q730195,,IL,Israel,Z,Northern District,0532,Ein Mahil,,,IL,ISR,2
+IL_Z_0535,Q2917294,,IL,Israel,Z,Northern District,0535,Fassuta,,,IL,ISR,2
+IL_Z_0536,Q2915001,,IL,Israel,Z,Northern District,0536,Peki'in,,,IL,ISR,2
+IL_Z_0538,Q2655669,,IL,Israel,Z,Northern District,0538,Sha'ab,,,IL,ISR,2
+IL_Z_0539,Q2547954,,IL,Israel,Z,Northern District,0539,Rumana,,,IL,ISR,2
+IL_Z_0540,Q2916856,,IL,Israel,Z,Northern District,0540,Rehaniya,,,IL,ISR,2
+IL_Z_0542,Q2655682,,IL,Israel,Z,Northern District,0542,Reineh,,,IL,ISR,2
+IL_Z_0543,Q2915661,,IL,Israel,Z,Northern District,0543,Rameh,,,IL,ISR,2
+IL_Z_0546,Q2777320,,IL,Israel,Z,Northern District,0546,Ein al-Asad,,,IL,ISR,2
+IL_Z_0547,Q2777567,,IL,Israel,Z,Northern District,0547,"Tamra, Jezreel Valley",,,IL,ISR,2
+IL_Z_0559,Q2888735,,IL,Israel,Z,Northern District,0559,Bustan HaGalil,,,IL,ISR,2
+IL_Z_0570,Q2889429,,IL,Israel,Z,Northern District,0570,Me'ona,,,IL,ISR,2
+IL_Z_0572,Q598607,,IL,Israel,Z,Northern District,0572,Beit HaEmek,,,IL,ISR,2
+IL_Z_0574,Q2888533,,IL,Israel,Z,Northern District,0574,Gesher HaZiv,,,IL,ISR,2
+IL_Z_0575,Q2776997,,IL,Israel,Z,Northern District,0575,Yas'ur,,,IL,ISR,2
+IL_Z_0576,Q2339223,,IL,Israel,Z,Northern District,0576,Kabri,,,IL,ISR,2
+IL_Z_0578,Q2916550,,IL,Israel,Z,Northern District,0578,Sasa,,,IL,ISR,2
+IL_Z_0579,Q2915530,,IL,Israel,Z,Northern District,0579,Rosh HaNikra,,,IL,ISR,2
+IL_Z_0585,Q2888686,,IL,Israel,Z,Northern District,0585,Lavi,,,IL,ISR,2
+IL_Z_0586,Q951336,,IL,Israel,Z,Northern District,0586,Megiddo,,,IL,ISR,2
+IL_Z_0589,Q2889332,,IL,Israel,Z,Northern District,0589,Betzet,,,IL,ISR,2
+IL_Z_0590,Q2890030,,IL,Israel,Z,Northern District,0590,Neve Ur,,,IL,ISR,2
+IL_Z_0595,Q536383,,IL,Israel,Z,Northern District,0595,Lohamei HaGeta'ot,,,IL,ISR,2
+IL_Z_0596,Q2916807,,IL,Israel,Z,Northern District,0596,Malkia,,,IL,ISR,2
+IL_Z_0599,Q2777361,,IL,Israel,Z,Northern District,0599,Parod,,,IL,ISR,2
+IL_Z_0603,Q743064,,IL,Israel,Z,Northern District,0603,Elkosh,,,IL,ISR,2
+IL_Z_0605,Q1660243,,IL,Israel,Z,Northern District,0605,Kfar Shamai,,,IL,ISR,2
+IL_Z_0607,Q600912,,IL,Israel,Z,Northern District,0607,Meron,,,IL,ISR,2
+IL_Z_0609,Q2889089,,IL,Israel,Z,Northern District,0609,Kfar Hoshen,,,IL,ISR,2
+IL_Z_0613,Q2909379,,IL,Israel,Z,Northern District,0613,Tzippori,,,IL,ISR,2
+IL_Z_0614,Q2777365,,IL,Israel,Z,Northern District,0614,Shomera,,,IL,ISR,2
+IL_Z_0623,Q2916534,,IL,Israel,Z,Northern District,0623,Yir'on,,,IL,ISR,2
+IL_Z_0635,Q2777426,,IL,Israel,Z,Northern District,0635,Muqeible,,,IL,ISR,2
+IL_Z_0636,Q2916823,,IL,Israel,Z,Northern District,0636,Sandala,,,IL,ISR,2
+IL_Z_0658,Q135434,,IL,Israel,Z,Northern District,0658,Sheikh Danun,,,IL,ISR,2
+IL_Z_0662,Q2777447,,IL,Israel,Z,Northern District,0662,Hosen,,,IL,ISR,2
+IL_Z_0664,Q2777234,,IL,Israel,Z,Northern District,0664,Kerem Ben Zimra,,,IL,ISR,2
+IL_Z_0667,Q1011502,,IL,Israel,Z,Northern District,0667,Bar'am,,,IL,ISR,2
+IL_Z_0674,Q2889456,,IL,Israel,Z,Northern District,0674,Liman,,,IL,ISR,2
+IL_Z_0677,Q2889195,,IL,Israel,Z,Northern District,0677,HaSolelim,,,IL,ISR,2
+IL_Z_0678,Q2916656,,IL,Israel,Z,Northern District,0678,Ma'agan,,,IL,ISR,2
+IL_Z_0682,Q2916984,,IL,Israel,Z,Northern District,0682,Eliakim,,,IL,ISR,2
+IL_Z_0684,Q2891272,,IL,Israel,Z,Northern District,0684,HaYogev,,,IL,ISR,2
+IL_Z_0688,Q2777398,,IL,Israel,Z,Northern District,0688,Alma,,,IL,ISR,2
+IL_Z_0701,Q2889205,,IL,Israel,Z,Northern District,0701,Arbel,,,IL,ISR,2
+IL_Z_0702,Q2889225,,IL,Israel,Z,Northern District,0702,HaOn,,,IL,ISR,2
+IL_Z_0703,Q2890663,,IL,Israel,Z,Northern District,0703,Givat Oz,,,IL,ISR,2
+IL_Z_0708,Q2914984,,IL,Israel,Z,Northern District,0708,Amka,,,IL,ISR,2
+IL_Z_0712,Q2888694,,IL,Israel,Z,Northern District,0712,Ben Ami,,,IL,ISR,2
+IL_Z_0719,Q2916661,,IL,Israel,Z,Northern District,0719,Tel Katzir,,,IL,ISR,2
+IL_Z_0721,Q2776831,,IL,Israel,Z,Northern District,0721,Sde Ilan,,,IL,ISR,2
+IL_Z_0730,Q2777576,,IL,Israel,Z,Northern District,0730,Elifelet,,,IL,ISR,2
+IL_Z_0732,Q2889793,,IL,Israel,Z,Northern District,0732,Mishmar HaYarden,,,IL,ISR,2
+IL_Z_0755,Q2777420,,IL,Israel,Z,Northern District,0755,Goren,,,IL,ISR,2
+IL_Z_0774,Q2777597,,IL,Israel,Z,Northern District,0774,Tzuriel,,,IL,ISR,2
+IL_Z_0785,Q2890231,,IL,Israel,Z,Northern District,0785,Ahihud,,,IL,ISR,2
+IL_Z_0786,Q2777305,,IL,Israel,Z,Northern District,0786,Kfar Zeitim,,,IL,ISR,2
+IL_Z_0792,Q2888588,,IL,Israel,Z,Northern District,0792,Netiv HaShayara,,,IL,ISR,2
+IL_Z_0795,Q2777942,,IL,Israel,Z,Northern District,0795,Ya'ara,,,IL,ISR,2
+IL_Z_0812,Q135421,,IL,Israel,Z,Northern District,0812,Shlomi,,,IL,ISR,2
+IL_Z_0813,Q2777566,,IL,Israel,Z,Northern District,0813,Ein Ya'akov,,,IL,ISR,2
+IL_Z_0833,Q2910776,,IL,Israel,Z,Northern District,0833,Nurit,,,IL,ISR,2
+IL_Z_0843,Q2916868,,IL,Israel,Z,Northern District,0843,Margaliot,,,IL,ISR,2
+IL_Z_0846,Q2776819,,IL,Israel,Z,Northern District,0846,Shefer,,,IL,ISR,2
+IL_Z_0852,Q2777378,,IL,Israel,Z,Northern District,0852,Gonen,,,IL,ISR,2
+IL_Z_0854,Q2910973,,IL,Israel,Z,Northern District,0854,Rehov,,,IL,ISR,2
+IL_Z_0861,Q2888982,,IL,Israel,Z,Northern District,0861,Sde Eliezer,,,IL,ISR,2
+IL_Z_0874,Q168337,,IL,Israel,Z,Northern District,0874,Migdal HaEmek,,,IL,ISR,2
+IL_Z_0892,Q2777403,,IL,Israel,Z,Northern District,0892,Avdon,,,IL,ISR,2
+IL_Z_0913,Q2601842,,IL,Israel,Z,Northern District,0913,Shibli-Umm al-Ghanam,,,IL,ISR,2
+IL_Z_0917,Q2889564,,IL,Israel,Z,Northern District,0917,Atzmon,,,IL,ISR,2
+IL_Z_0942,Q2777578,,IL,Israel,Z,Northern District,0942,Suweid Hamira,,,IL,ISR,2
+IL_Z_0944,Q2651477,,IL,Israel,Z,Northern District,0944,Basmat Tab'un,,,IL,ISR,2
+IL_Z_0948,Q6520876,,IL,Israel,Z,Northern District,0948,Hujairat,,,IL,ISR,2
+IL_Z_0962,Q1028203,,IL,Israel,Z,Northern District,0962,Tuba-Zangariyye,,,IL,ISR,2
+IL_Z_0975,Q2658228,,IL,Israel,Z,Northern District,0975,Zarzir,,,IL,ISR,2
+IL_Z_0978,Q2915770,,IL,Israel,Z,Northern District,0978,Ka'abiyye-Tabbash-Hajajre,,,IL,ISR,2
+IL_Z_0986,,,IL,Israel,Z,Northern District,0986,Khawaled,,,IL,ISR,2
+IL_Z_0989,,,IL,Israel,Z,Northern District,0989,Suweid Kamane,,,IL,ISR,2
+IL_Z_0993,Q2091217,,IL,Israel,Z,Northern District,0993,Hamaam,,,IL,ISR,2
+IL_Z_0994,Q2777766,,IL,Israel,Z,Northern District,0994,Manshiya Zabda,,,IL,ISR,2
+IL_Z_0997,Q2560260,,IL,Israel,Z,Northern District,0997,Rumat al-Heib,,,IL,ISR,2
+IL_Z_0998,Q2467031,,IL,Israel,Z,Northern District,0998,Bir al-Maksur,,,IL,ISR,2
+IL_Z_1045,Q935660,,IL,Israel,Z,Northern District,1045,Shtula,,,IL,ISR,2
+IL_Z_1047,Q673858,,IL,Israel,Z,Northern District,1047,Hazon,,,IL,ISR,2
+IL_Z_1061,Q167659,,IL,Israel,Z,Northern District,1061,Nof HaGalil,,,IL,ISR,2
+IL_Z_1063,Q152385,,IL,Israel,Z,Northern District,1063,Ma'alot-Tarshiha,,,IL,ISR,2
+IL_Z_1064,Q2413397,,IL,Israel,Z,Northern District,1064,Amirim,,,IL,ISR,2
+IL_Z_1067,Q2890147,,IL,Israel,Z,Northern District,1067,Dovev,,,IL,ISR,2
+IL_Z_1068,Q351620,,IL,Israel,Z,Northern District,1068,Adamit,,,IL,ISR,2
+IL_Z_1069,Q2916673,,IL,Israel,Z,Northern District,1069,Ram-On,,,IL,ISR,2
+IL_Z_1081,Q2889340,,IL,Israel,Z,Northern District,1081,Even Menachem,,,IL,ISR,2
+IL_Z_1104,Q2888704,,IL,Israel,Z,Northern District,1104,Poria ‚Äì Kfar Avoda,,,IL,ISR,2
+IL_Z_1105,Q2888780,,IL,Israel,Z,Northern District,1105,Poria ‚Äì Neve Oved,,,IL,ISR,2
+IL_Z_1108,Q2776828,,IL,Israel,Z,Northern District,1108,Merkaz Omen,,,IL,ISR,2
+IL_Z_1110,Q2777467,,IL,Israel,Z,Northern District,1110,Merkaz Hever,,,IL,ISR,2
+IL_Z_1112,Q1974434,,IL,Israel,Z,Northern District,1112,Yodfat,,,IL,ISR,2
+IL_Z_1115,Q2889493,,IL,Israel,Z,Northern District,1115,Avivim,,,IL,ISR,2
+IL_Z_1117,,,IL,Israel,Z,Northern District,1117,YA'EL,,,IL,ISR,2
+IL_Z_1125,Q774890,,IL,Israel,Z,Northern District,1125,Almagor,,,IL,ISR,2
+IL_Z_1127,Q2122843,,IL,Israel,Z,Northern District,1127,Ma'ale Gilboa,,,IL,ISR,2
+IL_Z_1130,Q148159,,IL,Israel,Z,Northern District,1130,Zar'it,,,IL,ISR,2
+IL_Z_1132,Q2777017,,IL,Israel,Z,Northern District,1132,Snir,,,IL,ISR,2
+IL_Z_1138,Q2890170,,IL,Israel,Z,Northern District,1138,Ya'ad,,,IL,ISR,2
+IL_Z_1139,Q152418,,IL,Israel,Z,Northern District,1139,Karmiel,,,IL,ISR,2
+IL_Z_1143,Q645864,,IL,Israel,Z,Northern District,1143,Nes Ammim,,,IL,ISR,2
+IL_Z_1147,Q2777492,,IL,Israel,Z,Northern District,1147,Netu'a,,,IL,ISR,2
+IL_Z_1153,Q2890284,,IL,Israel,Z,Northern District,1153,Kishor,,,IL,ISR,2
+IL_Z_1154,Q2776796,,IL,Israel,Z,Northern District,1154,Malkishua,,,IL,ISR,2
+IL_Z_1155,Q2777347,,IL,Israel,Z,Northern District,1155,Magen Shaul,,,IL,ISR,2
+IL_Z_1160,Q2890298,,IL,Israel,Z,Northern District,1160,Shekhanya,,,IL,ISR,2
+IL_Z_1162,Q2889847,,IL,Israel,Z,Northern District,1162,Beit Rimon,,,IL,ISR,2
+IL_Z_1163,Q2890825,,IL,Israel,Z,Northern District,1163,Moran,,,IL,ISR,2
+IL_Z_1171,Q2889414,,IL,Israel,Z,Northern District,1171,Lotem,,,IL,ISR,2
+IL_Z_1172,Q2890219,,IL,Israel,Z,Northern District,1172,Tuval,,,IL,ISR,2
+IL_Z_1173,Q2777727,,IL,Israel,Z,Northern District,1173,Lapidot,,,IL,ISR,2
+IL_Z_1174,Q2890618,,IL,Israel,Z,Northern District,1174,Manof,,,IL,ISR,2
+IL_Z_1178,Q2889588,,IL,Israel,Z,Northern District,1178,Moreshet,,,IL,ISR,2
+IL_Z_1179,Q2889888,,IL,Israel,Z,Northern District,1179,Koranit,,,IL,ISR,2
+IL_Z_1180,Q2890491,,IL,Israel,Z,Northern District,1180,Ma'ale Tzviya,,,IL,ISR,2
+IL_Z_1181,Q2890123,,IL,Israel,Z,Northern District,1181,Tal El,,,IL,ISR,2
+IL_Z_1182,Q2776865,,IL,Israel,Z,Northern District,1182,Alon HaGalil,,,IL,ISR,2
+IL_Z_1183,Q2888616,,IL,Israel,Z,Northern District,1183,Klil,,,IL,ISR,2
+IL_Z_1184,Q659971,,IL,Israel,Z,Northern District,1184,Mattat,,,IL,ISR,2
+IL_Z_1185,Q2890374,,IL,Israel,Z,Northern District,1185,Pelekh,,,IL,ISR,2
+IL_Z_1186,Q2890269,,IL,Israel,Z,Northern District,1186,Hoshaya,,,IL,ISR,2
+IL_Z_1188,Q2889927,,IL,Israel,Z,Northern District,1188,Eshhar,,,IL,ISR,2
+IL_Z_1190,Q643380,,IL,Israel,Z,Northern District,1190,Mitzpe Netofa,,,IL,ISR,2
+IL_Z_1191,Q2777183,,IL,Israel,Z,Northern District,1191,Bar Yohai,,,IL,ISR,2
+IL_Z_1199,Q2776320,,IL,Israel,Z,Northern District,1199,Adi,,,IL,ISR,2
+IL_Z_1201,Q2889604,,IL,Israel,Z,Northern District,1201,Kamon,,,IL,ISR,2
+IL_Z_1202,Q772632,,IL,Israel,Z,Northern District,1202,Mikhmanim,,,IL,ISR,2
+IL_Z_1203,Q2910744,,IL,Israel,Z,Northern District,1203,Hararit,,,IL,ISR,2
+IL_Z_1204,Q2890311,,IL,Israel,Z,Northern District,1204,Gilon,,,IL,ISR,2
+IL_Z_1205,Q2777738,,IL,Israel,Z,Northern District,1205,Manot,,,IL,ISR,2
+IL_Z_1206,Q2776838,,IL,Israel,Z,Northern District,1206,Gita,,,IL,ISR,2
+IL_Z_1207,Q2890592,,IL,Israel,Z,Northern District,1207,Lavon,,,IL,ISR,2
+IL_Z_1208,Q2378354,,IL,Israel,Z,Northern District,1208,Mitzpe Hila,,,IL,ISR,2
+IL_Z_1209,Q2890766,,IL,Israel,Z,Northern District,1209,Harashim,,,IL,ISR,2
+IL_Z_1210,Q2890717,,IL,Israel,Z,Northern District,1210,Kahal,,,IL,ISR,2
+IL_Z_1211,Q165623,,IL,Israel,Z,Northern District,1211,Kadarim,,,IL,ISR,2
+IL_Z_1212,Q2918000,,IL,Israel,Z,Northern District,1212,Amuka,,,IL,ISR,2
+IL_Z_1213,Q2777293,,IL,Israel,Z,Northern District,1213,Ziv'on,,,IL,ISR,2
+IL_Z_1214,Q2777731,,IL,Israel,Z,Northern District,1214,Tefahot,,,IL,ISR,2
+IL_Z_1219,Q2777126,,IL,Israel,Z,Northern District,1219,Gornot HaGalil,,,IL,ISR,2
+IL_Z_1220,Q973977,,IL,Israel,Z,Northern District,1220,Abirim,,,IL,ISR,2
+IL_Z_1221,Q939277,,IL,Israel,Z,Northern District,1221,Tzurit,,,IL,ISR,2
+IL_Z_1222,Q2776350,,IL,Israel,Z,Northern District,1222,Mitzpe Aviv,,,IL,ISR,2
+IL_Z_1225,Q2889811,,IL,Israel,Z,Northern District,1225,Ravid,,,IL,ISR,2
+IL_Z_1226,Q2889900,,IL,Israel,Z,Northern District,1226,Yuvalim,,,IL,ISR,2
+IL_Z_1228,Q2890286,,IL,Israel,Z,Northern District,1228,Rakefet,,,IL,ISR,2
+IL_Z_1229,Q2777105,,IL,Israel,Z,Northern District,1229,Kalanit,,,IL,ISR,2
+IL_Z_1230,Q2777285,,IL,Israel,Z,Northern District,1230,Livnim,,,IL,ISR,2
+IL_Z_1235,Q2890354,,IL,Israel,Z,Northern District,1235,Shorashim,,,IL,ISR,2
+IL_Z_1244,Q2889401,,IL,Israel,Z,Northern District,1244,Timrat,,,IL,ISR,2
+IL_Z_1245,Q2910964,,IL,Israel,Z,Northern District,1245,Sallama,,,IL,ISR,2
+IL_Z_1246,Q2777159,,IL,Israel,Z,Northern District,1246,Arab al-Aramshe,,,IL,ISR,2
+IL_Z_1249,Q2916622,,IL,Israel,Z,Northern District,1249,Harduf,,,IL,ISR,2
+IL_Z_1252,Q2916644,,IL,Israel,Z,Northern District,1252,Chorazin,,,IL,ISR,2
+IL_Z_1253,Q2889113,,IL,Israel,Z,Northern District,1253,Amnun,,,IL,ISR,2
+IL_Z_1256,Q2891251,,IL,Israel,Z,Northern District,1256,Oshrat,,,IL,ISR,2
+IL_Z_1257,Q2777329,,IL,Israel,Z,Northern District,1257,Hanaton,,,IL,ISR,2
+IL_Z_1258,Q2777459,,IL,Israel,Z,Northern District,1258,Massad,,,IL,ISR,2
+IL_Z_1263,Q2915542,,IL,Israel,Z,Northern District,1263,Kfar Vradim,,,IL,ISR,2
+IL_Z_1272,Q2889976,,IL,Israel,Z,Northern District,1272,Har Halutz,,,IL,ISR,2
+IL_Z_1274,Q2777262,,IL,Israel,Z,Northern District,1274,Gan Ner,,,IL,ISR,2
+IL_Z_1275,Q2890163,,IL,Israel,Z,Northern District,1275,Avtalion,,,IL,ISR,2
+IL_Z_1276,Q2890174,,IL,Israel,Z,Northern District,1276,Eshbal,,,IL,ISR,2
+IL_Z_1282,Q1918793,,IL,Israel,Z,Northern District,1282,Meirav,,,IL,ISR,2
+IL_Z_1283,Q2776863,,IL,Israel,Z,Northern District,1283,Tel Te'omim,,,IL,ISR,2
+IL_Z_1285,Q2889712,,IL,Israel,Z,Northern District,1285,Karkom,,,IL,ISR,2
+IL_Z_1288,Q2890834,,IL,Israel,Z,Northern District,1288,Givat Ela,,,IL,ISR,2
+IL_Z_1292,Q613180,,IL,Israel,Z,Northern District,1292,Jadeidi-Makr,,,IL,ISR,2
+IL_Z_1293,Q2777301,,IL,Israel,Z,Northern District,1293,Giv'at Avni,,,IL,ISR,2
+IL_Z_1294,Q2919917,,IL,Israel,Z,Northern District,1294,Or HaGanuz,,,IL,ISR,2
+IL_Z_1295,Q2890238,,IL,Israel,Z,Northern District,1295,Yanuh-Jat,,,IL,ISR,2
+IL_Z_1296,Q2890184,,IL,Israel,Z,Northern District,1296,Kisra-Sumei,,,IL,ISR,2
+IL_Z_1297,Q2776817,,IL,Israel,Z,Northern District,1297,Kfar Hananya,,,IL,ISR,2
+IL_Z_1313,Q2916666,,IL,Israel,Z,Northern District,1313,Poria Illit,,,IL,ISR,2
+IL_Z_1314,Q2777411,,IL,Israel,Z,Northern District,1314,Neve Ziv,,,IL,ISR,2
+IL_Z_1317,Q2890247,,IL,Israel,Z,Northern District,1317,Dmeide,,,IL,ISR,2
+IL_Z_1322,Q2777055,,IL,Israel,Z,Northern District,1322,Hodayot,,,IL,ISR,2
+IL_Z_1330,Q2889941,,IL,Israel,Z,Northern District,1330,Ahuzat Barak,,,IL,ISR,2
+IL_Z_1331,Q2890455,,IL,Israel,Z,Northern District,1331,Kamanneh,,,IL,ISR,2
+IL_Z_1332,Q2910370,,IL,Israel,Z,Northern District,1332,Hussniyya,,,IL,ISR,2
+IL_Z_1334,Q655065,,IL,Israel,Z,Northern District,1334,Ras al-Ein,,,IL,ISR,2
+IL_Z_1335,Q2911461,,IL,Israel,Z,Northern District,1335,Arab al-Na'im,,,IL,ISR,2
+IL_Z_1337,Q2776755,,IL,Israel,Z,Northern District,1337,Shimshit,,,IL,ISR,2
+IL_Z_1338,Q6584252,,IL,Israel,Z,Northern District,1338,Kadita,,,IL,ISR,2
+IL_Z_1413,Q2629816,,IL,Israel,Z,Northern District,1413,Ramat David Airbase,,,IL,ISR,2
+IL_Z_1705,,,IL,Israel,Z,Northern District,1705,"מרכז כ""ח",,,IL,ISR,2
+IL_Z_1706,,,IL,Israel,Z,Northern District,1706,מפעלי גליל עליון,,,IL,ISR,2
+IL_Z_1707,,,IL,Israel,Z,Northern District,1707,תל חי (מכללה),,,IL,ISR,2
+IL_Z_1708,,,IL,Israel,Z,Northern District,1708,מרכז אזורי מרום הגליל,,,IL,ISR,2
+IL_Z_1709,,,IL,Israel,Z,Northern District,1709,דלתון,,,IL,ISR,2
+IL_Z_1711,,,IL,Israel,Z,Northern District,1711,מפעלי צמח,,,IL,ISR,2
+IL_Z_1712,Q722560,,IL,Israel,Z,Northern District,1712,Baruch Padeh Medical Center,,,IL,ISR,2
+IL_Z_1713,Q6537999,,IL,Israel,Z,Northern District,1713,Kadouri,,,IL,ISR,2
+IL_Z_1714,,,IL,Israel,Z,Northern District,1714,תעשיות גליל תחתון,,,IL,ISR,2
+IL_Z_1716,,,IL,Israel,Z,Northern District,1716,אילון תבור*,,,IL,ISR,2
+IL_Z_1717,,,IL,Israel,Z,Northern District,1717,מפעלי העמק (יזרעאל),,,IL,ISR,2
+IL_Z_1719,,,IL,Israel,Z,Northern District,1719,מפעלי שאן,,,IL,ISR,2
+IL_Z_1722,Q4292724,,IL,Israel,Z,Northern District,1722,The Tefen Tower,,,IL,ISR,2
+IL_Z_1723,,,IL,Israel,Z,Northern District,1723,מרכז אזורי משגב,,,IL,ISR,2
+IL_Z_1724,,,IL,Israel,Z,Northern District,1724,אזור תעסוקה משגב(תרדיון),,,IL,ISR,2
+IL_Z_1725,,,IL,Israel,Z,Northern District,1725,"בי""ס אזורי מקיף (אשר)",,,IL,ISR,2
+IL_Z_1726,,,IL,Israel,Z,Northern District,1726,אזור תעשייה אכזיב (מילואות),,,IL,ISR,2
+IL_Z_1727,,,IL,Israel,Z,Northern District,1727,אזור תעשייה נעמן (מילואות),,,IL,ISR,2
+IL_Z_1728,,,IL,Israel,Z,Northern District,1728,בר-לב,,,IL,ISR,2
+IL_Z_1805,,,IL,Israel,Z,Northern District,1805,"אזור כינרות מ""א 3",,,IL,ISR,2
+IL_Z_1806,,,IL,Israel,Z,Northern District,1806,"עמק חולה מ""א 1",,,IL,ISR,2
+IL_Z_1807,,,IL,Israel,Z,Northern District,1807,"עמק חולה מ""א 55",,,IL,ISR,2
+IL_Z_1808,,,IL,Israel,Z,Northern District,1808,"עמק חולה של""ש",,,IL,ISR,2
+IL_Z_1809,,,IL,Israel,Z,Northern District,1809,"גליל עליון מז מ""א 1",,,IL,ISR,2
+IL_Z_1810,,,IL,Israel,Z,Northern District,1810,"גליל עליון מז מ""א 55",,,IL,ISR,2
+IL_Z_1811,,,IL,Israel,Z,Northern District,1811,"גליל עליון מז מ""א 2",,,IL,ISR,2
+IL_Z_1812,,,IL,Israel,Z,Northern District,1812,"גליל עליון מז של""ש",,,IL,ISR,2
+IL_Z_1813,,,IL,Israel,Z,Northern District,1813,"אזור חצור מ""א 1",,,IL,ISR,2
+IL_Z_1814,,,IL,Israel,Z,Northern District,1814,"אזור חצור מ""א 55",,,IL,ISR,2
+IL_Z_1815,,,IL,Israel,Z,Northern District,1815,"אזור חצור של""ש",,,IL,ISR,2
+IL_Z_1816,,,IL,Israel,Z,Northern District,1816,"אזור כנרות מ""א 1",,,IL,ISR,2
+IL_Z_1817,,,IL,Israel,Z,Northern District,1817,"אזור כנרות מ""א 6",,,IL,ISR,2
+IL_Z_1818,,,IL,Israel,Z,Northern District,1818,"אזור כנרות של""ש",,,IL,ISR,2
+IL_Z_1819,,,IL,Israel,Z,Northern District,1819,"גליל תחתון מז מ""א 3",,,IL,ISR,2
+IL_Z_1820,,,IL,Israel,Z,Northern District,1820,"גליל תחתון מז מ""א 2",,,IL,ISR,2
+IL_Z_1821,,,IL,Israel,Z,Northern District,1821,"גליל תחתון מז מ""א 6",,,IL,ISR,2
+IL_Z_1822,,,IL,Israel,Z,Northern District,1822,"גליל תחתון מז של""ש",,,IL,ISR,2
+IL_Z_1823,,,IL,Israel,Z,Northern District,1823,הרי נצרת-תירען,,,IL,ISR,2
+IL_Z_1824,,,IL,Israel,Z,Northern District,1824,"עמק בית שאן מ""א 7",,,IL,ISR,2
+IL_Z_1825,,,IL,Israel,Z,Northern District,1825,"עמק בית שאן של""ש",,,IL,ISR,2
+IL_Z_1826,,,IL,Israel,Z,Northern District,1826,"עמק חרוד מ""א 8",,,IL,ISR,2
+IL_Z_1827,,,IL,Israel,Z,Northern District,1827,"עמק חרוד של""ש",,,IL,ISR,2
+IL_Z_1828,,,IL,Israel,Z,Northern District,1828,"רמת כוכב מ""א 7",,,IL,ISR,2
+IL_Z_1829,,,IL,Israel,Z,Northern District,1829,"רמת כוכב מ""א 8",,,IL,ISR,2
+IL_Z_1830,,,IL,Israel,Z,Northern District,1830,"רמת כוכב מ""א 9",,,IL,ISR,2
+IL_Z_1831,,,IL,Israel,Z,Northern District,1831,"רמת כוכב של""ש",,,IL,ISR,2
+IL_Z_1832,,,IL,Israel,Z,Northern District,1832,"עמק יזרעאל מ""א 8",,,IL,ISR,2
+IL_Z_1833,,,IL,Israel,Z,Northern District,1833,"עמק יזרעאל מ""א 9",,,IL,ISR,2
+IL_Z_1834,,,IL,Israel,Z,Northern District,1834,"עמק יזרעאל מ""א 13",,,IL,ISR,2
+IL_Z_1835,,,IL,Israel,Z,Northern District,1835,"אזור יקנעם מ""א 9",,,IL,ISR,2
+IL_Z_1836,,,IL,Israel,Z,Northern District,1836,"אזור יקנעם מ""א 13",,,IL,ISR,2
+IL_Z_1837,,,IL,Israel,Z,Northern District,1837,"רמת מנשה מ""א 13",,,IL,ISR,2
+IL_Z_1838,,,IL,Israel,Z,Northern District,1838,"רמת מנשה של""ש",,,IL,ISR,2
+IL_Z_1839,,,IL,Israel,Z,Northern District,1839,"הרי נצרת-תירען מ""א 9",,,IL,ISR,2
+IL_Z_1840,,,IL,Israel,Z,Northern District,1840,"אזור שפרעם מ""א 9",,,IL,ISR,2
+IL_Z_1841,,,IL,Israel,Z,Northern District,1841,"אזור שפרעם מ""א 56",,,IL,ISR,2
+IL_Z_1842,,,IL,Israel,Z,Northern District,1842,"אזור שפרעם של""ש",,,IL,ISR,2
+IL_Z_1843,,,IL,Israel,Z,Northern District,1843,"אזור כרמיאל מ""א 2",,,IL,ISR,2
+IL_Z_1844,,,IL,Israel,Z,Northern District,1844,"אזור כרמיאל מ""א 56",,,IL,ISR,2
+IL_Z_1845,,,IL,Israel,Z,Northern District,1845,"אזור כרמיאל של""ש",,,IL,ISR,2
+IL_Z_1846,,,IL,Israel,Z,Northern District,1846,"אזור יחיעם מ""א 4",,,IL,ISR,2
+IL_Z_1847,,,IL,Israel,Z,Northern District,1847,"אזור יחיעם מ""א 52",,,IL,ISR,2
+IL_Z_1848,,,IL,Israel,Z,Northern District,1848,"אזור יחיעם מ""א 2",,,IL,ISR,2
+IL_Z_1849,,,IL,Israel,Z,Northern District,1849,"אזור יחיעם מ""א 56",,,IL,ISR,2
+IL_Z_1850,,,IL,Israel,Z,Northern District,1850,"אזור יחיעם של""ש",,,IL,ISR,2
+IL_Z_1851,,,IL,Israel,Z,Northern District,1851,"אזור אילון מ""א 52",,,IL,ISR,2
+IL_Z_1852,,,IL,Israel,Z,Northern District,1852,"אזור אילון מ""א 4",,,IL,ISR,2
+IL_Z_1853,,,IL,Israel,Z,Northern District,1853,"אזור אילון של""ש",,,IL,ISR,2
+IL_Z_1854,,,IL,Israel,Z,Northern District,1854,"בקעת נטופה מ""א 56",,,IL,ISR,2
+IL_Z_1855,,,IL,Israel,Z,Northern District,1855,"אזור נהרייה מ""א 4",,,IL,ISR,2
+IL_Z_1856,,,IL,Israel,Z,Northern District,1856,"אזור נהרייה של""ש",,,IL,ISR,2
+IL_Z_1857,,,IL,Israel,Z,Northern District,1857,"אזור עכו מ""א 56",,,IL,ISR,2
+IL_Z_1858,,,IL,Israel,Z,Northern District,1858,"אזור עכו מ""א 4",,,IL,ISR,2
+IL_Z_1859,,,IL,Israel,Z,Northern District,1859,"אזור עכו של""ש",,,IL,ISR,2
+IL_Z_1861,,,IL,Israel,Z,Northern District,1861,"נחל תבור מ""א 8",,,IL,ISR,2
+IL_Z_1863,,,IL,Israel,Z,Northern District,1863,"יערות גבעת המורה מ""א 9",,,IL,ISR,2
+IL_Z_1865,,,IL,Israel,Z,Northern District,1865,"אזור תעשיה אכסאל מ""א 9",,,IL,ISR,2
+IL_Z_1883,,,IL,Israel,Z,Northern District,1883,"נחל יפתחאל מ""א 3",,,IL,ISR,2
+IL_Z_1884,,,IL,Israel,Z,Northern District,1884,"בקעת תירען מ""א 3",,,IL,ISR,2
+IL_Z_1960,,,IL,Israel,Z,Northern District,1960,"חרמון מ""א 71",,,IL,ISR,2
+IL_Z_1961,,,IL,Israel,Z,Northern District,1961,"פארק הירדן מ""א 6",,,IL,ISR,2
+IL_Z_1962,,,IL,Israel,Z,Northern District,1962,"גולן צפוני מ""א 71",,,IL,ISR,2
+IL_Z_1963,,,IL,Israel,Z,Northern District,1963,"גאון הירדן מ""א 3",,,IL,ISR,2
+IL_Z_1964,,,IL,Israel,Z,Northern District,1964,"גולן תיכון מ""א 71",,,IL,ISR,2
+IL_Z_1966,,,IL,Israel,Z,Northern District,1966,"גולן דרומי מ""א 71",,,IL,ISR,2
+IL_Z_2009,Q2890790,,IL,Israel,Z,Northern District,2009,Yuval,,,IL,ISR,2
+IL_Z_2016,Q2777535,,IL,Israel,Z,Northern District,2016,Revaya,,,IL,ISR,2
+IL_Z_2026,Q2777486,,IL,Israel,Z,Northern District,2026,Yardena,,,IL,ISR,2
+IL_Z_2029,Q2777479,,IL,Israel,Z,Northern District,2029,Midrakh Oz,,,IL,ISR,2
+IL_Z_2034,Q2588837,,IL,Israel,Z,Northern District,2034,Hatzor HaGlilit,,,IL,ISR,2
+IL_Z_2052,Q2889350,,IL,Israel,Z,Northern District,2052,Avital,,,IL,ISR,2
+IL_Z_2053,Q2777708,,IL,Israel,Z,Northern District,2053,Prazon,,,IL,ISR,2
+IL_Z_2054,Q2776832,,IL,Israel,Z,Northern District,2054,Meitav,,,IL,ISR,2
+IL_Z_2057,Q2890744,,IL,Israel,Z,Northern District,2057,Sdei Trumot,,,IL,ISR,2
+IL_Z_2063,Q2888945,,IL,Israel,Z,Northern District,2063,Dishon,,,IL,ISR,2
+IL_Z_2800,Q327413,,IL,Israel,Z,Northern District,2800,Kiryat Shmona,,,IL,ISR,2
+IL_Z_4001,Q2915523,,IL,Israel,Z,Northern District,4001,Buq'ata,,,IL,ISR,2
+IL_Z_4002,Q2909965,,IL,Israel,Z,Northern District,4002,Eli-ad,,,IL,ISR,2
+IL_Z_4003,Q2889939,,IL,Israel,Z,Northern District,4003,El Rom,,,IL,ISR,2
+IL_Z_4004,Q2890654,,IL,Israel,Z,Northern District,4004,Kfar Haruv,,,IL,ISR,2
+IL_Z_4005,Q2910942,,IL,Israel,Z,Northern District,4005,Haspin,,,IL,ISR,2
+IL_Z_4006,Q2889823,,IL,Israel,Z,Northern District,4006,"Keshet, Golan Heights",,,IL,ISR,2
+IL_Z_4007,Q2910012,,IL,Israel,Z,Northern District,4007,"Yonatan, Golan Heights",,,IL,ISR,2
+IL_Z_4008,Q2571864,,IL,Israel,Z,Northern District,4008,Ma'ale Gamla,,,IL,ISR,2
+IL_Z_4009,Q2909442,,IL,Israel,Z,Northern District,4009,Sha'al,,,IL,ISR,2
+IL_Z_4010,Q598371,,IL,Israel,Z,Northern District,4010,Odem,,,IL,ISR,2
+IL_Z_4011,Q2889675,,IL,Israel,Z,Northern District,4011,Avnei Eitan,,,IL,ISR,2
+IL_Z_4012,Q2893618,,IL,Israel,Z,Northern District,4012,Aniam,,,IL,ISR,2
+IL_Z_4013,Q2890206,,IL,Israel,Z,Northern District,4013,Ortal,,,IL,ISR,2
+IL_Z_4014,Q2909681,,IL,Israel,Z,Northern District,4014,Natur,,,IL,ISR,2
+IL_Z_4015,Q2909830,,IL,Israel,Z,Northern District,4015,Bnei Yehuda,,,IL,ISR,2
+IL_Z_4017,Q2889637,,IL,Israel,Z,Northern District,4017,Alonei HaBashan,,,IL,ISR,2
+IL_Z_4019,Q2890636,,IL,Israel,Z,Northern District,4019,Metzar,,,IL,ISR,2
+IL_Z_4021,Q2909809,,IL,Israel,Z,Northern District,4021,Givat Yoav,,,IL,ISR,2
+IL_Z_4022,Q2889908,,IL,Israel,Z,Northern District,4022,Geshur,,,IL,ISR,2
+IL_Z_4024,Q2909837,,IL,Israel,Z,Northern District,4024,Kela Alon,,,IL,ISR,2
+IL_Z_4025,Q2909478,,IL,Israel,Z,Northern District,4025,Kidmat Tzvi,,,IL,ISR,2
+IL_Z_4026,Q2907364,,IL,Israel,Z,Northern District,4026,Had Nes,,,IL,ISR,2
+IL_Z_4028,Q2909968,,IL,Israel,Z,Northern District,4028,Kanaf,,,IL,ISR,2
+IL_Z_4035,,,IL,Israel,Z,Northern District,4035,נמרוד,,,IL,ISR,2
+IL_Z_4100,Q1736959,,IL,Israel,Z,Northern District,4100,Katzrin,,,IL,ISR,2
+IL_Z_4101,Q985533,,IL,Israel,Z,Northern District,4101,Merom Golan,,,IL,ISR,2
+IL_Z_4201,Q670612,,IL,Israel,Z,Northern District,4201,Majdal Shams,,,IL,ISR,2
+IL_Z_4203,Q2655013,,IL,Israel,Z,Northern District,4203,Mas'ade,,,IL,ISR,2
+IL_Z_4204,Q2920302,,IL,Israel,Z,Northern District,4204,Mevo Hama,,,IL,ISR,2
+IL_Z_4301,Q285260,,IL,Israel,Z,Northern District,4301,Afik,,,IL,ISR,2
+IL_Z_4303,Q2975755,,IL,Israel,Z,Northern District,4303,Neve Ativ,,,IL,ISR,2
+IL_Z_4304,Q2890380,,IL,Israel,Z,Northern District,4304,"Nov, Golan Heights",,,IL,ISR,2
+IL_Z_4501,Q1261045,,IL,Israel,Z,Northern District,4501,Ghajar,,,IL,ISR,2
+IL_Z_4502,Q2917274,,IL,Israel,Z,Northern District,4502,Ein Qiniyye,,,IL,ISR,2
+IL_Z_4503,Q2909997,,IL,Israel,Z,Northern District,4503,Ein Zivan,,,IL,ISR,2
+IL_Z_4551,Q2909730,,IL,Israel,Z,Northern District,4551,Neot Golan,,,IL,ISR,2
+IL_Z_4701,Q2975875,,IL,Israel,Z,Northern District,4701,Ramat Magshimim,,,IL,ISR,2
+IL_Z_4702,Q2890325,,IL,Israel,Z,Northern District,4702,"Ramot, Golan Heights",,,IL,ISR,2
+IL_Z_6700,Q151920,,IL,Israel,Z,Northern District,6700,Tiberias,,,IL,ISR,2
+IL_Z_7300,Q430776,,IL,Israel,Z,Northern District,7300,Nazareth,,,IL,ISR,2
+IL_Z_7500,Q168330,,IL,Israel,Z,Northern District,7500,Sakhnin,,,IL,ISR,2
+IL_Z_7600,Q126084,,IL,Israel,Z,Northern District,7600,Acre,,,IL,ISR,2
+IL_Z_7700,Q152462,,IL,Israel,Z,Northern District,7700,Afula,,,IL,ISR,2
+IL_Z_8000,Q188336,,IL,Israel,Z,Northern District,8000,Safed,,,IL,ISR,2
+IL_Z_8800,Q990657,,IL,Israel,Z,Northern District,8800,Shfaram,,,IL,ISR,2
+IL_Z_8900,Q2777567,,IL,Israel,Z,Northern District,8900,Tamra,,,IL,ISR,2
+IL_Z_9100,Q167749,,IL,Israel,Z,Northern District,9100,Nahariya,,,IL,ISR,2
+IL_Z_9200,Q152368,,IL,Israel,Z,Northern District,9200,Beit She'an,,,IL,ISR,2
 IM,Q9676,country/IMN,IM,Isle of Man,,,,,,,IM,IMN,0
 IN,Q668,country/IND,IN,India,,,,,,,IN,IND,0
 IN_AN,Q40888,,IN,India,AN,Andaman and Nicobar Islands,,,,,IN,IND,1
