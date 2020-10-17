@@ -27,16 +27,16 @@ jobs:
       with:
         ref: main
 
-    - name: Set up Python 3.x
+    - name: Set up Python 3.8
       uses: actions/setup-python@v1
       with:
-        python-version: '3.x'
+        python-version: '3.8'
 
     - name: Install Python dependencies
       working-directory: src
       run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
 
     - name: Clone previous cache data
       run: |
