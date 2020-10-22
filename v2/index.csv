@@ -16437,7 +16437,39 @@ PE_UCA_0401,Q2058837,,PE,Peru,UCA,Ucayali,0401,Purus,,,PE,PER,2
 PF,Q30971,country/PYF,PF,French Polynesia,,,,,,,PF,PYF,0
 PG,Q691,country/PNG,PG,Papua New Guinea,,,,,,,PG,PNG,0
 PH,Q928,country/PHL,PH,Philippines,,,,,,,PH,PHL,0
-PH_00,Q13580,,PH,Philippines,00,Metro Manila,,,,,PH,PHL,1
+PH_00,Q13580,,PH,Philippines,00,National Capital Region,,,,,PH,PHL,1
+PH_00_133900,Q92159379,,PH,Philippines,00,National Capital Region,133900,Capital District,,,PH,PHL,2
+PH_00_133901,Q1287698,,PH,Philippines,00,National Capital Region,133901,Tondo,,,PH,PHL,2
+PH_00_133902,Q1903520,,PH,Philippines,00,National Capital Region,133902,Binondo,,,PH,PHL,2
+PH_00_133903,Q1075125,,PH,Philippines,00,National Capital Region,133903,Quiapo,,,PH,PHL,2
+PH_00_133904,Q7415008,,PH,Philippines,00,National Capital Region,133904,San Nicolas,,,PH,PHL,2
+PH_00_133905,Q3545567,,PH,Philippines,00,National Capital Region,133905,Santa Cruz,,,PH,PHL,2
+PH_00_133906,Q3545565,,PH,Philippines,00,National Capital Region,133906,Sampaloc,,,PH,PHL,2
+PH_00_133907,Q7414941,,PH,Philippines,00,National Capital Region,133907,San Miguel,,,PH,PHL,2
+PH_00_133908,Q1111831,,PH,Philippines,00,National Capital Region,133908,Ermita,,,PH,PHL,2
+PH_00_133909,Q772211,,PH,Philippines,00,National Capital Region,133909,Intramuros,,,PH,PHL,2
+PH_00_133910,Q3547032,,PH,Philippines,00,National Capital Region,133910,Malate,,,PH,PHL,2
+PH_00_133911,Q256494,,PH,Philippines,00,National Capital Region,133911,Paco,,,PH,PHL,2
+PH_00_133912,Q3547123,,PH,Philippines,00,National Capital Region,133912,Pandacan,,,PH,PHL,2
+PH_00_133913,Q21021064,,PH,Philippines,00,National Capital Region,133913,Port Area,,,PH,PHL,2
+PH_00_133914,Q7419141,,PH,Philippines,00,National Capital Region,133914,Santa Ana,,,PH,PHL,2
+PH_00_137401,Q9085,,PH,Philippines,00,National Capital Region,137401,Mandaluyong,,,PH,PHL,2
+PH_00_137402,Q17175,,PH,Philippines,00,National Capital Region,137402,Marikina,,,PH,PHL,2
+PH_00_137403,Q1624,,PH,Philippines,00,National Capital Region,137403,Pasig,,,PH,PHL,2
+PH_00_137404,Q1475,,PH,Philippines,00,National Capital Region,137404,Quezon,,,PH,PHL,2
+PH_00_137405,Q749283,,PH,Philippines,00,National Capital Region,137405,San Juan,,,PH,PHL,2
+PH_00_137501,Q1478,,PH,Philippines,00,National Capital Region,137501,Caloocan,,,PH,PHL,2
+PH_00_137502,Q8861,,PH,Philippines,00,National Capital Region,137502,Malabon,,,PH,PHL,2
+PH_00_137503,Q17179,,PH,Philippines,00,National Capital Region,137503,Navotas,,,PH,PHL,2
+PH_00_137504,Q1623,,PH,Philippines,00,National Capital Region,137504,Valenzuela,,,PH,PHL,2
+PH_00_137601,Q8854,,PH,Philippines,00,National Capital Region,137601,Las Piñas,,,PH,PHL,2
+PH_00_137602,Q1508,,PH,Philippines,00,National Capital Region,137602,Makati,,,PH,PHL,2
+PH_00_137603,Q17176,,PH,Philippines,00,National Capital Region,137603,Muntinlupa,,,PH,PHL,2
+PH_00_137604,Q17182,,PH,Philippines,00,National Capital Region,137604,Parañaque,,,PH,PHL,2
+PH_00_137605,Q17189,,PH,Philippines,00,National Capital Region,137605,Pasay,,,PH,PHL,2
+PH_00_137606,Q1017325,,PH,Philippines,00,National Capital Region,137606,Pateros,,,PH,PHL,2
+PH_00_137607,Q1643,,PH,Philippines,00,National Capital Region,137607,Taguig,,,PH,PHL,2
+PH_00_MNL,Q92159379,,PH,Philippines,00,National Capital Region,133900,Capital District,,,PH,PHL,30
 PH_01,Q12933,,PH,Philippines,01,Ilocos Region,,,,,PH,PHL,1
 PH_01_ILN,Q13813,,PH,Philippines,01,Ilocos Region,ILN,Ilocos Norte,,,PH,PHL,2
 PH_01_ILS,Q12741,,PH,Philippines,01,Ilocos Region,ILS,Ilocos Sur,,,PH,PHL,2
