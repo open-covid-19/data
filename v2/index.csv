@@ -6889,7 +6889,6 @@ CN_JL,Q45208,,CN,China,JL,Jilin,,,,,CN,CHN,1
 CN_JS,Q16963,,CN,China,JS,Jiangsu,,,,,CN,CHN,1
 CN_JX,Q57052,,CN,China,JX,Jiangxi,,,,,CN,CHN,1
 CN_LN,Q43934,,CN,China,LN,Liaoning,,,,,CN,CHN,1
-CN_MO,Q14773,country/MAC,CN,China,MO,Macau,,,,,CN,CHN,1
 CN_NM,Q41079,,CN,China,NM,Inner Mongolia,,,,,CN,CHN,1
 CN_NX,Q57448,,CN,China,NX,Ningxia,,,,,CN,CHN,1
 CN_QH,Q45833,,CN,China,QH,Qinghai,,,,,CN,CHN,1
@@ -11271,10 +11270,10 @@ IN_WB_MPE,,,IN,India,WB,West Bengal,MPE,Medinipur East,,,IN,IND,2
 IN_WB_MPN,,,IN,India,WB,West Bengal,MPN,Kalimpong,,,IN,IND,2
 IN_WB_MPW,,,IN,India,WB,West Bengal,MPW,Medinipur West,,,IN,IND,2
 IN_WB_MRS,,,IN,India,WB,West Bengal,MRS,Murshidabad,,,IN,IND,2
-IN_WB_N24,,,IN,India,WB,West Bengal,N24,24 Paraganas South,,,IN,IND,2
+IN_WB_N24,,,IN,India,WB,West Bengal,N24,24 Paraganas North,,,IN,IND,2
 IN_WB_NAD,,,IN,India,WB,West Bengal,NAD,Nadia,,,IN,IND,2
 IN_WB_PRL,,,IN,India,WB,West Bengal,PRL,Purulia,,,IN,IND,2
-IN_WB_S24,,,IN,India,WB,West Bengal,S24,24 Paraganas North,,,IN,IND,2
+IN_WB_S24,,,IN,India,WB,West Bengal,S24,24 Paraganas South,,,IN,IND,2
 IO,Q43448,country/IOT,IO,British Indian Ocean Territory,,,,,,,IO,IOT,0
 IQ,Q796,country/IRQ,IQ,Iraq,,,,,,,IQ,IRQ,0
 IQ_AN,Q187334,,IQ,Iraq,AN,Al Anbar,,,,,IQ,IRQ,1
@@ -16469,7 +16468,7 @@ PH_00_137604,Q17182,,PH,Philippines,00,National Capital Region,137604,Parañaque
 PH_00_137605,Q17189,,PH,Philippines,00,National Capital Region,137605,Pasay,,,PH,PHL,2
 PH_00_137606,Q1017325,,PH,Philippines,00,National Capital Region,137606,Pateros,,,PH,PHL,2
 PH_00_137607,Q1643,,PH,Philippines,00,National Capital Region,137607,Taguig,,,PH,PHL,2
-PH_00_MNL,Q92159379,,PH,Philippines,00,National Capital Region,133900,Capital District,,,PH,PHL,30
+PH_00_MNL,Q1461,,PH,Philippines,00,National Capital Region,,,MNL,City of Manila,PH,PHL,3
 PH_01,Q12933,,PH,Philippines,01,Ilocos Region,,,,,PH,PHL,1
 PH_01_ILN,Q13813,,PH,Philippines,01,Ilocos Region,ILN,Ilocos Norte,,,PH,PHL,2
 PH_01_ILS,Q12741,,PH,Philippines,01,Ilocos Region,ILS,Ilocos Sur,,,PH,PHL,2
