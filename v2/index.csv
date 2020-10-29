@@ -11474,6 +11474,53 @@ JP_45,Q130300,,JP,Japan,45,Miyazaki,,,,,JP,JPN,1
 JP_46,Q15701,,JP,Japan,46,Kagoshima,,,,,JP,JPN,1
 JP_47,Q766445,,JP,Japan,47,Okinawa,,,,,JP,JPN,1
 KE,Q114,country/KEN,KE,Kenya,,,,,,,KE,KEN,0
+KE_01,Q808201,,KE,Kenya,01,Baringo,,,,,KE,KEN,1
+KE_02,Q891952,,KE,Kenya,02,Bomet,,,,,KE,KEN,1
+KE_03,Q2928204,,KE,Kenya,03,Bungoma,,,,,KE,KEN,1
+KE_04,Q1017519,,KE,Kenya,04,Busia,,,,,KE,KEN,1
+KE_05,Q15216433,,KE,Kenya,05,Elgeyo-Marakwet,,,,,KE,KEN,1
+KE_06,Q1335242,,KE,Kenya,06,Embu,,,,,KE,KEN,1
+KE_07,Q1494292,,KE,Kenya,07,Garissa,,,,,KE,KEN,1
+KE_08,Q1625834,,KE,Kenya,08,Homa Bay,,,,,KE,KEN,1
+KE_09,Q1499046,,KE,Kenya,09,Isiolo,,,,,KE,KEN,1
+KE_10,Q285072,,KE,Kenya,10,Kajiado,,,,,KE,KEN,1
+KE_11,Q1721867,,KE,Kenya,11,Kakamega,,,,,KE,KEN,1
+KE_12,Q1739252,,KE,Kenya,12,Kericho,,,,,KE,KEN,1
+KE_13,Q2575594,,KE,Kenya,13,Kiambu,,,,,KE,KEN,1
+KE_14,Q1741307,,KE,Kenya,14,Kilifi,,,,,KE,KEN,1
+KE_15,Q2230311,,KE,Kenya,15,Kirinyaga,,,,,KE,KEN,1
+KE_16,Q1743730,,KE,Kenya,16,Kisii,,,,,KE,KEN,1
+KE_17,Q1743809,,KE,Kenya,17,Kisumu,,,,,KE,KEN,1
+KE_18,Q1722597,,KE,Kenya,18,Kitui,,,,,KE,KEN,1
+KE_19,Q952571,,KE,Kenya,19,Kwale,,,,,KE,KEN,1
+KE_20,Q1800699,,KE,Kenya,20,Laikipia,,,,,KE,KEN,1
+KE_21,Q1951652,,KE,Kenya,21,Lamu,,,,,KE,KEN,1
+KE_22,Q1882639,,KE,Kenya,22,Machakos,,,,,KE,KEN,1
+KE_23,Q473717,,KE,Kenya,23,Makueni,,,,,KE,KEN,1
+KE_24,Q1477874,,KE,Kenya,24,Mandera,,,,,KE,KEN,1
+KE_25,Q1323683,,KE,Kenya,25,Marsabit,,,,,KE,KEN,1
+KE_26,Q15045704,,KE,Kenya,26,Meru,,,,,KE,KEN,1
+KE_27,Q429955,,KE,Kenya,27,Migori,,,,,KE,KEN,1
+KE_28,Q1112885,,KE,Kenya,28,Mombasa,,,,,KE,KEN,1
+KE_29,Q1781723,,KE,Kenya,29,Murang'a,,,,,KE,KEN,1
+KE_30,Q3335223,,KE,Kenya,30,Nairobi City,,,,,KE,KEN,1
+KE_31,Q1852202,,KE,Kenya,31,Nakuru,,,,,KE,KEN,1
+KE_32,Q1964569,,KE,Kenya,32,Nandi,,,,,KE,KEN,1
+KE_33,Q1852220,,KE,Kenya,33,Narok,,,,,KE,KEN,1
+KE_34,Q1569613,,KE,Kenya,34,Nyamira,,,,,KE,KEN,1
+KE_35,Q1714352,,KE,Kenya,35,Nyandarua,,,,,KE,KEN,1
+KE_36,Q749665,,KE,Kenya,36,Nyeri,,,,,KE,KEN,1
+KE_37,Q2096419,,KE,Kenya,37,Samburu,,,,,KE,KEN,1
+KE_38,Q3482913,,KE,Kenya,38,Siaya,,,,,KE,KEN,1
+KE_39,Q7193788,,KE,Kenya,39,Taita-Taveta,,,,,KE,KEN,1
+KE_40,Q383150,,KE,Kenya,40,Tana River,,,,,KE,KEN,1
+KE_41,Q2189432,,KE,Kenya,41,Tharaka-Nithi,,,,,KE,KEN,1
+KE_42,Q1278653,,KE,Kenya,42,Trans Nzoia,,,,,KE,KEN,1
+KE_43,Q1633078,,KE,Kenya,43,Turkana,,,,,KE,KEN,1
+KE_44,Q1121429,,KE,Kenya,44,Uasin Gishu,,,,,KE,KEN,1
+KE_45,Q1313202,,KE,Kenya,45,Vihiga,,,,,KE,KEN,1
+KE_46,Q1852209,,KE,Kenya,46,Wajir,,,,,KE,KEN,1
+KE_47,Q590860,,KE,Kenya,47,West Pokot,,,,,KE,KEN,1
 KG,Q813,country/KGZ,KG,Kyrgyzstan,,,,,,,KG,KGZ,0
 KH,Q424,country/KHM,KH,Cambodia,,,,,,,KH,KHM,0
 KI,Q710,country/KIR,KI,Kiribati,,,,,,,KI,KIR,0
