@@ -5040,6 +5040,7 @@ BR_RS_431690,Q740833,,BR,Brazil,RS,Rio Grande do Sul,431690,Santa Maria,,,BR,BRA
 BR_RS_431695,Q379483,,BR,Brazil,RS,Rio Grande do Sul,431695,Santa Maria do Herval,,,BR,BRA,2
 BR_RS_431697,Q730999,,BR,Brazil,RS,Rio Grande do Sul,431697,Santa Margarida do Sul,,,BR,BRA,2
 BR_RS_431700,Q1749815,,BR,Brazil,RS,Rio Grande do Sul,431700,Santana da Boa Vista,,,BR,BRA,2
+BR_RS_431710,Q917693,,BR,Brazil,RS,Rio Grande do Sul,431710,Santana do Livramento,,,BR,BRA,2
 BR_RS_431720,Q995326,,BR,Brazil,RS,Rio Grande do Sul,431720,Santa Rosa,,,BR,BRA,2
 BR_RS_431725,Q1757691,,BR,Brazil,RS,Rio Grande do Sul,431725,Santa Tereza,,,BR,BRA,2
 BR_RS_431730,Q984562,,BR,Brazil,RS,Rio Grande do Sul,431730,Santa Vitória do Palmar,,,BR,BRA,2
@@ -10093,6 +10094,7 @@ IL_Z_0353,Q2777190,,IL,Israel,Z,Northern District,0353,Beit Zaid,,,IL,ISR,2
 IL_Z_0356,Q2890599,,IL,Israel,Z,Northern District,0356,HaGoshrim,,,IL,ISR,2
 IL_Z_0357,Q1019478,,IL,Israel,Z,Northern District,0357,Kfar Blum,,,IL,ISR,2
 IL_Z_0365,Q937128,,IL,Israel,Z,Northern District,0365,Beit Keshet,,,IL,ISR,2
+IL_Z_0366,Q2889024,,IL,Israel,Z,Northern District,0366,Shamir,,,IL,ISR,2
 IL_Z_0367,Q2777474,,IL,Israel,Z,Northern District,0367,Ein HaEmek,,,IL,ISR,2
 IL_Z_0368,Q2776820,,IL,Israel,Z,Northern District,0368,Birya,,,IL,ISR,2
 IL_Z_0369,Q1011531,,IL,Israel,Z,Northern District,0369,Gal'ed,,,IL,ISR,2
@@ -15163,6 +15165,7 @@ PE_CAJ_0202,Q5015923,,PE,Peru,CAJ,Cajamarca,0202,Cachachi,,,PE,PER,2
 PE_CAJ_0203,Q5159151,,PE,Peru,CAJ,Cajamarca,0203,Condebamba,,,PE,PER,2
 PE_CAJ_0204,Q6319565,,PE,Peru,CAJ,Cajamarca,0204,Sitacocha,,,PE,PER,2
 PE_CAJ_0301,Q5057809,,PE,Peru,CAJ,Cajamarca,0301,Celendín,,,PE,PER,2
+PE_CAJ_0302,Q5116195,,PE,Peru,CAJ,Cajamarca,0302,Chumuch,,,PE,PER,2
 PE_CAJ_0303,Q961628,,PE,Peru,CAJ,Cajamarca,0303,Cortegana,,,PE,PER,2
 PE_CAJ_0304,Q5926292,,PE,Peru,CAJ,Cajamarca,0304,Huasmin,,,PE,PER,2
 PE_CAJ_0305,Q6277837,,PE,Peru,CAJ,Cajamarca,0305,Jorge Chávez,,,PE,PER,2
@@ -20215,6 +20218,7 @@ UY_LA,Q460435,,UY,Uruguay,LA,Lavalleja Department,,,,,UY,URY,1
 UY_MA,Q331196,,UY,Uruguay,MA,Maldonado Department,,,,,UY,URY,1
 UY_MO,Q1335,,UY,Uruguay,MO,Montevideo Department,,,,,UY,URY,1
 UY_PA,Q16576,,UY,Uruguay,PA,Paysandú Department,,,,,UY,URY,1
+UY_RN,Q16596,,UY,Uruguay,RN,Río Negro Department,,,,,UY,URY,1
 UY_RO,Q16582,,UY,Uruguay,RO,Rocha Department,,,,,UY,URY,1
 UY_RV,Q16609,,UY,Uruguay,RV,Rivera Department,,,,,UY,URY,1
 UY_SA,Q16595,,UY,Uruguay,SA,Salto Department,,,,,UY,URY,1
