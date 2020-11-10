@@ -8368,6 +8368,1088 @@ ES_CN_SPC,Q201689,,ES,Spain,CN,Islas Canarias,,,SPC,La Palma,ES,ESP,3
 ES_CN_TFN,Q40846,,ES,Spain,CN,Islas Canarias,,,TFN,Tenerife,ES,ESP,3
 ES_CN_VDE,Q1036287,,ES,Spain,CN,Islas Canarias,,,VDE,El Hierro,ES,ESP,3
 ES_CT,Q5705,nuts/ES51,ES,Spain,CT,Cataluña,,,,,ES,ESP,1
+ES_CT_08001,Q15593,,ES,Spain,CT,Cataluña,08001,Abrera,,,ES,ESP,2
+ES_CT_08002,Q16675,,ES,Spain,CT,Cataluña,08002,Aguilar de Segarra,,,ES,ESP,2
+ES_CT_08003,Q12034,,ES,Spain,CT,Cataluña,08003,Alella,,,ES,ESP,2
+ES_CT_08004,Q13777,,ES,Spain,CT,Cataluña,08004,Alpens,,,ES,ESP,2
+ES_CT_08005,Q15397,,ES,Spain,CT,Cataluña,08005,L'Ametlla del Vallès,,,ES,ESP,2
+ES_CT_08006,Q12110,,ES,Spain,CT,Cataluña,08006,Arenys de Mar,,,ES,ESP,2
+ES_CT_08007,Q12101,,ES,Spain,CT,Cataluña,08007,Arenys de Munt,,,ES,ESP,2
+ES_CT_08008,Q15936,,ES,Spain,CT,Cataluña,08008,Argençola,,,ES,ESP,2
+ES_CT_08009,Q11539,,ES,Spain,CT,Cataluña,08009,Argentona,,,ES,ESP,2
+ES_CT_08010,Q16677,,ES,Spain,CT,Cataluña,08010,Artés,,,ES,ESP,2
+ES_CT_08011,Q15495,,ES,Spain,CT,Cataluña,08011,Avià,,,ES,ESP,2
+ES_CT_08012,Q16678,,ES,Spain,CT,Cataluña,08012,Avinyó,,,ES,ESP,2
+ES_CT_08013,Q791068,,ES,Spain,CT,Cataluña,08013,Avinyonet del Penedès,,,ES,ESP,2
+ES_CT_08014,Q15389,,ES,Spain,CT,Cataluña,08014,Aiguafreda,,,ES,ESP,2
+ES_CT_08015,Q15468,,ES,Spain,CT,Cataluña,08015,Badalona,,,ES,ESP,2
+ES_CT_08016,Q15486,,ES,Spain,CT,Cataluña,08016,Bagà,,,ES,ESP,2
+ES_CT_08017,Q13776,,ES,Spain,CT,Cataluña,08017,Balenyà,,,ES,ESP,2
+ES_CT_08018,Q16679,,ES,Spain,CT,Cataluña,08018,Balsareny,,,ES,ESP,2
+ES_CT_08019,Q1492,,ES,Spain,CT,Cataluña,08019,Barcelona,,,ES,ESP,2
+ES_CT_08020,Q15596,,ES,Spain,CT,Cataluña,08020,Begues,,,ES,ESP,2
+ES_CT_08021,Q15937,,ES,Spain,CT,Cataluña,08021,Bellprat,,,ES,ESP,2
+ES_CT_08022,Q15487,,ES,Spain,CT,Cataluña,08022,Berga,,,ES,ESP,2
+ES_CT_08023,Q15398,,ES,Spain,CT,Cataluña,08023,Bigues i Riells,,,ES,ESP,2
+ES_CT_08024,Q15488,,ES,Spain,CT,Cataluña,08024,Borredà,,,ES,ESP,2
+ES_CT_08025,Q15938,,ES,Spain,CT,Cataluña,08025,El Bruc,,,ES,ESP,2
+ES_CT_08026,Q13775,,ES,Spain,CT,Cataluña,08026,El Brull,,,ES,ESP,2
+ES_CT_08027,Q1228790,,ES,Spain,CT,Cataluña,08027,Les Cabanyes,,,ES,ESP,2
+ES_CT_08028,Q15939,,ES,Spain,CT,Cataluña,08028,Cabrera d'Anoia,,,ES,ESP,2
+ES_CT_08029,Q12824,,ES,Spain,CT,Cataluña,08029,Cabrera de Mar,,,ES,ESP,2
+ES_CT_08030,Q12083,,ES,Spain,CT,Cataluña,08030,Cabrils,,,ES,ESP,2
+ES_CT_08031,Q15940,,ES,Spain,CT,Cataluña,08031,Calaf,,,ES,ESP,2
+ES_CT_08032,Q12102,,ES,Spain,CT,Cataluña,08032,Caldes d'Estrac,,,ES,ESP,2
+ES_CT_08033,Q15400,,ES,Spain,CT,Cataluña,08033,Caldes de Montbui,,,ES,ESP,2
+ES_CT_08034,Q16680,,ES,Spain,CT,Cataluña,08034,Calders,,,ES,ESP,2
+ES_CT_08035,Q12540,,ES,Spain,CT,Cataluña,08035,Calella,,,ES,ESP,2
+ES_CT_08036,Q15941,,ES,Spain,CT,Cataluña,08036,Calonge de Segarra,,,ES,ESP,2
+ES_CT_08037,Q13774,,ES,Spain,CT,Cataluña,08037,Calldetenes,,,ES,ESP,2
+ES_CT_08038,Q16682,,ES,Spain,CT,Cataluña,08038,Callús,,,ES,ESP,2
+ES_CT_08039,Q15401,,ES,Spain,CT,Cataluña,08039,Campins,,,ES,ESP,2
+ES_CT_08040,Q12114,,ES,Spain,CT,Cataluña,08040,Canet de Mar,,,ES,ESP,2
+ES_CT_08041,Q15402,,ES,Spain,CT,Cataluña,08041,Canovelles,,,ES,ESP,2
+ES_CT_08042,Q15403,,ES,Spain,CT,Cataluña,08042,Cànoves i Samalús,,,ES,ESP,2
+ES_CT_08043,Q15559,,ES,Spain,CT,Cataluña,08043,Canyelles,,,ES,ESP,2
+ES_CT_08044,Q15942,,ES,Spain,CT,Cataluña,08044,Capellades,,,ES,ESP,2
+ES_CT_08045,Q15489,,ES,Spain,CT,Cataluña,08045,Capolat,,,ES,ESP,2
+ES_CT_08046,Q15406,,ES,Spain,CT,Cataluña,08046,Cardedeu,,,ES,ESP,2
+ES_CT_08047,Q16683,,ES,Spain,CT,Cataluña,08047,Cardona,,,ES,ESP,2
+ES_CT_08048,Q15943,,ES,Spain,CT,Cataluña,08048,"Carme, Barcelona",,,ES,ESP,2
+ES_CT_08049,Q15491,,ES,Spain,CT,Cataluña,08049,Casserres,,,ES,ESP,2
+ES_CT_08050,Q15494,,ES,Spain,CT,Cataluña,08050,Castellar del Riu,,,ES,ESP,2
+ES_CT_08051,Q13918,,ES,Spain,CT,Cataluña,08051,Castellar del Vallès,,,ES,ESP,2
+ES_CT_08052,Q15493,,ES,Spain,CT,Cataluña,08052,Castellar de n'Hug,,,ES,ESP,2
+ES_CT_08053,Q16684,,ES,Spain,CT,Cataluña,08053,Castellbell i el Vilar,,,ES,ESP,2
+ES_CT_08054,Q13921,,ES,Spain,CT,Cataluña,08054,Castellbisbal,,,ES,ESP,2
+ES_CT_08055,Q15407,,ES,Spain,CT,Cataluña,08055,Castellcir,,,ES,ESP,2
+ES_CT_08056,Q15597,,ES,Spain,CT,Cataluña,08056,Castelldefels,,,ES,ESP,2
+ES_CT_08057,Q15492,,ES,Spain,CT,Cataluña,08057,Castell de l'Areny,,,ES,ESP,2
+ES_CT_08058,Q1228799,,ES,Spain,CT,Cataluña,08058,Castellet i la Gornal,,,ES,ESP,2
+ES_CT_08059,Q16685,,ES,Spain,CT,Cataluña,08059,Castellfollit del Boix,,,ES,ESP,2
+ES_CT_08060,Q15945,,ES,Spain,CT,Cataluña,08060,Castellfollit de Riubregós,,,ES,ESP,2
+ES_CT_08061,Q16686,,ES,Spain,CT,Cataluña,08061,Castellgalí,,,ES,ESP,2
+ES_CT_08062,Q16687,,ES,Spain,CT,Cataluña,08062,Castellnou de Bages,,,ES,ESP,2
+ES_CT_08063,Q15946,,ES,Spain,CT,Cataluña,08063,Castellolí,,,ES,ESP,2
+ES_CT_08064,Q15408,,ES,Spain,CT,Cataluña,08064,Castellterçol,,,ES,ESP,2
+ES_CT_08065,Q765591,,ES,Spain,CT,Cataluña,08065,Castellví de la Marca,,,ES,ESP,2
+ES_CT_08066,Q15598,,ES,Spain,CT,Cataluña,08066,Castellví de Rosanes,,,ES,ESP,2
+ES_CT_08067,Q13773,,ES,Spain,CT,Cataluña,08067,Centelles,,,ES,ESP,2
+ES_CT_08068,Q15599,,ES,Spain,CT,Cataluña,08068,Cervelló,,,ES,ESP,2
+ES_CT_08069,Q15600,,ES,Spain,CT,Cataluña,08069,Collbató,,,ES,ESP,2
+ES_CT_08070,Q13779,,ES,Spain,CT,Cataluña,08070,Collsuspina,,,ES,ESP,2
+ES_CT_08071,Q15947,,ES,Spain,CT,Cataluña,08071,Copons,,,ES,ESP,2
+ES_CT_08072,Q15601,,ES,Spain,CT,Cataluña,08072,Corbera de Llobregat,,,ES,ESP,2
+ES_CT_08073,Q15602,,ES,Spain,CT,Cataluña,08073,Cornellà de Llobregat,,,ES,ESP,2
+ES_CT_08074,Q15558,,ES,Spain,CT,Cataluña,08074,Cubelles,,,ES,ESP,2
+ES_CT_08075,Q11968,,ES,Spain,CT,Cataluña,08075,Dosrius,,,ES,ESP,2
+ES_CT_08076,Q15620,,ES,Spain,CT,Cataluña,08076,Esparreguera,,,ES,ESP,2
+ES_CT_08077,Q15621,,ES,Spain,CT,Cataluña,08077,Esplugues de Llobregat,,,ES,ESP,2
+ES_CT_08078,Q15506,,ES,Spain,CT,Cataluña,08078,L'Espunyola,,,ES,ESP,2
+ES_CT_08079,Q16694,,ES,Spain,CT,Cataluña,08079,L’Estany,,,ES,ESP,2
+ES_CT_08080,Q15508,,ES,Spain,CT,Cataluña,08080,Fígols,,,ES,ESP,2
+ES_CT_08081,Q15411,,ES,Spain,CT,Cataluña,08081,Fogars de Montclús,,,ES,ESP,2
+ES_CT_08082,Q13083,,ES,Spain,CT,Cataluña,08082,Fogars de la Selva,,,ES,ESP,2
+ES_CT_08083,Q13782,,ES,Spain,CT,Cataluña,08083,Folgueroles,,,ES,ESP,2
+ES_CT_08084,Q16695,,ES,Spain,CT,Cataluña,08084,Fonollosa,,,ES,ESP,2
+ES_CT_08085,Q984398,,ES,Spain,CT,Cataluña,08085,Font-rubí,,,ES,ESP,2
+ES_CT_08086,Q15412,,ES,Spain,CT,Cataluña,08086,Les Franqueses del Vallès,,,ES,ESP,2
+ES_CT_08087,Q13928,,ES,Spain,CT,Cataluña,08087,Gallifa,,,ES,ESP,2
+ES_CT_08088,Q15415,,ES,Spain,CT,Cataluña,08088,La Garriga,,,ES,ESP,2
+ES_CT_08089,Q15622,,ES,Spain,CT,Cataluña,08089,Gavà,,,ES,ESP,2
+ES_CT_08090,Q16696,,ES,Spain,CT,Cataluña,08090,Gaià,,,ES,ESP,2
+ES_CT_08091,Q763729,,ES,Spain,CT,Cataluña,08091,Gelida,,,ES,ESP,2
+ES_CT_08092,Q15509,,ES,Spain,CT,Cataluña,08092,Gironella,,,ES,ESP,2
+ES_CT_08093,Q15511,,ES,Spain,CT,Cataluña,08093,Gisclareny,,,ES,ESP,2
+ES_CT_08094,Q1228808,,ES,Spain,CT,Cataluña,08094,La Granada,,,ES,ESP,2
+ES_CT_08095,Q15418,,ES,Spain,CT,Cataluña,08095,Granera,,,ES,ESP,2
+ES_CT_08096,Q15420,,ES,Spain,CT,Cataluña,08096,Granollers,,,ES,ESP,2
+ES_CT_08097,Q15421,,ES,Spain,CT,Cataluña,08097,Gualba,,,ES,ESP,2
+ES_CT_08098,Q16733,,ES,Spain,CT,Cataluña,08098,Sant Salvador de Guardiola,,,ES,ESP,2
+ES_CT_08099,Q15519,,ES,Spain,CT,Cataluña,08099,Guardiola de Berguedà,,,ES,ESP,2
+ES_CT_08100,Q13783,,ES,Spain,CT,Cataluña,08100,Gurb,,,ES,ESP,2
+ES_CT_08101,Q15470,,ES,Spain,CT,Cataluña,08101,L'Hospitalet de Llobregat,,,ES,ESP,2
+ES_CT_08102,Q15950,,ES,Spain,CT,Cataluña,08102,Igualada,,,ES,ESP,2
+ES_CT_08103,Q15951,,ES,Spain,CT,Cataluña,08103,Jorba,,,ES,ESP,2
+ES_CT_08104,Q15952,,ES,Spain,CT,Cataluña,08104,La Llacuna,,,ES,ESP,2
+ES_CT_08105,Q15422,,ES,Spain,CT,Cataluña,08105,La Llagosta,,,ES,ESP,2
+ES_CT_08106,Q15423,,ES,Spain,CT,Cataluña,08106,Llinars del Vallès,,,ES,ESP,2
+ES_CT_08107,Q15425,,ES,Spain,CT,Cataluña,08107,Lliçà d'Amunt,,,ES,ESP,2
+ES_CT_08108,Q15428,,ES,Spain,CT,Cataluña,08108,Lliçà de Vall,,,ES,ESP,2
+ES_CT_08109,Q13784,,ES,Spain,CT,Cataluña,08109,Lluçà,,,ES,ESP,2
+ES_CT_08110,Q12590,,ES,Spain,CT,Cataluña,08110,Malgrat de Mar,,,ES,ESP,2
+ES_CT_08111,Q13805,,ES,Spain,CT,Cataluña,08111,Malla,,,ES,ESP,2
+ES_CT_08112,Q13804,,ES,Spain,CT,Cataluña,08112,Manlleu,,,ES,ESP,2
+ES_CT_08113,Q16697,,ES,Spain,CT,Cataluña,08113,Manresa,,,ES,ESP,2
+ES_CT_08114,Q15623,,ES,Spain,CT,Cataluña,08114,Martorell,,,ES,ESP,2
+ES_CT_08115,Q15429,,ES,Spain,CT,Cataluña,08115,Martorelles,,,ES,ESP,2
+ES_CT_08116,Q13803,,ES,Spain,CT,Cataluña,08116,Les Masies de Roda,,,ES,ESP,2
+ES_CT_08117,Q13801,,ES,Spain,CT,Cataluña,08117,Les Masies de Voltregà,,,ES,ESP,2
+ES_CT_08118,Q12039,,ES,Spain,CT,Cataluña,08118,El Masnou,,,ES,ESP,2
+ES_CT_08119,Q15954,,ES,Spain,CT,Cataluña,08119,Masquefa,,,ES,ESP,2
+ES_CT_08120,Q13929,,ES,Spain,CT,Cataluña,08120,Matadepera,,,ES,ESP,2
+ES_CT_08121,Q11492,,ES,Spain,CT,Cataluña,08121,Mataró,,,ES,ESP,2
+ES_CT_08122,Q686790,,ES,Spain,CT,Cataluña,08122,Mediona,,,ES,ESP,2
+ES_CT_08123,Q15624,,ES,Spain,CT,Cataluña,08123,Molins de Rei,,,ES,ESP,2
+ES_CT_08124,Q15430,,ES,Spain,CT,Cataluña,08124,Mollet del Vallès,,,ES,ESP,2
+ES_CT_08125,Q13927,,ES,Spain,CT,Cataluña,08125,Montcada i Reixac,,,ES,ESP,2
+ES_CT_08126,Q12022,,ES,Spain,CT,Cataluña,08126,Montgat,,,ES,ESP,2
+ES_CT_08127,Q16704,,ES,Spain,CT,Cataluña,08127,Monistrol de Montserrat,,,ES,ESP,2
+ES_CT_08128,Q16703,,ES,Spain,CT,Cataluña,08128,Monistrol de Calders,,,ES,ESP,2
+ES_CT_08129,Q13799,,ES,Spain,CT,Cataluña,08129,Muntanyola,,,ES,ESP,2
+ES_CT_08130,Q15521,,ES,Spain,CT,Cataluña,08130,Montclar,,,ES,ESP,2
+ES_CT_08131,Q13800,,ES,Spain,CT,Cataluña,08131,Montesquiu,,,ES,ESP,2
+ES_CT_08132,Q15522,,ES,Spain,CT,Cataluña,08132,Montmajor,,,ES,ESP,2
+ES_CT_08133,Q15955,,ES,Spain,CT,Cataluña,08133,Montmaneu,,,ES,ESP,2
+ES_CT_08134,Q15409,,ES,Spain,CT,Cataluña,08134,Figaró-Montmany,,,ES,ESP,2
+ES_CT_08135,Q15431,,ES,Spain,CT,Cataluña,08135,Montmeló,,,ES,ESP,2
+ES_CT_08136,Q15433,,ES,Spain,CT,Cataluña,08136,Montornès del Vallès,,,ES,ESP,2
+ES_CT_08137,Q15434,,ES,Spain,CT,Cataluña,08137,Montseny,,,ES,ESP,2
+ES_CT_08138,Q16702,,ES,Spain,CT,Cataluña,08138,Moià,,,ES,ESP,2
+ES_CT_08139,Q16722,,ES,Spain,CT,Cataluña,08139,Mura,,,ES,ESP,2
+ES_CT_08140,Q16723,,ES,Spain,CT,Cataluña,08140,Navarcles,,,ES,ESP,2
+ES_CT_08141,Q16724,,ES,Spain,CT,Cataluña,08141,Navàs,,,ES,ESP,2
+ES_CT_08142,Q15524,,ES,Spain,CT,Cataluña,08142,La Nou de Berguedà,,,ES,ESP,2
+ES_CT_08143,Q15957,,ES,Spain,CT,Cataluña,08143,Òdena,,,ES,ESP,2
+ES_CT_08144,Q15527,,ES,Spain,CT,Cataluña,08144,Olvan,,,ES,ESP,2
+ES_CT_08145,Q1228441,,ES,Spain,CT,Cataluña,08145,Olèrdola,,,ES,ESP,2
+ES_CT_08146,Q659734,,ES,Spain,CT,Cataluña,08146,Olesa de Bonesvalls,,,ES,ESP,2
+ES_CT_08147,Q15626,,ES,Spain,CT,Cataluña,08147,Olesa de Montserrat,,,ES,ESP,2
+ES_CT_08148,Q15557,,ES,Spain,CT,Cataluña,08148,Olivella,,,ES,ESP,2
+ES_CT_08149,Q13798,,ES,Spain,CT,Cataluña,08149,Olost,,,ES,ESP,2
+ES_CT_08150,Q13797,,ES,Spain,CT,Cataluña,08150,Orís,,,ES,ESP,2
+ES_CT_08151,Q13796,,ES,Spain,CT,Cataluña,08151,Oristà,,,ES,ESP,2
+ES_CT_08152,Q15958,,ES,Spain,CT,Cataluña,08152,Orpí,,,ES,ESP,2
+ES_CT_08153,Q12080,,ES,Spain,CT,Cataluña,08153,Òrrius,,,ES,ESP,2
+ES_CT_08154,Q958681,,ES,Spain,CT,Cataluña,08154,Pacs del Penedès,,,ES,ESP,2
+ES_CT_08155,Q12595,,ES,Spain,CT,Cataluña,08155,Palafolls,,,ES,ESP,2
+ES_CT_08156,Q13926,,ES,Spain,CT,Cataluña,08156,Palau-solità i Plegamans,,,ES,ESP,2
+ES_CT_08157,Q15627,,ES,Spain,CT,Cataluña,08157,Pallejà,,,ES,ESP,2
+ES_CT_08158,Q15631,,ES,Spain,CT,Cataluña,08158,el Papiol,,,ES,ESP,2
+ES_CT_08159,Q15437,,ES,Spain,CT,Cataluña,08159,Parets del Vallès,,,ES,ESP,2
+ES_CT_08160,Q13795,,ES,Spain,CT,Cataluña,08160,Perafita,,,ES,ESP,2
+ES_CT_08161,Q15959,,ES,Spain,CT,Cataluña,08161,Piera,,,ES,ESP,2
+ES_CT_08162,Q15949,,ES,Spain,CT,Cataluña,08162,Els Hostalets de Pierola,,,ES,ESP,2
+ES_CT_08163,Q12552,,ES,Spain,CT,Cataluña,08163,Pineda de Mar,,,ES,ESP,2
+ES_CT_08164,Q1312464,,ES,Spain,CT,Cataluña,08164,El Pla del Penedès,,,ES,ESP,2
+ES_CT_08165,Q15960,,ES,Spain,CT,Cataluña,08165,La Pobla de Claramunt,,,ES,ESP,2
+ES_CT_08166,Q15529,,ES,Spain,CT,Cataluña,08166,La Pobla de Lillet,,,ES,ESP,2
+ES_CT_08167,Q13925,,ES,Spain,CT,Cataluña,08167,Polinyà,,,ES,ESP,2
+ES_CT_08168,Q1229275,,ES,Spain,CT,Cataluña,08168,Pontons,,,ES,ESP,2
+ES_CT_08169,Q15619,,ES,Spain,CT,Cataluña,08169,El Prat de Llobregat,,,ES,ESP,2
+ES_CT_08170,Q15961,,ES,Spain,CT,Cataluña,08170,Els Prats de Rei,,,ES,ESP,2
+ES_CT_08171,Q13814,,ES,Spain,CT,Cataluña,08171,Prats de Lluçanès,,,ES,ESP,2
+ES_CT_08172,Q12046,,ES,Spain,CT,Cataluña,08172,Premià de Mar,,,ES,ESP,2
+ES_CT_08174,Q1230115,,ES,Spain,CT,Cataluña,08174,Puigdàlber,,,ES,ESP,2
+ES_CT_08175,Q15534,,ES,Spain,CT,Cataluña,08175,Puig-reig,,,ES,ESP,2
+ES_CT_08176,Q15962,,ES,Spain,CT,Cataluña,08176,Pujalt,,,ES,ESP,2
+ES_CT_08177,Q15535,,ES,Spain,CT,Cataluña,08177,La Quar,,,ES,ESP,2
+ES_CT_08178,Q16727,,ES,Spain,CT,Cataluña,08178,Rajadell,,,ES,ESP,2
+ES_CT_08179,Q13932,,ES,Spain,CT,Cataluña,08179,Rellinars,,,ES,ESP,2
+ES_CT_08180,Q13933,,ES,Spain,CT,Cataluña,08180,Ripollet,,,ES,ESP,2
+ES_CT_08181,Q15439,,ES,Spain,CT,Cataluña,08181,La Roca del Vallès,,,ES,ESP,2
+ES_CT_08182,Q16726,,ES,Spain,CT,Cataluña,08182,El Pont de Vilomara i Rocafort,,,ES,ESP,2
+ES_CT_08183,Q13815,,ES,Spain,CT,Cataluña,08183,Roda de Ter,,,ES,ESP,2
+ES_CT_08184,Q13934,,ES,Spain,CT,Cataluña,08184,Rubí,,,ES,ESP,2
+ES_CT_08185,Q15963,,ES,Spain,CT,Cataluña,08185,Rubió,,,ES,ESP,2
+ES_CT_08187,Q12258,,ES,Spain,CT,Cataluña,08187,Sabadell,,,ES,ESP,2
+ES_CT_08188,Q15536,,ES,Spain,CT,Cataluña,08188,Sagàs,,,ES,ESP,2
+ES_CT_08189,Q15967,,ES,Spain,CT,Cataluña,08189,Sant Pere Sallavinera,,,ES,ESP,2
+ES_CT_08190,Q15537,,ES,Spain,CT,Cataluña,08190,Saldes,,,ES,ESP,2
+ES_CT_08191,Q16728,,ES,Spain,CT,Cataluña,08191,Sallent de Llobregat,,,ES,ESP,2
+ES_CT_08192,Q16736,,ES,Spain,CT,Cataluña,08192,Santpedor,,,ES,ESP,2
+ES_CT_08193,Q12122,,ES,Spain,CT,Cataluña,08193,Sant Iscle de Vallalta,,,ES,ESP,2
+ES_CT_08194,Q15471,,ES,Spain,CT,Cataluña,08194,Sant Adrià de Besòs,,,ES,ESP,2
+ES_CT_08195,Q13817,,ES,Spain,CT,Cataluña,08195,Sant Agustí de Lluçanès,,,ES,ESP,2
+ES_CT_08196,Q15634,,ES,Spain,CT,Cataluña,08196,Sant Andreu de la Barca,,,ES,ESP,2
+ES_CT_08197,Q12093,,ES,Spain,CT,Cataluña,08197,Sant Andreu de Llavaneres,,,ES,ESP,2
+ES_CT_08198,Q15440,,ES,Spain,CT,Cataluña,08198,Sant Antoni de Vilamajor,,,ES,ESP,2
+ES_CT_08199,Q13818,,ES,Spain,CT,Cataluña,08199,Sant Bartomeu del Grau,,,ES,ESP,2
+ES_CT_08200,Q15635,,ES,Spain,CT,Cataluña,08200,Sant Boi de Llobregat,,,ES,ESP,2
+ES_CT_08201,Q13819,,ES,Spain,CT,Cataluña,08201,Sant Boi de Lluçanès,,,ES,ESP,2
+ES_CT_08202,Q15441,,ES,Spain,CT,Cataluña,08202,Sant Celoni,,,ES,ESP,2
+ES_CT_08203,Q12520,,ES,Spain,CT,Cataluña,08203,Sant Cebrià de Vallalta,,,ES,ESP,2
+ES_CT_08204,Q15636,,ES,Spain,CT,Cataluña,08204,Sant Climent de Llobregat,,,ES,ESP,2
+ES_CT_08205,Q13936,,ES,Spain,CT,Cataluña,08205,Sant Cugat del Vallès,,,ES,ESP,2
+ES_CT_08206,Q584252,,ES,Spain,CT,Cataluña,08206,Sant Cugat Sesgarrigues,,,ES,ESP,2
+ES_CT_08207,Q15442,,ES,Spain,CT,Cataluña,08207,Sant Esteve de Palautordera,,,ES,ESP,2
+ES_CT_08208,Q15638,,ES,Spain,CT,Cataluña,08208,Sant Esteve Sesrovires,,,ES,ESP,2
+ES_CT_08209,Q15445,,ES,Spain,CT,Cataluña,08209,Sant Fost de Campsentelles,,,ES,ESP,2
+ES_CT_08210,Q15444,,ES,Spain,CT,Cataluña,08210,Sant Feliu de Codines,,,ES,ESP,2
+ES_CT_08211,Q15639,,ES,Spain,CT,Cataluña,08211,Sant Feliu de Llobregat,,,ES,ESP,2
+ES_CT_08212,Q16729,,ES,Spain,CT,Cataluña,08212,Sant Feliu Sasserra,,,ES,ESP,2
+ES_CT_08213,Q16730,,ES,Spain,CT,Cataluña,08213,Sant Fruitós de Bages,,,ES,ESP,2
+ES_CT_08214,Q12075,,ES,Spain,CT,Cataluña,08214,Vilassar de Dalt,,,ES,ESP,2
+ES_CT_08215,Q13820,,ES,Spain,CT,Cataluña,08215,Sant Hipòlit de Voltregà,,,ES,ESP,2
+ES_CT_08216,Q15538,,ES,Spain,CT,Cataluña,08216,Sant Jaume de Frontanyà,,,ES,ESP,2
+ES_CT_08217,Q15640,,ES,Spain,CT,Cataluña,08217,Sant Joan Despí,,,ES,ESP,2
+ES_CT_08218,Q16731,,ES,Spain,CT,Cataluña,08218,Sant Joan de Vilatorrada,,,ES,ESP,2
+ES_CT_08219,Q12071,,ES,Spain,CT,Cataluña,08219,Vilassar de Mar,,,ES,ESP,2
+ES_CT_08220,Q13821,,ES,Spain,CT,Cataluña,08220,Sant Julià de Vilatorta,,,ES,ESP,2
+ES_CT_08221,Q15641,,ES,Spain,CT,Cataluña,08221,Sant Just Desvern,,,ES,ESP,2
+ES_CT_08222,Q321918,,ES,Spain,CT,Cataluña,08222,Sant Llorenç d'Hortons,,,ES,ESP,2
+ES_CT_08223,Q13937,,ES,Spain,CT,Cataluña,08223,Sant Llorenç Savall,,,ES,ESP,2
+ES_CT_08224,Q13823,,ES,Spain,CT,Cataluña,08224,Sant Martí de Centelles,,,ES,ESP,2
+ES_CT_08225,Q13822,,ES,Spain,CT,Cataluña,08225,Sant Martí d'Albars,,,ES,ESP,2
+ES_CT_08226,Q15966,,ES,Spain,CT,Cataluña,08226,Sant Martí de Tous,,,ES,ESP,2
+ES_CT_08227,Q593512,,ES,Spain,CT,Cataluña,08227,Sant Martí Sarroca,,,ES,ESP,2
+ES_CT_08228,Q15964,,ES,Spain,CT,Cataluña,08228,Sant Martí Sesgueioles,,,ES,ESP,2
+ES_CT_08229,Q16732,,ES,Spain,CT,Cataluña,08229,Sant Mateu de Bages,,,ES,ESP,2
+ES_CT_08230,Q12049,,ES,Spain,CT,Cataluña,08230,Premià de Dalt,,,ES,ESP,2
+ES_CT_08231,Q15555,,ES,Spain,CT,Cataluña,08231,Sant Pere de Ribes,,,ES,ESP,2
+ES_CT_08232,Q633095,,ES,Spain,CT,Cataluña,08232,Sant Pere de Riudebitlles,,,ES,ESP,2
+ES_CT_08233,Q13828,,ES,Spain,CT,Cataluña,08233,Sant Pere de Torelló,,,ES,ESP,2
+ES_CT_08234,Q15450,,ES,Spain,CT,Cataluña,08234,Sant Pere de Vilamajor,,,ES,ESP,2
+ES_CT_08235,Q12534,,ES,Spain,CT,Cataluña,08235,Sant Pol de Mar,,,ES,ESP,2
+ES_CT_08236,Q648963,,ES,Spain,CT,Cataluña,08236,Sant Quintí de Mediona,,,ES,ESP,2
+ES_CT_08237,Q13830,,ES,Spain,CT,Cataluña,08237,Sant Quirze de Besora,,,ES,ESP,2
+ES_CT_08238,Q13935,,ES,Spain,CT,Cataluña,08238,Sant Quirze del Vallès,,,ES,ESP,2
+ES_CT_08239,Q15452,,ES,Spain,CT,Cataluña,08239,Sant Quirze Safaja,,,ES,ESP,2
+ES_CT_08240,Q984508,,ES,Spain,CT,Cataluña,08240,Sant Sadurní d'Anoia,,,ES,ESP,2
+ES_CT_08241,Q13831,,ES,Spain,CT,Cataluña,08241,Sant Sadurní d'Osormort,,,ES,ESP,2
+ES_CT_08242,Q16698,,ES,Spain,CT,Cataluña,08242,Marganell,,,ES,ESP,2
+ES_CT_08243,Q13832,,ES,Spain,CT,Cataluña,08243,Santa Cecília de Voltregà,,,ES,ESP,2
+ES_CT_08244,Q15632,,ES,Spain,CT,Cataluña,08244,Santa Coloma de Cervelló,,,ES,ESP,2
+ES_CT_08245,Q15473,,ES,Spain,CT,Cataluña,08245,Santa Coloma de Gramenet,,,ES,ESP,2
+ES_CT_08246,Q13834,,ES,Spain,CT,Cataluña,08246,Santa Eugènia de Berga,,,ES,ESP,2
+ES_CT_08247,Q13836,,ES,Spain,CT,Cataluña,08247,Santa Eulàlia de Riuprimer,,,ES,ESP,2
+ES_CT_08248,Q15454,,ES,Spain,CT,Cataluña,08248,Santa Eulàlia de Ronçana,,,ES,ESP,2
+ES_CT_08249,Q920409,,ES,Spain,CT,Cataluña,08249,Santa Fe del Penedès,,,ES,ESP,2
+ES_CT_08250,Q15968,,ES,Spain,CT,Cataluña,08250,Santa Margarida de Montbui,,,ES,ESP,2
+ES_CT_08251,Q660350,,ES,Spain,CT,Cataluña,08251,Santa Margarida i els Monjos,,,ES,ESP,2
+ES_CT_08252,Q13916,,ES,Spain,CT,Cataluña,08252,Barberà del Vallès,,,ES,ESP,2
+ES_CT_08253,Q13835,,ES,Spain,CT,Cataluña,08253,Santa Maria de Besora,,,ES,ESP,2
+ES_CT_08254,Q13837,,ES,Spain,CT,Cataluña,08254,L'Esquirol,,,ES,ESP,2
+ES_CT_08255,Q15541,,ES,Spain,CT,Cataluña,08255,Santa Maria de Merlès,,,ES,ESP,2
+ES_CT_08256,Q15455,,ES,Spain,CT,Cataluña,08256,Santa Maria de Martorelles,,,ES,ESP,2
+ES_CT_08257,Q15970,,ES,Spain,CT,Cataluña,08257,Santa María de Miralles,,,ES,ESP,2
+ES_CT_08258,Q16735,,ES,Spain,CT,Cataluña,08258,Santa Maria d'Oló,,,ES,ESP,2
+ES_CT_08259,Q15456,,ES,Spain,CT,Cataluña,08259,Santa Maria de Palautordera,,,ES,ESP,2
+ES_CT_08260,Q13941,,ES,Spain,CT,Cataluña,08260,Santa Perpètua de Mogoda,,,ES,ESP,2
+ES_CT_08261,Q12587,,ES,Spain,CT,Cataluña,08261,Santa Susanna,,,ES,ESP,2
+ES_CT_08262,Q16734,,ES,Spain,CT,Cataluña,08262,Sant Vicenç de Castellet,,,ES,ESP,2
+ES_CT_08263,Q15649,,ES,Spain,CT,Cataluña,08263,Sant Vicenç dels Horts,,,ES,ESP,2
+ES_CT_08264,Q12095,,ES,Spain,CT,Cataluña,08264,Sant Vicenç de Montalt,,,ES,ESP,2
+ES_CT_08265,Q13833,,ES,Spain,CT,Cataluña,08265,Sant Vicenç de Torelló,,,ES,ESP,2
+ES_CT_08266,Q13922,,ES,Spain,CT,Cataluña,08266,Cerdanyola del Vallès,,,ES,ESP,2
+ES_CT_08267,Q13943,,ES,Spain,CT,Cataluña,08267,Sentmenat,,,ES,ESP,2
+ES_CT_08268,Q15504,,ES,Spain,CT,Cataluña,08268,Cercs,,,ES,ESP,2
+ES_CT_08269,Q13839,,ES,Spain,CT,Cataluña,08269,Seva,,,ES,ESP,2
+ES_CT_08270,Q15551,,ES,Spain,CT,Cataluña,08270,Sitges,,,ES,ESP,2
+ES_CT_08271,Q13848,,ES,Spain,CT,Cataluña,08271,Sobremunt,,,ES,ESP,2
+ES_CT_08272,Q13849,,ES,Spain,CT,Cataluña,08272,Sora,,,ES,ESP,2
+ES_CT_08273,Q782758,,ES,Spain,CT,Cataluña,08273,Subirats,,,ES,ESP,2
+ES_CT_08274,Q16737,,ES,Spain,CT,Cataluña,08274,Súria,,,ES,ESP,2
+ES_CT_08275,Q13851,,ES,Spain,CT,Cataluña,08275,Tavèrnoles,,,ES,ESP,2
+ES_CT_08276,Q15457,,ES,Spain,CT,Cataluña,08276,Tagamanent,,,ES,ESP,2
+ES_CT_08277,Q16738,,ES,Spain,CT,Cataluña,08277,Talamanca,,,ES,ESP,2
+ES_CT_08278,Q13850,,ES,Spain,CT,Cataluña,08278,Taradell,,,ES,ESP,2
+ES_CT_08279,Q13939,,ES,Spain,CT,Cataluña,08279,Terrassa,,,ES,ESP,2
+ES_CT_08280,Q13852,,ES,Spain,CT,Cataluña,08280,Tavertet,,,ES,ESP,2
+ES_CT_08281,Q12028,,ES,Spain,CT,Cataluña,08281,Teià,,,ES,ESP,2
+ES_CT_08282,Q12026,,ES,Spain,CT,Cataluña,08282,Tiana,,,ES,ESP,2
+ES_CT_08283,Q13853,,ES,Spain,CT,Cataluña,08283,Tona,,,ES,ESP,2
+ES_CT_08284,Q12596,,ES,Spain,CT,Cataluña,08284,Tordera,,,ES,ESP,2
+ES_CT_08285,Q13854,,ES,Spain,CT,Cataluña,08285,Torelló,,,ES,ESP,2
+ES_CT_08286,Q15971,,ES,Spain,CT,Cataluña,08286,La Torre de Claramunt,,,ES,ESP,2
+ES_CT_08287,Q1228768,,ES,Spain,CT,Cataluña,08287,Terrassola i Lavit,,,ES,ESP,2
+ES_CT_08288,Q984393,,ES,Spain,CT,Cataluña,08288,Torrelles de Foix,,,ES,ESP,2
+ES_CT_08289,Q15650,,ES,Spain,CT,Cataluña,08289,Torrelles de Llobregat,,,ES,ESP,2
+ES_CT_08290,Q13944,,ES,Spain,CT,Cataluña,08290,Ullastrell,,,ES,ESP,2
+ES_CT_08291,Q13945,,ES,Spain,CT,Cataluña,08291,Vacarisses,,,ES,ESP,2
+ES_CT_08292,Q15972,,ES,Spain,CT,Cataluña,08292,Vallbona d'Anoia,,,ES,ESP,2
+ES_CT_08293,Q15543,,ES,Spain,CT,Cataluña,08293,Vallcebre,,,ES,ESP,2
+ES_CT_08294,Q15458,,ES,Spain,CT,Cataluña,08294,Vallgorguina,,,ES,ESP,2
+ES_CT_08295,Q15651,,ES,Spain,CT,Cataluña,08295,Vallirana,,,ES,ESP,2
+ES_CT_08296,Q15460,,ES,Spain,CT,Cataluña,08296,Vallromanes,,,ES,ESP,2
+ES_CT_08297,Q15973,,ES,Spain,CT,Cataluña,08297,Veciana,,,ES,ESP,2
+ES_CT_08298,Q13855,,ES,Spain,CT,Cataluña,08298,Vic,,,ES,ESP,2
+ES_CT_08299,Q15544,,ES,Spain,CT,Cataluña,08299,Vilada,,,ES,ESP,2
+ES_CT_08300,Q13946,,ES,Spain,CT,Cataluña,08300,Viladecavalls,,,ES,ESP,2
+ES_CT_08301,Q15652,,ES,Spain,CT,Cataluña,08301,Viladecans,,,ES,ESP,2
+ES_CT_08302,Q15974,,ES,Spain,CT,Cataluña,08302,Vilanova del Camí,,,ES,ESP,2
+ES_CT_08303,Q13859,,ES,Spain,CT,Cataluña,08303,Vilanova de Sau,,,ES,ESP,2
+ES_CT_08304,Q1228795,,ES,Spain,CT,Cataluña,08304,Vilobí del Penedès,,,ES,ESP,2
+ES_CT_08305,Q835012,,ES,Spain,CT,Cataluña,08305,Vilafranca del Penedès,,,ES,ESP,2
+ES_CT_08306,Q15461,,ES,Spain,CT,Cataluña,08306,Vilalba Sasserra,,,ES,ESP,2
+ES_CT_08307,Q15553,,ES,Spain,CT,Cataluña,08307,Vilanova i la Geltrú,,,ES,ESP,2
+ES_CT_08308,Q15545,,ES,Spain,CT,Cataluña,08308,Viver i Serrateix,,,ES,ESP,2
+ES_CT_08901,Q13816,,ES,Spain,CT,Cataluña,08901,Rupit i Pruit,,,ES,ESP,2
+ES_CT_08902,Q15463,,ES,Spain,CT,Cataluña,08902,Vilanova del Vallès,,,ES,ESP,2
+ES_CT_08903,Q15539,,ES,Spain,CT,Cataluña,08903,Sant Julià de Cerdanyola,,,ES,ESP,2
+ES_CT_08904,Q13913,,ES,Spain,CT,Cataluña,08904,Badia del Vallès,,,ES,ESP,2
+ES_CT_08905,Q15630,,ES,Spain,CT,Cataluña,08905,La Palma de Cervelló,,,ES,ESP,2
+ES_CT_12001,Q1635908,,ES,Spain,CT,Cataluña,12001,Atzeneta del Maestrat,,,ES,ESP,2
+ES_CT_12002,Q735833,,ES,Spain,CT,Cataluña,12002,Aín,,,ES,ESP,2
+ES_CT_12003,Q1606574,,ES,Spain,CT,Cataluña,12003,Albocàsser,,,ES,ESP,2
+ES_CT_12004,Q1635204,,ES,Spain,CT,Cataluña,12004,Alcalà de Xivert,,,ES,ESP,2
+ES_CT_12005,Q1635385,,ES,Spain,CT,Cataluña,12005,L'Alcora,,,ES,ESP,2
+ES_CT_12006,Q1772279,,ES,Spain,CT,Cataluña,12006,Alcudia de Veo,,,ES,ESP,2
+ES_CT_12007,Q1769907,,ES,Spain,CT,Cataluña,12007,Alfondeguilla,,,ES,ESP,2
+ES_CT_12008,Q1635917,,ES,Spain,CT,Cataluña,12008,Algimia de Almonacid,,,ES,ESP,2
+ES_CT_12009,Q1373919,,ES,Spain,CT,Cataluña,12009,Almassora,,,ES,ESP,2
+ES_CT_12010,Q1635760,,ES,Spain,CT,Cataluña,12010,Almedíjar,,,ES,ESP,2
+ES_CT_12011,Q1917433,,ES,Spain,CT,Cataluña,12011,Almenara,,,ES,ESP,2
+ES_CT_12012,Q1635901,,ES,Spain,CT,Cataluña,12012,Altura,,,ES,ESP,2
+ES_CT_12013,Q766369,,ES,Spain,CT,Cataluña,12013,Arañuel,,,ES,ESP,2
+ES_CT_12014,Q785949,,ES,Spain,CT,Cataluña,12014,Ares del Maestrat,,,ES,ESP,2
+ES_CT_12015,Q1763742,,ES,Spain,CT,Cataluña,12015,Argelita,,,ES,ESP,2
+ES_CT_12016,Q979628,,ES,Spain,CT,Cataluña,12016,Artana,,,ES,ESP,2
+ES_CT_12017,Q1753077,,ES,Spain,CT,Cataluña,12017,Ayódar,,,ES,ESP,2
+ES_CT_12018,Q1753047,,ES,Spain,CT,Cataluña,12018,Azuébar,,,ES,ESP,2
+ES_CT_12020,Q1995232,,ES,Spain,CT,Cataluña,12020,Barracas,,,ES,ESP,2
+ES_CT_12021,Q54948,,ES,Spain,CT,Cataluña,12021,Betxí,,,ES,ESP,2
+ES_CT_12022,Q1772758,,ES,Spain,CT,Cataluña,12022,Bejís,,,ES,ESP,2
+ES_CT_12024,Q1763720,,ES,Spain,CT,Cataluña,12024,Benafer,,,ES,ESP,2
+ES_CT_12025,Q1753052,,ES,Spain,CT,Cataluña,12025,Benafigos,,,ES,ESP,2
+ES_CT_12026,Q1635350,,ES,Spain,CT,Cataluña,12026,Benassal,,,ES,ESP,2
+ES_CT_12027,Q817302,,ES,Spain,CT,Cataluña,12027,Benicarló,,,ES,ESP,2
+ES_CT_12028,Q636467,,ES,Spain,CT,Cataluña,12028,Benicàssim,,,ES,ESP,2
+ES_CT_12029,Q1635703,,ES,Spain,CT,Cataluña,12029,Benlloc,,,ES,ESP,2
+ES_CT_12031,Q978356,,ES,Spain,CT,Cataluña,12031,Borriol,,,ES,ESP,2
+ES_CT_12032,Q385070,,ES,Spain,CT,Cataluña,12032,Borriana,,,ES,ESP,2
+ES_CT_12033,Q1646899,,ES,Spain,CT,Cataluña,12033,Cabanes,,,ES,ESP,2
+ES_CT_12034,Q1635720,,ES,Spain,CT,Cataluña,12034,Càlig,,,ES,ESP,2
+ES_CT_12036,Q1646978,,ES,Spain,CT,Cataluña,12036,Canet lo Roig,,,ES,ESP,2
+ES_CT_12037,Q1645962,,ES,Spain,CT,Cataluña,12037,Castell de Cabres,,,ES,ESP,2
+ES_CT_12038,Q1778143,,ES,Spain,CT,Cataluña,12038,Castellfort,,,ES,ESP,2
+ES_CT_12039,Q1635733,,ES,Spain,CT,Cataluña,12039,Castellnovo,,,ES,ESP,2
+ES_CT_12040,Q15092,,ES,Spain,CT,Cataluña,12040,Castelló de la Plana,,,ES,ESP,2
+ES_CT_12041,Q932479,,ES,Spain,CT,Cataluña,12041,Castillo de Villamalefa,,,ES,ESP,2
+ES_CT_12042,Q1645833,,ES,Spain,CT,Cataluña,12042,Catí,,,ES,ESP,2
+ES_CT_12043,Q1645781,,ES,Spain,CT,Cataluña,12043,Caudiel,,,ES,ESP,2
+ES_CT_12044,Q1646175,,ES,Spain,CT,Cataluña,12044,Cervera del Maestre,,,ES,ESP,2
+ES_CT_12045,Q1646167,,ES,Spain,CT,Cataluña,12045,Cinctorres,,,ES,ESP,2
+ES_CT_12046,Q1769924,,ES,Spain,CT,Cataluña,12046,Cirat,,,ES,ESP,2
+ES_CT_12048,Q1647013,,ES,Spain,CT,Cataluña,12048,Cortes de Arenoso,,,ES,ESP,2
+ES_CT_12049,Q1645737,,ES,Spain,CT,Cataluña,12049,Costur,,,ES,ESP,2
+ES_CT_12050,Q24011892,,ES,Spain,CT,Cataluña,12050,Coves de Vinromà,,,ES,ESP,2
+ES_CT_12051,Q1983206,,ES,Spain,CT,Cataluña,12051,Culla,,,ES,ESP,2
+ES_CT_12052,Q1983359,,ES,Spain,CT,Cataluña,12052,Xert,,,ES,ESP,2
+ES_CT_12053,Q1768727,,ES,Spain,CT,Cataluña,12053,Xilxes,,,ES,ESP,2
+ES_CT_12055,Q1768688,,ES,Spain,CT,Cataluña,12055,Xodos / Chodos,,,ES,ESP,2
+ES_CT_12056,Q693679,,ES,Spain,CT,Cataluña,12056,Chóvar,,,ES,ESP,2
+ES_CT_12057,Q1769981,,ES,Spain,CT,Cataluña,12057,Eslida,,,ES,ESP,2
+ES_CT_12058,Q577501,,ES,Spain,CT,Cataluña,12058,Espadilla,,,ES,ESP,2
+ES_CT_12059,Q1645852,,ES,Spain,CT,Cataluña,12059,Fanzara,,,ES,ESP,2
+ES_CT_12060,Q1646916,,ES,Spain,CT,Cataluña,12060,Figueroles,,,ES,ESP,2
+ES_CT_12061,Q780945,,ES,Spain,CT,Cataluña,12061,Forcall,,,ES,ESP,2
+ES_CT_12063,Q745282,,ES,Spain,CT,Cataluña,12063,Fuente la Reina,,,ES,ESP,2
+ES_CT_12064,Q1768676,,ES,Spain,CT,Cataluña,12064,Fuentes de Ayódar,,,ES,ESP,2
+ES_CT_12065,Q1768700,,ES,Spain,CT,Cataluña,12065,Gaibiel,,,ES,ESP,2
+ES_CT_12067,Q1769741,,ES,Spain,CT,Cataluña,12067,Geldo,,,ES,ESP,2
+ES_CT_12068,Q1769760,,ES,Spain,CT,Cataluña,12068,Herbés,,,ES,ESP,2
+ES_CT_12069,Q1983382,,ES,Spain,CT,Cataluña,12069,Higueras,,,ES,ESP,2
+ES_CT_12070,Q1768937,,ES,Spain,CT,Cataluña,12070,La Jana,,,ES,ESP,2
+ES_CT_12071,Q1645723,,ES,Spain,CT,Cataluña,12071,Jérica,,,ES,ESP,2
+ES_CT_12072,Q601999,,ES,Spain,CT,Cataluña,12072,Llucena / Lucena del Cid,,,ES,ESP,2
+ES_CT_12073,Q1769737,,ES,Spain,CT,Cataluña,12073,Ludiente,,,ES,ESP,2
+ES_CT_12074,Q1900688,,ES,Spain,CT,Cataluña,12074,La Llosa,,,ES,ESP,2
+ES_CT_12075,Q1901661,,ES,Spain,CT,Cataluña,12075,La Mata de Morella,,,ES,ESP,2
+ES_CT_12076,Q1983295,,ES,Spain,CT,Cataluña,12076,Matet,,,ES,ESP,2
+ES_CT_12077,Q1635650,,ES,Spain,CT,Cataluña,12077,Moncofa,,,ES,ESP,2
+ES_CT_12078,Q1768889,,ES,Spain,CT,Cataluña,12078,Montán,,,ES,ESP,2
+ES_CT_12079,Q1768950,,ES,Spain,CT,Cataluña,12079,Montanejos,,,ES,ESP,2
+ES_CT_12080,Q732907,,ES,Spain,CT,Cataluña,12080,Morella,,,ES,ESP,2
+ES_CT_12081,Q1768720,,ES,Spain,CT,Cataluña,12081,Navajas,,,ES,ESP,2
+ES_CT_12082,Q1768703,,ES,Spain,CT,Cataluña,12082,Nules,,,ES,ESP,2
+ES_CT_12083,Q1900158,,ES,Spain,CT,Cataluña,12083,Olocau del Rey,,,ES,ESP,2
+ES_CT_12084,Q984821,,ES,Spain,CT,Cataluña,12084,Onda,,,ES,ESP,2
+ES_CT_12085,Q1596349,,ES,Spain,CT,Cataluña,12085,Oropesa del Mar,,,ES,ESP,2
+ES_CT_12087,Q843223,,ES,Spain,CT,Cataluña,12087,Palanques,,,ES,ESP,2
+ES_CT_12088,Q1767795,,ES,Spain,CT,Cataluña,12088,Pavías,,,ES,ESP,2
+ES_CT_12089,Q845424,,ES,Spain,CT,Cataluña,12089,Peniscola,,,ES,ESP,2
+ES_CT_12090,Q1900145,,ES,Spain,CT,Cataluña,12090,Pina de Montalgrao,,,ES,ESP,2
+ES_CT_12091,Q1900715,,ES,Spain,CT,Cataluña,12091,Portell de Morella,,,ES,ESP,2
+ES_CT_12092,Q1767485,,ES,Spain,CT,Cataluña,12092,Puebla de Arenoso,,,ES,ESP,2
+ES_CT_12093,Q744088,,ES,Spain,CT,Cataluña,12093,La Pobla de Benifassà,,,ES,ESP,2
+ES_CT_12094,Q1769146,,ES,Spain,CT,Cataluña,12094,La Pobla Tornesa,,,ES,ESP,2
+ES_CT_12095,Q975401,,ES,Spain,CT,Cataluña,12095,Ribesalbes,,,ES,ESP,2
+ES_CT_12096,Q1645981,,ES,Spain,CT,Cataluña,12096,Rossell,,,ES,ESP,2
+ES_CT_12097,Q1645715,,ES,Spain,CT,Cataluña,12097,Sacañet,,,ES,ESP,2
+ES_CT_12098,Q1900762,,ES,Spain,CT,Cataluña,12098,La Salzadella,,,ES,ESP,2
+ES_CT_12099,Q2045712,,ES,Spain,CT,Cataluña,12099,San Jorge,,,ES,ESP,2
+ES_CT_12100,Q984823,,ES,Spain,CT,Cataluña,12100,Sant Mateu,,,ES,ESP,2
+ES_CT_12101,Q613582,,ES,Spain,CT,Cataluña,12101,Sant Rafel del Riu,,,ES,ESP,2
+ES_CT_12102,Q1765443,,ES,Spain,CT,Cataluña,12102,Santa Magdalena de Polpís,,,ES,ESP,2
+ES_CT_12103,Q1766247,,ES,Spain,CT,Cataluña,12103,la Serratella,,,ES,ESP,2
+ES_CT_12104,Q750968,,ES,Spain,CT,Cataluña,12104,Segorbe,,,ES,ESP,2
+ES_CT_12105,Q1635361,,ES,Spain,CT,Cataluña,12105,La Serra d'en Galceran,,,ES,ESP,2
+ES_CT_12106,Q1645719,,ES,Spain,CT,Cataluña,12106,Soneja,,,ES,ESP,2
+ES_CT_12107,Q1766245,,ES,Spain,CT,Cataluña,12107,Sot de Ferrer,,,ES,ESP,2
+ES_CT_12108,Q1766238,,ES,Spain,CT,Cataluña,12108,Sueras/Suera,,,ES,ESP,2
+ES_CT_12109,Q1944909,,ES,Spain,CT,Cataluña,12109,Tales,,,ES,ESP,2
+ES_CT_12110,Q1995185,,ES,Spain,CT,Cataluña,12110,Teresa,,,ES,ESP,2
+ES_CT_12111,Q1983287,,ES,Spain,CT,Cataluña,12111,Tírig,,,ES,ESP,2
+ES_CT_12112,Q1766256,,ES,Spain,CT,Cataluña,12112,La Todolella,,,ES,ESP,2
+ES_CT_12113,Q1992572,,ES,Spain,CT,Cataluña,12113,Toga,,,ES,ESP,2
+ES_CT_12114,Q1983317,,ES,Spain,CT,Cataluña,12114,Torás,,,ES,ESP,2
+ES_CT_12115,Q1635936,,ES,Spain,CT,Cataluña,12115,El Toro,,,ES,ESP,2
+ES_CT_12116,Q1646877,,ES,Spain,CT,Cataluña,12116,Torralba del Pinar,,,ES,ESP,2
+ES_CT_12117,Q1635372,,ES,Spain,CT,Cataluña,12117,Torreblanca,,,ES,ESP,2
+ES_CT_12118,Q1765434,,ES,Spain,CT,Cataluña,12118,Torrechiva,,,ES,ESP,2
+ES_CT_12119,Q1769731,,ES,Spain,CT,Cataluña,12119,La Torre d'en Besora,,,ES,ESP,2
+ES_CT_12120,Q1646184,,ES,Spain,CT,Cataluña,12120,la Torre d'en Doménec,,,ES,ESP,2
+ES_CT_12121,Q1645728,,ES,Spain,CT,Cataluña,12121,Traiguera,,,ES,ESP,2
+ES_CT_12122,Q1983352,,ES,Spain,CT,Cataluña,12122,Les Useres / Useras,,,ES,ESP,2
+ES_CT_12123,Q1767475,,ES,Spain,CT,Cataluña,12123,Vallat,,,ES,ESP,2
+ES_CT_12124,Q1646881,,ES,Spain,CT,Cataluña,12124,Vall d'Alba,,,ES,ESP,2
+ES_CT_12125,Q780982,,ES,Spain,CT,Cataluña,12125,Vall de Almonacid,,,ES,ESP,2
+ES_CT_12126,Q1637512,,ES,Spain,CT,Cataluña,12126,La Vall d'Uixó,,,ES,ESP,2
+ES_CT_12127,Q1767567,,ES,Spain,CT,Cataluña,12127,Vallibona,,,ES,ESP,2
+ES_CT_12128,Q1116829,,ES,Spain,CT,Cataluña,12128,Vilafamés,,,ES,ESP,2
+ES_CT_12129,Q537017,,ES,Spain,CT,Cataluña,12129,Vilafranca / Villafranca del Cid,,,ES,ESP,2
+ES_CT_12130,Q605274,,ES,Spain,CT,Cataluña,12130,Villahermosa del Río,,,ES,ESP,2
+ES_CT_12131,Q1766516,,ES,Spain,CT,Cataluña,12131,Villamalur,,,ES,ESP,2
+ES_CT_12132,Q1646170,,ES,Spain,CT,Cataluña,12132,Vilanova d'Alcolea,,,ES,ESP,2
+ES_CT_12133,Q1646187,,ES,Spain,CT,Cataluña,12133,Villanueva de Viver,,,ES,ESP,2
+ES_CT_12134,Q1767537,,ES,Spain,CT,Cataluña,12134,Vilar de Canes,,,ES,ESP,2
+ES_CT_12135,Q12292,,ES,Spain,CT,Cataluña,12135,Vila-real,,,ES,ESP,2
+ES_CT_12136,Q1768916,,ES,Spain,CT,Cataluña,12136,La Vilavella,,,ES,ESP,2
+ES_CT_12137,Q1767507,,ES,Spain,CT,Cataluña,12137,Villores,,,ES,ESP,2
+ES_CT_12138,Q917888,,ES,Spain,CT,Cataluña,12138,Vinaròs,,,ES,ESP,2
+ES_CT_12139,Q1767446,,ES,Spain,CT,Cataluña,12139,Vistabella del Maestrat,,,ES,ESP,2
+ES_CT_12140,Q47544,,ES,Spain,CT,Cataluña,12140,Viver,,,ES,ESP,2
+ES_CT_12141,Q1901668,,ES,Spain,CT,Cataluña,12141,Zorita del Maestrazgo,,,ES,ESP,2
+ES_CT_12142,Q1766532,,ES,Spain,CT,Cataluña,12142,Zucaina,,,ES,ESP,2
+ES_CT_12901,Q1646869,,ES,Spain,CT,Cataluña,12901,Les Alqueries,,,ES,ESP,2
+ES_CT_12902,Q627890,,ES,Spain,CT,Cataluña,12902,Sant Joan de Moró,,,ES,ESP,2
+ES_CT_17001,Q6622,,ES,Spain,CT,Cataluña,17001,Agullana,,,ES,ESP,2
+ES_CT_17002,Q13412,,ES,Spain,CT,Cataluña,17002,Aiguaviva,,,ES,ESP,2
+ES_CT_17003,Q11817101,,ES,Spain,CT,Cataluña,17003,Pincaró,,,ES,ESP,2
+ES_CT_17004,Q13463,,ES,Spain,CT,Cataluña,17004,Albons,,,ES,ESP,2
+ES_CT_17005,Q11309,,ES,Spain,CT,Cataluña,17005,El Far d'Empordà,,,ES,ESP,2
+ES_CT_17006,Q13731,,ES,Spain,CT,Cataluña,17006,Alp,,,ES,ESP,2
+ES_CT_17007,Q13022,,ES,Spain,CT,Cataluña,17007,Amer,,,ES,ESP,2
+ES_CT_17008,Q18004791,,ES,Spain,CT,Cataluña,17008,Mines del Sant Pare,,,ES,ESP,2
+ES_CT_17009,Q13010,,ES,Spain,CT,Cataluña,17009,Arbúcies,,,ES,ESP,2
+ES_CT_17010,Q12582,,ES,Spain,CT,Cataluña,17010,Argelaguer,,,ES,ESP,2
+ES_CT_17011,Q11200,,ES,Spain,CT,Cataluña,17011,L'Armentera,,,ES,ESP,2
+ES_CT_17012,Q11227,,ES,Spain,CT,Cataluña,17012,Avinyonet de Puigventós,,,ES,ESP,2
+ES_CT_17013,Q10969830,,ES,Spain,CT,Cataluña,17013,Esclanyà,,,ES,ESP,2
+ES_CT_17014,Q6657,,ES,Spain,CT,Cataluña,17014,La Vajol,,,ES,ESP,2
+ES_CT_17015,Q13614,,ES,Spain,CT,Cataluña,17015,Banyoles,,,ES,ESP,2
+ES_CT_17016,Q11232,,ES,Spain,CT,Cataluña,17016,Bàscara,,,ES,ESP,2
+ES_CT_17018,Q13461,,ES,Spain,CT,Cataluña,17018,Bellcaire d'Empordà,,,ES,ESP,2
+ES_CT_17019,Q12586,,ES,Spain,CT,Cataluña,17019,Besalú,,,ES,ESP,2
+ES_CT_17020,Q13417,,ES,Spain,CT,Cataluña,17020,Bescanó,,,ES,ESP,2
+ES_CT_17021,Q12593,,ES,Spain,CT,Cataluña,17021,Beuda,,,ES,ESP,2
+ES_CT_17022,Q13460,,ES,Spain,CT,Cataluña,17022,La Bisbal d'Empordà,,,ES,ESP,2
+ES_CT_17023,Q12991,,ES,Spain,CT,Cataluña,17023,Blanes,,,ES,ESP,2
+ES_CT_17024,Q13733,,ES,Spain,CT,Cataluña,17024,Bolvir,,,ES,ESP,2
+ES_CT_17025,Q13419,,ES,Spain,CT,Cataluña,17025,Bordils,,,ES,ESP,2
+ES_CT_17026,Q11242,,ES,Spain,CT,Cataluña,17026,Borrassà,,,ES,ESP,2
+ES_CT_17027,Q13638,,ES,Spain,CT,Cataluña,17027,Breda,,,ES,ESP,2
+ES_CT_17028,Q13056,,ES,Spain,CT,Cataluña,17028,Brunyola,,,ES,ESP,2
+ES_CT_17029,Q11238,,ES,Spain,CT,Cataluña,17029,Boadella i les Escaules,,,ES,ESP,2
+ES_CT_17030,Q11257,,ES,Spain,CT,Cataluña,17030,Cabanes,,,ES,ESP,2
+ES_CT_17031,Q11247,,ES,Spain,CT,Cataluña,17031,Cabanelles,,,ES,ESP,2
+ES_CT_17032,Q11263,,ES,Spain,CT,Cataluña,17032,Cadaqués,,,ES,ESP,2
+ES_CT_17033,Q13064,,ES,Spain,CT,Cataluña,17033,Caldes de Malavella,,,ES,ESP,2
+ES_CT_17034,Q13459,,ES,Spain,CT,Cataluña,17034,Calonge i Sant Antoni,,,ES,ESP,2
+ES_CT_17035,Q5495,,ES,Spain,CT,Cataluña,17035,Camós,,,ES,ESP,2
+ES_CT_17036,Q12228,,ES,Spain,CT,Cataluña,17036,Campdevànol,,,ES,ESP,2
+ES_CT_17037,Q12240,,ES,Spain,CT,Cataluña,17037,Campelles,,,ES,ESP,2
+ES_CT_17038,Q13421,,ES,Spain,CT,Cataluña,17038,Campllong,,,ES,ESP,2
+ES_CT_17039,Q11923091,,ES,Spain,CT,Cataluña,17039,Freixenet,,,ES,ESP,2
+ES_CT_17040,Q13422,,ES,Spain,CT,Cataluña,17040,Canet d'Adri,,,ES,ESP,2
+ES_CT_17041,Q7086,,ES,Spain,CT,Cataluña,17041,Cantallops,,,ES,ESP,2
+ES_CT_17042,Q7106,,ES,Spain,CT,Cataluña,17042,Capmany,,,ES,ESP,2
+ES_CT_17043,Q12327,,ES,Spain,CT,Cataluña,17043,Queralbs,,,ES,ESP,2
+ES_CT_17044,Q13424,,ES,Spain,CT,Cataluña,17044,Cassà de la Selva,,,ES,ESP,2
+ES_CT_17046,Q12598,,ES,Spain,CT,Cataluña,17046,Castellfollit de la Roca,,,ES,ESP,2
+ES_CT_17047,Q11286,,ES,Spain,CT,Cataluña,17047,Castelló d'Empúries,,,ES,ESP,2
+ES_CT_17048,Q13467,,ES,Spain,CT,Cataluña,17048,Castell-Platja d'Aro,,,ES,ESP,2
+ES_CT_17049,Q13426,,ES,Spain,CT,Cataluña,17049,Celrà,,,ES,ESP,2
+ES_CT_17050,Q13428,,ES,Spain,CT,Cataluña,17050,Cervià de Ter,,,ES,ESP,2
+ES_CT_17051,Q11291,,ES,Spain,CT,Cataluña,17051,Cistella,,,ES,ESP,2
+ES_CT_17052,Q29044,,ES,Spain,CT,Cataluña,17052,Siurana,,,ES,ESP,2
+ES_CT_17054,Q11296,,ES,Spain,CT,Cataluña,17054,Colera,,,ES,ESP,2
+ES_CT_17055,Q13469,,ES,Spain,CT,Cataluña,17055,Colomers,,,ES,ESP,2
+ES_CT_17056,Q21086133,,ES,Spain,CT,Cataluña,17056,Ravós del Terri,,,ES,ESP,2
+ES_CT_17057,Q13468,,ES,Spain,CT,Cataluña,17057,Corçà,,,ES,ESP,2
+ES_CT_17058,Q13610,,ES,Spain,CT,Cataluña,17058,Crespià,,,ES,ESP,2
+ES_CT_17060,Q6677,,ES,Spain,CT,Cataluña,17060,Darnius,,,ES,ESP,2
+ES_CT_17061,Q13734,,ES,Spain,CT,Cataluña,17061,Das,,,ES,ESP,2
+ES_CT_17062,Q11304,,ES,Spain,CT,Cataluña,17062,L'Escala,,,ES,ESP,2
+ES_CT_17063,Q13780,,ES,Spain,CT,Cataluña,17063,Espinelves,,,ES,ESP,2
+ES_CT_17064,Q7079,,ES,Spain,CT,Cataluña,17064,Espolla,,,ES,ESP,2
+ES_CT_17065,Q13611,,ES,Spain,CT,Cataluña,17065,Esponellà,,,ES,ESP,2
+ES_CT_17066,Q6839,,ES,Spain,CT,Cataluña,17066,Figueres,,,ES,ESP,2
+ES_CT_17067,Q13430,,ES,Spain,CT,Cataluña,17067,Flaçà,,,ES,ESP,2
+ES_CT_17068,Q13465,,ES,Spain,CT,Cataluña,17068,Foixà,,,ES,ESP,2
+ES_CT_17069,Q13735,,ES,Spain,CT,Cataluña,17069,Fontanals de Cerdanya,,,ES,ESP,2
+ES_CT_17070,Q13476,,ES,Spain,CT,Cataluña,17070,Fontanilles,,,ES,ESP,2
+ES_CT_17071,Q13608,,ES,Spain,CT,Cataluña,17071,Fontcoberta,,,ES,ESP,2
+ES_CT_17073,Q13431,,ES,Spain,CT,Cataluña,17073,Fornells de la Selva,,,ES,ESP,2
+ES_CT_17074,Q11314,,ES,Spain,CT,Cataluña,17074,Fortià,,,ES,ESP,2
+ES_CT_17075,Q11329,,ES,Spain,CT,Cataluña,17075,Garrigàs,,,ES,ESP,2
+ES_CT_17076,Q13474,,ES,Spain,CT,Cataluña,17076,Garrigoles,,,ES,ESP,2
+ES_CT_17077,Q11324,,ES,Spain,CT,Cataluña,17077,Garriguella,,,ES,ESP,2
+ES_CT_17078,Q13749,,ES,Spain,CT,Cataluña,17078,Ger,,,ES,ESP,2
+ES_CT_17079,Q7038,,ES,Spain,CT,Cataluña,17079,Girona,,,ES,ESP,2
+ES_CT_17080,Q12251,,ES,Spain,CT,Cataluña,17080,Gombrèn,,,ES,ESP,2
+ES_CT_17081,Q13472,,ES,Spain,CT,Cataluña,17081,Gualta,,,ES,ESP,2
+ES_CT_17082,Q13748,,ES,Spain,CT,Cataluña,17082,Guils de Cerdanya,,,ES,ESP,2
+ES_CT_17083,Q13643,,ES,Spain,CT,Cataluña,17083,Hostalric,,,ES,ESP,2
+ES_CT_17084,Q13747,,ES,Spain,CT,Cataluña,17084,Isòvol,,,ES,ESP,2
+ES_CT_17085,Q13471,,ES,Spain,CT,Cataluña,17085,Jafre,,,ES,ESP,2
+ES_CT_17086,Q7113,,ES,Spain,CT,Cataluña,17086,La Jonquera,,,ES,ESP,2
+ES_CT_17087,Q13432,,ES,Spain,CT,Cataluña,17087,Juià,,,ES,ESP,2
+ES_CT_17088,Q11334,,ES,Spain,CT,Cataluña,17088,Lladó,,,ES,ESP,2
+ES_CT_17089,Q13435,,ES,Spain,CT,Cataluña,17089,Llagostera,,,ES,ESP,2
+ES_CT_17090,Q13438,,ES,Spain,CT,Cataluña,17090,Llambilles,,,ES,ESP,2
+ES_CT_17091,Q12267,,ES,Spain,CT,Cataluña,17091,Llanars,,,ES,ESP,2
+ES_CT_17092,Q11339,,ES,Spain,CT,Cataluña,17092,Llançà,,,ES,ESP,2
+ES_CT_17093,Q11342,,ES,Spain,CT,Cataluña,17093,Llers,,,ES,ESP,2
+ES_CT_17094,Q13745,,ES,Spain,CT,Cataluña,17094,Llívia,,,ES,ESP,2
+ES_CT_17095,Q12977,,ES,Spain,CT,Cataluña,17095,Lloret de Mar,,,ES,ESP,2
+ES_CT_17096,Q12275,,ES,Spain,CT,Cataluña,17096,Les Llosses,,,ES,ESP,2
+ES_CT_17097,Q13441,,ES,Spain,CT,Cataluña,17097,Madremanya,,,ES,ESP,2
+ES_CT_17098,Q12601,,ES,Spain,CT,Cataluña,17098,Maià de Montcal,,,ES,ESP,2
+ES_CT_17099,Q13754,,ES,Spain,CT,Cataluña,17099,Meranges,,,ES,ESP,2
+ES_CT_17100,Q11347,,ES,Spain,CT,Cataluña,17100,Masarac,,,ES,ESP,2
+ES_CT_17101,Q13637,,ES,Spain,CT,Cataluña,17101,Massanes,,,ES,ESP,2
+ES_CT_17102,Q6615,,ES,Spain,CT,Cataluña,17102,Maçanet de Cabrenys,,,ES,ESP,2
+ES_CT_17103,Q13634,,ES,Spain,CT,Cataluña,17103,Maçanet de la Selva,,,ES,ESP,2
+ES_CT_17105,Q12604,,ES,Spain,CT,Cataluña,17105,Mieres,,,ES,ESP,2
+ES_CT_17106,Q11355,,ES,Spain,CT,Cataluña,17106,Mollet de Peralada,,,ES,ESP,2
+ES_CT_17107,Q12281,,ES,Spain,CT,Cataluña,17107,Molló,,,ES,ESP,2
+ES_CT_17109,Q12609,,ES,Spain,CT,Cataluña,17109,Montagut i Oix,,,ES,ESP,2
+ES_CT_17110,Q13489,,ES,Spain,CT,Cataluña,17110,Mont-ras,,,ES,ESP,2
+ES_CT_17111,Q11360,,ES,Spain,CT,Cataluña,17111,Navata,,,ES,ESP,2
+ES_CT_17112,Q12285,,ES,Spain,CT,Cataluña,17112,Ogassa,,,ES,ESP,2
+ES_CT_17114,Q12618,,ES,Spain,CT,Cataluña,17114,Olot,,,ES,ESP,2
+ES_CT_17115,Q11796,,ES,Spain,CT,Cataluña,17115,Ordis,,,ES,ESP,2
+ES_CT_17116,Q13016,,ES,Spain,CT,Cataluña,17116,Osor,,,ES,ESP,2
+ES_CT_17117,Q23994223,,ES,Spain,CT,Cataluña,17117,Palafrugell,,,ES,ESP,2
+ES_CT_17118,Q13491,,ES,Spain,CT,Cataluña,17118,Palamós,,,ES,ESP,2
+ES_CT_17119,Q11797,,ES,Spain,CT,Cataluña,17119,Palau de Santa Eulàlia,,,ES,ESP,2
+ES_CT_17120,Q11798,,ES,Spain,CT,Cataluña,17120,Palau-saverdera,,,ES,ESP,2
+ES_CT_17121,Q13492,,ES,Spain,CT,Cataluña,17121,Palau-sator,,,ES,ESP,2
+ES_CT_17123,Q13609,,ES,Spain,CT,Cataluña,17123,Palol de Revardit,,,ES,ESP,2
+ES_CT_17124,Q13493,,ES,Spain,CT,Cataluña,17124,Pals,,,ES,ESP,2
+ES_CT_17125,Q12294,,ES,Spain,CT,Cataluña,17125,Pardines,,,ES,ESP,2
+ES_CT_17126,Q13516,,ES,Spain,CT,Cataluña,17126,Parlavà,,,ES,ESP,2
+ES_CT_17128,Q11799,,ES,Spain,CT,Cataluña,17128,Pau,,,ES,ESP,2
+ES_CT_17129,Q11802,,ES,Spain,CT,Cataluña,17129,Pedret i Marzà,,,ES,ESP,2
+ES_CT_17130,Q13518,,ES,Spain,CT,Cataluña,17130,La Pera,,,ES,ESP,2
+ES_CT_17132,Q11803,,ES,Spain,CT,Cataluña,17132,Peralada,,,ES,ESP,2
+ES_CT_17133,Q12625,,ES,Spain,CT,Cataluña,17133,Les Planes d'Hostoles,,,ES,ESP,2
+ES_CT_17134,Q12318,,ES,Spain,CT,Cataluña,17134,Planoles,,,ES,ESP,2
+ES_CT_17135,Q11804,,ES,Spain,CT,Cataluña,17135,Pont de Molins,,,ES,ESP,2
+ES_CT_17136,Q11807,,ES,Spain,CT,Cataluña,17136,Pontós,,,ES,ESP,2
+ES_CT_17137,Q13607,,ES,Spain,CT,Cataluña,17137,Porqueres,,,ES,ESP,2
+ES_CT_17138,Q7165,,ES,Spain,CT,Cataluña,17138,Portbou,,,ES,ESP,2
+ES_CT_17139,Q12629,,ES,Spain,CT,Cataluña,17139,Les Preses,,,ES,ESP,2
+ES_CT_17140,Q11811,,ES,Spain,CT,Cataluña,17140,El Port de la Selva,,,ES,ESP,2
+ES_CT_17141,Q13765,,ES,Spain,CT,Cataluña,17141,Puigcerdà,,,ES,ESP,2
+ES_CT_17142,Q13443,,ES,Spain,CT,Cataluña,17142,Quart,,,ES,ESP,2
+ES_CT_17143,Q7126,,ES,Spain,CT,Cataluña,17143,Rabós,,,ES,ESP,2
+ES_CT_17144,Q13519,,ES,Spain,CT,Cataluña,17144,Regencós,,,ES,ESP,2
+ES_CT_17145,Q12330,,ES,Spain,CT,Cataluña,17145,Ribes de Freser,,,ES,ESP,2
+ES_CT_17146,Q13073,,ES,Spain,CT,Cataluña,17146,Riells i Viabrea,,,ES,ESP,2
+ES_CT_17147,Q12335,,ES,Spain,CT,Cataluña,17147,Ripoll,,,ES,ESP,2
+ES_CT_17148,Q13078,,ES,Spain,CT,Cataluña,17148,Riudarenes,,,ES,ESP,2
+ES_CT_17149,Q12634,,ES,Spain,CT,Cataluña,17149,Riudaura,,,ES,ESP,2
+ES_CT_17150,Q13635,,ES,Spain,CT,Cataluña,17150,Riudellots de la Selva,,,ES,ESP,2
+ES_CT_17151,Q11818,,ES,Spain,CT,Cataluña,17151,Riumors,,,ES,ESP,2
+ES_CT_17152,Q11822,,ES,Spain,CT,Cataluña,17152,Roses,,,ES,ESP,2
+ES_CT_17153,Q13520,,ES,Spain,CT,Cataluña,17153,Verges,,,ES,ESP,2
+ES_CT_17154,Q12643,,ES,Spain,CT,Cataluña,17154,Sales de Llierca,,,ES,ESP,2
+ES_CT_17155,Q13444,,ES,Spain,CT,Cataluña,17155,Salt,,,ES,ESP,2
+ES_CT_17157,Q13449,,ES,Spain,CT,Cataluña,17157,Sant Andreu Salou,,,ES,ESP,2
+ES_CT_17158,Q10927,,ES,Spain,CT,Cataluña,17158,Sant Climent Sescebes,,,ES,ESP,2
+ES_CT_17159,Q13633,,ES,Spain,CT,Cataluña,17159,Sant Feliu de Buixalleu,,,ES,ESP,2
+ES_CT_17160,Q13521,,ES,Spain,CT,Cataluña,17160,Sant Feliu de Guíxols,,,ES,ESP,2
+ES_CT_17161,Q12656,,ES,Spain,CT,Cataluña,17161,Sant Feliu de Pallerols,,,ES,ESP,2
+ES_CT_17162,Q12671,,ES,Spain,CT,Cataluña,17162,Sant Ferriol,,,ES,ESP,2
+ES_CT_17163,Q13448,,ES,Spain,CT,Cataluña,17163,Sant Gregori,,,ES,ESP,2
+ES_CT_17164,Q13639,,ES,Spain,CT,Cataluña,17164,Sant Hilari Sacalm,,,ES,ESP,2
+ES_CT_17165,Q12685,,ES,Spain,CT,Cataluña,17165,Sant Jaume de Llierca,,,ES,ESP,2
+ES_CT_17166,Q13454,,ES,Spain,CT,Cataluña,17166,Sant Jordi Desvalls,,,ES,ESP,2
+ES_CT_17167,Q12339,,ES,Spain,CT,Cataluña,17167,Sant Joan de les Abadesses,,,ES,ESP,2
+ES_CT_17168,Q13447,,ES,Spain,CT,Cataluña,17168,Sant Joan de Mollet,,,ES,ESP,2
+ES_CT_17169,Q13453,,ES,Spain,CT,Cataluña,17169,Sant Julià de Ramis,,,ES,ESP,2
+ES_CT_17170,Q12356,,ES,Spain,CT,Cataluña,17170,Vallfogona de Ripollès,,,ES,ESP,2
+ES_CT_17171,Q11832,,ES,Spain,CT,Cataluña,17171,Sant Llorenç de la Muga,,,ES,ESP,2
+ES_CT_17172,Q763657,,ES,Spain,CT,Cataluña,17172,Llorà,,,ES,ESP,2
+ES_CT_17173,Q13458,,ES,Spain,CT,Cataluña,17173,Sant Martí Vell,,,ES,ESP,2
+ES_CT_17174,Q13612,,ES,Spain,CT,Cataluña,17174,Sant Miquel de Campmajor,,,ES,ESP,2
+ES_CT_17175,Q11837,,ES,Spain,CT,Cataluña,17175,Sant Miquel de Fluvià,,,ES,ESP,2
+ES_CT_17176,Q11844,,ES,Spain,CT,Cataluña,17176,Sant Mori,,,ES,ESP,2
+ES_CT_17177,Q12343,,ES,Spain,CT,Cataluña,17177,Sant Pau de Segúries,,,ES,ESP,2
+ES_CT_17178,Q11852,,ES,Spain,CT,Cataluña,17178,Sant Pere Pescador,,,ES,ESP,2
+ES_CT_17180,Q17182013,,ES,Spain,CT,Cataluña,17180,Castanyet,,,ES,ESP,2
+ES_CT_17181,Q13569,,ES,Spain,CT,Cataluña,17181,Santa Cristina d'Aro,,,ES,ESP,2
+ES_CT_17182,Q11858,,ES,Spain,CT,Cataluña,17182,Santa Llogaia d'Àlguema,,,ES,ESP,2
+ES_CT_17183,Q12653,,ES,Spain,CT,Cataluña,17183,Sant Aniol de Finestres,,,ES,ESP,2
+ES_CT_17184,Q12691,,ES,Spain,CT,Cataluña,17184,Santa Pau,,,ES,ESP,2
+ES_CT_17185,Q12677,,ES,Spain,CT,Cataluña,17185,Sant Joan les Fonts,,,ES,ESP,2
+ES_CT_17186,Q13456,,ES,Spain,CT,Cataluña,17186,Sarrià de Ter,,,ES,ESP,2
+ES_CT_17187,Q11865,,ES,Spain,CT,Cataluña,17187,"Saus, Camallera i Llampaies",,,ES,ESP,2
+ES_CT_17188,Q11886,,ES,Spain,CT,Cataluña,17188,La Selva de Mar,,,ES,ESP,2
+ES_CT_17189,Q13641,,ES,Spain,CT,Cataluña,17189,La Cellera de Ter,,,ES,ESP,2
+ES_CT_17190,Q13621,,ES,Spain,CT,Cataluña,17190,Serinyà,,,ES,ESP,2
+ES_CT_17191,Q13570,,ES,Spain,CT,Cataluña,17191,Serra de Daró,,,ES,ESP,2
+ES_CT_17192,Q12348,,ES,Spain,CT,Cataluña,17192,Setcases,,,ES,ESP,2
+ES_CT_17193,Q13050,,ES,Spain,CT,Cataluña,17193,Sils,,,ES,ESP,2
+ES_CT_17194,Q13642,,ES,Spain,CT,Cataluña,17194,Susqueda,,,ES,ESP,2
+ES_CT_17195,Q13571,,ES,Spain,CT,Cataluña,17195,La Tallada d'Empordà,,,ES,ESP,2
+ES_CT_17196,Q11897,,ES,Spain,CT,Cataluña,17196,Terrades,,,ES,ESP,2
+ES_CT_17197,Q13572,,ES,Spain,CT,Cataluña,17197,Torrent,,,ES,ESP,2
+ES_CT_17198,Q11902,,ES,Spain,CT,Cataluña,17198,Torroella de Fluvià,,,ES,ESP,2
+ES_CT_17199,Q13573,,ES,Spain,CT,Cataluña,17199,Torroella de Montgrí,,,ES,ESP,2
+ES_CT_17200,Q12698,,ES,Spain,CT,Cataluña,17200,Tortellà,,,ES,ESP,2
+ES_CT_17201,Q12352,,ES,Spain,CT,Cataluña,17201,Toses,,,ES,ESP,2
+ES_CT_17202,Q13006,,ES,Spain,CT,Cataluña,17202,Tossa de Mar,,,ES,ESP,2
+ES_CT_17203,Q13588,,ES,Spain,CT,Cataluña,17203,Ultramort,,,ES,ESP,2
+ES_CT_17204,Q13592,,ES,Spain,CT,Cataluña,17204,Ullà,,,ES,ESP,2
+ES_CT_17205,Q13589,,ES,Spain,CT,Cataluña,17205,Ullastret,,,ES,ESP,2
+ES_CT_17206,Q13761,,ES,Spain,CT,Cataluña,17206,Urús,,,ES,ESP,2
+ES_CT_17207,Q12710,,ES,Spain,CT,Cataluña,17207,La Vall d'en Bas,,,ES,ESP,2
+ES_CT_17208,Q12701,,ES,Spain,CT,Cataluña,17208,La Vall de Bianya,,,ES,ESP,2
+ES_CT_17209,Q13587,,ES,Spain,CT,Cataluña,17209,Vall-llobrega,,,ES,ESP,2
+ES_CT_17210,Q11908,,ES,Spain,CT,Cataluña,17210,Ventalló,,,ES,ESP,2
+ES_CT_17211,Q13586,,ES,Spain,CT,Cataluña,17211,Verges,,,ES,ESP,2
+ES_CT_17212,Q13856,,ES,Spain,CT,Cataluña,17212,Vidrà,,,ES,ESP,2
+ES_CT_17213,Q13715,,ES,Spain,CT,Cataluña,17213,Vidreres,,,ES,ESP,2
+ES_CT_17214,Q12148,,ES,Spain,CT,Cataluña,17214,Vilabertran,,,ES,ESP,2
+ES_CT_17215,Q13457,,ES,Spain,CT,Cataluña,17215,Vilablareix,,,ES,ESP,2
+ES_CT_17216,Q13455,,ES,Spain,CT,Cataluña,17216,Viladasens,,,ES,ESP,2
+ES_CT_17217,Q12151,,ES,Spain,CT,Cataluña,17217,Viladamat,,,ES,ESP,2
+ES_CT_17218,Q13620,,ES,Spain,CT,Cataluña,17218,Vilademuls,,,ES,ESP,2
+ES_CT_17220,Q13858,,ES,Spain,CT,Cataluña,17220,Viladrau,,,ES,ESP,2
+ES_CT_17221,Q12153,,ES,Spain,CT,Cataluña,17221,Vilafant,,,ES,ESP,2
+ES_CT_17222,Q12177,,ES,Spain,CT,Cataluña,17222,Vilaür,,,ES,ESP,2
+ES_CT_17223,Q12159,,ES,Spain,CT,Cataluña,17223,Vilajuïga,,,ES,ESP,2
+ES_CT_17224,Q12361,,ES,Spain,CT,Cataluña,17224,Vilallonga de Ter,,,ES,ESP,2
+ES_CT_17225,Q12161,,ES,Spain,CT,Cataluña,17225,Vilamacolum,,,ES,ESP,2
+ES_CT_17226,Q12163,,ES,Spain,CT,Cataluña,17226,Vilamalla,,,ES,ESP,2
+ES_CT_17227,Q12165,,ES,Spain,CT,Cataluña,17227,Vilamaniscle,,,ES,ESP,2
+ES_CT_17228,Q12173,,ES,Spain,CT,Cataluña,17228,Vilanant,,,ES,ESP,2
+ES_CT_17230,Q1043496,,ES,Spain,CT,Cataluña,17230,Vila-sacra,,,ES,ESP,2
+ES_CT_17232,Q13585,,ES,Spain,CT,Cataluña,17232,Vilopriu,,,ES,ESP,2
+ES_CT_17233,Q13718,,ES,Spain,CT,Cataluña,17233,Vilobí d'Onyar,,,ES,ESP,2
+ES_CT_17234,Q11236,,ES,Spain,CT,Cataluña,17234,Biure,,,ES,ESP,2
+ES_CT_17901,Q13466,,ES,Spain,CT,Cataluña,17901,"Cruïlles, Monells i Sant Sadurní de l'Heura",,,ES,ESP,2
+ES_CT_17902,Q13475,,ES,Spain,CT,Cataluña,17902,"Vulpellac, Fonteta i Peratallada",,,ES,ESP,2
+ES_CT_17903,Q13640,,ES,Spain,CT,Cataluña,17903,Sant Julià del Llor i Bonmatí,,,ES,ESP,2
+ES_CT_25001,Q18257,,ES,Spain,CT,Cataluña,25001,Abella de la Conca,,,ES,ESP,2
+ES_CT_25002,Q372127,,ES,Spain,CT,Cataluña,25002,Àger,,,ES,ESP,2
+ES_CT_25003,Q1778278,,ES,Spain,CT,Cataluña,25003,Agramunt,,,ES,ESP,2
+ES_CT_25004,Q1902061,,ES,Spain,CT,Cataluña,25004,Els Alamús,,,ES,ESP,2
+ES_CT_25005,Q1647251,,ES,Spain,CT,Cataluña,25005,Alàs i Cerc,,,ES,ESP,2
+ES_CT_25006,Q1902147,,ES,Spain,CT,Cataluña,25006,L'Albagés,,,ES,ESP,2
+ES_CT_25007,Q1646558,,ES,Spain,CT,Cataluña,25007,Albatàrrec,,,ES,ESP,2
+ES_CT_25008,Q1770869,,ES,Spain,CT,Cataluña,25008,Albesa,,,ES,ESP,2
+ES_CT_25009,Q284698,,ES,Spain,CT,Cataluña,25009,L'Albi,,,ES,ESP,2
+ES_CT_25010,Q966636,,ES,Spain,CT,Cataluña,25010,Alcanó,,,ES,ESP,2
+ES_CT_25011,Q1772290,,ES,Spain,CT,Cataluña,25011,Alcarràs,,,ES,ESP,2
+ES_CT_25012,Q1772295,,ES,Spain,CT,Cataluña,25012,Alcoletge,,,ES,ESP,2
+ES_CT_25013,Q1646865,,ES,Spain,CT,Cataluña,25013,Alfarràs,,,ES,ESP,2
+ES_CT_25014,Q1772312,,ES,Spain,CT,Cataluña,25014,Alfés,,,ES,ESP,2
+ES_CT_25015,Q1770837,,ES,Spain,CT,Cataluña,25015,Algerri,,,ES,ESP,2
+ES_CT_25016,Q1133160,,ES,Spain,CT,Cataluña,25016,Alguaire,,,ES,ESP,2
+ES_CT_25017,Q12672,,ES,Spain,CT,Cataluña,25017,Alins,,,ES,ESP,2
+ES_CT_25019,Q1626921,,ES,Spain,CT,Cataluña,25019,Almacelles,,,ES,ESP,2
+ES_CT_25020,Q927856,,ES,Spain,CT,Cataluña,25020,Almatret,,,ES,ESP,2
+ES_CT_25021,Q1646570,,ES,Spain,CT,Cataluña,25021,Almenar,,,ES,ESP,2
+ES_CT_25022,Q664499,,ES,Spain,CT,Cataluña,25022,Alòs de Balaguer,,,ES,ESP,2
+ES_CT_25023,Q1770847,,ES,Spain,CT,Cataluña,25023,Alpicat,,,ES,ESP,2
+ES_CT_25024,Q12655,,ES,Spain,CT,Cataluña,25024,Alt Àneu,,,ES,ESP,2
+ES_CT_25025,Q985682,,ES,Spain,CT,Cataluña,25025,Naut Aran,,,ES,ESP,2
+ES_CT_25027,Q24013037,,ES,Spain,CT,Cataluña,25027,Anglesola,,,ES,ESP,2
+ES_CT_25029,Q372836,,ES,Spain,CT,Cataluña,25029,Arbeca,,,ES,ESP,2
+ES_CT_25030,Q1645028,,ES,Spain,CT,Cataluña,25030,El Pont de Bar,,,ES,ESP,2
+ES_CT_25031,Q65299735,,ES,Spain,CT,Cataluña,25031,Arres de Sus,,,ES,ESP,2
+ES_CT_25032,Q1645033,,ES,Spain,CT,Cataluña,25032,Arsèguel,,,ES,ESP,2
+ES_CT_25033,Q1648857,,ES,Spain,CT,Cataluña,25033,Artesa de Lleida,,,ES,ESP,2
+ES_CT_25034,Q19368356,,ES,Spain,CT,Cataluña,25034,Vall-llebrerola,,,ES,ESP,2
+ES_CT_25035,Q19368340,,ES,Spain,CT,Cataluña,25035,el Tossal de les Forques,,,ES,ESP,2
+ES_CT_25036,Q1770861,,ES,Spain,CT,Cataluña,25036,Aspa,,,ES,ESP,2
+ES_CT_25037,Q1648087,,ES,Spain,CT,Cataluña,25037,Les Avellanes i Santa Linya,,,ES,ESP,2
+ES_CT_25038,Q1646588,,ES,Spain,CT,Cataluña,25038,Aitona,,,ES,ESP,2
+ES_CT_25039,Q12693,,ES,Spain,CT,Cataluña,25039,Baix Pallars,,,ES,ESP,2
+ES_CT_25040,Q696797,,ES,Spain,CT,Cataluña,25040,Balaguer,,,ES,ESP,2
+ES_CT_25041,Q604286,,ES,Spain,CT,Cataluña,25041,Barbens,,,ES,ESP,2
+ES_CT_25042,Q492548,,ES,Spain,CT,Cataluña,25042,La Baronia de Rialb,,,ES,ESP,2
+ES_CT_25043,Q12711,,ES,Spain,CT,Cataluña,25043,La Vall de Boí,,,ES,ESP,2
+ES_CT_25044,Q810494,,ES,Spain,CT,Cataluña,25044,Bassella,,,ES,ESP,2
+ES_CT_25045,Q11942352,,ES,Spain,CT,Cataluña,25045,Pontaut,,,ES,ESP,2
+ES_CT_25046,Q1902089,,ES,Spain,CT,Cataluña,25046,Belianes,,,ES,ESP,2
+ES_CT_25047,Q1900130,,ES,Spain,CT,Cataluña,25047,Bellcaire d'Urgell,,,ES,ESP,2
+ES_CT_25048,Q1902343,,ES,Spain,CT,Cataluña,25048,Bell-lloc d'Urgell,,,ES,ESP,2
+ES_CT_25049,Q1901711,,ES,Spain,CT,Cataluña,25049,Bellmunt d'Urgell,,,ES,ESP,2
+ES_CT_25050,Q948983,,ES,Spain,CT,Cataluña,25050,Bellpuig,,,ES,ESP,2
+ES_CT_25051,Q13732,,ES,Spain,CT,Cataluña,25051,Bellver de Cerdanya,,,ES,ESP,2
+ES_CT_25052,Q1772309,,ES,Spain,CT,Cataluña,25052,Bellvís,,,ES,ESP,2
+ES_CT_25053,Q1769713,,ES,Spain,CT,Cataluña,25053,Benavent de Segrià,,,ES,ESP,2
+ES_CT_25055,Q1901345,,ES,Spain,CT,Cataluña,25055,Biosca,,,ES,ESP,2
+ES_CT_25056,Q1770843,,ES,Spain,CT,Cataluña,25056,Bovera,,,ES,ESP,2
+ES_CT_25057,Q12624,,ES,Spain,CT,Cataluña,25057,Es Bòrdes,,,ES,ESP,2
+ES_CT_25058,Q928006,,ES,Spain,CT,Cataluña,25058,Les Borges Blanques,,,ES,ESP,2
+ES_CT_25059,Q12615,,ES,Spain,CT,Cataluña,25059,Bossòst,,,ES,ESP,2
+ES_CT_25060,Q1770856,,ES,Spain,CT,Cataluña,25060,Cabanabona,,,ES,ESP,2
+ES_CT_25061,Q1752450,,ES,Spain,CT,Cataluña,25061,Cabó,,,ES,ESP,2
+ES_CT_25062,Q1995286,,ES,Spain,CT,Cataluña,25062,Camarasa,,,ES,ESP,2
+ES_CT_25063,Q12627,,ES,Spain,CT,Cataluña,25063,Canejan,,,ES,ESP,2
+ES_CT_25064,Q1901187,,ES,Spain,CT,Cataluña,25064,Castelló de la Ribera,,,ES,ESP,2
+ES_CT_25067,Q1770839,,ES,Spain,CT,Cataluña,25067,Castelldans,,,ES,ESP,2
+ES_CT_25068,Q1116148,,ES,Spain,CT,Cataluña,25068,Castellnou de Seana,,,ES,ESP,2
+ES_CT_25069,Q1770851,,ES,Spain,CT,Cataluña,25069,Castelló de Farfanya,,,ES,ESP,2
+ES_CT_25070,Q1769681,,ES,Spain,CT,Cataluña,25070,Castellserà,,,ES,ESP,2
+ES_CT_25071,Q1752298,,ES,Spain,CT,Cataluña,25071,Cava,,,ES,ESP,2
+ES_CT_25072,Q847011,,ES,Spain,CT,Cataluña,25072,Cervera,,,ES,ESP,2
+ES_CT_25073,Q1769645,,ES,Spain,CT,Cataluña,25073,Cervià de les Garrigues,,,ES,ESP,2
+ES_CT_25074,Q1769563,,ES,Spain,CT,Cataluña,25074,Ciutadilla,,,ES,ESP,2
+ES_CT_25075,Q539389,,ES,Spain,CT,Cataluña,25075,Clariana de Cardener,,,ES,ESP,2
+ES_CT_25076,Q1769580,,ES,Spain,CT,Cataluña,25076,El Cogul,,,ES,ESP,2
+ES_CT_25077,Q969224,,ES,Spain,CT,Cataluña,25077,Coll de Nargó,,,ES,ESP,2
+ES_CT_25078,Q1646595,,ES,Spain,CT,Cataluña,25078,Corbins,,,ES,ESP,2
+ES_CT_25079,Q1769656,,ES,Spain,CT,Cataluña,25079,Cubells,,,ES,ESP,2
+ES_CT_25081,Q988836,,ES,Spain,CT,Cataluña,25081,L'Espluga Calba,,,ES,ESP,2
+ES_CT_25082,Q12659,,ES,Spain,CT,Cataluña,25082,Espot,,,ES,ESP,2
+ES_CT_25085,Q1905552,,ES,Spain,CT,Cataluña,25085,Estaràs,,,ES,ESP,2
+ES_CT_25086,Q12662,,ES,Spain,CT,Cataluña,25086,Esterri d'Àneu,,,ES,ESP,2
+ES_CT_25087,Q12669,,ES,Spain,CT,Cataluña,25087,Esterri de Cardós,,,ES,ESP,2
+ES_CT_25088,Q1641450,,ES,Spain,CT,Cataluña,25088,Estamariu,,,ES,ESP,2
+ES_CT_25089,Q12676,,ES,Spain,CT,Cataluña,25089,Farrera,,,ES,ESP,2
+ES_CT_25092,Q2302200,,ES,Spain,CT,Cataluña,25092,La Floresta,,,ES,ESP,2
+ES_CT_25093,Q1900676,,ES,Spain,CT,Cataluña,25093,Fondarella,,,ES,ESP,2
+ES_CT_25094,Q98103528,,ES,Spain,CT,Cataluña,25094,Rubió del Mig,,,ES,ESP,2
+ES_CT_25096,Q1769687,,ES,Spain,CT,Cataluña,25096,La Fuliola,,,ES,ESP,2
+ES_CT_25097,Q1650308,,ES,Spain,CT,Cataluña,25097,Fulleda,,,ES,ESP,2
+ES_CT_25098,Q18260,,ES,Spain,CT,Cataluña,25098,Gavet de la Conca,,,ES,ESP,2
+ES_CT_25099,Q631603,,ES,Spain,CT,Cataluña,25099,Golmés,,,ES,ESP,2
+ES_CT_25100,Q15518,,ES,Spain,CT,Cataluña,25100,Gósol,,,ES,ESP,2
+ES_CT_25101,Q1902138,,ES,Spain,CT,Cataluña,25101,La Granadella,,,ES,ESP,2
+ES_CT_25102,Q585795,,ES,Spain,CT,Cataluña,25102,La Granja d'Escarp,,,ES,ESP,2
+ES_CT_25103,Q1905584,,ES,Spain,CT,Cataluña,25103,Granyanella,,,ES,ESP,2
+ES_CT_25104,Q1901194,,ES,Spain,CT,Cataluña,25104,Granyena de Segarra,,,ES,ESP,2
+ES_CT_25105,Q1769597,,ES,Spain,CT,Cataluña,25105,Granyena de les Garrigues,,,ES,ESP,2
+ES_CT_25109,Q1902128,,ES,Spain,CT,Cataluña,25109,Guimerà,,,ES,ESP,2
+ES_CT_25110,Q984645,,ES,Spain,CT,Cataluña,25110,Guissona,,,ES,ESP,2
+ES_CT_25111,Q1905661,,ES,Spain,CT,Cataluña,25111,Guixers,,,ES,ESP,2
+ES_CT_25112,Q1646756,,ES,Spain,CT,Cataluña,25112,Ivars de Noguera,,,ES,ESP,2
+ES_CT_25113,Q18004938,,ES,Spain,CT,Cataluña,25113,Montalé,,,ES,ESP,2
+ES_CT_25114,Q943793,,ES,Spain,CT,Cataluña,25114,Ivorra,,,ES,ESP,2
+ES_CT_25115,Q18261,,ES,Spain,CT,Cataluña,25115,Isona i Conca Dellà,,,ES,ESP,2
+ES_CT_25118,Q1902165,,ES,Spain,CT,Cataluña,25118,Juncosa,,,ES,ESP,2
+ES_CT_25119,Q1769576,,ES,Spain,CT,Cataluña,25119,Juneda,,,ES,ESP,2
+ES_CT_25120,Q11931716,,ES,Spain,CT,Cataluña,25120,Les Torres de Sanui,,,ES,ESP,2
+ES_CT_25121,Q12633,,ES,Spain,CT,Cataluña,25121,Les,,,ES,ESP,2
+ES_CT_25122,Q605232,,ES,Spain,CT,Cataluña,25122,Linyola,,,ES,ESP,2
+ES_CT_25123,Q12668,,ES,Spain,CT,Cataluña,25123,Lladorre,,,ES,ESP,2
+ES_CT_25124,Q1900792,,ES,Spain,CT,Cataluña,25124,Lladurs,,,ES,ESP,2
+ES_CT_25125,Q1769607,,ES,Spain,CT,Cataluña,25125,Llardecans,,,ES,ESP,2
+ES_CT_25126,Q8203983,,ES,Spain,CT,Cataluña,25126,Arestui,,,ES,ESP,2
+ES_CT_25127,Q9361376,,ES,Spain,CT,Cataluña,25127,Travesseres,,,ES,ESP,2
+ES_CT_25128,Q18264,,ES,Spain,CT,Cataluña,25128,Llimiana,,,ES,ESP,2
+ES_CT_25129,Q1901423,,ES,Spain,CT,Cataluña,25129,Llobera,,,ES,ESP,2
+ES_CT_25130,Q1900728,,ES,Spain,CT,Cataluña,25130,Maldà,,,ES,ESP,2
+ES_CT_25131,Q1900753,,ES,Spain,CT,Cataluña,25131,Massalcoreig,,,ES,ESP,2
+ES_CT_25132,Q508950,,ES,Spain,CT,Cataluña,25132,Massoteres,,,ES,ESP,2
+ES_CT_25133,Q1637381,,ES,Spain,CT,Cataluña,25133,Maials,,,ES,ESP,2
+ES_CT_25134,Q1769588,,ES,Spain,CT,Cataluña,25134,Menàrguens,,,ES,ESP,2
+ES_CT_25135,Q1769676,,ES,Spain,CT,Cataluña,25135,Miralcamp,,,ES,ESP,2
+ES_CT_25136,Q1901411,,ES,Spain,CT,Cataluña,25136,La Molsosa,,,ES,ESP,2
+ES_CT_25137,Q676132,,ES,Spain,CT,Cataluña,25137,Mollerussa,,,ES,ESP,2
+ES_CT_25138,Q11910220,,ES,Spain,CT,Cataluña,25138,Butsènit d'Urgell,,,ES,ESP,2
+ES_CT_25139,Q13756,,ES,Spain,CT,Cataluña,25139,Montellà i Martinet,,,ES,ESP,2
+ES_CT_25140,Q1752320,,ES,Spain,CT,Cataluña,25140,Montferrer i Castellbò,,,ES,ESP,2
+ES_CT_25141,Q1902115,,ES,Spain,CT,Cataluña,25141,Montoliu de Segarra,,,ES,ESP,2
+ES_CT_25142,Q1901381,,ES,Spain,CT,Cataluña,25142,Montoliu de Lleida,,,ES,ESP,2
+ES_CT_25143,Q1905672,,ES,Spain,CT,Cataluña,25143,Montornès de Segarra,,,ES,ESP,2
+ES_CT_25145,Q378716,,ES,Spain,CT,Cataluña,25145,Nalec,,,ES,ESP,2
+ES_CT_25146,Q1917511,,ES,Spain,CT,Cataluña,25146,Navès,,,ES,ESP,2
+ES_CT_25148,Q1900740,,ES,Spain,CT,Cataluña,25148,Odèn,,,ES,ESP,2
+ES_CT_25149,Q1644356,,ES,Spain,CT,Cataluña,25149,Oliana,,,ES,ESP,2
+ES_CT_25150,Q1769572,,ES,Spain,CT,Cataluña,25150,Oliola,,,ES,ESP,2
+ES_CT_25151,Q1901448,,ES,Spain,CT,Cataluña,25151,Olius,,,ES,ESP,2
+ES_CT_25152,Q1917585,,ES,Spain,CT,Cataluña,25152,Les Oluges,,,ES,ESP,2
+ES_CT_25153,Q1900647,,ES,Spain,CT,Cataluña,25153,Els Omellons,,,ES,ESP,2
+ES_CT_25154,Q1900768,,ES,Spain,CT,Cataluña,25154,Els Omells de na Gaia,,,ES,ESP,2
+ES_CT_25155,Q983476,,ES,Spain,CT,Cataluña,25155,Organyà,,,ES,ESP,2
+ES_CT_25156,Q1646906,,ES,Spain,CT,Cataluña,25156,Os de Balaguer,,,ES,ESP,2
+ES_CT_25157,Q1905594,,ES,Spain,CT,Cataluña,25157,Ossó de Sió,,,ES,ESP,2
+ES_CT_25158,Q1769556,,ES,Spain,CT,Cataluña,25158,El Palau d'Anglesola,,,ES,ESP,2
+ES_CT_25161,Q18259,,ES,Spain,CT,Cataluña,25161,Conca de Dalt,,,ES,ESP,2
+ES_CT_25163,Q1901364,,ES,Spain,CT,Cataluña,25163,La Coma i la Pedra,,,ES,ESP,2
+ES_CT_25164,Q67148783,,ES,Spain,CT,Cataluña,25164,Torre Neral,,,ES,ESP,2
+ES_CT_25165,Q1637517,,ES,Spain,CT,Cataluña,25165,Peramola,,,ES,ESP,2
+ES_CT_25166,Q1767532,,ES,Spain,CT,Cataluña,25166,Pinell de Solsonès,,,ES,ESP,2
+ES_CT_25167,Q1905542,,ES,Spain,CT,Cataluña,25167,Pinós,,,ES,ESP,2
+ES_CT_25168,Q1905512,,ES,Spain,CT,Cataluña,25168,El Poal,,,ES,ESP,2
+ES_CT_25169,Q286122,,ES,Spain,CT,Cataluña,25169,La Pobla de Cérvoles,,,ES,ESP,2
+ES_CT_25170,Q1769697,,ES,Spain,CT,Cataluña,25170,Bellaguarda,,,ES,ESP,2
+ES_CT_25171,Q17172,,ES,Spain,CT,Cataluña,25171,La Pobla de Segur,,,ES,ESP,2
+ES_CT_25172,Q742473,,ES,Spain,CT,Cataluña,25172,Ponts,,,ES,ESP,2
+ES_CT_25173,Q12708,,ES,Spain,CT,Cataluña,25173,El Pont de Suert,,,ES,ESP,2
+ES_CT_25174,Q1902101,,ES,Spain,CT,Cataluña,25174,La Portella,,,ES,ESP,2
+ES_CT_25175,Q13757,,ES,Spain,CT,Cataluña,25175,Prats i Sansor,,,ES,ESP,2
+ES_CT_25176,Q1902046,,ES,Spain,CT,Cataluña,25176,Preixana,,,ES,ESP,2
+ES_CT_25177,Q1766616,,ES,Spain,CT,Cataluña,25177,Preixens,,,ES,ESP,2
+ES_CT_25179,Q13758,,ES,Spain,CT,Cataluña,25179,Prullans,,,ES,ESP,2
+ES_CT_25180,Q1901435,,ES,Spain,CT,Cataluña,25180,Puiggròs,,,ES,ESP,2
+ES_CT_25181,Q1916297,,ES,Spain,CT,Cataluña,25181,Puigverd d'Agramunt,,,ES,ESP,2
+ES_CT_25182,Q1646560,,ES,Spain,CT,Cataluña,25182,Puigverd de Lleida,,,ES,ESP,2
+ES_CT_25183,Q12686,,ES,Spain,CT,Cataluña,25183,Rialb,,,ES,ESP,2
+ES_CT_25185,Q1646576,,ES,Spain,CT,Cataluña,25185,Ribera d'Urgellet,,,ES,ESP,2
+ES_CT_25186,Q1902074,,ES,Spain,CT,Cataluña,25186,Riner,,,ES,ESP,2
+ES_CT_25189,Q1767001,,ES,Spain,CT,Cataluña,25189,Rosselló,,,ES,ESP,2
+ES_CT_25190,Q18266,,ES,Spain,CT,Cataluña,25190,Salàs de Pallars,,,ES,ESP,2
+ES_CT_25191,Q1900701,,ES,Spain,CT,Cataluña,25191,Sanaüja,,,ES,ESP,2
+ES_CT_25192,Q17182080,,ES,Spain,CT,Cataluña,25192,Freixenet de Segarra,,,ES,ESP,2
+ES_CT_25193,Q1766663,,ES,Spain,CT,Cataluña,25193,Sant Llorenç de Morunys,,,ES,ESP,2
+ES_CT_25194,Q1917568,,ES,Spain,CT,Cataluña,25194,Sant Ramon,,,ES,ESP,2
+ES_CT_25196,Q11905134,,ES,Spain,CT,Cataluña,25196,Alsamora,,,ES,ESP,2
+ES_CT_25197,Q967526,,ES,Spain,CT,Cataluña,25197,Sant Guim de la Plana,,,ES,ESP,2
+ES_CT_25200,Q1901336,,ES,Spain,CT,Cataluña,25200,Sarroca de Lleida,,,ES,ESP,2
+ES_CT_25201,Q18268,,ES,Spain,CT,Cataluña,25201,Sarroca de Bellera,,,ES,ESP,2
+ES_CT_25202,Q18269,,ES,Spain,CT,Cataluña,25202,Senterada,,,ES,ESP,2
+ES_CT_25203,Q673412,,ES,Spain,CT,Cataluña,25203,La Seu d'Urgell,,,ES,ESP,2
+ES_CT_25204,Q599367,,ES,Spain,CT,Cataluña,25204,La Granja d’Escarp,,,ES,ESP,2
+ES_CT_25205,Q1916315,,ES,Spain,CT,Cataluña,25205,Sidamon,,,ES,ESP,2
+ES_CT_25206,Q783127,,ES,Spain,CT,Cataluña,25206,El Soleràs,,,ES,ESP,2
+ES_CT_25207,Q507621,,ES,Spain,CT,Cataluña,25207,Solsona,,,ES,ESP,2
+ES_CT_25208,Q12687,,ES,Spain,CT,Cataluña,25208,Soriguera,,,ES,ESP,2
+ES_CT_25209,Q12690,,ES,Spain,CT,Cataluña,25209,Sort,,,ES,ESP,2
+ES_CT_25210,Q1766622,,ES,Spain,CT,Cataluña,25210,Soses,,,ES,ESP,2
+ES_CT_25211,Q1766645,,ES,Spain,CT,Cataluña,25211,Sudanell,,,ES,ESP,2
+ES_CT_25212,Q1917529,,ES,Spain,CT,Cataluña,25212,Sunyer,,,ES,ESP,2
+ES_CT_25215,Q23992090,,ES,Spain,CT,Cataluña,25215,Talarn,,,ES,ESP,2
+ES_CT_25216,Q1020541,,ES,Spain,CT,Cataluña,25216,Talavera,,,ES,ESP,2
+ES_CT_25217,Q11918595,,ES,Spain,CT,Cataluña,25217,El Talladell,,,ES,ESP,2
+ES_CT_25218,Q1770799,,ES,Spain,CT,Cataluña,25218,Tarrés,,,ES,ESP,2
+ES_CT_25219,Q1901397,,ES,Spain,CT,Cataluña,25219,Tarroja de Segarra,,,ES,ESP,2
+ES_CT_25220,Q1766633,,ES,Spain,CT,Cataluña,25220,Térmens,,,ES,ESP,2
+ES_CT_25221,Q12678,,ES,Spain,CT,Cataluña,25221,Tírvia,,,ES,ESP,2
+ES_CT_25222,Q1766639,,ES,Spain,CT,Cataluña,25222,Tiurana,,,ES,ESP,2
+ES_CT_25223,Q1766628,,ES,Spain,CT,Cataluña,25223,Torà,,,ES,ESP,2
+ES_CT_25224,Q1769629,,ES,Spain,CT,Cataluña,25224,Els Torms,,,ES,ESP,2
+ES_CT_25225,Q3575498,,ES,Spain,CT,Cataluña,25225,El Tarròs,,,ES,ESP,2
+ES_CT_25226,Q1766657,,ES,Spain,CT,Cataluña,25226,Torrebesses,,,ES,ESP,2
+ES_CT_25227,Q18271,,ES,Spain,CT,Cataluña,25227,La Torre de Cabdella,,,ES,ESP,2
+ES_CT_25228,Q987375,,ES,Spain,CT,Cataluña,25228,Torrefarrera,,,ES,ESP,2
+ES_CT_25230,Q1765412,,ES,Spain,CT,Cataluña,25230,Torregrossa,,,ES,ESP,2
+ES_CT_25231,Q1765384,,ES,Spain,CT,Cataluña,25231,Torrelameu,,,ES,ESP,2
+ES_CT_25232,Q599382,,ES,Spain,CT,Cataluña,25232,Torres de Segre,,,ES,ESP,2
+ES_CT_25233,Q577261,,ES,Spain,CT,Cataluña,25233,Torre-serona,,,ES,ESP,2
+ES_CT_25234,Q8775129,,ES,Spain,CT,Cataluña,25234,Els Masos de Tamúrcia,,,ES,ESP,2
+ES_CT_25238,Q9070076,,ES,Spain,CT,Cataluña,25238,Rocallaura,,,ES,ESP,2
+ES_CT_25239,Q942294,,ES,Spain,CT,Cataluña,25239,Les Valls de Valira,,,ES,ESP,2
+ES_CT_25240,Q11930138,,ES,Spain,CT,Cataluña,25240,L'Hostal Nou i la Codosa,,,ES,ESP,2
+ES_CT_25242,Q1766980,,ES,Spain,CT,Cataluña,25242,Verdú,,,ES,ESP,2
+ES_CT_25243,Q12647,,ES,Spain,CT,Cataluña,25243,Vielha e Mijaran,,,ES,ESP,2
+ES_CT_25244,Q1902157,,ES,Spain,CT,Cataluña,25244,Vilagrassa,,,ES,ESP,2
+ES_CT_25245,Q12715,,ES,Spain,CT,Cataluña,25245,Vilaller,,,ES,ESP,2
+ES_CT_25247,Q12650,,ES,Spain,CT,Cataluña,25247,Vilamòs,,,ES,ESP,2
+ES_CT_25248,Q1903534,,ES,Spain,CT,Cataluña,25248,Vilanova de Bellpuig,,,ES,ESP,2
+ES_CT_25249,Q1903557,,ES,Spain,CT,Cataluña,25249,Vilanova de l'Aguda,,,ES,ESP,2
+ES_CT_25250,Q1766727,,ES,Spain,CT,Cataluña,25250,Vilanova de Meià,,,ES,ESP,2
+ES_CT_25251,Q614685,,ES,Spain,CT,Cataluña,25251,Vilanova de Segrià,,,ES,ESP,2
+ES_CT_25252,Q12145,,ES,Spain,CT,Cataluña,25252,Vila-sana,,,ES,ESP,2
+ES_CT_25253,Q1769601,,ES,Spain,CT,Cataluña,25253,El Vilosell,,,ES,ESP,2
+ES_CT_25254,Q1646584,,ES,Spain,CT,Cataluña,25254,Vilanova de la Barca,,,ES,ESP,2
+ES_CT_25255,Q1767414,,ES,Spain,CT,Cataluña,25255,Vinaixa,,,ES,ESP,2
+ES_CT_25901,Q12666,,ES,Spain,CT,Cataluña,25901,Vall de Cardós,,,ES,ESP,2
+ES_CT_25902,Q1905529,,ES,Spain,CT,Cataluña,25902,Sant Martí de Riucorb,,,ES,ESP,2
+ES_CT_25903,Q12664,,ES,Spain,CT,Cataluña,25903,La Guingueta d'Àneu,,,ES,ESP,2
+ES_CT_25904,Q18258,,ES,Spain,CT,Cataluña,25904,Castell de Mur,,,ES,ESP,2
+ES_CT_25905,Q1916289,,ES,Spain,CT,Cataluña,25905,Ribera d'Ondara,,,ES,ESP,2
+ES_CT_25906,Q1769546,,ES,Spain,CT,Cataluña,25906,Les Valls d'Aguilar,,,ES,ESP,2
+ES_CT_25907,Q17184282,,ES,Spain,CT,Cataluña,25907,Selvanera,,,ES,ESP,2
+ES_CT_25908,Q984431,,ES,Spain,CT,Cataluña,25908,Fígols i Alinyà,,,ES,ESP,2
+ES_CT_25909,Q576923,,ES,Spain,CT,Cataluña,25909,La Vansa i Fórnols,,,ES,ESP,2
+ES_CT_25910,Q984429,,ES,Spain,CT,Cataluña,25910,Josa i Tuixén,,,ES,ESP,2
+ES_CT_25911,Q1900803,,ES,Spain,CT,Cataluña,25911,Els Plans de Sió,,,ES,ESP,2
+ES_CT_25912,Q522934,,ES,Spain,CT,Cataluña,25912,Gimenells i el Pla de la Font,,,ES,ESP,2
+ES_CT_25913,Q13764,,ES,Spain,CT,Cataluña,25913,Riu de Cerdanya,,,ES,ESP,2
+ES_CT_43001,Q775757,,ES,Spain,CT,Cataluña,43001,Aiguamúrcia,,,ES,ESP,2
+ES_CT_43002,Q1229289,,ES,Spain,CT,Cataluña,43002,Albinyana,,,ES,ESP,2
+ES_CT_43003,Q1229669,,ES,Spain,CT,Cataluña,43003,L'Albiol,,,ES,ESP,2
+ES_CT_43004,Q987434,,ES,Spain,CT,Cataluña,43004,Alcanar,,,ES,ESP,2
+ES_CT_43005,Q427790,,ES,Spain,CT,Cataluña,43005,Alcover,,,ES,ESP,2
+ES_CT_43006,Q978852,,ES,Spain,CT,Cataluña,43006,Aldover,,,ES,ESP,2
+ES_CT_43007,Q1233410,,ES,Spain,CT,Cataluña,43007,L'Aleixar,,,ES,ESP,2
+ES_CT_43008,Q1228602,,ES,Spain,CT,Cataluña,43008,Alfara de Carles,,,ES,ESP,2
+ES_CT_43009,Q771036,,ES,Spain,CT,Cataluña,43009,Alforja,,,ES,ESP,2
+ES_CT_43010,Q983582,,ES,Spain,CT,Cataluña,43010,Alió,,,ES,ESP,2
+ES_CT_43011,Q542633,,ES,Spain,CT,Cataluña,43011,Almoster,,,ES,ESP,2
+ES_CT_43012,Q433746,,ES,Spain,CT,Cataluña,43012,Altafulla,,,ES,ESP,2
+ES_CT_43013,Q54780,,ES,Spain,CT,Cataluña,43013,L'Ametlla de Mar,,,ES,ESP,2
+ES_CT_43014,Q477311,,ES,Spain,CT,Cataluña,43014,Amposta,,,ES,ESP,2
+ES_CT_43015,Q1232065,,ES,Spain,CT,Cataluña,43015,Arbolí,,,ES,ESP,2
+ES_CT_43016,Q1233527,,ES,Spain,CT,Cataluña,43016,L'Arboç,,,ES,ESP,2
+ES_CT_43017,Q1231311,,ES,Spain,CT,Cataluña,43017,L'Argentera,,,ES,ESP,2
+ES_CT_43018,Q693287,,ES,Spain,CT,Cataluña,43018,"Arnes, Terra Alta",,,ES,ESP,2
+ES_CT_43019,Q723440,,ES,Spain,CT,Cataluña,43019,Ascó,,,ES,ESP,2
+ES_CT_43020,Q1228578,,ES,Spain,CT,Cataluña,43020,Banyeres del Penedès,,,ES,ESP,2
+ES_CT_43021,Q730021,,ES,Spain,CT,Cataluña,43021,Barberà de la Conca,,,ES,ESP,2
+ES_CT_43022,Q810755,,ES,Spain,CT,Cataluña,43022,Batea,,,ES,ESP,2
+ES_CT_43023,Q1233531,,ES,Spain,CT,Cataluña,43023,Bellmunt del Priorat,,,ES,ESP,2
+ES_CT_43024,Q1230086,,ES,Spain,CT,Cataluña,43024,Bellvei,,,ES,ESP,2
+ES_CT_43025,Q1228593,,ES,Spain,CT,Cataluña,43025,Benifallet,,,ES,ESP,2
+ES_CT_43026,Q607737,,ES,Spain,CT,Cataluña,43026,Benissanet,,,ES,ESP,2
+ES_CT_43027,Q651003,,ES,Spain,CT,Cataluña,43027,La Bisbal de Falset,,,ES,ESP,2
+ES_CT_43028,Q1229658,,ES,Spain,CT,Cataluña,43028,La Bisbal del Penedès,,,ES,ESP,2
+ES_CT_43029,Q654198,,ES,Spain,CT,Cataluña,43029,Blancafort,,,ES,ESP,2
+ES_CT_43030,Q1229263,,ES,Spain,CT,Cataluña,43030,Bonastre,,,ES,ESP,2
+ES_CT_43031,Q1230160,,ES,Spain,CT,Cataluña,43031,Les Borges del Camp,,,ES,ESP,2
+ES_CT_43032,Q589488,,ES,Spain,CT,Cataluña,43032,Bot,,,ES,ESP,2
+ES_CT_43033,Q1248482,,ES,Spain,CT,Cataluña,43033,Botarell,,,ES,ESP,2
+ES_CT_43034,Q680718,,ES,Spain,CT,Cataluña,43034,Bràfim,,,ES,ESP,2
+ES_CT_43035,Q1248525,,ES,Spain,CT,Cataluña,43035,Cabacés,,,ES,ESP,2
+ES_CT_43036,Q550221,,ES,Spain,CT,Cataluña,43036,Cabra del Camp,,,ES,ESP,2
+ES_CT_43037,Q983637,,ES,Spain,CT,Cataluña,43037,Calafell,,,ES,ESP,2
+ES_CT_43038,Q828572,,ES,Spain,CT,Cataluña,43038,Cambrils,,,ES,ESP,2
+ES_CT_43039,Q645266,,ES,Spain,CT,Cataluña,43039,Capafonts,,,ES,ESP,2
+ES_CT_43040,Q509226,,ES,Spain,CT,Cataluña,43040,Capçanes,,,ES,ESP,2
+ES_CT_43041,Q771963,,ES,Spain,CT,Cataluña,43041,Caseres,,,ES,ESP,2
+ES_CT_43042,Q1230080,,ES,Spain,CT,Cataluña,43042,Castellvell del Camp,,,ES,ESP,2
+ES_CT_43043,Q594741,,ES,Spain,CT,Cataluña,43043,El Catllar,,,ES,ESP,2
+ES_CT_43044,Q704847,,ES,Spain,CT,Cataluña,43044,La Sénia,,,ES,ESP,2
+ES_CT_43045,Q685134,,ES,Spain,CT,Cataluña,43045,Colldejou,,,ES,ESP,2
+ES_CT_43046,Q1248512,,ES,Spain,CT,Cataluña,43046,Conesa,,,ES,ESP,2
+ES_CT_43047,Q550210,,ES,Spain,CT,Cataluña,43047,Constantí,,,ES,ESP,2
+ES_CT_43048,Q985604,,ES,Spain,CT,Cataluña,43048,Corbera d'Ebre,,,ES,ESP,2
+ES_CT_43049,Q995601,,ES,Spain,CT,Cataluña,43049,Cornudella de Montsant,,,ES,ESP,2
+ES_CT_43050,Q1020556,,ES,Spain,CT,Cataluña,43050,Creixell,,,ES,ESP,2
+ES_CT_43051,Q474489,,ES,Spain,CT,Cataluña,43051,Cunit,,,ES,ESP,2
+ES_CT_43052,Q746392,,ES,Spain,CT,Cataluña,43052,Xerta,,,ES,ESP,2
+ES_CT_43053,Q537265,,ES,Spain,CT,Cataluña,43053,Duesaigües,,,ES,ESP,2
+ES_CT_43054,Q1229283,,ES,Spain,CT,Cataluña,43054,l'Espluga de Francolí,,,ES,ESP,2
+ES_CT_43055,Q537604,,ES,Spain,CT,Cataluña,43055,Falset,,,ES,ESP,2
+ES_CT_43056,Q985590,,ES,Spain,CT,Cataluña,43056,La Fatarella,,,ES,ESP,2
+ES_CT_43057,Q374761,,ES,Spain,CT,Cataluña,43057,La Febró,,,ES,ESP,2
+ES_CT_43058,Q985602,,ES,Spain,CT,Cataluña,43058,La Figuera,,,ES,ESP,2
+ES_CT_43059,Q367969,,ES,Spain,CT,Cataluña,43059,Figuerola del Camp,,,ES,ESP,2
+ES_CT_43060,Q17618288,,ES,Spain,CT,Cataluña,43060,Los Comellarets,,,ES,ESP,2
+ES_CT_43061,Q1230137,,ES,Spain,CT,Cataluña,43061,Forès,,,ES,ESP,2
+ES_CT_43062,Q1247246,,ES,Spain,CT,Cataluña,43062,Freginals,,,ES,ESP,2
+ES_CT_43063,Q531755,,ES,Spain,CT,Cataluña,43063,La Galera,,,ES,ESP,2
+ES_CT_43064,Q773369,,ES,Spain,CT,Cataluña,43064,Gandesa,,,ES,ESP,2
+ES_CT_43065,Q1247153,,ES,Spain,CT,Cataluña,43065,Garcia,,,ES,ESP,2
+ES_CT_43066,Q1228586,,ES,Spain,CT,Cataluña,43066,Els Garidells,,,ES,ESP,2
+ES_CT_43067,Q683434,,ES,Spain,CT,Cataluña,43067,Ginestar,,,ES,ESP,2
+ES_CT_43068,Q1247218,,ES,Spain,CT,Cataluña,43068,Godall,,,ES,ESP,2
+ES_CT_43069,Q1233563,,ES,Spain,CT,Cataluña,43069,Gratallops,,,ES,ESP,2
+ES_CT_43070,Q1230107,,ES,Spain,CT,Cataluña,43070,Els Guiamets,,,ES,ESP,2
+ES_CT_43071,Q603155,,ES,Spain,CT,Cataluña,43071,Horta de Sant Joan,,,ES,ESP,2
+ES_CT_43072,Q1233519,,ES,Spain,CT,Cataluña,43072,El Lloar,,,ES,ESP,2
+ES_CT_43073,Q770259,,ES,Spain,CT,Cataluña,43073,Llorac,,,ES,ESP,2
+ES_CT_43074,Q653309,,ES,Spain,CT,Cataluña,43074,Llorenç del Penedès,,,ES,ESP,2
+ES_CT_43075,Q1020512,,ES,Spain,CT,Cataluña,43075,Margalef,,,ES,ESP,2
+ES_CT_43076,Q775782,,ES,Spain,CT,Cataluña,43076,Marçà,,,ES,ESP,2
+ES_CT_43077,Q659333,,ES,Spain,CT,Cataluña,43077,Mas de Barberans,,,ES,ESP,2
+ES_CT_43078,Q766912,,ES,Spain,CT,Cataluña,43078,Masdenverge,,,ES,ESP,2
+ES_CT_43079,Q1230125,,ES,Spain,CT,Cataluña,43079,Masllorenç,,,ES,ESP,2
+ES_CT_43080,Q532965,,ES,Spain,CT,Cataluña,43080,La Masó,,,ES,ESP,2
+ES_CT_43081,Q534007,,ES,Spain,CT,Cataluña,43081,Maspujols,,,ES,ESP,2
+ES_CT_43082,Q667949,,ES,Spain,CT,Cataluña,43082,El Masroig,,,ES,ESP,2
+ES_CT_43083,Q541131,,ES,Spain,CT,Cataluña,43083,El Milà,,,ES,ESP,2
+ES_CT_43084,Q962371,,ES,Spain,CT,Cataluña,43084,Miravet,,,ES,ESP,2
+ES_CT_43085,Q1248591,,ES,Spain,CT,Cataluña,43085,El Molar,,,ES,ESP,2
+ES_CT_43086,Q761735,,ES,Spain,CT,Cataluña,43086,Montblanc,,,ES,ESP,2
+ES_CT_43088,Q1242365,,ES,Spain,CT,Cataluña,43088,Montbrió del Camp,,,ES,ESP,2
+ES_CT_43089,Q983580,,ES,Spain,CT,Cataluña,43089,Montferri,,,ES,ESP,2
+ES_CT_43090,Q389164,,ES,Spain,CT,Cataluña,43090,El Montmell,,,ES,ESP,2
+ES_CT_43091,Q745771,,ES,Spain,CT,Cataluña,43091,Mont-ral,,,ES,ESP,2
+ES_CT_43092,Q929794,,ES,Spain,CT,Cataluña,43092,Mont-roig del Camp,,,ES,ESP,2
+ES_CT_43093,Q926784,,ES,Spain,CT,Cataluña,43093,Móra d'Ebre,,,ES,ESP,2
+ES_CT_43094,Q1233555,,ES,Spain,CT,Cataluña,43094,Móra la Nova,,,ES,ESP,2
+ES_CT_43095,Q545317,,ES,Spain,CT,Cataluña,43095,El Morell,,,ES,ESP,2
+ES_CT_43096,Q936670,,ES,Spain,CT,Cataluña,43096,La Morera de Montsant,,,ES,ESP,2
+ES_CT_43097,Q1248501,,ES,Spain,CT,Cataluña,43097,La Nou de Gaià,,,ES,ESP,2
+ES_CT_43098,Q178822,,ES,Spain,CT,Cataluña,43098,Nulles,,,ES,ESP,2
+ES_CT_43099,Q1233435,,ES,Spain,CT,Cataluña,43099,La Palma d'Ebre,,,ES,ESP,2
+ES_CT_43100,Q596705,,ES,Spain,CT,Cataluña,43100,Els Pallaresos,,,ES,ESP,2
+ES_CT_43101,Q1248489,,ES,Spain,CT,Cataluña,43101,Passanant i Belltall,,,ES,ESP,2
+ES_CT_43102,Q746275,,ES,Spain,CT,Cataluña,43102,Paüls,,,ES,ESP,2
+ES_CT_43103,Q531967,,ES,Spain,CT,Cataluña,43103,Perafort,,,ES,ESP,2
+ES_CT_43104,Q1229949,,ES,Spain,CT,Cataluña,43104,El Perelló,,,ES,ESP,2
+ES_CT_43105,Q1248557,,ES,Spain,CT,Cataluña,43105,Les Piles,,,ES,ESP,2
+ES_CT_43106,Q985597,,ES,Spain,CT,Cataluña,43106,El Pinell de Brai,,,ES,ESP,2
+ES_CT_43107,Q1248551,,ES,Spain,CT,Cataluña,43107,Pira,,,ES,ESP,2
+ES_CT_43108,Q267805,,ES,Spain,CT,Cataluña,43108,El Pla de Santa Maria,,,ES,ESP,2
+ES_CT_43109,Q1248541,,ES,Spain,CT,Cataluña,43109,La Pobla de Mafumet,,,ES,ESP,2
+ES_CT_43110,Q1233513,,ES,Spain,CT,Cataluña,43110,La Pobla de Massaluca,,,ES,ESP,2
+ES_CT_43111,Q638814,,ES,Spain,CT,Cataluña,43111,La Pobla de Montornès,,,ES,ESP,2
+ES_CT_43112,Q549598,,ES,Spain,CT,Cataluña,43112,Poboleda,,,ES,ESP,2
+ES_CT_43113,Q983585,,ES,Spain,CT,Cataluña,43113,El Pont d'Armentera,,,ES,ESP,2
+ES_CT_43114,Q1248500,,ES,Spain,CT,Cataluña,43114,Porrera,,,ES,ESP,2
+ES_CT_43115,Q1233450,,ES,Spain,CT,Cataluña,43115,Pradell de la Teixeta,,,ES,ESP,2
+ES_CT_43116,Q1233494,,ES,Spain,CT,Cataluña,43116,"Prades, Baix Camp",,,ES,ESP,2
+ES_CT_43117,Q1917483,,ES,Spain,CT,Cataluña,43117,Prat de Comte,,,ES,ESP,2
+ES_CT_43118,Q763959,,ES,Spain,CT,Cataluña,43118,Pratdip,,,ES,ESP,2
+ES_CT_43119,Q983559,,ES,Spain,CT,Cataluña,43119,Puigpelat,,,ES,ESP,2
+ES_CT_43120,Q927992,,ES,Spain,CT,Cataluña,43120,Querol,,,ES,ESP,2
+ES_CT_43121,Q1233548,,ES,Spain,CT,Cataluña,43121,Rasquera,,,ES,ESP,2
+ES_CT_43122,Q1233541,,ES,Spain,CT,Cataluña,43122,Renau,,,ES,ESP,2
+ES_CT_43123,Q487096,,ES,Spain,CT,Cataluña,43123,Reus,,,ES,ESP,2
+ES_CT_43124,Q280721,,ES,Spain,CT,Cataluña,43124,La Riba,,,ES,ESP,2
+ES_CT_43125,Q1229607,,ES,Spain,CT,Cataluña,43125,Riba-roja d'Ebre,,,ES,ESP,2
+ES_CT_43126,Q1917540,,ES,Spain,CT,Cataluña,43126,La Riera de Gaià,,,ES,ESP,2
+ES_CT_43127,Q913304,,ES,Spain,CT,Cataluña,43127,Riudecanyes,,,ES,ESP,2
+ES_CT_43128,Q742282,,ES,Spain,CT,Cataluña,43128,Riudecols,,,ES,ESP,2
+ES_CT_43129,Q679015,,ES,Spain,CT,Cataluña,43129,Riudoms,,,ES,ESP,2
+ES_CT_43130,Q730040,,ES,Spain,CT,Cataluña,43130,Rocafort de Queralt,,,ES,ESP,2
+ES_CT_43131,Q1229622,,ES,Spain,CT,Cataluña,43131,Roda de Berà,,,ES,ESP,2
+ES_CT_43132,Q668502,,ES,Spain,CT,Cataluña,43132,Rodonyà,,,ES,ESP,2
+ES_CT_43133,Q762516,,ES,Spain,CT,Cataluña,43133,Roquetes,,,ES,ESP,2
+ES_CT_43134,Q1229633,,ES,Spain,CT,Cataluña,43134,El Rourell,,,ES,ESP,2
+ES_CT_43135,Q779424,,ES,Spain,CT,Cataluña,43135,Salomó,,,ES,ESP,2
+ES_CT_43136,Q767011,,ES,Spain,CT,Cataluña,43136,Sant Carles de la Ràpita,,,ES,ESP,2
+ES_CT_43137,Q1228543,,ES,Spain,CT,Cataluña,43137,Sant Jaume dels Domenys,,,ES,ESP,2
+ES_CT_43138,Q1230148,,ES,Spain,CT,Cataluña,43138,Santa Bàrbara,,,ES,ESP,2
+ES_CT_43139,Q669570,,ES,Spain,CT,Cataluña,43139,Santa Coloma de Queralt,,,ES,ESP,2
+ES_CT_43140,Q1229647,,ES,Spain,CT,Cataluña,43140,Santa Oliva,,,ES,ESP,2
+ES_CT_43141,Q1248581,,ES,Spain,CT,Cataluña,43141,Pontils,,,ES,ESP,2
+ES_CT_43142,Q1995219,,ES,Spain,CT,Cataluña,43142,Sarral,,,ES,ESP,2
+ES_CT_43143,Q739975,,ES,Spain,CT,Cataluña,43143,Savallà del Comtat,,,ES,ESP,2
+ES_CT_43144,Q1230093,,ES,Spain,CT,Cataluña,43144,La Secuita,,,ES,ESP,2
+ES_CT_43145,Q1230100,,ES,Spain,CT,Cataluña,43145,La Selva del Camp,,,ES,ESP,2
+ES_CT_43146,Q33197,,ES,Spain,CT,Cataluña,43146,Senan,,,ES,ESP,2
+ES_CT_43147,Q1248497,,ES,Spain,CT,Cataluña,43147,Solivella,,,ES,ESP,2
+ES_CT_43148,Q15088,,ES,Spain,CT,Cataluña,43148,Tarragona,,,ES,ESP,2
+ES_CT_43149,Q645343,,ES,Spain,CT,Cataluña,43149,Tivenys,,,ES,ESP,2
+ES_CT_43150,Q1230055,,ES,Spain,CT,Cataluña,43150,Tivissa,,,ES,ESP,2
+ES_CT_43151,Q1917548,,ES,Spain,CT,Cataluña,43151,La Torre de Fontaubella,,,ES,ESP,2
+ES_CT_43152,Q1233485,,ES,Spain,CT,Cataluña,43152,La Torre de l'Espanyol,,,ES,ESP,2
+ES_CT_43153,Q995637,,ES,Spain,CT,Cataluña,43153,Torredembarra,,,ES,ESP,2
+ES_CT_43154,Q745357,,ES,Spain,CT,Cataluña,43154,Torroja del Priorat,,,ES,ESP,2
+ES_CT_43155,Q12812,,ES,Spain,CT,Cataluña,43155,Tortosa,,,ES,ESP,2
+ES_CT_43156,Q23991324,,ES,Spain,CT,Cataluña,43156,Ulldecona,,,ES,ESP,2
+ES_CT_43157,Q743286,,ES,Spain,CT,Cataluña,43157,Ulldemolins,,,ES,ESP,2
+ES_CT_43158,Q538759,,ES,Spain,CT,Cataluña,43158,Vallclara,,,ES,ESP,2
+ES_CT_43159,Q1917470,,ES,Spain,CT,Cataluña,43159,Vallfogona de Riucorb,,,ES,ESP,2
+ES_CT_43160,Q576658,,ES,Spain,CT,Cataluña,43160,Vallmoll,,,ES,ESP,2
+ES_CT_43161,Q825883,,ES,Spain,CT,Cataluña,43161,Valls,,,ES,ESP,2
+ES_CT_43162,Q983564,,ES,Spain,CT,Cataluña,43162,Vandellòs i l'Hospitalet de l'Infant,,,ES,ESP,2
+ES_CT_43163,Q929759,,ES,Spain,CT,Cataluña,43163,El Vendrell,,,ES,ESP,2
+ES_CT_43164,Q1233504,,ES,Spain,CT,Cataluña,43164,Vespella de Gaià,,,ES,ESP,2
+ES_CT_43165,Q646796,,ES,Spain,CT,Cataluña,43165,Vilabella,,,ES,ESP,2
+ES_CT_43166,Q1189985,,ES,Spain,CT,Cataluña,43166,Vilallonga del Camp,,,ES,ESP,2
+ES_CT_43167,Q1010284,,ES,Spain,CT,Cataluña,43167,Vilanova d'Escornalbou,,,ES,ESP,2
+ES_CT_43168,Q1233468,,ES,Spain,CT,Cataluña,43168,Vilanova de Prades,,,ES,ESP,2
+ES_CT_43169,Q985600,,ES,Spain,CT,Cataluña,43169,Vilaplana,,,ES,ESP,2
+ES_CT_43170,Q651853,,ES,Spain,CT,Cataluña,43170,Vila-rodona,,,ES,ESP,2
+ES_CT_43171,Q508754,,ES,Spain,CT,Cataluña,43171,Vila-seca,,,ES,ESP,2
+ES_CT_43172,Q931134,,ES,Spain,CT,Cataluña,43172,Vilaverd,,,ES,ESP,2
+ES_CT_43173,Q761878,,ES,Spain,CT,Cataluña,43173,La Vilella Alta,,,ES,ESP,2
+ES_CT_43174,Q1233422,,ES,Spain,CT,Cataluña,43174,La Vilella Baixa,,,ES,ESP,2
+ES_CT_43175,Q676746,,ES,Spain,CT,Cataluña,43175,Vilalba dels Arcs,,,ES,ESP,2
+ES_CT_43176,Q776730,,ES,Spain,CT,Cataluña,43176,Vimbodí i Poblet,,,ES,ESP,2
+ES_CT_43177,Q1248533,,ES,Spain,CT,Cataluña,43177,Vinebre,,,ES,ESP,2
+ES_CT_43178,Q1229681,,ES,Spain,CT,Cataluña,43178,Vinyols i els Arcs,,,ES,ESP,2
+ES_CT_43901,Q967830,,ES,Spain,CT,Cataluña,43901,Deltebre,,,ES,ESP,2
+ES_CT_43902,Q1010257,,ES,Spain,CT,Cataluña,43902,Sant Jaume d'Enveja,,,ES,ESP,2
+ES_CT_43903,Q1229298,,ES,Spain,CT,Cataluña,43903,Camarles,,,ES,ESP,2
+ES_CT_43904,Q983575,,ES,Spain,CT,Cataluña,43904,L'Aldea,,,ES,ESP,2
+ES_CT_43905,Q662789,,ES,Spain,CT,Cataluña,43905,Salou,,,ES,ESP,2
+ES_CT_43906,Q983572,,ES,Spain,CT,Cataluña,43906,L'Ampolla,,,ES,ESP,2
+ES_CT_43907,Q1245507,,ES,Spain,CT,Cataluña,43907,La Canonja,,,ES,ESP,2
 ES_EX,Q5777,nuts/ES43,ES,Spain,EX,Extremadura,,,,,ES,ESP,1
 ES_GA,Q3908,nuts/ES11,ES,Spain,GA,Galicia,,,,,ES,ESP,1
 ES_IB,Q5765,nuts/ES53,ES,Spain,IB,Islas Baleares,,,,,ES,ESP,1
