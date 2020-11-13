@@ -141,5 +141,5 @@ if __name__ == "__main__":
                 tmp_path = Path(tmp.name)
                 download(f"{URL_OUTPUTS_PROD}/{table_name}.{ext}", tmp)
                 # Check that the output is less than 100 MB before copying it to the output folder
-                if tmp_path.stat().st_size < 100 * 1000 * 1000:
+                if tmp_path.stat().st_size / (1024 * 1024) < 100:
                     shutil.copyfile(tmp_path, v2_folder / f"{table_name}.{ext}")
